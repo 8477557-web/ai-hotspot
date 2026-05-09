@@ -18,5 +18,5 @@ config.local.json
 .DS_Store
 Thumbs.db
 
-# 数据目录（通过Workflow生成）
-# data/ 目录结构保留但内容不入库
+# 原始数据目录（通过Workflow生成，不入库）
+/data/

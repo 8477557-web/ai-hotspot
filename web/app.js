@@ -30,12 +30,46 @@ async function loadData() {
       fetch(DATA_PATHS.selected).then(r => r.json()),
       fetch(DATA_PATHS.daily).then(r => r.json()),
     ]);
-    state.selectedNews = selected.items || [];
-    state.dailyReport = daily;
+    state.selectedNews = sanitizeItems(selected.items || []);
+    state.dailyReport = sanitizeReport(daily);
   } catch (e) {
     console.warn('数据加载失败，使用示例数据:', e.message);
     useSampleData();
   }
+}
+
+// 全局XSS防护：对所有来自外部/AI的字段做HTML转义
+function sanitizeItems(items) {
+  return items.map(item => ({
+    ...item,
+    title: escapeHTML(item.title),
+    summary: escapeHTML(item.summary),
+    link: item.link ? item.link.replace(/javascript:/gi, '') : '', // 防JS伪协议
+    source_name: escapeHTML(item.source_name),
+    topics: (item.topics || []).map(t => ({
+      ...t,
+      title: escapeHTML(t.title),
+      angle: escapeHTML(t.angle),
+      difficulty: escapeHTML(t.difficulty),
+    })),
+  }));
+}
+
+function sanitizeReport(report) {
+  if (!report) return report;
+  return {
+    ...report,
+    title: escapeHTML(report.title),
+    summary: escapeHTML(report.summary),
+    sections: (report.sections || []).map(sec => ({
+      ...sec,
+      name: escapeHTML(sec.name),
+      items: (sec.items || []).map(it => ({
+        title: escapeHTML(it.title),
+        summary: escapeHTML(it.summary),
+      })),
+    })),
+  };
 }
 
 function useSampleData() {
@@ -175,7 +209,7 @@ function renderFeed() {
     <article class="news-card">
       <div class="card-header">
         <div class="card-title">
-          <a href="${item.link || '#'}" target="_blank" rel="noopener">${item.title || '(无标题)'}</a>
+          <a href="${escapeHTML(item.link || '#')}" target="_blank" rel="noopener">${escapeHTML(item.title || '(无标题)')}</a>
         </div>
         <span class="score-badge ${item.quality_score >= 7 ? 'high' : ''}">
           ${item.quality_score != null ? item.quality_score.toFixed(1) + '分' : 'N/A'}
@@ -311,9 +345,18 @@ function formatDate(isoStr) {
 }
 
 function stripHTML(html) {
+  if (!html) return '';
   const tmp = document.createElement('div');
   tmp.innerHTML = html;
   return tmp.textContent || tmp.innerText || '';
+}
+
+// HTML实体转义——防止XSS（对所有来自AI/外部的内容使用）
+function escapeHTML(str) {
+  if (!str) return '';
+  const div = document.createElement('div');
+  div.appendChild(document.createTextNode(str));
+  return div.innerHTML;
 }
 
 function topicEmoji(tag) {
