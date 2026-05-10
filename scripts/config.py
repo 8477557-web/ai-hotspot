@@ -30,11 +30,11 @@ SOURCES = [
     {
         "id": "openai-blog",
         "name": "OpenAI Blog",
-        "url": "https://rsshub.app/openai/blog",
+        "url": "https://openai.com/blog/rss.xml",
         "tier": "T1",
         "lang": "en",
         "category": "official",
-        "enabled": False,  # RSSHub 403, 待修复
+        "enabled": True,   # 官方RSS，已验证
     },
     {
         "id": "deepmind-blog",
@@ -43,25 +43,34 @@ SOURCES = [
         "tier": "T1",
         "lang": "en",
         "category": "official",
-        "enabled": False,  # SSL问题, 待修复
+        "enabled": True,   # 官方RSS，已验证
     },
     {
         "id": "anthropic-blog",
-        "name": "Anthropic News",
-        "url": "https://rsshub.app/anthropic/news",
+        "name": "Anthropic (Claude Blog)",
+        "url": "https://tim-hilde.github.io/anthropic-rss/rss.xml",
         "tier": "T1",
         "lang": "en",
         "category": "official",
-        "enabled": False,  # RSSHub 403, 待修复
+        "enabled": True,   # 第三方RSS(GitHub Pages)，已验证
     },
     {
-        "id": "meta-ai",
-        "name": "Meta AI Blog",
-        "url": "https://ai.meta.com/blog/rss/",
+        "id": "anthropic-engineering",
+        "name": "Anthropic Engineering",
+        "url": "https://raw.githubusercontent.com/conoro/anthropic-engineering-rss-feed/main/anthropic_engineering_rss.xml",
         "tier": "T1",
         "lang": "en",
         "category": "official",
-        "enabled": False,  # 400, 待修复
+        "enabled": True,   # 第三方RSS(GitHub Raw)，已验证
+    },
+    {
+        "id": "fb-engineering",
+        "name": "Facebook Engineering",
+        "url": "https://engineering.fb.com/feed/",
+        "tier": "T1.5",
+        "lang": "en",
+        "category": "official",
+        "enabled": True,   # 替代Meta AI Blog，含AI/ML内容
     },
     {
         "id": "microsoft-research",
@@ -106,7 +115,7 @@ SOURCES = [
         "tier": "T1",
         "lang": "en",
         "category": "official",
-        "enabled": True,   # 新增，官方RSS
+        "enabled": False,  # 网站改为纯JS渲染，RSS Feed已不存在
     },
 
     # ===== T2: 中文媒体 =====
@@ -129,22 +138,32 @@ SOURCES = [
         "enabled": True,   # ✓ 可用
     },
     {
-        "id": "jiqizhixin",
-        "name": "机器之心",
-        "url": "https://rsshub.app/jiqizhixin",
+        "id": "leiphone",
+        "name": "雷锋网",
+        "url": "https://www.leiphone.com/feed",
         "tier": "T2",
         "lang": "zh",
         "category": "media",
-        "enabled": False,  # RSSHub 403, 待用直爬替代
+        "enabled": True,   # 替代机器之心，需Googlebot UA
+        "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    },
+    {
+        "id": "infoq-cn",
+        "name": "InfoQ中国",
+        "url": "https://www.infoq.cn/feed",
+        "tier": "T2",
+        "lang": "zh",
+        "category": "media",
+        "enabled": True,   # 官方RSS，已验证
     },
     {
         "id": "qbitai",
         "name": "量子位",
-        "url": "https://rsshub.app/qbitai",
+        "url": "https://www.qbitai.com/feed",
         "tier": "T2",
         "lang": "zh",
         "category": "media",
-        "enabled": False,  # RSSHub 403, 待用直爬替代
+        "enabled": True,   # 官方RSS，已验证
     },
     {
         "id": "geekpark",
@@ -166,12 +185,58 @@ SOURCES = [
     },
     {
         "id": "ithome-ai",
-        "name": "IT之家 (AI)",
-        "url": "https://rsshub.app/ithome/tag/ai",
+        "name": "IT之家",
+        "url": "https://www.ithome.com/rss/",
         "tier": "T2",
         "lang": "zh",
         "category": "media",
-        "enabled": False,  # RSSHub受限, 待开启
+        "enabled": True,   # 官方RSS，已验证（全站，AI内容由DeepSeek筛选）
+    },
+
+    # ===== T2: 热搜/搜索平台 =====
+    {
+        "id": "baidu-hot",
+        "name": "百度热搜",
+        "url": "https://top.baidu.com/api/board?tab=realtime",
+        "type": "json_api",
+        "item_path": ["data", "cards", 0, "content"],
+        "field_map": {"title": "word", "summary": "desc"},
+        "link_template": "https://www.baidu.com/s?wd={word}",
+        "tier": "T2",
+        "lang": "zh",
+        "category": "hotlist",
+        "enabled": True,
+    },
+    {
+        "id": "bilibili-hot",
+        "name": "B站热搜",
+        "url": "https://api.bilibili.com/x/web-interface/search/square?limit=10",
+        "type": "json_api",
+        "item_path": ["data", "trending", "list"],
+        "field_map": {"title": "keyword"},
+        "link_template": "https://search.bilibili.com/all?keyword={keyword}",
+        "tier": "T2",
+        "lang": "zh",
+        "category": "hotlist",
+        "enabled": True,
+    },
+    {
+        "id": "google-news-ai",
+        "name": "Google News (AI)",
+        "url": "https://news.google.com/rss/search?q=AI+artificial+intelligence+LLM+GPT&hl=en-US&gl=US&ceid=US:en",
+        "tier": "T2",
+        "lang": "en",
+        "category": "search",
+        "enabled": True,
+    },
+    {
+        "id": "google-news-ai-zh",
+        "name": "Google News (AI 中文)",
+        "url": "https://news.google.com/rss/search?q=人工智能+AI+大模型&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "tier": "T2",
+        "lang": "zh",
+        "category": "search",
+        "enabled": True,
     },
 
     # ===== T2: 技术社区 =====
@@ -188,6 +253,35 @@ SOURCES = [
         "id": "reddit-ml",
         "name": "Reddit r/MachineLearning",
         "url": "https://www.reddit.com/r/MachineLearning/.rss",
+        "tier": "T2",
+        "lang": "en",
+        "category": "community",
+        "enabled": True,
+    },
+    {
+        "id": "github-trending",
+        "name": "GitHub Trending",
+        "url": "https://github.com/trending?since=daily",
+        "type": "html_scrape",
+        "item_selector": "article.Box-row",
+        "field_map": {
+            "title": "h2 a",
+            "link": "h2 a[href]",
+            "summary": "p",
+        },
+        "base_url": "https://github.com",
+        "tier": "T2",
+        "lang": "en",
+        "category": "community",
+        "enabled": True,
+    },
+    {
+        "id": "github-ai-repos",
+        "name": "GitHub AI 新项目",
+        "url": "https://api.github.com/search/repositories?q=topic:ai+stars:>50&sort=updated&per_page=10",
+        "type": "json_api",
+        "item_path": ["items"],
+        "field_map": {"title": "full_name", "summary": "description", "link": "html_url"},
         "tier": "T2",
         "lang": "en",
         "category": "community",
