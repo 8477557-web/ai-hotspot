@@ -52,7 +52,19 @@ function sanitizeItems(items) {
       angle: escapeHTML(t.angle),
       difficulty: escapeHTML(t.difficulty),
     })),
+    social_metrics: sanitizeSocialMetrics(item.social_metrics),
   }));
+}
+
+function sanitizeSocialMetrics(metrics) {
+  if (!metrics) return null;
+  return {
+    ...metrics,
+    top_discussions: (metrics.top_discussions || []).map(d => ({
+      ...d,
+      title: escapeHTML(d.title),
+    })),
+  };
 }
 
 function sanitizeReport(report) {
@@ -221,6 +233,7 @@ function renderFeed() {
         <span class="card-time">${formatDate(item.published)}</span>
       </div>
       ${item.summary ? `<p class="card-summary">${stripHTML(item.summary)}</p>` : ''}
+      ${renderSocialMetrics(item)}
       ${renderTopicPills(item)}
     </article>
   `).join('');
@@ -239,6 +252,44 @@ function renderTopicPills(item) {
       </div>
     `).join('')}
   </div>`;
+}
+
+function renderSocialMetrics(item) {
+  const m = item.social_metrics;
+  if (!m || !m.total_items) return '';
+
+  const sourceIcons = {
+    github: '🐙', hackernews: '🔶', reddit: '🟠', youtube: '🎬',
+    x: '🔵', tiktok: '📱', polymarket: '💎', bluesky: '🦋',
+  };
+
+  const sourceTags = Object.entries(m.source_stats || {})
+    .filter(([, s]) => s.count > 0)
+    .map(([name, s]) =>
+      `<span class="social-src-tag">${sourceIcons[name] || '📡'} ${escapeHTML(name)}: ${s.count}条</span>`
+    ).join('');
+
+  const discussions = (m.top_discussions || [])
+    .filter(d => d.score > 0)
+    .slice(0, 3)
+    .map(d => `
+      <div class="social-disc">
+        <span class="social-disc-score">${d.score}</span>
+        ${d.url ? `<a href="${escapeHTML(d.url)}" target="_blank" rel="noopener">${d.title || ''}</a>` : d.title || ''}
+        <span class="social-disc-src">${(d.sources || []).map(s => escapeHTML(s)).join(', ')}</span>
+      </div>
+    `).join('');
+
+  return `
+    <div class="social-block">
+      <div class="social-header">
+        🌐 社区讨论热度: <strong>${m.social_heat}/10</strong>
+        (${m.total_items}条讨论 · ${m.total_engagement}次互动)
+      </div>
+      ${sourceTags ? `<div class="social-sources">${sourceTags}</div>` : ''}
+      ${discussions ? `<div class="social-discs">${discussions}</div>` : ''}
+    </div>
+  `;
 }
 
 // ══════════════════════════════════════════════════════════

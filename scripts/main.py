@@ -1,9 +1,11 @@
 """
 AI选题助手 — 主入口
 用法:
-    python scripts/main.py              # 完整管线: 抓取+AI处理
-    python scripts/main.py --fetch-only # 仅抓取RSS
-    python scripts/main.py --ai-only    # 仅AI处理(使用已有raw数据)
+    python scripts/main.py                     # 完整管线: 抓取+AI处理
+    python scripts/main.py --fetch-only        # 仅抓取RSS
+    python scripts/main.py --ai-only           # 仅AI处理(使用已有raw数据)
+    python scripts/main.py --social-verify     # 启用社交舆情验证(需last30days skill)
+    python scripts/main.py --social-verify --social-top-n 10  # 验证前10条
 """
 
 import os
@@ -31,6 +33,8 @@ def main():
     parser = argparse.ArgumentParser(description="AI选题助手")
     parser.add_argument("--fetch-only", action="store_true", help="仅抓取RSS")
     parser.add_argument("--ai-only", action="store_true", help="仅AI处理")
+    parser.add_argument("--social-verify", action="store_true", help="启用社交舆情验证 (last30days)")
+    parser.add_argument("--social-top-n", type=int, default=5, help="社交验证覆盖前N条 (默认5)")
     args = parser.parse_args()
 
     do_fetch = not args.ai_only
@@ -46,7 +50,7 @@ def main():
         if not check_env():
             return
         from ai_pipeline import main as ai_main
-        ai_main()
+        ai_main(enable_social=args.social_verify, social_top_n=args.social_top_n)
 
 
 if __name__ == "__main__":

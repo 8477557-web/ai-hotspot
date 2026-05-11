@@ -22,6 +22,7 @@ from config import (
     RAW_FILE, SELECTED_FILE, DAILY_FILE,
     WEB_DATA_DIR, WEB_SELECTED_FILE, WEB_DAILY_FILE,
     TOP_N_SELECTED, TOPIC_TAGS, DATA_DIR,
+    calc_quality_score,
 )
 
 BJT = timezone(timedelta(hours=8))
@@ -194,25 +195,6 @@ def score_items(items: list[dict]) -> list[dict]:
     return items
 
 
-def calc_quality_score(item: dict) -> float:
-    """代码公式计算最终质量分"""
-    scores = item.get("scores", {})
-    avg_score = sum(scores.values()) / max(len(scores), 1)
-
-    tier_weight = {"T1": 1.0, "T1.5": 0.85, "T2": 0.7}
-    tw = tier_weight.get(item.get("source_tier", "T2"), 0.7)
-
-    try:
-        pub = datetime.fromisoformat(item.get("published", ""))
-        hours_ago = (datetime.now(BJT) - pub).total_seconds() / 3600
-        decay = max(0.5, 1.0 - (hours_ago - 24) * 0.02) if hours_ago > 24 else 1.0
-    except Exception:
-        decay = 1.0
-
-    quality = (avg_score * 0.6 + tw * 10 * 0.4) * decay
-    return round(quality, 1)
-
-
 # ══════════════════════════════════════════════════════════════
 # 第三步：批量选题推荐
 # ══════════════════════════════════════════════════════════════
@@ -312,16 +294,47 @@ def generate_daily_report(items: list[dict]) -> dict:
 
 
 # ══════════════════════════════════════════════════════════════
+# 第五步：社交验证（可选，调用 last30days 引擎）
+# ══════════════════════════════════════════════════════════════
+
+def social_verify(selected: list[dict], top_n: int = 5) -> list[dict]:
+    """对精选新闻前 top_n 条执行社区讨论搜索，增强评分"""
+    try:
+        from social_verify import verify_topics, add_social_to_item
+    except ImportError:
+        print("  social_verify module not available, skipping")
+        return selected
+
+    print(f"\n  Social Verify: top {top_n} items")
+    topics = [item["title"] for item in selected[:top_n]]
+    results = verify_topics(topics, depth="quick")
+
+    success_count = sum(1 for r in results if r["success"])
+    total_items = sum(r["metrics"]["total_items"] for r in results)
+    print(f"  Social Verify done: {success_count}/{len(results)} successful, {total_items} community items found")
+
+    for i, result in enumerate(results):
+        if i < len(selected) and result["success"]:
+            selected[i] = add_social_to_item(selected[i], result)
+
+    # 按更新后的 quality_score 重排
+    selected.sort(key=lambda x: x["quality_score"], reverse=True)
+    return selected
+
+
+# ══════════════════════════════════════════════════════════════
 # 主流程
 # ══════════════════════════════════════════════════════════════
 
-def main():
+def main(enable_social: bool = False, social_top_n: int = 5):
     if not DEEPSEEK_API_KEY:
         print("ERROR: DEEPSEEK_API_KEY not set")
         return
 
     print("=" * 50)
     print(f"AI Pipeline Start: {datetime.now(BJT).strftime('%Y-%m-%d %H:%M:%S')}")
+    if enable_social:
+        print(f"[Social Verify: ENABLED (top {social_top_n})]")
     print("=" * 50)
 
     with open(RAW_FILE, "r", encoding="utf-8") as f:
@@ -340,14 +353,20 @@ def main():
     # Step 3: Sort & select top N
     items.sort(key=lambda x: x["quality_score"], reverse=True)
     selected = items[:TOP_N_SELECTED]
-    print(f"\nTop {TOP_N_SELECTED} selected (scores: {selected[0]['quality_score']:.1f} - {selected[-1]['quality_score']:.1f})")
+    print(f"\nStep 3: Sort & select top {TOP_N_SELECTED} (scores: {selected[0]['quality_score']:.1f} - {selected[-1]['quality_score']:.1f})")
 
     # Step 4: Topic generation
-    print(f"\nStep 3: Topic suggestions (batch)")
+    print(f"\nStep 4: Topic suggestions (batch)")
     selected = generate_topics(selected)
 
-    # Step 5: Daily report
-    print(f"\nStep 4: Daily report")
+    # Step 5: Social verify (optional)
+    if enable_social:
+        print(f"\nStep 5: Social verification")
+        selected = social_verify(selected, top_n=social_top_n)
+
+    # Step 6: Daily report
+    step_label = "6" if enable_social else "5"
+    print(f"\nStep {step_label}: Daily report")
     report = generate_daily_report(selected)
 
     # Save
@@ -367,4 +386,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # 直接调试入口（正式使用请通过 main.py --social-verify）
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--social-verify", action="store_true")
+    parser.add_argument("--social-top-n", type=int, default=5)
+    args = parser.parse_args()
+    main(enable_social=args.social_verify, social_top_n=args.social_top_n)

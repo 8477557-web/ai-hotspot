@@ -289,6 +289,32 @@ SOURCES = [
     },
 ]
 
+# ── 质量评分 ──────────────────────────────────────────────
+# 共享评分公式，ai_pipeline 和 social_verify 共用
+
+def calc_quality_score(item: dict, now_override=None) -> float:
+    """代码公式计算最终质量分。now_override 用于测试。"""
+    from datetime import datetime, timezone, timedelta
+    BJT = timezone(timedelta(hours=8))
+
+    scores = item.get("scores", {})
+    avg_score = sum(scores.values()) / max(len(scores), 1)
+
+    tier_weight = {"T1": 1.0, "T1.5": 0.85, "T2": 0.7}
+    tw = tier_weight.get(item.get("source_tier", "T2"), 0.7)
+
+    try:
+        pub = datetime.fromisoformat(item.get("published", ""))
+        now = now_override or datetime.now(BJT)
+        hours_ago = (now - pub).total_seconds() / 3600
+        decay = max(0.5, 1.0 - (hours_ago - 24) * 0.02) if hours_ago > 24 else 1.0
+    except Exception:
+        decay = 1.0
+
+    quality = (avg_score * 0.6 + tw * 10 * 0.4) * decay
+    return round(quality, 1)
+
+
 # ── 输出路径 ──────────────────────────────────────────────
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 RAW_FILE = os.path.join(DATA_DIR, "raw_news.json")
