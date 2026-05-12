@@ -9,10 +9,11 @@
 
 ## 技术架构
 - **爬虫**: Python feedparser + requests + BeautifulSoup，支持RSS/JSON API/HTML三种格式，25个信源，约400条/天
-- **AI处理**: DeepSeek API (V3.2预筛 + V4 Pro评分)，批量+5线程并行，约10秒完成
-- **前端**: 纯静态 HTML+CSS+JS，4个Tab(日报/精选/选题/信源)
+- **AI处理**: DeepSeek API (V3.2预筛 + V4 Pro评分)，批量+5线程并行
+- **社交验证**(可选): last30days引擎（Reddit/HN/GitHub/YouTube免费），社区讨论热度作为第六评分维度
+- **前端**: 纯静态 HTML+CSS+JS，5个Tab(日报/精选/选题/趋势/信源)，人群热度徽章+历史趋势对比
 - **数据**: JSON文件，无需数据库
-- **托管**: GitHub Pages (gh-pages分支) + GitHub Actions定时(每天8:00 UTC)
+- **托管**: GitHub Pages (gh-pages分支) + GitHub Actions定时(每天UTC 0:00)
 - **成本**: 约¥1-3/月(仅DeepSeek API)
 - **日均产量**: ~400条（25个活跃信源）
 
@@ -21,8 +22,11 @@
 2. DeepSeek V3.2批量预筛(10条/批) → 过滤AI无关
 3. DeepSeek V4 Pro批量评分(5条/批) → 5维打分
 4. 代码公式重算质量分 → 排序取Top 20
-5. DeepSeek批量选题推荐(5条/批) → 每条1-2个自媒体角度
-6. DeepSeek日报摘要生成 → 4版块(模型/产品/行业/研究/观点)
+5. **人群验证**(CI默认开启): 百度/B站热搜匹配 → crowd_heat第6维，影响质量分
+6. DeepSeek批量选题推荐(5条/批) → 每条1-2个自媒体角度
+7. (可选) last30days社交验证 → Reddit/HN/GitHub/YouTube社区讨论
+8. DeepSeek日报摘要生成 → 4版块(模型/产品/行业/研究/观点)
+9. **历史追踪**: 每日聚合摘要归档 → trends.json + daily_items.json
 
 ## 关键配置
 - **API Key**: 环境变量`DEEPSEEK_API_KEY`，GitHub Secrets已配置
@@ -49,7 +53,8 @@ Hacker News, Reddit ML, GitHub Trending(HTML爬虫), GitHub AI新项目(JSON API
 Mistral AI Blog (网站改为纯JS渲染), 机器之心 (JS渲染+API付费)
 
 ## 下一步
-- 持续监控信源可用性
-- 优化评分策略（400条/天需更精准筛选）
-- 趋势预测/热度指数功能
+- 持续监控信源可用性（连续挂2天自动禁用+通知）
+- Actions工作流集成社交验证（需在Runner安装last30days引擎）
+- 社交验证并行化（当前串行，5条约7分钟）
+- 选题→短视频脚本自动生成
 - 个人域名配置
