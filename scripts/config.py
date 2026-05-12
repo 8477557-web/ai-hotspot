@@ -298,7 +298,11 @@ def calc_quality_score(item: dict, now_override=None) -> float:
     BJT = timezone(timedelta(hours=8))
 
     scores = item.get("scores", {})
-    avg_score = sum(scores.values()) / max(len(scores), 1)
+    core_avg = sum(scores.get(k, 5) for k in
+                   ("importance", "timeliness", "actionability", "scarcity", "virality")) / 5.0
+
+    crowd_heat = scores.get("crowd_heat", 0)
+    social_heat = scores.get("social_heat", 0)
 
     tier_weight = {"T1": 1.0, "T1.5": 0.85, "T2": 0.7}
     tw = tier_weight.get(item.get("source_tier", "T2"), 0.7)
@@ -311,7 +315,7 @@ def calc_quality_score(item: dict, now_override=None) -> float:
     except Exception:
         decay = 1.0
 
-    quality = (avg_score * 0.6 + tw * 10 * 0.4) * decay
+    quality = (core_avg * 0.6 + tw * 10 * 0.4 + crowd_heat * 0.12 + social_heat * 0.12) * decay
     return round(quality, 1)
 
 

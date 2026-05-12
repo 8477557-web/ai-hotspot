@@ -35,6 +35,7 @@ def main():
     parser.add_argument("--ai-only", action="store_true", help="仅AI处理")
     parser.add_argument("--social-verify", action="store_true", help="启用社交舆情验证 (last30days)")
     parser.add_argument("--social-top-n", type=int, default=5, help="社交验证覆盖前N条 (默认5)")
+    parser.add_argument("--crowd-verify", action="store_true", help="启用人群验证 (百度/B站热搜匹配)")
     args = parser.parse_args()
 
     do_fetch = not args.ai_only
@@ -50,7 +51,8 @@ def main():
         if not check_env():
             return
         from ai_pipeline import main as ai_main
-        ai_main(enable_social=args.social_verify, social_top_n=args.social_top_n)
+        ai_main(enable_social=args.social_verify, social_top_n=args.social_top_n,
+                enable_crowd=args.crowd_verify)
 
 
 if __name__ == "__main__":

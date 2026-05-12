@@ -6,6 +6,8 @@
 const DATA_PATHS = {
   selected: './data/selected_news.json',
   daily: './data/daily_report.json',
+  trends: './data/history/trends.json',
+  historyItems: './data/history/daily_items.json',
 };
 
 // ── 状态 ──────────────────────────────────────────────────
@@ -14,6 +16,9 @@ let state = {
   activeFilter: 'all',
   selectedNews: [],
   dailyReport: null,
+  historyTrends: null,
+  historyItems: null,
+  historyLoaded: false,
 };
 
 // ── DOM 引用 ──────────────────────────────────────────────
@@ -106,7 +111,7 @@ function initTabs() {
 function switchTab(tab) {
   state.activeTab = tab;
   $$('.nav-link').forEach(l => l.classList.toggle('active', l.dataset.tab === tab));
-  ['daily', 'feed', 'topics', 'sources'].forEach(id => {
+  ['daily', 'feed', 'topics', 'trends', 'sources'].forEach(id => {
     $(`#tab-${id}`).classList.toggle('hidden', id !== tab);
   });
   render();
@@ -136,6 +141,53 @@ function filterByTopic(items) {
 }
 
 // ══════════════════════════════════════════════════════════
+// 历史数据懒加载
+// ══════════════════════════════════════════════════════════
+
+async function lazyLoadHistory() {
+  if (state.historyLoaded) return;
+  try {
+    const [trends, items] = await Promise.all([
+      fetch(DATA_PATHS.trends).then(r => r.json()),
+      fetch(DATA_PATHS.historyItems).then(r => r.json()),
+    ]);
+    state.historyTrends = trends;
+    state.historyItems = items;
+  } catch (e) {
+    state.historyTrends = null;
+    state.historyItems = null;
+  }
+  state.historyLoaded = true;
+}
+
+function normalizeTitle(title) {
+  return (title || '').replace(/[《》「」""''【】\s]/g, '').toLowerCase();
+}
+
+function computeTodayVsYesterday() {
+  const itemDays = state.historyItems?.days || [];
+  if (itemDays.length < 2) return null;
+  const today = itemDays[0].items || [];
+  const yesterday = itemDays[1].items || [];
+  const yesterdayTitles = new Set(yesterday.map(i => normalizeTitle(i.title)));
+  const todayTitles = new Set(today.map(i => normalizeTitle(i.title)));
+  const newItems = today.filter(i => !yesterdayTitles.has(normalizeTitle(i.title)));
+  const goneItems = yesterday.filter(i => !todayTitles.has(normalizeTitle(i.title)));
+  const todayAvg = today.reduce((s, i) => s + i.quality_score, 0) / (today.length || 1);
+  const yesterdayAvg = yesterday.reduce((s, i) => s + i.quality_score, 0) / (yesterday.length || 1);
+  const todayCrowd = today.reduce((s, i) => s + (i.crowd_heat || 0), 0) / (today.length || 1);
+  const yesterdayCrowd = yesterday.reduce((s, i) => s + (i.crowd_heat || 0), 0) / (yesterday.length || 1);
+  return { newItems, goneItems, todayAvg, yesterdayAvg, todayCrowd, yesterdayCrowd, today, yesterday };
+}
+
+function crowdBadge(item) {
+  const ch = item.scores?.crowd_heat;
+  if (!ch || ch < 2) return '';
+  const hot = ch >= 5;
+  return `<span class="crowd-badge ${hot ? 'hot' : 'warm'}">${hot ? '🔥 热搜' : '📈 趋势'} ${ch.toFixed(1)}</span>`;
+}
+
+// ══════════════════════════════════════════════════════════
 // 渲染总控
 // ══════════════════════════════════════════════════════════
 
@@ -144,6 +196,7 @@ function render() {
     case 'daily': renderDaily(); break;
     case 'feed': renderFeed(); break;
     case 'topics': renderTopics(); break;
+    case 'trends': renderTrends(); break;
     case 'sources': renderSources(); break;
   }
   updateFooter();
@@ -226,6 +279,7 @@ function renderFeed() {
         <span class="score-badge ${item.quality_score >= 7 ? 'high' : ''}">
           ${item.quality_score != null ? item.quality_score.toFixed(1) + '分' : 'N/A'}
         </span>
+        ${crowdBadge(item)}
       </div>
       <div class="card-meta">
         <span class="source-tag">${item.source_name || ''}</span>
@@ -330,7 +384,86 @@ function renderTopics() {
 }
 
 // ══════════════════════════════════════════════════════════
-// 4. 信源页渲染
+// 4. 趋势页渲染
+// ══════════════════════════════════════════════════════════
+
+async function renderTrends() {
+  const el = $('#trends-content');
+  el.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:40px">加载趋势数据...</p>';
+  await lazyLoadHistory();
+
+  const trends = state.historyTrends;
+  if (!trends || !trends.days || trends.days.length < 1) {
+    el.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:40px">趋势数据将在每日更新后生成</p>';
+    return;
+  }
+
+  const diff = computeTodayVsYesterday();
+  const days = trends.days.slice(0, 7).reverse();
+  const maxScore = Math.max(...days.map(d => d.avg_score || 0), 1);
+
+  let html = '';
+
+  // 今昨对比卡片
+  if (diff) {
+    const scoreDelta = (diff.todayAvg - diff.yesterdayAvg).toFixed(1);
+    const crowdDelta = (diff.todayCrowd - diff.yesterdayCrowd).toFixed(1);
+    const scoreArrow = scoreDelta >= 0 ? '▲' : '▼';
+    const crowdArrow = crowdDelta >= 0 ? '▲' : '▼';
+    html += `<div class="trend-compare-card">
+      <h3>📊 今日 vs 昨日</h3>
+      <div class="trend-compare-stats">
+        <div class="trend-stat">
+          <span class="trend-stat-label">均分</span>
+          <span class="trend-stat-val">${diff.todayAvg.toFixed(1)} <span class="trend-delta ${scoreDelta >= 0 ? 'up' : 'down'}">${scoreArrow}${Math.abs(scoreDelta)}</span></span>
+        </div>
+        <div class="trend-stat">
+          <span class="trend-stat-label">人群热度</span>
+          <span class="trend-stat-val">${diff.todayCrowd.toFixed(1)} <span class="trend-delta ${crowdDelta >= 0 ? 'up' : 'down'}">${crowdArrow}${Math.abs(crowdDelta)}</span></span>
+        </div>
+        <div class="trend-stat">
+          <span class="trend-stat-label">话题变化</span>
+          <span class="trend-stat-val">+${diff.newItems.length} 新增 · -${diff.goneItems.length} 消失</span>
+        </div>
+      </div>
+      ${diff.newItems.length > 0 ? `<div class="trend-items-label">🆕 新增话题: ${diff.newItems.slice(0, 5).map(i => `<span class="trend-item-tag new">${escapeHTML(i.title).substring(0, 30)}</span>`).join(' ')}</div>` : ''}
+      ${diff.goneItems.length > 0 ? `<div class="trend-items-label">⬇ 消失话题: ${diff.goneItems.slice(0, 3).map(i => `<span class="trend-item-tag gone">${escapeHTML(i.title).substring(0, 30)}</span>`).join(' ')}</div>` : ''}
+    </div>`;
+  }
+
+  // 7天趋势柱状图
+  html += `<div class="trend-chart">
+    <h3>📈 近7天趋势</h3>
+    <div class="trend-bars">`;
+  for (const d of days) {
+    const dateLabel = (d.date || '').substring(5);
+    const barW = maxScore > 0 ? Math.round((d.avg_score || 0) / maxScore * 100) : 0;
+    const crowdW = maxScore > 0 ? Math.round((d.avg_crowd_heat || 0) / maxScore * 100) : 0;
+    html += `<div class="trend-bar-group">
+      <span class="trend-bar-date">${dateLabel}</span>
+      <div class="trend-bar-wrap"><div class="trend-bar score-bar" style="width:${barW}%">${d.avg_score || 0}</div></div>
+      <div class="trend-bar-wrap"><div class="trend-bar crowd-bar" style="width:${crowdW}%">${d.avg_crowd_heat || 0}</div></div>
+    </div>`;
+  }
+  html += `</div>
+    <div class="trend-legend"><span class="legend-dot score"></span>均分 <span class="legend-dot crowd"></span>人群热度</div>
+  </div>`;
+
+  // 历史汇总表
+  html += `<div class="trend-table-wrap">
+    <h3>📋 历史汇总</h3>
+    <table class="trend-table"><thead><tr><th>日期</th><th>均分</th><th>热搜条数</th><th>主要话题</th></tr></thead><tbody>`;
+  for (const d of trends.days.slice(0, 30)) {
+    const kws = (d.top_keywords || []).map(k => k[0]).join(', ');
+    html += `<tr><td>${(d.date || '').substring(5)}</td><td>${d.avg_score || '-'}</td><td>${d.crowd_hot_count || 0}</td><td class="trend-kws">${escapeHTML(kws)}</td></tr>`;
+  }
+  html += `</tbody></table></div>`;
+
+  el.innerHTML = html;
+}
+
+// ══════════════════════════════════════════════════════════
+// 5. 信源页渲染
 // ══════════════════════════════════════════════════════════
 
 const STATIC_SOURCES = [

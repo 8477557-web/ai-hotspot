@@ -326,13 +326,15 @@ def social_verify(selected: list[dict], top_n: int = 5) -> list[dict]:
 # 主流程
 # ══════════════════════════════════════════════════════════════
 
-def main(enable_social: bool = False, social_top_n: int = 5):
+def main(enable_social: bool = False, social_top_n: int = 5, enable_crowd: bool = False):
     if not DEEPSEEK_API_KEY:
         print("ERROR: DEEPSEEK_API_KEY not set")
         return
 
     print("=" * 50)
     print(f"AI Pipeline Start: {datetime.now(BJT).strftime('%Y-%m-%d %H:%M:%S')}")
+    if enable_crowd:
+        print(f"[Crowd Verify: ENABLED (Baidu/Bilibili)]")
     if enable_social:
         print(f"[Social Verify: ENABLED (top {social_top_n})]")
     print("=" * 50)
@@ -354,6 +356,17 @@ def main(enable_social: bool = False, social_top_n: int = 5):
     items.sort(key=lambda x: x["quality_score"], reverse=True)
     selected = items[:TOP_N_SELECTED]
     print(f"\nStep 3: Sort & select top {TOP_N_SELECTED} (scores: {selected[0]['quality_score']:.1f} - {selected[-1]['quality_score']:.1f})")
+
+    # Step 3.5: Crowd verify (optional — Baidu/Bilibili trending match)
+    if enable_crowd:
+        print(f"\nStep 3.5: Crowd verification")
+        try:
+            from crowd_verify import crowd_verify
+            selected = crowd_verify(selected)
+            items[:len(selected)] = selected
+            selected.sort(key=lambda x: x["quality_score"], reverse=True)
+        except ImportError:
+            print("  crowd_verify module not available, skipping")
 
     # Step 4: Topic generation
     print(f"\nStep 4: Topic suggestions (batch)")

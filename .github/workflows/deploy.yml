@@ -34,10 +34,18 @@ jobs:
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 
-      - name: AI Pipeline (filter + score + topics + report)
-        run: python scripts/ai_pipeline.py
+      - name: AI Pipeline (filter + score + crowd verify + topics + report)
+        run: python scripts/main.py --ai-only --crowd-verify
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+
+      - name: Track history
+        run: python scripts/history_tracker.py
+
+      - name: Copy history to web
+        run: |
+          mkdir -p web/data/history
+          cp data/history/*.json web/data/history/ 2>/dev/null || true
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
