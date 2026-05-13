@@ -52,11 +52,13 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/history/ web/data/history/
+          for f in web/data/selected_news.json web/data/daily_report.json; do
+            [ -f "$f" ] && git add "$f"
+          done
           if git diff --cached --quiet; then
             echo "历史数据无变化，跳过提交"
           else
             git commit -m "📊 更新趋势历史数据"
-            git pull --rebase origin main
             git push origin main
           fi
 
