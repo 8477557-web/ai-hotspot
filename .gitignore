@@ -19,4 +19,5 @@ config.local.json
 Thumbs.db
 
 # 原始数据目录（通过Workflow生成，不入库）
-/data/
+/data/*
+!/data/history/
