@@ -118,7 +118,7 @@ def calculate_crowd_heat(item_title: str, bd_items: list, bl_items: list) -> flo
     bd_score = 0.0
     for bd in bd_items[:30]:
         word = bd.get("word", "")
-        score = bd.get("hotScore", 0)
+        score = float(bd.get("hotScore", 0) or 0)
         ms = match_score(tn, word)
         if ms > 0:
             bd_score += ms * math.tanh(score / 300000) * 10
@@ -126,7 +126,7 @@ def calculate_crowd_heat(item_title: str, bd_items: list, bl_items: list) -> flo
     bl_score = 0.0
     for bl in bl_items:
         word = bl.get("keyword", "")
-        score = bl.get("heat_score", 0)
+        score = float(bl.get("heat_score", 0) or 0)
         ms = match_score(tn, word)
         if ms > 0:
             bl_score += ms * math.tanh(score / 50000) * 10
