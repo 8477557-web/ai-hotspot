@@ -5,16 +5,16 @@
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "Building a safe, effective sandbox to enable Codex on Windows",
-          "summary": "OpenAI发布Windows版Codex安全沙箱，提升AI编程工具在桌面端的可用性与安全性。"
-        },
-        {
           "title": "谷歌发布安卓 AI 系统，这就是苹果想象中的自己",
-          "summary": "谷歌在Android 17中深度整合Gemini AI，打造全新的智能系统体验。"
+          "summary": "谷歌推出安卓AI系统，将Gemini全面整合进全家桶，实现从系统到外设的AI化。"
         },
         {
-          "title": "宇树发布全球首款载人机甲，售价 390 万元",
-          "summary": "宇树科技推出全球首款载人变形机甲，标志着具身智能从工业向消费级跨越。"
+          "title": "Building a safe, effective sandbox to enable Codex on Windows",
+          "summary": "OpenAI发布Windows版Codex安全沙箱，提升AI编程工具在桌面环境的可用性与安全性。"
+        },
+        {
+          "title": "阿里企业级 Agent 平台“悟空”开始逐步规模化放量",
+          "summary": "阿里企业级AI Agent平台“悟空”进入规模化放量阶段，推动企业智能化应用落地。"
         }
       ]
     },
@@ -22,16 +22,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "34.4% vs 32.3%，数据显示 Anthropic 商业客户数首次反超 OpenAI",
-          "summary": "Anthropic商业客户占比首次超越OpenAI，AI企业级市场格局生变。"
+          "title": "林俊旸果然创业了！一个“Qwen负责人”头衔值135亿",
+          "summary": "前Qwen负责人林俊旸创业，新公司估值约20亿美金（约135亿人民币），引发行业关注。"
         },
         {
-          "title": "林俊旸果然创业了！一个“Qwen负责人”头衔值135亿",
-          "summary": "前Qwen负责人林俊旸创业，新公司估值约20亿美元，引发行业关注。"
+          "title": "Sensor Tower：生成式AI移动应用内购收入进入指数级爆发通道",
+          "summary": "生成式AI移动应用内购收入呈指数级增长，标志AI消费级市场进入爆发期。"
+        },
+        {
+          "title": "脉脉：具身智能岗位暴增15倍，平均月薪超6万元",
+          "summary": "具身智能岗位需求激增15倍，平均月薪超6万元，成为AI领域高薪新赛道。"
         },
         {
           "title": "阿里云外部收入增长40%创新高，AI收入占比首破30%",
-          "summary": "阿里云AI收入占比突破30%，云厂商AI商业化进入加速期。"
+          "summary": "阿里云外部收入同比增长40%创新高，AI相关收入占比首次突破30%。"
         }
       ]
     },
@@ -39,16 +43,20 @@
       "name": "论文/研究",
       "items": [
         {
+          "title": "Accelerated X-Ray Analysis for Nanoscale Imaging (XANI) of Novel Materials",
+          "summary": "NVIDIA发布加速X射线纳米成像技术XANI，用于新型材料的高精度分析。"
+        },
+        {
           "title": "GridSFM: A new, small foundation model for the electric grid",
-          "summary": "微软发布电力电网专用小模型GridSFM，探索基础模型在关键基础设施领域的应用。"
+          "summary": "微软研究院推出电网专用小模型GridSFM，为电力系统提供高效AI基础能力。"
         },
         {
-          "title": "AI步入“自我进化”时代，李彦宏首提AI时代度量衡“DAA”",
-          "summary": "百度李彦宏提出AI时代新度量衡DAA，强调AI自我进化能力成为核心指标。"
+          "title": "Scenema Audio: Zero-shot expressive voice cloning and speech generation",
+          "summary": "Scenema Audio实现零样本情感语音克隆与生成，推动语音AI个性化发展。"
         },
         {
-          "title": "Auto Research 来了：当 AI 开始接管科研里最苦的活，意味着什么",
-          "summary": "AI自动科研工具兴起，开始接管实验设计、数据分析等重复性工作。"
+          "title": "Auto Research 来了：当AI开始接管科研里最苦的活，意味着什么",
+          "summary": "AI自动科研工具兴起，开始接管实验设计、数据分析等重复性工作，加速科研进程。"
         }
       ]
     },
@@ -56,21 +64,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "澳洲放羊大叔引爆 AI 编程革命！Claude Code 急推 goal 模式，不干完不许停",
-          "summary": "Claude Code推出goal模式，强制AI持续工作直至任务完成，提升编程效率。"
+          "title": "黄仁勋最后一刻登上访华飞机，英伟达中国市场再添变量",
+          "summary": "黄仁勋紧急访华，英伟达在中国市场的战略布局面临新变数。"
         },
         {
-          "title": "把 RAG 做成主流的公司，现在开始“做空”RAG 了",
-          "summary": "RAG领域头部公司开始反思RAG局限性，转向更高效的检索与生成融合方案。"
+          "title": "Meta won't let you block its AI account on Threads",
+          "summary": "Meta在Threads上强制用户无法屏蔽其AI账号，引发隐私与自主权争议。"
         },
         {
-          "title": "奥特曼趁马斯克出差爆猛料：他曾想让子女继承OpenAI",
-          "summary": "Sam Altman爆料马斯克曾计划让子女继承OpenAI，引发对AI治理的讨论。"
+          "title": "全球AI药物递送第一股剂泰科技挂牌港交所",
+          "summary": "剂泰科技作为AI药物递送第一股登陆港交所，开启生物制药AI化新纪元。"
         }
       ]
     }
   ],
-  "summary": "AI从模型竞赛转向应用落地与商业化，企业级市场格局变动，AI自我进化与专用模型成为新焦点。",
-  "generated_at": "2026-05-14T04:26:32.635570+08:00",
+  "summary": "今日AI圈聚焦创业热潮与商业化爆发，模型产品密集更新，具身智能与AI科研工具成为新亮点。",
+  "generated_at": "2026-05-14T11:41:38.928723+08:00",
   "source_count": 20
 }
