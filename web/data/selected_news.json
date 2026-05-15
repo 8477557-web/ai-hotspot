@@ -1,210 +1,272 @@
 {
-  "updated_at": "2026-05-14T11:41:38.928817+08:00",
+  "updated_at": "2026-05-15T11:45:12.653590+08:00",
   "total": 20,
   "items": [
     {
-      "id": "3d8e6ecac578",
+      "id": "fc1bb6800d24",
       "source_id": "nvidia-blog",
       "source_name": "NVIDIA Technical Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Accelerated X-Ray Analysis for Nanoscale Imaging (XANI) of Novel Materials",
-      "link": "https://developer.nvidia.com/blog/accelerated-x-ray-analysis-for-nanoscale-imaging-xani-of-novel-materials/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/hpc-accelerated-x-ray-analysis-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"hpc-accelerated-x-ray-analysis\" width=\"768\" />A massive-scale X-ray free-electron laser (XFEL) enables tracking structural and electron dynamics in novel systems, including fusion materials, semiconductors,...",
-      "published": "2026-05-14T00:39:20+08:00",
-      "fetched_at": "2026-05-14T11:40:00.156877+08:00",
-      "pre_filter_reason": "NVIDIA post on accelerated X-ray analysis, likely involves AI/ML.",
+      "title": "How the NVIDIA Vera Rubin Platform is Solving Agentic AI’s Scale-Up Problem",
+      "link": "https://developer.nvidia.com/blog/how-the-nvidia-vera-rubin-platform-is-solving-agentic-ais-scale-up-problem/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/nvidia-vera-rubin-pod-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-vera-rubin-pod\" width=\"768\" />Agentic inference has fundamentally changed the runtime dynamics of inference workloads by introducing non-deterministic trajectories—actions, observations,...",
+      "published": "2026-05-15T03:24:35+08:00",
+      "fetched_at": "2026-05-15T11:43:31.675442+08:00",
+      "pre_filter_reason": "AI平台",
       "scores": {
-        "importance": 7,
+        "importance": 9,
         "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 7,
-        "virality": 6,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 8.2,
+      "quality_score": 9.0,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "用GPU加速X射线分析，纳米材料成像效率翻倍",
-          "angle": "手把手教你利用NVIDIA加速库（如RAPIDS或CUDA）优化X射线数据处理流程，提升纳米材料成像速度与分辨率。",
-          "difficulty": "中级"
+          "title": "NVIDIA Vera Rubin 平台：如何解决 Agentic AI 的规模化难题",
+          "angle": "从技术架构角度，拆解 Vera Rubin 平台如何通过硬件与软件协同创新，解决 Agentic AI 在推理、通信和资源调度上的扩展瓶颈，适合开发者快速理解其核心设计。",
+          "difficulty": "进阶"
         },
         {
-          "tag": "case_study",
-          "title": "XANI技术揭秘：如何用HPC看清纳米世界",
-          "angle": "通过具体案例，展示高性能计算如何突破传统X射线分析瓶颈，助力新材料研发。",
-          "difficulty": "入门"
+          "tag": "analysis",
+          "title": "Agentic AI 规模化挑战与 NVIDIA 的应对策略",
+          "angle": "分析当前 Agentic AI 在规模化部署中遇到的主要问题（如延迟、成本、协调），并解读 Vera Rubin 平台如何通过新架构提供解决方案，适合技术决策者评估其价值。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "719accae1c48",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "8点1氪丨林俊旸新公司估值20亿美金；贾跃亭宣布转战机器人业务；网红糖果被发��掺超高剂量伟哥",
-      "link": "https://36kr.com/p/3808362853834502?f=rss",
-      "summary": "<h2>今日热点导览</h2>\n  <ul>\n   <li>腾讯刘炽平：腾讯没有大裁员计划</li>\n   <li>韩国政府称将支持三星与工会对话解决纠纷，以避免罢工</li>\n   <li>中美经贸磋商在韩国开始举行</li>\n   <li>宇树科技已注册多款机器人商标</li>\n   <li>TikTok在印尼、美国、日本三国官宣生活服务品牌TikTok GO</li>\n  </ul>\n  <h2>TOP 3 大新闻</h2>\n  <p><strong>林俊旸创业，新公司估值约20亿美金</strong></p>\n  <p>36氪独家获悉，前阿里千问大模型技术负责人林俊旸近期已经开启创业，考虑方向包括世界模型和具身大脑。目前，林俊旸已经招募数名字节、腾讯和海外背景的成员，并以约20亿美金的估值开启融资，接触基金包括红杉中国、高榕创投等。</p>\n  <p><strong>贾跃亭造车12年未果，宣布转战机器人</strong></p>\n  <p>日前，法拉第未来创始人贾跃亭在社交平台发布的视频中表示：“我要宣布一个公司重大的战略升级：FF（法拉第未来）将升级为物理AI生态系统公司，专注于具身智能机器人业务两大引擎，一是人形与仿生机器人，二是汽车机器人。在战略执行节奏上，第一阶段将以人形和仿生机器人为主，汽车机器人为辅。”</p>\n  <p>但实际上，距离贾跃亭2014年官宣造车已经过去12年，法拉第未来离大规模量产汽车仍有很大差距。过去十年时间，法拉第未来总共只交付了不足20辆汽车，而贾跃亭已8年时间未回国，身负巨额债务。（第一财经日报）</p>\n  <p><strong>上海市监局：抽验发现网红糖果中每公斤含125000毫克伟哥</strong></p>\n  <p>近日，上海市市场监管局抽检发现，一款叫“爱必享”糖果制品中每公斤西地那非含量高达12万5千毫克，西地那非俗称伟哥，为处方药，禁止添加于普通食品中，长期或不当食用可能引发头晕、血压骤降、肝肾损伤等健康风险，尤其对儿童、女性及心血管疾病患者危害极大。2025年9月此产品就被通报过，但商家玩失联，虚假注册地址关闭涉事网店，目前已无法查询到相关商品。对此，上海市市场监管局食品抽检处工作人员表示：后续会有核查处置，不合格信息会通报涉及的外省市。（红星新闻）</p>\n  <h2>大公司/大事件</h2>\n  <p><strong>中美经贸磋商在韩国开始举行</strong></p>\n  <p>当地时间5月13日，中美经贸中方牵头人、国务院副总理何立峰与美方牵头人、美国财政部长贝森特在韩国举行经贸磋商。双方以两国元首重要共识为指引，秉持相互尊重、和平共处、合作共赢的原则，就解决彼此关注的经贸问题和进一步拓展务实合作进行了坦诚、深入、建设性的交流。（央视新闻）</p>\n  <p><strong>特朗普抵达北京</strong></p>\n  <p>13日晚，特朗普抵京开启访华之旅。马斯克、黄仁勋等多位美国企业界重量级代表随行。（央视新闻）</p>\n  <p><strong>恋与深空被指推广视频擦边，叠纸工作人员向玩家道歉</strong></p>\n  <p>5月12日，《恋与深空》再次面临低俗争议，有网友反映，恋与深空微博账号发布的温泉剧情推广视频露骨擦边，男主角半裸洗浴时接受女主角抚摸胸背，伴有喘息背景音乐，相关视频播放量超过300万次。叠纸游戏人员回应，抱歉影响到玩家体验，已将投诉举报传达。 （封面新闻）</p>\n  <p><strong>腾讯刘炽平：腾讯没有大裁员计划</strong></p>\n  <p>在腾讯股东大会上，对于腾讯是否会大裁员的问题，腾讯总裁刘炽平回应表示，肯定没有大裁员计划，腾讯跟硅谷公司不太一样。（每日经济新闻）</p>\n  <p><strong>韩国政府称将支持三星与工会对话解决纠纷，以避免罢工</strong></p>\n  <p>韩国总统府周三表示，计划积极支持三星电子与其工会之间的对话，以解决工资纠纷，避免罢工威胁。韩国总统府高级发言人姜由桢在新闻发布会上表示：“政府计划积极支持劳资双方通过对话找到解决方案。距离罢工还有一段时间。”周三早些时候，三星电子与工会方面在政府主导的为期两天的调解谈判后未能达成协议。此次谈判被视为避免原定于5月21日举行的罢工的最后努力。（新浪财经）</p>\n  <p><strong>燃油附加费涨价引爆囤票潮，端午节订票量涨84%</strong></p>\n  <p>国内航线燃油费5月16日将再次上调，叠加“五一”后机票均价“跳水”超四成，国内旅客抢抓涨价窗口期、提前订票意愿高涨。网络平台数据显示，5月12日当天抢订端午（6月19日-21日）期间起飞的机票量环比前一日大增84%。暑期时段（7月-8月）机票预订量环比前一日上涨58%，较去年同期增长45%。航旅纵横民航官方直销平台显示，五一节后国内多条航线现百元机票，京沪到三亚、青岛、长沙等航线均有300元左右的机票在售。（第一财经）</p>\n  <p><strong>花旗将阿里巴巴列为中国AI投资首选股，H股目标价204港元</strong></p>\n  <p>5月12日，花旗发布研报称，阿里巴巴旗下阿里云拥有芯片分支平头哥、基础设施即服(IaaS)、平台即服务(PaaS)到模型即服务(MaaS)的垂直整合人工智能全栈能力，加上其通义千问大语言模型(LLM)及Model-Scope平台持续进步，看好公司在快速增长的词元(Token)经济中占据有利位置，将其列为中国人工智能投资的首选股。花旗重申对阿里巴巴的“买入”评级，港股目标价204港元，ADR目标价205美元，认为公司不断提升的人工智能全栈能力可带来成本协同效应及利润扩张空间。该行预计，阿里云人工智能相关收入于2026至2031财年的年复合增长率将达到90%，到2031财年将占云业务总收入的70%。（财联社）</p>\n  <p><strong>马斯克点赞宇树载人变形机甲GD01</strong></p>\n  <p>宇树科技12日发布全球首款量产载人变形机甲GD01，马斯克在社交平台回复称：很酷！据宇树科技介绍，该款机甲起售价为390万元人民币，民用交通工具，体重约500kg（载人后）。值得注意的是，还有网友翻出马斯克2018年在社交平台发布的一篇内容为“是时候创造一个机甲”的贴文，有网友调侃：中国企业帮你圆梦了。（中新经纬）</p>\n  <p><strong>腾讯：元宝支持一键总结微信群聊</strong></p>\n  <p>36氪获悉，元宝宣布支持总结微信聊天记录。选中微信群聊聊天记录转发其他应用-选择元宝-复制粘贴给元宝，就能让它帮你总结。此外，还可以将发票报销发给元宝生成表格、让元宝通过聊天记录制定个性化旅行方案等。</p>\n  <p><strong>2025年全国广播电视和网络视听行业总收入同比增长5.22%</strong></p>\n  <p>36氪获悉，国家广播电视总局发布2025年全国广播电视行业统计公报，2025年全国广播电视和网络视听行业总收入15464.29亿元，同比增长5.22%。其中，广播电视和网络视听业务实际创收收入13308.13亿元，同比增长5%；财政补助收入1042.45亿元，同比增长4.59%；其他收入1113.71亿元，同比增长8.61%。按主体分，广播电视机构总收入7171.12亿元，同比增长5.48%，广播电视新媒体业务、广电5G业务持续拉动广播电视机构收入增长；网络视听服务机构总收入8293.17亿元，同比增长5.00%。</p>\n  <p><strong>欧盟拟出台法案让儿童延迟使用社媒</strong></p>\n  <p>随着未成年人网络安全问题持续引发关注，欧盟正考虑进一步收紧儿童使用社交媒体的规则。欧盟委员会5月12日表示，欧盟最早可能于今年夏季前提出立法方案，考虑对儿童实施“延迟使用社交媒体”政策。近年来，多个欧盟成员国持续推动加强儿童网络保护。法国、西班牙、丹麦、塞浦路斯和希腊等国一直呼吁欧盟设立统一的社交媒体最低使用年龄标准。（央视新闻）</p>\n  <p><strong>宇树科技已注册多款机器人商标</strong></p>\n  <p>36氪获悉，天眼查App显示，宇树科技股份有限公司成立于2016年8月，法定代表人为王兴兴，注册资本约3.64亿人民币，经营范围包括智能机器人的研发、智能机器人销售、工业机器人制造等，由王兴兴、汉海信息技术（上海）有限公司、宁波红杉科盛股权投资合伙企业（有限合伙）等共同持股。知识产权信息显示，该公司已申请注册“机器人牌照”“KONGFBOT”“秧BOT”商标，国际分类包括运输工具、科学仪器、网站服务等，其中部分商标已成功注册。</p>\n  <p><strong>TikTok在印尼、美国、日本三国官宣生活服务品牌TikTok GO</strong></p>\n  <p>36氪获悉，TikTok近日宣布，正式在美国和日本推出生活服务品牌TikTok GO。据了解，TikTok GO去年在印尼的餐饮订单量增长超过20倍，在日本和美国分别提供了8万和36万个旅行体验服务。</p>\n  <p><strong>马斯克称星舰第12次试飞将于下周进行</strong></p>\n  <p>马斯克在X平台上转发SpaceX官方账号的帖子称，星舰第12次试飞将于下周进行。SpaceX的帖子称：“星舰的第12次飞行测试将首次展示新一代星舰和超重型飞行器，它们将搭载最新一代猛禽发动机，并从星际基地新建的发射台发射升空。本次发射最早定于5月19日下周二进行。”（新浪财经）</p>\n  <p><strong>朋友圈猛推“先息后本”背后：银行消费贷“赶搭末班车”</strong></p>\n  <p>近日，微信朋友圈成为银行抢占零售信贷市场的竞技场，记者在这里频繁刷到宁波银行、杭州银行、中信百信银行等银行的贷款营销广告，“先息后本”“年化利率3.0%起”“纯线上申请”等是常见宣传语。多款消费贷产品频频亮相朋友圈，竞逐流量入口。一时间，似乎所有用户都能在指尖触达低息贷款。业内人士表示，银行这一轮营销热潮背后，既有政策压力下的“加速跑”心态，也折射出银行在LPR连续多月“按兵不动”的利率空窗期，主动调整策略、争夺零售信贷增量的深层逻辑。（中证网）</p>\n  <h2>上市进行时</h2>\n  <p><strong>佰维存储再次递表港交所</strong></p>\n  <p>36氪获悉，据港交所文件，5月12日，深圳佰维存储科技股份有限公司向港交所提交上市申请书，独家保荐人为华泰国际。</p>\n  <h2>AI最前沿</h2>\n  <p><strong>腾讯：Hy3 preview调用量持续居OpenRouter榜首，Agent密集发布</strong></p>\n  <p>36氪获悉，腾讯发布2026年第一季度财报，AI全线提速。其中，混元不到三个月完成重建，Hy3 preview在上下文、Agent、Coding等能力上显著提升。OpenRouter数据显示，Hy3 preview结束限免期后，日Token用量和周Token调用量仍保持榜首；4月27日至5月11日连续三周登顶OpenRouter周榜总榜。今年以来，腾讯累计上线数十款通用和垂直场景Agent</p>\n  <p><strong>韩国交易所开始在资本市场监测工作中采用AI技术</strong></p>\n  <p>韩国交易所（KRX）周三表示，已开始在其资本市场监测工作中采用人工智能（AI）技术。此次正式采用人工智能技术是在韩国交易所收购本土人工智能初创公司Fair Labs约三个月后进行的，此次收购旨在加速其人工智能转型并加强其数据业务。（新浪财经）</p>\n  <p><strong>百度慧播星升级为百度一镜</strong></p>\n  <p>36氪获悉，在5月13日举办的Create2026百度AI开发者大会上，百度创始人李彦宏宣布，百度慧播星升级为“百度一镜”。从主要应用于直播带货场景的数字人，升级为以数字人为特色，包含直播、视频、实时互动等多形态的“全场景数字人平台”，并可生成几分钟乃至数小时的高互动内容。</p>\n  <p><strong>百度搭子DuMate正式亮相</strong></p>\n  <p>36氪获悉，在5月13日举办的Create2026百度AI开发者大会上，百度搭子DuMate全新推出移动端App。据了解，DuMate将百度AI搜索、秒哒、伐谋、百科等核心产品能力集成为可随时调用的内置技能，同时强化长程任务执行与主动决策能力。</p>\n  <h2>大公司财报</h2>\n  <p><strong>阿里巴巴：2026财年Q4营收2433.8亿元，同比增长3%</strong></p>\n  <p>36氪获悉，阿里巴巴发布2026财年第四财季财报。财报显示，阿里巴巴第四财季营收2433.8亿元，同比增长3%。若不考虑高鑫零售和银泰的已处置业务的收入，同口径收入同比增长将为11%；净利润为254.76亿元。</p>\n  <p><strong>腾讯：一季度营收1964.58亿元，同比增长9%</strong></p>\n  <p>36氪获悉，腾讯发布2026年第一季度财报。财报显示，腾讯一季度营收1964.58亿元，同比增长9%；Non-IFRS经营利润756.3亿元，同比增长9%。若剔除新AI产品影响，Non-IFRS经营利润同比增长17%至844亿元。期内腾讯自由现金流达567亿元。</p>\n  <p><strong>西门子第二季度净利润22.4亿欧元</strong></p>\n  <p>5月13日，西门子公布第二季度业绩报告。西门子第二季度营收为197.6亿欧元，市场预期为200.7亿欧元；第二季度净为22.4亿欧元，同比下降8.3%。（界面新闻）</p>\n  <p><strong>名创优品：预计一季度收入同比增加约113%至116%</strong></p>\n  <p>36氪获悉，名创优品公告，基于对截至2026年3月31日止季度的未经审计综合管理账目的初步审阅及评估，预计本集团将录得收入约5678百万元-5728百万元，同比增加约28%-29%；经营利润约1511百万元-1531百万元，同比增加约113%-116%；及期内利润约1228百万元-1248百万元，同比增加约195%-200%。</p>\n  <h2>投融资</h2>\n  <p><strong>“芯驰科技”完成近1亿美金C轮融资</strong></p>\n  <p>36氪获悉，5月13日，“芯驰科技”正式宣布完成近1亿美金C轮融资。本轮融资由苏产投领投，陕汽鸿德投资作为全新战略股东，亦庄国投、北京市先进制造基金、西安财金、益中亘泰等多家知名投资机构及产业资本跟投。本轮融资落地，将进一步巩固芯驰科技在车规芯片领域的技术壁垒、量产优势与产业生态布局，并加速公司从汽车到具身智能赛道的全栈“芯”突破。</p>\n  <p><strong>“微元合成”完成15亿元新一轮融资</strong></p>\n  <p>36氪获悉，近日，“微元合成”宣布完成15亿元新一轮融资，本轮融资由股权融资及长期银行贷款共同组成，其中股权融资由张其宾、谭瑞清与兴银投资参与，长期银行贷款由兴业银行北京分行提供支持。本轮融资主要用于并购豫鑫和多项大宗产品的规模化量产。</p>\n  <p class=\"editor-note\"><strong>整理</strong>｜徐嘉彤</p>",
-      "published": "2026-05-14T07:50:37+08:00",
-      "fetched_at": "2026-05-14T11:40:02.290335+08:00",
-      "pre_filter_reason": "Mentions AI model technical lead and robotics.",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.1,
-      "topics": [
-        {
-          "tag": "news_analysis",
-          "title": "林俊旸新公司估值20亿美金，AI大模型创业还有多少空间？",
-          "angle": "从林俊旸创业看中国AI大模型赛道格局，分析其估值逻辑与未来竞争焦点。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "trend",
-          "title": "贾跃亭转战机器人，网红糖果掺药——本周科技圈离谱新闻盘点",
-          "angle": "用轻松幽默的方式解读本周最热的三条科技新闻，吸引泛科技爱好者。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "4002e2cd831f",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "林俊旸果然创业了！一个“Qwen负责人”头衔值135亿",
-      "link": "https://www.qbitai.com/2026/05/416963.html",
-      "summary": "对于一家还没发产品的中国AI初创公司而言，这一估值，几乎没有先例。但相比林俊旸之前同台竞速的硅谷同行，不算贵。",
-      "published": "2026-05-13T16:44:16+08:00",
-      "fetched_at": "2026-05-14T11:40:11.286811+08:00",
-      "pre_filter_reason": "AI初创公司及前Qwen负责人创业",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 9,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.1,
-      "topics": [
-        {
-          "tag": "opinion",
-          "title": "一个“Qwen负责人”头衔值135亿？解读林俊旸创业估值密码",
-          "angle": "深度分析林俊旸个人品牌、技术背景与市场环境如何共同支撑其超高估值。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "comparison",
-          "title": "中美AI创业估值对比：林俊旸的135亿贵不贵？",
-          "angle": "对比硅谷同类AI初创公司估值，探讨中国AI创业市场的定价逻辑与泡沫风险。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "021115be5dfc",
+      "id": "bb3d654099e0",
       "source_id": "openai-blog",
       "source_name": "OpenAI Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Building a safe, effective sandbox to enable Codex on Windows",
-      "link": "https://openai.com/index/building-codex-windows-sandbox",
-      "summary": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
-      "published": "2026-05-13T19:00:00+08:00",
-      "fetched_at": "2026-05-14T11:39:58.539350+08:00",
-      "pre_filter_reason": "OpenAI的Codex相关安全沙箱，AI产品",
+      "title": "Sea's View on the Future of Agentic Software Development with Codex",
+      "link": "https://openai.com/index/sea-david-chen",
+      "summary": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.",
+      "published": "2026-05-15T04:30:00+08:00",
+      "fetched_at": "2026-05-15T11:43:28.685489+08:00",
+      "pre_filter_reason": "AI软件开发",
+      "scores": {
+        "importance": 7,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.1,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Sea Limited 如何用 Codex 加速 Agentic 软件开发？",
+          "angle": "以 Sea Limited 的实践为例，介绍 Codex 在工程团队中的部署流程与关键应用场景，包括代码生成、自动化测试和 AI 原生开发模式，适合开发者学习落地经验。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "Agentic 软件开发的未来：Sea 与 Codex 的亚洲实践",
+          "angle": "探讨 Sea Limited 选择 Codex 的战略考量，以及 Agentic 开发对亚洲科技行业的影响，包括效率提升、团队协作变化和未来趋势。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "2b20bf19a73a",
+      "source_id": "huggingface-blog",
+      "source_name": "Hugging Face Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
+      "link": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
+      "summary": "",
+      "published": "2026-05-15T02:55:01+08:00",
+      "fetched_at": "2026-05-15T11:43:31.897134+08:00",
+      "pre_filter_reason": "AI embedding model release",
       "scores": {
         "importance": 7,
         "timeliness": 6,
         "actionability": 8,
-        "scarcity": 6,
+        "scarcity": 7,
         "virality": 6,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 8.1,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Granite Embedding Multilingual R2：开源多语言嵌入模型入门指南",
+          "angle": "手把手教你如何使用 Granite Embedding Multilingual R2 进行多语言文本检索，包括模型加载、32K 上下文处理及性能调优，适合 NLP 初学者。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "Apache 2.0 下最强多语言嵌入模型：Granite R2 性能评测",
+          "angle": "对比 Granite Embedding Multilingual R2 与其他主流嵌入模型（如 BGE、E5）在检索质量、上下文长度和多语言支持上的优势，帮助开发者选择最佳模型。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "226ebf30d36d",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "人类大替代？Figure AI 人形机器人直播分拣快递：工作 33 小时处理超 4 万个包裹，但还有瑕疵",
+      "link": "https://www.ithome.com/0/950/762.htm",
+      "summary": "<p>IT之家 5 月 15 日消息，人形机器人公司 Figure AI 昨日开启了一项直播挑战，让人形机器人直播分拣快递。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/f3342692-9653-4c62-9d2d-3944f958f77b.png?x-bce-process=image/format,f_auto\" /></p><p>官方原计划挑战 8 小时的完整工作时段，机器人的任务就是把每个快递的标签页朝下摆放，然后把快递送到传送带上。</p><p>截至IT之家发文，Figure AI 机器人已顺利完成 8 小时挑战，但没有停下，<strong>已经工作了 33 个小时，分拣了超 4 万个包裹</strong>。</p><p>虽然机器人分拣效率看起来不错，不过IT之家还是从直播发现了错误，<strong>机器人偶尔会把快递包裹推到传送带外面，导致包裹掉到地上</strong>。显然，机器人是没有做出应对措施的。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/5c81cdd9-7fb7-4b63-9588-21579c59515c.webp\" /></p><p>即便还是有细微瑕疵，但机器人对于人类机械重复劳动的替代已经可以想象，一个快递分拣站放置数个机器人，只需要一个真人负责检查遗漏包裹就可以，大大降低了人力使用。</p><p>Figure AI 公司，<strong>表示这些机器人基于 Helix 02 模型，以“完全自主”模式运行</strong>，并以“人类性能水平”工作。</p><p>需要注意的是，并不是只有一个机器人进行直播，续航显然撑不住。当机器人电池电量不足时，会换一个机器人继续工作。</p><p><strong>相关阅读：</strong></p><ul class=\"small-size list-paddingleft-2\"><li><p>《<a href=\"https://www.ithome.com/0/950/713.htm\" target=\"_blank\">人形机器人上岗快递分拣员，星动纪元联手中国邮政打造</a>》</p></li></ul>",
+      "published": "2026-05-15T10:59:52+08:00",
+      "fetched_at": "2026-05-15T11:43:53.654488+08:00",
+      "pre_filter_reason": "AI humanoid robot news",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
         "crowd_heat": 0.0
       },
       "quality_score": 8.0,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "OpenAI Codex Windows沙箱搭建指南",
-          "angle": "一步步教你如何在Windows上部署安全的Codex沙箱环境，实现文件访问与网络限制。",
-          "difficulty": "中级"
+          "title": "Figure AI 人形机器人直播分拣：技术原理与实现解析",
+          "angle": "从 Figure AI 的直播挑战出发，解析人形机器人在物流分拣中的关键技术，包括视觉识别、抓取算法和任务规划，适合机器人爱好者了解当前水平。",
+          "difficulty": "入门"
         },
         {
-          "tag": "behind_the_scenes",
-          "title": "Codex安全沙箱背后的设计哲学",
-          "angle": "解读OpenAI如何平衡编码代理的功能性与安全性，分享沙箱架构的关键决策。",
+          "tag": "analysis",
+          "title": "人类会被替代吗？Figure AI 机器人分拣快递的现状与局限",
+          "angle": "分析 Figure AI 机器人 33 小时处理 4 万包裹的成果与瑕疵，探讨人形机器人在仓储物流中的实际应用边界，以及未来对人类就业的潜在影响。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "d8b58ebda80b",
-      "source_id": "36kr",
-      "source_name": "36氪",
+      "id": "fbf812237cee",
+      "source_id": "geekpark",
+      "source_name": "极客公园",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "林俊旸创业，新公司估值约20亿美金丨智能涌现独家",
-      "link": "https://36kr.com/p/3807382930251523?f=rss",
-      "summary": "<p><strong>文｜周鑫雨 邓咏仪</strong></p>\n  <p><strong>编辑｜杨轩</strong></p>\n  <p>林俊旸以创业者的身份，重新加入AI模型的战场。</p>\n  <p>《智能涌现》独家获悉，前阿里千问大模型技术负责人林俊旸近期已经开启创业，考虑方向包括世界模型和具身大脑。</p>\n  <p>目前，<strong>林俊旸已经招募数名字节、腾讯和海外背景的成员，并以约20亿美金的估值开启融资，接触基金包括红杉中国、高榕创投等</strong>。</p>\n  <p>截至发稿前，有关上述信息，林俊旸尚未回复。</p>\n  <p>时间距离3月初的那场“闪电”诀别，已经过去了两个月。</p>\n  <p>2026年3月4日凌晨，林俊旸在X上宣布离开千问：“me stepping down. bye my beloved qwen（我卸任了。再见了，我深爱的千问）。”更早前，3月3日下午，他在Qwen成员的钉钉群中发出消息：“无颜再带领大家。”</p>\n  <p>在从百模大战，快速收束至巨头争锋（字节、阿里、DeepSeek）的三年里，林俊旸是阿里Qwen留在大模型一线梯队的灵魂人物。</p>\n  <p>自2022年起，林俊旸就接手阿里Qwen团队，负责整体工作。三年以来，他主导了Qwen系列模型的研发和开源——最全尺寸、开源策略的推进，也让Qwen成为在全球开发者社区中颇具影响力的国产模型。</p>\n  <p>林俊旸掌舵的几年中，Qwen被“保护”为一个相对独立发展的组织。<a href=\"https://mp.weixin.qq.com/s?__biz=MzkwMDQ2NDU2Nw==&amp;mid=2247515781&amp;idx=1&amp;sn=0f0d7b7400ccc69fc4a1275d9f4aee8f&amp;scene=21#wechat_redirect\" rel=\"noopener noreferrer\" target=\"_blank\">《智能涌现》曾独家报道</a>，为了追求模型训练的效率，此前Qwen拥有自己的预训练、后训练、Infra团队，多个模态方向的员工也在一起工作。</p>\n  <p>但站在集团的视角中，独立，会造成业务合作的阻力。</p>\n  <p>比如，《智能涌现》曾了解到，集团重点推进的ToC超级应用“千问App”，并没有得到Qwen团队的积极支持。</p>\n  <p>2026年3月3日，一场围绕Qwen团队拆分重组的沟通会，成了林俊旸离职的导火索。</p>\n  <p>当天下午，阿里云CTO周靖人向林俊旸传达了Qwen调整的计划：将原来的Qwen，拆分成预训练、后训练、文本、图像、语音等相对独立的水平团队。一天后，林俊旸官宣了自己的离开。</p>\n  <p>具身智能，成了林俊旸重回AI战场的切入赛道。</p>\n  <p>这一方向，也是他在阿里的未竟之业。2025年10月，林俊旸就在Qwen组建了一支专注于机器人与具身智能的小团队。</p>\n  <p>在X上，他提出了自己的判断：“多模态基础模型正在转化为基础代理，通过强化学习利用工具和记忆进行长时序推理。它们应该从虚拟走向物理世界！”</p>\n  <p>在硅谷，已经有数名AI大牛，投身于世界模型和具身大脑。</p>\n  <p>前谷歌副总裁、AI“教母”李飞飞创立的空间智能公司World Labs，在2026年2月官宣了10亿美金的融资，估值高达50亿美金；</p>\n  <p>3月，杨立昆（Yann LeCun，图灵奖得主）和谢赛宁（DiT架构提出者）成立的世界模型公司AMI Labs，在没有任何产品的情况下，完成了10.3亿美元的种子轮融资，投前估值就达到了35亿美元。</p>\n  <p>同样入局具身大脑的华人研究员周衔，其成立的Genesis AI在2025年7月，宣布完成1.05亿美元的种子轮融资。</p>\n  <p>在LLM技术路线收敛的情况下，路线存在诸多争议和可能性的具身智能、世界模型，恰恰成了VC和AI大牛愿意押注的非共识。</p>\n  <p>曾有AI行业人士对《智能涌现》评价：“林俊旸至少是1亿美金以上级别的人才。”但如今，也有投资人表达了��技术人才创业的担忧：“大厂没有那么自由，但也提供了相对安全、可控的环境。技术高管创业，往往容易在商业化上水土不服。”</p>\n  <p>抛除阿里时代的技术光环，创业者林俊旸接下来直面的，将是商业世界的考验。</p>\n  <p><strong>封面来源｜相关活动主办方</strong></p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260513/v2_57bc9aea42d041e9a8f7e2a516e46202@5783683_oswg478457oswg1080oswg402_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">欢迎交流！</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260513/v2_8521dcbdd740450f9e0bc6ae269d0aec@5783683_oswg53997oswg900oswg335_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">欢迎交流！</p>",
-      "published": "2026-05-13T15:24:16+08:00",
-      "fetched_at": "2026-05-14T11:40:02.290371+08:00",
-      "pre_filter_reason": "AI model entrepreneur and startup news",
+      "title": "马斯克、库克、黄仁勋盛赞中美元首会晤；英伟达市值破 5.5 万亿美元，超德国 GDP；《GTA6》将于 11 月 19 日零点解锁｜极客早知道",
+      "link": "http://www.geekpark.net/news/364185",
+      "summary": "<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/30/a9/30a91cafe678ae318467bb79a5f1a039.png\" /></p>\n<h2>马斯克 360 度转圈拍摄人民大会堂，黄仁勋：这会是一次非常成功的会晤</h2>\n<p>5 月 14 日，上午，国家领导人在北京人民大会堂东门外广场举行仪式，欢迎美国总统特朗普开启访华行程。据中国新闻网，仪式开始前，随同特朗普访华的特斯拉首席执行官马斯克，现场用手机 360 度转圈兴拍摄人民大会堂。</p>\n<p>英伟达首席执行官黄仁勋在接受采访时表示：这会是一次非常成功的会晤。</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/5e/01/5e01af31ce758630e8c47cd68a52dfaa.png\" /></p>\n<p>据悉，元首会谈结束后，马斯克、黄仁勋、库克等一众知名商界领袖陆续从人民大会堂离场，等候在外的白宫随行记者团第一时间上前，询问各位企业家对本次会谈的直观感受。</p>\n<p>马斯克首先给出了十分积极的回应，直言整个会谈过程非常顺利，当下已经有很多对产业发展利好的好事正在发生。</p>\n<p>库克面对镜头先是比了个庆贺的手势，随后又竖起大拇指，用直白的肢体动作表达对本次会谈结果的认可，而黄仁勋受访时也表示会谈进行得十分顺畅，直言两国元首的交流状态都棒极了。（来源：快科技）</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/42/7b/427bd1312cac0dae531d8861f55d7737.png\" /></p>\n<h2>英伟达市值破 5.5 万亿美元，超世界第三大经济体德国 GDP</h2>\n<div class=\"post_content \" id=\"paragraph\">\n<p>5 月 14 日，英伟达（NVIDIA）公司市值盘中首次突破 5.5 万亿美元，刷新全球上市公司市值历史最高纪录，也是全球首家站上这一关口的上市公司。</p>\n<p>英伟达在当天早盘后股价上涨 3%，从 2026 年年初至今，公司市值已增长 19.58%，进一步巩固其全球市值最高公司的位置。</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/cf/6d/cf6d930e79521c606112605b200978f1.png\" /></p>\n<p>从横向对比看，英伟达已明显甩开主要科技巨头，谷歌母公司 Alphabet 市值为 4.86 万亿美元；苹果公司市值为 4.39 万亿美元，微软公司市值为 3.01 万亿美元。（来源：IT 之家）</p>\n<p>&nbsp;</p>\n</div>\n<h2>Anthropic 企业采用率首超 OpenAI</h2>\n<p>5 月 14 日，Ramp AI Index 日前发布报告称，Anthropic 的企业采用率于 4 月上升 3.8%，达到 34.4%；OpenAI 采用率下降 2.9%，至 32.3%。</p>\n<p>过去一年中，Anthropic 的企业采用率增长 4 倍，而 OpenAI 的企业采用率仅增长了 0.3%。报告来自企业信用卡与财务自动化平台 Ramp，该平台追踪了超过 5 万家美国企业的支出模式。</p>\n<p>但该报告也指出，Anthropic 的优势可能并不像表面看起来那样稳固：不断上升的成本、算力限制，以及推动公司营收高速增长的「基于 Token 计费」模式本身，都可能对其构成威胁。</p>\n<p>同日，Anthropic 公司与盖茨基金会达成 2 亿美元的合作伙伴关系。（来源：格隆汇）</p>\n<p>&nbsp;</p>\n<h2>微软寻求收购 AI 公司以摆脱对 OpenAI 依赖</h2>\n<p>5 月 14 日，据外媒，知情人士称，微软正寻求收购人工智能初创公司，为摆脱对曾经至关重要的合作伙伴 OpenAI 的依赖做准备。潜在收购将帮助微软储备 AI 人才，并推进此前提出的在明年前打造一款先进 AI 模型的目标。</p>\n<p>知情人士称，今年春季，微软曾考虑收购代码生成初创公司 Cursor，但由于内部评估认为该交易因微软持有 GitHub Copilot 而难以通过监管审查，微软最终放弃了这一计划。微软目前正与 Inception 展开谈判，这是一家由斯坦福大学团队创立的小型初创公司，专注于采用一种名为「扩散」（diffusion）的技术开发大语言模型。</p>\n<p>微软旗下风险投资基金 M12 于 2025 年末参与了 Inception 5000 万美元的种子轮融资。微软在竞购中还面临来自其他科技巨头的强劲竞争，尤其是马斯克旗下的 SpaceX。知情人士表示，SpaceX 也曾接触 Inception。（来源：格隆汇）</p>\n<p>&nbsp;</p>\n<h2>Anthropic 高管：公司 90% 代码已由 AI 完成</h2>\n<p><span class=\"Apple-converted-space\">5 月 18 日，</span>Anthropic 首席财务官表示，AI 已编写公司 90% 的代码，使白领工作重心从执行转向监督。这些言论透露出这家硅谷顶级 AI 公司对未来白领工作的看法：AI 未必会直接消灭大量岗位，但会自动化掉员工日常工作中的大部分执行任务，使员工逐渐变成 AI 系统的「监督者」。（来源：财联社）</p>\n<p>&nbsp;</p>\n<div class=\"post_content \" id=\"paragraph\">\n<h2>腾讯辟谣「AI 一号位即将离职」：纯属子虚乌有</h2>\n<p>5 月 14 日，据「鹅厂黑板报」微信公众号消息，腾讯公司发布严正辟谣：今天中午，有自媒体谣传「AI 一号位即将离职」并影射腾讯，此谣言纯属子虚乌有。腾讯在此严正辟谣，并保留对相关恶意造谣者追究法律责任的权利。</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/eb/b0/ebb0ff562a6e627fa2e1ca28412958cb.png\" /></p>\n<p>尽管腾讯未点名谣言涉及的具体人物，但从官方放出的截图来看，谣言可能指向现任 AI 负责人姚顺雨。</p>\n<p>姚顺雨于 2025 年 12 月 17 日出任腾讯「CEO / 总裁办公室」首席 AI 科学家，直接向总裁刘炽平汇报，同时兼任新成立的 AI Infra 部和大语言模型部负责人。（来源：IT 之家）</p>\n</div>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/ad/47/ad47a7f3b1763c69859a6df1bf4c65de.png\" /></p>\n<header></header>\n<h2><span style=\"font-size: 22px;\">黄仁勋称 5 年前的 GPU 就像老酒：它们越陈越香，还会涨价</span></h2>\n<article>\n<p>5 月 14 日，在 AI 需求进入爆发周期的背景下，GPU 成为最紧缺的算力资源之一，甚至 5 年前的旧芯片也开始持续涨价。</p>\n<p>据媒体报道，近日，英伟达 CEO 黄仁勋将这一现象称为「Fine Wine（好酒效应）」。</p>\n<p>据了解，Fine Wine 这一说法最早用于 AMD Vega 时期，用来形容 GPU 通过驱动优化持续提升性能，不过现在的含义已经发生变化，更多被用来描述 GPU 价格随时间上涨。</p>\n<p>英伟达方面表示，AI 需求正在推动 GPU 市场进入爆发式增长阶段，全球几乎所有运行 AI 业务的数据中心都依赖 GPU，尽管 CPU 需求同步增长，但 GPU 仍然是核心算力来源。</p>\n<p>当前，全球半导体厂商产能紧张，这一紧张局面进一步推高包括 GPU 在内的各类硬件价格，而旧一代 GPU 也同样受到影响。</p>\n<p>即使是 4-5 年前的产品，目前仍在持续升值。黄仁勋指出，旧 GPU 的涨价速度甚至超过好酒陈化速度，在市场中仍然具有强需求。（来源：快科技）</p>\n<p>&nbsp;</p>\n<h2>ChatGPT 网页端流量份额一年内从 77.6% 跌至 53.7%，谷歌 Gemini 快速追赶</h2>\n<p>5 月 14 日，Similarweb 发布了主流 AI 聊天机器人最新的网站流量数据，ChatGPT 的领先优势正在快速缩小。一年前，其流量占比高达 77.6%，如今已跌至 53.7%。</p>\n<p>谷歌 Gemini 成为最大赢家，同期流量占比从 7.3% 飙升至 26.7%。Anthropic 旗下的 Claude 同样涨幅显著，从 1.4% 攀升至近 8%。</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/b1/88/b1887c112fa0332782cc159b3e3e1088.png\" /></p>\n<p>Deepseek 小幅下滑，从 6% 降至 4%；Grok 维持平稳，稳定在 3% 左右；微软 Copilot 与 Perplexity 的流量占比均仍低于 2%。</p>\n<p>需要注意的是，以上数据仅统计网页端流量。尤其是 OpenAI 和 Anthropic，其大部分营收来自 API 接口服务、编程工具以及桌面端和移动端应用，这些渠道流量均未纳入本次统计。反观谷歌，则可以通过安卓系统和谷歌搜索轻松为 Gemini 导流，而目前的流量格局几乎必然是这一因素导致的。（来源：IT 之家）</p>\n<h2>&nbsp;</h2>\n<h2>MiniMax Agent 升级更名为 Mavis，推出 Agent Teams 重构多智能体协作</h2>\n<article>\n<p>5 月 14 日，MiniMax 正式宣布将其 Agent 产品整体升级并更名为 Mavis（MiniMax as a Jarvis）。此次更新核心上线了 Agent Teams 功能，支持多个 Agent 并行协作处理复杂任务，并将 TokenPlan 与 Agent Plan 合并，实现 CLI、API 及全模型互通。</p>\n<p>针对单 Agent 在长任务中易中断、上下文失焦及响应延迟等痛点，Mavis 推出了由 Leader、Worker 和 Verifier 构成的 Team Engine 架构。该架构通过 Leader 统筹拆解任务，Worker 专业化执行，Verifier 独立进行质量校验与对抗式迭代，将多 Agent 系统从简单的 Prompt 编排升级为具备状态管理与上下文隔离的基础设施。</p>\n<p>Mavis 目前已落地于即时通讯、代码开发、行业调研及办公文档四大核心场景。通过将「即时响应」与「后台执行」分离，Mavis 有效解决了 IM 场景下的长任务等待难题；在 Coding 与文档生成中，则通过确定性的代码逻辑驱动与分阶段验证，大幅提升了复杂任务的交付质量与可靠性。（来源：品玩）</p>\n<p>&nbsp;</p>\n</article>\n<h2>台积电预测 2030 年全球半导体市场将突破 1.5 万亿美元，AI 与高性能计算占主导</h2>\n<p>5 月 14 日，据路透社报道，全球最大晶圆代工厂台积电今日在一场科技研讨会前夕发布的演示资料中预计，2030 年全球半导体市场规模将突破 1.5 万亿美元（现汇率约合 10.21 万亿元人民币），高于此前 1 万亿美元的预测值。</p>\n<p>台积电表示，在 1.5 万亿美元的市场规模中，人工智能与高性能计算领域预计占比 55%，智能手机占 20%，汽车应用占 10%。</p>\n<p>台积电称，2022 年至 2026 年，AI 加速器晶圆需求量预计增长 11 倍。（来源：IT 之家）</p>\n<p>&nbsp;</p>\n<header>\n<h2>马斯克用中文发贴：我的儿子正在学普通话</h2>\n</header>\n<p>5 月 14 日，特斯拉 CEO 伊隆&middot;马斯克还在 X 上用中文发贴称：「我的儿子正在学习普通话。」。马斯克目前正在北京，陪同美国总统特朗普访华。此次来中国，他还带上了自己的 6 岁小儿子 X。</p>\n<p><img src=\"https://imgslim.geekpark.net/uploads/image/file/67/d7/67d7f936ebd994dbf7f0b749b2eb79e7.png\" /></p>\n<p>在今天下午举行中美工商界代表会议时，马斯克就被拍到带着 X 走进人民大会堂。X 当时身穿中式马甲戴虎头帽。陪同马斯克的还有特斯拉中国区总裁朱晓彤。（来源：cnBeta）</p>\n</article>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/5a/92/5a92ba0919d873713c86797952c6a650.png\" /></p>\n<div class=\"post_content \" id=\"paragraph\"><header>\n<h2>《GTA6》将于北京时间 11 月 19 日零点解锁</h2>\n<p>5 月 18 日，PlayStation 公开了《GTA6》在全球各地区的解锁时间，新西兰玩家抢先一步，成为最早能游玩《GTA6》的玩家，11 月 18 日 19 点解锁，中国时区将在 11 月 19 日 0 点解锁。</p>\n</header>\n<p>若是按时区解锁，那么《GTA6》首批解锁的国家和地区会在网络上出现剧透现象。预计在首批地区上线后，社交媒体平台、直播频道和游戏论坛将会异常活跃。</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/d5/08/d50825f901634ad611f37c8fc62521b0.png\" /></p>\n<p>自公布发售日以来，R 星一直保持低调，但外界普遍猜测该公司将在发售前的几个月加大市场推广力度。业内人士猜测，R 星可能会在 11 月之前发布另一支重磅预告片，其中可能包含更多游戏画面和技术细节。</p>\n<p>《GTA6》将于 11 月 19 日发售，首发登陆 PS5 和 Xbox Series 平台。（来源：IT 之家）</p>\n<h2>&nbsp;</h2>\n<h2>苹果 iPhone 18 Pro / Max 再爆：主打「深樱桃色」，后摄布局不变</h2>\n<p>5 月 14 日，消息源 @MajinBuofficia 在 X 平台发布推文，分享了一组摄像头保护元件照片，展示了苹果 iPhone 18 Pro 和 iPhone 18 Pro Max 的颜色。</p>\n<p>颜色方面，接棒&nbsp;iPhone 17 Pro&nbsp;系列的星宇橙，消息称苹果&nbsp;iPhone 18&nbsp;Pro 系列的主打色为「深樱桃」（Dark Cherry），颜色偏向深酒红色。</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/dd/4c/dd4cc019586d673b325ce5894fd16504.png\" /></p>\n<p>消息称除了「深樱桃色」外，苹果还在测试浅蓝、深灰及银色版本，其中浅蓝色比较接近 iPhone 17 的青雾蓝色（Mist Blue），是一款低饱和度、带灰调的雅致色调。（来源：IT 之家）</p>\n<p>&nbsp;</p>\n<h2>Meta 将在 WhatsApp 上推出「隐身聊天」功能 &nbsp;</h2>\n<p>5 月 14 日，Meta Platforms 周三表示，该公司正在其 WhatsApp 即时通讯服务的人工智能助手中推出一项新的「隐身聊天」功能，旨在解决用户对数据隐私的担忧。Meta 表示，隐身聊天将依托私有处理技术，确保对话对任何人（包括公司自身）都不可见。</p>\n<p>Meta 在一篇博客文章中表示「您的对话不会被保存，默认情况下消息会自动消失&mdash;&mdash;这为您提供了一个不受任何人监视的思考和探索想法的空间。」（来源：新浪财经）</p>\n</div>\n<p><img src=\"https://imgslim.geekpark.net/uploads/image/file/88/5a/885a3cf750d3c20d471b42b70c6323c3.png\" style=\"text-align: center;\" /></p>\n<div class=\"post_content \" id=\"paragraph\">\n<h2>时隔 13 年再同框，雷军用小米 17 Pro 与马斯克合影&nbsp;</h2>\n<p>5 月 14 日，十余家美国知名企业高管随美国总统特朗普访华，其中包括苹果 CEO 蒂姆&middot;库克、英伟达 CEO 黄仁勋、特斯拉 CEO 埃隆&middot;马斯克等。</p>\n<p>公开报道显示，特朗普于 5 月 13 日晚抵达北京，开始对中国进行国事访问。</p>\n<p>据媒体报道，马斯克、库克等美国科技企业高管出席了今晚在人民大会堂金色大厅举行的欢迎宴会。现场视频显示，马斯克坐在座位上时，不少嘉宾上前与其合影，一名男士坐到马斯克右侧准备合影后，小米 CEO 雷军走到马斯克身旁，拍了拍他的肩膀。</p>\n<p>马斯克回头后，雷军与其握手致意，合影完成后，雷军拿出小米 17 Pro 与马斯克自拍合照。</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/b3/1d/b31d1a64cbe334f5a10d2969ba8d2f57.png\" /></p>\n<p>值得一提的是，在与雷军自拍时，马斯克还对着镜头做出了俏皮 Wink（眨眼）表情，现场氛围十分轻松。</p>\n<p>公开信息显示，雷军与马斯克的行业交流可追溯至十余年前。2013 年，雷军曾前往美国拜访马斯克，实地参观特斯拉总部工厂，并首次与马斯克合影。（来源：快科技）</p>\n</div>",
+      "published": "2026-05-15T08:35:21+08:00",
+      "fetched_at": "2026-05-15T11:43:49.264017+08:00",
+      "pre_filter_reason": "黄仁勋是英伟达CEO，英伟达是AI芯片公司，涉及AI",
       "scores": {
-        "importance": 9,
-        "timeliness": 8,
+        "importance": 8,
+        "timeliness": 9,
         "actionability": 9,
-        "scarcity": 9,
+        "scarcity": 7,
+        "virality": 10,
+        "crowd_heat": 10.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "科技巨头如何看待中美元首会晤？马斯克、库克、黄仁勋观点解读",
+          "angle": "整理马斯克、库克和黄仁勋对中美元首会晤的公开表态，分析其对科技行业（如芯片、AI、贸易）的潜在影响，适合关注政策与商业交叉的读者。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "英伟达市值破 5.5 万亿美元：超越德国 GDP 意味着什么？",
+          "angle": "从英伟达市值突破 5.5 万亿美元这一事件切入，分析其背后的 AI 算力需求驱动、与全球经济的对比，以及对科技投资趋势的启示。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "865d065ecd52",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Helping ChatGPT better recognize context in sensitive conversations",
+      "link": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
+      "summary": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
+      "published": "2026-05-14T08:00:00+08:00",
+      "fetched_at": "2026-05-15T11:43:28.685562+08:00",
+      "pre_filter_reason": "ChatGPT safety updates and context awareness.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 7,
+        "scarcity": 7,
         "virality": 8,
         "crowd_heat": 0.0
       },
       "quality_score": 8.0,
       "topics": [
         {
-          "tag": "news_analysis",
-          "title": "独家：林俊旸创业细节曝光，世界模型与具身大脑成新方向",
-          "angle": "梳理林俊旸创业团队背景、融资进展与技术路线，预测其可能带来的行业影响。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "career",
-          "title": "从阿里千问负责人到创业者：林俊旸的职业跃迁启示录",
-          "angle": "分析林俊旸的职业路径，为AI从业者提供创业时机选择、团队搭建等实用建议。",
+          "tag": "tutorial",
+          "title": "ChatGPT敏感对话安全升级：如何提升上下文理解能力",
+          "angle": "详细解读ChatGPT最新安全更新，通过实际案例演示如何利用新功能识别敏感对话中的风险信号，并给出最佳实践建议。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "33f486fb1587",
-      "source_id": "github-ai-repos",
-      "source_name": "GitHub AI 新项目",
+      "id": "867d539e8e2b",
+      "source_id": "reddit-ml",
+      "source_name": "Reddit r/MachineLearning",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "alistaitsacle/free-llm-api-keys",
-      "link": "https://github.com/alistaitsacle/free-llm-api-keys",
-      "summary": "Free LLM API keys for GPT-5.4, Claude, DeepSeek, Gemini, Grok — copy, paste, use. Updated 3-5x daily. No credit card needed.",
-      "published": "2026-05-14T11:40:28.846323+08:00",
-      "fetched_at": "2026-05-14T11:40:28.846324+08:00",
-      "pre_filter_reason": "免费LLM API密钥，涉及AI模型",
+      "title": "arXiv implements 1-year ban for papers containing incontrovertible evidence of unchecked LLM-generated errors, such as hallucinated references or results. [N]",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1tdje2d/arxiv_implements_1year_ban_for_papers_containing/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>From Thomas G. Dietterich (arXiv moderator for cs.LG) on 𝕏 (thread):<br /> <a href=\"https://x.com/tdietterich/status/2055000956144935055\">https://x.com/tdietterich/status/2055000956144935055</a><br /> <a href=\"https://xcancel.com/tdietterich/status/2055000956144935055\">https://xcancel.com/tdietterich/status/2055000956144935055</a></p> <p>&quot;Attention arXiv authors: Our Code of Conduct states that by signing your name as an author of a paper, each author takes full responsibility for all its contents, irrespective of how the contents were generated.</p> <p>If generative AI tools generate inappropriate language, plagiarized content, biased content, errors, mistakes, incorrect references, or misleading content, and that output is included in scientific works, it is the responsibility of the author(s).</p> <p>We have recently clarified our penalties for this. If a submission contains incontrovertible evidence that the authors did not check the results of LLM generation, this means we can't trust anything in the paper.</p> <p>The penalty is a 1-year ban from arXiv followed by the requirement that subsequent arXiv submissions must first be accepted at a reputable peer-reviewed venue.</p> <p>Examples of incontrovertible evidence: hallucinated references, meta-comments from the LLM (&quot;here is a 200 word summary; would you like me to make any changes?&quot;; &quot;the data in this table is illustrative, fill it in with the real numbers from your experiments&quot;).&quot;</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Nunki08\"> /u/Nunki08 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tdje2d/arxiv_implements_1year_ban_for_papers_containing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tdje2d/arxiv_implements_1year_ban_for_papers_containing/\">[comments]</a></span>",
+      "published": "2026-05-15T10:44:10+08:00",
+      "fetched_at": "2026-05-15T11:43:59.912699+08:00",
+      "pre_filter_reason": "AI paper policy on LLM errors",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 9,
+        "virality": 9,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "arXiv新规：LLM生成错误论文将被封禁一年，如何避免踩雷？",
+          "angle": "解析arXiv对AI生成错误内容的封禁政策，提供研究人员使用LLM辅助写作时的自查清单和避坑指南。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "20c20e6e5758",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "田渊栋AI创业估值315亿，老黄苏妈都投了，姚班施天麟也是合伙人",
+      "link": "https://www.qbitai.com/2026/05/417468.html",
+      "summary": "谷歌GV、Greycroft联合领投这轮早期融资，英伟达、AMD等也参与其中",
+      "published": "2026-05-14T15:14:05+08:00",
+      "fetched_at": "2026-05-15T11:43:44.063227+08:00",
+      "pre_filter_reason": "AI创业公司融资，涉及AI模型",
       "scores": {
         "importance": 8,
         "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 7,
+        "actionability": 8,
+        "scarcity": 8,
         "virality": 9,
         "crowd_heat": 0.0
       },
@@ -212,89 +274,219 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "免费获取GPT-5/Claude/DeepSeek API密钥终极指南",
-          "angle": "手把手演示如何从该仓库获取并配置免费API密钥，对比各模型效果，适合开发者快速接入",
+          "title": "田渊栋AI创业估值315亿：姚班学霸的创业密码",
+          "angle": "拆解田渊栋团队的技术背景与融资策略，分析英伟达、AMD等巨头投资背后的AI硬件生态布局。",
           "difficulty": "入门"
-        },
-        {
-          "tag": "opinion",
-          "title": "免费API密钥泛滥：AI开发者的狂欢还是行业隐忧？",
-          "angle": "分析免费API密钥对中小开发者、大模型厂商和行业生态的影响，探讨可持续性",
-          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "1002aa4db973",
+      "id": "28ff88a4d3f9",
+      "source_id": "hn-ai",
+      "source_name": "Hacker News (AI)",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "Ontario auditors find doctors' AI note takers routinely blow basic facts",
+      "link": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
+      "summary": "<p>Article URL: <a href=\"https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771\">https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48142188\">https://news.ycombinator.com/item?id=48142188</a></p>\n<p>Points: 147</p>\n<p># Comments: 67</p>",
+      "published": "2026-05-15T06:37:40+08:00",
+      "fetched_at": "2026-05-15T11:43:58.900270+08:00",
+      "pre_filter_reason": "AI笔记工具",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "安大略省审计发现：AI医疗笔记工具频繁出错，医生如何正确使用？",
+          "angle": "基于审计报告中的真实错误案例，总结AI医疗笔记工具的常见陷阱，并提供医生部署前的验证流程。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "a3d448c97b73",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Work with Codex from anywhere",
+      "link": "https://openai.com/index/work-with-codex-from-anywhere",
+      "summary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
+      "published": "2026-05-14T21:00:00+08:00",
+      "fetched_at": "2026-05-15T11:43:28.685544+08:00",
+      "pre_filter_reason": "AI coding tool Codex integration",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 4,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Codex移动端新功能：随时随地远程监控编程任务",
+          "angle": "演示如何通过ChatGPT手机App连接Codex，实时查看、调整和批准远程环境中的代码任务，提升移动办公效率。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "720af5393ea0",
+      "source_id": "geekpark",
+      "source_name": "极客公园",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "DeepSeek 融资后，大模型领域会有什么新格局？",
+      "link": "http://www.geekpark.net/news/364208",
+      "summary": "<p>最近业界都在传，DeepSeek 进行了目标可能高达 500 亿人民币的首轮融资，将刷新中国大模型公司单轮融资最高纪录。据我了解到的消息，是不是 500 亿的规模虽然无法确定，但其首轮融资金额已打破纪录并严重超募，成功完成首轮融资已成定局。</p>\n<p>那么，今天这样的形势下，中国大模型玩家的未来格局是什么样的？甚至未来市场上能有多少家大模型玩家？这些玩家将如何构成？其实挺值得讨论一下。</p>\n<p>&nbsp;</p>\n<h3><strong>竞赛规则和目标越来越明确</strong></h3>\n<p>先说个业界的共识：Scaling law 并没有到头，</p>\n<p>「更多维度的数据，更高质量的数据工程，更大的算力带来的更庞大的基模，还在给模型能力带来快速增长，甚至这种能力的成长还没有看到边界。」这基本上是现阶段硅谷一线 Researcher 的共识。</p>\n<p>这种共识代表着某种「确定性」，这意味着提升模型智能水平，在一定程度上从一个高风险的科学探索问题，开始更靠近一个高投入的工程和资本问题。只要有足够的数据、算力和工程执行力，持续投入就能换来相对可预期的智能提升。</p>\n<p><strong>与此同时</strong><strong>智能本身也逼近了一个临界点&mdash;&mdash;智能程度足以实现自进化。</strong>Anthropic Claude Cowork 的代码全部由 Claude Code 产出，并在十天中完成。用当前最先进的智能生产力，投入下一代智能的迭代，这种模型能力到达某种临界点后，可用于提升下一代模型的训练效率或数据质量的现实，开始给人一种近乎「左脚踩右脚」的梯云纵的想象。</p>\n<p>相信中国模型领域应该也已经迅速形成了两个共识：</p>\n<p>一方面，无论大厂还是创业公司，都必须拼尽全力，<strong>尽快跨过这道临界点</strong>。跨不过去，差距将被彻底拉开，牌桌就没有你的位置。</p>\n<p>另一方面，这并不是靠一代、两代模型 SOTA 就能赢得的比赛。它是一场星际飞行，在一个足够长的时间里，玩家们比拼的是<strong>持续的加速度</strong>，而非某一次的冲刺加速。这意味着，你需要足够大的「能量池」，才能留在竞赛里。<br /><br /></p>\n<h3><strong>模型</strong><strong>将</strong><strong>不只是</strong><strong>现有</strong><strong>巨头的游戏</strong></h3>\n<p>训练模型需要巨大的资源消耗，上顶级模型牌桌的入场券大概就得 10 亿美元级别。这笔钱，依靠一级市场的融资已经非常不易。但这很可能仅仅是「起步价」。</p>\n<p>真正的考验在于，你是否具备「百亿甚至千亿美元」级别的持续投入能力。这笔钱大概率无法单靠融资，它可能来自两个核心支柱之一：<strong>一个能持续产生巨额利润的强大业务，或是能被资本市场长期、海量注资的信心。</strong></p>\n<p>虽然模型一度被认为是独属于「巨头」的游戏，但随着这场游戏的确定性和「规则」逐渐明确，反而现在有一些新玩家在入场，他们未必是传统意义上的巨头，但是他们也有强烈的入场动力。</p>\n<p><strong>这背后的思考是，</strong><strong>基础</strong><strong>大模型并非一个产品，而是这个时代的「工业母机」。</strong>拥有自主、可控、持续迭代的模型能力，相当于在新时代拥有了自己的核心工业体系。反之，如果完全依赖外部模型 API，就像你只能做来料加工甚至是服务业，而不拥有核心的工业体系，那么无论你的应用层业务多么繁荣，都会面临「空心化」的问题，沦为他人工业链条中的一环。当然，更大的问题是你也会严重缺少在新时代开疆辟土的「工业能力」。</p>\n<p>基于此，中国的模型牌桌上可能将会有三类玩家：</p>\n<p><strong>第一类玩家是科技巨头，例如阿里、字节、腾讯。</strong></p>\n<p>他们的核心优势并非单纯的资本，而是他们都有着非常强大的主营业务。</p>\n<p>这种优势对于训模型的重要性，可以从「云」的发展中窥见：阿里云之所以能成为亚洲第一云，根源在于它诞生于双十一的极限交易洪峰中，是被自有业务的极端场景「逼」出来的基础设施。亚马逊 AWS 也是如此。</p>\n<p>所以科技巨头作为第一梯队的核心优势在于他们强大的「A 面」&mdash;&mdash;电商、社交、内容等庞大的主营业务，是「B 面」模型引擎的天然训练场与价值出口。</p>\n<p>对科技巨头而言，投入模型研发并非选项，而是必须。放弃自研模型，就意味着平台「空心化」，将未来的「工业主权」拱手让人，这是他们绝对无法接受的。</p>\n<p>比如之前比较被大家忽视的腾讯，其最近的模型虽然还没有 SOTA 到引人注目，但已经看得出在快速追赶和提速。按照这种发展趋势，未来也一定是不可忽视的力量。</p>\n<p><strong>第二类玩家是 MiniMax、智谱、月之暗面、阶跃星辰这类模型创业公司。</strong></p>\n<p>他们是本轮浪潮中最敏锐的先行者，他们因模型而来，也 all in 模型，凭借技术信仰和敏锐的执行力，在模型能力上紧咬前沿。</p>\n<p>作为新兴公司，他们的优势理应体现在更高的组织效率、更敏捷的执行力，以及在技术上的原生「天赋点」，能以相对更优的效率取得成果。</p>\n<p>但他们面临的挑战也显而易见：如何解决持续长跑的燃料问题？因此长出一个强大的 A 面业务一定是值得追求的。</p>\n<p>例如相对于 OpenAI，Anthropic 最近一年多来在硅谷更受推崇，就是因为它凭借 Claude Code 等产品迅速建立起了强大的 A 面，展现了从第二类向第一类玩家迁移的趋势。</p>\n<p><strong>在全球化中寻找出路或许</strong><strong>是一个要探索的方向。</strong>毕竟在中美两大市场之外，广阔的全球市场提供了巨大空间。将模型能力或基于模型的产品，像电力一样输出到全球不同角落，用一定的价值循环做支点，驱动模型引擎的持续迭代，形成价值闭环。这条路不容易，但概率不为零。</p>\n<p><strong>相对于我们比较熟悉的前两类，</strong><strong>第三类</strong><strong>玩家也很值得讨论。</strong></p>\n<p>这类玩家是战局中最值得关注的变量。他们虽然没有巨头的体量，但具备几个典型的特征：<strong>较高的利润率、可观的利润规模、有砸几十亿美元的投入决心，以及创始人</strong><strong>自己</strong><strong>对大模型领域足够深的投入</strong><strong>，在技术决心和业务决定上的极度笃定</strong>。</p>\n<p>DeepSeek 就是这类里最独树一帜的代表。它正是基于幻方量化在长期量化交易业务中锤炼的 AI 与超算技术能力而创立，也得益于幻方量化这个坚实业务 A 面的支撑，加之创始人梁文峰兼具决心、意愿与模型领域的能力，使 DeepSeek 成为了业界不可忽视的力量。</p>\n<p>但当所有人都意识到模型是一场长跑时，仅靠一个中型 A 面业务的利润支撑是不足的。因此，这也解释了 DeepSeek 走向融资就是一种必然选择。</p>\n<p>此外，DeepSeek 之所以受到大力加持，还在于其<strong>独特的战略站位</strong>。首先 DeepSeek 在开源路线上已经在建立初步的生态，实际上带动了硅基流动、无问芯穹等公司的存在。同时，在所有国内大模型公司里，DeepSeek 也是与国产算力生态整合最为积极和坚定的。毕竟对于其他巨头和创业公司而言，这是一条充满不确定性与挑战的、让他们很难 all in 的道路，但 DeepSeek 做出了这个选择，使其在事实上承载了部分与国家科技战略相关的使命。这种与国家战略的深度共振，超越了单一的商业业务，构成了其更宏大、也更稳固的一个「A 面」。</p>\n<p>这不仅仅意味着 DeepSeek 可能获得不亚于大厂的持续资源能力，也意味着开源模型领域的进一步能力加强，成为了中美闭源大模型之外的一股对冲力量。</p>\n<p>其实我还有一个大胆的推测，大模型玩家中，可能<strong>还有一个</strong><strong>值得重点关注的是</strong><strong>米哈游创始人之一的蔡浩宇创立的 AI 公司 Anuttacon</strong>，其近期发布的 LPM 1.0 表演模型可能只是一道「前菜」。据传蔡浩宇在 LLM 上的专注投入已经开始一段时间了。</p>\n<p>另外的一个证据是在米哈游 4 月 17 日的官方校招信息中，已明确开始为「基础大模型」举办技术分享暨顶尖校招生招募，并清晰地指出这是基于「自研 Foundation Model」。更值得注意的是，信息中提到米哈游的另一位创始人刘伟也将前往现场共同探讨交流。从这也看得出来，投身基础大模型大概率不只是蔡浩宇的个人兴趣和动作，而可能是创始团队在这方面达成了共同的决心，是一次重要的集体战略选择。</p>\n<p>从基本能力上看，米哈游的游戏业务年收入在百亿美元级别，利润可能在 30-40 亿美元区间。同时蔡浩宇已经建立独立的公司，应该已经开始明确集中精力聚焦于大模型领域。他大概率不是像之前外界猜测的那样只是围着未来游戏引擎来搞模型&mdash;&mdash;虽然最开始的出发点可能确实有这个因素。因为从当下模型的发展趋势看，就算最终其模型的能力可以帮助米哈游创造「AI 世代的新游戏」，那也一定不会只是垂直于游戏领域的「AI 游戏引擎」，而必须是基于强大语言模型向上生长的数字世界「工业母机」。</p>\n<p>实际上，米哈游在游戏领域的成就已经非常可观，我猜测其创始人们很可能不只把大模型作为确保游戏业务能穿越时代的「防守动作」。这为什么不能是他们依托游戏业务这么好的阵地的「进攻性」能力？是通向更大赔率和更大规模的未来业务新可能性呢？</p>\n<p>毕竟米哈游凭借其游戏业务的支撑，并且同样可以借助资本市场的杠杆，它有潜力成为第三类玩家中另一个重要的力量。前提是，要看他们什么时候能在大语言模型上放出他们的阶段性成果，验证他们在技术上获得被认可的「参赛资格」。</p>\n<p>这种半场杀入，但目标坚决，并一定会寻找用技术创新超车的新玩家，至少对技术人才们而言是一种新机遇。</p>\n<p>总之，到今天看，大模型还不能说只是巨头的游戏，故事还在分叉，精彩还在继续。</p>",
+      "published": "2026-05-14T19:52:24+08:00",
+      "fetched_at": "2026-05-15T11:43:49.264060+08:00",
+      "pre_filter_reason": "AI large model company financing",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "DeepSeek 500亿融资后，大模型行业洗牌在即？",
+          "angle": "解读DeepSeek巨额融资对中国大模型市场格局的影响，分析未来可能存活的大模型玩家类型（如巨头、垂直玩家）及竞争策略。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "Scaling Law 没到头？DeepSeek 融资背后的技术赌注",
+          "angle": "从技术角度解析DeepSeek为何在此时大规模融资，以及Scaling Law（规模定律）在算力、数据、模型架构上的最新进展和争议。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "9214964a9fc5",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "ruvnet /RuView",
+      "link": "https://github.com/ruvnet/RuView",
+      "summary": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "published": "2026-05-15T11:44:01.169056+08:00",
+      "fetched_at": "2026-05-15T11:44:01.169073+08:00",
+      "pre_filter_reason": "Uses AI for spatial intelligence and vital sign monitoring from WiFi signals",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "WiFi 也能“看”人？RuView 无摄像头感知技术揭秘",
+          "angle": "通俗解释RuView如何利用普通WiFi信号实现空间感知和生命体征监测，对比传统摄像头方案的隐私优势与应用场景（如老人看护、智能家居）。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "手把手搭建：如何用WiFi信号实现简单的室内人员检测",
+          "angle": "基于RuView开源思路，教用户利用现有路由器或SDR设备，通过信号变化检测室内是否有人，适合极客和智能家居爱好者。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "80c34c5d5ef8",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "Sensor Tower：生成式AI移动应用内购收入进入指数级爆发通道",
-      "link": "https://36kr.com/newsflashes/3808531892707073?f=rss",
-      "summary": "36氪获悉，5月14日，Sensor Tower最新报告显示，2025Q2至2026Q1，生成式AI赛道以232%的同比增速、超44亿美元的收入增量，成为非游戏应用市场的绝对增长引擎，增速与规模均远超其他所有赛道。生成式AI移动应用内购收入已进入指数级爆发通道，从2023Q1的不足0.6亿美元，到2026Q1的19亿美元，市场规模3年增长超32倍。2025Q2-2026Q1，全年内购收入激增232%，达61亿美元，年复合增速超200%。",
-      "published": "2026-05-14T10:38:59+08:00",
-      "fetched_at": "2026-05-14T11:40:02.290514+08:00",
-      "pre_filter_reason": "Report on generative AI mobile app revenue growth, AI-related",
+      "title": "Anthropic同意以9000亿美元估值开展融资轮的条款",
+      "link": "https://36kr.com/newsflashes/3809965649157639?f=rss",
+      "summary": "据媒体援引两位知情人士的消息报道，投资者Dragoneer、Greenoaks、红杉资本和Altimeter Capital已同意共同领投Anthropic的融资轮。每位共同领投方可能投资20亿美元或更多。（新浪财经）",
+      "published": "2026-05-15T10:57:28+08:00",
+      "fetched_at": "2026-05-15T11:43:35.586225+08:00",
+      "pre_filter_reason": "AI company Anthropic funding",
       "scores": {
         "importance": 9,
-        "timeliness": 9,
-        "actionability": 8,
+        "timeliness": 8,
+        "actionability": 7,
         "scarcity": 8,
         "virality": 8,
-        "crowd_heat": 0.0
+        "crowd_heat": 3.5
       },
-      "quality_score": 7.8,
+      "quality_score": 7.6,
       "topics": [
         {
-          "tag": "data_analysis",
-          "title": "3年增长32倍：生成式AI移动应用收入爆发背后的秘密",
-          "angle": "解读Sensor Tower报告核心数据，分析增长驱动力（如ChatGPT、AI绘画等头部应用），预测未来趋势",
+          "tag": "tutorial",
+          "title": "Anthropic 估值9000亿！AI独角兽融资逻辑拆解",
+          "angle": "分析Anthropic为何能获得如此高估值，对比OpenAI、Google等竞争对手，讲解AI大模型公司融资的关键指标（技术路线、团队、商业化潜力）。",
           "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "2026年AI应用开发者必看：如何抓住232%增速的移动端红利",
-          "angle": "基于报告数据，为开发者提供赛道选择、变现策略、功能设计等实操建议",
-          "difficulty": "中级"
+          "tag": "analysis",
+          "title": "红杉、Altimeter 为何豪赌 Anthropic？AI安全与商业的平衡术",
+          "angle": "深度探讨Anthropic以“AI安全”为核心理念如何吸引顶级风投，以及其融资条款对AI行业竞争格局的潜在影响。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "2b005b60b1bf",
-      "source_id": "microsoft-research",
-      "source_name": "Microsoft Research",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "GridSFM: A new, small foundation model for the electric grid",
-      "link": "https://www.microsoft.com/en-us/research/blog/gridsfm-a-new-small-foundation-model-for-the-electric-grid/",
-      "summary": "<p>Introducing GridSFM, a small foundation model that can predict AC optimal power flow in milliseconds, boosting efficiency and unlocking cost savings. Learn how GridSFM gives grid operators direct visibility into congestion, stability, and system health.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/research/blog/gridsfm-a-new-small-foundation-model-for-the-electric-grid/\">GridSFM: A new, small foundation model for the electric grid</a> appeared first on <a href=\"https://www.microsoft.com/en-us/research\">Microsoft Research</a>.</p>",
-      "published": "2026-05-14T00:00:20+08:00",
-      "fetched_at": "2026-05-14T11:39:59.850846+08:00",
-      "pre_filter_reason": "Foundation model for electric grid, AI-related.",
+      "id": "1bcdb0c713c4",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "Gemini 进手机，Android 翻身；Gemini进电脑，全网开喷！",
+      "link": "https://www.infoq.cn/article/rLHmQFIEosQUtUHq7bjc?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/rLHmQFIEosQUtUHq7bjc?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-05-14T22:04:30+08:00",
+      "fetched_at": "2026-05-15T11:43:42.189674+08:00",
+      "pre_filter_reason": "Gemini AI product news",
       "scores": {
-        "importance": 6,
+        "importance": 7,
         "timeliness": 8,
-        "actionability": 6,
+        "actionability": 9,
         "scarcity": 7,
-        "virality": 5,
+        "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.8,
+      "quality_score": 7.6,
       "topics": [
         {
-          "tag": "explainer",
-          "title": "毫秒级预测电网潮流：GridSFM小模型如何改变电力行业？",
-          "angle": "通俗解释GridSFM的技术原理（小模型+基础模型）、应用场景（电网调度、故障预警）及优势（速度、成本）",
+          "tag": "tutorial",
+          "title": "Gemini 进手机 vs 进电脑：为什么安卓用户狂喜，PC用户狂喷？",
+          "angle": "对比Gemini在手机端（Android深度集成）和电脑端（浏览器/桌面端）的不同体验，分析用户口碑差异背后的原因（隐私、功能实用性、生态整合）。",
           "difficulty": "入门"
         },
         {
-          "tag": "opinion",
-          "title": "AI+电网：小模型为何比大模型更适合工业场景？",
-          "angle": "对比GridSFM与通用大模型，分析小模型在专业领域（如电力）的精准性、可解释性和部署优势",
-          "difficulty": "中级"
+          "tag": "tutorial",
+          "title": "实测 Gemini 电脑端：这些槽点你绝对遇到过",
+          "angle": "以第一视角展示Gemini在电脑端的使用痛点（如响应慢、与本地应用割裂、隐私担忧），并给出优化建议或替代方案。",
+          "difficulty": "入门"
         }
       ]
     },
@@ -309,424 +501,214 @@
       "link": "https://www.infoq.cn/article/6a5AKza2aj5FKSYVx76D?utm_source=rss&utm_medium=article",
       "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/6a5AKza2aj5FKSYVx76D?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
       "published": "2026-05-14T18:50:47+08:00",
-      "fetched_at": "2026-05-14T11:40:09.596575+08:00",
-      "pre_filter_reason": "英伟达是AI芯片巨头，访华涉及AI市场",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "news_analysis",
-          "title": "黄仁勋急飞中国：英伟达在华业务面临哪些新变数？",
-          "angle": "梳理中美芯片管制背景，分析黄仁勋此行目的（客户关系、政策博弈、替代方案），解读对英伟达股价和供应链的影响",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "opinion",
-          "title": "黄仁勋访华背后：中国AI芯片市场将走向何方？",
-          "angle": "探讨国产替代进展（华为昇腾等）、英伟达应对策略（定制芯片、生态绑定）及未来市场格局",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "4c27c575a3e1",
-      "source_id": "ifanr",
-      "source_name": "爱范儿",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "谷歌发布安卓 AI 系统，这就是苹果想象中的自己",
-      "link": "https://www.ifanr.com/1665647?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "给 Gemini 不止一个身体<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
-      "published": "2026-05-13T12:00:21+08:00",
-      "fetched_at": "2026-05-14T11:40:16.375323+08:00",
-      "pre_filter_reason": "谷歌发布安卓AI系统，涉及AI产品",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "product_review",
-          "title": "谷歌安卓AI系统深度体验：这才是苹果AI该有的样子？",
-          "angle": "演示Gemini在安卓上的多模态交互（语音、视觉、跨应用操作），对比苹果AI的现状与差距",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "opinion",
-          "title": "安卓AI系统发布：谷歌如何用“身体”定义下一代操作系统？",
-          "angle": "分析谷歌AI战略（从云端到终端、多设备协同），探讨对安卓生态、开发者及竞争对手的影响",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "b68cb644ce55",
-      "source_id": "geekpark",
-      "source_name": "极客公园",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "脉脉：具身智能岗位暴增 15 倍，平均月薪超 6 万元；马斯克点赞宇树「人形机甲」；阿里吴泳铭：没有一张卡是「空」的",
-      "link": "http://www.geekpark.net/news/364131",
-      "summary": "<p style=\"text-align: center;\"><img height=\"392\" src=\"https://imgslim.geekpark.net/uploads/image/file/fa/6d/fa6d12a384328b44dc460420454a7a06.png\" /></p>\n<h2 style=\"text-align: left;\"><span style=\"font-weight: bold;\">脉脉发布 2026 春招报告：具身智能岗位量暴增 15 倍，平均月薪 6.2 万</span></h2>\n<p style=\"text-align: left;\">5 月 13 日，脉脉发布了《2026 春招职场洞察报告》。报告显示，今年前四个月 AI 岗位新发量同比激增 8.7 倍，其中北京以 30.17% 的 AI 岗位渗透率位居全国首位。值得注意的是，AI 已深度介入组织管理，近四成程序员的绩效考核已正式纳入 AI 能力相关指标。</p>\n<p style=\"text-align: center;\"><img height=\"556\" src=\"https://imgslim.geekpark.net/uploads/image/file/29/3c/293c07efc9ee776e556e53c2aebc3323.png\" /></p>\n<p style=\"text-align: left;\">在所有增量赛道中，具身智能岗位量暴增 15 倍，其平均月薪亦同步攀升至 6.2 万元，显现出企业强烈的扩招与「抢人」意愿。在区域分布上，一线与新经济城市仍是吸纳主力，其中杭州以 28.54% 的 AI 岗位渗透率跃居全国第二，相继反超上海与深圳。</p>\n<p style=\"text-align: left;\">当前，高达 95.11% 的新经济从业者已在使用 AI 工具，其中 Agent（智能体）类工具正走向主流，使用编程及自主执行型 Agent 的人群比例合计达到 34.07%。在企业端，超七成的万人规模以上企业会为员工提供免费或自研的 AI 工具，而在 500 人以下的中小企业中该比例仅为 42.5%。（来源：凤凰网科技）</p>\n<p style=\"text-align: center;\"><img height=\"392\" src=\"https://imgslim.geekpark.net/uploads/image/file/dc/c0/dcc0f80a1b728e1e9649b78f656147e8.png\" /></p>\n<h2 style=\"text-align: left;\"><span style=\"font-weight: bold;\">黄仁勋最后一刻搭上空军一号访华专机</span></h2>\n<p style=\"text-align: center;\"><img height=\"497\" src=\"https://imgslim.geekpark.net/uploads/image/file/fd/07/fd0770e589b925ac93323cc775e5937b.png\" /></p>\n<p style=\"text-align: left;\">5 月 13 日，英伟达向多家媒体证实，其首席执行官黄仁勋将随特朗普访问中国。</p>\n<p style=\"text-align: left;\">有意思的是，在白宫 11 号公布的随特朗普一同访华的商界领袖名单里，涵盖了科技、金融、航空和农业等多个领域的企业，但那份名单里并没有黄仁勋。</p>\n<p style=\"text-align: left;\">据一位知情人士透露，特朗普是在看到媒体报道黄仁勋缺席代表团后，致电黄仁勋，邀请他加入访华代表团。英伟达在声明中称，黄仁勋应特朗普的邀请出席峰会，以支持美国和本届政府的目标。</p>\n<p style=\"text-align: left;\">据社交媒体流传的一张照片，黄仁勋在「空军一号」于阿拉斯加经停加油期间登上了飞机，与特朗普一同前往中国，并附上了一张他身穿皮衣，背着背包候机的照片。（来源：每日经济新闻）</p>\n<p>&nbsp;</p>\n<h2 style=\"text-align: left;\"><span style=\"font-weight: bold;\">腾讯总裁：腾讯跟硅谷公司不一样，没有大裁员计划</span></h2>\n<p style=\"text-align: left;\">5 月 13 日，腾讯控股发布 2026 年一季报。业绩报告显示，腾讯控股第一季度营收 1964.6 亿元，同比增长 9.1%；营业利润 673.8 亿元，同比增长 17%；调整后净利润 679.1 亿元，同比增长 11%。</p>\n<p style=\"text-align: left;\">据《每日经济新闻》，在当天的腾讯股东大会上，对于腾讯是否会大裁员的问题，腾讯总裁刘炽平回应表示：肯定没有大裁员计划，腾讯跟硅谷公司不太一样。</p>\n<p style=\"text-align: left;\">在同日的股东大会上，腾讯董事会主席兼首席执行官马化腾谈到 AI 是否落后时表示：「原来一年前我们以为上了船，后来发现那个船漏水了，现在感觉站上去了，还坐不下去，还是希望船速能快一点。」（来源：21 财经、一财网）</p>\n<p>&nbsp;</p>\n<h2 style=\"text-align: left;\"><span style=\"font-weight: bold;\">吴泳铭：阿里服务器没有一张卡是空的</span></h2>\n<p style=\"text-align: left;\">5 月 13 日，阿里巴巴 CEO 吴泳铭在财报公布后的分析师电话会上表示，阿里 AI 已跨越初期投入阶段，正式迈入商业化回报周期。</p>\n<p style=\"text-align: left;\">吴泳铭表示：未来 AI 云的收入会继续加速，也会提升经营现金流，并反哺 AI 的投入。目前服务器没有一张卡是空的，客户的需求无法完全满足，排队的还很多，模型的价格预计未来还会上涨。</p>\n<p style=\"text-align: left;\">吴泳铭透露，从去年 11 月开始到今年五月份，大量 API 增长都是由 AI coding 带来的。</p>\n<p style=\"text-align: left;\">在 B 端和 C 端业务的重心方面，吴泳铭称，AI 是计算范式的革命，最重要的是完成任务和解决问题。而阿里云的主要目标是获取更多的市场份额，以超过行业的平均市场增速增长。「眼下 B 端的 AI 客户付费意愿更强，因而把更多资源投入到 B 端。C 端业务需要一定的投资周期，但也一定会随着个人助理的发展、形成商业模式。」（来源：财联社）</p>\n<p style=\"text-align: center;\"><img height=\"392\" src=\"https://imgslim.geekpark.net/uploads/image/file/b2/39/b239cd95ab92b7cee1c59ab8b661a050.png\" /></p>\n<h2 style=\"text-align: left;\"><span style=\"font-weight: bold;\">曝阿里千问前技术负责人林俊旸开始具身领域创业</span></h2>\n<p style=\"text-align: left;\">近日，据媒体报道，前阿里千问大模型技术负责人林俊旸近期已经开启创业，考虑方向包括世界模型和具身大脑。</p>\n<p style=\"text-align: left;\">报道称，林俊旸目前已经招募数名字节、腾讯和海外背景的成员，并以约 20 亿美金的估值开启融资，接触基金包括红杉中国、高榕创投等。</p>\n<p style=\"text-align: left;\">据悉，具身智能是林俊旸重回 AI 战场的切入赛道。这一方向，也是他在阿里的未竟之业。2025 年 10 月，林俊旸就在 Qwen 组建了一支专注于机器人与具身智能的小团队。</p>\n<p style=\"text-align: left;\">在 X 上，他提出了自己的判断：「多模态基础模型正在转化为基础代理，通过强化学习利用工具和记忆进行长时序推理。它们应该从虚拟走向物理世界！」（来源：智能涌现）</p>\n<p>&nbsp;</p>\n<h2 style=\"text-align: left;\"><span style=\"font-weight: bold;\">马斯克点赞宇树载人变形机甲</span></h2>\n<p style=\"text-align: center;\"><img height=\"571\" src=\"https://imgslim.geekpark.net/uploads/image/file/19/63/1963d4d789bff5dc8f0db0c8dfaadfea.png\" /></p>\n<p style=\"text-align: left;\">5月13日，马斯克在社交平台点赞了宇树科技近日发布的全球首款量产载人变形机甲GD01，直言这款产品很酷。</p>\n<p style=\"text-align: left;\">值得一提的是，有网友特意翻出了马斯克2018年在社交平台发布的旧动态，当时他公开发声表示，是时候创造一个机甲了，不少网友看见时隔七年的两条内容联动，忍不住调侃中国企业直接帮马斯克完成了当年许下的心愿。</p>\n<p style=\"text-align: left;\">据宇树科技官方介绍，该款机甲起售价为390万元人民币，定位为民用新型交通工具，载人完成状态下整机总重量约500kg。根据官方发布的视频，GD01站立姿态下，大概有两个成年人那么高。视频里，GD01还抡起机械臂，直接锤翻一堵墙。（来源：凤凰网科技）</p>\n<p style=\"text-align: center;\"><img height=\"392\" src=\"https://imgslim.geekpark.net/uploads/image/file/c8/56/c856480557487b46811e65b53125c630.png\" /></p>\n<h2 style=\"text-align: left;\"><span style=\"font-weight: bold;\">方程豹闪充版正式上市</span></h2>\n<p style=\"text-align: center;\"><img height=\"376\" src=\"https://imgslim.geekpark.net/uploads/image/file/61/01/61013c78644c7e368ee1ed2863652355.png\" /></p>\n<p style=\"text-align: left;\">5 月 13 日，比亚迪方程豹旗下的豹 5、豹 8 闪充版正式上市，前者限时 29.98 万起售；后者限时 40.98 万起售。</p>\n<p style=\"text-align: left;\">双车均定位新能源硬派越野车，延续了家族化的设计语言。智能驾驶部分，豹 5 闪充版匹配天神之眼-B 辅助驾驶激光版；而豹 8 闪充版继续搭载华为乾崑智驾，并升级为前后双激光方案，同时引入「超远红外夜视系统」，进一步提升整车的夜间行驶安全性。</p>\n<p style=\"text-align: left;\">新车均搭载比亚迪二代刀片电池及闪充技术与 800V 高压闪充平台，号称是「全球首款闪充越野车」。</p>\n<p style=\"text-align: left;\">此外，双车均首搭比亚迪最新高端悬架系统「云辇-P Ultra」，该技术加持下，新车支持 3 分钟隔空换胎、3 轮行驶（最高 15km/h 连续行驶）、四轮均可提轮脱困，兼顾实用与全场景驾驭。（来源：快科技）</p>\n<p>&nbsp;</p>\n<h2 style=\"text-align: left;\"><span style=\"font-weight: bold;\">索尼发布新一代全画幅旗舰微单 Alpha 7R VI，售价 31799 元</span></h2>\n<p style=\"text-align: center;\"><img height=\"1080\" src=\"https://imgslim.geekpark.net/uploads/image/file/37/9a/379a0ece718016ba16dc17154dfed5f7.png\" /></p>\n<p style=\"text-align: left;\">5 月 13 日，索尼（中国）发布了新一代全画幅微单画质旗舰 Alpha 7R VI 和索尼首款恒定光圈超远摄变焦 G 大师镜头 FE 100-400mm F4.5 GM OSS。作为索尼微单画质标杆的 Alpha 7R 系列的第六代产品，Alpha 7R VI 延续该系列最高分辨率的产品理念，在此基础上进一步提升了连拍性能。</p>\n<p style=\"text-align: left;\">Alpha 7R VI 售价 31799 元，FE 100-400mm F4.5 GM OSS 售价 29999 元，两款产品均将于 5 月下旬上市。</p>\n<p style=\"text-align: left;\">官方表示：Alpha 7R VI 可以在保持高分辨率表现的同时，进一步优化了色彩还原、噪点控制等表现。在风光、人像、生态等拍摄领域，Alpha 7R VI 都能呈现细节丰富、层次清晰的影像表现。Alpha 7R VI 使用了新一代大容量电池 NP-SA100，搭配新一代高性能电源系统，支持更长时间的拍摄，更快速的充电，让拍摄更安心。</p>\n<p style=\"text-align: center;\"><img height=\"392\" src=\"https://imgslim.geekpark.net/uploads/image/file/93/27/93275485dd018997d4eb3d0b6dd90715.png\" /></p>\n<h2 style=\"text-align: left;\"><span style=\"font-weight: bold;\">Claude Code 缔造者分享工作心得：如何让数千个智能体夜间自动写代码</span></h2>\n<p style=\"text-align: left;\">Claude Code 缔造者切尔尼近日接受红杉资本采访时，分享了自己的 AI 工作模式。他如今的编程工作流程中，会有数千个 AI 智能体在夜间为他自动工作。</p>\n<p style=\"text-align: left;\">切尔尼在采访中透露的细节&mdash;&mdash;包括他大多通过手机运行这些 AI 智能体，凸显出硅谷部分工程师的使用方式正在转变：他们不再把 AI 系统当作聊天机器人，而是将其视作全天候在线的自主助手。</p>\n<p style=\"text-align: left;\">当被问及同时运行多少个会话时，切尔尼称自己通常会开启 5 至 10 个会话，每个会话中都包含多个 AI 智能体。</p>\n<p style=\"text-align: left;\">他补充道：「通常每天晚上，我都会让数千个 AI 智能体开展深度开发工作。」</p>\n<p style=\"text-align: left;\">切尔尼表示，他高度依赖 Claude Code 专为持续自动化打造的两大功能：循环指令（/loops）和例行任务（Routines）。</p>\n<p style=\"text-align: left;\">他介绍，用户可通过定时任务（cron）在本地设置循环指令，而例行任务则在服务器上执行周期性工作，即便工程师合上笔记本电脑，AI 智能体也能持续运转。（来源：IT 之家）</p>\n<p style=\"text-align: center;\"><img height=\"392\" src=\"https://imgslim.geekpark.net/uploads/image/file/91/d8/91d83c13ea9db6ce5f338cba9798dbe2.png\" /></p>\n<p>&nbsp;</p>",
-      "published": "2026-05-14T08:38:53+08:00",
-      "fetched_at": "2026-05-14T11:40:14.632975+08:00",
-      "pre_filter_reason": "Mentions '具身智能' (embodied intelligence) and AI-related job growth.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "具身智能岗位暴增15倍，月薪6万+，如何入局？",
-          "angle": "从脉脉报告数据切入，拆解具身智能岗位需要的核心技能（如ROS、强化学习、机械臂控制），提供零基础转行学习路线图。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "马斯克点赞宇树「人形机甲」：具身智能为何成为资本新宠？",
-          "angle": "结合马斯克点赞事件和脉脉招聘数据，分析具身智能赛道爆发的原因（技术突破、政策支持、降本需求），并预测未来3年人才缺口。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "1b1aa9d92b07",
-      "source_id": "hn-ai",
-      "source_name": "Hacker News (AI)",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "Meta won't let you block its AI account on Threads",
-      "link": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
-      "summary": "<p>Article URL: <a href=\"https://www.theverge.com/tech/929091/meta-ai-threads-account-block\">https://www.theverge.com/tech/929091/meta-ai-threads-account-block</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48126981\">https://news.ycombinator.com/item?id=48126981</a></p>\n<p>Points: 136</p>\n<p># Comments: 60</p>",
-      "published": "2026-05-14T04:22:21+08:00",
-      "fetched_at": "2026-05-14T11:40:26.453610+08:00",
-      "pre_filter_reason": "Meta's AI account on Threads, AI policy.",
-      "scores": {
-        "importance": 7,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "Meta强制用户与AI账号互动：Threads新规引发隐私争议",
-          "angle": "解读Meta禁止屏蔽AI账号的决策逻辑（数据训练需求、用户留存），对比Twitter/X的AI策略，讨论用户隐私与平台利益的冲突。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "7e520e3b15da",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "阿里云外部收入增长40%创新高，AI收入占比首破30%",
-      "link": "https://www.leiphone.com/category/industrynews/bun2xa6hMdgmEPLh.html",
-      "summary": "<p>5月13日，阿里巴巴集团发布最新季度业绩。截至2026年3月31日止季度，阿里云收入同比增长38%至416.26亿元，剔除阿里巴巴并表业务后的外部商业化收入增速进一步加速至40%，创下近年新高。其中，AI相关产品收入达89.71亿元，连续第11个季度实现三位数同比增长，占外部收入比重首次突破30%。截至2026年3月，百炼平台的客户数量同比增长了8倍，反映出企业级市场对AI需求的加速释放。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260513/6a044b5062b4d.png?imageView2/2/w/740\" /></p><p>季度内，阿里在芯片、模型、云和应用方面均有突破。芯片层面，平头哥GPU芯片已实现规模化量产，截至26年2月，已经累计规模化交付47万片。在阿里云的实际业务场景，60%以上的平头哥芯片服务于外部商业化客户，已完成规模化外部客户AI任务适配，支持了400多家企业客户的AI任务，涵盖包括互联网、金融服务、自动驾驶等多个行业。</p><p>模型层面，4月发布的Qwen3.6-Plus大模型整体性能较上一代显著提升，特别是在编程能力、智能体能力和工具调用能力上实现了全面跃升。该模型原生上下文窗口扩展至100万tokens，并对Qwen Code、Claude Code、Cline等主流Agent框架进行深度优化，更好挖掘模型在开放环境中完成复杂任务的新潜力。此外，面向实时交互的开放世界模型HappyOyster及多模态模型HappyHorse等正分阶段推出。其中，HappyHorse 1.0开启灰测后，已吸引一批头部AI视频生成平台、短剧漫剧公司、广告及影视制作公司接入。</p><p>应用层面，阿里推出企业级智能体平台&quot;悟空&quot;，千问App全面接通阿里电商服务能力，并与中国东方航空达成首个外部合作，将AI能力延伸至出行场景。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260513/6a044b61ebd40.png?imageView2/2/w/740\" /></p><p>受AI云需求强劲拉动，阿里云实现市场份额加速增长。据Gartner数据，2025年阿里云位居中国IaaS市场第一，市场份额从30.1%提升至32.8%，营收增长显著高于中国IaaS市场整体增速。从本季度数据看，外部商业化收入增速加速至40%、AI收入占比突破30%，叠加自研GPU规模化交付与MaaS客户数的高速增长，阿里云在算力供给、模型能力和商业化落地的投入正进入收获期。</p><p><span style=\"color: #FFFFFF;\">雷峰网</span></p>",
-      "published": "2026-05-13T17:59:00+08:00",
-      "fetched_at": "2026-05-14T11:40:07.945211+08:00",
-      "pre_filter_reason": "阿里云AI收入占比及AI相关产品",
-      "scores": {
-        "importance": 9,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "阿里云AI收入占比破30%：企业如何用百炼平台快速部署AI应用？",
-          "angle": "以阿里云百炼平台为例，演示从零搭建一个企业级AI客服或文档分析工具，涵盖模型选择、API调用和成本优化技巧。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "analysis",
-          "title": "阿里云外部收入增长40%：AI云服务正在吃掉传统云市场？",
-          "angle": "对比阿里云与AWS、Azure的AI收入占比，分析AI原生云服务的商业模式变化，以及中小企业如何利用AI云服务降低技术门槛。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "5da0fb70be2f",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "苹果画的饼谷歌率先搞定！Gemini全面进驻全家桶，连鼠标都AI上了",
-      "link": "https://www.qbitai.com/2026/05/416870.html",
-      "summary": "谷歌把Gemini塞进了Android",
-      "published": "2026-05-13T16:29:20+08:00",
-      "fetched_at": "2026-05-14T11:40:11.286823+08:00",
-      "pre_filter_reason": "Gemini AI全面进驻谷歌产品",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "谷歌抢先苹果：Gemini全面进驻全家桶，AI鼠标来了！",
-          "angle": "盘点谷歌Gemini在Android、Chrome、Workspace中的新功能（如AI鼠标、实时翻译），对比苹果WWDC未兑现的AI承诺，分析谷歌的生态优势。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "054bfec7867a",
-      "source_id": "geekpark",
-      "source_name": "极客公园",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Auto Research 来了：当 AI 开始接管科研里最苦的活，意味着什么",
-      "link": "http://www.geekpark.net/news/364100",
-      "summary": "<p style=\"text-align: left;\">如果几年前有人告诉我，AI 不仅能写代码、生成论文摘要，还能像一个真正的工程师那样，在实验室里反复寻找可行的策略、持续优化一个方案&mdash;&mdash;我大概会觉得这个人科幻片看多了。</p>\n<p style=\"text-align: left;\">但最近读到一篇论文的时候，我的想法变了。</p>\n<p style=\"text-align: left;\">过去两年，大模型的能力突飞猛进，从写诗到写代码，从做数学题到跑实验流程，AI 擅长的事情越来越多。但真正做过科研和工程的人都清楚，最耗人的部分，往往不是提出第一个可行方案，而是后面那段漫长的「长期优化」&mdash;&mdash;一个实验跑通了，但指标还差一点；一个算法能用了，但速度还不够快；一个电池快充策略成立了，但温度、寿命和析锂之间还需要反复平衡。</p>\n<p style=\"text-align: left;\">现实中的高价值成果，很多都不是「做出来」的，而是被持续优化出来的。而这，恰恰是过去大多数 AI Agent 系统最缺失的一环。</p>\n<p style=\"text-align: left;\">最近，Einsia AI 旗下 Navers Lab 发布了一个叫 Frontier-Eng Bench 的新基准测试，正试图衡量这种能力。它没有再把 AI 放进「一问一答」的选择题里，而是直接把 Agent 扔进真实工程优化环境&mdash;&mdash;Agent 必须不断提出方案、运行仿真器、读取反馈、修改策略，在长期迭代中持续逼近更优解。</p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\"><img height=\"328\" src=\"https://imgslim.geekpark.net/uploads/image/file/9a/5c/9a5ccf92cbd198b347e422a829b0f97a.png\" /></p>\n<p>&nbsp;</p>\n<p style=\"text-align: left;\">论文题目：Frontier-Eng: Benchmarking Self-Evolving Agents on Real-World Engineering Tasks with Generative Optimization</p>\n<p style=\"text-align: left;\"><span style=\"color: #bbbfc4;\">Arxiv: https://arxiv.org/abs/2604.12290</span></p>\n<p style=\"text-align: left;\"><span style=\"color: #bbbfc4;\">Github: https://github.com/EinsiaLab/Frontier-Engineering</span></p>\n<p style=\"text-align: left;\">这让我想到一个历史参照：AlphaGo 之所以强大，并不在于它每一步棋都能算对，而在于它能在数百万次自我对弈中持续进化。某种程度上，Frontier-Eng 试图回答的，也是同一个问题&mdash;&mdash;当 AI 开始进入真实世界的长期反馈循环后，智能的本质，究竟该怎么衡量？</p>\n<p>&nbsp;</p>\n<h1 style=\"text-align: center;\"><span style=\"font-weight: bold; font-style: italic; color: #000000;\">01 </span></h1>\n<p style=\"text-align: center;\"><span style=\"font-weight: bold;\">从「一次性答对」到「持续优化」，</span></p>\n<p style=\"text-align: center;\"><span style=\"font-weight: bold;\">范式正在切换 </span></p>\n<p>&nbsp;</p>\n<p style=\"text-align: left;\">要理解 Frontier-Eng Bench 的意义，得先看清楚它在反对什么。</p>\n<p style=\"text-align: left;\">过去几年，大模型领域的 benchmark 越来越多，但本质上都在评估同一件事：模型能不能「一次性生成正确答案」。无论是代码生成、数学推理，还是任务执行，大多数测试的逻辑仍然是&mdash;&mdash;答案对，或者错；任务完成，或者失败。</p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\"><img height=\"714\" src=\"https://imgslim.geekpark.net/uploads/image/file/d6/e5/d6e56ed6823ac6150a4834bd1f6c2c00.png\" /></p>\n<p>&nbsp;</p>\n<p style=\"text-align: left;\"><span style=\"color: #bbbfc4;\">Frontier-Eng Bench 总览</span></p>\n<p style=\"text-align: left;\">但这里有一个被忽视的问题：真实的科研与工程，从来不是一个「对或错」的过程。</p>\n<p style=\"text-align: left;\">一个量子线路已经正确了，但保真度还能不能再往上抠一点？一个 GPU kernel 已经可用了，但速度还不够快？这些问题没有「标准答案」，只有「更优解」。而找到更优解的过程，往往需要成百上千次的迭代、试错和微调。</p>\n<p style=\"text-align: left;\">事实上，这正是 Frontier-Eng Bench 提出的核心命题&mdash;&mdash;论文将其定义为「Generative Optimization」（生成式优化）。它认为，下一代 Agent 的核心能力，不应该只是「一次性给出看起来合理的答案」，而是能否在环境反馈里持续修正自己的轨迹，并在有限预算下不断优化结果。</p>\n<p style=\"text-align: left;\">换句话说，真正的 intelligence，可能本质上是一种长期反馈闭环中的持续优化能力。</p>\n<p style=\"text-align: left;\">这个判断并不只是理论推演。Frontier-Eng 设计了 47 个横跨五大领域的实验任务&mdash;&mdash;量子计算与信息、运筹与决策科学、机器人与控制系统、光学与通信、物理科学与工程设计。在每一个任务中，Agent 都不是简单地「回答问题」，而是需要提出优化方案、运行仿真器、获取真实反馈、修改代码与策略，并在固定的计算预算里持续迭代。</p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\"><img height=\"509\" src=\"https://imgslim.geekpark.net/uploads/image/file/a2/60/a260a94ada1217338f91c4ee54fb7a50.png\" /></p>\n<p>&nbsp;</p>\n<p style=\"text-align: left;\"><span style=\"color: #bbbfc4;\">Frontier-Eng Bench 体系概览</span></p>\n<p style=\"text-align: left;\">不只有「答对题」的聪明，更有「不断变好」的韧性。这可能才是真正长程智能的起点。</p>\n<p>&nbsp;</p>\n<h1 style=\"text-align: center;\"><span style=\"font-weight: bold; font-style: italic; color: #000000;\">02 </span></h1>\n<p style=\"text-align: center;\"><span style=\"font-weight: bold;\">深度 vs 宽度：Agent 架构的关键抉择 </span></p>\n<p>&nbsp;</p>\n<p style=\"text-align: left;\">在 Frontier-Eng 揭示的所有发现中，有一个结论让我印象最深：关于「推理算力分配」的讨论。</p>\n<p style=\"text-align: left;\">论文通过大量实验发现，Agent 的性能提升遵循一套双重幂律衰减规律&mdash;&mdash;随着任务进入「深水区」，获得显著性能提升的难度呈指数级上升。这是一个残酷但真实的规律：越往后优化，每一个百分点的进步都越来越贵。</p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\"><img height=\"478\" src=\"https://imgslim.geekpark.net/uploads/image/file/41/a2/41a2dd0e984a89abd1268b801496e62d.png\" /></p>\n<p>&nbsp;</p>\n<p style=\"text-align: left;\"><span style=\"color: #bbbfc4;\">工程优化的双重幂律衰减</span></p>\n<p style=\"text-align: left;\">但更有意思的发现在于一个架构层面的核心争议：到底是让 Agent 并行尝试 100 种可能性（宽度），还是让它在 1 个路径上通过「反思&mdash;修正」递归 100 次（深度）？</p>\n<p style=\"text-align: left;\">Frontier-Eng 给出了一个非常清晰的信号：深度才是那个能撬动真正突破的杠杆。</p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\"><img height=\"499\" src=\"https://imgslim.geekpark.net/uploads/image/file/8e/fb/8efb44c6fcd9c0e7d23f9041a4b9004e.png\" /></p>\n<p>&nbsp;</p>\n<p style=\"text-align: left;\"><span style=\"color: #bbbfc4;\">深度 vs 宽度</span></p>\n<p style=\"text-align: left;\">这让我想到一个日常的类比。面对一道难题，是同时翻开十本参考书碰运气更有效，还是沿着一条思路反复推敲、不断修正更容易找到答案？大多数有经验的工程师和科学家都会选后者。Frontier-Eng 的数据，某种程度上用实验验证了这种直觉。</p>\n<p style=\"text-align: left;\">论文将这种能力称为「Deep Iterative Reasoning」（深度迭代推理）。在这背后，其实指向了一个更大的趋势：下一代 Agent 的核心竞争力，可能正在从「知道多少知识」转向「能不能在长期反馈中持续自我修正」。</p>\n<p style=\"text-align: left;\">一个有趣的现象是，这个结论和人类专家解决复杂问题的方式高度一致。顶级的工程师和科学家，几乎从来不靠「灵光一闪」解决核心难题，而是在漫长的试错循环中一步步逼近最优解。某种程度上，Frontier-Eng 证明了：AI 要变得真正聪明，也得学会这种「慢功夫」。</p>\n<p style=\"text-align: left;\">更重要的是，这个发现正在直接改变 Agent 架构设计的方向。过去，开发者们的注意力大多放在 prompt engineering 上&mdash;&mdash;怎么写出更好的提示词，让模型一次就给出好答案。但如果深度迭代推理才是关键，那么未来真正重要的可能是 reasoning architecture&mdash;&mdash;如何构建更强的推理侧架构，让模型能够像人类专家一样进行「慢思考」。</p>\n<p>&nbsp;</p>\n<h1 style=\"text-align: center;\"><span style=\"font-weight: bold; font-style: italic; color: #000000;\">03 </span></h1>\n<p style=\"text-align: center;\"><span style=\"font-weight: bold;\">推理侧的算力红利，才刚刚开始 </span></p>\n<p>&nbsp;</p>\n<p style=\"text-align: left;\">从产业角度看，Frontier-Eng 释放出的信号其实非常强烈。</p>\n<p style=\"text-align: left;\">过去几年，大模型行业的核心护城河主要来自三件事：参数规模、训练算力、高质量数据。谁的模型更大、训练数据更多、GPU 集群更强，谁就占据优势。</p>\n<p style=\"text-align: left;\">但 Frontier-Eng 的实验结果暗示，护城河可能正在发生转移&mdash;&mdash;从训练侧转向推理侧。</p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\"><img height=\"1254\" src=\"https://imgslim.geekpark.net/uploads/image/file/b2/43/b2431f0c46b4a6b8e2f0389a0cfd8a15.png\" /></p>\n<p>&nbsp;</p>\n<p style=\"text-align: left;\"><span style=\"color: #bbbfc4;\">不同模型的详细评测结果</span></p>\n<p style=\"text-align: left;\">换句话说，未来真正重要的，可能不只是模型「知道什么」，而是它能否在长期环境反馈中持续优化、在复杂搜索空间里稳定收敛、在有限算力下完成递归推理、在真实仿真器中不断自我修正。</p>\n<p style=\"text-align: left;\">这会直接改变整个 Agent 基础设施的竞争方向。因为一旦智能开始更多地来自 inference-time optimization（推理时优化），而不是一次性的预训练，那么几件事将同时发生：</p>\n<p style=\"text-align: left;\">首先，AI for Science 可能将迎来真正的爆发。科学研究本身就是最完美的「生成式优化」场景&mdash;&mdash;提出假设、实验验证、修正假设、再验证，这个循环和 Frontier-Eng 测试的过程几乎完全一致。</p>\n<p style=\"text-align: left;\">其次，Agent 的开发范式会从 prompt engineering 转向 reasoning architecture。开发者将不再仅仅盯着提示词的措辞，而是去思考如何构建更强的推理链、更高效的搜索策略、更智能的反思机制。</p>\n<p style=\"text-align: left;\">此外，长程记忆、工具调用、搜索和反思能力将变得越来越关键，而算力分配本身也会成为一种新的基础设施能力。</p>\n<p style=\"text-align: left;\">从这个角度看，Frontier-Eng 不只是一个学术 benchmark，它更像是一张路线图&mdash;&mdash;告诉整个行业，下一阶段的竞争焦点在哪里。</p>\n<p>&nbsp;</p>\n<h1 style=\"text-align: center;\"><span style=\"font-weight: bold; font-style: italic; color: #000000;\">04 </span></h1>\n<p style=\"text-align: center;\"><span style=\"font-weight: bold;\">尾声 </span></p>\n<p>&nbsp;</p>\n<p style=\"text-align: left;\">回到开头那个问题：AI 做科研，最难替代人类的是哪个环节？</p>\n<p style=\"text-align: left;\">在读 Frontier-Eng 这篇论文之前，我的回答可能是「直觉」和「创造力」。但现在我觉得，答案可能正在被改写。</p>\n<p style=\"text-align: left;\">Frontier-Eng 告诉我们，Agent 正在走出文字游戏的「温室」，进入物理规律的「竞技场」。它们开始学习的，不再只是如何给出一个漂亮的答案，而是如何在成千上万次失败中，一点一点地抠出那 1% 的性能突破。</p>\n<p style=\"text-align: left;\">而身处其中，我们往往后知后觉。但把时间维度拉长，也许多年后回看，2025 年前后这段时间，正是 AI 从「聪明的回答者」变成「执着的优化者」的转折点。</p>\n<p style=\"text-align: left;\">不只有聚光灯下的 OpenAI、Google DeepMind 们在推动这个进程，更有像 Einsia AI 这样的团队，在用严谨的实验框架丈量智能的真实边界。</p>\n<p style=\"text-align: left;\">而下一代 Agent 真正比拼的，可能不再是谁「知道得多」，而是谁能在长期环境反馈中，持续逼近最优解。这场关于「深度」与「反馈」的竞赛，才刚刚鸣枪。</p>\n<p style=\"text-align: left;\"><span style=\"color: #bbbfc4;\">*头图来源： Frontier-Eng Bench</span></p>",
-      "published": "2026-05-13T14:25:38+08:00",
-      "fetched_at": "2026-05-14T11:40:14.633044+08:00",
-      "pre_filter_reason": "讨论AI在科研中的应用",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "AI接管科研苦活：用Auto Research工具自动跑实验、写论文",
-          "angle": "实操演示一款开源Auto Research工具（如AutoGPT for Science），从文献综述到实验设计到结果分析，展示AI如何替代科研中重复性工作。",
-          "difficulty": "高级"
-        },
-        {
-          "tag": "analysis",
-          "title": "当AI开始做科研：Auto Research会取代科学家吗？",
-          "angle": "从论文中提到的AI自主优化方案出发，讨论AI在科研中的角色边界（数据挖掘 vs 假设提出），以及科研人员如何转型为AI协作型研究者。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "564d974080a8",
-      "source_id": "github-ai-repos",
-      "source_name": "GitHub AI 新项目",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "coasty-ai/open-computer-use",
-      "link": "https://github.com/coasty-ai/open-computer-use",
-      "summary": "State of the Art 82% OSWorld Computer Using Agent, production-ready. Remote and Local! Setup using one API Key",
-      "published": "2026-05-14T11:40:28.846256+08:00",
-      "fetched_at": "2026-05-14T11:40:28.846274+08:00",
-      "pre_filter_reason": "Computer-using agent with state-of-the-art performance",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "5分钟部署你的AI电脑操控助手",
-          "angle": "手把手演示如何用coasty-ai的Open Computer Use工具，通过一个API Key实现本地或远程控制电脑，并展示一个自动完成桌面任务的案例。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "comparison",
-          "title": "coasty-ai vs. 其他电脑操控Agent：谁更胜一筹？",
-          "angle": "对比coasty-ai的82% OSWorld准确率与同类开源方案，分析其生产就绪特性（远程/本地支持）对开发者的实际价值。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "2c4aa4a2dc3b",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "trycua /cua",
-      "link": "https://github.com/trycua/cua",
-      "summary": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
-      "published": "2026-05-14T11:40:28.482804+08:00",
-      "fetched_at": "2026-05-14T11:40:28.482806+08:00",
-      "pre_filter_reason": "Infrastructure for computer-use AI agents",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "用trycua/cua搭建你的首个桌面操控AI沙盒",
-          "angle": "演示如何利用cua的开源基础设施快速创建跨平台（macOS/Linux/Windows）的AI Agent测试环境，并运行一个简单的基准测试。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "explainer",
-          "title": "什么是Computer-Use Agent？从cua看AI操控桌面的未来",
-          "angle": "解释Computer-Use Agent的概念，并以cua为例说明其SDK、沙盒和基准测试如何帮助开发者训练更智能的桌面自动化AI。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "c0f68646f4b4",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "阿里企业级 Agent 平台“悟空”开始逐步规模化放量",
-      "link": "https://36kr.com/newsflashes/3808534651313927?f=rss",
-      "summary": "36氪获悉，5月13日，阿里巴巴集团发布2026财年Q4及全年财报。财报表示，阿里全栈AI技术投入已正式跨越初期培育阶段，进入正向的规模商业化回报周期。在财年第四季度，阿里 AI 在模型、云基础设施和应用各层实现加速突破。在AI to B方向，阿里旗下企业级Agent平台“悟空”已于近期逐步规模化放量。",
-      "published": "2026-05-14T10:41:47+08:00",
-      "fetched_at": "2026-05-14T11:40:02.290502+08:00",
-      "pre_filter_reason": "AI enterprise Agent platform launch, AI-related",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "阿里“悟空”Agent平台规模化放量：企业AI应用进入爆发期",
-          "angle": "解读阿里财报中“悟空”平台规模化放量的信号，分析其对国内企业级Agent市场格局的影响，以及阿里AI商业化从投入转向回报的里程碑。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "从“悟空”看阿里AI to B战略：全栈投入如何变现？",
-          "angle": "深度分析阿里AI在模型、云基础设施和应用层的协同效应，以及“悟空”Agent平台如何成为其企业级AI商业化的关键抓手。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "2d2d7cc55227",
-      "source_id": "reddit-ml",
-      "source_name": "Reddit r/MachineLearning",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "Scenema Audio: Zero-shot expressive voice cloning and speech generation [N]",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1tcdj2d/scenema_audio_zeroshot_expressive_voice_cloning/",
-      "summary": "<!-- SC_OFF --><div class=\"md\"><p>We've been building <a href=\"https://scenema.ai/audio\">Scenema Audio</a> as part of our video production platform at scenema.ai, and we're releasing the model weights and inference code.</p> <p>The core idea: emotional performance and voice identity are independent. You describe how the speech should be performed (rage, grief, excitement, a child's wonder), and optionally provide reference audio for voice identity. The reference provides the &quot;who.&quot; The prompt provides the &quot;how.&quot; Any voice can perform any emotion, even if that voice has never been recorded in that emotional state.</p> <h1>Limitations (and why we still use it)</h1> <p>This is a diffusion model, not a traditional TTS pipeline. Common issues include repetition and gibberish on some seeds. Different seeds give different results, and you will not get a perfect output with 0% error rate. This model is meant for a post-editing workflow: generate, pick the best take, trim if needed. Same way you'd work with any generative model.</p> <p>That said, we keep coming back to Scenema Audio over even Gemini 3.1 Flash TTS, which is already more controllable than most TTS systems out there. The reason is simple: the output just sounds more natural and less robotic. There's a quality to diffusion-generated speech that autoregressive TTS doesn't quite match, especially for emotional delivery.</p> <h1>Audio-first video generation</h1> <p>As <a href=\"https://www.youtube.com/watch?v=ZZO3XAy3KTo\">this video</a> points out, generating audio first and then using it to drive video generation is a powerful workflow. That's actually how we've used Scenema Audio in some cases. Generate the voice performance, then feed it into an A2V pipeline (LTX 2.3, Wan 2.6, Seedance 2.0, etc.) to generate video that matches the speech. <a href=\"https://youtu.be/dcAjQhPKNLk?si=4iOwtpsLR-WzwDmF\">Here's an example of that workflow in action.</a></p> <h1>On distillation and speed</h1> <p>A few people have asked this. Our bottleneck is not denoising steps. The diffusion pass is a small fraction of total generation time. The real costs are elsewhere in the pipeline. We're already at 8 steps (down from 50 in the base model), and that's the sweet spot where quality holds.</p> <h1>Prompting matters</h1> <p>This model is sensitive to prompting, the same way LTX 2.3 is for video. A generic voice description gives you generic output. A specific, theatrical description with action tags gives you a performance. There's also a <code>pace</code> parameter that controls how much time the model gets per word. Takes some experimentation to find what works for your use case, but once you do, you can generate hours of audio with minimal quality loss.</p> <p>Complex words and proper nouns benefit from phonetic spelling. Unlike traditional TTS, it doesn't have a phoneme-to-audio pipeline or a pronunciation dictionary. If it garbles &quot;Tchaikovsky,&quot; you would spell it &quot;Chai-koff-skee&quot; or whatever makes sense to you.</p> <h1>Docker REST API with automatic VRAM management</h1> <p>We ship this as a Docker container with a REST API. Same setup we use in production on scenema.ai. The service auto-detects your GPU and picks the right configuration:</p> <table><thead> <tr> <th align=\"left\">VRAM</th> <th align=\"left\">Audio Model</th> <th align=\"left\">Gemma</th> <th align=\"left\">Notes</th> </tr> </thead><tbody> <tr> <td align=\"left\">16 GB</td> <td align=\"left\">INT8 (4.9 GB)</td> <td align=\"left\">CPU streaming</td> <td align=\"left\">Needs 32 GB system RAM</td> </tr> <tr> <td align=\"left\">24 GB</td> <td align=\"left\">INT8 (4.9 GB)</td> <td align=\"left\">NF4 on GPU</td> <td align=\"left\">Default config</td> </tr> <tr> <td align=\"left\">48 GB</td> <td align=\"left\">bf16 (9.8 GB)</td> <td align=\"left\">bf16 on GPU</td> <td align=\"left\">Best quality</td> </tr> </tbody></table> <p>We went with Docker because that's how we serve it. No dependency hell, no conda environments. Pull, set your HF token for Gemma access, then <code>docker compose up</code>.</p> <h1>ComfyUI</h1> <p>Native ComfyUI node support is planned. We're hoping to release it in the coming weeks, unless someone from the community beats us to it. In the meantime, the REST API is straightforward to call from a custom node since it's just a local HTTP service.</p> <h1>Links</h1> <ul> <li><strong>All demos + article:</strong> <a href=\"https://scenema.ai/audio\">scenema.ai/audio</a></li> <li><strong>Model weights:</strong> <a href=\"https://huggingface.co/ScenemaAI/scenema-audio\">huggingface.co/ScenemaAI/scenema-audio</a></li> <li><strong>Code + setup:</strong> <a href=\"https://github.com/ScenemaAI/scenema-audio\">github.com/ScenemaAI/scenema-audio</a></li> <li><strong>YouTube demo:</strong> <a href=\"https://youtu.be/VnEQ_ImOaAc\">youtu.be/VnEQ_ImOaAc</a></li> </ul> <p>This is fully open source. The model weights derive from the LTX-2 Community License but all inference and pipeline code is MIT.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/a__side_of_fries\"> /u/a__side_of_fries </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tcdj2d/scenema_audio_zeroshot_expressive_voice_cloning/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tcdj2d/scenema_audio_zeroshot_expressive_voice_cloning/\">[comments]</a></span>",
-      "published": "2026-05-14T05:29:08+08:00",
-      "fetched_at": "2026-05-14T11:40:27.251133+08:00",
-      "pre_filter_reason": "Zero-shot voice cloning and speech generation using AI.",
-      "scores": {
-        "importance": 7,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "零样本语音克隆实战：用Scenema Audio生成情感丰富的配音",
-          "angle": "演示如何上传一段参考音频，利用Scenema Audio的零样本技术生成带有指定情绪（如快乐、悲伤）的全新语音，并展示其在视频制作中的应用。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "explainer",
-          "title": "情感与声音分离：Scenema Audio如何实现零样本语音克隆？",
-          "angle": "通俗解释Scenema Audio的核心技术——将情感表现和声音身份解耦，并对比传统语音克隆方案的优势，展望其在影视、游戏等领域的潜力。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "8e4652562723",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "全球AI药物递送第一股剂泰科技挂牌港交所，“制药界Space X”开启生物制药新纪元",
-      "link": "https://www.leiphone.com/category/industrynews/3Pcg0HIFltLk3YNa.html",
-      "summary": "<p style=\"text-align: justify; margin-top: 0; margin-bottom: 0;\"><span><span>雷峰网讯 2026年5月13日，香港, 聚焦AI纳米递送创新的科技生物公司剂泰科技（7666.HK）今日在港交所成功挂牌上市，成为全球AI药物递送第一股，也是港股AI大分子生物制药第一股。以制药界“Space X”为目标，剂泰科技创业6年，成为国内AI制药行业中完成IPO里程碑用时最短的独角兽公司。</span><br /><br /><span>剂泰科技本次IPO由富瑞金融集团、德意志证券亚洲和中信证券（香港）担任联席保荐人，全球发行201,229,000股H股，募集资金规模超21亿港元，创下2026年迄今港股医疗健康IPO募资之最。公司在香港公开发售录得超6,900倍超额认购，锁定认购资金逾7,300亿港元，为2026年迄今港股医疗健康IPO香港公开发售认购金额之最；国际配售方面，获得超过280个机构投资人下单，录得可分配额度82倍的超额认购，也是2026年迄今港股医疗健康IPO国际配售认购倍数之最。</span><br /><br /><span>剂泰科技此次港股IPO以18家顶级机构累计认购1.48亿美元的顶配阵容再次刷新了港股AI制药IPO纪录，获得“国际资管+专业医疗基金+AI科技基金+国家级基金+中资公募”的全方位护航。其中，全球最大资管贝莱德领衔认购5000万美元，瑞银UBS AM Singapore、Mirae Asset（韩国未来资产）、日本欧力士ORIX等全球资管巨头及超长线基金集体加注；国家级基金国风投创新投资基金首次出手AI制药；国际老牌头部医疗专项基金Deerfield、RTW、清池资本联手入局，华登国际、高瓴、IDG资本等一线科技投资机构均跨界下场，广发基金、工银瑞信基金、华夏基金、富国基金等中资顶尖公募机构此次也罕见同框认购锁仓，充分证明AI纳米递送技术已经上升到国家战略级重点支持领域，并成为全球生物制药未来增长和突破的关键技术。</span><br /><br /><em><span>剂泰科技联合创始人、董事长兼首席执行官赖才达博士表示：“未来的生物医药，不再只是“生病吃药”。剂泰科技的志向是以AI打造纳米火箭，在人体30万亿细胞的内太空实现精准导航，把核酸与蛋白的代码写入细胞，将疾病细胞和衰老细胞重编程为健康细胞。这是我们创业的初心，也是我们要一辈子为之奋斗的事业。IPO是我们加速向前的新起点，我们一定不会辜负来自各界的支持和厚爱。”</span></em><br /><br /><br /><span>■ &nbsp;自研全球首个AI纳米递送平台，首创AI for Nano的数据、算法和模型</span></span></p><p style=\"margin-top: 7.8pt; margin-bottom: 7.8pt;\"><span><span>剂泰科技核心竞争力源于自主研发的全球首个AI纳米递送平台NanoForge，构建了目前全球最大规模的千万级可电离脂质库，自主开发了全球目前唯一脂质从头生成算法和脂质语言模型，建成了全球首个端到端脂质及脂质纳米颗粒（LNP）筛选平台，原创了全球首个AI+多尺度模拟小分子剂型平台。</span><br /><br /><span>NanoForge涵盖了人工智能基础模型、METiS智能体、量子化学与分子动力学模拟及人工智能驱动的高通量筛选平台，是公司专有的人工智能驱动纳米科技创新体系的基础。以NanoForge为基础，公司开发出AiTEM、AiLNP、AiRNA三大技术解决方案，不但能极大地缩短药物研发的时间，而且可以增强药物的安全性和有效性。</span><br /><br /><span>■</span><span> &nbsp;以全球首创体内靶向递送系统覆盖免疫、肿瘤、代谢等重大疾病领域差异化创新管线</span><br /><span>基于NanoForge平台，剂泰科技在业内率先实现对肝脏、肺、心脏、肌肉、肿瘤组织、免疫系统、中枢神经系统、胃肠道8个关键器官和组织的精准靶向递送，管线产品覆盖肿瘤、免疫系统、中枢神经系统及代谢疾病等领域。</span><br /><br /><span>公司拥有超过10种管线产品，其中包括数种处于发现阶段的候选产品、4种临床前候选产品、3种临床阶段产品、1种pre-NDA产品及2种动物保健产品。截止最后实际可行日期，公司已备案专利申请共计224项，获授专利52项。</span><br /><br /><span>剂泰科技拥有中国首个完成III期临床的AI赋能制剂新药MTS-004。MTS-004是中国第一款也是唯一一款完成临床试验的PBA（假性延髓情绪失控）药物，有望填补国内PBA药物治疗的空白。MTS-004项目从立项到完成III期临床试验用时38个月。通过AiTEM的预测分析和先进的建模技术，公司成功地将临床前制剂开发时间从1至2年缩短至少于3个月。</span></span></p><p style=\"margin-top: 7.8pt; margin-bottom: 7.8pt;\"><span><span>“火箭+卫星”的新一代体内免疫治疗新范式是剂泰科技推进差异化创新管线研发的核心能力。MTS-105是在人体特定器官内高效激活抗肿瘤免疫的标杆管线产品，有望成为全球首款体内mRNA编码TCE实体瘤疗法，用于治疗肝癌及其他伴有肝转移的晚期实体瘤。剂泰科技基于其AiLNP及AiRNA平台，通过特异性肝靶向LNP的递送，实现TCE在肝细胞以及肝癌细胞内的高效表达，激活强大的肿瘤内免疫从而实现强效的肿瘤细胞杀伤能力。MTS-105目前处于IIT阶段并获批美国FDA孤儿药资格认定。</span><br /><span>■</span><span> &nbsp;平台合作及产品合作双轮驱动，加固技术迭代-商业应用-真实数据闭环构建壁垒</span><br /><span>在商业化策略上，剂泰科技采用“平台合作+产品合作”的双轮驱动商业模式，形成“技术迭代－商业应用－真实数据反馈”的再循环协同生态。迄今为止，剂泰科技在全球拥有超过30个制药及生物技术合作伙伴，客户主要包括全球顶级制药公司、创新生物技术公司以及医学研究机构。</span><br /><br /><span>剂泰科技2025年营收1.05亿元，主要是MTS-004的产品合作首付款。MTS-004在PBA这个适应症的总里程碑达18.45亿元，另外还有潜在高达1亿元人民币的潜在适应症拓展里程碑付款。与此同时，已签的平台合作中单个靶点合约金额高达1.09亿美元，双轮驱动商业模式已初步得到市场验证。</span><br /><br /><span>■</span><span> &nbsp;创始团队级核心高管跨界强强联手，持续重投入研发和人才建设</span><br /><span>剂泰科技的研发团队由三位联合创始人带领，依托北京、杭州的研发中心，汇集了纳米材料、化学、生物、物理、计算科学及医学等多学科专长，可以有力支持AI纳米递送的创新和跨学科突破性研究。研发团队由100多名科学家和技术人员组成，其中包括约40名博士学位持有人。公司的经营开支大部分与研发有关，主要包括科学家及工程师的雇员福利开支、股权激励费用、采购实验室材料及仪器以及专业服务费(包括向CRO支付的费用)。从2023年至2025年，公司研发开支持续在约2.7亿人民币的高投入。</span></span></p><p style=\"text-align: justify; margin-top: 0; margin-bottom: 0;\"><span>剂泰科技将始终把研发放在公司战略投入的重点方向，IPO募集所得资金净额约50.0%将用于支撑人工智能基础设施和人工智能驱动纳米材料平台的核心技术研究、开发及推进；约20.0%将用于人工智能开发产品管线中正在进行及计划开展的临床试验，推动候选药物在多个治疗领域及治疗模式中的进展；约10.0%将用于开发动物健康及抗衰解决方案，并将人工智能赋能的解决方案拓展至这些高增长领域。</span></p><p style=\"margin-top: 7.8pt; margin-bottom: 7.8pt;\"><span>雷峰网文章</span><br /><br /><br /><br /></p>",
-      "published": "2026-05-13T19:15:00+08:00",
-      "fetched_at": "2026-05-14T11:40:07.945124+08:00",
-      "pre_filter_reason": "AI药物递送公司上市，核心是AI技术",
+      "fetched_at": "2026-05-15T11:43:42.189709+08:00",
+      "pre_filter_reason": "AI chip company CEO visit to China",
       "scores": {
         "importance": 8,
         "timeliness": 9,
         "actionability": 7,
         "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "黄仁勋紧急访华！英伟达中国业务面临哪些新变数？",
+          "angle": "梳理英伟达在中国市场的关键事件（芯片限制、特供版、合作动态），分析黄仁勋此次访华可能讨论的议题及对中国AI芯片生态的影响。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "从黄仁勋访华看中美AI芯片博弈：英伟达的“最后一刻”策略",
+          "angle": "解读英伟达在出口管制下的商业策略（如推迟订单、游说、本地化合作），以及中国AI芯片厂商（华为昇腾等）的应对机会。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "fd12d045930a",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "screenpipe/screenpipe",
+      "link": "https://github.com/screenpipe/screenpipe",
+      "summary": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
+      "published": "2026-05-15T11:44:01.624799+08:00",
+      "fetched_at": "2026-05-15T11:44:01.624801+08:00",
+      "pre_filter_reason": "AI agents based on screen/mic recording",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "用Screenpipe打造你的“第二大脑”：24小时本地录屏+录音入门",
+          "angle": "手把手教你安装和配置Screenpipe，演示如何通过本地录屏和录音数据，让AI代理理解你的工作习惯，实现自动化任务。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "concept",
+          "title": "超级智能时代的“记忆外挂”：Screenpipe如何改变人机协作？",
+          "angle": "从概念层面解析Screenpipe的价值：为什么需要24/7的本地录屏录音？它如何帮助AI代理更好地理解用户意图，以及隐私与便利的平衡。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "6b0ac3330ebf",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "SemiAnalysisAI/InferenceX",
+      "link": "https://github.com/SemiAnalysisAI/InferenceX",
+      "summary": "Open Source Continuous Inference Benchmarking Qwen3.5, DeepSeek, GPTOSS - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 vs H100 & soon™ TPUv6e/v7/Trainium2/3",
+      "published": "2026-05-15T11:44:01.624737+08:00",
+      "fetched_at": "2026-05-15T11:44:01.624754+08:00",
+      "pre_filter_reason": "AI inference benchmarking for various models",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "英伟达B200 vs AMD MI355X：开源推理基准测试谁更强？",
+          "angle": "基于InferenceX的最新基准数据，对比GB200、MI355X、B200等主流AI芯片在推理任务中的性能差异，分析开源生态对硬件选择的影响。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "如何用InferenceX测试你的模型推理速度？",
+          "angle": "介绍InferenceX工具的基本用法，演示如何对Qwen3.5、DeepSeek等模型进行连续推理基准测试，并解读关键性能指标。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "857de3eba700",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "为 OpenAI 累计投入超 1000 亿美元，纳德拉称微软当年投资时“没人愿意下注”",
+      "link": "https://www.ithome.com/0/950/728.htm",
+      "summary": "<p>IT之家 5 月 15 日消息，科技媒体 Windows Central 今天（5 月 15 日）发布博文，报道称在“马斯克诉奥尔特曼”庭审环节，微软企业发展负责人迈克尔 · 威特（Michael Wetter）确认，<strong>微软投资 OpenAI 超过 1000 亿美元（IT之家注：现汇率约合 6801.59 亿元人民币），合作回报约为 300 亿美元。</strong></p><p>威特表示围绕着和 OpenAI 公司的合作，微软已累计支出超过 1000 亿美元，其中包含微软对 OpenAI 的 130 亿美元原始投资，此外大部分费用为 Azure 基础设施和托管成本，且很大部分支出发生在微软拿到 OpenAI 收入之前。</p><p>在回报方面，消息称在 2023 年至 2025 年期间，微软通过集成 OpenAI 技术以及 OpenAI 自身的云服务支出，已累计创造了约 300 亿美元的相关营收。</p><p>纳德拉在庭上表示，微软当年押注 OpenAI，是在“没人愿意下注”时承担了风险。与此同时，微软与 OpenAI 已续签为非独家合作协议，微软不再需要向 OpenAI 支付收入分成。新协议把 OpenAI 的分成上限设为到 2030 年累计 380 亿美元，相比原协议可节省约 970 亿美元。</p><p>微软并未把未来完全押在 OpenAI 身上。路透社称，微软正评估收购 AI 初创公司，以补强人才储备，并推动更快推出自研模型。公司也已重新调整 AI 领导层，把资源更多投向前沿模型与超级智能方向。</p><p>消息还称，微软曾考虑收购 Cursor，但因其已拥有 GitHub Copilot，担心触发反垄断审查而作罢。另一家 LLM 初创公司 Inception，也在微软的潜在收购名单中。</p>",
+      "published": "2026-05-15T10:27:28+08:00",
+      "fetched_at": "2026-05-15T11:43:53.654586+08:00",
+      "pre_filter_reason": "Microsoft investment in OpenAI, AI company",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "insight",
+          "title": "微软豪赌OpenAI的1000亿美元，到底值不值？",
+          "angle": "分析微软投资OpenAI的财务细节：130亿原始投资+巨额Azure成本，对比300亿美元回报，探讨这笔交易背后的战略逻辑与风险。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "story",
+          "title": "纳德拉的远见：当年“没人愿意下注”时，微软为何押注OpenAI？",
+          "angle": "从纳德拉的视角回顾微软与OpenAI的合作历程，讲述早期决策背后的故事，以及这笔投资如何改变了AI行业格局。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "b38646b47206",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "腾讯开源 Agent 记忆技术方案，Token 消耗最高降低 61%",
+      "link": "https://www.qbitai.com/2026/05/417753.html",
+      "summary": "任务成功率最高提升 51%。",
+      "published": "2026-05-14T16:34:30+08:00",
+      "fetched_at": "2026-05-15T11:43:44.063203+08:00",
+      "pre_filter_reason": "腾讯开源AI Agent记忆技术，涉及AI研究",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
         "virality": 7,
         "crowd_heat": 0.0
       },
       "quality_score": 7.5,
       "topics": [
         {
-          "tag": "news",
-          "title": "全球AI药物递送第一股诞生：剂泰科技上市背后的技术革命",
-          "angle": "报道剂泰科技在港交所上市，重点介绍其AI纳米递送技术如何改变大分子药物递送效率，以及“制药界Space X”这一称号的由来。",
+          "tag": "tutorial",
+          "title": "腾讯开源Agent记忆技术：Token消耗降低61%是怎么做到的？",
+          "angle": "解析腾讯Agent记忆技术方案的核心原理，演示如何通过记忆压缩和检索优化，在降低Token成本的同时提升任务成功率。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "comparison",
+          "title": "Agent记忆技术对比：腾讯开源方案 vs 传统方法，谁更胜一筹？",
+          "angle": "对比腾讯新方案与现有Agent记忆技术（如RAG、记忆缓存）在Token消耗、任务成功率、响应速度等方面的差异，帮助开发者选型。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "4a316b6164b1",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "芯驰科技完成近1亿美金C轮融资，加码汽车到具身智能全栈「芯」突破",
+      "link": "https://www.leiphone.com/category/industrynews/barQoX7o1PXA3LwV.html",
+      "summary": "<p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"background-image: none;\">5</span><span style=\"background-image: none;\">月</span><span style=\"background-image: none;\">13</span><span style=\"background-image: none;\">日，国内领先车规级芯片企业芯驰科技正式宣布完成近1亿美金C轮融资。本轮融资由苏产投领投，</span><span style=\"background-image: none;\">陕汽鸿德投资</span><span style=\"background-image: none;\">作为全新战略股东，亦庄国投、北京市先进制造基金、西安财金、益中亘泰等多家知名投资机构</span><span style=\"background-image: none;\">及</span><span style=\"background-image: none;\">产业资本跟投。</span></p><p>&nbsp;</p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"background: none;\">本轮融资落地，将进一步巩固芯驰科技在车规芯片领域的技术壁垒、量产优势与产业生态布局，并加速公司从汽车到具身智能赛道的全栈「芯」突破。</span></p><p style=\"text-align: center;\">&nbsp;<img src=\"https://static.leiphone.com/uploads/new/images/20260514/6a05687781b1b.png?imageView2/2/w/740\" /></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"background: none;\">苏产投成立于2025年，由苏州国投集团控股，元禾控股、苏创投集团战略参股，是专业私募股权管理平台，也是苏州国投集团落实地方产业战略布局、开展重大产业投资的核心抓手。苏产投紧扣国家发展战略，重点培育产业链链主企业，推动前沿技术成果实现产业化突破。</span></p><p>&nbsp;</p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"background: none;\">苏产投高孟表示：“集成电路与智能汽车是国家战略性核心赛道，国产高端车规芯片更是产业自主可控的关键一环。芯驰科技深耕车规芯片领域多年，拥有完善的产品矩阵、严苛的车规认证体系及规模化量产能力，在智能座舱、高端智控等领域位居行业前列，并积极拓展在具身智能赛道的全栈产品应用。我们高度认可芯驰的技术路线、产品竞争力与商业化落地能力。此次领投，是对芯驰行业价值与发展潜力的充分肯定。未来苏产投将依托自身产业资源与资本平台优势，深度赋能芯驰科技的创新研发与产业生态扩容，助力企业持续加码从汽车到具身智能的全栈‘芯’突破。”</span></p><p>&nbsp;</p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"background: none;\">陕汽控股王彬表示：“汽车芯片是整车智能化、网联化升级的核心底座，更是整车产业实现自主可控、保障产业链安全稳定的关键支撑。随着新能源与智能汽车产业加速迭代，行业对高性能、高可靠车规芯片的需求持续攀升。芯驰科技在座舱芯片、高端智控芯片等领域产品成熟、量产经验丰富，深度契合整车企业智能化转型发展需求。此次战略入股，是陕汽立足产业链协同、布局核心底层芯片的重要举措。我们期待未来与芯驰深化技术协同、产品适配及联合研发，以优质车规芯片赋能整车产品升级，共建安全、自主、可控的汽车产业供应链生态。”</span></p><p>&nbsp;</p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"background: none;\">芯驰科技是全球少数同时可提供SoC与高性能MCU的车规级芯片设计公司之一。截至目前，芯驰全系列</span><span style=\"background: none;\">芯片累计出货量已突破1200万片，客户覆盖中国全部前十大汽车OEM集团，以及全球前十大汽车OEM</span><span style=\"background: none;\">集团</span><span style=\"background: none;\">中的七家，在品牌覆盖广度与商业化落地规模上均处于行业领先地位。</span></p><p>&nbsp;</p><p style=\"margin-top: 0px; margin-bottom: 0px;\"><span style=\"background: none;\">芯驰科技创始人兼董事长仇雨菁表示：“衷心感谢领投方苏产投的信任与认可，同时也诚挚感谢陕汽及各位投资方，以及北京市一直以来给予</span><span style=\"background: none;\">芯驰</span><span style=\"background: none;\">的大力支持。本轮融资的顺利完成，是资本市场与产业端对芯驰技术实力、产品布局和发展战略的充分肯定。芯驰将依托本轮融资，持续深耕AI智能座舱、高端智控领域的产品创新与技术引领，进一步夯实规模化量产交付能力，同时积极向具身智能方向拓展布局。我们对公司长期成长与产业价值释放充满坚定信心。”</span></p>",
+      "published": "2026-05-14T14:17:00+08:00",
+      "fetched_at": "2026-05-15T11:43:40.960852+08:00",
+      "pre_filter_reason": "AI-related chip company funding and embodied intelligence",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "芯驰科技获近1亿美元融资：车规级芯片如何“跨界”具身智能？",
+          "angle": "分析芯驰科技从汽车芯片到具身智能的拓展逻辑，探讨车规级芯片的高可靠性如何赋能机器人、自动驾驶等场景。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "6年IPO最短用时：剂泰科技如何用AI重塑生物制药赛道？",
-          "angle": "分析剂泰科技从创业到上市的关键成功因素，包括AI驱动的纳米递送平台、大分子药物研发策略，以及对港股AI制药板块的标杆意义。",
-          "difficulty": "进阶"
+          "tag": "insight",
+          "title": "C轮融资近1亿美元，芯驰科技凭什么成为车规芯片“黑马”？",
+          "angle": "梳理芯驰科技的技术路线、产品布局和客户案例，解读其为何能在资本寒冬中获得大额融资，以及对中国汽车芯片产业的意义。",
+          "difficulty": "入门"
         }
       ]
     }
