@@ -1,220 +1,263 @@
 {
-  "updated_at": "2026-05-15T11:45:12.653590+08:00",
+  "updated_at": "2026-05-16T11:29:28.404769+08:00",
   "total": 20,
   "items": [
     {
-      "id": "fc1bb6800d24",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
+      "id": "ad8e5f3265ee",
+      "source_id": "microsoft-research",
+      "source_name": "Microsoft Research",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "How the NVIDIA Vera Rubin Platform is Solving Agentic AI’s Scale-Up Problem",
-      "link": "https://developer.nvidia.com/blog/how-the-nvidia-vera-rubin-platform-is-solving-agentic-ais-scale-up-problem/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/nvidia-vera-rubin-pod-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-vera-rubin-pod\" width=\"768\" />Agentic inference has fundamentally changed the runtime dynamics of inference workloads by introducing non-deterministic trajectories—actions, observations,...",
-      "published": "2026-05-15T03:24:35+08:00",
-      "fetched_at": "2026-05-15T11:43:31.675442+08:00",
-      "pre_filter_reason": "AI平台",
+      "title": "Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability",
+      "link": "https://www.microsoft.com/en-us/research/blog/further-notes-on-our-recent-research-on-ai-delegation-and-long-horizon-reliability/",
+      "summary": "<p>Our recent paper, “LLMs Corrupt Your Documents When You Delegate”, has generated discussion about the reliability of AI systems in delegated workflows. We appreciate the interest in this work and want to clarify several important points about what the paper does—and does not—claim. The research aims to develop robust evaluation methods for long-horizon delegated and [&#8230;]</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/research/blog/further-notes-on-our-recent-research-on-ai-delegation-and-long-horizon-reliability/\">Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability</a> appeared first on <a href=\"https://www.microsoft.com/en-us/research\">Microsoft Research</a>.</p>",
+      "published": "2026-05-16T02:06:57+08:00",
+      "fetched_at": "2026-05-16T11:28:04.327988+08:00",
+      "pre_filter_reason": "AI research on delegation and reliability",
       "scores": {
-        "importance": 9,
+        "importance": 7,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 6,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 8.3,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "AI委托工作流避坑指南：如何防止文档被篡改",
+          "angle": "解读论文核心发现，提供企业使用AI代理时的安全操作清单，避免数据被意外修改。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "AI代理的可靠性陷阱：论文争议背后的真相",
+          "angle": "分析论文引发的行业讨论，澄清常见误解，探讨长期委托场景下的风险与对策。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "75e75c36a0c0",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "link": "https://openai.com/index/databricks",
+      "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+      "published": "2026-05-15T08:00:00+08:00",
+      "fetched_at": "2026-05-16T11:28:02.706389+08:00",
+      "pre_filter_reason": "涉及GPT-5.5模型和AI企业工作流",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "企业级AI代理实战：Databricks如何用GPT-5.5优化工作流",
+          "angle": "拆解GPT-5.5在OfficeQA Pro上的突破，手把手教企业如何集成到现有代理系统中。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "news",
+          "title": "GPT-5.5新标杆：企业办公AI的下一站",
+          "angle": "解读新模型在办公场景的SOTA表现，分析其对文档处理、会议纪要等任务的提升。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "36177ea05fee",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "OpenAI 在美国遭集体诉讼：ChatGPT 被指嵌入追踪工具，向谷歌、Meta 分享用户隐私",
+      "link": "https://www.ithome.com/0/951/210.htm",
+      "summary": "<p>IT之家 5 月 16 日消息，科技媒体 Android Headline 昨日（5 月 15 日）发布博文，报道称 OpenAI 公司在美国加州遭遇集体诉讼，原告指控其在 ChatGPT 中嵌入追踪工具，把用户信息分享给 Meta 和谷歌公司。</p><p>在本次集体诉讼中，<strong>原告主张指控 OpenAI 在 ChatGPT 网站中嵌入常见追踪工具 Meta Pixel 和 Google Analytics，并把部分用户数据传给 Meta 和 Google。</strong></p><p>诉状称第三方可能实时收到邮箱地址、用户 ID，以及用户输入的查询文本等可识别信息。如果这一说法成立，用户向 ChatGPT 提出的医疗症状、法律顾虑，甚至尚未公开的商业想法，都可能进入更大的数据追踪链路。</p><p>这也是此案最敏感的地方，普通网站使用统计和广告追踪代码并不少见，行业里早已把这类工具当作标准配置，但 ChatGPT 处理的内容高度私密，往往带有明确个人背景的自然语言输入。</p><p>不过，从法律层面看，这起诉讼未必容易推进。Cybernews 研究员 Aras Nazarovas 指出，OpenAI 的隐私政策已经使用较宽泛的表述，说明可能会与第三方共享数据，用于分析和改进产品。在现有互联网服务框架下，用户注册时通常也会一并同意这类条款。</p>",
+      "published": "2026-05-16T11:12:40+08:00",
+      "fetched_at": "2026-05-16T11:28:20.563241+08:00",
+      "pre_filter_reason": "AI company lawsuit over ChatGPT privacy.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "ChatGPT隐私保护自查：关闭追踪工具的3个步骤",
+          "angle": "针对诉讼中提到的Meta Pixel和Google Analytics，教用户如何检查并禁用ChatGPT中的追踪代码。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "AI聊天工具的数据暗流：OpenAI被诉事件深度解析",
+          "angle": "分析诉讼背后的隐私风险，探讨AI公司如何平衡功能与用户数据安全。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "dd30d0cb2cff",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "消息称微软取消 Claude Code 许可，6 月底前推动团队转向 Copilot CLI",
+      "link": "https://www.ithome.com/0/951/189.htm",
+      "summary": "<p>IT之家 5 月 16 日消息，科技媒体 The Verge 昨日（5 月 15 日）发布博文，报道称微软正在收回大部分 Claude Code 使用许可，并要求更多内部开发者改用 GitHub Copilot CLI。</p><p>IT之家援引博文介绍，本次调整主要影响 Experiences ＋ Devices 团队，<strong>涵盖 Windows 11、Microsoft 365、Outlook、Teams 和 Surface 等相关工程团队。</strong></p><p>消息称微软要求其团队在 6 月底前逐步停止使用 Claude Code，工程师会在未来几周内把现有工作流迁移到 Copilot CLI。</p><p>消息称微软于 2024 年 12 月启动相关测试，同时向员工开放 Claude Code 与 GitHub Copilot CLI，希望在真实工程环境中比较 2 款产品的能力差异，再依据反馈判断后续路线。</p><p>微软副总裁 Rajesh Jha 对外表示，Claude Code 在学习和基准比较阶段很重要，但 GitHub Copilot CLI 的优势在于，微软能联合 GitHub 更直接地塑造产品，让其更贴合微软代码仓库、工作流、安全要求与工程需求。</p><p>该媒体认为本次收缩除了产品路线选择之外，另一个重要因素是成本。报道指出，6 月 30 日是微软当前财年的最后一天，取消 Claude Code 许可有助于在 7 月新财年开始前削减一部分运营支出。</p><p>不过从员工反馈看，Claude Code 在微软内部其实颇受欢迎。微软过去 6 个月，曾鼓励没有编程经验的设计师、项目经理等员工借助 Claude Code 尝试原型开发，此外相比较 GitHub Copilot CLI，很多内部开发者也更偏爱 Claude Code。</p>",
+      "published": "2026-05-16T10:31:11+08:00",
+      "fetched_at": "2026-05-16T11:28:20.563336+08:00",
+      "pre_filter_reason": "涉及Claude Code和Copilot CLI，属于AI开发工具",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "微软内部大转向：从Claude Code到Copilot CLI的迁移指南",
+          "angle": "报道微软政策变动，分析对Windows、Office等团队的影响，并给出过渡建议。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "如何从Claude Code迁移到GitHub Copilot CLI？",
+          "angle": "提供逐步迁移教程，包括代码库适配、命令差异对比和团队协作调整。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "0ad92a2c24af",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "anthropics /skills",
+      "link": "https://github.com/anthropics/skills",
+      "summary": "Public repository for Agent Skills",
+      "published": "2026-05-16T11:28:26.511776+08:00",
+      "fetched_at": "2026-05-16T11:28:26.511779+08:00",
+      "pre_filter_reason": "Anthropic's Agent Skills repository",
+      "scores": {
+        "importance": 8,
         "timeliness": 8,
         "actionability": 9,
         "scarcity": 8,
         "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 9.0,
+      "quality_score": 7.7,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "NVIDIA Vera Rubin 平台：如何解决 Agentic AI 的规模化难题",
-          "angle": "从技术架构角度，拆解 Vera Rubin 平台如何通过硬件与软件协同创新，解决 Agentic AI 在推理、通信和资源调度上的扩展瓶颈，适合开发者快速理解其核心设计。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "analysis",
-          "title": "Agentic AI 规模化挑战与 NVIDIA 的应对策略",
-          "angle": "分析当前 Agentic AI 在规模化部署中遇到的主要问题（如延迟、成本、协调），并解读 Vera Rubin 平台如何通过新架构提供解决方案，适合技术决策者评估其价值。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "bb3d654099e0",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Sea's View on the Future of Agentic Software Development with Codex",
-      "link": "https://openai.com/index/sea-david-chen",
-      "summary": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.",
-      "published": "2026-05-15T04:30:00+08:00",
-      "fetched_at": "2026-05-15T11:43:28.685489+08:00",
-      "pre_filter_reason": "AI软件开发",
-      "scores": {
-        "importance": 7,
-        "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 6,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.1,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Sea Limited 如何用 Codex 加速 Agentic 软件开发？",
-          "angle": "以 Sea Limited 的实践为例，介绍 Codex 在工程团队中的部署流程与关键应用场景，包括代码生成、自动化测试和 AI 原生开发模式，适合开发者学习落地经验。",
+          "title": "Anthropic Agent Skills入门：快速构建你的第一个AI技能",
+          "angle": "介绍仓库中的技能模板，手把手教开发者如何创建和部署自定义代理技能。",
           "difficulty": "入门"
         },
         {
           "tag": "analysis",
-          "title": "Agentic 软件开发的未来：Sea 与 Codex 的亚洲实践",
-          "angle": "探讨 Sea Limited 选择 Codex 的战略考量，以及 Agentic 开发对亚洲科技行业的影响，包括效率提升、团队协作变化和未来趋势。",
-          "difficulty": "入门"
+          "title": "开源Agent Skills库：Anthropic如何降低AI开发门槛",
+          "angle": "分析该仓库对开发者生态的意义，探讨预置技能如何加速企业应用落地。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "2b20bf19a73a",
-      "source_id": "huggingface-blog",
-      "source_name": "Hugging Face Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
-      "link": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
-      "summary": "",
-      "published": "2026-05-15T02:55:01+08:00",
-      "fetched_at": "2026-05-15T11:43:31.897134+08:00",
-      "pre_filter_reason": "AI embedding model release",
-      "scores": {
-        "importance": 7,
-        "timeliness": 6,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 6,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 8.1,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Granite Embedding Multilingual R2：开源多语言嵌入模型入门指南",
-          "angle": "手把手教你如何使用 Granite Embedding Multilingual R2 进行多语言文本检索，包括模型加载、32K 上下文处理及性能调优，适合 NLP 初学者。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "Apache 2.0 下最强多语言嵌入模型：Granite R2 性能评测",
-          "angle": "对比 Granite Embedding Multilingual R2 与其他主流嵌入模型（如 BGE、E5）在检索质量、上下文长度和多语言支持上的优势，帮助开发者选择最佳模型。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "226ebf30d36d",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
+      "id": "cc09da830348",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "人类大替代？Figure AI 人形机器人直播分拣快递：工作 33 小时处理超 4 万个包裹，但还有瑕疵",
-      "link": "https://www.ithome.com/0/950/762.htm",
-      "summary": "<p>IT之家 5 月 15 日消息，人形机器人公司 Figure AI 昨日开启了一项直播挑战，让人形机器人直播分拣快递。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/f3342692-9653-4c62-9d2d-3944f958f77b.png?x-bce-process=image/format,f_auto\" /></p><p>官方原计划挑战 8 小时的完整工作时段，机器人的任务就是把每个快递的标签页朝下摆放，然后把快递送到传送带上。</p><p>截至IT之家发文，Figure AI 机器人已顺利完成 8 小时挑战，但没有停下，<strong>已经工作了 33 个小时，分拣了超 4 万个包裹</strong>。</p><p>虽然机器人分拣效率看起来不错，不过IT之家还是从直播发现了错误，<strong>机器人偶尔会把快递包裹推到传送带外面，导致包裹掉到地上</strong>。显然，机器人是没有做出应对措施的。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/5c81cdd9-7fb7-4b63-9588-21579c59515c.webp\" /></p><p>即便还是有细微瑕疵，但机器人对于人类机械重复劳动的替代已经可以想象，一个快递分拣站放置数个机器人，只需要一个真人负责检查遗漏包裹就可以，大大降低了人力使用。</p><p>Figure AI 公司，<strong>表示这些机器人基于 Helix 02 模型，以“完全自主”模式运行</strong>，并以“人类性能水平”工作。</p><p>需要注意的是，并不是只有一个机器人进行直播，续航显然撑不住。当机器人电池电量不足时，会换一个机器人继续工作。</p><p><strong>相关阅读：</strong></p><ul class=\"small-size list-paddingleft-2\"><li><p>《<a href=\"https://www.ithome.com/0/950/713.htm\" target=\"_blank\">人形机器人上岗快递分拣员，星动纪元联手中国邮政打造</a>》</p></li></ul>",
-      "published": "2026-05-15T10:59:52+08:00",
-      "fetched_at": "2026-05-15T11:43:53.654488+08:00",
-      "pre_filter_reason": "AI humanoid robot news",
+      "title": "Anthropic 推出 Claude Platform on AWS",
+      "link": "https://www.infoq.cn/article/mjFmXfhf29SA5UFhr2QV?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/mjFmXfhf29SA5UFhr2QV?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-05-16T02:12:00+08:00",
+      "fetched_at": "2026-05-16T11:28:13.819559+08:00",
+      "pre_filter_reason": "Anthropic's Claude AI platform on AWS",
       "scores": {
         "importance": 8,
         "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "如何在AWS上快速部署Claude模型",
+          "angle": "手把手教你使用Anthropic的Claude Platform on AWS，包括环境配置、API调用和常见问题解决。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "Claude上AWS：企业级AI部署的新选择",
+          "angle": "分析Claude Platform on AWS对企业AI应用的影响，对比其他云平台上的AI服务优劣。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "48bd5998ffdf",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "鼠标每动一下都在训练AI，Meta员工“造反”了：厕所、会议室都贴满抗议传单",
+      "link": "https://www.infoq.cn/article/QU5sZKgumE0oGvoHrULa?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/QU5sZKgumE0oGvoHrULa?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-05-15T18:43:44+08:00",
+      "fetched_at": "2026-05-16T11:28:13.819659+08:00",
+      "pre_filter_reason": "Meta employees protest about AI training using user data.",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
         "actionability": 9,
         "scarcity": 8,
         "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 8.0,
+      "quality_score": 7.7,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "Figure AI 人形机器人直播分拣：技术原理与实现解析",
-          "angle": "从 Figure AI 的直播挑战出发，解析人形机器人在物流分拣中的关键技术，包括视觉识别、抓取算法和任务规划，适合机器人爱好者了解当前水平。",
+          "tag": "discussion",
+          "title": "Meta员工抗议鼠标数据训练AI：隐私与效率的博弈",
+          "angle": "探讨Meta内部抗议事件背后的数据隐私争议，分析用户行为数据用于AI训练的伦理问题。",
           "difficulty": "入门"
         },
         {
           "tag": "analysis",
-          "title": "人类会被替代吗？Figure AI 机器人分拣快递的现状与局限",
-          "angle": "分析 Figure AI 机器人 33 小时处理 4 万包裹的成果与瑕疵，探讨人形机器人在仓储物流中的实际应用边界，以及未来对人类就业的潜在影响。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "fbf812237cee",
-      "source_id": "geekpark",
-      "source_name": "极客公园",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "马斯克、库克、黄仁勋盛赞中美元首会晤；英伟达市值破 5.5 万亿美元，超德国 GDP；《GTA6》将于 11 月 19 日零点解锁｜极客早知道",
-      "link": "http://www.geekpark.net/news/364185",
-      "summary": "<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/30/a9/30a91cafe678ae318467bb79a5f1a039.png\" /></p>\n<h2>马斯克 360 度转圈拍摄人民大会堂，黄仁勋：这会是一次非常成功的会晤</h2>\n<p>5 月 14 日，上午，国家领导人在北京人民大会堂东门外广场举行仪式，欢迎美国总统特朗普开启访华行程。据中国新闻网，仪式开始前，随同特朗普访华的特斯拉首席执行官马斯克，现场用手机 360 度转圈兴拍摄人民大会堂。</p>\n<p>英伟达首席执行官黄仁勋在接受采访时表示：这会是一次非常成功的会晤。</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/5e/01/5e01af31ce758630e8c47cd68a52dfaa.png\" /></p>\n<p>据悉，元首会谈结束后，马斯克、黄仁勋、库克等一众知名商界领袖陆续从人民大会堂离场，等候在外的白宫随行记者团第一时间上前，询问各位企业家对本次会谈的直观感受。</p>\n<p>马斯克首先给出了十分积极的回应，直言整个会谈过程非常顺利，当下已经有很多对产业发展利好的好事正在发生。</p>\n<p>库克面对镜头先是比了个庆贺的手势，随后又竖起大拇指，用直白的肢体动作表达对本次会谈结果的认可，而黄仁勋受访时也表示会谈进行得十分顺畅，直言两国元首的交流状态都棒极了。（来源：快科技）</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/42/7b/427bd1312cac0dae531d8861f55d7737.png\" /></p>\n<h2>英伟达市值破 5.5 万亿美元，超世界第三大经济体德国 GDP</h2>\n<div class=\"post_content \" id=\"paragraph\">\n<p>5 月 14 日，英伟达（NVIDIA）公司市值盘中首次突破 5.5 万亿美元，刷新全球上市公司市值历史最高纪录，也是全球首家站上这一关口的上市公司。</p>\n<p>英伟达在当天早盘后股价上涨 3%，从 2026 年年初至今，公司市值已增长 19.58%，进一步巩固其全球市值最高公司的位置。</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/cf/6d/cf6d930e79521c606112605b200978f1.png\" /></p>\n<p>从横向对比看，英伟达已明显甩开主要科技巨头，谷歌母公司 Alphabet 市值为 4.86 万亿美元；苹果公司市值为 4.39 万亿美元，微软公司市值为 3.01 万亿美元。（来源：IT 之家）</p>\n<p>&nbsp;</p>\n</div>\n<h2>Anthropic 企业采用率首超 OpenAI</h2>\n<p>5 月 14 日，Ramp AI Index 日前发布报告称，Anthropic 的企业采用率于 4 月上升 3.8%，达到 34.4%；OpenAI 采用率下降 2.9%，至 32.3%。</p>\n<p>过去一年中，Anthropic 的企业采用率增长 4 倍，而 OpenAI 的企业采用率仅增长了 0.3%。报告来自企业信用卡与财务自动化平台 Ramp，该平台追踪了超过 5 万家美国企业的支出模式。</p>\n<p>但该报告也指出，Anthropic 的优势可能并不像表面看起来那样稳固：不断上升的成本、算力限制，以及推动公司营收高速增长的「基于 Token 计费」模式本身，都可能对其构成威胁。</p>\n<p>同日，Anthropic 公司与盖茨基金会达成 2 亿美元的合作伙伴关系。（来源：格隆汇）</p>\n<p>&nbsp;</p>\n<h2>微软寻求收购 AI 公司以摆脱对 OpenAI 依赖</h2>\n<p>5 月 14 日，据外媒，知情人士称，微软正寻求收购人工智能初创公司，为摆脱对曾经至关重要的合作伙伴 OpenAI 的依赖做准备。潜在收购将帮助微软储备 AI 人才，并推进此前提出的在明年前打造一款先进 AI 模型的目标。</p>\n<p>知情人士称，今年春季，微软曾考虑收购代码生成初创公司 Cursor，但由于内部评估认为该交易因微软持有 GitHub Copilot 而难以通过监管审查，微软最终放弃了这一计划。微软目前正与 Inception 展开谈判，这是一家由斯坦福大学团队创立的小型初创公司，专注于采用一种名为「扩散」（diffusion）的技术开发大语言模型。</p>\n<p>微软旗下风险投资基金 M12 于 2025 年末参与了 Inception 5000 万美元的种子轮融资。微软在竞购中还面临来自其他科技巨头的强劲竞争，尤其是马斯克旗下的 SpaceX。知情人士表示，SpaceX 也曾接触 Inception。（来源：格隆汇）</p>\n<p>&nbsp;</p>\n<h2>Anthropic 高管：公司 90% 代码已由 AI 完成</h2>\n<p><span class=\"Apple-converted-space\">5 月 18 日，</span>Anthropic 首席财务官表示，AI 已编写公司 90% 的代码，使白领工作重心从执行转向监督。这些言论透露出这家硅谷顶级 AI 公司对未来白领工作的看法：AI 未必会直接消灭大量岗位，但会自动化掉员工日常工作中的大部分执行任务，使员工逐渐变成 AI 系统的「监督者」。（来源：财联社）</p>\n<p>&nbsp;</p>\n<div class=\"post_content \" id=\"paragraph\">\n<h2>腾讯辟谣「AI 一号位即将离职」：纯属子虚乌有</h2>\n<p>5 月 14 日，据「鹅厂黑板报」微信公众号消息，腾讯公司发布严正辟谣：今天中午，有自媒体谣传「AI 一号位即将离职」并影射腾讯，此谣言纯属子虚乌有。腾讯在此严正辟谣，并保留对相关恶意造谣者追究法律责任的权利。</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/eb/b0/ebb0ff562a6e627fa2e1ca28412958cb.png\" /></p>\n<p>尽管腾讯未点名谣言涉及的具体人物，但从官方放出的截图来看，谣言可能指向现任 AI 负责人姚顺雨。</p>\n<p>姚顺雨于 2025 年 12 月 17 日出任腾讯「CEO / 总裁办公室」首席 AI 科学家，直接向总裁刘炽平汇报，同时兼任新成立的 AI Infra 部和大语言模型部负责人。（来源：IT 之家）</p>\n</div>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/ad/47/ad47a7f3b1763c69859a6df1bf4c65de.png\" /></p>\n<header></header>\n<h2><span style=\"font-size: 22px;\">黄仁勋称 5 年前的 GPU 就像老酒：它们越陈越香，还会涨价</span></h2>\n<article>\n<p>5 月 14 日，在 AI 需求进入爆发周期的背景下，GPU 成为最紧缺的算力资源之一，甚至 5 年前的旧芯片也开始持续涨价。</p>\n<p>据媒体报道，近日，英伟达 CEO 黄仁勋将这一现象称为「Fine Wine（好酒效应）」。</p>\n<p>据了解，Fine Wine 这一说法最早用于 AMD Vega 时期，用来形容 GPU 通过驱动优化持续提升性能，不过现在的含义已经发生变化，更多被用来描述 GPU 价格随时间上涨。</p>\n<p>英伟达方面表示，AI 需求正在推动 GPU 市场进入爆发式增长阶段，全球几乎所有运行 AI 业务的数据中心都依赖 GPU，尽管 CPU 需求同步增长，但 GPU 仍然是核心算力来源。</p>\n<p>当前，全球半导体厂商产能紧张，这一紧张局面进一步推高包括 GPU 在内的各类硬件价格，而旧一代 GPU 也同样受到影响。</p>\n<p>即使是 4-5 年前的产品，目前仍在持续升值。黄仁勋指出，旧 GPU 的涨价速度甚至超过好酒陈化速度，在市场中仍然具有强需求。（来源：快科技）</p>\n<p>&nbsp;</p>\n<h2>ChatGPT 网页端流量份额一年内从 77.6% 跌至 53.7%，谷歌 Gemini 快速追赶</h2>\n<p>5 月 14 日，Similarweb 发布了主流 AI 聊天机器人最新的网站流量数据，ChatGPT 的领先优势正在快速缩小。一年前，其流量占比高达 77.6%，如今已跌至 53.7%。</p>\n<p>谷歌 Gemini 成为最大赢家，同期流量占比从 7.3% 飙升至 26.7%。Anthropic 旗下的 Claude 同样涨幅显著，从 1.4% 攀升至近 8%。</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/b1/88/b1887c112fa0332782cc159b3e3e1088.png\" /></p>\n<p>Deepseek 小幅下滑，从 6% 降至 4%；Grok 维持平稳，稳定在 3% 左右；微软 Copilot 与 Perplexity 的流量占比均仍低于 2%。</p>\n<p>需要注意的是，以上数据仅统计网页端流量。尤其是 OpenAI 和 Anthropic，其大部分营收来自 API 接口服务、编程工具以及桌面端和移动端应用，这些渠道流量均未纳入本次统计。反观谷歌，则可以通过安卓系统和谷歌搜索轻松为 Gemini 导流，而目前的流量格局几乎必然是这一因素导致的。（来源：IT 之家）</p>\n<h2>&nbsp;</h2>\n<h2>MiniMax Agent 升级更名为 Mavis，推出 Agent Teams 重构多智能体协作</h2>\n<article>\n<p>5 月 14 日，MiniMax 正式宣布将其 Agent 产品整体升级并更名为 Mavis（MiniMax as a Jarvis）。此次更新核心上线了 Agent Teams 功能，支持多个 Agent 并行协作处理复杂任务，并将 TokenPlan 与 Agent Plan 合并，实现 CLI、API 及全模型互通。</p>\n<p>针对单 Agent 在长任务中易中断、上下文失焦及响应延迟等痛点，Mavis 推出了由 Leader、Worker 和 Verifier 构成的 Team Engine 架构。该架构通过 Leader 统筹拆解任务，Worker 专业化执行，Verifier 独立进行质量校验与对抗式迭代，将多 Agent 系统从简单的 Prompt 编排升级为具备状态管理与上下文隔离的基础设施。</p>\n<p>Mavis 目前已落地于即时通讯、代码开发、行业调研及办公文档四大核心场景。通过将「即时响应」与「后台执行」分离，Mavis 有效解决了 IM 场景下的长任务等待难题；在 Coding 与文档生成中，则通过确定性的代码逻辑驱动与分阶段验证，大幅提升了复杂任务的交付质量与可靠性。（来源：品玩）</p>\n<p>&nbsp;</p>\n</article>\n<h2>台积电预测 2030 年全球半导体市场将突破 1.5 万亿美元，AI 与高性能计算占主导</h2>\n<p>5 月 14 日，据路透社报道，全球最大晶圆代工厂台积电今日在一场科技研讨会前夕发布的演示资料中预计，2030 年全球半导体市场规模将突破 1.5 万亿美元（现汇率约合 10.21 万亿元人民币），高于此前 1 万亿美元的预测值。</p>\n<p>台积电表示，在 1.5 万亿美元的市场规模中，人工智能与高性能计算领域预计占比 55%，智能手机占 20%，汽车应用占 10%。</p>\n<p>台积电称，2022 年至 2026 年，AI 加速器晶圆需求量预计增长 11 倍。（来源：IT 之家）</p>\n<p>&nbsp;</p>\n<header>\n<h2>马斯克用中文发贴：我的儿子正在学普通话</h2>\n</header>\n<p>5 月 14 日，特斯拉 CEO 伊隆&middot;马斯克还在 X 上用中文发贴称：「我的儿子正在学习普通话。」。马斯克目前正在北京，陪同美国总统特朗普访华。此次来中国，他还带上了自己的 6 岁小儿子 X。</p>\n<p><img src=\"https://imgslim.geekpark.net/uploads/image/file/67/d7/67d7f936ebd994dbf7f0b749b2eb79e7.png\" /></p>\n<p>在今天下午举行中美工商界代表会议时，马斯克就被拍到带着 X 走进人民大会堂。X 当时身穿中式马甲戴虎头帽。陪同马斯克的还有特斯拉中国区总裁朱晓彤。（来源：cnBeta）</p>\n</article>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/5a/92/5a92ba0919d873713c86797952c6a650.png\" /></p>\n<div class=\"post_content \" id=\"paragraph\"><header>\n<h2>《GTA6》将于北京时间 11 月 19 日零点解锁</h2>\n<p>5 月 18 日，PlayStation 公开了《GTA6》在全球各地区的解锁时间，新西兰玩家抢先一步，成为最早能游玩《GTA6》的玩家，11 月 18 日 19 点解锁，中国时区将在 11 月 19 日 0 点解锁。</p>\n</header>\n<p>若是按时区解锁，那么《GTA6》首批解锁的国家和地区会在网络上出现剧透现象。预计在首批地区上线后，社交媒体平台、直播频道和游戏论坛将会异常活跃。</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/d5/08/d50825f901634ad611f37c8fc62521b0.png\" /></p>\n<p>自公布发售日以来，R 星一直保持低调，但外界普遍猜测该公司将在发售前的几个月加大市场推广力度。业内人士猜测，R 星可能会在 11 月之前发布另一支重磅预告片，其中可能包含更多游戏画面和技术细节。</p>\n<p>《GTA6》将于 11 月 19 日发售，首发登陆 PS5 和 Xbox Series 平台。（来源：IT 之家）</p>\n<h2>&nbsp;</h2>\n<h2>苹果 iPhone 18 Pro / Max 再爆：主打「深樱桃色」，后摄布局不变</h2>\n<p>5 月 14 日，消息源 @MajinBuofficia 在 X 平台发布推文，分享了一组摄像头保护元件照片，展示了苹果 iPhone 18 Pro 和 iPhone 18 Pro Max 的颜色。</p>\n<p>颜色方面，接棒&nbsp;iPhone 17 Pro&nbsp;系列的星宇橙，消息称苹果&nbsp;iPhone 18&nbsp;Pro 系列的主打色为「深樱桃」（Dark Cherry），颜色偏向深酒红色。</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/dd/4c/dd4cc019586d673b325ce5894fd16504.png\" /></p>\n<p>消息称除了「深樱桃色」外，苹果还在测试浅蓝、深灰及银色版本，其中浅蓝色比较接近 iPhone 17 的青雾蓝色（Mist Blue），是一款低饱和度、带灰调的雅致色调。（来源：IT 之家）</p>\n<p>&nbsp;</p>\n<h2>Meta 将在 WhatsApp 上推出「隐身聊天」功能 &nbsp;</h2>\n<p>5 月 14 日，Meta Platforms 周三表示，该公司正在其 WhatsApp 即时通讯服务的人工智能助手中推出一项新的「隐身聊天」功能，旨在解决用户对数据隐私的担忧。Meta 表示，隐身聊天将依托私有处理技术，确保对话对任何人（包括公司自身）都不可见。</p>\n<p>Meta 在一篇博客文章中表示「您的对话不会被保存，默认情况下消息会自动消失&mdash;&mdash;这为您提供了一个不受任何人监视的思考和探索想法的空间。」（来源：新浪财经）</p>\n</div>\n<p><img src=\"https://imgslim.geekpark.net/uploads/image/file/88/5a/885a3cf750d3c20d471b42b70c6323c3.png\" style=\"text-align: center;\" /></p>\n<div class=\"post_content \" id=\"paragraph\">\n<h2>时隔 13 年再同框，雷军用小米 17 Pro 与马斯克合影&nbsp;</h2>\n<p>5 月 14 日，十余家美国知名企业高管随美国总统特朗普访华，其中包括苹果 CEO 蒂姆&middot;库克、英伟达 CEO 黄仁勋、特斯拉 CEO 埃隆&middot;马斯克等。</p>\n<p>公开报道显示，特朗普于 5 月 13 日晚抵达北京，开始对中国进行国事访问。</p>\n<p>据媒体报道，马斯克、库克等美国科技企业高管出席了今晚在人民大会堂金色大厅举行的欢迎宴会。现场视频显示，马斯克坐在座位上时，不少嘉宾上前与其合影，一名男士坐到马斯克右侧准备合影后，小米 CEO 雷军走到马斯克身旁，拍了拍他的肩膀。</p>\n<p>马斯克回头后，雷军与其握手致意，合影完成后，雷军拿出小米 17 Pro 与马斯克自拍合照。</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/b3/1d/b31d1a64cbe334f5a10d2969ba8d2f57.png\" /></p>\n<p>值得一提的是，在与雷军自拍时，马斯克还对着镜头做出了俏皮 Wink（眨眼）表情，现场氛围十分轻松。</p>\n<p>公开信息显示，雷军与马斯克的行业交流可追溯至十余年前。2013 年，雷军曾前往美国拜访马斯克，实地参观特斯拉总部工厂，并首次与马斯克合影。（来源：快科技）</p>\n</div>",
-      "published": "2026-05-15T08:35:21+08:00",
-      "fetched_at": "2026-05-15T11:43:49.264017+08:00",
-      "pre_filter_reason": "黄仁勋是英伟达CEO，英伟达是AI芯片公司，涉及AI",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 10,
-        "crowd_heat": 10.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "科技巨头如何看待中美元首会晤？马斯克、库克、黄仁勋观点解读",
-          "angle": "整理马斯克、库克和黄仁勋对中美元首会晤的公开表态，分析其对科技行业（如芯片、AI、贸易）的潜在影响，适合关注政策与商业交叉的读者。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "英伟达市值破 5.5 万亿美元：超越德国 GDP 意味着什么？",
-          "angle": "从英伟达市值突破 5.5 万亿美元这一事件切入，分析其背后的 AI 算力需求驱动、与全球经济的对比，以及对科技投资趋势的启示。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "865d065ecd52",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Helping ChatGPT better recognize context in sensitive conversations",
-      "link": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
-      "summary": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
-      "published": "2026-05-14T08:00:00+08:00",
-      "fetched_at": "2026-05-15T11:43:28.685562+08:00",
-      "pre_filter_reason": "ChatGPT safety updates and context awareness.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 7,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "ChatGPT敏感对话安全升级：如何提升上下文理解能力",
-          "angle": "详细解读ChatGPT最新安全更新，通过实际案例演示如何利用新功能识别敏感对话中的风险信号，并给出最佳实践建议。",
-          "difficulty": "入门"
+          "title": "从Meta抗议看科技公司内部AI伦理冲突",
+          "angle": "深入分析Meta员工抗议事件，探讨科技公司如何在AI发展与员工权益之间找到平衡。",
+          "difficulty": "进阶"
         }
       ]
     },
@@ -229,72 +272,10 @@
       "link": "https://www.reddit.com/r/MachineLearning/comments/1tdje2d/arxiv_implements_1year_ban_for_papers_containing/",
       "summary": "<!-- SC_OFF --><div class=\"md\"><p>From Thomas G. Dietterich (arXiv moderator for cs.LG) on 𝕏 (thread):<br /> <a href=\"https://x.com/tdietterich/status/2055000956144935055\">https://x.com/tdietterich/status/2055000956144935055</a><br /> <a href=\"https://xcancel.com/tdietterich/status/2055000956144935055\">https://xcancel.com/tdietterich/status/2055000956144935055</a></p> <p>&quot;Attention arXiv authors: Our Code of Conduct states that by signing your name as an author of a paper, each author takes full responsibility for all its contents, irrespective of how the contents were generated.</p> <p>If generative AI tools generate inappropriate language, plagiarized content, biased content, errors, mistakes, incorrect references, or misleading content, and that output is included in scientific works, it is the responsibility of the author(s).</p> <p>We have recently clarified our penalties for this. If a submission contains incontrovertible evidence that the authors did not check the results of LLM generation, this means we can't trust anything in the paper.</p> <p>The penalty is a 1-year ban from arXiv followed by the requirement that subsequent arXiv submissions must first be accepted at a reputable peer-reviewed venue.</p> <p>Examples of incontrovertible evidence: hallucinated references, meta-comments from the LLM (&quot;here is a 200 word summary; would you like me to make any changes?&quot;; &quot;the data in this table is illustrative, fill it in with the real numbers from your experiments&quot;).&quot;</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Nunki08\"> /u/Nunki08 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tdje2d/arxiv_implements_1year_ban_for_papers_containing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tdje2d/arxiv_implements_1year_ban_for_papers_containing/\">[comments]</a></span>",
       "published": "2026-05-15T10:44:10+08:00",
-      "fetched_at": "2026-05-15T11:43:59.912699+08:00",
-      "pre_filter_reason": "AI paper policy on LLM errors",
-      "scores": {
-        "importance": 7,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 9,
-        "virality": 9,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "arXiv新规：LLM生成错误论文将被封禁一年，如何避免踩雷？",
-          "angle": "解析arXiv对AI生成错误内容的封禁政策，提供研究人员使用LLM辅助写作时的自查清单和避坑指南。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "20c20e6e5758",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "田渊栋AI创业估值315亿，老黄苏妈都投了，姚班施天麟也是合伙人",
-      "link": "https://www.qbitai.com/2026/05/417468.html",
-      "summary": "谷歌GV、Greycroft联合领投这轮早期融资，英伟达、AMD等也参与其中",
-      "published": "2026-05-14T15:14:05+08:00",
-      "fetched_at": "2026-05-15T11:43:44.063227+08:00",
-      "pre_filter_reason": "AI创业公司融资，涉及AI模型",
+      "fetched_at": "2026-05-16T11:28:25.517107+08:00",
+      "pre_filter_reason": "Directly about arXiv policy on LLM-generated errors, AI research.",
       "scores": {
         "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "田渊栋AI创业估值315亿：姚班学霸的创业密码",
-          "angle": "拆解田渊栋团队的技术背景与融资策略，分析英伟达、AMD等巨头投资背后的AI硬件生态布局。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "28ff88a4d3f9",
-      "source_id": "hn-ai",
-      "source_name": "Hacker News (AI)",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "Ontario auditors find doctors' AI note takers routinely blow basic facts",
-      "link": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
-      "summary": "<p>Article URL: <a href=\"https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771\">https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48142188\">https://news.ycombinator.com/item?id=48142188</a></p>\n<p>Points: 147</p>\n<p># Comments: 67</p>",
-      "published": "2026-05-15T06:37:40+08:00",
-      "fetched_at": "2026-05-15T11:43:58.900270+08:00",
-      "pre_filter_reason": "AI笔记工具",
-      "scores": {
-        "importance": 7,
         "timeliness": 9,
         "actionability": 9,
         "scarcity": 8,
@@ -304,78 +285,53 @@
       "quality_score": 7.7,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "安大略省审计发现：AI医疗笔记工具频繁出错，医生如何正确使用？",
-          "angle": "基于审计报告中的真实错误案例，总结AI医疗笔记工具的常见陷阱，并提供医生部署前的验证流程。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "a3d448c97b73",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Work with Codex from anywhere",
-      "link": "https://openai.com/index/work-with-codex-from-anywhere",
-      "summary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
-      "published": "2026-05-14T21:00:00+08:00",
-      "fetched_at": "2026-05-15T11:43:28.685544+08:00",
-      "pre_filter_reason": "AI coding tool Codex integration",
-      "scores": {
-        "importance": 6,
-        "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 4,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Codex移动端新功能：随时随地远程监控编程任务",
-          "angle": "演示如何通过ChatGPT手机App连接Codex，实时查看、调整和批准远程环境中的代码任务，提升移动办公效率。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "720af5393ea0",
-      "source_id": "geekpark",
-      "source_name": "极客公园",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "DeepSeek 融资后，大模型领域会有什么新格局？",
-      "link": "http://www.geekpark.net/news/364208",
-      "summary": "<p>最近业界都在传，DeepSeek 进行了目标可能高达 500 亿人民币的首轮融资，将刷新中国大模型公司单轮融资最高纪录。据我了解到的消息，是不是 500 亿的规模虽然无法确定，但其首轮融资金额已打破纪录并严重超募，成功完成首轮融资已成定局。</p>\n<p>那么，今天这样的形势下，中国大模型玩家的未来格局是什么样的？甚至未来市场上能有多少家大模型玩家？这些玩家将如何构成？其实挺值得讨论一下。</p>\n<p>&nbsp;</p>\n<h3><strong>竞赛规则和目标越来越明确</strong></h3>\n<p>先说个业界的共识：Scaling law 并没有到头，</p>\n<p>「更多维度的数据，更高质量的数据工程，更大的算力带来的更庞大的基模，还在给模型能力带来快速增长，甚至这种能力的成长还没有看到边界。」这基本上是现阶段硅谷一线 Researcher 的共识。</p>\n<p>这种共识代表着某种「确定性」，这意味着提升模型智能水平，在一定程度上从一个高风险的科学探索问题，开始更靠近一个高投入的工程和资本问题。只要有足够的数据、算力和工程执行力，持续投入就能换来相对可预期的智能提升。</p>\n<p><strong>与此同时</strong><strong>智能本身也逼近了一个临界点&mdash;&mdash;智能程度足以实现自进化。</strong>Anthropic Claude Cowork 的代码全部由 Claude Code 产出，并在十天中完成。用当前最先进的智能生产力，投入下一代智能的迭代，这种模型能力到达某种临界点后，可用于提升下一代模型的训练效率或数据质量的现实，开始给人一种近乎「左脚踩右脚」的梯云纵的想象。</p>\n<p>相信中国模型领域应该也已经迅速形成了两个共识：</p>\n<p>一方面，无论大厂还是创业公司，都必须拼尽全力，<strong>尽快跨过这道临界点</strong>。跨不过去，差距将被彻底拉开，牌桌就没有你的位置。</p>\n<p>另一方面，这并不是靠一代、两代模型 SOTA 就能赢得的比赛。它是一场星际飞行，在一个足够长的时间里，玩家们比拼的是<strong>持续的加速度</strong>，而非某一次的冲刺加速。这意味着，你需要足够大的「能量池」，才能留在竞赛里。<br /><br /></p>\n<h3><strong>模型</strong><strong>将</strong><strong>不只是</strong><strong>现有</strong><strong>巨头的游戏</strong></h3>\n<p>训练模型需要巨大的资源消耗，上顶级模型牌桌的入场券大概就得 10 亿美元级别。这笔钱，依靠一级市场的融资已经非常不易。但这很可能仅仅是「起步价」。</p>\n<p>真正的考验在于，你是否具备「百亿甚至千亿美元」级别的持续投入能力。这笔钱大概率无法单靠融资，它可能来自两个核心支柱之一：<strong>一个能持续产生巨额利润的强大业务，或是能被资本市场长期、海量注资的信心。</strong></p>\n<p>虽然模型一度被认为是独属于「巨头」的游戏，但随着这场游戏的确定性和「规则」逐渐明确，反而现在有一些新玩家在入场，他们未必是传统意义上的巨头，但是他们也有强烈的入场动力。</p>\n<p><strong>这背后的思考是，</strong><strong>基础</strong><strong>大模型并非一个产品，而是这个时代的「工业母机」。</strong>拥有自主、可控、持续迭代的模型能力，相当于在新时代拥有了自己的核心工业体系。反之，如果完全依赖外部模型 API，就像你只能做来料加工甚至是服务业，而不拥有核心的工业体系，那么无论你的应用层业务多么繁荣，都会面临「空心化」的问题，沦为他人工业链条中的一环。当然，更大的问题是你也会严重缺少在新时代开疆辟土的「工业能力」。</p>\n<p>基于此，中国的模型牌桌上可能将会有三类玩家：</p>\n<p><strong>第一类玩家是科技巨头，例如阿里、字节、腾讯。</strong></p>\n<p>他们的核心优势并非单纯的资本，而是他们都有着非常强大的主营业务。</p>\n<p>这种优势对于训模型的重要性，可以从「云」的发展中窥见：阿里云之所以能成为亚洲第一云，根源在于它诞生于双十一的极限交易洪峰中，是被自有业务的极端场景「逼」出来的基础设施。亚马逊 AWS 也是如此。</p>\n<p>所以科技巨头作为第一梯队的核心优势在于他们强大的「A 面」&mdash;&mdash;电商、社交、内容等庞大的主营业务，是「B 面」模型引擎的天然训练场与价值出口。</p>\n<p>对科技巨头而言，投入模型研发并非选项，而是必须。放弃自研模型，就意味着平台「空心化」，将未来的「工业主权」拱手让人，这是他们绝对无法接受的。</p>\n<p>比如之前比较被大家忽视的腾讯，其最近的模型虽然还没有 SOTA 到引人注目，但已经看得出在快速追赶和提速。按照这种发展趋势，未来也一定是不可忽视的力量。</p>\n<p><strong>第二类玩家是 MiniMax、智谱、月之暗面、阶跃星辰这类模型创业公司。</strong></p>\n<p>他们是本轮浪潮中最敏锐的先行者，他们因模型而来，也 all in 模型，凭借技术信仰和敏锐的执行力，在模型能力上紧咬前沿。</p>\n<p>作为新兴公司，他们的优势理应体现在更高的组织效率、更敏捷的执行力，以及在技术上的原生「天赋点」，能以相对更优的效率取得成果。</p>\n<p>但他们面临的挑战也显而易见：如何解决持续长跑的燃料问题？因此长出一个强大的 A 面业务一定是值得追求的。</p>\n<p>例如相对于 OpenAI，Anthropic 最近一年多来在硅谷更受推崇，就是因为它凭借 Claude Code 等产品迅速建立起了强大的 A 面，展现了从第二类向第一类玩家迁移的趋势。</p>\n<p><strong>在全球化中寻找出路或许</strong><strong>是一个要探索的方向。</strong>毕竟在中美两大市场之外，广阔的全球市场提供了巨大空间。将模型能力或基于模型的产品，像电力一样输出到全球不同角落，用一定的价值循环做支点，驱动模型引擎的持续迭代，形成价值闭环。这条路不容易，但概率不为零。</p>\n<p><strong>相对于我们比较熟悉的前两类，</strong><strong>第三类</strong><strong>玩家也很值得讨论。</strong></p>\n<p>这类玩家是战局中最值得关注的变量。他们虽然没有巨头的体量，但具备几个典型的特征：<strong>较高的利润率、可观的利润规模、有砸几十亿美元的投入决心，以及创始人</strong><strong>自己</strong><strong>对大模型领域足够深的投入</strong><strong>，在技术决心和业务决定上的极度笃定</strong>。</p>\n<p>DeepSeek 就是这类里最独树一帜的代表。它正是基于幻方量化在长期量化交易业务中锤炼的 AI 与超算技术能力而创立，也得益于幻方量化这个坚实业务 A 面的支撑，加之创始人梁文峰兼具决心、意愿与模型领域的能力，使 DeepSeek 成为了业界不可忽视的力量。</p>\n<p>但当所有人都意识到模型是一场长跑时，仅靠一个中型 A 面业务的利润支撑是不足的。因此，这也解释了 DeepSeek 走向融资就是一种必然选择。</p>\n<p>此外，DeepSeek 之所以受到大力加持，还在于其<strong>独特的战略站位</strong>。首先 DeepSeek 在开源路线上已经在建立初步的生态，实际上带动了硅基流动、无问芯穹等公司的存在。同时，在所有国内大模型公司里，DeepSeek 也是与国产算力生态整合最为积极和坚定的。毕竟对于其他巨头和创业公司而言，这是一条充满不确定性与挑战的、让他们很难 all in 的道路，但 DeepSeek 做出了这个选择，使其在事实上承载了部分与国家科技战略相关的使命。这种与国家战略的深度共振，超越了单一的商业业务，构成了其更宏大、也更稳固的一个「A 面」。</p>\n<p>这不仅仅意味着 DeepSeek 可能获得不亚于大厂的持续资源能力，也意味着开源模型领域的进一步能力加强，成为了中美闭源大模型之外的一股对冲力量。</p>\n<p>其实我还有一个大胆的推测，大模型玩家中，可能<strong>还有一个</strong><strong>值得重点关注的是</strong><strong>米哈游创始人之一的蔡浩宇创立的 AI 公司 Anuttacon</strong>，其近期发布的 LPM 1.0 表演模型可能只是一道「前菜」。据传蔡浩宇在 LLM 上的专注投入已经开始一段时间了。</p>\n<p>另外的一个证据是在米哈游 4 月 17 日的官方校招信息中，已明确开始为「基础大模型」举办技术分享暨顶尖校招生招募，并清晰地指出这是基于「自研 Foundation Model」。更值得注意的是，信息中提到米哈游的另一位创始人刘伟也将前往现场共同探讨交流。从这也看得出来，投身基础大模型大概率不只是蔡浩宇的个人兴趣和动作，而可能是创始团队在这方面达成了共同的决心，是一次重要的集体战略选择。</p>\n<p>从基本能力上看，米哈游的游戏业务年收入在百亿美元级别，利润可能在 30-40 亿美元区间。同时蔡浩宇已经建立独立的公司，应该已经开始明确集中精力聚焦于大模型领域。他大概率不是像之前外界猜测的那样只是围着未来游戏引擎来搞模型&mdash;&mdash;虽然最开始的出发点可能确实有这个因素。因为从当下模型的发展趋势看，就算最终其模型的能力可以帮助米哈游创造「AI 世代的新游戏」，那也一定不会只是垂直于游戏领域的「AI 游戏引擎」，而必须是基于强大语言模型向上生长的数字世界「工业母机」。</p>\n<p>实际上，米哈游在游戏领域的成就已经非常可观，我猜测其创始人们很可能不只把大模型作为确保游戏业务能穿越时代的「防守动作」。这为什么不能是他们依托游戏业务这么好的阵地的「进攻性」能力？是通向更大赔率和更大规模的未来业务新可能性呢？</p>\n<p>毕竟米哈游凭借其游戏业务的支撑，并且同样可以借助资本市场的杠杆，它有潜力成为第三类玩家中另一个重要的力量。前提是，要看他们什么时候能在大语言模型上放出他们的阶段性成果，验证他们在技术上获得被认可的「参赛资格」。</p>\n<p>这种半场杀入，但目标坚决，并一定会寻找用技术创新超车的新玩家，至少对技术人才们而言是一种新机遇。</p>\n<p>总之，到今天看，大模型还不能说只是巨头的游戏，故事还在分叉，精彩还在继续。</p>",
-      "published": "2026-05-14T19:52:24+08:00",
-      "fetched_at": "2026-05-15T11:43:49.264060+08:00",
-      "pre_filter_reason": "AI large model company financing",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "DeepSeek 500亿融资后，大模型行业洗牌在即？",
-          "angle": "解读DeepSeek巨额融资对中国大模型市场格局的影响，分析未来可能存活的大模型玩家类型（如巨头、垂直玩家）及竞争策略。",
+          "tag": "news",
+          "title": "arXiv重拳出击：LLM生成错误论文将被封禁一年",
+          "angle": "报道arXiv对LLM生成错误内容的新政策，解释其背景和影响。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "Scaling Law 没到头？DeepSeek 融资背后的技术赌注",
-          "angle": "从技术角度解析DeepSeek为何在此时大规模融资，以及Scaling Law（规模定律）在算力、数据、模型架构上的最新进展和争议。",
+          "tag": "tutorial",
+          "title": "如何避免论文被arXiv封禁：LLM使用合规指南",
+          "angle": "提供使用LLM辅助论文写作时的注意事项，包括如何检查幻觉引用和结果。",
           "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "fc1bb6800d24",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "How the NVIDIA Vera Rubin Platform is Solving Agentic AI’s Scale-Up Problem",
+      "link": "https://developer.nvidia.com/blog/how-the-nvidia-vera-rubin-platform-is-solving-agentic-ais-scale-up-problem/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/nvidia-vera-rubin-pod-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-vera-rubin-pod\" width=\"768\" />Agentic inference has fundamentally changed the runtime dynamics of inference workloads by introducing non-deterministic trajectories—actions, observations,...",
+      "published": "2026-05-15T03:24:35+08:00",
+      "fetched_at": "2026-05-16T11:28:05.201412+08:00",
+      "pre_filter_reason": "AI platform news",
+      "scores": {
+        "importance": 9,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "NVIDIA Vera Rubin平台如何解决Agentic AI的扩展难题",
+          "angle": "解析Vera Rubin平台的技术架构，说明其如何应对Agentic AI的规模化挑战。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "Agentic AI扩展方案初探：NVIDIA Vera Rubin入门",
+          "angle": "介绍NVIDIA Vera Rubin平台的基本概念，以及它如何支持Agentic AI的推理需求。",
+          "difficulty": "入门"
         }
       ]
     },
@@ -389,88 +345,14 @@
       "title": "ruvnet /RuView",
       "link": "https://github.com/ruvnet/RuView",
       "summary": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-      "published": "2026-05-15T11:44:01.169056+08:00",
-      "fetched_at": "2026-05-15T11:44:01.169073+08:00",
-      "pre_filter_reason": "Uses AI for spatial intelligence and vital sign monitoring from WiFi signals",
+      "published": "2026-05-16T11:28:26.511348+08:00",
+      "fetched_at": "2026-05-16T11:28:26.511352+08:00",
+      "pre_filter_reason": "AI-powered spatial intelligence and vital sign monitoring",
       "scores": {
         "importance": 7,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "WiFi 也能“看”人？RuView 无摄像头感知技术揭秘",
-          "angle": "通俗解释RuView如何利用普通WiFi信号实现空间感知和生命体征监测，对比传统摄像头方案的隐私优势与应用场景（如老人看护、智能家居）。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "手把手搭建：如何用WiFi信号实现简单的室内人员检测",
-          "angle": "基于RuView开源思路，教用户利用现有路由器或SDR设备，通过信号变化检测室内是否有人，适合极客和智能家居爱好者。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "80c34c5d5ef8",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Anthropic同意以9000亿美元估值开展融资轮的条款",
-      "link": "https://36kr.com/newsflashes/3809965649157639?f=rss",
-      "summary": "据媒体援引两位知情人士的消息报道，投资者Dragoneer、Greenoaks、红杉资本和Altimeter Capital已同意共同领投Anthropic的融资轮。每位共同领投方可能投资20亿美元或更多。（新浪财经）",
-      "published": "2026-05-15T10:57:28+08:00",
-      "fetched_at": "2026-05-15T11:43:35.586225+08:00",
-      "pre_filter_reason": "AI company Anthropic funding",
-      "scores": {
-        "importance": 9,
         "timeliness": 8,
         "actionability": 7,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Anthropic 估值9000亿！AI独角兽融资逻辑拆解",
-          "angle": "分析Anthropic为何能获得如此高估值，对比OpenAI、Google等竞争对手，讲解AI大模型公司融资的关键指标（技术路线、团队、商业化潜力）。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "红杉、Altimeter 为何豪赌 Anthropic？AI安全与商业的平衡术",
-          "angle": "深度探讨Anthropic以“AI安全”为核心理念如何吸引顶级风投，以及其融资条款对AI行业竞争格局的潜在影响。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "1bcdb0c713c4",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Gemini 进手机，Android 翻身；Gemini进电脑，全网开喷！",
-      "link": "https://www.infoq.cn/article/rLHmQFIEosQUtUHq7bjc?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/rLHmQFIEosQUtUHq7bjc?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-05-14T22:04:30+08:00",
-      "fetched_at": "2026-05-15T11:43:42.189674+08:00",
-      "pre_filter_reason": "Gemini AI product news",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 7,
+        "scarcity": 9,
         "virality": 9,
         "crowd_heat": 0.0
       },
@@ -478,184 +360,73 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "Gemini 进手机 vs 进电脑：为什么安卓用户狂喜，PC用户狂喷？",
-          "angle": "对比Gemini在手机端（Android深度集成）和电脑端（浏览器/桌面端）的不同体验，分析用户口碑差异背后的原因（隐私、功能实用性、生态整合）。",
+          "title": "RuView入门：用WiFi信号实现空间智能",
+          "angle": "介绍RuView如何利用WiFi信号进行空间感知、生命体征监测和存在检测，无需摄像头。",
           "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "实测 Gemini 电脑端：这些槽点你绝对遇到过",
-          "angle": "以第一视角展示Gemini在电脑端的使用痛点（如响应慢、与本地应用割裂、隐私担忧），并给出优化建议或替代方案。",
-          "difficulty": "入门"
+          "tag": "analysis",
+          "title": "无摄像头AI感知：RuView技术原理与应用前景",
+          "angle": "分析RuView的技术原理，探讨其在隐私保护场景下的应用潜力。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "a59819b81fde",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
+      "id": "da846d7f287a",
+      "source_id": "36kr",
+      "source_name": "36氪",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "黄仁勋最后一刻登上访华飞机，英伟达中国市场再添变量",
-      "link": "https://www.infoq.cn/article/6a5AKza2aj5FKSYVx76D?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/6a5AKza2aj5FKSYVx76D?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-05-14T18:50:47+08:00",
-      "fetched_at": "2026-05-15T11:43:42.189709+08:00",
-      "pre_filter_reason": "AI chip company CEO visit to China",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 7,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "黄仁勋紧急访华！英伟达中国业务面临哪些新变数？",
-          "angle": "梳理英伟达在中国市场的关键事件（芯片限制、特供版、合作动态），分析黄仁勋此次访华可能讨论的议题及对中国AI芯片生态的影响。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "从黄仁勋访华看中美AI芯片博弈：英伟达的“最后一刻”策略",
-          "angle": "解读英伟达在出口管制下的商业策略（如推迟订单、游说、本地化合作），以及中国AI芯片厂商（华为昇腾等）的应对机会。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "fd12d045930a",
-      "source_id": "github-ai-repos",
-      "source_name": "GitHub AI 新项目",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "screenpipe/screenpipe",
-      "link": "https://github.com/screenpipe/screenpipe",
-      "summary": "Run agents that work based on what you do. 24/7 local screen & mic recording for the superintelligence era",
-      "published": "2026-05-15T11:44:01.624799+08:00",
-      "fetched_at": "2026-05-15T11:44:01.624801+08:00",
-      "pre_filter_reason": "AI agents based on screen/mic recording",
+      "title": "上海电信率先发布Token资费套餐：1元对应25万额度点 支持手机账单付",
+      "link": "https://36kr.com/newsflashes/3811348121100035?f=rss",
+      "summary": "面对AI时代日益增长的Token需求，上海电信宣布，即日起面向上海电信用户正式推出Token算力服务，成为上海首个发布Token资费套餐运营商。具体来说，一是按量订购，1元对应25万额度点（以KiMi-K2.5模型为例，约可支持调用25万输入Tokens）；二是按需选择，用多少买多少，多买可享折扣，支持话费账单支付。另据记者从上海电信获悉，用户购买额度点后，通过标准API接口即可调用30余款主流大模型（文本、多模态），将AI能力集成到自己的软件、脚本或自动化流程中。以10元购买250万额度为例，约可让程序自动总结100本10万字的电子书。(上观新闻)",
+      "published": "2026-05-16T10:57:38+08:00",
+      "fetched_at": "2026-05-16T11:28:07.070332+08:00",
+      "pre_filter_reason": "AI token pricing plan for LLM access.",
       "scores": {
         "importance": 7,
-        "timeliness": 8,
+        "timeliness": 9,
         "actionability": 8,
         "scarcity": 8,
-        "virality": 8,
+        "virality": 7,
         "crowd_heat": 0.0
       },
       "quality_score": 7.5,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "用Screenpipe打造你的“第二大脑”：24小时本地录屏+录音入门",
-          "angle": "手把手教你安装和配置Screenpipe，演示如何通过本地录屏和录音数据，让AI代理理解你的工作习惯，实现自动化任务。",
+          "title": "上海电信Token套餐怎么用？手把手教你调用大模型API",
+          "angle": "从用户角度出发，详细演示如何购买Token额度、通过API调用主流大模型（如Kimi），并给出一个实际案例（如自动总结电子书），降低普通开发者和AI爱好者的使用门槛。",
           "difficulty": "入门"
         },
-        {
-          "tag": "concept",
-          "title": "超级智能时代的“记忆外挂”：Screenpipe如何改变人机协作？",
-          "angle": "从概念层面解析Screenpipe的价值：为什么需要24/7的本地录屏录音？它如何帮助AI代理更好地理解用户意图，以及隐私与便利的平衡。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "6b0ac3330ebf",
-      "source_id": "github-ai-repos",
-      "source_name": "GitHub AI 新项目",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "SemiAnalysisAI/InferenceX",
-      "link": "https://github.com/SemiAnalysisAI/InferenceX",
-      "summary": "Open Source Continuous Inference Benchmarking Qwen3.5, DeepSeek, GPTOSS - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 vs H100 & soon™ TPUv6e/v7/Trainium2/3",
-      "published": "2026-05-15T11:44:01.624737+08:00",
-      "fetched_at": "2026-05-15T11:44:01.624754+08:00",
-      "pre_filter_reason": "AI inference benchmarking for various models",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
         {
           "tag": "analysis",
-          "title": "英伟达B200 vs AMD MI355X：开源推理基准测试谁更强？",
-          "angle": "基于InferenceX的最新基准数据，对比GB200、MI355X、B200等主流AI芯片在推理任务中的性能差异，分析开源生态对硬件选择的影响。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "如何用InferenceX测试你的模型推理速度？",
-          "angle": "介绍InferenceX工具的基本用法，演示如何对Qwen3.5、DeepSeek等模型进行连续推理基准测试，并解读关键性能指标。",
-          "difficulty": "进阶"
+          "title": "1元买25万Token，运营商入局AI算力意味着什么？",
+          "angle": "分析上海电信推出Token套餐的背景和影响，对比传统云服务商的价格，探讨运营商凭借话费支付和用户基数优势，如何改变个人和中小企业的AI使用成本结构。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "857de3eba700",
+      "id": "4d7285b91c01",
       "source_id": "ithome-ai",
       "source_name": "IT之家",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "为 OpenAI 累计投入超 1000 亿美元，纳德拉称微软当年投资时“没人愿意下注”",
-      "link": "https://www.ithome.com/0/950/728.htm",
-      "summary": "<p>IT之家 5 月 15 日消息，科技媒体 Windows Central 今天（5 月 15 日）发布博文，报道称在“马斯克诉奥尔特曼”庭审环节，微软企业发展负责人迈克尔 · 威特（Michael Wetter）确认，<strong>微软投资 OpenAI 超过 1000 亿美元（IT之家注：现汇率约合 6801.59 亿元人民币），合作回报约为 300 亿美元。</strong></p><p>威特表示围绕着和 OpenAI 公司的合作，微软已累计支出超过 1000 亿美元，其中包含微软对 OpenAI 的 130 亿美元原始投资，此外大部分费用为 Azure 基础设施和托管成本，且很大部分支出发生在微软拿到 OpenAI 收入之前。</p><p>在回报方面，消息称在 2023 年至 2025 年期间，微软通过集成 OpenAI 技术以及 OpenAI 自身的云服务支出，已累计创造了约 300 亿美元的相关营收。</p><p>纳德拉在庭上表示，微软当年押注 OpenAI，是在“没人愿意下注”时承担了风险。与此同时，微软与 OpenAI 已续签为非独家合作协议，微软不再需要向 OpenAI 支付收入分成。新协议把 OpenAI 的分成上限设为到 2030 年累计 380 亿美元，相比原协议可节省约 970 亿美元。</p><p>微软并未把未来完全押在 OpenAI 身上。路透社称，微软正评估收购 AI 初创公司，以补强人才储备，并推动更快推出自研模型。公司也已重新调整 AI 领导层，把资源更多投向前沿模型与超级智能方向。</p><p>消息还称，微软曾考虑收购 Cursor，但因其已拥有 GitHub Copilot，担心触发反垄断审查而作罢。另一家 LLM 初创公司 Inception，也在微软的潜在收购名单中。</p>",
-      "published": "2026-05-15T10:27:28+08:00",
-      "fetched_at": "2026-05-15T11:43:53.654586+08:00",
-      "pre_filter_reason": "Microsoft investment in OpenAI, AI company",
+      "title": "上海电信发布 Token 资费套餐：1 元对应 25 万额度点，支持手机账单付",
+      "link": "https://www.ithome.com/0/951/191.htm",
+      "summary": "<p>IT之家 5 月 16 日消息，据上观新闻消息，上海电信今天率先推出 Token（词元）算力服务，成为上海首个发布 Token 资费套餐运营商。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/41f7822a-8928-4cce-b8c3-633e80ad41b5.png?x-bce-process=image/format,f_auto\" /></p><p>据报道，Token 资费套餐支持按量订购，1 元对应 25 万额度点，<strong>以 Kimi K2.5 大模型为例</strong>，<strong>约可支持调用 25 万输入 Tokens</strong>；也能够按需选择，用多少买多少，支持话费账单支付，多买可享受折扣。</p><p>同时，上海电信在发布“AI 家庭助手”后还宣布，上海电信手机号用户还可以享受 2500 万额度点免费体验，有效期一个月。6 月起，电信“美好家”用户的家庭数字空间将上线 Token 会员权益，融合套餐一价全包。</p><p>此外，上海电信用户购买额度点后，可通过标准 API 接口调用 30 余款主流大模型，将 AI 能力集成到自己的软件、脚本或自动化流程中。</p><p>IT之家注：Token（词元）是计算机科学与自然语言处理领域中的一个基础且重要的概念，通常指文本数据经过分词或标记化处理后的最小单位，其中单位可以是单词、标点符号、数字或其他任何有意义的符号。</p>",
+      "published": "2026-05-16T10:43:59+08:00",
+      "fetched_at": "2026-05-16T11:28:20.563311+08:00",
+      "pre_filter_reason": "Token算力服务与AI模型相关",
       "scores": {
-        "importance": 8,
+        "importance": 7,
         "timeliness": 9,
         "actionability": 8,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "insight",
-          "title": "微软豪赌OpenAI的1000亿美元，到底值不值？",
-          "angle": "分析微软投资OpenAI的财务细节：130亿原始投资+巨额Azure成本，对比300亿美元回报，探讨这笔交易背后的战略逻辑与风险。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "story",
-          "title": "纳德拉的远见：当年“没人愿意下注”时，微软为何押注OpenAI？",
-          "angle": "从纳德拉的视角回顾微软与OpenAI的合作历程，讲述早期决策背后的故事，以及这笔投资如何改变了AI行业格局。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "b38646b47206",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "腾讯开源 Agent 记忆技术方案，Token 消耗最高降低 61%",
-      "link": "https://www.qbitai.com/2026/05/417753.html",
-      "summary": "任务成功率最高提升 51%。",
-      "published": "2026-05-14T16:34:30+08:00",
-      "fetched_at": "2026-05-15T11:43:44.063203+08:00",
-      "pre_filter_reason": "腾讯开源AI Agent记忆技术，涉及AI研究",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
+        "scarcity": 8,
         "virality": 7,
         "crowd_heat": 0.0
       },
@@ -663,52 +434,281 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "腾讯开源Agent记忆技术：Token消耗降低61%是怎么做到的？",
-          "angle": "解析腾讯Agent记忆技术方案的核心原理，演示如何通过记忆压缩和检索优化，在降低Token成本的同时提升任务成功率。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "comparison",
-          "title": "Agent记忆技术对比：腾讯开源方案 vs 传统方法，谁更胜一筹？",
-          "angle": "对比腾讯新方案与现有Agent记忆技术（如RAG、记忆缓存）在Token消耗、任务成功率、响应速度等方面的差异，帮助开发者选型。",
-          "difficulty": "进阶"
+          "title": "手机话费也能买AI算力？上海电信Token套餐开通指南",
+          "angle": "以图文或短视频形式，逐步展示如何通过上海电信渠道购买Token额度，并绑定手机账单支付，强调“无需信用卡、话费即用”的便利性。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "4a316b6164b1",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
+      "id": "554cebf46ae0",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "芯驰科技完成近1亿美金C轮融资，加码汽车到具身智能全栈「芯」突破",
-      "link": "https://www.leiphone.com/category/industrynews/barQoX7o1PXA3LwV.html",
-      "summary": "<p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"background-image: none;\">5</span><span style=\"background-image: none;\">月</span><span style=\"background-image: none;\">13</span><span style=\"background-image: none;\">日，国内领先车规级芯片企业芯驰科技正式宣布完成近1亿美金C轮融资。本轮融资由苏产投领投，</span><span style=\"background-image: none;\">陕汽鸿德投资</span><span style=\"background-image: none;\">作为全新战略股东，亦庄国投、北京市先进制造基金、西安财金、益中亘泰等多家知名投资机构</span><span style=\"background-image: none;\">及</span><span style=\"background-image: none;\">产业资本跟投。</span></p><p>&nbsp;</p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"background: none;\">本轮融资落地，将进一步巩固芯驰科技在车规芯片领域的技术壁垒、量产优势与产业生态布局，并加速公司从汽车到具身智能赛道的全栈「芯」突破。</span></p><p style=\"text-align: center;\">&nbsp;<img src=\"https://static.leiphone.com/uploads/new/images/20260514/6a05687781b1b.png?imageView2/2/w/740\" /></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"background: none;\">苏产投成立于2025年，由苏州国投集团控股，元禾控股、苏创投集团战略参股，是专业私募股权管理平台，也是苏州国投集团落实地方产业战略布局、开展重大产业投资的核心抓手。苏产投紧扣国家发展战略，重点培育产业链链主企业，推动前沿技术成果实现产业化突破。</span></p><p>&nbsp;</p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"background: none;\">苏产投高孟表示：“集成电路与智能汽车是国家战略性核心赛道，国产高端车规芯片更是产业自主可控的关键一环。芯驰科技深耕车规芯片领域多年，拥有完善的产品矩阵、严苛的车规认证体系及规模化量产能力，在智能座舱、高端智控等领域位居行业前列，并积极拓展在具身智能赛道的全栈产品应用。我们高度认可芯驰的技术路线、产品竞争力与商业化落地能力。此次领投，是对芯驰行业价值与发展潜力的充分肯定。未来苏产投将依托自身产业资源与资本平台优势，深度赋能芯驰科技的创新研发与产业生态扩容，助力企业持续加码从汽车到具身智能的全栈‘芯’突破。”</span></p><p>&nbsp;</p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"background: none;\">陕汽控股王彬表示：“汽车芯片是整车智能化、网联化升级的核心底座，更是整车产业实现自主可控、保障产业链安全稳定的关键支撑。随着新能源与智能汽车产业加速迭代，行业对高性能、高可靠车规芯片的需求持续攀升。芯驰科技在座舱芯片、高端智控芯片等领域产品成熟、量产经验丰富，深度契合整车企业智能化转型发展需求。此次战略入股，是陕汽立足产业链协同、布局核心底层芯片的重要举措。我们期待未来与芯驰深化技术协同、产品适配及联合研发，以优质车规芯片赋能整车产品升级，共建安全、自主、可控的汽车产业供应链生态。”</span></p><p>&nbsp;</p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"background: none;\">芯驰科技是全球少数同时可提供SoC与高性能MCU的车规级芯片设计公司之一。截至目前，芯驰全系列</span><span style=\"background: none;\">芯片累计出货量已突破1200万片，客户覆盖中国全部前十大汽车OEM集团，以及全球前十大汽车OEM</span><span style=\"background: none;\">集团</span><span style=\"background: none;\">中的七家，在品牌覆盖广度与商业化落地规模上均处于行业领先地位。</span></p><p>&nbsp;</p><p style=\"margin-top: 0px; margin-bottom: 0px;\"><span style=\"background: none;\">芯驰科技创始人兼董事长仇雨菁表示：“衷心感谢领投方苏产投的信任与认可，同时也诚挚感谢陕汽及各位投资方，以及北京市一直以来给予</span><span style=\"background: none;\">芯驰</span><span style=\"background: none;\">的大力支持。本轮融资的顺利完成，是资本市场与产业端对芯驰技术实力、产品布局和发展战略的充分肯定。芯驰将依托本轮融资，持续深耕AI智能座舱、高端智控领域的产品创新与技术引领，进一步夯实规模化量产交付能力，同时积极向具身智能方向拓展布局。我们对公司长期成长与产业价值释放充满坚定信心。”</span></p>",
-      "published": "2026-05-14T14:17:00+08:00",
-      "fetched_at": "2026-05-15T11:43:40.960852+08:00",
-      "pre_filter_reason": "AI-related chip company funding and embodied intelligence",
+      "title": "兼顾效率、成本与能力，百灵开源旗舰推理模型 Ring-2.6-1T",
+      "link": "https://www.infoq.cn/article/rtbXo0YG1cQ0kFwd2ueK?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/rtbXo0YG1cQ0kFwd2ueK?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-05-15T23:08:25+08:00",
+      "fetched_at": "2026-05-16T11:28:13.819623+08:00",
+      "pre_filter_reason": "Open-source AI reasoning model launch",
       "scores": {
         "importance": 8,
         "timeliness": 9,
-        "actionability": 8,
+        "actionability": 7,
         "scarcity": 7,
-        "virality": 7,
+        "virality": 8,
         "crowd_heat": 0.0
       },
       "quality_score": 7.5,
       "topics": [
         {
           "tag": "analysis",
-          "title": "芯驰科技获近1亿美元融资：车规级芯片如何“跨界”具身智能？",
-          "angle": "分析芯驰科技从汽车芯片到具身智能的拓展逻辑，探讨车规级芯片的高可靠性如何赋能机器人、自动驾驶等场景。",
+          "title": "百灵Ring-2.6-1T开源：1万亿参数推理模型如何平衡效率与成本？",
+          "angle": "解读该模型的技术亮点（如稀疏激活、推理加速），对比其他开源大模型（如Llama、DeepSeek），分析其在企业级应用中的性价比优势。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "7c73c59a2ef5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "阿里发布Qoder 1.0，可全面接管代码生成、验证和交付流程",
+      "link": "https://www.qbitai.com/2026/05/418027.html",
+      "summary": "Windows、macOS 和 Linux系统用户均可下载使用。",
+      "published": "2026-05-15T15:36:09+08:00",
+      "fetched_at": "2026-05-16T11:28:15.834470+08:00",
+      "pre_filter_reason": "AI product launch",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "阿里Qoder 1.0实测：一句话让AI帮你写完代码并自动部署",
+          "angle": "以实际编程场景为例（如生成一个Python脚本并打包发布），展示Qoder从代码生成、测试到交付的全流程，突出“零配置、全自动”特点。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "65344a419ded",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "蚂蚁灵波开源LingBot-VLA真机后训练全流程代码，150条示教数据即可适配新机器人",
+      "link": "https://www.infoq.cn/article/5QHOQQCUdrGBBNfmm4Dk?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/5QHOQQCUdrGBBNfmm4Dk?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-05-15T18:08:15+08:00",
+      "fetched_at": "2026-05-16T11:28:13.819683+08:00",
+      "pre_filter_reason": "Open-source robot training code involving VLA (Vision-Language-Action) model, AI-related.",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "150条数据训练一个机器人？蚂蚁LingBot-VLA开源代码实操",
+          "angle": "以机器人抓取或移动任务为例，演示如何使用开源代码和少量示教数据（150条）快速适配新机器人，降低机器人技能学习的硬件和数据成本。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "f6c58cae8018",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "czlonkowski /n8n-mcp",
+      "link": "https://github.com/czlonkowski/n8n-mcp",
+      "summary": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
+      "published": "2026-05-16T11:28:26.512074+08:00",
+      "fetched_at": "2026-05-16T11:28:26.512077+08:00",
+      "pre_filter_reason": "MCP for Claude AI to build n8n workflows",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "一键搭建AI工作流：用n8n MCP让Claude自动帮你写流程",
+          "angle": "手把手演示如何安装和配置n8n MCP，并在Claude Desktop中通过自然语言指令自动生成n8n工作流，展示从零到一的实操步骤。",
           "difficulty": "入门"
         },
         {
-          "tag": "insight",
-          "title": "C轮融资近1亿美元，芯驰科技凭什么成为车规芯片“黑马”？",
-          "angle": "梳理芯驰科技的技术路线、产品布局和客户案例，解读其为何能在资本寒冬中获得大额融资，以及对中国汽车芯片产业的意义。",
+          "tag": "tutorial",
+          "title": "Cursor用户必看：用n8n MCP在IDE里直接构建自动化流程",
+          "angle": "聚焦开发者场景，演示在Cursor中集成n8n MCP后，如何通过对话式指令快速生成、修改和调试n8n工作流，提升开发效率。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "60ecf3ff3547",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "OpenAI已收购AI声音克隆工具公司weights.gg",
+      "link": "https://36kr.com/newsflashes/3811291086233353?f=rss",
+      "summary": "两位知情人士透露，今年OpenAI低调收购了小型初创企业Weights.gg，这家企业主打提供人声克隆类人工智能工具。此次收购尚未对外披露，具体交易条款目前无从得知。熟悉本次收购事宜的人士表示，OpenAI一并拿下了该公司规模不大的团队以及全部知识产权。Weights.gg已于今年三月宣布关停旗下各项服务。（新浪财经）",
+      "published": "2026-05-16T10:30:42+08:00",
+      "fetched_at": "2026-05-16T11:28:07.070356+08:00",
+      "pre_filter_reason": "OpenAI收购AI声音克隆公司，直接相关",
+      "scores": {
+        "importance": 7,
+        "timeliness": 7,
+        "actionability": 7,
+        "scarcity": 9,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "OpenAI低调收购AI声音克隆公司Weights.gg，意欲何为？",
+          "angle": "解读OpenAI此次收购的战略意图，分析声音克隆技术对语音助手、内容创作等场景的潜在影响，以及可能引发的伦理与监管讨论。",
           "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "e8382d3fab37",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "joeseesun /qiaomu-anything-to-notebooklm",
+      "link": "https://github.com/joeseesun/qiaomu-anything-to-notebooklm",
+      "summary": "Claude Skill: Multi-source content processor for NotebookLM. Supports WeChat articles, web pages, YouTube, PDF, Markdown, search queries → Podcast/PPT/MindMap/Quiz etc.",
+      "published": "2026-05-16T11:28:26.513067+08:00",
+      "fetched_at": "2026-05-16T11:28:26.513070+08:00",
+      "pre_filter_reason": "AI-powered content processor for NotebookLM",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.1,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "把微信文章一键变成播客：qiaomu-anything-to-notebooklm使用指南",
+          "angle": "展示如何利用该Claude Skill，将微信文章、网页、PDF等不同来源的内容快速转化为NotebookLM可用的播客、PPT、思维导图等格式，提升内容消化效率。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "内容创作者利器：用qiaomu-anything-to-notebooklm批量生成学习测验",
+          "angle": "面向教育或内容创作者，演示如何将多篇资料整合后一键生成Quiz，用于自测或教学场景，突出其自动化与多格式输出能力。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "def7ea02cc05",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "CVPR 2026 四篇论文透视：大厂如何靠「算法瘦身」对抗算力涨价？",
+      "link": "https://www.leiphone.com/category/ai/y7bk8TpnoiBUFqSP.html",
+      "summary": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260515/6a06ea6c0931e.jpg?imageMogr2/quality/90\" style=\"width: 100%; display: inline-block; text-align: center; background-color: transparent;\" /></section><section style=\"padding-left: 16px; padding-right: 16px;\"><section style=\"width: 100%; display: flex; padding: 0px;\"><section style=\"width: 100%; padding-left: 0px; padding-right: 0px;\"><section style=\"width: 100%; background: rgb(246, 248, 255); padding: 20px 0px 12px; margin-top: 0px; margin-bottom: 0px;\"><section style=\"text-align: center;\"><section><section style=\"text-align: justify; margin: 0px 16px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><span>2026年，大厂们不再比谁的GPU多，而是比谁的算法更聪明。</span></span></span></section><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><section style=\"text-align: left; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><br /></span></span></section></section></section><span></span><span></span><span></span><span></span><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-weight: normal;\">&nbsp; &nbsp; 作者丨陈淑瑜</span></span><strong><span><strong><span><span><br /></span></span></strong></span></strong></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Optima-Regular, PingFangTC-light;\"><span style=\"color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\"><span>&nbsp; &nbsp; 编辑丨岑 &nbsp; 峰</span></span></span></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; text-align: right; margin: 0px 16px;\"><strong><strong><span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></strong></strong></p></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">一个在2026年越来越难以回避的问题是：如果H100全面断供、电费账单直线飙升、训练一次大模型的成本足以买下一家创业公司，大模型的故事还讲得下去吗？</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">也许顶级学术会议的论文能给大家一个新的启发。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">今年的CVPR收到了四千余篇投稿，其中一个清晰的信号正在浮现：</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">大厂不再比拼GPU数量，而是较量如何把GPU用得更好。算力封锁之下，算法正在成为新的护城河。</span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在论文的汪洋中，字节跳动Seed团队是出手最密集的玩家之一。</span></p><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">AI 科技评论聚焦四篇来自字节跳动的论文——TEMF、Beyond Token Eviction、Mixture-of-Depths Attention和GenieDrive。它们全都围绕一个核心命题展开：</span><strong><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">当算力不再能够&quot;暴力&quot;解决，算法如何接棒？</span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这四篇论文覆盖了一条完整的链条：从生成模型的采样步数压缩，到推理过程的显存瘦身，再到注意力计算资源的动态分配，最终延伸到端侧部署的物理感知。它们不是孤立的创新，而是Seed团队围绕&quot;算力降本&quot;这一命题打出的组合拳。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260515/6a06ea6c3c7d6.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>01</span></strong></p><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">采样降速：一步生成的尺度跨越</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">大模型的推理成本，很大程度上藏在采样步数里。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">以Stable Diffusion为代表的多步迭代生成，一个看似简单的512×512图像，背后可能是50到100次神经网络前向传播。训练时模型学到的是“每一步该怎么加噪”，但推理时模型需要做的是“每一步该怎么去噪”，这两个过程天然不对称，训练目标与推理目标之间存在一道看不见的裂缝。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">传统MeanFlow的尺度差距问题正源于此：一步生成的质量始终无法与多步采样竞争，而多步采样意味着成倍增加的算力消耗。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">字节跳动Seed团队提交的TEMF（Temporal Equilibrium MeanFlow）正是对这一困境的直接回应。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">TEMF的核心设计是让模型在训练阶段就同时学习“从数据到噪声”和“从噪声到数据”的双向变换，而非像传统归一化流那样只学习单向映射。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">双向建模的效果立竿见影，</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">模型在训练时就熟悉了反向采样的路径，推理时不再需要依赖多步迭代来逐步精炼，可以直接从噪声出发、在单次前向传播中完成整个生成过程</span></strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这种从百次计算到一次计算的跨越，在实际部署中带来的成本削减是数量级的。</span></p><section style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260515/6a06ea6c6cc58.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：</span></span></p><p style=\"text-align: justify; margin: 0px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">https://cvpr.thecvf.com/virtual/2026/poster/39823</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">有意思的是，这道裂缝的修补并非只有一种解法。同期Meta发表的Improved Mean Flows从原理层面分析了快转发声模型训练与推理不对称的根源，并提出了自己的改进框架。（Improved Mean Flows的论文解读可阅读：<a href=\"https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&amp;mid=2247734391&amp;idx=2&amp;sn=31b2b4d100b9531f56326b50d1b820bd&amp;scene=21#wechat_redirect\" rel=\"nofollow\" target=\"_blank\">何恺明团队论文全景扫描：一场关于「生成范式」的多角度突破 | CVPR 2026</a>）</span></p><section style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260515/6a06ea6c8eaff.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址： https://arxiv.org/abs/2512.02012</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">两支独立团队在几乎同一时间节点做出了相似的技术判断——&nbsp;</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">一步生成不是天方夜谭，关键在于弥合训练与推理之间的结构性裂缝。</span></strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这不是巧合，这是行业共识正在形成的信号。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260515/6a06ea6cd9885.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>02</span></strong></p><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">显存瘦身：KV Cache的精准压缩</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">如果说TEMF解决的是计算次数的问题，那么另一篇字节跳动Seed团队的工作Beyond Token Eviction，则直指推理过程中另一个更隐蔽的成本中心：</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">显存占用</span></strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">理解KV Cache的机制，是理解大模型推理成本的关键切口。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">当大语言模型处理一段文本时，它需要记住此前所有词元的信息才能生成下一个词元。每一个经过注意力计算的词元，都会在显存中留下一组对应的向量，这些向量是模型“上下文记忆”的物理载体。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">问题在于，这种“记忆”是只增不减的。当上下文窗口从4K扩展到32K、再到100K，KV Cache的显存占用也在同步膨胀。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">一个有100K上下文窗口的模型，仅KV Cache就可能消耗40到60GB的显存，而消费级显卡的显存上限不过24GB，就连专业级A100也不过80GB。也就是说，</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在不远的将来，显存瓶颈会比计算瓶颈更早到来。</span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">传统解法“Token Eviction”是在显存压力过大时，将一部分“不那么重要”的旧Token驱逐出去，释放空间给新的Token。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">而Beyond Token Eviction的突破则在于“混合维度预算分配”策略。它不再将Token的存留视为非此即彼的二元判断，而是允许不同Token拥有不同的“精度维度”指标。重要的Token保留更高的维度，从而完整存储其语义信息；不那么关键的Token被压缩到更低的维度，以更少的空间保存其核心语义。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这种“混合维度”策略的本质是对信息做“有损压缩”而非“彻底删除”。被压缩的Token仍然保留着足够用于后续推理的语义信息，而模型通过训练学会了“自适应地”判断哪些Token值得高精度、哪些可以接受低精度。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">系统不再需要在“全部保留”和“全部丢弃”之间做选择，而是在精度与效率之间找到了一个可调的平衡点。</span></strong></p><section style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260515/6a06ea6d1076e.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">用于KV缓存压缩的双阶段尺寸分配流程</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">更难得的是，这套方案无需对模型进行任何重训练。云厂商可以直接将它部署在现有推理框架上，以工程侧的轻量改动换取显存占用的大幅下降。</span></p><section style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260515/6a06ea6d3eccf.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：https://arxiv.org/pdf/2603.20616</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这正是当前大厂在降本路径上最务实的选择：</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">不是推翻重来，而是在既有架构上做“微创手术”。</span></strong></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260515/6a06ea6d8590b.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>03</span></strong></p><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">计算平等：让模型自己分配算力</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">采样步数降了，显存空间省了，但字节在注意力计算的效率问题上也没有闲着。他们的Mixture-of-Depths Attention，从计算资源分配策略的维度提供了一种正交解法。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">传统Transformer在处理每个Token时，都会执行完整的注意力计算。这意味着，即使某个Token在当前语境下的语义贡献微乎其微，它仍然会消耗与其他Token同等的计算资源。这种“一视同仁”的计算策略，本质上是一种隐性的算力浪费。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">新的思路由此出发：并非所有Token都需要被“深度处理”。它引入了一种动态路由机制，让模型在运行时自主决定——哪些Token值得走完整的注意力计算路径，哪些Token可以被引导至更轻量的快速路径。</span></p><section style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260515/6a06ea6db12ee.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">混合深度注意力机制MoDA</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">结果随之而来：系统层面的有效计算量显著下降，但模型输出的质量并未等比例衰减。真正重要的Token仍然得到了充分的计算资源，而大量“搭便车”的Token被引导至旁路。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这种“让模型自己判断轻重缓急”的思路，代表了算法层面“降本增效”的一种优雅路径。这与混合专家（MoE）模型的设计哲学一脉相承，但不是整个模型层的专家切换，而是在每个注意力层做细粒度的资源调度。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">模型在训练过程中学会动态分配计算预算，而非通过硬编码的稀疏规则强行削减计算量——好钢用在刀刃上，这是2026年算法工程师们最希望模型学会的本事。</span></p><section style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260515/6a06ea6de181d.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：https://arxiv.org/pdf/2603.15619</span></span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260515/6a06ea6e222bb.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>04</span></strong></p><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">端侧部署：物理感知驱动的世界模型</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">上述三篇工作几乎都在回答同一个问题：如何在有限的算力约束下，让模型跑得更快、占得更少。但字节跳动在GenieDrive这篇工作中，提出了一个更远见的问题：</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">高效模型在端侧能做什么？</span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">自动驾驶的视觉感知系统，一直是算力军备竞赛的重灾区。传统自动驾驶的感知系统依赖多传感器融合，各司其职又彼此冗余，在算力有限的嵌入式平台上捉襟见肘。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">GenieDrive把这个问题拆解得更深了一层。它搭建了一种“物理感知驱动的4D占用引导视频生成”框架，不再将视觉感知视为一个“看懂图像”的问题，而是将其视为一个“理解物理世界如何运转”的问题，不仅让模型生成视觉上逼真的驾驶场景视频，还让模型具备对物理规律的基本理解，比如运动物体的轨迹遵循物理动量、遮挡关系遵循空间一致性、光照变化遵循物理反射模型。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这种设计的直接效果是：</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">GenieDrive生成的不是一段“视觉上逼真的视频”，而是一个“物理上可信的4D模拟环境”。</span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">当这个模拟环境可以直接服务于下游的轨迹规划和决策控制时，端侧模型的商业价值就超越了单纯的速度竞赛。比如说如果模型能够准确预测“两秒后前方车辆会因为惯性继续滑行两米”，这个信息对于紧急制动的决策价值，远高于“那个地方有一辆车”的语义标签。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">值得注意的是，GenieDrive的高效性并不来自单一算法的突破，而是来自“4D表示+物理先验+端到端联合优化”的协同设计。它代表了2026年大厂在高效视觉表征上的另一条路径：</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">不只是让模型跑得更快，而是让模型“想得更少、做得更准”。</span></strong></p><section style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260515/6a06ea6e56b89.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：</span></span></p><p style=\"text-align: justify; margin: 0px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">https://www.paperdigest.org/paper/?paper_id=cvpr-36900-2026-04-21</span></span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260515/6a06ea6e8e088.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>05</span></strong></p><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">结语：算法天才的元年</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">纵观字节跳动Seed团队在CVPR 2026上这四篇论文，一个清晰的叙事正在浮现：算力封锁并没有杀死创新，反而催生了一种更精致的工程哲学。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">TEMF用“时间均衡”弥合了训练与推理的结构裂缝，让一步生成从不可能变成了工程现实；</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">Beyond Token Eviction用“混合维度”重新定义了信息的取舍策略，让显存压缩从粗暴删除变成了精细调控；</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">Mixture-of-Depths让计算资源学会了「按需分配」，让模型自己成为计算预算的聪明管家；</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">GenieDrive则将高效表征引向了物理可解释的端侧应用，让速度竞赛升维为智能竞赛。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这四条路径指向同一个结论：</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">2026年不是“大模型时代的终结”，而是“聪明模型时代的元年”。</span></strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">当暴力堆砌算力的路径变得不可持续，那些能够用更少资源做更多事情的算法天才，正在成为这个时代最稀缺的人才。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">对于CTO和云厂商而言，字节的这组论文给出了一个清晰的信号：</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">与其等待下一代芯片的算力提升，不如今天就拥抱这些算法优化带来的降本红利。</span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">对于软硬件开发者而言，这意味着新的机会窗口正在打开：适配ELSA这类硬件无关内核的编译器优化、基于动态注意力路由的模型压缩工具、面向4D物理感知模型的端侧部署框架，每一个环节都是尚未被充分开采的富矿。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">算力封锁的本质是一道经济命题，但它的解法，最终要靠算法给出。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif; color: #FFFFFF;\">雷峰网</span></p><section><span></span></section><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span></span></p><section><span></span></section>",
+      "published": "2026-05-15T17:43:00+08:00",
+      "fetched_at": "2026-05-16T11:28:11.980227+08:00",
+      "pre_filter_reason": "CVPR是AI顶会，论文涉及算法瘦身",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.1,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "CVPR 2026趋势：大厂如何用「算法瘦身」应对算力涨价？",
+          "angle": "总结四篇论文的核心思路，分析模型压缩、知识蒸馏、轻量化架构等“瘦身”技术如何帮助大厂在算力成本上升背景下保持竞争力，并给出落地建议。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "手把手复现CVPR 2026「算法瘦身」技巧：以模型剪枝为例",
+          "angle": "选取论文中一种代表性技术（如结构化剪枝），提供从理论到代码的实操教程，帮助开发者理解并应用到自己的模型中。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "7079e1a92b6e",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "蚂蚁百灵 Ring-2.6-1T 开源 Agent 执行能力全面增强",
+      "link": "https://www.qbitai.com/2026/05/417961.html",
+      "summary": "AIME 26 得分 95.83",
+      "published": "2026-05-15T15:14:36+08:00",
+      "fetched_at": "2026-05-16T11:28:15.834496+08:00",
+      "pre_filter_reason": "AI model and agent capability",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.1,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "蚂蚁百灵Ring-2.6-1T开源：Agent能力全面升级，AIME 26得分95.83",
+          "angle": "介绍该模型的核心升级点（Agent执行能力），对比其与同类开源模型的性能表现，并分析对AI Agent开发社区的实际意义。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "实战蚂蚁百灵Ring-2.6-1T：搭建一个能自动完成复杂任务的Agent",
+          "angle": "以具体任务（如多步推理、工具调用）为例，演示如何部署并使用该模型构建Agent，突出其执行能力的提升和易用性。",
+          "difficulty": "进阶"
         }
       ]
     }

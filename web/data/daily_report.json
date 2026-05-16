@@ -1,20 +1,24 @@
 {
-  "title": "AI日报 - 2026年05月15日",
+  "title": "AI日报 - 2026年05月16日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
-          "summary": "IBM发布开源多语言嵌入模型Granite Embedding Multilingual R2，支持32K上下文，在子1亿参数模型中检索质量最佳。"
+          "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+          "summary": "Databricks 将 GPT-5.5 集成到企业智能体工作流中，提升自动化能力。"
         },
         {
-          "title": "How the NVIDIA Vera Rubin Platform is Solving Agentic AI’s Scale-Up Problem",
-          "summary": "NVIDIA Vera Rubin平台发布，旨在解决Agentic AI规模化扩展的瓶颈问题。"
+          "title": "Anthropic 推出 Claude Platform on AWS",
+          "summary": "Anthropic 在 AWS 上推出 Claude 平台，方便企业部署和使用。"
         },
         {
-          "title": "Helping ChatGPT better recognize context in sensitive conversations",
-          "summary": "OpenAI改进ChatGPT对敏感对话的上下文识别能力，提升安全性与准确性。"
+          "title": "阿里发布Qoder 1.0，可全面接管代码生成、验证和交付流程",
+          "summary": "阿里发布 Qoder 1.0，实现从代码生成到交付的全流程自动化。"
+        },
+        {
+          "title": "蚂蚁百灵 Ring-2.6-1T 开源 Agent 执行能力全面增强",
+          "summary": "蚂蚁百灵开源 Ring-2.6-1T 模型，增强智能体执行能力。"
         }
       ]
     },
@@ -22,20 +26,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "Anthropic同意以9000亿美元估值开展融资轮的条款",
-          "summary": "Anthropic以9000亿美元估值推进新一轮融资，AI独角兽估值再创新高。"
+          "title": "OpenAI 在美国遭集体诉讼：ChatGPT 被指嵌入追踪工具，向谷歌、Meta 分享用户隐私",
+          "summary": "OpenAI 因 ChatGPT 嵌入追踪工具并分享用户隐私遭集体诉讼。"
         },
         {
-          "title": "田渊栋AI创业估值315亿，老黄苏妈都投了，姚班施天麟也是合伙人",
-          "summary": "田渊栋AI创业公司估值达315亿，获黄仁勋、苏姿丰等投资，姚班施天麟加盟。"
+          "title": "消息称微软取消 Claude Code 许可，6 月底前推动团队转向 Copilot CLI",
+          "summary": "微软计划取消 Claude Code 许可，推动团队转向 Copilot CLI。"
         },
         {
-          "title": "DeepSeek 融资后，大模型领域会有什么新格局？",
-          "summary": "DeepSeek完成新一轮融资，引发业界对大模型竞争格局变化的讨论。"
+          "title": "上海电信率先发布Token资费套餐：1元对应25万额度点 支持手机账单付",
+          "summary": "上海电信推出 Token 资费套餐，1 元可购 25 万额度点，支持手机账单支付。"
         },
         {
-          "title": "人类大替代？Figure AI 人形机器人直播分拣快递：工作 33 小时处理超 4 万个包裹，但还有瑕疵",
-          "summary": "Figure AI人形机器人直播分拣快递，33小时处理超4万包裹，但仍有瑕疵。"
+          "title": "arXiv implements 1-year ban for papers containing incontrovertible evidence of unchecked LLM-generated errors",
+          "summary": "arXiv 对包含 LLM 生成错误（如幻觉引用）的论文实施一年禁令。"
         }
       ]
     },
@@ -43,16 +47,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "arXiv implements 1-year ban for papers containing incontrovertible evidence of unchecked LLM-generated errors, such as hallucinated references or results. [N]",
-          "summary": "arXiv对含有LLM生成幻觉引用或错误结果的论文实施一年禁令，严控AI生成内容质量。"
+          "title": "Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability",
+          "summary": "微软研究探讨 AI 委托与长周期可靠性问题。"
         },
         {
-          "title": "腾讯开源 Agent 记忆技术方案，Token 消耗最高降低 61%",
-          "summary": "腾讯开源Agent记忆技术方案，可降低Token消耗最高达61%，提升Agent效率。"
+          "title": "How the NVIDIA Vera Rubin Platform is Solving Agentic AI’s Scale-Up Problem",
+          "summary": "NVIDIA Vera Rubin 平台解决智能体 AI 的扩展难题。"
         },
         {
-          "title": "Ontario auditors find doctors' AI note takers routinely blow basic facts",
-          "summary": "安大略审计发现医生使用的AI笔记工具频繁出现基本事实错误，引发对AI医疗应用的担忧。"
+          "title": "CVPR 2026 四篇论文透视：大厂如何靠「算法瘦身」对抗算力涨价？",
+          "summary": "CVPR 2026 论文揭示大厂通过算法瘦身应对算力成本上涨。"
         }
       ]
     },
@@ -60,21 +64,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "Sea's View on the Future of Agentic Software Development with Codex",
-          "summary": "OpenAI博客分享关于Codex在Agentic软件开发中未来应用的见解。"
+          "title": "鼠标每动一下都在训练AI，Meta员工“造反”了：厕所、会议室都贴满抗议传单",
+          "summary": "Meta 员工抗议公司利用用户操作数据训练 AI，引发隐私争议。"
         },
         {
-          "title": "Work with Codex from anywhere",
-          "summary": "OpenAI推出Codex随处工作功能，提升开发者远程协作与AI编程体验。"
+          "title": "兼顾效率、成本与能力，百灵开源旗舰推理模型 Ring-2.6-1T",
+          "summary": "百灵开源推理模型 Ring-2.6-1T 在效率、成本与能力间取得平衡。"
         },
         {
-          "title": "Gemini 进手机，Android 翻身；Gemini进电脑，全网开喷！",
-          "summary": "Google Gemini进入手机端获好评，但进入电脑端引发广泛批评。"
+          "title": "蚂蚁灵波开源LingBot-VLA真机后训练全流程代码，150条示教数据即可适配新机器人",
+          "summary": "蚂蚁灵波开源机器人训练代码，仅需 150 条数据即可适配新机器人。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦Agentic AI规模化、开源模型突破与融资热潮，同时AI应用中的事实准确性仍待解决。",
-  "generated_at": "2026-05-15T11:45:12.653494+08:00",
+  "summary": "今日 AI 圈聚焦模型开源与商业化落地，隐私争议与算力优化成热点，企业加速智能体部署。",
+  "generated_at": "2026-05-16T11:29:28.404687+08:00",
   "source_count": 20
 }
