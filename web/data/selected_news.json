@@ -1,98 +1,172 @@
 {
-  "updated_at": "2026-05-17T11:44:06.253119+08:00",
+  "updated_at": "2026-05-18T11:58:48.485890+08:00",
   "total": 20,
   "items": [
     {
-      "id": "50d0df3abee9",
-      "source_id": "reddit-ml",
-      "source_name": "Reddit r/MachineLearning",
+      "id": "33f486fb1587",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "Backlash against Arxiv's proposed 1 year ban is genuinely perplexing. [D]",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1tens5n/backlash_against_arxivs_proposed_1_year_ban_is/",
-      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Anyone else surprised at the enormous amount of backlash against Arxiv's proposed 1 year ban for authors and coauthors publishing papers with hallucinated reference and other obvious LLM/Gen AI artifacts?<br /> <a href=\"https://x.com/tdietterich/status/2055000956144935055\">https://x.com/tdietterich/status/2055000956144935055</a><br /> <a href=\"https://xcancel.com/tdietterich/status/2055000956144935055\">https://xcancel.com/tdietterich/status/2055000956144935055</a></p> <p>Some of the responses:</p> <ol> <li><p>&quot;This is the age of AI, Arxiv should be part of the movement instead of holding onto the old ways&quot;</p></li> <li><p>&quot;The P.I. is a macro-manager, not a micro-manager, can't be expected to read every reference that his/her student puts in.&quot;</p></li> <li><p>&quot;I publish 20+ papers a year with my students, how do you expect me to read everything?&quot;</p></li> <li><p>&quot;What about teams with 100s of people? How can you expect the authors to check references?&quot;</p></li> <li><p>&quot;Who reads references in depth anyways!?&quot;</p></li> </ol> <p>These responses are very revealing how academia works. Apparently people have just been slapping names on research papers they've never even read or fact-checked themselves. Very obscene! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NeighborhoodFatCat\"> /u/NeighborhoodFatCat </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tens5n/backlash_against_arxivs_proposed_1_year_ban_is/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tens5n/backlash_against_arxivs_proposed_1_year_ban_is/\">[comments]</a></span>",
-      "published": "2026-05-16T16:30:00+08:00",
-      "fetched_at": "2026-05-17T11:42:58.149384+08:00",
-      "pre_filter_reason": "Discusses Arxiv ban for papers with LLM/Gen AI artifacts, directly about AI ethics and research.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "如何避免论文被Arxiv封禁？LLM引用自查指南",
-          "angle": "针对研究人员，详细讲解如何识别和避免AI生成的虚假参考文献，包括使用检测工具和手动验证技巧，确保论文合规。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "opinion",
-          "title": "Arxiv一年封禁合理吗？学术界对AI造假的双面态度",
-          "angle": "分析支持与反对Arxiv禁令的双方观点，探讨AI在学术写作中的边界，以及学术界如何平衡创新与诚信。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "2be3932dfc88",
-      "source_id": "hn-ai",
-      "source_name": "Hacker News (AI)",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens",
-      "link": "https://openai.com/index/malta-chatgpt-plus-partnership/",
-      "summary": "<p>Article URL: <a href=\"https://openai.com/index/malta-chatgpt-plus-partnership/\">https://openai.com/index/malta-chatgpt-plus-partnership/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48163392\">https://news.ycombinator.com/item?id=48163392</a></p>\n<p>Points: 105</p>\n<p># Comments: 89</p>",
-      "published": "2026-05-17T04:14:06+08:00",
-      "fetched_at": "2026-05-17T11:42:57.145222+08:00",
-      "pre_filter_reason": "OpenAI partnership for ChatGPT Plus rollout",
+      "title": "alistaitsacle/free-llm-api-keys",
+      "link": "https://github.com/alistaitsacle/free-llm-api-keys",
+      "summary": "Free LLM API keys for GPT-5.4, Claude, DeepSeek, Gemini, Grok — copy, paste, use. Updated 3-5x daily. No credit card needed.",
+      "published": "2026-05-18T11:57:38.347110+08:00",
+      "fetched_at": "2026-05-18T11:57:38.347112+08:00",
+      "pre_filter_reason": "Free LLM API keys for AI models.",
       "scores": {
         "importance": 7,
         "timeliness": 9,
         "actionability": 8,
         "scarcity": 8,
-        "virality": 7,
+        "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.5,
+      "quality_score": 7.7,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "马耳他公民福利：如何免费获取ChatGPT Plus？",
-          "angle": "以马耳他政府与OpenAI的合作为案例，介绍公民如何通过政府渠道申请ChatGPT Plus，并分享使用AI提升工作效率的实用技巧。",
+          "title": "免费获取顶级AI模型API密钥，无需信用卡",
+          "angle": "手把手教你从该仓库获取并配置GPT-5.4、Claude等模型的免费API密钥，适合预算有限的开发者快速上手。",
           "difficulty": "入门"
         },
         {
           "tag": "news",
-          "title": "国家AI普及新范式：马耳他全民ChatGPT Plus的启示",
-          "angle": "解读该合作背后的政策意义，探讨其他国家可能如何效仿，以及AI全民化对教育、就业和数字鸿沟的影响。",
-          "difficulty": "中级"
+          "title": "每日更新的免费AI API密钥库，开发者福音",
+          "angle": "介绍这个每日更新3-5次的资源库，分析其如何降低AI开发门槛，并提醒使用注意事项。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "b8c4343111ab",
-      "source_id": "qbitai",
-      "source_name": "量子位",
+      "id": "6b02ced6e4ce",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "agent-sh/agentsys",
+      "link": "https://github.com/agent-sh/agentsys",
+      "summary": "AI writes code. This automates everything else · 24 plugins · 49 agents · 45 skills · for Claude Code, OpenCode, Codex, Cursor, Kiro.",
+      "published": "2026-05-18T11:57:38.347089+08:00",
+      "fetched_at": "2026-05-18T11:57:38.347091+08:00",
+      "pre_filter_reason": "AI writes code, agents, skills for AI coding tools.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "用AgentSys自动化一切：24个插件+49个智能体实战",
+          "angle": "演示如何利用AgentSys的插件和智能体，在Claude Code或Cursor中实现代码编写后的自动化测试、部署等流程。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "review",
+          "title": "AgentSys深度评测：AI写代码后，它如何接管剩余工作？",
+          "angle": "对比AgentSys与同类工具，解析其45项技能和跨平台兼容性，评估对开发效率的实际提升。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "9d892e081f95",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "BigBodyCobain /Shadowbroker",
+      "link": "https://github.com/BigBodyCobain/Shadowbroker",
+      "summary": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.",
+      "published": "2026-05-18T11:57:38.045047+08:00",
+      "fetched_at": "2026-05-18T11:57:38.045050+08:00",
+      "pre_filter_reason": "AI agent for data correlation and OSINT",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "开源情报工具Shadowbroker：追踪富豪私人飞机与卫星",
+          "angle": "演示如何用Shadowbroker统一界面追踪私人飞机、间谍卫星和地震事件，并接入AI代理发现隐藏关联。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "news",
+          "title": "全球情报开源化：Shadowbroker让AI帮你发现数据中的秘密",
+          "angle": "探讨该工具如何打破信息壁垒，让普通用户也能进行高级情报分析，并讨论伦理边界。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "081ba8cbb884",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "奥特曼投的芯片涨疯了，今年最大科技IPO",
-      "link": "https://www.qbitai.com/2026/05/418594.html",
-      "summary": "奥特曼的20亿持股版图也曝光了",
-      "published": "2026-05-16T14:52:14+08:00",
-      "fetched_at": "2026-05-17T11:42:49.770191+08:00",
-      "pre_filter_reason": "Sam Altman (OpenAI CEO) invested in a chip company; chips are AI-related hardware.",
+      "title": "Linux 之父 Linus 发飙：别用 AI 提交大量重复 Bug 报告，直接提修复方案，OK？",
+      "link": "https://www.ithome.com/0/951/682.htm",
+      "summary": "<p>IT之家 5 月 18 日消息，Linus Torvalds 日前发布了 Linux 7.1 的第四个候选版本，他在 5 月 17 日表示 AI 很棒，但前提是它真的有帮助。Linus 抱怨大量重复的 bug 报告会带来不必要的工作。</p><p>需要明确的是，Linus 并不是说开发者在 Linux 开发时不应该使用 AI 工具。他的意思是，如果你用 AI 工具发现了 Linux 中的漏洞，那么很可能其他人也发现了，因此造成 AI 提交 Bug 报告内容的大量重复。</p><p>Linus 表示，<strong>他不需要那些随便发报告、没有真正理解问题的随意提交者</strong>。简而言之，他希望开发者们使用 AI 工具，对发现的问题提交实际修复方案。</p><blockquote><p>一些文档更新值得一提：持续涌入的 AI 报告基本上让安全列表几乎完全无法管理，因为不同的人用同样的工具发现了同样的东西，导致大量重复。人们花了所有时间把事情转发给合适的人，或者说“那个问题一周 / 一个月前就解决了”，并指向公开讨论。</p></blockquote><p>Linus Torvalds 曾在 2025 年 11 月的韩国首尔 Linux Foundation 开源峰会上表示，过去差不多 20 年里，他其实已经不是程序员了，更多是系统的技术负责人和维护者，日常工作就是坐在电脑前看邮件。</p><p>据IT之家此前报道，在谈到 AI 替代程序员时，<a href=\"https://www.ithome.com/0/912/378.htm\" target=\"_blank\">Linus 表示 AI 只是另一种工具</a>，就像编译器让人们从手写汇编代码中解放出来，但并没有让程序员消失。</p><p style=\"text-align: center;\"><img class=\"not-source\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/909cc81d-226a-4900-81e5-5394bf633039.jpg?x-bce-process=image/format,f_auto\" /></p>",
+      "published": "2026-05-18T10:53:50+08:00",
+      "fetched_at": "2026-05-18T11:57:30.771958+08:00",
+      "pre_filter_reason": "Directly discusses AI-generated bug reports and Linus's comments on AI.",
       "scores": {
         "importance": 7,
-        "timeliness": 9,
-        "actionability": 7,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "Linus Torvalds怒斥AI刷Bug报告：要修复，不要垃圾",
+          "angle": "解读Linus对AI提交重复Bug的批评，强调开发者应深入理解问题而非依赖AI批量报告。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "opinion",
+          "title": "AI辅助开发的两面性：从Linus发飙看如何正确使用AI工具",
+          "angle": "分析Linus的立场，讨论AI在开源项目中的合理使用方式，避免给维护者增加负担。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "da3a1a1ef63e",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "KeygraphHQ /shannon",
+      "link": "https://github.com/KeygraphHQ/shannon",
+      "summary": "Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
+      "published": "2026-05-18T11:57:38.046479+08:00",
+      "fetched_at": "2026-05-18T11:57:38.046483+08:00",
+      "pre_filter_reason": "AI pentester using LLM/autonomous AI",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
         "scarcity": 8,
         "virality": 8,
         "crowd_heat": 0.0
@@ -100,72 +174,72 @@
       "quality_score": 7.5,
       "topics": [
         {
-          "tag": "news",
-          "title": "奥特曼押注的芯片公司成今年最大科技IPO，20亿持股曝光",
-          "angle": "梳理奥特曼的投资版图，分析这家芯片公司的技术亮点和市场前景，以及其对AI硬件生态的潜在影响。",
-          "difficulty": "入门"
+          "tag": "tutorial",
+          "title": "Shannon Lite实战：用AI白盒渗透测试自动发现Web漏洞",
+          "angle": "演示如何配置Shannon Lite分析源码、识别攻击向量并执行真实利用，在投产前验证漏洞。",
+          "difficulty": "进阶"
         },
         {
-          "tag": "tutorial",
-          "title": "跟着奥特曼学投资：AI芯片赛道入门分析",
-          "angle": "以奥特曼的投资案例为引，教观众如何评估AI芯片公司的核心技术、市场定位和增长潜力，适合科技投资者。",
-          "difficulty": "中级"
+          "tag": "review",
+          "title": "AI渗透测试工具Shannon Lite：让安全左移的自主白盒方案",
+          "angle": "评测其核心功能，对比传统渗透测试，分析对开发安全流程的革新意义。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "a865ee9baca6",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
-      "link": "https://openai.com/index/malta-chatgpt-plus-partnership",
-      "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
-      "published": "2026-05-16T08:00:00+08:00",
-      "fetched_at": "2026-05-17T11:42:38.729581+08:00",
-      "pre_filter_reason": "OpenAI partnership to expand AI access",
+      "id": "438bf6a688c8",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "3个人带100个AI程序员，一个月烧掉130万美元！OpenAI：钱我出",
+      "link": "https://36kr.com/p/3812925591887368?f=rss",
+      "summary": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_399370c00c2a4df2b0ea4535d62d0160@5579416_oswg664907oswg1080oswg463_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">Peter Steinberger</p>\n  <p>编辑：所罗门</p>\n  <p><strong>【新智元导读】3个人，100个AI agent，一个月烧掉130万美元——OpenClaw之父把软件开发变成了「AI流水线」，OpenAI替他买单。</strong></p>\n  <p>别人晒工资条，他晒账单——<strong>一个月130万美元！</strong></p>\n  <p>也就是将近900万人民币/每月。直接把网友们看傻了。</p>\n  <p>OpenClaw之父Peter Steinberger在X上轻描淡写地甩出一张截图。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_733f64563eac4279b50b9b9766e65770@5579416_oswg591789oswg1080oswg1231_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">Peter Steinberger</p>\n  <p>但截图上的数字，属实不淡定：</p>\n  <p><strong>30天花费：$1,305,088.81。吞掉6030亿个token。发起760万次请求。</strong></p>\n  <p>你没看错，是130万<strong>美元</strong>。也不是哪家大厂的季度AI预算——<strong>一个3个人的小队，一个月的用量。</strong></p>\n  <p><strong>更炸裂的是：这钱，OpenAI给报销。</strong></p>\n  <p>评论区瞬间就疯了。</p>\n  <p>有人惊叹，有人质疑，有人掏出计算器开始算「这到底顶多少个程序员」。</p>\n  <p>Steinberger本人谈定回应：「关闭快速模式后，我的花费低于一个工程师的成本，而且这确实帮助大得多。」</p>\n  <p>翻译下就是——<strong>属实划算！</strong></p>\n  <p>更有网友惊叹于月薪40万刀的工程师——「旧金山的就业市场过于疯狂。」</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_1aa15ca9dfa74bd4a3f8f650371316b7@5579416_oswg304582oswg1080oswg792_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">网友评论</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_f5f52273edf34125a620ed9d05b60a3d@5579416_oswg268984oswg1080oswg634_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">网友评论</p>\n  <p>还有网友好奇，这个大量的Token花在了哪里。</p>\n  <p>Peter回应大部分都用在了OpenClaw的开发上。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_4cc550f115a645cda4b98a1396684143@5579416_oswg138865oswg1080oswg452_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">网友评论</p>\n  <h2><strong>云端程序员军团</strong></h2>\n  <p>这件事最离谱的是，Pete的小团队只有3个人。</p>\n  <p>他们在云端长期跑着约100个 Codex 实例，干软件工程里最脏、最累、最容易把人逼疯的活——</p>\n  <p>审PR、找安全漏洞、去重issue、改bug、监控benchmark、发现回归后发到Discord，甚至听完会议后直接开PR。</p>\n  <p>于是，AI不只是「帮你写代码」，而是进入软件协作的每一个缝隙。</p>\n  <p>这就很吓人了。</p>\n  <p>因为软件开发真正贵的是沟通、理解、上下文切换、审查、回归、修复、等待、重复劳动。</p>\n  <p>过去一个团队每天大量时间，消耗在这些看起来不像「创造」、但没有它们项目就会烂掉的事情上。</p>\n  <p>现在，Peter 把这些环节一口气丢给了一群AI agent。</p>\n  <p><strong>这是AI开始替你维护一个组织的神经系统。</strong></p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_57785ec9cd9d42028f5f298cbe0846a1@5579416_oswg1998728oswg1055oswg1491_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">示意图</p>\n  <p>这张截图还有一个细节很重要：它不是OpenAI后台，而是 Peter 做的 CodexBar。</p>\n  <p>CodexBar 是一个 macOS 菜单栏工具，用来追踪各种AI编程工具的使用窗口、credit、成本和重置时间。</p>\n  <p>它支持 Codex、Claude、Cursor、Gemini、Copilot 等一堆服务。</p>\n  <p>以前程序员的菜单栏里是什么？CPU、内存、电量、网速。</p>\n  <p>现在多了一个东西：token。<strong>token正在变成一种新的「生产资料」。</strong></p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_f8b24ef7058341c0a5a055f0e1b21748@5579416_oswg279085oswg1080oswg874_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">CodexBar</p>\n  <h2><strong>最后说两句</strong></h2>\n  <p>130万美元一个月，3个人，100个AI agent。</p>\n  <p>你细品这组数字——三个活人，带着一百个不吃饭不睡觉不提涨薪的数字员工，把一整个工程团队的活儿给干了。</p>\n  <p>有人看完热血沸腾：AI终于不是只会聊天的花瓶了！也有人看完脊背发凉：等等，那我们这些写代码的，以后干嘛去？</p>\n  <p>但说实话，最让我睡不着的，是Steinberger那句轻飘飘的话：<strong>「我在探索，如果token成本不是问题，软件开发会变成什么样。」</strong></p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_e1e639a607ec4bbfbd4e501124e1886d@5579416_oswg344211oswg1080oswg982_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">Peter Steinberger</p>\n  <p>各位，他说的是「如果」。</p>\n  <p>可问题是，这个「如果」正在以肉眼可见的速度变成「当」。</p>\n  <p>今天130万美元干的活儿，模型降一轮价，13万。再降一轮，1.3万。</p>\n  <p>到那一天，100个AI agent同时干活，不再是硅谷大佬的独家游戏，而是随便一个三人创业团队的基本操作。</p>\n  <p>车库里三个年轻人，手握一百个不知疲倦的AI程序员——这画面，想想就离谱。</p>\n  <p>Peter Steinberger掀开了底牌。</p>\n  <p>底牌上写着：<strong>未来已经在敲门了，而且它不打算等你准备好。</strong></p>\n  <p>参考资料：</p>\n  <p>https://the-decoder.com/for-1-3-million-a-month-openclaw-founder-peter-steinberger-runs-100-ai-agents-that-code-review-prs-and-find-bugs/</p>\n  <p>https://x.com/steipete/status/2055346265869721905</p>\n  <p>https://developers.openai.com/codex/speed</p>\n  <p class=\"editor-note\">本文来自微信公众号<a href=\"https://mp.weixin.qq.com/s/5O0b8Q0xTKU6_jHq93IUwA\" rel=\"noopener noreferrer\" target=\"_blank\">“新智元”</a>，作者：新智元，36氪经授权发布。</p>",
+      "published": "2026-05-17T14:08:32+08:00",
+      "fetched_at": "2026-05-18T11:57:17.372502+08:00",
+      "pre_filter_reason": "AI agent news",
       "scores": {
-        "importance": 6,
-        "timeliness": 8,
+        "importance": 8,
+        "timeliness": 9,
         "actionability": 7,
         "scarcity": 7,
-        "virality": 6,
+        "virality": 8,
         "crowd_heat": 0.0
       },
       "quality_score": 7.5,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "马耳他AI技能培训：公民如何用ChatGPT Plus提升职场竞争力",
-          "angle": "结合OpenAI与马耳他的合作，提供针对公民的AI技能学习路径，包括如何使用ChatGPT Plus进行简历优化、数据分析等。",
-          "difficulty": "入门"
+          "title": "3人带100个AI程序员：130万美元烧出来的效率革命",
+          "angle": "拆解OpenAI支持的AI程序员团队如何运作，分析人机协作模式、成本效益与未来企业用人趋势。",
+          "difficulty": "进阶"
         },
         {
-          "tag": "opinion",
-          "title": "AI全民化实验：马耳他模式能否解决数字鸿沟？",
-          "angle": "探讨该合作在缩小AI使用差距方面的潜力与挑战，分析其他小国或地区如何借鉴此模式推动AI素养普及。",
-          "difficulty": "中级"
+          "tag": "tutorial",
+          "title": "AI程序员时代来了？从130万美元项目看企业如何拥抱AI Agent",
+          "angle": "以该新闻为案例，讲解AI Agent在软件开发中的实际应用场景、部署成本与团队管理变化。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "81aebb090de6",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
+      "id": "71554c208e07",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
       "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "谷歌前 CEO 施密特毕业演讲被嘘：AI 焦虑触动学子神经",
-      "link": "https://www.ithome.com/0/951/431.htm",
-      "summary": "<p>北京时间 5 月 17 日，据《商业内幕》报道，在周五的亚利桑那大学毕业典礼上，当谷歌前 CEO 埃里克 · 施密特 (Eric Schmidt) 发表讲话时，现场响起了嘘声。他谈论的话题对于即将步入职场的毕业生来说或许有些敏感：人工智能。</p><p style=\"text-align: center;\"><img alt=\"施密特\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/5a6f7708-dac6-4ac7-9253-4a0293c23713.png?x-bce-process=image/format,f_auto\" /></p><figcaption>施密特</figcaption><p>尽管其他演讲者收获了欢呼与掌声，但施密特关于现代技术对社会影响的演讲却触动了大家的神经。</p><p>“我们曾以为，我们是在为人类几个世纪以来构建的知识大教堂添砖加瓦，但我们所构建的世界，最终却比我们预想的要复杂得多，”施密特在谈及自己对现代化的贡献时说道，“那些将我们联系在一起的工具，也同样让我们彼此隔离。那些赋予每个人发声机会的平台也正在侵蚀公共空间，就像你们现在正在使用的。”</p><p>他接着说：“在我毕业之后的那些年里，没有人坐下来，决心要开发出那种会加剧民主制度两极分化、让一代年轻人感到不安的技术。那不是计划的一部分，但它还是发生了。”</p><p><strong>当他提到 AI 时，学生们的嘘声变得更大</strong>。</p><p>“我知道你们很多人此刻的感受。我听得见你们的声音。这是一种恐惧。”施密特说道，在人群的喊声加剧时他短暂停顿了一下。</p><p>“你们这一代人有一种恐惧：未来似乎已经被写定，机器正在逼近，工作正在消失，气候正在崩溃，政治正在分裂，而你们正在继承一个并非由你们造成的混乱世界。”施密特称。</p><p style=\"text-align: center;\"><img alt=\"谷歌前CEO施密特毕业演讲被嘘：AI焦虑触动学子神经\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/9bad4b5b-8380-47a6-ba69-212e9d52d787.png?x-bce-process=image/format,f_auto\" /></p><p>施密特认为，<strong>这些恐惧在“情理之中”，但他鼓励毕业生们去适应这项技术，并积极参与塑造其未来的应用方式</strong>。</p><p>“问题不在于 AI 是否会塑造世界，它一定会，”施密特说，“问题在于，你们是否去塑造了 AI。”</p><p>AI 正在重塑全球劳动力市场，从企业筛选求职者的方式，到企业所需技能的类型，这些都在发生变化。尽管年轻人越来越多地在日常生活中使用 AI，但调查显示，他们仍然对 AI 对自身职业发展的影响感到担忧。</p><p><strong>AI 能够把许多重复性任务自动化，这一能力已导致一些公司减少了对初级岗位的招聘。Klarna、IBM 等公司已经进行了与 AI 相关的裁员。</strong></p><p>皮尤研究中心最近的一项研究发现，约有一半的美国人认为，AI 在日常生活中日益普及，让他们感到“更多的是担忧而非兴奋”。</p><p>一些学生还计划在典礼开始前对施密特发出嘘声，原因是他去年面临的性侵指控。施密特的一名律师告诉《商业内幕》，这些指控是“捏造的”。今年 3 月，一名法官下令通过仲裁解决该诉讼。</p><p>亚利桑那大学的一位发言人表示，学校邀请施密特是因为他对技术和创新做出了“非凡”的贡献。“他协助领导谷歌成长为全球最具影响力的科技公司之一，并通过重大慈善与科研项目持续推动研究与探索，其中包括支持亚利桑那大学重要工作的合作项目。”该发言人表示。</p><p><strong>英伟达 CEO 黄仁勋 (Jensen Huang) 上周也在卡内基梅隆大学的毕业典礼上发表了演讲。他的基调更为积极，认为 AI 将为年轻人创造更多机会，让他们能够去建造任何自己想要的东西。</strong></p><p>“AI 不太可能取代你，”他在承认人们对就业市场的焦虑时表示，“但比你更会用 AI 的人可能会。”</p>",
-      "published": "2026-05-17T10:13:06+08:00",
-      "fetched_at": "2026-05-17T11:42:53.734845+08:00",
-      "pre_filter_reason": "谷歌前CEO谈论人工智能引发争议",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "Light-Heart-Labs /DreamServer",
+      "link": "https://github.com/Light-Heart-Labs/DreamServer",
+      "summary": "Local AI anywhere, for everyone — LLM inference, chat UI, voice, agents, workflows, RAG, and image generation. No cloud, no subscriptions.",
+      "published": "2026-05-18T11:57:38.046238+08:00",
+      "fetched_at": "2026-05-18T11:57:38.046241+08:00",
+      "pre_filter_reason": "Local AI platform for LLM, voice, agents, RAG, image generation",
       "scores": {
-        "importance": 6,
-        "timeliness": 9,
+        "importance": 7,
+        "timeliness": 8,
         "actionability": 8,
         "scarcity": 7,
         "virality": 8,
@@ -174,15 +248,15 @@
       "quality_score": 7.4,
       "topics": [
         {
-          "tag": "opinion",
-          "title": "谷歌前CEO施密特被嘘：AI焦虑如何影响毕业生就业观？",
-          "angle": "分析施密特演讲引发嘘声的深层原因，探讨AI对就业市场的冲击，以及毕业生应如何调整心态和技能应对未来。",
-          "difficulty": "入门"
+          "tag": "tutorial",
+          "title": "本地AI全能服务器：DreamServer部署教程",
+          "angle": "手把手教用户如何在自己的电脑上部署DreamServer，实现无云端、无订阅的LLM推理、语音、RAG与图像生成。",
+          "difficulty": "进阶"
         },
         {
           "tag": "tutorial",
-          "title": "面对AI焦虑，毕业生必备的3项生存技能",
-          "angle": "从施密特事件切入，提供实用的技能提升建议，包括如何利用AI工具增强自身竞争力、培养不可替代的软技能等。",
+          "title": "告别云端订阅：用DreamServer搭建你的私人AI工作站",
+          "angle": "对比云端AI服务与本地DreamServer的优劣，突出隐私、成本与离线可用性，引导用户尝试自托管。",
           "difficulty": "入门"
         }
       ]
@@ -197,49 +271,216 @@
       "title": "Anil-matcha /Open-Generative-AI",
       "link": "https://github.com/Anil-matcha/Open-Generative-AI",
       "summary": "Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
-      "published": "2026-05-17T11:42:59.298906+08:00",
-      "fetched_at": "2026-05-17T11:42:59.298909+08:00",
-      "pre_filter_reason": "AI image and video generation",
+      "published": "2026-05-18T11:57:38.044829+08:00",
+      "fetched_at": "2026-05-18T11:57:38.044832+08:00",
+      "pre_filter_reason": "AI image and video generation platform",
       "scores": {
         "importance": 7,
-        "timeliness": 7,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 6,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "开源AI视频生成：Open-Generative-AI本地部署指南",
+          "angle": "详细演示如何自托管Open-Generative-AI，集成Flux、Midjourney、Sora等200+模型，实现无过滤创作。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "替代Sora和Midjourney？开源AI视频/图像工作室上手体验",
+          "angle": "对比Open-Generative-AI与商业平台的功能、自由度与成本，适合内容创作者和AI爱好者。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "bce311ceb497",
+      "source_id": "ifanr",
+      "source_name": "爱范儿",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "早报｜马耳他为全民买单ChatGPT会员/卢伟冰预判年底国产直板旗舰破万元/曝苹果新Siri聊天记录可自动删除",
+      "link": "https://www.ifanr.com/1666122?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 马耳他将向全体公民免费提供一年 ChatGPT Plus\n· 目标估值 1.75 万亿美元，SpaceX 最快 6 月上市\n· 最低 1 元 40 万 Token，三大运营商推出 Token 套餐<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
+      "published": "2026-05-18T08:22:27+08:00",
+      "fetched_at": "2026-05-18T11:57:28.784580+08:00",
+      "pre_filter_reason": "ChatGPT and AI-related news",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
         "actionability": 8,
         "scarcity": 7,
         "virality": 8,
-        "crowd_heat": 3.5
+        "crowd_heat": 0.0
       },
       "quality_score": 7.2,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "零门槛搭建你自己的AI视频生成工作室",
-          "angle": "手把手教你部署Open-Generative-AI，免费使用Flux、Midjourney等200+模型，无需内容审核，打造私人AI创作平台。",
+          "title": "马耳他全民送ChatGPT会员：国家AI福利背后的逻辑",
+          "angle": "分析马耳他政策对AI普及的推动，探讨企业或政府如何效仿，以及个人如何最大化利用ChatGPT Plus。",
           "difficulty": "入门"
         },
         {
           "tag": "tutorial",
-          "title": "告别付费API：开源AI视频工具完全指南",
-          "angle": "对比Open-Generative-AI与商业AI视频平台，展示如何自托管实现无限制生成，适合个人创作者和小团队。",
-          "difficulty": "中级"
+          "title": "苹果新Siri隐私升级：自动删除聊天记录意味着什么？",
+          "angle": "解读苹果Siri隐私新功能的技术实现与用户影响，对比其他语音助手的隐私策略。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "402e99e506e8",
+      "id": "5cd571721703",
+      "source_id": "reddit-ml",
+      "source_name": "Reddit r/MachineLearning",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "Program misleading high school students into paying to perform academic misconduct in ML Research [D]",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1tfh2s9/program_misleading_high_school_students_into/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I was browsing OpenReview and I came accross this person called Kevin Zhu <a href=\"https://openreview.net/profile?id=%7EKevin_Zhu3\">https://openreview.net/profile?id=~Kevin_Zhu3</a>, lets say I was impressed when I saw 158 publications and 468 coauthors, and out of curiosity I searched up his afflication (<a href=\"https://algoverseairesearch.org/\">https://algoverseairesearch.org/</a>)</p> <p>Turns out it is a paid program, and most interesting it is marketed towards <strong>high school students.</strong> They have a whole column of papers listed as <strong>Neurips publications</strong> (their website states: 289 Algoverse Students Accepted to NeurIPS 2025). I was originally unware of the rigor of Neurips workshops and I was understandably very shocked.</p> <p>I skimmed through four of their papers one by one. Every single one had errors that would be caught by opening the PDF and reading it once. I am completely unsure how they are not caught by reviewers even at a workshop.</p> <p><a href=\"https://openreview.net/forum?id=21pxWVRoPL\">https://openreview.net/forum?id=21pxWVRoPL</a> - Appendix Tables 6.5 and 6.6 are supposed to report two different experimental conditions: &quot;Stigma Negative&quot; and &quot;Stigma Positive.&quot; One measures what happens when the user pushes the model toward a negative association with a stigmatized group. The other measures the opposite direction. These are fundamentally different experiments, yet they have the exact same numbers in the results. There are typo in the Abstract section, their Related Works is within Results section. Citations are completely wrong, which I suspect to be AI generated.</p> <p><a href=\"https://openreview.net/pdf?id=0BYRYwGCbK\">https://openreview.net/pdf?id=0BYRYwGCbK</a> - broken prompts in a dataset that claims human review. The results say the opposite of the abstract. The abstract claims the work &quot;reveals novel methods to elicit sycophancy.&quot; Then they proceed to show most modifiers perform about the same as the unmodified control (91-95% accuracy). Moreover, their citations also seem AI generated with false citations (wrong authors, wrong formats ..) Interestingly, <strong>undisclosed self-citation by Kevin Zhu.</strong></p> <p><a href=\"https://openreview.net/pdf?id=VcRUAT5G8I\">https://openreview.net/pdf?id=VcRUAT5G8I</a> - Two foundational methods are attributed to the wrong paper. TIES merging and Task Arithmetic, two well known methods, was introduced but never cited. Same AI generated citations, I am not even going to get to the content anymore.</p> <p><a href=\"https://openreview.net/pdf?id=It7AgR3A9H\">https://openreview.net/pdf?id=It7AgR3A9H</a> - eleven authors, zero contribution.</p> <p>Four papers, that I RANDOMLY CLICKED ON WITH NO ORDER, all follow the same template take existing method -&gt; run it with some variation, likely done by AI -&gt; put Kevin Zhu as an author -&gt; submit to workshop</p> <p>I am unsure how any of these bypass any form of peer review process, only today I learned how low the bar is for workshops.</p> <p><strong>Why I am posting:</strong> It angers to me when you market this to high schoolers and tell them you can get into Stanford and MIT. A 16 year old look at this and say, if I pay $3,325, I can get a Neurip publication. Then they proceed to let them publish a paper clear errors. This is academic dishonesty, but I dont think the kids even know they are commiting it.</p> <p><strong>Kevin Zhu</strong> puts his name on every single paper published, self-cite himself in these paper, and charge student $3,325.</p> <p>I wasn't fully aware of how much lighter the workshop review process is, and I really want to hear why this is.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Marisu_BG\"> /u/Marisu_BG </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tfh2s9/program_misleading_high_school_students_into/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tfh2s9/program_misleading_high_school_students_into/\">[comments]</a></span>",
+      "published": "2026-05-17T14:08:54+08:00",
+      "fetched_at": "2026-05-18T11:57:36.828262+08:00",
+      "pre_filter_reason": "Program misleading high school students into paying to perform academic misconduct in ML Research",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "警惕AI研究中的学术欺诈：高中生付费挂名论文事件揭秘",
+          "angle": "揭露Kevin Zhu项目如何误导高中生付费参与ML研究，分析学术不端模式与防范建议。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "如何识别和避免AI领域的虚假研究项目？",
+          "angle": "提供实用指南，教学生和研究者辨别OpenReview等平台上的可疑项目，保护学术诚信。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "ec2d6962bfc5",
       "source_id": "github-ai-repos",
       "source_name": "GitHub AI 新项目",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "Tencent/WeKnora",
-      "link": "https://github.com/Tencent/WeKnora",
-      "summary": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "published": "2026-05-17T11:42:59.748265+08:00",
-      "fetched_at": "2026-05-17T11:42:59.748267+08:00",
-      "pre_filter_reason": "Open-source LLM knowledge platform with RAG and AI agent",
+      "title": "livekit/agents",
+      "link": "https://github.com/livekit/agents",
+      "summary": "A framework for building realtime voice AI agents 🤖🎙️📹",
+      "published": "2026-05-18T11:57:38.347100+08:00",
+      "fetched_at": "2026-05-18T11:57:38.347101+08:00",
+      "pre_filter_reason": "Framework for building voice AI agents.",
       "scores": {
         "importance": 7,
-        "timeliness": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.1,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "5分钟搭建你的第一个实时语音AI助手",
+          "angle": "手把手演示如何使用livekit/agents框架，从零开始构建一个能实时对话的语音AI机器人，突出其多模态（音频+视频）能力。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "375836ddbffc",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "NirDiamant /agents-towards-production",
+      "link": "https://github.com/NirDiamant/agents-towards-production",
+      "summary": "End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment.",
+      "published": "2026-05-18T11:57:38.045577+08:00",
+      "fetched_at": "2026-05-18T11:57:38.045581+08:00",
+      "pre_filter_reason": "GenAI agent tutorials for production deployment",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 6,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.1,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "从原型到生产：GenAI Agent企业级部署全流程",
+          "angle": "基于NirDiamant/agents-towards-production教程，拆解一个端到端的案例，重点展示如何将AI Agent从实验原型升级为可投入生产的稳定系统。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "1a69098c102b",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "上海市市长龚正：更大力度赋能集成电路、生物医药、人工智能等十大千亿级硬核产业集群发展",
+      "link": "https://36kr.com/newsflashes/3814225804451334?f=rss",
+      "summary": "在“开局起步‘十五五’”上海专场新闻发布会上，上海市市长龚正提出，面向“十五五”，要深入推动科技创新、政府职能转变等改革有机衔接，持续推进资金跨境、国际人才引进等要素市场化配置关键环节攻坚突破，加快探索大宗商品贸易、高端航运服务等创新制度安排，更大力度赋能集成电路、生物医药、人工智能等十大千亿级硬核产业集群发展。特别是要用好浦东新区法规立法授权，以法治更好助力浦东大胆试、大胆闯、自主改。（财联社）",
+      "published": "2026-05-18T11:11:07+08:00",
+      "fetched_at": "2026-05-18T11:57:17.372661+08:00",
+      "pre_filter_reason": "Mentions artificial intelligence as a key industry cluster.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.1,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "上海“十五五”规划解读：三大硬核产业的投资机会",
+          "angle": "分析上海对集成电路、生物医药、人工智能三大千亿级产业集群的政策扶持方向，为创业者与投资者梳理未来五年的重点赛道和红利。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "96e8dc859762",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "腾讯 AI 设计智能体 Ardot 公测：一句话生成可编辑设计稿，一键转代码",
+      "link": "https://www.ithome.com/0/951/677.htm",
+      "summary": "<p>IT之家 5 月 18 日消息，腾讯云今日宣布，腾讯自研 AI 设计智能体平台 Ardot 正式<a href=\"https://ardot.tencent.com\" target=\"_blank\">公测</a>，官方称其为“一个 AI 驱动的产设研协作平台”。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/5/f6a671dc-083c-4851-be2b-1cc40c9b9bd1.png?x-bce-process=image/format,f_auto\" /></p><p>IT之家获悉，Ardot 支持<strong>一句话生成可编辑设计稿</strong>，AI 可快速生成 App 页面、官网、海报、插画、PPT 等；支持调用团队自己的业务组件库，一键生成符合规范的可编辑稿；支持直接导入 Figma 文件，完整保留原有布局、样式和组件。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/5/a74072a3-bbf2-4a3b-ad76-c5c040ffb3b5.gif\" /></p><p>官方表示，Ardot 对代码友好，支持<strong>设计一键转代码</strong>。设计稿，连同变量、组件、布局数据等设计细节数据，直接拉进 CodeBuddy，一键代码还原；也兼容 Workbuddy、Cursor、Claude Code 等 MCP IDE。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/5/848aa4ac-15be-485a-80e9-8710c56d39b0.png?x-bce-process=image/format,f_auto\" /></p><p>Ardot 支持<strong>多人在线实时评论</strong>、标注反馈和版本对比，配备智能权限中心、全方位行为追溯和无缝交接机制，确保协作规范、有序。此外，Ardot 微信小程序也即将上线。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/5/5d21f8c4-07e7-4fb9-ba58-8eed7dfeb742.png?x-bce-process=image/format,f_auto\" /></p>",
+      "published": "2026-05-18T10:43:58+08:00",
+      "fetched_at": "2026-05-18T11:57:30.771995+08:00",
+      "pre_filter_reason": "AI design agent platform launch",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
         "actionability": 8,
         "scarcity": 7,
         "virality": 7,
@@ -249,496 +490,225 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "用WeKnora把文档变成智能知识库",
-          "angle": "从零搭建RAG系统：上传文档→自动索引→问答机器人，适合企业知识管理或个人学习助手。",
+          "title": "腾讯Ardot公测：一句话生成设计稿并一键转代码",
+          "angle": "实测腾讯AI设计智能体Ardot，演示如何通过自然语言快速生成可编辑UI设计稿，并直接导出前端代码，展示AI如何缩短产设研协作链路。",
           "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "打造自主推理的AI知识助手：WeKnora深度玩法",
-          "angle": "结合RAG与自主推理Agent，实现文档自动维护和智能问答，适合技术团队提升内部知识管理效率。",
-          "difficulty": "高级"
         }
       ]
     },
     {
-      "id": "b87db8016406",
+      "id": "81859d4c770e",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "koala73/worldmonitor",
+      "link": "https://github.com/koala73/worldmonitor",
+      "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "published": "2026-05-18T11:57:38.347083+08:00",
+      "fetched_at": "2026-05-18T11:57:38.347085+08:00",
+      "pre_filter_reason": "AI-powered news aggregation",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 8,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "搭建你的全球实时情报仪表盘：WorldMonitor实战",
+          "angle": "介绍如何使用koala73/worldmonitor项目，集成AI新闻聚合与地缘政治监控功能，快速构建一个统一态势感知界面，适合数据新闻与安全分析场景。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "faaa31d26784",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "6.4k Stars！用Claude Code写论文的全套流水线，有人打包开源了",
+      "link": "https://36kr.com/p/3812800346742274?f=rss",
+      "summary": "<p>听雨 发自 凹非寺量子位 | 公众号 QbitAI</p>\n  <p><strong>用Claude Code写论文的一整套流水线</strong>，有人打包开源出来了。</p>\n  <p>完全戳中了学生党的痛点，github星标直达<strong>6.4k</strong>。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_347c6212e2e145359e811d49ef0ac87b@5579416_oswg200090oswg1080oswg574_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">academic-research-skills</p>\n  <p>项目名叫<strong>academic-research-skills</strong>（以下简称ARS），是一套Claude Code技能包。</p>\n  <p>里面涵盖4个skill，分别对应论文的<strong>研究、写作、审稿、定稿</strong>。</p>\n  <p>只需两行命令安装，直接一条龙串起整套学术研究流水线。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_f27c0bc4b8794660a3f32822aad8d9d5@5579416_oswg168289oswg1080oswg579_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">academic-research-skills</p>\n  <p>只能说，我读研的时候怎么没碰到这种好东西呢…</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_583564e615c2496c8d2ab5f605673d26@5579416_oswg76699oswg238oswg236_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">示意图</p>\n  <h2><strong>4个skill，跑通整套科研流程</strong></h2>\n  <p>ARS的核心架构由4个skill组成，它们各司其职，拼在一起就是一条从选题到交稿的完整链路。</p>\n  <p>我这里还做了图，大家可以看得比较直观：</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_d094441019c74762b53751bca491f931@5579416_oswg1613321oswg1080oswg1149_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">△</p>\n  <p><strong>Deep Research</strong>是一支13个Agent的研究团队。</p>\n  <p>它负责文献调研、研究问题构建、方法论设计，还能写系统性的PRISMA综述。</p>\n  <p>团队里有专门做文献溯源的Agent，会调用Semantic Scholar API验证每一篇引用的真实性。</p>\n  <p>有苏格拉底导师Agent，通过对话引导研究者理清思路。</p>\n  <p>还有魔鬼代言人Agent，专门挑刺，防止研究者在早期就陷入思维定式。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_2146aa845a70438590e432c403537d1f@5579416_oswg1033967oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">△</p>\n  <p><strong>Academic Paper</strong>是一支12个Agent的写作团队。</p>\n  <p>从大纲设计、论证构建、草稿撰写，到双语摘要生成、图表可视化、引用格式转换，全流程覆盖。</p>\n  <p>特别值得一提的是风格校准功能，AI会学习你过往作品的写作风格，让输出更像你自己写的，而不是千篇一律的AI味。</p>\n  <p>输出格式支持Markdown、DOCX、LaTeX，最终可以编译成APA 7.0或IEEE格式的PDF。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_a8bd546beb5840d0ac78ac3740a8aad5@5579416_oswg970137oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">△</p>\n  <p><strong>Academic Paper Reviewer</strong>是一支7个Agent的审稿团队。</p>\n  <p>模拟真实学术期刊的评审流程，由主编EIC带领三位领域审稿人，再加上一个魔鬼代言人，从方法论、学科视角、跨学科价值等多个维度打分。</p>\n  <p>评分采用0到100的量化标准，80分以上接受，65到79小修，50到64大修，50以下拒稿。</p>\n  <p>审稿团队还会输出详细的修改路线图，告诉作者下一步该做什么。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_57a9cacb57984fd8888709e7a1049940@5579416_oswg941898oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">△</p>\n  <p><strong>Academic Pipeline</strong>是流程编排器，把前面三个团队串联成一条10阶段的流水线。</p>\n  <p>从研究、写作、完整性检查、同行评审、修订、最终检查，到发表准备和流程总结，每个阶段都有明确的产物和检查点。</p>\n  <p>你可以在任意阶段插入，比如已经有了初稿，就从Stage 2.5的完整性检查开始；收到了审稿意见，直接从Stage 4的修订切入。</p>\n  <p>费用参考也很透明，一篇<strong>1.5万字的论文</strong>，全程跑下来大约<strong>4到6美元</strong>。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_289b3541745547ad8e45c8df00ff8940@5579416_oswg955867oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">△</p>\n  <h2><strong>比较有意思的设计</strong></h2>\n  <p>用Claude Code做学术研究的开源项目已经很多了，但是深扒之后，我发现ARS在底层设计上还是有些过人之处。</p>\n  <p>可以简单总结为一句话：<strong>系统性防止AI搞砸学术研究</strong>。</p>\n  <p>第一，<strong>引用核验</strong>。</p>\n  <p>AI写论文最忌讳的，就是幻觉引用。</p>\n  <p>不只是编造不存在的文章，还包括标题相似但作者年份全错、DOI真实但内容对不上等更隐蔽的情况。</p>\n  <p>ARS在Deep Research阶段就埋了一个引用核验机制，每一篇文献都要过Semantic Scholar API的存在性确认。</p>\n  <p>不是简单查一下标题对不对，而是用Levenshtein相似度算法做模糊匹配，阈值设在0.70以上才算通过。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_2e81a73ce0ed4fd2a886841a11abd28e@5579416_oswg867333oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">△</p>\n  <p>第二，<strong>完整性闸门</strong>。</p>\n  <p>在流水线的Stage 2.5和Stage 4.5，有两道不可跳过的完整性闸门，会运行一份<strong>7项AI失败模式检查清单</strong>。</p>\n  <p>这份清单直接来自2026年Nature上发表的一项全自主AI科研研究，其中总结了7种翻车模式，覆盖引用幻觉、数据捏造、方法论造假等情形。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_0dca598362764428b95a25f19cf3a147@5579416_oswg94537oswg918oswg686_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">7种翻车模式</p>\n  <p>任何在2.5被标记为SUSPECTED的问题，必须在4.5变成CLEAR，或者由人工手动覆盖并留下记录。</p>\n  <p>设计逻辑是：把「我相信AI不会出错」变成「我要求AI证明它没出错」。</p>\n  <p>实测中，这套机制在一篇真实论文里抓到了15个伪造引用和3个统计错误。</p>\n  <p>第三，<strong>反谄媚协议，让AI敢于说不</strong>。</p>\n  <p>大多数AI工具都有一个隐形毛病，讨好用户。你让它改，它就改，哪怕改得更差。</p>\n  <p>所以ARS在审稿环节专门设计了反谄媚机制。</p>\n  <p>审稿团队里有一个<strong>Devil’s Advocate</strong>，也就是魔鬼代言人，职责是挑刺。</p>\n  <p>但挑完刺之后，还有一个让步阈值协议。</p>\n  <p>DA的反驳会被评分1到5，如果低于4分，写作团队不允许承认。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_a24811c25e81472c97635f21efc9342d@5579416_oswg960598oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">△</p>\n  <p>换句话说，AI不能为了显得好合作就轻易让步。</p>\n  <p>同时，攻击强度在修订过程中必须保持。如果第一轮审稿把方法论批得体无完肤，作者修订后不能让审稿人突然变得温柔。</p>\n  <p>评分轨迹也会被追踪，任何维度的分数下降都会被标记为回归。</p>\n  <p>这和软件工程里的不引入新Bug原则一样，改一个地方不能搞砸另一个地方。</p>\n  <p>第四，<strong>三层数据隔离，不让AI偷看答案</strong>。</p>\n  <p>ARS把数据流严格分成三层：</p>\n  <p>Layer 1是原始输入，默认不可信，可能幻觉、过时、带偏见。</p>\n  <p>Layer 2是通过完整性验证后的产物。</p>\n  <p>Layer 3是评分标准、参考答案和金标数据，这层材料永远不能出现在写作AI的上下文中。</p>\n  <p>具体实现上，写作团队和审稿团队分两次独立调用，中间有阶段边界隔离。</p>\n  <p>写作AI只能收到审稿AI的自然语言反馈，比如「第二章论证跳跃，建议补充对比实验」。</p>\n  <p>但它看不到原始的评分标准，也不知道每个维度占多少分。</p>\n  <p>这个设计的灵感来自于Anthropic今年的w2s-researcher研究，其中也用了同样的三层隔离模型。</p>\n  <p>结论是当AI能读取标签数据时，结果可能不是真的泛化，而是在优化表面特征。</p>\n  <p>解决方案不是更好的提示词，而是结构上的隔离。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_eb2a589a9c7f4952a125f91d5c7eab25@5579416_oswg914451oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">△</p>\n  <p>最后一点，<strong>诚实文档化，「我不保证能复现」</strong>。</p>\n  <p>学术界经常遇到「这个结果我复现不了」的问题。ARS给每个产物生成一个<strong>repro_lock文件</strong>，记录运行时的完整配置。</p>\n  <p>但文件里有一段强制声明，LLM输出不是字节级可复现的，模型提供商会更新权重而不改模型ID，外部API每天返回不同的数据。</p>\n  <p>这个文件只是配置文档，不是重放保证。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_6f41ffece85c43b8ab0e9a2e3a57c4ba@5579416_oswg824252oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">△</p>\n  <p>在更新日志上，可以看到ARS已经经历了很多轮迭代。从2月上线到现在，提交的commit数达到了三百多次。</p>\n  <p>从每次版本更迭中，也能看出作者对AI学术研究系统风险有着深刻理解。</p>\n  <p>这也是我觉得目前学术研究AI工具的关键所在——</p>\n  <p><strong>让AI帮你写论文并不难，重点是如何防止它出错、讨好，让整个流程变得更系统更可靠。</strong></p>\n  <p>ARS的设计哲学，可以总结为README里那句话：</p>\n  <p><strong>「AI是你的副驾驶，不是飞行员。」</strong></p>\n  <h2><strong>如何安装</strong></h2>\n  <p>安装方式很简单，如果你已经在用Claude Code，只需要两行命令：</p>\n  <blockquote>\n   <p>/plugin marketplace add Imbad0202/academic-research-skills/plugin install academic-research-skills</p>\n  </blockquote>\n  <p>验证安装是否成功，运行：</p>\n  <blockquote>\n   <p>/ars-plan</p>\n  </blockquote>\n  <p>然后描述你正在写的论文主题，ARS就会启动苏格拉底对话，帮你梳理论文结构。</p>\n  <p>如果你偏好单条命令测试，也可以用：</p>\n  <blockquote>\n   <p>/ars-lit-review “你的研究主题”</p>\n  </blockquote>\n  <p>不过最简单的安装办法，其实是<strong>直接把SKILL.md上传到claude.ai项目知识库</strong>。</p>\n  <p>不需要安装Claude Code，打开浏览器就能用。</p>\n  <p>不过要注意，这种方式不支持多Agent并行，功能上是单Agent版本，适合轻度体验；想跑完整流水线还是需要Claude Code。</p>\n  <p>还有一点，项目支持<strong>繁体中文和英文</strong>。</p>\n  <p>那么，又到了大家最关心的，要花多少钱的环节。</p>\n  <p>作者推荐使用<strong>Claude Opus 4.7搭配Max订阅计划</strong>。</p>\n  <p>完整跑完10个阶段，单次可消耗超过20万输入token和10万输出token，单独使用某个子模块则少得多。</p>\n  <p>Max订阅计划分两档，每月100刀或200刀，相当不便宜。</p>\n  <p>但如果你的科研经费可以报销的话，那…</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260517/v2_c4a776e8faa64504b62e161edd5faa67@5579416_oswg37331oswg236oswg234_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">示意图</p>\n  <p class=\"editor-note\">本文来自微信公众号<a href=\"https://mp.weixin.qq.com/s/6SkupSxgM9618Y-O7ZJUbA\" rel=\"noopener noreferrer\" target=\"_blank\">“量子位”</a>，作者：关注前沿科技，36氪经授权发布。</p>",
+      "published": "2026-05-17T12:59:08+08:00",
+      "fetched_at": "2026-05-18T11:57:17.372527+08:00",
+      "pre_filter_reason": "AI tool for writing papers",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "用Claude Code写论文：从零开始的完整流水线",
+          "angle": "手把手演示如何利用开源工具和Claude Code搭建论文写作流程，涵盖文献综述、数据分析、初稿生成等关键步骤，适合学生党快速上手。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "case_study",
+          "title": "6.4k星开源项目揭秘：AI写论文到底靠不靠谱？",
+          "angle": "分析该开源项目为何爆火，对比传统论文写作效率，探讨AI辅助写作的优缺点及学术伦理边界。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "38cefe84713f",
       "source_id": "hn-ai",
       "source_name": "Hacker News (AI)",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "Frontier AI has broken the open CTF format",
-      "link": "https://kabir.au/blog/the-ctf-scene-is-dead",
-      "summary": "<p>Article URL: <a href=\"https://kabir.au/blog/the-ctf-scene-is-dead\">https://kabir.au/blog/the-ctf-scene-is-dead</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48157559\">https://news.ycombinator.com/item?id=48157559</a></p>\n<p>Points: 346</p>\n<p># Comments: 344</p>",
-      "published": "2026-05-16T15:01:55+08:00",
-      "fetched_at": "2026-05-17T11:42:57.145251+08:00",
-      "pre_filter_reason": "Frontier AI is explicitly mentioned as breaking the CTF format, directly about AI impact.",
+      "title": "Most Americans don't trust AI – or the people in charge of it (2025)",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/644853/pew-gallup-data-americans-dont-trust-ai",
+      "summary": "<p>Article URL: <a href=\"https://www.theverge.com/ai-artificial-intelligence/644853/pew-gallup-data-americans-dont-trust-ai\">https://www.theverge.com/ai-artificial-intelligence/644853/pew-gallup-data-americans-dont-trust-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48174808\">https://news.ycombinator.com/item?id=48174808</a></p>\n<p>Points: 41</p>\n<p># Comments: 26</p>",
+      "published": "2026-05-18T09:39:30+08:00",
+      "fetched_at": "2026-05-18T11:57:36.077305+08:00",
+      "pre_filter_reason": "AI trust survey",
       "scores": {
-        "importance": 6,
-        "timeliness": 8,
+        "importance": 7,
+        "timeliness": 6,
         "actionability": 8,
-        "scarcity": 7,
+        "scarcity": 6,
         "virality": 7,
-        "crowd_heat": 0.0
+        "crowd_heat": 7.0
       },
-      "quality_score": 7.1,
+      "quality_score": 6.9,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "AI时代CTF已死？如何用大模型破解传统安全竞赛",
-          "angle": "分析前沿AI如何打破CTF规则，探讨安全竞赛的未来形态，以及安全从业者应如何应对。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "tutorial",
-          "title": "从CTF到AI攻防：安全竞赛的范式转移",
-          "angle": "解读AI对CTF形式的冲击，展望基于大模型的自动化攻防新赛道，适合安全爱好者与研究者。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "945de4d9f38a",
-      "source_id": "github-ai-repos",
-      "source_name": "GitHub AI 新项目",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "langgenius/dify",
-      "link": "https://github.com/langgenius/dify",
-      "summary": "Production-ready platform for agentic workflow development.",
-      "published": "2026-05-17T11:42:59.748231+08:00",
-      "fetched_at": "2026-05-17T11:42:59.748233+08:00",
-      "pre_filter_reason": "Platform for agentic workflow development",
-      "scores": {
-        "importance": 8,
-        "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 5,
-        "virality": 7,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Dify入门：5分钟搭建你的第一个AI工作流",
-          "angle": "快速上手Dify平台，从创建Agent到部署生产级应用，零代码实现复杂任务自动化。",
+          "tag": "opinion",
+          "title": "为什么大多数美国人不信任AI？",
+          "angle": "解读Pew/Gallup最新调查数据，分析公众对AI不信任的深层原因（隐私、偏见、失控风险），并讨论信任重建的可能路径。",
           "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "生产级AI Agent开发实战：Dify高级工作流设计",
-          "angle": "深入Dify的Agentic Workflow功能，设计多步骤、多模型协作的智能应用，适合有基础的技术开发者。",
+          "tag": "analysis",
+          "title": "AI信任危机：监管者 vs 技术公司，谁该负责？",
+          "angle": "从调查结果出发，探讨政府监管、企业自律与公众教育在AI信任建设中的角色，引用Hacker News评论中的争议观点。",
           "difficulty": "高级"
         }
       ]
     },
     {
-      "id": "12e27cc23bf8",
-      "source_id": "36kr",
-      "source_name": "36氪",
+      "id": "fcbf04296354",
+      "source_id": "qbitai",
+      "source_name": "量子位",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "印度股市市值蒸发9240亿美元，错失人工智能浪潮",
-      "link": "https://36kr.com/newsflashes/3812663316274949?f=rss",
-      "summary": "在人工智能贸易重塑全球投资格局的大背景下，印度俨然成为最大输家之一。形势发生急剧转变，印度股市时隔三年即将首次跌出全球市值前五。韩股凭借人工智能行情大涨，印度非但无力收复失地，反而面临进一步被甩开的巨大风险。造成这一局面的原因，远不止印度股市估值偏高、企业盈利增速放缓。此前全球投资者曾大举布局印度，如今资金却纷纷涌向印度市场稀缺的赛道：芯片制造、算力基建与人工智能模型领域。印度虽具备人才、市场需求与庞大数字经济体量，但本土头部企业极少直接涉足相关产业建设，股市走势愈发只能依赖内需消费赛道。（新浪财经）",
-      "published": "2026-05-17T09:28:35+08:00",
-      "fetched_at": "2026-05-17T11:42:42.890951+08:00",
-      "pre_filter_reason": "Discusses AI trade and market impact",
+      "title": "一只机器狗，把英伟达的算力王座拱翻了",
+      "link": "https://www.qbitai.com/2026/05/418969.html",
+      "summary": "人造劳动力，离普通家庭还有多远？",
+      "published": "2026-05-17T23:10:59+08:00",
+      "fetched_at": "2026-05-18T11:57:25.967457+08:00",
+      "pre_filter_reason": "Mentions robot dog and Nvidia, implying AI/robotics",
       "scores": {
-        "importance": 7,
-        "timeliness": 8,
+        "importance": 6,
+        "timeliness": 7,
         "actionability": 7,
         "scarcity": 6,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "印度股市暴跌背后：AI浪潮下的全球投资新格局",
-          "angle": "分析印度错失AI红利的深层原因，对比韩国AI行情，解读资金从消费转向芯片与算力的趋势。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "从印度股市看AI投资：哪些赛道正在被资本抛弃？",
-          "angle": "结合印度股市案例，解析AI时代投资逻辑转变，帮助投资者识别未来核心资产。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "1b81f4841e1d",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "CVPR 2026 自动驾驶与协作智能梳理：模型正在走向可控真实世界",
-      "link": "https://www.leiphone.com/category/ai/fMkWxfMZbW2XRxwK.html",
-      "summary": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a0870330ce1c.jpg?imageMogr2/quality/90\" style=\"width: 100%; display: inline-block; text-align: center; background-color: transparent;\" /></section><section style=\"padding-left: 16px; padding-right: 16px;\"><section style=\"width: 100%; display: flex; padding: 0px;\"><section style=\"width: 100%; padding-left: 0px; padding-right: 0px;\"><section style=\"width: 100%; background: rgb(246, 248, 255); padding: 20px 0px 12px; margin-top: 0px; margin-bottom: 0px;\"><section style=\"text-align: center;\"><section><section style=\"text-align: justify; margin: 0px 16px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><span>从仿真构造到多主体配合，AI 正在补齐行动决策链条。</span></span></span></section><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><section style=\"text-align: left; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><br /></span></span></section></section></section><span></span><span></span><span></span><span></span><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-weight: normal;\">&nbsp; &nbsp; 作者丨郑佳美</span></span><strong><span><strong><span><span><br /></span></span></strong></span></strong></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Optima-Regular, PingFangTC-light;\"><span style=\"color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\"><span>&nbsp; &nbsp; 编辑丨马晓宁</span></span></span></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; text-align: right; margin: 0px 16px;\"><strong><strong><span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></strong></strong></p></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">过去，视觉模型更多是在回答“看见了什么”，但当 AI 进入自动驾驶、游戏、机器人和多智能体协作场景时，问题已经不只是识别环境，而是“看见之后如何行动”。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">一辆自动驾驶汽车不能只知道前方有车，还要判断如何避让、如何规划路线，甚至要在遮挡、夜晚和复杂天气中借助外部信息补足感知，一个游戏智能体不能只识别画面里的角色、障碍和敌人，还要把连续观察转化成具体操作；多个机器人或虚拟人也不能只是各自执行动作，而要根据队友位置、物体形状、任务目标和团队规模动态配合。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这种变化在 CVPR 2026 的相关研究中变得更加清晰：自动驾驶方向不再只关注单一感知模块，而是开始围绕可控场景生成、真实感仿真、端到端驾驶对齐和空间检索增强展开。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">智能体方向也不再停留在“看见运动”，而是进一步探索如何从视频追踪走向动作学习，如何从互联网规模的玩家视频中恢复操作监督；多智能体方向则把问题推进到更复杂的团队行为，包括任意队伍规模下的人形协作，以及离线数据条件下的多目标协作学习。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这些研究看似分布在自动驾驶、游戏智能体和多人协作等不同任务里，但背后其实都在推动同一条能力链条：让模型从环境感知走向行动决策。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">它们关心的不只是输入图像是否被正确理解，而是场景能否被构造，动作能否被学习，策略能否在闭环中稳定执行，多个主体能否在同一任务中形成配合。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">也正因此，AI 的能力正在从“理解世界”进一步延伸到“参与世界”——不只是看见道路、角色或物体，而是能在复杂环境中判断、行动，并与其他主体协同完成任务。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a0870333ead6.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>01</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">从可控场景生成到空间记忆增强</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">自动驾驶研究正在从“让模型看懂当前画面”，进一步走向“让模型能够构造、编辑和利用更复杂的驾驶世界”。在仿真与训练中，一个关键问题是：如何生成足够真实、可控且多样的驾驶场景，尤其是那些真实道路中少见但对安全至关重要的危险交互、罕见轨迹和复杂交通情况。</span></p><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">由 NEC 美国研究院、石溪大学和加州大学圣地亚哥分校共同提出的</span><strong><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">《HorizonForge: Driving Scene Editing with Any Trajectories and Any Vehicles》</span></strong><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">。研究的是自动驾驶场景中的可控视频生成与编辑问题，也就是如何在已有驾驶视频中精确修改车辆轨迹、插入新车辆，或者改变自车与其他交通参与者的运动方式，同时保持画面的真实感、空间一致性和时间连续性。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">现有方法往往难以同时做到高真实感和精确控制：要么编辑能力有限，要么生成结果容易出现结构不稳定、时序不连贯的问题。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">HorizonForge 的核心思路是先把驾驶场景重建成可编辑的 Gaussian Splats 和 Meshes，再在这个 3D 表示上进行精细操作。系统可以直接修改车辆轨迹、调整场景几何，或根据语言指令插入新车辆；编辑后的结果再通过 noise-aware video diffusion 渲染出来，用扩散模型补足真实感，并保证空间和时间一致性。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">相比每条轨迹都要重新优化的方法，HorizonForge 可以在一次前向推理中生成多种场景变化，更适合大规模自动驾驶仿真。</span></p><section style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a0870336789a.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：https://arxiv.org/pdf/2602.21333v2</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">它的亮点在于，把 3D 可编辑表示和视频扩散生成结合起来：前者负责轨迹和车辆控制，后者负责最终视频的自然性和连贯性。论文还提出 HorizonSuite 评测基准，覆盖自车和交通参与者两个层面的编辑任务，包括轨迹修改和物体操作等场景。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">实验中，Gaussian-Mesh 表示相比其他 3D 表示能带来更高保真度，视频扩散中的时间先验也对连贯合成非常关键；最终 HorizonForge 相比第二名方法实现了 83.4% 的用户偏好提升和 25.19% 的 FID 改进。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">整体来看，这篇论文把自动驾驶场景生成从“生成一段看起来像驾驶视频的画面”，推进到“可精确编辑轨迹、车辆和 3D 场景结构的可控仿真”。它的意义不只是让驾驶视频更真实，也在于为感知、预测和规划模型提供更可控、更可扩展的训练与测试环境。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a087033b373b.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">有了可编辑的仿真场景后，另一个问题随之出现：仿真画面本身是否足够真实，能否在插入车辆、行人等动态物体后，仍然保持自然的光照、阴影和前后景一致性。</span></p><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">由英伟达、多伦多大学、康奈尔大学和以色列理工学院合作完成《DiffusionHarmonizer: Bridging Neural Reconstruction and Photorealistic Simulation with Online Diffusion 的Enhancer》，研究的就是自动驾驶和机器人仿真中的真实感增强问题。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">现在很多仿真环境可以通过 NeRF、3D Gaussian Splatting 等神经重建方法从真实数据中恢复出来，但在新视角渲染、稀疏视角外推，或插入其他场景的动态物体时，常常会出现几何伪影、缺失区域、光照不一致、阴影缺失和前景背景风格不统一等问题。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">DiffusionHarmonizer 的核心思路是把神经重建渲染出的不完美画面，在线增强成更真实、更连贯的仿真视频帧。它不是重新构建整个 3D 场景，而是在渲染后加入生成式增强模块，用来修复新视角伪影、协调前景和背景外观，并为插入物体生成更合理的阴影。</span></p><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">模型由预训练的多步图像扩散模型改造成 single-step temporally-conditioned enhancer，只需一步推理就能增强当前帧，同时利用前几帧作为时间上下文，保证在线仿真中的时间稳定性。</span></p><section style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a087033dbc71.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：https://arxiv.org/pdf/2602.24096v2</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">它的亮点在于，既保留扩散模型的真实感生成能力，又尽量满足在线仿真的效率要求。普通视频扩散模型计算成本太高，普通图像增强模型又容易造成帧间闪烁；因此论文把多步扩散模型改造成确定性的单步增强器，并加入时间条件。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">同时，作者还设计了专门的数据构建流程，合成外观协调、伪影修复、重光照、阴影生成和物体重新插入的数据，让模型学会处理颜色不一致、重建错误和光照不真实等问题。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">整体来看，这篇论文把神经重建仿真从“能渲染出场景”，推进到“能生成更接近真实世界的在线仿真画面”。它的价值不只是让画面更好看，而是让基于真实数据重建的仿真环境更可信、更稳定，也更适合大规模训练和评测。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a0870343cd2e.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">而当仿真环境变得更真实、更可控之后，训练出来的驾驶模型是否能在闭环中稳定执行，又取决于专家示范和学生模型之间是否真正对齐。由德国图宾根大学及图宾根人工智能中心、英伟达研究院以及德国“人工智能科学”卓越集群合作完成的《LEAD: Minimizing Learner-Expert Asymmetry in End-to-End Driving》研究就的是端到端自动驾驶中的模仿学习问题。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">虽然仿真器可以生成大量驾驶数据，但用专家轨迹训练出的学生模型，在闭环驾驶时仍然容易不稳定，核心原因在于专家和学生之间存在明显的信息不对称。专家往往拥有更强的“上帝视角”，而学生模型在测试时只能依赖车载传感器输入和有限导航信息，因此很难可靠模仿专家行为。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">LEAD 的重点不是单纯换一个更大的模型，而是系统性地缩小 learner-expert asymmetry。作者把这种差距分成两类：一类是 state alignment，即专家看到的信息和学生实际能看到的信息不一致；另一类是 intent alignment，即学生在测试时只拿到一个目标点，导航意图过于模糊。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a087034652eb.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：https://arxiv.org/pdf/2512.20563v2</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">针对这些问题，论文对专家生成方式、学生输入、导航目标表达和训练数据监督进行了修改，让学生学到的驾驶策略更接近自己真实测试时能执行的行为。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这项研究它没有把端到端自动驾驶的失败简单归因于模型容量不足，而是指出了模仿学习中更根本的训练偏差：</span></p><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">如果专家示范依赖学生看不到的信息，学生即使学得很像，也可能在闭环中犯错。通过减少可见性差异、不确定性差异和导航意图差异，论文训练出的 TransFuser v6（TFv6）在多个公开 CARLA 闭环 benchmark 上取得新的最好结果，例如在 Bench2Drive 上达到 95 DS，并在 Longest6 v2 和 Town13 上超过以往方法两倍以上。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">整体来看，这篇论文把端到端自动驾驶中的模仿学习问题，从“如何让学生更好地模仿专家”，推进到“如何让专家示范更适合学生真实可见、可执行的条件”。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">此外，论文还将感知监督整合进 sim-to-real 流程，并在 NAVSIM 和 Waymo Vision-Based End-to-End Driving benchmark 上带来稳定提升，说明这种对齐思路也有助于真实世界数据下的端到端驾驶泛化。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a087034bbf5b.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">如果说 LEAD 关注专家与学生之间的信息对齐，那么</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">《Spatial Retrieval Augmented Autonomous Driving》</span></strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">则进一步把自动驾驶的输入来源从车载传感器扩展到外部空间记忆。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">论文由复旦大学可信具身智能研究院、上海交通大学、中国科学院空天信息创新研究院目标认知与应用技术重点实验室、中国科学技术大学共同提出，研究的是自动驾驶中的一个新思路：现有自动驾驶系统主要依赖车载摄像头、激光雷达、IMU 等实时传感器感知环境，但这种方式很容易受限于当前视野。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">一旦遇到遮挡、夜晚、雨天或视距不足，模型就可能看不清道路结构。人类驾驶员在这种情况下往往会凭借对道路布局的记忆继续判断，而这篇论文希望给自动驾驶模型也加入类似的“空间记忆”能力。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">论文提出的核心范式叫 spatial retrieval，也就是根据车辆当前位置检索离线地理图像，比如卫星图、街景图或已有自动驾驶数据集中的地理图像，并把它们作为额外输入提供给自动驾驶模型。</span></p><section style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a087034e6cc8.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：https://arxiv.org/pdf/2512.06865</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这些信息不需要增加新的车载传感器，可以从离线地图缓存或公开地图 API 中获得，因此更像是一种可插拔的外部空间先验。论文还扩展了 nuScenes 数据集，通过 Google Maps API 检索地理图像，并将这些图像与自车轨迹对齐，形成 nuScenes-Geography 数据，用来系统评估这种空间检索范式。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">它的亮点在于，不是单纯提升某一个自动驾驶模块，而是把地理检索信息接入多个核心任务。论文围绕 3D 目标检测、在线地图构建、占用预测、端到端规划和生成式世界模型建立基线，并设计了可插拔的 Spatial Retrieval Adapter，用于把检索到的地理图像融合进现有模型。雷峰网</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">同时，论文还引入 Reliability Estimation，根据检索信息本身的可靠性来自适应决定该信多少、用多少，避免错误或不匹配的地理信息干扰驾驶模型。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">从项目页给出的结果来看，空间检索信息在多个任务中都能带来提升：在生成式世界模型中，加入地理图像可以降低 FVD 和 FID，减少场景漂移并保持几何一致性；在在线地图构建中，额外道路背景信息有助于恢复被遮挡的车道线；</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在占用预测中，地理先验尤其能提升静态类别和地面区域的预测；在端到端规划中，地理先验可以补偿遮挡或低光条件下的感知失败，并在夜间复杂场景中把碰撞率从 0.55% 降到 0.48%。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a087035403cf.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a08703570b41.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>02</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">从看见运动到学会行动</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">自动驾驶系统需要理解动态场景，而更基础的视觉能力之一，是在视频中稳定追踪点、物体和运动轨迹。《CoWTracker: Tracking by Warping instead of Correlation》由牛津大学视觉几何组和 Meta AI 共同提出。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">研究的是视频中的 dense point tracking，也就是在一段视频中追踪任意像素点随时间变化的轨迹。这个任务对视频理解、机器人操作、光流估计等都很重要，但现有很多方法依赖 cost volume 做跨帧特征匹配，计算复杂度会随着图像分辨率呈平方级增长，因此在高分辨率、长视频和密集点追踪场景中很难高效扩展。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">CoWTracker 的核心思路是用 warping 替代传统的 feature correlation / cost volume。模型不会在整张图里暴力搜索大量候选匹配，而是先维护每个点当前位置的估计，再根据这个估计把目标帧特征反向 warp 到查询帧附近，然后由 spatio-temporal transformer 联合更新轨迹、可见性和置信度。简单来说，它不是“到处找这个点在哪里”，而是“先猜一个位置，再反复把特征对齐并修正”。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a0870358f919.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：https://arxiv.org/pdf/2602.04877v1</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">它的亮点在于，把密集点追踪做得更简单、更高效，也更容易扩展到高分辨率视频。CoWTracker 不需要显式计算 cost volume，却能通过空间注意力和时间注意力同时建模同一帧中不同点之间的关系，以及同一个点在长时间序列中的运动变化。因此它可以处理长距离运动、大视角变化、遮挡和重新出现等复杂情况，还能输出每个点的轨迹、可见性和置信度。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">从结果来看，CoWTracker 在 TAP-Vid-DAVIS、TAP-Vid-Kinetics 和 RoboTAP 等密集点追踪 benchmark 上表现很强，项目页给出的平均结果包括 Mean AJ 71.3、Mean δ_avg 81.8、Mean OA 93.3，高于 CoTracker 3 和 AllTracker 等方法。雷峰网</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">更有意思的是，同一个模型在不专门训练光流数据的情况下，也能在 Sintel、KITTI-2015 和 Spring 等光流 benchmark 上取得有竞争力的结果，例如在 Sintel 和 KITTI 上的 EPE 分别达到 0.78 和 1.04。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">整体来看，这篇论文把密集点追踪从依赖昂贵相关匹配，推进到基于迭代 warping 和时空推理的统一框架，并说明 dense tracking 和 optical flow 有机会用同一种架构处理。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a087035e3ee9.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">从“追踪运动”继续往前走，就是让模型根据视觉输入直接做出动作决策。《NitroGen: An Open Foundation Model for Generalist Gaming Agents》由英伟达、斯坦福大学、加州理工学院、芝加哥大学和德克萨斯大学奥斯汀分校合作完成。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">论文研究的是面向游戏环境的通用智能体基础模型，也就是让一个模型能够在不同类型、不同机制的游戏中，根据画面观察直接输出游戏手柄动作，而不是只针对某一个游戏单独训练。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">作者认为，具身智能长期缺少像视觉和语言模型那样的大规模预训练数据，强化学习虽然能在个别游戏中取得很强效果，但往往依赖专门模拟器和高成本训练；而现有行为克隆方法又受限于昂贵的人类示范数据，很难扩展到大量游戏。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">NitroGen 的核心思路是利用公开视频中的游戏手柄 overlay 自动恢复玩家操作，从而构建大规模“视频—动作”数据集。很多游戏视频会在画面角落实时显示玩家按键和摇杆输入，NitroGen 先定位并裁剪这些手柄区域，再用模型解析摇杆位置和按键状态，最终从公开游戏视频中提取逐帧动作标签。</span></p><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">通过这种方式，作者整理出约 4 万小时、覆盖 1000 多款游戏的数据，并在此基础上训练统一的 vision-action transformer，用画面观察预测 gamepad actions。</span></p><section style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a0870361dfee.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：https://arxiv.org/pdf/2601.02427v1</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">它的亮点在于，把互联网上原本只是“给人看的游戏视频”转化成了可用于训练智能体的动作监督数据，从而绕开昂贵的人工采集和专门环境搭建。除了数据集，论文还构建了一个多游戏评测环境，包含 10 款商业游戏中的 30 个任务，覆盖战斗、导航、决策、平台跳跃、探索和解谜等能力，并通过统一的 Gymnasium API 封装不同游戏，让模型能在更真实的跨游戏环境中测试泛化能力。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">从效果来看，NitroGen 在 3D 动作游戏战斗、2D 平台跳跃高精度控制、程序生成世界探索等任务中都表现出较强能力，并且能够迁移到未见过的新游戏。论文中提到，在相同数据和计算预算下，用 NitroGen 预训练权重进行微调，相比从零训练的模型，任务成功率最高可获得 52% 的相对提升。作者还开源了数据集、评测套件和模型权重。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">整体来看，这篇论文把游戏智能体从“针对单个游戏训练专用策略”，推进到“利用互联网规模视频数据预训练通用视觉—动作基础模型”。它的意义不只在游戏本身，也在于为具身智能提供了一条新的数据路径：通过公开视频恢复动作监督，让模型从大量人类玩家行为中学习跨环境、跨任务的操作能力。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a087036617c1.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a08703693bf5.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>03</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">从单体控制到团队行为学习</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">如果说 NitroGen 关注的是一个智能体如何从视觉中学会行动，那么在人形控制和机器人协作中，更复杂的问题是多个智能体如何像团队一样协同完成任务。</span></p><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">由 Garena、Sea AI Lab，以及新加坡国立大学共同提出的《TeamHOI: Learning a Unified Policy for Cooperative Human-Object Interactions with Any Team Size》研究的就是多个人形智能体之间的协作式人—物交互问题，也就是让多个虚拟人或机器人一起搬运、抬起、移动物体，并且能够根据队伍人数和物体形状自动调整协作方式。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">现有物理人形控制已经能完成不少单人动作和人—物交互任务，但一旦进入多人协作场景，就会遇到两个难点：一是很多策略只能适配固定人数，难以扩展到不同团队规模；二是高质量多人协作动作数据很少，模型很难学到自然、多样且物理合理的协同行为。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a087036b71ee.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：https://arxiv.org/pdf/2603.07988</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">TeamHOI 的核心思路是训练一个统一的去中心化策略，让每个智能体基于自己的局部观测独立行动，但又能通过同一个策略网络感知队友状态并形成协作。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">具体来说，TeamHOI 使用 Transformer-based policy network，把其他智能体的状态表示成 teammate tokens，让策略可以适配不同数量的队友，而不是像传统 MLP 那样被固定输入维度限制。这样，同一个策略就可以在 2 到 8 个智能体，甚至更多未见过的队伍规模中复用，而不需要重新训练或微调。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">它的另一个关键设计是 masked Adversarial Motion Prior（masked AMP）。由于多人协作动作数据稀缺，论文仍然使用单人参考动作来约束运动自然性，但会在 AMP 监督中遮掉与物体交互的身体部位，让手部、接触和搬运动作更多由任务奖励来引导。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这样模型既能保持整体动作自然，又不会被单人动作数据过度限制，可以从单人参考动作中衍生出更多样的多人协作行为。论文还设计了不依赖队伍人数和物体形状的 formation reward，引导智能体围绕物体形成稳定队形，从而更平稳地抬起和搬运桌子。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这篇论文的亮点在于，它把多人协作从“固定人数、固定策略”的控制问题，推进到“任意团队规模下的统一协作策略”。在桌子搬运任务中，TeamHOI 能让 2 到 8 个智能体协同搬运方形、长方形或圆形桌子，并在普通重量设置下保持很高成功率。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">主实验中，TeamHOI 在 2 人、4 人和 8 人设置下分别达到 99.1%、99.2% 和 97.5% 的成功率，而在 5 倍重量的重载设置下，8 人团队仍能达到 81.1% 成功率。相比之下，基线方法往往只能在训练时对应的人数上表现较好，一旦队伍规模变化就容易失败或不稳定。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a08703711d0a.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">TeamHOI 展示的是具体协作任务中的策略学习，而要让多智能体协作研究进一步发展，还需要更系统的任务集合、离线数据和统一评测标准。</span></p><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">《MangoBench: A Benchmark for Multi-Agent Goal-Conditioned Offline Reinforcement Learning》由中山大学和香港理工大学共同提出，研究的是多智能体离线强化学习中的一个关键问题：</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">多个智能体如何在不能在线试错、只能使用已有数据的情况下，学会根据不同目标进行协作。现有离线多智能体强化学习方法往往依赖人工设计的奖励函数，但这类奖励函数对细微变化非常敏感，也很难让策略泛化到新目标；而单智能体中的目标条件离线强化学习虽然已经能缓解这个问题，但在多智能体协作场景中还缺少系统框架和统一评测基准。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a0870373ef28.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：https://wendyeewang.github.io/MangoBench</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">MangoBench 是面向 goal-conditioned offline MARL 的第一个全协作、多目标基准。它覆盖 3 个环境、4 类智能体和 47 个协作任务，包括联合控制的运动任务，以及同步和异步的双臂操作任务。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">论文还把目标条件学习扩展到多智能体场景中，同时支持完全去中心化训练和 CTDE 两种范式；在去中心化设置下，系统会把全局目标拆分成各个智能体可使用的局部目标，而在 CTDE 设置下，则把个体目标整合到统一全局目标中进行更强的价值学习，但执行时每个智能体仍根据自己的局部目标行动。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">它的亮点在于，不只是提供一个任务集合，而是把“目标条件、多智能体、离线数据、稀疏奖励和多目标评测”统一到同一个框架中。MangoBench 包含 45 个 locomotion 任务和 2 个 manipulation 任务：在运动任务中，多个智能体分别控制同一个机器人身体的不同关节，共同完成 AntMaze、AntSoccer 等目标。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在操作任务中，两个机械臂需要完成 lift-barrier 和 place-food 等协作任务，其中既有同步协作，也有异步协作。论文还基于开放数据集转换出适合目标条件离线多智能体学习的数据格式，并为每个任务设计多目标评测，避免只在单一目标上评估导致结果偏差。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">为了让这个基准真正可用，论文还提出了 6 个 baseline 算法，覆盖完全去中心化和 CTDE 两种训练范式，包括 GCMBC、ICRL、IHIQL、HIQL-CTDE、GCOMIGA 和 GCOMAR。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这些方法分别用于评估行为克隆、对比价值学习、层级策略、目标重标注和离线多智能体方法在稀疏奖励、多目标泛化和协作控制中的表现。实验表明，这些 baseline 在稀疏奖励下已经能展现一定的多目标泛化能力，但没有一种方法可以在所有任务中稳定占优，说明 goal-conditioned offline MARL 仍然是一个复杂且远未解决的问题。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a0870377c303.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section style=\"padding: 0 16px; width: 100%;\"><section style=\"width: 100%;\"><section style=\"width: 100%;\"><section style=\"width: 100%; background-size: 190px 77px;\"><section style=\"width: 100%; padding: 23px 16px; background-position: right bottom; background-size: 190px 77px; text-align: left;\"><p style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 18px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">这次去 CVPR 现场，一定不要错过</span></span></p><p style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">【认识大牛+赚外快】的机会</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">需要你做什么：把你最关注的10个大会报告，每页PPT都拍下来</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">你能获得什么？</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">认识大牛：</span>你将可以进入CVPR名师博士社群；</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">钱多活少：</span>提供丰厚奖金，任务量精简；</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">听会自由：</span>你的行程你做主，顺手就把外快赚。拍下你最感兴趣的10个报告PPT即可。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">如果你即将前往CVPR，想边听会边赚钱，还能顺便为AI学术社区做贡献、认识更多大牛，欢迎</span><span style=\"text-align: left; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">联系我们：[添加微信号:</span><span style=\"text-align: left; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-weight: bold;\">MS_Yahei</span></span><span style=\"text-align: left; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">]</span></p><p style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><span>【</span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">限额5位，先到先得</span><span>】</span></p></section></section></section></section></section><section><span></span></section><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a0870379bc05.jpg?imageMogr2/quality/90\" style=\"width: 100%;\" /></span></p><section><span></span></section>",
-      "published": "2026-05-16T21:26:00+08:00",
-      "fetched_at": "2026-05-17T11:42:46.947601+08:00",
-      "pre_filter_reason": "CVPR paper on autonomous driving and collaborative AI",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 6,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "CVPR 2026自动驾驶新趋势：模型如何走向可控真实世界？",
-          "angle": "解读CVPR 2026中自动驾驶与协作智能的关键技术突破，分析模型从实验室走向真实场景的核心挑战与解决方案。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "自动驾驶协作智能入门：CVPR 2026的三大亮点",
-          "angle": "用通俗语言总结CVPR 2026自动驾驶领域最值得关注的3个研究方向，帮助初学者快速理解行业前沿。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "fdf7b4ada8e2",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "CVPR 2026 视频模型趋势梳理：不止生成下一帧，更要理解下一步",
-      "link": "https://www.leiphone.com/category/ai/cVsooEM3Y0eUAxHG.html",
-      "summary": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb026468.jpg?imageMogr2/quality/90\" style=\"width: 100%; display: inline-block; text-align: center; background-color: transparent;\" /></section><section style=\"padding-left: 16px; padding-right: 16px;\"><section style=\"width: 100%; display: flex; padding: 0px;\"><section style=\"width: 100%; padding-left: 0px; padding-right: 0px;\"><section style=\"width: 100%; background: rgb(246, 248, 255); padding: 20px 0px 12px; margin-top: 0px; margin-bottom: 0px;\"><section style=\"text-align: center;\"><section><section style=\"text-align: justify; margin: 0px 16px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><span>视频智能正从画面生成走向运动控制、动态建模、信号理解与真实场景应用。</span></span></span></section><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><section style=\"text-align: left; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><br /></span></span></section></section></section><span></span><span></span><span></span><span></span><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-weight: normal;\">&nbsp; &nbsp; 作者丨郑佳美</span></span><strong><span><strong><span><span><br /></span></span></strong></span></strong></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Optima-Regular, PingFangTC-light;\"><span style=\"color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\"><span>&nbsp; &nbsp; 编辑丨马晓宁</span></span></span></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; text-align: right; margin: 0px 16px;\"><strong><strong><span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></strong></strong></p></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">过去，视频生成更多是在解决“像不像”的问题：人物是否清晰，画面是否流畅，风格是否统一。但随着模型能力提升，视频真正困难的部分开始显现出来——它不是一组漂亮帧的连续播放，而是一个由时间、空间、运动、相机、光照和物理信号共同构成的动态系统。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">只要模型无法理解这些隐含结构，它生成的视频就可能看似逼真，却在运动逻辑、视角一致性或真实场景适应上露出破绽。因此，视频智能正在进入一个更深的阶段：不只是生成画面，而是理解画面为什么会这样变化。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">从运动轨迹编辑、3D 结构约束、可迭代文生视频，到自适应视频 token、长期运动表征、频闪去除、热成像分离和地球观测模型，研究者实际上都在处理同一个底层问题：如何让模型把视频从“像素序列”理解为“动态世界”。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这也是今年 CVPR 相关方向中一个值得注意的信号——</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">视频模型的竞争重心，正在从视觉质量转向对时间、空间和物理规律的建模能力。</span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">换句话说，视频 AI 的下一步，不是单纯把视频生成得更长、更清楚、更炫，而是让模型知道运动从哪里来、结构为什么稳定、信号如何形成，以及复杂场景中的变化如何被预测和控制。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">当这些能力逐渐补齐，视频模型才可能真正从内容生成工具，走向能够理解、编辑和推演现实世界的动态智能系统。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb06424c.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>01</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">从改画面到改运动</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">视频生成和视频编辑正在从“画面是否好看”，走向“运动是否可控”。谷歌和石溪大学共同提出的</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">《MotionV2V: Editing Motion in a Video》</span></strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">研究的正是如何不只修改视频风格或局部外观，而是直接编辑视频里的“运动”。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">比如让人物换方向、让物体晚一点出现，或在保留场景内容的同时改变镜头运动。现有方法一旦涉及物体运动、相机轨迹或时间顺序变化，就很难保留原视频后续帧中已有的内容。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">MotionV2V 的核心思路是把视频运动表示成稀疏轨迹点，并让用户直接编辑这些轨迹。系统先从输入视频中提取物体或场景点的原始运动轨迹，用户再指定目标运动，模型根据“原始轨迹”和“目标轨迹”之间的差异生成编辑后的视频。论文把这种差异称为 motion edit，并用它指导视频扩散模型，在尽量保留原视频内容的同时，让目标物体或相机按新的方式运动。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb08eb7d.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：https://arxiv.org/pdf/2511.20640v1</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">它的亮点在于，MotionV2V 不是从单张图片重新生成视频，而是真正以完整输入视频为条件进行 video-to-video motion editing。因此它可以利用视频中任意时间点的信息，处理首帧里还没出现的物体，也能支持物体运动、相机运动、时间控制和连续多次编辑。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">作者还构建了 motion counterfactuals，即内容相同但运动不同的视频对，用来微调 motion-conditioned video diffusion 架构。从论文对比来看，MotionV2V 在内容保留、运动控制和整体编辑质量上优于已有方法，用户研究中也获得约 70% 的偏好率。整体来看，这篇论文把视频编辑从“改外观”推进到“改运动”。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb0f1365.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">当运动编辑涉及相机、物体和非刚性形变时，仅靠 2D 运动线索往往不够。Adobe 和马里兰大学帕克分校共同提出的</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">《Generative Video Motion Editing with 3D Point Tracks》</span></strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">进一步使用 3D point tracks 作为统一的运动控制表示，同时改变视频里的相机运动和物体运动。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">系统会先估计输入视频中的相机参数和 3D 点轨迹，用户编辑相机运动或物体轨迹后，再由 video-to-video 生成模型合成新视频。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb13c429.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：https://arxiv.org/pdf/2512.02015v1</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">相比 2D 轨迹，3D 轨迹提供了深度信息，可以帮助模型判断遮挡关系、前后层次和真实空间运动。论文还设计了 3D track conditioner，通过 cross-attention 从输入视频中采样视觉上下文，并把这些信息对齐到目标帧空间中，让模型在改变运动的同时保持画面连贯。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">由于真实世界中很难获得成对训练数据，作者采用两阶段训练：先用合成数据学习基础运动控制，再用真实单目视频构造非连续片段对，缩小合成到真实的差距。整体来看，这篇论文把视频运动编辑推进到更 3D-aware 的阶段，也支持运动迁移、非刚性变形、物体移除和复制等效果。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb17c89a.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">如果输入只有一张物体图像，模型如何在相机绕物体旋转时生成稳定、真实、结构一致的视频？澳大利亚国立大学和亚马逊共同提出的</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">《Towards Realistic and Consistent Orbital Video Generation via 3D Foundation Priors》</span></strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">研究的就是从单张物体图像生成 orbital video。现有视频生成方法在大角度视角变化时缺少可靠像素对应关系，容易生成结构扭曲或不合理的物体形状。雷峰网</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb1a19ec.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：https://arxiv.org/pdf/2604.12309</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这篇论文的核心思路是引入 3D foundation model 中学到的形状先验，用它辅助视频扩散模型生成更稳定的环绕视频。模型从单张输入图像中提取两类 3D latent features：全局 latent vector 提供整体结构指导，体积特征投影得到的 latent images 提供随视角变化的几何细节。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">相比深度图或法线图，这些 3D latent features 能表达更完整的物体形状，也避免显式提取 mesh 的额外开销。作者还设计了 multi-scale 3D adapter，把不同尺度的 3D 特征接入基础视频模型，从而提升生成视频的真实感、物体形状合理性和多视角一致性。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb1f2b65.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">谷歌和新加坡国立大学共同提出的</span><strong><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">《VISTA: A Test-Time Self-Improving Video Generation Agent》</span></strong><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">则把重点放在生成流程本身：当用户给出文本想法后，系统能不能反复评估、反思和修改，直到生成更符合意图的视频。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">它研究的是 test-time self-improvement，也就是不重新训练视频生成模型，而是在推理阶段通过反复评价和改写 prompt 来提升结果。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">VISTA 会先把用户想法拆成带有时间结构的场景计划，包括时长、角色、动作、对白、环境、相机、声音和情绪等要素；生成多个候选视频后，通过 pairwise tournament 选出当前最好结果；随后由视觉、音频和上下文评审智能体提出意见，最后由 reasoning agent 综合反馈并改写 prompt，进入下一轮生成。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb226b6f.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：https://arxiv.org/pdf/2510.15831</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">它的亮点在于，VISTA 不是只优化某个指标，而是把视频规划、候选筛选、多维度评价和提示词重写串成自动闭环。论文中提到，VISTA 在自动指标下相较先进基线最高达到 60% 的 pairwise win rate，在人工评测中也获得 66.4% 的偏好率。整体来看，它把文生视频从“一次性生成”推进到“生成—评价—反思—再生成”。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb26b667.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb2a2607.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>02</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">让模型先学会「怎么动」</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">要让视频模型更好地生成和编辑内容，底层表示也需要更高效。上海交通大学、香港中文大学多媒体实验室、上海人工智能实验室 OpenGVLab、同济大学、清华大学共同提出的</span><strong><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">《AdapTok: Learning Adaptive and Temporally Causal Video Tokenization in a 1D Latent Space》</span></strong><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">研究的是视频 tokenization 问题，也就是如何把连续视频帧压缩成更适合自回归模型处理的离散 token。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb2d9203.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：https://arxiv.org/pdf/2505.17011v2</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">AdapTok 的核心思路是让视频 token 分配变得自适应。它不是给每个时间段分配同样多的 token，而是根据视频内容、时间变化和整体预算，动态决定哪里多用 token、哪里少用 token。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">它使用 1D latent token space 表示视频，并引入 temporal causality，让前面帧的编码和解码不依赖未来帧，更适合流式处理和自回归生成；同时通过 block-wise masking、block causal scorer 和 IPAL 策略完成自适应分配。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这样一来，运动明显、场景变化大的片段会获得更多 token，静态或冗余片段则使用更少 token。在 UCF-101 和 Kinetics-600 任务中，AdapTok 在不同 token 预算下都能提升重建质量和生成表现。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb34685a.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">AdapTok 解决的是视频如何被高效表示，而 CompVis @ LMU、MCML 和苹果共同提出的</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">《Learning Long-term Motion Embeddings for Efficient Kinematics Generation》</span></strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">进一步追问：如果只是理解未来怎么动，是否一定要完整生成像素视频。论文转向学习一种更紧凑的 long-term motion embedding，用来表示场景中的长期运动规律。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">它从大规模 tracker 模型得到的轨迹数据中学习压缩运动空间，把稀疏轨迹和起始帧编码成 latent motion grid，并可在任意空间查询点上重建密集运动；随后在这个运动 latent 空间里训练 conditional flow-matching 模型，根据文本任务描述或 spatial pokes 生成长期运动。这种表示可达到 64 倍时间压缩，也就是说模型不用逐帧生成视频，就能在更抽象的运动空间中推断未来动态。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb374390.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：https://arxiv.org/pdf/2604.11737</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这篇论文的亮点在于，它把“生成视频”拆成了更基础的“生成运动”。这种 kinematics-first 方式更适合探索多个可能未来，也更适合机器人规划、轨迹预测和长期动态建模。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在开放域互联网视频和 LIBERO 机器人基准上，它的运动生成质量、条件遵循能力和效率都优于专门轨迹预测方法以及 Wan、Veo 3 等视频模型基线。整体来看，AI 不一定要先“画出未来”，也可以先学会“未来应该怎么动”。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb3c594c.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb3f30a2.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>03</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">从修复画面到理解信号来源</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">除了生成和编辑，视频与图像研究也在关注如何从复杂成像退化中恢复可靠信息。南开大学国际先进研究院、鹏城实验室、南开大学计算机学院、香港理工大学、OPPO 研究院共同提出的</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">《It Takes Two: A Duet of Periodicity and Directionality for Burst Flicker Removal》</span></strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">研究的是短曝光连拍图像中的 flicker artifact 去除问题。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这类退化由人工光源频闪和 rolling shutter 共同造成，表现为条纹状、明暗不均的闪烁，不能简单当作普通噪声或低光增强处理。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">Flickerformer 的核心思路是利用闪烁退化的周期性和方向性。周期性来自交流电光源亮度变化，方向性与相机逐行扫描机制有关。针对这两个特点，Flickerformer 设计了 PFM、AFFN 和 WDAM 三个模块，分别用于帧间相位相关融合、单帧自相关建模，以及小波域方向性高频修复。雷峰网</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb42b278.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：https://arxiv.org/pdf/2603.22794v1</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">它的亮点在于，把频闪本身的物理先验嵌入网络结构里，而不是把 flicker removal 当成普通图像增强任务。在 BurstDeflicker benchmark 上，Flickerformer 超过多种图像复原和 burst restoration 方法，取得 31.226 PSNR、0.920 SSIM、0.045 LPIPS。整体来看，这篇论文让模型能够更准确地去除条纹闪烁，同时保留细节并减少重影。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb465107.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">类似思路也出现在热成像研究中。CMU 提出的</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">《Dual Band Video Thermography: Separating Time-Varying Reflection and Emission Near Ambient Conditions》</span></strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">研究的是热成像中的发射 / 反射分离问题。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">热相机看到的长波红外信号既可能来自物体自身热辐射，也可能来自周围环境反射；在接近室温的日常场景中，这两部分信号强度接近且都会随时间变化，因此很难判断亮暗变化到底来自物体温度变化，还是背景反射。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb4aa7f7.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：https://arxiv.org/pdf/2509.11334</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">论文提出 dual-band thermal videography，用两个长波红外子波段视频分离“物体自身发射”和“背景反射”。它同时利用光谱线索和时间线索：同一材料在两个波段中的发射率比例相对固定，而物体热传导变化通常更平滑、背景反射变化更快。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">实验中，方法能把咖啡壶升温时的热发射与旁边移动人物的反射分开，也能区分玻璃板上的手指热印和手指反射。在酒杯和咖啡壶视频中的非校准温度估计误差分别约为 1.72% 和 5.34%。整体来看，这篇论文把热成像从“看到温度分布”推进到“理解热信号来源”。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb4e618d.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb5284d8.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>04</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">让视觉模型进入真实世界任务</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">当视觉模型进入遥感和地球观测场景时，问题会比普通图像更复杂：模型不仅要处理图像，还要同时理解时间序列、多源数据和地图标注。艾伦人工智能研究所、华盛顿大学、亚利桑那州立大学、不列颠哥伦比亚大学联合提出的</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">《Helios: Stable Latent Image Modeling for Multimodal Earth Observation》</span></strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">研究的是面向地球观测数据的多模态基础模型。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">地球观测数据既有图像空间结构，也有类似视频或文本的时间序列特征，还包含卫星影像、地图、地形、作物、土地覆盖等多种模态。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这篇论文提出的模型叫 OlmoEarth，目标是让地球观测基础模型更稳定、更高效，也更容易落地到环保、人道主义和公共利益相关任务中。它不只训练模型，还配套构建端到端平台，用于数据收集、标注、训练和推理，降低真实组织使用前沿地球观测模型的门槛。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb5684f5.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文地址：https://arxiv.org/pdf/2511.13655</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">OlmoEarth 的核心方法是 Latent MIM Lite。它用随机初始化、训练中冻结的线性投影层，把图像 patch 投到 token 空间作为预测目标，在保留 latent modeling 表征能力的同时提升训练稳定性。这个设计还把自监督数据和带标注地图数据统一到同一个 token 空间里，让模型可以用相同损失学习观测数据和标签地图。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">针对遥感数据空间、时间和模态高度冗余的问题，OlmoEarth 采用 modality-aware masking，让模型必须从其他时间、空间或模态中推断缺失信息；同时只在同一 bandset 内进行 token 对比，避免大量“太容易”的负样本削弱训练效果。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">综合评估中，OlmoEarth 与 12 个其他基础模型相比，在 embedding 评估中于 24 个任务里的 15 个取得最好表现；在 full fine-tuning 设置下，于 29 个任务里的 19 个取得最好表现。整体来看，这篇论文为地球观测任务提出了一个更稳定、更开放、更面向真实应用的多模态基础模型体系。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb5a0ae8.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section style=\"padding: 0 16px; width: 100%;\"><section style=\"width: 100%;\"><section style=\"width: 100%;\"><section style=\"width: 100%; background-size: 190px 77px;\"><section style=\"width: 100%; padding: 23px 16px; background-position: right bottom; background-size: 190px 77px; text-align: left;\"><p style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 18px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">这次去 CVPR 现场，一定不要错过</span></span></p><p style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">【认识大牛+赚外快】的机会</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">需要你做什么：把你最关注的10个大会报告，每页PPT都拍下来</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">你能获得什么？</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">认识大牛：</span>你将可以进入CVPR名师博士社群；</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">钱多活少：</span>提供丰厚奖金，任务量精简；</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">听会自由：</span>你的行程你做主，顺手就把外快赚。拍下你最感兴趣的10个报告PPT即可。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">如果你即将前往CVPR，想边听会边赚钱，还能顺便为AI学术社区做贡献、认识更多大牛，欢迎</span><span style=\"text-align: left; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">联系我们：[添加微信号:</span><span style=\"text-align: left; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-weight: bold;\">MS_Yahei</span></span><span style=\"text-align: left; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">]</span></p><p style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><span>【</span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">限额5位，先到先得</span><span>】</span></p></section></section></section></section></section><section><span></span></section><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260516/6a086fb5c39ed.jpg?imageMogr2/quality/90\" style=\"width: 100%;\" /></span></p><section><span></span></section>",
-      "published": "2026-05-16T21:23:00+08:00",
-      "fetched_at": "2026-05-17T11:42:46.947640+08:00",
-      "pre_filter_reason": "CVPR is a top AI conference, and the title discusses video models, a core AI topic.",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 6,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "视频模型进化论：从生成下一帧到理解下一步",
-          "angle": "梳理CVPR 2026视频模型趋势，重点讲解视频理解与生成技术的融合路径，以及其对AI视频应用的影响。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "AI视频模型怎么学？CVPR 2026趋势速览",
-          "angle": "面向视频创作者和AI爱好者，用案例解析视频模型如何从单纯生成转向智能理解，并推荐学习资源。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "756ad5500cb2",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "OpenAI与马耳他达成协议，所有马耳他民众都能使用ChatGPT Plus",
-      "link": "https://36kr.com/newsflashes/3812703324249856?f=rss",
-      "summary": "美国人工智能（AI）公司OpenAI周六表示，已与马耳他政府签署协议，所有居民在完成使用AI培训课程后，均可免费使用其ChatGPT Plus服务一年。该项目将于5月启动，随着更多马耳他居民完成这门免费课程，服务规模预计将逐步扩大。该计划也将向旅居海外的马耳他公民开放。（新浪财经）",
-      "published": "2026-05-17T11:42:18+08:00",
-      "fetched_at": "2026-05-17T11:42:42.890841+08:00",
-      "pre_filter_reason": "OpenAI与马耳他合作，涉及AI产品和服务",
-      "scores": {
-        "importance": 5,
-        "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 7,
-        "virality": 7,
+        "virality": 8,
         "crowd_heat": 0.0
       },
       "quality_score": 6.9,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "免费ChatGPT Plus来了！马耳他居民如何申请？",
-          "angle": "手把手教马耳他居民如何通过AI培训课程获取免费ChatGPT Plus一年使用权，包括申请流程、课程内容及注意事项。",
-          "difficulty": "入门"
+          "title": "机器狗走进家庭还要多久？英伟达算力之外的挑战",
+          "angle": "解析机器狗技术现状（运动控制、环境感知、成本），对比英伟达算力优势与实际落地障碍，展望家庭应用时间线。",
+          "difficulty": "中级"
         },
         {
-          "tag": "tutorial",
-          "title": "OpenAI与国家合作新范式：马耳他案例深度解析",
-          "angle": "分析OpenAI与马耳他政府合作模式背后的战略意义，探讨AI普惠化对其他国家与企业的启示。",
-          "difficulty": "进阶"
+          "tag": "opinion",
+          "title": "从英伟达王座被拱翻看：算力不是机器人的唯一瓶颈",
+          "angle": "评论机器狗突破算力依赖的现象，强调硬件成本、能源效率、安全法规等更现实的制约因素。",
+          "difficulty": "高级"
         }
       ]
     },
     {
-      "id": "4d4c9b0220bc",
+      "id": "d0004a1e7549",
       "source_id": "qbitai",
       "source_name": "量子位",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "中国500万医生的新AI：顶刊独家联手，卷的就是证据源",
-      "link": "https://www.qbitai.com/2026/05/418491.html",
-      "summary": "阿里健康发布「氢离子」",
-      "published": "2026-05-16T12:49:15+08:00",
-      "fetched_at": "2026-05-17T11:42:49.770235+08:00",
-      "pre_filter_reason": "AI product launch by Ali Health",
+      "title": "龙虾之父月烧940万元的token！要不是入职OpenAI还真用不起",
+      "link": "https://www.qbitai.com/2026/05/418822.html",
+      "summary": "“但复杂需求还得Claude”",
+      "published": "2026-05-17T12:48:24+08:00",
+      "fetched_at": "2026-05-18T11:57:25.967517+08:00",
+      "pre_filter_reason": "AI token usage at OpenAI",
       "scores": {
-        "importance": 6,
+        "importance": 7,
         "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 7,
-        "virality": 6,
+        "actionability": 6,
+        "scarcity": 6,
+        "virality": 7,
         "crowd_heat": 3.5
       },
       "quality_score": 6.9,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "阿里健康「氢离子」发布：500万医生的AI助手如何工作？",
-          "angle": "介绍「氢离子」的核心功能，包括如何利用顶刊证据源辅助临床决策，并演示医生实际使用场景。",
+          "title": "月烧940万token？AI大模型使用成本精算指南",
+          "angle": "以龙虾之父为例，拆解AI token消耗的计算方法，提供降低成本的实用技巧（提示词优化、模型选择、缓存策略）。",
           "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "医疗AI新标杆：阿里健康「氢离子」如何卷出证据源？",
-          "angle": "深入解析「氢离子」的技术架构，重点说明其如何整合顶级医学期刊数据并保证证据可信度。",
-          "difficulty": "进阶"
+          "tag": "analysis",
+          "title": "入职OpenAI才敢用？AI工具的高昂成本与价值悖论",
+          "angle": "探讨顶级AI模型（如Claude）的定价策略，分析企业级用户与个人用户的使用成本差异，以及“复杂需求还得Claude”背后的技术原因。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "2a96005c3592",
-      "source_id": "github-ai-repos",
-      "source_name": "GitHub AI 新项目",
+      "id": "708a2c0d4a82",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "InsForge/InsForge",
-      "link": "https://github.com/InsForge/InsForge",
-      "summary": "The all-in-one, open-source backend platform for agentic coding. InsForge gives your coding agent database, auth, storage, compute, hosting, and AI gateway to ship full-stack apps end-to-end.",
-      "published": "2026-05-17T11:42:59.748237+08:00",
-      "fetched_at": "2026-05-17T11:42:59.748239+08:00",
-      "pre_filter_reason": "Backend platform for agentic coding with AI gateway",
+      "title": "microsoft /ai-agents-for-beginners",
+      "link": "https://github.com/microsoft/ai-agents-for-beginners",
+      "summary": "12 Lessons to Get Started Building AI Agents",
+      "published": "2026-05-18T11:57:38.048044+08:00",
+      "fetched_at": "2026-05-18T11:57:38.048048+08:00",
+      "pre_filter_reason": "Building AI agents",
       "scores": {
-        "importance": 7,
+        "importance": 6,
         "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 6,
-        "virality": 6,
+        "actionability": 8,
+        "scarcity": 5,
+        "virality": 7,
         "crowd_heat": 0.0
       },
       "quality_score": 6.8,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "InsForge开源发布：一站式后端平台让AI编程更简单",
-          "angle": "介绍InsForge的核心功能（数据库、认证、存储、计算、托管、AI网关），并演示如何快速搭建全栈应用。",
+          "title": "12节课入门AI Agent：微软官方教程速览",
+          "angle": "提炼微软《AI Agents for Beginners》课程核心内容，用图解+代码示例展示Agent构建基础，适合零基础开发者。",
           "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "Agentic Coding新利器：InsForge后端平台深度测评",
-          "angle": "对比InsForge与其他后端方案，分析其如何为AI编程代理提供端到端支持，并给出最佳实践建议。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "27fdd07f4fdc",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "AI 的“最后一公里”：本地执行与全场景硬件接入的下一代 Agent 中枢｜AICon上海",
-      "link": "https://www.infoq.cn/article/xV4rl7FWmONciZOiRyt9?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/xV4rl7FWmONciZOiRyt9?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-05-17T18:00:00+08:00",
-      "fetched_at": "2026-05-17T11:42:48.255512+08:00",
-      "pre_filter_reason": "Mentions AI agent and AI conference",
-      "scores": {
-        "importance": 6,
-        "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 5,
-        "virality": 6,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 6.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "手把手搭建本地AI Agent：从硬件接入到任务执行",
-          "angle": "以AICon上海大会的“最后一公里”概念为引，演示如何用开源工具实现AI在本地设备上的全场景硬件控制与任务自动化，适合开发者实操学习。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "opinion",
-          "title": "AI落地的关键瓶颈：为什么本地执行比云端更重要？",
-          "angle": "分析AI从云端到本地的趋势，结合AICon案例，探讨本地Agent如何解决延迟、隐私和离线问题，并展望未来智能硬件生态。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "2f0c8d032774",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "colbymchenry /codegraph",
-      "link": "https://github.com/colbymchenry/codegraph",
-      "summary": "Pre-indexed code knowledge graph for Claude Code — fewer tokens, fewer tool calls, 100% local",
-      "published": "2026-05-17T11:42:59.299853+08:00",
-      "fetched_at": "2026-05-17T11:42:59.299856+08:00",
-      "pre_filter_reason": "AI code knowledge graph for Claude Code",
-      "scores": {
-        "importance": 6,
-        "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 6,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 6.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "用CodeGraph加速Claude代码理解：本地代码知识图谱搭建指南",
-          "angle": "演示如何利用colbymchenry/codegraph项目，为Claude Code预索引代码库，减少Token消耗和工具调用，提升开发效率。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "review",
-          "title": "告别云端依赖：CodeGraph让AI编程助手更高效、更私密",
-          "angle": "对比传统云端代码分析工具，介绍CodeGraph的本地化优势（低Token、快速响应），并给出适用场景建议。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "685a7299cee7",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "obra /superpowers",
-      "link": "https://github.com/obra/superpowers",
-      "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-05-17T11:42:59.298688+08:00",
-      "fetched_at": "2026-05-17T11:42:59.298691+08:00",
-      "pre_filter_reason": "Agentic skills framework for AI",
-      "scores": {
-        "importance": 6,
-        "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 6,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 6.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Agent技能框架实战：用Superpowers构建可复用的AI工作流",
-          "angle": "基于obra/superpowers项目，讲解如何定义和组合技能模块，实现软件开发方法论与AI代理的深度融合，附代码示例。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "opinion",
-          "title": "AI开发新范式：为什么你需要一套“超级技能”框架？",
-          "angle": "探讨Superpowers提出的技能框架如何改变传统软件开发流程，强调模块化、可复用和Agent协作的价值。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "ff663bdbcdd5",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "ChatGPT 可以帮你理财了，但它也知道你的全部余额！用户：谢谢不用了",
-      "link": "https://www.infoq.cn/article/0iIMdRwey2MQ7BHLfFj8?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/0iIMdRwey2MQ7BHLfFj8?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-05-17T01:00:00+08:00",
-      "fetched_at": "2026-05-17T11:42:48.255540+08:00",
-      "pre_filter_reason": "ChatGPT financial advice and privacy",
-      "scores": {
-        "importance": 6,
-        "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 6,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 6.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "ChatGPT理财助手安全使用指南：如何避免隐私泄露？",
-          "angle": "针对ChatGPT可查看余额的功能，提供用户隐私保护技巧，如限制权限、使用临时会话、手动脱敏等，适合普通用户。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "opinion",
-          "title": "AI理财的信任危机：当ChatGPT知道你的全部余额，你敢用吗？",
-          "angle": "分析ChatGPT理财功能背后的隐私风险与便利性权衡，讨论用户接受度及行业监管必要性。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "f3132a63bba5",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "别让模型烧Token了！GitHub 20k星神作：把全网变成命令行",
-      "link": "https://www.qbitai.com/2026/05/418518.html",
-      "summary": "",
-      "published": "2026-05-16T14:35:05+08:00",
-      "fetched_at": "2026-05-17T11:42:49.770222+08:00",
-      "pre_filter_reason": "Refers to a model (likely AI model) and converting the web to command line, an AI tool.",
-      "scores": {
-        "importance": 5,
-        "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 6,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 6.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "把全网变成命令行：用20k星开源项目实现网页即时抓取",
-          "angle": "演示如何用该GitHub项目通过命令行直接操作网页内容，包括数据提取、自动化任务等，适合技术爱好者快速上手。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "review",
-          "title": "告别GUI：为什么命令行操作网页才是未来的高效方式？",
-          "angle": "对比传统浏览器操作与命令行抓取，突出该项目的效率优势、节省Token的特点，并推荐适用场景。",
-          "difficulty": "入门"
+          "tag": "case_study",
+          "title": "微软12课教你造AI Agent：从原理到实战",
+          "angle": "选取课程中一个典型项目（如客服Agent或自动化工具），完整演示开发流程，并对比其他Agent框架的异同。",
+          "difficulty": "中级"
         }
       ]
     }
