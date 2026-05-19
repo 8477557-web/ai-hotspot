@@ -1,20 +1,24 @@
 {
-  "title": "AI日报 - 2026年05月18日",
+  "title": "AI日报 - 2026年05月19日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "腾讯 AI 设计智能体 Ardot 公测：一句话生成可编辑设计稿，一键转代码",
-          "summary": "腾讯推出AI设计智能体Ardot，支持自然语言生成可编辑设计稿并一键转换为代码。"
+          "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+          "summary": "OpenAI与戴尔合作，将Codex引入混合云和本地企业环境，拓展企业级AI应用。"
         },
         {
-          "title": "6.4k Stars！用Claude Code写论文的全套流水线，有人打包开源了",
-          "summary": "开发者开源了基于Claude Code的论文写作流水线，获得6.4k星标。"
+          "title": "Qwen最新3.7 Max预览版空降！两代超大杯并行迭代，林俊旸走了但还在加速",
+          "summary": "阿里通义千问发布Qwen 3.7 Max预览版，两代超大杯模型并行迭代，持续加速大模型发展。"
         },
         {
-          "title": "microsoft /ai-agents-for-beginners",
-          "summary": "微软发布面向初学者的AI Agents教程项目，助力开发者快速上手智能体开发。"
+          "title": "矩阵超智发布MATRIX-3全能旗舰级人形机器人",
+          "summary": "矩阵超智推出MATRIX-3旗舰人形机器人，并宣布2027年迈向十万台产能，开启具身智能量产元年。"
+        },
+        {
+          "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
+          "summary": "百度飞桨发布PaddleOCR 3.5，支持基于Transformers后端的OCR和文档解析任务，提升多模态能力。"
         }
       ]
     },
@@ -22,20 +26,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "3个人带100个AI程序员，一个月烧掉130万美元！OpenAI：钱我出",
-          "summary": "OpenAI资助的团队用3名人类管理100个AI程序员，月耗资130万美元探索AI编程极限。"
+          "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
+          "summary": "马斯克起诉奥特曼和OpenAI的诉讼败诉，法律争议告一段落。"
         },
         {
-          "title": "Linux 之父 Linus 发飙：别用 AI 提交大量重复 Bug 报告，直接提修复方案，OK？",
-          "summary": "Linus Torvalds怒斥滥用AI提交低质量Bug报告的行为，要求直接提供修复方案。"
+          "title": "The Information：34 家 AI 公司年收入狂飙，OpenAI 和 Anthropic 鲸吞 89% 份额",
+          "summary": "报告显示34家AI公司年收入激增，OpenAI和Anthropic占据89%市场份额，头部效应显著。"
         },
         {
-          "title": "上海市市长龚正：更大力度赋能集成电路、生物医药、人工智能等十大千亿级硬核产业集群发展",
-          "summary": "上海宣布将加大力度支持人工智能等十大千亿级产业集群发展。"
+          "title": "百度无人车新纪录：周订单破35万！李彦宏：开始单城盈利了",
+          "summary": "百度无人车周订单突破35万，李彦宏宣布实现单城盈利，自动驾驶商业化加速。"
         },
         {
-          "title": "早报｜马耳他为全民买单ChatGPT会员/卢伟冰预判年底国产直板旗舰破万元/曝苹果新Siri聊天记录可自动删除",
-          "summary": "马耳他政府为全体公民购买ChatGPT会员，苹果新Siri将支持自动删除聊天记录。"
+          "title": "消息称 Tenstorrent 吸引英特尔、高通收购意向，估值或超 50 亿美元",
+          "summary": "AI芯片初创公司Tenstorrent获英特尔和高通收购意向，估值或超50亿美元，芯片竞争白热化。"
         }
       ]
     },
@@ -43,12 +47,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "一只机器狗，把英伟达的算力王座拱翻了",
-          "summary": "研究显示机器狗在特定任务中颠覆了英伟达的传统算力优势。"
+          "title": "The Open Agent Leaderboard",
+          "summary": "Hugging Face发布开放智能体排行榜，推动AI Agent性能基准评估标准化。"
         },
         {
-          "title": "龙虾之父月烧940万元的token！要不是入职OpenAI还真用不起",
-          "summary": "一位AI研究员因入职OpenAI得以使用巨额token资源，月消耗高达940万元。"
+          "title": "Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation",
+          "summary": "研究展示用LoRA/DoRA微调NVIDIA Cosmos模型，用于机器人视频生成，提升具身智能训练效率。"
+        },
+        {
+          "title": "Rewriting model inference with CUDA kernels: the bottleneck was not just GEMM [P]",
+          "summary": "论文揭示模型推理瓶颈不仅在于GEMM，通过重写CUDA内核可显著优化性能。"
         }
       ]
     },
@@ -56,17 +64,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "Most Americans don't trust AI – or the people in charge of it (2025)",
-          "summary": "调查显示大多数美国人不信任AI及其管理者，引发对AI治理的反思。"
+          "title": "AI水论文封一年，署名连坐！arXiv最严新规来了，陶哲轩附议",
+          "summary": "arXiv出台最严新规，AI生成论文将封禁一年并连带署名者，数学家陶哲轩表示支持。"
         },
         {
-          "title": "Program misleading high school students into paying to perform academic misconduct in ML Research [D]",
-          "summary": "揭露有项目误导高中生付费参与机器学习研究中的学术不端行为。"
+          "title": "番茄小说正推动 AI 动漫上院线，开放头部IP改编权限｜36氪独家",
+          "summary": "番茄小说推动AI动漫进入院线，开放头部IP改编权限，探索AI内容商业化新路径。"
+        },
+        {
+          "title": "macOS26/Agent",
+          "summary": "GitHub新项目macOS26/Agent引发关注，探索macOS上的AI Agent实现。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦于智能体应用爆发与伦理争议，同时开源工具和产业政策推动AI加速落地。",
-  "generated_at": "2026-05-18T11:58:48.485813+08:00",
+  "summary": "今日AI圈聚焦企业级落地与商业化：大模型、机器人、自动驾驶多点突破，头部公司收入集中，监管与伦理同步收紧。",
+  "generated_at": "2026-05-19T11:53:25.940931+08:00",
   "source_count": 20
 }
