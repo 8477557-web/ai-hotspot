@@ -1,24 +1,24 @@
 {
-  "title": "AI日报 - 2026年05月19日",
+  "title": "AI日报 - 2026年05月20日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
-          "summary": "OpenAI与戴尔合作，将Codex引入混合云和本地企业环境，拓展企业级AI应用。"
+          "title": "阿里发布新一代千问旗舰模型Qwen3.7-Max",
+          "summary": "阿里巴巴发布千问旗舰智能体模型Qwen3.7-Max，性能显著提升。"
         },
         {
-          "title": "Qwen最新3.7 Max预览版空降！两代超大杯并行迭代，林俊旸走了但还在加速",
-          "summary": "阿里通义千问发布Qwen 3.7 Max预览版，两代超大杯模型并行迭代，持续加速大模型发展。"
+          "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+          "summary": "Anthropic为Claude托管智能体新增自托管沙箱与MCP隧道功能，增强企业级部署灵活性。"
         },
         {
-          "title": "矩阵超智发布MATRIX-3全能旗舰级人形机器人",
-          "summary": "矩阵超智推出MATRIX-3旗舰人形机器人，并宣布2027年迈向十万台产能，开启具身智能量产元年。"
+          "title": "OlmoEarth v1.1: A more efficient family of models",
+          "summary": "OlmoEarth发布v1.1模型系列，主打更高效率与资源优化。"
         },
         {
-          "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
-          "summary": "百度飞桨发布PaddleOCR 3.5，支持基于Transformers后端的OCR和文档解析任务，提升多模态能力。"
+          "title": "Gemini 3.5 Flash",
+          "summary": "谷歌推出Gemini 3.5 Flash模型，进一步丰富其AI产品线。"
         }
       ]
     },
@@ -26,20 +26,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
-          "summary": "马斯克起诉奥特曼和OpenAI的诉讼败诉，法律争议告一段落。"
+          "title": "中美同意开展人工智能政府间对话",
+          "summary": "中美两国就人工智能治理达成政府间对话共识，推动全球AI合作。"
         },
         {
-          "title": "The Information：34 家 AI 公司年收入狂飙，OpenAI 和 Anthropic 鲸吞 89% 份额",
-          "summary": "报告显示34家AI公司年收入激增，OpenAI和Anthropic占据89%市场份额，头部效应显著。"
+          "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
+          "summary": "OpenAI推进内容溯源技术，致力于构建更安全透明的AI生态系统。"
         },
         {
-          "title": "百度无人车新纪录：周订单破35万！李彦宏：开始单城盈利了",
-          "summary": "百度无人车周订单突破35万，李彦宏宣布实现单城盈利，自动驾驶商业化加速。"
+          "title": "Introducing OpenAI for Singapore",
+          "summary": "OpenAI宣布在新加坡设立分支机构，拓展亚太地区业务。"
         },
         {
-          "title": "消息称 Tenstorrent 吸引英特尔、高通收购意向，估值或超 50 亿美元",
-          "summary": "AI芯片初创公司Tenstorrent获英特尔和高通收购意向，估值或超50亿美元，芯片竞争白热化。"
+          "title": "谷歌用 AI 「杀死」谷歌，这场发布会看得人缺氧",
+          "summary": "谷歌在发布会上全面展示Gemini系列产品更新，以AI重塑自身搜索与服务体系。"
         }
       ]
     },
@@ -47,16 +47,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "The Open Agent Leaderboard",
-          "summary": "Hugging Face发布开放智能体排行榜，推动AI Agent性能基准评估标准化。"
+          "title": "Anthropic首次揭秘下一代Claude怎么造！用户吐槽直接喂模型，连AI“做梦”都被训练",
+          "summary": "Anthropic公开下一代Claude训练细节，包括利用用户反馈和模型内部状态进行优化。"
         },
         {
-          "title": "Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation",
-          "summary": "研究展示用LoRA/DoRA微调NVIDIA Cosmos模型，用于机器人视频生成，提升具身智能训练效率。"
+          "title": "Fast-tracking genetic leads to reverse cellular aging",
+          "summary": "Google DeepMind研究加速遗传线索发现，推动细胞衰老逆转技术。"
         },
         {
-          "title": "Rewriting model inference with CUDA kernels: the bottleneck was not just GEMM [P]",
-          "summary": "论文揭示模型推理瓶颈不仅在于GEMM，通过重写CUDA内核可显著优化性能。"
+          "title": "抢先李飞飞！世界模型能多人联机玩FPS游戏了",
+          "summary": "研究团队开发的世界模型首次支持多人联机FPS游戏，突破交互模拟边界。"
         }
       ]
     },
@@ -64,21 +64,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "AI水论文封一年，署名连坐！arXiv最严新规来了，陶哲轩附议",
-          "summary": "arXiv出台最严新规，AI生成论文将封禁一年并连带署名者，数学家陶哲轩表示支持。"
+          "title": "NVIDIA-Verified Agent Skills Provide Capability Governance for AI Agents",
+          "summary": "NVIDIA推出智能体技能认证体系，为AI代理提供能力治理框架。"
         },
         {
-          "title": "番茄小说正推动 AI 动漫上院线，开放头部IP改编权限｜36氪独家",
-          "summary": "番茄小说推动AI动漫进入院线，开放头部IP改编权限，探索AI内容商业化新路径。"
+          "title": "不换 Kimi 底座，1/10 成本追平 Opus 4.7？Cursor 用 Composer 2.5 反击 Claude Code",
+          "summary": "Cursor通过Composer 2.5以极低成本实现接近顶级模型的编码性能，引发效率讨论。"
         },
         {
-          "title": "macOS26/Agent",
-          "summary": "GitHub新项目macOS26/Agent引发关注，探索macOS上的AI Agent实现。"
+          "title": "为折叠 iPhone 和苹果 AI 做足准备｜苹果 WWDC 提前剧透",
+          "summary": "苹果WWDC前瞻显示，折叠iPhone与AI功能将成为今年重点更新方向。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦企业级落地与商业化：大模型、机器人、自动驾驶多点突破，头部公司收入集中，监管与伦理同步收紧。",
-  "generated_at": "2026-05-19T11:53:25.940931+08:00",
+  "summary": "今日AI圈聚焦模型密集发布与中美治理对话，智能体能力治理与效率优化成为行业新焦点。",
+  "generated_at": "2026-05-20T11:53:23.966751+08:00",
   "source_count": 20
 }

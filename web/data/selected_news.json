@@ -1,122 +1,208 @@
 {
-  "updated_at": "2026-05-19T11:53:25.941025+08:00",
+  "updated_at": "2026-05-20T11:53:23.966836+08:00",
   "total": 20,
   "items": [
     {
-      "id": "92b9c688b4bf",
+      "id": "0987bddddee3",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "NVIDIA-Verified Agent Skills Provide Capability Governance for AI Agents",
+      "link": "https://developer.nvidia.com/blog/nvidia-verified-agent-skills-provide-capability-governance-for-ai-agents/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/agentic-ai-use-cases-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"agentic-ai-use-cases\" width=\"768\" />Autonomous AI agents are becoming more capable. Open models, Model Context Protocol (MCP)-connected tools, and portable skills are also making agents easier to...",
+      "published": "2026-05-20T07:40:45+08:00",
+      "fetched_at": "2026-05-20T11:51:46.760007+08:00",
+      "pre_filter_reason": "NVIDIA AI agent capability governance",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "NVIDIA智能体技能认证：如何为AI Agent设置能力边界",
+          "angle": "手把手教你使用NVIDIA Verified Agent Skills为AI Agent配置权限和治理规则，确保安全可控的自动化操作。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "analysis",
+          "title": "AI Agent治理新范式：NVIDIA能力认证体系解读",
+          "angle": "分析NVIDIA如何通过技能认证解决AI Agent的权限失控风险，对比传统API治理的优劣。",
+          "difficulty": "高级"
+        }
+      ]
+    },
+    {
+      "id": "01237cbe835f",
       "source_id": "openai-blog",
       "source_name": "OpenAI Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
-      "link": "https://openai.com/index/dell-codex-enterprise-partnership",
-      "summary": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
-      "published": "2026-05-18T18:00:00+08:00",
-      "fetched_at": "2026-05-19T11:51:49.588260+08:00",
-      "pre_filter_reason": "OpenAI和Dell合作部署AI编码代理",
+      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
+      "link": "https://openai.com/index/advancing-content-provenance",
+      "summary": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
+      "published": "2026-05-19T18:45:00+08:00",
+      "fetched_at": "2026-05-20T11:51:44.077757+08:00",
+      "pre_filter_reason": "AI content provenance and ecosystem",
       "scores": {
         "importance": 8,
         "timeliness": 9,
-        "actionability": 8,
+        "actionability": 7,
         "scarcity": 7,
-        "virality": 7,
+        "virality": 8,
         "crowd_heat": 0.0
       },
       "quality_score": 8.7,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "如何在本地部署OpenAI Codex：Dell混合云环境实战指南",
-          "angle": "手把手演示企业如何利用Dell硬件与OpenAI Codex集成，在本地或混合云中安全部署AI代码助手，重点讲解数据隔离与工作流对接步骤。",
-          "difficulty": "中级"
+          "title": "如何用OpenAI新工具验证AI生成内容的真伪",
+          "angle": "实操演示Content Credentials和SynthID的使用方法，帮助创作者和用户识别AI生成图片/文本。",
+          "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "OpenAI联手Dell：企业级AI编码时代来了？",
-          "angle": "分析此次合作对传统企业软件开发流程的冲击，探讨Codex进入本地环境如何改变代码审查、安全合规和开发效率的格局。",
+          "tag": "explainer",
+          "title": "AI内容溯源技术：为什么你的AI作品需要数字水印",
+          "angle": "科普内容凭证（Content Credentials）的工作原理，以及它对AI创作者和消费者的实际意义。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "44d9998b4c80",
-      "source_id": "huggingface-blog",
-      "source_name": "Hugging Face Blog",
+      "id": "a8ab809bc471",
+      "source_id": "anthropic-blog",
+      "source_name": "Anthropic (Claude Blog)",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "The Open Agent Leaderboard",
-      "link": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
-      "summary": "",
-      "published": "2026-05-18T22:12:58+08:00",
-      "fetched_at": "2026-05-19T11:51:51.697673+08:00",
-      "pre_filter_reason": "AI agent leaderboard",
+      "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+      "link": "https://claude.com/blog/claude-managed-agents-updates",
+      "summary": "<div class=\"u-rich-text-blog u-margin-trim w-richtext\"><p>Starting today, Claude Managed Agents can operate in a sandbox you control and connect to your private Model Context Protocol (MCP) servers. Both the sandbox where an agent executes tools and the services it reaches run within the established boundaries of your enterprise, under your security and runtime controls.</p><p>The sandbox runs on your own infrastructure, or with managed providers like <a href=\"https://developers.cloudflare.com/sandbox/claude-managed-agents/\">Cloudflare</a>, <a href=\"https://www.daytona.io/docs/en/guides/claude/claude-managed-agents\">Daytona</a>, <a href=\"https://github.com/modal-labs/claude-managed-agents-modal-sandbox/tree/main\">Modal</a>, or <a href=\"https://vercel.com/kb/guide/run-claude-managed-agent-tools-with-vercel-sandbox\">Vercel</a> to handle the compute and isolation for you.</p><p>On the Claude Platform, <a href=\"https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes\">self-hosted sandboxes</a> is available in public beta and MCP tunnels in research preview (<a href=\"https://claude.com/form/claude-managed-agents\">request access</a>).</p><h2><strong>Keep agent execution within your perimeter</strong></h2><p>With self-hosted sandboxes, you keep sensitive files, packages, and services in your own infrastructure or with a managed sandbox provider. The <a href=\"https://www.anthropic.com/engineering/managed-agents\">agent loop</a> that handles orchestration, context management, and error recovery stays on Anthropic’s infrastructure, while tool execution moves to your own configured environment.</p><p>Inside your perimeter, network policies, audit logging, and security tooling are already in place, and files and repositories don't leave. You also control the compute: resource sizing and the runtime image are set on your side, so agents running compute-heavy work such as long builds or image generation get the CPU, memory, and capacity the task needs.</p><figure class=\"w-richtext-align-fullwidth w-richtext-figure-type-image\"><div><img alt=\"\" src=\"https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0b4fa5fbae3bdfc63be57c_Sandboxes.png\" /></div></figure><h2><strong>Choose your sandbox client</strong></h2><p>Bring any sandbox client you want, or start with one of our supported providers:</p><ul><li><a href=\"https://developers.cloudflare.com/sandbox/claude-managed-agents/\"><strong>Cloudflare</strong></a> runs sandboxes at scale using microVMs and lighter weight isolates. Outbound network requests are in your control with zero-trust secrets injection, customizable proxies to audit, reroute, or modify egress, and the ability to connect to internal services over Cloudflare's network. <a href=\"https://amplitude.com/\" target=\"_blank\"><strong>Amplitude</strong></a> is building Design Agent, an internal tool for on-brand mockups and design critiques, on Managed Agents and Cloudflare for tighter observability and control.</li><li><a href=\"https://www.daytona.io/docs/en/guides/claude/claude-managed-agents\"><strong>Daytona</strong></a> sandboxes are full composable computers, long-running and stateful. The same primitive runs a quick burst or an agent that works for hours. The sandbox stays accessible while a session runs over SSH or an authenticated preview URL, or can be paused and restored with full state preserved. <a href=\"http://clay.com/\"><strong>Clay’s</strong></a><strong> </strong>GTM engineering agent, Sculptor, builds, tests, and monitors workflows autonomously on Managed Agents and Daytona.</li><li><a href=\"https://modal.com/blog/introducing-claude-managed-agents-with-modal-sandboxes\"><strong>Modal</strong></a> is a cloud platform built for AI workloads, where sandboxes share the same foundation as Modal's functions, storage, and networking primitives, giving you everything you need to build production AI systems. Modal's custom container runtime delivers fast startup on any image, scales to hundreds of thousands of concurrent sandboxes, and gives you CPU and GPU resources on demand.</li><li><a href=\"https://vercel.com/kb/guide/run-claude-managed-agent-tools-with-vercel-sandbox\"><strong>Vercel</strong></a><strong> </strong>sandboxes combine VM security, VPC peering, and bring your own cloud with millisecond startup time. Managed Agents handles the model, tools, and session state, while the Vercel Sandbox firewall injects credentials at the network boundary so they never enter the sandbox. <a href=\"https://rogo.ai/\"><strong>Rogo</strong></a>, an AI platform for institutional finance, is building an analyst agent on Managed Agents and Vercel Sandbox to handle their proprietary data securely.</li></ul><h2><strong>Connect to services within your private network</strong></h2><p>With <a href=\"http://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/overview\">MCP tunnels</a>, your agents reach MCP servers inside your private network without exposing them to the public internet. Internal databases, private APIs, knowledge bases, and ticketing systems become tools your agents can call. A lightweight gateway you deploy makes a single outbound connection, no inbound firewall rules, no public endpoints, and traffic encrypted end to end.</p><p>MCP tunnels is supported in Managed Agents and the Messages API. MCP tunnels is managed from workspace settings within the <a href=\"https://platform.claude.com/\">Claude Console</a> by organization admins.</p><figure class=\"w-richtext-align-fullwidth w-richtext-figure-type-image\"><div><img alt=\"\" src=\"https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0b4fdc9749bb31acafa95b_MCP%20tunnel%20(1).png\" /></div></figure></div>",
+      "published": "2026-05-19T08:00:00+08:00",
+      "fetched_at": "2026-05-20T11:51:44.733122+08:00",
+      "pre_filter_reason": "Claude Managed Agents is an AI product launch.",
       "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "一文读懂Open Agent排行榜：如何评估你的AI智能体？",
-          "angle": "解读排行榜的评估指标与测试场景，指导开发者如何利用该榜单选择或优化自己的智能体模型，附带快速上手指南。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "7549ec44eed3",
-      "source_id": "huggingface-blog",
-      "source_name": "Hugging Face Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation",
-      "link": "https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation",
-      "summary": "",
-      "published": "2026-05-19T00:00:21+08:00",
-      "fetched_at": "2026-05-19T11:51:51.697610+08:00",
-      "pre_filter_reason": "AI research on video generation",
-      "scores": {
-        "importance": 6,
+        "importance": 8,
         "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 6,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
         "crowd_heat": 0.0
       },
       "quality_score": 8.3,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "LoRA vs DoRA：微调NVIDIA Cosmos生成机器人视频的完整教程",
-          "angle": "对比两种高效微调方法在Cosmos Predict 2.5上的实现步骤、参数设置与效果差异，帮助读者用最少资源生成高质量机器人动作视频。",
+          "title": "Claude托管Agent进阶：搭建自托管沙箱与MCP隧道",
+          "angle": "从零配置Claude Managed Agents的自定义沙箱环境，并打通私有MCP服务器的连接。",
+          "difficulty": "高级"
+        },
+        {
+          "tag": "analysis",
+          "title": "企业级Agent部署新选择：Claude沙箱与MCP隧道深度解析",
+          "angle": "解读Anthropic这项更新如何解决企业数据隐私痛点，与云端Agent方案对比优劣势。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "c84d9db55e10",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "阿里发布新一代千问旗舰模型Qwen3.7-Max",
+      "link": "https://36kr.com/newsflashes/3817070340342921?f=rss",
+      "summary": "36氪获悉，5月20日，阿里巴巴发布全新一代千问旗舰模型Qwen3.7-Max，在三方机构Arena全球大模型盲测总榜中，Qwen3.7-Max位列国产模型第一。千问3.7面向当下智能体（Agent）全新设计，实现了编程、推理等核心能力的持续突破，甚至可全自主完成35小时的超长程智能体复杂任务：在一个全新的芯片平台上，Qwen3.7-Max通过自主编程和超1000次工具调用，实现了一个关键内核的自我进化，推理速度较原版本提升10倍。",
+      "published": "2026-05-20T11:24:44+08:00",
+      "fetched_at": "2026-05-20T11:51:49.047901+08:00",
+      "pre_filter_reason": "阿里发布新一代千问旗舰模型Qwen3.7-Max，属于AI大模型产品",
+      "scores": {
+        "importance": 9,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.1,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "Qwen3.7-Max实测：35小时超长任务自主编程能力有多强",
+          "angle": "解析阿里新旗舰模型如何通过自主编程和1000+工具调用实现芯片内核自我进化，推理速度提升10倍。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "comparison",
+          "title": "国产大模型新王登基？Qwen3.7-Max vs GPT-4o盲测对比",
+          "angle": "基于Arena盲测数据，对比Qwen3.7-Max与海外顶尖模型在编程、推理、Agent任务上的表现差异。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "c7341caf42d2",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "Anthropic首次揭秘下一代Claude怎么造！用户吐槽直接喂模型，连AI“做梦”都被训练",
+      "link": "https://www.infoq.cn/article/8AFM65dK2wFMypqoz6ok?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/8AFM65dK2wFMypqoz6ok?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-05-19T21:21:43+08:00",
+      "fetched_at": "2026-05-20T11:51:55.360004+08:00",
+      "pre_filter_reason": "Anthropic's next Claude model development, AI product news",
+      "scores": {
+        "importance": 9,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.1,
+      "topics": [
+        {
+          "tag": "explainer",
+          "title": "Anthropic训练下一代Claude的三大秘密：用户反馈、AI梦境与数据喂养",
+          "angle": "揭秘Anthropic如何利用用户直接反馈和AI内部状态（“做梦”）来训练更强大的模型。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "analysis",
+          "title": "AI训练新范式：为什么Anthropic要“喂”模型用户吐槽",
+          "angle": "分析Anthropic将用户批评直接作为训练数据的创新方法，以及这对AI对齐研究的启示。",
           "difficulty": "高级"
         }
       ]
     },
     {
-      "id": "8ec0cb70b8c5",
-      "source_id": "hn-ai",
-      "source_name": "Hacker News (AI)",
+      "id": "a50b236fda03",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
       "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
-      "link": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
-      "summary": "<p>Article URL: <a href=\"https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/\">https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48182754\">https://news.ycombinator.com/item?id=48182754</a></p>\n<p>Points: 840</p>\n<p># Comments: 429</p>",
-      "published": "2026-05-19T01:38:22+08:00",
-      "fetched_at": "2026-05-19T11:52:12.940913+08:00",
-      "pre_filter_reason": "Lawsuit involving OpenAI, an AI company, and AI ethics/policy.",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "阿里千问最强智能体模型 Qwen3.7-Max 发布",
+      "link": "https://www.ithome.com/0/952/670.htm",
+      "summary": "<p>IT之家 5 月 20 日消息，阿里千问大模型今日正式发布 <strong>Qwen3.7-Max </strong>—— 面向智能体时代的新一代旗舰模型，即将通过 API 提供服务。Qwen3.7-Max 是阿里千问迄今最全面、最强大的智能体模型。</p><p>千问大模型官方介绍称，<strong>Qwen3.7-Max 致力于成为全能的智能体基座</strong> —— 无论是编写和调试代码、自动化办公流程，还是在跨越数百乃至数千步的长周期任务中持续自主执行，都能胜任。</p><p style=\"text-align: center;\"><img alt=\"图片\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/be25fe3b-8981-42c6-8123-a3e479de9f97.jpg?x-bce-process=image/format,f_auto\" /></p><p>Qwen3.7-Max 的核心优势在于智能体能力的广度与深度：</p><ul class=\" list-paddingleft-2\"><li><p>编程方面，从前端原型开发到复杂的多文件工程均能驾驭；</p></li><li><p>办公与生产力方面，通过 MCP 集成和多智能体协作实现工作流自动化；</p></li><li><p>长周期自主执行方面，在一项长达 35 小时、超过 1000 次工具调用的全自主内核优化实验中保持了连贯推理，验证了其持久稳定的执行能力；</p></li><li><p>此外，无论部署在 Claude Code、OpenClaw、Qwen Code 还是其他框架下，都能稳定发挥出色的跨框架泛化能力。</p></li></ul><p>Qwen3.7-Max 即将通过阿里云百炼提供服务，用户可以通过阿里云百炼 API 调用（即将上线）。</p><p>IT之家附 Qwen3.7-Max 模型测试表现如下：</p><p style=\"text-align: center;\"><img alt=\"图片\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/f58d8ad3-9d2c-4786-8880-982917c0df56.png?x-bce-process=image/format,f_auto\" /></p><p><strong>在编程智能体方面</strong>，Qwen3.7-Max 在 SWE-Pro（60.6）、SWE-Multilingual（78.3）、SciCode（53.5）和 QwenSVG（1608）上均取得领先表现。在 Terminal Bench 2.0-Terminus（69.7）上超越 DS-V4-Pro Max（67.9）。在 SWE-Verified（80.4）上与 Opus-4.6 Max（80.8）和 DS-V4-Pro Max（80.6）表现相当。</p><p><strong>在通用智能体方面</strong>，提升更为显著。Qwen3.7-Max 在 MCP-Mark（60.8 vs. GLM-5.1 的 57.5）、MCP-Atlas（76.4 vs. Opus-4.6 的 75.8）和 Skillbench（59.2 vs. K2.6 的 56.2）上表现突出，并在 Kernel Bench L3（1.98 倍中位数加速，96% 加速率）上展示了 GPU 内核优化能力。在 BFCL-V4（75.0）、Qwenclaw（64.3）和 ClawEval（65.2）上同样表现出色，紧追 Opus-4.6 Max。在办公自动化基准 SpreadSheetBench-v1 上得分 87.0，处于顶尖水平。</p><p>在推理方面，Qwen3.7-Max 在 GPQA Diamond（92.4 vs. Opus-4.6 的 91.3）、HLE（41.4 vs. Opus-4.6 的 40.0）、HMMT 2026 Feb（97.1 vs. Opus-4.6 的 96.2）、IMOAnswerBench（90.0 vs. DS-V4-Pro 的 89.8）和 Apex（44.5 vs. DS-V4-Pro 的 38.3）上均取得领先成绩。</p><p><strong>在通用能力与多语言方面</strong>，Qwen3.7-Max 在 IFBench（79.1 vs. DS-V4-Pro 的 77.0）上表现突出，展示了指令遵循能力。在 WMT24++（85.8）和 MAXIFE（89.2）上同样领先，表明其多语言理解和翻译质量处于一流水平。在 SuperGPQA（73.6）和 QwenWorldBench（57.3）上表现出色。</p><p style=\"text-align: center;\"><img alt=\"图片\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/e032cf15-8338-449d-88f0-6a06f17eb453.jpg?x-bce-process=image/format,f_auto\" /></p>",
+      "published": "2026-05-20T11:06:54+08:00",
+      "fetched_at": "2026-05-20T11:52:01.218221+08:00",
+      "pre_filter_reason": "阿里千问AI模型发布",
       "scores": {
-        "importance": 8,
-        "timeliness": 10,
+        "importance": 9,
+        "timeliness": 9,
         "actionability": 9,
         "scarcity": 7,
         "virality": 9,
@@ -125,464 +211,434 @@
       "quality_score": 8.0,
       "topics": [
         {
+          "tag": "tutorial",
+          "title": "Qwen3.7-Max 智能体模型实战：自动编写代码与调试全流程",
+          "angle": "演示如何用Qwen3.7-Max完成一个从需求分析到代码调试的完整开发任务，突出其长周期自主执行能力。",
+          "difficulty": "中级"
+        },
+        {
           "tag": "analysis",
-          "title": "马斯克败诉OpenAI：AI治理的里程碑还是闹剧？",
-          "angle": "梳理诉讼核心争议与判决逻辑，分析此案对AI开源派与闭源派之争、以及未来AI监管方向的影响。",
+          "title": "阿里Qwen3.7-Max发布：智能体模型如何重塑办公自动化",
+          "angle": "解读Qwen3.7-Max在自动化办公流程中的典型应用场景，分析其对企业效率提升的潜在影响。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "b9fb3fe77173",
+      "id": "0b7eb18018db",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "抢先李飞飞！世界模型能多人联机玩FPS游戏了",
+      "link": "https://www.qbitai.com/2026/05/420083.html",
+      "summary": "所谓的真实……真的重要吗？",
+      "published": "2026-05-19T15:05:05+08:00",
+      "fetched_at": "2026-05-20T11:51:57.120003+08:00",
+      "pre_filter_reason": "World model for multiplayer FPS game, AI research.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "世界模型新突破：AI竟能多人联机玩FPS游戏",
+          "angle": "介绍世界模型在游戏领域的创新应用，探讨其如何实现多人联机FPS游戏，并分析“真实”与“模拟”的边界。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "086da87e4ad7",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "anthropics /claude-plugins-official",
+      "link": "https://github.com/anthropics/claude-plugins-official",
+      "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "published": "2026-05-20T11:52:08.000549+08:00",
+      "fetched_at": "2026-05-20T11:52:08.000552+08:00",
+      "pre_filter_reason": "Official directory of Claude Code Plugins, an AI coding tool.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Claude Code插件官方目录上线：如何快速发现并安装高质量插件",
+          "angle": "手把手教用户浏览和使用Anthropic官方管理的Claude Code插件目录，提升开发效率。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "74273e3a0a45",
+      "source_id": "ifanr",
+      "source_name": "爱范儿",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "谷歌用 AI 「杀死」谷歌，这场发布会看得人缺氧",
+      "link": "https://www.ifanr.com/1666329?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "新的 Gemini 3.5、Agent 产品、视频模型都来了<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
+      "published": "2026-05-20T05:52:48+08:00",
+      "fetched_at": "2026-05-20T11:51:59.631607+08:00",
+      "pre_filter_reason": "Mentions Gemini 3.5, Agent products, and video models, all AI-related.",
+      "scores": {
+        "importance": 9,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "谷歌用AI“杀死”谷歌：Gemini 3.5与Agent产品如何颠覆搜索体验",
+          "angle": "深度解析谷歌发布会核心亮点，分析Gemini 3.5和Agent产品如何改变传统搜索模式，以及视频模型带来的新可能。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "2cd877f291da",
       "source_id": "huggingface-blog",
       "source_name": "Hugging Face Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
-      "link": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+      "title": "OlmoEarth v1.1: A more efficient family of models",
+      "link": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
       "summary": "",
-      "published": "2026-05-18T23:12:46+08:00",
-      "fetched_at": "2026-05-19T11:51:51.697655+08:00",
-      "pre_filter_reason": "AI-based OCR and document parsing",
+      "published": "2026-05-20T02:38:09+08:00",
+      "fetched_at": "2026-05-20T11:51:47.090763+08:00",
+      "pre_filter_reason": "Title mentions a family of models, likely AI models.",
       "scores": {
-        "importance": 6,
-        "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 5,
-        "virality": 6,
-        "crowd_heat": 3.5
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 6,
+        "scarcity": 6,
+        "virality": 5,
+        "crowd_heat": 0.0
       },
       "quality_score": 7.8,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "PaddleOCR 3.5新特性：用Transformers后端实现文档解析",
-          "angle": "演示如何升级到PaddleOCR 3.5并切换Transformers后端，对比传统CNN方法的识别精度与速度提升，附发票/表格解析实战案例。",
+          "title": "OlmoEarth v1.1模型家族介绍：更高效的AI模型选择指南",
+          "angle": "对比OlmoEarth v1.1与上一代模型的效率提升，指导开发者如何根据任务需求选择合适模型。",
           "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "13be09cae5f3",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "快手装不下可灵了",
-      "link": "https://www.leiphone.com/category/industrynews/hYggN5mbRdnbZFrd.html",
-      "summary": "<p>“可灵要走，也是快手必须要放手了。”</p><p>说这话的是前快手成员汪紫玲，对于近期快手计划分拆旗下视频生成大模型可灵AI 一事，她给出了自己的看法。</p><p>近日，快手正以200亿美元的估值寻求外部融资，如果按这样来算，快手目前的总市值约为300亿美元左右（约2300亿港元），而分拆出来的可灵目标估值高达200亿美元，占了母公司的近七成。</p><p>这也是引发市场热议的地方，目前方案处于初步阶段。</p><p>前快手成员紫玲表示，这并非一场简单的业务独立，而是快手与可灵在当前阶段必须完成的资本与业务切割。</p><p>另一位二级市场资深分析师的判断是：“资本市场从来不需要快手的老故事，他们只想要可灵的新故事。”</p><p>对快手而言，可灵已经成为挤占财报利润的内部选手，对可灵而言，快手重成本的电商基因，有点束缚自己在AI进程上的发力。</p><p>快手官方虽然在公告中谨慎地使用了“评估拟议重组”的词汇，但资本的暗涌早已无法掩盖。</p><p>同时这次也向外界抛出一个关于大厂孵化AI业务的问题：这究竟是集团估值体系限制可灵上限，还是可灵的算力开支拖累了快手的财务？（本文作者长期关注AI大厂动态，关于可灵分拆背后的故事，欢迎添加作者微信&nbsp;Who123start，交流更多信息。）</p><p style=\"text-align: center;\"><strong>01 要AI，还是要利润？</strong></p><p>“分拆是个再自然不过的选择。电商负责解决当下现实，可灵负责投资未来。两边的烧钱速度和变现逻辑完全是两码事，显然已经不合适了。”紫玲对雷峰网补充说。</p><p>根据快手2025年财报，可灵AI全年收入约10亿元，占总收入1428亿元的比重不足0.7%。同期，快手研发开支145亿元，同比增长18.8%，资本支出150亿元用于算力基础设施建设，2026年计划进一步增至260亿元。可灵AI仅在推理层面实现毛利率打平，整体仍处于投入期，对集团利润贡献微乎其微。</p><p>但这也不能一以概之，可灵带来的并非全是负面影响。事实上，可灵已开始渗透快手广告、电商、内容分发等核心业务链条。</p><p>例如在广告场景中， AI 业务开始承担营销素材生成、创意广告制作与投放优化；在电商场景中，AI 则开始参与商品理解、短视频素材生成与推荐分发。</p><p>最重要的是，以前资本市场对快手的估值逻辑，更多停留在短视频、电商、直播等传统互联网业务；但随着可灵进入全球AI视频竞争主流视野，快手开始被纳入AI视频生成赛道讨论。</p><p>2025年4月，快手成立可灵AI事业部，直接向公司创始人兼CEO程一笑汇报。</p><p>就在今年3月的财报电话会上，高层透露，截至今年1月，可灵AI的年化收入运行率（ARR）已超过3亿美元。公司对可灵AI在2026年实现收入同比翻倍以上增长保持较强信心。</p><p>但没办法，视频生成这块，本来就是个难啃的骨头。</p><p>连行业老大哥 OpenAI 都暂停 Sora 商业化应用的消息，毕竟视频大模型推理时的海量算力消耗都是实打实的。</p><p>这种困境直接体现在运营与营收数据上。据了解，Sora 2 的发布曾让其网站访问量在2025年10月达到 6619 万的峰值，但到2026年2月已回落至 2117 万，跌幅达 68%。流量下滑直接加剧了变现难度，2025年 Sora 的月收入仅为 36.7 万美元。</p><p>相比之下，可灵 AI 同期的月收入达到了 2000 万美元。但即使具备远超 Sora 的商业变现能力，可灵依然承受着巨大的财务压力。</p><p>这背后的核心症结在于难以压缩的结构性成本。正如一位 AI 视频创业者所言：“以前做传统互联网产品，服务器开支相对可控；但 AI 视频生成的特点是，每一次推理都在持续消耗高昂的算力成本。”</p><p>在购买算力集群、模型训练与推理消耗、以及高端 AI 人力成本的多重叠加下，可灵的日常运转本身就很艰难。</p><p>前快手成员韦安透露，2024年底是可灵资金消耗的一个重要转折点。当时团队拍板重构底层模型，这次“换底”砸出了后来实现效果质变的1.6版本。上述人士表示，内部人员称，1.6版本不仅赢了隔壁某大厂，甚至在性价比上也优于后续的google Veo2。</p><p>但技术仗背后，是极其恐怖的算力消耗，据前员工观察，其他互联网公司或许崇尚的是“资源一次性给足、快速试错”，跑半年不行就关停；而快手花钱则要谨慎和注重成本得多。以电商 AI 应用的落地为例，快手往往在充分调研后，仅投入同行十分之一的资源与人力去跑灰度测试。</p><p>用这种注重成本防御、精打细算过日子的思维，去供养一个每天都在耗费海量算力、试图冲击全球第一梯队的视频大模型，显然已经捉襟见肘。</p><p>快手刚刚转正的盈利底盘经不起这么烧，而可灵要想继续保持技术身位不掉队，甚至去实现其最终的 ToC 野心，把这块重资产的 CapEx（资本开支）剥离出上市公司的报表，去一级市场找钱，就成了唯一的答案。</p><p>况且大厂拆分AI业务上市的故事也并不新鲜，比如百度旗下的AI芯片部门正式独立成立“昆仑芯”，更早些的时候，微软宣布将小冰业务线分拆为独立公司运营，这些都为可灵提供了一个样本：失去母公司的流量加持后，能否稳定飞行才是独立后的真正考验。</p><p style=\"text-align: center;\"><strong>02 可灵单飞，资本叫好</strong></p><p>一位二级分析师Jonathan对雷峰网表示：现在资本市场非常现实：对待快手主站，用的是成熟商业模式的眼光，看重市盈率（PE），要求你每个季度都得把利润抠出来；但对待可灵，大家套用的是AI独角兽的剧本，看重的是市销率（PS）和未来想象力。</p><p>对于200亿美元的估值，Jonathan看来，这并不是“合理不合理”的问题，而是资本叙事的天然偏好。</p><p>“市场的逻辑，本来就不是正确的逻辑。”他说，“短视频、电商、本地生活，这些都是旧互联网故事了；但AI视频生成，还是一个能讲全球化、技术革命、生产力重构的新故事。”</p><p>某种程度上，可灵也确实长成了资本市场最喜欢的那类AI公司模样。</p><p>与依赖流量和广告的互联网产品不同，可灵目前的核心用户已经开始转向海外专业创作者与企业客户。</p><p>一位接近可灵的人士告诉雷峰网，目前可灵收入中，国际用户贡献占比接近70%，用户结构以B端及专业创作者（Pro-sumer）群体为主。快手CEO程一笑此前在财报电话会上也曾披露，P端付费订阅会员贡献近70%营业收入。</p><p>“现在国外很多视频创作者，其实不会固定使用某一个模型产品，谁在某个环节效率更高，就用谁。”上述人士表示。</p><p>而在这样的工作流体系里，可灵已经成为不少创作者“绕不开”的一环。</p><p>在具体的商业化落地路径上，可灵有明确的阶段性规划。</p><p>据业内人士对雷峰网表示，可灵第一批核心合作方主要是广告公司，随后逐步拓展至专业视频博主和大型UP主。之后，可灵正在业务侧搭建一个双向撮合机制：一端对接广告主的视频制作需求，另一端对接具备生成能力的创作者，在中间承担平台与渠道的角色。</p><p>不过，服务B端和专业创作者只是当前的变现手段。</p><p>业内人士指出，可灵的长期业务重心依然是ToC（面向普通大众）市场。这意味着，分拆独立运作后，可灵大概率会推出独立App，以摆脱对现有平台的流量依赖，直接去获取并留存更广泛的C端。这才是其追求200亿美元估值背后的最终商业逻辑。</p><p>不过，提升估值、拿到更多资源之后，如何渗透影视工业化流程，还得再观望一阵。</p><p><span style=\"color: #BFBFBF;\">（文中汪紫玲、Jonathan、韦安均为化名）</span></p><p>本文作者长期关注AI大厂动态，关于可灵分拆背后的故事，欢迎添加作者微信Who123start，交流更多信息。</p><p><br /></p>",
-      "published": "2026-05-18T14:40:00+08:00",
-      "fetched_at": "2026-05-19T11:51:58.281993+08:00",
-      "pre_filter_reason": "Discusses the spin-off of Kuaishou's video generation AI model Keling, an AI product/business move.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "可灵估值200亿，快手为何要“放手”？",
-          "angle": "从快手分拆可灵AI的资本逻辑切入，分析母公司为何愿意让出近七成市值的核心业务，以及这对快手和可灵未来发展的影响。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "一图看懂：快手与可灵的分拆博弈",
-          "angle": "用信息图或短视频形式，拆解快手与可灵的股权关系、估值对比及分拆后的业务走向，帮助用户快速理解这一资本事件。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "ea136502a93d",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Qwen最新3.7 Max预览版空降！两代超大杯并行迭代，林俊旸走了但还在加速",
-      "link": "https://www.qbitai.com/2026/05/419822.html",
-      "summary": "文本领域、视觉领域双双国产第一",
-      "published": "2026-05-19T10:46:06+08:00",
-      "fetched_at": "2026-05-19T11:52:01.372673+08:00",
-      "pre_filter_reason": "Qwen是AI大模型，涉及AI模型发布",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Qwen3.7 Max实测：国产大模型如何做到“双料第一”？",
-          "angle": "通过实际案例演示Qwen3.7 Max在文本和视觉任务上的表现，对比其他国产模型，突出其技术突破点。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "林俊旸离开后，Qwen团队为何还能加速迭代？",
-          "angle": "探讨核心人物变动对技术团队的影响，分析Qwen系列持续领先的研发机制和组织架构优势。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "636ff7482469",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Figure机器人直播干活一整天，效果越惊艳，质疑越凶猛",
-      "link": "https://www.leiphone.com/category/robot/3aONHt2GgD1NtdrV.html",
-      "summary": "<p style=\"margin-top: 24pt; margin-bottom: 24pt;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260518//6a0ad63559e1f.jpg?imageMogr2/quality/90\" style=\"text-align: center;\" /><br /></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">上次Figure AI出现在大众目光中，还是5月8日晚那段两分钟的家务视频，在两分钟的时间里，Figure 03两台机器人，用同一个大脑协作完成了一整套房间整理流程。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">几天后，Figure AI又创造了一波新的话题度。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">三台名叫“Bob”、“Frank”和“Gary”的人形机器人，如今正在美国某个物流仓库里昼夜不停地分拣包裹，并被24小时全天候直播，直播一出，在X和YouTube上围观人数迅速突破了200万。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">截至目前，Figure AI已经直播40个小时，远超最初的8小时挑战，并且直播仍在继续，或许这将成为全球最长的一次人形机器人全自主运行公开测试。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">而这一切的起源还要追溯到一场来自线上的对决。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">一条推文引发的“约架”</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">5月13日，机器人领域的专家和布道者Scott Walter在社媒公开质疑，人形机器达到人类的速度才会具有有限的实用性，而机器人领域的领先者应该能够展示8小时的自主劳动，无需人工干预。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260518//6a0ad6355ac8e.jpg?imageMogr2/quality/90\" /></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">Figure AI创始人兼CEOBrett Adcock则第一时间回应道：Figure已经每天都这样做。并在Scott Walter质疑他空口无凭时公开声称第二天进行现场直播。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260518//6a0ad6355b63d.jpg?imageMogr2/quality/90\" /></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">于是乎，这个被戏称源于“口水仗”的直播空降社媒，迅速引爆了全网关注。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\"><br /></span></p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: Arial; font-size: 16pt; font-weight: bold;\">自主还是遥控？</span><br /></p><p>&nbsp;</p><p><span style=\"font-family: Arial; font-size: 11pt;\">对于旁观者来说，这场直播无疑掺杂了太多摆拍的水分。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">“机器人又没有人类分拣快，真的有必要吗？”</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">“是人工贵还是机器贵？”</span></p><p>&nbsp;</p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260518//6a0ad6355bb13.jpg?imageMogr2/quality/90\" /></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">也有不少人质疑此次炫技一般的操作为远程操控，不过这也不是Figure第一次陷入“完全自主”能力与人类远程操控之间模糊界限的争议。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">早在3月份发布的demo中，机器人在做家务时不仅出现指令发出前的转身预动作，还有握把动作延迟，那时就已经被网友公开质疑为全程“遥控”，甚至连马斯克都曾在社交媒体上公开质疑。</span></p><p>&nbsp;</p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260518//6a0ad6355c06a.jpg?imageMogr2/quality/90\" /></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">直播画面中机器人展示的是分拣供包上件环节，此前这项工作内容大部分都是人工处理。快递单下翻是为保障后续读码机器的识读率，尽可能消除褶皱影响，由于快递包裹规格的多样性，供包是全自动分拣的最难实现自动化的环节，也是最考验通用机器人能力的场景，存在几方面的难点。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">首先是包裹形态。直播中快件形态全为软包，机器人必须具备极高的视觉感知能力和自适应抓取能力——不是复制同一个动作，而是每抓一个包裹都可能需要重新调整策略。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">第二，操作精度要求高。任务要求机器人检测条形码、抓取包裹、重新调整方向、把条码朝下放到传送带上。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">第三，异常需要及时处理。软包起皱、条码被遮挡、一个包裹可能推走的同时另一个已经在手里——这些都是机器人完全凭借摄像头像素进行推理完成的，没有预设路径，没有人工干预。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">而围绕着此次直播，网上舆论主要集中在两个点：一个是机器人挠头，一个是骑摩托姿势。</span></p><p>&nbsp;</p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260518//6a0ad6355c361.jpg?imageMogr2/quality/90\" /></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">在直播过程中，Figure机器人偶尔会无预兆地出现挠头这一动作，被网友被调侃“可能是VR眼镜戴久了”，但Brett Adcock随即回应：在跨身体伸展时，这个行为会抬起手臂以避免撞到金属斜槽。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">摩托车手势更是被网友调侃为“骑哈雷的小男孩”。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">针对网友讨论的焦点，业内专业人士</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">告诉雷峰网</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">，“头显方面说不清，但所谓的骑摩托，可能只是机器卡住了，复位一下接着干，因为包裹很简单，盒子就两种，软包除了颜色都是一模一样，如果是遥操，为什么不展示更多不同的SKU？”</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">相比</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">任务本身</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">的难度</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">，直播是否存在“远程操控”</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">更令人在意。</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">面对众多质疑虽然Figure AI矢口否认，但</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">并不足以完全打消大众的</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">疑虑。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">三台机器人的流水线“真人秀”</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">Figure 03在已经过去的长达30多小时的直播中，展示了一套接近于完美的全自动闭环：识别包裹、精准扫描，灵活调整软包和硬箱的抓取姿态，翻面放置，一气呵成，并且整体成功率很高。而当电量耗尽时，它会自主请求队友接替并前往维护区，完全无需人类插手。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">在真实的仓储环境里，偶尔会有项目人员进来查看，除此之外再无其他，直播似乎只是一场单纯的展示。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">据悉</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">，Figure 03机器人大脑采用的是Figure最新自研的Helix 02，与第一代专注于上半身控制不同，Helix 02实现了全身端到端控制，拥有一套统一的视觉运动神经网络，可以让机器人完成全身一体化控制，包括行走、操作和平衡。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">同时，Helix采用隐式立体视觉技术，能融合多个时序图像帧与传感器反馈，无需外部校准即可精准理解三维空间，显著提升了对软包装袋等非标准形态的处理可靠性。它还配备视觉记忆模块，能从系列视频帧中组合特征形成短期视觉记忆，即使在初始图像中没有完全显示标签，也能调用之前帧的信息寻找标签。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">虽然效率数据算不上亮眼，但是三个机器人能够在5小时内处理6700件包裹，且中间并未停歇，平均下来，每个包裹处理时间约3秒，据亚马逊类似任务的基准测试显示，人工分拣速度为每分钟30到40个，Figure 03的作业能力已经接近人类水平。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">在直播中，机器人也贡献了很多名场面。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">不止Figure</span><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">，国内</span><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">人形机器人</span><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">厂商早已布局</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">此次直播并非是一次心血来潮的对战或者说炫技，Figure 能取消原定的8小时直播直接开启无限直播模式，更是想借助已有的话题度把机器人本体 Figure 03 和 Helix 02 模型协作的稳定性，以及它们在工厂中能实际运用的价值展现在众人面前，特别是今年以来，已经有越来越多的机器人公司开始写出商业化落地的真实案例。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">其实在Figure AI引发热潮之前，不少机器人公司已在探索双足或轮式的人形机器人在工业场景的落地。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">优必选Walker S2其实已经批量进入汽车制造、智慧物流等场景。早在2024年10月时就进入比亚迪汽车工厂，与L4级无人物流车、无人叉车、工业移动机器人和智能制造管理系统协同作业。</span></p><p>&nbsp;</p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260518//6a0ad6355c6d8.jpg?imageMogr2/quality/90\" /></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">在去年的机器人大会上，智元机器人在展台1:1复刻德马物流中心场景，智元精灵G1进行物流分拣供包作业，作业内容为软包，期间还要面对嘉宾时不时的“捣乱”。在今年4月中旬，智元精灵G2就已经在龙旗科技南昌平板厂跑了一场8小时真实产线直播。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260518//6a0ad6355dbfd.jpg?imageMogr2/quality/90\" /></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">星动纪元自研人形机器人“星动M7”，不久前在中国邮政广州邮区中心正式上岗，能分拣软包、硬盒、不同规格包裹，还能翻转包裹确保面单朝上，同时识别异常件。 &nbsp; </span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260518//6a0ad6355fd8f.jpg?imageMogr2/quality/90\" /></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">就连曾经的人形机器人“顶流”Agility Robotics也赶上这波热度，称旗下人形机器人 Digit 自2023年以来一直在物流领域持续运营，刷了一波存在感。</span></p><p>&nbsp;</p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260518//6a0ad635621bb.jpg?imageMogr2/quality/90\" /></p><p>&nbsp;&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">而截至发稿，直播仍在继续，三台机器人仍在不知疲倦地重复着抓取、扫描、翻面、放置的循环，屏幕上的观看人数还在跳动……</span></p><p>&nbsp;</p><p>&nbsp;</p>",
-      "published": "2026-05-18T17:20:00+08:00",
-      "fetched_at": "2026-05-19T11:51:58.281929+08:00",
-      "pre_filter_reason": "Figure机器人直播，涉及AI机器人",
-      "scores": {
-        "importance": 7,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Figure机器人直播干活一整天：它到底能做什么？",
-          "angle": "剪辑直播中的高光片段，展示Figure机器人在实际工作中的操作能力，并附上简单技术解读。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "惊艳背后：为什么Figure机器人越能干，质疑声越大？",
-          "angle": "分析公众对机器人能力的期待与现实的落差，探讨技术演示与商业化落地之间的鸿沟。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "be3fda748b80",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "消息称 Tenstorrent 吸引英特尔、高通收购意向，估值或超 50 亿美元",
-      "link": "https://www.ithome.com/0/952/171.htm",
-      "summary": "<p>IT之家 5 月 19 日消息，彭博社当地时间 18 日报道称，AI 芯片企业 Tenstorrent 持续与投资银行合作考量未来发展路径。而在这背景下，<strong>英特尔、高通两大巨头均表达了收购该公司的初步兴趣</strong>。</p><p>消息人士表示，Tenstorrent 同时也在继续寻求新一轮融资中的潜在投资者；如果该企业选择出售，其它芯片公司也可能参与竞购；而其在潜在交易中的估值可能超过 50 亿美元（IT之家注：现汇率约合 340.63 亿元人民币）。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/3/252b8188-5d9b-4236-84d6-8fb5386578f1.jpg?x-bce-process=image/format,f_auto\" /></p><p>IT之家注意到，Tenstorrent 的现任领导人是知名芯片设计师 Jim Keller。如果英特尔最终买下 Tenstorrent，那将是 Jim Keller 第三次加入英特尔。</p>",
-      "published": "2026-05-19T10:52:13+08:00",
-      "fetched_at": "2026-05-19T11:52:06.344458+08:00",
-      "pre_filter_reason": "报道AI芯片企业Tenstorrent的收购意向，属于AI产品/企业新闻",
-      "scores": {
-        "importance": 7,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "英特尔、高通抢购Tenstorrent：50亿美元估值背后的芯片暗战",
-          "angle": "解读Tenstorrent的技术路线（RISC-V架构）为何吸引两大巨头，以及这笔收购对AI芯片格局的潜在影响。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "Tenstorrent是谁？一篇文章看懂这家AI芯片新星",
-          "angle": "用通俗语言介绍Tenstorrent的核心技术、创始团队背景及其在AI芯片市场的差异化优势。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "c1eb56a0ed74",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "百度无人车新纪录：周订单破35万！李彦宏：开始单城盈利了",
-      "link": "https://www.qbitai.com/2026/05/419597.html",
-      "summary": "落地全球27城",
-      "published": "2026-05-19T09:52:07+08:00",
-      "fetched_at": "2026-05-19T11:52:01.372701+08:00",
-      "pre_filter_reason": "百度无人车使用AI技术实现自动驾驶",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "百度无人车周订单破35万：它如何实现单城盈利？",
-          "angle": "拆解百度萝卜快跑的运营模式，从成本控制、定价策略到订单密度，解释盈利的关键因素。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "从27城到盈利：百度无人车商业化到了哪个阶段？",
-          "angle": "结合全球无人车行业现状，分析百度在商业化进程中的领先优势与面临的挑战。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "fae55777580f",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "AI水论文封一年，署名连坐！arXiv最严新规来了，陶哲轩附议",
-      "link": "https://www.qbitai.com/2026/05/419528.html",
-      "summary": "生成论文远比消化容易",
-      "published": "2026-05-18T20:18:30+08:00",
-      "fetched_at": "2026-05-19T11:52:01.372729+08:00",
-      "pre_filter_reason": "AI论文生成和arXiv新规涉及AI学术伦理",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "arXiv新规解读：如何合规使用AI辅助写论文？",
-          "angle": "详细解析arXiv新规对AI生成内容的限制，提供合规使用AI工具写论文的步骤和注意事项，避免被封禁。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "opinion",
-          "title": "陶哲轩都支持的arXiv新规：AI论文泛滥时代，学术诚信如何守护？",
-          "angle": "结合陶哲轩的附议，探讨AI生成论文对学术界的冲击，以及新规对科研生态的长期影响。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "9dfbcf697693",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "2027年迈向十万台产能：矩阵超智开启具身智能量产元年",
-      "link": "https://www.leiphone.com/category/industrynews/tcrIrCwMIDSjCxgO.html",
-      "summary": "<p style=\"margin-bottom: 0pt;\"><span>2026年5月18日，上海 —— 物理世界 AGI 的进化曲线，正在由中国头部工程团队重新刻画！今日，具身智能领域的硬核标杆矩阵超智，在上海张江集成创新园盛大举办“2026矩阵超智科技日（AI DAY）”。这不仅是一场技术的展示，更是国产具身智能向全球顶尖水准发起的强力突围。</span></p><p style=\"text-align: justify; margin-bottom: 0pt;\"><span>由特斯拉中国设计研究中心前创始领导人张海星领衔的“工程化梦之队”，深谙从实验室走向大规模工业化的底层逻辑，团队不盲目追求单一指标，而是坚持第一性原理，通过对核心关节、灵巧手MATRIX HAND与泛化大脑的系统性重构，打造出真正能下场干活、具备全球竞争力的“中国擎天柱”。在现场，MATRIX-3全能旗舰级人形机器人以震撼的实机作业，宣告其从“数字大脑”到“强壮本体”的完美合体。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260518//6a0ad7ed45852.jpg?imageMogr2/quality/90\" /></p><p><span>&nbsp;</span></p><h4 style=\"text-align: justify; margin-bottom: 0pt;\"><span>技术突破：泛化大脑与强壮本体的深度集成</span></h4><p style=\"text-align: justify; margin-bottom: 0pt;\"><span>在产品迭代与技术攻关上，任何伟大的愿景都离不开脚踏实地的演进。从第一代工程验证机验证全直驱关节的可行性、向世界证明中国自主研发机器人能力开始，到如今发布的MATRIX-3，该系列机型在体型与设计理念上经历了巨大跨越。全新亮相的MATRIX-3身高170cm、体重65kg，被视为与人类物理世界适配的最佳解。研发团队从第一性原理出发，重新定义了类人形态的结构，攻克多项工程学难题，实现了全系列产品从早期探索向“通用性”与“场景落地”的深化理解：</span></p><p style=\"text-align: justify; margin-bottom: 0pt;\"><span><span>· 泛化大脑与大小脑协同：</span><span>MATRIX-3 搭载WAVE物理基座模型，该基座模型的硬核逻辑在于，机器人真正需要学习的不只是画面内容，更是动作带来的后果。WAVE通过融合大量的自然世界数据，使机器人率先实现“零样本泛化”与“失误学习闭环”的跨越，从“看懂”到“会做”、再到“做得稳”的质变。</span></span></p><p style=\"text-align: justify; margin-bottom: 0pt;\"><span><span>·强壮本体：</span><span>区别于行业普遍采用的旋转关节，矩阵超智自主研发了仿生超能直线关节。在核心驱动部位（如大腿），采用了三根直线关节并联的独特方案，并配合多个行星滚柱丝杠。这种中国独有的算法与并串联混动工程实现，赋予了机器人远超同类的核心力量与爆发力，实现了硬件方案的完全自主可控。</span></span></p><p style=\"text-align: justify; margin-bottom: 0pt;\"><span><span>·精密的灵巧手：</span><span>自研全球首创27维自由度灵巧手MATRIX HAND，经8000+小时循环测试，关节轨迹稳定可控，支持捏、夹、旋转等微米级精密操作，适用于从工业制造到家庭服务多场景服务。</span></span></p><p style=\"text-align: justify; margin-bottom: 0pt;\"><span><span>·守护人机安全：</span><span>首创“类人肌体”，柔性织物融于躯体，仿生肌理随行防护，守护人机安全。这种柔软的安全感，让 MATRIX-3 彻底跨越了“恐怖谷效应”，能以协作者的姿态从容步入人类作业空间。</span></span></p><p><span>&nbsp;</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260518//6a0ad7ed464a4.jpg?imageMogr2/quality/90\" /></p><p style=\"text-align: justify; margin-bottom: 0pt;\"><span>MATRIX-3为从工业制造等专业场景逐步走向日常家庭生活场景铺平道路，标志着物理智能机器人，从软件层面的推理或生成执行预设指令，迈入能在真实世界中感知环境、理解意图并执行操作能力的物理AI系统新阶段。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260518//6a0ad7ed473a7.jpg?imageMogr2/quality/90\" /></p><p><span>&nbsp;</span></p><h4 style=\"text-align: justify; margin-bottom: 0pt;\"><span>量产重构：MFH矩阵超智工厂为规模化应用铺路</span></h4><p style=\"text-align: justify; margin-bottom: 0pt;\"><span>2026年是矩阵超智从技术攻坚迈向系统落地、构建物理世界 AGI 机器人产业闭环的关键之年。矩阵超智 CEO 张海星表示，公司坚持“设计即量产”的底层逻辑，致力于将人形机器人从实验室研发的“艺术品”转化为可大规模交付的成熟“工业商品”。在具体的工程实现与量产重构上，矩阵超智展现了极高的效率：</span></p><p style=\"text-align: justify; margin-bottom: 0pt;\"><span><span>·极致集成的结构工程：</span><span>MATRIX-3 实现了整机结构的极致简化，将整机螺丝数量从千余颗大幅精简。这一突破显著提升了生产良率与系统可靠性，通过轻量化、高可装配性的重构，大幅降低了制造与装配成本，确保了产品在全球市场中的成本竞争力。</span></span></p><p style=\"text-align: justify; margin-bottom: 0pt;\"><span><span>·全链路自主制造体系：</span><span>矩阵超智首次对外展现了全链路自主制造体系与量产落地闭环，依托于MFH矩阵超智工厂的自主生产，MATRIX-3 已跨越实验室阶段，正式迈入工业级规模化交付的新纪元。这种全栈自研的制造能力，不仅确保了产品从设计到交付的高度一致性与技术迭代的自主权，更为行业提供了人形机器人标准化生产的先行参考。</span></span></p><p style=\"text-align: justify; margin-bottom: 0pt;\"><span><span>·区位驱动的研发协同：</span><span>矩阵超智自主现代化产线扎根于上海张江科学城，可充分依托世界级的高端制造产业链与研发生态。这种得天独厚的区位优势，使得“研发迭代”与“生产制造”实现了无缝协同，构成了国产人形机器人在全球赛道中的核心工程优势。</span></span></p><p style=\"text-align: justify; margin-bottom: 0pt;\"><span>据了解，矩阵超智目前已具备在年内交付 5,000 台综试产品的能力，并已启动针对真实工业场景的深度压力测试。随着产线的持续升级，矩阵超智预计在 2027 年上半年实现 100,000 台级别的量产能力，以规模效应加速通用劳动力的普及。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260518//6a0ad7ed47dcd.jpg?imageMogr2/quality/90\" /></p><p><span>&nbsp;</span></p><h4 style=\"text-align: justify; margin-bottom: 0pt;\"><span>矩阵力量：加速物理 AGI 走进千行百业</span></h4><p style=\"text-align: justify; margin-bottom: 0pt;\"><span>为彻底对抗行业生态碎片化的痛点，矩阵超智在科技日上正式公布了面向未来的开源生态路线图。公司重磅推出了由“CAAI人工智能计算架构”驱动的全栈方案，全力打造具身智能体和具身智能的行业闭环。同时，为了直连外部物理世界，公司宣布将于今年正式发布生态接口工具——MATRIX RDK机器人开发套件。该套件将统一定义具身智能的语义接口，让生态用户无需使用传统、复杂的API，而是可以直接通过自然语言直观地控制机器人交互。</span></p><p style=\"text-align: justify; margin-bottom: 0pt;\"><span>秉承“独行快，众行远”的发展理念，矩阵超智不仅致力于自身的快速跑动，更旨在定义这个时代的具身智能操作系统。为此，矩阵超智正式启动RAAS生态发展计划，宣布将硬件抽象层、具身大模型及技能库全部对外开放，构筑坚实的具身智能AIOS底座，加速物理 AGI 走进千行百业。</span></p><p style=\"text-align: justify; margin-bottom: 0pt;\"><span>目前，依托这一强大的生态与软硬件平台，MATRIX-3 已瞄准多行业场景落地，在上海南站、全球开发者先锋大会、海德曼临港产线等核心场域实现落地应用，获得业内高度认可。与此同时，矩阵超智AI小镇落地亮相，以机器人技术为核心，进一步重塑商业服务、导览与文娱场景，加速体验与消费双重升级。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260518//6a0ad7ed483e9.jpg?imageMogr2/quality/90\" /></p><p><span>&nbsp;</span></p><p style=\"text-align: justify; margin-bottom: 0pt;\"><span>矩阵超智在科技日现场宣布，MATRIX-3 系列正式面向全球发售：MATRIX-3 全能旗舰级人形机器人 580,000 元起，MATRIX-3 PRO（搭载灵巧手 MATRIX HAND）680,000 元起，均包含 1 年基础服务包。此举意味着矩阵超智已从技术研发迈入规模化商业交付阶段。</span></p><p style=\"text-align: justify; margin-bottom: 0pt;\"><span>张海星在现场强调：“我们的目标只有一个，用第一性原理，打造物理世界中的 AGI，并让它成为推动社会进步的通用劳动力。”为此，矩阵超智现已正式开放MATRIX-3“行业伙伴专属计划”，邀请更多先锋企业共同探索具身智能的边界。在竞争日益激烈的全球赛道上，矩阵超智将依托中国完善的产业链体系与自主研发的“矩阵力量”，确保中国智慧在物理 AGI 竞争中占据领先身位，以高确定性的商业进展迎接通用机器人时代的到来。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260518//6a0ad7ed490ab.jpg?imageMogr2/quality/90\" /></p>",
-      "published": "2026-05-18T17:15:00+08:00",
-      "fetched_at": "2026-05-19T11:51:58.281944+08:00",
-      "pre_filter_reason": "具身智能量产，属于AI领域",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "矩阵超智2027年十万台产能目标：具身智能量产背后的工程密码",
-          "angle": "分析矩阵超智从实验室到量产的工程化路径，解读其团队背景和技术突破如何支撑大规模产能目标。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "news",
-          "title": "具身智能量产元年开启：矩阵超智科技日亮点速览",
-          "angle": "快速回顾矩阵超智科技日发布的核心信息，包括产能规划、团队背景和行业意义，适合短视频快讯。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "8fc2e3e0ac5c",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "报告：2025年中国AI云市场规模超567亿元，阿里云AI IaaS、MaaS双料冠军",
-      "link": "https://36kr.com/newsflashes/3815679486909954?f=rss",
-      "summary": "36氪获悉，5月19日，市场调研机构英富曼（Omdia）发布最新的《中国AI云市场份额2025》报告，2025年中国AI云市场总规模达567亿元人民币，其中，阿里云在AI IaaS和MaaS两大领域均位列第一，总份额从上半年的35.8%上涨至38.1%，整体稳居第一。",
-      "published": "2026-05-19T11:49:53+08:00",
-      "fetched_at": "2026-05-19T11:51:53.578087+08:00",
-      "pre_filter_reason": "报告涉及中国AI云市场规模及阿里云AI服务",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "data",
-          "title": "567亿AI云市场：阿里云凭什么拿下IaaS和MaaS双料冠军？",
-          "angle": "基于Omdia报告数据，拆解阿里云在AI IaaS和MaaS领域的优势，分析其市场份额增长的原因。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "tutorial",
-          "title": "企业选云指南：从阿里云夺冠看AI云服务如何选型",
-          "angle": "以阿里云为例，讲解企业在选择AI云服务时（IaaS vs MaaS）的关键考量因素和实用建议。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "c0d041dfa508",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "The Information：34 家 AI 公司年收入狂飙，OpenAI 和 Anthropic 鲸吞 89% 份额",
-      "link": "https://www.ithome.com/0/952/192.htm",
-      "summary": "<p>IT之家 5 月 19 日消息，科技媒体 The Information 昨日（5 月 18 日）发布博文，调查全球 34 家 AI 公司数据后，<strong>AI 市场的收入正快速向头部聚拢，Anthropic 与 OpenAI 合计拿走约 89% 的年化营收。</strong></p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/f97c2535-1039-4cdc-ab7b-8a3da0d980d3.jpg?x-bce-process=image/format,f_auto\" /></p><p>34 家人工智能初创公司的年收入接近 800 亿美元（IT之家注：现汇率约合 5450.09 亿元人民币），<strong>六个月内增长了 112%。</strong>本次调查覆盖两类公司，一类销售 AI 应用，另一类提供 AI 模型接入。即便考虑会计口径差异，Anthropic 与 OpenAI 仍在持续拉大与竞争对手的差距。</p><p>Anthropic 通过 Amazon 和 Google 等云计算伙伴按总额确认部分收入，而 OpenAI 需在 2030 年前向微软分成 20% 营收，据称其今年可能向微软支付约 60 亿美元。</p><p>从增长节奏看，Anthropic 最受关注。此前《华尔街日报》称，其年化营收到 6 月底或达 50 亿美元，高于 2026 年初约 10 亿美元，也高于 4 月时超过 30 亿美元的水平。OpenAI 则在 3 月底表示，月营收已达 20 亿美元，折合年化约 240 亿美元，但其发言人随后强调，月度数字并不适合直接当作精确年增长指标。</p><p>应用层公司也在冲高规模。自 2025 年 12 月以来，Perplexity、ElevenLabs、Cognition 的年销售额均已超过 5 亿美元，Cursor 也跨过这一门槛。不过，报告认为，这些公司可能每年还要向 OpenAI 与 Anthropic 支付数十亿美元模型接入费用，增长与依赖并存。</p><p>这 34 家调查公司如下：</p><ul class=\"medium-size list-paddingleft-2\"><li><p>OpenAI</p></li><li><p>Anthropic</p></li><li><p>Cursor</p></li><li><p>Cognition</p></li><li><p>ElevenLabs</p></li><li><p>Abridge</p></li><li><p>Ambience Healthcare</p></li><li><p>Clay</p></li><li><p>Cohere</p></li><li><p>Crescendo</p></li><li><p>Decagon</p></li><li><p>EliseAI</p></li><li><p>EvenUp</p></li><li><p>Gamma</p></li><li><p>Genspark</p></li><li><p>Glen</p></li><li><p>Harness</p></li><li><p>Harvey</p></li><li><p>HeyGen</p></li><li><p>Higgsfield</p></li><li><p>Legora</p></li><li><p>Lovable</p></li><li><p>Midjourney</p></li><li><p>Mistral</p></li><li><p>OpenEvidence</p></li><li><p>Perplexity</p></li><li><p>Replit</p></li><li><p>Runway</p></li><li><p>Sierra</p></li><li><p>Stackblitz</p></li><li><p>Suno</p></li><li><p>Synthesia</p></li><li><p>Writer</p></li><li><p>xAI</p></li></ul>",
-      "published": "2026-05-19T11:11:43+08:00",
-      "fetched_at": "2026-05-19T11:52:06.344395+08:00",
-      "pre_filter_reason": "报道AI公司年收入，涉及OpenAI和Anthropic",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "AI公司收入大洗牌：OpenAI和Anthropic为何能鲸吞89%份额？",
-          "angle": "分析头部AI公司收入高度集中的原因，包括技术壁垒、产品策略和市场定位，探讨对其他AI创业公司的启示。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "news",
-          "title": "34家AI公司年收入报告：谁在崛起，谁在掉队？",
-          "angle": "用数据可视化方式呈现AI公司收入分布，突出OpenAI和Anthropic的领先地位，并简要提及值得关注的第二梯队。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "abbe082e7e85",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "矩阵超智发布MATRIX-3全能旗舰级人形机器人",
-      "link": "https://36kr.com/newsflashes/3815634489433865?f=rss",
-      "summary": "36氪获悉，5月18日，矩阵超智正式发布MATRIX-3全能旗舰级人形机器人，MATRIX-3身高170cm、体重65kg，搭载WAVE物理基座模型。同时，矩阵超智宣布MATRIX-3系列正式面向全球发售。",
-      "published": "2026-05-19T11:04:07+08:00",
-      "fetched_at": "2026-05-19T11:51:53.578159+08:00",
-      "pre_filter_reason": "发布人形机器人，涉及AI技术",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "review",
-          "title": "MATRIX-3人形机器人深度解析：170cm身高如何实现全能旗舰？",
-          "angle": "从技术参数（身高、体重、WAVE模型）出发，解读MATRIX-3的设计理念和核心功能，对比同类产品。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "news",
-          "title": "矩阵超智MATRIX-3全球发售：人形机器人进入消费级时代？",
-          "angle": "聚焦MATRIX-3面向全球发售的意义，讨论人形机器人从工业到消费场景的落地可能性及价格预期。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "7c6fae4dd235",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "番茄小说正推动 AI 动漫上院线，开放头部IP改编权限｜36氪独家",
-      "link": "https://36kr.com/p/3810598875307780?f=rss",
-      "summary": "<p>作者｜兰杰 李晓霞</p>\n  <p>编辑｜乔芊</p>\n  <p>36氪独家获悉，据多位接近字节跳动人士消息，字节旗下的番茄小说正在推动AI动漫上院线。在这一过程中，会开放番茄小说平台头部IP的改编权限。</p>\n  <p>之于番茄小说，如何更好地挖掘平台上好IP的潜力和商业价值，是一个亟待解决的难题。</p>\n  <p>一方面，以文字形式为载体的IP内容，缺乏统一的视觉形象，使得平台上的IP难以有联名、衍生品等更丰富的变现形式。另一方面，AI漫剧这一新事物迅速发展壮大，其中不乏改编自番茄小说IP的粗制滥造之作。这些内容不但没能延长好IP的生命力，反而形成了一种消耗。此时，通过可登陆院线的影视内容来探索平台IP的更多可能性，不失为一种好的尝试。</p>\n  <p>另据上述知情人士表示，字节跳动内部为番茄IP定下了影响力的目标，“想让行业内外的人觉得番茄的出品是精品的、正向的。”这一需求落到具体的业务上，上院线会是个不错的答卷。</p>\n  <p>早在2023年年底，番茄小说就官宣成立了“番茄影视”和“番茄动漫”两大厂牌，推动平台IP的影视化。过去两年间，番茄影视先后与腾讯视频、爱奇艺和优酷等长视频平台合作，推动了《十日终焉》《我在精神病院学斩神》等平台头部IP的改编，但这些合作多停留在IP授权阶段。</p>\n  <p>虽然番茄系（字节旗下以番茄小说、红果短剧等为主的业务）并不愁关于钱的问题，但显然成本高、回报周期长的长视频生意，并不符合依赖大手笔投流、需要市场快速反馈的“字节逻辑”。直到AI的出现，大幅降低了成本、提高了效率。</p>\n  <p>36氪还从另一位知情人士处获悉，红果漫剧侧如今正在采购120分钟不分集的长内容，这也是当下各大视频平台争相竞逐的方向。</p>\n  <p>之所以上线AI动漫内容，而不是AI仿真人内容，或许与当前AI大模型的能力有关。行业头部的AIGC创作者向36氪表示，如今视频生成大模型的能力已经可以做到生产120分钟的长内容，但是在仿真人这一赛道上，人物、场景的一致性依旧是个难题，而动漫内容可以通过部分突出的人物形象设计——例如彩色的头发、雀斑等，一定程度上弥补一致性的不足。</p>\n  <p>回顾番茄系并不算漫长的发展历程，它可以说是字节跳动在文娱领域的一次突围。在番茄小说问世之前，字节始终未能建立起足够的内容能力和IP积累。而如今，从小说到短剧，再到漫剧，番茄系已具备了IP开发的全链条能力。</p>\n  <p>与此同时，番茄系显然不满足于仅仅停留在当下的免费市场，而是在探索更多元的商业模式，包括线上订阅和院线票房等更多商业可能性。</p>",
-      "published": "2026-05-18T17:46:47+08:00",
-      "fetched_at": "2026-05-19T11:51:53.578015+08:00",
-      "pre_filter_reason": "涉及AI动漫和IP改编",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "番茄小说AI动漫上院线：IP变现新玩法深度解析",
-          "angle": "拆解番茄小说如何通过AI动漫将文字IP转化为视觉资产，分析其院线策略对IP联名、衍生品等商业模式的启示，适合内容创作者和IP运营者学习。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "AI动漫上院线是福是祸？番茄小说头部IP改编权开放背后",
-          "angle": "探讨AI动漫粗制滥造对IP价值的消耗风险，对比传统动漫改编的优劣，分析院线化能否真正延长IP生命力，适合行业观察者和投资人。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "c8dfbf972467",
+      "id": "2f879b15d5a4",
       "source_id": "github-ai-repos",
       "source_name": "GitHub AI 新项目",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "macOS26/Agent",
-      "link": "https://github.com/macOS26/Agent",
-      "summary": "Any AI, replaces Claude Code, Cursor, OpenClaw. Over 18 LLM providers (Claude, OpenAI, Gemini, Ollama, Zai, HF, Qwen) wired into a native Mac app that writes code, builds Xcode projects, bumps versions, manages git, automates Safari, use AppleScript, JS or Accessibility, extend Agent! w/ MCP Servers, run tasks from your iPhone via Messages.",
-      "published": "2026-05-19T11:52:15.397769+08:00",
-      "fetched_at": "2026-05-19T11:52:15.397771+08:00",
-      "pre_filter_reason": "AI agent replacing Claude Code, Cursor, supports multiple LLMs.",
+      "title": "aaif-goose/goose",
+      "link": "https://github.com/aaif-goose/goose",
+      "summary": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "published": "2026-05-20T11:52:08.506694+08:00",
+      "fetched_at": "2026-05-20T11:52:08.506695+08:00",
+      "pre_filter_reason": "An open-source AI agent for code tasks using any LLM.",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "5分钟上手Goose：开源AI Agent安装与测试全流程",
+          "angle": "手把手演示如何安装、配置Goose，并用它完成一个简单的代码编辑与测试任务，突出其超越代码补全的Agent能力。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "用Goose打造你的专属AI助手：扩展功能实战",
+          "angle": "讲解Goose的可扩展架构，教用户如何添加自定义工具或集成其他LLM，实现个性化AI工作流。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "57dd2a75d300",
+      "source_id": "bilibili-hot",
+      "source_name": "B站热搜",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "hotlist",
+      "title": "中美同意开展人工智能政府间对话",
+      "link": "https://search.bilibili.com/all?keyword=中美同意开展人工智能政府间对话",
+      "summary": "",
+      "published": "2026-05-20T11:52:03.767420+08:00",
+      "fetched_at": "2026-05-20T11:52:03.767422+08:00",
+      "pre_filter_reason": "Mentions AI government dialogue, AI policy.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 7.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "中美AI对话：普通人如何抓住政策红利？",
+          "angle": "解读中美AI政府间对话的意义，分析对国内AI从业者、创业者和学习者的潜在影响，并提供行动建议。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "AI治理新篇章：中美对话背后的技术趋势与合规指南",
+          "angle": "从技术视角剖析中美AI对话可能涉及的议题（如安全标准、数据跨境），为企业提供合规与战略调整建议。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "1945d0a96c72",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "不换 Kimi 底座，1/10 成本追平 Opus 4.7？Cursor 用 Composer 2.5 反击 Claude Code",
+      "link": "https://www.infoq.cn/article/WHlyjD6dQgPYxmcXWFzO?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/WHlyjD6dQgPYxmcXWFzO?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-05-20T19:38:13+08:00",
+      "fetched_at": "2026-05-20T11:51:55.359803+08:00",
+      "pre_filter_reason": "Mentions Kimi, Opus, Cursor, and Claude Code, all AI models or products.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "成本砍半效果翻倍：Composer 2.5如何用Kimi底座追平Opus？",
+          "angle": "深度对比Composer 2.5与Claude Code的性能与成本，解析Cursor的优化策略，并给出开发者选型建议。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "不换模型也能赢：Composer 2.5的底层优化技巧揭秘",
+          "angle": "拆解Cursor如何通过工程优化（如缓存、推理加速）以1/10成本达到顶级模型效果，分享可复用的技术思路。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "2b861a019b1b",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Introducing OpenAI for Singapore",
+      "link": "https://openai.com/index/introducing-openai-for-singapore",
+      "summary": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
+      "published": "2026-05-20T04:30:00+08:00",
+      "fetched_at": "2026-05-20T11:51:44.077711+08:00",
+      "pre_filter_reason": "OpenAI partnership for AI deployment and talent building.",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 6,
+        "scarcity": 5,
+        "virality": 5,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "OpenAI进军新加坡：亚洲AI创业者的新机遇",
+          "angle": "解读OpenAI新加坡合作计划对本地AI生态的影响，分析创业者、开发者如何借力OpenAI资源加速落地。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "从合作到落地：OpenAI新加坡计划中的企业AI部署指南",
+          "angle": "结合OpenAI的本地化支持，为企业提供AI部署、人才培训与公共服务场景的实操建议。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "bbfa991fd95f",
+      "source_id": "hn-ai",
+      "source_name": "Hacker News (AI)",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "Gemini 3.5 Flash",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "summary": "<p><a href=\"https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash\" rel=\"nofollow\">https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flas...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48196570\">https://news.ycombinator.com/item?id=48196570</a></p>\n<p>Points: 638</p>\n<p># Comments: 473</p>",
+      "published": "2026-05-20T01:43:45+08:00",
+      "fetched_at": "2026-05-20T11:52:05.343200+08:00",
+      "pre_filter_reason": "Gemini 3.5 Flash is an AI model from Google.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Gemini 3.5 Flash初体验：速度与性能的平衡之选",
+          "angle": "快速上手Gemini 3.5 Flash，实测其推理速度、多模态能力与成本优势，对比其他轻量模型。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "开发者必看：Gemini 3.5 Flash API集成与调优技巧",
+          "angle": "讲解如何通过Gemini API调用3.5 Flash，分享参数调优、并发控制与成本优化的实用技巧。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "2c441328290f",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "multica-ai /andrej-karpathy-skills",
+      "link": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "published": "2026-05-20T11:52:08.002032+08:00",
+      "fetched_at": "2026-05-20T11:52:08.002036+08:00",
+      "pre_filter_reason": "Improves Claude Code behavior, an AI coding assistant, based on LLM pitfalls.",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "用 CLAUDE.md 让 Claude Code 更听话：Karpathy 的避坑指南",
+          "angle": "手把手教你配置 CLAUDE.md 文件，结合 Karpathy 总结的 LLM 编码常见错误，展示如何通过一个文件显著提升 AI 代码生成的质量和可靠性。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "83743c767f98",
+      "source_id": "sspai",
+      "source_name": "少数派",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "派早报：Google 发布多项 Gemini 产品更新等",
+      "link": "https://sspai.com/post/109945",
+      "summary": "LG 发布新款 UltraGear 游戏显示器，Karpathy 加入 Anthropic 等。<a href=\"https://sspai.com/post/109945\" target=\"_blank\">查看全文</a>",
+      "published": "2026-05-20T08:59:32+08:00",
+      "fetched_at": "2026-05-20T11:51:51.250733+08:00",
+      "pre_filter_reason": "Google Gemini AI updates and Karpathy joining Anthropic",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "Google Gemini 大更新 & Karpathy 加入 Anthropic：AI 圈一日三变",
+          "angle": "快速盘点 Google 发布的多项 Gemini 产品更新，并解读 Karpathy 加入 Anthropic 对 AI 行业格局的影响，适合科技爱好者快速了解当日重磅动态。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "f757de00fcc6",
+      "source_id": "deepmind-blog",
+      "source_name": "Google DeepMind",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "link": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
+      "published": "2026-05-19T02:21:39+08:00",
+      "fetched_at": "2026-05-20T11:51:44.435513+08:00",
+      "pre_filter_reason": "AI used in biological research to reverse aging.",
+      "scores": {
+        "importance": 9,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "AI 科学家发现逆转细胞衰老的关键因子",
+          "angle": "介绍生物学家如何利用 AI 助手“Co-Scientist”快速筛选出能成功逆转人类细胞衰老的基因线索，探讨 AI 在抗衰老研究中的突破性应用。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "3feff91fedea",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "HKUDS /ViMax",
+      "link": "https://github.com/HKUDS/ViMax",
+      "summary": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
+      "published": "2026-05-20T11:52:08.003544+08:00",
+      "fetched_at": "2026-05-20T11:52:08.003547+08:00",
+      "pre_filter_reason": "AI video generation",
       "scores": {
         "importance": 7,
         "timeliness": 8,
@@ -595,126 +651,40 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "macOS26/Agent：如何用原生Mac应用整合18+AI模型写代码",
-          "angle": "手把手教你安装和配置macOS26/Agent，演示如何调用Claude、OpenAI、Gemini等模型自动编写代码、管理Xcode项目和Git版本，适合Mac开发者快速上手。",
+          "title": "ViMax 初体验：一个 AI 搞定导演、编剧、制片和视频生成",
+          "angle": "演示 ViMax 如何将视频创作全流程（从剧本到成片）集成到一个智能体中，展示其核心功能和使用门槛，适合内容创作者探索 AI 视频工具。",
           "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "从Cursor到macOS26：AI编程工具进阶实战",
-          "angle": "对比macOS26/Agent与Cursor、Claude Code的差异，重点展示其Safari自动化、AppleScript集成和MCP服务器扩展能力，帮助开发者选择最适合的AI编码助手。",
-          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "9d892e081f95",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
+      "id": "2adf75a94a63",
+      "source_id": "ifanr",
+      "source_name": "爱范儿",
       "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "BigBodyCobain /Shadowbroker",
-      "link": "https://github.com/BigBodyCobain/Shadowbroker",
-      "summary": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.",
-      "published": "2026-05-19T11:52:14.884642+08:00",
-      "fetched_at": "2026-05-19T11:52:14.884644+08:00",
-      "pre_filter_reason": "Mentions hooking an AI agent to parse data.",
-      "scores": {
-        "importance": 6,
-        "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Shadowbroker入门：开源情报工具追踪全球私人飞机与卫星",
-          "angle": "演示如何安装和使用Shadowbroker，从追踪富豪私人飞机到监测地震事件，并教你接入AI Agent自动分析数据发现隐藏关联，适合情报爱好者和数据分析师。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "开源情报新纪元：Shadowbroker如何改变全球监控格局",
-          "angle": "分析Shadowbroker整合多源数据（飞机、卫星、地震）的统一界面价值，探讨其结合AI Agent后对安全研究、新闻调查和地缘政治分析的影响。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "cf669ecac436",
-      "source_id": "reddit-ml",
-      "source_name": "Reddit r/MachineLearning",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "Rewriting model inference with CUDA kernels: the bottleneck was not just GEMM [P]",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1tgyx41/rewriting_model_inference_with_cuda_kernels_the/",
-      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been working on a CUDA-first inference runtime for small-batch / realtime ML workloads.</p> <p>The core idea is simple: instead of treating PyTorch / TensorRT / generic graph runtimes as the main execution path, I rewrite the model inference path directly with C++/CUDA kernels.</p> <p>This started from robotics / VLA workloads, but the problem is more general.</p> <p>In small-batch inference, the bottleneck is often not just a single slow GEMM. A lot of latency comes from the runtime glue around the math:</p> <ul> <li>fragmented small kernels</li> <li>norm / residual / activation boundaries</li> <li>quantize / dequantize overhead</li> <li>layout transitions</li> <li>Python / runtime scheduling</li> <li>graph compiler fusion failures</li> <li>precision conversion around FP8 / FP4 regions</li> </ul> <p>For cloud LLM serving, batching can hide a lot of this.</p> <p>For robotics, VLA, world models, and other realtime workloads, batch size is usually 1. There is nowhere to hide. Every launch, sync, and format boundary shows up directly in latency.</p> <p>Some current results from my implementation:</p> <table><thead> <tr> <th align=\"left\">Model / workload</th> <th align=\"left\">Hardware</th> <th align=\"left\">FlashRT latency</th> </tr> </thead><tbody> <tr> <td align=\"left\">Pi0.5</td> <td align=\"left\">Jetson Thor</td> <td align=\"left\">~44 ms</td> </tr> <tr> <td align=\"left\">Pi0</td> <td align=\"left\">Jetson Thor</td> <td align=\"left\">~46 ms</td> </tr> <tr> <td align=\"left\">GROOT N1.6</td> <td align=\"left\">Jetson Thor</td> <td align=\"left\">~41–45 ms</td> </tr> <tr> <td align=\"left\">Pi0.5</td> <td align=\"left\">RTX 5090</td> <td align=\"left\">~17.6 ms</td> </tr> <tr> <td align=\"left\">GROOT N1.6</td> <td align=\"left\">RTX 5090</td> <td align=\"left\">~12.5–13.1 ms</td> </tr> <tr> <td align=\"left\">Pi0-FAST</td> <td align=\"left\">RTX 5090</td> <td align=\"left\">~2.39 ms/token</td> </tr> <tr> <td align=\"left\">Qwen3.6 27B</td> <td align=\"left\">RTX 5090</td> <td align=\"left\">~129 tok/s with NVFP4</td> </tr> <tr> <td align=\"left\">Motus / Wan-style world model</td> <td align=\"left\">RTX 5090</td> <td align=\"left\">~1.3s baseline → targeting ~100ms E2E</td> </tr> </tbody></table> <p>The Motus / world-model case is especially interesting.</p> <p>The baseline path is around 1.3s end-to-end. The target is ~100ms E2E, but the hard part is not simply “use a faster GEMM”. The bottlenecks are VAE, joint attention, launch fragmentation, and a large amount of glue around the actual math.</p> <p>One lesson from this work: lower precision is not automatically a win.</p> <p>FP8 has been consistently useful. FP4 / NVFP4 is more mixed. It can help memory footprint and some large GEMM regions, but if the FP4 region is small, discontinuous, or surrounded by conversion / scaling overhead, the end-to-end speedup can be tiny.</p> <p>For example, in some VLA / world-model paths, FP4 over FP8 only gives a few percent latency improvement unless the region is large and deeply fused.</p> <p>This changed how I think about inference optimization.</p> <p>For large-batch cloud serving, generic runtimes and batching are often enough.</p> <p>For realtime small-batch inference, the runtime overhead becomes the workload.</p> <p>Curious if others have seen similar behavior with torch.compile, TensorRT, XLA, Triton, or custom CUDA kernels.</p> <p>At what point do you stop trying to make a generic compiler optimize the model, and just rewrite the inference path directly?</p> <p>Implementation: <a href=\"https://github.com/LiangSu8899/FlashRT\">https://github.com/LiangSu8899/FlashRT</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Diligent-End-2711\"> /u/Diligent-End-2711 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tgyx41/rewriting_model_inference_with_cuda_kernels_the/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tgyx41/rewriting_model_inference_with_cuda_kernels_the/\">[comments]</a></span>",
-      "published": "2026-05-19T03:46:23+08:00",
-      "fetched_at": "2026-05-19T11:52:13.751470+08:00",
-      "pre_filter_reason": "Describes CUDA kernels for ML inference, an AI-related technical topic.",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "为折叠 iPhone 和苹果 AI 做足准备｜苹果 WWDC 提前剧透",
+      "link": "https://www.ifanr.com/1666255?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "6 月 9 日，不见不散<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
+      "published": "2026-05-19T18:00:36+08:00",
+      "fetched_at": "2026-05-20T11:51:59.631635+08:00",
+      "pre_filter_reason": "Apple AI preparation",
       "scores": {
         "importance": 7,
         "timeliness": 8,
         "actionability": 9,
-        "scarcity": 8,
-        "virality": 6,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "CUDA内核重写推理：突破GEMM瓶颈的实战指南",
-          "angle": "从零开始讲解如何用CUDA内核替代PyTorch/TensorRT执行小批量实时ML推理，重点展示非GEMM瓶颈的优化技巧，适合有CUDA基础的AI工程师。",
-          "difficulty": "高级"
-        },
-        {
-          "tag": "analysis",
-          "title": "为什么PyTorch不够快？CUDA原生推理运行时的性能革命",
-          "angle": "对比传统图运行时与CUDA-first方案的性能差异，解析作者为何选择重写推理路径，以及这对低延迟场景（如实时AI）的深远意义。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "708a2c0d4a82",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "microsoft /ai-agents-for-beginners",
-      "link": "https://github.com/microsoft/ai-agents-for-beginners",
-      "summary": "12 Lessons to Get Started Building AI Agents",
-      "published": "2026-05-19T11:52:14.885183+08:00",
-      "fetched_at": "2026-05-19T11:52:14.885185+08:00",
-      "pre_filter_reason": "Microsoft AI agents for beginners course.",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 5,
+        "scarcity": 6,
         "virality": 8,
-        "crowd_heat": 0.0
+        "crowd_heat": 3.5
       },
-      "quality_score": 7.2,
+      "quality_score": 7.4,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "微软AI Agent入门课：12节课从零构建智能体",
-          "angle": "快速概览微软《AI Agents for Beginners》课程大纲，演示第一节课如何创建第一个AI Agent，并推荐学习路径，适合AI初学者和开发者。",
+          "tag": "news",
+          "title": "WWDC 提前剧透：折叠 iPhone 和苹果 AI 的终极准备",
+          "angle": "基于现有爆料，分析苹果如何在即将到来的 WWDC 上为折叠屏 iPhone 和 AI 战略铺路，解读可能发布的软硬件更新及其市场影响。",
           "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "微软AI Agent实战：用12个Lesson搭建企业级智能助手",
-          "angle": "深入讲解课程中的关键项目案例，如如何设计Agent的记忆、工具调用和多Agent协作，并给出从学习到落地的建议，适合有基础想进阶的开发者。",
-          "difficulty": "中级"
         }
       ]
     }
