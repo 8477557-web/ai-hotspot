@@ -1,246 +1,98 @@
 {
-  "updated_at": "2026-05-20T11:53:23.966836+08:00",
+  "updated_at": "2026-05-21T12:02:24.043360+08:00",
   "total": 20,
   "items": [
     {
-      "id": "0987bddddee3",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "NVIDIA-Verified Agent Skills Provide Capability Governance for AI Agents",
-      "link": "https://developer.nvidia.com/blog/nvidia-verified-agent-skills-provide-capability-governance-for-ai-agents/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/agentic-ai-use-cases-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"agentic-ai-use-cases\" width=\"768\" />Autonomous AI agents are becoming more capable. Open models, Model Context Protocol (MCP)-connected tools, and portable skills are also making agents easier to...",
-      "published": "2026-05-20T07:40:45+08:00",
-      "fetched_at": "2026-05-20T11:51:46.760007+08:00",
-      "pre_filter_reason": "NVIDIA AI agent capability governance",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.8,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "NVIDIA智能体技能认证：如何为AI Agent设置能力边界",
-          "angle": "手把手教你使用NVIDIA Verified Agent Skills为AI Agent配置权限和治理规则，确保安全可控的自动化操作。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "analysis",
-          "title": "AI Agent治理新范式：NVIDIA能力认证体系解读",
-          "angle": "分析NVIDIA如何通过技能认证解决AI Agent的权限失控风险，对比传统API治理的优劣。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "01237cbe835f",
+      "id": "d4f8fd8492c4",
       "source_id": "openai-blog",
       "source_name": "OpenAI Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
-      "link": "https://openai.com/index/advancing-content-provenance",
-      "summary": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
-      "published": "2026-05-19T18:45:00+08:00",
-      "fetched_at": "2026-05-20T11:51:44.077757+08:00",
-      "pre_filter_reason": "AI content provenance and ecosystem",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "summary": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
+      "published": "2026-05-20T08:00:00+08:00",
+      "fetched_at": "2026-05-21T12:00:38.861953+08:00",
+      "pre_filter_reason": "OpenAI模型解决数学猜想，属于AI研究",
       "scores": {
-        "importance": 8,
+        "importance": 9,
         "timeliness": 9,
-        "actionability": 7,
-        "scarcity": 7,
-        "virality": 8,
+        "actionability": 8,
+        "scarcity": 9,
+        "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 8.7,
+      "quality_score": 8.5,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "如何用OpenAI新工具验证AI生成内容的真伪",
-          "angle": "实操演示Content Credentials和SynthID的使用方法，帮助创作者和用户识别AI生成图片/文本。",
+          "title": "AI如何推翻80年数学难题？",
+          "angle": "用通俗语言解释OpenAI模型如何破解单位距离猜想，展示AI在数学证明中的新能力。",
           "difficulty": "入门"
         },
         {
-          "tag": "explainer",
-          "title": "AI内容溯源技术：为什么你的AI作品需要数字水印",
-          "angle": "科普内容凭证（Content Credentials）的工作原理，以及它对AI创作者和消费者的实际意义。",
-          "difficulty": "入门"
+          "tag": "analysis",
+          "title": "数学界地震：AI证明颠覆80年猜想意味着什么？",
+          "angle": "分析这一里程碑对数学研究范式的影响，以及AI驱动科学发现的前景。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "a8ab809bc471",
-      "source_id": "anthropic-blog",
-      "source_name": "Anthropic (Claude Blog)",
+      "id": "1ccbdab5ed93",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
-      "link": "https://claude.com/blog/claude-managed-agents-updates",
-      "summary": "<div class=\"u-rich-text-blog u-margin-trim w-richtext\"><p>Starting today, Claude Managed Agents can operate in a sandbox you control and connect to your private Model Context Protocol (MCP) servers. Both the sandbox where an agent executes tools and the services it reaches run within the established boundaries of your enterprise, under your security and runtime controls.</p><p>The sandbox runs on your own infrastructure, or with managed providers like <a href=\"https://developers.cloudflare.com/sandbox/claude-managed-agents/\">Cloudflare</a>, <a href=\"https://www.daytona.io/docs/en/guides/claude/claude-managed-agents\">Daytona</a>, <a href=\"https://github.com/modal-labs/claude-managed-agents-modal-sandbox/tree/main\">Modal</a>, or <a href=\"https://vercel.com/kb/guide/run-claude-managed-agent-tools-with-vercel-sandbox\">Vercel</a> to handle the compute and isolation for you.</p><p>On the Claude Platform, <a href=\"https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes\">self-hosted sandboxes</a> is available in public beta and MCP tunnels in research preview (<a href=\"https://claude.com/form/claude-managed-agents\">request access</a>).</p><h2><strong>Keep agent execution within your perimeter</strong></h2><p>With self-hosted sandboxes, you keep sensitive files, packages, and services in your own infrastructure or with a managed sandbox provider. The <a href=\"https://www.anthropic.com/engineering/managed-agents\">agent loop</a> that handles orchestration, context management, and error recovery stays on Anthropic’s infrastructure, while tool execution moves to your own configured environment.</p><p>Inside your perimeter, network policies, audit logging, and security tooling are already in place, and files and repositories don't leave. You also control the compute: resource sizing and the runtime image are set on your side, so agents running compute-heavy work such as long builds or image generation get the CPU, memory, and capacity the task needs.</p><figure class=\"w-richtext-align-fullwidth w-richtext-figure-type-image\"><div><img alt=\"\" src=\"https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0b4fa5fbae3bdfc63be57c_Sandboxes.png\" /></div></figure><h2><strong>Choose your sandbox client</strong></h2><p>Bring any sandbox client you want, or start with one of our supported providers:</p><ul><li><a href=\"https://developers.cloudflare.com/sandbox/claude-managed-agents/\"><strong>Cloudflare</strong></a> runs sandboxes at scale using microVMs and lighter weight isolates. Outbound network requests are in your control with zero-trust secrets injection, customizable proxies to audit, reroute, or modify egress, and the ability to connect to internal services over Cloudflare's network. <a href=\"https://amplitude.com/\" target=\"_blank\"><strong>Amplitude</strong></a> is building Design Agent, an internal tool for on-brand mockups and design critiques, on Managed Agents and Cloudflare for tighter observability and control.</li><li><a href=\"https://www.daytona.io/docs/en/guides/claude/claude-managed-agents\"><strong>Daytona</strong></a> sandboxes are full composable computers, long-running and stateful. The same primitive runs a quick burst or an agent that works for hours. The sandbox stays accessible while a session runs over SSH or an authenticated preview URL, or can be paused and restored with full state preserved. <a href=\"http://clay.com/\"><strong>Clay’s</strong></a><strong> </strong>GTM engineering agent, Sculptor, builds, tests, and monitors workflows autonomously on Managed Agents and Daytona.</li><li><a href=\"https://modal.com/blog/introducing-claude-managed-agents-with-modal-sandboxes\"><strong>Modal</strong></a> is a cloud platform built for AI workloads, where sandboxes share the same foundation as Modal's functions, storage, and networking primitives, giving you everything you need to build production AI systems. Modal's custom container runtime delivers fast startup on any image, scales to hundreds of thousands of concurrent sandboxes, and gives you CPU and GPU resources on demand.</li><li><a href=\"https://vercel.com/kb/guide/run-claude-managed-agent-tools-with-vercel-sandbox\"><strong>Vercel</strong></a><strong> </strong>sandboxes combine VM security, VPC peering, and bring your own cloud with millisecond startup time. Managed Agents handles the model, tools, and session state, while the Vercel Sandbox firewall injects credentials at the network boundary so they never enter the sandbox. <a href=\"https://rogo.ai/\"><strong>Rogo</strong></a>, an AI platform for institutional finance, is building an analyst agent on Managed Agents and Vercel Sandbox to handle their proprietary data securely.</li></ul><h2><strong>Connect to services within your private network</strong></h2><p>With <a href=\"http://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/overview\">MCP tunnels</a>, your agents reach MCP servers inside your private network without exposing them to the public internet. Internal databases, private APIs, knowledge bases, and ticketing systems become tools your agents can call. A lightweight gateway you deploy makes a single outbound connection, no inbound firewall rules, no public endpoints, and traffic encrypted end to end.</p><p>MCP tunnels is supported in Managed Agents and the Messages API. MCP tunnels is managed from workspace settings within the <a href=\"https://platform.claude.com/\">Claude Console</a> by organization admins.</p><figure class=\"w-richtext-align-fullwidth w-richtext-figure-type-image\"><div><img alt=\"\" src=\"https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a0b4fdc9749bb31acafa95b_MCP%20tunnel%20(1).png\" /></div></figure></div>",
-      "published": "2026-05-19T08:00:00+08:00",
-      "fetched_at": "2026-05-20T11:51:44.733122+08:00",
-      "pre_filter_reason": "Claude Managed Agents is an AI product launch.",
+      "title": "Mastering Agentic Techniques: AI Agent Customization",
+      "link": "https://developer.nvidia.com/blog/mastering-agentic-techniques-ai-agent-customization/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/ai-agents-models-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ai-agents-models\" width=\"768\" />Autonomous AI agents are taking on all types of work for businesses: routing logistics fleets, triaging support tickets, generating code, and orchestrating...",
+      "published": "2026-05-21T04:00:00+08:00",
+      "fetched_at": "2026-05-21T12:00:41.919102+08:00",
+      "pre_filter_reason": "AI Agent定制技术文章",
       "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 8,
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 6,
         "crowd_heat": 0.0
       },
-      "quality_score": 8.3,
+      "quality_score": 8.2,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "Claude托管Agent进阶：搭建自托管沙箱与MCP隧道",
-          "angle": "从零配置Claude Managed Agents的自定义沙箱环境，并打通私有MCP服务器的连接。",
-          "difficulty": "高级"
-        },
-        {
-          "tag": "analysis",
-          "title": "企业级Agent部署新选择：Claude沙箱与MCP隧道深度解析",
-          "angle": "解读Anthropic这项更新如何解决企业数据隐私痛点，与云端Agent方案对比优劣势。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "c84d9db55e10",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "阿里发布新一代千问旗舰模型Qwen3.7-Max",
-      "link": "https://36kr.com/newsflashes/3817070340342921?f=rss",
-      "summary": "36氪获悉，5月20日，阿里巴巴发布全新一代千问旗舰模型Qwen3.7-Max，在三方机构Arena全球大模型盲测总榜中，Qwen3.7-Max位列国产模型第一。千问3.7面向当下智能体（Agent）全新设计，实现了编程、推理等核心能力的持续突破，甚至可全自主完成35小时的超长程智能体复杂任务：在一个全新的芯片平台上，Qwen3.7-Max通过自主编程和超1000次工具调用，实现了一个关键内核的自我进化，推理速度较原版本提升10倍。",
-      "published": "2026-05-20T11:24:44+08:00",
-      "fetched_at": "2026-05-20T11:51:49.047901+08:00",
-      "pre_filter_reason": "阿里发布新一代千问旗舰模型Qwen3.7-Max，属于AI大模型产品",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.1,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "Qwen3.7-Max实测：35小时超长任务自主编程能力有多强",
-          "angle": "解析阿里新旗舰模型如何通过自主编程和1000+工具调用实现芯片内核自我进化，推理速度提升10倍。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "comparison",
-          "title": "国产大模型新王登基？Qwen3.7-Max vs GPT-4o盲测对比",
-          "angle": "基于Arena盲测数据，对比Qwen3.7-Max与海外顶尖模型在编程、推理、Agent任务上的表现差异。",
+          "title": "手把手教你定制AI智能体：从零到自动化",
+          "angle": "结合NVIDIA最新技术，分步讲解如何自定义AI Agent，实现任务自动化。",
           "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "c7341caf42d2",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Anthropic首次揭秘下一代Claude怎么造！用户吐槽直接喂模型，连AI“做梦”都被训练",
-      "link": "https://www.infoq.cn/article/8AFM65dK2wFMypqoz6ok?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/8AFM65dK2wFMypqoz6ok?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-05-19T21:21:43+08:00",
-      "fetched_at": "2026-05-20T11:51:55.360004+08:00",
-      "pre_filter_reason": "Anthropic's next Claude model development, AI product news",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.1,
-      "topics": [
-        {
-          "tag": "explainer",
-          "title": "Anthropic训练下一代Claude的三大秘密：用户反馈、AI梦境与数据喂养",
-          "angle": "揭秘Anthropic如何利用用户直接反馈和AI内部状态（“做梦”）来训练更强大的模型。",
-          "difficulty": "中级"
         },
         {
           "tag": "analysis",
-          "title": "AI训练新范式：为什么Anthropic要“喂”模型用户吐槽",
-          "angle": "分析Anthropic将用户批评直接作为训练数据的创新方法，以及这对AI对齐研究的启示。",
+          "title": "AI Agent定制化实战：企业级应用的关键技巧",
+          "angle": "深入解析Agentic技术在企业场景中的定制策略，提升效率与准确性。",
           "difficulty": "高级"
         }
       ]
     },
     {
-      "id": "a50b236fda03",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
+      "id": "58a82d03d60b",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "阿里千问最强智能体模型 Qwen3.7-Max 发布",
-      "link": "https://www.ithome.com/0/952/670.htm",
-      "summary": "<p>IT之家 5 月 20 日消息，阿里千问大模型今日正式发布 <strong>Qwen3.7-Max </strong>—— 面向智能体时代的新一代旗舰模型，即将通过 API 提供服务。Qwen3.7-Max 是阿里千问迄今最全面、最强大的智能体模型。</p><p>千问大模型官方介绍称，<strong>Qwen3.7-Max 致力于成为全能的智能体基座</strong> —— 无论是编写和调试代码、自动化办公流程，还是在跨越数百乃至数千步的长周期任务中持续自主执行，都能胜任。</p><p style=\"text-align: center;\"><img alt=\"图片\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/be25fe3b-8981-42c6-8123-a3e479de9f97.jpg?x-bce-process=image/format,f_auto\" /></p><p>Qwen3.7-Max 的核心优势在于智能体能力的广度与深度：</p><ul class=\" list-paddingleft-2\"><li><p>编程方面，从前端原型开发到复杂的多文件工程均能驾驭；</p></li><li><p>办公与生产力方面，通过 MCP 集成和多智能体协作实现工作流自动化；</p></li><li><p>长周期自主执行方面，在一项长达 35 小时、超过 1000 次工具调用的全自主内核优化实验中保持了连贯推理，验证了其持久稳定的执行能力；</p></li><li><p>此外，无论部署在 Claude Code、OpenClaw、Qwen Code 还是其他框架下，都能稳定发挥出色的跨框架泛化能力。</p></li></ul><p>Qwen3.7-Max 即将通过阿里云百炼提供服务，用户可以通过阿里云百炼 API 调用（即将上线）。</p><p>IT之家附 Qwen3.7-Max 模型测试表现如下：</p><p style=\"text-align: center;\"><img alt=\"图片\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/f58d8ad3-9d2c-4786-8880-982917c0df56.png?x-bce-process=image/format,f_auto\" /></p><p><strong>在编程智能体方面</strong>，Qwen3.7-Max 在 SWE-Pro（60.6）、SWE-Multilingual（78.3）、SciCode（53.5）和 QwenSVG（1608）上均取得领先表现。在 Terminal Bench 2.0-Terminus（69.7）上超越 DS-V4-Pro Max（67.9）。在 SWE-Verified（80.4）上与 Opus-4.6 Max（80.8）和 DS-V4-Pro Max（80.6）表现相当。</p><p><strong>在通用智能体方面</strong>，提升更为显著。Qwen3.7-Max 在 MCP-Mark（60.8 vs. GLM-5.1 的 57.5）、MCP-Atlas（76.4 vs. Opus-4.6 的 75.8）和 Skillbench（59.2 vs. K2.6 的 56.2）上表现突出，并在 Kernel Bench L3（1.98 倍中位数加速，96% 加速率）上展示了 GPU 内核优化能力。在 BFCL-V4（75.0）、Qwenclaw（64.3）和 ClawEval（65.2）上同样表现出色，紧追 Opus-4.6 Max。在办公自动化基准 SpreadSheetBench-v1 上得分 87.0，处于顶尖水平。</p><p>在推理方面，Qwen3.7-Max 在 GPQA Diamond（92.4 vs. Opus-4.6 的 91.3）、HLE（41.4 vs. Opus-4.6 的 40.0）、HMMT 2026 Feb（97.1 vs. Opus-4.6 的 96.2）、IMOAnswerBench（90.0 vs. DS-V4-Pro 的 89.8）和 Apex（44.5 vs. DS-V4-Pro 的 38.3）上均取得领先成绩。</p><p><strong>在通用能力与多语言方面</strong>，Qwen3.7-Max 在 IFBench（79.1 vs. DS-V4-Pro 的 77.0）上表现突出，展示了指令遵循能力。在 WMT24++（85.8）和 MAXIFE（89.2）上同样领先，表明其多语言理解和翻译质量处于一流水平。在 SuperGPQA（73.6）和 QwenWorldBench（57.3）上表现出色。</p><p style=\"text-align: center;\"><img alt=\"图片\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/e032cf15-8338-449d-88f0-6a06f17eb453.jpg?x-bce-process=image/format,f_auto\" /></p>",
-      "published": "2026-05-20T11:06:54+08:00",
-      "fetched_at": "2026-05-20T11:52:01.218221+08:00",
-      "pre_filter_reason": "阿里千问AI模型发布",
+      "title": "全球首部95分钟AI长片将在戛纳电影节首映，由Seedance 2.0制作",
+      "link": "https://www.leiphone.com/category/industrynews/qlFtSPjNd1qD0RVw.html",
+      "summary": "<p>法国当地时间5月19日，字节跳动旗下火山引擎携Seedance 2.0亮相第79届戛纳电影节。多家国际级企业现场披露了与Seedance 2.0的合作进展，顶尖视觉特效公司Outpost VFX、全球广告传播集团WPP，以及欧洲领先的AIGC平台Magnific等，均已将Seedance 2.0接入其日常内容生产工作流。<br />电影节期间，Seedance 2.0参与制作的8部AI影片也将在戛纳展映。其中，全球首部95分钟AI长片《HELL GRIND》将正式首映。该片由美国AI视频平台Higgsfield基于Seedance 2.0打造，在大幅攻克人物一致性与镜头连贯性难题的同时，更是创造了极具颠覆性的工业化指标：仅由15人团队在14天内完成，成本不到50万美元，仅为传统同级影片的1%。<br />此外，知名导演吕克·贝松创立的SEEN工作室也宣布，将利用Seedance 2.0结合全iPhone实拍，打造首部AI动画长片。</p><p><span style=\"color: #FFFFFF;\">雷峰网</span></p>",
+      "published": "2026-05-20T18:07:00+08:00",
+      "fetched_at": "2026-05-21T12:00:48.766464+08:00",
+      "pre_filter_reason": "Reports on an AI-generated feature film and AI video platform.",
       "scores": {
         "importance": 9,
         "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Qwen3.7-Max 智能体模型实战：自动编写代码与调试全流程",
-          "angle": "演示如何用Qwen3.7-Max完成一个从需求分析到代码调试的完整开发任务，突出其长周期自主执行能力。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "analysis",
-          "title": "阿里Qwen3.7-Max发布：智能体模型如何重塑办公自动化",
-          "angle": "解读Qwen3.7-Max在自动化办公流程中的典型应用场景，分析其对企业效率提升的潜在影响。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "0b7eb18018db",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "抢先李飞飞！世界模型能多人联机玩FPS游戏了",
-      "link": "https://www.qbitai.com/2026/05/420083.html",
-      "summary": "所谓的真实……真的重要吗？",
-      "published": "2026-05-19T15:05:05+08:00",
-      "fetched_at": "2026-05-20T11:51:57.120003+08:00",
-      "pre_filter_reason": "World model for multiplayer FPS game, AI research.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
+        "actionability": 8,
         "scarcity": 8,
         "virality": 9,
         "crowd_heat": 0.0
@@ -249,60 +101,35 @@
       "topics": [
         {
           "tag": "news",
-          "title": "世界模型新突破：AI竟能多人联机玩FPS游戏",
-          "angle": "介绍世界模型在游戏领域的创新应用，探讨其如何实现多人联机FPS游戏，并分析“真实”与“模拟”的边界。",
+          "title": "全球首部95分钟AI长片戛纳首映：Seedance 2.0如何征服电影界？",
+          "angle": "报道AI长片《HELL GRIND》首映，解读Seedance 2.0在人物一致性和镜头连贯性上的突破。",
           "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "从短片到长片：Seedance 2.0教你制作连贯AI电影",
+          "angle": "以Seedance 2.0为例，讲解AI电影制作中保持角色和场景一致性的技巧。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "086da87e4ad7",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
+      "id": "e3afae1c9c30",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
       "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "anthropics /claude-plugins-official",
-      "link": "https://github.com/anthropics/claude-plugins-official",
-      "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "published": "2026-05-20T11:52:08.000549+08:00",
-      "fetched_at": "2026-05-20T11:52:08.000552+08:00",
-      "pre_filter_reason": "Official directory of Claude Code Plugins, an AI coding tool.",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "阿里发布新一代千问旗舰模型Qwen3.7-Max，登顶最佳国产模型",
+      "link": "https://www.infoq.cn/article/jAICqmzYVqQ8sHdGSzEH?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/jAICqmzYVqQ8sHdGSzEH?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-05-21T17:47:10+08:00",
+      "fetched_at": "2026-05-21T12:00:50.103083+08:00",
+      "pre_filter_reason": "Alibaba's new flagship AI model launch",
       "scores": {
         "importance": 8,
         "timeliness": 9,
         "actionability": 9,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Claude Code插件官方目录上线：如何快速发现并安装高质量插件",
-          "angle": "手把手教用户浏览和使用Anthropic官方管理的Claude Code插件目录，提升开发效率。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "74273e3a0a45",
-      "source_id": "ifanr",
-      "source_name": "爱范儿",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "谷歌用 AI 「杀死」谷歌，这场发布会看得人缺氧",
-      "link": "https://www.ifanr.com/1666329?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "新的 Gemini 3.5、Agent 产品、视频模型都来了<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
-      "published": "2026-05-20T05:52:48+08:00",
-      "fetched_at": "2026-05-20T11:51:59.631607+08:00",
-      "pre_filter_reason": "Mentions Gemini 3.5, Agent products, and video models, all AI-related.",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 8,
         "scarcity": 7,
         "virality": 9,
         "crowd_heat": 0.0
@@ -310,115 +137,90 @@
       "quality_score": 7.8,
       "topics": [
         {
+          "tag": "news",
+          "title": "阿里Qwen3.7-Max登顶国产模型：性能有多强？",
+          "angle": "快速解读Qwen3.7-Max的升级亮点和评测表现，对比其他国产模型。",
+          "difficulty": "入门"
+        },
+        {
           "tag": "analysis",
-          "title": "谷歌用AI“杀死”谷歌：Gemini 3.5与Agent产品如何颠覆搜索体验",
-          "angle": "深度解析谷歌发布会核心亮点，分析Gemini 3.5和Agent产品如何改变传统搜索模式，以及视频模型带来的新可能。",
+          "title": "千问旗舰模型Qwen3.7-Max深度评测：国产AI的新天花板",
+          "angle": "从技术架构、应用场景和行业影响角度，分析Qwen3.7-Max为何能登顶。",
           "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "2cd877f291da",
-      "source_id": "huggingface-blog",
-      "source_name": "Hugging Face Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "OlmoEarth v1.1: A more efficient family of models",
-      "link": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
-      "summary": "",
-      "published": "2026-05-20T02:38:09+08:00",
-      "fetched_at": "2026-05-20T11:51:47.090763+08:00",
-      "pre_filter_reason": "Title mentions a family of models, likely AI models.",
+      "id": "682d4395f0f4",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "9亿次点击背后，AI应用的真实江湖｜2026中国AI应用全景图谱报告",
+      "link": "https://36kr.com/p/3818450346738823?f=rss",
+      "summary": "<p>有一个问题，值得在2026年认真问一次——</p>\n  <p>你上一次用AI应用，是让它回答了一个问题，还是让它完成了一件事？</p>\n  <p>这两个动作之间，隔着一个时代。</p>\n  <p>2026年，AI应用的产品范式，正在从「聊天」走向「做事」。</p>\n  <p>这不是预言，是已经发生的现实。</p>\n  <p>从「回答」到「执行」，背后的数据是怎样的？推手是什么？有哪些代表企业？</p>\n  <p>为了回答这些问题，量子位智库发布2026年中国AI应用全景图谱报告。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260521/v2_896e346869ac4a0a98976bacaf6fca6c@6381723_oswg5927188oswg4488oswg3174_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1\" /></p>\n  <p>报告中，我们通过2026年中国AI应用全景图谱试图记录当下AI应用变革时刻的横截面。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260521/v2_d654878ddd0442fe8326adbf170198b2@6381723_oswg337019oswg842oswg596_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1\" /></p>\n  <p>图谱横跨ToC软硬件、ToB应用、底层开发三大维度，覆盖数百款产品，组成一条完整的AI价值传导链。</p>\n  <p>技术向下渗透，场景向上生长，一个完整的AI产业生态已经成形。</p>\n  <h2>生态有多大，数字最诚实</h2>\n  <p>根据量子位智库统计，2026年4月，国内AI应用Web端月访问量突破9亿，APP端月下载量超2.4亿，日活同比暴涨223%。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260521/v2_c8da102bd7234849b0254c1370af15a1@6381723_oswg638027oswg1392oswg728_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1\" /></p>\n  <p>国家统计局数据显示，2026年中国日均Token调用量突破140万亿，两年增长超千倍。</p>\n  <p>中国，已是全球AI应用活跃度最高的国家。</p>\n  <p>但比总量更值得看的，是结构的变化。</p>\n  <p>量子位智库将国内AI应用分为AI智能助手、AI文娱生活、AI效率办公、AI创作四大赛道。</p>\n  <p>在关键的用户活跃和用户留存两项指标面前，不同赛道的表现已经拉出明显差异——</p>\n  <p>在用户活跃方面，AI效率Web端用户活跃份额超七成，AI创作APP端日活年增449%，表现亮眼。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260521/v2_a435734d08d347918d2e3ddf5dd2a71e@6381723_oswg606484oswg1278oswg692_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1\" /></p>\n  <p>流量高涨背后，还有一道更残酷的考题在等着：留存。</p>\n  <p>在用户留存方面，智能助手留存最高，AI文娱赛道呈现黏性两极分化。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260521/v2_0fc2cf4299f4466982f154dc8cea965a@6381723_oswg596383oswg1290oswg742_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1\" /></p>\n  <p>用户不会因为「好玩」每天回来。但如果AI嵌进了用户的日常工作流，他就几乎不会离开。</p>\n  <p>这正是2026年最重要的分水岭：从「好玩的AI」到「离不开的AI」。</p>\n  <h2>五大趋势重塑行业</h2>\n  <p>数据截面之外，是五条正在重塑行业的趋势。</p>\n  <p><strong>1.Agent化——AI从回答问题进化到完成任务。&nbsp;</strong></p>\n  <p>据统计，Agent单次Token消耗达传统AI百倍。</p>\n  <p>2026年的AI应用不再满足只做对话框里的答题机，而是逐渐实现主动规划、调用工具、执行多步骤任务。</p>\n  <p>竞争重心已从「谁先做出Agent 」转向「谁能在垂直场景做得更深、留住用户」。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260521/v2_ac51b34abaeb420aa2e60f196373ddae@6381723_oswg1455168oswg2004oswg1144_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1\" /></p>\n  <p><strong>2.模型普惠化——技术红利向应用层转移</strong></p>\n  <p>Agent能跑起来，离不开另一件事：成本下来了、能力上去了。</p>\n  <p>DeepSeek V4-Pro API价格仅0.025元/百万tokens，是GPT-5.5的七分之一。</p>\n  <p>同时，以Seedance2.0为代表的视觉多模态生成模型能力突破，也为生成产品打开新的想象力和产品空间。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260521/v2_751022f3ed464de7bd149960a69e72b4@6381723_oswg1028016oswg1952oswg986_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1\" /></p>\n  <p>成本打穿、天花板提高，意味着更多人可以入场。</p>\n  <p><strong>3.入口化——AI助手变成下一代「操作系统」</strong></p>\n  <p>今年春节，字节、阿里、腾讯、百度四家模型巨头合计砸出超45亿，抢的不是用户，是「需要AI的第一秒打开谁」的本能。</p>\n  <p>谁赢得用户的默认习惯，谁赢得下一个10年。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260521/v2_04ccd9153af041eb8ec8296b2cd12a66@6381723_oswg1028016oswg1952oswg986_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1\" /></p>\n  <p>烧钱抢入口，不禁让人想问：钱能收回来吗？</p>\n  <p><strong>4.付费化——AI产品商业模式初步跑通&nbsp;</strong></p>\n  <p>Kimi K2.5发布不到20天，收入超2025年全年；智谱API提价后调用量反增；豆包上线付费模式。</p>\n  <p>这些标志性商业化节点的发生说明——当AI真正嵌进工作流，用户不需要被说服，付费是自然结果。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260521/v2_7cfb3fa8484347e0a3ae2d94b1ab32e5@6381723_oswg1405420oswg2006oswg1152_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1\" /></p>\n  <p>C端付费逻辑刚刚跑通，而B端的故事则更深、更慢、也更难被撼动。</p>\n  <p><strong>5.垂直深化——B端垂直场景AI应用开启规模化渗透</strong></p>\n  <p>医疗、金融、法律或许是渗透最快的三个高价值战场。</p>\n  <p>数据飞轮加私有知识图谱，让老玩家的护城河越筑越深，进场越晚或将越难翻越。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260521/v2_cf0a4bb890554582ae90e666df9a4d7b@6381723_oswg1125978oswg1380oswg900_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1\" /></p>\n  <p>从聊天到「干活」，从尝鲜到「离不开」。</p>\n  <p>AI应用的这一年，不是终局，是开局。</p>\n  <p>下一个10年，谁会成为入口、谁能跑通付费、谁又能打穿场景、下一波趋势又会是什么？</p>\n  <p>答案，交给时间，也交给用户。</p>\n  <h2>获取完整报告</h2>\n  <p>从2024年开始，量子位智库搭建自研AI产品库，对国内上千款AI产品进行长期跟踪，推出数据月报、榜单、访谈、沙龙等深度内容。</p>\n  <p>通过年度的《2026中国AI应用全景图谱报告》，我们期望能够通过对产品格局和数据表现的分析呈现，揭示国内AI产业向产品及商业化深水区转变的趋势，为各位读者提 供关键决策锚点。</p>\n  <p>完整报告下载链接：<a href=\"https://jkhbjkhb.feishu.cn/wiki/W5D7wuDcbiPXDLkaRLQcAJpOn8f\" rel=\"noopener noreferrer\" target=\"_blank\">https://jkhbjkhb.feishu.cn/wiki/W5D7wuDcbiPXDLkaRLQcAJpOn8f</a></p>",
+      "published": "2026-05-21T11:52:45+08:00",
+      "fetched_at": "2026-05-21T12:00:44.673095+08:00",
+      "pre_filter_reason": "AI应用全景图谱报告，直接讨论AI",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "9亿次点击背后：AI应用从“聊天”到“做事”的进化",
+          "angle": "基于2026中国AI应用全景图谱，分析AI应用从问答到任务执行的转变趋势。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "2026年必知：如何让AI帮你“做事”而非“回答”？",
+          "angle": "结合报告数据，教用户选择能执行任务的AI应用，提升工作效率。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "fbd29bd32fba",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "中国移动在全国上线词元（Token）套餐，最低 5 元 / 月",
+      "link": "https://www.ithome.com/0/953/248.htm",
+      "summary": "<p>IT之家 5 月 21 日消息，据新华社今日报道，中国移动宣布在全国上线<strong>词元（Token）套餐</strong>。此次中国移动创新推出统一算力量纲，其将不同模型、不同规格的词元消耗统一封装为标准积分，旨在解决多模型量纲不统一的问题。</p><p>据中国移动相关负责人介绍，<strong>该套餐价格最低为 5 元月包</strong>，包含一定数量的词元，适合轻度体验用户。中国移动的词元套餐已实现全国用户全覆盖。</p><p>除了基础算力套餐，中国移动还将词元和云电脑、云手机等产品深度融合，用户购买词元套餐，可直接在类似腾讯 WorkBuddy 等 AI 应用上使用。</p><p>IT之家测试，在中国移动 App 搜索 Token，会直接跳转到北京移动的算力 Token 套餐页面，Token 次包定价 5.99 元起 / 次，月包定价 24.99 元起 / 月。IT之家暂未查询到其他地区的词元（Token）套餐办理渠道。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/5/26df40b1-1018-465d-a1b7-46fcc4097618.jpg?x-bce-process=image/format,f_auto\" /></p><p>据IT之家此前报道，<a href=\"https://www.ithome.com/0/951/532.htm\" target=\"_blank\">中国电信在 5 月 17 日推出系列试商用 Token 套餐</a>，面向个人及家庭用户推出轻享版、畅享版、尊享版三档 Token Plan，每个月的资费价格分别为 9.9 元、29.9 元、49.9 元，分别对应每月 1000 万 Tokens、4000 万 Tokens、8000 万 Tokens。</p>",
+      "published": "2026-05-21T11:20:45+08:00",
+      "fetched_at": "2026-05-21T12:01:14.065588+08:00",
+      "pre_filter_reason": "Token套餐 for AI applications, AI-related service",
       "scores": {
         "importance": 7,
-        "timeliness": 8,
-        "actionability": 6,
-        "scarcity": 6,
-        "virality": 5,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 9,
+        "virality": 8,
         "crowd_heat": 0.0
       },
       "quality_score": 7.8,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "OlmoEarth v1.1模型家族介绍：更高效的AI模型选择指南",
-          "angle": "对比OlmoEarth v1.1与上一代模型的效率提升，指导开发者如何根据任务需求选择合适模型。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "2f879b15d5a4",
-      "source_id": "github-ai-repos",
-      "source_name": "GitHub AI 新项目",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "aaif-goose/goose",
-      "link": "https://github.com/aaif-goose/goose",
-      "summary": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
-      "published": "2026-05-20T11:52:08.506694+08:00",
-      "fetched_at": "2026-05-20T11:52:08.506695+08:00",
-      "pre_filter_reason": "An open-source AI agent for code tasks using any LLM.",
-      "scores": {
-        "importance": 7,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "5分钟上手Goose：开源AI Agent安装与测试全流程",
-          "angle": "手把手演示如何安装、配置Goose，并用它完成一个简单的代码编辑与测试任务，突出其超越代码补全的Agent能力。",
+          "title": "5元/月的Token套餐怎么买？中国移动AI算力套餐购买与使用指南",
+          "angle": "手把手演示如何在中国移动APP或线下营业厅购买Token套餐，并展示在AI应用（如腾讯WorkBuddy）中如何使用这些Token，适合普通用户快速上手。",
           "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "用Goose打造你的专属AI助手：扩展功能实战",
-          "angle": "讲解Goose的可扩展架构，教用户如何添加自定义工具或集成其他LLM，实现个性化AI工作流。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "57dd2a75d300",
-      "source_id": "bilibili-hot",
-      "source_name": "B站热搜",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "hotlist",
-      "title": "中美同意开展人工智能政府间对话",
-      "link": "https://search.bilibili.com/all?keyword=中美同意开展人工智能政府间对话",
-      "summary": "",
-      "published": "2026-05-20T11:52:03.767420+08:00",
-      "fetched_at": "2026-05-20T11:52:03.767422+08:00",
-      "pre_filter_reason": "Mentions AI government dialogue, AI policy.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 7.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "中美AI对话：普通人如何抓住政策红利？",
-          "angle": "解读中美AI政府间对话的意义，分析对国内AI从业者、创业者和学习者的潜在影响，并提供行动建议。",
+          "tag": "analysis",
+          "title": "中国移动推出Token套餐：5元/月能做什么？对普通用户意味着什么？",
+          "angle": "分析Token套餐的定价逻辑（5元/月包含多少词元）、适用场景（轻度AI体验、云电脑等），并对比其他运营商或云厂商的算力定价，解读其对AI普及的推动作用。",
           "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "AI治理新篇章：中美对话背后的技术趋势与合规指南",
-          "angle": "从技术视角剖析中美AI对话可能涉及的议题（如安全标准、数据跨境），为企业提供合规与战略调整建议。",
-          "difficulty": "进阶"
         }
       ]
     },
@@ -433,196 +235,270 @@
       "link": "https://www.infoq.cn/article/WHlyjD6dQgPYxmcXWFzO?utm_source=rss&utm_medium=article",
       "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/WHlyjD6dQgPYxmcXWFzO?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
       "published": "2026-05-20T19:38:13+08:00",
-      "fetched_at": "2026-05-20T11:51:55.359803+08:00",
-      "pre_filter_reason": "Mentions Kimi, Opus, Cursor, and Claude Code, all AI models or products.",
+      "fetched_at": "2026-05-21T12:00:50.103245+08:00",
+      "pre_filter_reason": "AI model comparison and product",
       "scores": {
         "importance": 8,
         "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
+        "actionability": 9,
+        "scarcity": 8,
         "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.6,
+      "quality_score": 7.8,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "成本砍半效果翻倍：Composer 2.5如何用Kimi底座追平Opus？",
-          "angle": "深度对比Composer 2.5与Claude Code的性能与成本，解析Cursor的优化策略，并给出开发者选型建议。",
+          "title": "不换Kimi底座，如何用Cursor Composer 2.5实现1/10成本追平Opus？",
+          "angle": "以Cursor Composer 2.5为例，演示如何通过优化提示词、调整模型参数或使用本地推理技巧，在保持Kimi等底座不变的情况下大幅降低AI调用成本，适合开发者或AI深度用户。",
           "difficulty": "进阶"
         },
         {
-          "tag": "tutorial",
-          "title": "不换模型也能赢：Composer 2.5的底层优化技巧揭秘",
-          "angle": "拆解Cursor如何通过工程优化（如缓存、推理加速）以1/10成本达到顶级模型效果，分享可复用的技术思路。",
+          "tag": "analysis",
+          "title": "Cursor Composer 2.5 vs Claude Code：谁才是性价比之王？",
+          "angle": "对比Cursor Composer 2.5和Claude Code在成本、性能、易用性上的差异，重点分析“1/10成本追平Opus”的技术原理（如模型蒸馏、缓存机制等），并给出选型建议。",
           "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "2b861a019b1b",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
+      "id": "038d58317322",
+      "source_id": "ifanr",
+      "source_name": "爱范儿",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "Google 重塑搜索框，进化 50 亿人的上网习惯",
+      "link": "https://www.ifanr.com/1666447?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "给 Gemini 完整的一生<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
+      "published": "2026-05-20T16:00:58+08:00",
+      "fetched_at": "2026-05-21T12:00:54.601518+08:00",
+      "pre_filter_reason": "提及Google搜索框进化与Gemini，Gemini是AI模型，属于AI产品/技术新闻。",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Google搜索大变样！如何用Gemini重塑你的搜索体验？",
+          "angle": "演示Google搜索框集成Gemini后的新功能（如智能摘要、多轮对话、图片搜索增强），对比传统搜索与AI搜索的差异，帮助用户快速适应新交互方式。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "Google重塑搜索框：Gemini如何改变50亿人的上网习惯？",
+          "angle": "分析Google将Gemini嵌入搜索的战略意图（对抗ChatGPT、巩固搜索霸主地位），探讨AI搜索对用户行为（从“搜链接”到“直接获取答案”）的深远影响，并展望未来搜索形态。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "b00c7ac9b649",
+      "source_id": "bilibili-hot",
+      "source_name": "B站热搜",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "hotlist",
+      "title": "特斯拉官宣监督版FSD入华",
+      "link": "https://search.bilibili.com/all?keyword=特斯拉官宣监督版FSD入华",
+      "summary": "",
+      "published": "2026-05-21T12:01:16.483615+08:00",
+      "fetched_at": "2026-05-21T12:01:16.483617+08:00",
+      "pre_filter_reason": "Tesla's FSD is an AI-based autonomous driving system",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 9,
+        "crowd_heat": 7.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "特斯拉FSD入华：中国车主如何开通监督版FSD？",
+          "angle": "介绍特斯拉FSD（监督版）在中国开通的步骤（需具备哪些硬件、软件版本要求、购买流程），并演示在特定道路（如高速、城市快速路）上的实际使用方法和注意事项。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "特斯拉FSD入华：对国内自动驾驶格局有何冲击？",
+          "angle": "分析特斯拉FSD入华对华为、小鹏、百度等国内自动驾驶厂商的影响，对比FSD与国内方案在技术路线（纯视觉vs多传感器融合）、法规适配、定价策略上的差异，并预测市场变化。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "b84f6b69961c",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Introducing OpenAI for Singapore",
-      "link": "https://openai.com/index/introducing-openai-for-singapore",
-      "summary": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
-      "published": "2026-05-20T04:30:00+08:00",
-      "fetched_at": "2026-05-20T11:51:44.077711+08:00",
-      "pre_filter_reason": "OpenAI partnership for AI deployment and talent building.",
+      "title": "Add a Specialized Deep Research Skill to Agent Harnesses",
+      "link": "https://developer.nvidia.com/blog/add-a-specialized-deep-research-skill-to-agent-harnesses/",
+      "summary": "<img alt=\"The image depicts various digital screens showing concepts related to a &quot;Skills Repository,&quot; &quot;Software Architecture,&quot; &quot;Big Data Schema,&quot; and &quot;Training New Sub-Agent,&quot; suggesting a theme of self-evolving artificial intelligence capabilities.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/Agentic-AI-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Agentic-AI\" width=\"768\" />Agent harnesses like Claude Code, Codex, and LangChain Deep Agents are excellent orchestrators. They manage sessions, chain tools, execute code, and respond to...",
+      "published": "2026-05-21T00:00:00+08:00",
+      "fetched_at": "2026-05-21T12:00:41.919153+08:00",
+      "pre_filter_reason": "AI agent and deep research skill",
       "scores": {
         "importance": 6,
-        "timeliness": 8,
-        "actionability": 6,
-        "scarcity": 5,
+        "timeliness": 7,
+        "actionability": 7,
+        "scarcity": 6,
         "virality": 5,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.6,
+      "quality_score": 7.7,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "OpenAI进军新加坡：亚洲AI创业者的新机遇",
-          "angle": "解读OpenAI新加坡合作计划对本地AI生态的影响，分析创业者、开发者如何借力OpenAI资源加速落地。",
-          "difficulty": "入门"
+          "title": "如何为AI Agent添加“深度研究”技能？从零搭建专用子代理",
+          "angle": "以开源框架（如LangChain、AutoGPT）为例，演示如何为Agent添加一个专门负责深度研究的子代理（Sub-Agent），包括技能仓库配置、数据架构设计、训练流程，适合开发者进阶学习。",
+          "difficulty": "进阶"
         },
         {
-          "tag": "tutorial",
-          "title": "从合作到落地：OpenAI新加坡计划中的企业AI部署指南",
-          "angle": "结合OpenAI的本地化支持，为企业提供AI部署、人才培训与公共服务场景的实操建议。",
+          "tag": "analysis",
+          "title": "AI Agent进化论：为什么“深度研究”技能是下一个关键突破？",
+          "angle": "分析当前AI Agent在复杂任务（如多步推理、长文档分析）上的瓶颈，探讨“深度研究”技能（如专用子代理、知识图谱集成）如何提升Agent的自主性和准确性，并对比不同实现方案（如OpenAI Deep Research vs 自研方案）。",
           "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "bbfa991fd95f",
-      "source_id": "hn-ai",
-      "source_name": "Hacker News (AI)",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "Gemini 3.5 Flash",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
-      "summary": "<p><a href=\"https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash\" rel=\"nofollow\">https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flas...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48196570\">https://news.ycombinator.com/item?id=48196570</a></p>\n<p>Points: 638</p>\n<p># Comments: 473</p>",
-      "published": "2026-05-20T01:43:45+08:00",
-      "fetched_at": "2026-05-20T11:52:05.343200+08:00",
-      "pre_filter_reason": "Gemini 3.5 Flash is an AI model from Google.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Gemini 3.5 Flash初体验：速度与性能的平衡之选",
-          "angle": "快速上手Gemini 3.5 Flash，实测其推理速度、多模态能力与成本优势，对比其他轻量模型。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "开发者必看：Gemini 3.5 Flash API集成与调优技巧",
-          "angle": "讲解如何通过Gemini API调用3.5 Flash，分享参数调优、并发控制与成本优化的实用技巧。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "2c441328290f",
+      "id": "086da87e4ad7",
       "source_id": "github-trending",
       "source_name": "GitHub Trending",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "multica-ai /andrej-karpathy-skills",
-      "link": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "published": "2026-05-20T11:52:08.002032+08:00",
-      "fetched_at": "2026-05-20T11:52:08.002036+08:00",
-      "pre_filter_reason": "Improves Claude Code behavior, an AI coding assistant, based on LLM pitfalls.",
+      "title": "anthropics /claude-plugins-official",
+      "link": "https://github.com/anthropics/claude-plugins-official",
+      "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "published": "2026-05-21T12:01:20.147653+08:00",
+      "fetched_at": "2026-05-21T12:01:20.147655+08:00",
+      "pre_filter_reason": "Claude Code Plugins are AI-related, from Anthropic.",
       "scores": {
-        "importance": 6,
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Claude Code 插件官方目录上线！手把手教你安装与使用",
+          "angle": "以新手视角，演示如何从官方目录查找、安装并配置Claude Code插件，并展示一个实际代码生成案例。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "news",
+          "title": "Anthropic 官方插件目录发布，Claude Code 生态迎来标准化",
+          "angle": "解读官方目录对开发者生态的意义，分析其与第三方插件市场的差异，以及对企业级AI编码工具选型的影响。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "9794a83c5b82",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "外行式 Vibe Coding 正跟专业的Agent 工程走向融合：最吓人的是，我们“摆烂”有正当理由了？",
+      "link": "https://www.infoq.cn/article/uLLYdtZdZu9sCQSyUcst?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/uLLYdtZdZu9sCQSyUcst?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-05-20T19:45:50+08:00",
+      "fetched_at": "2026-05-21T12:00:50.103233+08:00",
+      "pre_filter_reason": "AI coding and agent engineering",
+      "scores": {
+        "importance": 7,
         "timeliness": 8,
         "actionability": 9,
         "scarcity": 8,
         "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.5,
+      "quality_score": 7.6,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "用 CLAUDE.md 让 Claude Code 更听话：Karpathy 的避坑指南",
-          "angle": "手把手教你配置 CLAUDE.md 文件，结合 Karpathy 总结的 LLM 编码常见错误，展示如何通过一个文件显著提升 AI 代码生成的质量和可靠性。",
-          "difficulty": "入门"
+          "tag": "opinion",
+          "title": "Vibe Coding 与 Agent 工程融合：是“摆烂”还是新范式？",
+          "angle": "从“外行式编程”与专业Agent工程融合的现象切入，探讨这种趋势对开发者技能要求、项目效率以及行业分工的深层影响。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "83743c767f98",
-      "source_id": "sspai",
-      "source_name": "少数派",
+      "id": "bfeb3720bdca",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "派早报：Google 发布多项 Gemini 产品更新等",
-      "link": "https://sspai.com/post/109945",
-      "summary": "LG 发布新款 UltraGear 游戏显示器，Karpathy 加入 Anthropic 等。<a href=\"https://sspai.com/post/109945\" target=\"_blank\">查看全文</a>",
-      "published": "2026-05-20T08:59:32+08:00",
-      "fetched_at": "2026-05-20T11:51:51.250733+08:00",
-      "pre_filter_reason": "Google Gemini AI updates and Karpathy joining Anthropic",
+      "title": "2026上半年最大IPO：Cerebras 上市，撕开美股「五大AI阵营」权力裂缝",
+      "link": "https://www.leiphone.com/category/industrynews/RRZPwn3VBJFO0oGj.html",
+      "summary": "<section><section><section><section><section></section><section><section><section><section></section></section></section><section><span><br /></span></section><p style=\"text-align: center; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"font-size: 15px;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260520/6a0d4b65c7cfe.jpg?imageView2/2/w/740\" /></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"font-size: 15px;\">近几年，美股AI巨头们的命脉似乎一直被攥在英伟达的手里，直到 Cerebras 带着它的 670 亿美元市值出现在聚光灯下。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">北京时间昨晚，一家卖“大芯片”的美国公司——Cerebras 以极为亮眼的表现登陆纳斯达克：其收盘价较发行价暴涨68%，总市值达670亿美元。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">“这是今年迄今规模最大的IPO，也刷新了美股历史上‘纯 AI 芯片公司’的上市纪录。”长期关注美股硬件标的的分析师张琳对雷峰网表示。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px;\">表面上，这是一场高科技造富 IPO；但在硅谷核心圈眼中，</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">这更像是一场即将到来的“算力大洗牌”的发令枪。</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">“Cerebras上市，意味着非GPU路径不仅能活，还能卖出惊人溢价。”张琳坦言，芯片行业已经开始告别“买卡纳税”的单选时代，差异化架构真正跑出来了。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px;\">不仅如此，在算力产业投资人王宁看来，</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">这场 IPO，也在某种程度上撬动着美股AI阵营的权力版图，</span></span></strong><span><span style=\"letter-spacing: 0.5px;\">Cerebras 的背后站满了想要重新定义 AI 时代权力排位的巨头们。</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px;\">“这不是一次简单的上市，而是一只‘芯片鲶鱼’正式上桌，进而引发全球 AI 产业话语权更迭博弈的‘关键时刻’。”王宁强调道。更多有趣见解，欢迎添加作者微信&nbsp;</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">xf123a&nbsp;</span></span></strong><span><span style=\"letter-spacing: 0.5px;\">交流。</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">为什么这么说？</span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>01</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>8个月估值狂翻4倍的Cerebras，</span></span></strong></h4></section><section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>是什么来头？</span><span><br /></span></span></strong></h4></section></section></section></section><p><span><br /></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">为什么一个做硬件的公司，能牵动一众 AGI 巨头们的神经？</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">要看懂这场权力重构，得先从Cerebras这条“芯片鲶鱼”的崛起史谈起。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">把时间拨回八年前。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">2016年，Andrew Feldman在加州洛斯阿尔托斯创立Cerebras。这位AMD前高管此前创办的SeaMicro（主打低功耗服务器芯片）被AMD以3.57亿美元收购。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px;\">卖完公司后，Feldman没选择退休，而是押注了一个在当时看来近乎疯狂的路线：</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">不把晶圆切成几百颗小芯片，而是用一整块12英寸晶圆做一颗处理器。</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">这颗处理器，就是今天Cerebras的核心产品WSE-3。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">WSE-3有多大？一块餐盘大小，4万亿个晶体管，90万个AI核心。英伟达H100的晶体管数量是800亿，Cerebras是它的50倍。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong><span><span style=\"letter-spacing: 0.5px;\">这种规模的碾压，核心目的只有一个：干掉数据搬运的“墙”。</span></span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">在传统的 GPU 架构里，显存是外挂在核心之外的。大模型推理时，数据要在显存和核心之间不断搬运，这就像从郊区仓库往城里运货，路上的拥堵是推理变慢的元凶。而 Cerebras 把 44GB 的超高速缓存直接铺在 90 万个核心旁边，让数据“出门即达”。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">“训练看的是吞吐量大，但推理看的是谁反应快，”一位参与过 Cerebras 早期内测的</span></span><span><span style=\"letter-spacing: 0.5px;\">技术工程师</span></span><span><span style=\"letter-spacing: 0.5px;\">解释，“大芯片的逻辑就是省掉了数据往返的时间。当你问 AI 一个问题，Cerebras 能秒回，是因为它的数据根本不用出芯片。”</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">公司宣称，在推理场景下，WSE-3的速度是H100的3倍，功耗仅为其1/5。Cerebras的逻辑很直白：训练市场英伟达已经赢了，但推理市场还在洗牌，大模型推理需要的不是&quot;算得快&quot;，而是&quot;同时算得多&quot;。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong><span><span style=\"letter-spacing: 0.5px;\">这条&quot;大而整&quot;的路线并非没有代价。</span></span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">晶圆级芯片的良率问题曾是业界长期的质疑焦点，一整块晶圆上只要存在微小的制造缺陷，整块芯片就会报废。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">Cerebras声称已通过冗余电路设计解决了这一难题，但良率数据从未公开。这也是外界对Cerebras最集中的质疑：如果良率不够高，每一块WSE-3的制造成本都可能高得惊人。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">尽管有种种质疑，但资本仍然选择了真金白银地疯狂下注，这直接反映在Cerebras陡峭的估值曲线上。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px;\">2025年9月，Cerebras完成11亿美元G轮融资，估值81亿美元。5个月后，2026年2月，10亿美元H轮融资，估值跃升至230亿美元。再到今天IPO的266-350亿美元区间，</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">三轮定价间隔不到8个月，估值翻了4倍。</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">这种增速在科技行业极为罕见。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px;\">常驻硅谷的资深投资人晓玲对雷峰网表示：&quot;G轮到H轮那5个月，几乎所有AI infra投资人都在重新算账，如果推理市场真有Cerebras说的那么大，81亿就是白菜价。&quot;事实上，Cerebras融资内幕也很精彩，如有兴趣可添加作者微信&nbsp;</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">xf123a&nbsp;</span></span></strong><span><span style=\"letter-spacing: 0.5px;\">互通有无。</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">营收数据也在支撑这个故事。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">2023年Cerebras营收仅2500万美元，2025年飙至5.1亿美元，两年增幅超20倍。公司称已实现扭亏为盈，净利润约2.38亿美元——但需要注意的是，这主要得益于非经常性收入，按GAAP口径公司仍处于亏损状态。</span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>02</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>“芯片鲶鱼”入局，</span></span></strong></h4></section><section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>如何搅动全球AGI五大阵营？</span><span><br /></span></span></strong></h4></section></section></section></section><p><span><br /></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px;\">除了技术路线的创新外，Cerebras 上市之所以备受关注，还在于它与 OpenAI 之间的“特殊”关系，以及更重要的，</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">这条芯片 “鲶鱼” 正在搅动全球 “AGI阵营” 的现有格局</span></span></strong><span><span style=\"letter-spacing: 0.5px;\">。</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">高管天使投资、百亿美金合同，外加 10 亿美元借贷换来的股份权证，从表面看，Cerebras像是一家被 OpenAI 大力扶持起来的算力供应商。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong><span><span style=\"letter-spacing: 0.5px;\">但如果你只把 Cerebras 视作给 OpenAI 搞“特供”的芯片厂商，那就小看它了。</span></span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">在不少业内人士看来，Cerebras 的上市更像是一条入局的鲶鱼，在算力底层搅动着整个 AI 行业的现有格局。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px;\">一位硅谷创投圈老兵张健告诉雷峰网，</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">大模型浪潮爆发至今，北美市场已逐渐形成五大AI阵营：</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">首先便是“OpenAI-微软-英伟达”三位一体联盟。这个联盟曾是全世界最强的，但后来，随着 OpenAI 推出自有 API，尝试摆脱微软独立开展商业化布局，微软开始陷入掉队困境。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">而另一边，马斯克对 OpenAI 的崛起感到巨大焦虑。OpenAI 最初由马斯克资助创办，其团队曾与特斯拉自动驾驶团队同址办公，二者渊源深厚。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">GPT‑3 问世后，特斯拉团队全面入局 AI 赛道。后续马斯克因股权相关问题与 OpenAI 决裂，转而通过收购推特（现 X）成立 xAI，并自研芯片，打造出独立于 OpenAI 的第二大阵营，但随着xAI 解散独立主体、整体并入SpaceX，这一阵营可能会被削弱。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">与此同时，Anthropic 凭借对编程领域的精准切入，跑通了 “模型 + 应用” 这一飞轮路线，增长势头迅猛，估值迅速突破万亿美元，也吸引了亚马逊和 Google 的巨额投资，由此形成第三个阵营。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">张健告诉雷峰网：“不同于大模型问答，AI 编程这个业务可以引导大量爱好者在实际使用中不断反哺数据，从而构建起高效的模型进化飞轮。这也正是 Anthropic 能够避开单纯‘好玩’的陷阱、实现快速增长的关键逻辑。”</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">而Google 拥有模型、算力、应用 “全栈” 产业链能力，随着市值逼近 5 万亿美元，它已成为第四个阵营。至于 Meta，它曾试图依靠开源模式打造第五个阵营，但目前看来并未达到预期，现已转向自研大模型。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px;\">“目前，OpenAI/英伟达、Anthropic和Google，都算是拿到了AGI时代‘船票’，而亚马逊和 Meta 仍在设法努力‘上桌’中，马斯克还有待观察。”张健表示。更多不同看法，欢迎添加作者微信&nbsp;</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">xf123a&nbsp;</span></span></strong><span><span style=\"letter-spacing: 0.5px;\">交流。</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px;\">眼下，这五大AI阵营之间竞合复杂、打得火热，而此时Cerebras 的上市就成了一个微妙的变量，</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">它可以成为巨头们制衡对手、甚至制衡 “盟友” 的重要筹码。</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px;\">OpenAI 大力扶持 Cerebras，本质上是跟英伟达“砍价”</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">，</span></span></strong><span><span style=\"letter-spacing: 0.5px;\">同时也跟微软进一步“分家”。</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">这不仅是算力迁移，更是 AI 权力结构的重组。OpenAI 不想做任何人的附属品，而 Cerebras 就是它实现“算力自由”的一枚关键棋子。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px;\">事实上，</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">OpenAI、Anthropic、AWS、微软这类受制于英伟达的头部玩家，都是 Cerebras 最潜在的 “暗合者”。</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">比如，AWS 同样与 Cerebras 存在深度合作，今年3月，两者宣布建立多年合作伙伴关系，通过全球分销将快速推理扩展到更大的规模。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">而 Anthropic 与 AWS 也有紧密合作，AWS 不仅是 Anthropic Claude 大模型的主要代理商之一，还是其股东与核心算力供应商，因此也不排除后续Anthropic在AWS的服务中，用上Cerebras的产品。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px;\">而对于 Google 这类自研芯片的超级巨头们而言，</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">它们对 Cerebras 上市的心态则更为复杂。</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">某芯片大厂产品总监周磊告诉雷峰网，近几年，谷歌通过 TPU 建立了从硬件到 XLA 编译器再到 Vertex AI 的闭环生态。Cerebras 这一异构架构，如果成功商业化并建立起自己的开发者社区，本质上是在瓜分本属于 TPU 的大客户预算。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">作为自研芯片先行者，谷歌应该并不希望看到另一个足以定义“非 GPU 标准”的第三方芯片巨头出现。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">不过，另一方面，在英伟达长期垄断下，Cerebras 的上市，实际上也在为谷歌、马斯克、微软、AWS这些芯片自研派打开了更多想象空间。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">“当市场上存在一个强有力的第三方非 GPU 标杆时，这些巨头在与上下游供应链谈判时，也会获得更具竞争力的参考坐标。”周磊补充道。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">而对于 Meta 的扎克伯格来说，Cerebras 不仅是他摆脱英伟达“税务”的备选方案。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">更重要的是，Meta 基于原有社交主业，拥有海量的推理需求。如果 Cerebras 能在推理性价比上实现数量级的突破，Meta 极有可能利用其开源生态，迅速将 Cerebras 架构推向全球开发者。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong><span><span style=\"letter-spacing: 0.5px;\">以此通过“开源软件 + 异构硬件”的组合拳，在现有的AGI列强包围圈中撕开一道突破口。</span></span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">不难看出，在这场权力的游戏中，Cerebras 的角色远不止是一家芯片公司。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">它既是 OpenAI 寻求“算力自由”的棋子，也可能成为 Anthropic 背刺对手的利刃，还将会是谷歌、Meta 拓宽路径的一个变量。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">它让原本铁板一块的英伟达GPU霸权出现了裂纹，也让这五大阵营之间的合纵连横，变得更加波谲云诡。而接下来，这场围绕 AGI 时代权力结构的“博弈战”还将继续上演，让我们拭目以待。</span></span></p><p style=\"text-align: justify; margin-bottom: 40px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px; font-weight: bold;\">作者长期关注全球AI、云、芯片巨头，更多公司动态、行业逻辑、价值投资信息，欢迎添加作者微信&nbsp;</span><strong><span style=\"letter-spacing: 0.5px; font-weight: bold;\">xf123a&nbsp;</span></strong></span><span>交流探讨。<span>雷峰网雷峰网</span></span></p></section></section></section></section></section>",
+      "published": "2026-05-20T13:51:00+08:00",
+      "fetched_at": "2026-05-21T12:00:48.766558+08:00",
+      "pre_filter_reason": "Cerebras上市，AI芯片公司，属于AI相关",
       "scores": {
-        "importance": 7,
+        "importance": 8,
         "timeliness": 9,
         "actionability": 8,
         "scarcity": 7,
         "virality": 8,
-        "crowd_heat": 0.0
+        "crowd_heat": 3.5
       },
-      "quality_score": 7.5,
+      "quality_score": 7.6,
       "topics": [
         {
           "tag": "news",
-          "title": "Google Gemini 大更新 & Karpathy 加入 Anthropic：AI 圈一日三变",
-          "angle": "快速盘点 Google 发布的多项 Gemini 产品更新，并解读 Karpathy 加入 Anthropic 对 AI 行业格局的影响，适合科技爱好者快速了解当日重磅动态。",
-          "difficulty": "入门"
+          "title": "Cerebras 上市：2026上半年最大IPO，AI芯片格局生变",
+          "angle": "分析Cerebras上市对美股“五大AI阵营”权力结构的冲击，对比其与NVIDIA、AMD等巨头的技术路线与市场定位差异。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "f757de00fcc6",
-      "source_id": "deepmind-blog",
-      "source_name": "Google DeepMind",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Fast-tracking genetic leads to reverse cellular aging",
-      "link": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
-      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
-      "published": "2026-05-19T02:21:39+08:00",
-      "fetched_at": "2026-05-20T11:51:44.435513+08:00",
-      "pre_filter_reason": "AI used in biological research to reverse aging.",
+      "id": "ff99a3637498",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "search",
+      "title": "用AI“复刻”美杜莎动漫角色，算侵权吗？上海首例人工智能大模型著作权侵权案二审宣判！-版权|审判动态 - 中国知识产权律师网",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1sYmhmSlo5eVM0dThlTmNEVWZQUHZuNHA1NTdua1pTTjdzcE5EU2NqQ04teWlyU3pyNGh0a2JXZXZzX3NHQXZlT1BjcFgwckY4c090SUNUc0U?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1sYmhmSlo5eVM0dThlTmNEVWZQUHZuNHA1NTdua1pTTjdzcE5EU2NqQ04teWlyU3pyNGh0a2JXZXZzX3NHQXZlT1BjcFgwckY4c090SUNUc0U?oc=5\" target=\"_blank\">用AI“复刻”美杜莎动漫角色，算侵权吗？上海首例人工智能大模型著作权侵权案二审宣判！-版权|审判动态</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">中国知识产权律师网</font>",
+      "published": "2026-05-20T13:26:14+08:00",
+      "fetched_at": "2026-05-21T12:01:17.518122+08:00",
+      "pre_filter_reason": "AI大模型著作权侵权案，属于AI法律/伦理",
       "scores": {
-        "importance": 9,
-        "timeliness": 9,
+        "importance": 7,
+        "timeliness": 8,
         "actionability": 9,
         "scarcity": 8,
-        "virality": 9,
+        "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.5,
+      "quality_score": 7.6,
       "topics": [
         {
-          "tag": "news",
-          "title": "AI 科学家发现逆转细胞衰老的关键因子",
-          "angle": "介绍生物学家如何利用 AI 助手“Co-Scientist”快速筛选出能成功逆转人类细胞衰老的基因线索，探讨 AI 在抗衰老研究中的突破性应用。",
-          "difficulty": "进阶"
+          "tag": "tutorial",
+          "title": "用AI生成动漫角色会侵权吗？上海首例AI著作权案判决解读",
+          "angle": "以“美杜莎”案为例，讲解AI生成内容在著作权法中的边界，提供创作者与企业的合规避坑指南。",
+          "difficulty": "入门"
         }
       ]
     },
@@ -636,55 +512,209 @@
       "title": "HKUDS /ViMax",
       "link": "https://github.com/HKUDS/ViMax",
       "summary": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
-      "published": "2026-05-20T11:52:08.003544+08:00",
-      "fetched_at": "2026-05-20T11:52:08.003547+08:00",
-      "pre_filter_reason": "AI video generation",
+      "published": "2026-05-21T12:01:20.149455+08:00",
+      "fetched_at": "2026-05-21T12:01:20.149457+08:00",
+      "pre_filter_reason": "Agentic video generation using AI",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "ViMax 一键生成电影级视频：导演、编剧、剪辑全包了",
+          "angle": "实操演示ViMax的“导演+编剧+制片+生成”一体化功能，展示从文本提示到完整视频片段的完整工作流。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "ba75f61eca94",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "ACIE 成英伟达新增长引擎：连接全球约 25 万家客户，AI 云收入同比增长超 3 倍",
+      "link": "https://www.ithome.com/0/953/277.htm",
+      "summary": "<p>IT之家 5 月 21 日消息，在 2027 财年（2026 年 1 月 26 日～2027 年 1 月 31 日）第一财季（2026 年 1 月 26 日～2026 年 4 月 26 日）电话会议上，<strong>英伟达首次采用新的业务披露口径。</strong></p><p>IT之家援引博文介绍，公司把市场平台分为数据中心与边缘计算两大部分，<strong>其中数据中心收入拆成超大规模（Hyperscale）客户与 ACIE（AI Clouds, Industrial, Enterprise，AI 云、工业、企业）两类。</strong></p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/5c662100-7bbd-432f-af88-49a84e669d55.jpg?x-bce-process=image/format,f_auto\" /></p><p>超大规模客户通常指全球少数大型云与互联网平台公司，它们拥有庞大的数据中心资本开支与算力采购能力，英伟达官方表示超大规模客户只有 5 到 6 家。</p><p>而 ACIE 主要是企业、工业客户与 AI 云服务商，英伟达在全球合作公司约 25 万家，客户结构更分散，销售路径也更复杂。</p><p>从规模看，超大规模客户在当季贡献约 380 亿美元，约占数据中心收入的 50%，环比增长 12%。ACIE 收入约 370 亿美元，环比增长 31%，其中 AI 云收入同比增长超过 3 倍。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/e6a01d8a-d23d-4c87-8f57-cebbff0dc983.png?x-bce-process=image/format,f_auto\" /></p><p>黄仁勋判断，从长期看，由于工业和企业相关可触达经济活动规模约为 50 万亿到 80 万亿美元，<strong>ACIE 增速有望快于超大规模客户。</strong></p><p>黄仁勋表示，Anthropic 过去几乎不是英伟达的有效覆盖客户，但现在已加入合作体系，英伟达将通过亚马逊云科技、微软 Azure 和 CoreWeave 为其补充算力，而且今年与明年上线的容量会相当可观。</p><p>与此同时，英伟达称其在前沿 AI 模型中的份额将明显扩大，并提到 OpenAI 的 GPT-5.5 由 Blackwell 协同设计、训练并承载服务，但未披露单一模型伙伴的收入贡献。</p><p>边缘计算成为另一项单列重点。当季边缘计算收入为 64 亿美元，环比增长 10%，同比增长 29%。首席财务官指出，增长主要来自 Blackwell 工作站需求，而消费端需求因内存与整机价格上升小幅回落。</p><p>在落地层面，英伟达称与 Uber 的合作有望在 2028 年前支持近 30 个城市、4 大洲的 Robotaxi 车队。网络业务方面，Spectrum X 规模已超过所有以太网同行总和，InfiniBand 同比增长超过 4 倍，动力来自下一代 XDR 技术部署。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/ba290f9b-54ac-43df-8b3f-f018f492e878.jpg?x-bce-process=image/format,f_auto/auto-orient,o_1\" /></p><p><strong>相关阅读：</strong></p><ul class=\"small-size list-paddingleft-2\"><li><p>《<a href=\"https://www.ithome.com/0/953/088.htm\" target=\"_blank\">英伟达 2027 财年第一财季归母净利润 583.21 亿美元，同比增长 211%</a>》</p></li></ul>",
+      "published": "2026-05-21T11:49:30+08:00",
+      "fetched_at": "2026-05-21T12:01:14.065459+08:00",
+      "pre_filter_reason": "英伟达AI云收入增长，涉及AI业务",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "英伟达新财报解读：ACIE是什么？为何成为增长引擎？",
+          "angle": "从英伟达最新财报切入，解释ACIE（AI云、工业、企业）新分类的含义，分析其如何连接25万客户并推动AI云收入增长3倍，帮助观众理解企业级AI市场的爆发逻辑。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "AI云收入暴增3倍：中小企业如何抓住英伟达ACIE红利？",
+          "angle": "以ACIE增长为背景，提供面向中小企业或工业企业的实操建议，包括如何利用英伟达AI云服务降低成本、加速部署，以及选择合作伙伴的要点。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "a04c53925e00",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "10 天 3000 元，一人造出全球 AI 爆款！好莱坞导演抢人、游戏版引爆期待，合作细节首次披露",
+      "link": "https://www.infoq.cn/article/srgOzGfGgMQiEdum2GhZ?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/srgOzGfGgMQiEdum2GhZ?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-05-21T02:17:59+08:00",
+      "fetched_at": "2026-05-21T12:00:50.103148+08:00",
+      "pre_filter_reason": "AI product launch and Hollywood interest",
       "scores": {
         "importance": 7,
         "timeliness": 8,
         "actionability": 8,
         "scarcity": 7,
-        "virality": 8,
+        "virality": 9,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "10天3000元做出AI爆款：个人开发者如何复制成功？",
+          "angle": "拆解案例中一人团队在极短时间和低成本下打造全球爆款AI产品的关键步骤，包括工具选择、需求定位、快速迭代方法，以及如何吸引好莱坞等跨界合作。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "tutorial",
+          "title": "从个人项目到全球爆款：AI产品冷启动的5个核心策略",
+          "angle": "提炼该案例的成功要素，如精准切入游戏/影视需求、利用社交媒体病毒传播、低成本验证MVP等，为独立开发者或小团队提供可复用的增长框架。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "0987bddddee3",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "NVIDIA-Verified Agent Skills Provide Capability Governance for AI Agents",
+      "link": "https://developer.nvidia.com/blog/nvidia-verified-agent-skills-provide-capability-governance-for-ai-agents/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/agentic-ai-use-cases-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"agentic-ai-use-cases\" width=\"768\" />Autonomous AI agents are becoming more capable. Open models, Model Context Protocol (MCP)-connected tools, and portable skills are also making agents easier to...",
+      "published": "2026-05-20T07:40:45+08:00",
+      "fetched_at": "2026-05-21T12:00:41.919169+08:00",
+      "pre_filter_reason": "AI agent governance",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "NVIDIA认证Agent技能：如何为AI Agent建立治理框架？",
+          "angle": "介绍NVIDIA新推出的Agent技能认证机制，解释其如何帮助企业管控AI Agent的行为、安全性和合规性，并提供构建企业级Agent治理的入门步骤。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "tutorial",
+          "title": "AI Agent能力治理实战：从NVIDIA方案看企业落地要点",
+          "angle": "结合NVIDIA的认证技能概念，深入探讨企业在部署自主AI Agent时面临的权限、监控、审计等挑战，并给出基于该框架的治理实践指南。",
+          "difficulty": "高级"
+        }
+      ]
+    },
+    {
+      "id": "6700eb74c2a0",
+      "source_id": "anthropic-blog",
+      "source_name": "Anthropic (Claude Blog)",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Using Claude Code: The unreasonable effectiveness of HTML",
+      "link": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
+      "summary": "<div class=\"u-rich-text-blog u-margin-trim w-richtext\"><p>Markdown has become the dominant file format used by agents to communicate with humans. It’s simple, portable, has some rich text capability and is easy to edit. Claude has even gotten surprisingly good at using ASCII to make diagrams inside of Markdown files.</p><p>But as agents have become more and more powerful, I’ve found that Markdown has become an increasingly restrictive format. Specifically, I find it difficult to read a Markdown file of more than a hundred lines; I want to use Claude to generate richer visualizations, color and diagrams; and I want to be able to share these outputs more easily.</p><p>I also am increasingly not editing these files myself, but using them as specs and reference files. When I do make edits, I’m usually prompting Claude to edit them, which removes one of Markdown’s largest benefits.</p><p>Instead, I’ve started preferring HTML as an output format instead of Markdown and increasingly see this pattern being applied by others on the Claude Code team. In this post, I share why and how our team uses HTML to produce richer, more readable Claude Code outputs. If you'd like to follow along, you can start using these <a href=\"https://thariqs.github.io/html-effectiveness/#code-review\" target=\"_blank\">HTML file templates</a> for common use cases, too. </p></div>",
+      "published": "2026-05-20T08:00:00+08:00",
+      "fetched_at": "2026-05-21T12:00:39.484667+08:00",
+      "pre_filter_reason": "AI agent news",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 7,
         "crowd_heat": 0.0
       },
       "quality_score": 7.4,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "ViMax 初体验：一个 AI 搞定导演、编剧、制片和视频生成",
-          "angle": "演示 ViMax 如何将视频创作全流程（从剧本到成片）集成到一个智能体中，展示其核心功能和使用门槛，适合内容创作者探索 AI 视频工具。",
+          "title": "Claude Code新玩法：用HTML让AI Agent输出更惊艳的可视化内容",
+          "angle": "展示Claude Code如何利用HTML生成复杂图表、交互式报告等，超越传统Markdown的局限性，并提供具体代码示例和效果对比。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "tutorial",
+          "title": "告别Markdown：为什么HTML是AI Agent与人类沟通的未来？",
+          "angle": "分析HTML在AI Agent输出中的优势（如丰富排版、交互性、易解析），对比Markdown的不足，并演示如何用Claude Code快速生成HTML内容。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "2adf75a94a63",
-      "source_id": "ifanr",
-      "source_name": "爱范儿",
+      "id": "881de35366d4",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "为折叠 iPhone 和苹果 AI 做足准备｜苹果 WWDC 提前剧透",
-      "link": "https://www.ifanr.com/1666255?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "6 月 9 日，不见不散<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
-      "published": "2026-05-19T18:00:36+08:00",
-      "fetched_at": "2026-05-20T11:51:59.631635+08:00",
-      "pre_filter_reason": "Apple AI preparation",
+      "title": "全场景L4级自动驾驶第一股！驭势科技港股上市，引领L4级自动驾驶规模化落地",
+      "link": "https://www.leiphone.com/category/industrynews/g6rSxYeBlODMwEcV.html",
+      "summary": "<p style=\"margin-top: 24pt; margin-bottom: 24pt;\"><span style=\"font-family: Arial;\">全场景</span><span style=\"font-family: Arial;\">L4</span><span style=\"font-family: Arial;\">级自动驾驶解决方案供应</span><span style=\"font-family: Arial;\">商驭势科技</span><span style=\"font-family: Arial;\">（北京）股份有限公司（</span><span style=\"font-family: Arial;\">01511.HK</span><span style=\"font-family: Arial;\">）今日正式</span><span style=\"font-family: Arial;\">于港交所</span><span style=\"font-family: Arial;\">主板挂牌上市，市值</span><span style=\"font-family: Arial;\">98</span><span style=\"font-family: Arial;\">亿港元，成为全场景</span><span style=\"font-family: Arial;\">L4</span><span style=\"font-family: Arial;\">级自动驾驶第一股。根据弗若斯特沙利文数据，按</span><span style=\"font-family: Arial;\">2025</span><span style=\"font-family: Arial;\">年收益计算，</span><span style=\"font-family: Arial;\">驭势科技</span><span style=\"font-family: Arial;\">在大中华区机场场景</span><span style=\"font-family: Arial;\">L4</span><span style=\"font-family: Arial;\">级商用车自动驾驶市场占据</span><span style=\"font-family: Arial;\">90.5%</span><span style=\"font-family: Arial;\">的市场份额，近乎形成垄断格局；在厂区场景同样以</span><span style=\"font-family: Arial;\">31.7%</span><span style=\"font-family: Arial;\">的</span><span style=\"font-family: Arial;\">市占率位居</span><span style=\"font-family: Arial;\">行业首位，成为</span><span style=\"font-family: Arial;\">L4</span><span style=\"font-family: Arial;\">级商用车自动驾驶赛道无可争议的龙头。除机场、厂区两大核心场景外，</span><span style=\"font-family: Arial;\">驭势科技</span><span style=\"font-family: Arial;\">进一步将通用自动驾驶技术拓展至城市、港口、矿山、农场、牧场等多元应用领域，并延伸到乘用车高阶智驾，覆盖封闭场景和开放道路，构筑起</span><span style=\"font-family: Arial;\">“</span><span style=\"font-family: Arial;\">场景覆盖越广、数据积累越多、技术壁垒越高</span><span style=\"font-family: Arial;\">”</span><span style=\"font-family: Arial;\">的循环飞轮，持续提升技术上限。此次上市是公司发展的重要里程碑，未来将进一步加码核心技术研发、全球化业务布局与全场景商业化落地。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260520/6a0d121f81ca1.png?imageView2/2/w/740\" /></p><p>&nbsp;</p>",
+      "published": "2026-05-20T10:03:00+08:00",
+      "fetched_at": "2026-05-21T12:00:48.766610+08:00",
+      "pre_filter_reason": "L4级自动驾驶公司上市，属于AI相关产品",
       "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 6,
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
         "virality": 8,
-        "crowd_heat": 3.5
+        "crowd_heat": 0.0
       },
-      "quality_score": 7.4,
+      "quality_score": 7.3,
       "topics": [
         {
-          "tag": "news",
-          "title": "WWDC 提前剧透：折叠 iPhone 和苹果 AI 的终极准备",
-          "angle": "基于现有爆料，分析苹果如何在即将到来的 WWDC 上为折叠屏 iPhone 和 AI 战略铺路，解读可能发布的软硬件更新及其市场影响。",
+          "tag": "tutorial",
+          "title": "驭势科技港股上市：L4自动驾驶商业化进入新阶段，这意味着什么？",
+          "angle": "解读驭势科技作为“全场景L4自动驾驶第一股”上市的意义，分析其技术路线、落地场景（如物流、出行）及对行业格局的影响，帮助观众理解L4级自动驾驶的规模化前景。",
           "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "从驭势科技上市看L4自动驾驶投资机会：哪些赛道值得关注？",
+          "angle": "以驭势科技为案例，梳理L4自动驾驶产业链（传感器、算法、运营等）的关键环节，分析潜在投资热点和风险，为投资者或从业者提供决策参考。",
+          "difficulty": "中级"
         }
       ]
     }
