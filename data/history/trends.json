@@ -1,7 +1,49 @@
 {
-  "updated_at": "2026-05-22T11:57:56.672121+08:00",
-  "total_days": 10,
+  "updated_at": "2026-05-23T11:34:44.332683+08:00",
+  "total_days": 11,
   "days": [
+    {
+      "date": "2026-05-23",
+      "total_items": 20,
+      "avg_score": 7.7,
+      "max_score": 8.7,
+      "crowd_hot_count": 3,
+      "avg_crowd_heat": 0.7,
+      "topic_distribution": {
+        "tutorial": 17,
+        "analysis": 17,
+        "explainer": 2,
+        "news": 2,
+        "comparison": 1,
+        "opinion": 1
+      },
+      "source_distribution": {
+        "T1": 4,
+        "T2": 16
+      },
+      "top_keywords": [
+        [
+          "Anthropic",
+          2
+        ],
+        [
+          "OpenAI",
+          2
+        ],
+        [
+          "Towards Speed-of-Light Text Generation",
+          1
+        ],
+        [
+          "Nemotron-Labs Diffusion Language Models",
+          1
+        ],
+        [
+          "Specialization Beats Scale",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-05-22",
       "total_items": 20,
