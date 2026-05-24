@@ -1,20 +1,16 @@
 {
-  "title": "AI日报 - 2026年05月23日",
+  "title": "AI日报 - 2026年05月24日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "Gemini 3.5深夜登场，谷歌CEO劈柴亲自算账：速度快4倍、一年还省超10亿美元，曝内部已被颠覆",
-          "summary": "谷歌发布Gemini 3.5，速度提升4倍，年节省超10亿美元，内部架构被颠覆。"
+          "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
+          "summary": "Nemotron-Labs发布扩散语言模型，声称可实现接近光速的文本生成。"
         },
         {
-          "title": "微软推出 Fara1.5 系列浏览器 AI 智能体模型，72% 任务成功率超 OpenAI Operator",
-          "summary": "微软发布Fara1.5浏览器AI智能体，任务成功率72%超越OpenAI Operator。"
-        },
-        {
-          "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
-          "summary": "OpenAI被Gartner评为企业编码智能体领域的领导者。"
+          "title": "DeepSeek V4价格打骨折，宁王京东网易抢着入场，梁文锋：目标是AGI",
+          "summary": "DeepSeek V4大幅降价，吸引多家巨头合作，创始人重申AGI目标。"
         }
       ]
     },
@@ -22,20 +18,16 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "Anthropic最快下周完成逾300亿美元融资轮",
-          "summary": "Anthropic即将完成超300亿美元融资，估值或再创新高。"
+          "title": "36氪首发 | 北大项目孵化，国内首家原生机器人“大脑芯片”企业获数亿元融资",
+          "summary": "北大孵化的机器人芯片公司获数亿元融资，成为国内首家原生大脑芯片企业。"
         },
         {
-          "title": "融资700亿！DeepSeek Code真要来了，ACM金牌大神崔添翼挂帅",
-          "summary": "DeepSeek Code获700亿融资，由ACM金牌得主崔添翼领导。"
+          "title": "华为自研全新 DoB 封装技术：绕过 400 层 NAND 造出 122TB 企业级 SSD，未来还计划推出 245TB 版本",
+          "summary": "华为推出自研DoB封装技术，实现122TB企业级SSD，未来目标245TB。"
         },
         {
-          "title": "全球AI融资潮下的中国竞速：高层密集调研人形机器人、算力网，国家人工智能产业投资基金出手",
-          "summary": "中国高层密集调研人形机器人与算力网，国家AI产业基金加速布局。"
-        },
-        {
-          "title": "GitHub面临生存之战！多位员工曝内部乱象：独立文化要没了，封杀Claude Code才能“活”",
-          "summary": "GitHub内部动荡，员工称独立文化丧失，或封杀Claude Code以求生存。"
+          "title": "记者直击：凌晨3点救援机器人下井探测",
+          "summary": "救援机器人凌晨下井作业，展现AI在应急救援中的实际应用。"
         }
       ]
     },
@@ -43,16 +35,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
-          "summary": "Nemotron-Labs提出扩散语言模型，实现接近光速的文本生成。"
+          "title": "I built a Mamba1 variant I call SM1 with d_state=1 that runs on Blackwell in pure PyTorch [P]",
+          "summary": "研究者构建了Mamba1变体SM1，在Blackwell架构上以纯PyTorch运行，状态维度仅1。"
         },
         {
-          "title": "Synthesize Realistic 3D Medical Images at Scale to Ship Pre‑Trained Models",
-          "summary": "NVIDIA提出大规模合成逼真3D医学图像方法，助力预训练模型部署。"
+          "title": "Vision-capable LLMs vs. OCR for long-document (including charts, images, tables, etc.) QA [D]",
+          "summary": "研究对比了视觉LLM与OCR在长文档问答中的表现，涵盖图表、图像、表格等。"
         },
         {
-          "title": "OpenAI称攻克80年数学难题",
-          "summary": "OpenAI宣称解决了一项困扰数学界80年的难题。"
+          "title": "NVlabs /LongLive",
+          "summary": "NVlabs开源LongLive项目，聚焦长序列模型研究。"
         }
       ]
     },
@@ -60,21 +52,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
-          "summary": "观点：AI采购中专业化比规模更重要，多数决策忽视了这一战略变量。"
+          "title": "圆桌对话：下一个杀手级AI产品，会出现在哪个赛道？| 2026AI Partner·北京亦庄AI+产业大会",
+          "summary": "行业专家圆桌讨论，认为杀手级AI产品可能出现在垂直应用与机器人赛道。"
         },
         {
-          "title": "李飞飞再出手，空间智能的ImageNet来了",
-          "summary": "李飞飞团队推出空间智能领域的ImageNet，推动3D理解研究。"
+          "title": "对话王小川：离开通用人工智能的主干道之后",
+          "summary": "王小川分享离开通用AI赛道后的思考，强调专注垂直领域的重要性。"
         },
         {
-          "title": "Codex 这波大更新后，Mac 的含金量再次提升",
-          "summary": "Codex大更新显著提升Mac在AI开发中的实用价值。"
+          "title": "mukul975 /Anthropic-Cybersecurity-Skills",
+          "summary": "Anthropic开源网络安全技能项目，帮助开发者提升AI安全能力。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦大模型竞赛与融资热潮，专业化与空间智能成为新趋势，开源生态面临挑战。",
-  "generated_at": "2026-05-23T11:34:44.154224+08:00",
+  "summary": "今日AI圈聚焦模型降价、机器人硬件突破与垂直应用探索，开源生态持续活跃。",
+  "generated_at": "2026-05-24T11:56:09.342926+08:00",
   "source_count": 20
 }

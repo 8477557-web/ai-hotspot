@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-23T11:34:44.154314+08:00",
+  "updated_at": "2026-05-24T11:56:09.343015+08:00",
   "total": 20,
   "items": [
     {
@@ -13,695 +13,147 @@
       "link": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
       "summary": "",
       "published": "2026-05-23T08:02:03+08:00",
-      "fetched_at": "2026-05-23T11:32:42.350234+08:00",
-      "pre_filter_reason": "Title explicitly about diffusion language models for text generation, AI research.",
+      "fetched_at": "2026-05-24T11:54:20.943259+08:00",
+      "pre_filter_reason": "Title refers to a diffusion language model, an AI research topic.",
       "scores": {
         "importance": 8,
-        "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 9,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Nemotron-Labs扩散语言模型：如何实现接近光速的文本生成",
-          "angle": "深入浅出讲解扩散语言模型的工作原理，对比传统自回归模型的速度优势，并展示实际应用场景。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "速度革命：Nemotron-Labs模型如何改变AI文本生成效率",
-          "angle": "分析该技术对实时对话、内容生成等领域的潜在影响，探讨其商业价值与未来趋势。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "81418bf15542",
-      "source_id": "huggingface-blog",
-      "source_name": "Hugging Face Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
-      "link": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
-      "summary": "",
-      "published": "2026-05-22T23:25:59+08:00",
-      "fetched_at": "2026-05-23T11:32:42.350278+08:00",
-      "pre_filter_reason": "标题明确提及AI采购决策",
-      "scores": {
-        "importance": 7,
-        "timeliness": 7,
+        "timeliness": 9,
         "actionability": 8,
-        "scarcity": 8,
+        "scarcity": 9,
         "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "AI采购决策：为什么专业化比规模化更重要？",
-          "angle": "通过案例对比，解释专业化模型在特定任务中的优势，指导企业如何选择AI解决方案。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "被忽视的变量：专业化如何成为AI采购的制胜关键",
-          "angle": "深入探讨企业采购AI时常见的误区，分析专业化策略如何带来更高ROI。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "7831518e949b",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Synthesize Realistic 3D Medical Images at Scale to Ship Pre‑Trained Models",
-      "link": "https://developer.nvidia.com/blog/synthesize-realistic-3d-medical-images-at-scale-to-ship-pre-trained-models/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/combined_grid1-ezgif.com-optimize-1.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"combined_grid1-ezgif.com-optimize (1)\" width=\"600\" />High‑quality 3D medical imaging data is the foundation of modern radiology AI, but access to it is often constrained by data scarcity, privacy restrictions,...",
-      "published": "2026-05-23T00:00:00+08:00",
-      "fetched_at": "2026-05-23T11:32:42.109818+08:00",
-      "pre_filter_reason": "Involves AI for generating 3D medical images and pre-trained models.",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 7,
-        "virality": 6,
         "crowd_heat": 0.0
       },
       "quality_score": 8.2,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "如何用AI大规模合成逼真3D医学图像？",
-          "angle": "分步演示从数据生成到预训练模型部署的全流程，突出技术要点与工具。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "analysis",
-          "title": "3D医学图像合成：加速AI医疗模型落地的关键",
-          "angle": "分析该技术对医疗影像诊断、手术规划等领域的实际价值，讨论数据隐私与合规问题。",
+          "title": "光速文本生成：Nemotron扩散语言模型入门指南",
+          "angle": "用通俗语言解释扩散模型如何实现“光速”文本生成，并对比传统自回归模型，展示其速度优势和应用场景。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "994f35d6b820",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Anthropic最快下周完成逾300亿美元融资轮",
-      "link": "https://36kr.com/newsflashes/3821194878947715?f=rss",
-      "summary": "Anthropic PBC最快将于下周完成最新一轮融资，融资额可能超过300亿美元，公司估值超过9000亿美元，从而超越竞争对手OpenAI，成为全球估值最高的人工智能初创公司。据报道，红杉资本、Dragoneer Investment Group、Altimeter Capital和Greenoaks Capital Partners预计将联合领投本轮融资。上述每家公司计划投资约20亿美元。（新浪财经）",
-      "published": "2026-05-23T09:30:22+08:00",
-      "fetched_at": "2026-05-23T11:32:43.980984+08:00",
-      "pre_filter_reason": "AI初创公司融资新闻",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "Anthropic融资超300亿美元：AI军备竞赛进入新阶段",
-          "angle": "解读融资背后的战略意义，分析Anthropic如何超越OpenAI成为估值最高AI初创公司。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "红杉、Altimeter领投：顶级风投为何押注Anthropic？",
-          "angle": "从投资机构视角分析Anthropic的技术路线、市场定位与长期潜力。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "24f89812a229",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Gemini 3.5深夜登场，谷歌CEO劈柴亲自算账：速度快4倍、一年还省超10亿美元，曝内部已被颠覆",
-      "link": "https://www.infoq.cn/article/COda3jCSAliReaA4YVJc?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/COda3jCSAliReaA4YVJc?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-05-23T02:13:51+08:00",
-      "fetched_at": "2026-05-23T11:32:52.536436+08:00",
-      "pre_filter_reason": "Announces Gemini 3.5, an AI model from Google.",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Gemini 3.5速度提升4倍：谷歌CEO亲算成本节省超10亿美元",
-          "angle": "解析Gemini 3.5的技术优化点，对比前代性能，并演示如何在实际业务中降本增效。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "analysis",
-          "title": "Gemini 3.5深夜登场：谷歌内部被颠覆意味着什么？",
-          "angle": "探讨该模型对谷歌AI战略的影响，以及其对行业竞争格局的潜在冲击。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "6c34aae71d3a",
+      "id": "040943048e9e",
       "source_id": "qbitai",
       "source_name": "量子位",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "李飞飞再出手，空间智能的ImageNet来了",
-      "link": "https://www.qbitai.com/2026/05/422738.html",
-      "summary": "一个专门用来评测具身空间智能的新基准",
-      "published": "2026-05-22T16:25:25+08:00",
-      "fetched_at": "2026-05-23T11:32:54.129384+08:00",
-      "pre_filter_reason": "李飞飞空间智能基准，涉及AI研究",
+      "title": "DeepSeek V4价格打骨折，宁王京东网易抢着入场，梁文锋：目标是AGI",
+      "link": "https://www.qbitai.com/2026/05/423162.html",
+      "summary": "梁文锋承诺坚持开源路线",
+      "published": "2026-05-23T17:46:37+08:00",
+      "fetched_at": "2026-05-24T11:54:29.507868+08:00",
+      "pre_filter_reason": "DeepSeek V4 AI model, AGI goal",
+      "scores": {
+        "importance": 9,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "DeepSeek V4价格战背后：如何用开源模型降本增效？",
+          "angle": "分析DeepSeek V4大幅降价的原因（开源路线+企业合作），并提供企业用户利用开源模型降低AI部署成本的实操建议。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "1a77417dda08",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "mukul975 /Anthropic-Cybersecurity-Skills",
+      "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "summary": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+      "published": "2026-05-24T11:55:10.751013+08:00",
+      "fetched_at": "2026-05-24T11:55:10.751015+08:00",
+      "pre_filter_reason": "Cybersecurity skills for AI agents, mapped to AI frameworks",
       "scores": {
         "importance": 8,
         "timeliness": 9,
         "actionability": 9,
         "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "空间智能的ImageNet来了：李飞飞新基准到底怎么用？",
-          "angle": "手把手讲解新基准的核心评测指标，以及它如何衡量机器人的空间理解能力，适合AI工程师入门了解。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "李飞飞再出手：空间智能为何是AI的下一个风口？",
-          "angle": "从新基准切入，分析空间智能对具身机器人、自动驾驶等领域的意义，以及为何被称为“空间智能的ImageNet”。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "01113a4e1a03",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "谷歌掀桌，一口气甩出16个AI王炸",
-      "link": "https://www.leiphone.com/category/ai/k2qs0VRU74Ub6CCw.html",
-      "summary": "<section><section><section><section><section></section><section><section><section><section></section></section></section><section><span><br /></span></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span><span style=\"font-size: 15px;\">Google I/O 向来是全球开发者日历上最密集的信息节点，更是科技巨头宣示AI野心的最高舞台。</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span>2026年5月19日，加州山景城，Sundar Pichai 在两个小时内扔了16款核心产品更新。其中有5个产品各自坐拥30亿用户，Gemini 助手已有9亿用户，搜索AI Mode上线仅一年，月活突破10亿。</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>没有&quot;One More Thing&quot;的悬念节奏，没有刻意留到最后的重磅彩蛋。Google选择了一种近乎轰炸式的信息发布策略：</span><strong><span>把所有东西一次性摊在桌面上。</span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Pichai在台上说了一句耐人寻味的话：&quot;最前沿的Agent可能只触达过世界上0.1%的人。真正的问题，是怎么把这种前沿能力规模化交付给真正的更广泛的用户。&quot;</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>这话的潜台词很直白：</span><strong><span>Agent 今天还是少数极客和高端企业的玩具，但 Google 要把它变成30亿人的日常。</span></strong></p><section style=\"text-align: center; margin-bottom: 0px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fcfed8eefb.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: center; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"color: #888888;\">Google I/O 2026的发布清单（部分）</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>详情链接：</span><span>https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/</span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>01</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>饱和攻击：Google如何封死所有入口</span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>如果把Google这次发布的产品叠起来看，可以读出四层清晰的结构。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong><span>模型层是最底层。</span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Gemini 3.5 Flash承担的是&quot;压低Agent边际成本&quot;的任务。它的输出速度是同级别前沿模型的4倍，价格却不到一半。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Pichai在台上算了一笔账：一家头部企业如果一天处理一万亿token，把80%的负载从其他前沿模型迁到3.5 Flash，一年能省下超过10亿美元。</span></p><section style=\"text-align: center; margin-bottom: 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fcfede1a89.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong><span>产品层是用户直接感知的部分。</span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>此次产品层最大的变化是Gemini 从“一个 AI 应用/助手”变成</span><strong><span>跨搜索、办公、邮箱、视频、开发、图像、硬件和 Android 系统的通用代理层</span></strong><span>。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>比如Search Generative UI、Ask YouTube等产品说明搜索已经可以直接理解内容、定位片段、生成答案和交互布局。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>这意味着 Google 最核心的搜索产品，正在从“信息检索”走向“答案与任务界面”。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Gemini Spark、Daily Brief、Information Agents、Android Halo 都是做持续运行的个人代理，说明 AI 不再只是被动响应，而是开始常驻、主动、跨应用工作。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>尤其是Intelligent Eyewear等硬件方面的新品，本质上是在抢“下一代默认交互界面”。</span></p><section style=\"text-align: center; margin-bottom: 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fcfee2b8df.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong><span>商业层解决的是&quot;Agent怎么赚钱&quot;的问题。</span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Universal Cart是跨平台购物车，带兼容性检查和价格追踪。Compute-Used计费取代了每日限额，新增的100美元/月Ultra档位和降至200美元/月的原档位，构成了更精细的定价梯度。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong><span>基础设施层是支撑一切的底座。</span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Google 内部日处理token已经从3月的5000亿激增至如今的3万亿以上，每月跨自家产品处理的token已达3.2千万亿，是2025年I/O时480万亿的7倍。全球部署超过100万颗第八代TPU，首次走&quot;双芯片&quot;分工路线。8T专做训练，8I专做推理，构成了竞争对手难以复制的护城河。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong><span>&quot;25年来最大的搜索升级&quot;。</span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>这些产品更新中，最重要的在于搜索AI Mode，被Google称为&quot;25年来最大的搜索升级&quot;。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>传统搜索是&quot;用户输入关键词，搜索引擎返回链接列表&quot;。而AI Mode是&quot;用户用自然语言描述需求，搜索引擎直接生成答案、执行操作、甚至代用户完成任务&quot;。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Generative UI让搜索框根据查询内容动态生成不同的界面布局。查天气时自动生成带图表的dashboard，查股票时自动生成走势图，查餐厅时自动生成地图和评分卡片。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Custom Dashboards（Mini Apps）让用户可以创建持久化的自定义追踪面板。比如追踪某个股票的实时数据、某个航班的动态、某个电商商品的价格变化。这些面板超越了静态网页的范畴，完全由AI动态生成交互式界面。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Information Agents则更进一步。它们超越了&quot;用户查询时才响应&quot;的传统模式，转向7x24小时后台监控。当某个用户关心的信息发生变化时，Agent主动推送通知。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong><span>这意味着搜索框正在从&quot;检索工具&quot;变成&quot;AI工作面&quot;（Runtime）。搜索框变成了一种常驻的背景能力，随时待命。</span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Gradient Flow创始人Ben Lorica在会后写了一篇分析，核心判断是：&quot;Google used this I/O to stake a claim on the agentic layer, and the ambition is wider than any single product.&quot;</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>他的观察是：Google的方向很明确，要让AI从&quot;回答问题&quot;升级为&quot;运行界面、工作流和代理，覆盖整个生态系统&quot;。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>从模型层到产品层到商业层到基础设施层，每一层都在为同一个目标服务：让Agentic AI成为Google生态的默认运行模式。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>9to5Google对此的报道很直接：&quot;At I/O 2026, Google announced a tidal wave of new Gemini-powered features across its biggest products and services.&quot;</span></p><section style=\"text-align: center; margin-bottom: 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fcfee78f54.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>&quot;Tidal wave&quot;这个词选得准确，Google没有给竞争对手留下任何可以喘息的缝隙。搜索、浏览器、手机、眼镜、办公套件、开发者工具、购物、科研，全部被Agent覆盖。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong><span>但Google再一次的饱和式发布不是炫耀，是焦虑。</span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>在Agent赛道上&quot;虽迟但到&quot;的Google，正在用生态广度弥补单点创新的不足。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Gradient Flow的Ben Lorica说得更直接：Google用这场I/O宣示了对Agentic层的主权，其野心远超任何单一产品。</span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>02</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>阻击OpenAI：模型竞赛的另一条战线</span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Gemini 3.5 Flash是发布会当天全面可用的产品，也是Google阻击OpenAI的核心武器。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>这是谷歌最强的Agent和编程轻量模型，能部署多个子Agent协同完成任务，在几乎所有基准测试上超过上一代旗舰Gemini 3.1 Pro。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>输出速度是其他前沿模型的4倍，在Antigravity中优化后可达12倍。价格不到同档前沿模型的一半。这种速度与性能的平衡使3.5 Flash成为处理长时程Agent任务的最理想选择。</span></p><section style=\"text-align: center; margin-bottom: 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fcfeea3be3.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>由此可见，Google选择的竞争维度已经超出了&quot;谁的模型更聪明</span><strong><span>&quot;，转向&quot;谁的模型更便宜、更快、更容易规模化部署&quot;。</span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong><span>速度只是表象。真正的杀招在生态位。</span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>OpenAI目前是一个&quot;有大脑、没身体&quot;的巨人。GPT-5.5在基准测试上依然领先，但用户需要通过API把它接入别人的产品里。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>而Google展现的则是&quot;全地形作战&quot;能力：用户不需要打开ChatGPT、不需要切换应用，就在Workspace、手机系统、搜索框里完成所有任务。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Workspace的集成是原生的。Gmail里语音编辑，Docs里语音&quot;头脑风暴&quot;创建文档，Keep里语音操作。Microsoft 365也能接OpenAI的API，但那是嫁接，这是内置。</span></p><section style=\"text-align: center; margin-bottom: 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fcfef09b33.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>更狠的是定价策略。Google Search免费使用3.5 Flash。OpenAI的同等能力需要付费。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Pichai算了一笔账给CIO听：一家头部企业一天处理一万亿token，把80%的负载从其它前沿模型迁到3.5 Flash，一年能省下超过10亿美元。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>他还透露了一个极限测试：在尚未发布的3.5 Pro支持下，Google曾让93个不同Agents协同工作，消耗26亿token，从零建造起一个复杂系统项目。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>这充分展示了Agent编排的规模化能力。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>OpenAI当然不会坐以待毙。Codex已经上线移动端，Operator在做Agent探索。但Google这一轮饱和攻击的底层逻辑很清楚：AI竞赛从&quot;谁拥有最好的模型&quot;转向&quot;谁拥有运行智能体的完整堆栈&quot;。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>事实说明，OpenAI可能在某些基准测试上领先，但</span><strong><span>Google在&quot;把模型推到用户面前&quot;这件事上拥有结构性优势。</span></strong></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>03</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>围剿Anthropic：编程赛道的官方化战争</span><span><br /></span></span></strong></h4></section></section></section></section><p><strong><span><br /></span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Antigravity 2.0是这场I/O中最被低估的发布。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>它从&quot;面向开发者的智能体式IDE&quot;转向&quot;通用多Agent编排平台&quot;，作为独立桌面应用成为Agent交互的中央枢纽。任何人都能编排Agent完成各类任务，不限于编码。它可以同时部署多个Agent，一个写代码、一个生成素材、一个规划架构。</span></p><section style=\"text-align: center; margin-bottom: 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fcfef36fce.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>最关键是Antigravity SDK，它让第三方程序可直接、可编程地访问驱动Google自家产品的同一套Agent harness。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>这是在构建Agent时代的&quot;Android&quot;。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Google内部测试显示，Agent完全从零搭出一个能跑的操作系统，API耗费在1000美金以内。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>但开发者社区的反馈并不一边倒。Gradient Flow的调研显示，部分开发者认为Google的编码体验&quot;sloppy&quot;，尤其在深层系统级工作中表现不佳。Gemini在Agent编码和工具使用方面仍落后于OpenAI和Anthropic。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>这恰恰说明了两种生态哲学的碰撞。Anthropic的Claude Code走的是&quot;精英路线&quot;，SWE-Bench Pro 64.3%当前公开基准领先，强调安全、可靠、高质量。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong><span>Anthropic收购Stainless，买的是&quot;顶级人工把关最后防线&quot;。Google的Antigravity走的是&quot;官方化&quot;路线，</span></strong><span>用基础设施规模加多Agent编排加极速性能，把编程Agent变成Google生态的默认选项。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>前者是&quot;少而精&quot;，后者是&quot;大而全&quot;。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Cursor年收入突破20亿美金，证明了编程Agent市场的巨大空间。Google现在带着3.5 Flash的1000美元搭系统成本杀入，对整个独立开发者工具赛道都是一次降维打击。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>部分开发者看好Google的集成优势，尤其是与Android、Firebase、Google AI Studio的原生打通，这是OpenAI和Anthropic所不具备的。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>但从业者会根据其在真实代码库中的可靠性来评判。编排故事很有前景，但粗糙的编码体验能不能撑起企业级应用，还需要时间验证。</span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>04</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>Gemini for Science：</span></span></strong></h4></section><section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>把AI从&quot;回答问题&quot;升级为&quot;做科学研究&quot;</span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>在整场发布会中最具长期战略意义、也最耐人寻味的，莫过于&nbsp;</span><strong><span>Gemini for Science</span></strong><span>&nbsp;的低调亮相。</span></p><section style=\"text-align: center; margin-bottom: 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fcfef6ff12.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>这一布局，完美印证了我们之前对大模型演进范式的判断。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>快思考是Thinking Machine Lab的等一批OpenAI叛将的路径。Altman强调了当前大模型在瞬时响应上的极限，表示快不一定代表好，现在Google则是在此基础上，实现超级加倍。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Gemini for Science的定位很明确：&quot;人类创造力的倍增器&quot;。不止于问答，覆盖假设生成、计算验证、文献综合的完整科学方法闭环。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Gemini for Science的三大实验性原型工具已在Google Labs推出。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Co-Scientist通过多智能体&quot;创意竞赛&quot;生成、辩论并评估假设，所有主张均经过深度验证并附可点击引用。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>AlphaEvolve并行生成并评分数千种代码变体，BASF用它优化供应链，Klarna用它将训练速度翻倍。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>NotebookLM检索科学文献，将结果结构化为可自定义属性的表格，支持聊天式深挖并生成报告、幻灯片、信息图及音视频概述。</span></p><section style=\"text-align: center; margin-bottom: 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fcfefa9590.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Science Skills直接集成于Antigravity等平台，整合超过30个主要生命科学数据库和工具，将结构生物信息学和基因组分析从数小时缩短至数分钟。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>这背后是DeepMind二十年的科学AI积累。Co-Scientist来自DeepMind，AlphaEvolve来自DeepMind，直接集成AlphaFold Database和AlphaGenome API。AlphaFold已帮助超过300万研究人员。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>相比于 OpenAI 还在探索如何让模型“显得有逻辑”，拥有 DeepMind 血统的 Gemini for Science 显然更值得大众和整个科学界期待，它代表着 AI 真正进入改造客观世界的深水区。</span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>05</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>Agent时代的胜负手</span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>Google I/O 2026 是一面镜子，照出了大模型战争下半场最残酷的演进规律：</span><strong><span>Agent 时代的胜负手，在于谁能先终结延迟和模态切换。</span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>在过去两年里，AI 创业圈享受了一段黄金般的“小确幸”时代。无数独立开发者和独角兽公司的成功模式，本质上都是“在 ChatGPT 之外，找一个细分场景，做一个体验好 10 倍的包装 App 或插件”。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>但 Google 这场饱和式发布，用近乎粗暴的方式传递了一个信号：</span><strong><span>用“原生一体化”消解 OpenAI 辛苦建立的“插件生态”和创业者的生存空间。</span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>当用户不需要在窗口间切换上下文，不需要跨生态忍受网络延迟，就能在系统底层和日常工具里调用一切 Agent 能力时，那些“套壳”和“单点创新”的工具溢价空间将被无情压缩。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>这标志着 AI 领域的一系列“小确幸”时代彻底结束了，“大帝国”的全面竞争正式开启。</span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span>在这场关于“入口所有权”的终极绞杀中，没有公司能偏安一隅。巨头已经携千亿资本筑起高墙，而留给独立开发者的，将是一场必须向着极高精度和绝对中立长尾进军的生死突围。</span><span>雷峰网</span></p></section></section></section></section></section>",
-      "published": "2026-05-22T11:41:00+08:00",
-      "fetched_at": "2026-05-23T11:32:51.114580+08:00",
-      "pre_filter_reason": "AI product launches by Google",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "谷歌一口气发布16个AI王炸：哪些最值得开发者关注？",
-          "angle": "快速盘点16个新工具/模型，重点推荐3-5个对开发者最有用的更新，并附上简单上手示例。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "谷歌掀桌：16个AI王炸背后，谷歌在下一盘什么棋？",
-          "angle": "分析谷歌密集发布背后的战略意图，对比OpenAI和微软，解读其对AI生态格局的影响。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "7b9024cd48a5",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "融资700亿！DeepSeek Code真要来了，ACM金牌大神崔添翼挂帅",
-      "link": "https://www.qbitai.com/2026/05/422624.html",
-      "summary": "DeepSeek Code is Coming",
-      "published": "2026-05-22T15:16:39+08:00",
-      "fetched_at": "2026-05-23T11:32:54.129397+08:00",
-      "pre_filter_reason": "AI product launch (DeepSeek Code)",
-      "scores": {
-        "importance": 9,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 9,
+        "virality": 8,
         "crowd_heat": 0.0
       },
       "quality_score": 7.8,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "DeepSeek Code要来了：ACM金牌大神带队，代码生成工具怎么玩？",
-          "angle": "预告DeepSeek Code的功能亮点，对比GitHub Copilot等竞品，提供早期试用和配置技巧。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "融资700亿！DeepSeek Code为何让AI圈如此兴奋？",
-          "angle": "解析DeepSeek Code的团队背景（ACM金牌大神）、技术路线和融资意义，探讨其能否颠覆代码生成市场。",
-          "difficulty": "入门"
+          "title": "AI Agent的网络安全技能库：5大框架实战解析",
+          "angle": "以MITRE ATT&CK和NIST CSF为例，演示如何利用这个结构化技能库训练AI Agent，并给出在Claude Code等平台上的配置步骤。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "b6c687de7442",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
+      "id": "55046dcf8ba0",
+      "source_id": "36kr",
+      "source_name": "36氪",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "我们不看阿里财报",
-      "link": "https://www.leiphone.com/category/CorporateServices/1AzJzkmgKK8oLiQW.html",
-      "summary": "<p>5 月 13 日下午，阿里最新财报出来后，分歧，从来没有这么大过。</p><p>当晚，美股开盘之前，阿里股价一度下跌了超过 3%。但有意思的是，美股开盘后，转折开始发生了，阿里盘中被迅猛拉起，股价一度大涨超8个点。</p><p>同一份财报，有人看完转身离场，有人看完悄悄加仓。市场为何分歧巨大，看涨和看跌的人，他们都在看什么？</p><p>至于为何看跌，其实市场已有很多相关分析，但至于为何而涨，许多分析并不是很透彻。</p><h3>看涨的人，在看 Token 收入</h3><p>据雷峰网了解，今年三月，几家私募就在私下讨论：判断阿里值不值得继续持有，不看财报利润，就看一个指标——tokens 收入 6 月翻能否 5 倍。翻了，继续持有，甚至加仓；翻不了，出一些。</p><p>而后在四月初，阿里内部下了一道军令状，到5月15日之前，也就是接近两个月时间，日均Token收入要相较 4 月初涨5倍。而据财经独家消息，这个目标已经提前达成。</p><p>这也就是说，阿里上半年在 tokens 收入上的表现，是超过机构预期的。</p><p>所以，财报后 8% 的猛涨，或许与这个不无关系。</p><p>为什么机构特别关心 Tokens 收入？</p><p>因为光看阿里AI云收入增速38%，在今年已经不太够了。</p><p>过去一年，阿里云收入增速从20%多提升到30%以上，背后很大一部分功劳来自AI算力，也就是直接把GPU算力卖给客户。营收数字确实好看，但这门生意有一个核心问题：利润极低。</p><p>算力卡加价转手卖出去，本质上大家都是&quot;算力二道贩子&quot;。你能卖，别人也能卖，没有任何竞争壁垒。营收看起来上亿，但真正进口袋的没多少钱。&quot;利润率不到10个点，大客户更惨，基本都是血亏&quot;。一位云销售老兵张宇直言。</p><p>据了解，某游戏客户去年有个十几亿的单子，用的是H200。今年续约了，金额涨到接近20亿，这次卖B卡。金额越做越大，利润却仍然较低。</p><p>所以今年机构对阿里云提出了更高的要求：不单单只看AI云收入以及增长，更要看Tokens 收入，也就是模型即服务，直接把大模型的调用能力作为服务卖出去赚钱。</p><p>机构要求的变化，也是可以理解。</p><p><strong>第一，Tokens 所产生的利润更高。</strong>Tokens卖的是模型能力，不是硬件转手，毛利率远高于卖算力。而且随着千问模型能力越来越强，用户愿意付的单价也在上升，这是有定价权的生意。</p><p>吴泳铭在电话会上也挑明了：&quot;MaaS业务相对来说毛利高一些。&quot;而且随着推理技术每个季度都在优化，&quot;单服务器单卡的产出在持续提升。&quot;这意味着同一张卡，做MaaS比做算力租赁更赚钱。</p><p><strong>第二，卖 Token 能带动更多隐性收入。</strong>一个企业客户一旦开始大规模调用阿里云的大模型，随之而来的是数据库、存储、网络带宽、计算资源的全套需求。MaaS是入口，后面跟着的是整个云服务的消费升级。客户粘性也更强，换一家云厂商的迁移成本，远比换一个算力供应商高得多。</p><p>这才是机构把Token消耗量当核心指标的底层逻辑：Token增长，不只意味着MaaS收入本身在涨，更意味着阿里云在客户那里的根扎得越来越深。</p><h3>答卷之前：信心有，怀疑也不少</h3><p>对于阿里能否在Tokens上翻大倍，坦白来说，上半年，市场信一半，疑一半。</p><p>疑在两点。</p><p><strong>第一，产品。多模态是硬伤。</strong></p><p>HappyHorse（快乐马）杀出之前，字节在生图、生视频上压了阿里一截，字节的seedance 2.0出来后，局面更一边倒了。&quot;世界第一梯队的能力。&quot;年消费1000万以下的客户，开白都难。店大已开始欺客。</p><p>AI短剧、AI漫剧，这是MaaS变现的主战场。视频模型行不行，直接决定客户用谁。</p><p>火山还布了一个局：用红果短剧做闭环。制作方拿豆包模型做内容，内容好，红果给流量、给投资。钱从火山出去，绕一圈，又回到火山。阿里没有这张牌。</p><p><strong>第二，节奏。火山冲得更猛。</strong></p><p>2025年底，火山就把MaaS从&quot;探索&quot;切成了&quot;强攻&quot;。2026年MaaS对外目标 100 亿。每个销售背1000万打底，存量多的背两三千万。阿里相对要慢一些。</p><p>所以，2026 年上半年，机构就是在等，等阿里能不能追上。</p><p>阿里的行动速度还是很快。</p><p>产品端，推出Happyhorse（快乐马），直接补多模态的课。</p><p>销售端，动得更猛。据业内人士称，阿里云公共云事业部下面，阿里云商业线三大事业部都为攻坚MaaS调整了新阵型。</p><p>内部的紧张感，从一个细节就能看出来。有销售说，过去几个月，他们一三五必开大模型会。而且所有人不许请假。</p><p>正是这种追赶，也才会有提前完成 tokens 目标成绩。</p><h3>阿里，还值得持有吗？</h3><p>5 月 13 日晚猛涨了 8%，但到 5 月 14 日晚，阿里的股价是有所回落，这说明市场仍然有分歧。</p><p>但对于未来半年阿里的 tokens 收入，雷峰网跟从业者有过一些探讨，许多人还是有乐观预期。</p><p>原因在于，过去几个月，AI行业发生了一个根本性的转变。用吴泳铭的话说：&quot;从对话式AI迈向了Agent运行。&quot;</p><p>阿里的数据也可以看出一二。</p><p>对比去年11、12月，今年5月百炼MaaS平台上的API Token需求已增长十倍以上。AI模型和应用服务ARR收入已突破80亿元，到6月突破100亿将是&quot;非常确定的事情&quot;。</p><p>更关键的是，这个增长远没到顶。&quot;我们的服务器内，几乎没有一张卡是空的。&quot;吴泳铭说。</p><p>有一个数据是，今年3月，中国日均Token调用量突破140万亿，对比2024年初的1000亿，不是十倍百倍，是两年增长超千倍。</p><p>另外，还有一个被很多人忽略的东西，芯片。</p><p>平头哥自研GPU已实现规模化量产，60%以上的算力服务于外部商业化客户。</p><p>吴泳铭算了一笔账：国外主流AI芯片毛利率接近60%-80%，这里面有巨大的性价比提升空间。换句话说，做算力卡的二道贩子，是被别人掐着利润。自己造子弹，利润才能攥在自己手里。这才是阿里云长期利润率改善最确定的一张底牌。</p><p>所以，回到开头那个问题：同一份财报，为什么有人离场，有人加仓，分歧如此之大，因为有人看的是利润表，有人看的是 tokens 账单。两种看法，两种决策。</p>",
-      "published": "2026-05-22T10:50:00+08:00",
-      "fetched_at": "2026-05-23T11:32:51.114604+08:00",
-      "pre_filter_reason": "Discusses token revenue as metric for AI company",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "阿里财报不看利润看Token？一文看懂AI时代的估值新逻辑",
-          "angle": "用通俗案例解释什么是“Token收入”，以及为什么它比传统财报指标更能反映AI公司的真实价值。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "阿里财报分歧背后：看涨的人到底在赌什么？",
-          "angle": "深入分析看涨方关注的Token收入指标，结合阿里云AI业务进展，解读市场分歧的根源。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "894d1bb7881d",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "search",
-      "title": "全球AI融资潮下的中国竞速：高层密集调研人形机器人、算力网，国家人工智能产业投资基金出手 - 新浪网",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1heGx5WVFpa0lTd2VjVmZ0UUVlRlRCMk9qX1FESTlsTXYzT2o0d0tUcHh1bG43VTJZLWVJZFNaUEJPdE94aFplZVE0Tnl4UTBmcjIxaENGQU9aVEQ1QUo0TWhSQTlYLW10cWs1M3piZVQwRDV2OVlpNQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE1heGx5WVFpa0lTd2VjVmZ0UUVlRlRCMk9qX1FESTlsTXYzT2o0d0tUcHh1bG43VTJZLWVJZFNaUEJPdE94aFplZVE0Tnl4UTBmcjIxaENGQU9aVEQ1QUo0TWhSQTlYLW10cWs1M3piZVQwRDV2OVlpNQ?oc=5\" target=\"_blank\">全球AI融资潮下的中国竞速：高层密集调研人形机器人、算力网，国家人工智能产业投资基金出手</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪网</font>",
-      "published": "2026-05-22T20:05:00+08:00",
-      "fetched_at": "2026-05-23T11:33:03.194014+08:00",
-      "pre_filter_reason": "AI融资、人形机器人、算力网、AI产业基金",
+      "title": "36氪首发 | 北大项目孵化，国内首家原生机器人“大脑芯片”企业获数亿元融资",
+      "link": "https://36kr.com/p/3821371042877575?f=rss",
+      "summary": "<p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，北京维泛智能科技有限公司（以下简称“维泛智能”）近日完成数亿元种子轮融资，由中关村资本及旗下启航投资联合领投，上海未来产业基金、石溪资本、佰维存储、燕创集团、海益投资、探元创投共同投资。</p>\n  <p>维泛智能成立于2025年5月，孵化自北京大学类脑芯片实验室（PAICORE Lab），专注于具身智能“大小脑”融合芯片研发，致力于打造全国产化机器人核心计算方案。</p>\n  <p>联合创始人殷积磊毕业于北京大学，拥有超过20年半导体行业经验，曾任知存科技COO兼研发副总裁，以及IBM、GlobalFoundries芯片研发总监，并曾在MTK、VIA等企业从事芯片研发工作。团队核心成员均来自IBM、华为、腾讯等行业头部企业。</p>\n  <p>随着具身智能快速发展，机器人“大脑”算法持续演进，对通用芯片平台提出了更高要求。机器人“大脑”芯片不仅需要承载多模态感知与AI推理，还需要兼顾运动控制等核心计算任务，是机器人完成交互、决策与执行的“中枢神经”。</p>\n  <p>目前，具身智能“大脑”芯片市场高度依赖英伟达Jetson系列，但存在着价格高昂、本地化支持有限，商业化部署门槛较高问题。</p>\n  <p>另一方面，国产芯片目前尚无成熟产品能够真正满足机器人端侧“大脑”需求。</p>\n  <p><strong>针对机器人芯片在“算力—能效—成本”之间的平衡难题，维泛智能充分利用团队前期在类脑芯片深耕多年的技术积累，自主研发了类脑启发式GPU架构（Brain-Inpsired GPU，BiGPU)，融合类脑计算与通用GPU计算能力，为具身智能SOTA大模型原生设计。</strong>通过引入类脑计算机制降低功耗，同时保留GPU对多种算法框架的通用适配能力，从而兼顾低功耗、高能效与算法灵活性。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260523/v2_c1bd4090c70e47bdb9e8b4a22a58c371@5920579_oswg217752oswg864oswg486_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">（图源/企业）</p>\n  <p>殷积磊介绍称，神经网络中超过80%的计算量集中于矩阵乘累加（GEMM）操作。为了在保证算力效果的前提下降低数据量与带宽需求，维泛智能通过编码转换，将传统神经网络计算（ANN）转化为脉冲神经网络（SNN）形式的累加计算，在保留功能的同时显著降低功耗与带宽压力。</p>\n  <p>此前，维泛智能已申请支持ANN与SNN网络结构统一软硬件方法及相关装置专利，实现SNN与ANN指令格式及地址编址的统一。<strong>相比传统异构方案需要维护两套系统与工具链，该方案能够共享统一指令集与软件工具链，并深度兼容主流软件生态，从而降低开发复杂度与生态接入成本。</strong></p>\n  <p>据了解，公司整体研发周期规划为两年，目前项目进度已过半，预计于2027年第二季度实现芯片投产。</p>\n  <p>本轮融资将主要用于扩大研发团队、完成指令集架构开发，以及推进产品定义与实现方案落地。</p>\n  <p><strong>以下为硬氪与维泛智能创始人殷积磊访谈节选（略经编辑）：</strong></p>\n  <p><strong>硬氪：为什么选择用类脑计算路线做机器人大脑芯片？</strong></p>\n  <p><strong>殷积磊：</strong>类脑计算本质上是下一代人工智能的重要方向。我们其实是在用下一代技术解决当下问题，同时为未来算法演进提前预留计算平台。</p>\n  <p>目前，我们既能够支持Attention Transformer、VLA、世界模型等主流架构，也能够运行类脑神经网络，以及两者融合后的新型模型。从长期来看，类脑计算被认为是通向AGI的重要路径之一，它具备极低功耗和多功能集成潜力。比如人脑的功耗只有20瓦左右，但却能够完成高度复杂的感知与决策任务。我们希望BiGPU不仅服务当前机器人算法，也能够承载未来新的智能计算范式。</p>\n  <p><strong>硬氪：此前有企业尝试将类脑计算用于机器人大脑芯片设计吗？难点主要在哪？</strong></p>\n  <p><strong>殷积磊：</strong>此前行业内确实有一些类脑计算商业化尝试，但大多采用的是纯SNN计算或者异构方案。所谓异构，是把SNN（脉冲神经网络）计算模块和传统NPU模块拼接在一起，本质上仍然是两套系统。我们的做法是同构融合，相当于把通用GPU计算能力和类脑计算核心融合在同一个架构里。这样最大的好处，是能够共享同一套指令集和软件工具链，并进一步实现主流生态兼容。</p>\n  <p>真正的难点在于，团队既要理解类脑计算，也要理解通用计算架构，才能在底层完成两种技术路线的融合。</p>\n  <p><strong>硬氪：公司目前有和机器人厂商展开合作吗？</strong></p>\n  <p><strong>殷积磊：</strong>有，目前我们已经在和一些头部机器人公司进行合作沟通，其中部分项目已经进入实际合作阶段。</p>\n  <p><strong>投资方观点</strong></p>\n  <p><strong>中关村资本董事长 孙次锁：</strong>多领域技术融合是当下硬科技投资的新特征，中关村资本时刻保持对前沿技术的高度敏感性。维泛智能的类脑芯片是典型的交叉学科应用，通过对任务的深层次拆分高效提升器件层执行能力，这种技术能力离不开北京大学在类脑芯片领域的多年积淀。中关村资本希望结合自己的集成服务能力，与维泛智能团队一同在端侧场景呈现出兼顾性能与功耗的推理AI芯片。</p>\n  <p><strong>启航投资董事总经理 李磊：</strong>启航投资聚焦新一代人工智能、高端核心芯片等国家级战略性硬科技赛道，重点投资拥有底层原始创新、突破产业瓶颈、可实现自主可控与规模化产业赋能的优质科创企业。投资维泛智能，核心看好公司在具身智能类脑芯片领域的差异化技术壁垒，有望解决端侧具身智能“高能耗、低实时、弱自适应”的行业痛点。启航投资将全方位赋能企业技术迭代、产品量产与标杆场景落地，助力公司持续夯实技术护城河，加速国产替代进程。</p>\n  <p><strong>上海未来产业基金 李然：</strong>维泛智能聚焦具身智能“大小脑”融合芯片，属于上海重点布局的类脑智能+具身智能交叉硬核赛道。公司自主研发BiGPU 类脑启发式GPU架构，实现ANN与SNN同构融合，技术路线具备原始创新与替代价值。本次投资维泛智能，核心是立足上海类脑智能未来产业集聚区战略布局，锚定具身智能核心芯片自主可控，推动前沿技术与产业生态协同落地。</p>\n  <p><strong>石溪资本合伙人 韩楠：</strong>投资维泛智能这家类脑芯片企业，核心看好三点。第一是赛道趋势，全球AI正在从高功耗大算力，转向端侧超低功耗智能，类脑计算是产业发展必然方向；第二是团队与技术，公司拥有成熟的全栈研发能力，在脉冲神经网络、神经形态架构上形成自主核心技术，摆脱传统算力局限；第三是落地前景，产品精准匹配人形机器人大脑、边缘智能、工业智能等实体产业需求，商业化路径清晰。未来随着下游应用全面爆发，企业有望快速实现规模化放量，成长空间值得长期期待。</p>\n  <p><strong>海益投资合伙人 秦祥龙:&nbsp;</strong>维泛智能依托独创类脑+通用计算芯片架构，专注于在端侧打造适配多场景、高性价比的“大小脑”融合芯片。公司创始团队深耕具身场景理解、芯片架构设计、工具链、算法研发及工程化落地全链条，技术积淀深厚、实战经验充足。同时维泛创始人的成功创业履历和海益团队在过往也建立了非常好的默契和信任。海益投资看好维泛智能紧扣国家科技发展战略，聚力国产自主可控芯片，未来发展前景广阔。</p>",
+      "published": "2026-05-23T12:20:48+08:00",
+      "fetched_at": "2026-05-24T11:54:22.814111+08:00",
+      "pre_filter_reason": "AI chip for embodied intelligence, brain-inspired computing",
       "scores": {
         "importance": 8,
         "timeliness": 9,
         "actionability": 8,
-        "scarcity": 7,
+        "scarcity": 9,
         "virality": 8,
-        "crowd_heat": 0.0
+        "crowd_heat": 3.5
       },
-      "quality_score": 7.6,
+      "quality_score": 7.8,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "国家AI产业基金出手：人形机器人、算力网投资机会解读",
-          "angle": "梳理高层调研和基金投资的重点方向，为投资者和创业者提供赛道选择与政策红利解读。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "全球AI融资潮下，中国为何加速押注人形机器人和算力网？",
-          "angle": "对比中美AI融资趋势，分析中国高层密集调研和基金出手背后的战略考量，以及对产业链的影响。",
+          "title": "机器人“大脑芯片”是什么？北大团队的技术突破解读",
+          "angle": "用类比（如“大脑”与“小脑”分工）解释具身智能芯片的核心技术，并展望其在人形机器人领域的应用前景。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "9214964a9fc5",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
+      "id": "33f486fb1587",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "ruvnet /RuView",
-      "link": "https://github.com/ruvnet/RuView",
-      "summary": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-      "published": "2026-05-23T11:33:34.953439+08:00",
-      "fetched_at": "2026-05-23T11:33:34.953441+08:00",
-      "pre_filter_reason": "AI spatial intelligence using WiFi",
+      "title": "alistaitsacle/free-llm-api-keys",
+      "link": "https://github.com/alistaitsacle/free-llm-api-keys",
+      "summary": "Free LLM API keys for GPT-5.4, Claude, DeepSeek, Gemini, Grok — copy, paste, use. Updated 3-5x daily. No credit card needed.",
+      "published": "2026-05-24T11:55:11.249822+08:00",
+      "fetched_at": "2026-05-24T11:55:11.249824+08:00",
+      "pre_filter_reason": "Description mentions 'Free LLM API keys' and lists multiple AI models (GPT, Claude, etc.).",
       "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "不用摄像头也能感知空间？RuView WiFi感知技术入门",
-          "angle": "用通俗易懂的方式解释RuView如何利用WiFi信号实现空间感知和生命体征监测，适合智能家居爱好者。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "explainer",
-          "title": "WiFi变雷达：RuView如何实现无摄像头监控？",
-          "angle": "对比传统摄像头监控与RuView的WiFi感知技术，分析其隐私优势和应用场景（如老人跌倒检测）。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "6a6e81a4d9ee",
-      "source_id": "bilibili-hot",
-      "source_name": "B站热搜",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "hotlist",
-      "title": "OpenAI称攻克80年数学难题",
-      "link": "https://search.bilibili.com/all?keyword=OpenAI称攻克80年数学难题",
-      "summary": "",
-      "published": "2026-05-23T11:33:02.202111+08:00",
-      "fetched_at": "2026-05-23T11:33:02.202113+08:00",
-      "pre_filter_reason": "OpenAI is an AI company, and solving a 80-year math problem is likely AI research.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 7.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "OpenAI宣称攻克80年数学难题，AI推理能力再突破",
-          "angle": "快速解读该数学难题的背景及OpenAI的解决思路，探讨对AI科研能力的意义。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "80年数学难题被AI攻克：这意味着什么？",
-          "angle": "分析该事件对数学研究、AI推理模型发展的影响，以及可能引发的争议。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "a5e915f2c52a",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "微软推出 Fara1.5 系列浏览器 AI 智能体模型，72% 任务成功率超 OpenAI Operator",
-      "link": "https://www.ithome.com/0/954/266.htm",
-      "summary": "<p>IT之家 5 月 23 日消息，微软研究院 AI Frontiers 实验室最新发布 Fara1.5 系列模型，主要适用于浏览器场景下的计算机使用智能体，<strong>涵盖 4B、9B 和 27B 三个参数规模版本。</strong></p><p>该系列模型配套 MagenticLite（微软为此类智能体设计的沙盒浏览器界面）使用，可以直接读取浏览器截图，再输出鼠标和键盘操作，完成网页任务。</p><p>Fara1.5 采用 Qwen3.5 基础检查点，使用“观察 — 思考 — 行动”循环。每一步都会结合历史对话与最近 3 张浏览器截图，输出推理内容和下一个动作。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/5/e9334c50-82b6-4ac7-b052-2cf7746fcecb.png?x-bce-process=image/format,f_auto\" /></p><p>性能方面，Fara1.5-27B 在 Online-Mind2Web 上拿到 72% 任务成功率，该基准覆盖 136 个热门网站、300 项任务。</p><p>对比来看，OpenAI Operator 为 58.3%，Gemini 2.5 Computer Use 为 57.3%，Yutori Navigator n1 为 64.7%，Fara1.5-9B 也达到 63.4%。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/5/6e82fd11-796d-4bef-a913-f87525de08dd.png?x-bce-process=image/format,f_auto\" /></p><p>训练层面，Fara1.5 采用约 200 万条样本做 Fine-tuning（微调），其中 60% 来自网页轨迹，12.8% 来自合成环境，12.5% 来自表单填写与用户交互，8.8% 来自事实锚定（Grounding），4.9% 来自视觉问答。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/5/66e82328-7850-4e16-afde-05656a690dbb.png?x-bce-process=image/format,f_auto\" /></p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/5/922ea697-0ec6-4b0a-9f61-2a28bcecc912.png?x-bce-process=image/format,f_auto\" /></p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/5/30c8afab-34fb-47b7-8b6a-a6e4fb6d640f.png?x-bce-process=image/format,f_auto\" /></p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/5/696c1ead-ad13-42c9-bb69-6bea7753c536.png?x-bce-process=image/format,f_auto\" /></p><p>安全与协作方面，模型会在缺少个人信息、任务描述含糊、即将执行未经批准的不可逆操作 3 种情况下，会主动停下并询问用户。所有动作都记录在 MagenticLite 中，沙盒浏览器也构成智能体与用户设备之间的安全边界。</p><p><span class=\"referenceTitle\">IT之家附上参考地址</span></p><ul class=\"custom_reference list-paddingleft-1\"><li class=\"list-undefined list-reference-paddingleft\"><p><a href=\"https://www.microsoft.com/en-us/research/articles/fara1-5-computer-use-agent/\" target=\"_blank\">Fara1.5 – A family of frontier computer use agent models</a></p></li></ul>",
-      "published": "2026-05-23T10:41:20+08:00",
-      "fetched_at": "2026-05-23T11:32:59.537907+08:00",
-      "pre_filter_reason": "微软浏览器AI智能体模型",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "微软Fara1.5模型上手：如何用AI自动操作浏览器？",
-          "angle": "演示Fara1.5模型配合MagenticLite沙盒完成网页任务（如自动填表、数据抓取），适合开发者入门。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "comparison",
-          "title": "Fara1.5 vs OpenAI Operator：谁才是浏览器AI智能体之王？",
-          "angle": "对比两款模型在任务成功率、参数规模、适用场景上的差异，帮助用户选择。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "6e6185cdbade",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "GitHub面临生存之战！多位员工曝内部乱象：独立文化要没了，封杀Claude Code才能“活”",
-      "link": "https://www.infoq.cn/article/VZ4KvkToY57zj0ycsdBF?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/VZ4KvkToY57zj0ycsdBF?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-05-23T02:17:13+08:00",
-      "fetched_at": "2026-05-23T11:32:52.536412+08:00",
-      "pre_filter_reason": "Mentions Claude Code, an AI coding tool, and GitHub's AI-related challenges.",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "GitHub内部动荡：独立文化消失，封杀Claude Code能自救吗？",
-          "angle": "梳理GitHub近期内部矛盾与外部竞争（如Claude Code），分析其生存策略的利弊。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "opinion",
-          "title": "GitHub的生存之战：开发者平台该如何平衡开放与盈利？",
-          "angle": "从GitHub案例出发，探讨AI时代开发者平台面临的商业化与社区文化冲突。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "03ec6596081e",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "独家丨前美团外卖技术负责人入局餐饮具身模型，「元节智能」获千万级种子轮融资",
-      "link": "https://www.leiphone.com/category/robot/c3WgJgUydmWpEoWz.html",
-      "summary": "<p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"></p><p style=\"text-align: left; margin-top: 0; margin-bottom: 0;\"><span style=\"font-size: 12pt; color: #000000;\"></span></p><p style=\"text-align: center;\"><span style=\"text-align: left;\">&nbsp;</span><span style=\"font-size: 12pt; color: #000000;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260522/6a102d771afcd.jpeg?imageView2/2/w/740\" /></span></p><p style=\"text-align: left; margin-top: 0; margin-bottom: 0;\"><span style=\"font-size: 12pt; color: #000000;\"></span></p><p style=\"text-align: justify;\"><span style=\"color: #000000;\">雷峰网独家获悉，具身智能初创公司「元节智能（AtomBite.AI）」已于近期完成千万级种子轮融资。本轮由英诺科创基金领投，水木清华校友种子基金、知名投资人个人跟投。据悉，本轮融资将主要用于餐饮场景具身世界模型研发、核心产品打磨及落地。</span></p><p style=\"text-align: left; margin-top: 0; margin-bottom: 0;\"><br /></p><p style=\"text-align: justify; margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-size: 12pt; color: #000000;\">今年3月底元节智能才在苏州注册成立，成立不到两个月即完成首轮融资，同时已获得了国内外多家头部公司产品合作部署意向。据了解，企业核心团队汇聚了来自清华、中科大、美团、地平线等顶尖高校与科技公司的研发负责人及精锐人才，团队背景实力雄厚。</span></p><p style=\"text-align: justify;\">&nbsp;</p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: justify;\"><span style=\"color: #000000; font-size: 18px;\">01 清华博士+美团产研班底</span></p><p style=\"text-align: justify;\">&nbsp;</p><p style=\"text-align: justify; margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-size: 12pt; color: #000000;\">元节智能创始人兼CEO王栋博士师从中国人工智能泰斗、清华大学张钹院士，深耕人工智能领域十余年，兼具算法研究与商业场景落地的经验。</span></p><p style=\"text-align: justify;\">&nbsp;</p><p style=\"text-align: justify; margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-size: 12pt; color: #000000;\">学术上，王栋在博士期间深耕人工智能表示问题，并在AI与机器人领域顶会持续发表高水平论文。2011年，他搭建出全球首个商用视频人脸识别与跟踪系统；此后，他又构建出业界领先的本地生活服务推荐系统及移动原生广告平台，将前沿的AI技术与复杂的商业场景深度融合。</span></p><p style=\"text-align: justify;\">&nbsp;</p><p style=\"text-align: justify; margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-size: 12pt; color: #000000;\">联合创始人李滔曾执掌美团外卖算法与数据体系，是少数真正跑通“全链路数据算法驱动”的实战型技术负责人；同为联创的李浩哲为连续创业者，具备多年全球化商业落地能力，为团队注入强大的商业化基因。</span></p><p style=\"text-align: justify;\">&nbsp;</p><p style=\"text-align: justify; margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-size: 12pt; color: #000000;\">王栋身上最核心的标签，是前美团外卖事业部技术负责人。在美团期间，他长期管理千人产研团队，主导构建了支撑日均数千万订单的外卖算法、数据与系统架构。十年外卖一线的实战，让他对餐饮外卖场景的商家痛点、运营链路与规模化路径有着深刻的理解，并曾针对商家痛点研制过多款智能硬件产品成功部署。王栋的背景，让元节智能在出发的第一天就具备了极强的产业体感。</span></p><p style=\"text-align: justify;\">&nbsp;</p><p style=\"text-align: justify; margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-size: 12pt; color: #000000;\">离开美团后，王栋在北美与新加坡进行了多轮的持续数月的市场考察，走访大量餐饮商家，调研各方外卖平台，他看到，全球餐饮业正面临结构性的用工灾难——北美快餐业时薪已普遍突破20美元，国内门店常年挂着“招工启事”，流动率居高不下。最终他得出一个结论：</span><span style=\"font-size: 12pt; color: #000000;\">餐饮后厨是具身智能最具确定性的商业落地方向——需求全球共通、痛点足够尖锐、商业模型可验证。</span></p><p style=\"text-align: justify;\">&nbsp;</p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: justify;\"><span style=\"color: #000000; font-size: 18px;\">02 去满是油烟的后厨，让机器人接管最难的“非标打包”</span></p><p style=\"text-align: justify;\">&nbsp;</p><p style=\"text-align: justify; margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-size: 12pt; color: #000000;\">现阶段，具身智能领域普遍陷入了“本体形态”的内卷困境。大多数具身赛道创业者将精力集中在教人形机器人如何走得更稳、翻跟头、做花哨的动作，这种脱离产业实际需求的逻辑，本质上是概念外溢而非商业进化。</span></p><p style=\"text-align: justify;\">&nbsp;</p><p style=\"text-align: justify; margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-size: 12pt; color: #000000;\">王栋认为，“商家不在意你的机器人像不像人。商家在意的是：多少钱，能干什么活，帮我省了什么成本。作为商业公司，我们当然关注通用模型的宏伟蓝图，但我们更关注的是如何到达数实融合的物理模型的可行路径。”</span></p><p style=\"text-align: justify;\">&nbsp;</p><p style=\"text-align: justify; margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-size: 12pt; color: #000000;\">技术路线上，元节智能不盲目追逐通用人形机器人，而是从应用落地开始，锚定餐饮场景，一砖一瓦逐步收集真实数据，并借助实际场景，逐步构建并验证符合物理规律的具身世界模型。</span></p><p style=\"text-align: justify;\">&nbsp;</p><p style=\"text-align: justify; margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-size: 12pt; color: #000000;\">目前， 全球外卖订单持续攀升，面临着全球性的结构性用工困境与高昂的人力成本，但在“从商家出餐到骑手交接”的非标打包链条中，产生了高错单率与高撒漏率，使得用户、商家、骑手及平台等四端承受巨大损失。</span></p><p style=\"text-align: justify;\">&nbsp;</p><p style=\"text-align: justify; margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-size: 12pt; color: #000000;\">而餐饮后厨是一个充斥着油烟、环境高度非结构化的动态环境。机器人必须具备在线学习与实时反馈能力，形成越用越聪明的飞轮效应。基于这一判断，元节智能团队的技术体系构建为三个层次：</span></p><p style=\"text-align: justify;\">&nbsp;</p><p style=\"text-align: justify; margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-size: 12pt; color: #000000;\">上层是具身世界模型，旨在构建机器人对后厨物理环境的完整认知与自主决策能力；</span></p><p style=\"text-align: justify; margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-size: 12pt; color: #000000;\">中层是任务编排与调度优化双引擎，负责将上层决策转化为精确的物理执行计划，并统一调度后厨设备；</span></p><p style=\"text-align: justify; margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-size: 12pt; color: #000000;\">底层则是自研核心部件与通用硬件本体的深度融合，确保系统在商业后厨场景中稳定执行各类复杂操作，并满足精准性、长程性与泛化性等核心要求。</span></p><p style=\"text-align: justify;\">&nbsp;</p><p style=\"text-align: justify; margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-size: 12pt; color: #000000;\">在落地路径上，AI科技评论了解到，元节智能决定走一条克制的“渐进式路线”：先外卖打包与接驳切入，解决出错率最高的履约环节；进而操控炒菜机、洗碗机等后厨存量设备；最终构建数字孪生后厨操作系统，实现全局智能调度。</span></p><p style=\"text-align: justify;\">&nbsp;</p><p style=\"text-align: justify; margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-size: 12pt; color: #000000;\">有知名投资人向 AI 科技评论透露，“王栋博士绝对是最适合做商业场景具身应用的创始人，技术深度、全球视野、一线体感的结合，在目标赛道中几乎找不到第二个。”</span></p><p style=\"text-align: justify;\">&nbsp;</p><p style=\"text-align: justify; margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-size: 12pt; color: #000000;\">王栋曾表示：“2026年是具身应用的元年。只有在真实环境中形成'数据-模型-硬件'的飞轮循环，具身智能才能从实验室走向产业。我们从第一天起，就在构建面向全球的产品与商业体系。”</span></p><p style=\"text-align: justify;\">&nbsp;</p><p style=\"text-align: justify; margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-size: 12pt; color: #000000;\">资本市场青睐的团队不仅需要顶尖的算法视野，更需要对复杂商业场景的肉搏经验。元节智能在成立之初便迅速完成首轮融资并获得多家大厂合作意向，被部分观察者视为资本市场对其技术路线和商业化方向的一种认可。雷峰网将持续关注其最新进展。</span></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
-      "published": "2026-05-22T18:25:00+08:00",
-      "fetched_at": "2026-05-23T11:32:51.114513+08:00",
-      "pre_filter_reason": "餐饮具身模型，属于AI相关",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "前美团外卖技术负责人创业：餐饮具身模型获千万融资",
-          "angle": "介绍元节智能的创业背景、融资情况，以及具身模型在餐饮行业的应用前景。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "explainer",
-          "title": "什么是餐饮具身模型？元节智能如何让机器人学会做菜？",
-          "angle": "用案例解释具身智能在餐饮场景中的技术路径（如抓取、烹饪动作学习），适合科技爱好者。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "1e684927b901",
-      "source_id": "ifanr",
-      "source_name": "爱范儿",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Codex 这波大更新后，Mac 的含金量再次提升",
-      "link": "https://www.ifanr.com/1666706?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "要成为 OpenAI 最赚钱的产品<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
-      "published": "2026-05-22T17:43:52+08:00",
-      "fetched_at": "2026-05-23T11:32:57.558974+08:00",
-      "pre_filter_reason": "Codex是OpenAI的AI产品，大更新涉及AI",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Codex 大更新后，Mac 用户必学的 3 个效率技巧",
-          "angle": "结合 Mac 系统特性，演示 Codex 新功能如何提升编程和日常工作效率，适合开发者或创意工作者快速上手。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "Codex 凭什么成为 OpenAI 最赚钱的产品？",
-          "angle": "从产品更新、用户增长和商业化策略切入，分析 Codex 的成功因素及其对 AI 工具市场的启示。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "43ae531859cd",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Anthropic 花 3 亿美金买下 API「修路工」，打响连接层暗战",
-      "link": "https://www.leiphone.com/category/ai/Yqq5YAFbgrGAusRi.html",
-      "summary": "<section><section><section><section><section></section><section><section><section><section></section></section></section><section><span>5月18日，Anthropic宣布了一笔看似“平淡”的收购：买下纽约的开发者工具公司Stainless，估值超过3亿美元。</span></section><section style=\"margin-bottom: 24px; line-height: 1.75em; text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fcf424d111.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span><span style=\"letter-spacing: 0.5px;\">被收购的公司Stainless不是一家普通的 SaaS 公司，它的特殊之处在于，</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">它几乎服务了AI行业的所有头部玩家</span></span></strong><span><span style=\"letter-spacing: 0.5px;\">。其客户名单里躺着 OpenAI、Google、Cloudflare、Replicate 和 Runway 等一众硅谷巨头。</span></span></span></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">Stainless 的核心业务听起来甚至有些枯燥：将结构化的 API 规范，自动转换为 TypeScript、Python、Go 等各种语言的 SDK（软件开发工具包）。同时提供CLI工具和MCP（Model Context Protocol）服务器平台。</span></span></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">自Anthropic API上线第一天起，Stainless就在为每一个官方Anthropic SDK提供底层支持。</span></span></p><section style=\"margin-bottom: 24px; line-height: 1.75em; text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fcf42948c8.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">收购消息公布的同时，Anthropic宣布关停Stainless对外托管的SDK生成服务。现有客户可以保留已生成的SDK自行修改，但这条生产线不再对竞争对手开放。整个Stainless团队并入Anthropic平台工程部门，继续&quot;让Claude Agent更好地连接真实的软件系统&quot;。</span></span></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">3亿美元，足以买下一家中等规模的AI创业公司，或者建两座超级数据中心。Anthropic却用它买了一支人类工程师团队，专门做&quot;把API规范转成代码&quot;这件事。</span></span></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">这意味着Anthropic已经把模型竞争从“谁的模型更强”扩展到“谁能控制开发者接入、SDK、文档和 API 分发链路”的高度。Anthropic的生态布局，再下一城。</span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>01</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>3亿美元，</span></span></strong></h4></section><section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>Anthropic扇了自己一个耳光</span></span></strong></h4></section></section></section></section><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">Anthropic CEO Dario Amodei在2024年的万字长文《Machines of Loving Grace》里中曾断言：&quot;强大AI将在未来几年内完成大部分认知劳动（most cognitive tasks）&quot;，时间窗口&quot;最早可能在2026年&quot;。</span></span></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">他多次强调，AI Agent将自主完成需要数小时、数天甚至数周的任务，其智能&quot;超过大多数相关领域的诺贝尔奖得主&quot;，能以10-100倍于人类的速度吸收信息并生成行动。</span></span></p><section style=\"margin-bottom: 24px; line-height: 1.75em; text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fcf42cc3ff.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">问题是，这套叙事遇到了一个尴尬的事实。</span></span></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span><span style=\"letter-spacing: 0.5px;\">技术极客聚集的 Hacker News 上，一条高赞评论一针见血：</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">“如果 AI 真的已经能写好 SDK，Stainless 就不可能卖出这个价钱。”</span></span></strong></span></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">这就是Stainless 这类公司的价值所在：单纯写一个基本可用的 SDK，AI能做，但生产级 SDK 不只是把 HTTP API 包一层，而重要的是一套持续、可靠、可规模化的工程基础设施。</span></span></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">更具戏剧性的是，Anthropic 的死敌 OpenAI 恰恰是 Stainless 的最大客户之一。</span></span></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">Anthropic 这套“买断、关停、独占”的连招，在社交平台 X 上引发了开发者的疯狂吐槽：“Anthropic 的竞争策略：和 OpenAI 竞争 → 发现 OpenAI 在用 Stainless → 买下 Stainless → 关停服务。”</span></span></p><section style=\"margin-bottom: 24px; line-height: 1.75em; text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fcf430a329.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">这套看似有些“不讲武德”的精明动作，恰恰暴露出大模型竞争正在发生一场底层质变：巨头们的战场，已经从单纯比拼“谁的模型参数更强、做题分数更高”，悄然延伸到了策略端，“谁能控制开发者入口、SDK规范和 API 分发链路，便能全局掌握生存管道”的生态制高点。</span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>02</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>AI的&quot;最后1公里&quot;：</span></span></strong></h4></section><section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>Stainless凭什么值3亿美元</span></span></strong></h4></section></section></section></section><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">把 API 规范转成代码，听起来是最适合大模型干的活。API 文档是高度结构化的，代码生成也有大把的模板可供参考。按常理推断，给 Claude 喂进去一份文档，它应该能在一秒钟内吐出一套完美的 SDK。</span></span></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">可现实世界却充满了边缘案例，比如奇怪的命名约定、不一致的错误处理、非标准的认证流程、跨语言的类型系统差异。处理这些，需要的是&quot;理解复杂协议并构建稳定底层框架&quot;的顶级工程能力，而不只是&quot;写代码&quot;的能力。</span></span></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">Stainless 能让 OpenAI、Google 乃至黑石（Blackstone）这种对稳定性要求近乎变态的金融巨头买单，靠的是极致的鲁棒性，毕竟，在金融服务、企业级应用这些场景里，一个错误的类型定义或遗漏的异常处理，可能意味着数百万美元的损失。</span></span></p><section style=\"margin-bottom: 24px; line-height: 1.75em; text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fcf434d233.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">当初级代码被AI大量淹没，那些能处理边缘案例、理解复杂协议、构建稳定框架的顶级工程师，反而成了AI巨头竞相争夺的&quot;战略资产&quot;。</span></span></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">Anthropic花3亿美元买下的，是一支已经证明能在最苛刻环境中交付稳定SDK的顶级工程团队。</span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>03</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>为什么是Stainless：</span></span></strong></h4></section><section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>Anthropic的精英路线逻辑</span></span></strong></h4></section></section></section></section><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">Anthropic一直是&quot;精英路线&quot;的坚定执行者。</span></span></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">和OpenAI试图覆盖从个人开发者到企业客户的广泛市场不同，Anthropic的目标客户一向很明确：高盛、黑石这样的顶级金融机构，以及需要高度稳定API接口的企业级用户。</span></span></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">要赚这些客户的钱，除了智商以外，模型必须有极度稳定的工程接口。</span></span></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">Stainless 所做的事情，本质上是在定义“API 交付的行业标准”。它定义的SDK生成规范，正逐渐演变成 AI Agent 连接外部系统的底层协议。而Anthropic自己主导的MCP（Model Context Protocol）协议，其核心目的也正是为了统一&quot;让AI连接数据、工具和外部服务&quot;的标准框架。</span></span></p><section style=\"margin-bottom: 24px; line-height: 1.75em; text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fcf4386b32.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><strong><span><span style=\"letter-spacing: 0.5px;\">收购Stainless，等于把MCP协议的工程实现标准握在自己手里。</span></span></strong></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">这一步棋的战略意图很清楚：通过控制SDK生成标准和MCP服务器平台，Anthropic拥有绝对的话语权，可以决定&quot;哪些AI Agent能稳定连接外部系统、哪些不能&quot;。</span></span></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">当OpenAI还在用通用模型能力打市场，谷歌在用TPU算力绑定生态时，Anthropic选了一条更窄但更深的路：拼&quot;谁能把AI最稳定、最安全地接入真实业务系统&quot;。</span></span></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">随着AI Agent从&quot;回答问题&quot;向&quot;实际执行任务&quot;演进，连接基础设施的重要性将不亚于模型本身。</span></span></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">Anthropic花3亿美元买下的，正是未来AI Agent生态的&quot;连接标准制定权&quot;。</span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>04</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>从卷模型到卷生态：3亿美元买断的“生存管道”</span></span></strong></h4></section></section></section></section><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">Anthropic 对 Stainless 的这场大手笔买断，无情地戳破了大模型行业的阶段性幻觉。</span></span></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">这笔 3 亿美元的估值，表面上是对顶级工程师在 AGI 到来前最后价值的一次溢价定价，但其本质，</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">是 Anthropic 在跨越“模型同质化”陷阱时，下注的一笔战略筹码。</span></span></strong></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span><span style=\"letter-spacing: 0.5px;\">当各大巨头的模型在基准测试上差距越来越小，单纯的“卷参数”已经无法拉开真正的商业代差。AI 竞赛的胜负手，正在以一种反直觉的方式向后方转移。谁掌握了接入工具、谁定义了 SDK 标准、谁垄断了开发者工具链，谁就拿到了通往未来 Agent 时代唯一的门票。</span></span></p><p style=\"margin-bottom: 24px; line-height: 1.75em; text-align: justify;\"><span>这正是 Anthropic 生态布局的高明之处：它不仅用真金白银买下了人类专家的工程洁癖，去缝补真实世界里的屎山代码；更顺手牵羊，在 AGI 的前夜掐断了竞争对手的生态补给线。<span>雷峰网</span></span></p></section></section></section></section></section>",
-      "published": "2026-05-22T11:39:00+08:00",
-      "fetched_at": "2026-05-23T11:32:51.114592+08:00",
-      "pre_filter_reason": "Anthropic is an AI company, acquisition related to AI infrastructure",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Anthropic 收购 Stainless：API 开发者必知的 3 个变化",
-          "angle": "解释这笔收购对 API 开发者意味着什么，以及如何利用新工具优化调用流程，降低维护成本。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "3 亿美金买下“修路工”：Anthropic 在下一盘什么棋？",
-          "angle": "从 API 生态和连接层战略角度，分析 Anthropic 收购 Stainless 背后的竞争逻辑与行业影响。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "67604d04fde9",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "FSD入华前奏？曝特斯拉国内9城急招智驾测试员；曾对标乔布斯！大疆的对手GoPro要被卖了：3年亏损近40亿；字节Seedance 2.1即将发布",
-      "link": "https://www.leiphone.com/category/zaobao/kLtJrYfYVt7gE0sF.html",
-      "summary": "<section></section><section><section><section><section><section><section><section style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>要闻提示</strong></span></section><section><section><br /></section></section></section></section></section></section></section></section><p style=\"text-align: justify;\">1.FSD入华前奏？曝特斯拉国内急招智驾测试员，覆盖9大城市</p><p style=\"text-align: justify;\">2.曾对标乔布斯！大疆的对手GoPro要被卖了：3年亏损近40亿</p><p style=\"text-align: justify;\">3.字节Seedance 2.1即将发布，生成质量预计提升约20%</p><p style=\"text-align: justify;\">4.月之暗面 Kimi 融资获国资加持，国智投、中国移动等央企巨头入场</p><p style=\"text-align: justify;\">5.罗永浩遭前合伙人炮轰：一辈子都在装猛男，假装自己网络无敌</p><p style=\"text-align: justify;\">6.DeepSeek回应信息“串台”BUG：特殊字符引发模型幻觉，不会泄露隐私</p><p style=\"text-align: justify;\">7.网友建议微信新增聊天列表长按多选删除功能，微信员工回应<br /></p><p style=\"text-align: justify;\">8.谷歌深夜炸场！最强模型Gemini 3.5 Flash发布：速度快4倍，干翻GPT-5.5</p><section></section><section style=\"text-align: justify;\"><section><section><section><section><section><section></section><section><p style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>今日头条</strong></span></p><p style=\"text-align: justify;\"><strong>FSD入华前奏？曝特斯拉国内急招智驾测试员，覆盖9大城市</strong></p></section></section></section></section></section></section><p style=\"text-align: justify;\">5月18日，特斯拉招聘官网更新，一口气放出约90个核心研发岗，其中最引人关注的是“高阶智驾测试技师”岗位，工作地点覆盖北京、上海、深圳、广州、武汉等国内9大城市。岗位职责显示，该岗位属于ADAS测试操作员，负责识别各软件迭代版本中的功能改进和性能退化问题，并要求灵活出差至国内外各地，在公共道路、测试跑道和验证场地对车辆进行实地测试。</p><p style=\"text-align: justify;\">岗位应聘要求显示，应聘者需“驾驶记录良好，具备安全驾驶习惯，导航能力强，近1年内无事故、无违章记录，3年以上驾龄，每年行驶里程超过1万公里，熟悉ADAS/Autopilot系统功能及其传感器”。除此之外，AI数据标注员、智驾场地专属测试专员等一系列岗位也在急招中。但针对招聘事宜，特斯拉中国方面回应称暂无对外口径。</p><p style=\"text-align: justify;\">业内普遍认为，此次大范围招聘实车测试人员，是特斯拉为FSD进入中国市场做关键的道路与场景准备。2026年4月23日，特斯拉首席财务官在一季度财报电话会议上明确表示，公司正与中国监管部门密切沟通，力争在2026年第三季度获得FSD在中国的全面批准。与此同时，特斯拉中国也在加快技术铺垫，5月初，特斯拉已将车主手册更新至2026.14 版本，正式新增FSD V14版本的完整功能介绍，进一步完善在华智驾配套信息。（极果网、快科技）</p></section><section><section><section><section><section><section><section><section></section><section><p style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>国内资讯</strong></span></p><p style=\"text-align: justify;\"><strong>曾对标乔布斯！大疆的对手GoPro要被卖了：3年亏损近40亿</strong></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">5月19日消息，据报道，曾被称为“硬件界乔布斯”的GoPro，已启动战略评估，可能出售公司或合并。昔日市值130亿美元、市占率超75%的行业霸主，如今市值不足2亿美元，三年累计亏损超5.7亿美元（约合人民币40亿元），濒临退市。</p><p style=\"text-align: justify;\">GoPro的崛起堪称消费电子传奇。创始人尼克・伍德曼2002年用橡皮筋将胶片相机绑在手腕记录冲浪画面，催生运动相机原型。2004年公司正式成立，2010年HD HERO产品带其进入高清时代，2014年登陆纳斯达克，上市首日大涨超30%，市值一度逼近130亿美元。彼时伍德曼身着红衣敲钟，被外媒盛赞为“下一个乔布斯”。盛极而衰的转折始于2015年。当年Q4 GoPro首现单季亏损，2016年营收暴跌27%。</p><p style=\"text-align: justify;\">致命一击来自跨界失误——2016年10月发布的Karma无人机因电池故障，上市16天便全面召回，不仅损失数亿美元，更耗尽研发精力与品牌信誉。此后GoPro虽回归相机主业，但创新陷入停滞，传感器、芯片等核心技术多年未突破，产品迭代缓慢，每年仅一款新品且无实质革新。</p><p style=\"text-align: justify;\">中国品牌的崛起成为压垮GoPro的最后一根稻草。2018年影石创新ONE X凭借全景、防抖技术快速抢占市场，而GoPro固守传统赛道；2019年大疆发布Osmo Action，依托无人机技术与深圳供应链优势强势入局。2022年后 GoPro被大疆、影石全面反超，失去中国市场主导地位，被迫关闭线下专卖店。2025年数据显示，大疆、影石全球市占率达79%，而GoPro仅剩18%。2026年一季度财报更显惨淡，营收同比下降26.24%，净亏损同比扩大73.03%。（快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fad835e8ec.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 283px; height: 325px;\" /></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>字节Seedance 2.1即将发布，生成质量预计提升约20%</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">字节跳动正在为AI视频生成战场投入更多筹码。5 月 19 日消息，据报道，字节跳动已箭在弦上，准备推出其AI视频生成模型Seedance 2.0的升级版本——Seedance 2.1。新模型的生成质量预计提升约20%，主要来自时间一致性的进步——即模型在帧间保持视觉连贯性的能力，以及生成场景的物理模拟改进。</p><p style=\"text-align: justify;\">据报道，Seedance 2.1的优化还吸收了数十万创作者在2.0测试阶段反馈的真实创作问题。这种将产品使用场景直接反哺模型迭代的闭环，正在成为国内头部厂商与纯模型公司之间日渐拉开的差距。字节尚未公布Seedance 2.1的正式发布时间，但据报道称已临近。新模型预计将被整合进字节旗下多款内容创作工具，包括其全球月活数亿的视频剪辑应用CapCut。</p><p style=\"text-align: justify;\">据悉，Seedance所在的Seed多模态方向，目前由周畅主导。周畅于2024年夏天离开阿里加入字节Seed团队。此前他在阿里工作七年，曾是通义千问Qwen大模型的技术负责人，参与推动Qwen从2023年首次亮相成长为全球开源大模型第一梯队。（Z Finance）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>月之暗面 Kimi 融资获国资加持，国智投、中国移动等央企巨头入场</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">5 月 19 日消息，据报道，多家国资机构和央企巨头已出现在 Kimi 最新股东名单中，除此前已有的互联网大厂与产业基金外，已加入国智投、北京人工智能基金等多家国资机构及中国移动等央企巨头。</p><p style=\"text-align: justify;\">报道还称，月之暗面近期正在进行的 20 亿美元（约合 136.25 亿元人民币）融资已进入收尾阶段。多家国资背景机构的入局，标志着 Kimi 在资本结构上完成了整合。产品层面，基于 Kimi K2.5 模型打造的 Composer 2.5 目前已被集成至全球知名编程应用 Cursor。</p><p style=\"text-align: justify;\">Kimi 于今年 1 月和 2 月密集完成 3 轮融资，分别融资 5 亿美元、7 亿美元和 7 亿美元。算上最新这笔融资，不到半年 Kimi 已融资超 39 亿美元，最新估值相比去年 11 月的约 43 亿美元翻了 4 倍有余。至此 Kimi 累计融资额已超 376 亿人民币，成为大模型创业公司中累计融资最多的公司。此前报道，4 月 20 日，月之暗面发布并开源了其最新模型 Kimi K2.6，该模型在代码编写、长程任务执行及 Agent 集群能力方面实现了全面升级。（IT之家）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>罗永浩遭前合伙人炮轰：一辈子都在装猛男，假装自己网络无敌</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">5月19日消息，近期，罗永浩重启海外社交平台X账号，并在平台发布多期播客节目。账号重启当日，罗永浩便密集发布多条推文，语言粗暴，连续怒怼黑粉。有微博网友晒出其在该平台的对线截图，并表示自己此前误解了罗永浩的言辞能力，如今发现，并非罗永浩嘴有多厉害，而是国内网络环境对他有所包容。此番争议发酵期间，罗永浩的早期合伙人黄斌公开转发相关内容并对其进行指责。</p><p style=\"text-align: justify;\">据悉，黄斌曾和罗永浩联合创办牛博网、老罗英语培训，是罗永浩创业初期的核心合作伙伴。黄斌直言，年近六十的罗永浩刻意打造强势强硬的个人形象，营造出自己在网络中无对手的人设，实际是专挑软柿子捏。同时他指出，罗永浩网络互动带有明显功利性，仅在对自身有利的情况下进行回应，不利的互动则刻意回避，行事不够坦荡。</p><p style=\"text-align: justify;\">据悉，这并非黄斌首次公开批评罗永浩。2025年12月，黄斌就曾发文评价罗永浩的创业履历，称其多数创业项目均处于亏损状态，唯一盈利的直播业务也并非由他主导。除此之外，黄斌还爆料，早年老罗英语培训项目曾造成一名投资人300万元的资金损失。（快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fad83a444f.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>京东AI领域高层调整：任命两位实验室负责人，均向段楠汇报</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">5月19日，据媒体披露，京东集团近日在AI领域作出新一轮高层调整，明确探索研究院两大核心技术实验室的负责人。</p><p style=\"text-align: justify;\">根据京东内部公告，王佳琦被任命为探索研究院自然语言实验室负责人，黄浩洋出任图像与多模态实验室负责人，两人均向探索研究院副院长段楠汇报。王佳琦于2025年8月加入京东，此前负责多模态理解研究部，主导JoyAI-VL系列模型达到业界领先水平；黄浩洋于2025年6月加入京东，曾率队研发并开源JoyAI-Image系列模型，在图像生成与视频生成等方向持续深耕。</p><p style=\"text-align: justify;\">这是京东探索研究院今年以来第二次重要人事变动。今年年初，京东集团副总裁段楠升任探索研究院副院长，直接向刘强东汇报；原副院长何晓冬则带领变色龙业务部划归京东科技。段楠拥有微软亚洲研究院自然语言计算团队资深研究经理背景，曾任阶跃星辰Technical Fellow，目前兼任中科大、西安交大、天津大学等高校教职。随着上述任命落地，京东在自然语言处理、多模态基础模型及世界模型等前沿方向的研究条线进一步明晰，持续加码大模型领域的差异化技术布局。（大厂青年、凤凰网科技）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>东方甄选又一高管被爆已离职半年</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">5月19日，据媒体获悉，东方甄选公关副总裁李国训已于约半年前离职，目前尚未公布新的任职去向。</p><p style=\"text-align: justify;\">公开资料显示，李国训早期曾在《中国电子报》《财经时报》担任资深记者，专注IT与互联网领域报道，后于2009年至2015年间加入腾讯科技频道。其职业生涯横跨多家知名企业，曾任一亩田集团市场副总裁、携程集团高级总监、VIPKID公关副总裁及元气森林公关副总裁。2022年8月，李国训加入东方甄选担任品牌中心总经理，向时任CEO孙东旭汇报；2023年晋升为副总裁，统筹品牌、公关、市场、政府关系及行业事务，直至2025年底离职。</p><p style=\"text-align: justify;\">值得注意的是，自2023年底“小作文”事件以来，东方甄选经历了一系列高层与核心主播的人事动荡。2023年12月，时任CEO孙东旭被免职，并于2025年11月彻底离职；2025年12月，新东方元老孙进出任执行总裁。主播团队方面，董宇辉、顿顿、明明、天权、中灿、林林等六位核心主播先后于2024年7月至2026年4月期间离职。李国训的离任也是这一轮组织调整中的一环。（鞭牛士、凤凰网科技）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>DeepSeek回应信息“串台”BUG：特殊字符引发模型幻觉，不会泄露隐私</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">5月19日，DeepSeek发布关于字符触发模型异常回复的说明。近期，DeepSeek关注到有用户反馈，在与DeepSeek模型的对话中输入部分特殊字符后，模型偶发返回不可预期的内容，使部分用户产生了“对话泄露”的疑虑。</p><p style=\"text-align: justify;\">针对这一问题，技术团队经全面排查后发现：输入部分字符触发返回异常内容，属于特殊字符引发的模型幻觉，不涉及安全问题或隐私泄露。后续将通过针对性训练增强模型对特殊字符的识别与处理能力，修复相关的已知问题，优化模型在此类场景中的表现。（潇湘晨报）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fad84032f4.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>长江存储启动 IPO 辅导，中信证券为辅导券商</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">5 月 19 日消息，据证监会网站披露，长江存储控股股份有限公司在湖北证监局办理辅导备案登记，拟首次公开发行股票并上市，辅导券商为中信证券。此前报道，长江存储计划最快在 2026 年 6 月中旬正式递交科创板 IPO 申请材料。</p><p style=\"text-align: justify;\">备案信息显示，长江存储无控股股东，股权结构呈现“国资引领、产业协同、多元持股”的鲜明特征。第一大股东：湖北长晟发展有限责任公司，直接持股 26.5442%，由武汉光谷管委会全资控股，为公司核心国资股东。核心股东阵容包括武汉芯飞科技投资有限公司、国家集成电路产业投资基金一期、二期、武汉光谷产业投资、长江产业投资集团等地方国资及产业资本同步加持。</p><p style=\"text-align: justify;\">公开资料显示，长江存储是中国大陆唯一具备 3D NAND 闪存芯片完整产业链能力的 IDM（设计制造一体化）企业。数据显示，其全球 NAND 闪存市场份额在 2025 年第三季度已达到约 13%，稳居全球第一梯队。据报道，长江存储 2026 年第一季度营收突破 200 亿元人民币，同比增长约 100%。强劲的业绩增长主要受益于全球存储芯片市场，特别是 AI 驱动下的数据中心需求爆发。（IT之家）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>华为系帧跃科技完成千万美金天使轮融资，将发布视频产品 Leadde</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">AI 科技评论独家获悉，<a href=\"https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&amp;mid=2247734986&amp;idx=1&amp;sn=59bbbdf9b1437e7e32b0d5c3784c3de4&amp;scene=21#wechat_redirect\" rel=\"nofollow\" target=\"_blank\">主攻 AI 交互式视频赛道的初创公司「帧跃科技」，已敲定一笔千万美金级的天使轮融资。</a>本轮投资方包括创新工场、国谦资本、零一万物、蹼跃中国及盈动资本等机构。资金将主要用于视频推理平台的持续迭代、应用层产品开发，以及全球化人才团队建设。</p><p style=\"text-align: justify;\">帧跃科技成立于 2025 年 6 月，锚定 AI 交互式视频方向。创始人兼 CEO 杨昌鹏为南洋理工大学与加州大学伯克利分校联合培养博士，曾任华为云媒体创新 Lab 首任主任、交互式媒体方向 1 号位。联合创始人兼 CTO 李明磊曾任华为云多模态方向首席科学家，主导了华为初版盘古大模型的训练。</p><p style=\"text-align: justify;\">2026 年下半年，帧跃科技将发布面向全球专业与企业用户的首个平台级产品Leadde，与单纯依赖某个视频模型不同，Leadde 会根据任务输入、场景约束和体验需求，在 DiT 模型生成、Coding 生成、渲染/物理生成之间进行统一编排与调度，并在离线高质量生成与实时低延迟生成之间动态选择。更多AI资讯欢迎添加微信&nbsp;nanjieyu&nbsp;畅聊。</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fad843d203.png?imageMogr2/quality/90\" style=\"background-color: transparent;\" /></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>地平线元老带队，叮当动力首轮融资数千万元</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">5 月 19 日消息，据报道，叮当动力正式完成数千万元种子轮融资，由地平线领投，正景基金跟投。据了解，本轮资金将主要投向“空间智能大模型+物理Agent”框架的开发与验证，以及真实场景的数据闭环体系搭建。</p><p style=\"text-align: justify;\">这家刚刚成立数月的空间智能大模型企业，背后的掌舵者是一位地平线前高管——牛建伟。他曾任百度语音技术部资深工程师，在2012年于百度IDL率先实现基于GPU的深度学习模型训练，并在这里结识了百度IDL常务副院长，后来的地平线创始人余凯。在余凯投身创业之后，牛建伟在2015年加入地平线，从算法工程师开始直至担任地平线智能座舱产品线总经理。（投资界AI）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fad848fa39.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>网友建议微信新增聊天列表长按多选删除功能，微信员工回应</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">5月19日消息，近日，有网友反馈，微信聊天列表无法直接长按多选、全选会话批量删除，如果有这样的选择，之后可以批量删除。不然每次备份聊天记录占用空间太大。网友表示，可以复选之后，将不用的聊天记录一键删除清空，只留下有用的，之后再备份，会大量的节约空间。</p><p style=\"text-align: justify;\">针对这一诉求，微信工作人员客村小蒋给出了实用清理方法。他表示：建议你可以尝试下点击“微信-我-设置-存储空间”，等页面加载完成后，点击聊天记录一栏的“管理”，就可以多选聊天后批量删除。据客村小蒋介绍，它可以根据占用空间大小排序聊天窗口，针对性地删除不需要且占用大的聊天。（潇湘晨报）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fad84eb5c5.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>问界M7累计交付超45万台</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">5月19日消息，鸿蒙智行官方宣布，旗下问界M7累计交付突破45万台。据了解，问界 M7，该车长宽高分别为 5080×1999×1780mm、轴距 3030mm，提供大五座、享六座布局，五座版后备箱容积可达 850L，放倒后拓展至 2145L。车辆提供增程与纯电双动力选择，增程版 CLTC 综合续航最高达 1690km；纯电版 CLTC 最大续航 710km，同时 15 分钟即可完成 30%—80% 快充。（三言科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fad853af99.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>联想moto首款大折叠手机亮相！号称“折叠屏影像新标杆”</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">5月19日消息，联想moto首款大折叠手机——联想moto razr fold正式发布。据测评，联想moto razr fold配备6.6英寸OLED外屏，支持165Hz刷新率，峰值亮度6000nits，第三代康宁大猩猩微晶玻璃陶瓷，可进一步提升抗跌落能力。内屏则是一块8.1英寸2K大屏，支持144Hz刷新率，峰值亮度达到6200nits，兼顾大屏显示效果与高刷体验。</p><p style=\"text-align: justify;\">核心配置方面，新机搭载骁龙8 Gen5芯片，内置6000mAh大电池，支持80W有线快充和50W无线快充。联想moto razr fold号称“折叠屏影像新标杆”，在DXOMARK折叠屏品类影像排名中斩获全球第一，综合评分为164分，其中拍照得分169分，视频得分154分。</p><p style=\"text-align: justify;\">影像配置方面，该机采用全5000万像素三摄组合，支持8K 30fps视频录制，并支持4K 30/60/120fps杜比视界录制，1080p视频最高可达240fps。（快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fad8568d28.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>小鹏Robotaxi车队路测曝光，相关负责人回应：已路测数月</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">5月19日消息，据媒体报道，多位网友近日发帖称，在广州街头看到了小鹏Robotaxi车队行驶画面。视频中，多台银色车身车辆在多处公开道路行驶、正常等红灯、变道绕行。</p><p style=\"text-align: justify;\">据悉，小鹏GX车内搭载4颗自研图灵AI芯片，有效算力达3000TOPS，为全球车端最高算力。配备小鹏第二代VLA大模型，可实现视觉输入直接驱动动作输出，响应时延低于80毫秒，推理效率较上一代提升12倍。相较国内其他企业，小鹏GX是首款全栈自研、前装量产的Robotaxi。</p><p style=\"text-align: justify;\">小鹏相关负责人表示：“这是我们的Robotaxi（测试）车队之一，从1月到现在已经路测很久了，下半年会和大家分享Robotaxi业务新的进展。”此前，何小鹏曾透露，小鹏Robotaxi将率先在广州开启路测。针对为何GX作为Robotaxi首台原型车，小鹏高管在社交渠道回应“小范围测试，恰恰是因为只有它拥有L4的软件能力”。（快科技）</p><section></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>哔哩哔哩2026年第一财季净利润2.1亿元，同比扭亏为盈</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">5月19日，哔哩哔哩发布2026财年第一财季业绩报告。报告期内，公司实现营业总收入74.72亿元，同比增长7%；归母净利润2.10亿元，上年同期为净亏损0.09亿元，同比扭亏为盈。基本每股收益0.50元，稀释每股收益0.48元。（凤凰网科技）</p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>国际资讯</strong></span></p></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>谷歌深夜炸场！最强模型Gemini 3.5 Flash发布：速度快4倍，干翻GPT-5.5</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">5月20日消息，今天凌晨，谷歌I/O 2026开发者大会开幕，谷歌在会上正式发布Gemini 3.5 Flash，并宣布面向全球所有用户开放，可免费使用。Gemini 3.5 Flash在智能水平上已接近大型旗舰模型，同时延续Flash系列高速响应的优势，是谷歌迄今能力最强的智能体与编程模型。</p><p style=\"text-align: justify;\">据了解，在多项智能体和编码基准测试中，Gemini 3.5 Flash的成绩均超过上一代旗舰模型Gemini 3.1 Pro。具体来看，在Terminal-Bench 2.1测试中，Gemini 3.5 Flash得分达到76.2%，高于Gemini 3.1 Pro的70.3%；GDPval-AA达到1656 Elo；MCP Atlas得分为83.6%，位居全场最高。在多模态理解测试CharXiv Reasoning中，其得分达到84.2%，同样拿下全场最高成绩。</p><p style=\"text-align: justify;\">除了性能提升，Gemini 3.5 Flash在输出速度上也表现突出，该模型输出速度超过280 token/秒，是GPT-5.5和Claude Opus 4.7的4倍。谷歌表示，凭借速度与性能之间的平衡，Gemini 3.5 Flash非常适合处理长周期智能体任务。过去开发者可能需要数天、审计人员需要数周才能完成的工作，如今在Gemini 3.5 Flash协助下可大幅缩短耗时，且使用成本通常不到其他前沿模型的一半。（快科技）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>DDR5暴涨414%即将终结！三星前芯片总裁：中国DRAM扩产，明年把价格打下来</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">5月19日消息，全球DRAM内存自去年夏天起持续疯涨，DDR5价格累计涨幅高达414%，玩家装机成本被层层推高。但三星电子前半导体（DS）部门总裁庆桂显近日公开预测，此轮涨价潮将在明年下半年迎来拐点，而压制价格的关键力量来自中国DRAM厂商的大规模产能扩张。</p><p style=\"text-align: justify;\">此轮涨价的直接推手，是AI需求对DRAM产能的强力挤压。三星、SK海力士、美光三大原厂将先进产能大规模切换至利润更高的HBM和服务器DDR5产线，严重挤压了消费级标准DDR5的供应。当三大原厂通过控制产能扩张维持高价时，中国存储厂商正加速补位。庆桂显在会上引用市场调研机构数据指出，到2027年下半年，全球DRAM晶圆月产能可能攀升至600万片。</p><p style=\"text-align: justify;\">作为中国DRAM市场的领头羊，长鑫存储上海新厂整体产能规划为合肥基地的2至3倍，预计2026年下半年设备搬入、2027年正式量产，主攻DDR5、LPDDR5X产品。下游产业化落地同步提速。嘉合劲威旗下神可品牌DDR5 64GB 5600MT/s服务器内存已正式量产交付，光威、金百达等品牌的国产DDR5内存自2024年底即已上市销售。庆桂显同时提醒，若大型科技公司AI资本支出回报率走低，2028年后存储芯片需求可能萎缩，届时产能若已铺开，价格下跌将更加剧烈。（快科技）</p><section style=\"text-align: center;\"><strong><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fad8615ece.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></strong></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>英特尔陈立武回应为苹果代工芯片：正与多家客户合作</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">5月19日消息，近日，据外媒报道，英特尔 CEO 陈立武周一表示，该公司的外部芯片代工制造业务正在取得进展，正成为该公司复苏计划的关键一环。“代工业务非常重要，”陈立武对 CNBC 的《疯狂金钱》节目表示，“这是国家级关键战略资产之一。”</p><p style=\"text-align: justify;\">自 2025 年 3 月陈立武被任命为 CEO 以来，英特尔股价已飙升逾 300%，原因是投资者押注这位资深半导体行业高管能够在这家芯片制造商经历多年挫折后，使其趋于稳定。其中一个关键问题是，陈立武能否通过提升英特尔的制造能力、使其能与台积电等公司竞争，从而实现英特尔在代工业务上的雄心。（凤凰网科技）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>存储需求狂飙！希捷CEO拒绝建新厂：耗时太久，未来还可能产能过剩</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">5月19日消息，据媒体报道，周一美股早盘，希捷科技（Seagate Technology）股价一度跌超8%，起因是公司高管的表态引发投资者担忧——这家存储巨头可能无法跟上AI驱动的存储芯片需求飙升。日前，希捷董事长兼CEO戴夫·莫斯利（Dave Mosley）在摩根大通会议上被问及是否计划扩大制造产能时坦言，建造新工厂“耗时太久”，而且未来还可能让公司陷入产能过剩的困境。</p><p style=\"text-align: justify;\">莫斯利同时表示，公司目前专注于“让整个制造体系更高效，生产出更多EB级存储容量”。他说：“我们把这些成果展示给客户，客户的回应是‘我接受’。”这番讲话后，希捷科技股价持续走弱，最低触及每股759.74美元，创下5月4日以来的新低，盘中最大跌幅达8.7%。</p><p style=\"text-align: justify;\">在AI热潮的强力推动下，希捷股价过去一年累计暴涨近600%，市值增加超过1400亿美元。公司上季度还录得创纪录的毛利率，主要受益于数据中心需求的激增。然而，近期部分投资者开始担忧：AI带动的高速营收增长可能已接近峰值。存储芯片行业本身具有强烈的周期性——当需求旺盛时，价格上涨，供应随之扩张；而一旦订单放缓，过剩的产能又会压低价格和利润。（快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260522/6a0fad866395a.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>AMD 苏姿丰谈 AI：在科技行业工作超 30 年，没有比今天更“兴奋”的时刻了</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">5 月 19 日消息，在 AMD AI 开发者日活动上，AMD 董事长兼首席执行官苏姿丰在谈及人工智能的发展时指出，AI 的进步令人难以置信，预计未来五年，将有 50 亿人每日使用 AI，而支撑如此海量活跃 AI 用户出现的最大关键，是拥有合适的应用。</p><p style=\"text-align: justify;\">在苏姿丰看来，不存在某一种单一的应用、工作流，能够满足这种需求，我们需要各种各样的模型、工作流，以便于我们利用 AI 来彻底改变生活、商业中交互的方方面面。苏姿丰坦言：“我在科技行业已经工作了超过 30 年，但从来没有比今天更令人兴奋的时刻了，正在发生的事情确实非常精彩。”</p><p style=\"text-align: justify;\">苏姿丰看来，就在最近几个月，AI 得到了巨大加速，我们不仅看到大语言模型的发展，推理型 AI 的发展也变得更加普遍，企业们真正在讨论如何利用 AI。“我可以告诉你，每个国家的每一位 CEO，无论是大型企业、中型企业还是小型企业，每个人都在谈论如何利用 AI 更有效地影响他们的业务。”苏姿丰直言。苏姿丰认为，未来会有更多的 GPU，GPU 将无处不在，遍布整个生态系统，此外还需要有大量的 CPU 处理能力，开发者需要完整的端到端计算体系，而这也正是 AMD 的重点所在：提供完整的端到端计算能力。（IT之家）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>三星员工收入曝光：月薪狂涨25%达5万+！却依然挡不住大罢工</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">5月19日消息，韩国CXO研究所发布报告显示，2026年一季度三星电子员工人均月薪约1200万韩元（约合5.44万元人民币），同比上涨25%，创下历史新高。该研究所结合三星一季度财报薪资费用5.6032万亿韩元，及约12.56万名在职员工数据推算，一季度人均薪酬区间为3391万至3815万韩元（约15.36万至17.28万元人民币），取中间值月均约1200万韩元。相比2025年一季度的2707万至3046万韩元，同比涨幅超过25%，较2023至2024年11.6%的薪资涨幅扩大两倍有余。</p><p style=\"text-align: justify;\">报告指出，三星一季度营业利润大幅回暖是薪酬攀升的直接原因。不过这一数据仅为固定薪资平均值，CXO研究所强调，三星员工收入中绩效奖金占比高于固定月薪，若将各类绩效奖金计入，全年实际薪酬将大幅高于上述数字。</p><p style=\"text-align: justify;\">薪酬创新高的同时，三星与工会的劳资谈判仍在僵持，工会计划于5月21日起举行罢工。工会主张将今年半导体部门营业利润的15%作为绩效奖金，其中70%由半导体业务全体共享，30%按事业部业绩差异化发放，三星方面则认为向亏损事业部发放高额奖金违背绩效原则。5月18日，韩国法院裁定支持三星大部分诉求，要求工会即便罢工也不得耽误生产，这一决定被认为将明显影响劳资谈判走向。（快科技）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>阿斯麦 CEO 富凯：首批 High-NA 光刻机生产的芯片将在数月内面世</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">5 月 19 日消息，全球顶尖芯片设备制造商阿斯麦（ASML）首席执行官克里斯托夫 · 富凯于当地时间周二表示，公司预计数月内就能看到首批采用新款高数值孔径（High-NA）光刻机生产的产品。</p><p style=\"text-align: justify;\">富凯在比利时微电子研究中心（imec）主办的一场会议上称，这款设备能够降低顶尖芯片的电路光刻成型成本，可同时应用于逻辑芯片与存储芯片领域。这位首席执行官说道：“未来数月内，我们就能看到首批借助高数值孔径光刻机完成光刻制程的产品问世，涵盖存储芯片与逻辑芯片品类。”</p><p style=\"text-align: justify;\">就在富凯此番表态的数周前，其核心客户台积电曾直言，单台造价最高达 4 亿美元（约合 27.25 亿元人民币）的高数值孔径光刻机成本过高。（IT之家）</p>",
-      "published": "2026-05-22T09:18:00+08:00",
-      "fetched_at": "2026-05-23T11:32:51.114616+08:00",
-      "pre_filter_reason": "FSD (Full Self-Driving) is AI, also mentions ByteDance Seedance AI",
-      "scores": {
-        "importance": 8,
+        "importance": 6,
         "timeliness": 9,
         "actionability": 8,
         "scarcity": 7,
         "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.4,
+      "quality_score": 7.5,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "特斯拉 FSD 入华前奏：智驾测试员是做什么的？",
-          "angle": "科普智驾测试员的日常工作、技术要求以及如何申请，帮助感兴趣的用户了解这一新兴职业。",
+          "title": "免费LLM API密钥合集：GPT-5、Claude、DeepSeek即拿即用",
+          "angle": "整理免费API密钥获取渠道，并演示如何快速集成到项目中（如调用GPT-5进行文本生成），提醒使用限制和风险。",
           "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "GoPro 要被卖了：从运动相机之王到 3 年亏损 40 亿的教训",
-          "angle": "回顾 GoPro 的兴衰历程，分析其市场策略失误和行业竞争（如大疆）带来的启示。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "d9d091ea72e3",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
-      "link": "https://openai.com/index/gartner-2026-agentic-coding-leader",
-      "summary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
-      "published": "2026-05-22T08:00:00+08:00",
-      "fetched_at": "2026-05-23T11:32:40.212040+08:00",
-      "pre_filter_reason": "OpenAI named leader in enterprise AI coding agents.",
-      "scores": {
-        "importance": 7,
-        "timeliness": 6,
-        "actionability": 8,
-        "scarcity": 5,
-        "virality": 6,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.3,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Gartner 认证：企业如何用 Codex 提升编码效率？",
-          "angle": "基于 Gartner 报告，介绍 Codex 在企业级编码场景中的实际应用案例和部署建议。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "OpenAI Codex 被 Gartner 评为领导者：这意味着什么？",
-          "angle": "解读 Gartner 魔力象限的评估标准，分析 Codex 为何在创新性和企业部署上领先，以及对竞品的影响。",
-          "difficulty": "进阶"
         }
       ]
     },
@@ -715,29 +167,547 @@
       "title": "anthropics /claude-plugins-official",
       "link": "https://github.com/anthropics/claude-plugins-official",
       "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "published": "2026-05-23T11:33:34.953013+08:00",
-      "fetched_at": "2026-05-23T11:33:34.953029+08:00",
-      "pre_filter_reason": "AI model plugins directory",
+      "published": "2026-05-24T11:55:10.749450+08:00",
+      "fetched_at": "2026-05-24T11:55:10.749453+08:00",
+      "pre_filter_reason": "Claude Code Plugins, AI product",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Claude Code 插件官方目录上线！如何安装与使用？",
+          "angle": "手把手演示如何从官方目录查找、安装并配置 Claude Code 插件，提升编码效率。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "Anthropic 官方插件目录意味着什么？",
+          "angle": "分析官方插件目录对 Claude 生态的影响，以及开发者如何利用官方认证插件提升工作流。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "008fa591800a",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "juyterman1000/entroly",
+      "link": "https://github.com/juyterman1000/entroly",
+      "summary": "Context engine that helps reduce hallucinations and cuts token costs by 70–95% for Claude, Cursor, Codex, GPT & custom providers.",
+      "published": "2026-05-24T11:55:11.249800+08:00",
+      "fetched_at": "2026-05-24T11:55:11.249802+08:00",
+      "pre_filter_reason": "AI context engine reducing hallucinations and token costs for LLMs",
       "scores": {
         "importance": 7,
         "timeliness": 8,
         "actionability": 8,
-        "scarcity": 7,
+        "scarcity": 8,
         "virality": 7,
-        "crowd_heat": 0.0
+        "crowd_heat": 3.5
       },
-      "quality_score": 7.2,
+      "quality_score": 7.4,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "Claude Code 插件官方目录上线：5 分钟上手指南",
-          "angle": "演示如何从官方目录安装和使用 Claude Code 插件，包括搜索、安装和配置步骤，适合初学者。",
+          "title": "Entroly 上下文引擎：如何将 AI 幻觉降低 95%？",
+          "angle": "演示 Entroly 的安装与配置，展示其在 Claude、Cursor 等工具中减少幻觉、节省 Token 的实际效果。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "comparison",
+          "title": "Entroly vs 传统 RAG：谁更省 Token？",
+          "angle": "对比 Entroly 与常规 RAG 方案在成本、幻觉率上的差异，帮助开发者选择最佳上下文管理方案。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "6889f564df90",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "华为自研全新 DoB 封装技术：绕过 400 层 NAND 造出 122TB 企业级 SSD，未来还计划推出 245TB 版本",
+      "link": "https://www.ithome.com/0/954/502.htm",
+      "summary": "<p>IT之家 5 月 24 日消息，据 Blocks &amp; Files 报道，华为于 5 月 20 日至 21 日在巴黎举行的 ID Forum 2026 活动上展示了基于自研 Die-on-Board（板上裸片封装，DoB）封装技术的大容量 SSD 系列。</p><p>其中一款面向 AI 推理和数据中心的全新 SSD 提供 61.44TB 与 122.88TB 两种容量，而且华为未来还计划推出 245TB 版本。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/5/04606b7e-6c24-4307-8d5b-4311d1fa0628.png?x-bce-process=image/format,f_auto\" /></p><p><a href=\"https://www.ithome.com/0/878/382.htm\" target=\"_blank\">IT之家此前报道</a>，华为在去年 8 月发布了三款全新 AI SSD 产品，其中 LC560 就曾承诺推出最大 245TB 的容量。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/5/b0b0adfc-299d-46a7-a7f4-4f4c3344806e.jpg?x-bce-process=image/format,f_auto\" /></p><p>华为使用自主研发的 DoB 封装技术，将更多 NAND Die 直接封装在 PCB 电路板上，从而绕开传统 TSOP 或 BGA 封装对芯片数量的限制，提供更高的密度和更好的性能。</p><p>目前三星等原厂已经推出 400 层以上的 3D NAND 产品，但相关芯片涉及美国技术，所以无法向华为供应最新 NAND 芯片。因此，华为选择通过封装层面的创新提升容量密度。</p><p>传统主流 SSD 供应商（如三星、铠侠、闪迪、美光等）通常采用多芯片堆叠在 TSOP 或 BGA 封装内部，然后再焊接到 PCB 上。传统 TSOP / BGA 封装受限于封装体的固定物理尺寸，最多只能实现 16 层裸片堆叠，而 DoB 技术最高可实现 36 层堆叠，突破了这一物理限制。</p><p>相比于 TSOP 或 BGA 封装，华为的 DoB 方案不仅提升了容量密度，还因省去了若干昂贵的封装步骤，从而更具成本效益。</p><p>在 2026 巴黎活动期间，华为展示了多款高容量 SSD 产品，包括已经量产的 61.44TB 和 122.88TB 型号，以及未来规划中的 245TB 版本。另外，展区中的 OceanDisk 1800 Smart Disk Enclosure 宣传资料显示，该 2U 机箱可实现 1.47PB 容量，并标注采用“基于 DoB 堆叠技术的大容量 SSD”。另一台 OceanDisk 1610 展示设备则标称可在 2RU 空间内搭载 36 块 61.44TB SSD，总容量达到 2.2PB。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/5/a7d62cc8-7618-43f3-96ab-8ddfd9c83260.png?x-bce-process=image/format,f_auto\" /></p><p>作为对比，戴尔目前基于铠侠（Kioxia）245.88TB QLC NVMe SSD 的方案，在 2RU 机箱中可提供约 9.8PB 原始容量。华为 DoB 技术已经在一定程度上缩小了双方差距。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/5/c5e73a45-b208-4d16-b0b8-af99a9d74416.jpg?x-bce-process=image/format,f_auto\" /></p><p>IT之家注意到，华为在 2024 年发布的《数据存储 2030》白皮书以及相关宣传材料中也重点介绍了 DoB 技术。</p><p>华为当时提到，这类 Wafer-Scale 技术需要解决超大芯片的制造、芯片的功能管理和监控、跨芯片连接、芯片散热、可靠性管理等问题。现在，华为研发团队经过专项技术攻关后，最终实现了该技术的规模化商用。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/5/320724b1-57ad-4eea-b34f-6e044fe8a7ac.png?x-bce-process=image/format,f_auto\" /></p><p>目前，该技术已应用于 OceanStor Pacific 9926 全闪分布式存储，以及配套的 OceanDisk QLC PCIe Gen4 SSD 产品中，提供 61.44TB 与 122TB 容量版本，但具体 NAND 层数尚未披露。</p><p>另外，华为 AI SSD 架构在主控芯片中集成 AI 加速单元，可实现存储与计算协同，从而降低数据传输能耗。采用 36 块 122.88TB PCIe Gen5 NVMe SSD 的 OceanStor Pacific 9926，在 2RU 机箱中可提供 4.42PB 原始容量，在 2.5:1 压缩比下有效容量可达到 11PB。</p>",
+      "published": "2026-05-24T11:46:28+08:00",
+      "fetched_at": "2026-05-24T11:55:04.673445+08:00",
+      "pre_filter_reason": "华为展示面向AI推理和数据中心的SSD",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "explainer",
+          "title": "华为 DoB 封装技术是什么？如何绕过 400 层 NAND 造出 122TB SSD？",
+          "angle": "用通俗语言解释 DoB 封装原理，以及它如何突破传统 NAND 堆叠限制，实现超大容量企业级 SSD。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "华为 122TB SSD 对 AI 数据中心意味着什么？",
+          "angle": "分析大容量 SSD 在 AI 推理、存储密集型场景中的价值，以及华为未来 245TB 版本的技术挑战。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "ceb7641ee950",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "elizaOS/eliza",
+      "link": "https://github.com/elizaOS/eliza",
+      "summary": "Open source agentic operating system",
+      "published": "2026-05-24T11:55:11.249777+08:00",
+      "fetched_at": "2026-05-24T11:55:11.249793+08:00",
+      "pre_filter_reason": "Open source agentic operating system for AI agents",
+      "scores": {
+        "importance": 8,
+        "timeliness": 7,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 8,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.1,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "ElizaOS 入门：如何搭建你的第一个 AI Agent？",
+          "angle": "从零开始，演示如何安装 ElizaOS 并创建一个简单的自动化代理，实现任务调度与交互。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "overview",
+          "title": "ElizaOS：开源智能体操作系统能做什么？",
+          "angle": "介绍 ElizaOS 的核心功能、架构与典型应用场景，帮助开发者快速了解其能力边界。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "12dd36ff26eb",
+      "source_id": "baidu-hot",
+      "source_name": "百度热搜",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "hotlist",
+      "title": "记者直击：凌晨3点救援机器人下井探测",
+      "link": "https://www.baidu.com/s?wd=记者直击：凌晨3点救援机器人下井探测",
+      "summary": "5月24日凌晨，记者在山西煤矿瓦斯爆炸事故救援现场了解到，救援人员使用矿山用巡检机器人进入井下侦测。机器人配备有气体传感器和实时摄像头，它可以进入救援人员不能抵达的地方搜集数据和信息。救援人员也和机器人一同下井，在井下操作机器人。",
+      "published": "2026-05-24T11:55:06.478587+08:00",
+      "fetched_at": "2026-05-24T11:55:06.478589+08:00",
+      "pre_filter_reason": "救援中使用AI机器人进行井下探测",
+      "scores": {
+        "importance": 5,
+        "timeliness": 9,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 10.0
+      },
+      "quality_score": 7.1,
+      "topics": [
+        {
+          "tag": "story",
+          "title": "凌晨 3 点，救援机器人下井：山西煤矿事故中的科技力量",
+          "angle": "以记者直击视角，讲述救援机器人如何携带传感器和摄像头深入井下，辅助救援人员探测危险区域。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "explainer",
+          "title": "矿山巡检机器人如何工作？从传感器到实时回传",
+          "angle": "解析救援机器人的核心传感器、通信方式以及人机协作流程，展示其在极端环境下的应用价值。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "b29a2949bcaa",
+      "source_id": "reddit-ml",
+      "source_name": "Reddit r/MachineLearning",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "I built a Mamba1 variant I call SM1 with d_state=1 that runs on Blackwell in pure PyTorch [P]",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1tl7f8z/i_built_a_mamba1_variant_i_call_sm1_with_d_state1/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>On windows mamba-ssm is not easily available and doesn't compile on sm_120. SM1 (Scalar Mamba1) replaces the entire selective scan with two native PyTorch ops:</p> <p><code>L = torch.cumprod(dA, dim=1)</code></p> <p><code>h = L * (h0.unsqueeze(1) + torch.cumsum(dBx / L.clamp(min=1e-6), dim=1))</code></p> <p><code>y = h * C</code></p> <p>This is the exact closed-form solution to the d_state=1 recurrence via variation of parameters. Not an approximation, it is identical to sequential computation of floating point precision. d_state=2 breaks it. d_state=1 is the boundary where the closed form exists.</p> <p>The Mamba1 scan intermediates are (B, T, F, S). SM1 eliminates S entirely, there is 16x less scan memory than a Mamba1 with d_state=16. The inference state for a 130M param model is about 14,080 floats, 56 KB, no KV cache, O(1) per token forever.</p> <p>I am currently training it on 163K MIDI files, which is 2.5B tokens roughly in my custom format. 130M params fits in under half of my 16 GB card which is an RTX 5060 Ti. d_state scales expressivity only when the representation does not already encode structure. Thus if you encode structure in tokens, you do not need d_state to be more than a scalar.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TechnoVoyager\"> /u/TechnoVoyager </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tl7f8z/i_built_a_mamba1_variant_i_call_sm1_with_d_state1/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tl7f8z/i_built_a_mamba1_variant_i_call_sm1_with_d_state1/\">[comments]</a></span>",
+      "published": "2026-05-23T13:30:26+08:00",
+      "fetched_at": "2026-05-24T11:55:09.462489+08:00",
+      "pre_filter_reason": "AI model variant (Mamba1) and research",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.1,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "如何在Windows上纯PyTorch复现Mamba1？SM1实战教程",
+          "angle": "针对Windows用户无法直接使用mamba-ssm的痛点，手把手教学如何用torch.cumprod和torch.cumsum替代选择性扫描，在Blackwell GPU上运行。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "analysis",
+          "title": "Mamba1的简化版SM1：d_state=1背后的设计哲学",
+          "angle": "分析SM1将状态维度压缩到1的核心创新，解释为何这种简化能在纯PyTorch下运行，以及对未来状态空间模型发展的启示。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "3744cb5644d7",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "heygen-com/hyperframes",
+      "link": "https://github.com/heygen-com/hyperframes",
+      "summary": "Write HTML. Render video. Built for agents.",
+      "published": "2026-05-24T11:55:11.249845+08:00",
+      "fetched_at": "2026-05-24T11:55:11.249846+08:00",
+      "pre_filter_reason": "Description mentions 'Built for agents', implying AI agents.",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.9,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "用HTML写视频？Hyperframes让AI代理自动生成视频内容",
+          "angle": "介绍Hyperframes的核心概念：通过编写HTML来渲染视频，展示如何为AI代理设计自动化视频生成流程。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "use_case",
+          "title": "AI代理的新能力：从HTML到视频的零代码转换",
+          "angle": "探讨Hyperframes如何降低视频制作门槛，适合营销人员、内容创作者快速生成动态视频，无需传统视频编辑技能。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "24a916711a44",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "NVlabs /LongLive",
+      "link": "https://github.com/NVlabs/LongLive",
+      "summary": "LongLive 2.0: Infra - Long Video Gen",
+      "published": "2026-05-24T11:55:10.752000+08:00",
+      "fetched_at": "2026-05-24T11:55:10.752001+08:00",
+      "pre_filter_reason": "AI research on long video generation",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.9,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "LongLive 2.0：长视频生成的基础设施搭建指南",
+          "angle": "解析NVlabs的LongLive 2.0架构，重点介绍如何解决长视频生成中的内存、时序一致性和推理效率问题。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "analysis",
+          "title": "长视频生成新突破：LongLive 2.0如何解决‘长’的难题？",
+          "angle": "对比现有短视频生成模型，分析LongLive 2.0在长视频连贯性、计算资源优化方面的技术创新。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "2f0c8d032774",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "colbymchenry /codegraph",
+      "link": "https://github.com/colbymchenry/codegraph",
+      "summary": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "published": "2026-05-24T11:55:10.749667+08:00",
+      "fetched_at": "2026-05-24T11:55:10.749670+08:00",
+      "pre_filter_reason": "Code knowledge graph for AI coding agents",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.9,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "CodeGraph：为Claude Code/Codex/Cursor搭建本地代码知识图谱",
+          "angle": "手把手教学如何用CodeGraph预索引代码库，减少AI编程工具的token消耗和工具调用次数，提升本地开发效率。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "comparison",
+          "title": "CodeGraph vs 传统代码索引：谁更省token？",
+          "angle": "对比CodeGraph的预索引知识图谱与常规代码搜索方法，用实际数据展示token节省和工具调用减少的效果。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "0476593af107",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "Lum1104 /Understand-Anything",
+      "link": "https://github.com/Lum1104/Understand-Anything",
+      "summary": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "published": "2026-05-24T11:55:10.749221+08:00",
+      "fetched_at": "2026-05-24T11:55:10.749235+08:00",
+      "pre_filter_reason": "Interactive knowledge graph for AI coding tools",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.9,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Understand-Anything：将任意代码变成可交互的知识图谱",
+          "angle": "演示如何用Understand-Anything将代码库转化为可探索、可搜索、可提问的交互式图谱，支持Claude Code、Cursor等工具。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "use_case",
+          "title": "代码学习新方式：用知识图谱‘提问’你的代码库",
+          "angle": "展示Understand-Anything如何帮助开发者快速理解陌生代码库，通过图谱交互和自然语言提问降低学习曲线。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "a80ddcfc4705",
+      "source_id": "reddit-ml",
+      "source_name": "Reddit r/MachineLearning",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "Vision-capable LLMs vs. OCR for long-document (including charts, images, tables, etc.) QA [D]",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1tm0cqg/visioncapable_llms_vs_ocr_for_longdocument/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I benchmarked vision-capable LLMs (the &quot;just attach the PDF and let the model read it&quot; pattern) against OCR-based pipelines on 30 long, image-heavy PDFs from MMLongBench-Doc (<a href=\"https://github.com/mayubo2333/MMLongBench-Doc\">https://github.com/mayubo2333/MMLongBench-Doc</a>). There were 171 questions in total, using Claude Sonnet 4.5 as the LLM.</p> <p>Post-retry results:</p> <table><thead> <tr> <th align=\"left\">Approach</th> <th align=\"left\">Accuracy</th> <th align=\"left\">$/query</th> </tr> </thead><tbody> <tr> <td align=\"left\">LlamaCloud premium + full-context</td> <td align=\"left\">59.6%</td> <td align=\"left\">$0.1885</td> </tr> <tr> <td align=\"left\">Azure premium + full-context</td> <td align=\"left\">58.5%</td> <td align=\"left\">$0.2051</td> </tr> <tr> <td align=\"left\">Azure basic + full-context</td> <td align=\"left\">54.4%</td> <td align=\"left\">$0.1062</td> </tr> <tr> <td align=\"left\">Agentic RAG</td> <td align=\"left\">53.2%</td> <td align=\"left\">$0.0827</td> </tr> <tr> <td align=\"left\"><strong>Native PDF (vision LLM)</strong></td> <td align=\"left\"><strong>52.0%</strong></td> <td align=\"left\"><strong>$0.2552</strong></td> </tr> <tr> <td align=\"left\">LlamaCloud basic + full-context</td> <td align=\"left\">50.9%</td> <td align=\"left\">$0.1049</td> </tr> </tbody></table> <p>Native PDF came 5th of 6 on accuracy and was the most expensive arm at $0.2552 per query.</p> <p>Two findings:</p> <p>Vision underperformed on chart-heavy and table-heavy pages, the territory that the &quot;vision LLMs make OCR obsolete&quot; claim most often points to. Premium OCR with layout extraction held up better there.</p> <p>The native-PDF arm had a 7% intrinsic failure rate (related to PDF file size) that survived retries. There were 27 first-pass failures, with 5 attempts of exponential backoff per failed query. Fifteen recovered, and 12 stayed permanently broken. These were concentrated in two specific PDFs that fail for predictable transport-layer reasons (the blog identifies them). OCR-based arms had a 0% intrinsic failure rate after retries.</p> <p>Caveats: 30 docs is a small sample. I ran McNemar's pairwise test to determine which gaps are real and which are within noise. Only 3 of 15 head-to-head gaps are statistically distinguishable at α = 0.05, so the order in the table is partly noise. The vision-versus-OCR finding survives the test.</p> <p>Full writeup: <a href=\"https://www.surfsense.com/blog/agentic-rag-vs-long-context-llms-benchmark\">https://www.surfsense.com/blog/agentic-rag-vs-long-context-llms-benchmark</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Uiqueblhats\"> /u/Uiqueblhats </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tm0cqg/visioncapable_llms_vs_ocr_for_longdocument/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tm0cqg/visioncapable_llms_vs_ocr_for_longdocument/\">[comments]</a></span>",
+      "published": "2026-05-24T11:11:52+08:00",
+      "fetched_at": "2026-05-24T11:55:09.462415+08:00",
+      "pre_filter_reason": "Benchmarking vision-capable LLMs for document QA.",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.9,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "别再手动OCR了！用视觉大模型直接“看”PDF做问答",
+          "angle": "对比两种技术方案在长文档（含图表、表格）问答中的实际效果和适用场景，手把手教用户如何用视觉LLM替代传统OCR流程，提升效率。",
           "difficulty": "入门"
         },
         {
           "tag": "tutorial",
-          "title": "开发者必看：如何挑选高质量的 Claude Code 插件？",
-          "angle": "基于官方目录，分享筛选高质量插件的技巧（如评分、维护状态、功能描述），帮助开发者避免踩坑。",
+          "title": "30份PDF实测：视觉LLM vs OCR，谁才是文档问答之王？",
+          "angle": "基于MMLongBench-Doc基准测试，用真实数据对比视觉LLM和OCR管线的准确率、处理速度和成本，给出选型建议。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "9cd2165e9a0a",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "圆桌对话：下一个杀手级AI产品，会出现在哪个赛道？| 2026AI Partner·北京亦庄AI+产业大会",
+      "link": "https://36kr.com/p/3821714896408713?f=rss",
+      "summary": "<p>下一个杀手级AI产品，是眼镜、是Agent，还是某个尚未命名的“物理世界入口”？这场圆桌没有标准答案，却达成一个共识：单纯套壳大模型的应用注定短命，只有长期在线、连接物理世界、能完成真实交互闭环的产品，才可能成为下一个百亿级赛道。从AI眼镜到具身智能，入口之争已悄然打响。</p>\n  <p>硬件先行还是生态为王？C端规模还是B端付费？最终指向同一个逻辑：纯套壳应用、弱交互硬件注定被淘汰，只有“多模态底座+AI原生智能体+可穿戴硬件”三位一体，才能让AI从聊天框真正走进现实。</p>\n  <p>以下为圆桌对话内容，经36氪整理编辑：</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260523/v2_44886f53240244c6904ea0187cba40b5@6381723_oswg133918oswg1000oswg666_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1\" /></p>\n  <p>刘子豪丨杭州颜柯教育联合创始人（主持）</p>\n  <p>赵维奇丨乐奇全球开放生态负责人</p>\n  <p>路少卿丨商汤科技研究院技术管理负责人、多模态产品负责人</p>\n  <p><strong>刘子豪：</strong>各位上午好，我是来自杭州颜柯的刘子豪，欢迎来到这场杀手级的AI产品赌局。今天不聊虚的，只聊一个事：下一个全民级、百亿级的AI产品到底长什么样，又会诞生在哪个赛道。今天有幸请到两位嘉宾，分别代表了不同的赛道，有请两位老师介绍一下自己。</p>\n  <p><strong>赵维奇：</strong>大家好，我是赵维奇，来自乐奇。我是一个持续创业者，之前一直在做多模态和人工智能软硬件设备，to C看得比较多，目前负责乐奇全球开放生态，从芯片、硬件、OS、API、应用到高校、非营利组织，都可以看有没有合作的机会，推动整个行业。</p>\n  <p><strong>路少卿：</strong>大家好，我来自商汤科技，主要负责多模态交互相关技术研发、产品化及产业落地工作。</p>\n  <p><strong>刘子豪：</strong>感谢两位老师。如果必须押注一个赛道会诞生下一个杀手级的AI产品，您会押哪一个？可以用自家落地的案例证明您的判断。赵老师。</p>\n  <p><strong>赵维奇：</strong>先有一个定义，下一个杀手级AI产品一定是长期在线的，跟物理世界能连接的一个入口。从我的角度，这个品类一定是AI可穿戴。可穿戴在不同时间阶段可能有不同的产品出现，目前来说，AI和AR结合的眼镜是最合适的，相对离人更近，在线时间也更长，能够更容易连接物理世界。</p>\n  <p>人每天看世界的时间应该比看手机的时间长很多，大部分时间是跟物理世界进行交互。如果是杀手级AI产品，一定是高频、刚需并且能够持续使用的。从这个角度，眼镜是最好的长期在线的部分，手机是你主动打开的，不能做成持续在线。</p>\n  <p>再说AI Agent。有了AI Agent以后，每个人都搞智能体或者其他的解决方案，都希望你的Agent是长期在线的。什么硬件或者什么产品能够让Agent长期在线，并且能陪伴在我们身边，帮助我们处理跟物理世界之间的任务、关联、记录，这个就是杀手级的AI产品。</p>\n  <p>总结来说，一定是长期在线的、能够跟物理世界相关联的入口，能够保证持续、高频使用，满足刚需。这也是下一代AI的入口，只要是一个入口，就一定是杀手级的产品。</p>\n  <p><strong>路少卿：很多正确的判断，最后其实会走到相近的方向上</strong>。刚才说的内容，跟我想的是类似的。杀手级的应用还可以再抽象一下。无论是从最开始的模型还是到现在演进的Agent，AI从单点介入，到长期、持续的介入，目前的Agent——无论是ChatGPT还是其他，还都是停留在数字世界对话框里的AI，能用到的，在线时长是有限的。</p>\n  <p>我预期下一步我们能够延伸出一套从数字世界走到物理世界，真正能在物理世界跟人类协作的智能体系统。当然，这套智能体系统可以基于眼镜接入，也可以基于具身机器人接入，这些都是接入的硬件入口。对整个产品乃至技术的最大挑战，是能够真正实现跟真实世界的持续有效交互。</p>\n  <p>举个例子，比如我现在是一个AI，刚才主持人和嘉宾都说了一段自己的陈述，对现在大多数的AI来说，它是无法分辨谁在说话，什么时候、什么话题需要它响应的。我刚才说的这一套能够跟真实世界交互的Agent，如果解决了这个问题，那么AI才能真正进入物理世界跟大家协作。</p>\n  <p><strong>刘子豪：</strong>作为一名辩手出身，接下来针对两位老师的分享简单做一下追问。赵维奇老师，AI眼镜分为两种路线，一种没有显示，更像是AI耳机加摄像头；另一种是AI加AR有显示的眼镜。您怎么看这两种路线的区分？</p>\n  <p><strong>赵维奇：</strong>硬件形态可以是多样化的，不管是外形还是功能，包括覆盖的人群。有显示、无显示，属于不同阶段、不同场景的产品形态，场景不一样，选择的时候就不一样，就像手机也有很多种。无显示，更多是蓝牙耳机、摄像头的延展，可穿戴蓝牙耳机和摄像头，会更轻一些，应用场景更轻一些。带显示，原来把AR带到了物理世界识别以后，不管是识别语音还是别的什么，一定会有反馈。如果没有显示，只能通过第三个媒介，比如手机、电脑、语音播出。人类大脑接受信息的带宽是很有限的，而视觉是最快的。300字、500字的文章，用眼一看，两秒钟就知道大概的意思；要读出来，有些同学可能都只有七秒的记忆，读到第五、第六句前面就忘了。显示本身就是增强人类带宽的部分。</p>\n  <p>为什么会有显示和无显示的区别？有显示更多是把AI处理的结果实时呈现在现实视野中，完成了现实中交互的闭环。原来没有完成这个闭环，或者比较慢，现在完成了闭环。很多场景，不管是to B还是to C，真的需要显示。导航需要显示，大部分不太想看手机。十年前就有HUD的概念，抬头显示器，早年开宝马或者奔驰，前面有一个小小的HUD显示器，希望你在不干扰物理世界的情况下非常方便地看到，这是to C。to B那就太多了，提醒、提示、巡检，通过显示都是很好的呈现方式，这是场景下的需求。大家为什么要拿一个chatbot，为什么要用聊天框，不就是为了知道发生了什么、现在的情况是什么样。一直在语音播报，大脑容量肯定处理不了那么多事情，一眼可以用肉眼筛选。在Native AI大时代下，显示是必然的，对应着各种取舍。</p>\n  <p>AI不单是会听、会说。如果只会听和只会说，在我看来是旁观者，不参与。帮你看、帮你处理，他有话要说的时候，就像你找了一个秘书，他是个i人，很多状况都没有告诉你，效率反而更低，还不如你自己看。能够显示，理解空间并且返回到现实中，实时反馈，这是必然。很多厂商都在做各种形态的产品，行业做这么多产品，在某种程度上是验证了AI眼镜是未来的重要入口。形态上的取舍有短期的、长期的，包括商业策略的变化在内，这是大家的取舍。</p>\n  <p><strong>刘子豪：</strong>听下来感觉显示是AI眼镜从能听会拍走向真正理解现实世界的关键一步。下一个问题，AI眼镜很像2010年前后的智能手机，大家都在抢入口。乐奇内部最看重的商业模式是什么，是硬件销售、应用生态还是智能体服务带来的长期价值？</p>\n  <p><strong>赵维奇：</strong>如果大家长期做硬件，像我做了十几年的硬件，第一个要遵循的肯定是长期主义。硬件公司跑出来的都是五年、三年以上的公司，不然就跑到另外一个品类了。华强北，短平快，今天你可能做耳机，明天就做话筒，后天就做成人玩具了，跨度非常大，只是为了生产快速变现的方式，而不是推动行业的方式。相对来说，初创原始团队都是有初心的。我们的初心是做VR，在乐奇过去十年从来没有碰过VR，初心是做眼镜形态、跟物理世界交互的终端，商业模式也是长在这里的。硬件是入口，硬件完成大规模销售，从可用到好用，大家要用起来，这是第一个规模上的覆盖。每个人都有的时候，就会有下一部分——生态拓展。一旦有技术，需求就会大量增益出来。除了本身的翻译、提词、导航以外，现在最火的agent应用之一是“比价”，这是我们生态里的小伙伴做的，在超市里看到农夫山泉的水瓶，你就问这里全网最低价是什么，答案马上就出来了。原来我们自己想不到，硬件作为入口没有那么大的用户量也就不值当，或者没有那么强的驱动力让开发者、创业者去做这个事情。所以，第二个就是生态的拓展。</p>\n  <p>第三个是更加长期的价值。我们做生态做了三四年，之前也没有Agent或者AI，现在有了Agent以后，你会发现是长期服务的角色。最后硬件买回家不单是工具，你买的不是设备，更多的是能帮你长期完成事务的能力。硬件是载体，你希望它能长期给你能力。能力核心本身要有硬件，生态要有应用。AI年代是Agent，Native Agent更多是覆盖你方方面面，而且很轻量。这一点是我们的商业模式。我们的商业模式核心是OS加生态，硬件只是长在上面。OS是为了让本身的能力能够发挥到更大的深度和广度，有更多的开发者用各种技术栈完成，深度可以接驳在线、离线、端侧、云端的模型，这就是OS的能力。生态拥抱、开放就好了。</p>\n  <p>最后一个持续的商业化策略，跟大家协同，共同把能力释放给B端客户和C端客户。</p>\n  <p>是这样的想法和定义，目前是这么想的。</p>\n  <p><strong>刘子豪：</strong>少卿老师，商汤一直在讲多模态大模型。商汤押注的不是某一个单独的APP，是不是让多模态进入真实场景，比如AI硬件、机器人、办公智能体等？在您看来，商汤未来真正的杀手级是模型本身还是跑模型的具体应用？</p>\n  <p><strong>路少卿：</strong>模型其实决定了整个产品或者系统的智商上限，这是基础。</p>\n  <p>应用、APP或者产品，和AI眼镜或者其他具身智能机器人结合，这是入口。大家都提到了OS这一层，这一层也是目前我们在做的最核心的点。这个核心的点从基础的pipeline延伸到现在的智能体，延伸到将来有可能成长为所谓AI的操作系统。</p>\n  <p>操作系统解决的是什么？是把我们刚才所说的智商上限发挥到极致，如何管理上下文，如何更好地调用工具，如何在契合的时间点理解我们的真实意图——就像我没跟它说话，它可以理解甚至主动跟我说你是不是要干点什么事。这一层系统是未来的核心。</p>\n  <p>这套系统，回答的是Agent如何从纯数字世界晋升到物理世界真正的协作者，到底能不能当我的助理——真正的助理，不是在聊天框收我信息的助理。现在的智能体都是基于深度思考的逻辑，多轮调用、持续思考、决策再执行的过程。但在这个过程中，这一类深度推理的信息都给我，我也不想看，我做研究可以分析推理过程，但从用户的角度，我只希望在合理的时间告诉我是否需要我介入帮忙，或是直接对我说“我搞不定了，你帮帮我”等等。</p>\n  <p>对于商汤而言，我们不单只是做模型，也不单是跟下游的硬件厂商合作，而是我们要深度集成现有的模型能力，让这一套从文本交互的逻辑真正晋升到实际改变人机交互策略的系统。</p>\n  <p><strong>刘子豪：</strong>能不能举一个商汤曾经判断这个场景特别值得做的例子？怎么发现这个需求？</p>\n  <p><strong>路少卿：</strong>我举一个现场的产品，今天负责主持这场大会的商汤商量AI讲解大脑。之前我们判断一个场景，我个人感觉不只是商汤，很多创业者的判断逻辑都是一样的。需要定义一个问题：首先，这个问题是否是高频问题？只有高频问题才值得解决。第二个，高频问题是否有价值。第三个，有价值的积累是不是可复制。我们是靠三要素决策这个事情值不值得做，有价值才能衍生出一个产品。</p>\n  <p>AI讲解大脑的系统为什么做？也是从这三点来的。 这两年具身产业高速发展，但除了表演演绎场景，也可以为他拓展更多的商业价值。机器人需要真实进入到无论是B端业务中还是C端场景，要解决它们真正的应用，要解决刚才谈到的问题。这些问题解决后，才��保证整个实际最后一公里的应用。</p>\n  <p><strong>刘子豪：</strong>接下来我们进行快问快答环节。我抛出三个问题，请两位老师分别回答一下。第一个，杀手级AI产品到底是硬件入口，还是软件，还是Agent？</p>\n  <p><strong>赵维奇：</strong>首先，软件、硬件都不是，要看谁最后完成闭环。最后一定是场景做闭环，这才是真正的杀手级产品和场景。没有Agent的硬件就是硬件，没有硬件的Agent，可能只是一个聊天框。你要放更多的入口，软件、硬件、Agent，大家要协同完成闭环，这就是最终的形态。</p>\n  <p><strong>路少卿：</strong>我跟老师刚才说的逻辑基本是认同的。我会有一个先后的顺序。我个人认为，硬件是入口，肯定是先行，先把硬件铺下去，用户才能用硬件里的软件。什么时候它成长为杀手级的应用，不再是单品的火爆，取决于于它真正融入比如C端用户的生活，黏性足够高。在入口铺下去以后，持续提供的功能能让用户持续留下来，这样才能最终成长为杀手级的应用。</p>\n  <p><strong>刘子豪：</strong>第二个问题，下一个杀手级应用，是会先在C端还是先在B端？</p>\n  <p><strong>路少卿：</strong>我个人而言做B端比较多，我觉得B端更多一些。无论是C还是B都有可能，要看业务和产品形态。</p>\n  <p>举个例子，还是拿我刚才说的与具身智能的结合为例。以产品形态来看，我个人觉得在跟真实物理世界交互结合上，智能体、硬件的升级，在B端有明确的边界效应。C端应用落地的要求远比B端要高，因为B端是相对可控的垂直场景。所以以这个场景为例，还是在B端打磨相对成熟以后会更好。换一个产品形态可能是反过来的，具体要看产品形态。</p>\n  <p><strong>赵维奇：</strong>看你怎么定义爆品。C和B是完全不一样的场景和目标。C端更多的是规模场景，意味着大量人使用，大量人使用肯定是跟日常使用强关联的，高频的，能解决实际问题的。B端，我们也做了很多B端的，付费意愿更直接，ROI算得更清楚，一旦有这个场景、功能、解决方案，真的会直接付费，他已经想清楚了。一个算术问题，C端还是B端就和产品形态有关。越来越多的AI都是服务某一个人群的某个需求，这部分就看是不是在这个品类里爆。</p>\n  <p>乐奇过去十年，之前都是B为主，C我们一直在做。眼镜本身为什么不一样？我们一直做人机交互，人机交互的本质是人和机器如何友好沟通交互。一个工人拿着B端的解决方案在工厂里完成他的工作，也是要有人机交互方案来完成工作，这从本质上也是一个to C的。B端和C端在产品定义上商业的时候是区别，但是在用户角度上最终都是人机交互，现在不要炫技，要解决实际问题。只要解决实际问题，有一个时间点，技术的迭代、行业推进，包括硬件、供应链的迭代，在一定程度上把这个品类用你新的技术和解决方案覆盖了，某种程度上就是爆品。也许一千就是这个行业的上限，也是爆品。要拥抱真正解决的问题，思考真正解决问题的解决方案，这才是最重要的。</p>\n  <p><strong>刘子豪：</strong>第三个问题，刚才聊了很多什么是杀手级产品，在二位看来，什么样的产品注定不是杀手级的产品？</p>\n  <p><strong>路少卿：</strong>什么是杀手级应用，什么能演进为杀手级应用？现象级的应用很多，大家每天都会看到爆点，今天这个火了，明天那个火了。现象级应用像从漏斗里十选一、百选一，还是我们刚才一直讨论的问题，它可能在单位时间内形成爆点，爆点能不能为它带来持续的流量、商业价值，这才是核心。</p>\n  <p>举个例子，现在有些做应用的公司，可能会做一些套娃，短期会实现爆款。为什么没办法成长为所谓的杀手级应用，是因为那是挣快钱的逻辑，不是做产品。真正的产品要长期给用户提供无论是情绪价值还是真正的价值，这些才能给用户持续的黏性。以此类推，刚才举例子的产品，可能都不是能成长为杀手级应用的备选产品。</p>\n  <p><strong>赵维奇：</strong>不存在注定成不了，成的概念也不一样。所谓“杀手级”，不是只有一种形态。有一些杀手级产品，可能一年只出现一次，只解决一个特定人群、特定场景、特定任务；也有一些是高频的、持续完成任务的，它的角色决定了它要做什么。哪些比较难？我觉得是套壳。当前时间线上，套壳的价值会越来越低。随着大模型的发展，很多泛化功能都会被大模型吸收，AI应用很难跑出来。今天有一千个用户，第二天就涌到其他平台上了，最后完成商业闭环，钱付给谁？就像运营商一样，最后用户会回到底层平台。从这个角度，身边很多朋友一开始做套壳，后面做2B，一定会往深场景、深工作流里挖。</p>\n  <p>硬件方面，弱交互的智能硬件，本质上也是接一个模型、套一个壳。现在市面上有200到300个品类，从80到3000都有，本质没有太大区别，只是受众群不一样。这些是不是有价值？有。是不是长期的产品，是不是杀手级？杀完以后留给行业的是不是一个新品类，能不能留在牌桌上，是另外一个事情。大家做创业公司，如果想做杀手级产品，要想好自己的定位：我是希望自己干出一条血路，验证一个方向，成为行业先锋；还是希望持续留在牌桌上，做长期平台和长期价值。</p>\n  <p>还有一种慢，但是它可以做持续深耕，很多大厂是这样，这也是一种杀手级能力。AI时代，创业者本身或者大厂做产品的同学要思考是短期还是长期。另外一个，模型能力真的很容易追平，今天是A家，明天就是B家，没有真实场景也很难生存。付费意愿是你解决问题才能付费。</p>\n  <p>第三个，数据留存是接下来AI所有硬件、软件的核心。最后你表面看起来功能很强，各方面很强，增长到比较大的阶段，用户就会想我的数据留在哪里。AI是有上下文的，有个性化的，如果长在一个平台上，后面持续才能发挥AI最大的能力。如果不是，你切换成本是很高的。这是不看好的。一个是套壳，一个是相对短期的，还是要形成长期的商业价值。</p>\n  <p><strong>刘子豪：</strong>下一个问题，在押注的赛道当中，分享一个目前最接近杀手级的场景是什么？</p>\n  <p><strong>路少卿：现在有很多AI工</strong>具，在辅助办公时候，聊天框里的能力几乎足够了，但是在聊天框里积累的能力拿到真实的物理世界交互，以我当前的状态判断，今天为止还不足以支撑在物理世界的交互。我个人从技术和产品整体解决方案的判断来看，在12个月以内，AI是可以从聊天框走到物理世界的。</p>\n  <p>一方面，随着海外大厂和国内大厂在这些领域持续长期投入，包括我们自己的产品也在持续升级迭代。我们可以看到，之前AI好像傻傻的，只能一对一交互，现如今可以逐步进入到多人交互的场景。多人交互的场景，AI要具备做哪些事的判断——就像现在这个场景，如果我是AI，今天本人没空，我作为AI助理 代为发言；有一些问题，我需要用一些风趣幽默的逻辑来回应。这些判断不仅是基于文本prompt，而是AI这套系统怎么真实理解、观测到所有显性的信息和隐性的信息，去完善它跟物理世界的交互，这个是它在解决数字问题以后接下来需要重点关注的问题。</p>\n  <p>我也相信在未来12个月内，在这个领域会有相对比较重大的突破。</p>\n  <p><strong>赵维奇：</strong>本身都是短期的，不存在长期的解决方案，除了to B。AI本身的能力上限就在于上下文、个性化、记忆。如果没有足够大的记忆，就像人类成长一样，你在小学的时候看不出来，有可能是学渣，最后长成学霸。在小学六年的上下文不足以支撑他智慧的涌现，到了初中、高中，有更多的知识图谱出来以后，有些人的强项就会被激发出来。AI也是一样，AI类似于人脑的处理，如果没有足够多的上下文——为什么我们要做硬件、多模态，最终目的是为了提供在当前场景下、当前状态下最适合的反馈和解决方案，而不是通用的解决方案。通用解决方案任何大模型都会吃掉。只有你会做个性化、离线、在线或者做你自己的上下文，场景下的上下文或者B端客户的上下文，再加上多模态实时，留存的时间多一点。</p>\n  <p>在我看来，短期不是一个坏事。一个花园里有很多草、树木，有一些花草的生命周期很短，但是一直在迭代、进化。进化的本质就是死亡，只有死亡才能进化，不死亡不会进化，你一定要死亡才会进化。有一些百年老树、百年老的品种才能适合这个场景，在整个品类里就一到两个，不是所有人都能生存下来，环境里有大的突发事件发生。</p>\n  <p>我个人觉得，我们很早就布局了。我们这样的角色现在要做的是帮助合作伙伴和开发者提供更好的平台。我们有一个后花园，让大家可以生长；我们会提供一个相对长期在线、跟物理世界相连的平台，包括我们跟商汤长期合作，有集成在一起的能力给到大家。大家在里面，今天你做出一个杀手级应用，明天他做出一个杀手级场景，这个才是生态意义上的“杀手级”：持续给产业、行业、人类世界输送价值。原来这些很难做到。如果在场有程序员，我以前也是工程师。过去工程师需要很多背景，比如技术背景、项目管理背景、计算机背景，现在AI把很多门槛降下来了。这些人的价值怎么释放出来？他们也可以做杀手级应用，这就需要平台。这个平台可以承载非常垂直的功能，也可以承载非常泛化的体验。接下来，我们要提供多模态的、能够跟物理世界相连的、让大家随时看到高频刚需并快速生产工具、应用和体验的平台。这个平台上一定会出现无数个“杀手级场景”，这是接下来12个月能看到的。就像现在Vibe coding到了一定涌现阶段，给孩子做一个工具，可能也是一个爆品；给父母、给某个行业做点什么，也可能成为一个高价值应用。这是当前AI时代行业从业者需要认真思考的。</p>\n  <p><strong>刘子豪：</strong>经过今天的讨论，杀手级的AI不是单一模型或者单一硬件、单一APP，其实是由多模态底座、AI原生智能体、可穿戴三位一体的形态。谁先把看得懂、听得懂、会协作、随身带做到极致，就是下一个杀手级应用。</p>\n  <p>我们今天的圆桌就到这里。</p>",
+      "published": "2026-05-23T18:10:00+08:00",
+      "fetched_at": "2026-05-24T11:54:22.814025+08:00",
+      "pre_filter_reason": "Discussion of killer AI products and AI agents.",
+      "scores": {
+        "importance": 7,
+        "timeliness": 6,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 7,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 6.9,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "下一个AI杀手级产品长什么样？圆桌大佬的3个共识",
+          "angle": "提炼圆桌对话核心观点：为什么纯套壳应用必死？AI眼镜、Agent、具身智能谁先爆发？帮助创业者看懂赛道逻辑。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "从聊天框到物理世界：AI产品如何实现“三位一体”闭环？",
+          "angle": "拆解“多模态底座+AI原生智能体+可穿戴硬件”的产品架构，结合案例说明如何打造长期在线的真实交互产品。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "f076c3bbe908",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "对话王小川：离开通用人工智能的主干道之后",
+      "link": "https://36kr.com/p/3821521291038856?f=rss",
+      "summary": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260523/v2_1bcbe99c94144e16a662a304451ba9f8@2057308263_oswg935427oswg900oswg1027_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">“如果没有转型，继续走主流道路，你也会有同等程度的焦虑。”王小川说，这次转型，让他真正回归到从创业第一天就最想做的事情：造AI医生。</p>\n  <p><strong>访谈｜邓咏仪 杨轩</strong></p>\n  <p><strong>文｜邓咏仪</strong></p>\n  <p><strong>编辑｜张雨忻</strong></p>\n  <p>一年前，王小川带着百川智能来了一次激烈的“大刹车”：大幅缩减通用模型团队，关闭金融等多条行业线，All in医疗大模型。但与此同时，整个大模型行业却热闹非凡，大厂和创业公司轮番进行“轰炸式更新”——过去半年里，平均3天就有一个新版本的通用大模型面世。</p>\n  <p>而看起来沉寂的百川在做什么？5月22日，王小川安静地交出答卷：新医疗大模型M4，以及Agent产品“百小医”。</p>\n  <p>过去3年里，百川逐渐从“要做中国最好的基础大模型”转向“同时押注多个落地场景”、“做C端超级入口”、再到如今的“只做医疗”，团队规模不断缩小，部分合伙人离开，原定的上市节奏也因而延迟。</p>\n  <p>这看似颠簸的路走对了吗？当我们在新产品发布前夕见到王小川时，发现他的状态反而更坦然了：“继续卷通用模型，走主流道路，那是一种选择，即使上市了很风光，但焦虑也不会减少半分。”他对《智能涌现》说，比起当时公司内外巨大的不理解，以及选择非共识道路的孤独感，他更难以接受的是：“公司快成立两周年了，却不知道自己到底在干什么，创造什么价值。”</p>\n  <p>在互联网上一个十年，医疗并不是一个好生意——商业化路径漫长，反馈周期以年计。从大厂到初创公司，即使投入高达数十亿元，成功跑通PMF的产品都寥寥无几，更别提获得商业上的大成功。</p>\n  <p>在当时的背景下，很多公司的选择是给医生提效，或是打通挂号、药、保险的链路，以此跑通商业闭环。但王小川说，这些都不是当下最重要的事。他想明白一点：百川的C端产品必须以患者为中心，要增加医生的供给，“我们要造更多的医生”。</p>\n  <p>在这个思路下，百川在医疗的B端场景中有了更多落地进展：在北京儿童医院，百川两款AI儿科医生已在院内多学科会诊中正式“上岗”。在很多诊疗方案中，AI儿科医生与专家会诊结果吻合率达95%，并开始向河北省150余家县级医院下沉。</p>\n  <p>同时，在C端，百川新上线的Agent产品“百小医”则在App和微信生态中共同提供服务。“百小医”就像一个“AI家庭医生”，不只是提供问答，会在患者就医前准备给医生的病情梳理，做处方分析，管理病例，还会定时提醒你吃药、做检查等等。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260523/v2_2711e1dd10a04d2eb14f48accc99f5c4@2057308263_oswg451936oswg900oswg872_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">△图源：百川智能</p>\n  <p>王小川并不接受“医疗是更长、更慢的一条路”这个观点。“这个想法本身就是一种时代惯性。”他的逻辑是：如果Coding Agent能在几个月内成为史上增长最快的应用场景，就意味着很多旧边界已经被打破。</p>\n  <p>从通用大模型的白热化竞争中抽身，All in医疗——对这个选择，王小川坦承，“我的选择不一定对，也不一定错，但我觉得，AI时代只要交付给用户足够重要的价值，商业化会是水到渠成的事。”</p>\n  <p>对于那些依然身处在同质化竞争中的AI公司来说，王小川的选择，至少是一条值得认真审视的路径：去找一个真正相信的问题，然后用足够长的时间回答它。</p>\n  <p>以下是王小川与《智能涌现》的对话：</p>\n  <h2><strong>All in医疗有它的代价</strong></h2>\n  <p><strong>《智能涌现》：今年年初，你们发了医疗大模型M3，今天再接着发布新一代医疗大模型M4，还有新Agent产品百小医，核心提升有哪些？</strong></p>\n  <p><strong>王小川：</strong>M4是我们的闭源医疗大模型，通过API提供服务，一个核心亮点是走Agent架构，从简单的对话走向临床，里面有基于患者全生命周期的记忆能力。</p>\n  <p>另外的突破有几个：幻觉减少、循证能力增强——我们把指南做原子化拆解，甚至把专家共识也纳入进来；提问能力也有了很大提升——这个对医疗场景很关键，我们每提升两个点的提问能力，就能增加一个点的诊断准确率。</p>\n  <p>现在，在肿瘤这类复杂场景里，M4能自己跑完整个Agent workflow——收集数据、校对冲突、调用基因变异数据库、出诊断建议。M4能够自主决策，不同的子项肿瘤的情况它甚至能查基因库，像龙虾一样，做到主动提问和主动管理。</p>\n  <p>“百小医”是百川的新To C产品，形态是一个在App和微信上的bot，可以主动提供处方、病例分析，做全周期的健康数据管理。</p>\n  <p><strong>《智能涌现》：你所指的M4模型“做得好”，是怎么定义的？</strong></p>\n  <p><strong>王小川：</strong>在OpenAI发布的HealthBench测评集上，我们在Hard和Professional两个子集里都是最好的模型。我们没有对benchmark做特殊训练，所以，模型表现好就是好。这个评测集有5000个医患多轮对话场景，262个人类医生编写了近5万条评价规则，不是刷榜能刷出来的。</p>\n  <p><strong>《智能涌现》：今天最大的行业共识是Coding，百川却在一年前就选择不走通用模型路线，All in医疗，当时怎么想的？</strong></p>\n  <p><strong>王小川：</strong>AGI大叙事没问题，但这里面肯定有泡沫，泡沫褪去之后珍珠会留下来。怎么去找这个珍珠？大家会押注各自的生态位。做百川到现在，我想做的东西其实没什么变化——当初的初心就是做生命模型，造医生，ChatGPT的出现是这个目标的助力。</p>\n  <p>我之前想得太早，又想得太远了。2023年的时候你跟大家讲造医生、做生命模型，会发现理解的人不多。</p>\n  <p><strong>《智能涌现》：但在那个节点，不卷通用模型，是一种脱离主流赛道的选择，你有过担忧吗？</strong></p>\n  <p><strong>王小川：</strong>如果做主流，你也会有其他恐惧。我不是说我现在做得特别好，只是主流也有主流的问题，不同选择有各自的代价。</p>\n  <p>我们在2025年4月大调整后开始专注做医疗，也是因为当时临近百川成立两周年，我有巨大的紧迫感。当时公司特别重，从模型、医生到生命模型，再到商业化都在做。当时就是不知道自己在干嘛，在创造什么价值。</p>\n  <p><strong>《智能涌现》：这个决定的代价是什么？</strong></p>\n  <p><strong>王小川：</strong>很多人在那个时候离开。有同学觉得做通用模型才是对的道路，投资人也有意见。当时有各种曲解，比如有人传小川可能对上市没想法，无所谓，反正自己财务自由了。</p>\n  <p><strong>《智能涌现》：有创业公司也会选择先不考虑这么远，先赚到钱养梦想，上市也是一种路径。</strong></p>\n  <p><strong>王小川：</strong>我们那个时候也不缺钱啊。上市了，然后呢？</p>\n  <p><strong>《智能涌现》：百川的一些前高层，以及你的一些投资人，他们都很难理解你的突然刹车。</strong></p>\n  <p><strong>王小川：</strong>可以想办法把ARR、收入做起来，但在当时也不是我最想要的。</p>\n  <p>第一，你就没精力做业务了，你拿到收入跟你真正交付一个好的产品或服务不是一个维度的事。第二，业务单点还没突破的时候，搞矩阵化管理是特别危险的事，当时销售、产品、技术，每个人身兼数职，为多个产品服务。</p>\n  <p>这种状态和我对公司想实现的价值的判断是没法match的。如果我从内心就不相信这个事情的话，也很难做好。</p>\n  <p><strong>《智能涌现》：那你怎么跟投资人解释？</strong></p>\n  <p><strong>王小川：</strong>很难解释。投资人肯定想上市，我只能继续把现在的事做好。</p>\n  <p><strong>《智能涌现》：4月调整完之后，团队规模、架构，包括百川整体的工作方法有什么改变？</strong></p>\n  <p><strong>王小川：</strong>我们人数压缩到不超过300人，层级扁平，现在就10多个人给我汇报。</p>\n  <p>我们现在就分几大块：一是做医疗模型本身；二是以Agent的形态做AI医生产品；三是做医院体系的合作，通过AI医生，把医院、卫健委等等体系联系起来，我们的目标是用AI做四级诊疗。</p>\n  <p><strong>《智能涌现》：所以，你对这一段探索过程的反思会是什么？</strong></p>\n  <p><strong>王小川：</strong>最大的反思是不该开那么多条线。你要么做通用，要么做医疗，两个脚一块走是不行的。同时做商业、做技术、做医疗，一开始很难负担得住。</p>\n  <h2><strong>我们不是想取代医生</strong></h2>\n  <p><strong>《智能涌现》：“百小医”为什么会在微信里做AI医生bot？</strong></p>\n  <p><strong>王小川：</strong>Bot就是你微信上的一个朋友——你问他“该不该去医院”，他说不用，你先观察；过两天他会主动来问你“有没有变严重”，也会提醒你吃药，能够对个人和家庭健康进行主动和个性化管理。</p>\n  <p>日常的健康管理不是一两次问诊能解决的，是长期陪伴，助手类APP很难承载这种持续性。</p>\n  <p><strong>《智能涌现》：很多人可能会问，用百川的助手看病，和用豆包看病，体验差距大吗？</strong></p>\n  <p><strong>王小川：</strong>我们在专业性文献的引用、溯源上，会比通用AI助手更丰富。但坦白讲，无论是什么领域，问答场景的体验很难形成断代式的差距。</p>\n  <p>在产品形态和体验上。这次发布的“百小医”是走双端架构：APP端负责提供严肃的就医决策——针对病例、处方做分析报告、对比；微信bot端负责日常的提醒和执行，这是一个会主动跟进你健康情况的AI医生。</p>\n  <p>另外我们在底层做了一套永久性的记忆存储，不走上下文那套模式。这是一套有数据库结构的存储——用户上传的体检报告、对话里提到的症状病情、血压、用药情况都能被记录，做全生命周期的健康数据管理。记忆能力在医疗场景特别重要，通用模型很多时候根本不知道该存用户的什么数据。</p>\n  <p><strong>《智能涌现》：如果和同样是做医疗方向的阿福相比呢？</strong></p>\n  <p><strong>王小川：</strong>我们的切入点不一样。我们做的是主动管理——你问完之后，过两天它会微信上主动来问你“有没有更严重”，提醒你吃药、该复诊了。这种持续跟进的能力，App很难承载，用户一上手就能感觉到不同。</p>\n  <p><strong>《智能涌现》：美国AI医疗赛道的头部公司OpenEvidence估值已经120亿美元了，他们做是面向医生的AI临床决策支持工具，用顶刊论文辅助医生做诊疗判断。你们在中国能走这条路吗？</strong></p>\n  <p><strong>王小川：</strong>中国和美国的医疗市场有很大区别：给美国医生提效能直接多赚钱——他一天看10个病人变成看15个，这是保险公司付费的，按人头算，收入直接多50%。但中国医生平均一天看50-80个病人，已经够忙了，提效的空间几乎没有。</p>\n  <p><strong>《智能涌现》：那在中国做AI辅助诊疗，动力在哪儿？</strong></p>\n  <p><strong>王小川：</strong>中国优质医疗供给现在是严重不足，直接用通用AI助手给患者做AI咨询，这是很难进入医疗体系的，还容易带来新的医患矛盾——今年已经有三甲医生和我反馈，30个病人里有25个都带着豆包来“对线”，会对医生产生质疑。</p>\n  <p>现在国家在倡导主动健康管理和强基层，如果AI能融入医疗体系、做分级诊疗的前置环节，这是政策认可的方向，也是新物种的机会。</p>\n  <p><strong>《智能涌现》：那百川是怎么提升医疗模型的智能的？</strong></p>\n  <p><strong>王小川：</strong>我们做的不是传统意义上的训练数据，更多是做强化学习的评价体系。</p>\n  <p>医生标的不是正确答案，是帮我们建立奖励函数做评测集——什么样的提问路径最终能导向好的诊断结果。</p>\n  <p><strong>《智能涌现》：我们听说你们请了很多医生做数据标注，这部分很花钱。</strong></p>\n  <p><strong>王小川：</strong>跟医生打交道做数据标注，真的很难，但不是钱的问题，是说服他们、建立评价体系、让团队跟他配合，这些都要摸索，没人做过。</p>\n  <p><strong>《智能涌现》：既然是全新的做法，那一定也会有人反对吧？</strong></p>\n  <p><strong>王小川：</strong>不少人觉得在中国做医疗AI，要跟医生合作，要用医生的病例数据造AI分身。</p>\n  <p><strong>《智能涌现》：什么样的AI分身？</strong></p>\n  <p><strong>王小川：</strong>就是很多AI医疗公司的做法——跟某个医生合作，拿他的病例数据训一个模型，本质上是复制这个医生的经验。肾病专家造个肾病模型，肿瘤专家造个肿瘤模型，每个人都想巩固自己的学术权威。你见过一个医生用另一个医生做的AI吗？</p>\n  <p><strong>《智能涌现》：你们的“造医生”和这种做AI分身有什么不同？</strong></p>\n  <p><strong>王小川：</strong>分身是模仿学习——把病例喂进去，让AI学着像某个医生那样看病。但你拿病例训出来的模型，它会提问吗？</p>\n  <p>这代大模型造的是“人”，不是上一代那种用来看CT片子的模式识别模型。我们走的是强化学习的路：模拟患者，激发模型提问，用最终的诊断结果做奖励函数，反向训练它该怎么提炼病例数据，问什么问题、该怎么推理。不是复制某一个医生，而是让AI学会医生思考的过程本身。</p>\n  <p><strong>《智能涌现》：所以你们做的事情，本质上是把医生拉下神坛。</strong></p>\n  <p><strong>王小川：</strong>这是个危险的评价。我们不是要挑战医生的权威，而是要帮患者明明白白看病，以患者为中心，让他拥有知情权和决策权。</p>\n  <p><strong>《智能涌现》：面对医生，你怎么一句话解释百小医的价值，来消解这种可能存在的对抗？</strong></p>\n  <p><strong>王小川：</strong>我说我能帮你做随访。</p>\n  <p>这是一个共赢的场景：很多病人去看完病，加上医生微信，回家之后问问题，等医生的回复往往要等到大半夜，因为医生太忙了。院后随访、复诊提醒、用药管理等等都是这样的场景，现在用AI医生就能帮医生分担这部分需求。</p>\n  <p><strong>《智能涌现》：你们的目标用户是谁？</strong></p>\n  <p><strong>王小川：</strong>我们概括为“一老一小”——老人慢病多，小孩咨询多，这是最高频的场景。</p>\n  <p>比如，我把我妈和AI医生拉进群，AI医生跟我妈对话的时候，也跟我沟通。就像家里请个保姆，不是只跟老人在一块，他也跟你有交流。</p>\n  <h2><strong>医疗是条更慢的路？这是上一代的认知</strong></h2>\n  <p><strong>《智能涌现》：很多人会说，医疗是一个反馈路径很长的赛道。先用通用模型赚到钱，再长期养医疗这条线，不是更稳妥吗？</strong></p>\n  <p><strong>王小川：</strong>我不接受这个叙事，这里面有很多误解。医疗慢这是过去的经验形成的认知，不代表今天。</p>\n  <p>今天太多事情跟过去的规律不一样了。几个月时间，一个产品就能上亿用户、上亿收入规模。那为什么我们还要用老的方式看医疗？</p>\n  <p>百度三分之一的收入来自医疗，一天医疗相关的query量是上亿级别的。蚂蚁阿福也有3000万月活了。需求一直在那里，只是以前可能是我们还没做好供给。</p>\n  <p><strong>《智能涌现》：你们原来做To B、To G，到现在做To患者，这个变化是怎么发生的？</strong></p>\n  <p><strong>王小川：</strong>我确实有过很多反思，但我始终相信AI能造医生，这个信仰从第一天就刻在骨子里。我们在中间走过弯路，比如尝试让医生认可，就先做一个AI工具帮医生看片子、写论文；也试过做院内，先打进医院体系里，但这些路径都太长了。</p>\n  <p>大概去年4月我们就想清楚了，To患者才是我们主线，这条路其实也是To医生。医生和患者不过是有不同需求的C端用户。</p>\n  <p><strong>《智能涌现》：比如挂号、买药，这些也是C端用户的刚需，你们会做吗？</strong></p>\n  <p><strong>王小川：</strong>帮你挂号、帮你买药，那些是执行，是上一代互联网干的事，偏匹配、链接。我们不是不能做，但核心还是想做决策——比如你有三个处方选哪个？去什么科室？要不要去医院？执行更直观、更有获得感，但帮你做选择判断是更难也更宝贵的事。</p>\n  <p><strong>《智能涌现》：但蚂蚁做阿福，后续可以把挂号、卖保险、卖药联系起来，这样不会比你们在商业化上跑的更快吗？</strong></p>\n  <p><strong>王小川：</strong>他们是从“药”和“险”出发，补前面的问诊环节，而我们是从“医”这端开始切的。站在药的思路去做医，跟独立做医，立场不一样，做出来的东西也不一样。</p>\n  <p><strong>《智能涌现》：短期内，你希望能够达到什么产品和业务上的目标？什么时候会考虑商业化？</strong></p>\n  <p><strong>王小川：</strong>第一步是上岸——去年还有朋友问“百川还活着吗？”得先让大家看到我们在做什么，第二步是在不同场景里积累技术口碑和用户体验的口碑。</p>\n  <p>商业化不是当下的重点。考虑早了，动作会变形。你看智谱到今天也不做那么多To B和To G了，大家都在卖Token。上一代常用的那套做法现在反而变成了包袱。</p>\n  <h2><strong>语言模型、世界模型、生命模型</strong></h2>\n  <p><strong>《智能涌现》：有媒体说你是“最孤独的AI创业者”，现在你会觉得孤独吗？</strong></p>\n  <p><strong>王小川：</strong>自己选的路跟大家不一样，你不就孤独吗？从资本到人才上都会变得更难。羊群效应决定了大家还是会选更主流的道路，这是正常规律。</p>\n  <p><strong>《智能涌现》：你怎么看现在AI应用创业公司的处境？</strong></p>\n  <p><strong>王小川：</strong>在做模型之外，很多创业公司没啥可干的了。做Agent的公司，壁垒在哪？倒腾点Anthropic的Token，配置配置方案，今天能卖，明天能不能卖不知道。</p>\n  <p>不是说Agent没前途，而是它可能不是适合VC投的生意——赚小钱的公司很多，但长大变难了。</p>\n  <p>之前我和一个互联网大佬聊，他提到一个”去中化”的趋势——这个“中”是指中型公司。要么做巨头，要么做小而美的公司。</p>\n  <p><strong>《智能涌现》：说到巨头，你去年初就公开说看好Anthropic，那时候Coding还没爆发，你的判断怎么来的？</strong></p>\n  <p><strong>王小川：</strong>我觉得是Dario对技术的理解很深刻，这是一种审美层面的判断。后来事实也验证了——Claude在代码场景里确实打出来了。</p>\n  <p><strong>《智能涌现》：那其他呢，OpenAI你怎么看？</strong></p>\n  <p><strong>王小川：</strong>我觉得Anthropic和Google都会比它强。</p>\n  <p><strong>《智能涌现》：你看到什么现象，让你有这个判断？</strong></p>\n  <p><strong>王小川：</strong>第一，Sam Altman还带着上一代互联网的思路——强推应用、追DAU、做订阅，甚至Sora还想做社交。他的策略是应用大于模型本身，跟Anthropic不在一个技术审美上。</p>\n  <p>第二，做To C，Google会比OpenAI强。Google有搜索、有安卓、有YouTube，出口能力和数据能力都更好，我觉得Google是以后会有代际的爆发和飞跃。</p>\n  <p><strong>《智能涌现》：哪方面的爆发？</strong></p>\n  <p><strong>王小川：</strong>我觉得Google会走出新的架构——不只是语言模型代表的智力模型，还有物理模型、生命模型等等新路线。</p>\n  <p>其实Demis Hassabis（Google DeepMind CEO）的心头最爱就是生命模型，后来才转到LLM这个战场来的。</p>\n  <p>以后Google肯定既做语言模型，又做生命科学。一个公司能同时做AI、做无人驾驶、做蛋白质折叠——从人才储备、数据厚度、算力规模上，Google都是顶配。</p>\n  <p><strong>《智能涌现》：所以，你对大模型演变的终局怎么看？</strong></p>\n  <p><strong>王小川：</strong>我们做模型有三步走。第一步是智力模型，就是语言模型——这里的语言包括数学语言和代码语言，代码很重要，待会再讲。第二步是物理模型，或者叫世界模型，做具身智能。第三步是生命模型，比材料科学更往前走——材料科学讲的还是简单世界，而生命有超越复杂性的终极问题。</p>\n  <p>生命模型是我从第一天就想做的事。这三条线最终会合流——理解语言、理解物理世界、理解生命系统，这才是完整的智能。</p>\n  <p>而且你想，工作开始被AI替代之后，人追求什么？创造发明发现、健康、快乐——最后就这三个事。长生不老、健康、每个人活得更有意义，这些问题最终都指向生命模型。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260523/v2_4f3e5eb0c739401e97e14eaddf4f4dd7@2057308263_oswg53997oswg900oswg335_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">欢迎交流</p>\n  <p class=\"editor-note\">本文来自微信公众号<a href=\"https://mp.weixin.qq.com/s/HBWoT3MX95cdlbO_tKYSWg\" rel=\"noopener noreferrer\" target=\"_blank\">“智能涌现”</a>，作者：邓咏仪，36氪经授权发布。</p>",
+      "published": "2026-05-23T14:53:35+08:00",
+      "fetched_at": "2026-05-24T11:54:22.814088+08:00",
+      "pre_filter_reason": "AI doctor, general AI discussion",
+      "scores": {
+        "importance": 7,
+        "timeliness": 6,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.9,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "王小川的AI医生梦：为什么离开通用大模型主干道？",
+          "angle": "解读王小川转型背后的战略思考，分析垂直领域（如医疗）相比通用大模型的机遇与挑战，适合创业者参考。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "造AI医生：王小川如何用“非主流”路径解决医疗痛点？",
+          "angle": "深入探讨AI在医疗诊断、健康管理中的落地实践，从技术选型到产品设计，给AI医疗创业者提供思路。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "0c829af31130",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "hfgwygey/yu-ai-agent",
+      "link": "https://github.com/hfgwygey/yu-ai-agent",
+      "summary": "编程导航 2025 年 AI 开发实战新项目，基于 Spring Boot 3 + Java 21 + Spring AI 构建 AI 恋爱大师应用和 ReAct 模式自主规划智能体YuManus，覆盖 AI 大模型接入、Spring AI 核心特性、Prompt 工程和优化、RAG 检索增强、向量数据库、Tool Calling 工具调用、MCP 模型上下文协议、AI Agent 开发、Cursor AI 工具等核心知识。用一套教程将程序员必知必会的 AI 技术一网打尽，帮你成为 AI 时代企业的香饽饽，给你的简历和求职大幅增加竞争力。",
+      "published": "2026-05-24T11:55:11.249817+08:00",
+      "fetched_at": "2026-05-24T11:55:11.249818+08:00",
+      "pre_filter_reason": "Description extensively mentions AI technologies (Spring AI, AI Agent, LLM, RAG, etc.).",
+      "scores": {
+        "importance": 5,
+        "timeliness": 7,
+        "actionability": 9,
+        "scarcity": 6,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Spring Boot 3 + Spring AI 实战：手把手搭建AI恋爱大师应用",
+          "angle": "以项目实战为主线，演示如何用Java 21和Spring AI快速接入大模型、实现Prompt工程和RAG检索增强，适合Java开发者入门AI。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "从零到一：用ReAct模式开发自主规划智能体YuManus",
+          "angle": "深入讲解AI Agent开发中的Tool Calling、MCP协议和向量数据库应用，结合开源项目代码，帮助开发者掌握Agent核心技术。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "4897dddee3a0",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "multica-ai /multica",
+      "link": "https://github.com/multica-ai/multica",
+      "summary": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "published": "2026-05-24T11:55:10.751458+08:00",
+      "fetched_at": "2026-05-24T11:55:10.751459+08:00",
+      "pre_filter_reason": "AI managed agents platform for coding agents",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 5,
+        "virality": 7,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 6.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "开源Agent平台Multica：如何让编码AI成为真正的团队成员？",
+          "angle": "介绍Multica的核心功能（任务分配、进度追踪、技能组合），对比其他Agent框架，展示其在团队协作中的优势。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "部署你的第一个托管Agent：Multica从安装到实战指南",
+          "angle": "提供Multica的快速部署教程，包括环境配置、任务创建和技能集成，帮助开发者将AI Agent融入日常工作流。",
           "difficulty": "进阶"
         }
       ]
