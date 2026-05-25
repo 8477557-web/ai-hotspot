@@ -1,16 +1,20 @@
 {
-  "title": "AI日报 - 2026年05月24日",
+  "title": "AI日报 - 2026年05月25日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
-          "summary": "Nemotron-Labs发布扩散语言模型，声称可实现接近光速的文本生成。"
+          "title": "面壁智能联合清华等开源中国首个基于华为昇腾训练的 1.58-bit 端侧大模型 BitCPM-CANN",
+          "summary": "面壁智能与清华合作开源中国首个基于华为昇腾训练的1.58-bit端侧大模型，推动国产AI硬件生态发展。"
         },
         {
-          "title": "DeepSeek V4价格打骨折，宁王京东网易抢着入场，梁文锋：目标是AGI",
-          "summary": "DeepSeek V4大幅降价，吸引多家巨头合作，创始人重申AGI目标。"
+          "title": "ima Copilot今日全面开放，并发布新能力知识号支持发布Skill",
+          "summary": "ima Copilot正式全面开放，新增知识号与Skill发布能力，提升AI助手在知识管理场景的应用。"
+        },
+        {
+          "title": "模型之外，皆属Harness！DeepSeek终于出手：招人、组队、从零造一个中国版Claude Code",
+          "summary": "DeepSeek宣布组建团队从零打造中国版Claude Code，进军AI编程工具领域。"
         }
       ]
     },
@@ -18,16 +22,16 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "36氪首发 | 北大项目孵化，国内首家原生机器人“大脑芯片”企业获数亿元融资",
-          "summary": "北大孵化的机器人芯片公司获数亿元融资，成为国内首家原生大脑芯片企业。"
+          "title": "华为具身大脑一号位创业，用认知科学造世界模型，获亿元级融资",
+          "summary": "前华为具身大脑负责人创业，基于认知科学构建类脑世界模型，获得亿元级融资。"
         },
         {
-          "title": "华为自研全新 DoB 封装技术：绕过 400 层 NAND 造出 122TB 企业级 SSD，未来还计划推出 245TB 版本",
-          "summary": "华为推出自研DoB封装技术，实现122TB企业级SSD，未来目标245TB。"
+          "title": "摩根士丹利：2030年全球半导体产业市场规模或达1.5万亿美元，人工智能相关半导体产品占半壁江山",
+          "summary": "摩根士丹利预测2030年全球半导体市场规模达1.5万亿美元，AI相关芯片将占据半壁江山。"
         },
         {
-          "title": "记者直击：凌晨3点救援机器人下井探测",
-          "summary": "救援机器人凌晨下井作业，展现AI在应急救援中的实际应用。"
+          "title": "一季度AI领域融资超1100亿元，国产大模型融资金额暴增，科创AIETF博时(588790)盘初涨超2%",
+          "summary": "2026年Q1 AI领域融资超1100亿元，国产大模型与具身智能成为资本热点。"
         }
       ]
     },
@@ -35,16 +39,12 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "I built a Mamba1 variant I call SM1 with d_state=1 that runs on Blackwell in pure PyTorch [P]",
-          "summary": "研究者构建了Mamba1变体SM1，在Blackwell架构上以纯PyTorch运行，状态维度仅1。"
+          "title": "AI solved one of math's greatest challenges, but it cannot add two numbers reliably?! [D]",
+          "summary": "AI在解决重大数学难题上取得突破，但基础算术能力仍不可靠，引发对AI能力边界的讨论。"
         },
         {
-          "title": "Vision-capable LLMs vs. OCR for long-document (including charts, images, tables, etc.) QA [D]",
-          "summary": "研究对比了视觉LLM与OCR在长文档问答中的表现，涵盖图表、图像、表格等。"
-        },
-        {
-          "title": "NVlabs /LongLive",
-          "summary": "NVlabs开源LongLive项目，聚焦长序列模型研究。"
+          "title": "未来推理将吃掉70%算力，30%留给训练丨硅谷投资人张璐@AIGC2026",
+          "summary": "硅谷投资人预测未来AI算力分配将转向推理为主，推理需求将占据70%的算力资源。"
         }
       ]
     },
@@ -52,21 +52,17 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "圆桌对话：下一个杀手级AI产品，会出现在哪个赛道？| 2026AI Partner·北京亦庄AI+产业大会",
-          "summary": "行业专家圆桌讨论，认为杀手级AI产品可能出现在垂直应用与机器人赛道。"
+          "title": "谷歌CEO承认Coding落后了",
+          "summary": "谷歌CEO公开承认公司在AI编程领域落后，反映科技巨头在AI Coding赛道竞争加剧。"
         },
         {
-          "title": "对话王小川：离开通用人工智能的主干道之后",
-          "summary": "王小川分享离开通用AI赛道后的思考，强调专注垂直领域的重要性。"
-        },
-        {
-          "title": "mukul975 /Anthropic-Cybersecurity-Skills",
-          "summary": "Anthropic开源网络安全技能项目，帮助开发者提升AI安全能力。"
+          "title": "C++之父开撕AI Coding：资深开发者宁愿退休也不愿伺候AI生成的代码",
+          "summary": "C++之父批评AI生成代码质量，指出资深开发者对维护AI代码的抵触情绪。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦模型降价、机器人硬件突破与垂直应用探索，开源生态持续活跃。",
-  "generated_at": "2026-05-24T11:56:09.342926+08:00",
+  "summary": "今日AI圈聚焦国产大模型与芯片突破、AI编程工具竞争加剧，以及推理算力需求崛起，行业融资持续火热。",
+  "generated_at": "2026-05-25T12:07:28.429399+08:00",
   "source_count": 20
 }
