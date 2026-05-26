@@ -1,7 +1,192 @@
 {
-  "updated_at": "2026-05-25T12:07:28.429492+08:00",
+  "updated_at": "2026-05-26T11:52:54.420807+08:00",
   "total": 20,
   "items": [
+    {
+      "id": "13a279b90513",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "微软将弃用Claude：太贵了还是薅明白了？",
+      "link": "https://www.infoq.cn/article/qdvNe5mRkvPkPS2JGMx2?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/qdvNe5mRkvPkPS2JGMx2?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-05-26T16:00:00+08:00",
+      "fetched_at": "2026-05-26T11:51:40.598902+08:00",
+      "pre_filter_reason": "AI model Claude, Microsoft decision",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "微软弃用Claude背后：大模型成本博弈与自研策略",
+          "angle": "分析微软弃用Claude的原因（成本 vs 自研），解读科技巨头在AI模型选择上的商业逻辑，帮助用户理解企业级AI采购的决策因素。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "薅羊毛还是真省钱？微软AI模型更换的成本账",
+          "angle": "从微软弃用Claude事件切入，科普大模型调用成本构成（API费用、算力、训练成本），并给出个人/小团队选择AI模型的省钱建议。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "4b660e97cf9e",
+      "source_id": "baidu-hot",
+      "source_name": "百度热搜",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "hotlist",
+      "title": "人民日报评豆包收费",
+      "link": "https://www.baidu.com/s?wd=人民日报评豆包收费",
+      "summary": "前不久，人工智能应用豆包在应用商店悄然上新了付费订阅方案，这意味着主流国产大模型“全免费”格局首次出现松动。社交媒体上，“只要收费就卸载”与“天下没有免费的午餐”两种声音激烈碰撞，相关话题冲上热搜。如何看待商业模式从免费走向收费？一文解读！",
+      "published": "2026-05-26T11:51:47.263979+08:00",
+      "fetched_at": "2026-05-26T11:51:47.263981+08:00",
+      "pre_filter_reason": "AI product (Doubao) pricing news",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 7.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "豆包收费引热议：AI免费时代结束了吗？",
+          "angle": "解读豆包收费事件背后的行业趋势，分析国产大模型从免费到付费的必然性，以及用户如何理性看待AI产品定价。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "AI工具收费后，普通用户该何去何从？",
+          "angle": "针对豆包收费引发的用户争议，提供免费替代方案对比（如文心一言、通义千问等），并给出付费订阅的性价比评估方法。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "c863516de138",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "无人车遇水则瘫？Waymo大规模召回，叫停多城Robotaxi服务",
+      "link": "https://www.qbitai.com/2026/05/424610.html",
+      "summary": "特斯拉学会“躲交警”了",
+      "published": "2026-05-25T16:48:14+08:00",
+      "fetched_at": "2026-05-26T11:51:42.066336+08:00",
+      "pre_filter_reason": "Waymo无人车召回，涉及AI自动驾驶",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Waymo召回事件：自动驾驶为何怕下雨？",
+          "angle": "解释自动驾驶在恶劣天气（如暴雨）下的技术短板（传感器干扰、算法失效），结合Waymo召回案例，科普当前L4级自动驾驶的局限性。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "从Waymo召回看自动驾驶安全：我们离无人车还有多远？",
+          "angle": "分析Waymo大规模召回的原因和影响，对比特斯拉FSD等方案，讨论自动驾驶商业化落地的安全挑战与监管趋势。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "318087534cc7",
+      "source_id": "huggingface-blog",
+      "source_name": "Hugging Face Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "link": "https://huggingface.co/blog/agent-glossary",
+      "summary": "",
+      "published": "2026-05-25T08:00:00+08:00",
+      "fetched_at": "2026-05-26T11:51:34.538354+08:00",
+      "pre_filter_reason": "讨论AI代理术语，属于AI概念",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.9,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "AI Agent关键术语解析：Harness与Scaffold到底是什么？",
+          "angle": "用通俗语言解释Harness（测试框架）和Scaffold（脚手架）在AI Agent开发中的核心作用，帮助开发者快速理解这些术语的实际应用场景。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "构建AI Agent必懂：Harness vs Scaffold实战对比",
+          "angle": "通过代码示例对比Harness和Scaffold在AI Agent开发中的不同用途（测试 vs 快速搭建），并给出初学者选择建议。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "056a2148c506",
+      "source_id": "ifanr",
+      "source_name": "爱范儿",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "早报｜华为公布韬定律，Mate 90有望搭载更强芯片/宇树科技上会估值420亿/DeepSeek登顶全球调用榜",
+      "link": "https://www.ifanr.com/1666931?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· Gurman：Apple Watch 需要重启健康叙事\n· 银河证券：钠离子电池规模化节点临近\n· 美团、腾讯参投机器人公司天机智能 10 亿元融资<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
+      "published": "2026-05-26T08:18:37+08:00",
+      "fetched_at": "2026-05-26T11:51:44.042846+08:00",
+      "pre_filter_reason": "DeepSeek登顶全球调用榜，涉及AI模型",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "华为韬定律是什么？Mate 90芯片背后的技术信号",
+          "angle": "解读华为“韬定律”的含义及其对芯片研发的指导意义，结合Mate 90可能搭载的更强芯片，分析华为在半导体领域的突破方向。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "早报速览：华为芯片、宇树科技估值与DeepSeek登顶",
+          "angle": "快速盘点当日科技要闻：华为韬定律与Mate 90芯片预期、宇树科技IPO估值420亿的行业意义、DeepSeek登顶全球调用榜的影响，每条新闻配一句话点评。",
+          "difficulty": "入门"
+        }
+      ]
+    },
     {
       "id": "087fcf91343b",
       "source_id": "infoq-cn",
@@ -13,87 +198,161 @@
       "link": "https://www.infoq.cn/article/zqYChrE48RgRbWTX7vhT?utm_source=rss&utm_medium=article",
       "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/zqYChrE48RgRbWTX7vhT?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
       "published": "2026-05-25T18:51:55+08:00",
-      "fetched_at": "2026-05-25T12:06:09.921978+08:00",
-      "pre_filter_reason": "DeepSeek building an AI coding tool",
+      "fetched_at": "2026-05-26T11:51:40.599035+08:00",
+      "pre_filter_reason": "DeepSeek开发中国版Claude Code，属于AI产品",
       "scores": {
         "importance": 8,
         "timeliness": 9,
         "actionability": 9,
-        "scarcity": 9,
+        "scarcity": 8,
         "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 8.0,
+      "quality_score": 7.8,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "DeepSeek 版 Claude Code 从零搭建指南",
-          "angle": "手把手教你使用 DeepSeek 开源工具，在本地搭建类似 Claude Code 的 AI 编程助手，涵盖环境配置、模型调用和基础功能演示。",
-          "difficulty": "入门"
+          "title": "手把手教你用DeepSeek打造中国版Claude Code",
+          "angle": "从零开始，详细拆解DeepSeek团队招募、组队及开发流程，适合想复刻或学习AI编程工具的开发者。",
+          "difficulty": "中级"
         },
         {
           "tag": "analysis",
-          "title": "DeepSeek 造中国版 Claude Code 意味着什么？",
-          "angle": "分析 DeepSeek 从模型转向工具生态的战略意图，对比国内外 AI 编程助手现状，探讨对中国开发者社区的影响。",
-          "difficulty": "中级"
+          "title": "DeepSeek出手：中国版Claude Code的野心与挑战",
+          "angle": "分析DeepSeek此举的战略意义，对比Claude Code的功能差异，探讨对中国AI开发生态的影响。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "31226b4742d7",
+      "id": "1a77417dda08",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "mukul975 /Anthropic-Cybersecurity-Skills",
+      "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "summary": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+      "published": "2026-05-26T11:51:54.604731+08:00",
+      "fetched_at": "2026-05-26T11:51:54.604733+08:00",
+      "pre_filter_reason": "Cybersecurity skills for AI agents",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "AI安全技能图谱：如何用Anthropic框架训练你的智能体",
+          "angle": "介绍754个结构化网络安全技能，演示如何结合MITRE ATT&CK等框架，在Claude Code等平台上应用。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "list",
+          "title": "5大AI安全框架一网打尽：从ATT&CK到NIST CSF实战指南",
+          "angle": "盘点MITRE ATT&CK、NIST CSF 2.0等框架的核心要点，结合AI智能体应用场景，提供入门级解读。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "0f749e0c6f84",
       "source_id": "qbitai",
       "source_name": "量子位",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "谷歌CEO承认Coding落后了",
-      "link": "https://www.qbitai.com/2026/05/423390.html",
-      "summary": "搜索25年来最大改版，但谷歌还不敢一脚切到AI",
-      "published": "2026-05-24T14:20:35+08:00",
-      "fetched_at": "2026-05-25T12:06:12.026674+08:00",
-      "pre_filter_reason": "AI product launch and search engine AI integration",
+      "title": "DeepSeek V4还能更省！新工具缓存命中率高达99.82%，2折稳定到手",
+      "link": "https://www.qbitai.com/2026/05/424552.html",
+      "summary": "原本4亿+token、61美元的账单，直降至12美元",
+      "published": "2026-05-25T12:40:14+08:00",
+      "fetched_at": "2026-05-26T11:51:42.066381+08:00",
+      "pre_filter_reason": "DeepSeek V4是AI模型，缓存工具提升效率",
       "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 7,
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
         "virality": 9,
         "crowd_heat": 0.0
       },
       "quality_score": 7.7,
       "topics": [
         {
-          "tag": "analysis",
-          "title": "谷歌承认 Coding 落后：搜索改版为何不敢全押 AI？",
-          "angle": "解读谷歌 CEO 承认编码能力落后的背后原因，分析搜索 25 年来最大改版为何在 AI 转型上保持谨慎，以及这对开发者意味着什么。",
+          "tag": "tutorial",
+          "title": "缓存命中率99.82%！DeepSeek V4省钱秘籍大公开",
+          "angle": "手把手教你配置缓存策略，从4亿token账单降到12美元，适合预算有限的AI开发者。",
           "difficulty": "中级"
         },
         {
-          "tag": "tutorial",
-          "title": "谷歌搜索 AI 化：开发者如何利用新功能提升效率？",
-          "angle": "介绍谷歌搜索最新 AI 改版中与编程相关的实用功能，如代码片段增强、错误排查建议等，帮助开发者更快找到答案。",
+          "tag": "analysis",
+          "title": "DeepSeek V4新工具实测：成本直降80%的底层逻辑",
+          "angle": "分析缓存命中率提升的技术原理，对比其他模型成本，解读对AI应用商业化的影响。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "390335932f8c",
+      "id": "7d5d553c1b06",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "图灵奖得主领衔，中国大模型第一梯队集结！2026智源大会，看懂AI下一程",
+      "link": "https://www.qbitai.com/2026/05/424551.html",
+      "summary": "报名通道已开，手慢无",
+      "published": "2026-05-25T12:38:24+08:00",
+      "fetched_at": "2026-05-26T11:51:42.066391+08:00",
+      "pre_filter_reason": "图灵奖得主领衔的AI大会，讨论AI发展",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "2026智源大会亮点前瞻：图灵奖得主与中国大模型第一梯队",
+          "angle": "快速盘点大会核心议题、重磅嘉宾及报名信息，适合关注AI前沿动态的从业者。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "从智源大会看AI下一程：中国大模型格局与趋势",
+          "angle": "结合图灵奖得主观点，分析中国大模型第一梯队的技术路线与未来发展方向。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "e3f44ffd131f",
       "source_id": "github-trending",
       "source_name": "GitHub Trending",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "Alishahryar1 /free-claude-code",
-      "link": "https://github.com/Alishahryar1/free-claude-code",
-      "summary": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
-      "published": "2026-05-25T12:06:24.061129+08:00",
-      "fetched_at": "2026-05-25T12:06:24.061131+08:00",
-      "pre_filter_reason": "Free use of Claude Code, an AI tool",
+      "title": "anthropics /claude-cookbooks",
+      "link": "https://github.com/anthropics/claude-cookbooks",
+      "summary": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "published": "2026-05-26T11:51:54.605912+08:00",
+      "fetched_at": "2026-05-26T11:51:54.605915+08:00",
+      "pre_filter_reason": "Claude AI usage cookbooks",
       "scores": {
-        "importance": 7,
+        "importance": 8,
         "timeliness": 8,
         "actionability": 9,
-        "scarcity": 8,
+        "scarcity": 7,
         "virality": 8,
         "crowd_heat": 0.0
       },
@@ -101,73 +360,36 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "免费使用 Claude Code：终端 + VSCode + Discord 全攻略",
-          "angle": "详细演示如何通过 free-claude-code 项目在终端、VSCode 扩展和 Discord 中免费使用 Claude Code，包括安装步骤和语音支持配置。",
+          "title": "Claude Cookbook精选：5个让你效率翻倍的AI应用配方",
+          "angle": "从官方食谱中挑选最实用的Notebook示例，演示如何用Claude完成创意任务，适合初学者快速上手。",
           "difficulty": "入门"
         },
         {
-          "tag": "review",
-          "title": "免费 Claude Code 体验：它能替代付费版吗？",
-          "angle": "实测 free-claude-code 的功能完整度、响应速度和稳定性，对比官方付费版本，给出是否值得使用的建议。",
-          "difficulty": "初级"
+          "tag": "list",
+          "title": "Claude Cookbook全攻略：这些隐藏玩法你试过吗？",
+          "angle": "盘点Claude Cookbook中趣味与实用兼具的案例，如代码生成、数据分析等，激发创作灵感。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "2c441328290f",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "multica-ai /andrej-karpathy-skills",
-      "link": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "published": "2026-05-25T12:06:24.060729+08:00",
-      "fetched_at": "2026-05-25T12:06:24.060731+08:00",
-      "pre_filter_reason": "Improves Claude Code behavior, AI-related",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "用 Karpathy 的 CLAUDE.md 提升 Claude Code 编码质量",
-          "angle": "介绍如何导入 Andrej Karpathy 总结的 CLAUDE.md 配置文件，优化 Claude Code 的代码生成行为，避免常见 LLM 编程陷阱。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "analysis",
-          "title": "Karpathy 的 LLM 编程陷阱清单：开发者必知 5 大坑",
-          "angle": "提炼 Andrej Karpathy 对 LLM 编码问题的核心观察，总结最常见的编程陷阱及如何通过配置文件规避，提升 AI 辅助编程效果。",
-          "difficulty": "初级"
-        }
-      ]
-    },
-    {
-      "id": "3726df0ad002",
+      "id": "c2fe1398c9c5",
       "source_id": "ithome-ai",
       "source_name": "IT之家",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "面壁智能联合清华等开源中国首个基于华为昇腾训练的 1.58-bit 端侧大模型 BitCPM-CANN",
-      "link": "https://www.ithome.com/0/954/759.htm",
-      "summary": "<p>IT之家 5 月 25 日消息，面壁智能联合清华大学、OpenBMB 开源社区，今天正式发布并开源其在低比特大模型训练方向的最新成果 ——BitCPM-CANN。</p><p>官方表示，这是中国首个完全基于国产算力平台（华为昇腾）实现端到端训练并开源的三值（1.58-bit）大模型。从量化算子、训练算法到全链路框架，BitCPM-CANN <strong>均在华为昇腾上原生完成</strong>，包含 0.5B、1B、3B、8B 四个模型尺寸，与同尺寸 MiniCPM4 全精度家族逐项对照评测，性能表现优异。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/5/4edd96ec-4478-4ad7-a686-a4933ff1ceb5.png?x-bce-process=image/format,f_auto\" /></p><p>相比传统 BF16 精度，BitCPM-CANN 在推理阶段<strong>释放约 6 倍显存红利</strong>，同时将模型能力保留率维持在 <strong>90%–</strong><strong>97.2</strong><strong>%</strong>。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/5/8fdf86f2-0411-4626-973b-a75bf2632456.png?x-bce-process=image/format,f_auto\" /></p><p>官方表示，对手机产业来说，6 倍的显存红利意味着，<strong>一个 8B 参数的 BitCPM-CANN 大模型，可以轻松运行在当前主流旗舰手机之上</strong>。</p><p>此外，面壁智能基于 MindSpeed × Megatron-LM 主干搭建了完整的低比特训练底座，包含环境适配、32K 长序列支持、并行策略、融合算子等完整工程体系。从此，<strong>所有面向昇腾的低比特训练工作，都可建立在同一套公共基础设施之上</strong>。</p><p>BitCPM-CANN 0.5B / 1B / 3B / 8B 全系列模型权重现已开源，IT之家附链接如下：</p><ul class=\" list-paddingleft-2\"><li><p><strong>HuggingFace</strong>：<a href=\"https://huggingface.co/collections/openbmb/bitcpm-cann\" target=\"_blank\"><span class=\"link-text-start-with-http\">https://huggingface.co/collections/openbmb/bitcpm-cann</span></a></p></li><li><p><strong>ModelScope</strong>：<a href=\"https://modelscope.cn/collections/OpenBMB/BitCPM-CANN\" target=\"_blank\"><span class=\"link-text-start-with-http\">https://modelscope.cn/collections/OpenBMB/BitCPM-CANN</span></a></p></li></ul>",
-      "published": "2026-05-25T11:48:30+08:00",
-      "fetched_at": "2026-05-25T12:06:17.585610+08:00",
-      "pre_filter_reason": "端侧大模型开源，AI相关",
+      "title": "微软 14 页文档披露：Win11 定位 AI OS，成为企业工作流“智能画布”",
+      "link": "https://www.ithome.com/0/955/236.htm",
+      "summary": "<p>IT之家 5 月 26 日消息，科技媒体 Windows Latest 今天（5 月 26 日）发布博文，披露了一份 14 页的官方文档，<strong>显示微软将 Windows 11 系统定位为“AI OS”，称操作系统已成为企业 AI 技术栈中的战略层。</strong></p><p style=\"text-align: center;\"><img alt=\"Picture 2\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/0bb0c9c4-196c-4e49-8f0a-4ba946e3ba8f.jpg?x-bce-process=image/format,f_auto\" /></p><figcaption>Windows 11 作为 AI 平台示意图</figcaption><p>微软强调，重点不是给员工再塞进更多 AI 工具，而是把 AI 直接放进他们已经在使用的工作流程里。</p><p>微软在这份文档中指出，AI 工具越多，回报不一定越高。如果企业减少工具数量，但是挑选和部署合适的工具，并把能力嵌入现有流程，反而更容易拿到更高收益。</p><p>微软认为在实际 AI 应用落地环节，企业不应该把 AI 变成一层独立入口，让员工来回切换和重新学习。</p><p style=\"text-align: center;\"><img alt=\"Picture 3\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/f66f1cac-bd4c-4627-b0fb-5073be5c323b.jpg?x-bce-process=image/format,f_auto\" /></p><figcaption>Windows 中的 Copilot 语音输入界面</figcaption><p>为了支撑这一判断，微软引用了自家 2025 年报告中的两组数据：80% 的员工没有足够时间或精力完成日常任务，82% 的高管计划引入 AI 智能体来提升生产力。</p><p>但微软认为，这条路如果只是继续堆工具，问题可能更严重，因为管理者和员工还要花时间培训、适应和维护这些新工具。</p><p><strong>微软因此把 Windows 11 描述为一个“智能画布”，希望 AI 出现在“工作真正发生的地方”。</strong></p><p>文中举的例子包括：用户在 File Explorer（文件资源管理器）中，可借助 Copilot 进一步了解文件内容；任务栏上的“Ask Copilot”则把 AI 智能体更直接拉到桌面入口，减少切换应用的步骤。</p><p style=\"text-align: center;\"><img alt=\"Picture 1\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/c2706391-75dd-46c4-ae51-3f1f473ecdb7.jpg?x-bce-process=image/format,f_auto\" /></p><figcaption>Windows 11 任务栏 Ask Copilot 界面</figcaption><p>其中一个具体场景是企业合规负责人。按照微软的说法，这类用户平时要在政策文档、问题列表和审计面板之间反复切换。通过任务栏里的“Ask Copilot”，用户可以直接发起深度研究，调出相关政策或重点摘要，不必在多个应用之间来回跳转。</p><p style=\"text-align: center;\"><img alt=\"Picture 5\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/f9ffb10d-78b7-4373-ae3a-cb9479a9943e.jpg?x-bce-process=image/format,f_auto\" /></p><figcaption>Windows 11 企业 AI 技术栈示意图</figcaption><p style=\"text-align: center;\"><img alt=\"Picture 4\" src=\"https://img.ithome.com/newsuploadfiles/2026/5/77f885a3-f823-4506-ada2-15e0e870e4a8.jpg?x-bce-process=image/format,f_auto\" /></p><figcaption>Windows 11 任务栏研究助手界面</figcaption><p><span class=\"referenceTitle\">IT之家附上参考地址</span></p><ul class=\"custom_reference list-paddingleft-1\"><li class=\"list-undefined list-reference-paddingleft\"><p><a href=\"https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/bade/documents/products-and-services/en-us/windows-365/3737900-AI-eBook.pdf#wl\" target=\"_blank\">微软 14 页官方文档</a></p></li></ul>",
+      "published": "2026-05-26T11:49:06+08:00",
+      "fetched_at": "2026-05-26T11:51:45.623941+08:00",
+      "pre_filter_reason": "Microsoft AI OS positioning",
       "scores": {
         "importance": 8,
         "timeliness": 9,
-        "actionability": 7,
-        "scarcity": 8,
+        "actionability": 8,
+        "scarcity": 7,
         "virality": 7,
         "crowd_heat": 0.0
       },
@@ -175,52 +397,237 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "华为昇腾上跑端侧大模型：BitCPM-CANN 部署实战",
-          "angle": "从环境准备到模型加载，演示如何在华为昇腾设备上部署 BitCPM-CANN 1.58-bit 端侧大模型，包括性能调优和推理测试。",
-          "difficulty": "高级"
+          "title": "Win11 AI OS 企业工作流实战指南",
+          "angle": "手把手教你利用Win11内置AI功能（如Copilot）优化企业日常办公流程，从会议记录到数据分析，展示如何将系统变成“智能画布”。",
+          "difficulty": "入门"
         },
         {
           "tag": "analysis",
-          "title": "中国首个昇腾原生 1.58-bit 大模型开源：意义与挑战",
-          "angle": "解读 BitCPM-CANN 的技术突破（全栈国产化、三值量化），分析其对端侧 AI 生态和国产算力发展的影响，以及当前面临的挑战。",
-          "difficulty": "中级"
+          "title": "微软14页文档深度解读：Win11如何成为企业AI战略层",
+          "angle": "拆解微软文档核心观点，分析Win11作为AI OS对企业IT架构、员工效率和数据安全的具体影响，并预测未来企业级AI应用趋势。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "30f7eba37c6b",
-      "source_id": "36kr",
-      "source_name": "36氪",
+      "id": "84fb67b21a36",
+      "source_id": "reddit-ml",
+      "source_name": "Reddit r/MachineLearning",
       "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "ima Copilot今日全面开放，并发布新能力知识号支持发布Skill",
-      "link": "https://36kr.com/newsflashes/3824136947437704?f=rss",
-      "summary": "36氪获悉，ima今日开放两项重要能力：Copilot功能全面开放，此前该功能需申请排队，排队人数已超过10万；Copilot的全面开放，意味着更多用户可以在ima自身产品内直接使用知识Agent。用户沉淀在ima中的资料和知识，也可以在Copilot的任务执行过程中被调用和使用。同时，知识广场支持通过知识号发布和发现Skill，首批上线微信读书、腾讯招聘等Skill，用户也可以发布自己的Skill。",
-      "published": "2026-05-25T11:13:16+08:00",
-      "fetched_at": "2026-05-25T12:06:03.645974+08:00",
-      "pre_filter_reason": "ima Copilot是AI助手，涉及知识Agent和Skill",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "The famous METR AI time horizons graph contains numerous severe errors [D]",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1tnhnh5/the_famous_metr_ai_time_horizons_graph_contains/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Nathan Witkin, a research writer at NYU Stern’s Tech and Society Lab, <a href=\"https://www.transformernews.ai/p/against-the-metr-graph-coding-capabilities-software-jobs-task-ai\">writes</a> damningly about the famous METR AI time horizons graph in the Substack publication Transformer:</p> <blockquote> <p>It is impossible to draw meaningful conclusions from METR’s Long Tasks benchmark — in particular once one realizes that its numerous flaws are probably compounding in unpredictable ways. The appropriate response to a study of this kind is not to assume it can be saved via back-of-the-envelope adjustments, or to comfort oneself that other anecdotal evidence implies that it is probably correct anyway. It is to cut one’s losses and move on in search of higher-quality information.</p> <p>… The METR graph cannot be saved. For all its sleekness and complexity, it contains far too many compounding errors to excuse. Among them is generalizing to the entire species data collected from a small group of the authors’ peers. Coming up with ever more dramatic ways to make this mistake has become a kind of sport among AI researchers. If the field has a central pathology, it is to aggressively overindex on a mix of anecdotal data from power-users, alongside a long list of benchmarks <a href=\"https://benchrisk.ai/score\">even more compromised</a> than METR’s. One hopes that as the field matures, its participants will learn to stop making these mistakes.</p> </blockquote> <p>The errors include:</p> <ul> <li>Some of the human baselines data is not actually measured or collected from any empirical source, rather, it is just guesstimated by the authors</li> <li>A key variable in the data is how long it takes humans to complete certain tasks, but — when METR did actually measure this — it paid its human benchmarkers hourly, meaning they were incentivized with cash to take longer</li> <li>The sample of human benchmarkers was biased toward METR employees’ friends, acquaintances, and former colleagues (who are likely unrepresentative and possibly biased)</li> <li>Humans familiar with a codebase and a specific coding task were 5-18x faster at completing it, but METR used data from humans who were much slower because they had to spend time familiarizing themselves the codebase and the task at hand</li> <li>Test-training data contamination occurred because some of the tasks had published solutions online, which most likely would have been included in LLMs’ training datasets</li> <li>And many more</li> </ul> <p>Please read the <a href=\"https://www.transformernews.ai/p/against-the-metr-graph-coding-capabilities-software-jobs-task-ai\">full post</a>. It’s not too long and it’s accessible to general audience. It’s worthwhile to read the whole post and see how many errors were made in the creation of the METR graph and just how bad they are.</p> <p>If you want to read about <em>even more</em> errors in the METR graph not covered in Nathan Witkin’s post, read <a href=\"https://garymarcus.substack.com/p/the-latest-ai-scaling-graph-and-why\">this post</a> by the AI researchers Gary Marcus and Ernest Davis.</p> <p>The METR graph is a great example of why scientific standards and best practices are so important, and why enforcing them through processes like peer review is necessary to prevent us from drowning in bad information. It’s extremely dangerous to rely on information that only superficially appears scientific but wasn’t actually conducted with the rigour normally required of scientific research.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/common_yarrow\"> /u/common_yarrow </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tnhnh5/the_famous_metr_ai_time_horizons_graph_contains/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tnhnh5/the_famous_metr_ai_time_horizons_graph_contains/\">[comments]</a></span>",
+      "published": "2026-05-26T02:30:21+08:00",
+      "fetched_at": "2026-05-26T11:51:53.066337+08:00",
+      "pre_filter_reason": "METR AI时间线图、AI能力评估研究",
       "scores": {
-        "importance": 7,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
+        "importance": 8,
+        "timeliness": 7,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 7,
         "crowd_heat": 0.0
       },
       "quality_score": 7.5,
       "topics": [
         {
+          "tag": "analysis",
+          "title": "METR AI时间线图表为何被指严重错误？",
+          "angle": "深入剖析Nathan Witkin对METR图表的批评，解释图表中关于AI编程能力时间预测的错误点，并讨论这对AI行业预期管理的启示。",
+          "difficulty": "进阶"
+        },
+        {
           "tag": "tutorial",
-          "title": "ima Copilot全面开放：手把手教你创建第一个知识Agent",
-          "angle": "以新手用户视角，从零开始演示如何利用ima Copilot调用个人知识库，并发布一个简单的Skill到知识广场，突出“无需排队”和“个人知识资产可被AI调用”的核心亮点。",
+          "title": "如何正确解读AI能力时间线？避免被误导的3个关键点",
+          "angle": "以METR图表争议为例，教观众识别AI能力预测中的常见陷阱（如数据偏差、任务定义模糊），并提供更可靠的评估方法。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "54ba7093f09b",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+      "link": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+      "summary": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
+      "published": "2026-05-25T08:00:00+08:00",
+      "fetched_at": "2026-05-26T11:51:31.900184+08:00",
+      "pre_filter_reason": "OpenAI与媒体合作，属于AI公司动态",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "OpenAI联手巴西两大媒体：ChatGPT新闻合作新模式",
+          "angle": "报道OpenAI与Grupo Folha和Grupo UOL的合作细节，分析此举如何提升ChatGPT新闻内容的可信度与版权透明度，并探讨对全球新闻业的影响。",
           "difficulty": "入门"
         },
         {
-          "tag": "news",
-          "title": "ima Copilot开放+知识号上线：腾讯AI的“知识Agent”生态要来了？",
-          "angle": "分析ima Copilot全面开放（10万人排队背景）和知识号Skill生态（微信读书、腾讯招聘等首批Skill）对个人知识管理、企业知识库共享及AI应用分发模式的影响，探讨其与现有AI助手（如Notion AI、豆包）的差异化竞争点。",
+          "tag": "analysis",
+          "title": "AI新闻合作背后的商业逻辑：OpenAI为何押注巴西市场？",
+          "angle": "从内容生态、用户增长和版权合规角度，解读OpenAI与巴西媒体合作的战略意义，并对比其与其他国际媒体的合作案例。",
           "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "2f0c8d032774",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "colbymchenry /codegraph",
+      "link": "https://github.com/colbymchenry/codegraph",
+      "summary": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "published": "2026-05-26T11:51:54.604916+08:00",
+      "fetched_at": "2026-05-26T11:51:54.604918+08:00",
+      "pre_filter_reason": "Knowledge graph for AI coding tools",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Codegraph：本地代码知识图谱搭建与AI工具集成指南",
+          "angle": "演示如何利用Codegraph为Claude Code、Cursor等AI编程工具预索引本地代码库，减少token消耗和工具调用，提升开发效率。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "告别高额API费用：用Codegraph实现100%本地AI编程助手",
+          "angle": "面向开发者，讲解如何通过Codegraph的本地知识图谱功能，在离线环境下优化AI编程体验，降低对云端API的依赖。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "e9629ae3e19e",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "两部 AI 剧集闯入戛纳，水母智能要做 AI 内容工业化的破局者｜项目报道",
+      "link": "https://36kr.com/p/3823033729061253?f=rss",
+      "summary": "<p>5月8日，第79届戛纳国际电影节內 Fantastic Pavilion 单元公布竖屏剧展演名单。</p>\n  <p>由水母智能旗下中国AI影视公司水母映画出品的竖屏剧集《摸金之天机入梦》（英文名：The Golden Tomb Seeker）以及水母星际出品的《饿塔》（英文名：Series Tower）从全球120个国家、超过1000件竖屏作品中脱颖而出，成为正式展映的21部作品之一。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260524/v2_c93578737bdf46e38961e5d0b41d9525@5654145_oswg3452305oswg1792oswg2400_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">竖屏剧集《摸金之天机入梦》</p>\n  <p>当两部纯 AI 制作的竖屏短剧，出现在戛纳电影节的展映厅里，大概很多人都没想到：曾经被视作电子榨菜 的 AI 漫剧，居然能站上全球电影工业的殿堂。</p>\n  <p>这不是流量短剧的镀金游戏，而是一个行业的成人礼。</p>\n  <p>2025 年还在靠低成本爽文野蛮生长的 AI 漫剧，只用一年时间，走完了传统短剧五年的进化路 —— 从粗制滥造、擦边流量，转向精品化、工业化、IP 化，甚至开始讲严肃故事、走向全球。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260524/v2_1faefbe6d0844e1ba803538ff8a7000c@5654145_oswg7063313oswg1552oswg1942_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">《饿塔》</p>\n  <p>“大家对 AI 漫剧的印象还停留在爽文、快消、土味。” 水母智能联合创始人周志鹏说，“但我们想证明，AI 可以拍有内核、有审美、有国际语言的内容。”</p>\n  <p>过去，AI 内容被调侃 “只会制造爽点”；如今，它开始承载科幻、悬疑、东方宇宙等更重的题材。这一步，是行业从 “流量供给” 到 “内容创作” 的关键跨越。</p>\n  <p>AI 漫剧的疯狂，来得猝不及防。</p>\n  <p>2025 年，行业一年跑出超 5 万部作品，却只有一两百部真正赚钱。大部分公司靠接订单、堆产量、蹭热度，画面崩坏、剧情狗血、人物畸形，最后被平台批量下架。</p>\n  <p>到 2026 年，风向彻底变了。</p>\n  <p>抖音、红果整合后，平台政策直接 “押注精品”：仿真人 AI 漫剧分账系数拉高到 60 倍，远超真人剧；低质内容不给流量，擦边内容直接清退。曾经靠 “堆量” 生存的公司，一夜之间失去生存空间。</p>\n  <p>技术更是一把剪刀。Seedance 2.0 的出现，把 AI 视频从 “单镜头拼接” 推到 “多镜头连续叙事”，画质冲上 1080P，人物表情、运镜节奏、场景精度全面升级。头部内容公司签下千万年级年框，锁定算力、并发、肖像白名单，行业正式进入 “技术军备竞赛” 时代。</p>\n  <p>“以前是个人都能做 AI 短剧，现在只有懂内容、懂技术、懂工业化的团队能活。” 周志鹏直言。</p>\n  <p>和市面上大多数 “接单制作” 公司不同，水母智能从一开始就走了一条更重、也更稳的路：工具 + 出品 + 人才培养三位一体。</p>\n  <p>他们不只是做内容，还造工具。国内触手 AI、海外 Animeshorts.ai 双平台，从选题、IP 筛选、剧本生成，到分镜、画面、视频、后期，全流程 AI 化。海外上线即拿下 Product Hunt 当日之星，仅日本就积累近 10 万付费创作者。</p>\n  <p>他们不只是做代工，还控 IP。牵手天下霸唱、高阳、潘海天等顶级作家，并签约各头部小说、影视剧等IP平台手握 350 部 IP 授权。</p>\n  <p>他们不只做产能，还建人才体系。深度参与工信部 AIGC 岗位标准，牵头成立全国首个 AI 设计产教融合共同体，把课程开进百所院校。别人缺人、缺产能、缺标准，水母智能从源头把供给侧稳住。</p>\n  <p>这种模式，让它在行业洗牌里反而越跑越快。</p>\n  <p>AI 漫剧的终局，早已不是 “短平快赚快钱”。水母智能把下一步押在三件事上：IP 宇宙化、精品全球化、内容严肃化。</p>\n  <p>他们正在搭建以天下霸唱、高阳为核心的 “东方大江湖宇宙世界观，并陆续开发一系列30 部作品，内容联动，人物跨剧互动，类似中国版漫威一个庞大故事世界；同时签约潘海天、吴霜、韩松等科幻顶流 IP，把过去 “烧钱拍不出” 的科幻故事，用 AI 落地。</p>\n  <p>AI精品化，比所有人预想中来得更快。而最小颗粒度的内容数据和观众反馈数据，以及强大知识库所驱动的agent自我进化，可以帮助出品方、编剧方、制作方、投资方拿到更好的商业化结果。</p>\n  <p>海海外更是其长期重视的市场。作为最早进入日本市场、数据最好的中国 AI 漫画/漫剧团队，水母智能通过 Animeshorts.ai，把 AI 创作工具与内容同步输出日韩、欧美，让中国 AI 能力与中国故事一起出海。</p>\n  <p>“AI 降低的是生产门槛，不降低创作门槛。” 周志鹏说，“真正决定胜负的，还是故事、审美、价值观。”</p>\n  <p>从洛可可的设计基因，到 AI 内容工业化；从国内爆款，到戛纳展映；从土味爽剧，到东方宇宙与硬核科幻 ， 水母智能踩中了时代最确定的趋势：AI 不是内容的替代品，而是内容的新基建。</p>\n  <p>当 AI 开始认真讲故事，短剧不再只是打发时间的快餐。而那个最先把快餐做成宴席的玩家，已经站在了下一轮增长的门口。</p>\n  <p>&nbsp;</p>",
+      "published": "2026-05-26T09:00:00+08:00",
+      "fetched_at": "2026-05-26T11:51:35.999757+08:00",
+      "pre_filter_reason": "AI影视公司、AI剧集、AI内容工业化",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "中国AI剧集闯入戛纳：水母智能如何用AI颠覆影视制作？",
+          "angle": "报道水母智能旗下两部AI竖屏剧集入围戛纳，介绍其AI内容工业化流程，并分析AI在剧本生成、角色设计、后期制作中的具体应用。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "从戛纳看AI影视未来：竖屏剧《摸金之天机入梦》的技术与艺术突破",
+          "angle": "深度解析《摸金之天机入梦》的AI制作亮点，探讨AI如何平衡创作效率与艺术表达，以及这对全球影视工业化趋势的启示。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "3492ea2176d0",
+      "source_id": "ifanr",
+      "source_name": "爱范儿",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "将 600 亿参数大模型装进手机的瓶颈，终于被中国 AI 公司突破了",
+      "link": "https://www.ifanr.com/1666847?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "国产闭环，框架国产，芯片国产，模型国产，方法论自主<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
+      "published": "2026-05-25T12:05:47+08:00",
+      "fetched_at": "2026-05-26T11:51:44.042869+08:00",
+      "pre_filter_reason": "将大模型装进手机，属于AI模型部署",
+      "scores": {
+        "importance": 8,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "手机跑大模型？三步看懂中国AI公司的“瘦身”黑科技",
+          "angle": "以通俗易懂的方式拆解模型压缩、芯片适配和框架优化的关键技术，解释如何将600亿参数模型装进手机。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "国产AI的“全链路闭环”意味着什么？",
+          "angle": "分析框架、芯片、模型、方法论全部国产化的战略意义，以及对行业生态和用户隐私的潜在影响。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "f55abc322103",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "Claude 通过率不到4%，SaaS-Bench撕碎了Computer-Use的「全自动办公」幻想",
+      "link": "https://www.qbitai.com/2026/05/424277.html",
+      "summary": "UniPat AI 发布 SaaS-Bench 评测，Claude 等主流大模型在真实办公任务中完全通过率最高仅 3.8%，AI 全自动办公远未落地。",
+      "published": "2026-05-25T11:29:41+08:00",
+      "fetched_at": "2026-05-26T11:51:42.066401+08:00",
+      "pre_filter_reason": "评测Claude等大模型在办公任务中的表现",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "为什么AI“全自动办公”还是梦？从SaaS-Bench评测看大模型真实能力",
+          "angle": "用SaaS-Bench的测试案例（如表格操作、邮件处理）解释Claude等模型为何通过率低，科普当前AI的局限性。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "3.8%通过率背后：AI办公工具离“替代人类”还有多远？",
+          "angle": "结合评测数据，探讨大模型在复杂多步骤任务中的失败原因，以及未来人机协作的可能模式。",
+          "difficulty": "中级"
         }
       ]
     },
@@ -235,158 +642,65 @@
       "link": "https://www.qbitai.com/2026/05/423455.html",
       "summary": "用“人类心智”重做具身智能",
       "published": "2026-05-25T10:28:17+08:00",
-      "fetched_at": "2026-05-25T12:06:12.026617+08:00",
-      "pre_filter_reason": "具身智能/认知科学AI创业",
+      "fetched_at": "2026-05-26T11:51:42.066412+08:00",
+      "pre_filter_reason": "涉及具身智能和认知科学，属于AI模型和研究",
       "scores": {
-        "importance": 7,
+        "importance": 8,
         "timeliness": 8,
         "actionability": 8,
         "scarcity": 8,
         "virality": 7,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.4,
+      "quality_score": 7.3,
       "topics": [
         {
-          "tag": "news",
-          "title": "华为系创业新贵：用“人类心智”重塑具身智能，获亿元融资",
-          "angle": "解读“具脑磐石”公司的核心思路——用认知科学（而非传统深度学习）构建世界模型，对标Yann LeCun的JEPA架构，分析其对具身智能行业技术路线（如端到端vs.模块化、符号主义vs.连接主义）的潜在冲击。",
-          "difficulty": "进阶"
+          "tag": "tutorial",
+          "title": "什么是“具身智能”？华为前高管用认知科学造世界模型",
+          "angle": "用类比解释具身智能与认知科学的关系，以及“世界模型”如何让机器人更像人类。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "亿元融资背后：具身智能的“心智革命”能否打破行业瓶颈？",
+          "angle": "分析用认知科学重塑机器人大脑的创新路径，对比传统方法，探讨其商业前景。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "ce0de6210ecb",
-      "source_id": "36kr",
-      "source_name": "36氪",
+      "id": "251e9e1dec6b",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
       "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "华为具身大脑一号位做类脑智能世界模型，对标JEPA，获亿元级融资｜硬氪首发",
-      "link": "https://36kr.com/p/3819931562414467?f=rss",
-      "summary": "<p>作者｜黄楠</p>\n  <p>编辑｜袁斯来</p>\n  <p>硬氪获悉，具身智能大脑公司「具脑磐石」完成新一轮亿元级融资，本轮融资由具备深厚类脑与具身产业背景的顶尖产业资本领投，老股东及多家顶尖基金复投和跟投，多维资本担任独家财务顾问。同时，更新一轮融资也在同步交割中。</p>\n  <p>资金将重点投入核心技术研发、人才团队扩容及全球化市场拓展，以加速认知世界模型（Cognitive World Model）的研发、工程化落地与真实场景验证。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260522/v2_c9e63416f89647e6bbe7def9da2c8fb9@6022551_oswg193361oswg832oswg566_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">类脑智能世界模型（图源/企业）</p>\n  <p>具脑磐石成立于2025年，以类脑智能为底层范式，构建面向真实物理世界的认知世界模型（Cognitive World Model）。公司由“华为具身大脑一号位”朱森华创立并担任CEO，他长期专注AI与脑认知交叉研究，曾在中山大学从事计算机与AI研究，博士毕业于宾夕法尼亚大学认知神经科学专业，并于中科院脑与认知科学国家重点实验室完成博士后研究。</p>\n  <p>进入华为后，朱森华担任过华为云AI算法创新Lab主任，主导并负责AI脑科学云平台、盘古具身大模型、全球具身智能产业创新中心等项目；他推动了世界模型与类脑智能融合路线的系统性验证，是华为具身智能大脑的开创者���兼具脑认知科学研究、类脑AI路线创新验证与具身智能产业落地的复合能力。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260522/v2_bc2c22306c054aeba925c579170f00b0@6022551_oswg410028oswg832oswg632_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">朱森华出席中国人形机器人技术应用峰会（图源/企业）</p>\n  <p>联合创始人刘晋宇长期聚焦AI机器人技术产品化与产品商业化，曾从0到1孵化多个产品事业部并实现全球规模商业落地；多位技术、供应链、运营合伙人来自清华、北大、复旦、中科院等科研院所，并曾在华为、联想、旷视、极智嘉等公司参与AI算法、机器人系统、供应链及全球商业化落地。原生团队已覆盖前沿研究、模型研发到系统工程落地的完整闭环。</p>\n  <p>过去一年，具身智能赛道的风口迅速迭代，行业热词从“VLA”悄然换成了“世界模型”。</p>\n  <p>李飞飞押注空间智能，Yann LeCun创立AMI Labs探索因果推理，英伟达、Google DeepMind等科技巨头加速布局物理仿真与真实交互技术。但热度背后，一个基础问题并未被厘清：世界模型究竟是什么？它是全新的学术理念、下一代AI的核心技术路线，还是仍在被市场反复验证的阶段性概念？不同团队给出的定义和路径各不相同。</p>\n  <p>具脑磐石创始人朱森华认为，要得到答案，需先回到问题的本源。“想真正读懂世界模型，要厘清它的技术本源与核心诉求，清楚它从何而来、要解决产业的什么根本问题。”朱森华向硬氪指出，“世界模型的底层逻辑根植于脑与认知科学的‘心智模型（Mental Model）’，是当前脑科学与与AI的前沿交叉体系，缺乏这套认知体系，大多讨论就容易停留在技术名词的排列组合。今天是VLA叠加世界模型，明天是世界模型拼接VLA，看似迭代飞快，实则没有触达技术本质。”</p>\n  <p>这一判断，直接影响了具脑磐石对技术路径的选择。在具脑磐石团队看来，具身智能正在从“动作智能”走向“认知智能”。下一阶段的核心，不只是让机器人看懂任务、完成动作，而是让机器人具备类人的小样本抽象概念学习、多维环境感知、长期记忆和主动推理能力，并在真实世界中跨场景稳定行动。</p>\n  <p>然而，当前具身智能落地仍面临多重瓶颈：高质量真实数据难以规模化获取，模型跨场景泛化能力不足，每进入新环境往往需要重新训练，机器人也缺少长期记忆与持续学习能力。数据不能无限采集，算力也不是无限资源。</p>\n  <p>反观人类大脑，它无需海量示教数据，也无需高能耗高算力，却能在复杂多变的环境中持续完成学习、感知、记忆、预测、规划与行动。这正是具脑磐石选择类脑智能作为底层路径的原因，即不是从结构上简单模拟大脑，而是提取大脑智能化的功能神经机制等核心能力，将其转化为可计算的算法与架构，最终构建下一代具身智能大脑。</p>\n  <p>具脑磐石从创立之初便提出了类脑智能驱动的认知世界模型，与Yann LeCun所提出的JEPA（Joint Embedding Predictive Architecture，联合嵌入预测架构）路线同向，基于共同的主动推理认知科学理论底座，聚焦推理、规划与真实世界建模。JEPA的价值在于令AI不再只生成“看起来像”的结果，而是在抽象表征空间中学习状态如何演化、推理未来趋势，继而更接近人类大脑认知真实世界的底层规律。</p>\n  <p>但对于需要进入真实环境中执行任务的机器人而言，仅具备“表征—预测”能力并不足以构成完整的智能闭环。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260522/v2_b35db7ca7aeb45c696d76fc152ddec23@6022551_oswg149468oswg1562oswg842_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">智能闭环（图源/企业）</p>\n  <p>一个直观案例是，人过马路时，无需精准测量前后左右车辆的速度、距离、红绿灯时间，只是简单扫一眼周边现状，就能以合适的速度和节奏安全通过。这就是心智模型中的主动推理。朱森华表示，具脑磐石要做的认知世界模型，正是要把这套能力工程化，让机器人不仅预测世界如何变化，还能凭借对环境的认知自主设定目标、规划行动、执行操作，并从环境反馈中持续学习以修正自身行为。</p>\n  <p>这意味着，一个可用于具身系统的世界模型，必须涵盖从状态预测到决策执行的全链路能力。</p>\n  <p>具体到实现路径上，公司正在将脑科学中对多舱室神经元、非线性注意力、多阶段记忆、稀疏计算与主动推理等机制，转化为可落地应用的算法模型与工程化系统架构。这一路径最终指向四个核心技术目标：低数据、高泛化、终身学习、低功耗，共同突破具身智能在数据成本、跨场景适应、持续运行与算力限制等方面的现实约束。</p>\n  <p>目前，具脑磐石已在具身感知交互、规划、移动导航、操作及群体具身等方向完成多项系统级技术验证，并在国内及海外市场同步推进多个行业客户真实场景PoC，将认知世界模型从算法框架推进到真实机器人系统。</p>\n  <p>这一从算法到系统的推进方式，也构成了具脑磐石对具身智能2.0的理解：不是让机器人在演示中完成更多动作，而是让机器人真正具备接近人类大脑的认知能力——从少量经验中学习抽象规律，在复杂环境中持续感知和记忆，并在跨任务与泛场景中实现主动推理、稳定决策、持续行动。</p>\n  <p><strong>以下为硬氪与具脑磐石创始人朱森华的访谈节选（略经编辑）：</strong></p>\n  <p><strong>硬氪：目前市场上关于世界模型的讨论很多，我们如何理解这个概念？</strong></p>\n  <p><strong>朱森华：</strong>在我们看来，世界模型其实有五个层级，从下往上依次是，第一层的视觉真实；以李飞飞老师主导的空间智能为代表，解决从2D到3D的环境真实问题。第二层是物理真实；类似Sora通过堆数据理解物理规律，但这种方式是否真正可靠，还有争议。第三层属于交互真实；是以Google DeepMind、英伟达为代表，解决智能体在环境中的触碰、反馈等交互过程如何学习。</p>\n  <p>第四层是抽象学习；以Yann LeCun团队提出的JEPA为代表，不再逐像素学习，而是在表征层面进行抽象学习，解决泛化性问题。</p>\n  <p>第五层才进入到主动推理，即源于认知神经科学的主动推断理论，追求低数据、高泛化、可终身学习、低功耗；其中，人类大脑已经证明了这套路径可行。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260523/v2_b3fe400fbb3e4fa194fdd5918fd20f10@6022551_oswg197932oswg2358oswg1390_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">具脑磐石技术视野里的“World Model”技术层级体系（图源/企业）</p>\n  <p>这五个层级不是并行或相互独立的流派，而是一个从基础设施到智能能力演化的体系。前三层解决的是“如何更便宜、更可靠地获得数据和训练环境”的问题，后两层解决的是“如何高效学习和推理”的算法架构问题。它们可以分头探索，也可以相互支撑——基础设施完善了，上层工作会更高效；但即便基础设施不成熟，也不影响上层算法的验证。</p>\n  <p><strong>硬氪：类脑智能路线的核心瓶颈是什么？是算力还是理论未破译？</strong></p>\n  <p><strong>朱森华：</strong>&nbsp;都不是。实际上，今天AI领域里习以为常的很多核心概念，包括神经元、神经网络、注意力机制和世界模型等，都源自脑科学。脑科学每成熟一步，AI就能往前推一步。但我们也看到，在脑科学远未完全破译人类大脑之前，AI已经走到了今天的高度。所以瓶颈不在于“理论还没成熟，所以做不了”，也不在于算力不够。</p>\n  <p>真正的瓶颈在于人才和体系，缺少同时具备脑科学与AI交叉背景的复合人才，也缺少一套系统性的理论体系来指导大家朝着确定性的方向用力。现在的状态是“有多少人工才有多少智能”，大家在一个默认的框架里，依赖海量数据、海量算力，不停地试错，从一个实验室到另一个实验室，哪条路跑通了就叠加上去继续跑，但成本太高、效率太低。</p>\n  <p>所以我们真正需要的，是在一套相对清晰的理论体系指引下，朝着战略方向大致正确的路径，集中资源、分头探索、相互借鉴。这也是具脑磐石选择类脑智能的底层逻辑，不是等理论完全成熟再动手，而是用已有的认知神经科学成果，去指导算法架构和工程实现，让技术走得更稳、更快。</p>\n  <p><strong>硬氪：具脑磐石提出了“一脑多机、一脑多形”的应用路线，如何理解和落地？</strong></p>\n  <p><strong>朱森华：</strong>首先要承认，今天没有哪家公司能用同一个模型适配所有形态的本体。跨构型本体的模型无法直接通用，这是阶段性的现实。</p>\n  <p>我们的策略分三层：当前用类脑智能的Agent框架驱动多机协作；技术层面持续探索单一认知世界模型适配多种本体；硬件生态上与乐聚、星尘智能、智动力等多家本体厂商深度合作。长期目标是向具身行业生态伙伴开放我们的通用具身大脑模型和面向场景应用的生产力工具。</p>\n  <p>之所以这样设计，是因为当前世界模型的泛化能力还远没到“一个模型驱动所有”的水平。多机协作本质是工程问题，产线上多个机器人同时工作，形态、技能各不相同。用一个中央Agent大脑去调度、分解任务、协调动作，是当下最高效、最可行的方案。值得强调的是，具脑磐石也在用类脑智能的机制在改进Agent的感知、记忆、规划、反馈纠错等能力模块，它是一套可扩展的工程系统，是世界模型成熟前的工程化桥梁，也是未来能力完备后的自然延伸。</p>",
-      "published": "2026-05-25T09:30:00+08:00",
-      "fetched_at": "2026-05-25T12:06:03.645819+08:00",
-      "pre_filter_reason": "具身智能大脑，类脑世界模型",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 7,
-        "scarcity": 8,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "亿元级融资背后：具身智能的“大脑”为什么需要认知科学？",
-          "angle": "结合“具脑磐石”的融资新闻，深度解析“认知世界模型”与主流具身智能方案（如RT-2、PaLM-E）的区别，解释为什么类脑/认知科学路线在复杂物理交互场景中可能更具优势，并梳理其投资逻辑（产业资本领投、老股东跟投）。",
-          "difficulty": "专家"
-        }
-      ]
-    },
-    {
-      "id": "0581869efb4d",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "C++之父开撕AI Coding：资深开发者宁愿退休也不愿伺候AI生成的代码",
-      "link": "https://www.infoq.cn/article/51fCFjwWFtJBDh04sLVQ?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/51fCFjwWFtJBDh04sLVQ?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-05-25T19:07:09+08:00",
-      "fetched_at": "2026-05-25T12:06:09.921951+08:00",
-      "pre_filter_reason": "Discusses AI-generated code and developer sentiment",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "beatai-org/beatai",
+      "link": "https://github.com/beatai-org/beatai",
+      "summary": "不玩晦涩不搞少数派的 AI 入门圣经，从学生到工程师都能轻松掌握。涵盖神经网络到大模型、顶层设计到微观原理、工程实现到算法基础。 学完后，大家能彻底看懂为什么下一 token 预测这个看似不起眼的能力可以改变世界，也能发现原来 AI 并没有想象中那么神秘、那么高不可攀。 Let's just beat it !",
+      "published": "2026-05-26T11:51:55.172663+08:00",
+      "fetched_at": "2026-05-26T11:51:55.172664+08:00",
+      "pre_filter_reason": "AI education and fundamentals",
       "scores": {
         "importance": 7,
         "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 7,
+        "actionability": 9,
+        "scarcity": 6,
         "virality": 8,
         "crowd_heat": 0.0
       },
       "quality_score": 7.2,
       "topics": [
         {
-          "tag": "opinion",
-          "title": "C++之父怒批AI Coding：资深开发者宁愿退休也不愿伺候AI生成的代码",
-          "angle": "以Bjarne Stroustrup的观点为引，讨论AI辅助编程（如GitHub Copilot、Cursor）在大型/复杂项目中带来的“技术债务”问题：代码可读性差、调试成本高、资深开发者抵触。对比“AI提升效率”的主流叙事，提出“代码质量与开发者尊严”的反思视角。",
+          "tag": "tutorial",
+          "title": "AI入门圣经：从神经网络到大模型，一个项目带你彻底看懂“下一token预测”",
+          "angle": "以beatai项目为线索，用简单案例演示从算法基础到顶层设计，揭示大模型的核心原理。",
           "difficulty": "入门"
         },
         {
           "tag": "tutorial",
-          "title": "如何避免成为“AI代码的清洁工”？资深开发者应对AI Coding的3个实战策略",
-          "angle": "基于C++之父的批评，提供实用建议：1）如何设置AI代码生成的质量门禁（如强制类型检查、架构约束）；2）如何利用AI进行代码审查而非直接生成；3）如何维护“人类可读”的代码风格。目标受众为对AI Coding既依赖又担忧的中高级开发者。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "1a77417dda08",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "mukul975 /Anthropic-Cybersecurity-Skills",
-      "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "summary": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
-      "published": "2026-05-25T12:06:24.062937+08:00",
-      "fetched_at": "2026-05-25T12:06:24.062939+08:00",
-      "pre_filter_reason": "Cybersecurity skills for AI agents",
-      "scores": {
-        "importance": 7,
-        "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.2,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "开源项目推荐：754项结构化网络安全技能，让你的AI Agent秒变“安全专家”",
-          "angle": "介绍Anthropic-Cybersecurity-Skills项目，演示如何将其与Claude Code、GitHub Copilot等AI工具集成，让AI在编写代码时自动识别MITRE ATT&CK等框架中的安全风险，适合DevSecOps团队快速上手。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "news",
-          "title": "Anthropic开源754项网络安全技能库：AI Agent安全能力标准化时代来了？",
-          "angle": "分析该开源项目对AI安全领域的影响：覆盖5大框架（MITRE ATT&CK、NIST CSF等）、26个安全域、兼容20+AI平台。探讨其如何推动“AI Agent安全能力”的标准化，以及对企业安全合规（如SOC 2、ISO 27001）的潜在价值。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "7cb61e6e8473",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "anthropics /knowledge-work-plugins",
-      "link": "https://github.com/anthropics/knowledge-work-plugins",
-      "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "published": "2026-05-25T12:06:24.060547+08:00",
-      "fetched_at": "2026-05-25T12:06:24.060549+08:00",
-      "pre_filter_reason": "Plugins for Claude Cowork, an AI assistant",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.2,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "如何用Claude Cowork插件提升知识工作效率？",
-          "angle": "手把手演示如何安装和使用Anthropic官方开源的知识工作插件，展示在文档分析、信息检索等场景中的实际应用技巧。",
+          "title": "学生也能造AI？开源项目beatai的“无痛学习”路线图",
+          "angle": "推荐beatai的章节结构，引导零基础读者按“工程实现→算法基础→模型原理”顺序高效入门。",
           "difficulty": "入门"
         }
       ]
@@ -401,13 +715,13 @@
       "title": "Lum1104 /Understand-Anything",
       "link": "https://github.com/Lum1104/Understand-Anything",
       "summary": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-      "published": "2026-05-25T12:06:24.059770+08:00",
-      "fetched_at": "2026-05-25T12:06:24.059812+08:00",
-      "pre_filter_reason": "AI tool for code visualization and interaction",
+      "published": "2026-05-26T11:51:54.603718+08:00",
+      "fetched_at": "2026-05-26T11:51:54.603732+08:00",
+      "pre_filter_reason": "AI-powered knowledge graph tool",
       "scores": {
-        "importance": 6,
+        "importance": 7,
         "timeliness": 8,
-        "actionability": 9,
+        "actionability": 8,
         "scarcity": 7,
         "virality": 7,
         "crowd_heat": 0.0
@@ -416,293 +730,15 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "一键将代码变成知识图谱：Understand-Anything实战",
-          "angle": "演示如何使用该工具将任意代码项目转化为可交互的知识图谱，并展示搜索、提问等核心功能，帮助开发者快速理解复杂代码库。",
+          "title": "代码可视化神器：用交互知识图谱让AI帮你理解任何项目",
+          "angle": "演示如何使用Understand-Anything将代码库转化为可搜索、可提问的知识图谱，提升学习效率。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "告别枯燥文档：用知识图谱+AI助手探索代码的隐藏逻辑",
+          "angle": "结合Claude Code等工具，展示如何通过图谱交互快速定位代码依赖、理解架构。",
           "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "d1529f0573ce",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "36氪首发 | 商汤国香投了一家消费级空间相机公司，为具身智能采集真实世界数据",
-      "link": "https://36kr.com/p/3824089662853513?f=rss",
-      "summary": "<p>作者丨欧雪</p>\n  <p>编辑丨袁斯来</p>\n  <p>硬氪获悉，消费级空间相机公司竹马创新近日完成了数千万天使+轮融资，本轮由商汤国香资本领投，鼎晖VGC、峰瑞资本跟投，深渡资本担任后续独家财务顾问。资金将主要用于产品研发、量产准备及海外市场拓展。</p>\n  <p>竹马创新成立于2025年11月，是一家以Camera + AI为核心的空间智能公司。公司希望定义一种新的AI硬件品类——空间相机：既是消费级3D内容创作工具，更是面向具身智能与世界模型的真实世界三维数据入口。</p>\n  <p>团队方面，创始人张吉曾任群核科技副总裁，深度参与大规模空间数据处理与商业化；首席科学家过洁为南京大学长聘副教授、3DGS和空间仿真领域顶尖科学家；团队具备从三维数据采集到云端计算、从算法到硬件的全栈能力。</p>\n  <p>据张吉介绍，公司首款产品Pebble，将3D Gaussian Splatting、多传感器融合、端云协同与AI原生交互封装进一台消费级设备，让用户像拍视频一样捕获真实三维世界，实现“所见即所扫、所扫即所得”。目前，产品仍在研发阶段，尚未量产。</p>\n  <p>随着具身智能与VLA大模型的兴起，行业对真实世界三维数据的需求正在发生结构性变化。过去，机器人训练严重依赖遥操作数据，成本高、难以规模化。越来越多观点认为，第一视角人类视频、空间传感器数据、真实环境中的连续行为数据，将成为模型训练的新“主食”。</p>\n  <p>这正是竹马创新的核心定位：通过空间相机采集带有第一视角、三维结构、语义信息和真实尺度的数据，成为机器人时代的数据采集基础设施。</p>\n  <p>这类数据可用于构建更真实的空间世界模型，帮助机器人理解环境布局、物体关系与任务上下文，也可反哺具身智能仿真与实时空间感知训练。</p>\n  <p><strong>以下为硬氪与张吉的对话节选：</strong></p>\n  <p><strong>硬氪：本轮引入商汤和鼎晖，对公司的产业布局有何助力？</strong></p>\n  <p><strong>张吉：</strong>我们目前看到了两个明确的机会窗口：一是3DGS技术正在从实验室走向消费级应用，二是具身智能行业对真实空间数据的需求爆发在即。</p>\n  <p>商汤和鼎晖的进入不是单纯的财务投资。商汤在AI领域有很强的人才和算法积累，我们在空间智能重建方面的能力可以形成强强联合。鼎晖在机器人领域布局很深，他们希望我们作为空间智能基础设施，与更多机器人公司产生连接。这两个投资人都能与公司形成非常强的互补关系，这是我们最看重的。</p>\n  <p><strong>硬氪：消费级三维重建市场过去一直没有真正跑通，你们判断拐点到了吗？</strong></p>\n  <p><strong>张吉：</strong>我们的判断比之前更乐观。上一轮融资发布后，大量不同行业的人来找我们交流，提出了很多真实需求。之前大家没有意识到三维重建可以这样做，现在认知明显在变化。</p>\n  <p>另外，工业级三维设备企业意识到了市场的存在，但还没有选择直接下场竞争，很多在和我们探讨深入合作的可能性。还有一些初创团队目前刚刚开始进入。虽然有竞争压力，但我认为更多人进来必然有利于消费级市场的快速发展。</p>\n  <p>当前行业真正的比拼是速度和技术扎实程度——谁能先把产品定义清晰、把用户体验跑通，谁就能占据先发优势。我们每个月都有明显的产品进展，这个节奏很重要。</p>\n  <p><strong>硬氪：公司未来在具身智能生态中扮演什么角色？</strong></p>\n  <p><strong>张吉：</strong>我们的核心战略没有变化，仍然是面向空间设计师等专业人群和消费级用户，基于空间智能与空间计算的能力，提供消费级的空间相机，。但在这个过程中，我们自然沉淀出了具身智能行业非常稀缺的东西——真实物理世界的三维数据。</p>\n  <p>目前具身智能公司大多在用仿真环境训练，数据合成后真实性大打折扣。我们采集的是photoreal的真实空间数据，带有三维结构、语义信息和物理正确性，对他们来说是很好的基础设施。这不是我们刻意规划的第二曲线，而是在完成主业过程中自然形成的技术栈外溢。所以我们不会在产品层面去做具身智能，但会在技术研究层面做一些布局和开放。</p>\n  <p><strong>投资方观点：</strong></p>\n  <p><strong>商汤国香合伙人余俊表示：</strong>物理世界的可计算、可理解、可编辑是未来应用发展的基础和底座，每一个个体也都将成为这个基座的贡献者和使用者。张总的团队特别适合为用户提供扎实的可入手和可上手的极致产品方案，团队对早期用户群也有特别深刻理解和熟知。期待竹马成为感知和计算“4D世界”的Insta360。</p>\n  <p><strong>鼎晖VGC副总裁牟刘杉表示：</strong>物理与数字世界的融合是不可逆的趋势，3DGS相机正是连接两者的桥梁。当前，3DGS技术突破与激光雷达成本断崖式下降带来了3DGS相机高速发展的市场拐点，竹马团队凭借敏锐的眼光和深厚的积累在正确的时间以精准的产品定义切入市场，未来还可向上可生长为具身智能的数据基础设施并有着更多可能性。我们期待与竹马团队一起，见证真实世界被重新捕获和理解的未来。</p>\n  <p><strong>峰瑞资本合伙人马睿表示：</strong>祝贺公司在短短一个月时间里完成新融资，峰瑞持续追加是因为非常看好创始人张吉和团队执行力，期待竹马拿出消费级空间相机，并成为世界模型的新数据入口。</p>",
-      "published": "2026-05-25T10:25:26+08:00",
-      "fetched_at": "2026-05-25T12:06:03.645766+08:00",
-      "pre_filter_reason": "AI硬件产品，为具身智能采集数据",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.2,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "商汤国香为何押注“空间相机”？竹马创新的AI硬件新赛道",
-          "angle": "解读竹马创新的商业模式：从消费级3D内容创作到具身智能数据采集，分析空间相机如何成为AI时代的“新眼睛”。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "news",
-          "title": "融资数千万！这家公司要用“空间相机”为机器人采集真实世界数据",
-          "angle": "快速报道竹马创新天使+轮融资事件，重点突出其“Camera+AI”定位及对具身智能产业的数据价值。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "e1b3c1ff9320",
-      "source_id": "reddit-ml",
-      "source_name": "Reddit r/MachineLearning",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "\"AI solved one of math's greatest challenges, but it cannot add two numbers reliably?!\" [D]",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1tmrd2z/ai_solved_one_of_maths_greatest_challenges_but_it/",
-      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Suppose your friend, a mathematician, woke up from a 5-year coma. How would you explain this to him? Do we even have an explanation other than &quot;it is what it is&quot;?</p> <p>EDIT: Lots of comments that are basically paraphrasing &quot;it is what it is&quot;, or denying the discrepancy exists. Wrong subreddit, I guess.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/we_are_mammals\"> /u/we_are_mammals </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tmrd2z/ai_solved_one_of_maths_greatest_challenges_but_it/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1tmrd2z/ai_solved_one_of_maths_greatest_challenges_but_it/\">[comments]</a></span>",
-      "published": "2026-05-25T07:12:53+08:00",
-      "fetched_at": "2026-05-25T12:06:22.598303+08:00",
-      "pre_filter_reason": "Discussion about AI's mathematical capabilities is AI-related.",
-      "scores": {
-        "importance": 6,
-        "timeliness": 7,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.2,
-      "topics": [
-        {
-          "tag": "explainer",
-          "title": "AI能解数学难题却算不对2+2？这到底是怎么回事",
-          "angle": "用通俗易懂的方式解释大语言模型在数学推理上的“矛盾”现象：为何能解决复杂问题却在简单计算上犯错，并探讨背后的技术原因。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "086da87e4ad7",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "anthropics /claude-plugins-official",
-      "link": "https://github.com/anthropics/claude-plugins-official",
-      "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "published": "2026-05-25T12:06:24.060355+08:00",
-      "fetched_at": "2026-05-25T12:06:24.060360+08:00",
-      "pre_filter_reason": "AI product launch (Claude plugins)",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 6,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.1,
-      "topics": [
-        {
-          "tag": "list",
-          "title": "官方精选！5个必装的Claude Code插件推荐",
-          "angle": "介绍Anthropic官方目录中的高质量插件，按功能分类（代码审查、文档生成、测试等），并给出安装和使用建议。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "0b1c6fda2d51",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "摩根士丹利：2030年全球半导体产业市场规模或达1.5万亿美元，人工智能相关半导体产品占半壁江山",
-      "link": "https://36kr.com/newsflashes/3824126045933704?f=rss",
-      "summary": "摩根士丹利近日在一份研究报告中指出，到2030年，全球半导体产业市场规模可能达到1.5万亿美元，其中人工智能相关半导体产品贡献份额占半壁江山。主要云服务提供商的云资本支出依然强劲。摩根士丹利云资本支出追踪器估计，到2026年，云资本支出将接近8110亿美元。研究认为，代理式人工智能产生了不断增长的CPU应用机遇。当AI从推理转向执行时，GPU计算强度随之提升。该机构将基准情景下的编排CPU市场总规模（TAM）上调至790亿美元，CPU编排技术的市场附加价值（TAM）预测将达到2380亿美元。（新浪财经）",
-      "published": "2026-05-25T11:02:10+08:00",
-      "fetched_at": "2026-05-25T12:06:03.645986+08:00",
-      "pre_filter_reason": "报告预测AI相关半导体占半壁江山",
-      "scores": {
-        "importance": 8,
-        "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 6,
-        "virality": 7,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.1,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "2030年半导体市场1.5万亿美元，AI芯片占一半，普通人如何看懂？",
-          "angle": "用通俗易懂的方式拆解摩根士丹利报告中的关键数据（市场规模、云资本支出、CPU/GPU需求变化），帮助观众理解AI半导体投资逻辑。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "从推理到执行：AI芯片需求爆发的底层逻辑",
-          "angle": "解释“代理式AI”和“从推理到执行”如何推动CPU和GPU需求，结合报告中的CPU市场TAM上调数据，说明技术趋势对硬件市场的影响。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "c2892d3fceca",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "search",
-      "title": "一季度AI领域融资超1100亿元，国产大模型融资金额暴增，科创AIETF博时(588790)盘初涨超2% - 新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9KWWluNjFCZ0IyMmNvYmFNY0gtdmVQZksweUNDMkp4SEZQZ195WTJlVW9USkJYVzdJY3NVVlZ0dG8zbXZ3dzVtSHhSMHpTRVNLN1Q0Q1R1Nmd4Yi1VQ0IxUll0VFJMSkpGMDJnVDRrbw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE9KWWluNjFCZ0IyMmNvYmFNY0gtdmVQZksweUNDMkp4SEZQZ195WTJlVW9USkJYVzdJY3NVVlZ0dG8zbXZ3dzVtSHhSMHpTRVNLN1Q0Q1R1Nmd4Yi1VQ0IxUll0VFJMSkpGMDJnVDRrbw?oc=5\" target=\"_blank\">一季度AI领域融资超1100亿元，国产大模型融资金额暴增，科创AIETF博时(588790)盘初涨超2%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>",
-      "published": "2026-05-25T10:09:35+08:00",
-      "fetched_at": "2026-05-25T12:06:21.468397+08:00",
-      "pre_filter_reason": "AI领域融资，国产大模型",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 7,
-        "scarcity": 5,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.1,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "一季度AI融资超1100亿，国产大模型为何突然“吸金”？",
-          "angle": "分析融资暴增的驱动因素（政策、技术突破、应用场景），对比国内外大模型融资趋势，帮助观众理解国产AI赛道热度。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "科创AIETF涨超2%！普通投资者如何借道ETF布局AI？",
-          "angle": "以ETF为例，讲解AI主题投资工具的特点、风险与机会，结合融资数据说明市场情绪，适合新手投资者。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "7eb876257e89",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "未来推理将吃掉70%算力，30%留给训练丨硅谷投资人张璐@AIGC2026",
-      "link": "https://www.qbitai.com/2026/05/423441.html",
-      "summary": "这些AI关键词正在被重新定义",
-      "published": "2026-05-25T09:51:37+08:00",
-      "fetched_at": "2026-05-25T12:06:12.026647+08:00",
-      "pre_filter_reason": "AI推理和训练算力讨论",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 6,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.1,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "未来70%算力用于推理，30%留给训练，这意味着什么？",
-          "angle": "解释推理与训练算力分配变化的背后逻辑（AI从开发到应用），结合张璐观点，分析对芯片、云服务、创业公司的影响。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "硅谷投资人张璐：AI关键词正在被重新定义，你理解对了吗？",
-          "angle": "梳理张璐提到的“被重新定义的AI关键词”（如推理、算力、应用），用案例说明新定义如何改变行业认知。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "ca6a09ee47f4",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "search",
-      "title": "EV晨报 | 今年Q1AI融资总额超1100亿，国产大模型与具身智能火爆；鸿蒙机器人操作系统M-Robots OS 2.0发布；“百境大战”催热AI眼镜供应链 - 搜狐网",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNnBhUURIbnVtQWllQnRKSmwtcFYxbHd5dFFtaVZ5ZkNfcC1YeDUteV84NTJJSkcwYjR3OU84aE8waGlweG5fbVRSbTA2aThzN3VuLXNFaVZTNWF6T0R6MW9Wcks1U0FkMkg3SXlZQ01sVG5PaWdWNm5FVEJGenVfMkRKejZ6TUFP?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNnBhUURIbnVtQWllQnRKSmwtcFYxbHd5dFFtaVZ5ZkNfcC1YeDUteV84NTJJSkcwYjR3OU84aE8waGlweG5fbVRSbTA2aThzN3VuLXNFaVZTNWF6T0R6MW9Wcks1U0FkMkg3SXlZQ01sVG5PaWdWNm5FVEJGenVfMkRKejZ6TUFP?oc=5\" target=\"_blank\">EV晨报 | 今年Q1AI融资总额超1100亿，国产大模型与具身智能火爆；鸿蒙机器人操作系统M-Robots OS 2.0发布；“百境大战”催热AI眼镜供应链</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">搜狐网</font>",
-      "published": "2026-05-25T07:52:00+08:00",
-      "fetched_at": "2026-05-25T12:06:21.468463+08:00",
-      "pre_filter_reason": "AI financing, large models, and embodied intelligence are AI-related.",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 6,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.1,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "鸿蒙机器人操作系统发布！国产机器人OS能挑战安卓吗？",
-          "angle": "对比鸿蒙M-Robots OS 2.0与现有机器人系统（如ROS），分析其技术特点、生态优势及对具身智能产业的推动。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "“百镜大战”催热AI眼镜供应链，一文看懂产业链机会",
-          "angle": "梳理AI眼镜从芯片、光学模组到整机的供应链环节，结合融资与政策热点，分析哪些环节可能率先受益。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "b3488e85be66",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "芯动科技国产首发全套 UALink 纵向扩展高速互联 IP 组合",
-      "link": "https://www.ithome.com/0/954/744.htm",
-      "summary": "<p>IT之家 5 月 25 日消息，芯动科技 (Innosilicon) 近日宣布国产首发适用于 AI 算力基础设施纵向扩展 (Scale-Up) 的<strong>全套 UALink 高速互联 IP 组合</strong>。支持先进的高性能 112Gbps / 224Gbps 单通道物理层 (PHY)。</p><p>芯动科技表示，此次其发布的 IP 套件已通过客户系统验证，适配各类 XPU 算力芯片，兼容 800Gbps / 1.6Tbps 光模块及 OIO、CPO 光电融合架构。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/5/336a6689-a8c9-4379-ab50-d3d7b0505581.png?x-bce-process=image/format,f_auto\" /></p><p>芯动科技现已量产搭载纠错算法与低功耗架构的 112Gbps 版本 IP，典型光模块应用场景下的纠错前误码率低至 2×10<sup>-10</sup>；与此同时 224Gbps UALink IP 已完成流片，各项仿真验证参数均达标，计划年内开启全球授权。</p>",
-      "published": "2026-05-25T11:10:06+08:00",
-      "fetched_at": "2026-05-25T12:06:17.585741+08:00",
-      "pre_filter_reason": "UALink互联IP用于AI算力基础设施",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 6,
-        "scarcity": 8,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "芯动科技首发UALink IP！国产AI互联技术如何突破“卡脖子”？",
-          "angle": "解释UALink技术在AI算力集群中的关键作用（高速互联、纵向扩展），对比英伟达NVLink，说明国产替代进展与意义。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "112Gbps/224Gbps！芯动科技新IP如何让AI芯片“跑得更快”？",
-          "angle": "用比喻（如高速公路车道数）解释高速互联IP的技术参数，结合800G光模块、CPO等概念，展示技术如何提升AI训练效率。",
-          "difficulty": "入门"
         }
       ]
     }
