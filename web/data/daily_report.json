@@ -1,20 +1,24 @@
 {
-  "title": "AI日报 - 2026年05月27日",
+  "title": "AI日报 - 2026年05月28日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "NVIDIA CUDA 13.3 Enhances GPU Development with Tile Programming in C++, Compiler Autotuning, and Python Updates",
-          "summary": "NVIDIA发布CUDA 13.3，引入C++ Tile编程、编译器自动调优及Python更新，提升GPU开发效率。"
+          "title": "Building self-improving tax agents with Codex",
+          "summary": "OpenAI发布基于Codex的自我改进税务代理，展示AI在专业领域的自动化能力。"
         },
         {
-          "title": "AI 制造 AI：面壁智能开源全球首个完全由 AI 编写的生产级训练框架 ForgeTrain",
-          "summary": "面壁智能开源全球首个完全由AI编写的生产级训练框架ForgeTrain，标志AI自主开发迈入新阶段。"
+          "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
+          "summary": "思科与OpenAI合作，利用Codex重塑企业工程流程，提升开发效率。"
         },
         {
-          "title": "刚刚，国产Agent模型闯入全球第一梯队！限时免费",
-          "summary": "国产Agent模型突破性进入全球第一梯队，并宣布限时免费开放使用。"
+          "title": "NVIDIA Dynamo Snapshot: Fast Startup for Inference Workloads on Kubernetes",
+          "summary": "NVIDIA推出Dynamo Snapshot，加速Kubernetes上推理工作负载的启动速度。"
+        },
+        {
+          "title": "What’s New for Game Developers in NVIDIA RTX: DLSS 4.5 for UE5 and Multilingual AI Characters",
+          "summary": "NVIDIA发布RTX更新，包括DLSS 4.5支持虚幻引擎5和多语言AI角色，赋能游戏开发。"
         }
       ]
     },
@@ -22,16 +26,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "硅谷AI一线观察：一人花掉50万美金Token背后的大厂焦虑",
-          "summary": "硅谷大厂因高昂Token成本陷入焦虑，单用户Token消耗高达50万美元引发行业反思。"
+          "title": "消息称国家大基金领投 DeepSeek 首轮融资，投前估值 450 亿美元",
+          "summary": "国家大基金领投DeepSeek首轮融资，投前估值达450亿美元，显示国产AI大模型获资本强力支持。"
         },
         {
-          "title": "微软将弃用Claude：太贵了还是薅明白了？",
-          "summary": "微软计划弃用Claude，背后或出于成本控制与战略调整的考量。"
+          "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks",
+          "summary": "Artificial Analysis与IBM发布首个企业IT代理基准测试，前沿模型得分不足50%，揭示Agent落地挑战。"
         },
         {
-          "title": "1.5亿！零一万物获AI大单",
-          "summary": "零一万物获得1.5亿元AI大单，显示国内AI商业化落地加速。"
+          "title": "YouTube to automatically label AI-generated videos",
+          "summary": "YouTube将自动标记AI生成视频，加强内容透明度与合规性。"
+        },
+        {
+          "title": "1400亿Agent入场，“流量”这条护城河要塌了",
+          "summary": "Agent经济规模达1400亿美元，传统流量模式面临颠覆，AI代理正在重塑互联网商业格局。"
         }
       ]
     },
@@ -39,16 +47,12 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "留给人类数学家的悬赏不多了！谷歌DeepMind一口气解决9道埃尔德什问题",
-          "summary": "谷歌DeepMind利用AI一次性解决9道埃尔德什数学难题，展现AI在数学推理上的突破。"
+          "title": "\"Unified Neural Scaling Laws\" paper release",
+          "summary": "新研究提出统一神经缩放定律，为理解不同模型规模下的性能增长提供理论框架。"
         },
         {
-          "title": "Gemma 4 多词元预测：生成速度最高提升约 3 倍",
-          "summary": "Gemma 4通过多词元预测技术实现生成速度最高提升约3倍，显著优化推理效率。"
-        },
-        {
-          "title": "Code Arena放榜：阿里千问3.7编程能力超越GPT、Gemini，仅次于Claude系列",
-          "summary": "阿里千问3.7在Code Arena编程评测中超越GPT和Gemini，仅次于Claude系列。"
+          "title": "AI-generated CUDA kernels silently break training and inference",
+          "summary": "研究发现AI生成的CUDA内核可能静默导致训练和推理错误，警示开发者需谨慎使用。"
         }
       ]
     },
@@ -56,17 +60,17 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "DeepSeek陈德里开发自动研究Skill，写一篇论文人类只动脑2小时",
-          "summary": "DeepSeek开发自动研究技能，将论文撰写中人类主动思考时间压缩至仅2小时。"
+          "title": "Tech CEOs are apparently suffering from AI psychosis",
+          "summary": "评论指出科技CEO对AI过度狂热，可能导致战略误判，呼吁理性看待技术浪潮。"
         },
         {
-          "title": "机器人启蒙，需要一所能“犯错”的幼儿园",
-          "summary": "观点：机器人教育应允许试错，建立类似“幼儿园”的容错环境以促进技术成长。"
+          "title": "I think Anthropic and OpenAI have found product-market fit",
+          "summary": "分析认为Anthropic和OpenAI已找到产品市场契合点，AI公司从技术驱动转向商业验证。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦自主开发与成本博弈：AI自造框架、数学突破与Token焦虑并存，商业化落地加速。",
-  "generated_at": "2026-05-27T12:07:27.006315+08:00",
+  "summary": "今日AI圈聚焦Agent落地与资本热潮，前沿模型在基准测试中仍显不足，同时AI生成代码的安全问题引发关注。",
+  "generated_at": "2026-05-28T11:55:30.277420+08:00",
   "source_count": 20
 }
