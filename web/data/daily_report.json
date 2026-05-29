@@ -1,24 +1,20 @@
 {
-  "title": "AI日报 - 2026年05月28日",
+  "title": "AI日报 - 2026年05月29日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "Building self-improving tax agents with Codex",
-          "summary": "OpenAI发布基于Codex的自我改进税务代理，展示AI在专业领域的自动化能力。"
+          "title": "Claude 4.8炸场！部分能力超过Mythos，支持数百子智能体并行",
+          "summary": "Anthropic发布Claude 4.8，部分能力超越Mythos，支持数百子智能体并行，引发广泛关注。"
         },
         {
-          "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
-          "summary": "思科与OpenAI合作，利用Codex重塑企业工程流程，提升开发效率。"
+          "title": "Run Step 3.7 Flash on NVIDIA GPUs with Enterprise-Ready Multimodal AI",
+          "summary": "NVIDIA推出企业级多模态AI方案，支持在GPU上运行Step 3.7 Flash模型。"
         },
         {
-          "title": "NVIDIA Dynamo Snapshot: Fast Startup for Inference Workloads on Kubernetes",
-          "summary": "NVIDIA推出Dynamo Snapshot，加速Kubernetes上推理工作负载的启动速度。"
-        },
-        {
-          "title": "What’s New for Game Developers in NVIDIA RTX: DLSS 4.5 for UE5 and Multilingual AI Characters",
-          "summary": "NVIDIA发布RTX更新，包括DLSS 4.5支持虚幻引擎5和多语言AI角色，赋能游戏开发。"
+          "title": "全球首个完全AI编写的训练框架来了，速度反超英伟达：面壁要用 AI 把国产算力软件重写一遍",
+          "summary": "面壁发布全球首个完全由AI编写的训练框架，性能超越英伟达方案，旨在重写国产算力软件。"
         }
       ]
     },
@@ -26,20 +22,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "消息称国家大基金领投 DeepSeek 首轮融资，投前估值 450 亿美元",
-          "summary": "国家大基金领投DeepSeek首轮融资，投前估值达450亿美元，显示国产AI大模型获资本强力支持。"
+          "title": "Anthropic完成650亿融资，估值9650亿首次反超OpenAI",
+          "summary": "Anthropic以9650亿估值完成650亿融资，首次超越OpenAI，成为AI领域估值最高独角兽。"
         },
         {
-          "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks",
-          "summary": "Artificial Analysis与IBM发布首个企业IT代理基准测试，前沿模型得分不足50%，揭示Agent落地挑战。"
+          "title": "欧盟或将与Anthropic洽谈获取Mythos模型访问权限",
+          "summary": "欧盟计划与Anthropic谈判获取其顶级模型Mythos的访问权限，加强AI监管与主权。"
         },
         {
-          "title": "YouTube to automatically label AI-generated videos",
-          "summary": "YouTube将自动标记AI生成视频，加强内容透明度与合规性。"
+          "title": "利润腰斩也要卷AI！小米模型永久降价99%，雷军还要再砸600亿",
+          "summary": "小米宣布AI模型永久降价99%，并计划再投入600亿元，以激进策略抢占AI市场。"
         },
         {
-          "title": "1400亿Agent入场，“流量”这条护城河要塌了",
-          "summary": "Agent经济规模达1400亿美元，传统流量模式面临颠覆，AI代理正在重塑互联网商业格局。"
+          "title": "腾讯云AI加速出海 ：Agent基建升级，WorkBuddy、Miora全球上线",
+          "summary": "腾讯云升级AI Agent基础设施，WorkBuddy和Miora两款产品正式全球上线，加速出海。"
         }
       ]
     },
@@ -47,12 +43,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "\"Unified Neural Scaling Laws\" paper release",
-          "summary": "新研究提出统一神经缩放定律，为理解不同模型规模下的性能增长提供理论框架。"
+          "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
+          "summary": "神秘模型Hy3在OpenRouter排行榜上以大幅优势登顶，引发对其来源和能力的广泛猜测。"
         },
         {
-          "title": "AI-generated CUDA kernels silently break training and inference",
-          "summary": "研究发现AI生成的CUDA内核可能静默导致训练和推理错误，警示开发者需谨慎使用。"
+          "title": "5篇AI生成的数学论文被接收！00后创始人洪乐潼融资14个亿",
+          "summary": "00后创始人洪乐潼团队用AI生成5篇数学论文被接收，并获14亿元融资，展示AI科研潜力。"
+        },
+        {
+          "title": "NVIDIA Blackwell Sets STAC-AI Record for LLM Inference in Finance",
+          "summary": "NVIDIA Blackwell平台在金融领域LLM推理基准测试STAC-AI中创下新纪录。"
         }
       ]
     },
@@ -60,17 +60,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "Tech CEOs are apparently suffering from AI psychosis",
-          "summary": "评论指出科技CEO对AI过度狂热，可能导致战略误判，呼吁理性看待技术浪潮。"
+          "title": "AI正在重写软件行业？8岁孩子做操作系统，一人公司拿下千万订单",
+          "summary": "AI降低开发门槛，8岁孩子能制作操作系统，一人公司也能拿下千万订单，软件行业面临重塑。"
         },
         {
-          "title": "I think Anthropic and OpenAI have found product-market fit",
-          "summary": "分析认为Anthropic和OpenAI已找到产品市场契合点，AI公司从技术驱动转向商业验证。"
+          "title": "米哈游一夜烧掉200万元Token，大厂高管也开始质疑：Token烧不出价值，但养肥了谁？",
+          "summary": "米哈游单日Token消耗达200万元，引发行业对AI投入产出比的质疑，讨论Token经济泡沫。"
+        },
+        {
+          "title": "OpenAI’s Frontier Governance Framework",
+          "summary": "OpenAI发布前沿治理框架，旨在规范AI发展，平衡创新与安全。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦Agent落地与资本热潮，前沿模型在基准测试中仍显不足，同时AI生成代码的安全问题引发关注。",
-  "generated_at": "2026-05-28T11:55:30.277420+08:00",
+  "summary": "今日AI圈融资与模型竞赛白热化，Anthropic反超OpenAI，小米降价，AI生成内容与工具正颠覆传统行业。",
+  "generated_at": "2026-05-29T11:56:50.814967+08:00",
   "source_count": 20
 }
