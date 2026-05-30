@@ -1,20 +1,24 @@
 {
-  "title": "AI日报 - 2026年05月29日",
+  "title": "AI日报 - 2026年05月30日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "Claude 4.8炸场！部分能力超过Mythos，支持数百子智能体并行",
-          "summary": "Anthropic发布Claude 4.8，部分能力超越Mythos，支持数百子智能体并行，引发广泛关注。"
+          "title": "OpenAI 升级 GPT-5.5 Instant 模型，AI 回复更自然、易读",
+          "summary": "OpenAI发布GPT-5.5 Instant，提升对话自然度和可读性。"
         },
         {
-          "title": "Run Step 3.7 Flash on NVIDIA GPUs with Enterprise-Ready Multimodal AI",
-          "summary": "NVIDIA推出企业级多模态AI方案，支持在GPU上运行Step 3.7 Flash模型。"
+          "title": "4nm！比亚迪自研AI芯片来了：制程对齐英伟达，算力拉爆特斯拉",
+          "summary": "比亚迪推出4nm自研AI芯片，制程对标英伟达，算力超越特斯拉。"
         },
         {
-          "title": "全球首个完全AI编写的训练框架来了，速度反超英伟达：面壁要用 AI 把国产算力软件重写一遍",
-          "summary": "面壁发布全球首个完全由AI编写的训练框架，性能超越英伟达方案，旨在重写国产算力软件。"
+          "title": "思格新能源发布行业首个全域AI智能体，能源管理进入智能体时代",
+          "summary": "思格新能源推出全域AI智能体，推动能源管理智能化。"
+        },
+        {
+          "title": "5亿Tokens白送！全球首个商用AI主机发布，终于能放开烧Token了",
+          "summary": "全球首款商用AI主机发布，赠送5亿Tokens，降低AI使用门槛。"
         }
       ]
     },
@@ -22,20 +26,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "Anthropic完成650亿融资，估值9650亿首次反超OpenAI",
-          "summary": "Anthropic以9650亿估值完成650亿融资，首次超越OpenAI，成为AI领域估值最高独角兽。"
+          "title": "独家解读｜Anthropic 估值再翻倍逼近万亿，登顶全球 AI 第一的“秘密”是什么？",
+          "summary": "Anthropic估值翻倍接近万亿，分析其登顶全球AI第一的关键因素。"
         },
         {
-          "title": "欧盟或将与Anthropic洽谈获取Mythos模型访问权限",
-          "summary": "欧盟计划与Anthropic谈判获取其顶级模型Mythos的访问权限，加强AI监管与主权。"
+          "title": "硅谷大佬发出Anthropic垄断预警：4个月ARR翻了4倍，18个月后或将营收破万亿独霸全球",
+          "summary": "硅谷人士警告Anthropic垄断风险，其ARR四个月内增长四倍，营收或破万亿。"
         },
         {
-          "title": "利润腰斩也要卷AI！小米模型永久降价99%，雷军还要再砸600亿",
-          "summary": "小米宣布AI模型永久降价99%，并计划再投入600亿元，以激进策略抢占AI市场。"
+          "title": "美军人形机器人已实战部署",
+          "summary": "美军正式实战部署人形机器人，标志军事AI应用迈入新阶段。"
         },
         {
-          "title": "腾讯云AI加速出海 ：Agent基建升级，WorkBuddy、Miora全球上线",
-          "summary": "腾讯云升级AI Agent基础设施，WorkBuddy和Miora两款产品正式全球上线，加速出海。"
+          "title": "LLMShare 攻击披露：ChatGPT 共享页变恶意入口，通过谷歌搜索精准投毒",
+          "summary": "新型攻击利用ChatGPT共享页，通过谷歌搜索实施精准投毒。"
         }
       ]
     },
@@ -43,16 +47,20 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
-          "summary": "神秘模型Hy3在OpenRouter排行榜上以大幅优势登顶，引发对其来源和能力的广泛猜测。"
+          "title": "DynoSim: Simulating the Pareto Frontier",
+          "summary": "NVIDIA发布DynoSim，用于模拟AI模型性能的帕累托前沿。"
         },
         {
-          "title": "5篇AI生成的数学论文被接收！00后创始人洪乐潼融资14个亿",
-          "summary": "00后创始人洪乐潼团队用AI生成5篇数学论文被接收，并获14亿元融资，展示AI科研潜力。"
+          "title": "刚刚，全球首个“事件级预测”具身智能世界模型来了！",
+          "summary": "全球首个事件级预测具身智能世界模型发布，实现精准事件预测。"
         },
         {
-          "title": "NVIDIA Blackwell Sets STAC-AI Record for LLM Inference in Finance",
-          "summary": "NVIDIA Blackwell平台在金融领域LLM推理基准测试STAC-AI中创下新纪录。"
+          "title": "Building a monokernel for LLM inference on AMD MI300X - up to 3,300 output tokens/s per request [P]",
+          "summary": "研究者在AMD MI300X上构建LLM推理单内核，实现每请求3300 tokens/s。"
+        },
+        {
+          "title": "英伟达推出 LocateAnything，主打 AI 高速、高精度检测对象",
+          "summary": "英伟达发布LocateAnything，实现高速高精度对象检测。"
         }
       ]
     },
@@ -60,21 +68,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "AI正在重写软件行业？8岁孩子做操作系统，一人公司拿下千万订单",
-          "summary": "AI降低开发门槛，8岁孩子能制作操作系统，一人公司也能拿下千万订单，软件行业面临重塑。"
+          "title": "A shared playbook for trustworthy third party evaluations",
+          "summary": "OpenAI发布第三方可信评估共享指南，推动AI安全评估标准化。"
         },
         {
-          "title": "米哈游一夜烧掉200万元Token，大厂高管也开始质疑：Token烧不出价值，但养肥了谁？",
-          "summary": "米哈游单日Token消耗达200万元，引发行业对AI投入产出比的质疑，讨论Token经济泡沫。"
+          "title": "How Braintrust turns customer requests into code with Codex",
+          "summary": "Braintrust利用Codex将客户需求自动转化为代码，提升开发效率。"
         },
         {
-          "title": "OpenAI’s Frontier Governance Framework",
-          "summary": "OpenAI发布前沿治理框架，旨在规范AI发展，平衡创新与安全。"
+          "title": "全球首发 | SLAI基于国产算力集群完成DeepSeek-V4-Pro全参数后训练",
+          "summary": "SLAI基于国产算力完成DeepSeek-V4-Pro全参数后训练，展示国产算力潜力。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈融资与模型竞赛白热化，Anthropic反超OpenAI，小米降价，AI生成内容与工具正颠覆传统行业。",
-  "generated_at": "2026-05-29T11:56:50.814967+08:00",
+  "summary": "今日AI圈聚焦模型升级、芯片突破与安全挑战，具身智能和军事应用加速落地，国产算力崛起。",
+  "generated_at": "2026-05-30T11:41:44.960768+08:00",
   "source_count": 20
 }
