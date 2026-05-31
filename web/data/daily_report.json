@@ -1,24 +1,20 @@
 {
-  "title": "AI日报 - 2026年05月30日",
+  "title": "AI日报 - 2026年05月31日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "OpenAI 升级 GPT-5.5 Instant 模型，AI 回复更自然、易读",
-          "summary": "OpenAI发布GPT-5.5 Instant，提升对话自然度和可读性。"
+          "title": "小米技术：MiMo-V2.5实现五大核心突破，降价后仍能实现收支平衡",
+          "summary": "小米发布MiMo-V2.5模型，在五大核心技术上取得突破，并实现降价后收支平衡。"
         },
         {
-          "title": "4nm！比亚迪自研AI芯片来了：制程对齐英伟达，算力拉爆特斯拉",
-          "summary": "比亚迪推出4nm自研AI芯片，制程对标英伟达，算力超越特斯拉。"
+          "title": "BEYOND Expo 2026现场：联汇科技Om AI首发的OttoBox视频创作助理，把视频粗剪从8小时拉进30分钟",
+          "summary": "联汇科技推出OttoBox视频创作助理，将粗剪时间从8小时缩短至30分钟。"
         },
         {
-          "title": "思格新能源发布行业首个全域AI智能体，能源管理进入智能体时代",
-          "summary": "思格新能源推出全域AI智能体，推动能源管理智能化。"
-        },
-        {
-          "title": "5亿Tokens白送！全球首个商用AI主机发布，终于能放开烧Token了",
-          "summary": "全球首款商用AI主机发布，赠送5亿Tokens，降低AI使用门槛。"
+          "title": "OpenBMB /VoxCPM",
+          "summary": "OpenBMB开源VoxCPM项目，推动语音模型发展。"
         }
       ]
     },
@@ -26,20 +22,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "独家解读｜Anthropic 估值再翻倍逼近万亿，登顶全球 AI 第一的“秘密”是什么？",
-          "summary": "Anthropic估值翻倍接近万亿，分析其登顶全球AI第一的关键因素。"
+          "title": "1家3口车祸身亡 事发前司机激活智驾",
+          "summary": "一起致命车祸引发对智能驾驶安全性的广泛关注，事故前司机激活了智驾功能。"
         },
         {
-          "title": "硅谷大佬发出Anthropic垄断预警：4个月ARR翻了4倍，18个月后或将营收破万亿独霸全球",
-          "summary": "硅谷人士警告Anthropic垄断风险，其ARR四个月内增长四倍，营收或破万亿。"
+          "title": "AI大模型龙头，启动A股IPO - 新浪财经",
+          "summary": "国内AI大模型龙头企业正式启动A股IPO进程，资本市场迎来新玩家。"
         },
         {
-          "title": "美军人形机器人已实战部署",
-          "summary": "美军正式实战部署人形机器人，标志军事AI应用迈入新阶段。"
+          "title": "智元机器人合伙人姚卯青：今年上半年智元海外收入占比已近20%",
+          "summary": "智元机器人海外收入占比接近20%，全球化布局加速。"
         },
         {
-          "title": "LLMShare 攻击披露：ChatGPT 共享页变恶意入口，通过谷歌搜索精准投毒",
-          "summary": "新型攻击利用ChatGPT共享页，通过谷歌搜索实施精准投毒。"
+          "title": "20 亿美元机器人独角兽将民宿当实验室：多套 Airbnb 房源受损，房东发起诉讼",
+          "summary": "一家估值20亿美元的机器人公司因在Airbnb进行测试导致房源受损，遭房东起诉。"
         }
       ]
     },
@@ -47,20 +43,12 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "DynoSim: Simulating the Pareto Frontier",
-          "summary": "NVIDIA发布DynoSim，用于模拟AI模型性能的帕累托前沿。"
+          "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
+          "summary": "英伟达与清华团队推出Gamma-World，实现多人共处的世界模型，突破单人交互局限。"
         },
         {
-          "title": "刚刚，全球首个“事件级预测”具身智能世界模型来了！",
-          "summary": "全球首个事件级预测具身智能世界模型发布，实现精准事件预测。"
-        },
-        {
-          "title": "Building a monokernel for LLM inference on AMD MI300X - up to 3,300 output tokens/s per request [P]",
-          "summary": "研究者在AMD MI300X上构建LLM推理单内核，实现每请求3300 tokens/s。"
-        },
-        {
-          "title": "英伟达推出 LocateAnything，主打 AI 高速、高精度检测对象",
-          "summary": "英伟达发布LocateAnything，实现高速高精度对象检测。"
+          "title": "从Token无上限到全员Agent：MiniMax的AI Native组织进化实践",
+          "summary": "MiniMax分享AI Native组织进化实践，从Token无上限到全员Agent模式。"
         }
       ]
     },
@@ -68,21 +56,17 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "A shared playbook for trustworthy third party evaluations",
-          "summary": "OpenAI发布第三方可信评估共享指南，推动AI安全评估标准化。"
+          "title": "AI 编程工具普及背后：效率提升的假象与代码维护的隐患",
+          "summary": "AI编程工具虽提升效率，但可能带来代码维护隐患，需警惕效率假象。"
         },
         {
-          "title": "How Braintrust turns customer requests into code with Codex",
-          "summary": "Braintrust利用Codex将客户需求自动转化为代码，提升开发效率。"
-        },
-        {
-          "title": "全球首发 | SLAI基于国产算力集群完成DeepSeek-V4-Pro全参数后训练",
-          "summary": "SLAI基于国产算力完成DeepSeek-V4-Pro全参数后训练，展示国产算力潜力。"
+          "title": "早报｜曝苹果用谷歌AI训练自己模型/黄仁勋：工程师不烧Token我会气炸/工信部：动力电池进入规模化退役阶段",
+          "summary": "苹果被曝使用谷歌AI训练模型，黄仁勋强调Token消耗的重要性，动力电池退役潮来临。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦模型升级、芯片突破与安全挑战，具身智能和军事应用加速落地，国产算力崛起。",
-  "generated_at": "2026-05-30T11:41:44.960768+08:00",
+  "summary": "今日AI圈聚焦智能驾驶安全争议、模型开源与IPO热潮，同时警惕AI工具效率假象，世界模型与机器人商业化加速推进。",
+  "generated_at": "2026-05-31T12:07:54.186905+08:00",
   "source_count": 20
 }
