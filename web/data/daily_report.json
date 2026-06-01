@@ -1,20 +1,24 @@
 {
-  "title": "AI日报 - 2026年05月31日",
+  "title": "AI日报 - 2026年06月01日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "小米技术：MiMo-V2.5实现五大核心突破，降价后仍能实现收支平衡",
-          "summary": "小米发布MiMo-V2.5模型，在五大核心技术上取得突破，并实现降价后收支平衡。"
+          "title": "NVIDIA Vera CPU Sets a New Standard for Agentic Workloads in AI Factories",
+          "summary": "英伟达发布Vera CPU，专为AI工厂中的智能体工作负载设计，树立新标准。"
         },
         {
-          "title": "BEYOND Expo 2026现场：联汇科技Om AI首发的OttoBox视频创作助理，把视频粗剪从8小时拉进30分钟",
-          "summary": "联汇科技推出OttoBox视频创作助理，将粗剪时间从8小时缩短至30分钟。"
+          "title": "黄仁勋：英伟达下一代 AI 超级芯片平台 Vera Rubin 全面投产",
+          "summary": "英伟达CEO黄仁勋宣布下一代AI超级芯片平台Vera Rubin已全面投产。"
         },
         {
-          "title": "OpenBMB /VoxCPM",
-          "summary": "OpenBMB开源VoxCPM项目，推动语音模型发展。"
+          "title": "NVIDIA DSX OS Delivers Open, Modular Software for Operating AI Factories at Scale",
+          "summary": "英伟达推出开源模块化操作系统DSX OS，用于大规模运营AI工厂。"
+        },
+        {
+          "title": "Anthropic在Code With Claude上发布托管式智能体、主动式工作流与能力曲线",
+          "summary": "Anthropic发布托管式智能体和主动式工作流，并展示能力曲线。"
         }
       ]
     },
@@ -22,20 +26,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "1家3口车祸身亡 事发前司机激活智驾",
-          "summary": "一起致命车祸引发对智能驾驶安全性的广泛关注，事故前司机激活了智驾功能。"
+          "title": "英伟达：Anthropic、OpenAI等企业将率先采用新款Vera芯片",
+          "summary": "英伟达透露Anthropic、OpenAI等企业将率先采用新款Vera芯片。"
         },
         {
-          "title": "AI大模型龙头，启动A股IPO - 新浪财经",
-          "summary": "国内AI大模型龙头企业正式启动A股IPO进程，资本市场迎来新玩家。"
+          "title": "派早报：Anthropic 估值超过 OpenAI",
+          "summary": "Anthropic估值已超过OpenAI，成为AI领域新估值标杆。"
         },
         {
-          "title": "智元机器人合伙人姚卯青：今年上半年智元海外收入占比已近20%",
-          "summary": "智元机器人海外收入占比接近20%，全球化布局加速。"
+          "title": "OpenAI 向日本金融机构开放 GPT-5.5 Cyber 模型，以应对 AI 驱动的网络攻击新威胁",
+          "summary": "OpenAI向日本金融机构开放GPT-5.5 Cyber模型，用于防御AI驱动的网络攻击。"
         },
         {
-          "title": "20 亿美元机器人独角兽将民宿当实验室：多套 Airbnb 房源受损，房东发起诉讼",
-          "summary": "一家估值20亿美元的机器人公司因在Airbnb进行测试导致房源受损，遭房东起诉。"
+          "title": "挑剔的欧足联，为何把AI+云独家权益给了阿里？",
+          "summary": "欧足联将AI+云独家权益授予阿里，凸显阿里在体育AI领域的实力。"
         }
       ]
     },
@@ -43,12 +47,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
-          "summary": "英伟达与清华团队推出Gamma-World，实现多人共处的世界模型，突破单人交互局限。"
+          "title": "机器人原生世界动作模型问世！首创时空一体架构，复旦系团队出品",
+          "summary": "复旦系团队发布机器人原生世界动作模型，首创时空一体架构。"
         },
         {
-          "title": "从Token无上限到全员Agent：MiniMax的AI Native组织进化实践",
-          "summary": "MiniMax分享AI Native组织进化实践，从Token无上限到全员Agent模式。"
+          "title": "去掉 VAE 之后，商汤用 8B 参数重新定义了开源生图的上限",
+          "summary": "商汤推出8B参数开源生图模型，去掉VAE后重新定义了图像生成上限。"
+        },
+        {
+          "title": "四道题评测 Qwen3.7-Max：从空间推理到 3D 建模，它离 Agent 更近了吗？",
+          "summary": "评测显示Qwen3.7-Max在空间推理和3D建模上表现优异，向Agent迈进。"
         }
       ]
     },
@@ -56,17 +64,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "AI 编程工具普及背后：效率提升的假象与代码维护的隐患",
-          "summary": "AI编程工具虽提升效率，但可能带来代码维护隐患，需警惕效率假象。"
+          "title": "英伟达CEO黄仁勋：从产业的角度来看，Token就是资产、已经成为获利的营收单位",
+          "summary": "黄仁勋指出Token已成为资产和营收单位，强调AI产业经济价值。"
         },
         {
-          "title": "早报｜曝苹果用谷歌AI训练自己模型/黄仁勋：工程师不烧Token我会气炸/工信部：动力电池进入规模化退役阶段",
-          "summary": "苹果被曝使用谷歌AI训练模型，黄仁勋强调Token消耗的重要性，动力电池退役潮来临。"
+          "title": "编程脚手架狂揽 20 万星，Agent 基础设施成 GitHub 新战场",
+          "summary": "编程脚手架项目获20万星，Agent基础设施成为GitHub热门领域。"
+        },
+        {
+          "title": "硬氪观察 | 苹果代工厂开造人形机器人，一场豪赌未来的产能大迁移",
+          "summary": "苹果代工厂进军人形机器人制造，预示产能大迁移趋势。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦智能驾驶安全争议、模型开源与IPO热潮，同时警惕AI工具效率假象，世界模型与机器人商业化加速推进。",
-  "generated_at": "2026-05-31T12:07:54.186905+08:00",
+  "summary": "今日AI圈聚焦英伟达Vera芯片全面投产与Agent基础设施爆发，模型开源和机器人研究加速推进。",
+  "generated_at": "2026-06-01T12:22:27.860717+08:00",
   "source_count": 20
 }
