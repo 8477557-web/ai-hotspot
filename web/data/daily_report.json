@@ -1,20 +1,24 @@
 {
-  "title": "AI日报 - 2026年06月03日",
+  "title": "AI日报 - 2026年06月04日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "Holo3.1: Fast & Local Computer Use Agents",
-          "summary": "Hugging Face发布Holo3.1，主打快速、本地化的计算机使用智能体。"
+          "title": "Introducing new capabilities to GPT-Rosalind",
+          "summary": "OpenAI为GPT-Rosalind模型新增多项能力，进一步拓展其在复杂任务中的应用边界。"
         },
         {
-          "title": "Codex is becoming a productivity tool for everyone",
-          "summary": "OpenAI宣布Codex转型为面向所有人的生产力工具，拓展应用场景。"
+          "title": "刚刚，Windows「梦中神机」来了，把你的 PC 变成 Agent 工位",
+          "summary": "微软推出全新Windows功能，将个人电脑转化为智能Agent工作台，提升自动化与交互体验。"
         },
         {
-          "title": "Build Personal AI Agents on Windows PCs with New Tools from Microsoft and NVIDIA",
-          "summary": "微软与英伟达联合推出新工具，支持在Windows PC上构建个人AI智能体。"
+          "title": "千问宣布向第三方Agent、Skill全面开放，肯德基、瑞幸、蜜雪冰城、东航将首批接入",
+          "summary": "阿里千问大模型开放第三方Agent与技能接入，首批合作品牌涵盖餐饮与航空领域。"
+        },
+        {
+          "title": "扣子3.0实测：手机就能远程遥控你电脑里的Agent",
+          "summary": "扣子3.0版本支持手机远程操控电脑端Agent，实现跨设备智能协同。"
         }
       ]
     },
@@ -22,20 +26,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "DeepSeek计划在首轮融资中募资约70亿美元",
-          "summary": "DeepSeek拟融资约70亿美元，创下AI领域融资新纪录。"
+          "title": "刚刚，Anthropic提交了招股书！",
+          "summary": "AI公司Anthropic正式提交IPO招股书，标志其进入资本市场新阶段。"
         },
         {
-          "title": "智谱启动A股科创板上市，拟募资150亿元投向大模型与MaaS",
-          "summary": "智谱启动科创板上市，计划募资150亿元用于大模型与MaaS业务。"
+          "title": "36氪独家 | 火山引擎提升MaaS营收目标至全年150亿元，Seedance 2.0单月营收已超10亿元",
+          "summary": "火山引擎上调MaaS营收目标至150亿元，其视频生成模型Seedance 2.0月收入突破10亿。"
         },
         {
-          "title": "黄仁勋宣布 Rubin 全面投产，4万名工程师参与构建！史上最强CPU同步亮相",
-          "summary": "英伟达CEO黄仁勋宣布Rubin芯片全面投产，并展示史上最强CPU。"
+          "title": "北京 19 个路口上线 AI 红绿灯，拥堵指数下降约 19%",
+          "summary": "北京19个路口部署AI红绿灯系统，试点区域拥堵指数平均下降19%。"
         },
         {
-          "title": "豆包6月下旬正式付费，并加速打通抖音电商",
-          "summary": "字节跳动旗下豆包将于6月下旬开启付费模式，并加速与抖音电商整合。"
+          "title": "英国工党议员起诉马斯克旗下 xAI：Grok AI 生成其色情深度伪造图像",
+          "summary": "英国工党议员起诉xAI，指控Grok AI生成其深度伪造色情图像，引发AI伦理争议。"
         }
       ]
     },
@@ -43,12 +47,20 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "Deploy Self-Evolving Agents for Faster, More Secure Research with a Hermes Agent and NVIDIA NemoClaw",
-          "summary": "NVIDIA发布Hermes Agent与NemoClaw，实现自我进化智能体以加速安全研究。"
+          "title": "刚刚，李飞飞亲自下场定义世界模型",
+          "summary": "李飞飞团队发布世界模型新定义，为具身智能与物理世界理解提供理论框架。"
         },
         {
-          "title": "机器人运控训练步入分钟级时代！清华AIR开源UniLab：3分钟训好人形，速度暴涨10倍",
-          "summary": "清华AIR开源UniLab，将人形机器人运控训练速度提升10倍至分钟级。"
+          "title": "Direct Preference Optimization Beyond Chatbots",
+          "summary": "Hugging Face博客提出将直接偏好优化（DPO）扩展至聊天机器人之外的更多场景。"
+        },
+        {
+          "title": "世界模型榜首易主！跨维智能登顶WorldArena",
+          "summary": "跨维智能在WorldArena世界模型评测中超越此前榜首，登顶第一。"
+        },
+        {
+          "title": "拒绝蒸馏！微软发布自研MAI-Thinking-1追平Claude Opus 4.6：完全从零训练，不沾任何第三方模型输出",
+          "summary": "微软发布自研模型MAI-Thinking-1，完全从零训练，性能追平Claude Opus 4.6。"
         }
       ]
     },
@@ -56,17 +68,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "一月烧掉5亿美元才醒悟：把 Token 当 KPI是AI转型里最贵的坑！亚马逊连夜撤下排行榜",
-          "summary": "业界反思以Token为KPI的AI转型误区，亚马逊紧急撤下相关排行榜。"
+          "title": "A blueprint for democratic governance of frontier AI",
+          "summary": "OpenAI发布前沿AI民主治理蓝图，探讨多方参与下的AI监管框架。"
         },
         {
-          "title": "AI 教父下场创业：硅谷开始押注“下一代 AI 范式”",
-          "summary": "AI教父级人物加入创业潮，硅谷资本正押注下一代AI范式。"
+          "title": "OpenAI public policy agenda",
+          "summary": "OpenAI公布公共政策议程，聚焦AI安全、公平与全球合作。"
+        },
+        {
+          "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+          "summary": "Wasmer利用OpenAI Codex构建边缘Node.js运行时，展示AI辅助开发实践。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦融资上市、产品落地与范式转型，大模型商业化加速，智能体与机器人技术突破显著。",
-  "generated_at": "2026-06-03T12:25:37.211893+08:00",
+  "summary": "今日AI圈聚焦模型能力升级、世界标准争夺与治理框架构建，行业商业化与伦理争议并行加速。",
+  "generated_at": "2026-06-04T12:20:18.393927+08:00",
   "source_count": 20
 }
