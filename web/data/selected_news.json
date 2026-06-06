@@ -1,134 +1,23 @@
 {
-  "updated_at": "2026-06-05T12:04:40.128510+08:00",
+  "updated_at": "2026-06-06T11:46:37.585757+08:00",
   "total": 20,
   "items": [
     {
-      "id": "8a767f6a8044",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Dreaming: Better memory for a more helpful ChatGPT",
-      "link": "https://openai.com/index/chatgpt-memory-dreaming",
-      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
-      "published": "2026-06-04T17:00:00+08:00",
-      "fetched_at": "2026-06-05T12:02:36.165223+08:00",
-      "pre_filter_reason": "ChatGPT memory system improvement",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.9,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "ChatGPT记忆更新：如何让AI记住你的偏好？",
-          "angle": "手把手教用户如何利用ChatGPT的新记忆系统，让对话更连贯、更个性化，提升日常使用效率。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "ChatGPT记忆系统升级：AI助手如何变得更懂你？",
-          "angle": "分析记忆系统对用户体验的影响，探讨AI记住用户偏好带来的便利与隐私权衡。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "22eb27d53ef4",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "NVIDIA Nemotron 3 Ultra Powers Faster, More Efficient Reasoning for Long-Running Agents",
-      "link": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents/",
-      "summary": "<img alt=\"Illustration showing Nemtron 3 Ultra.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/Nemotron-3-Ultra-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Nemotron-3-Ultra\" width=\"768\" />Single-turn chatbots are evolving into long-running agents that can reason, maintain context, use tools, and run efficiently across many turns to complete...",
-      "published": "2026-06-04T21:02:49+08:00",
-      "fetched_at": "2026-06-05T12:02:38.500994+08:00",
-      "pre_filter_reason": "NVIDIA Nemotron is an AI model for reasoning.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.8,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "NVIDIA Nemotron 3 Ultra：如何加速AI推理？",
-          "angle": "介绍Nemotron 3 Ultra的核心性能提升，展示其在长时运行代理任务中的实际加速效果。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "analysis",
-          "title": "Nemotron 3 Ultra发布：AI推理效率的革命？",
-          "angle": "解读Nemotron 3 Ultra的技术突破，分析其对AI代理和推理任务的潜在影响。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "bc828dabfa9e",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "How Endava is redesigning software delivery around AI agents",
-      "link": "https://openai.com/index/endava-frontiers",
-      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
-      "published": "2026-06-04T20:00:00+08:00",
-      "fetched_at": "2026-06-05T12:02:36.165176+08:00",
-      "pre_filter_reason": "Explicitly about AI agents and AI-native culture.",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Endava如何用AI代理重塑软件交付？",
-          "angle": "展示Endava利用AI代理、ChatGPT Enterprise和Codex加速开发流程的具体步骤与最佳实践。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "analysis",
-          "title": "AI代理驱动软件开发：Endava的转型启示",
-          "angle": "分析Endava如何通过AI代理实现自动化工作流和AI原生文化，为其他企业提供借鉴。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "cc1eaa651096",
+      "id": "d249decca97f",
       "source_id": "huggingface-blog",
       "source_name": "Hugging Face Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "title": "Thousand Token Wood: shipping a multi-agent economy on a 3B model",
+      "link": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
       "summary": "",
-      "published": "2026-06-05T02:57:45+08:00",
-      "fetched_at": "2026-06-05T12:02:38.820513+08:00",
-      "pre_filter_reason": "AI content safety model for enterprise AI.",
+      "published": "2026-06-06T06:18:46+08:00",
+      "fetched_at": "2026-06-06T11:45:09.147133+08:00",
+      "pre_filter_reason": "多智能体经济系统基于3B模型，属于AI模型/研究",
       "scores": {
-        "importance": 7,
-        "timeliness": 8,
+        "importance": 8,
+        "timeliness": 7,
         "actionability": 8,
         "scarcity": 7,
         "virality": 6,
@@ -138,31 +27,31 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "Nemotron 3.5内容安全：如何定制多模态安全策略？",
-          "angle": "讲解Nemotron 3.5的可定制安全功能，指导企业如何根据需求配置多模态内容过滤。",
-          "difficulty": "中级"
+          "title": "3B模型如何驱动多智能体经济？手把手拆解Thousand Token Wood",
+          "angle": "以Thousand Token Wood为案例，讲解如何用轻量级3B模型搭建多智能体协作的经济系统，适合AI开发者入门学习。",
+          "difficulty": "入门"
         },
         {
           "tag": "analysis",
-          "title": "全球企业AI安全新标杆：Nemotron 3.5内容安全解读",
-          "angle": "探讨Nemotron 3.5在全球化企业中的安全应用价值，分析其可定制多模态安全方案的优势。",
-          "difficulty": "高级"
+          "title": "多智能体经济新范式：3B模型也能玩转千Token森林",
+          "angle": "分析Thousand Token Wood的技术亮点，探讨小模型在多智能体经济中的潜力与局限，引发对AI资源效率的思考。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "de49798e8bd2",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
+      "id": "e2b03a6df2df",
+      "source_id": "qbitai",
+      "source_name": "量子位",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "深圳国产芯片成功训练万亿级 AI 大模型：依托华为昇腾 910C，达到工业级运行标准",
-      "link": "https://www.ithome.com/0/960/281.htm",
-      "summary": "<p>IT之家 6 月 5 日消息，据“深圳发布”今日消息，深圳河套学院 AI 训练平台项目团队，联合哈尔滨工业大学（深圳）、深圳市大数据研究院、华为有关团队，协同深智城 AI 算力平台，面向国产算力大模型训练开展联合攻关。<strong>依托昇腾 910C 国产 AI 算力集群，完成 1.6 万亿参数大模型 DeepSeek-V4-Pro 全参数后训练</strong>。</p><p>此次实践为全球第三方机构在国产算力平台上完成该级别模型训练的相关探索积累了重要经验，也印证了国产 AI 芯片可支撑世界级超大参数模型训练工作。</p><p>目前，项目已实现模型算力利用率（MFU）超过 30%，关键训练算子效率提升 14%，<strong>各项指标均达到工业级运行标准</strong>。</p><p>从技术应用角度来看，调用已有模型开展业务推理，与从零完成模型全参数训练分属不同技术环节，二者在技术难度、硬件要求上存在明显区别。<strong>本次试验结果表明，国产 AI 算力已可承担顶级大模型训练任务，相关技术路径具备可行性</strong>。</p><p>据IT之家此前报道，在去年 9 月的华为全联接大会 2025 上，华为副董事长、轮值董事长徐直军称昇腾芯片将不断演进，更多芯片还在规划。</p><p style=\"text-align: center;\"><img class=\"lazy\" src=\"https://img.ithome.com/newsuploadfiles/2025/9/d37fb19e-340f-4165-8164-ae2fda9898bf.jpg?x-bce-process=image/format,f_auto/auto-orient,o_1\" title=\"华为昇腾 AI 生态开发者数量达 400 万 +，发展合作伙伴 3000+\" /></p>",
-      "published": "2026-06-05T10:40:56+08:00",
-      "fetched_at": "2026-06-05T12:02:55.588389+08:00",
-      "pre_filter_reason": "国产芯片训练万亿级AI大模型",
+      "title": "活久见！奥特曼Dario哈萨比斯同仇敌忾：DNA得查了",
+      "link": "https://www.qbitai.com/2026/06/429711.html",
+      "summary": "科技领袖呼吁DNA安全立法",
+      "published": "2026-06-05T14:56:03+08:00",
+      "fetched_at": "2026-06-06T11:45:19.515036+08:00",
+      "pre_filter_reason": "AI leaders (Altman, Dario, Hassabis) call for DNA safety legislation, AI ethics/policy.",
       "scores": {
         "importance": 9,
         "timeliness": 9,
@@ -174,52 +63,89 @@
       "quality_score": 8.2,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "国产芯片训练万亿参数大模型：华为昇腾910C实战",
-          "angle": "揭秘深圳团队如何利用昇腾910C集群完成DeepSeek-V4-Pro训练，分享算力优化技巧。",
-          "difficulty": "高级"
+          "tag": "news",
+          "title": "奥特曼、Dario、哈萨比斯罕见联手：DNA安全立法刻不容缓",
+          "angle": "解读三位AI领袖联合呼吁DNA安全立法的背景与意义，分析AI技术对生物安全的潜在威胁。",
+          "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "国产AI芯片里程碑：万亿参数模型训练成功意味着什么？",
-          "angle": "分析此次训练对国产算力生态的突破意义，探讨其对AI产业自主可控的影响。",
+          "tag": "opinion",
+          "title": "AI大佬齐喊“查DNA”：科技伦理的警钟还是炒作？",
+          "angle": "从多方视角探讨DNA安全立法的必要性与争议，引导观众思考AI与生物技术融合的伦理边界。",
           "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "b2aa84a685b3",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
+      "id": "d7f55e3eefa9",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
       "source_lang": "en",
-      "source_category": "official",
-      "title": "Biodefense in the Intelligence Age",
-      "link": "https://openai.com/index/biodefense-in-the-intelligence-age",
-      "summary": "An action plan for AI-powered biological resilience",
-      "published": "2026-06-04T08:00:00+08:00",
-      "fetched_at": "2026-06-05T12:02:36.165238+08:00",
-      "pre_filter_reason": "AI-powered biological resilience",
+      "source_category": "community",
+      "title": "NVIDIA /cosmos",
+      "link": "https://github.com/NVIDIA/cosmos",
+      "summary": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
+      "published": "2026-06-06T11:45:34.383997+08:00",
+      "fetched_at": "2026-06-06T11:45:34.383999+08:00",
+      "pre_filter_reason": "NVIDIA Cosmos is an open platform for world models and Physical AI",
       "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
+        "importance": 9,
+        "timeliness": 8,
+        "actionability": 9,
         "scarcity": 8,
-        "virality": 7,
+        "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 8.1,
+      "quality_score": 8.0,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "AI驱动的生物防御：普通人如何应对未来生物威胁？",
-          "angle": "从个人防护角度，介绍AI在生物威胁预警、疫苗研发和应急响应中的作用，并提供简单可行的安全建议。",
+          "title": "NVIDIA Cosmos入门：用开源世界模型打造你的物理AI",
+          "angle": "介绍NVIDIA Cosmos平台的核心功能与使用方法，演示如何利用其数据集和工具快速构建机器人或自动驾驶原型。",
           "difficulty": "入门"
         },
         {
-          "tag": "explainer",
-          "title": "什么是“智能时代的生物防御”？一文看懂AI如何重塑国家安全",
-          "angle": "解读AI在生物防御领域的核心应用场景（如病原体检测、基因编辑风险监控），并分析其对公众健康的意义。",
+          "tag": "analysis",
+          "title": "NVIDIA Cosmos开放平台：物理AI的“安卓时刻”来了？",
+          "angle": "分析Cosmos对机器人、自动驾驶等领域的潜在影响，探讨开源世界模型如何降低物理AI开发门槛。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "84e2218ee419",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "9点1氪｜豆包推出付费后月活减少610万；Anthropic呼吁全球放缓AI开发，警告AI“自我改进”风险；罗永浩卸任锤子软件公司执行董事",
+      "link": "https://36kr.com/p/3840996342073604?f=rss",
+      "summary": "<h2><strong>今日热点导览</strong></h2>\n  <p>SpaceX据悉将其IPO的日本融资目标提高至25亿美元</p>\n  <p>二手房挂牌量回落新房库存下降，楼市供需关系向好</p>\n  <p>B站宣布启动AI创造公开赛</p>\n  <h2><strong>TOP3大新闻</strong></h2>\n  <p><strong>数据显示，豆包推出付费后月活减少610万&nbsp;</strong></p>\n  <p>据全球人工智能市场追踪机构Aicpb.com周三发布的数据显示，在豆包推出订阅选项后，该应用5月份的月活跃用户（MAU）减少了610万，这是自2023年推出以来该应用罕见的下滑。Aicpb.com创始人李邦竹表示：“中国的免费人工智能服务时代还远未结束，所以豆包的商业化可能确实为时过早。”&nbsp;</p>\n  <p>有分析人士认为，字节跳动过早地将盈利模式商业化，可能会使其在中国竞争激烈的消费人工智能市场中失去领先地位。此前，其旗舰聊天机器人豆包在试水付费订阅模式后流失了数百万用户。（南华早报）</p>\n  <p><strong>Anthropic呼吁全球放缓AI开发，警告AI“自我改进”风险 &nbsp;</strong></p>\n  <p>据《华尔街日报》，AI创业公司Anthropic呼吁全球顶尖AI实验室考虑放缓研发步伐，理由是当前AI系统进步太快，可能很快就能在无需人类干预的情况下自我改进，从而带来重大的社会风险。</p>\n  <p>Anthropic周四在一篇博客文章中表示，如果能够放缓全球AI发展的速度，这“很可能是一件好事”。文章同时披露了Anthropic内部数据，展示其最先进AI模型能力提升的速度之快。（凤凰网科技）</p>\n  <p><strong>罗永浩卸任锤子软件公司执行董事，已累计偿还近10亿元债务</strong></p>\n  <p>国家企业信用信息公示系统显示，锤子科技创始人罗永浩工商职务发生变动，在锤子软件（北京）有限公司的职务由“执行董事”变更为“董事”，这是罗永浩近年来又一次退出锤子系企业核心管理岗位。 对此，锤子科技内部知情人士向媒体透露，此次职务调整为企业常规工商变更，属于公司既定人事安排，无特殊变动原因。</p>\n  <p>针对最新还债进度，上述知情人士向记者透露， 目前罗永浩已累计偿还近10亿元债务，剩余债务的清偿工作正在稳步推进中，其本人亦在全力投入工作以加快完成后续还款计划。（大河报）</p>\n  <h2><strong>AI最前沿</strong></h2>\n  <p><strong>黄仁勋：SK海力士、三星、美光已通过认证，将量产最新AI内存</strong></p>\n  <p>英伟达CEO黄仁勋表示，三大内存芯片制造商已获准为英伟达AI加速器供应最先进的高带宽产品。这一决定意味着SK海力士、三星电子和美光科技可开始量产并供应HBM4，即用于英伟达AI加速器的最新一代芯片。这三家企业主导着全球计算用存储半导体市场，此前一直在激烈争夺该业务份额。黄仁勋在抵达首尔进行为期数日的访问时告诉记者：“三家供应商均已通过认证。”他补充道：“三家企业都已投产，都在竞相支持Vera Rubin。”Vera Rubin是英伟达最新AI芯片。（新浪财经）</p>\n  <p><strong>腾讯高管：今年腾讯大部分代码都由AI生成</strong></p>\n  <p>36氪获悉，在腾讯云AI产业应用大会上，腾讯高级执行副总裁汤道生在与腾讯首席AI科学家姚顺雨的对话中表示，今年腾讯大部分代码都是由AI生成，腾讯的工程师可能会花更多的时间去做架构设计等，他们把写代码的工作都交给AI了，定期指导、修正AI写的东西。</p>\n  <p><strong>腾讯云TokenHub：连续多月翻倍，日Token消耗量跃升至5万亿</strong></p>\n  <p>36氪获悉，在5日举行的腾讯云AI产业应用大会上，腾讯云总经理、TokenHub负责人高航透露，腾讯云大模型服务平台TokenHub上线3个月，保持每月翻倍的增长态势，目前日Token消耗量已突破5万亿。</p>\n  <h2><strong>大公司/大事件</strong></h2>\n  <p><strong>SpaceX据悉将其IPO的日本融资目标提高至25亿美元</strong></p>\n  <p>SpaceX已将其在日本发行股票的计划筹集金额增加了四分之一，这表明日本散户投资者的需求强劲。据监管文件披露，SpaceX目前正寻求从日本投资者那里筹集至多25亿美元的资金，高于上周披露的20亿美元。文件显示，日本投资者获配1480万至1850万股A类股，初步定价为每股135美元。日本部分的认购登记将于本周五开始，持续至下周晚些时候。（新浪财经）</p>\n  <p><strong>国办：对私募证券基金加大监测力度，强化交易行为监管</strong></p>\n  <p>36氪获悉，国务院办公厅发布《关于加强监管防范风险促进私募投资基金高质量发展的指导意见》，其中提出，细化私募基金风险评价标准，提升监管强度与风险水平适配性，按照评价结果对不同私募基金管理人实施差异化监管。对重点私募基金管理人依法加大现场检查力度，加强央地和跨辖区联合检查。对异地经营的私募基金管理人加大监管力度，引导注册地与经营地相统一。对存在违规代持、通道化等情形的私募基金管理人加大规范引导力度，推动主动整改。对私募证券基金加大监测力度，强化交易行为监管。</p>\n  <p><strong>二手房挂牌量回落，新房库存下降，楼市供需关系向好</strong></p>\n  <p>在住房需求集中释放的背景下，房地产市场持续企稳，市场成交保持高活跃度。受此影响，市场供给端出现积极信号，供需关系向好发展。在二手房市场，中指研究院数据显示，5月份重点25城二手房新增挂牌房源达12万套，同比下降约41%。（证券日报）</p>\n  <p><strong>现货黄金回吐年内涨幅&nbsp;</strong></p>\n  <p>现货黄金回吐今年以来的全部涨幅，此前美国公布的就业数据强化了市场对美联储加息的预期。(金十数据APP)</p>\n  <p><strong>湘雅二医院逾8亿元工程招标收到投诉：首次公示前六家单位落选，第八名“逆袭”中标 &nbsp;</strong></p>\n  <p>2026年3月17日，中南大学湘雅二医院国家紧急医学救援基地建设施工总承包进行了合同公示，对于招投标的结果，多家投标单位向记者反映称，项目（总投资估算8.27亿元）的招标结果存在重大异常。合同公示显示，最终中标单位为首次候选人公示中排名第八的湖南省第四工程有限公司联合体。</p>\n  <p>记者了解到，在2025年12月11日的二次公示中，2025年10月30日第一次公示的6家中标候选人被全部更换。“第八名逆袭”让众多参与投标企业表示不解。</p>\n  <p>2026年1月14日，招标方发布公告称，“因本项目收到相关投诉，暂停本项目的招投标活动”，并表示投标有限期相应延长90天。然而，两个月后，项目招标进行的最终合同公示中，中标方仍为二次公示的中标者湖南省第四工程有限公司联合体。</p>\n  <p>近日，记者分别向湘雅附二院和长沙市招投标中心、长沙市住建局、招标代理机构中技建设咨询有限公司等发去采访要求，均未得到明确回复。（澎湃新闻）</p>\n  <p><strong>美股收盘：纳指跌超4% 半导体股多数下跌&nbsp;</strong></p>\n  <p>美股周五收盘，道指初步收跌1.35%，标普500指数跌2.65%，纳指跌4.18%，其中，标普500指数创下自2025年10月以来最大单日跌幅；纳指创下自2025年4月以来最大单日跌幅。半导体板块多数下跌，费城半导体指数尾盘跌幅扩大至10%，创2025年4月以来最大单日跌幅。英伟达(NVDA.O)跌超6%，台积电(TSM.N)跌6.68%，博通(AVGO.O)跌近8%，英特尔(INTC.O)跌超11%。纳斯达克中国金龙指数收跌3.56%，小马智行(PONY.O)跌9.83%，百度(BIDU.O)跌9.75%，金山云(KC.O)跌6.70%。(金十数据APP)</p>\n  <p><strong>追觅产业基金人士：目前基金运营一切正常</strong></p>\n  <p>据蓝鲸新闻，有地方对辖区内企业与追觅的合作情况开展摸排的消息，再次引发关注。摸排内容涵盖合作项目、总体规模、资金投入、财政及国资参与情况、当前经营状况等。对此，追觅一位负责产业基金运作的人士向记者表示：“或是相关事宜有人员行事过于高调，但现阶段基金运营一切正常。”(财联社)</p>\n  <p><strong>俞浩内部发文：未来将继续心无旁骛做实业</strong></p>\n  <p>6月5日下午，追觅科技创始人俞浩在公司内部大群发文，表示未来将继续心无旁骛做实业，坚持技术创新，去啃全球最难的市场。(界面新闻)</p>\n  <p><strong>国办：严控新设政府投资基金，县区原则上不得新设</strong></p>\n  <p>36氪获悉，国务院办公厅发布《关于加强监管防范风险促进私募投资基金高质量发展的指导意见》，其中提出，优化私募基金登记备案规则，坚决防止不符合私募基金特征和运作规律的机构和产品作为私募基金登记备案。严控新设政府投资基金，县区原则上不得新设，确有必要新设的应当报上级人民政府批准。加强综合研判会商、经营主体登记、私募基金登记备案等的信息共享和工作衔接。</p>\n  <p><strong>乌拉圭宣布对中国公民免签</strong></p>\n  <p>乌拉圭外交部长卢贝特金宣布，这一南美国家将对中国公民免签。（新华社）</p>\n  <p><strong>丰田叫停雷克萨斯LF-ZC量产，回应：不是放弃纯电车</strong></p>\n  <p>近日，有消息称，丰田叫停了雷克萨斯纯电动轿车LF-ZC量产车型的开发。该车型流线型、车高较低的“轿跑（Coupe）”款，原计划以铝铸造实现零部件一体成型的“一体化压铸”。按照原计划，LF-ZC量产车型将于2026年底在丰田日本国内的田原工厂投产，之后这一计划被推迟至2027年中期，直至如今被叫停。</p>\n  <p>“本次车型开发中止，主要是考虑到了市场需求的变化，这也是公司对整体车辆开发项目进行调整的一部分，但并不代表公司放弃了BEV（纯电动汽车）。”针对上述车型研发暂停的原因，丰田中国相关工作人员回应称。（每经网）</p>\n  <p><strong>全国首张“无目的地海上游”出入境通行证在上海签发</strong></p>\n  <p>4日，全国首张“无目的地海上游”出入境通行证在上海签发。该证件落地后，游客可依托相关政策实现免办签证、短途出海度假，进一步丰富国内邮轮出游选择。（央视新闻）</p>\n  <p><strong>韩国股市因科技股抛售大幅下挫，创下3月以来最差单周表现</strong></p>\n  <p>韩国股市周五大幅下挫，创下自3月底以来最大单周跌幅，因全球科技股回调及美伊和谈陷入僵局，严重打击了投资者的风险偏好。韩元兑美元汇率跌至2009年以来最低水平，同时债券收益率飙升，促使包括财政部长具允哲在内的政府官员发出口头警告，反对投机性的单边押注。（新浪财经）</p>\n  <p><strong>苹果：全球App Store生态系统规模达1.4万亿美元</strong></p>\n  <p>苹果公司宣布，根据分析集团（Analysis Group）经济学家的一项最新研究，2025年全球App Store生态系统促成的开发者计费与销售额超过1.4万亿美元，创下历史新高。（界面新闻）</p>\n  <p><strong>证监会：下一步将制定落实《指导意见》的三年行动方案</strong></p>\n  <p>36氪获悉，中国证监会新闻发言人就《国务院办公厅关于加强监管防范风险促进私募投资基金高质量发展的指导意见》答记者问。《指导意见》是私募基金领域“1+N+X”制度体系中的方向性、基础性文件。下一步，中国证监会将坚决贯彻党:中央、国务院决策部署，制定落实《指导意见》的三年行动方案，并积极会同宏观政策部门、国:资及行业主管部门、金融管理部门、公安机关、地方政府等，进一步增强责任意识，密切协作形成合力，推动各项任务、工作落地见效。</p>\n  <p><strong>谷歌将在美国得州新建数据中心和能源设施</strong></p>\n  <p>谷歌和Intersect宣布将在美国得州建设Meitner能源中心，该中心将包括一座新的数据中心以及配套的能源发电设施。（界面新闻）</p>\n  <p><strong>中信证券：建议以“AI+能化”的新杠铃结构作为兼顾降波与收益的战略解</strong></p>\n  <p>36氪获悉，中信证券研报表示，当前A股资金缩圈与虹吸、个股收益率分化均已触及历史极值，头部资产与长尾资产的收益率相关系数正逼近0.5的背离临界点。复盘历史，极致缩圈见顶并不决定大盘方向，但相关性背离往往预示着前期抱团的主线步入休整，资金行为与市场情绪面临结构性切换。展望后市，市场能否从极致分化走向系统性收敛，取决于宏观基本面增长与全球流动性能否实现顺畅接力。在宏观外部靴子落地前的模糊期，单纯依赖���业微观叙事已很难打破“缩圈”僵局，建议以“AI+能化”的新杠铃结构作为兼顾降波与收益的战略解。</p>\n  <p><strong>小鹏机器人核心产品一号位施晓鑫6月初主动离职</strong></p>\n  <p>36氪独家获悉，小鹏机器人产品规划高级总监施晓鑫已于6月初正式离职。关于施晓鑫的下一步去向，目前尚不明确。多位信源透露，施晓鑫现阶段无求职意向。知情人士称，施晓鑫已婉拒多家头部机器人企业和造车新势力的邀约，短期暂停职场择业，优先休整。</p>\n  <p><strong>B站宣布启动AI创造公开赛</strong></p>\n  <p>36氪获悉，哔哩哔哩（以下简称\"B站\"）正式启动“build in bilibili · AI创造公开赛”（以下简称B站AI创造公开赛），并公布参赛规则。比赛不设年龄、学历、职业与经验等参赛门槛，并首次将评选权交给用户——所有B站用户均可通过投币、弹幕等方式参与创作并选出认可的产品。</p>\n  <p><strong>英特尔与日立公司合作，推动芯片等制造设施的自动化</strong></p>\n  <p>英特尔将与日本日立公司合作，提高制造设施的机器人良率和能源效率，其中包括这家美国芯片制造商自身的工厂。两家公司周五在声明中表示，英特尔的晶圆厂将使用日立的人工智能服务HMAX Energy。（新浪财经）</p>\n  <p><strong>夸克升级高考志愿填报产品</strong></p>\n  <p>36氪获悉，夸克推出全新升级的高考频道，为千万考生免费提供“高考搜索”“智能选志愿”“志愿表”“志愿报告”等功能。夸克高考志愿工具也将接入千问App。</p>\n  <p><strong>爱彼迎CEO计划创办一家新的人工智能公司</strong></p>\n  <p>据多位知情人士称，爱彼迎首席执行官Brian Chesky正在筹建一家新的人工智能（AI）实验室，这标志着他首次涉足全球AI竞赛。Chesky计划创办一家AI公司以开发人工智能模型，并正在考虑将重点放在用户交互和设计上。（财联社）</p>\n  <p><strong>谷歌计划投放3200万只蚊子，通过不育雄蚊减少繁殖周期内的蚊子总数量&nbsp;</strong></p>\n  <p>近日，谷歌正通过其母公司Alphabet旗下的生物技术公司Verily，寻求美国监管部门的批准，计划在未来两年内在加利福尼亚州和佛罗里达州投放多达3200万只蚊子。</p>\n  <p>这项计划是谷歌长期开展的“调试项目”（Debug Project）的一部分，旨在减少蚊子数量，限制蚊媒疾病的传播。 该项目依赖于释放经过特殊培育、无法产生可育后代的雄蚊。</p>\n  <p>当这些雄蚊与野生雌蚊交配时，蚊卵无法孵化，从而在多个繁殖周期内逐渐减少蚊子的总数量。研究人员希望减少蚊子的数量，从而能够降低蚊子传播疾病的风险。该项目的技术基本原理被称为不育昆虫技术，可以追溯到20世纪50年代，并已成功用于防治果蝇、螺旋蝇和苹果蠹蛾等农业害虫。（现代快报）</p>\n  <p><strong>Anthropic联合创始人称高昂的AI模型开发成本推动公司寻求上市</strong></p>\n  <p>Anthropic PBC联合创始人兼总裁Daniela Amodei表示，开发人工智能模型的高昂成本正迫使像Anthropic这样的公司寻求上市融资。几天前，这家人工智能工具Claude的制造商保密提交了IPO注册文件草案。“训练人工智能模型是一项高度资本密集型的业务，”Amodei周四在彭博科技大会上被问及像Anthropic这样的公司上市的利弊时说道。她补充说，公开市场“非常适合这种情况”。（新浪财经）</p>\n  <h2><strong>大公司财报</strong></h2>\n  <p><strong>鸿海5月营收8594亿新台币，为历年同期最高</strong></p>\n  <p>6月5日，鸿海公布，2026年5月营收为新台币8594亿，月增3.28%，年增39.57%，为历年同期最高。2026年累计前5月营收为3.8211万亿，年增31.79%，为历年同期最高。（界面新闻）</p>\n  <h2><strong>投融资</strong></h2>\n  <p><strong>Quobly完成1.15亿欧元A轮融资</strong></p>\n  <p>法国量子计算公司Quobly宣布完成1.15亿欧元A轮融资，旨在加速其硅基量子计算机的产业化进程，并计划于2026年底前将首款商用产品推向市场。本轮融资由Bpifrance、SEALSQ和意法半导体领投，欧洲创新理事会、Blast、ALIAD以及现有投资者Innovacom参与投资。（界面新闻）</p>\n  <p><strong>开源后端平台Supabase融资5亿美元，投后估值105亿美元</strong></p>\n  <p>开源后端平台（BaaS）Supabase宣布完成5亿美元F轮融资，投后估值达105亿美元。本轮融资由GIC领投，其他投资者包括Accel、Y Combinator、Craft、Felicis、Coatue和金融科技创企Stripe。（新浪财经）</p>\n  <p><strong>“毫秒智控”完成数千万元天使+轮融资</strong></p>\n  <p>36氪获悉，线控底盘核心零部件供应商“毫秒智控”已于近期完成数千万元天使+轮融资，本轮投资方为松禾资本和苏高新融晟。这也是公司成立仅一年以来，继获得厚雪资本天使轮独家投资后，接连完成的第二轮融资。</p>\n  <p><strong>“原力灵机”完成新一轮融资</strong></p>\n  <p>36氪获悉，具身智能企业“原力灵机”近期完成新一轮融资，资方主要为数家大模型公司，包括智谱、阶跃星辰、商汤科技、阿里。此外，华勤、上汽恒旭等产业投资方持续加注。</p>\n  <p><strong>“智美科技”完成近2亿元战略轮融资</strong></p>\n  <p>36氪获悉，“智美科技”宣布完成近2亿元战略轮融资，本轮融资由麦澜德、国石智达资本、老股东共同投资。本轮资金将主要用于深化“皮肤全球大模型”的研发及3D皮肤智能设备的迭代升级，加速与全球产业链伙伴的商业化落地合作，构建皮肤AI智能设备生态体系。</p>\n  <h2><strong>酷产品</strong></h2>\n  <p><strong>小米机器人团队在CVPR与ICRA两大国际顶会赛事获双料冠军</strong></p>\n  <p>36氪获悉，6月5日，小米技术宣布，小米机器人团队在CVPR 2026 Workshops和ICRA 2026 WBC斩获双料冠军。据介绍，在CVPR 2026 Workshops中，小米匿名参赛模型“my16”以40.89%的成功率位居榜首，是该赛道中唯一突破40%门槛的模型；在ICRA 2026 WBC中，小米机器人在超市场景下完成16类饮料的货架抓取与购物车放置任务，综合得分99.2分，整体成功率94%，是榜单中唯一超过90%的方案，较第二名高出10个百分点。</p>\n  <p><strong>纳米递送载体将肺癌药利用度提高30倍</strong></p>\n  <p>澳大利亚阿德莱德大学科学家研制出一种新型纳米颗粒递送载体，能将肺癌药物精准靶向肺部，让药物的生物利用度（即所服用药物的剂量能到达体循环的比例）提高30倍，同时大幅减少对健康器官的干扰与损伤。这项突破有望重塑肺癌乃至多种癌症的治疗面貌。（科技日报）</p>\n  <p><strong>曝iPhone 18 Pro首发第二代灵动岛，整体宽度直接缩减了35%&nbsp;</strong></p>\n  <p>据博主爆料，今年下半年登场的iPhone 18 Pro系列将首发苹果第二代灵动岛，正面挖孔的宽度由上代的20.76mm调整到13.49mm，整体宽度直接缩减了35%，这也让iPhone 18 Pro成为苹果有史以来屏占比最高的智能手机。</p>\n  <p>这次能把开孔做小，核心原因是苹果把部分Face ID的核心组件直接隐藏到了屏幕下方，最终成功压缩了正面的开孔面积。这样的改动不仅显著提升了整机的屏占比，也让手机正面的整体视觉感官变得更加精致完整。（快科技）</p>\n  <p><strong>整理</strong>｜开心&nbsp;</p>",
+      "published": "2026-06-06T09:07:19+08:00",
+      "fetched_at": "2026-06-06T11:45:10.969315+08:00",
+      "pre_filter_reason": "包含豆包AI付费后月活变化、Anthropic警告AI风险、B站AI创造公开赛等AI相关新闻",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "豆包付费后月活暴跌610万：AI订阅制是福是祸？",
+          "angle": "梳理豆包付费策略与用户流失数据，分析AI产品从免费转向订阅的挑战与用户心理。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "Anthropic警告AI“自我改进”风险，我们该恐慌吗？",
+          "angle": "解读Anthropic呼吁放缓AI开发的背后逻辑，结合豆包案例讨论AI安全与商业化的平衡。",
           "difficulty": "中级"
         }
       ]
@@ -235,8 +161,8 @@
       "link": "https://36kr.com/p/3839575253993985?f=rss",
       "summary": "<p>文｜王毓婵 梁键强</p>\n  <p>编辑｜张雨忻</p>\n  <p>昨日，腾讯客服回应称，微信正在与华为、小米、荣耀、OPPO、vivo等手机厂商合作推出A2A助手能力，目前已有多家厂商完成接入。</p>\n  <p>“您可以通过对应手机系统的AI助手发起<strong>微信音视频通话</strong>或<strong>向指定好友发送消息</strong>。该功能基于A2A（Agent-to-Agent）协作机制，数据安全与隐私通过双重授权机制保障。合作旨在将微信高频沟通功能融入手机系统助手，为您提供更便捷的使用体验。”腾讯客服表示。</p>\n  <p>与之前字节跳动推出的豆包手机相比，腾讯的微信AI采取了完全不同的技术路径。</p>\n  <p>以豆包手机为代表的很多 OS 端 AI 助手，走的是 <strong>GUI agent（图形界面智能体）</strong> 路线——它们像人一样通过“读屏”来识别界面，再通过“模拟点击”去操作微信。</p>\n  <p>而腾讯此次与手机厂商的合作，采用了<strong>A2A（Agent-to-Agent）机制——</strong>微信打开一道门，让手机厂商的系统智能体（如华为小艺、小米小爱、荣耀 YOYO、vivo &nbsp;V、魅族 Aicy）等直接对话微信内部的 agent。</p>\n  <p>系统智能体解析出用户的“意图”后，通过加密且受控的协议把指令发给微信，由微信在后台“自己执行”并返回结果。</p>\n  <p>这本质上是一种“双授权”，即用户授权+应用授权。</p>\n  <h3>两种技术路径，一个伦理问题</h3>\n  <p>在5月的腾讯Q1财报电话会上，有分析师问腾讯总裁刘炽平，“如何看待来自操作系统层面智能体的长期潜力或潜在颠覆，包括来自iOS、Android或手机厂商的智能体”。</p>\n  <p><strong>刘炽平回答说：</strong></p>\n  <blockquote>\n   <p>从操作系统的角度来看，这里面混了几种不同的东西。有真正的操作系统，如iOS和Android，然后还有那些试图假装自己是操作系统的应用程序。</p>\n   <p>我认为，如果你是iOS或Android这样的操作系统，你希望确保生态系统得到良好保护和精心策划，并给予应用程序合理的权限，你可以拥有一个试图为用户提供服务的智能体，但你需要获得不同应用程序的许可。</p>\n   <p>否则，作为操作系统，<strong>你本质上是在掠夺不同的应用程序</strong>，这不是管理操作系统的最佳方式。操作系统已经存在很长时间了，它的原则是中立的，为所有应用程序提供公平的竞争环境。</p>\n   <p>未来，所有智能体都可以与操作系统合作。<strong>但如果有一个应用程序试图成为类似操作系统的服务，并试图侵入其他应用程序，那才是真正的竞争，任何应用程序都不会允许这样做。</strong>我认为操作系统本身也应该阻止这种情况发生。</p>\n  </blockquote>\n  <p>现在看来，刘炽平的意思已经表达得很清楚——用操作系统的agent来操控应用是可以的，但不能不获得应用程序的授权，否则就是对应用的掠夺。</p>\n  <p>换句话来说，<strong>腾讯不能接受GUI agent，只能接受A2A。</strong></p>\n  <p>手机厂商不是没有尝试用GUI硬闯过。</p>\n  <p>2023 - 2024年，大模型爆发初期，手机厂商一度热衷于“全自动驾驶”尝试，荣耀 YOYO 宣传过“一句话发微信红包/点外卖”，小米智能家居产品的卖点是“小爱自动打通微信电话”。</p>\n  <p>厂商当时的做法是运用系统级宏命令（Macro）或 GUI 自动化工具。当你对手机说“给XX发个 10 块钱红包”时，AI 助手在后台执行的是：“解锁 -&gt; 点击微信图标 -&gt; 搜索XX -&gt; 点击加号 -&gt; 点击红包 -&gt; 输入10 -&gt; 调起支付”。</p>\n  <p>这一行为很快被微信全面封杀。</p>\n  <p>2025年4月，微信安全中心发布公告称：“近期，我们发现有第三方工具以‘AI管理用户微信聊天记录’等名义，绕过微信安全技术措施，违法违规获取或利用微信终端用户数据。在此提醒用户，切勿安装或使用任何可访问本地聊天记录的第三方工具。”</p>\n  <p>随后，这类系统级AI agent均无法再直接调用微信功能，退回到了测试流畅、调屏幕亮度、连接Wi-Fi的小打小闹之中。</p>\n  <p>手机厂商虽然一直尝试通过“系统无障碍辅助”来曲线救国，但一旦微信更新了界面 UI，或者修改了控件的 ID，厂商的 AI 助手就会出现点错人、点错按钮的尴尬情况，体验非常不稳定。</p>\n  <p>真正再次触及各家互联网公司底线的是豆包手机。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260605/v2_eb93de2e04e1499d863674edc849be40@10269314_oswg396767oswg1374oswg902_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">豆包手机助手介绍页截图</p>\n  <p>2025年12月1日，字节与中兴联合发布豆包手机助手技术预览版。搭载努比亚M153工程样机，系统级AI agent核心卖点是“AI直接跨应用操作”。</p>\n  <p>该产品同样被应用提供方堵截。12月，大量用户反馈，微信账号被强制下线，系统提示登录环境异常。与此同时，淘宝、支付宝、农业银行、建设银行等应用也开始限制相关能力。</p>\n  <p>腾讯方面表示，此系豆包手机助手通过系统级权限（如INJECT_EVENTS）模拟用户操作，触发了微信既有的安全风控策略，被判定为违反《腾讯微信软件许可及服务协议》中禁止第三方外挂、自动化操作的规定。</p>\n  <p>如今，微信AI已经箭在弦上，“野蛮人”也到了变身“合作方”的时候。A2A 机制让微信官方给出安全协议，两边的 AI 正式“握手谈判”。开关门的权力依然掌握在腾讯手中。</p>\n  <h3>微信AI携百万小程序，面对阿里“全家桶”和字节火山引擎</h3>\n  <p>6月2日，英国《金融时报》引用两位知情人士的发言称，腾讯目前已完成该AI智能体的原型测试，最快将于本月启动公开上线前所需的合规审批流程。</p>\n  <p>该报道发布后，腾讯股票当日收盘上涨10.5%，创下自2021年1月25日以来单日最高涨幅纪录。</p>\n  <p>《金融时报》称，一位看过早期演示的人士透露，用户可以通过在微信主屏幕上向右滑动来访问人工智能代理的聊天框。用户可以输入指令，让代理自动访问微信数百万个小程序，并完成诸如根据特定口味和价格要求查找咖啡馆和订购饮料等任务。</p>\n  <p>AI时代，各家大厂的打法风格大不相同，但基本都是集中在自己最具优势的一个点上放大。</p>\n  <p>阿里千问APP已接入地图、打车、购物、闪购等数十个阿里生态agent，以及向第三方agent、Skill开放，让企业在平台上运营自己的Agent，成为了名副其实的“全家桶”。</p>\n  <p>字节除了有一个比元宝更强势的豆包agent，和比混元更强势的豆包大模型之外，还有先一步与手机厂商达成的合作关系——目前全球 Top 10 的手机厂商中，有 9 家（除了苹果）已经通过火山引擎接入了豆包大模型，火山几乎完成了对国产手机生态的垄断。</p>\n  <p>腾讯最大的优势，目前来看，显然还是掌握中国唯一一个真正意义上的“超级应用”，微信。</p>\n  <p><strong>一位腾讯内部人士评价此次与手机厂商的合作时称：“任何手机agent，如果不能调用微信，就不算一个真正的系统级agent。腾讯这个口子一定会开，只是时间问题。”</strong></p>\n  <p>在与硬核联盟的关系上，虽然手机厂商在底层要向火山引擎等服务平台支付算力费用，但它们也非常清楚，在应用层，用户可以换手机，但绝不能不用微信。</p>\n  <p>谁的手机能“一句话盲操发微信通话”，谁就能在高端市场上拿到绝对的体验优势。与腾讯的合作是“可以等，但不能不做的”。</p>\n  <p>腾讯与手机厂商的A2A合作，算是在如今硬核联盟与应用提供方的“柏林墙”上开了一个洞，平衡了双方的利益。未来，我们应该也可以看到更多阿里系和字节系的应用通过这条路径真正接入系统agent。</p>",
       "published": "2026-06-05T11:39:48+08:00",
-      "fetched_at": "2026-06-05T12:02:40.443336+08:00",
-      "pre_filter_reason": "微信AI助手与手机厂商合作，涉及AI产品",
+      "fetched_at": "2026-06-06T11:45:10.969389+08:00",
+      "pre_filter_reason": "AI agent collaboration between WeChat and phone makers",
       "scores": {
         "importance": 8,
         "timeliness": 9,
@@ -245,500 +171,574 @@
         "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 8.0,
+      "quality_score": 7.9,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "微信AI助手怎么用？手把手教你用手机语音发微信消息和通话",
-          "angle": "以华为/小米用户为例，演示如何通过手机系统AI助手调用微信功能，强调操作步骤和隐私授权机制。",
+          "title": "微信AI助手接入手机厂商：如何用语音发微信视频通话？",
+          "angle": "以华为、小米为例，演示如何通过手机AI助手调用微信音视频通话和消息发送功能，提升日常效率。",
           "difficulty": "入门"
         },
         {
           "tag": "analysis",
-          "title": "微信开放AI接口：手机厂商的“窄门”里藏着什么机会？",
-          "angle": "分析微信与手机厂商合作背后的战略意图，对比字节豆包手机模式，探讨对AI助手生态的影响。",
+          "title": "微信AI向手机厂商开“窄门”：A2A协作背后的生态博弈",
+          "angle": "分析微信与手机厂商合作推出A2A助手能力的战略意图，对比字节豆包手机模式，探讨AI生态开放与封闭的利弊。",
           "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "582edc72a030",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
+      "id": "4d1113065a7c",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
       "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "腾讯高级执行副总裁汤道生：今年腾讯大部分代码都由 AI 生成",
-      "link": "https://www.ithome.com/0/960/323.htm",
-      "summary": "<p>IT之家 6 月 5 日消息，据第一财经报道，在 6 月 5 日的腾讯云 AI 产业应用大会上，腾讯高级执行副总裁汤道生在与腾讯首席 AI 科学家姚顺雨的对话中表示，<strong>今年腾讯大部分代码都是由 AI 生成</strong>，腾讯的工程师可能会花更多的时间去做架构设计等，他们把写代码的工作都交给 AI 了，定期指导、修正 AI 写的东西。</p><p>IT之家查询获悉，根据腾讯 2026 年 Q1 财报，<strong>重组后的腾讯 AI 研发团队重构了 AI 基础设施</strong>，搭建了 Hy3 preview 模型，腾讯 AI 全面提速。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/b3389935-bff4-42fa-b792-29647ed42e34.jpg?x-bce-process=image/format,f_auto\" /></p><p>对于腾讯未来在 AI 方面的投入，腾讯总裁刘炽平在电话会议曾在今年 3 月表示，<strong>去年腾讯在 AI 新产品上投入了 180 亿元，今年至少翻倍</strong>，“我们的核心业务非常稳固且持续增长，可以支持加大投入。”</p>",
-      "published": "2026-06-05T11:04:23+08:00",
-      "fetched_at": "2026-06-05T12:02:55.588334+08:00",
-      "pre_filter_reason": "AI生成代码，AI产业大会",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "MemPalace /mempalace",
+      "link": "https://github.com/MemPalace/mempalace",
+      "summary": "The best-benchmarked open-source AI memory system. And it's free.",
+      "published": "2026-06-06T11:45:34.384913+08:00",
+      "fetched_at": "2026-06-06T11:45:34.384915+08:00",
+      "pre_filter_reason": "AI memory system",
       "scores": {
-        "importance": 9,
+        "importance": 8,
         "timeliness": 8,
         "actionability": 9,
         "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "AI写代码时代来了！程序员如何转型？腾讯高管的3个建议",
-          "angle": "结合腾讯案例，为开发者提供从“写代码”到“架构设计+AI审核”的技能升级路径，推荐学习资源。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "explainer",
-          "title": "腾讯90%代码由AI生成：这意味着什么？对普通用户有何影响？",
-          "angle": "通俗解释AI生成代码的原理，分析对软件质量、开发效率和用户产品体验的潜在影响。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "d9ddf04691c5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "36氪独家｜2026 年字节 AI 的四个关键命题",
-      "link": "https://36kr.com/p/3838454229027072?f=rss",
-      "summary": "<p><strong>文｜周鑫雨</strong></p>\n  <p><strong>编辑｜张雨忻 杨轩</strong></p>\n  <p>《智能涌现》从多个信源处独家获悉，2026 年，字节 AI 有四个重要的命题：</p>\n  <p><strong>加大对世界模型训练的投入，年底前，模型</strong>性能达到现阶段世界模型全球 &nbsp;SOTA（最佳）Google Genie 3 的水平。</p>\n  <p><strong>视频模型继续保持领先地位，</strong>探索“动态生成”等新方向。</p>\n  <p><strong>进一步打好&nbsp;Coding 的地基，</strong>做好 Coding 的 Dogfooding（数据回流、评测，形成飞轮），提升 Agent 能力。</p>\n  <p><strong>豆包强化商业化能力，</strong>重点场景是“办公”。</p>\n  <h2><strong>字节的未竟之地：世界模型</strong></h2>\n  <p>如今，字节的 AI 矩阵中，有让字节终于得以进入中国大模型第一梯队的 Seed 2.0，还有做到世界 SOTA 水平的 Seedance 2.0，另外在应用侧，豆包也形成了断层式领先——<strong>我们从多方了解到，2026 年春节过后，豆包&nbsp;DAU&nbsp;达到 2 亿</strong>。</p>\n  <p>“没有明显短板。”一名大厂 AI 战略如此评价字节的 AI 业务矩阵。</p>\n  <p>但在一众模型中，唯独少了大模型研究下一阶段的关键：世界模型。</p>\n  <p>几名接近 Seed 团队人士告诉我们，字节是入场世界模型赛道较晚的玩家。<strong>2024 年，刚从阿里加入字节的周畅，扛起了世界模型研究的大旗</strong>。</p>\n  <p><strong>但当时内部的判断是，世界模型路线和商业化场景还不明确，更重要的是打好视频模型的仗。</strong></p>\n  <p>直到 2025 年，字节才在小范围内成立研究组，开始对世界模型中的 VLA（视觉-语言-动作模型）路线进行探索。带队人有两位：</p>\n  <p>一是字节 AI Lab 负责人李航——2025 年 4 月，AI Lab 整体（包含 Robotics 团队）并入了 Seed，目的之一是提升模型和应用（具身智能）之间的沟通效率——主要基于仿真数据进行世界模型训练。</p>\n  <p>另一位是 Seed 多模态研究员王文千，主要基于自然数据做训练。</p>\n  <p>来到 2026 年，吴永辉终于在 Seed 全员会上为世界模型设立了一个明确的目标：<strong>2026 年底之前至少发布一版世界模型，性能对标目前的世界 SOTA（最佳）——&nbsp;Google 在 2025 年 8 月发布的 Genie 3</strong>。</p>\n  <p>但从目前的进度来看，追赶的速度不够。一位接近 Seed 人士告诉我们，吴永辉多次在 Seed 内部会直言字节世界模型和具身智能的效果不及预期。</p>\n  <p>另有 Seed 成员透露，根据内部评测，截至2026年初，字节世界模型的综合性能距离全球 SOTA 还存在 10% 的差距。</p>\n  <p>但这场仗代表未来。</p>\n  <p>一方面，世界模型的下游，便是至少千亿美金体量的具身智能市场���以及想象空间极大的游戏和娱乐场景。</p>\n  <p>一名前 Seed 研究员曾对我们表示，字节机器人此前的落地场景主要为物品运输、工业搬运，但内部判断天花板较低，“市场前景更广阔的人形机器人是字节一定会入局的方向。”</p>\n  <p>另一方面，世界模型的路线仍然存在诸多非共识，包括视频生成派、VLA（视觉-语言-动作模型）派、JEPA（像素预测）派等。</p>\n  <p>“赌，以字节的人才密度和资金投入，大概率能赢。”一名AI投资人对我们分析，“不赌，则一定会输。”</p>\n  <p>围绕跻身世界第一梯队的目标，2026年以来，字节针对世界模型训练，也已经做了不少调整。</p>\n  <p>《智能涌现》得知，2026年春节后，<strong>Seed 新设立了一支世界模型研究组，负责人为前Meta FAIR Lab研究员范浩奇，汇报给 Seed 多模态和世界模型负责人周畅；</strong></p>\n  <p><strong>与此同时，原来李航和王文千带领的两个 VLA 研究组合并，统一向周畅汇报。</strong></p>\n  <p>多名知情人士告诉《智能涌现》，原来李航和王文千的研究组所探索的路线，主要是 VLA，追求“即兴”、“真实”，目标应用场景是具身智能；而范浩奇带领的新队伍走的则是 3D 仿真路线，主打娱乐和游戏这类应用场景。</p>\n  <p>除了人力和探索路线的扩张，世界模型在资金投入上也是文本、Coding、视频等多个模型方向中最高的一个。</p>\n  <p>很显著的是数据预算。一名字节数据平台的员工告诉我们，训练数据“走量”的策略，此前在 LLM（大语言模型）和 Seedance 2.0 上取得了显著收益，团队计划将同样的“数海战术”应用在世界模型的训练上。</p>\n  <p>这也对应着更高昂的数据投入——我们从多方了解到，2026 年，字节批给世界模型的训练数据（包括VLA、长视频、3D 等模态）的预算，在各个模态中是最高的，金额达到数千万元。</p>\n  <p><strong>一名数据供应商提到，字节在世界模型上的数据投入，能达到其它厂商的 3-4 倍。</strong></p>\n  <h2><strong>Coding ：追求更极致的数据工程</strong></h2>\n  <p>Coding 能力是基础，是决定 Agent 效果上限的关键——这已成为业界的共识。</p>\n  <p>多名知情者曾对我们提及字节对 Coding 的重视。“字节对 Coding 的投入一直很高，仅次于今年的世界模型。”有接近 Seed 的人士告诉《智能涌现》。</p>\n  <p>比如，内部会定向采购数据，或是研究 Claude Code、CodeX 等海外顶尖 Coding 模型的训练数据 demo。</p>\n  <p>在 2025 年的火山引擎 Force 大会上，字节跳动技术副总裁洪定坤也表示，Coding 作为一种高度结构化、逻辑严密的任务，对模型理解复杂的语义结构、逻辑推理、算法设计和精确表达都有很高的要求，能助力模型智能上限的探索。</p>\n  <p>但在外界，字节 Coding 业务的存在感一直不强。无论是 2025 年 11 月发布的模型 Doubao-Seed-Code，还是 2025 年初发布的 AI 编程工具 Trae，效果和声量都不及智谱的 GLM 5 和月之暗面的 K2。</p>\n  <p><strong>“字节 Coding&nbsp;效果难以取得突破的原因在于缺少数据回流。”</strong>一名知情者评价。由于模型能力有限，字节相关业务都不愿意使用 Seed-Code。</p>\n  <p>就连 AI Coding 应用 Trae，最早接入的也是 DeepSeek 和 Claude Code，以及产品内部自己训练的 Coding 模型。</p>\n  <p>这就导致，字节 Coding 模型缺少来自真实应用场景的反馈。</p>\n  <p>2026 年以来，不少字节员工感受到，各个业务方正在加大对 Seed 模型的支持力度。一名 Seed 员工告诉《智能涌现》，原来字节并不限制业务侧使用第三方 Coding 模型做开发，但 2026 年以来，多个应用部门被强制要求使用 Seed 模型。</p>\n  <p>不过，在更极致的数据投入下，Seed 在人才招聘上的速度倒是稍有放缓。</p>\n  <p>有AI 圈猎头告诉《智能涌现》，字节 HR 现在对外释放的信号是：粗放高薪招聘的时代已经结束了，接下来的命题是内部培养、提拔年轻人才，提高算法待遇。</p>\n  <p>如今，Seed 为数不多的招聘口子，主要开放给了来自DeepSeek，以及OpenAI、DeepMind、Meta 等海外大厂的 AI 人才，比如前 DeepSeek 核心成员郭达雅、前英伟达研究员董鑫。</p>\n  <h2><strong>Seedance 如何保持 SOTA 地位</strong></h2>\n  <p>2026 年字节在 AI 模型上的另一个重点，则是维持 Seedance 在全球视频生成领域的 SOTA 地位。</p>\n  <p>“Seedance 2.0 的胜利，是数据的胜利。”某视频生成初创企业的创始人曾对《智能涌现》这样评价 Seedance 2.0。我们得知，<strong>庞大的训练数据量和超过&nbsp;2000 人的评测团队，造就了 Seedance 2.0 的亮眼效果。</strong></p>\n  <p>但持续靠“走量”的训练方式也存在隐忧。一些研究表明，视频生成领域存在“Anti-Scaling Law”现象，简单而言，训练数据越多，模型越容易“偷懒”，只学习某些关键帧，而忽视完整叙事——因此，越到训练后期，数据“走量”的收益往往越低。</p>\n  <p>两名数据侧的知情人士告诉我们，<strong>Seedance在预训练上已经做到了天花板，接下来想要提升性能，就必须清洗训练数据，进行更精细的后训练。</strong></p>\n  <p>与此同时，<strong>“动态生成”能力是 2026 年&nbsp;Seedance 团队关注的新方向。</strong></p>\n  <p>所谓的“动态生成”，也就是互动视频，指的是用户可以输入指令，随时调整视频生成的内容和剧情。在这一赛道上，已经跑出了估值高达 13.2 亿美金的Vivix AI（前商汤高级研究总监刘宇创立）。</p>\n  <p>多名知情者告诉《智能涌现》，周畅一直十分看好动态生成的落地前景。</p>\n  <p>“互动视频可以做成小游戏，也可以做互动剧集，同时也能和世界模型的探索接轨（视频生成也是世界模型的一条探索路径）。”一名接近 Seed 人士表示。</p>\n  <h2><strong>加速豆包的商业化和出海</strong></h2>\n  <p><a href=\"https://mp.weixin.qq.com/s?__biz=MzkwMDQ2NDU2Nw==&amp;mid=2247516670&amp;idx=1&amp;sn=d758714f4f20d794c9ea271689d931b9&amp;scene=21#wechat_redirect\" rel=\"noopener noreferrer\" target=\"_blank\">36氪曾独家报道</a>，豆包预计将在 6 月下旬正式上线付费内容；与此同时，豆包也在计划与抖音电商打通，完善付费场景。</p>\n  <p>2026 年 5 月初，豆包曾在 App Store 中更新过付费订阅方案，月订阅价格在免费到500元不等。</p>\n  <p>6 月 3 日，豆包官方也宣布，即将针对专业人群的生产力需求推出“豆包专业版”，包含软件开发、数据分析、专业设计、流程自动化、金融分析、科学研究等专业服务。</p>\n  <p>多名知情者透露，春节后，<strong>豆包&nbsp;DAU&nbsp;已经突破 2 亿</strong>。“今年豆包的投流预算很低。”在一名知情者看来，高 DAU 带来的是高昂的推理成本和运维压力，豆包在这个时间点推进商业化，带有降一降增长的增速，以及自我造血的双重目的。</p>\n  <p><strong>而&nbsp;PPT 生成，是豆包建立用户付费心智的核心切入点</strong>。“豆包希望加强 PPT 生成功能，是为了面向金融、法律等高净值行业的白领收费。”一名接近豆包人士告诉《智能涌现》，<strong>下一阶段，豆包还计划推出企业版，与企业内部的系统打通，但内部仍在讨论具体的结合方式</strong>。</p>\n  <p>他表示，这一想法，是受到了海外模型商业模式的启发。目前，面向办公场景收费这条商业化路径，在海外已经得到了验证。据 Anthropic 披露的数据，Claude Code 上线仅 6 个月，ARR 就达到了 10 亿美元；上线一年后，2026 年 2 月的 ARR 已经达到了 25 亿美元。</p>\n  <p>面向企业开发场景的 Claude Code 带来的可观现金流，也让成立比 OpenAI 晚了 6 年的 Anthropic，在今年年初一跃反超 OpenAI 的 ARR。</p>\n  <p><strong>那么现在，豆包要解决的问题就是把自己的用户心智从一个可以免费问一切的“通用入口”转变为一个虽然要花钱但能帮你提高效率的“办公助手”。</strong></p>\n  <p>不过，豆包想进入的这个市场已经开始拥挤。有豆包人士对智能涌现提到，在调研企业客户的过程中，字节发现企业 AI 工具市场已经被不少行业 AI 解决方案供应商占领，迟来的豆包必然要面对更高的获客成本。</p>\n  <p>《智能涌现》了解到，出海也是豆包今年的重要命题之一。</p>\n  <p>此前，据《界面新闻》报道，豆包海外版应用 Dola 在 2025 年底的 DAU 已经突破千万。《智能涌现》了解到，<strong>Dola 2026 年的增长目标为：年底达到 3000万&nbsp;DAU。</strong></p>\n  <p>一名知情人士表示，小语种国家是 Dola 面向的主要市场。目前，海外 AI Chatbot 市场，已经基本被 ChatGPT、Claude、Gemini 占据。不在欧美市场与“AI 御三家”正面对抗，差异化切入小语种市场，是 Dola 的增长策略。</p>\n  <p>第三方数据显示，2025 年下半年以来，Dola 频频登上印尼、马来西亚、墨西哥等国家的应用商店下载榜。</p>\n  <p>——</p>\n  <p>加入字节一年来，吴永辉的命题就是带领 Seed 一边修 Bug，一边做 SOTA 模型。而 2026 年，在AI 的每一个战场中，字节的目标都是做赢家。</p>\n  <p>如今，Seed 2.0、Seedance 2.0 成果初显，Seed 积累的工程、数据经验、人才，也将会以更高效的方式，复用到新一轮战争中。</p>\n  <p>（《智能涌现》作者邓咏仪对本文亦有贡献。）</p>\n  <p><strong>封面来源｜AI生成、视觉中国</strong></p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260604/v2_dd7dd36bc4424a5a9cfb6bf31dbe015d@5783683_oswg478457oswg1080oswg402_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">欢迎交流！</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260604/v2_f066922910524f87a59f76f8907d6a1d@5783683_oswg225397oswg900oswg335_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">欢迎交流！</p>",
-      "published": "2026-06-04T14:06:37+08:00",
-      "fetched_at": "2026-06-05T12:02:40.443456+08:00",
-      "pre_filter_reason": "ByteDance AI strategy, world model, video model, coding.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 9,
         "virality": 8,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "字节2026年AI四大战略：视频模型、世界模型、Coding地基意味着什么？",
-          "angle": "逐条解读字节AI的四个关键命题，分析其与现有产品（如抖音、豆包）的关联及行业竞争格局。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "tutorial",
-          "title": "字节押注“世界模型”和“动态生成”：创作者如何提前布局？",
-          "angle": "面向内容创作者，介绍世界模型和动态生成技术可能带来的新创作工具与变现机会，提供早期尝试建议。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "41ed0d5ce38a",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "search",
-      "title": "深圳国产芯片成功训练万亿级AI大模型 - AASTOCKS.com",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBYZGg5LWpWMC1rdmxoT05QU2xaUWg2a1ZRa2Q0SWJxWW9yN0xNeWdERVFyQ1ZtUTdOdWpaT1B4bzhBcVZFOHRyWVNsUmF2QUR6VlZLVFJLMUhHSXZlMVVYQlhMTlJsTVIyRGFfQjd4QQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFBYZGg5LWpWMC1rdmxoT05QU2xaUWg2a1ZRa2Q0SWJxWW9yN0xNeWdERVFyQ1ZtUTdOdWpaT1B4bzhBcVZFOHRyWVNsUmF2QUR6VlZLVFJLMUhHSXZlMVVYQlhMTlJsTVIyRGFfQjd4QQ?oc=5\" target=\"_blank\">深圳国产芯片成功训练万亿级AI大模型</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AASTOCKS.com</font>",
-      "published": "2026-06-05T11:02:00+08:00",
-      "fetched_at": "2026-06-05T12:02:58.839978+08:00",
-      "pre_filter_reason": "国产芯片训练AI大模型",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "explainer",
-          "title": "国产芯片训练万亿级AI大模型成功！这意味着中国AI突破什么？",
-          "angle": "以深圳案例为切入点，解释国产芯片在算力、成本上的突破意义，对比国际主流芯片现状，展望自主可控前景。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "tutorial",
-          "title": "万亿级AI模型训练需要什么？从芯片到算法的科普指南",
-          "angle": "用比喻和图表，通俗讲解训练万亿参数模型所需的硬件（芯片、集群）、软件（分布式框架）和能耗挑战。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "83191c99521e",
-      "source_id": "huggingface-blog",
-      "source_name": "Hugging Face Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
-      "link": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
-      "summary": "",
-      "published": "2026-06-04T20:24:58+08:00",
-      "fetched_at": "2026-06-05T12:02:38.820553+08:00",
-      "pre_filter_reason": "EVA-Bench is a benchmark for AI agents.",
-      "scores": {
-        "importance": 6,
-        "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 6,
-        "virality": 5,
         "crowd_heat": 0.0
       },
       "quality_score": 7.7,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "EVA-Bench Data 2.0 入门：3大领域、121个工具、213个场景全解析",
-          "angle": "用通俗的语言和图示，解释EVA-Bench Data 2.0是什么、为什么重要，以及如何利用这个数据集快速上手AI工具评测与场景测试。",
+          "title": "5分钟上手MemPalace：免费开源AI记忆系统搭建指南",
+          "angle": "手把手演示如何部署和配置MemPalace，对比其他记忆系统，突出其免费、开源和基准测试领先的优势，适合开发者快速入门。",
           "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "手把手教你用EVA-Bench Data 2.0搭建第一个自动化测试场景",
-          "angle": "从零开始，演示如何选择一个工具、一个场景，结合EVA-Bench Data 2.0的标注数据，快速完成一次简单的AI工具性能测试。",
-          "difficulty": "进阶"
+          "tag": "analysis",
+          "title": "MemPalace为什么是AI记忆系统的“天花板”？",
+          "angle": "从技术架构和基准测试数据切入，分析MemPalace在长上下文、检索准确率等方面的突破，解释它为何能成为开源标杆。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "be1a57214494",
-      "source_id": "baidu-hot",
-      "source_name": "百度热搜",
+      "id": "7bd8f12d8c40",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
       "source_tier": "T2",
       "source_lang": "zh",
-      "source_category": "hotlist",
-      "title": "人形机器人集体降价",
-      "link": "https://www.baidu.com/s?wd=人形机器人集体降价",
-      "summary": "人形机器人从“奢侈品”到了“白菜价”。一年前需要花近百万元排队预购的工程样机，在二手网站和拆机市场上，以“5万元一车”的价格打包清仓。据悉，宇树G1降至8.5万元起；R1主打消费级入门，起售价2.99万元。",
-      "published": "2026-06-05T12:02:57.089638+08:00",
-      "fetched_at": "2026-06-05T12:02:57.089640+08:00",
-      "pre_filter_reason": "Humanoid robots are AI-related.",
+      "source_category": "media",
+      "title": "Coding 能力，正在颠覆大模型的估值逻辑",
+      "link": "https://www.leiphone.com/category/industrynews/bwyozCVtFIOJynck.html",
+      "summary": "<p>大模型赛道的估值逻辑，正在被一个变量粗暴重构。</p><p>它不是参数，不是月活，不是多模态，是你能不能做好Coding。</p><p>把四家中国大模型公司的数据拉出来，这条线清晰得不需要统计检验：</p><p>Coding 能力突出的 DeepSeek 正在洽谈国内 AI 公司史上最大单笔融资 70 亿美元，估值或达 590亿美元。</p><p>月之暗面在 Kimi K2.5 把 Coding 能力拉满之后，20 天收入超 2025 全年，ARR 3 个月冲到 2 亿美元，半年内四轮融资合计超 39 亿美元，估值飙到 200 亿美元。</p><p>智谱 GLM-5 拿下 SWE-bench Verified 开源模型榜首，MaaS 平台 ARR 同比暴涨 60 倍，GLM-5.1 发布时在 SWE-bench Pro 登顶全球第一，港股市值一度触及 8800 亿港元。</p><p>MiniMax 此前最不&quot;Coding&quot;，港股上市首日市值突破 1000 亿港元，后期增长弹性较低。</p><p>中国市场的变化令人咋舌，但真正把这件事钉进全球资本市场信仰体系的，是 Anthropic。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260605/6a22a9d619654.png?imageView2/2/w/740\" /></p><p>5 月 28 日，Anthropic 完成 650 亿美元H轮融资，估值达 9650 亿美元，正式超越 OpenAI 的 8520 亿美元，坐上全球 AI 估值第一的宝座。</p><p>2025年底，Anthropic 的 ARR 仅为 90亿美元，还不到 OpenAI 同期 200 亿美元的一半。仅仅五个月后，它的ARR飙升至 470 亿美元，将 OpenAI 的 250 亿美元甩出一个身位。2026 年 Q1单季营收 48 亿，Q2 预计破百亿并有望首次实现盈利，若 Q2 盈利兑现，Anthropic 将成为了全球首个赚钱的 AI 独角兽。</p><p>它做对了什么？答案是 Claude Code。</p><p>今年2月，Claude Opus 4.6 和 Sonnet 4.6 先后发布，100 万 Token 上下文窗口加上多 Agent 并行协作能力，把端到端全栈 Coding 重构变成了流水线操作。Sonnet 4.6 用六成的成本逼近 Opus 的编程能力，让 Claude Code 从&quot;编程辅助工具&quot;变成了真正可规模化部署的“生产力基础设施”。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260605/6a22a8d7a4c77.png?imageView2/2/w/740\" /></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Claude Opus 4.6和Sonnet 4.6基准表现对比图</span></p><p>截至 2026 年 2 月，仅 Claude Code 一条产品线，就单独贡献了 25 亿美元 ARR。</p><p>4 月 Ramp 报告显示，在企业端付费率上，Anthropic 以 34.4% 完成对 OpenAI &nbsp;32.3% 的反超，而且是在综合成本更高、甚至主动限速的情况下赢的。</p><p>这意味着什么？OpenAI 有 ChatGPT 的近十亿周活跃用户，有全球最强的 C 端品牌，有一整套多模态产品矩阵。但它输给了一个专注做 Coding 的公司。它不是输在用户量上，而是输在 Coding 执行能力上。</p><p>Coding 远非大模型的一个应用场景，它就是大模型的原生能力形态。Chat 只是皮肤， Coding 执行才是肌肉。</p><p>这件事年初在中国也被证实了。“龙虾”应用的爆发，第一次让人看到 AI 能从接收需求到产出可运行 Coding ，完成端到端的执行闭环。推理能力是基础，但决定能不能落地的，是 Coding 生成和调试。</p><p>这个认知一旦确立，整个行业的叙事框架就塌了。过去大模型公司都在找 PMF，找下一个杀手级应用，在不确定中烧钱试错。现在不需要找了：历史上最大的软件需求，就是写软件本身。</p><p>对于大模型公司而言，你可以不做龙虾，可以不讲故事，你只需要把 Coding 做到最强，然后作为基础设施向无数“龙虾”类应用和企业工作流输出 API。谁能写好 Coding ，谁就是水电煤，谁就是生态链条里最具话语权的王者。</p><p>Anthropic 把这个逻辑跑到了极致。ARR 从 90亿 到 470 亿，只用了五个月；从不到 OpenAI 的一半到反超，只用了四个月。估值翻 2.5 倍，只用了三个月。</p><p>资本市场的信号再清楚不过：Coding 能力已经不再是一项技术指标，它就是估值的最核心驱动因子。</p><p>落后者也没在等。三天前，MiniMax 扔出了 M3，SWE-bench Pro 上超越 GPT-5.5，逼近 Claude Opus 4.7，同步推出 Coding 智能体 MiniMax Code。一个曾经离&quot;Coding&quot;最远的中国公司，现在打出了它最有力的一拳。这说明所有人都看懂了这场牌局，而且追起来并不慢。<br /></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">各大模型厂商 Coding 能力、估值/市值对比表</span></p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260605/6a22a8d7a88cb.png?imageView2/2/w/740\" /></p><p>模型迭代曲线还远未走平。DeepSeek、Kimi、智谱GLM、MiniMax、Anthropic、OpenAI，一切努力最终指向同一个终点。</p><p>Coding 跑分越高，API 调用量越大，收入增长越快，估值越贵。过去你可以差异化，走 C 端流量，做政企私有化，现在这些只是从 Coding 能力这个主干上分岔出去的枝。主干不够粗，一切都不够牢固。</p><p>牌桌上的规则从来没有像现在这样残酷，也从来没有像现在这样简单。<span style=\"color: #FFFFFF;\">雷峰网雷峰网雷峰网</span></p>",
+      "published": "2026-06-05T18:53:00+08:00",
+      "fetched_at": "2026-06-06T11:45:16.152472+08:00",
+      "pre_filter_reason": "Analyzes AI model valuation based on coding ability, mentions multiple AI companies.",
+      "scores": {
+        "importance": 9,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "Coding能力如何重塑大模型估值？DeepSeek与月之暗面的启示",
+          "angle": "通过DeepSeek和月之暗面的融资案例，分析编程能力成为大模型估值核心指标的原因，以及这对AI行业竞争格局的影响。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "tutorial",
+          "title": "如何用Coding能力测试判断大模型真实水平？",
+          "angle": "介绍SWE-bench等编程基准测试，教用户如何通过编程任务评估大模型的实际能力，避免被参数和月活数据误导。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "3e60764e867e",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "网传比亚迪自研人形机器人代号“尧舜禹”、年内自用2万台 比亚迪否认",
+      "link": "https://36kr.com/newsflashes/3841124276423176?f=rss",
+      "summary": "日前，比亚迪自研人形机器人的消息引发广泛关注。网传其自研人形机器人代号“尧舜禹”，计划于2026年在内部部署2万台。对此，记者向比亚迪方面求证，对方表示：“‘比亚迪人形机器人代号尧舜禹’‘第七代原型机在深圳和长沙工厂实地测试’‘约150台上岗，目标年内自用2万台’等消息均不属实。” (每日经济新闻)",
+      "published": "2026-06-06T11:13:40+08:00",
+      "fetched_at": "2026-06-06T11:45:10.969460+08:00",
+      "pre_filter_reason": "News about humanoid robots, which is AI-related.",
       "scores": {
         "importance": 7,
-        "timeliness": 8,
+        "timeliness": 9,
         "actionability": 8,
         "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 7.0
+        "virality": 8,
+        "crowd_heat": 0.0
       },
       "quality_score": 7.6,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "人形机器人白菜价？3分钟看懂价格暴跌背后的选购逻辑",
-          "angle": "对比宇树G1（8.5万）和R1（2.99万）的核心参数与适用场景，教普通用户如何根据预算和需求选择入门级人形机器人。",
+          "tag": "news",
+          "title": "比亚迪否认人形机器人“尧舜禹”计划：谣言背后的行业真相",
+          "angle": "澄清比亚迪官方否认，同时分析人形机器人赛道热度，以及车企布局机器人的真实动机与挑战。",
           "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "二手人形机器人避坑指南：5万元一车到底值不值？",
-          "angle": "分析二手市场“打包清仓”的常见陷阱，提供验机、配件检查、售后保障等实用建议，帮助买家避免踩坑。",
-          "difficulty": "进阶"
+          "tag": "analysis",
+          "title": "从“尧舜禹”传闻看车企人形机器人布局：比亚迪、特斯拉、小鹏谁更靠谱？",
+          "angle": "对比主流车企在人形机器人领域的实际进展、技术路线和商业化策略，探讨传闻为何频发。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "d42392244261",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
+      "id": "4a1bdab96cfd",
+      "source_id": "hn-ai",
+      "source_name": "Hacker News (AI)",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "Did Claude increase bugs in rsync?",
+      "link": "https://alexispurslane.github.io/rsync-analysis/",
+      "summary": "<p>Article URL: <a href=\"https://alexispurslane.github.io/rsync-analysis/\">https://alexispurslane.github.io/rsync-analysis/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48411635\">https://news.ycombinator.com/item?id=48411635</a></p>\n<p>Points: 337</p>\n<p># Comments: 345</p>",
+      "published": "2026-06-05T20:43:33+08:00",
+      "fetched_at": "2026-06-06T11:45:32.110759+08:00",
+      "pre_filter_reason": "Discusses Claude, an AI model, and its impact on bugs in rsync.",
+      "scores": {
+        "importance": 6,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "Claude真的让rsync变差了吗？——技术社区争议深度解读",
+          "angle": "分析Alexis Purslane的测试方法和Hacker News上的讨论，探讨AI辅助编程对开源项目质量的实际影响。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "tutorial",
+          "title": "如何安全使用AI辅助代码审查？从rsync争议学到的经验",
+          "angle": "结合rsync案例，讲解开发者应如何验证AI生成的代码修改，避免引入隐蔽bug，推荐实用的代码审查流程。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "f2655b4b1329",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
       "source_tier": "T2",
       "source_lang": "zh",
-      "source_category": "search",
-      "title": "深圳国产芯片成功训练万亿级AI大模型 - 第一财经",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1hencxRmFVNlhXV18wampCOTBoN2QxNmJjbDRGUi03djlyT1UzT0JaVnJjaGJpMlZZZHRDYUNIa1dCQ0tLMlVlNkhhYi10aks4a2NN?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE1hencxRmFVNlhXV18wampCOTBoN2QxNmJjbDRGUi03djlyT1UzT0JaVnJjaGJpMlZZZHRDYUNIa1dCQ0tLMlVlNkhhYi10aks4a2NN?oc=5\" target=\"_blank\">深圳国产芯片成功训练万亿级AI大模型</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">第一财经</font>",
-      "published": "2026-06-05T09:55:10+08:00",
-      "fetched_at": "2026-06-05T12:02:58.839991+08:00",
-      "pre_filter_reason": "标题明确提到AI大模型训练",
+      "source_category": "media",
+      "title": "阿里Meoo支持对话生成微信小程序，已打通小程序创建、审核、发布全链路",
+      "link": "https://www.leiphone.com/category/industrynews/wxqQfD1prf3OQfG4.html",
+      "summary": "<p>6月5日，阿里Meoo（秒悟）上线微信小程序生成功能，支持接入微信登录，用户无需精通代码，通过自然语言交互即可一键开发、调试微信小程序，例如团购小程序、动报名页、展示网页、运动打卡或记账的个人效率工具等，并打通了微信小程序从创建、审核，到发布和投入使用的全链路。Meoo的小程序生成功能降低了开发门槛，让企业、商家、创业者、个人用户均能以极低的成本和极高的效率，将业务需求或创意灵感转化为可直接落地的微信小程序。</p>",
+      "published": "2026-06-05T18:03:00+08:00",
+      "fetched_at": "2026-06-06T11:45:16.152544+08:00",
+      "pre_filter_reason": "AI-powered tool for generating WeChat mini-programs via natural language.",
       "scores": {
-        "importance": 8,
+        "importance": 7,
         "timeliness": 9,
         "actionability": 8,
         "scarcity": 7,
         "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.6,
+      "quality_score": 7.5,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "国产芯片训练万亿级AI大模型：技术原理与实操路径",
-          "angle": "以深圳国产芯片为例，解释国产芯片训练大模型的关键技术突破（如分布式训练、内存优化），并给出开发者如何适配国产芯片的入门步骤。",
-          "difficulty": "进阶"
+          "title": "零代码生成微信小程序：阿里Meoo实操教学",
+          "angle": "从注册到发布，完整演示如何用自然语言对话创建团购、打卡等小程序，强调全链路自动化优势。",
+          "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "从零开始：用国产芯片跑通第一个万亿参数模型训练任务",
-          "angle": "提供环境搭建、框架选择（如MindSpore/PaddlePaddle）、数据并行策略等实操教程，降低国产芯片AI开发门槛。",
-          "difficulty": "高级"
+          "tag": "analysis",
+          "title": "阿里Meoo vs 传统开发：小程序生成工具会取代程序员吗？",
+          "angle": "对比Meoo与微信原生开发流程，分析低代码/无代码工具对开发者、商家和创业者的实际价值与局限。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "90ed91b8166c",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "OpenAI CFO 首次详解公司战略：B端C端收入五五开、抢 IPO 第一名没意义，今年拿出神秘AI硬件",
-      "link": "https://www.infoq.cn/article/BRvoqUKZgRrl5Xt9ooyJ?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/BRvoqUKZgRrl5Xt9ooyJ?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-06-05T01:33:16+08:00",
-      "fetched_at": "2026-06-05T12:02:46.576786+08:00",
-      "pre_filter_reason": "OpenAI AI strategy and AI hardware launch",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "OpenAI CFO揭秘：B端C端收入五五开，企业如何抓住AI订阅红利？",
-          "angle": "分析OpenAI的B端/C端双轮驱动策略，给出中小企业如何设计AI产品定价与订阅模式的实操建议。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "2025神秘AI硬件前瞻：从OpenAI布局看硬件创业机会",
-          "angle": "结合OpenAI硬件战略，分析AI硬件（如智能眼镜、AI耳机）的产品定义、供应链选择与用户场景设计要点。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "b82ccf161672",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "腾讯首发效率智能体工具集，覆盖20多个垂直场景Agent",
-      "link": "https://36kr.com/newsflashes/3839715093662211?f=rss",
-      "summary": "36氪获悉，腾讯在2026腾讯云AI产业应用大会上首次系统发布“效率智能体工具集”，针对20多个垂直场景提供差异化的智能体解决方案。针对个人用户，本地AI助手QClaw首创“微信直连”模式，并打通腾讯文档、腾讯会议、ima、QQ邮箱等工具。面向职场人群，腾讯推出了“Buddy”家族系列产品。针对企业用户，腾讯还正式发布WorkBuddy企业版及办公智能体套件Agent Suite，升级企业智能体管控平台ClawPro和智能体开发平台ADP 4.0。",
-      "published": "2026-06-05T11:20:10+08:00",
-      "fetched_at": "2026-06-05T12:02:40.443550+08:00",
-      "pre_filter_reason": "腾讯AI智能体工具集发布",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "腾讯效率智能体工具集全攻略：20+垂直场景Agent怎么用？",
-          "angle": "分类介绍腾讯效率智能体在办公、文档、会议、邮件等场景的具体用法，用案例演示如何用QClaw微信直连提升个人效率。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "企业级AI Agent部署实战：腾讯WorkBuddy与Agent Suite配置指南",
-          "angle": "面向IT管理员，讲解如何通过ClawPro和ADP 4.0快速搭建企业专属智能体，包括权限管理、工具集成、流程自动化等关键步骤。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "10ee8951924b",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "硬氪独家 | 唐文斌「原力灵机」并购物流机器人公司，并获智谱、商汤、阶跃等投资",
-      "link": "https://36kr.com/p/3838835333253385?f=rss",
-      "summary": "<p>作者&nbsp;|&nbsp;邱晓芬</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪独家获悉，具身智能企业「原力灵机」近期完成新一轮融资，资方主要为数家大模型公司，包括<strong>智谱、阶跃星辰、商汤科技。</strong>此外，<strong>华勤、上汽恒旭</strong>等产业投资方持续加注<strong>。</strong></p>\n  <p><strong>「原力灵机」</strong>是一家通用具身大模型公司，2025年3月由旷视科技联合创始人兼CTO<strong>唐文斌</strong>创立，团队核心创始成员为旷视科技原班人马。</p>\n  <p>有意思的是，此次融资也是商汤、旷视这两家曾经的对手，在具身智能的热潮中罕见“会师”；</p>\n  <p>另外，算上A+轮独家领投的<strong>阿里</strong>，这也是具身智能赛道罕见同时聚齐国内四家大模型厂商——此前，智谱仅通过Z基金小范围投资具身智能领域，阶跃星辰则几乎未出手具身智能。</p>\n  <p>而这一集体动作也释放出一个信号，当<strong>大模型竞争的主战从Token向Action转移</strong>，拥有物理世界交互能力的具身模型，已成为模型公司们锚定的下一片高地。</p>\n  <p>伴随着此次融资，唐文斌也在兵合一处，着手整合机器人资产。</p>\n  <p><strong>硬氪独家获悉，「原力灵机」近期通过股权并购方式，完成了与「Atomix」（原力聚合）物流机器人的合并，</strong>剑指具身智能的大规模落地与全球化扩张。</p>\n  <p>「<strong>Atomix</strong>」的业务基因最早可以追溯到2016年——彼时，唐文斌在旷视科技内部主导智慧物流与机器人调度业务（河图系统），主推多形态物流机器人解决方案。</p>\n  <p>直到2024年7月，随着旷视业务变化，唐文斌将物流机器人业务从旷视体系剥离独立，并成立「<strong>Atomix</strong>」。</p>\n  <p>经过几年的探索，「<strong>Atomix</strong>」的托盘四向车销量已达全球第二，累计服务项目超过500个，客户包括优衣库、蜜雪冰城、宁德时代等，<strong>公司年营收近十亿</strong>。</p>\n  <p>随着具身智能硬件供应链趋近成熟，行业已经逼近那堵必须逾越高墙：具身大脑。相比语言模型进化路径的清晰，具身智能模型当下甚至找不到低成本、海量且高质量的数据，遑论找到收敛的训练范式。可以说，整个行业都在混沌之中摸索。</p>\n  <p>这种情况下，<strong>本体、大脑、数据的整合，或许成为具身赛道的新常态&nbsp;</strong>。</p>\n  <p>一直以来，具身智能行业的理想状态是打造真正的数据飞轮。而实际情况是，行业正处于“数据死结”状态——模型需要真实场景里的错误数据来推进进化，而若没有好模型的武装，机器人无法进场景，也就无法采集真实的数据。</p>\n  <p>因此，有消息人士称，两家公司的合并，本质上是闭环模型与场景，打开数据死结。</p>\n  <p>正如唐文斌此前在采访中提到，Picking（抓取）正是具身智能时代的“原子任务”——Picking之于具身智能，正如Coding之于大模型，而「<strong>Atomix</strong>」正像是一台连续运转的Picking数据发动机。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260604/v2_ca53593da2bd49cfa7683019c3e61d37@1199336245_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">「原力灵机」机器人 做早餐 （图源/企业）&nbsp;</p>\n  <p>据了解，在未来，<strong>「Atomix」在超20个国家、500多个项目里跑出来的真实数据，将直接成为「原力灵机」模型训练的燃料；而「原力灵机」所训练的具身智能模型，也将快速实现跟「Atomix」现有机器人进行协同作业。</strong></p>\n  <p>这一构想或许并非空中楼阁，而是建立在一定的技术底座之上。在此之前，「原力灵机」已经推出了通用具身大模型“DM0”。</p>\n  <p>唐文斌此前接受采访时提到，在数据层面，「原力灵机」已完成了业内首次“三类数据大融合”——将互联网语义、智能驾驶物理规则、机器人实操数据进行混合训练，提升数据的规模与质量。</p>\n  <p>而这种跨域混合训练的方式，使得“DM0”跳出了对特定硬件参数的依赖，像一位经验丰富的“老司机”，在海量异构数据中抽象出了通用的物理规律，并且能够无视硬件差异，在多种不同构型的机器人本体间迁移，实现通用的操作逻辑。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260604/v2_2973303acc0647c283f75291a74610fe@1199336245_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">「原力灵机」机器人 在调酒 （图源/企业）&nbsp;</p>\n  <p>更关键的是，「原力灵机」也试图将大模型的“思维链推理”延伸至物理空间——这也使得，“DM0”仅用2.4B的小参数规模，就实现了突破亚毫米级的精细操作，在长程连续任务中的成功率大幅提升。</p>\n  <p>通过一系列组合拳，“DM0”正试图打破传统具身模型数据单一、换机即瘫、参数臃肿的痛点。</p>\n  <p>此次合并、融资后，中国的具身智能行业正迎来一位强劲玩家。更重要的是，这也提示行业正进入下一个阶段——寻找到具身模型的scaling law。</p>\n  <p>这绝非仅靠堆砌机器人本体就能逾越的险隘。</p>\n  <p>就在本周，媒体披露字节跳动正重金招募具身智能技术负责人，目标直指头部创业公司的核心技术骨干；与此同时，海外具身智能明星企业Skild AI也刚完成了对Zebra（斑马技术）机器人自动化业务的并购。</p>\n  <p>海内外巨头的动向如出一辙——随着本体制造商、数据资产方、模型研发者、场景运营方开始加速聚拢，行业正式进入深水区。</p>\n  <p><strong>首页图源｜网络</strong></p>\n  <p><strong>排版｜范馨雅</strong></p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260604/v2_34c2c70747ed4937b47ab288bf42e177@1199336245_oswg53536oswg1080oswg337_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">欢迎交流</p>",
-      "published": "2026-06-05T09:00:00+08:00",
-      "fetched_at": "2026-06-05T12:02:40.443382+08:00",
-      "pre_filter_reason": "提及具身智能、大模型公司投资，属于AI领域",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "唐文斌新公司「原力灵机」并购物流机器人，背后有何商业逻辑？",
-          "angle": "拆解「原力灵机」的并购策略：为什么选择物流机器人公司？大模型公司智谱、商汤为何投资？分析具身智能与物流场景的结合点，以及产业投资方华勤、上汽的布局意图。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "从旷视到原力灵机：唐文斌的具身智能创业路线图",
-          "angle": "梳理唐文斌的创业历程，从旷视CTO到创立原力灵机，聚焦其团队背景（旷视原班人马）、融资节奏（智谱、商汤等大模型公司入局），以及并购物流机器人公司的战略意义。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "b35774a8c0e2",
+      "id": "0b962f9e39a7",
       "source_id": "leiphone",
       "source_name": "雷锋网",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "CVPR 2026：深度学习的「标准件」，正在被逐个拆掉",
-      "link": "https://www.leiphone.com/category/industrynews/EvOI1x7Wt5zyH7qe.html",
-      "summary": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260604/6a214db01e905.png?imageMogr2/quality/90\" style=\"width: 100%; display: inline-block; text-align: center; background-color: transparent;\" /></section><section style=\"padding-left: 16px; padding-right: 16px;\"><section style=\"width: 100%; display: flex; padding: 0px;\"><section style=\"width: 100%; padding-left: 0px; padding-right: 0px;\"><section style=\"width: 100%; background: rgb(246, 248, 255); padding: 20px 0px 12px; margin-top: 0px; margin-bottom: 0px;\"><section style=\"text-align: center;\"><section><section style=\"text-align: justify; margin: 0px 16px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><span>注意力的浮点精度不是必须的，归一化流的&quot;精确可逆&quot;是可以放弃的……</span></span></span></section><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><section style=\"text-align: left; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><br /></span></span></section></section></section><span></span><span></span><span></span><span></span><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-weight: normal;\">&nbsp; &nbsp; 作者丨马晓宁</span></span><strong><span><strong><span><span><br /></span></span></strong></span></strong></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Optima-Regular, PingFangTC-light;\"><span style=\"color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\"><span>&nbsp; &nbsp; 编辑丨岑 &nbsp; 峰</span></span></span></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; text-align: right; margin: 0px 16px;\"><strong><strong><span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></strong></strong></p></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这里有一幢大楼，叫做深度学习。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">过去几年，人们不停地给它加盖、扩建，越盖越高，越盖越复杂。这幢大楼叫 Transformer。盖楼时用了一大批标准件，浮点精度是它的钢筋，层归一化和残差连接是它的混凝土，因果掩码是它的承重隔断。旁边还有两栋附楼：一栋是扩散模型；另一栋归一化流。在漫长的施工期里，人们不断加装更粗的钢筋、更复杂的控制系统，以为这样做就能让这几栋楼更稳固高大美观。但是这样真的是对的吗？</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">可现在，这些施工的收益越来越小，而有人在附楼里试出了更好的新零件，量化、去噪、可逆约束都有了更轻便的替代品。于是，一批施工队同时进场，对准这些标准件开刀。他们不是来修修补补的，而是问一个更根本的问题：这根柱子、这面墙、这套管道，到底是真承重，还是只因为一直在那儿所以没人动？</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">更有意思的是，五支施工队去了不同的楼层。有的在楼体外墙动手，拆掉了那些只用来装饰的预制板——那是推理端的精度和定制策略。有的钻进设备层，重新铺设了管线——那是训练目标的参数化方式。还有的直接下到地下室，对着地基里的钢筋动起了大锤——那是归一化层和可逆性约束。把它们放在一起看，你会发现一条清晰的递进线：深度学习的&quot;标准件&quot;正在从外围到核心，被逐个拆掉。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260604/6a214db051ce2.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>01</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">从推理端开刀：</span></strong></strong></strong></h2></section><section style=\"text-align: center;\"><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">精度和定制策略，不是必须的</span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">最先被质疑的标准件，是那些看起来最&quot;技术性&quot;的，比如说，浮点精度的矩阵乘法，和针对不同架构手工调参的量化策略。这些因为不涉及“模型为什么能work”的核心设计哲学，看起来只是优化效率、节省算力，所以最容易被人当成“普通的工程优化”。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">但 CVPR 2026 的这两篇论文告诉我们，远不止&quot;模型可以更省&quot;这么简单。</span></p><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">BinaryAttention：1-bit 注意力，比全精度还能打</span></span></strong></p></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">Transformer 的注意力模块一直是算力黑洞。Query 和 Key 做矩阵乘法，计算量随序列长度平方增长，在高分辨率视觉任务和多步扩散生成里尤其要命。普通工程优化的逻辑：第一步是 FlashAttention，用 IO 优化把访存瓶颈拆掉；第二步是量化，把 FP32 压成 INT8、INT4，低比特框架内，精度降了，但总算还能用。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">再往下压，就要把 Q 和 K 压成只有正负两种状态的 1-bit。这条路几乎没人敢走。直觉上太反常识了：一个连续实数变成一个正负号，信息损失那么大，注意力还能算对吗？</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">BinaryAttention 给出的答案是：不仅算得对，还能算得更快。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这篇来自 Chaodong Xiao、Zhengqiang Zhang 和 Lei Zhang 的论文，首先从理论上论证了一个关键命题——注意力机制的核心逻辑是计算 Q 和 K 之间的相似度关系，而这个相似度关系在二值化之后依然能被有效保留。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260604/6a214db09de00.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">换句话说，&quot;这两个位置相关不相关&quot;这件事，不需要精确到小数点后几位，一个正负号就能捕捉到最核心的信息。基于这个理论支撑，BinaryAttention 只保留 Q 和 K 的符号，将传统浮点矩阵乘法替换为 XNOR 加 popcount 的位运算，从根本上改变了注意力的计算方式。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">当然，1-bit 量化带来的信息损失是客观存在的。为了弥补这一点，论文引入了可学习的偏置项进行补偿，同时采用量化感知训练让模型学会&quot;用 1-bit 思考&quot;，并用自蒸馏技术以全精度模型为教师，确保量化后的符号相似性与全精度保持一致。</span></p><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">整个设计支持端到端的前向传播加速，不需要额外的推理步骤。实验结果令人意外：在 A100 GPU 上，BinaryAttention 比 FlashAttention2 快 2 倍以上，而在视觉和扩散 Transformer 的广泛基准测试中，1-bit 注意力不仅能维持精度，在部分任务上甚至超过了全精度版本。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这篇论文打破了&quot;低比特必然牺牲精度&quot;的行业常识，把“量化”从一个工程压缩问题，提升到了“重新发现计算本质”的理论层面。</span></p><ul class=\" list-paddingleft-2\"><ul class=\" list-paddingleft-2\"><li><p style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span><span style=\"color: #888888; font-style: italic;\">arXiv 论文页面：</span></span></span></span><span style=\"font-size: 14px; text-align: justify; line-height: 1.75em; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px; text-align: justify; line-height: 1.75em; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">https://arxiv.org/abs/2603.09582</span></span></span></p></li><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">项目代码仓库：</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px;\"><span><span style=\"color: #888888; font-style: italic;\">EdwardChasel/BinaryAttention</span></span></span></span></p></li></ul></ul><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">SegQuant：量化不需要给每个模型单独开药方</span></span></strong></p></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">另一篇论文中，SegQuant 挑战了另一个标准件：量化策略必须针对每个架构手工定制。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在深度学习领域，如果你要对一个模型做量化（比如把32位浮点数压缩成8位或4位整数），那么你几乎必须针对这个模型的具体架构，手工去调整量化参数（比如每一层的缩放因子、零点位置、位宽分配等）。不同架构差异越大，手工调参的工作量就越重。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">而扩散模型这个领域，SDXL、DiT、PixArt等模型架构变得非常多样且差异巨大，让这个问题雪上加霜。给一个模型调参之后，换个模型就得重新来一遍。更麻烦的是，这些方法通常依赖大量人工设定的启发式规则，和主流工业部署工具也不兼容，想真正把量化塞进生产线，门槛极高。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">浙大 OptiSys 团队提出的 SegQuant，核心思路是让量化策略从模型的计算图里自动&quot;读&quot;出来，而不是靠人工拍脑袋。SegQuant 由两个组件构成：SegLinear 和 DualScale。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260604/6a214db0d7953.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">SegLinear 是一种基于段的图量化策略，它分析模型的静态计算图，自动捕获线性层的语义结构，识别出哪些层功能类似、哪些层在空间分布上差异显著，然后据此为不同层分配不同的量化配置。整个过程不需要手写规则，完全由图拓扑驱动。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">DualScale 则专门对付扩散模型量化里一个老大难问题：激活分布的极性不对称。扩散模型中很多层的激活值正负两侧形状差异极大，如果用同一套量化尺度去量，必然会有一侧被严重失真。DualScale 用双尺度分别校准正负两侧，专门保住视觉输出的保真度。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">SegLinear 证明了量化配置可以从计算图自动读取，无需人工经验。DualScale揭示了传统量化失效的根本原因是忽略了正负分布的独立性，并提出了一个更合理的基本形式。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">SegQuant 的意义是第一次有人把扩散模型量化做成了一个真正跨架构通用的框架，同一套方法适配 UNet 系和 DiT 系，无需为每个模型单独调参。同时，论文从一开始就按工业部署的标准设计，与主流部署工具无缝兼容。这意味着 SegQuant 不是一篇只活在论文里的方法，而是可以直接推进到生产线上的工具。</span></p><ul class=\" list-paddingleft-2\"><ul class=\" list-paddingleft-2\"><li><p style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><span style=\"font-size: 14px; text-align: justify; line-height: 1.75em; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">arXiv 论文页面：</span></span><span style=\"font-size: 14px; text-align: justify; line-height: 1.75em; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">https://arxiv.org/abs/2507.14811</span></span></p></li><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 14px; text-align: justify; line-height: 1.75em; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">项目代码仓库：</span></span><span style=\"font-size: 14px; text-align: justify; line-height: 1.75em; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">https://github.com/OptiSys-ZJU/segquant</span></span></p></li></ul></ul><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260604/6a214db115e0a.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>02</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">训练目标翻案：</span></strong></strong></h2></section><section style=\"text-align: center;\"><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">扩散模型，你根本没在&quot;去噪&quot;</span></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">推理端的标准件被拆掉之后，接下来被质疑的，不再是怎么跑模型，而是模型的目标本身到底对不对。而这一刀，切到了扩散模型最根本的训练范式上。</span></p><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">JiT：预测噪声还是预测干净图像？这个问题比你想的更重要</span></span></strong></p></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">扩散模型的名字里有&quot;去噪&quot;两个字，但早期研究普遍选择让模型预测噪声，而不是干净图像。在技术上，这两种参数化是等价的，可以相互转换，所以一直没人深究：选哪个真的完全一样吗？</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">Kaiming He 和 Tianhong Li 在这篇论文里指出：两者在实际效果上并不等价，差异藏在流形几何里。流形假设（Manifold Hypothesis）告诉我们，自然图像分布在高维空间里的一个低维流形上。干净图像住在这个流形上，而加了噪声的中间状态则偏离了流形，是&quot;飘出去&quot;的。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260604/6a214db16ffb4.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这意味着，当模型的训练目标是预测带噪量时，它要在一个弥散的高维空间里工作，网络容量不够就会灾难性失败；而如果目标是预测干净图像，目标始终在流形上，即便网络容量有限也能有效建模。这不是工程细节的差异，而是数学本质的差异，因为预测噪声是在流形之外寻找一个弥散的目标，预测干净图像是在流形之上寻找一个结构化的目标。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">基于这个洞察，研究者提出了 JiT（Just image Transformers）：直接用大 patch 的 Transformer 处理原始像素，训练目标就是预测干净图像，损失函数只有简单的 MSE。没有 VAE 或 Tokenizer 做潜空间压缩，没有预训练权重，没有额外的正则化损失。这是一种极简化的设计方式。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在 ImageNet 256 和 512 分辨率上，JiT 都取得了有竞争力的结果，尤其是 32×32 的大 patch 在 512 分辨率下依然表现良好，这打破了&quot;高分辨率必须先压缩到潜空间&quot;的通行做法。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">JiT 的意义远不止一组实验数据。它真正动摇的是整个扩散模型的训练范式：过去几年，从 LDM 到 DiT 到 SDXL，所有人都在沿着&quot;先压缩、再预测噪声&quot;的路线走，没人意识到它可能是一个次优解。而 JiT 告诉我们，这条路线的自然性是虚假的，虽然它是在数学上等价的，但在几何上却不是最优的。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">更值得注意的是，JiT 的极简设计本身就是一种论证：当去掉 Tokenizer、去掉预训练、去掉复杂损失，模型依然能工作得很好，就引发了越来越多的质疑：那些被加进来的组件，有多少是真正必要的，又有多少只是在为一个次优的训练目标做补偿？</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">如果说 BinaryAttention 和 SegQuant 是在推理端拆掉标准件，那 JiT 就是在训练目标上翻案——它质疑的不是&quot;怎么做&quot;，而是&quot;为什么这么做&quot;。这个层次的质疑，影响要比推理优化深远得多。而当这种质疑继续往深处推进，就会触及模型架构最底层的那些&quot;默认设置&quot;。</span></p><ul class=\" list-paddingleft-2\"><ul class=\" list-paddingleft-2\"><li><p style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><span style=\"font-size: 14px; text-align: justify; line-height: 1.75em; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">arXiv 论文页面：</span></span><span style=\"font-size: 14px; text-align: justify; line-height: 1.75em; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">https://arxiv.org/abs/2511.13720</span></span></p></li><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 14px; text-align: justify; line-height: 1.75em; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">项目代码仓库：</span></span><span style=\"font-size: 14px; text-align: justify; line-height: 1.75em; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">https://github.com/LTH14/JiT</span></span></p></li></ul></ul><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260604/6a214db1a27cb.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>03</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">架构层的地基松动：</span></strong></strong></strong></h2></section><section style=\"text-align: center;\"><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">归一化层和可逆约束，都可以不要</span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">前面三篇论文说的是推理端和训练目标的标准件，接下来要介绍的两篇论文，则是在探讨归一化层和可逆性约束的标准件。归一化层在Transformer里已存在近十年，被视为“必需品”；可逆性约束是归一化流这个方向自始至终的核心约束。拆除归一化层和可逆性约束，相当于修改模型最底层的核心组件。</span></p><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"font-weight: bold; text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">BiFlow：精确可逆这个数学洁癖，可以扔了</span></span></strong></p></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">归一化流（Normalizing Flow）生成模型中对数学性质要求最严格的一类。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">它通过可逆变换在数据分布和先验分布之间建立双向映射，支持精确的对数似然估计，理论上非常漂亮。但这种优雅是有代价的：严格的可逆性约束把网络架构的设计空间框死了，能用的变换类型极其有限。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">近年来 TARFlow 把 Transformer 和自回归流结合，性能大幅提升，但自回归的因果解码天生是串行的，就造成了生成一张图的情况下，token 一个一个出的局面。速度成了自回归绕不开的硬伤。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">来自 Yiyang Lu、Qiao Sun 等人与 Kaiming He 合作的 BiFlow，提出了一个思路：逆函数不一定需要是精确的解析解。传统归一化流要求前向变换严格可逆，反向过程直接采用解析方法求逆。这一要求由“可逆性”这一名称所定义，看起来是合理的。然而 BiFlow 指出，这一要求带来的实际代价超过了其理论收益：它限制了架构选择，强制了因果解码的串行推理，并使采样速度成为性能的主要制约因素。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260604/6a214db1ceea4.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260604/6a214db20d78c.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">该团队的做法是同时学习两个方向：前向模型将数据映射到噪声，反向模型独立学习一个近似逆映射。反向模型不再是前向变换的解析逆，而是一个自由参数化的神经网络——这意味着它可以使用双向注意力而非因果注意力，实现完全并行的解码。两个方向独立训练，反向模型不受可逆性约束，架构选择完全自由。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">BiFlow在 ImageNet 上的实验结果是：生成质量显著提升，采样速度比因果解码方法快了两个数量级，在归一化流类方法中达到最优，与单次前向评估的方法相比也具有竞争力。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这项研究重新定义了生成模型中“可逆”的含义：精确可逆是强约束，近似可逆是工程可行的折衷。放弃精确可逆，可提升架构灵活性和计算效率。这与 JiT 的逻辑一致。JiT 表明预测噪声和预测干净图像数学等价但几何不等价；BiFlow 表明精确可逆与近似可逆数学不等价但效果接近。两者都以实际有效性而非理论优雅作为评价标准。</span></p><ul class=\" list-paddingleft-2\"><ul class=\" list-paddingleft-2\"><li><p style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><span style=\"font-size: 14px; text-align: justify; line-height: 1.75em; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">arXiv 论文页面：</span></span><span style=\"font-size: 14px; text-align: justify; line-height: 1.75em; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">https://arxiv.org/abs/2512.10953</span></span></p></li><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 14px; text-align: justify; line-height: 1.75em; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">项目代码仓库：</span></span><span style=\"font-size: 14px; text-align: justify; line-height: 1.75em; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">https://github.com/Lyy-iiis/BiFlow</span></span></p></li></ul></ul><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">Derf：归一化层不仅能替代，还能被打败</span></span></strong></p></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">BiFlow 尝试去除可逆性约束，而 Derf 则尝试去除 Transformer 中最为基础的归一化层。LayerNorm 与 RMSNorm 在 Transformer 中被普遍视为必要组件，研究者主要关注参数调节而非是否使用。DyT（Dynamic Tanh）出现，证明可以用一个简单的逐点非线性函数替代归一化层，训练同样稳定，性能持平，但 DyT 仅持平而未超越。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">Mingzhi Chen、Taiming Lu 等人的这篇论文，问的是更进一步的问题：既然可以用逐点函数替代归一化层，那最优的逐点函数是什么？作者首先从理论上研究了逐点函数的内在特性如何影响训练动态和最终性能，然后基于理论发现开展了大规模的函数形式搜索。最终找到的答案是 Derf——一个基于误差函数的极简设计：Derf(x) = erf(αx + s)，其中 erf 是高斯累积分布函数，α 和 s 是可学习参数。这个设计形式极其简洁，但效果惊人：在视觉识别、视觉生成、语音表示学习、DNA 序列建模等多个领域，Derf 全面优于 LayerNorm、RMSNorm 和 DyT。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260604/6a214db24b5a4.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">更值得注意的是论文对 Derf 性能来源的分析。通常人们会认为，一个更好的替代方案一定是因为拟合能力更强。但作者通过深入实验发现，Derf 的优势主要来自泛化能力的提升，而非拟合能力的增强。这个发现可能带来一种暗示，即归一化层之所以长期以来&quot;不可替代&quot;，可能并不是因为它提供了某种不可取代的计算功能，而是因为它恰好提供了一种泛化性尚可的稳定化手段。而当 Derf 用一种更简洁的方式提供了更好的泛化性时，归一化层的&quot;不可替代性&quot;就站不住脚了。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">Derf 的意义不只是一次函数替换。它真正触及的问题是：归一化层在 Transformer 里到底在干什么？多年来，人们用&quot;稳定训练&quot;来解释它的存在，但&quot;稳定训练&quot;这个说法本身就含糊。Derf 可能给出了这样的方向，至少在泛化性这个维度上，归一化层并不是最优答案。一个形式更简洁、参数更少的逐点函数，可以做得更好。</span></p><ul class=\" list-paddingleft-2\"><ul class=\" list-paddingleft-2\"><li><p style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><span style=\"font-size: 14px; text-align: justify; line-height: 1.75em; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">arXiv 论文页面：</span></span><span style=\"font-size: 14px; text-align: justify; line-height: 1.75em; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">https://arxiv.org/abs/2512.10938</span></span></p></li><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 14px; text-align: justify; line-height: 1.75em; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">项目代码仓库：</span></span><span style=\"font-size: 14px; text-align: justify; line-height: 1.75em; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">https://github.com/zlab-pku/Derf</span></span></p></li></ul></ul><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260604/6a214db27df3b.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>04</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">结语</span></strong></strong></strong></h2></section></section></section></section></section><h2 style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">把五篇论文放在一起看，最值得关注的不是它们分别把某个指标提高了多少，而是它们几乎不约而同地指向同一件事：深度学习中那些被当作&quot;标准件&quot;装配进去的设计，远没有我们以为的那么不可动摇。</span></h2><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">BinaryAttention 证明了注意力的浮点精度不是必须的，1-bit 符号就够了；SegQuant 证明了量化策略不需要给每个架构单独开药方，计算图自己就能推断；JiT 证明了扩散模型&quot;预测噪声&quot;的训练目标不是最优的，直接预测干净图像在几何上更合理；BiFlow 证明了归一化流的&quot;精确可逆&quot;是一种可以放手的奢侈品；Derf 证明了归一化层不仅能被替代，还能被打败。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">而且它们不是在同一层拆。从推理端的精度和定制化，到训练目标的参数化方式，再到架构层最底层的归一化层和可逆约束，全部有所涉及。过去几年的深度学习都是在追求规模化，要有更大的模型、更多的数据、更精细的调参，那么 CVPR 2026 的这一批工作，则是在探讨一些根源问题：哪些墙是承重墙，哪些只是隔断？哪些是必须的，哪些只是&quot;一直都在所以以为必须&quot;？</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">答案正在变得越来越清晰：那些我们以为的承重墙，有不少只是隔断。而拆掉它们之后，房子不但没有塌，反而透进了更多的光。雷峰网消息</span></p><section><span></span></section><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span></span></p><section><span></span></section>",
-      "published": "2026-06-04T18:06:00+08:00",
-      "fetched_at": "2026-06-05T12:02:45.327258+08:00",
-      "pre_filter_reason": "CVPR conference, deep learning research.",
+      "title": "中科闻歌发布 Decitron 决策机：跳出问答大模型，AI 迈入真实世界推演时代",
+      "link": "https://www.leiphone.com/category/industrynews/JvMzCFCNVVx3dav9.html",
+      "summary": "<p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260605/6a227036ebc89.png?imageView2/2/w/740\" /></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">决策机Decitron发布会现场</span></p><p>2026年6月5日，中科闻歌正式发布通用决策大模型——Decitron决策机。作为面向复杂事件、复杂系统和复杂决策打造的产品，Decitron决策机不只是回答问题，而是理解事件、推演路径、比较结果，帮助人类在复杂事务中做决策。</p><p>“AI已经开始像水和电一样进入现实世界和人们的生活。但当AI会聊天、会写作、会画画、会做视频之后，一个更重要的问题正在出现：AI能不能不只是回答问题，而是进一步推演世界、预测未来？”发布会上，中科闻歌董事长王磊抛出了这个关于AI下一阶段发展的关键问题。</p><p>正是基于对这一问题的思考，中科闻歌正式发布了AI决策时代的全新产品——Decitron决策机。王磊表示：它不是聊天机器人或者搜索引擎，而是一个能够分析事件关联、模拟不同选择、推演可能未来的通用决策大模型。Decitron决策机的使命，是“推演世界、看见未来”。</p><p><strong>不止回答问题，更要推演路径</strong></p><p>作为面向通用决策场景打造的决策智能模型产品，Decitron决策机并不局限于单一行业或单一任务，它聚焦存在不确定性、多路径选择和多方博弈的复杂决策问题，可广泛应用于金融市场、宏观经济、国际形势、公共治理、企业战略、投资研究和产业研判等领域。</p><p>为了更直观展示这一能力，发布会现场，中科闻歌以“美联储主席更替后，2026年美国利率政策可能如何演化”这一宏观金融政策情景为例，完整演示了Decitron决策机的推演流程，并展示其与传统AI问答的不同。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260605/6a22703dd15f6.png?imageView2/2/w/740\" /></p><p>这一问题看似是一个宏观财经判断，普通AI更多回答“是什么”，但在Decitron决策机的处理逻辑中，它将详细推演“会怎样、怎么办”。系统会将问题拆解为：在什么条件下可能发生、何时可能发生、可能发生到什么程度；如果没有发生，又是哪些变量改变了事件原有路径。</p><p>演示显示，用户输入问题后，Decitron决策机并不会立即给出结论，它首先会判断问题是否具备推演条件，并对复杂问题进行结构化处理。系统会识别问题边界、时间范围、判断对象、核心变量和关键主体，将问题转化为可推演的决策结构。</p><p>在该案例中，Decitron决策机快速识别出凯文·沃什、FOMC、美国金融市场等多个关键主体，将降息事件拆解为一场围绕通胀、增长和市场预期展开的动态博弈。</p><p>在多轮推演中，Decitron决策机围绕美国利率政策议题生成了按兵不动、数据转弱后试探性调整、外部变量冲击导致政策后移、突发金融震荡引发紧急转向等不同分支，并进一步给出各路径的概率、触发条件、关键变量和风险信号，最终形成条件化判断。</p><p>除宏观金融政策情景，产业研判同样是Decitron决策机的重要应用方向。以短剧行业发展趋势为例，Decitron决策机对平台政策、内容供给、制作公司订单变化、演员开机率、渠道分发和用户付费等多项变量进行综合推演，判断短剧行业正在从前期的高速扩张阶段，逐步进入规则重构和行业洗牌期。</p><p>在这一案例中，Decitron决策机并没有简单给出“行业会不会降温”的单一结论，而是进一步拆解出影响行业变化的关键触发信号。系统推演显示，未来3个月内，如果同时出现“平台减少保底、头部厂牌拿单集中、腰部演员开机率继续下降”三项信号，则意味着行业分化可能进一步加速。</p><p>基于这一判断，Decitron决策机进一步给出了面向不同主体的行动建议：对于平台方，应加快规则固化和分账机制优化，减少粗放式补贴带来的资源错配；对于制作公司，应尽快绑定头部渠道和稳定分发资源，提升项目确定性；对于演员群体，尤其是腰部演员，则需要尽快完成厂牌绑定，或向直播、电商、长视频配角等相邻赛道转型。</p><p>无论是美联储降息这样的宏观金融政策判断，还是短剧行业洗牌这样的产业趋势研判，Decitron决策机都可以围绕关键变量、参与主体和变化条件，形成多条可比较、可验证、可追踪的未来路径，并标明每条路径的触发条件、概率变化、风险信号和行动建议。</p><p>这正体现了其作为通用决策大模型的核心能力：不依赖单一行业模板，而是把不同领域的复杂判断拆解为路径，把路径拆解为变量，再将变量放入多主体博弈结构中进行连续演化，最终帮助用户在不确定环境中形成更有依据的决策判断。</p><p><strong>三项关键技术，支撑AI推演复杂世界</strong></p><p>“如果说ChatGPT的脑子里装的是一本百科全书，那么Decitron决策机的脑子里装的更像是一个动态沙盘。”发布会上，中科闻歌技术团队用这一比喻，解释决策机与传统问答式AI之间的差异。</p><p>传统大模型擅长回答问题、生成内容和整理知识，但真实世界的决策并非一次问答就能完成。复杂决策真正需要的是看见变量、理解因果、推演路径，并比较不同选择可能带来的结果。</p><p>中科闻歌首席执行官罗引博士表示：“Decitron决策机的核心不是回答问题，而是把复杂世界变成一个可以计算、可以推演、可以验证的系统。”</p><p>据介绍，Decitron决策机以世界模型、多智能体推演和博弈求解为三项关键技术路径，将世界状态建模、因果推理、概率预测与多方博弈等能力融合在同一推演链条中，形成面向复杂决策问题的“四维混合推理能力”，支撑AI从“生成答案”进一步走向“推演世界”。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260605/6a2270440ba89.png?imageView2/2/w/740\" /></p><p>在具体实现上，“世界模型（Meta World）”负责把现实世界转化为可计算的状态空间。Decitron决策机会将新闻、政策、事件、市场信号等信息，转化为结构化的State-Action-Outcome框架，即当前世界处于什么状态、关键主体能够采取哪些行动、行动之后可能带来什么结果。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260605/6a22704ad12ab.png?imageView2/2/w/740\" /></p><p>“多智能体推演”则负责模拟真实世界中的多方互动。Decitron决策机会对企业、市场和公众等不同主体进行建模，刻画其目标、约束、资源、偏好和行动空间，并在每一轮推演中模拟不同主体的选择如何改变世界状态，进而触发下一轮博弈。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260605/6a227050bb5b7.png?imageView2/2/w/740\" /></p><p>“博弈求解”进一步将大模型的理解能力与因果推断、概率更新、策略均衡和路径优化结合起来。大模型负责理解问题、识别主体和解释结果，求解器负责计算路径、更新概率和优化策略。由此，语言模型的理解力与博弈、概率模型的计算力被链式融合，共同服务于复杂世界的连续推演。</p><p>据介绍，中科闻歌已将博弈论、最优化理论、不确定性度量等领域的2000多个场景求解方法，转化为2000多个可量化计算的AI算子，使Decitron决策机的推演结果不再单纯依赖语言生成，而是建立在可计算、可量化、可追踪的求解体系之上。</p><p>由此，Decitron决策机不只是看事件，更要看因果；不只是给结果，更要比较路径；不只是分析单方行动，更要理解多方博弈；不只是输出结论，更要给出概率、依据和变化条件。</p><p>AI的能力边界，也由此从语言生成进一步延伸至复杂世界的决策推演。</p><p><strong>X-Signal持续追踪，把判断变成可更新的决策系统</strong></p><p>当现实世界持续变化，AI如何不被旧判断困住，而是根据新信号不断更新认知、校准路径？Decitron决策机给出的答案，是X-Signal（全球信号）持续追踪。</p><p>在发布会现场，Decitron决策机展示了X-Signal持续追踪功能。在演示中，系统可以将美联储降息议题保存为持续追踪任务。此后，决策机会围绕该议题持续监测全球新闻、政策变动、市场信号和关键变量变化。一旦相关信号发生变化，系统会在原有推演结构上自动更新路径、调整概率，并重新评估不同情景的触发条件。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260605/6a2270577ac68.png?imageView2/2/w/740\" /></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">决策机会围绕该议题持续监测全球新闻等关键变量变化</span></p><p>这意味着，第一次判断的依据、第二次更新的变量、路径为何变化、概率如何调整，都会被系统完整保留下来，使一次推演从静态分析变成动态更新的判断系统。</p><p>发布会上，中科闻歌Decitron决策机产品团队表示，Decitron决策机服务的是持续决策。它关注的是用户真正关心的决策问题，并围绕已建模议题进行持续追踪、更新和校准。</p><p>在输出层面，Decitron决策机可以自动生成两类报告：一类是推演过程报告，记录问题如何被界定、主体如何被识别、分支如何生成、概率如何变化、变量如何驱动路径收敛；另一类是面向决策者的综合分析报告，直接给出条件化判断、时间窗口建议、监测指标和重估信号。</p><p>由此，复杂判断被沉淀为可传播、可复盘、可追踪、可更新的决策资产。</p><p>这也是Decitron决策机区别于传统问答式AI的重要一步：它不仅回答此刻，更持续校准未来。</p><p><strong>多项测试验证推演能力，事件终局预测准确率达81.2%</strong></p><p>为了验证Decitron决策机在真实场景中的推演能力，中科闻歌在发布会上披露了多项测试结果。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260605/6a22705e21274.png?imageView2/2/w/740\" /></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Decitron决策机实现3项SOTA</span></p><p>在国际权威数据集PolyBench的测评中，Decitron决策机实现3项SOTA，终局预测准确率（FFA）81.20%；预期波动预测准确率（EVPA）73.40%；平均概率预测偏差（MSE）0.822%，综合表现超越行业基线。</p><p>中科闻歌方面表示，这表明Decitron决策机已经跳出单纯信息汇总和基础概率计算层面，能够对复杂事件背后的因果关系和演化路径进行结构化推演。</p><p>此外，中科闻歌还开展了为期一个月的全天候模拟实时事件推演测试。该测试贴合真实市场节奏，重点验证Decitron决策机在高频变量变化场景下的持续推演、动态校准和风险识别能力。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260605/6a227064d92f1.png?imageView2/2/w/740\" /></p><p>罗引博士表示，相关测试结果进一步验证了Decitron决策机在复杂事件推演中的能力。它是通过持续识别变量、分析因果关系、比较不同路径和动态校准概率，帮助用户在不确定环境中形成更有依据的决策判断。</p><p><strong>开启真实世界决策的AlphaGo时刻</strong></p><p>发布会最后，王磊董事长将Decitron决策机的发布称为“真实世界决策的AlphaGo时刻”。</p><p>他表示，十年前AlphaGo战胜李世石，证明AI可以在361个交叉点的棋盘上完成极其复杂的决策。今天，Decitron面对的不再是19×19的方格，而是真实世界这张更复杂的决策棋盘。这里有变化的信息、多方的博弈、不确定的变量，以及不断演化的未来路径。</p><p>在王磊看来，面对复杂世界，人们不再只需要一个答案，更需要推演路径、识别变量、比较概率、追踪信号和校准判断的能力。通过结构化建模、多主体推演、概率预测和X-Signal持续追踪，Decitron决策机希望帮助人们把复杂局面看清楚，把行动路径算明白，把关键风险提前暴露。</p><p>Decitron决策机的问世，也是中科闻歌长期技术积累和产业实践走向产品化、平台化的重要成果。孵化于中国科学院自动化研究所，中科闻歌核心创始团队长期深耕复杂信息分析、认知智能、社会计算、多智能体系统和人工智能辅助决策等方向，并在公共治理、金融、媒体融合、产业智能化等复杂业务场景中，持续沉淀数据分析、业务本体建模、AI辅助研判和多智能体推演能力。</p><p>工业时代的基础设施是电力，信息时代的基础设施是计算，而智能时代的基础设施将是决策。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260605/6a22706c016ce.png?imageView2/2/w/740\" /></p><p>&nbsp;</p><p><br /></p>",
+      "published": "2026-06-05T14:49:00+08:00",
+      "fetched_at": "2026-06-06T11:45:16.152586+08:00",
+      "pre_filter_reason": "AI product launch (Decitron decision model)",
       "scores": {
-        "importance": 7,
-        "timeliness": 8,
+        "importance": 8,
+        "timeliness": 9,
         "actionability": 8,
         "scarcity": 7,
         "virality": 7,
-        "crowd_heat": 3.5
+        "crowd_heat": 0.0
       },
-      "quality_score": 7.2,
+      "quality_score": 7.5,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "CVPR 2026 趋势：深度学习「标准件」被拆，意味着什么？",
-          "angle": "解读CVPR 2026中关于深度学习模块化组件被解构的趋势，分析这对AI模型设计、训练效率、硬件适配的影响，以及未来可能的新范式。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "tutorial",
-          "title": "深度学习「标准件」被拆，开发者该如何调整技术栈？",
-          "angle": "从开发者视角出发，探讨当传统深度学习组件（如卷积、注意力机制）被替代或重构时，如何更新自己的知识体系、工具链和模型架构设计思路。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "426e9f06e782",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "UT Austin朱玉可：人形机器人的数据困局怎么破？答案藏在「数据海绵」里 ｜ICRA 2026",
-      "link": "https://www.leiphone.com/category/ai/6XQSEzLW61BM8QFo.html",
-      "summary": "<p style=\"text-align: left;\">&nbsp;<span style=\"font-family: Arial; font-size: 11pt;\">2026年6月3日，在ICRA 2026大会的主题演讲环节，德克萨斯大学奥斯汀分校副教授、NVIDIA GEAR团队负责人朱玉可（Yuke Zhu）发表了关于人形机器人基础模型的最新演讲。他在演讲中系统性地拆解了当前人形机器人面临的最大瓶颈——数据，并提出了以“数据金字塔”为框架、以“世界模型”为引擎的规模化路径。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260604//6a2123af1e126.jpg?imageMogr2/quality/90\" /></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">朱玉可指出，人形机器人正在进入一个全新的加速阶段：硬件日益成熟，学习算法和基础模型的规模化也在快速推进。但真正制约这一领域从Demo走向大规模部署的，仍然是数据。真实机器人数据质量最高但极其稀缺，仿真数据可以无限生成但存在仿真到真实的鸿沟。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">为此，他提出了一个三层数据金字塔策略：</span><span style=\"font-family: 'Arial'; font-size: 11pt; font-weight: bold;\">底层是海量但被动的互联网人类视频数据，中层是可无限生成的合成数据，顶层是真实机器人数据。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">他的核心观点是：</span><span style=\"font-family: 'Arial'; font-size: 11pt; font-weight: bold;\">不应押注单一数据源，而应</span><span style=\"font-family: 'Arial'; font-size: 11pt; font-weight: bold;\">以异质方式</span><span style=\"font-family: 'Arial'; font-size: 11pt; font-weight: bold;\">汇集三种数据，同时让世界模型扮演“数据海绵”的角色，吸收并整合所有类型的数据。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">在具体实践中，朱玉可展示了两个典型案例：一是SONIC——利用大规模人类动作捕捉数据训练人形机器人全身控制器，通过运动跟踪目标</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">大幅简化了</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">强化学习的奖励函数设计，实现万小时级别的规模化训练；二是EgoScale——从</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">第一人称视角</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">的人类视频中学习，通过“预训练获取人类知识→对齐训练压缩知识→后训练表达知识”的三阶段方案，使得机器人仅需不到1%的真实机器人数据就能完成复杂操作任务。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">整场演讲最令人振奋的结论</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">，</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">来自DreamZero世界</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">动作（World Action Model，WAM）</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">模型：通过将视频生成模型转化为动作生成器，纯AI生成的虚拟轨迹在训练价值上几乎100%等效于真实物理数据。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">朱玉可最后强调，要推动整个领域前进，开源和开放是不可或缺的。NVIDIA已开源GR00T基础模型、Isaac仿真框架及相关数据集，并刚刚发布了首个</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">H</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">2</span><span style=\"font-family: 'Arial'; font-size: 11pt;\"> Plus参考平台。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">以下是朱玉可在ICRA 2026大会发表的演讲精编稿，雷峰网基于原英文演讲内容进行了不改原意的翻译编辑：</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">人形机器人正在进入新时代</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">我今天要讲的是人形机器人和基础模型。先给一个总结：我认为我们正在进入人形机器人技术的一个全新时代。硬件越来越强大，学习算法、基础模型的规模化也越来越可行。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">但我必须说，最大的挑战、或许</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">同时</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">也是最大的机遇，仍然摆在我们面前。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">“打造自主的、类人的机器人”这个梦想</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">，</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">已经让人类着迷了数百年。机器人这个词最早出自1920年卡雷尔·恰佩克的戏剧，名字就叫《罗素姆的万能机器人》。从一开始，人们就把机器人想象成类人的通用工作者，而不是为特定用途定制的机器。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">回顾人形机器人的发展历程，我们看到一波又一波的炒作周期：从七八十年代论证技术可行性的概念验证系统，到那些最终没有实现大规模商业成功的愿景原型，再到社交伴侣机器人。大约十年前，DARPA机器人挑战赛给我们泼了一盆冷水，清楚揭示了即使在人类监督下，让机器人进入实际使用有多么困难。直到现在，没有任何一款人形机器人实现了大规模、快速的部署。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260604//6a2123af1eae0.jpg?imageMogr2/quality/90\" /></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">但在2022年左右，我们开始看到一场“人形机器人爆炸”。各大公司、初创企业、研究机构都在制造越来越强大的机器人。我认为这在很大程度上是由AI和基础模型、大语言模型的进步所驱动的。今天，我会展示我们最新的研究成果，我的目标是让你们看到</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">：</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">我们有理由保持乐观，因为进步是扎实的。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">但同时我也要非常坦诚：还没有人找到终极配方。这正是投入这个领域的最佳时机。</span></p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">GR00T架构：系统二 + 系统一 + 全身控制</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">大约两年前，我有幸在英伟达领导一支人形机器人研究团队。2024年3月GTC大会上，黄仁勋走上台宣布了GR00T项目。这是一个为构建人形机器人全栈解决方案的计划。GR00T-1是我们推出的第一个开源人形基础模型。</span></p><p>&nbsp;</p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260604//6a2123af1f24b.jpg?imageMogr2/quality/90\" /></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">整体架构采用了一种双层设计。系统二是一个视觉语言模型，接收图像和语言指令作为输入，生成动作token；这些token传递给系统一，即扩散Transformer，生成闭环动作供机器人执行。整个模型可以端到端训练。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">但在实践中，当你需要控制一个超过四五十个自由度的系统时，通常还需要一个用强化学习训练的全身控制器，将基础模型产生的高级指令转化为每个关节的最终执行动作。预训练模型赋予机器人泛化能力，使其能够遵循不同的语言指令，对不同物体和任务目标执行任务。模型还可以进一步进行后训练，执行更复杂的操作。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">在我们最新的GR00T迭代版本N1.7中，我们尝试</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">解锁</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">机器人的整个运动学范围</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">，通过全身运动操作完成任务。这个模型仅用几十个演示进行后训练，就能完成复杂的工业流程任务。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">你们可能已经在这几天的海报展示中多次听到：数据，仍然是规模化提升机器人能力的核心瓶颈。</span></p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">数据金字塔：异质数据的规模化策略</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">大约几年前，我提出了一个</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">“</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">数据金字塔</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">”</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">的概念，它清楚说明了我们的数据策略：我们不会只依赖单一数据源来扩展，而是要大规模地汇集异质数据源。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260604//6a2123af1fc53.jpg?imageMogr2/quality/90\" /></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">我把数据源组织成三层</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">：</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">与其只依赖一种数据源，我们的大量研究都致力于如何有效利用整个数据金字塔。今天我想把重点放在金字塔的最底层，人类数据。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260604//6a2123af20770.jpg?imageMogr2/quality/90\" /></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">我认为人类数据是目前最具可扩展性的数据来源。互联网以人为中心，捕捉了我们世界的样子、人类的行为方式、日常任务和日常生活。而人形机器人可能是消费这类数据最自然的形态，因为形态差距更小。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">具体来说，我们探索了两种人类数据形式：人类动作捕捉数据和</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">第一人称视角</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">的人类视频。</span></p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">SONIC：用人类动捕训练全身控制器</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">对于人类动作捕捉数据，我们在一个叫SONIC的工作中探索用它训练通用的人形全身控制器。核心思路是：首先将人类运动重定向到特定人形机器人的形态上，生成对应的动捕数据库，然后将运动跟踪作为强化学习的训练目标。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260604//6a2123af21070.jpg?imageMogr2/quality/90\" /></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">这种组合极大简化了奖励函数的设计，从而使规模化强化学习训练成为可能。做大规模的事情时，简洁往往带来更好的可扩展性。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">我们在三个维度上扩展了模型训练：参数量从120万提升到4200万，这个规模足够强大，但依然小到可以部署在机器人本体的NVIDIA Jetson上；数据量达到1亿帧，总计超过10700小时的人类动捕数据；训练使用了9000个GPU小时，每个GPU运行自己的物理仿真副本，合计相当于数千年的真实机器人经验。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">SONIC的关键在于动作的自然流畅度，这主要来自运动跟踪目标，让模型更好地模仿人类运动。这个模型可以接受遥操作、基础模型输出、甚至人类视频作为高级指令。我们已将其部署在宇树G1机器人上，训练代码、部署框架和数据集完全开源。</span></p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">EgoScale：</span><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">第一人称视角</span><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">视频</span><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">的三阶段训练</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">我们感兴趣的第二种数据形式</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">，</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">是</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">第一人称视角</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">的人类视频</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">这类视频提供了一个窗口，让我们观察人类日常活动中丰富的多样性和复杂性。在最近的工作EgoScale中，我们跟踪人类手腕和手指在三维空间中的运动，也就是说把人想象成一个机器人，头部运动就是动作空间，如此将</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">第一人称</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">视角</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">视频转化为训练数据。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260604//6a2123af21867.jpg?imageMogr2/quality/90\" /></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">EgoScale的训练方案由三个阶段组成：第一阶段仅在人类视频上预训练，从</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">第一人称视角</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">视角预测手部运动；第二阶段在配对的人机数据上对齐表征，使知识从人类领域迁移到机器人领域；第三阶段用少量真实机器人数据精调模型。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">用概念框架来理解：预训练阶段是“获取人类知识”，从视频中收获常识和物理知识；对齐训练阶段是“压缩知识”，从人类领域压缩到机器人领域；后训练阶段是“表达知识”，利用积累的知识解决具体任务。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">这项工作最让我兴奋的是，</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">模型对更多人类视频</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">数据</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">有着巨大的胃口</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">。当我们将视频数据从1000小时扩展到20000小时，模型性能稳步提升，呈现出近乎完美的对数线性关系，意味着继续投入数据，性能还会持续提升。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">真正的</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">“</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">魔法</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">”</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">来自预训练，预训练得越好，后训练所需数据就越少。这就是我们的规模化方案：绝大部分数据来自人类数据，不到1%来自真实机器人。</span></p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">世界模型即“数据海绵”</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">在演讲剩余的时间里，我要讲讲“海绵”的故事。我所说的海绵，是世界模型。世界模型像海绵，因为它有一种神奇的能力，可以吸收数据金字塔中各种类型的数据。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">它可以从互联网视频中学习，获取常识和物理知识、语义知识和程序性知识；可以从合成数据中学习，受益于控制多样性；可以从真实机器人轨迹中学习，精化特定任务的表征；可以从多模态数据、音频数据中学习。也许最重要的是，可以从失败数据中学习，这类数据对策略改进非常有用。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260604//6a2123af21f50.jpg?imageMogr2/quality/90\" /></p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">DreamZero：</span><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">世界</span><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">动作</span><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">模型</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">我们在DreamZero工作中探索了这个想法，用世界模型构建下一代NVIDIA基础模型。核心是“</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">世界</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">动作</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">模型”，想象视频生成模型如何工作：从初始帧开始，从一个带噪声的视频出发，逐步去噪，生成清晰视频。在大规模互联网数据上训练这样的模型，它能捕捉相当多的物理理解。然后在机器人数据上微调，告诉模型机器人应该长什么样、应该如何运动。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260604//6a2123af22678.jpg?imageMogr2/quality/90\" /></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">关键创新在于，我们不仅让模型生成未来画面，还增加一个扩散通道同步生成动作。测试时我们丢弃未来帧预测，只提取动作执行。仅通过视频生成模型或世界模型，就能显著增强视角泛化能力和行为克隆的样本效率。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">这是我第一次在公开场合展示这些结果。训练GR00T基础模型执行复杂任务，展示了闭环策略学习和反应式恢复行为。如果你从事机器人研究足够久，会认出这个YCB数据集中的物体。十年前我看到它时，觉得绝不可能用机器人完成这样的装配任务。但现在，有了基础模型，</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">这已经</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">变成</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">可能了</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">。而且是在一天之内完成的，无需任何人工干预。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">我对过去两年取得的进展感到兴奋，社区中的加速非常惊人。但也很容易看到，还有大量工作需要做，我们需要更广泛的研究社区参与。这也是为什么我个人非常坚定地看好开源。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">无论是在UT Austin的实验室，还是我在英伟达的团队，我们都尽可能开放开源基础模型、开源仿真框架，比如Isaac、开源数据集和基准。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">就在这个星期一，我们刚刚宣布了首个H</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">2</span><span style=\"font-family: 'Arial'; font-size: 11pt;\"> Plus参考平台。打造人形机器人的梦想已经让我们着迷了超过一百年。但最终，我看到各种技术要素正在汇聚，让我们真正有可能实现这个梦想。我邀请在座各位一起加入，共同将这个梦想变为现实。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260604//6a2123af230b1.jpg?imageMogr2/quality/90\" /></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">Q&amp;A 问答环节</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">听众：请问您如何让这些基础模型在特定领域内达到90%的成功率，实现更高的可复现性和可靠性？</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">朱玉可：这是一个非常好的问题。如果你看过大语言模型是如何训练的，就会知道预训练只是训练的第一阶段。在机器人领域，后训练和对齐同样关键。你需要针对特定任务场景，用高质量的领域数据进行精调。同时，可复现性需要严格的评估基准和标准化的测试协议，这一点我们在YCB等基准工作的基础上还需要持续推进。总的来说，预训练给你泛化的底座，后训练给你领域的深度，两者缺一不可。</span></p>",
-      "published": "2026-06-04T15:08:00+08:00",
-      "fetched_at": "2026-06-05T12:02:45.327313+08:00",
-      "pre_filter_reason": "Humanoid robot AI research and foundation models.",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 5.0
-      },
-      "quality_score": 7.2,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "朱玉可「数据海绵」破解人形机器人数据困局，一文看懂",
-          "angle": "用通俗语言解释朱玉可在ICRA 2026提出的「数据金字塔」框架和「数据海绵」概念，说明如何通过世界模型规模化获取训练数据，解决人形机器人数据稀缺问题。",
+          "title": "决策机Decitron是什么？一文看懂AI如何从“问答”走向“推演”",
+          "angle": "用通俗语言和对比案例，解释决策大模型与传统问答大模型的本质区别，适合企业决策者快速理解技术价值。",
           "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "人形机器人数据不够？看NVIDIA GEAR团队朱玉可的「世界模型」方案",
-          "angle": "深入分析朱玉可提出的以世界模型为引擎的数据规模化路径，对比传统数据采集方式，探讨其对机器人基础模型训练效率的提升。",
+          "tag": "news",
+          "title": "中科闻歌发布Decitron：AI进入真实世界推演时代，这些行业将最先受益",
+          "angle": "结合金融、供应链、城市管理等场景，分析决策机如何解决复杂系统问题，突出行业落地潜力。",
           "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "c7c17d1b5b20",
+      "id": "28fa53395058",
       "source_id": "qbitai",
       "source_name": "量子位",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "一个GPT Plus会员的钱，够机器人跑一个月世界模型了",
-      "link": "https://www.qbitai.com/2026/06/428791.html",
-      "summary": "不多不少，只要150",
-      "published": "2026-06-04T11:10:23+08:00",
-      "fetched_at": "2026-06-05T12:02:48.179054+08:00",
-      "pre_filter_reason": "world model AI",
+      "title": "全球首个机器人训练楼盘开盘：30万套中国住宅，机器人拎包入住",
+      "link": "https://www.qbitai.com/2026/06/429349.html",
+      "summary": "具身智能的房地产开发商来了！",
+      "published": "2026-06-05T14:33:37+08:00",
+      "fetched_at": "2026-06-06T11:45:19.515047+08:00",
+      "pre_filter_reason": "Robot training and embodied intelligence",
       "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 3.5
+        "importance": 6,
+        "timeliness": 9,
+        "actionability": 7,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
       },
-      "quality_score": 7.2,
+      "quality_score": 7.5,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "一个GPT Plus会员的钱，够机器人跑一个月世界模型？",
-          "angle": "对比GPT Plus订阅费用（约20美元/月）与机器人世界模型运行成本（150元/月），分析两者性价比差异，探讨AI模型成本下降对行业普及的意义。",
+          "title": "机器人“拎包入住”的楼盘长什么样？揭秘全球首个机器人训练基地",
+          "angle": "以“房产开盘”为切入点，科普具身智能训练环境如何加速机器人商业化，适合科技爱好者。",
           "difficulty": "入门"
         },
         {
+          "tag": "news",
+          "title": "30万套住宅专供机器人训练，中国具身智能产业迎来“基础设施”革命",
+          "angle": "从产业生态角度分析，大规模训练楼盘对机器人算法迭代、成本下降的深远影响，适合投资与从业者。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "6299b7d9e9fc",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "独家解读丨时隔五年，OpenAI为何非要吃机器人这口「回头草」？",
+      "link": "https://www.leiphone.com/category/industrynews/0P8KvQPzWQpU9F40.html",
+      "summary": "<section><section><section><section><section></section><section><section><section><section></section></section></section><section><span><br /></span></section><p style=\"text-align: center; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px; font-weight: normal;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260605/6a22629301d0a.jpg?imageView2/2/w/740\" /></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px; font-weight: normal;\">时隔五年，山姆·奥特曼为何重返机器人？这是他在X上官宣这则消息后，业内最大的疑问。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">是担心股价破发，开始拼命画饼讲故事了？还是Anthropic万亿估值压顶下，OpenAI不得不寻求更大差异化？亦或是说，物理世界的 AGI 临界点真的已到来？</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">聚光灯正在移位。2026年的AI科技舞台上，OpenAI 早已告别了独占鳌头的绝对主角时代。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">随着马斯克SpaceX、OpenAI、Anthropic 三家超级巨头相继步入美股 IPO 的敲钟倒计时，一场残酷的估值绞杀战已然打响。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px;\">SpaceX已突破1.75万亿美元，Anthropic估值也已超过OpenAI，以9650亿距万亿一步之遥，</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">这也让卡在两大巨头夹缝之间的OpenAI的处境变得前所未有的尴尬。</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">在这一敏感节点，奥特曼选择重新捡起当年亲手砍掉的机器人业务，究竟在赌什么？</span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>01</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>是“股价叙事”还是竞争所迫？</span><span><br /></span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em; margin-top: 24px;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">“为什么重返机器人？因为容易融资。”某国内头部AI Lab研究员周立明对雷峰网表示。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px;\">在她看来，OpenAI马上要上市了，但Agent和大语言模型的蛋糕分得差不多了，</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">OpenAI继续讲大模型和Agent是拼不过谷歌和Anthropic的，它需要讲机器人，否则有可能破发。</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">“虽然机器人行业现在日子也不好过，一直不太落地，但架不住总有钱源源不断地往这个领域流，就眼下来说，机器人还是最吸金的话题之一。”</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">事实上，自今年上半年Anthropic的ARR开始陡峭增长、季度营收和估值双双反超OpenAI起，OpenAI股价破发的观点就开始流传于华尔街。毕竟，不同于2022年底一骑绝尘的势头，眼下的OpenAI面临不小的友商压力。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px;\">在自变量机器人创始人王潜看来，OpenAI重返机器人业务，一方面 Open AI 一直将物理智能视为AGI不可或缺的一环，另一方面的核心的驱动力是：</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">与Anthropic的激烈竞争促使它不得不寻求更多差异化。</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px;\">王潜坦言：“机器人始终是OpenAI通往AGI整体蓝图中的重要组成部分。 OpenAI最早期就涉足过机器人领域，可以说</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">他们一直将物理智能视为AGI不可或缺的一环。”</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">“但是目前来看，OpenAI与Anthropic的竞争非常激烈，甚至可以说OpenAI目前在下风，两家公司的战略路径有所不同——Anthropic更倾向于高度聚焦的策略，而OpenAI则倾向于在多个方向上布局。”</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">“在这种背景下，OpenAI选择重返机器人赛道，一方面是因为他们认为这是一个潜力巨大的市场，另一方面也是希望发挥自身在多模态方面的积累，形成差异化竞争优势。”</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">“毕竟Anthropic此前较少涉足多模态领域，对OpenAI来说这是可以重点发力的方向。”</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">不过，OpenAI面临的压力远不止战略层面。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">某国内机器人感知方案商技术负责人徐栋从最紧迫、也最现实的商业变现焦虑上，给OpenAI算了一笔账。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">“OpenAI这么挥金如土的公司，靠每个月收20美金的会员费，这个账肯定是算不过来的。它需要一个新的盈利点。”</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px;\">“目前，全球不少软件巨头都在尝试做硬件，背后思路是一致的：下个AI时代，会有AI硬件的爆发。</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">单纯卖软件或单纯卖硬件，不如软硬件一体这个闭环飞轮。”</span></span></strong><span><span style=\"letter-spacing: 0.5px;\">更多不同见解，可添加作者微信&nbsp;</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">xf123a&nbsp;</span></span></strong><span><span style=\"letter-spacing: 0.5px;\">交流。</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">事实上，从技术演进路径来看，大模型厂商进军物理AI目前正在成为一种趋势。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px;\">某具身智能独角兽算法负责人张强告诉雷峰网，OpenAI在语言模型（LLM）和多模态视觉语言模型（VLM）领域已经有了深厚的积累，现在往视觉-语言-动作模型（VLA，即控制机器人的物理智能）升级，</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">技术跨越是比较顺理成章的。</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">“相比其他纯做硬件的公司，OpenAI有之前的模型和底座技术打底，复用性很高，起点更有优势。”</span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>02</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>奥特曼的“世界模拟器”，能打吗？</span><span><br /></span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em; margin-top: 24px;\"><span style=\"font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px;\">奥特曼在此次宣布重返机器人时，给出了一个官方理由。他透露，重组机器人团队的底气来自于内部一个秘密沉淀了很久的项目：</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">Worldsim，世界模拟器。</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">所谓世界模拟器，通俗来说就是，在虚拟的数字空间里，像素级地还原、仿真、甚至预判真实物理世界的法则。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px;\">2021年，OpenAI关停机器人实验室时给出了很多理由，比如训练数据不够，强化学习迭代太慢等，其中，</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">核心瓶颈，是“物理时间的不可加速性”。</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">简单来说就是，软件算法可以在电脑里一秒钟跑一万次，但实体的机器在现实中必须遵循物理世界的时间表。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">在现实中，机械臂挥动一次就是需要一秒钟。想要训练一亿次，硬件早就磨损烧毁了。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">而这次，有了世界模拟器，这一难题有望被解开。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">据官方介绍，这次率队的是Aditya Ramesh，DALL-E的灵魂人物，Sora视频生成模型的核心开发者，同时也是OpenAI的研究副总裁。从这项人事任命上，可以看出OpenAI世界模拟器技术的底层逻辑，大概率与Sora一脉相承。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">而Sora 证明了OpenAI 的模型不仅仅是在屏幕上“生成画面”，而是其内部已经具备了模拟现实的能力，能够理解重力、碰撞、流体力学等现实世界运行的物理规律。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">耐人寻味的是，就在两个月前，2026年3月，OpenAI刚刚关停了Sora的消费级应用。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">OpenAI总裁Greg Brockman在播客中解释了这个决策：Sora和GPT推理模型属于技术树的两个不同分支，算力有限时无法同时推进。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">在一些业内人看来，砍掉Sora的消费级应用，或许是为了把资源集中到一条更有前途的赛道上：机器人赛道。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">一位机器人仿真工程师赵杰告诉雷峰网，通过Worldsim世界模拟器，OpenAI可以在虚拟的超级计算机里，构建一个高度还原真实世界的数字孪生空间。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">在这里，机器人的虚拟化身可以同时开启数千万个并发线程，在几小时内进行几十亿次的动作跨越与错误尝试。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">当它在虚拟世界里被训练得足够聪明后，研究人员只需要把这套“脑回路”打包，一次性写入实体的机械躯壳中，以往机器人“训练慢、成本高”的困境，就可以得到缓解。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">“世界模型，是实现物理智能与具身智能大模型的关键技术。如果OpenAI真的在偏算法大模型这一块补齐了技术，确实会让他们更有信心切入机器人赛道。”水木清华校友基金投资人陈程卓表示。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px;\">“不过，</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">奥特曼的世界模型大概率是基于Sora延伸的生成式技术方案，不一定是最优解</span></span></strong><span><span style=\"letter-spacing: 0.5px;\">。杨立昆所主张的 JEPA（联合嵌入预测架构）预测式世界模型，在技术逻辑上或许更具可行性。”</span></span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>03</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>原本的盟友，变成了对手</span><span><br /></span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em; margin-top: 24px;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">事实上，在过去几年里，OpenAI其实一直通过“外挂”的方式，曲线布局机器人。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">2023年，他们领投了挪威机器人公司1X Technologies。2024年，又联合微软、英伟达向Figure AI砸了6.75亿美元，让Figure 01接入GPT当“大脑”。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">但到了2025年2月，Figure创始人兼CEO Brett Adcock在X上突然宣布：终止与OpenAI的合作。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">理由是Figure在“完全自主研发的端到端机器人AI上取得了重大突破”，Figure不想再用OpenAI的通用大模型了，要自己做垂直整合。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">创始人Adcock当时放话，要在30天内发布“从未在人形机器人上见过的东西”。三个月后，Figure推出了自研的Helix 02模型，实现了全身自主运动控制，能直接基于像素输入控制机器人的全身动作。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">这对OpenAI来说，无异于一次背刺。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><strong><span><span style=\"letter-spacing: 0.5px;\">“外部合作的方式，不可控性确实会大一些。</span></span></strong><span><span style=\"letter-spacing: 0.5px;\">但更重要的是，现在机器人的ChatGPT时刻尚未到来，这也预示着未来会有一个大的历史机遇，OpenAI可能是想押这个宝。”前述投资人陈程卓表示。</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px;\">事实上，OpenAI的不少老对手，今年也在疯狂加码硬件，走“软硬件闭环”路线。对于这一路线的更多洞见，可添加作者微信&nbsp;</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">xf123a&nbsp;</span></span></strong><span><span style=\"letter-spacing: 0.5px;\">交流。</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">Google DeepMind在2026年4月发布了Gemini Robotics-ER 1.6，一个专注于“具身推理”的AI模型，让机器人真正学会“看懂”物理世界。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">英伟达在2026年6月1日，也就是OpenAI官宣的同一天，推出了Isaac GR00T参考人形机器人，与Unitree Robotics战略合作，搭载Jetson Thor计算模块。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">跑得最快的还有马斯克。2026年1月，特斯拉确认Fremont工厂已有超过1000台Optimus Gen 3机器人在生产线上实际操作。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">其德州Giga工厂的千万级机器人工厂已经开始建设，目标2026年量产10万到30万台，单价压到2万到3万美元。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px;\">大厂包抄之下，陈程卓认为：“</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">想要发展物理AI，需要走软硬件闭环的路线，</span></span></strong><span><span style=\"letter-spacing: 0.5px;\">因为目前的数据、算法与机器人本体耦合度极高，抛开硬件，单独发展物理智能大模型在技术上几乎不可能。为了加快迭代，重返机器人赛道是一个必要的策略。”</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">OpenAI如果再没有自己的核心硬件和控制系统，未来可能会在物理AI时代被边缘化。</span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>04</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>机器人盖数据中心，是否靠谱？</span><span><br /></span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em; margin-top: 24px;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">有意思的是，奥特曼在此次官宣中也提到了 OpenAI Robotics 的短期目标。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">这支新组建的 OpenAI Robotics 团队，其第一阶段的核心任务，既不是进入千家万户做家务，也不是去医院照顾老人，而是：被派往全美各地的无人荒漠和工业重区，去支持和协助熟练工人建造下一代超级数据中心、核电站与高压电网。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">这个设定看似形成了一个用机器人盖机房、再用算力反哺GPT-6等大模型演进的闭环。但在不少业内一线专家和投资人眼里，这个目标却充满了争议。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px;\">自变量创始人王潜对此表示：“说实话，我认为</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">这个目标目前更多是一个愿景性的表述，实际落地的可能性还需要观察。”</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">“建设数据中心本身是一项复杂度非常高的工程，如果机器人真的能胜任数据中心建设，那理论上它应该也具备了应对绝大多数复杂场景的能力，这本身就是一个极高的技术门槛。”</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">“所以我倾向于认为，这更多是为了展示机器人业务的潜在价值和应用前景，而非严格意义上的短期可交付目标。”</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">前述投资人陈程卓的评价则更加尖锐和直接。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px;\">“如果是让机器人做点日常运维监测，没问题，但深度参与，短期不可行，</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">从技术成熟度、投资回报率等方面均不支持该场景落地。”</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">“这个场景类似建筑工地，杂乱无序环境差且快速变化，场景过于特殊，对于通往智能AGI的价值相对较小，过程中积累的行业数据和算法，可泛化性弱，有其他更值得投入的垂直场景。”</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">不得不说，此刻的OpenAI和奥特曼无疑是焦虑的。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">在IPO交卷之际，一边是Anthropic和SpaceX在商业化上的步步紧逼与估值反超，一边是英伟达、特斯拉在硬科技赛道的包抄，留给OpenAI打响反击战的时间已经不多了。</span></span></p><p style=\"text-align: justify; margin-bottom: 40px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px; font-weight: bold;\">本文作者长期追踪海外AI巨头动态、前沿技术和幕后故事，欢迎添加作者微信</span></span><strong><span><span style=\"letter-spacing: 0.5px; font-weight: bold;\">&nbsp;xf123a&nbsp;</span></span></strong><span><span style=\"letter-spacing: 0.5px; font-weight: bold;\">互通有无。</span></span></span></p></section></section></section></section></section>",
+      "published": "2026-06-05T13:46:00+08:00",
+      "fetched_at": "2026-06-06T11:45:16.152596+08:00",
+      "pre_filter_reason": "AI company (OpenAI) robotics strategy",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
           "tag": "tutorial",
-          "title": "150元/月跑世界模型：机器人AI成本已降至「白菜价」？",
-          "angle": "以150元/月的世界模型运行成本为切入点，对比传统机器人AI开发成本，分析成本骤降背后的技术驱动因素（如模型压缩、边缘计算），以及对中小企业应用机器人的影响。",
+          "title": "OpenAI为什么“吃回头草”做机器人？5分钟看懂AI公司的战略摇摆",
+          "angle": "梳理OpenAI从解散机器人团队到重新入局的历程，分析背后技术、市场与资本逻辑，适合AI行业观察者。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "news",
+          "title": "时隔五年再押注机器人，OpenAI的“回头草”藏着什么野心？",
+          "angle": "结合大模型与具身智能融合趋势，解读OpenAI此举对全球机器人竞争格局的冲击，适合深度分析读者。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "9e24baecf4a1",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "英伟达新品被指内存容量“缩水”海内外存储股应声重挫",
+      "link": "https://36kr.com/newsflashes/3841116245854468?f=rss",
+      "summary": "2026年以来，存储上市公司市值不断创新高，市场正在尝试将存储资产从传统“周期股”转变为“AI时代核心基础设施资产”。在此估值切换窗口，海外调研机构SemiAnalysis一则关于英伟达新一代Vera Rubin AI服务器平台的内存降配、成本下降的研报，引发海内外存储概念股集体回调。据业内分析，本次报告中所指降配仅限于CPU侧系统内存，与GPU算力核心并无关系，这是基于英伟达兼顾供应链、功耗、成本的多重战略选择。 (证券时报)",
+      "published": "2026-06-06T11:05:30+08:00",
+      "fetched_at": "2026-06-06T11:45:10.969470+08:00",
+      "pre_filter_reason": "News about Nvidia AI server platform and memory, AI-related.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "英伟达新品“缩水”是利空吗？一文分清CPU内存与GPU显存",
+          "angle": "用图解方式科普CPU系统内存与GPU显存的区别，解释为何降配不伤算力核心，适合硬件小白。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "news",
+          "title": "存储股因英伟达“降配”暴跌？真相是估值切换中的误读与机会",
+          "angle": "从市场情绪与产业逻辑出发，分析存储芯片从周期股到AI基础设施的估值逻辑变化，适合投资者。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "dad752334621",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "微软：已装 M365 商用 Win10/Win11 PC 本月开始自动安装 M365 Copilot",
+      "link": "https://www.ithome.com/0/960/793.htm",
+      "summary": "<p>IT之家 6 月 6 日消息，科技媒体 NeoWin 昨日（6 月 5 日）发布博文，报道称微软已重启自动安装计划，<strong>在已安装 Microsoft 365 应用的商用 Windows PC 上自动安装 Microsoft 365 Copilot。</strong></p><p>IT之家曾于 2025 年 9 月报道，<a href=\"https://www.ithome.com/0/883/749.htm\" target=\"_blank\">微软官宣将推行自动安装 M365 Copilot 计划</a>，不过由于技术问题，微软于 2026 年 3 月搁置该服务。</p><p>最新报道称微软已更新其面向 IT 管理员的消息中心，告知客户恢复自动安装计划，如果用户通过 Microsoft 365 许可证，在 Windows &nbsp;PC 上安装了 Word、Excel、PowerPoint 等 Microsoft Office 应用，那么将会在“已安装应用”部分看到 Microsoft 365 Copilot 应用。</p><p>微软官方已通过功能开关开始分阶段推广，预计将于 6 月底完成：</p><ul class=\"medium-size list-paddingleft-2\"><li><p>功能标志 1：6 月 4 日开始，预计 6 月 10 日完成</p></li><li><p>功能标志 2：预计 6 月 11 日开始，6 月 17 日结束</p></li><li><p>MSGraph 架构部署：预计于 6 月 18 日开始，预计于 6 月 24 日结束</p></li><li><p>功能标志 3：预计 6 月 25 日开始，预计 7 月 1 日完成</p></li></ul><p>不过对于本次推广，IT 管理员可以选择退出，其租户中的设备就不会自动安装令人头疼的 Copilot 应用。</p>",
+      "published": "2026-06-06T10:39:17+08:00",
+      "fetched_at": "2026-06-06T11:45:24.211803+08:00",
+      "pre_filter_reason": "About Microsoft 365 Copilot, an AI product launch.",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "微软强制安装Copilot？企业IT管理员必看的应对指南",
+          "angle": "提供商用PC自动安装M365 Copilot后的管理策略，包括禁用方法、权限设置与数据安全提醒，适合IT运维人员。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "news",
+          "title": "微软重启自动安装Copilot：是生产力革命还是企业“强制升级”烦恼？",
+          "angle": "从用户体验与企业管理双视角，讨论自动部署AI助手带来的效率提升与隐私争议，适合职场人士。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "bd42f42a33d5",
-      "source_id": "github-ai-repos",
-      "source_name": "GitHub AI 新项目",
+      "id": "09303ee0fdea",
+      "source_id": "hn-ai",
+      "source_name": "Hacker News (AI)",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "wonglaitung/fortune",
-      "link": "https://github.com/wonglaitung/fortune",
-      "summary": "实践人机混合智能的理念，开发具备变现能力的金融资产智能量化分析助手。系统整合大模型智能决策与机器学习预测模型，实时监控加密货币、港股、黄金等金融市场。",
-      "published": "2026-06-05T12:03:33.340606+08:00",
-      "fetched_at": "2026-06-05T12:03:33.340608+08:00",
-      "pre_filter_reason": "AI-powered financial analysis with LLM and ML",
+      "title": "Ask HN: Why is the HN crowd so anti-AI?",
+      "link": "https://news.ycombinator.com/item?id=48420827",
+      "summary": "<p>Genuine question.<p>Over the past six months, there hasn’t been a single day where I’ve checked the HN Best RSS feed without seeing a post about how AI “writes bad code,” “introduces bugs,” “creates technical debt,” or something along those lines.<p>I’ll probably make a lot of enemies by saying this, but do people realize that code is just a means to an end?<p>Users don’t care whether the code was written by AI or by hand, or which framework you used. They care that the product works.<p>I say this as someone who has spent more than 20 years honing their craft as a software engineer.<p>Let’s face it: by the time I manually ship version 1.0 of a product, the AI-assisted version could have been deployed 10x faster. By then, enough real-world feedback would have surfaced to identify the major issues, and tools like Claude Code would make it possible to fix and ship version 2.0 at an incredible pace.<p>At some point, execution speed starts to matter more than the elegance of the code.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48420827\">https://news.ycombinator.com/item?id=48420827</a></p>\n<p>Points: 14</p>\n<p># Comments: 25</p>",
+      "published": "2026-06-06T10:31:51+08:00",
+      "fetched_at": "2026-06-06T11:45:32.110746+08:00",
+      "pre_filter_reason": "Discussion about AI and its impact on code quality.",
       "scores": {
-        "importance": 7,
+        "importance": 5,
         "timeliness": 8,
-        "actionability": 8,
+        "actionability": 9,
         "scarcity": 7,
-        "virality": 6,
+        "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.1,
+      "quality_score": 7.4,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "金融量化助手实战：如何用大模型+机器学习监控加密货币？",
-          "angle": "以wonglaitung/fortune项目为例，演示如何整合大模型智能决策与机器学习预测模型，实时监控加密货币、港股、黄金等市场，并给出代码/工具链实操步骤。",
-          "difficulty": "中级"
+          "title": "为什么程序员讨厌AI？从代码质量到技术债的真相",
+          "angle": "分析AI生成代码的常见问题（如bug、技术债），并给出如何正确使用AI辅助编程的实用建议，帮助开发者避免踩坑。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "opinion",
+          "title": "AI写代码真的不行吗？理性看待开发者社区的“反AI”情绪",
+          "angle": "解读HN社区对AI的批判背后，是技术焦虑还是真实痛点，探讨AI工具在开发中的合理定位。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "9431e30aca4a",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "智源&清华合作成果登上Science：脑科学多模态基础模型Brainμ支撑揭示“记忆-睡眠”调控的神经机制",
+      "link": "https://www.qbitai.com/2026/06/431033.html",
+      "summary": "研究表明，睡眠中的记忆重激活参与调控睡眠动态，为理解“记忆-睡眠”双向作用机制提供了新的实验证据。",
+      "published": "2026-06-05T18:53:01+08:00",
+      "fetched_at": "2026-06-06T11:45:19.514929+08:00",
+      "pre_filter_reason": "AI research on brain science multimodal model published in Science.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 6,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "脑科学遇上AI：Brainμ模型如何揭开“记忆-睡眠”之谜？",
+          "angle": "用通俗语言解释Brainμ多模态模型如何分析大脑数据，并展示其在记忆与睡眠研究中的突破性发现。",
+          "difficulty": "入门"
         },
         {
           "tag": "tutorial",
-          "title": "人机混合智能在金融量化中的应用：从理念到变现",
-          "angle": "解析「人机混合智能」理念在fortune项目中的落地方式，如何平衡AI自动决策与人工干预，以及如何通过量化分析助手实现资产变现。",
-          "difficulty": "中级"
+          "title": "从Science论文到应用：脑科学AI模型的三大关键技术",
+          "angle": "拆解Brainμ模型的核心技术（多模态融合、神经机制建模等），适合对AI+生物感兴趣的进阶读者。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "dff20013598a",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "华为云发布Agentic AI系列新品 打造智能时代“硅基黑土地”",
+      "link": "https://www.leiphone.com/category/citydigital/I7sO2yPT7tpnmnZk.html",
+      "summary": "<p style=\"text-align: justify;\">[中国，上海，2026年6月5日]&nbsp;今天，华为云INSPIRE创想者大会在上海西岸国际会展中心开幕。华为云在本次新品发布会上正式提出Agentic Infra新范式，并发布Agentic Infra通智一体化基础设施、新一代模型训推平台、企业级智能体平台等系列Agentic AI新品，打造企业级Agentic AI创新的“硅基黑土地”。大会还宣布正式上线“行业AI梦工厂”智慧医疗、具身智能、智能制造、科学计算四大专区，坚持用AI解行业难题，加速发展行业数智化生态。</p><p style=\"text-align: justify;\"><strong>定义Agentic Infra新范式，软硬芯协同做厚“硅基黑土地”</strong></p><p style=\"text-align: justify;\">华为公司董事、华为云CEO周跃峰指出，Agentic AI时代正在引发计算范式的根本性跃迁。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260605/6a22767428c1f.jpg?imageView2/2/w/740\" />&nbsp;华为公司董事、华为云CEO周跃峰主题演讲</p><p style=\"text-align: justify;\">本次发布会上，华为云正式提出Agentic Infra新范式，即“高效Token工厂+持续学习+通智一体化调度+安全自治”，并发布四大Agentic Infra新品：</p><p style=\"text-align: justify;\">Ÿ&nbsp;AICS灵衢智算集群基于超大带宽灵衢网络，支持10万卡级集群规模，总算力高达200EFLOPS，并将Tokens生成的时延降低到10毫秒以内，千卡每秒吞吐达到500万Tokens，在线服务可用性高达99.95%，打造极致效率的Token工厂。</p><p style=\"text-align: justify;\">Ÿ&nbsp;AMS Agentic记忆存储解决方案通过NPU直通CMS（上下文记忆存储）硬件，打造PB级超大记忆空间，并支持KV Cache分层池化，降低推理成本的同时支持天级长程任务，打破Agent的记忆瓶颈，助力Agent持续学习。</p><p style=\"text-align: justify;\">Ÿ&nbsp;CCE Volcano&nbsp;Next通智一体化调度引擎通过“训推共池+碎片整合”实现通智混合算力负载调度革新，可将资源利用率提升30%以上。</p><p style=\"text-align: justify;\">Ÿ&nbsp;AgentSphere打造安全自治的Agent运行环境，提供极速弹性、意图主动防护的安全自治运行底座，凭借羽量级沙箱技术实现100毫秒级极速启动与每分钟十万级批创能力，助力智能体安全、高效规模化上云。</p><p style=\"text-align: justify;\"><strong>发布新一代ModelArtsNext模型训推平台，使能模型深入企业场景</strong></p><p style=\"text-align: justify;\">ModelArts&nbsp;Next模型训推平台构建了RL强化学习服务、机密推理、模型路由、模型矩阵四大核心能力。其中，MaaS模型路由支持成本优先、效果优先、均衡模式三种策略，根据请求特征动态智能择优调度最佳模型。截至目前，已提供15余款SOTA模型服务，模型调度精准率超过95%，调用成本平均降低20%。企业级RLaaS服务让强化学习成为每个企业都能调用的核心能力，实现一分钟创建任务、全程可视化观测、训推一致性保障，让大模型深入细分场景，越用越聪明。</p><p style=\"text-align: justify;\"><strong>公测智果AgentArts企业级智能体平台，并同步贡献开源</strong></p><p style=\"text-align: justify;\">华为云智果（AgentArts）企业级智能体平台全面践行Harness工程，构建了生产级长程任务、企业级安全、行业知识深度与全链路可观测四大核心能力，加速行业智能体规模化落地。智果开源版openJiuwen也已经上线，其内核与AgentArts企业版同源度超过90%。同时，华为云发布全新Agentic华为云入口“智果园”，聚合“全栈Agentic云服务+丰富智能体+百模千态大模型”的一体化能力，并将这些能力全面Skill化、CLI化，完成从意图理解、功能开发、资源发放到应用部署的全流程智能体化，提供按需、高效的Tokens服务，为用户带来全新交互体验。</p><p style=\"text-align: justify;\"><strong>推出面向Agentic AI的全套安全方案，守护智能体安全</strong></p><p style=\"text-align: justify;\">安全是华为云提供数智化服务的底线。华为云构建了覆盖AI全链路的安全方案，端到端防护Agent安全、模型安全与Agentic Infra安全。大会发布数据安全专区，通过硬件专属加密和HYOK技术、数据胶囊技术、Agentic基础设施多维度隔离三大创新，保障数据上云端到端的安全，让企业牢牢掌握数据主权。</p><p style=\"text-align: justify;\">同时发布AI机密计算方案，通过构筑机密虚机、云端远程证明服务、机密计算密钥管理、机密推理网关、NPU设备PCIPC直通五大核心能力，支持机密推理、机密预训练、机密联邦学习三大核心场景，让高价值数据和模型真正值得托付。</p><p style=\"text-align: justify;\">截至目前，华为云连续稳定运行零重大事故的天数达到了1037天，成为客户最值得信赖的云服务提供商。</p><p style=\"text-align: justify;\"><strong>发布面向智能体混合云白皮书 混合云+AI加速国计民生数智化</strong></p><p style=\"text-align: justify;\">华为混合云已成为政企数智化转型的核心底座，在政府、金融、央国企等国计民生关键行业连续多年保持市场份额第一，服务全球超过5500家客户。会上，《企业如何构建面向智能体的混合云》白皮书正式发布，从构建AI数据湖打破数据烟囱、模型线上线下稳态与敏态协同、构筑安全可靠的智能体开发运行环境等方面，为Agentic时代的混合云架构演进及企业实践提供参考指引，帮助政企安全高效地实现企业智能体的私有化部署，释放数据价值。</p><p style=\"text-align: justify;\"><strong>发布行业AI梦工厂四大专区，加速行业AI普惠</strong></p><p style=\"text-align: justify;\">智慧医疗专区持续升级，华为云医疗AI使能平台将于6月30日升级并公测。华为云智慧病理方案已在全国实现规模复制，覆盖顶级三甲、地市级、县域医院，加速医疗AI普惠。大会现场，包括上海交通大学医学院附属瑞金医院、邯郸市中心医院、河北工程大学附属医院、瑞安市人民医院、黔西南州兴义市人民医院、武安市第一人民医院等20余家医院正式入驻智慧医疗专区，标志着智慧病理方案实现全国规模落地，实现AI普惠。</p><p style=\"text-align: justify;\">具身智能专区提供一站式具身智能数据合成、模型开发、仿真验证平台，帮助具身智能企业加速场景落地。同时华为云发布全球首个全流程具身智能开发平台CloudRobo，提供安全可信的PB级数据底座及开发管线、业界首个云原生具身模型生产引擎及首个全国产Real-Sim数据生产及模型评测体系，帮助机器人小时级上云，模型分钟级部署。该平台将于6月30日公测。</p><p style=\"text-align: justify;\">本次大会还发布了智能制造专区，提供一站式工业智能体创新创业环境，使能工业智能体创新落地；发布科学计算专区，面向AI4S行业客户提供统一丰富的模型、智能体使用体验，助力敏捷科研创新。</p><p style=\"text-align: justify;\"><strong>联合TOP模型厂商发布“百模千态，云聚共赢”生态合作计划</strong></p><p style=\"text-align: justify;\">会上，华为云联合智谱、DeepSeek、Minimax、Kimi、阶跃星辰、百度、讯飞星火、美团、爱诗科技、生数科技等20余家TOP模型厂商，发布“百模千态，云聚共赢”生态合作计划，共建系统化商业生态，打造多方共赢的产业发展新模式。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260605/6a2275e4836a6.jpg?imageView2/2/w/740\" /></p><p style=\"text-align: justify;\">面向未来，华为云将通过软硬芯协同创新，构建企业级AI创新的“硅基黑土地”，携手全球客户、伙伴和开发者，共同开创全新Agentic AI时代。</p>",
+      "published": "2026-06-05T15:11:00+08:00",
+      "fetched_at": "2026-06-06T11:45:16.152576+08:00",
+      "pre_filter_reason": "Huawei Cloud launches Agentic AI products, clearly AI-related.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "华为云Agentic AI是什么？一文看懂“硅基黑土地”新范式",
+          "angle": "用比喻和案例解释Agentic Infra概念，介绍其如何帮助企业快速构建智能体应用。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "智能时代的基础设施：华为云Agentic AI新品全解析",
+          "angle": "逐一解读华为云发布的四大新品（通智一体基础设施、训推平台、智能体平台、行业专区），分析其技术亮点与行业价值。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "5c0c91fb12f2",
+      "source_id": "sspai",
+      "source_name": "少数派",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "WWDC26 开幕在即，今年有哪些看点值得关注？",
+      "link": "https://sspai.com/post/110669",
+      "summary": "今年WWDC全球开发者大会即将在北京时间6月9日凌晨拉开帷幕，对Apple来说今年这一次活动是一个非常关键的节点：首先，2024年WWDC上画的饼至今没有兑现，而AI竞赛在2026年已经进入了白热化， ...<a href=\"https://sspai.com/post/110669\" target=\"_blank\">查看全文</a>",
+      "published": "2026-06-05T11:45:01+08:00",
+      "fetched_at": "2026-06-06T11:45:12.100191+08:00",
+      "pre_filter_reason": "AI competition and WWDC AI expectations",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "WWDC26前瞻：苹果AI大饼何时兑现？今年必看五大看点",
+          "angle": "梳理今年WWDC最值得关注的AI相关发布（如Siri升级、开发者工具），并对比2024年承诺的兑现情况。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "苹果AI竞赛落后了吗？从WWDC26看Apple的AI战略转折",
+          "angle": "分析苹果在AI领域的布局节奏，结合行业竞争（如谷歌、微软）预测今年WWDC可能的关键动作。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "e19da2c18110",
+      "source_id": "baidu-hot",
+      "source_name": "百度热搜",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "hotlist",
+      "title": "记者调查：智能眼镜成偷拍神器",
+      "link": "https://www.baidu.com/s?wd=记者调查：智能眼镜成偷拍神器",
+      "summary": "近日，上海云女士在乐奇ROKID智能眼镜用户社区内，发现有用户使用该品牌眼镜在登机时拍摄“春秋航空”空姐并公开发布，引发公众对智能眼镜沦为“偷拍神器”的担忧。记者调查发现，该品牌APP社区内存大量偷拍路人视频。",
+      "published": "2026-06-06T11:45:26.101769+08:00",
+      "fetched_at": "2026-06-06T11:45:26.101771+08:00",
+      "pre_filter_reason": "新闻涉及智能眼镜产品及其偷拍问题，智能眼镜属于AI相关硬件",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 9,
+        "crowd_heat": 7.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "智能眼镜偷拍事件：你的隐私正在被“科技”侵犯吗？",
+          "angle": "以ROKID社区偷拍案例为引，科普智能眼镜的摄像头风险，并给出普通用户如何防范偷拍的实用建议。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "从ROKID偷拍门看智能硬件伦理：技术监管为何总是滞后？",
+          "angle": "深入探讨智能眼镜偷拍背后的法律空白、平台责任及技术伦理问题，提出可能的解决方案。",
+          "difficulty": "进阶"
         }
       ]
     }
