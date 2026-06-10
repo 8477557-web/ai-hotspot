@@ -1,20 +1,20 @@
 {
-  "title": "AI日报 - 2026年06月09日",
+  "title": "AI日报 - 2026年06月10日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "Introducing the Third Generation of Apple’s Foundation Models",
-          "summary": "苹果发布第三代基础模型，进一步提升端侧AI能力。"
+          "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+          "summary": "Google DeepMind发布Gemma 4 12B，一款无需编码器的统一多模态模型。"
         },
         {
-          "title": "小米上线MiMo-V2.5-Pro-UltraSpeed模式",
-          "summary": "小米推出MiMo-V2.5-Pro-UltraSpeed模式，加速AI推理性能。"
+          "title": "刚刚，Claude Mythos 5发布！5000万行代码1天搞定",
+          "summary": "Anthropic发布Claude Mythos 5，宣称可一天完成5000万行代码的编写。"
         },
         {
-          "title": "阿里巴巴成立Token Foundry事业部",
-          "summary": "阿里巴巴成立Token Foundry事业部，专注AI原生应用与模型孵化。"
+          "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
+          "summary": "Cohere推出面向开发者的首款模型North Mini Code。"
         }
       ]
     },
@@ -22,16 +22,16 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "Confidential submission of draft S-1 to the SEC",
-          "summary": "OpenAI秘密向SEC提交S-1文件，启动IPO进程。"
+          "title": "German ruling declares Google liable for false answers in AI Overviews",
+          "summary": "德国法院裁定谷歌需为AI概览中的错误答案承担责任。"
         },
         {
-          "title": "特斯拉向内华达申请 Robotaxi 运营许可，计划一年内投放 5000 辆自动驾驶网约车",
-          "summary": "特斯拉向内华达州申请Robotaxi运营许可，计划一年内投放5000辆自动驾驶网约车。"
+          "title": "IPO前夜喜提“厚礼”！谷歌为Gemini租用SpaceX 11万块GPU，马斯克每月躺赚9.2亿美元",
+          "summary": "谷歌为Gemini租用SpaceX 11万块GPU，马斯克每月可获9.2亿美元收益。"
         },
         {
-          "title": "DeepSeek开招土木老哥：自建GW级数据中心",
-          "summary": "DeepSeek启动大规模数据中心建设，招募土木工程人才。"
+          "title": "微信发布Skill 文档，数百万小程序，一夜之间变成了 AI 的手和脚",
+          "summary": "微信发布Skill文档，使数百万小程序可被AI直接调用。"
         }
       ]
     },
@@ -39,12 +39,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "CVPR 2026完美落幕！D4RT封神最佳论文、牛津VGG两连冠，中国本科生泰坦显卡逆袭引爆全网",
-          "summary": "CVPR 2026落幕，D4RT获最佳论文，牛津VGG蝉联冠军，中国本科生用泰坦显卡实现逆袭。"
+          "title": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
+          "summary": "研究评估前沿语音识别模型在双语混合语音场景下的表现。"
         },
         {
-          "title": "Open image generation models are closer to closed-source quality than this sub thinks [D]",
-          "summary": "开源图像生成模型质量已接近闭源水平，引发社区热议。"
+          "title": "36氪首发 | 清华团队做出全球首个实时理解生理与情绪的基座模型，进一步布局硬件",
+          "summary": "清华团队发布全球首个可实时理解生理与情绪的基座模型。"
+        },
+        {
+          "title": "Model Quantization: Turn FP8 Checkpoints into High-Performance Inference Engines with NVIDIA TensorRT",
+          "summary": "NVIDIA发布教程，展示如何利用TensorRT将FP8模型量化为高性能推理引擎。"
         }
       ]
     },
@@ -52,17 +56,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "Train Models Faster with JAX and MaxText Using NVFP4 on NVIDIA Blackwell",
-          "summary": "NVIDIA发布利用NVFP4在Blackwell上加速JAX和MaxText模型训练的技术指南。"
+          "title": "Industrial policy for the Intelligence Age",
+          "summary": "OpenAI发文探讨智能时代的产业政策方向。"
         },
         {
-          "title": "Anthropic 被曝雇1000名人类工程师“培训”Claude Code，时薪280美元：AI 编程越进化越离不开真人兜底",
-          "summary": "Anthropic雇佣1000名人类工程师以时薪280美元培训Claude Code，揭示AI编程仍需人工兜底。"
+          "title": "What Codex unlocks for Notion",
+          "summary": "OpenAI展示Codex如何为Notion带来新的自动化能力。"
+        },
+        {
+          "title": "登顶GitHub Hacker News，这个开源项目让AI编程成本降低 98%｜涌现新项目",
+          "summary": "一个开源项目将AI编程成本降低98%，登顶GitHub和Hacker News。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦IPO与基础设施扩张，模型持续迭代，开源与闭源差距缩小，人工兜底仍是关键。",
-  "generated_at": "2026-06-09T11:48:56.176778+08:00",
+  "summary": "今日AI圈模型密集发布，开源与商业化并行，法律与产业政策加速跟进，智能体生态全面铺开。",
+  "generated_at": "2026-06-10T12:01:00.836563+08:00",
   "source_count": 20
 }
