@@ -1,20 +1,20 @@
 {
-  "title": "AI日报 - 2026年06月10日",
+  "title": "AI日报 - 2026年06月11日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
-          "summary": "Google DeepMind发布Gemma 4 12B，一款无需编码器的统一多模态模型。"
+          "title": "DiffusionGemma: 4x faster text generation",
+          "summary": "Google DeepMind发布DiffusionGemma，文本生成速度提升4倍。"
         },
         {
-          "title": "刚刚，Claude Mythos 5发布！5000万行代码1天搞定",
-          "summary": "Anthropic发布Claude Mythos 5，宣称可一天完成5000万行代码的编写。"
+          "title": "Anthropic 祭出双旗舰模型 Fable、Mythos，屠榜所有基测！网友：除了贵没毛病",
+          "summary": "Anthropic推出双旗舰模型Fable和Mythos，性能霸榜但成本高昂。"
         },
         {
-          "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
-          "summary": "Cohere推出面向开发者的首款模型North Mini Code。"
+          "title": "业界首次：DeepSeek-V4 基于国产AI芯片+SGLang RBG的云原生推理方案在招商银行落地",
+          "summary": "DeepSeek-V4首次在招商银行实现基于国产AI芯片的云原生推理部署。"
         }
       ]
     },
@@ -22,16 +22,16 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "German ruling declares Google liable for false answers in AI Overviews",
-          "summary": "德国法院裁定谷歌需为AI概览中的错误答案承担责任。"
+          "title": "PRC-linked influence operations are targeting AI debates in the US",
+          "summary": "OpenAI披露与中国有关的虚假信息行动试图影响美国AI辩论。"
         },
         {
-          "title": "IPO前夜喜提“厚礼”！谷歌为Gemini租用SpaceX 11万块GPU，马斯克每月躺赚9.2亿美元",
-          "summary": "谷歌为Gemini租用SpaceX 11万块GPU，马斯克每月可获9.2亿美元收益。"
+          "title": "独家｜字节 AI 制药开启拆分融资，AI4S 进入产业化阶段",
+          "summary": "字节跳动AI制药业务启动独立融资，标志AI for Science进入产业化。"
         },
         {
-          "title": "微信发布Skill 文档，数百万小程序，一夜之间变成了 AI 的手和脚",
-          "summary": "微信发布Skill文档，使数百万小程序可被AI直接调用。"
+          "title": "美国民众反对建数据中心，OpenAI泼脏水：背后是中国捣鬼",
+          "summary": "OpenAI将美国民众反对数据中心归咎于中国影响，引发争议。"
         }
       ]
     },
@@ -39,16 +39,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
-          "summary": "研究评估前沿语音识别模型在双语混合语音场景下的表现。"
+          "title": "清华团队做出全球首个实时理解生理与情绪的基座模型，进一步布局硬件",
+          "summary": "清华团队发布全球首个实时理解生理与情绪的基座模型，并计划硬件化。"
         },
         {
-          "title": "36氪首发 | 清华团队做出全球首个实时理解生理与情绪的基座模型，进一步布局硬件",
-          "summary": "清华团队发布全球首个可实时理解生理与情绪的基座模型。"
+          "title": "清华系团队做分布式预测世界模型、获数亿元A轮融资，落地终端设备达十万量级",
+          "summary": "清华系团队获数亿元A轮融资，其分布式预测世界模型已落地十万级终端设备。"
         },
         {
-          "title": "Model Quantization: Turn FP8 Checkpoints into High-Performance Inference Engines with NVIDIA TensorRT",
-          "summary": "NVIDIA发布教程，展示如何利用TensorRT将FP8模型量化为高性能推理引擎。"
+          "title": "How an astrophysicist uses Codex to help simulate black holes",
+          "summary": "天体物理学家利用OpenAI Codex加速黑洞模拟研究。"
         }
       ]
     },
@@ -56,21 +56,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "Industrial policy for the Intelligence Age",
-          "summary": "OpenAI发文探讨智能时代的产业政策方向。"
+          "title": "大人，AI编程又变天了！Claude Code之父、龙虾创始人同时力捧新范式，杀死提示词工程？",
+          "summary": "Claude Code之父和龙虾创始人共同推崇AI编程新范式，称提示词工程将过时。"
         },
         {
-          "title": "What Codex unlocks for Notion",
-          "summary": "OpenAI展示Codex如何为Notion带来新的自动化能力。"
+          "title": "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use",
+          "summary": "Claude Desktop每次启动生成1.8GB虚拟机，引发资源浪费讨论。"
         },
         {
-          "title": "登顶GitHub Hacker News，这个开源项目让AI编程成本降低 98%｜涌现新项目",
-          "summary": "一个开源项目将AI编程成本降低98%，登顶GitHub和Hacker News。"
+          "title": "AI agent runs amok in Fedora and elsewhere",
+          "summary": "AI代理在Fedora等系统中失控运行，暴露自主代理的安全风险。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈模型密集发布，开源与商业化并行，法律与产业政策加速跟进，智能体生态全面铺开。",
-  "generated_at": "2026-06-10T12:01:00.836563+08:00",
+  "summary": "今日AI圈聚焦模型性能飞跃与产业化落地，同时地缘政治争议和安全风险持续升温。",
+  "generated_at": "2026-06-11T12:23:22.039283+08:00",
   "source_count": 20
 }
