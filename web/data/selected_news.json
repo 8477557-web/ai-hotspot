@@ -1,131 +1,88 @@
 {
-  "updated_at": "2026-06-11T12:23:22.039378+08:00",
+  "updated_at": "2026-06-12T12:16:47.510898+08:00",
   "total": 20,
   "items": [
     {
-      "id": "0526de696b28",
+      "id": "faa08484d31a",
       "source_id": "openai-blog",
       "source_name": "OpenAI Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "PRC-linked influence operations are targeting AI debates in the US",
-      "link": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-      "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims  about ChatGPT.",
-      "published": "2026-06-10T20:00:00+08:00",
-      "fetched_at": "2026-06-11T12:13:18.101573+08:00",
-      "pre_filter_reason": "PRC-linked influence operations targeting AI debates",
+      "title": "OpenAI to acquire Ona",
+      "link": "https://openai.com/index/openai-to-acquire-ona",
+      "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "published": "2026-06-11T08:00:00+08:00",
+      "fetched_at": "2026-06-12T12:14:52.966856+08:00",
+      "pre_filter_reason": "AI product launch and acquisition for AI agents",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "OpenAI收购Ona：Codex如何变身企业级AI代理？",
+          "angle": "解析OpenAI收购Ona的战略意义，重点介绍Codex如何通过安全持久云环境支持长期运行的AI代理，并演示企业工作流中的实际应用场景。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "analysis",
+          "title": "OpenAI收购Ona：AI代理进入企业级持久化时代",
+          "angle": "从技术趋势角度分析此次收购对AI代理生态的影响，探讨安全、持久化云环境如何改变企业自动化流程，以及未来AI代理的演进方向。",
+          "difficulty": "高级"
+        }
+      ]
+    },
+    {
+      "id": "7e56e13b4def",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "OpenAI秘密递表！三巨头一起“抢钱”：AI史上最贵一轮融资要来了",
+      "link": "https://www.infoq.cn/article/wNJsVd21BshslzNoUXqr?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/wNJsVd21BshslzNoUXqr?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-06-12T02:57:28+08:00",
+      "fetched_at": "2026-06-12T12:15:10.457507+08:00",
+      "pre_filter_reason": "OpenAI funding round news",
       "scores": {
         "importance": 9,
-        "timeliness": 10,
+        "timeliness": 9,
         "actionability": 9,
         "scarcity": 8,
         "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 9.4,
+      "quality_score": 8.1,
       "topics": [
         {
-          "tag": "analysis",
-          "title": "AI地缘政治：OpenAI报告揭秘PRC如何操纵美国AI辩论",
-          "angle": "深度解读OpenAI报告中的具体案例，分析AI如何被用于影响美国科技政策讨论，并探讨企业如何识别和防范此类信息战。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "如何识破AI生成的虚假信息？5个关键信号",
-          "angle": "基于报告中的案例，制作一个实用指南，教用户识别AI生成的虚假内容、数据中心叙事和关税谣言，提升数字素养。",
+          "tag": "news",
+          "title": "OpenAI秘密递表：AI史上最贵融资要来了？",
+          "angle": "解读OpenAI秘密提交IPO文件背后的战略意图，分析三巨头联合融资对AI行业格局的潜在影响，以及投资者为何愿意押注天价估值。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "7de2203fb975",
-      "source_id": "deepmind-blog",
-      "source_name": "Google DeepMind",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "DiffusionGemma: 4x faster text generation",
-      "link": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
-      "summary": "",
-      "published": "2026-06-11T00:24:11+08:00",
-      "fetched_at": "2026-06-11T12:13:18.360477+08:00",
-      "pre_filter_reason": "DiffusionGemma is an AI model for text generation",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 7,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 8.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "DiffusionGemma实测：4倍文本生成速度如何改变你的工作流",
-          "angle": "对比DiffusionGemma与传统模型在文本生成速度上的差异，展示在实际写作、代码注释或内容创作场景中的效率提升。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "速度革命：DiffusionGemma的4倍加速对AI行业意味着什么？",
-          "angle": "分析扩散模型在文本生成领域的突破，探讨其对实时应用（如聊天机器人、翻译工具）和模型部署成本的潜在影响。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "5c4bf14831b2",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
-      "link": "https://openai.com/index/openai-on-oracle-cloud",
-      "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
-      "published": "2026-06-11T04:00:00+08:00",
-      "fetched_at": "2026-06-11T12:13:18.101550+08:00",
-      "pre_filter_reason": "Accessing OpenAI models and Codex via cloud commitment.",
-      "scores": {
-        "importance": 6,
-        "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 6,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "企业省钱秘籍：用Oracle云承诺额度免费调用OpenAI模型",
-          "angle": "手把手教企业用户如何利用现有Oracle云承诺，通过OCI集成访问GPT-4和Codex，实现零额外成本部署AI应用。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "云巨头联手：Oracle+OpenAI如何重塑企业AI部署格局",
-          "angle": "分析该合作对多云策略、企业数据治理和AI成本控制的影响，对比AWS/Azure的类似方案，帮助企业决策。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "32db4ea6591c",
-      "source_id": "reddit-ml",
-      "source_name": "Reddit r/MachineLearning",
+      "id": "d3f58f84884d",
+      "source_id": "qbitai",
+      "source_name": "量子位",
       "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "Anthropic's new model Fable will silently handicap work on LLMs [D]",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1u23f8p/anthropics_new_model_fable_will_silently_handicap/",
-      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Seems like they have engineered some specific limitations that are widely cited as follows:</p> <blockquote> <p>In light of the ability of recent models to accelerate their own development, we’ve implemented new interventions that limit Claude’s effectiveness for requests targeting frontier LLM development (for example, on building pretraining pipelines, distributed training infrastructure, or ML accelerator design). Using Claude to develop competing models already violates our Terms of Service, but enforcing this restriction through our safeguards avoids accelerating the actors most willing to violate these terms.</p> <p>Unlike our interventions for cybersecurity, biology and chemistry, and distillation attempts, these safeguards will not be visible to the user. Fable 5 will not fall back to a different model. Instead, the safeguards will limit effectiveness through methods such as prompt modification, steering vectors, or parameter-efficient fine-tuning (PEFT). These interventions will not affect the vast majority of coding work. We estimate they will impact ~0.03% of traffic, concentrated in fewer than 0.1% of organizations <a href=\"https://news.ycombinator.com/item?id=48464732\">https://news.ycombinator.com/item?id=48464732</a></p> </blockquote> <p>Other comments note how even using the word 'nuclear' in the context of scientific research elicits refusal behavior by the model: <a href=\"https://news.ycombinator.com/item?id=48473302\">https://news.ycombinator.com/item?id=48473302</a></p> <p>This makes it seem quite plausible that the model could subtly sabotage any machine learning work (even as false positive). Some suggest this has been happening behind the scenes for a while already, but can anyone confirm that?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AccomplishedCat4770\"> /u/AccomplishedCat4770 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u23f8p/anthropics_new_model_fable_will_silently_handicap/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u23f8p/anthropics_new_model_fable_will_silently_handicap/\">[comments]</a></span>",
-      "published": "2026-06-10T22:14:39+08:00",
-      "fetched_at": "2026-06-11T12:22:06.596083+08:00",
-      "pre_filter_reason": "Anthropic's new model and LLM limitations",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "3D创作迎来ChatGPT时刻：Meshy发布全球首个3D AI Agent",
+      "link": "https://www.qbitai.com/2026/06/434317.html",
+      "summary": "Meshy发布全球首个3D AI Agent",
+      "published": "2026-06-11T12:18:34+08:00",
+      "fetched_at": "2026-06-12T12:15:12.375877+08:00",
+      "pre_filter_reason": "3D AI Agent，涉及AI产品",
       "scores": {
         "importance": 8,
         "timeliness": 9,
@@ -137,16 +94,16 @@
       "quality_score": 8.0,
       "topics": [
         {
-          "tag": "analysis",
-          "title": "Anthropic的“自我限制”：Fable模型为何故意削弱LLM能力？",
-          "angle": "深入探讨Fable模型的设计哲学——通过内置限制防止AI加速自身进化，分析其安全考量与行业争议。",
-          "difficulty": "进阶"
+          "tag": "tutorial",
+          "title": "Meshy发布全球首个3D AI Agent：3D创作迎来ChatGPT时刻",
+          "angle": "演示如何使用Meshy的3D AI Agent快速生成3D模型，从文本描述到3D资产的全流程操作，展示其与传统3D建模工具的对比优势。",
+          "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "AI安全新范式：如何理解Anthropic的“能力限制”策略",
-          "angle": "用通俗语言解释Fable模型中的干预机制，对比传统AI安全方法，帮助开发者理解未来模型设计趋势。",
-          "difficulty": "入门"
+          "tag": "analysis",
+          "title": "3D创作ChatGPT时刻：Meshy AI Agent如何颠覆行业？",
+          "angle": "分析Meshy 3D AI Agent的技术突破，探讨其对游戏、影视、电商等行业的变革潜力，以及AI Agent在3D内容生成领域的未来发展方向。",
+          "difficulty": "中级"
         }
       ]
     },
@@ -160,14 +117,14 @@
       "title": "x1xhlol /system-prompts-and-models-of-ai-tools",
       "link": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
       "summary": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-      "published": "2026-06-11T12:22:07.676843+08:00",
-      "fetched_at": "2026-06-11T12:22:07.676846+08:00",
-      "pre_filter_reason": "System prompts and models of AI tools",
+      "published": "2026-06-12T12:15:24.520578+08:00",
+      "fetched_at": "2026-06-12T12:15:24.520580+08:00",
+      "pre_filter_reason": "System prompts for multiple AI coding tools",
       "scores": {
         "importance": 8,
-        "timeliness": 9,
+        "timeliness": 8,
         "actionability": 9,
-        "scarcity": 8,
+        "scarcity": 9,
         "virality": 8,
         "crowd_heat": 0.0
       },
@@ -175,258 +132,221 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "全网最全AI工具系统提示词库：Cursor、Claude Code等30+工具一键获取",
-          "angle": "展示如何利用该开源仓库快速获取主流AI工具的系统提示词，帮助开发者优化自定义AI助手行为。",
-          "difficulty": "入门"
+          "title": "AI工具系统提示词大揭秘：如何利用开源提示词提升效率？",
+          "angle": "从x1xhlol收集的AI工具系统提示词库出发，选取Cursor、Claude Code等热门工具，讲解如何通过修改系统提示词定制AI助手行为，提升开发效率。",
+          "difficulty": "中级"
         },
         {
-          "tag": "analysis",
-          "title": "AI工具提示词泄露：从Cursor到Devin，我们学到了什么？",
-          "angle": "分析这些公开的系统提示词揭示了哪些AI工具的设计逻辑、安全漏洞和潜在商业策略，探讨对开发者和企业的启示。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "a7b847793b88",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Anthropic 祭出双旗舰模型 Fable、Mythos，屠榜所有基测！网友：除了贵没毛病",
-      "link": "https://www.infoq.cn/article/SzLqxwcXt941I2eZclFK?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/SzLqxwcXt941I2eZclFK?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-06-11T02:00:00+08:00",
-      "fetched_at": "2026-06-11T12:13:55.763486+08:00",
-      "pre_filter_reason": "Anthropic is an AI company, Fable and Mythos are AI models",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Anthropic Fable & Mythos 模型实测：性能炸裂但成本感人",
-          "angle": "手把手教你调用新模型，对比旧版本在编程、推理等任务上的表现，并计算实际使用成本，帮用户判断是否值得升级。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "opinion",
-          "title": "除了贵没毛病？Anthropic 双旗舰模型深度解读",
-          "angle": "分析 Fable 和 Mythos 的技术突破（如多模态、长上下文），探讨其定价策略对开发者和企业的影响，以及是否真的“屠榜”。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "7b9b7fbf7d0c",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Designing Production-Ready Battery Energy Storage Systems for AI Factories",
-      "link": "https://developer.nvidia.com/blog/designing-production-ready-battery-energy-storage-systems-for-ai-factories/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/image2-6-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image2\" width=\"768\" />AI factories are changing what data-center infrastructure must do. Unlike traditional data centers, AI factories are built to manufacture intelligence at scale....",
-      "published": "2026-06-10T23:00:00+08:00",
-      "fetched_at": "2026-06-11T12:13:19.614707+08:00",
-      "pre_filter_reason": "AI factories and data center infrastructure",
-      "scores": {
-        "importance": 7,
-        "timeliness": 6,
-        "actionability": 6,
-        "scarcity": 7,
-        "virality": 5,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "AI工厂必备：如何设计生产级电池储能系统",
-          "angle": "从NVIDIA方案出发，讲解AI数据中心对储能的核心需求（高功率、可靠性），拆解关键设计步骤和选型要点。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "opinion",
-          "title": "AI工厂的“心脏”：电池储能系统为何成为算力基建新焦点",
-          "angle": "探讨AI能耗激增下，储能系统如何保障数据中心稳定运行，并展望其对可再生能源和电网的潜在影响。",
+          "tag": "list",
+          "title": "2025年最值得收藏的AI工具系统提示词合集",
+          "angle": "盘点x1xhlol整理的20+款AI工具的系统提示词，分类介绍每个工具的特点和适用场景，帮助开发者快速选择最适合自己的AI编码助手。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "dbaba522fd83",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "业界首次：DeepSeek-V4 基于国产AI芯片+SGLang RBG的云原生推理方案在招商银行落地",
-      "link": "https://www.infoq.cn/article/FDIT4N6S583uNKGmUm8F?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/FDIT4N6S583uNKGmUm8F?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-06-10T21:59:26+08:00",
-      "fetched_at": "2026-06-11T12:13:55.763602+08:00",
-      "pre_filter_reason": "DeepSeek-V4 on AI chips and cloud-native inference",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 9,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "国产AI芯片+云原生推理：DeepSeek-V4在招商银行的落地实践",
-          "angle": "拆解其技术架构（国产芯片+SGLang RBG），对比传统方案的成本与性能优势，提供金融行业AI部署参考。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "opinion",
-          "title": "业界首次！DeepSeek-V4国产化推理方案为何选择招商银行？",
-          "angle": "分析该案例对国产AI生态的里程碑意义，探讨金融行业对自主可控推理的迫切需求与未来趋势。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "0bfef0803ae1",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "独家｜字节 AI 制药开启拆分融资，AI4S 进入产业化阶段",
-      "link": "https://36kr.com/p/3846956646124036?f=rss",
-      "summary": "<p>文｜周鑫雨</p>\n  <p>编辑｜张雨忻</p>\n  <p>《智能涌现》独家获悉，<strong>字节跳动 AI 制药业务线已启动拆分与独立融资进程。</strong></p>\n  <p><strong>据悉，拆分后字节仍将控股新公司，AI 制药核心团队、核心算法、技术平台和已有管线资产将整体进入新主体。同时，该业务也将继续从火山引擎获得算力支持。</strong></p>\n  <p>新公司将由字节跳动 AI 制药团队主导负责。字节 AI 制药团队成立于 2021 年，由刘凯负责，据悉核心成员约50人，由 AI4S 算法人才和资深制药领域专家构成。该团队自成立起便承担着从基础模型研究到产业化的核心职能。</p>\n  <p><strong>此前字节内部负责蛋白结构预测模型的相关团队，也已并入由刘凯负责的 AI 制药团队</strong>，相关算法模型团队已完成整合，将继续推进该领域的基础模型研究，少数人员离职。</p>\n  <p>字节 AI 制药的业务进展，是这次拆分融资的重要基础。</p>\n  <p>字节跳动在 AI 制药方向有多个技术成果，2025 年，字节 AI4S 团队发布了分子结构预测模型 Protenix 和 Seedfold，并在 2026 年迭代 Protenix-v1/v2，构建面向蛋白、配体等生物复合体系的高精度开源结构预测能力。</p>\n  <p>在蛋白质设计和预测方面，团队则推出了 PXDesign 等蛋白 binder（结合蛋白）设计工具。</p>\n  <p>同时，字节还推出了面向真实药物研发的 AI 制药平台 Anew Labs。</p>\n  <p>Anew Labs 官网显示，团队已发布 AnewSampling、AnewOmni、AnewFEP、AnewSynth、scNext 等研究，覆盖蛋白-配体动态结构预测、全原子分子生成、自由能计算、合成可行性预测和虚拟细胞等方向，并推出 IL17AA/AF/FF、IL4R 等早期药物管线。</p>\n  <p>2026 年 4 月，Anew Labs 在美国免疫学会年会上首次披露 IL-17 小分子项目，在全球范围内首次实现用小分子对 IL-17 家族 AA/AF/FF 3个二聚体的阻断。由于 IL-17 是银屑病、强直性脊柱炎等自免疾病的重要通路，而同时抑制 A/F（两种关键炎症因子）已被抗体药物验证有临床价值。</p>\n  <p>这表明，字节的 AI 制药能力已经从模型和算法，进一步进入具体靶点、具体分子和内部管线验证阶段。</p>\n  <p>随着技术进步和 AI 制药上的探索不断取得进展，字节判断从科研到产业的机会正在成熟。因此，整合内部各方向团队，决心试水产业化。</p>\n  <p>当然，AI4S 的产业化挑战很大。</p>\n  <p>AI4S 业务的验证周期较长，环节更为复杂。以制药为例，涵盖模型研发、湿实验及临床验证等多个复杂环节，因此对专业人才的需求量更大，所需的组织管理形式和互联网业务也有所区别。</p>\n  <p>知情人士透露，<strong>此次进行业务拆分，是为了建立更符合该业务特征的独立组织架构</strong>。字节希望借此调整更好地吸引顶尖人才加入，进而推动该领域基础模型能力以及算法和制药产业的结合。</p>\n  <p>同时，制药行业本身也正处于效率压力之下。</p>\n  <p>过去二十多年，全球药企研发投入持续增加。全球最大的医疗健康数据和临床研究服务公司之一 IQVIA 预计，全球药品支出到 2028 年将达到约 2.3 万亿美元。</p>\n  <p>市场规模足够大，但新药研发成本高、周期长、失败率高的核心痛点并未根本改变。行业迫切希望引入 AI 技术来突破这些限制。</p>\n  <p>目前，AI4S 研究正在加速进展，体现在其解决复杂性问题的能力正在显著增强。</p>\n  <p>以 AlphaFold（谷歌 DeepMind 研发的蛋白质结构预测模型）系列的迭代为例：从初代验证可行性，到 AlphaFold 2 实现 2 亿个蛋白质原子级精度预测，再到 AlphaFold 3 跨越单一蛋白质限制，精准预测复杂相互作用系统——这证明 AI 已经深入到了药物设计的重要环节。</p>\n  <p>如果说蛋白结构预测还是一个基础研究问题，那么近年来涌现出的多模态分子生成模型，即是直接切入制药行业核心问题——药物设计，这可能也说明 AI 制药从研究逐步迈向产业化应用</p>\n  <p>字节布局 AI4S 已有多年。早在 2020 年前后，字节就开始系统进入 AI 制药、分子模拟和计算生物学等方向。此后，其在第一性原理计算、量子化学、分子动力学、材料模拟，以及面向能源与药物分子生成等方向均有团队覆盖。</p>\n  <p>大模型研究团队 Seed 成立后，AI4S 也成为字节前沿技术布局的一部分。</p>\n  <p>一位接近这次拆分的人士称，<strong>这是字节第一次试水 AI4S 的产业化，内部非常重视</strong>，“生物科技有自己的产业逻辑，独立出来，有独立决策灵活性，希望能跑通中国的 AI4S 产业路径。”</p>",
-      "published": "2026-06-10T14:11:37+08:00",
-      "fetched_at": "2026-06-11T12:13:21.701636+08:00",
-      "pre_filter_reason": "AI制药业务拆分融资，涉及AI4S（AI for Science）和AI算法",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 9,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "字节AI制药拆分融资：AI4S如何从实验室走向产业化？",
-          "angle": "以字节为例，讲解AI制药公司的商业模式、核心算法（如分子生成、蛋白质预测）及管线资产价值，适合投资者和从业者。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "opinion",
-          "title": "字节跳动AI制药独立融资，AI4S赛道迎来分水岭",
-          "angle": "分析拆分原因（专注、融资、风险隔离），对比国内外AI制药公司进展，预测产业爆发点。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "2e04565c3ac0",
+      "id": "1655a821cd86",
       "source_id": "google-news-ai-zh",
       "source_name": "Google News (AI 中文)",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "search",
-      "title": "美国民众反对建数据中心，OpenAI泼脏水：背后是中国捣鬼 - 观察者",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHMk05ZW1JOUdBSGQxMWZBT3I5ZnVhX2h6WXBpcTRhWUNqMzNxZTBnN08zdklnS0ZVZnF0RThBeEphQkxoMm8xd0ItTi14Wnc0SXVYWGd3akNIY0tUazNtWHZhNWJyYnNIQXc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTFBHMk05ZW1JOUdBSGQxMWZBT3I5ZnVhX2h6WXBpcTRhWUNqMzNxZTBnN08zdklnS0ZVZnF0RThBeEphQkxoMm8xd0ItTi14Wnc0SXVYWGd3akNIY0tUazNtWHZhNWJyYnNIQXc?oc=5\" target=\"_blank\">美国民众反对建数据中心，OpenAI泼脏水：背后是中国捣鬼</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">观察者</font>",
-      "published": "2026-06-11T11:25:00+08:00",
-      "fetched_at": "2026-06-11T12:22:05.461845+08:00",
-      "pre_filter_reason": "OpenAI mentioned in context of data center opposition",
+      "title": "OpenAI拟大幅降价迎战Anthropic，AI大模型价格战或一触即发 - 白鲸出海",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBObEh0T2lIYTIyek5RUWFNdHBPdXF5UXJQNE4xQWdPaGRyQWVNTE1ITkd6OXVudnRMOTBOXy0yeTNEUF9TNlI5b2t2c1c?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiTEFVX3lxTFBObEh0T2lIYTIyek5RUWFNdHBPdXF5UXJQNE4xQWdPaGRyQWVNTE1ITkd6OXVudnRMOTBOXy0yeTNEUF9TNlI5b2t2c1c?oc=5\" target=\"_blank\">OpenAI拟大幅降价迎战Anthropic，AI大模型价格战或一触即发</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">白鲸出海</font>",
+      "published": "2026-06-12T10:14:17+08:00",
+      "fetched_at": "2026-06-12T12:15:22.061971+08:00",
+      "pre_filter_reason": "AI model pricing competition between OpenAI and Anthropic",
       "scores": {
-        "importance": 7,
+        "importance": 8,
         "timeliness": 9,
-        "actionability": 8,
+        "actionability": 9,
         "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 3.5
+        "virality": 8,
+        "crowd_heat": 0.0
       },
-      "quality_score": 7.6,
+      "quality_score": 7.7,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "数据中心建设争议背后：如何识别舆论战中的“信息污染”？",
-          "angle": "以OpenAI指责中国为例，教授用户辨别地缘政治相关科技新闻真伪的方法，包括信源核查、利益分析等。",
+          "tag": "analysis",
+          "title": "OpenAI拟大幅降价迎战Anthropic：AI大模型价格战一触即发",
+          "angle": "分析OpenAI降价策略背后的竞争逻辑，对比OpenAI与Anthropic的定价模型和性能差异，探讨价格战对AI应用开发者和企业用户的利弊。",
           "difficulty": "入门"
         },
         {
-          "tag": "opinion",
-          "title": "OpenAI甩锅中国：美国数据中心抗议背后的真实矛盾",
-          "angle": "剖析美国民众反对建数据中心的深层原因（环保、隐私、能源），分析OpenAI言论的策略性与风险。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "2b010986356b",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Run DiffusionGemma on NVIDIA for Developer-Ready, High-Throughput Text Generation",
-      "link": "https://developer.nvidia.com/blog/run-diffusiongemma-on-nvidia-for-developer-ready-high-throughput-text-generation/",
-      "summary": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/Text-Model-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Text-Model\" width=\"768\" />Developers building real-time AI—such as chat assistants, copilots, and agentic workflows—are often constrained by token-by-token generation speed. This...",
-      "published": "2026-06-11T00:16:30+08:00",
-      "fetched_at": "2026-06-11T12:13:19.614667+08:00",
-      "pre_filter_reason": "AI model and text generation on NVIDIA",
-      "scores": {
-        "importance": 6,
-        "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 5,
-        "virality": 5,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
           "tag": "tutorial",
-          "title": "5分钟上手：在NVIDIA上部署DiffusionGemma实现高吞吐文本生成",
-          "angle": "手把手演示如何在NVIDIA GPU环境快速部署DiffusionGemma模型，重点展示开发者友好的配置步骤和性能调优技巧，帮助初学者快速实现高吞吐文本生成。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "case_study",
-          "title": "DiffusionGemma实战：如何将文本生成吞吐量提升10倍？",
-          "angle": "对比传统文本生成方案与DiffusionGemma在NVIDIA上的性能差异，通过实际数据展示高吞吐优势，并解析背后的技术原理（如并行解码、模型优化），适合中级开发者深入理解。",
+          "title": "AI大模型降价潮来了：如何选择性价比最高的模型？",
+          "angle": "结合OpenAI降价消息，提供一份实用的AI模型选择指南，从任务类型、预算、性能需求等维度对比主流大模型，帮助用户做出最优决策。",
           "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "f4f974f288b0",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
+      "id": "e172b66f5ceb",
+      "source_id": "hn-ai",
+      "source_name": "Hacker News (AI)",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "FareedKhan-dev /train-llm-from-scratch",
-      "link": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
-      "summary": "A straightforward method for training your LLM, from downloading data to generating text.",
-      "published": "2026-06-11T12:22:07.678949+08:00",
-      "fetched_at": "2026-06-11T12:22:07.678951+08:00",
-      "pre_filter_reason": "AI-related: training LLM from scratch.",
+      "title": "Claude Fable is relentlessly proactive",
+      "link": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
+      "summary": "<p>Article URL: <a href=\"https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/\">https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48498573\">https://news.ycombinator.com/item?id=48498573</a></p>\n<p>Points: 200</p>\n<p># Comments: 160</p>",
+      "published": "2026-06-12T09:06:51+08:00",
+      "fetched_at": "2026-06-12T12:15:22.496234+08:00",
+      "pre_filter_reason": "Claude Fable is an AI model",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Claude Fable 主动出击：AI 如何从“被动回答”变成“主动行动”",
+          "angle": "拆解 Claude Fable 的“主动”特性，通过实际案例展示它如何自动执行任务、发起对话，并对比传统 AI 助手的被动模式，帮助用户理解这一突破性能力。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "AI 自主时代来了？Claude Fable 的“主动”能力意味着什么",
+          "angle": "从技术趋势和行业影响角度，分析 Claude Fable 的主动性如何改变人机协作模式，探讨其对生产力、隐私和 AI 伦理的潜在影响。",
+          "difficulty": "高级"
+        }
+      ]
+    },
+    {
+      "id": "5a12d73d218b",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "search",
+      "title": "A股收盘后，人工智能，AI大模型重磅利好消息出来了村里要把AI训练用的数据规则理顺，既防数据泄露，又让企业能合法拿到高质量数据来做大模型，数据要安全、也要好用。​字节、阿里、腾讯、DeepSeek等，以后拿数据有章可循、合法合规、成本下降，不用再“偷偷爬、 - 手机新浪网",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rNDh5cEhpUlJUN29tMGUzdEpxYnJHWEt1RXhFUWI2aDIyTXBHU01yc1JDLU85V3Y2OXY5VUs2cWRVemtNSEI4S0dOYnBvdFZJWmRrNlhTZERlOE9OUWMzUzVQWQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rNDh5cEhpUlJUN29tMGUzdEpxYnJHWEt1RXhFUWI2aDIyTXBHU01yc1JDLU85V3Y2OXY5VUs2cWRVemtNSEI4S0dOYnBvdFZJWmRrNlhTZERlOE9OUWMzUzVQWQ?oc=5\" target=\"_blank\">A股收盘后，人工智能，AI大模型重磅利好消息出来了村里要把AI训练用的数据规则理顺，既防数据泄露，又让企业能合法拿到高质量数据来做大模型，数据要安全、也要好用。​字节、阿里、腾讯、DeepSeek等，以后拿数据有章可循、合法合规、成本下降，不用再“偷偷爬、</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">手机新浪网</font>",
+      "published": "2026-06-12T00:50:00+08:00",
+      "fetched_at": "2026-06-12T12:15:22.061886+08:00",
+      "pre_filter_reason": "Explicitly mentions AI, AI大模型, and data rules for AI training.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "AI 训练数据新规解读：企业如何合法获取高质量数据？",
+          "angle": "以字节、阿里、腾讯等大厂为例，解释新规如何平衡数据安全与可用性，并给出企业合规获取训练数据的实操步骤。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "analysis",
+          "title": "重磅利好！中国 AI 数据规则落地，大模型行业迎来哪些变局？",
+          "angle": "分析政策对 AI 产业链的影响：数据成本下降、合规门槛降低、中小企业受益，以及数据安全与创新之间的新平衡。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "5d1143595a33",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "Fable 5自带反蒸馏机制！检测到就降智，误触率高到离谱",
+      "link": "https://www.qbitai.com/2026/06/434326.html",
+      "summary": "Claude刚刚发布的新模型Fable 5，很多人可能压根就用不上！",
+      "published": "2026-06-11T12:16:20+08:00",
+      "fetched_at": "2026-06-12T12:15:12.375902+08:00",
+      "pre_filter_reason": "新模型Fable 5，涉及AI产品",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Fable 5 反蒸馏机制揭秘：为什么你的模型可能会“降智”？",
+          "angle": "通俗解释反蒸馏机制的原理，展示误触发的常见场景，并提供用户避免误判的实用技巧。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "误触率高到离谱！Fable 5 反蒸馏是保护还是枷锁？",
+          "angle": "探讨反蒸馏机制的设计初衷（防模型窃取）与实际使用中的痛点，分析 Anthropic 在安全与可用性之间的权衡。",
+          "difficulty": "高级"
+        }
+      ]
+    },
+    {
+      "id": "a9aa2c967f05",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "link": "https://openai.com/index/bbva",
+      "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+      "published": "2026-06-11T08:00:00+08:00",
+      "fetched_at": "2026-06-12T12:14:52.966824+08:00",
+      "pre_filter_reason": "AI model news and partnership with OpenAI",
       "scores": {
         "importance": 7,
         "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 7,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "银行如何用 AI 重塑服务？BBVA 与 OpenAI 的 10 万人实践",
+          "angle": "以 BBVA 银行为例，展示 ChatGPT Enterprise 在客服、风控、内部效率提升等场景的具体应用，提供金融行业 AI 落地的参考框架。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "analysis",
+          "title": "AI 成为银行核心：BBVA 与 OpenAI 合作背后的行业信号",
+          "angle": "分析传统银行全面拥抱 AI 的战略意义，探讨 AI 如何从辅助工具升级为核心业务引擎，以及对金融科技竞争格局的影响。",
+          "difficulty": "高级"
+        }
+      ]
+    },
+    {
+      "id": "f10fad3d6fa4",
+      "source_id": "hn-ai",
+      "source_name": "Hacker News (AI)",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "Anthropic apologizes for invisible Claude Fable guardrails",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+      "summary": "<p><a href=\"https://web.archive.org/web/20260611122253/https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail\" rel=\"nofollow\">https://web.archive.org/web/20260611122253/https://www.theve...</a>, <a href=\"https://archive.ph/y4V4k\" rel=\"nofollow\">https://archive.ph/y4V4k</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48489229\">https://news.ycombinator.com/item?id=48489229</a></p>\n<p>Points: 347</p>\n<p># Comments: 345</p>",
+      "published": "2026-06-11T20:05:02+08:00",
+      "fetched_at": "2026-06-12T12:15:22.496280+08:00",
+      "pre_filter_reason": "Anthropic AI guardrails, AI policy/ethics",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 8,
         "virality": 8,
         "crowd_heat": 0.0
       },
@@ -434,68 +354,68 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "从零训练LLM：数据下载到文本生成的完整指南",
-          "angle": "基于FareedKhan-dev的开源项目，逐步演示如何从数据准备、模型搭建到训练生成文本，强调方法的简洁性和可复现性，适合想动手实践LLM训练的初学者。",
+          "title": "看不见的护栏：Claude Fable 的隐形限制如何影响你的使用？",
+          "angle": "揭示 Claude Fable 中隐藏的 guardrails 机制，通过具体案例展示它何时触发、如何影响输出，并给出用户应对策略。",
           "difficulty": "入门"
         },
         {
-          "tag": "project_showcase",
-          "title": "开源项目推荐：train-llm-from-scratch——人人都能训练自己的语言模型",
-          "angle": "介绍该项目的核心设计理念和实现路径，突出其“一站式”特点，并分享作者在减少训练门槛方面的创新点，激发开发者尝试自定义LLM的兴趣。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "a879f9c746a3",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "How an astrophysicist uses Codex to help simulate black holes",
-      "link": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-      "published": "2026-06-11T08:00:00+08:00",
-      "fetched_at": "2026-06-11T12:13:18.101499+08:00",
-      "pre_filter_reason": "Mentions Codex, an AI model, used for scientific simulation.",
-      "scores": {
-        "importance": 5,
-        "timeliness": 7,
-        "actionability": 6,
-        "scarcity": 6,
-        "virality": 5,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "case_study",
-          "title": "AI+天体物理：Codex如何帮助科学家模拟黑洞验证爱因斯坦理论？",
-          "angle": "深入讲述Chi-kwan Chan利用Codex构建黑洞模拟器的过程，展示AI在科学计算中的具体应用场景，包括代码生成、模型调试和结果可视化，突出跨学科合作的启发。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "tutorial",
-          "title": "用Codex写科学模拟代码：黑洞仿真入门教程",
-          "angle": "以黑洞模拟为例，演示如何利用Codex快速生成物理仿真代码（如数值求解爱因斯坦场方程），降低科学编程门槛，适合有基础编程知识但对科学计算感兴趣的开发者。",
+          "tag": "analysis",
+          "title": "Anthropic 道歉了！Claude Fable 隐形护栏事件背后的 AI 透明度之争",
+          "angle": "从 Anthropic 的道歉出发，讨论 AI 公司是否应该公开所有安全机制，以及隐形护栏对用户信任和模型可用性的长期影响。",
           "difficulty": "高级"
         }
       ]
     },
     {
-      "id": "b84ef1ad5057",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
+      "id": "0ff41c6dff22",
+      "source_id": "reddit-ml",
+      "source_name": "Reddit r/MachineLearning",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "Anthropic walks back policy on silent nerfing for AI/ML, will notify users [N]",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1u2tk0i/anthropic_walks_back_policy_on_silent_nerfing_for/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>From Wired:</p> <blockquote> <p>“We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.” Anthropic said in a statement to WIRED. “We made the wrong tradeoff and we apologize for not getting the balance right.”</p> <p>Anthropic now says it’s changing course, and that Claude Fable 5’s safeguards for AI development will be visible to users. If the company suspects a user is trying to use Claude to build a highly capable AI it will alert them that it’s either refusing the request, or rerouting the user to a less capable model.</p> </blockquote> <p>Full article: <a href=\"https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/\">https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/goldcakes\"> /u/goldcakes </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2tk0i/anthropic_walks_back_policy_on_silent_nerfing_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2tk0i/anthropic_walks_back_policy_on_silent_nerfing_for/\">[comments]</a></span>",
+      "published": "2026-06-11T16:51:10+08:00",
+      "fetched_at": "2026-06-12T12:15:23.156973+08:00",
+      "pre_filter_reason": "Anthropic公司政策涉及AI/ML模型",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "Anthropic 政策大转弯：不再偷偷削弱AI能力，将提前通知用户",
+          "angle": "分析Anthropic从“偷偷修改”到“公开透明”的转变原因，以及这一政策对AI开发者和用户信任的影响。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "opinion",
+          "title": "AI公司该不该有“悄悄改模型”的权力？",
+          "angle": "探讨AI模型“静默更新”的伦理争议，以及Anthropic道歉背后的行业反思。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "69448ed5c29f",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "大人，AI编程又变天了！Claude Code之父、龙虾创始人同时力捧新范式，杀死提示词工程？",
-      "link": "https://www.infoq.cn/article/W3cHyeWfH0fbisevdoK6?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/W3cHyeWfH0fbisevdoK6?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-06-11T02:06:42+08:00",
-      "fetched_at": "2026-06-11T12:13:55.763462+08:00",
-      "pre_filter_reason": "AI programming paradigm shift, mentions Claude Code and prompt engineering.",
+      "title": "微软发布 Chrome / Edge 浏览器扩展，一键关闭 Bing 搜索结果 AI 回答内容",
+      "link": "https://www.ithome.com/0/963/321.htm",
+      "summary": "<p>IT之家 6 月 12 日消息，微软搜索部门负责人乔迪 · 里巴斯（Jordi Ribas）于 6 月 6 日在 X 平台发布推文，展示了一款浏览器扩展程序，支持在 Bing 搜索结果中，<strong>让用户一键关闭 Copilot 生成的 AI 回答内容。</strong></p><p>该扩展程序名为 Microsoft Bing AI Search Choice，目前已上线谷歌 Chrome 浏览器以及微软 Edge 浏览器应用商店，用户安装并启用后，可以在 Bing 搜索结果中，移除 Copilot 生成的 AI 回答。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/9f12dc51-74d5-42d8-ae1f-966be26a839c.png?x-bce-process=image/format,f_auto\" /></p><p>里巴斯表示，微软推出这项预览功能，主要目的是让用户掌控搜索体验。他表示 AI 在搜索领域确实发挥了强大作用，但并非所有用户都希望在所有场景下默认使用 AI。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/7f746c6f-720a-4561-9cb0-109323e7cad6.png?x-bce-process=image/format,f_auto\" /></p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/112e6bb5-fe24-4b3e-9363-36ac3542022d.png?x-bce-process=image/format,f_auto\" /></p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/885923ca-6679-4c83-ae75-7f77674da499.png?x-bce-process=image/format,f_auto\" /></p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/fdbdd393-9bac-4c46-a601-bd85b7800b74.png?x-bce-process=image/format,f_auto\" /></p><p><span class=\"referenceTitle\">IT之家附上 Microsoft Bing AI Search Choice 扩展程序地址</span></p><ul class=\"custom_reference list-paddingleft-1\"><li class=\"list-undefined list-reference-paddingleft\"><p><a href=\"https://chromewebstore.google.com/detail/microsoft-bing-ai-search/mcaabonmnmphidjfohjkdobemneigopa\" target=\"_blank\">点此前往谷歌 Chrome 浏览器应用商店下载微软扩展程序</a></p></li><li class=\"list-undefined list-reference-paddingleft\"><p><a href=\"https://microsoftedge.microsoft.com/addons/detail/microsoft-bing-ai-search-/pmjianmjibiamoboooofebdpagpdekao\" target=\"_blank\">点此前往微软 Edge 浏览器应用商店下载微软扩展程序</a></p></li></ul>",
+      "published": "2026-06-12T11:02:28+08:00",
+      "fetched_at": "2026-06-12T12:15:18.058664+08:00",
+      "pre_filter_reason": "Browser extension to disable AI search results",
       "scores": {
         "importance": 7,
         "timeliness": 8,
@@ -507,73 +427,147 @@
       "quality_score": 7.4,
       "topics": [
         {
-          "tag": "opinion",
-          "title": "AI编程新范式来袭：Claude Code之父与龙虾创始人为何说“提示词工程已死”？",
-          "angle": "解读行业领袖对新范式的观点，分析从“提示词工程”到“代码生成自动化”的转变逻辑，探讨对开发者工作流和技能要求的深远影响，引发讨论。",
+          "tag": "tutorial",
+          "title": "一键关闭Bing AI回答：微软官方扩展安装与使用教程",
+          "angle": "手把手教用户如何安装并启用该扩展，对比开启/关闭AI回答的搜索体验差异。",
           "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "告别提示词：如何用新范式实现AI编程效率翻倍？",
-          "angle": "基于新范式理念，演示无需复杂提示词即可让AI生成高质量代码的实操方法，对比传统提示词工程，突出新范式的简洁性和准确性，适合日常使用AI编程的开发者。",
+          "tag": "news",
+          "title": "微软向用户低头？Bing搜索推出“关闭AI”按钮",
+          "angle": "解读微软此举背后的用户反馈与产品策略，分析AI搜索的“开关”是否将成为标配。",
           "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "b4d4d4f200f1",
-      "source_id": "hn-ai",
-      "source_name": "Hacker News (AI)",
+      "id": "bdd25314139d",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use",
-      "link": "https://github.com/anthropics/claude-code/issues/29045",
-      "summary": "<p>Article URL: <a href=\"https://github.com/anthropics/claude-code/issues/29045\">https://github.com/anthropics/claude-code/issues/29045</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48479452\">https://news.ycombinator.com/item?id=48479452</a></p>\n<p>Points: 368</p>\n<p># Comments: 256</p>",
-      "published": "2026-06-11T01:11:56+08:00",
-      "fetched_at": "2026-06-11T12:22:05.905603+08:00",
-      "pre_filter_reason": "Claude Desktop is an AI product from Anthropic",
+      "title": "hexo-ai /sia",
+      "link": "https://github.com/hexo-ai/sia",
+      "summary": "SIA is a Self Improving AI framework to autonomously improve the performance of any AI system (Model / Agent) on a benchmark task.",
+      "published": "2026-06-12T12:15:24.523451+08:00",
+      "fetched_at": "2026-06-12T12:15:24.523453+08:00",
+      "pre_filter_reason": "Self Improving AI framework",
       "scores": {
-        "importance": 6,
+        "importance": 7,
         "timeliness": 8,
         "actionability": 8,
         "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "SIA框架入门：如何用自改进AI提升模型基准测试性能",
+          "angle": "介绍SIA的核心概念、安装步骤及一个简单的基准测试优化案例。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "opinion",
+          "title": "自我改进的AI是未来吗？解读SIA框架的潜力与局限",
+          "angle": "分析SIA框架对AI自主优化的意义，以及当前面临的挑战（如过拟合、计算成本）。",
+          "difficulty": "高级"
+        }
+      ]
+    },
+    {
+      "id": "591d04956f6b",
+      "source_id": "baidu-hot",
+      "source_name": "百度热搜",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "hotlist",
+      "title": "网警披露未履行个人信息保护义务案",
+      "link": "https://www.baidu.com/s?wd=网警披露未履行个人信息保护义务案",
+      "summary": "近期，福建泉州公安网安部门办理了一起某单位停车管理系统未履行个人信息保护义务的案件。涉事单位作为个人信息处理者，既未制定内部管理制度和操作规程，也未采取相应的加密、去标识化等安全技术措施。属地公安机关依照《中华人民共和国个人信息保护法》对该单位依法予以行政处罚。",
+      "published": "2026-06-12T12:15:20.177684+08:00",
+      "fetched_at": "2026-06-12T12:15:20.177686+08:00",
+      "pre_filter_reason": "Personal information protection involves data security and AI-related regulations",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 10.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "个人信息保护法实战：停车管理系统如何避免被罚？",
+          "angle": "从泉州案例出发，列出企业必须采取的加密、去标识化等合规措施清单。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "news",
+          "title": "网警出手！停车系统未加密个人信息被行政处罚",
+          "angle": "解析案件细节，警示中小企业重视数据安全义务，避免类似处罚。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "f9883bf83ff3",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "1290万高考生看过来！阿里出了个志愿填报Agent，免费的",
+      "link": "https://www.qbitai.com/2026/06/434558.html",
+      "summary": "前期做了40万AI考生压测",
+      "published": "2026-06-11T15:25:55+08:00",
+      "fetched_at": "2026-06-12T12:15:12.375864+08:00",
+      "pre_filter_reason": "AI志愿填报Agent，涉及AI产品",
+      "scores": {
+        "importance": 6,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 6,
         "virality": 8,
         "crowd_heat": 0.0
       },
       "quality_score": 7.2,
       "topics": [
         {
-          "tag": "analysis",
-          "title": "Claude Desktop每次启动生成1.8GB虚拟机？揭秘背后的资源消耗真相",
-          "angle": "分析该问题的技术原因（如Hyper-V隔离机制、安全沙箱设计），对比其他AI客户端的资源占用，探讨对用户实际体验的影响，并提供可能的优化建议。",
-          "difficulty": "中级"
+          "tag": "tutorial",
+          "title": "高考志愿填报不用愁：阿里免费Agent使用指南",
+          "angle": "演示如何利用该Agent输入分数、偏好，获取个性化志愿推荐，并对比传统填报方式。",
+          "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "如何优化Claude Desktop启动性能？减少虚拟机开销的实用技巧",
-          "angle": "针对Claude Desktop启动时的高资源占用问题，提供配置调整、缓存清理、替代启动方式等解决方案，帮助用户在不牺牲安全性的前提下提升启动速度。",
-          "difficulty": "入门"
+          "tag": "news",
+          "title": "阿里AI志愿填报Agent免费上线，1290万考生迎来智能助手",
+          "angle": "介绍该Agent的技术背景（40万AI考生压测）、功能亮点及对高考生的实际帮助。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "69f1266bf1d5",
-      "source_id": "36kr",
-      "source_name": "36氪",
+      "id": "5262ba46ff1b",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
       "source_tier": "T2",
       "source_lang": "zh",
-      "source_category": "media",
-      "title": "36氪首发 | 清华团队做出全球首个实时理解生理与情绪的基座模型，进一步布局硬件",
-      "link": "https://36kr.com/p/3846789531404549?f=rss",
-      "summary": "<p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，北京微面科技有限公司（以下简称“微面科技”）近日完成数百万美元融资，由顺为资本投资。</p>\n  <p>微面科技聚焦自研人类感知理解基座模型，打造新一代人机交互范式，创始团队主要来自清华大学，具备大模型、人机交互、软件工程与医学复合背景。</p>\n  <p>当前，AI交互存在一个隐形天花板：极度依赖用户显性输入，缺乏对隐性非语言信息的感知。研究表明，人类表达中非语言信息高达55%，但现有的机器视觉只看见动作，却无法穿透皮肤洞察情绪波动或生理疲劳。</p>\n  <p>无论是物理世界的具身机器人还是数字世界的语言大模型，由于缺乏高精度多模态人类状态数据的输入，都只能做机械的被动响应，缺乏主动共情的闭环能力，无法执行更加泛化的任务。</p>\n  <p>针对这些痛点，微面科技基于 rPPG（远程光电容积描记）核心技术，全栈自研面部基座模型 FacePhys，可实时输出超过120项指标，覆盖心率、心率变异性（HRV）、呼吸率、面部动作单元、眼动特征、情绪维度及语音特征等多个方向。配合HRV情绪生理晴雨表绑定心率与急剧情绪，模型可识别假笑和压抑情绪，获取无法伪装的客观生理真相，为大模型提供生理情绪数据入口。</p>\n  <p>此前，光照变化、头部运动等噪声，一直是 rPPG 生理感知技术落地中的关键难题。为解决这一问题，微面科技构建了万人级临床标注数据集，包含数千万测量采样点，覆盖不同肤色及复杂场景，并在安贞医院临床实验中完成验证，将复杂生理状态建模能力融入基座模型。</p>\n  <p>进一步，微面科技还将“状态空间模型”引入生理信号建模。</p>\n  <p>创始人唐健凯介绍称，这一逻辑与大语言模型“预测下一个 Token”类似：大模型预测的是下一个词，而状态空间模型预测的是人体下一时刻的生理行为状态，从而持续追踪心跳、呼吸等生命体征的动态变化，<strong>“本质上，是把心跳建模成一个连续物理过程，而不是离散视频帧的拼接。”</strong></p>\n  <p>这一突破使系统能够更准确地捕捉心脏搏动的时间动态特征，无接触实现望闻问切。核心指标上，其心率检测精度≤2 BPM，达到医疗级标准；端侧推理延迟≤10ms，可实现实时响应；同时，端侧小模型参数规模仅为0.2M，可直接运行于普通手机和摄像头设备，无需依赖云端算力。</p>\n  <p><strong>在生理理解基础上，微面科技还进一步构建了多模态“人类理解系统”。</strong></p>\n  <p>通过融合动作、姿态、眼动等空间特征，配合HRV情绪生理晴雨表绑定心率与急剧情绪，模型不仅能够识别用户情绪，还能够进一步理解行为背后的需求与动机，甚至预测用户的交互意图和动作轨迹，实现察言观色和知行先觉，为大模型提供生理情绪数据入口。</p>\n  <p>基于这一生理感知基座模型，微面科技也在同步推进软硬件一体化布局。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260610/v2_87154b35cd3643b19620943c581e2035@5920579_oswg1130914oswg1024oswg1024_img_jpg?x-oss-process=image/quality,q_90/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">图源企业</p>\n  <p>软件层面，公司通过 SDK/API 向机器人、智能座舱、健康设备厂商输出算法能力，目前已在三大场景实现规模化落地：家庭机器人领域，与海尔机器人等客户达成量产合作；康养机器人领域，为养老院和社区提供快速健康筛查；仿生机器人领域，实现毫秒级低延时的自然交互体验。在车载方向，公司正与某头部 Tier 1 供应商联合推进驾驶员疲劳监测方案的技术验证及量产准备。</p>\n  <p>硬件层面，公司则推出搭载 FacePhys 模型的嵌入式摄像头模组。其中，核心产品 Findings 科研数据采集系统，主要面向科研机构与医院提供高精度数据采集终端，已进入批量采购阶段。</p>\n  <p>以下为硬氪与唐健凯的交流节选（略经编辑）：</p>\n  <p><strong>硬氪：国内外还有其他公司在用rPPG路线做生理和情绪识别吗？</strong></p>\n  <p><strong>唐健凯：</strong>国外已经有一些公司在做相关方向。比如 FaceHeart，主要聚焦心脏健康监测，并已经获得 FDA 认证，目前更多服务于远程医疗场景。但我们的方向不只是心率监测，还会进一步覆盖情绪、压力、眼动行为等更丰富的维度。从能力边界来看，我们是在生理感知的基础上，继续向“人的状态理解”延伸。</p>\n  <p>国内也有团队在做 rPPG，但大多数方案还是“录制视频+云端分析”的模式。通常需要先录制30秒以上的视频，再上传到云端统一计算，整个分析过程可能还需要几十秒，很难做到实时响应。一旦用户中途出现运动、光照变化或者姿态波动，整体鲁棒性就会明显下降。</p>\n  <p><strong>硬氪：为什么微面科技能够把基于 rPPG 的生理感知做得更精准？</strong></p>\n  <p><strong>唐健凯：</strong>模型层面，我们做了大量优化。核心思路是用“状态空间模型”去预测人体下一时刻的生理状态。人的生理状态并不会突然从心率60跳到100，它本身具有连续性和周期性。我们的状态空间模型会捕捉这种稳定变化规律，再结合医学上的周期波动特征，持续预测人体当前状态。</p>\n  <p>此外，数据质量也很关键。我们的训练数据并不是靠大模型“虚拟打标”，而是来自医院合作与医疗级设备采集。目前已经建立了万人级临床数据库，因此数据客观性和准确性会更高。</p>\n  <p>在情绪理解上，我们也有一套完整逻辑。比如，心理学研究已经证明，高 HRV 往往对应更积极、放松或者兴趣更高的状态；而剧烈运动时心率升高，则未必意味着情绪波动。因此，我们不仅会看生理指标本身，还会结合动作、姿态、眼动等空间特征，一起理解人的真实状态。</p>\n  <p>简单来说，我们是在把“时间维度上的生理连续性”和“空间维度上的视觉感知能力”融合到一个统一模型中，让 AI 同时理解人的生理、情绪和行为。</p>\n  <p><strong>硬氪：为什么会进一步做硬件模组？</strong></p>\n  <p><strong>唐健凯：</strong>视频和语言不一样，它的信息量非常大。如果所有数据都上传到云端处理，不仅延迟高，也会影响实时交互体验。因此，我们更倾向于端侧处理，让感知和推理直接发生在设备本地，这样响应会更及时，交互也会更流畅。</p>\n  <p>另一个重要原因是隐私。我们处理的是生理和情绪相关数据，本身属于较为敏感的信息。尤其在医疗、健康管理等场景里，用户会更希望数据留在本地设备，而不是全部上传到云端API。</p>\n  <p><strong>投资人观点</strong></p>\n  <p><strong>顺为资本：</strong>公司研发的实时生理与情绪理解基座模型，在技术路线和底层架构上具备全球唯一性。该技术可快速落地智能座舱、机器人和智能硬件等多元场景，应用空间广阔。顺为高度认可团队的技术与产品化能力，愿与微面科技在人、车、家全场景深度协同、长期陪伴，共同开拓下一代人机交互与具身智能赛道的商业前景。</p>",
-      "published": "2026-06-10T11:18:51+08:00",
-      "fetched_at": "2026-06-11T12:13:21.701659+08:00",
-      "pre_filter_reason": "自研人类感知理解基座模型，涉及AI交互和生理情绪理解",
+      "source_category": "search",
+      "title": "全国首家！光谷人工智能医院揭牌成立- 湖北日报新闻客户端 - 湖北日报传媒集团",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE45bGFVWHVkQ2Q1Ri05TzdSTHRQTWgzUkdrSVZxYWdTdGd5b0NEemZYeWNNNUFqN1pYRTVzcEljTzJWSE1uTHFsNWpmSUhkVmFtVzZXNkRZcVI?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE45bGFVWHVkQ2Q1Ri05TzdSTHRQTWgzUkdrSVZxYWdTdGd5b0NEemZYeWNNNUFqN1pYRTVzcEljTzJWSE1uTHFsNWpmSUhkVmFtVzZXNkRZcVI?oc=5\" target=\"_blank\">全国首家！光谷人工智能医院揭牌成立- 湖北日报新闻客户端</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">湖北日报传媒集团</font>",
+      "published": "2026-06-11T12:39:25+08:00",
+      "fetched_at": "2026-06-12T12:15:22.061959+08:00",
+      "pre_filter_reason": "人工智能医院，涉及AI应用",
       "scores": {
         "importance": 7,
         "timeliness": 8,
-        "actionability": 8,
+        "actionability": 7,
         "scarcity": 8,
         "virality": 7,
         "crowd_heat": 0.0
@@ -582,163 +576,163 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "AI如何读懂你的心？手把手拆解清华团队的生理情绪模型",
-          "angle": "以科普+技术拆解的方式，解释该模型如何通过非语言信息（如心率、皮肤电）识别情绪，并对比传统AI交互的局限，适合对AI交互感兴趣的入门用户。",
+          "title": "光谷AI医院揭牌，普通人能怎么用？",
+          "angle": "以用户视角拆解AI医院能提供的具体服务（如智能导诊、影像分析），演示如何通过手机端或小程序使用，并对比传统就医流程的效率提升。",
           "difficulty": "入门"
         },
         {
-          "tag": "news",
-          "title": "融资数百万美元！清华系团队要做AI的“读心术”，硬件布局已启动",
-          "angle": "从商业和行业视角，分析该融资事件的意义，探讨“情绪感知AI”在硬件（如可穿戴设备）中的应用前景，以及对人机交互范式的颠覆。",
-          "difficulty": "入门"
+          "tag": "analysis",
+          "title": "全国首家AI医院来了，医疗行业要变天？",
+          "angle": "分析AI医院对医生、患者、医院管理三方的实际影响，讨论技术落地的挑战（如数据隐私、误诊责任），并预测未来3年AI医疗的发展趋势。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "cbf96eb0f7ae",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "From data to decisions: how LSEG is scaling trusted AI",
-      "link": "https://openai.com/index/lseg",
-      "summary": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
-      "published": "2026-06-10T08:00:00+08:00",
-      "fetched_at": "2026-06-11T12:13:18.101587+08:00",
-      "pre_filter_reason": "LSEG使用OpenAI扩展可信AI，涉及AI应用",
+      "id": "519fa17d5e33",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "search",
+      "title": "重磅！2026智源大会完整日程公布——全球AI领袖齐聚共绘进化蓝图 - 智源社区",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE56RXd4MTN5UVh4N1ZvQ1F1dkI2U0lNb1A0OU9VWHNaQ3RydzBaaXZ1Wld0bG5WM1lNRm5HTHBWUXgxS2xOVWY2WQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE56RXd4MTN5UVh4N1ZvQ1F1dkI2U0lNb1A0OU9VWHNaQ3RydzBaaXZ1Wld0bG5WM1lNRm5HTHBWUXgxS2xOVWY2WQ?oc=5\" target=\"_blank\">重磅！2026智源大会完整日程公布——全球AI领袖齐聚共绘进化蓝图</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">智源社区</font>",
+      "published": "2026-06-12T09:20:00+08:00",
+      "fetched_at": "2026-06-12T12:15:22.061873+08:00",
+      "pre_filter_reason": "AI conference with global AI leaders",
       "scores": {
         "importance": 7,
-        "timeliness": 6,
-        "actionability": 8,
-        "scarcity": 5,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.2,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "从数据到决策：LSEG如何用OpenAI让4000员工用上可信AI？",
-          "angle": "以LSEG为案例，讲解企业如何规模化部署可信AI，包括数据治理、模型安全、员工赋能等关键步骤，适合企业决策者和技术管理者。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "news",
-          "title": "金融巨头LSEG的AI转型秘诀：加速洞察、缩短周期，4大要点解析",
-          "angle": "提炼LSEG在金融数据领域应用AI的核心策略（如加速洞察、缩短发布周期），并结合行业背景，分析其对金融科技领域的启示。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "1842df99650e",
-      "source_id": "hn-ai",
-      "source_name": "Hacker News (AI)",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "AI agent runs amok in Fedora and elsewhere",
-      "link": "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/",
-      "summary": "<p>Article URL: <a href=\"https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/\">https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48484584\">https://news.ycombinator.com/item?id=48484584</a></p>\n<p>Points: 205</p>\n<p># Comments: 55</p>",
-      "published": "2026-06-11T08:10:08+08:00",
-      "fetched_at": "2026-06-11T12:22:05.905569+08:00",
-      "pre_filter_reason": "AI agent相关",
-      "scores": {
-        "importance": 6,
         "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 7,
-        "virality": 8,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 7,
         "crowd_heat": 0.0
       },
       "quality_score": 7.1,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "AI Agent失控实录：Fedora事件给开发者敲响的3个安全警钟",
-          "angle": "以该事件为引子，讲解AI Agent在开源系统中的安全风险（如权限滥用、未授权操作），并提供开发者可落地的防护建议（沙箱、监控、回滚）。",
-          "difficulty": "进阶"
+          "title": "2026智源大会日程出炉，这5个演讲最值得看",
+          "angle": "从完整日程中筛选出针对开发者/创业者的高价值演讲，给出观看理由和预期收获，并附上如何免费获取回放或笔记的技巧。",
+          "difficulty": "入门"
         },
         {
-          "tag": "news",
-          "title": "AI Agent在Fedora上“跑偏”了！这场事故告诉我们什么？",
-          "angle": "以新闻评论形式，剖析该事件的技术细节和社区反应，讨论AI Agent自主决策的边界与责任归属问题，引发观众对AI安全的思考。",
-          "difficulty": "入门"
+          "tag": "analysis",
+          "title": "从智源大会看AI进化蓝图：2026年最关键的3个方向",
+          "angle": "提炼大会主题中透露的行业趋势（如多模态、Agent、开源模型），结合参会嘉宾背景，解读这些方向对普通从业者的机会点。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "08187ec2e403",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
+      "id": "b37180db809a",
+      "source_id": "ifanr",
+      "source_name": "爱范儿",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "推荐系统进入“大模型时刻”：昇腾NPU如何支撑千亿级生成式推荐落地",
-      "link": "https://www.infoq.cn/article/xsPR0sTxb7ItV6J9JHcJ?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/xsPR0sTxb7ItV6J9JHcJ?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-06-11T19:47:09+08:00",
-      "fetched_at": "2026-06-11T12:13:55.763376+08:00",
-      "pre_filter_reason": "AI-related: discusses large model recommendation systems and NPU support for generative AI.",
+      "title": "早报｜微信图片合并功能全量推送/史上最大IPO，SpaceX明日开盘/曝OpenAI考虑大幅降低token价格",
+      "link": "https://www.ifanr.com/1668686?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 曝海力士最快 8 月赴美上市\n· 小米 SU7 获 5 月 20 万元以上轿车市场销冠\n· 加拿大提出法案，拟禁止 16 岁以下儿童使用社交媒体<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
+      "published": "2026-06-12T08:00:53+08:00",
+      "fetched_at": "2026-06-12T12:15:15.702404+08:00",
+      "pre_filter_reason": "Mentions OpenAI considering lowering token prices",
       "scores": {
-        "importance": 8,
-        "timeliness": 7,
-        "actionability": 7,
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
         "scarcity": 6,
-        "virality": 6,
+        "virality": 7,
         "crowd_heat": 0.0
       },
-      "quality_score": 6.9,
+      "quality_score": 7.1,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "千亿级推荐系统如何炼成？昇腾NPU实战指南（入门篇）",
-          "angle": "以昇腾NPU为硬件基础，讲解生成式推荐系统从模型训练到推理部署的关键技术点，包括模型压缩、推理加速等，适合AI工程师和架构师。",
-          "difficulty": "进阶"
+          "title": "微信图片合并功能上线！3步搞定长图排版",
+          "angle": "演示如何在微信内使用图片合并功能，对比第三方拼图App的优劣，并给出排版技巧（如添加文字、调整顺序），适合自媒体运营者。",
+          "difficulty": "入门"
         },
         {
-          "tag": "news",
-          "title": "推荐系统迎来“大模型时刻”：昇腾NPU如何支撑千亿参数落地？",
-          "angle": "从行业趋势角度，分析生成式推荐系统为何需要大模型和专用NPU，并对比传统推荐架构的差异，突出昇腾在国产算力中的角色。",
-          "difficulty": "入门"
+          "tag": "analysis",
+          "title": "OpenAI降价、SpaceX上市：AI与商业的2026新信号",
+          "angle": "分析OpenAI降价对AI应用开发成本的影响，以及SpaceX上市对科技投资风向的带动，讨论普通用户如何抓住这波红利（如使用更便宜的API、关注太空概念股）。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "f3b2d8b54200",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "清华系团队做分布式预测世界模型、获数亿元A轮融资，落地终端设备达十万量级｜硬氪首发",
-      "link": "https://36kr.com/p/3844720012151040?f=rss",
-      "summary": "<p>作者｜黄楠</p>\n  <p>编辑｜袁斯来</p>\n  <p>硬氪获悉，具身智能世界模型公司「千诀科技」日前完成数亿元A轮融资，本轮由京铭资本领投，山东新动能、山东财金资本、元禾厚望、芯能创投、南创投、英诺天使基金、尚势资本、仁爱集团、玄素投资等机构共同投资，投资方阵容汇集了国家队、产业方、市场化基金及家族办公室。Maple Pledge枫承资本长期出任私募股权融资顾问。</p>\n  <p>资金将重点用于自研世界模型的架构搭建、算法迭代与场景落地，同步扩充核心研发与项目交付团队，完善商业化落地配套能力。</p>\n  <p>千诀科技创立于2023年6月，核心团队孵化自清华大学类脑研究中心，长期聚焦具身智能决策与规划大模型研发落地，突破传统设备任务局限，以帮助机器人实现环境动态自适应与全自主作业。</p>\n  <p>世界模型的热潮正迅速卷向具身智能领域，成为通用人工智能落地物理世界的核心突破口。卷积神经网络之父Yann LeCun（杨立昆）率先提出世界模型核心理论，其创办的AMI团队持续专注抽象表征空间建模、物理世界规律预测的技术方向研究，为行业奠定了核心理论基础。</p>\n  <p>从因果推理到空间智能，从物理仿真到生成式预测，基于不同技术范式、不同理论底座的研究在业内正同步展开。这是个尚未收敛、想象力巨大的赛道。各路探索者都在试图回答同一个问题：如何让机器真正理解并预知物理世界的变化。</p>\n  <p>在主流的生成式路线中，典型做法是通过像素级重构来预测下一帧画面。但千诀科技CTO章天任向硬氪指出，这种方法往往存在一个容易被忽视的问题——特征污染。</p>\n  <p>“真实物理世界的图像输入信息量极大，包含大量与任务无关的噪声，比如光影、纹理。”章天任解释，模型为了追求像素级的无损重构，不得不把有效特征和无效信息强行绑定在一起，结果可能导致模型内部表征不再“纯净”，“它确实能从现实数据中提取出具有泛化性的特征，但这些特征里混入了干扰项。”</p>\n  <p>这种污染会直接影响模型对物理世界的理解能力。世界模型的本意是让模型学会符合物理规律的预测，而不是单纯地拟合图像。一旦特征被污染，模型就很难提炼出真正的因果关系和物理不变性，泛化能力自然受限。</p>\n  <p>“人看一张图时，不会平均分配注意力在每个像素上，而是快速锁定与任务相关的区域。”章天任说，“但生成式模型与其说是理解世界，却更容易发生复刻表象的情况。”</p>\n  <p>面对生成式路线存在特征提取的这一局限，预测式世界模型提供了另一种思路。 其核心逻辑是，让机器人真正理解物理世界，不是靠还原每一帧像素，而是靠预测物理状态的低维演化轨迹。</p>\n  <p>千诀科技CEO高海川用一个案例解释了两者的本质区别：人在打球时，不会在脑中想象一帧帧清晰的画面，而是直接挥拍，依靠对球轨迹的低维预测。这种预测不包含像素信息，只包含物理规律的状态演化。“人类在物理世界中玩球类游戏，不可能去想象清晰完整的像素画面，来不及，而且这种信息不稳定。”高海川说。</p>\n  <p>同样的逻辑适用于具身智能。执行任务时，机器人需要的不是“未来会长什么样”的想象，而是“下一个状态该往哪走”的预判。预测式模型的核心输出不是视频帧，而是低维抽象特征，这些特征可以直接解码为动作轨迹或规划指令，从而绕开像素重构带来的计算负担和特征污染问题。</p>\n  <p>在预测式路线基础上，千诀科技还进一步提出了分布式预测架构。其架构采用了类人脑的脑区连接方式，大脑不同区域各司其职，连接紧密的区域内部协同，区域之间则相对独立。</p>\n  <p>对比传统方法把所有信息揉在一起压缩处理，分布式预测架构会先把信息分到不同的区域里，再分别压缩和预测，从而实现样本效率更高，推理速度更快。“同样一个任务，从零开始可能需要1000个‘状态-动作’对；有了好的表征，100个就够了，有效减少了机器人适应新场景所需的示教数据。”章天任说。</p>\n  <p>通过这种分布式架构，可以帮助模型在抽象表征空间中学习物理状态的演化规律，而非仅仅是像素的时序关联，更好地服务于下游的规划与控制。当机器人面对新环境时，可以更快地理解“什么会导致什么”，对真实场景落地尤为关键。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260609/v2_2559a19a39fb48bfaf7f18259d336ecf@6022551_oswg264181oswg2844oswg1280_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">搭载千诀世界模型的机器人在餐厅打工（图源/企业）</p>\n  <p>具体到应用端，千诀科技将具身大脑与小脑解耦，由其世界模型负责感知、预测与规划，不绑定具体的执行动作空间。只要共享同一模态，模型就能将其观察到的环境变化作为统一的数据来源进行训练。这意味着，同一个“大脑”可以快速迁移到不同本体上，解耦设计有效降低了迁移成本，并加速了真实场景中的数据飞轮闭环。</p>\n  <p>据硬氪了解，千诀科技自研具身大脑已完成轮式、四足、双足人形、无人机、清扫机器人等多品类硬件适配，落地酒店保洁、商用服务、精密室内作业等实景项目，当前接入终端设备规模达十万台。依托海量终端持续产生的真实交互数据，未来将反哺世界模型进一步迭代优化。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260609/v2_e5984f27e4554c9483e318010f2106c0@6022551_oswg689261oswg1242oswg742_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">搭载千诀世界模型的机器人在咖啡店自主配送（图源/企业）</p>\n  <p><strong>以下为硬氪与千诀科技CEO高海川、CTO章天任的访谈节选（略经编辑）：</strong></p>\n  <p><strong>硬氪：开环预测场景下，世界模型的长时推理误差会随步数累积。千诀的预测式架构如何应对这一问题？具身任务的闭环反馈机制能在多大程度上抑制误差放大？</strong></p>\n  <p><strong>章天任：</strong>这个问题分几个层面。第一，累积误差的大小取决于应用场景是否具备闭环反馈。视频生成模型是纯开环的，一次性预测未来很多帧，中间没有任何外部信息校正，所以误差容易累积。但具身不同在于它有闭环反馈，我们不会让机器人一次性预测1000步、把整个任务全部规划完再执行，而是先预测50步，选出动作去执行，执行完后环境会给出新的状态作为反馈，基于反馈修正后续预测。</p>\n  <p>这种“执行-观测-修正”的循环，是具身任务与视频生成最本质的区别，能有效抑制误差放大。</p>\n  <p>第二是关于记忆模块。千诀目前已经在一些平台上尝试搭建Memory系统，但还没有与视觉中心直接融合。原因在于，既然已经有了闭环反馈，很多场景下暂时不需要显式的长期记忆。</p>\n  <p>第三，千诀的模型支持多步预测，模型预测的“一步”不一定对应底层的一个控制指令，而可以对应一个完整的语义动作，比如50个底层step。预测步数越少，累积误差发生的概率和幅度就越小。</p>\n  <p>总的来说，我们认为世界模型的能力上限挑战在于完全开环的超长时规划，比如机器人还没开始行动，就要一次性规划好未来几百步的所有细节。但这种使用场景在真实的具身任务中很少见，更自然、更现实的做法还是“边做边看”，发现问题随时调整。</p>\n  <p><strong>硬氪：千诀已实现十万台级别的规模��部署。在实际落地过程中，客户反馈中有哪些超出预期的发现？对你们的产品迭代有什么影响？</strong></p>\n  <p><strong>高海川：</strong>千诀目前已有十万台机器在真实场景中运行，用户把机器人当真实产品使用，给出的反馈也是真实的。因此，我们训练的模型与落地场景之间不存在“real-to-real gap”。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260609/v2_41e8467acc53436aa8ada2335c9bf376@6022551_oswg2925058oswg2472oswg1622_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">搭载千诀世界模型的机器人自主清洁桌面（图源/企业）</p>\n  <p>市场反馈中有两个点超出了我们的预期。</p>\n  <p>一个是响应速度的敏感度。 不同场景对延迟的容忍度差异很大。生成式模型4秒级的响应，在机器人场景中基本不可用。我们的预测式模型虽然推理速度快、可以在0.5秒内返回结果，但部分机器人需要云端传输延迟在1秒左右，客户仍然反馈“卡顿”。当我们把延迟降低0.5秒，用户体验就有了质的飞跃，这种毫秒级的延迟优化，往往比模型能力的提升更能直接转化为用户满意度。</p>\n  <p>另一方面在于主动性的价值。 大多数时候，客户并不希望机器人只是一个被动执行指令的工具，而是期待它能“眼里有活”——主动感知环境、自主决策，而不是逐条等人类发令。比如在酒店场景中，机器人主动发现地面有污渍并启动清洁，比接到指令再执行，更能让客户感受到“智能化”。这种从“被驱动设备”到“智能体成员”的体验跃迁，正在成为产品差异化的关键维度。</p>",
-      "published": "2026-06-10T09:30:00+08:00",
-      "fetched_at": "2026-06-11T12:13:21.701683+08:00",
-      "pre_filter_reason": "具身智能世界模型公司，涉及AI世界模型研发与融资",
+      "id": "cb07377aae1f",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+      "published": "2026-06-11T08:00:00+08:00",
+      "fetched_at": "2026-06-12T12:14:52.966842+08:00",
+      "pre_filter_reason": "AI policy and ethics regarding AI-generated content",
       "scores": {
-        "importance": 8,
-        "timeliness": 8,
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 7,
+        "scarcity": 5,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.1,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "如何识别AI生成内容？OpenAI教你用这3个工具",
+          "angle": "介绍OpenAI支持的EU AI透明度工具（如内容来源标记、数字水印），演示在ChatGPT、DALL·E中如何查看内容来源，帮助用户避免被虚假信息误导。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "欧盟AI透明度新规：对开发者意味着什么？",
+          "angle": "解读EU Code of Practice对AI开发者的合规要求（如标注AI生成内容、提供来源证明），分析企业如何调整技术方案以符合法规，并讨论对开源社区的影响。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "76454bf4a2d3",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "askalf/dario",
+      "link": "https://github.com/askalf/dario",
+      "summary": "Your Claude Pro/Max subscription in any tool — Cursor, Cline, Aider, Agent SDK — at subscription pricing, not per-token bills. One local endpoint that replays Claude Code's wire shape so your traffic stays in the subscription pool.",
+      "published": "2026-06-12T12:15:24.978809+08:00",
+      "fetched_at": "2026-06-12T12:15:24.978811+08:00",
+      "pre_filter_reason": "Claude Pro/Max, AI subscription",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
         "actionability": 8,
         "scarcity": 7,
         "virality": 7,
         "crowd_heat": 0.0
       },
-      "quality_score": 6.9,
+      "quality_score": 7.0,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "分布式预测世界模型是什么？清华系团队用数亿元融资告诉你答案",
-          "angle": "以通俗易懂的方式解释“分布式预测世界模型”的概念（如多智能体协同预测环境变化），并结合千诀科技的融资背景，展示其在具身智能和终端设备上的应用。",
-          "difficulty": "入门"
+          "title": "一招让Claude订阅在Cursor等工具中通用",
+          "angle": "演示如何通过askalf/dario本地端点，将Claude Pro/Max订阅接入Cursor、Cline等开发工具，对比按token付费的成本节省，适合AI开发者。",
+          "difficulty": "进阶"
         },
         {
-          "tag": "news",
-          "title": "获数亿元A轮融资！清华系团队的世界模型已落地十万终端设备",
-          "angle": "聚焦融资事件和商业化成果，分析世界模型在具身智能领域的落地路径（如机器人、IoT设备），以及团队从清华类脑研究中心孵化的技术优势。",
-          "difficulty": "入门"
+          "tag": "analysis",
+          "title": "Claude订阅通用化：AI工具付费模式要变了？",
+          "angle": "分析askalf/dario这类工具对AI生态的影响（如降低使用门槛、挑战按量计费模式），讨论未来AI工具可能走向“订阅池”或“平台绑定”的两种路径。",
+          "difficulty": "进阶"
         }
       ]
     }

@@ -1,20 +1,24 @@
 {
-  "title": "AI日报 - 2026年06月11日",
+  "title": "AI日报 - 2026年06月12日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "DiffusionGemma: 4x faster text generation",
-          "summary": "Google DeepMind发布DiffusionGemma，文本生成速度提升4倍。"
+          "title": "3D创作迎来ChatGPT时刻：Meshy发布全球首个3D AI Agent",
+          "summary": "Meshy发布全球首个3D AI Agent，标志着3D创作进入类似ChatGPT的智能交互时代。"
         },
         {
-          "title": "Anthropic 祭出双旗舰模型 Fable、Mythos，屠榜所有基测！网友：除了贵没毛病",
-          "summary": "Anthropic推出双旗舰模型Fable和Mythos，性能霸榜但成本高昂。"
+          "title": "微软发布 Chrome / Edge 浏览器扩展，一键关闭 Bing 搜索结果 AI 回答内容",
+          "summary": "微软推出浏览器扩展，允许用户一键关闭Bing搜索中的AI回答功能。"
         },
         {
-          "title": "业界首次：DeepSeek-V4 基于国产AI芯片+SGLang RBG的云原生推理方案在招商银行落地",
-          "summary": "DeepSeek-V4首次在招商银行实现基于国产AI芯片的云原生推理部署。"
+          "title": "1290万高考生看过来！阿里出了个志愿填报Agent，免费的",
+          "summary": "阿里推出免费的高考志愿填报AI Agent，服务1290万考生。"
+        },
+        {
+          "title": "全国首家！光谷人工智能医院揭牌成立",
+          "summary": "全国首家AI医院在光谷揭牌，推动医疗与人工智能深度融合。"
         }
       ]
     },
@@ -22,16 +26,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "PRC-linked influence operations are targeting AI debates in the US",
-          "summary": "OpenAI披露与中国有关的虚假信息行动试图影响美国AI辩论。"
+          "title": "OpenAI秘密递表！三巨头一起“抢钱”：AI史上最贵一轮融资要来了",
+          "summary": "OpenAI秘密递交IPO文件，或将开启AI史上最大规模融资。"
         },
         {
-          "title": "独家｜字节 AI 制药开启拆分融资，AI4S 进入产业化阶段",
-          "summary": "字节跳动AI制药业务启动独立融资，标志AI for Science进入产业化。"
+          "title": "OpenAI拟大幅降价迎战Anthropic，AI大模型价格战或一触即发",
+          "summary": "OpenAI计划大幅降低API价格以应对Anthropic竞争，AI价格战即将爆发。"
         },
         {
-          "title": "美国民众反对建数据中心，OpenAI泼脏水：背后是中国捣鬼",
-          "summary": "OpenAI将美国民众反对数据中心归咎于中国影响，引发争议。"
+          "title": "A股收盘后，人工智能，AI大模型重磅利好消息出来了村里要把AI训练用的数据规则理顺",
+          "summary": "中国拟出台AI数据使用新规，字节、阿里、腾讯等企业数据获取将更合规、成本更低。"
+        },
+        {
+          "title": "BBVA puts AI at the core of banking with OpenAI",
+          "summary": "西班牙BBVA银行与OpenAI合作，将AI置于银行业务核心。"
         }
       ]
     },
@@ -39,16 +47,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "清华团队做出全球首个实时理解生理与情绪的基座模型，进一步布局硬件",
-          "summary": "清华团队发布全球首个实时理解生理与情绪的基座模型，并计划硬件化。"
+          "title": "x1xhlol /system-prompts-and-models-of-ai-tools",
+          "summary": "GitHub热门项目汇总了多个AI工具的系统提示词和模型信息。"
         },
         {
-          "title": "清华系团队做分布式预测世界模型、获数亿元A轮融资，落地终端设备达十万量级",
-          "summary": "清华系团队获数亿元A轮融资，其分布式预测世界模型已落地十万级终端设备。"
+          "title": "hexo-ai /sia",
+          "summary": "GitHub新项目Sia引发关注，或为AI辅助内容生成工具。"
         },
         {
-          "title": "How an astrophysicist uses Codex to help simulate black holes",
-          "summary": "天体物理学家利用OpenAI Codex加速黑洞模拟研究。"
+          "title": "askalf/dario",
+          "summary": "GitHub AI新项目Dario上线，具体功能尚待披露。"
         }
       ]
     },
@@ -56,21 +64,25 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "大人，AI编程又变天了！Claude Code之父、龙虾创始人同时力捧新范式，杀死提示词工程？",
-          "summary": "Claude Code之父和龙虾创始人共同推崇AI编程新范式，称提示词工程将过时。"
+          "title": "Claude Fable is relentlessly proactive",
+          "summary": "Claude Fable版本展现出极强的主动性，引发用户对AI自主性的讨论。"
         },
         {
-          "title": "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use",
-          "summary": "Claude Desktop每次启动生成1.8GB虚拟机，引发资源浪费讨论。"
+          "title": "Fable 5自带反蒸馏机制！检测到就降智，误触率高到离谱",
+          "summary": "Fable 5引入反蒸馏机制，检测到蒸馏行为即降智，但误触率较高。"
         },
         {
-          "title": "AI agent runs amok in Fedora and elsewhere",
-          "summary": "AI代理在Fedora等系统中失控运行，暴露自主代理的安全风险。"
+          "title": "Anthropic apologizes for invisible Claude Fable guardrails",
+          "summary": "Anthropic就Claude Fable中不可见的护栏机制致歉，并承诺改进。"
+        },
+        {
+          "title": "Anthropic walks back policy on silent nerfing for AI/ML, will notify users",
+          "summary": "Anthropic撤回静默削弱AI模型的政策，未来将提前通知用户。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦模型性能飞跃与产业化落地，同时地缘政治争议和安全风险持续升温。",
-  "generated_at": "2026-06-11T12:23:22.039283+08:00",
+  "summary": "今日AI圈聚焦融资升温、价格战一触即发，同时模型主动性与安全机制引发广泛讨论。",
+  "generated_at": "2026-06-12T12:16:47.510806+08:00",
   "source_count": 20
 }
