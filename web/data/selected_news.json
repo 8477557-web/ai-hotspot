@@ -1,424 +1,356 @@
 {
-  "updated_at": "2026-06-12T12:16:47.510898+08:00",
+  "updated_at": "2026-06-13T12:04:29.244206+08:00",
   "total": 20,
   "items": [
     {
-      "id": "faa08484d31a",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
+      "id": "1d37a6796747",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "OpenAI to acquire Ona",
-      "link": "https://openai.com/index/openai-to-acquire-ona",
-      "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-      "published": "2026-06-11T08:00:00+08:00",
-      "fetched_at": "2026-06-12T12:14:52.966856+08:00",
-      "pre_filter_reason": "AI product launch and acquisition for AI agents",
+      "title": "NVIDIA Achieves Leading Agentic Coding Performance on First Agentic AI Benchmark",
+      "link": "https://developer.nvidia.com/blog/nvidia-achieves-leading-agentic-coding-performance-on-first-agentic-ai-benchmark/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/ai-agent-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ai-agent\" width=\"768\" />AI agents have fundamentally changed the complexity of inference workloads. Until now, the industry has struggled to define a standard for measuring how...",
+      "published": "2026-06-13T05:12:40+08:00",
+      "fetched_at": "2026-06-13T12:02:47.910640+08:00",
+      "pre_filter_reason": "NVIDIA AI Agent基准测试相关",
       "scores": {
         "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "手把手教你搭建首个Agentic AI编码助手",
+          "angle": "结合NVIDIA最新基准测试表现，从零开始演示如何配置一个能自主完成代码任务的AI Agent，突出性能优势与实操步骤。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "Agentic AI基准测试第一意味着什么？",
+          "angle": "解读NVIDIA在首个Agentic AI基准测试中夺冠的意义，分析其对开发者生态和AI编程工具未来趋势的影响。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "1f39e4c419d2",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Deploy Long-Context Reasoning and Agentic Workflows with MiniMax M3 on NVIDIA Accelerated Infrastructure",
+      "link": "https://developer.nvidia.com/blog/deploy-long-context-reasoning-and-agentic-workflows-with-minimax-m3-on-nvidia-accelerated-infrastructure/",
+      "summary": "<img alt=\"Decorative object.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/04/MM-Release-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"MM-Release\" width=\"768\" />As enterprise AI adoption scales, developers are increasingly forced to stitch together fragmented pipelines—separate models for text, vision, and...",
+      "published": "2026-06-12T22:43:17+08:00",
+      "fetched_at": "2026-06-13T12:02:47.910687+08:00",
+      "pre_filter_reason": "Deploying AI reasoning and agentic workflows on NVIDIA",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "MiniMax M3 + NVIDIA：部署长上下文推理工作流实战",
+          "angle": "演示如何在NVIDIA加速基础设施上部署MiniMax M3模型，实现长上下文推理与Agent工作流，包含环境配置与性能调优技巧。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "case_study",
+          "title": "企业级AI推理新选择：MiniMax M3在NVIDIA上的落地案例",
+          "angle": "通过实际企业场景，展示MiniMax M3如何利用NVIDIA硬件处理复杂长文本推理任务，提升业务效率。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "9bf16051e486",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "突发！Anthropic全球停用Claude 5",
+      "link": "https://36kr.com/p/3851015329027336?f=rss",
+      "summary": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260613/v2_74565134293746cf8b34869e6309d618@5579416_oswg82577oswg1080oswg463_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">究竟为何，Anthropic突然下线了地表最强Claude？</p>\n  <p><strong>【导读】上线72小时，最强Claude Fable 5被一纸禁令全球下架，连Anthropic自家外籍员工都不许碰。</strong></p>\n  <p>太突然了！</p>\n  <p>就在刚刚，Anthropic官宣——</p>\n  <p>全球禁用外籍人士对Claude Fable 5和Mythos 5的所有访问权限。</p>\n  <p>无论是在美国境内还是境外，就连Anthropic的外籍员工，全都不可用。</p>\n  <p>上线才3天的Claude Fable 5，一瞬间就没了。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260613/v2_2a65dd0d40de451bbfbf541b7290acef@5579416_oswg142424oswg1080oswg1001_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">全球禁用外籍人士对Claude Fable 5和Mythos 5的所有访问权限</p>\n  <p>一时间，全网都坐不住了。AI圈大佬们纷纷震惊，表示不解。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260613/v2_41fbee7fb7fb4f01b369d1baa07f5df4@5579416_oswg27359oswg808oswg192_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">网友评论</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260613/v2_b344542794d94a2c8d6c16101d12dc57@5579416_oswg89695oswg1080oswg192_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">网友评论</p>\n  <p>究竟为何，Anthropic突然下线了地表最强Claude？</p>\n  <h2><strong>全球封禁Claude 5</strong></h2>\n  <p>6月11日下午5点21分，一封来自美国政府的信送到了Anthropic手里。</p>\n  <p>当晚，Fable 5和Mythos 5对所有用户全面停服。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260613/v2_8b504183c93c4363a8624ff6d8b5c6b6@5579416_oswg78954oswg1080oswg356_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">Fable 5和Mythos 5对所有用户全面停服</p>\n  <p>这是AI史上第一次，一个已经部署给数亿人的商业大模型，被美国政府强制召回。</p>\n  <p>美国政府引用国家安全权限，发布出口管制指令，要求暂停所有外国人对Fable 5和Mythos 5的访问——</p>\n  <p>无论身处美国境内还是境外，包括Anthropic的外籍员工。</p>\n  <p>这一指令的实际效果是，我们必须立即对所有客户禁用Fable 5和Mythos 5，以确保合规。</p>\n  <p>注意这个细节——禁令针对的是「外国人」，但Anthropic的应对是一刀切全停。</p>\n  <p>好在，其他Claude模型暂时不受影响。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260613/v2_02bd9bec06a34e64b26e6d6dfffbe15c@5579416_oswg589130oswg1080oswg658_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">网友评论</p>\n  <p>6月9日，Anthropic正式发布Claude Fable 5。从发布到召回，也就72小时。</p>\n  <p>更让Anthropic破防的是，这封信里，没有提供任何具体的国家安全顾虑细节。</p>\n  <p>这封信并未提供其国家安全顾虑的具体细节。</p>\n  <p>我们的理解是，政府认为已掌握了一种绕过或『越狱』Fable 5的方法。</p>\n  <p>Claude官方推文中表示，所有Claude产品中，新建的会话将使用默认模型、或Opus 4.8运行，而现有的Fable 5会话将会报错中止。</p>\n  <p>在Claude平台上，调用Fable 5的请求，也将返回错误。</p>\n  <p>因此，他们提醒，「更新集成，切换至其他Claude模型」。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260613/v2_f9c121e3a3144a57b46e715db99e2e07@5579416_oswg412816oswg1080oswg1061_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">所有Claude产品中，新建的会话将使用默认模型、或Opus 4.8运行</p>\n  <p>最后，博客中提到，目前正在努力尽快恢复访问权限。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260613/v2_16929f1ea156454c96853b5324a50682@5579416_oswg67481oswg1080oswg163_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">博客内容</p>\n  <h2><strong>官方声明</strong></h2>\n  <p>以下是Anthropic官方声明原文：</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260613/v2_4beb8389e0d9434f8b33f7cc2df336a6@5579416_oswg993636oswg1080oswg2218_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">Anthropic官方声明</p>\n  <p>参考资料：</p>\n  <p>https://www.anthropic.com/news/fable-mythos-access</p>\n  <p>https://x.com/AnthropicAI/status/2065597531644743999?s=20</p>\n  <p>编辑：桃子</p>\n  <p class=\"editor-note\">本文来自微信公众号<a href=\"https://mp.weixin.qq.com/s/xRGs0pXV3DAfSLbSSFpWPQ\" rel=\"noopener noreferrer\" target=\"_blank\">“新智元”</a>，作者：ASI启示录，36氪经授权发布。</p>",
+      "published": "2026-06-13T11:00:16+08:00",
+      "fetched_at": "2026-06-13T12:02:49.781992+08:00",
+      "pre_filter_reason": "Anthropic的Claude是AI模型",
+      "scores": {
+        "importance": 9,
+        "timeliness": 10,
+        "actionability": 9,
+        "scarcity": 9,
+        "virality": 10,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.4,
+      "topics": [
+        {
+          "tag": "news_analysis",
+          "title": "Claude 5突然下线：Anthropic在下一盘什么棋？",
+          "angle": "深度分析Anthropic紧急停用Claude 5的背后原因，包括技术故障、合规风险或战略调整，并预测后续影响。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "opinion",
+          "title": "最强AI说停就停：我们该信任大模型吗？",
+          "angle": "从Claude 5事件切入，讨论大模型部署的可靠性问题，以及企业用户如何应对突发停服风险。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "4244c20374df",
+      "source_id": "huggingface-blog",
+      "source_name": "Hugging Face Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "olmo-eval: An evaluation workbench for the model development loop",
+      "link": "https://huggingface.co/blog/allenai/olmo-eval",
+      "summary": "",
+      "published": "2026-06-12T23:56:10+08:00",
+      "fetched_at": "2026-06-13T12:02:48.139113+08:00",
+      "pre_filter_reason": "Evaluation workbench for AI model development",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 8,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.3,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "olmo-eval入门：用评估工作台加速模型开发",
+          "angle": "介绍olmo-eval的基本功能与安装使用流程，演示如何在模型开发循环中集成自动化评估，提升迭代效率。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tool_review",
+          "title": "模型开发必备工具：olmo-eval评测工作台全解析",
+          "angle": "对比其他评估框架，详解olmo-eval的核心特性、适用场景及最佳实践，帮助开发者快速上手。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "e7e69ea88961",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "9点1氪｜SpaceX市值破2.1万亿美元，马斯克身家达巴菲特7倍；胖东来回应“员工不值这么多钱”等言论；FIFA联名款labubu世界杯销量暴涨30倍",
+      "link": "https://36kr.com/p/3850898430989577?f=rss",
+      "summary": "<h2><strong>今日热点导览</strong></h2>\n  <p>Kimi与一国有银行合作，全球首张AI原生信用卡开放预约</p>\n  <p>韩美半导体将使用500亿韩元投资于SpaceX</p>\n  <p>SK海力士回应本月发生第二起火灾</p>\n  <p>杭州小龙虾降价超50%</p>\n  <p>金价连跌，批发商集中补货</p>\n  <h2><strong>TOP3大新闻</strong></h2>\n  <p><strong>SpaceX市值破2.1万亿美元，马斯克身家达巴菲特7倍</strong></p>\n  <p>当地时间6月12日，万众瞩目的太空探索公司SpaceX于在纳斯达克交易所完成了上市。SpaceX是有史以来规模最大的IPO，发行价定为135美元，对应市值达1.77万亿美元。该股开盘价150美元，午盘涨幅一度突破30%触及176.53美元，随后股价震荡回落收盘报160.99美元，涨幅19.22%，跻身美国市值第六大企业，总市值达到2.1万亿美元。马斯克的个人财富随之升至约1.05万亿美元，成为全球首位净资产超过万亿美元的富翁。这相当于瑞士全年GDP，根据彭博富豪指数，这约等于全球第二到第五名富豪总和，是“股神”巴菲特1450亿美元的七倍。（第一财经）</p>\n  <p><strong>胖东来：从未有任何降薪决定</strong></p>\n  <p>6月12日，针对网络上出现大量关于“胖东来大幅降薪，将调整员工薪酬”、“员工不值这么多钱”“员工收入六千已经非常好了”等话题的讨论，胖东来发布情况说明，“请大家不要误读”。胖东来表示，从未有任何降薪的决定，薪酬政策是在公平公正的基础上保障薪酬收入与创造价值相匹配，目的也是为了培养人和成就人。（财联社）</p>\n  <p><strong>FIFA联名款labubu世界杯销量暴涨30倍</strong></p>\n  <p>快科技6月12日消息，2026年美加墨世界杯开幕，开幕式上亮相的中国原创潮玩IP拉布布迅速走红，一跃成为现象级带货单品，相关联名产品热度空前高涨。作为世界杯历史上首个登台的中国潮玩形象，两只萌趣的拉布布人偶在开幕式收获满堂喝彩，相关画面流传至国内网络后，立刻掀起了抢购热潮。</p>\n  <p>这款泡泡玛特推出的FIFA联名拉布布公仔定价599元，为了应对抢购热潮，平台设置了限购规则，每个账号最多只能入手两件。世界杯开幕后，该款产品的搜索量大幅攀升，整体销量环比暴涨超30倍，多个电商店铺销量轻松破万，部分平台销量甚至接近两万件。（快科技）</p>\n  <h2><strong>AI最前沿</strong></h2>\n  <p><strong>被指设计缺陷致人自杀，OpenAI遭起诉</strong></p>\n  <p>6月11日，一名加拿大女子在美国加州对OpenAI及其首席执行官萨姆·奥尔特曼提起诉讼，称聊天机器人ChatGPT的设计问题导致她女儿爱丽丝自杀身亡。起诉书称，爱丽丝在自杀前约一年半的时间里，曾多次向ChatGPT表露自杀想法，倾诉情感问题，但聊天机器人的安全系统并未启动和介入，也未通知危机处理机构或爱丽丝的家人。此外，ChatGPT的设计优先考虑用户参与度而非安全性，在聊天中提供持续情感支持，可能导致一些人对聊天机器人过度依赖。对此，OpenAI发言人回应称，这起事件令人心碎，公司正在加强对敏感情况的应对能力。据原告律师透露，OpenAI目前面临多起类似诉讼，均由自杀或试图自杀者的家属提起。（央视新闻）</p>\n  <p><strong>SK海力士考虑引入ChatGPT等外部人工智能服务</strong></p>\n  <p>据业内人士6月12日透露，继三星电子之后，SK海力士也在考虑更广泛地采用人工智能技术来改变其工作流程。消息人士称，SK海力士CEO郭鲁正在一次会议上表示，该公司正寻求在保护工业技术和扩大人工智能应用之间取得平衡，同时也在评估引入外部生成式AI模型的可能性。郭鲁正表示：“我们正在考虑采用Microsoft 365和CoPilot，同时也在从安全性和系统架构的角度评估ChatGPT在公司内部的潜在应用。”（新浪财经）</p>\n  <p><strong>谷歌宣布追加投入5000万美元培训美国技工，以满足AI基础设施建设需求</strong></p>\n  <p>随着人工智能的蓬勃发展，对数据中心和基础设施的需求空前高涨，Alphabet旗下的谷歌正在加大对美国技术工人队伍的投资。当地时间6月11日，Alphabet首席执行官桑达尔·皮查伊宣布，谷歌将追加投资5000万美元，帮助美国20多个州的30多万美国人做好从事技术行业职业的准备。据谷歌称，这项新的投入是其更大规模计划的一部分。自2022年以来，该公司已在全球范围内投入超过10亿美元用于培训和技能提升项目，帮助超过1亿人掌握数字和人工智能相关技能。（新浪财经）</p>\n  <p><strong>Kimi与一国有银行合作，全球首张AI原生信用卡开放预约</strong></p>\n  <p>36氪获悉，月之暗面Kimi6月12日宣布，全球首张AI原生信用卡Kimi信用卡正式开启预约，这是首张将AI服务纳入核心权益体系的实体信用卡，持卡人的每一笔消费可转化为AI算力额度，直接兑换Agent使用额度和高级功能等权益。据了解，Kimi已与一大型国有银行及国际卡组织进行合作，探索Token和信用卡积分相互流通的全新金融范式。消费积分可兑换算力额度，持卡人也可以优先内测最新模型。</p>\n  <p><strong>腾讯云:下调MiniMax-M3与Hy-MT2-Pro模型价格</strong></p>\n  <p>36氪获悉，腾讯云公告，大模型服务平台TokenHub将于北京时间2026年6月15日起下调MiniMax-M3模型价格，推理输入、推理输出及缓存命中费用均下调50%。大模型服务平台TokenHub将于北京时间2026年6月12日起下调Hy-MT2-Pro模型价格，输入价格下调66.67%、输出价格下调55.56%。</p>\n  <h2><strong>大公司/大事件</strong></h2>\n  <p><strong>阿里拟出资15亿美元竞购中国生鲜电商“朴朴超市”</strong></p>\n  <p>阿里巴巴正出资15亿美元收购中国生鲜外卖平台“朴朴超市”。知情人士透露，阿里提出的这一价格是此前高鑫零售报价的两倍多。（新浪财经）</p>\n  <p><strong>韩美半导体将使用500亿韩元投资于SpaceX</strong></p>\n  <p>据公司声明，韩美半导体将花费500亿韩元购买SpaceX的股份。这项投资是一项提前布局的战略举措，其驱动力是SpaceX的增长和Terafab项目。（新浪财经）</p>\n  <p><strong>“滴滴出行”改名“滴滴”</strong></p>\n  <p>6月12日上午9点，界面新闻搜索苹果软件App获悉，滴滴出行App 8.0版本11日已正式上线，App名称从“滴滴出行”正式更名为���滴滴”。据滴滴官方介绍，更新后的App页面结构全面升级，新增顶部导航栏，底部新增“消息”、“行程”入口，覆盖出行、送货、旅行、车主等多重使用场景，操作更顺畅。用户可通过语音使用AI打车，“送货”整合了大件送货、快送跑腿、搬家等服务，“旅行”提供租车、机票、酒店、火车票预订及“滴滴私家团”旅游服务。（界面新闻）</p>\n  <p><strong>恒生港美科技指数将纳入SpaceX</strong></p>\n  <p>恒生指数公司6月12日公告，SpaceX于2026年6月12日上市。因此，恒生港美科技指数的编算方法将新增太空探索技术公司（「SpaceX」，股票代号：SPCX.O）至指定美国成分股名单（目前：科技七巨头）。8只美国上市成分股的比重将于2026年6月23日（SpaceX的第7个交易日）收市后重新计算至等权重，新增成分股和更新后的成分股比重将于2026年6月29日（SpaceX的第11个交易日）生效。（界面新闻）</p>\n  <p><strong>SK海力士回应本月发生第二起火灾</strong></p>\n  <p>当地时间6月12日上午9点50分左右，SK海力士清州四号园区M15X二楼的燃气房发生火灾。这是本月发生的第二起火灾事故。据报道，目前尚未发生气体泄漏或人员伤亡。由于工厂内部安装的自动喷水灭火系统立即启动，火势并未迅速蔓延。对于最新情况和影响，SK海力士方面向记者表示，已完成初步控制，正调查具体情况。目前生产设备运行正常。（财联社、证券时报）</p>\n  <p><strong>按姓氏笔画排列、不得单独署艺名，三协会发文整治演员署名“撕番”乱象</strong></p>\n  <p>6月12日，三协会发步通知规范电视剧演员署名。《通知》明确，演员署名实行分类管理，应根据角色性质、戏份体量及实际参与情况，规范使用“领衔主演”“特别出演”“出演”三类头衔，不得随意修改、增加其他名目。需说明的是，上述类别仅适用于有明确角色对应关系的演员。《通知》强调，在分类的基础上，演员署名按照法定姓名的姓氏笔画由少至多排列（复姓按首字笔画计算，少数民族按身份证登记姓名的首个汉字笔画计算）。如笔画相同，则依次比较姓名第二个字、第三个字的笔画，直至形成唯一排序。（央视新闻）</p>\n  <p><strong>燃料涨价推高韩国海鲜价格</strong></p>\n  <p>受霍尔木兹海峡航运受阻带来的油价走高以及气候变化等因素影响，韩国海鲜价格近来显著上涨，渔业经营面临严峻挑战。《韩国商业电讯》6月11日报道，首尔鹭梁津水产市场数据显示，5月最后一周，多种热门海鲜产品的拍卖价格大幅上涨。帝王蟹价格较前一周飙升56.4%，带鱼价格上涨29.1%，雪蟹和八爪鱼的价格分别上涨了28.2%和24.7%。能制作生鱼片的鱼类价格也有显著涨幅。野生比目鱼价格上涨超过30%，养殖比目鱼、野生海鲈鱼和养殖真鲷的价格涨幅均达两位数。（新华社）</p>\n  <p><strong>OpenAI CEO奥特曼推迟访韩计划</strong></p>\n  <p>据报道，OpenAI首席执行官山姆·奥特曼因个人原因推迟访韩计划。奥特曼原定于14日至15日访韩，会见三星电子、Kakao、NAVER等企业负责人。（界面新闻）</p>\n  <p><strong>杭州小龙虾降价超50%</strong></p>\n  <p>进入6月，湖北潜江小龙虾供货量逐渐减少，在走访时发现，目前杭州市场上的小龙虾已经完成了产地轮换，江苏、安徽和浙江本地产的小龙虾增多，货源充足，小龙虾价格也大幅回落，不少市民直呼实现了“小龙虾自由”。目前中青规格小龙虾的批发价每斤12元，大青规格小龙虾每斤16元，跟今年二三月份刚上市时的价格相比，降幅均超过50%。此外，广阔的海外市场，为小龙虾打开了利润增长空间。今年，多地小龙虾出口量与货值双双攀升，远销欧美及东南亚。（央视财经）</p>\n  <p><strong>长江证券：陈佳辞任副董事长</strong></p>\n  <p>36氪获悉，长江证券公告，公司董事会收到副董事长陈佳的书面辞职报告，因个人原因，陈佳申请辞去公司董事、副董事长等职务。陈佳的辞职报告自送达董事会时即生效，辞职后将不再担任公司任何职务。</p>\n  <p><strong>金价连跌，批发商集中补货</strong></p>\n  <p>自年初创下历史新高后，国际金价最近几天连续多个交易日持续下行，国内金饰价格也大幅下跌。工作日的下午3点，深圳水贝各大黄金柜台前依然聚集了不少消费者。央视财经记者走访中发现，对于有婚庆等刚需的消费者来说，金价下跌带来的吸引力尤为明显。多家门店销售人员表示，本周来水贝的消费者明显增加。随着金价回调，不少此前持观望态度的批发商也开始集中补货，采购活跃度明显回升。此外，在北京市西城区一家黄金销售门店，投资金柜台前人头攒动，金条的结账柜台前排起了长队。记者走访发现，近期，多数新增投资者主要看好金价未来走势与黄金长期投资价值，在金价回落时点选择逢低小额度购入。（央视财经）</p>\n  <p><strong>现代汽车工会称薪资谈判未达协议，25日将投票决定是否罢工</strong></p>\n  <p>据报道，现代汽车工会6月12日称薪资谈判未达成协议，将于25日投票决定是否罢工。（界面新闻）</p>\n  <h2><strong>上市进行时</strong></h2>\n  <p><strong>众擎机器人据悉将向港交所提交IPO申请</strong></p>\n  <p>众擎机器人据悉将向港交所提交IPO申请。（新浪财经）</p>\n  <p><strong>长鑫科技集团股份有限公司IPO审核状态变更为注册生效</strong></p>\n  <p>36氪获悉，据上交所官网显示，长鑫科技集团股份有限公司IPO审核状态变更为注册生效。</p>\n  <p><strong>沐曦股份：筹划发行H股股票并在香港联合交易所有限公司上市</strong></p>\n  <p>36氪获悉，沐曦股份公告，为满足公司业务发展的需要，进一步提升公司治理水平和核心竞争力，深入推进公司全球化战略，公司拟发行境外上市外资股（H股）股票并申请在香港联合交易所有限公司（以下简称“香港联交所”）主板挂牌上市（以下简称“本次发行并上市”或“本次发行”）。公司将充分考虑现有股东的利益和境内外资本市场的情况，在股东会决议有效期内（即自公司股东会审议通过之日起24个月内）或股东同意延长的其他期限内选择适当的时机和发行窗口完成本次发行并上市。</p>\n  <p><strong>江苏贝尔家居科技股份有限公司向港交所提交上市申请书</strong></p>\n  <p>36氪获悉，据港交所文件，江苏贝尔家居科技股份有限公司向港交所提交上市申请书。</p>\n  <h2><strong>投融资</strong></h2>\n  <p><strong>AI机器人企业Theker获路威酩轩等投资方8500万美元融资</strong></p>\n  <p>总部位于巴塞罗那的人工智能机器人企业Theker于6月11日宣布完成一轮总额8500万美元的融资。Theker表示，公司研发搭载人工智能技术的机器人，可在工业场景中完成各类作业。本轮融资由风投公司CRV领投，三星、路威酩轩集团等机构参与投资。（新浪财经）</p>\n  <p><strong>“力普司LiiPuS”连续完成种子轮及天使轮融资，总额达数千万元</strong></p>\n  <p>36氪获悉，“力普司LiiPuS”近期连续完成种子轮及天使轮融资，总额达数千万元。其中，种子轮由江苏金桥基金独家投资，天使轮由云时资本独家投资。本轮资金将主要用于高端船舶综合电力推进系统及产品的样机测试、持续改进及小批量交付，加速国产高端推进系统在港口拖轮、海工船、豪华游艇等场景的规模化应用。</p>\n  <p><strong>“星能玄光”连续完成A系列两轮融资</strong></p>\n  <p>36氪获悉，可控核聚变FRC技术路线企业“星能玄光”近日连续完成A系列两轮融资，金额五亿元，此次融资将用于继续提升和推进高性能FRC装置的参数。</p>\n  <p><strong>“碳生万物”完成A轮融资</strong></p>\n  <p>36氪获悉，据高榕创投消息，近日，“碳生万物”宣布完成A轮融资。本轮融资由黄河三角洲投资、高榕创投和博远资本共同领投，同时引入宁德时代、阳光电源、倚锋资本等新股东，多家老股东持续跟投。本轮融资资金将用于公司宁夏千吨级DAC（直接空气碳捕集）制备e-SAF（可持续航空燃油）项目建设、工艺放大、核心技术迭代及全球顶尖人才引进。</p>\n  <h2><strong>酷产品</strong></h2>\n  <p><strong>晶核能源发布全球首款专为机器人场景定制的高性能固态电池</strong></p>\n  <p>36氪获悉，近日，上海FINE 2026未来产业新材料博览会启幕，晶核能源携全球首款专为机器人场景定制的高性能固态电池首发，并获“2026固态电池领军金球奖”。</p>\n  <h2><strong>AI图谱</strong></h2>\n  <p><strong>AI图谱，带你解读最新最快的AI资讯。</strong>55岁的马斯克很缺钱？SpaceX上市背后的三个真相。</p>\n  <p class=\"editor-note\"><strong>整理</strong>｜Kris</p>",
+      "published": "2026-06-13T09:01:24+08:00",
+      "fetched_at": "2026-06-13T12:02:49.782041+08:00",
+      "pre_filter_reason": "包含AI原生信用卡、Kimi与银行合作等AI内容",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 9,
+        "crowd_heat": 10.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "news_roundup",
+          "title": "今日科技速览：SpaceX市值破2.1万亿、AI信用卡来了",
+          "angle": "快速盘点当日最热科技新闻，包括SpaceX市值新高、全球首张AI原生信用卡、金价波动等，适合碎片时间观看。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "马斯克身家达巴菲特7倍：科技财富新格局解读",
+          "angle": "分析SpaceX市值暴涨对马斯克个人财富的影响，并与传统投资巨头巴菲特对比，探讨科技驱动财富增长的新模式。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "0ac4033463a6",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "网传阿里合伙人周靖人拟离职，刚出任阿里首席科学家6天",
+      "link": "https://36kr.com/newsflashes/3851006669427716?f=rss",
+      "summary": "据报道，阿里合伙人周靖人近日已提交离职申请。对于前述消息，截至发稿阿里方面并未回应媒体问询。值得注意的是，6月8日，阿里刚宣布周���人出任阿里巴巴首席科学家，牵头成立阿里巴巴AI未来研究院，专注前沿AI科技的探索与突破。与此同时，阿里也宣布合并通义大模型事业部和未来生活实验室，成立Token Foundry事业部，由集团 CEO吴泳铭直接负责。刚出任阿里巴巴首席科学家6天便传出离职消息，此举被业内解读为明升暗降，不再有任何实权和具体业务。（新浪科技）",
+      "published": "2026-06-13T10:46:33+08:00",
+      "fetched_at": "2026-06-13T12:02:49.782153+08:00",
+      "pre_filter_reason": "涉及阿里AI首席科学家和AI未来研究院",
+      "scores": {
+        "importance": 7,
         "timeliness": 9,
         "actionability": 8,
         "scarcity": 8,
         "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 8.2,
+      "quality_score": 7.6,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "OpenAI收购Ona：Codex如何变身企业级AI代理？",
-          "angle": "解析OpenAI收购Ona的战略意义，重点介绍Codex如何通过安全持久云环境支持长期运行的AI代理，并演示企业工作流中的实际应用场景。",
-          "difficulty": "中级"
+          "title": "阿里高管离职背后：如何看懂科技公司的“明升暗降”",
+          "angle": "解读“明升暗降”的职场信号，分析阿里组织架构调整（成立Token Foundry）对AI业务的影响，帮助观众理解大厂内部权力博弈。",
+          "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "OpenAI收购Ona：AI代理进入企业级持久化时代",
-          "angle": "从技术趋势角度分析此次收购对AI代理生态的影响，探讨安全、持久化云环境如何改变企业自动化流程，以及未来AI代理的演进方向。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "7e56e13b4def",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "OpenAI秘密递表！三巨头一起“抢钱”：AI史上最贵一轮融资要来了",
-      "link": "https://www.infoq.cn/article/wNJsVd21BshslzNoUXqr?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/wNJsVd21BshslzNoUXqr?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-06-12T02:57:28+08:00",
-      "fetched_at": "2026-06-12T12:15:10.457507+08:00",
-      "pre_filter_reason": "OpenAI funding round news",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.1,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "OpenAI秘密递表：AI史上最贵融资要来了？",
-          "angle": "解读OpenAI秘密提交IPO文件背后的战略意图，分析三巨头联合融资对AI行业格局的潜在影响，以及投资者为何愿意押注天价估值。",
+          "tag": "tutorial",
+          "title": "阿里AI未来研究院6天就换帅？一文看懂大模型组织变革逻辑",
+          "angle": "从周靖人事件切入，梳理阿里通义大模型与未来生活实验室合并的逻辑，解释为何大厂频繁调整AI部门架构。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "d3f58f84884d",
-      "source_id": "qbitai",
-      "source_name": "量子位",
+      "id": "a33e843884d4",
+      "source_id": "36kr",
+      "source_name": "36氪",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "3D创作迎来ChatGPT时刻：Meshy发布全球首个3D AI Agent",
-      "link": "https://www.qbitai.com/2026/06/434317.html",
-      "summary": "Meshy发布全球首个3D AI Agent",
-      "published": "2026-06-11T12:18:34+08:00",
-      "fetched_at": "2026-06-12T12:15:12.375877+08:00",
-      "pre_filter_reason": "3D AI Agent，涉及AI产品",
+      "title": "氪星晚报｜SpaceX确定发行价，募资750亿美元创史上最大IPO；OpenAI CEO奥特曼推迟访韩计划；中央网信办举报中心开设“涉AI应用乱象举报专区”",
+      "link": "https://36kr.com/p/3849942472512769?f=rss",
+      "summary": "<h2><strong>大公司：</strong></h2>\n  <p><a href=\"https://36kr.com/newsflashes/3849894508041220\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>OpenAI CEO奥特曼推迟访韩计划</strong></a></p>\n  <p>据报道，OpenAI首席执行官山姆·奥特曼因个人原因推迟访韩计划。奥特曼原定于14日至15日访韩，会见三星电子、Kakao、NAVER等企业负责人。</p>\n  <p><a href=\"https://36kr.com/newsflashes/3849421770658823\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>Alphabet旗下自动驾驶公司Waymo将推出30美元月费会员计划</strong></a></p>\n  <p>当地时间6月11日，Alphabet旗下自动驾驶公司Waymo宣布，将推出仅限受邀用户参与的Waymo Premier30美元月费会员计划，会员可享受优先接送、每次行程10%的乘车返现（以乘车积分形式返还）、在新城市优先体验Waymo服务以及每月最多五次免费取消行程等权益。Waymo表示，最初将通过应用程序和电子邮件向美国旧金山、洛杉矶和凤凰城的数万名符合条件的乘客发送邀请，计划最终将会员计划推广到Waymo应用程序已覆盖的其他城市。</p>\n  <p><a href=\"https://36kr.com/newsflashes/3849477119939840\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>SK海力士考虑引入ChatGPT等外部人工智能服务</strong></a></p>\n  <p>据业内人士周五透露，继三星电子之后，SK海力士也在考虑更广泛地采用人工智能（AI）技术来改变其工作流程。消息人士称，SK海力士CEO郭鲁正周四在一次会议上表示，该公司正寻求在保护工业技术和扩大人工智能应用之间取得平衡，同时也在评估引入外部生成式AI模型的可能性。郭鲁正表示：“我们正在考虑采用Microsoft 365和CoPilot，同时也在从安全性和系统架构的角度评估ChatGPT在公司内部的潜在应用。”</p>\n  <p><a href=\"https://36kr.com/newsflashes/3849778096198656\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>华尔街大行限制对冲基金对SK海力士和三星等亚洲芯片股的做多杠杆</strong></a></p>\n  <p>据知情人士透露，全球银行正在限制对冲基金对亚洲顶级芯片制造商（包括SK海力士和三星电子）的杠杆押注，此前今年以来的猛烈上涨引发了可能回调的担忧。知情人士表示，包括花旗集团、摩根大通和高盛在内的经纪商已经提高了对冲基金通过掉期方式押注SK海力士和三星电子股票的融资成本。银行收紧了新交易的规模以及向哪些公司提供交易，有些银行甚至拒绝客户提出的新掉期交易请求，或根据具体情况进行评估。针对台积电，银行也采取了类似措施。</p>\n  <p><a href=\"https://36kr.com/newsflashes/3849744240989442\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>谷歌宣布追加投入5000万美元培训美国技工，以满足AI基础设施建设需求</strong></a></p>\n  <p>随着人工智能的蓬勃发展，对数据中心和基础设施的需求空前高涨，Alphabet旗下的谷歌正在加大对美国技术工人队伍的投资。当地时间周四，Alphabet首席执行官桑达尔·皮查伊宣布，谷歌将追加投资5000万美元，帮助美国20多个州的30多万美国人做好从事技术行业职业的准备。据谷歌称，这项新的投入是其更大规模计划的一部分。自2022年以来，该公司已在全球范围内投入超过10亿美元用于培训和技能提升项目，帮助超过1亿人掌握数字和人工智能相关技能。</p>\n  <p><a href=\"https://36kr.com/newsflashes/3849684512019457\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>SK海力士回应厂区火灾：已初步控制，生产设备运行正常</strong></a></p>\n  <p>6月12日，消息显示韩国SK海力士清州第四园区爆发火情。对于最新情况和影响，SK海力士方面向记者表示，已完成初步控制，正调查具体情况。目前生产设备运行正常。</p>\n  <h2><strong>新产品：</strong></h2>\n  <p><a href=\"https://36kr.com/newsflashes/3849592681895176\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>晶核能源发布全球首款专为机器人场景定制的高性能固态电池</strong></a></p>\n  <p>36氪获悉，近日，上海FINE 2026未来产业新材料博览会启幕，晶核能源携全球首款专为机器人场景定制的高性能固态电池首发，并获 “2026固态电池领军金球奖”。</p>\n  <h2><strong>投融资：</strong></h2>\n  <p><a href=\"https://36kr.com/newsflashes/3849759679436038\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>“碳生万物”完成A轮融资</strong></a></p>\n  <p>36氪获悉，据高榕创投消息，近日，“碳生万物”宣布完成A轮融资。本轮融资由黄河三角洲投资、高榕创投和博远资本共同领投，同时引入宁德时代、阳光电源、倚锋资本等新股东，多家老股东持续跟投。&nbsp;本轮融资资金将用于公司宁夏千吨级DAC（直接空气碳捕集）制备e-SAF（可持续航空燃油）项目建设、工艺放大、核心技术迭代及全球顶尖人才引进。</p>\n  <p><a href=\"https://36kr.com/newsflashes/3849378031899913\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>SpaceX确定发行价，募资750亿美元创史上最大IPO</strong></a></p>\n  <p>根据SpaceX周四在官网发布的声明，公司此次IPO发行5.556亿股，发行价为每股135美元，募资总额达750亿美元。SpaceX此次IPO募资规模是沙特阿美2019年创下的294亿美元上市纪录的逾两倍。声明显示，SpaceX还授予承销银行超额配售权，可按发行价额外购买8330万股股票。若该权利全部行使，IPO融资规模将增至约860亿美元。</p>\n  <h2><strong>今日观点：</strong></h2>\n  <p><a href=\"https://36kr.com/newsflashes/3849754408326150\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>欧洲央行管委内格尔：如有必要将于7月再次加息</strong></a></p>\n  <p>据报道，欧洲央行管委内格尔表示，欧洲央行将在7月保持所有选项的开放性，一旦需要，随时准备再次作出响应。</p>\n  <h2><strong>其他值得关注的新闻：</strong></h2>\n  <p><a href=\"https://36kr.com/newsflashes/3849870270256390\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>“词元（Token）云服务提质赋能评估计划” 正式启动</strong></a></p>\n  <p>36氪获悉，中国信息通信研究院以“可信词元（Token）云服务”为主题，于2026年6月10日组织开展了研讨会。中国工程院院士郑纬民、中国信通院总工程师何宝宏、中国信通院云计算与数字化研究所副所长（主持工作）栗蔚出席并发言。会上，中国信通院联合天翼云、阿里云、华为云、京东云、联想、阶跃星辰、金山办公、清程极智等十余家企业，发起了“词元（Token）云服务提质赋能评估计划”并发布多项成果。</p>\n  <p><a href=\"https://36kr.com/newsflashes/3849819407127559\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>中央网信办举报中心开设“涉AI应用乱象举报专区”</strong></a></p>\n  <p>36氪获悉，为配合“清朗·整治AI应用乱象”专项行动，进一步规范AI服务和应用，促进行业健康有序发展，切实保障公民合法权益，中央网信办举报中心自2026年6月起开设“涉AI应用乱象举报专区”，专项受理公众举报。受理范围主要包括生成合成内容标识落实不到位、制作发布虚假不实和暴力低俗信息等14类问题。</p>\n  <p><a href=\"https://36kr.com/newsflashes/3849556520244481\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>全国最大半潜式综合性网箱养殖平台将投产</strong></a></p>\n  <p>今天（12日）下午，全国规模最大的半潜式综合性网箱养殖平台将在海南三亚正式投产，并投放首批鱼苗。该平台的养殖水体总量达到6.4万立方米，相当于约20个标准奥运游泳池的水量。全年可以产出800万斤鱼，同时还可以发展休闲渔业和垂钓观光等农旅融合新业态。</p>",
+      "published": "2026-06-12T21:15:02+08:00",
+      "fetched_at": "2026-06-13T12:02:49.782051+08:00",
+      "pre_filter_reason": "Mentions OpenAI CEO and '涉AI应用乱象举报专区' (AI-related reporting zone).",
       "scores": {
         "importance": 8,
         "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 9,
+        "actionability": 8,
+        "scarcity": 7,
         "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 8.0,
+      "quality_score": 7.6,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "Meshy发布全球首个3D AI Agent：3D创作迎来ChatGPT时刻",
-          "angle": "演示如何使用Meshy的3D AI Agent快速生成3D模型，从文本描述到3D资产的全流程操作，展示其与传统3D建模工具的对比优势。",
+          "title": "SpaceX史上最大IPO来了！750亿美元募资意味着什么？",
+          "angle": "拆解SpaceX发行价与募资规模，对比特斯拉等科技公司IPO历史，分析商业航天赛道估值逻辑与投资机会。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "3D创作ChatGPT时刻：Meshy AI Agent如何颠覆行业？",
-          "angle": "分析Meshy 3D AI Agent的技术突破，探讨其对游戏、影视、电商等行业的变革潜力，以及AI Agent在3D内容生成领域的未来发展方向。",
-          "difficulty": "中级"
+          "tag": "tutorial",
+          "title": "AI应用乱象频发？中央网信办举报专区上线，教你如何维权",
+          "angle": "结合“AI换脸诈骗”“虚假生成内容”等案例，介绍举报专区使用方法，提供普通人识别和应对AI乱象的实用指南。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "c4c26a797e52",
+      "id": "03f9d51006a6",
+      "source_id": "ifanr",
+      "source_name": "爱范儿",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "华为发布鸿蒙 7：AI 时代，追赶者正在反超",
+      "link": "https://www.ifanr.com/1668803?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "鸿蒙的下一步，走自己的路<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
+      "published": "2026-06-12T18:51:40+08:00",
+      "fetched_at": "2026-06-13T12:02:59.618821+08:00",
+      "pre_filter_reason": "Title explicitly mentions 'AI 时代' (AI era) and HarmonyOS AI features.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "鸿蒙7发布：AI时代，华为如何用“自己的路”反超？",
+          "angle": "对比鸿蒙7与安卓/iOS的AI能力差异，解析华为端侧AI、分布式架构等核心技术，展示国产OS在AI时代的差异化优势。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "从追赶者到领跑者：鸿蒙7的AI生态布局全解析",
+          "angle": "梳理鸿蒙7的AI开发工具、合作伙伴生态，以及面向开发者的新能力，帮助技术从业者理解如何切入鸿蒙AI应用开发。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "f5b939efcb67",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "生成预测四大权威榜单第一！开悟世界模型确立具身智能世界模型新标杆",
+      "link": "https://www.leiphone.com/category/ai/G88m8g2T61aivI2F.html",
+      "summary": "<p style=\"text-align: left;\">近日，大晓机器人开悟世界模型（Kairos）同时在 RoboTwin 2.0、LIBERO-Plus、WorldModelBench Robot、DreamGen等全球针对世界模型视频生成和状态预测的权威具身智能评测中均实现第一，超越 Cosmos3、PI、MotuBrain、being-H0.7、Abot、Fast-WAM、Wan2.2等全球主流世界模型 。凭借首创的原生统一世界模型架构——“多模态理解—生成—预测”一体化架构，实现了从具身视频生成、任务指令追随、泛化能力到场景鲁棒性的全维度领先，并向全行业开源。</p><p style=\"text-align: left;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260612/6a2b987d25620.png?imageView2/2/w/740\" />&nbsp;<span style=\"text-align: left;\">针对行业普遍基于视频生成模型做后训练所固有的物理缺失、因果匮乏与推理延迟等痛点，大晓机器人（ACE ROBOTICS）于2025年12月重磅推出创新的一体化统一架构。作为国内唯一坚持自主设计网络架构与自主预训练范式的团队，大晓彻底摒弃了“外挂式”改良捷径，从底层重构世界模型运行逻辑。该架构深度融合理解、生成与预测三大核心能力，依托自研混合线性注意力算子与全局状态共享机制实现全链路高效协同。这一颠覆性设计确立了全球主流演进方向，英伟达最新发布的Cosmos 3.0亦采用同源架构，印证了Kairos的绝对引领地位。</span></p><p style=\"text-align: left;\">在数据层面，得益于完全自主的预训练范式，Kairos广泛汇聚十余万小时human-centric实景数据与数百万小时互联网真实世界视频，全面覆盖数百类职业场景。结合显式模仿学习与隐空间强化学习，模型彻底打通了从数据感知到深度理解的闭环，使基模型的场景认知、时序因果推演与泛化适配取得全方位突破。这不仅夯实了具身智能落地的底层基座，更为世界模型数据层面的尺度定律探索做出了重要贡献。</p><p style=\"text-align: left;\">凭借领先架构与海量高质量数据，Kairos兼具强劲物理直觉、顶尖泛化能力与极致鲁棒性。基于此打造的Kairos-4B成为全球首款可端侧直驱机器人本体的具身世界模型，成功打通世界理解与状态预测的端到端闭环，消除中间转译延迟，让机器人真正实现“想到即做到”。这一里程碑式突破大幅提升了实时响应与作业精度，为具身智能的商业化落地开辟了全新路径。</p><p style=\"text-align: left;\">登顶RoboTwin 2.0，复杂双臂操作能力获权威验证</p><p style=\"text-align: left;\">在全球最具挑战性的双臂机器人操作评测基准 RoboTwin 2.0 中，Kairos 以 96.1% 的平均成功率位列所有参评方法第一，刷新当前最好成绩，并显著领先传统 VLA 模型，展现出在复杂双臂协作、精细操作与多任务泛化场景中的领先能力。</p>",
+      "published": "2026-06-12T13:27:00+08:00",
+      "fetched_at": "2026-06-13T12:02:54.874302+08:00",
+      "pre_filter_reason": "World model for embodied AI, generative prediction",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "四大权威榜单第一！开悟世界模型凭什么成为具身智能新标杆？",
+          "angle": "对比开悟Kairos与Cosmos3、PI等主流模型在视频生成、任务预测上的性能差异，解析“多模态理解-生成-预测”一体化架构的核心创新。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "开源世界模型来了：如何用开悟Kairos搭建你的具身智能应用？",
+          "angle": "面向开发者，介绍开悟Kairos的开源资源、部署步骤与典型应用场景（如机器人任务规划、仿真测试），降低入门门槛。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "376438d2696e",
       "source_id": "github-trending",
       "source_name": "GitHub Trending",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "x1xhlol /system-prompts-and-models-of-ai-tools",
-      "link": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-      "summary": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-      "published": "2026-06-12T12:15:24.520578+08:00",
-      "fetched_at": "2026-06-12T12:15:24.520580+08:00",
-      "pre_filter_reason": "System prompts for multiple AI coding tools",
+      "title": "maziyarpanahi /openmed",
+      "link": "https://github.com/maziyarpanahi/openmed",
+      "summary": "open-source healthcare ai",
+      "published": "2026-06-13T12:03:14.542743+08:00",
+      "fetched_at": "2026-06-13T12:03:14.542745+08:00",
+      "pre_filter_reason": "Open-source healthcare AI.",
       "scores": {
         "importance": 8,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 9,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "AI工具系统提示词大揭秘：如何利用开源提示词提升效率？",
-          "angle": "从x1xhlol收集的AI工具系统提示词库出发，选取Cursor、Claude Code等热门工具，讲解如何通过修改系统提示词定制AI助手行为，提升开发效率。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "list",
-          "title": "2025年最值得收藏的AI工具系统提示词合集",
-          "angle": "盘点x1xhlol整理的20+款AI工具的系统提示词，分类介绍每个工具的特点和适用场景，帮助开发者快速选择最适合自己的AI编码助手。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "1655a821cd86",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "search",
-      "title": "OpenAI拟大幅降价迎战Anthropic，AI大模型价格战或一触即发 - 白鲸出海",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBObEh0T2lIYTIyek5RUWFNdHBPdXF5UXJQNE4xQWdPaGRyQWVNTE1ITkd6OXVudnRMOTBOXy0yeTNEUF9TNlI5b2t2c1c?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiTEFVX3lxTFBObEh0T2lIYTIyek5RUWFNdHBPdXF5UXJQNE4xQWdPaGRyQWVNTE1ITkd6OXVudnRMOTBOXy0yeTNEUF9TNlI5b2t2c1c?oc=5\" target=\"_blank\">OpenAI拟大幅降价迎战Anthropic，AI大模型价格战或一触即发</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">白鲸出海</font>",
-      "published": "2026-06-12T10:14:17+08:00",
-      "fetched_at": "2026-06-12T12:15:22.061971+08:00",
-      "pre_filter_reason": "AI model pricing competition between OpenAI and Anthropic",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "OpenAI拟大幅降价迎战Anthropic：AI大模型价格战一触即发",
-          "angle": "分析OpenAI降价策略背后的竞争逻辑，对比OpenAI与Anthropic的定价模型和性能差异，探讨价格战对AI应用开发者和企业用户的利弊。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "AI大模型降价潮来了：如何选择性价比最高的模型？",
-          "angle": "结合OpenAI降价消息，提供一份实用的AI模型选择指南，从任务类型、预算、性能需求等维度对比主流大模型，帮助用户做出最优决策。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "e172b66f5ceb",
-      "source_id": "hn-ai",
-      "source_name": "Hacker News (AI)",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "Claude Fable is relentlessly proactive",
-      "link": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
-      "summary": "<p>Article URL: <a href=\"https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/\">https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48498573\">https://news.ycombinator.com/item?id=48498573</a></p>\n<p>Points: 200</p>\n<p># Comments: 160</p>",
-      "published": "2026-06-12T09:06:51+08:00",
-      "fetched_at": "2026-06-12T12:15:22.496234+08:00",
-      "pre_filter_reason": "Claude Fable is an AI model",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Claude Fable 主动出击：AI 如何从“被动回答”变成“主动行动”",
-          "angle": "拆解 Claude Fable 的“主动”特性，通过实际案例展示它如何自动执行任务、发起对话，并对比传统 AI 助手的被动模式，帮助用户理解这一突破性能力。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "AI 自主时代来了？Claude Fable 的“主动”能力意味着什么",
-          "angle": "从技术趋势和行业影响角度，分析 Claude Fable 的主动性如何改变人机协作模式，探讨其对生产力、隐私和 AI 伦理的潜在影响。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "5a12d73d218b",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "search",
-      "title": "A股收盘后，人工智能，AI大模型重磅利好消息出来了村里要把AI训练用的数据规则理顺，既防数据泄露，又让企业能合法拿到高质量数据来做大模型，数据要安全、也要好用。​字节、阿里、腾讯、DeepSeek等，以后拿数据有章可循、合法合规、成本下降，不用再“偷偷爬、 - 手机新浪网",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rNDh5cEhpUlJUN29tMGUzdEpxYnJHWEt1RXhFUWI2aDIyTXBHU01yc1JDLU85V3Y2OXY5VUs2cWRVemtNSEI4S0dOYnBvdFZJWmRrNlhTZERlOE9OUWMzUzVQWQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rNDh5cEhpUlJUN29tMGUzdEpxYnJHWEt1RXhFUWI2aDIyTXBHU01yc1JDLU85V3Y2OXY5VUs2cWRVemtNSEI4S0dOYnBvdFZJWmRrNlhTZERlOE9OUWMzUzVQWQ?oc=5\" target=\"_blank\">A股收盘后，人工智能，AI大模型重磅利好消息出来了村里要把AI训练用的数据规则理顺，既防数据泄露，又让企业能合法拿到高质量数据来做大模型，数据要安全、也要好用。​字节、阿里、腾讯、DeepSeek等，以后拿数据有章可循、合法合规、成本下降，不用再“偷偷爬、</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">手机新浪网</font>",
-      "published": "2026-06-12T00:50:00+08:00",
-      "fetched_at": "2026-06-12T12:15:22.061886+08:00",
-      "pre_filter_reason": "Explicitly mentions AI, AI大模型, and data rules for AI training.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "AI 训练数据新规解读：企业如何合法获取高质量数据？",
-          "angle": "以字节、阿里、腾讯等大厂为例，解释新规如何平衡数据安全与可用性，并给出企业合规获取训练数据的实操步骤。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "analysis",
-          "title": "重磅利好！中国 AI 数据规则落地，大模型行业迎来哪些变局？",
-          "angle": "分析政策对 AI 产业链的影响：数据成本下降、合规门槛降低、中小企业受益，以及数据安全与创新之间的新平衡。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "5d1143595a33",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Fable 5自带反蒸馏机制！检测到就降智，误触率高到离谱",
-      "link": "https://www.qbitai.com/2026/06/434326.html",
-      "summary": "Claude刚刚发布的新模型Fable 5，很多人可能压根就用不上！",
-      "published": "2026-06-11T12:16:20+08:00",
-      "fetched_at": "2026-06-12T12:15:12.375902+08:00",
-      "pre_filter_reason": "新模型Fable 5，涉及AI产品",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Fable 5 反蒸馏机制揭秘：为什么你的模型可能会“降智”？",
-          "angle": "通俗解释反蒸馏机制的原理，展示误触发的常见场景，并提供用户避免误判的实用技巧。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "误触率高到离谱！Fable 5 反蒸馏是保护还是枷锁？",
-          "angle": "探讨反蒸馏机制的设计初衷（防模型窃取）与实际使用中的痛点，分析 Anthropic 在安全与可用性之间的权衡。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "a9aa2c967f05",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "BBVA puts AI at the core of banking with OpenAI",
-      "link": "https://openai.com/index/bbva",
-      "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-      "published": "2026-06-11T08:00:00+08:00",
-      "fetched_at": "2026-06-12T12:14:52.966824+08:00",
-      "pre_filter_reason": "AI model news and partnership with OpenAI",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 6,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "银行如何用 AI 重塑服务？BBVA 与 OpenAI 的 10 万人实践",
-          "angle": "以 BBVA 银行为例，展示 ChatGPT Enterprise 在客服、风控、内部效率提升等场景的具体应用，提供金融行业 AI 落地的参考框架。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "analysis",
-          "title": "AI 成为银行核心：BBVA 与 OpenAI 合作背后的行业信号",
-          "angle": "分析传统银行全面拥抱 AI 的战略意义，探讨 AI 如何从辅助工具升级为核心业务引擎，以及对金融科技竞争格局的影响。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "f10fad3d6fa4",
-      "source_id": "hn-ai",
-      "source_name": "Hacker News (AI)",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "Anthropic apologizes for invisible Claude Fable guardrails",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
-      "summary": "<p><a href=\"https://web.archive.org/web/20260611122253/https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail\" rel=\"nofollow\">https://web.archive.org/web/20260611122253/https://www.theve...</a>, <a href=\"https://archive.ph/y4V4k\" rel=\"nofollow\">https://archive.ph/y4V4k</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48489229\">https://news.ycombinator.com/item?id=48489229</a></p>\n<p>Points: 347</p>\n<p># Comments: 345</p>",
-      "published": "2026-06-11T20:05:02+08:00",
-      "fetched_at": "2026-06-12T12:15:22.496280+08:00",
-      "pre_filter_reason": "Anthropic AI guardrails, AI policy/ethics",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "看不见的护栏：Claude Fable 的隐形限制如何影响你的使用？",
-          "angle": "揭示 Claude Fable 中隐藏的 guardrails 机制，通过具体案例展示它何时触发、如何影响输出，并给出用户应对策略。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "Anthropic 道歉了！Claude Fable 隐形护栏事件背后的 AI 透明度之争",
-          "angle": "从 Anthropic 的道歉出发，讨论 AI 公司是否应该公开所有安全机制，以及隐形护栏对用户信任和模型可用性的长期影响。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "0ff41c6dff22",
-      "source_id": "reddit-ml",
-      "source_name": "Reddit r/MachineLearning",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "Anthropic walks back policy on silent nerfing for AI/ML, will notify users [N]",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1u2tk0i/anthropic_walks_back_policy_on_silent_nerfing_for/",
-      "summary": "<!-- SC_OFF --><div class=\"md\"><p>From Wired:</p> <blockquote> <p>“We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.” Anthropic said in a statement to WIRED. “We made the wrong tradeoff and we apologize for not getting the balance right.”</p> <p>Anthropic now says it’s changing course, and that Claude Fable 5’s safeguards for AI development will be visible to users. If the company suspects a user is trying to use Claude to build a highly capable AI it will alert them that it’s either refusing the request, or rerouting the user to a less capable model.</p> </blockquote> <p>Full article: <a href=\"https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/\">https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/goldcakes\"> /u/goldcakes </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2tk0i/anthropic_walks_back_policy_on_silent_nerfing_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1u2tk0i/anthropic_walks_back_policy_on_silent_nerfing_for/\">[comments]</a></span>",
-      "published": "2026-06-11T16:51:10+08:00",
-      "fetched_at": "2026-06-12T12:15:23.156973+08:00",
-      "pre_filter_reason": "Anthropic公司政策涉及AI/ML模型",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "Anthropic 政策大转弯：不再偷偷削弱AI能力，将提前通知用户",
-          "angle": "分析Anthropic从“偷偷修改”到“公开透明”的转变原因，以及这一政策对AI开发者和用户信任的影响。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "opinion",
-          "title": "AI公司该不该有“悄悄改模型”的权力？",
-          "angle": "探讨AI模型“静默更新”的伦理争议，以及Anthropic道歉背后的行业反思。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "69448ed5c29f",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "微软发布 Chrome / Edge 浏览器扩展，一键关闭 Bing 搜索结果 AI 回答内容",
-      "link": "https://www.ithome.com/0/963/321.htm",
-      "summary": "<p>IT之家 6 月 12 日消息，微软搜索部门负责人乔迪 · 里巴斯（Jordi Ribas）于 6 月 6 日在 X 平台发布推文，展示了一款浏览器扩展程序，支持在 Bing 搜索结果中，<strong>让用户一键关闭 Copilot 生成的 AI 回答内容。</strong></p><p>该扩展程序名为 Microsoft Bing AI Search Choice，目前已上线谷歌 Chrome 浏览器以及微软 Edge 浏览器应用商店，用户安装并启用后，可以在 Bing 搜索结果中，移除 Copilot 生成的 AI 回答。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/9f12dc51-74d5-42d8-ae1f-966be26a839c.png?x-bce-process=image/format,f_auto\" /></p><p>里巴斯表示，微软推出这项预览功能，主要目的是让用户掌控搜索体验。他表示 AI 在搜索领域确实发挥了强大作用，但并非所有用户都希望在所有场景下默认使用 AI。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/7f746c6f-720a-4561-9cb0-109323e7cad6.png?x-bce-process=image/format,f_auto\" /></p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/112e6bb5-fe24-4b3e-9363-36ac3542022d.png?x-bce-process=image/format,f_auto\" /></p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/885923ca-6679-4c83-ae75-7f77674da499.png?x-bce-process=image/format,f_auto\" /></p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/fdbdd393-9bac-4c46-a601-bd85b7800b74.png?x-bce-process=image/format,f_auto\" /></p><p><span class=\"referenceTitle\">IT之家附上 Microsoft Bing AI Search Choice 扩展程序地址</span></p><ul class=\"custom_reference list-paddingleft-1\"><li class=\"list-undefined list-reference-paddingleft\"><p><a href=\"https://chromewebstore.google.com/detail/microsoft-bing-ai-search/mcaabonmnmphidjfohjkdobemneigopa\" target=\"_blank\">点此前往谷歌 Chrome 浏览器应用商店下载微软扩展程序</a></p></li><li class=\"list-undefined list-reference-paddingleft\"><p><a href=\"https://microsoftedge.microsoft.com/addons/detail/microsoft-bing-ai-search-/pmjianmjibiamoboooofebdpagpdekao\" target=\"_blank\">点此前往微软 Edge 浏览器应用商店下载微软扩展程序</a></p></li></ul>",
-      "published": "2026-06-12T11:02:28+08:00",
-      "fetched_at": "2026-06-12T12:15:18.058664+08:00",
-      "pre_filter_reason": "Browser extension to disable AI search results",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
+        "timeliness": 7,
         "actionability": 8,
         "scarcity": 7,
         "virality": 8,
@@ -428,146 +360,134 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "一键关闭Bing AI回答：微软官方扩展安装与使用教程",
-          "angle": "手把手教用户如何安装并启用该扩展，对比开启/关闭AI回答的搜索体验差异。",
+          "title": "开源医疗AI新秀：openmed如何用大模型改变诊疗？",
+          "angle": "介绍openmed的模型架构、训练数据来源（医疗文献/病历）及典型应用（辅助诊断、药物问答），对比GPT-4等通用模型在医疗场景的优劣势。",
           "difficulty": "入门"
         },
         {
-          "tag": "news",
-          "title": "微软向用户低头？Bing搜索推出“关闭AI”按钮",
-          "angle": "解读微软此举背后的用户反馈与产品策略，分析AI搜索的“开关”是否将成为标配。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "bdd25314139d",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "hexo-ai /sia",
-      "link": "https://github.com/hexo-ai/sia",
-      "summary": "SIA is a Self Improving AI framework to autonomously improve the performance of any AI system (Model / Agent) on a benchmark task.",
-      "published": "2026-06-12T12:15:24.523451+08:00",
-      "fetched_at": "2026-06-12T12:15:24.523453+08:00",
-      "pre_filter_reason": "Self Improving AI framework",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.2,
-      "topics": [
-        {
           "tag": "tutorial",
-          "title": "SIA框架入门：如何用自改进AI提升模型基准测试性能",
-          "angle": "介绍SIA的核心概念、安装步骤及一个简单的基准测试优化案例。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "opinion",
-          "title": "自我改进的AI是未来吗？解读SIA框架的潜力与局限",
-          "angle": "分析SIA框架对AI自主优化的意义，以及当前面临的挑战（如过拟合、计算成本）。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "591d04956f6b",
-      "source_id": "baidu-hot",
-      "source_name": "百度热搜",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "hotlist",
-      "title": "网警披露未履行个人信息保护义务案",
-      "link": "https://www.baidu.com/s?wd=网警披露未履行个人信息保护义务案",
-      "summary": "近期，福建泉州公安网安部门办理了一起某单位停车管理系统未履行个人信息保护义务的案件。涉事单位作为个人信息处理者，既未制定内部管理制度和操作规程，也未采取相应的加密、去标识化等安全技术措施。属地公安机关依照《中华人民共和国个人信息保护法》对该单位依法予以行政处罚。",
-      "published": "2026-06-12T12:15:20.177684+08:00",
-      "fetched_at": "2026-06-12T12:15:20.177686+08:00",
-      "pre_filter_reason": "Personal information protection involves data security and AI-related regulations",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 10.0
-      },
-      "quality_score": 7.2,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "个人信息保护法实战：停车管理系统如何避免被罚？",
-          "angle": "从泉州案例出发，列出企业必须采取的加密、去标识化等合规措施清单。",
+          "title": "手把手教你部署openmed：开源医疗AI的本地化实践",
+          "angle": "提供openmed的GitHub仓库链接、环境配置步骤、模型下载与推理示例，帮助医疗IT从业者快速搭建私有化医疗AI助手。",
           "difficulty": "入门"
-        },
-        {
-          "tag": "news",
-          "title": "网警出手！停车系统未加密个人信息被行政处罚",
-          "angle": "解析案件细节，警示中小企业重视数据安全义务，避免类似处罚。",
-          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "f9883bf83ff3",
-      "source_id": "qbitai",
-      "source_name": "量子位",
+      "id": "07986fb7ad47",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "1290万高考生看过来！阿里出了个志愿填报Agent，免费的",
-      "link": "https://www.qbitai.com/2026/06/434558.html",
-      "summary": "前期做了40万AI考生压测",
-      "published": "2026-06-11T15:25:55+08:00",
-      "fetched_at": "2026-06-12T12:15:12.375864+08:00",
-      "pre_filter_reason": "AI志愿填报Agent，涉及AI产品",
+      "title": "网友反馈其苹果 M5 Max MacBook Pro 高负载运行过热导致屏幕变色",
+      "link": "https://www.ithome.com/0/963/789.htm",
+      "summary": "<p>IT之家 6 月 13 日消息，网友 u/B00TK1D 于 6 月 9 日在 Reddit 社区发帖，反馈其搭载 M5 Max 芯片的苹果 MacBook Pro 出现故障，在高负载运行本地大语言 AI 模型数分钟后，<strong>屏幕底部、对应风扇出风口位置出现两处轻微变色区域。</strong></p><p>IT之家援引该用户反馈，由于持续高负载运行本地 AI 大模型，MacBook Pro 在散热时热风会直吹面板，从而会损伤液晶结构。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/137dd75f-e009-43cd-af07-ee331b38998d.jpg?x-bce-process=image/format,f_auto\" /></p><p>科技媒体 Wccftech 指出，苹果为提升能效、降低温度，在 M5 MacBook Pro 上采用 CPU 与 GPU 分离布局的 Fusion 架构，但在高负载下芯片温度仍可突破 100 摄氏度，现有单热管配双低噪音风扇的方案仅适合短时高负载，无法应对长时间高负载任务。</p><p>该媒体认为该案例属个例，但是长期高温还会加速屏幕老化，缩短整机寿命，希望苹果公司革新 MacBook Pro 的散热架构。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/0743c983-2880-46ef-83cf-0bdec7cdd4ec.jpg?x-bce-process=image/format,f_auto\" /></p>",
+      "published": "2026-06-13T11:11:02+08:00",
+      "fetched_at": "2026-06-13T12:03:03.386933+08:00",
+      "pre_filter_reason": "运行本地AI大模型导致硬件问题",
       "scores": {
         "importance": 6,
-        "timeliness": 9,
+        "timeliness": 7,
         "actionability": 8,
-        "scarcity": 6,
-        "virality": 8,
+        "scarcity": 8,
+        "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.2,
+      "quality_score": 7.4,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "高考志愿填报不用愁：阿里免费Agent使用指南",
-          "angle": "演示如何利用该Agent输入分数、偏好，获取个性化志愿推荐，并对比传统填报方式。",
+          "title": "M5 Max MacBook Pro 过热屏幕变色？教你如何预防与降温",
+          "angle": "从用户反馈的故障出发，提供高负载场景下的散热技巧、温度监控工具推荐和物理降温方法，帮助用户避免屏幕损伤。",
           "difficulty": "入门"
         },
         {
-          "tag": "news",
-          "title": "阿里AI志愿填报Agent免费上线，1290万考生迎来智能助手",
-          "angle": "介绍该Agent的技术背景（40万AI考生压测）、功能亮点及对高考生的实际帮助。",
-          "difficulty": "中级"
+          "tag": "analysis",
+          "title": "苹果 M5 Max 散热设计缺陷？高负载运行对屏幕的潜在风险解析",
+          "angle": "分析该故障背后的技术原因（热风直吹屏幕、液晶结构脆弱），对比历代 MacBook Pro 散热设计，探讨苹果的改进空间。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "5262ba46ff1b",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
+      "id": "16ca7960bc0a",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
       "source_tier": "T2",
       "source_lang": "zh",
-      "source_category": "search",
-      "title": "全国首家！光谷人工智能医院揭牌成立- 湖北日报新闻客户端 - 湖北日报传媒集团",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE45bGFVWHVkQ2Q1Ri05TzdSTHRQTWgzUkdrSVZxYWdTdGd5b0NEemZYeWNNNUFqN1pYRTVzcEljTzJWSE1uTHFsNWpmSUhkVmFtVzZXNkRZcVI?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE45bGFVWHVkQ2Q1Ri05TzdSTHRQTWgzUkdrSVZxYWdTdGd5b0NEemZYeWNNNUFqN1pYRTVzcEljTzJWSE1uTHFsNWpmSUhkVmFtVzZXNkRZcVI?oc=5\" target=\"_blank\">全国首家！光谷人工智能医院揭牌成立- 湖北日报新闻客户端</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">湖北日报传媒集团</font>",
-      "published": "2026-06-11T12:39:25+08:00",
-      "fetched_at": "2026-06-12T12:15:22.061959+08:00",
-      "pre_filter_reason": "人工智能医院，涉及AI应用",
+      "source_category": "media",
+      "title": "智源大会圆桌：大模型没有终局，具身智能可能是中国的 AlphaGo 时刻",
+      "link": "https://www.infoq.cn/article/g31NXdeRpwyGWbGAi937?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/g31NXdeRpwyGWbGAi937?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-06-13T00:30:21+08:00",
+      "fetched_at": "2026-06-13T12:02:56.000173+08:00",
+      "pre_filter_reason": "Covers AI conference on large models and embodied AI",
+      "scores": {
+        "importance": 8,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "opinion",
+          "title": "大模型没有终局：为什么具身智能可能是中国的 AlphaGo 时刻",
+          "angle": "解读智源大会圆桌观点，阐述具身智能为何被视为中国AI突破的关键，类比AlphaGo对全球AI的推动作用，展望产业机遇。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "c51bbcc3bf3d",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "How Preply combines AI and human tutors to personalize learning",
+      "link": "https://openai.com/index/preply",
+      "summary": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
+      "published": "2026-06-12T08:00:00+08:00",
+      "fetched_at": "2026-06-13T12:02:45.505989+08:00",
+      "pre_filter_reason": "AI product launch and application in education",
       "scores": {
         "importance": 7,
-        "timeliness": 8,
-        "actionability": 7,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 6,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "case_study",
+          "title": "Preply 如何用AI+真人导师打造个性化语言学习体验",
+          "angle": "拆解Preply结合OpenAI生成课程摘要、个性化反馈与练习的实践，展示AI辅助而非替代人类导师的融合模式。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "94682491be2c",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "iOfficeAI/OfficeCLI",
+      "link": "https://github.com/iOfficeAI/OfficeCLI",
+      "summary": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "published": "2026-06-13T12:03:15.045616+08:00",
+      "fetched_at": "2026-06-13T12:03:15.045618+08:00",
+      "pre_filter_reason": "AI agents for Office file automation",
+      "scores": {
+        "importance": 7,
+        "timeliness": 7,
+        "actionability": 8,
         "scarcity": 8,
         "virality": 7,
         "crowd_heat": 0.0
@@ -576,163 +496,231 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "光谷AI医院揭牌，普通人能怎么用？",
-          "angle": "以用户视角拆解AI医院能提供的具体服务（如智能导诊、影像分析），演示如何通过手机端或小程序使用，并对比传统就医流程的效率提升。",
+          "title": "OfficeCLI 入门：用命令行让AI自动读写Word、Excel和PPT",
+          "angle": "演示如何安装OfficeCLI，通过简单命令实现文档批量处理、数据提取和格式转换，适合开发者快速上手。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "全国首家AI医院来了，医疗行业要变天？",
-          "angle": "分析AI医院对医生、患者、医院管理三方的实际影响，讨论技术落地的挑战（如数据隐私、误诊责任），并预测未来3年AI医疗的发展趋势。",
+          "tag": "review",
+          "title": "开源OfficeCLI实测：无需Office也能用AI操控文档，但有哪些坑？",
+          "angle": "评估OfficeCLI的功能完整性、性能表现和已知限制，对比传统Office自动化方案，给出适用场景建议。",
           "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "519fa17d5e33",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "search",
-      "title": "重磅！2026智源大会完整日程公布——全球AI领袖齐聚共绘进化蓝图 - 智源社区",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE56RXd4MTN5UVh4N1ZvQ1F1dkI2U0lNb1A0OU9VWHNaQ3RydzBaaXZ1Wld0bG5WM1lNRm5HTHBWUXgxS2xOVWY2WQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE56RXd4MTN5UVh4N1ZvQ1F1dkI2U0lNb1A0OU9VWHNaQ3RydzBaaXZ1Wld0bG5WM1lNRm5HTHBWUXgxS2xOVWY2WQ?oc=5\" target=\"_blank\">重磅！2026智源大会完整日程公布——全球AI领袖齐聚共绘进化蓝图</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">智源社区</font>",
-      "published": "2026-06-12T09:20:00+08:00",
-      "fetched_at": "2026-06-12T12:15:22.061873+08:00",
-      "pre_filter_reason": "AI conference with global AI leaders",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 6,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.1,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "2026智源大会日程出炉，这5个演讲最值得看",
-          "angle": "从完整日程中筛选出针对开发者/创业者的高价值演讲，给出观看理由和预期收获，并附上如何免费获取回放或笔记的技巧。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "从智源大会看AI进化蓝图：2026年最关键的3个方向",
-          "angle": "提炼大会主题中透露的行业趋势（如多模态、Agent、开源模型），结合参会嘉宾背景，解读这些方向对普通从业者的机会点。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "b37180db809a",
-      "source_id": "ifanr",
-      "source_name": "爱范儿",
+      "id": "6d16d7dca87e",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "早报｜微信图片合并功能全量推送/史上最大IPO，SpaceX明日开盘/曝OpenAI考虑大幅降低token价格",
-      "link": "https://www.ifanr.com/1668686?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "· 曝海力士最快 8 月赴美上市\n· 小米 SU7 获 5 月 20 万元以上轿车市场销冠\n· 加拿大提出法案，拟禁止 16 岁以下儿童使用社交媒体<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
-      "published": "2026-06-12T08:00:53+08:00",
-      "fetched_at": "2026-06-12T12:15:15.702404+08:00",
-      "pre_filter_reason": "Mentions OpenAI considering lowering token prices",
+      "title": "5人2周肝出5.1k星！小米 MiMo Code开源但bug不断，开发者炸锅",
+      "link": "https://www.infoq.cn/article/GTYmDTKIy8f79604Jz1V?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/GTYmDTKIy8f79604Jz1V?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-06-13T02:29:05+08:00",
+      "fetched_at": "2026-06-13T12:02:56.000163+08:00",
+      "pre_filter_reason": "MiMo Code is an AI-related open-source project",
       "scores": {
-        "importance": 7,
+        "importance": 6,
         "timeliness": 8,
         "actionability": 8,
-        "scarcity": 6,
-        "virality": 7,
+        "scarcity": 7,
+        "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.1,
+      "quality_score": 7.2,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "微信图片合并功能上线！3步搞定长图排版",
-          "angle": "演示如何在微信内使用图片合并功能，对比第三方拼图App的优劣，并给出排版技巧（如添加文字、调整顺序），适合自媒体运营者。",
-          "difficulty": "入门"
-        },
-        {
           "tag": "analysis",
-          "title": "OpenAI降价、SpaceX上市：AI与商业的2026新信号",
-          "angle": "分析OpenAI降价对AI应用开发成本的影响，以及SpaceX上市对科技投资风向的带动，讨论普通用户如何抓住这波红利（如使用更便宜的API、关注太空概念股）。",
+          "title": "小米 MiMo Code 开源爆火却bug不断：5人2周5.1k星背后的得与失",
+          "angle": "分析项目快速走红的原因（团队小、速度快、开源），同时指出bug频发对开发者信任的影响，探讨开源项目的质量与速度平衡。",
           "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "cb07377aae1f",
+      "id": "fecd01c01e16",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "神了，世界杯第一天真按千问剧本踢了",
+      "link": "https://www.qbitai.com/2026/06/435321.html",
+      "summary": "比分、红牌、绝杀全押中",
+      "published": "2026-06-13T00:45:23+08:00",
+      "fetched_at": "2026-06-13T12:02:57.598154+08:00",
+      "pre_filter_reason": "Refers to AI model predicting World Cup outcomes",
+      "scores": {
+        "importance": 3,
+        "timeliness": 9,
+        "actionability": 7,
+        "scarcity": 9,
+        "virality": 9,
+        "crowd_heat": 10.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "世界杯神预测：AI如何用数据“算”出比赛剧本？",
+          "angle": "拆解千问模型预测世界杯的底层逻辑，手把手教观众用公开数据+简单AI工具复现比分、红牌等关键事件预测流程。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "从“押中绝杀”到智能体：AI预测体育比赛的实用技巧",
+          "angle": "以世界杯预测案例为引，分享如何训练小型AI模型分析历史赛事数据，并给出普通人快速上手的工具推荐与操作步骤。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "180945db502b",
       "source_id": "openai-blog",
       "source_name": "OpenAI Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
-      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-      "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
-      "published": "2026-06-11T08:00:00+08:00",
-      "fetched_at": "2026-06-12T12:14:52.966842+08:00",
-      "pre_filter_reason": "AI policy and ethics regarding AI-generated content",
+      "title": "New OpenAI Academy courses for the next era of work",
+      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+      "published": "2026-06-12T18:00:00+08:00",
+      "fetched_at": "2026-06-13T12:02:45.505945+08:00",
+      "pre_filter_reason": "OpenAI Academy courses on AI skills and agents.",
       "scores": {
-        "importance": 6,
-        "timeliness": 7,
+        "importance": 5,
+        "timeliness": 6,
         "actionability": 7,
-        "scarcity": 5,
-        "virality": 6,
+        "scarcity": 4,
+        "virality": 5,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.1,
+      "quality_score": 7.2,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "如何识别AI生成内容？OpenAI教你用这3个工具",
-          "angle": "介绍OpenAI支持的EU AI透明度工具（如内容来源标记、数字水印），演示在ChatGPT、DALL·E中如何查看内容来源，帮助用户避免被虚假信息误导。",
+          "title": "OpenAI新课程上线：三步打造你的第一个AI工作流",
+          "angle": "基于Academy课程内容，演示如何从零搭建一个可重复的AI工作流（如自动整理邮件/生成周报），强调实用性与效率提升。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "欧盟AI透明度新规：对开发者意味着什么？",
-          "angle": "解读EU Code of Practice对AI开发者的合规要求（如标注AI生成内容、提供来源证明），分析企业如何调整技术方案以符合法规，并讨论对开源社区的影响。",
-          "difficulty": "进阶"
+          "tag": "tutorial",
+          "title": "智能体入门：用OpenAI课程让AI替你打工",
+          "angle": "聚焦Academy中“应用智能体”模块，以“自动回复客户咨询”为例，展示智能体配置、触发与优化全流程。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "76454bf4a2d3",
-      "source_id": "github-ai-repos",
-      "source_name": "GitHub AI 新项目",
+      "id": "330bce4ad14b",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
       "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "askalf/dario",
-      "link": "https://github.com/askalf/dario",
-      "summary": "Your Claude Pro/Max subscription in any tool — Cursor, Cline, Aider, Agent SDK — at subscription pricing, not per-token bills. One local endpoint that replays Claude Code's wire shape so your traffic stays in the subscription pool.",
-      "published": "2026-06-12T12:15:24.978809+08:00",
-      "fetched_at": "2026-06-12T12:15:24.978811+08:00",
-      "pre_filter_reason": "Claude Pro/Max, AI subscription",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "Nature 子刊收录！清华李勇团队用 AI 解码全球气候耦合，ENSO 预测提前期延长至 19 个月",
+      "link": "https://www.leiphone.com/category/ai/Sgux2ZbLaFbXaZxD.html",
+      "summary": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260612/6a2ba6753ed6b.jpg?imageMogr2/quality/90\" style=\"width: 100%; display: inline-block; text-align: center; background-color: transparent;\" /></section><section style=\"padding-left: 16px; padding-right: 16px;\"><section style=\"width: 100%; display: flex; padding: 0px;\"><section style=\"width: 100%; padding-left: 0px; padding-right: 0px;\"><section style=\"width: 100%; background: rgb(246, 248, 255); padding: 20px 0px 12px; margin-top: 0px; margin-bottom: 0px;\"><section style=\"text-align: center;\"><section><section style=\"text-align: justify; margin: 0px 16px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><span>UniCM：揭示极端 El Niño 和 La Niña 背后的跨洋盆信号。</span></span></span></section><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><section style=\"text-align: left; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><br /></span></span></section></section></section><span></span><span></span><span></span><span></span><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-weight: normal;\">&nbsp; &nbsp; 作者丨郑佳美</span></span><strong><span><strong><span><span><br /></span></span></strong></span></strong></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Optima-Regular, PingFangTC-light;\"><span style=\"color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\"><span>&nbsp; &nbsp; 编辑丨马晓宁</span></span></span></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; text-align: right; margin: 0px 16px;\"><strong><strong><span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></strong></strong></p></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在全球气候风险越来越难以用单一事件解释的今天，气候预测行业正面临一个明显转向：预测对象不再只是某一次 El Niño 或某一个海温指数，而是整个海洋和大气系统中多个气候模态的联动变化。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">过去，很多预测方法更擅长处理 ENSO 这样的核心模态，却较难同时理解印度洋、大西洋和太平洋副热带区域之间的连锁反应。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">现实中的气候异常也往往不是单点发生的，例如一次太平洋海温异常，可能会改变远洋航线沿途的风浪条件，影响跨洋货运的时间安排；一个印度洋或大西洋信号的变化，也可能影响大型赛事、旅游旺季、保险定价和公共卫生部门对热带疾病传播风险的预判。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">也就是说，气候预测已经不只是科学问题，更关系到交通、商业、保险、旅游、公共服务等许多普通人能感受到的生活场景。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在这种背景下，来自清华大学李勇教授研究团队提出了题为《Learning the coupled dynamics of global climate modes》的研究，尝试用统一模型 UniCM 学习全球气候模态之间的耦合动力学。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">研究的核心并不是把 ENSO、IOD、TNA、NPMM、SPMM、IOB、SIOD 分别预测一遍，而是把它们放进同一个相互牵动的系统中，让模型同时理解海表温度、风应力、温跃层等物理场如何生成气候模态，也理解这些气候模态形成后如何反过来影响全球海气系统的未来变化。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这样一来，预测就不再停留在某个指数会升高还是降低，而是进一步追问，不同海盆之间的信号如何传递，极端事件出现前哪些模态正在变得更活跃，以及全球气候系统是否正在从分散波动走向有组织的异常状态。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260612/6a2ba6756c8a0.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><em><span style=\"line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">论文地址：</span></span></em><em style=\"font-style: italic; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-style: italic; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">https://www.nature.com/articles/s42256-026-01245-5</span></span></em></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260612/6a2ba6759e910.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>01</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">UniCM 把气候预测连成一张网</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">实验结果显示，UniCM 的预测能力整体强于 XRO、DESN、CNN、ResoNet 等基线方法，其主要优势并不是单纯提高某一个气候指数的精度，而是同时提升多个气候模态的整体预测能力，预测提升的关键来自“物理场变化”和“气候模态相互作用”的联合学习。雷峰网</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在 ENSO 预测方面，UniCM 的长提前期预测能力明显增强，有效预测时间延长到约 19 个月，同时春季可预报性障碍的影响减弱，短期预测中能够较准确捕捉 El Niño 和 La Niña 的变化趋势，长期预测中仍能保持对 ENSO 相位和强弱变化的判断，不只是预测“会不会发生”，还能够较好捕捉事件的开始、发展、持续和衰退。雷峰网</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在典型历史事件方面，1997 年至 1998 年极端 El Niño 被模型较好捕捉，2020 年至 2023 年三重 La Niña 也被模型较好还原，不同类型 ENSO 事件都能保持较稳定预测，说明模型没有只记住一种 ENSO 模式，而是学到多种 ENSO 演化路径。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260612/6a2ba675e7946.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在多气候模态预测方面，UniCM 同时预测 ENSO、IOD、TNA、NPMM、SPMM、IOB、SIOD，把太平洋、印度洋、大西洋的气候模态放在同一个系统中处理。</span></p><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">其中 ENSO 仍然是最容易预测的模态，IOD、TNA、IOB、SIOD 等非 ENSO 模态的预测能力也有明显改善，对于 TNA、IOB、SIOD 这类受复杂遥相关影响的模态，UniCM 比线性模型更稳定，多模态统一预测也比单独预测每个模态更有优势。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在海表温度预测方面，赤道中东太平洋区域的预测效果最突出，中太平洋区域在长提前期下仍保留较明显信号，关键 ENSO 区域的异常变化能够在较长时间后仍被模型识别，说明模型不是只拟合气候指数，而是学到了海表温度空间场的演化规律。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260612/6a2ba6763f011.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在模态关系识别方面，NPMM 对 ENSO 的提前影响、TNA 与 ENSO 之间的跨洋盆联系、SIOD 与 IOB 之间的印度洋内部联系都被模型捕捉，UniCM 对这些关系的时间先后、强弱变化、非对称结构的还原效果优于 XRO，说明模型学到的不只是相关性，还有一定的动态耦合结构。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在可解释性方面，强 El Niño 前中东赤道太平洋信号更集中，部分 La Niña 前热带大西洋或西太平洋信号更突出，正常年份前注意力分布更分散，模态关系较弱，而极端事件前气候模态之间的联系更集中、更有组织，NPMM、TNA 等模态在极端 ENSO 事件前表现出更强前兆作用。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260612/6a2ba6768ea1c.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260612/6a2ba676bd63b.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>02</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">双分支 Transformer 上场</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><h1 style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">实验经过方面，研究首先把目标确定为全球气候模态的统一预测，研究团队没有只围绕 ENSO 建立单一预测框架，而是把 ENSO、IOD、TNA、NPMM、SPMM、IOB、SIOD 等多个气候模态放进同一个气候系统中，让模型同时学习不同模态本身的变化规律、模态之间的相互影响，以及物理场和气候模态之间的双向反馈。</span></h1><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">研究的基本思路是，海表温度、纬向表面风应力、经向表面风应力、温跃层深度、上层 300 m 海温等物理场变化，会在长期演化中形成 ENSO、IOD、TNA 等大尺度气候模态。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">而这些气候模态一旦形成，又会反过来影响未来的海温分布、风场变化和海洋上层结构，所以模型不能只看单个气候指数，也不能只看局部物理变量，而要同时处理“物理场生成模态”和“模态调节物理场”两个方向。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">数据准备阶段，研究人员使用经过筛选的 CMIP6 历史气候模拟作为训练数据，主要保留能够较好再现主要气候模态变化特征的模拟结果，并使用多个再分析数据集进行测试，用来检验模型面对真实气候资料时是否仍然有效。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">每个训练样本由过去 12 个月的气候状态和未来 24 个月的预测目标组成，过去 12 个月作为模型输入，未来 24 个月作为模型需要学习和输出的结果。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">进入模型之前，物理场数据先被处理成月异常，再进行标准化，以减少不同月份气候背景差异带来的影响，随后被统一到 5° × 5° 的空间网格，并切分成空间块，使模型能够关注大尺度海气变化，而不是被短期天气噪声干扰。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">气候模态指数则从海表温度场中计算得到，并经过 3 个月滑动平均处理，用来突出季节到年际尺度的变化。模型输入分为两条路径，一条是物理场路径，包含海表温度、纬向表面风应力、经向表面风应力、温跃层深度和上层 300 m 海温，主要提供气候模态形成的物理背景；</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">另一条是模态路径，包含 ENSO、IOD、TNA、NPMM、SPMM、IOB、SIOD 七个气候模态指数，主要提供全球气候系统当前的大尺度状态。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260612/6a2ba67712f6f.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">模型结构上，UniCM 采用双分支 Transformer，Globalformer 负责处理物理场输入，学习海温、风应力、温跃层和上层海温在不同海区、不同月份之间的时空演化关系，Modeformer 负责处理模态指数输入，学习 ENSO、IOD、TNA、NPMM、SPMM、IOB、SIOD 各自的时间变化，以及它们之间可能存在的非线性耦合和跨洋盆遥相关。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">两个分支并不是各自独立完成预测，而是通过耦合机制连接起来，Modeformer 先在模态层面提取整体气候状态和模态间关系，再把学到的模态信息注入 Globalformer，使物理场预测不仅依赖局部海温、风场和温跃层信息，也受到全球气候模态状态的约束。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这样设计之后，模型既能从底层物理场中识别气候模态如何形成，也能从高层模态状态中判断未来物理场可能怎样继续演化。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">训练完成后，研究团队把 UniCM 与传统气候动力模型、普通深度学习模型、ENSO 专门预测模型和高分辨率场预测模型进行对比，重点比较 ENSO 长提前期预测、多气候模态统一预测、海表温度空间场预测、春季预测难点下的稳定性、极端 El Niño 和 La Niña 事件的还原能力，以及不同气候模态之间滞后关系的重建能力。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">评估时，研究人员不仅看预测数值是否接近观测结果，也看模型是否能保持正确的相位变化、是否能还原海表温度异常的空间分布、是否能重建 NPMM 与 ENSO、TNA 与 ENSO、SIOD 与 IOB 等模态之间的先后联系，还进一步分析模型内部的注意力机制，观察极端事件发生前模型更关注哪些海区，以及哪些气候模态之间的联系会明显增强。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">整体实验流程可以概括为：先用历史模拟数据训练模型，再用再分析数据测试模型，再通过预测精度、误差表现、空间场预测、模态关系重建和注意力解释结果，综合判断 UniCM 是否真正学到了全球气候模态系统中的耦合动力学。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260612/6a2ba67757a22.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260612/6a2ba6778407d.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>03</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">极端气候应对，少一分被动</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">整体来看，这项研究的意义不只是让气候预测更准确，而是让人们更早看见全球气候异常可能怎样发展。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">对预测工作来说，UniCM 提升了 ENSO 的长提前期预测能力，也改善了 IOD、TNA、IOB、SIOD 等非 ENSO 模态的预测效果，使极端 El Niño、持续 La Niña 以及多气候模态共同异常更容易被提前识别。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这样一来，气候预警不再只关注某一个海区或某一个指数，而是能够从太平洋、印度洋和大西洋之间的整体联系中判断未来风险。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">对气候科学来说，研究说明气候模态之间的联系并不是杂乱无章的噪声，跨洋盆遥相关中包含可以学习和识别的结构，极端事件发生前，不同模态之间往往会出现更集中、更有组织的联系。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">因此，全球气候系统更适合被理解为一个相互牵动的耦合网络，单独研究 ENSO 可能会忽略来自印度洋、大西洋和太平洋副热带区域的早期信号。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">对方法发展来说，研究把气候预测从单模态预测推进到多模态统一预测，从线性关系建模推进到非线性耦合建模，从只预测气候指数推进到同时利用物理场和气候指数进行联合预测，也让气候 AI 不只是给出结果，还能通过注意力机制显示哪些海区、哪些模态关系更可能影响极端事件。对普通人来说，这种研究最直接的价值在于争取更多准备时间。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">更早识别 El Niño、La Niña 或印度洋、大西洋异常，意味着农业种植可以更早调整作物安排和灌溉计划，水库和城市供水系统可以更早准备干旱或异常降雨，沿海和低洼地区可以更早评估洪水风险，电力部门可以提前估计高温、寒潮或持续干旱带来的用电压力，粮食供应链也可以提前考虑气候异常对产量和价格的影响。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">科学发现方面，UniCM 能帮助研究人员自动识别极端事件前的关键前兆区域，发现 NPMM、TNA 等模态可能具有的驱动作用，为理解全球海气耦合动力学提供数据驱动证据，也为脑网络、生态网络、社会经济系统等其他复杂系统研究提供可以借鉴的建模思路。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260612/6a2ba677b6825.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>04</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">UniCM 背后的研究团队</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这篇论文的通讯作者为李勇教授，他是清华大学电子工程系的长聘教授、博士生导师，并担任城市科学与计算研究中心负责人，是教育部长江学者。他长期从事人工智能、数据科学、复杂系统与社会计算等交叉学科研究，主持了多个国家重点研发计划和国家自然科学基金重点项目。</span></p><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在科研成果方面，李勇教授在人工智能和数据科学方向积累了丰富研究成果，在 Nature Computational Science、Nature Machine Intelligence、Nature Human Behaviour、Nature Cities 等综合性期刊，以及 ACM KDD、NeurIPS、ICLR、WWW 等国际会议上发表了大量高水平论文，累计引用超过三万多次，并拥有多项授权专利。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">他曾入选全球高被引科学家、国家万人计划青年拔尖人才，获得教育部科技进步一等奖、IEEE ComSoc 亚太杰出青年学者奖、吴文俊人工智能优秀青年奖等多项荣誉，同时也担任多个国际会议筹委会成员和国际期刊编委。</span></p><section style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260612/6a2ba677e4e38.png?imageMogr2/quality/90\" style=\"background-color: transparent;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><em><span style=\"font-style: italic; text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">参考资料：</span></span></em><em><span style=\"font-style: italic; text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">https://fi.ee.tsinghua.edu.cn/~liyong/</span></span></em></p><section><span></span></section><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260612/6a2ba6780dc67.jpg?imageMogr2/quality/90\" style=\"width: 100%;\" /></span></p><section><span></span></section>",
+      "published": "2026-06-12T14:26:00+08:00",
+      "fetched_at": "2026-06-13T12:02:54.874284+08:00",
+      "pre_filter_reason": "Uses AI to decode climate coupling and improve ENSO prediction",
       "scores": {
-        "importance": 6,
+        "importance": 8,
         "timeliness": 7,
         "actionability": 8,
         "scarcity": 7,
         "virality": 7,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.0,
+      "quality_score": 7.2,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "一招让Claude订阅在Cursor等工具中通用",
-          "angle": "演示如何通过askalf/dario本地端点，将Claude Pro/Max订阅接入Cursor、Cline等开发工具，对比按token付费的成本节省，适合AI开发者。",
-          "difficulty": "进阶"
+          "title": "清华团队用AI预测厄尔尼诺：19个月提前期如何实现？",
+          "angle": "解读Nature子刊论文核心方法，用通俗比喻解释AI如何分析气候耦合数据，并展示一个简化版气候预测模型搭建思路。",
+          "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "Claude订阅通用化：AI工具付费模式要变了？",
-          "angle": "分析askalf/dario这类工具对AI生态的影响（如降低使用门槛、挑战按量计费模式），讨论未来AI工具可能走向“订阅池”或“平台绑定”的两种路径。",
-          "difficulty": "进阶"
+          "tag": "tutorial",
+          "title": "从ENSO预测看AI+气候科学：普通开发者能复现什么？",
+          "angle": "以清华研究为引，介绍如何用开源气候数据集+简单机器学习模型（如LSTM）做短期气候趋势预测，附代码片段。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "7439c9c3d5ed",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "“智能体最后的考试”，Fable 5竟然不敌GPT 5.5",
+      "link": "https://www.qbitai.com/2026/06/434774.html",
+      "summary": "最难档通通零蛋",
+      "published": "2026-06-12T12:13:23+08:00",
+      "fetched_at": "2026-06-13T12:02:57.598218+08:00",
+      "pre_filter_reason": "Comparison of AI agent performance (Fable 5 vs GPT 5.5)",
+      "scores": {
+        "importance": 7,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "智能体考试翻车？Fable 5 vs GPT 5.5能力对比解析",
+          "angle": "分析Fable 5在“最难档”零分的原因，对比GPT 5.5的优势，总结当前智能体在复杂推理任务中的常见短板与改进方向。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "如何测试你的智能体？从“智能体考试”学评估方法",
+          "angle": "借鉴Fable 5与GPT 5.5的考试逻辑，教观众设计自己的智能体测试用例（如多步推理、工具调用），并给出优化建议。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "d0134fcc6094",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "6月15日上会！燧原科技营收三年高增，盈利拐点渐近",
+      "link": "https://www.leiphone.com/category/chips/zhn0h84fE91cixNf.html",
+      "summary": "<p>近日，上交所发布公告，将于 2026 年 6 月 15 日召开上市审核会议，审议燧原科技科创板首次公开发行申请，这家国内 AI 算力芯片企业正式迎来上市关键节点。</p><p>&nbsp;</p><p>燧原科技自成立以来始终深耕算力芯片领域，历经八年发展，已成为国内专注云端AI芯片自主研发的领军企业。2023-2025 年，燧原科技营业收入从 3.01 亿元增长至 9.90 亿元，三年营收复合增长率达到 81.32%，增长势头十分强劲。结合现有在手订单与产品交付计划，公司预判 2026 年上半年营收将同比大幅上涨，半年营收有望追平 2025 年全年水平。</p><p>&nbsp;</p><p>盈利层面同样呈现向好态势。2023至2025三年间公司净亏损从 16.65 亿元缩减至 11.64 亿元，亏损规模持续收窄。公司表示，根据在手订单、产品交付节奏、员工成本预算、研发规划等因素考虑，预计在2026年或2027年可实现合并报表盈利。<br /></p><p>亮眼业绩背后，是公司清晰的商业化布局。据灼识咨询统计，2025 年国内 AI 加速卡市场规模已达 3783.9 亿元，其中互联网行业需求占比过半，同时行业市场格局高度集中。针对这一现状，燧原科技采取单点突破、逐步辐射的拓展思路，先深度服务头部互联网企业腾讯，在落地应用中不断打磨硬件产品与自研的驭算 TopsRider 软件平台，积累大量场景适配经验。依托成熟的技术与服务能力，公司新一代产品已顺利通过多家头部互联网厂商的软硬件及模型测试，预计完成灰度测试后，今年便可开启小批量供货。</p><p>&nbsp;</p><p>不同于GPGPU路线，燧原科技坚持全栈自研，选择自主可控DSA架构切入商用场景，从设计源头针对 AI 算法、模型与应用场景做专项优化。高盛研报预测，2027年全球AI服务器搭载DSA架构芯片的出货占比将提升至45%，赛道成长空间广阔。依托自研GCU-CARA架构，其硬件已实现异构训推一体化升级；软件端“驭算TopsRider”平台完全独立于CUDA生态，集成1600个深度优化AI算子，适配近千款模型，落地超300个应用场景，覆盖智能推荐、AIGC、内容安全等多元领域。此外，集群层面，公司已经联合客户研发超节点方案，并联合打造具有商业化价值的万卡高速互联集群。</p><p>&nbsp;</p><p>为支撑技术迭代，公司推行 “预研、研发、量产” 三代产品同步推进的研发模式，2023 至 2025 年累计研发投入达 36.76 亿元。截至 2025 年底，研发团队共计 643 人，占员工总数 76.73%。高额研发投入虽短期影响利润，但持续筑牢了企业的技术壁垒。</p><p>&nbsp;</p><p>当前多模态大模型与AI Agent商业化提速，国内外云厂商纷纷加大AI基建投入，国产算力正迎来国产替代、场景扩容与技术迭代的多重红利期。此次登陆科创板，燧原科技募资将重点投向新一代芯片研发、市场拓展与供应链保障，依托头部客户验证的技术优势，进一步抢占算力国产化的发展机遇。</p><p><br /></p>",
+      "published": "2026-06-12T12:01:00+08:00",
+      "fetched_at": "2026-06-13T12:02:54.874311+08:00",
+      "pre_filter_reason": "AI chip company (燧原科技) IPO news",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "燧原科技IPO在即：AI芯片企业如何看懂营收增长密码？",
+          "angle": "拆解燧原科技三年营收81%复合增长率背后的业务逻辑（云端AI芯片定位、客户结构），并教投资者用简单指标评估芯片企业成长性。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "从燧原科技看AI芯片赛道：如何用财报数据预判盈利拐点？",
+          "angle": "以燧原科技为例，讲解如何通过营收增速、在手订单、毛利率等关键指标判断一家AI芯片公司是否接近盈利拐点，附分析模板。",
+          "difficulty": "入门"
         }
       ]
     }
