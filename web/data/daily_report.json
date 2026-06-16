@@ -1,24 +1,20 @@
 {
-  "title": "AI日报 - 2026年06月15日",
+  "title": "AI日报 - 2026年06月16日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "Introducing the OpenAI Partner Network",
-          "summary": "OpenAI推出合作伙伴网络，旨在扩展生态合作。"
+          "title": "阿里发布首个具身大模型Qwen-Robot系列",
+          "summary": "阿里巴巴推出Qwen-Robot系列，为机器人提供手、脚、大脑通用底座。"
         },
         {
-          "title": "OpenAI GPT-5.5 与 Codex 正式登陆 Amazon Bedrock",
-          "summary": "OpenAI最新模型GPT-5.5和Codex在AWS平台上线，方便企业部署。"
+          "title": "Claude Corps",
+          "summary": "Anthropic发布Claude Corps，拓展AI协作新形态。"
         },
         {
-          "title": "智谱：公司已推出最新一代旗舰模型GLM-5.2",
-          "summary": "智谱发布新一代旗舰模型GLM-5.2，持续追赶前沿。"
-        },
-        {
-          "title": "行业首款开源鸿蒙消费级人形机器人：松延动力 N2 亮相华为开发者大会 HDC 2026",
-          "summary": "松延动力N2人形机器人亮相华为开发者大会，为开源鸿蒙生态注入新活力。"
+          "title": "实测鸿蒙 7 开发者 Beta：AI 很强大，小艺很能干",
+          "summary": "鸿蒙7开发者Beta版实测显示AI能力显著提升，小艺助手功能更强大。"
         }
       ]
     },
@@ -26,20 +22,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "WWDC 2026，硅谷历史上最昂贵的认输：1.2 万亿参数 Siri 来自 Gemini，但你的手机跑不了",
-          "summary": "苹果WWDC上Siri引入Gemini模型，但大模型本地运行仍面临挑战。"
+          "title": "硅基流动完成新一轮超20亿元融资",
+          "summary": "AI基础设施公司硅基流动获超20亿元融资，资本持续加注底层算力。"
         },
         {
-          "title": "美国下令限制外国用户访问先进AI大模型！Anthropic禁用两大顶级AI模型！",
-          "summary": "美国加强AI出口管制，Anthropic下架Fable 5和Mythos 5模型。"
+          "title": "Microsoft turns to AWS as GitHub faces AI capacity crunch",
+          "summary": "微软因GitHub AI算力瓶颈转向AWS，凸显AI基础设施紧张局面。"
         },
         {
-          "title": "硬氪首发 | 海洋具身智能公司「世航智能」拿下创纪录10亿融资，朱啸虎押注",
-          "summary": "海洋具身智能公司世航智能获10亿融资，资本持续加注AI+机器人赛道。"
+          "title": "世航智能完成超 10 亿元 A 轮融资，创全球海洋机器人单轮融资纪录",
+          "summary": "海洋具身智能公司世航智能获10亿元A轮融资，朱啸虎押注，创全球海洋机器人融资纪录。"
         },
         {
-          "title": "中国“纯硅”成功突破！我国攻克硅基量子芯片关键材料",
-          "summary": "中国在硅基量子芯片材料上取得突破，为未来量子计算奠定基础。"
+          "title": "WWDC 2026，硅谷历史上最昂贵的认输：1.2 万亿参数 Siri 来自 Gemini",
+          "summary": "苹果WWDC 2026宣布Siri将采用Google Gemini模型，被视为硅谷史上最昂贵的认输。"
         }
       ]
     },
@@ -47,16 +43,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "智源大会 | 天工AI重新定义世界模型，公布Matrix-Game 3.5 最新技术突破",
-          "summary": "智源研究院发布Matrix-Game 3.5，推动世界模型技术新进展。"
+          "title": "Pretrained to Imagine, Fine-Tuned to Act: The Rise of World-Action Models",
+          "summary": "NVIDIA提出世界-动作模型范式，预训练想象能力后微调实现行动决策。"
         },
         {
-          "title": "Coding Agent 技术全景图：Context Engineering、Subagents 与 Harness，一年范式转移全解析",
-          "summary": "文章全面解析Coding Agent技术范式转移，聚焦Context Engineering和Subagents。"
+          "title": "国内首个！具身数采「黑箱」正式开源，具身数据昂贵的时代结束了",
+          "summary": "国内首个具身数据采集开源项目发布，有望大幅降低具身智能数据成本。"
         },
         {
-          "title": "NVIDIA /SkillSpector",
-          "summary": "NVIDIA开源SkillSpector项目，旨在提升AI技能评估与训练效率。"
+          "title": "Boosting MoE Training Throughput with Advanced Fusion Kernels",
+          "summary": "NVIDIA发布先进融合内核，显著提升混合专家模型(MoE)训练吞吐量。"
         }
       ]
     },
@@ -64,21 +60,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "硬氪专访 | 智源研究院院长王仲远：VLA不会死，但世界模型是未来",
-          "summary": "智源院长认为VLA仍有价值，但世界模型才是AI发展的终极方向。"
+          "title": "Coding Agent 技术全景图：Context Engineering、Subagents 与 Harness",
+          "summary": "深度解析Coding Agent一年来的范式转移，涵盖上下文工程、子代理与测试框架。"
         },
         {
-          "title": "Agent时代，华为云开始重新造地基了",
-          "summary": "华为云在Agent时代重构基础设施，强调底层能力的重要性。"
+          "title": "全球 AI “黑马神话”一夜反转，被指套壳阿里千问",
+          "summary": "某全球AI新星被曝套壳阿里千问模型，引发行业对原创性的反思。"
         },
         {
-          "title": "健康AI阿福测试“医生把关”新功能：打开“AI+医生”协作想象空间",
-          "summary": "健康AI阿福推出医生审核功能，探索AI与医疗专业协作新模式。"
+          "title": "刚成立一年就拿下车厂订单，这家清华系公司把具身智能送进真实产线",
+          "summary": "清华系具身智能初创公司仅一年即获车企订单，实现从实验室到产线的落地。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦模型迭代与地缘博弈，同时具身智能、世界模型和Agent基础设施成为新热点。",
-  "generated_at": "2026-06-15T12:45:45.430892+08:00",
+  "summary": "今日AI圈聚焦具身智能融资与落地，模型开源加速，基础设施瓶颈与套壳争议并存，行业走向务实与分化。",
+  "generated_at": "2026-06-16T12:30:17.380299+08:00",
   "source_count": 20
 }
