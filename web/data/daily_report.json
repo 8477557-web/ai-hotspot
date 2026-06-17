@@ -1,20 +1,24 @@
 {
-  "title": "AI日报 - 2026年06月16日",
+  "title": "AI日报 - 2026年06月17日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "阿里发布首个具身大模型Qwen-Robot系列",
-          "summary": "阿里巴巴推出Qwen-Robot系列，为机器人提供手、脚、大脑通用底座。"
+          "title": "NVIDIA Blackwell Tops MLPerf Training 6.0 with Industry-Leading Scale and Performance",
+          "summary": "NVIDIA Blackwell在MLPerf Training 6.0中凭借行业领先的规模和性能夺冠。"
         },
         {
-          "title": "Claude Corps",
-          "summary": "Anthropic发布Claude Corps，拓展AI协作新形态。"
+          "title": "三连发！阿里发布首个具身大模型Qwen-Robot系列",
+          "summary": "阿里发布首个具身大模型Qwen-Robot系列，推动机器人智能新突破。"
         },
         {
-          "title": "实测鸿蒙 7 开发者 Beta：AI 很强大，小艺很能干",
-          "summary": "鸿蒙7开发者Beta版实测显示AI能力显著提升，小艺助手功能更强大。"
+          "title": "全新世界模型悟界·Physis将开源，22岁北大本科生担任负责人｜智源大会",
+          "summary": "全新世界模型悟界·Physis宣布开源，由22岁北大本科生领导研发。"
+        },
+        {
+          "title": "高通推出个人 AI 设备上市加速计划 Snapdragon START",
+          "summary": "高通推出Snapdragon START计划，加速个人AI设备上市。"
         }
       ]
     },
@@ -22,20 +26,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "硅基流动完成新一轮超20亿元融资",
-          "summary": "AI基础设施公司硅基流动获超20亿元融资，资本持续加注底层算力。"
+          "title": "DeepSeek 融资交易曝光：腾讯、宁德时代等被锁5年，且没投票权，梁文锋绝对控制",
+          "summary": "DeepSeek融资细节曝光，腾讯、宁德时代等投资者被锁定5年且无投票权，梁文锋保持绝对控制。"
         },
         {
-          "title": "Microsoft turns to AWS as GitHub faces AI capacity crunch",
-          "summary": "微软因GitHub AI算力瓶颈转向AWS，凸显AI基础设施紧张局面。"
+          "title": "证监会主席吴清：依法从严打击利用人工智能非法荐股等乱象",
+          "summary": "证监会主席吴清强调将依法从严打击利用AI进行非法荐股等行为。"
         },
         {
-          "title": "世航智能完成超 10 亿元 A 轮融资，创全球海洋机器人单轮融资纪录",
-          "summary": "海洋具身智能公司世航智能获10亿元A轮融资，朱啸虎押注，创全球海洋机器人融资纪录。"
+          "title": "Leaked OpenAI financials show $38.5B loss and compute burn",
+          "summary": "泄露的OpenAI财务数据显示其亏损385亿美元，算力成本高昂。"
         },
         {
-          "title": "WWDC 2026，硅谷历史上最昂贵的认输：1.2 万亿参数 Siri 来自 Gemini",
-          "summary": "苹果WWDC 2026宣布Siri将采用Google Gemini模型，被视为硅谷史上最昂贵的认输。"
+          "title": "吴清：科创板第五套标准扩大至AI大模型行业，支持量子科技等硬科技企业上市",
+          "summary": "科创板第五套标准扩展至AI大模型行业，支持量子科技等硬科技企业上市。"
         }
       ]
     },
@@ -43,16 +47,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "Pretrained to Imagine, Fine-Tuned to Act: The Rise of World-Action Models",
-          "summary": "NVIDIA提出世界-动作模型范式，预训练想象能力后微调实现行动决策。"
+          "title": "Predicting model behavior before release by simulating deployment",
+          "summary": "OpenAI研究通过模拟部署预测模型发布前的行为，提升安全性。"
         },
         {
-          "title": "国内首个！具身数采「黑箱」正式开源，具身数据昂贵的时代结束了",
-          "summary": "国内首个具身数据采集开源项目发布，有望大幅降低具身智能数据成本。"
+          "title": "Unlocking UK house-building with AI-accelerated planning",
+          "summary": "Google DeepMind利用AI加速规划，助力英国房屋建设。"
         },
         {
-          "title": "Boosting MoE Training Throughput with Advanced Fusion Kernels",
-          "summary": "NVIDIA发布先进融合内核，显著提升混合专家模型(MoE)训练吞吐量。"
+          "title": "How to Optimize Transformer-Based Models for Low-Precision Training",
+          "summary": "NVIDIA发布指南，优化基于Transformer的模型低精度训练方法。"
         }
       ]
     },
@@ -60,21 +64,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "Coding Agent 技术全景图：Context Engineering、Subagents 与 Harness",
-          "summary": "深度解析Coding Agent一年来的范式转移，涵盖上下文工程、子代理与测试框架。"
+          "title": "Build On-Device AI Companions with the NVIDIA ACE Game Agent SDK and Unreal Engine 5 Plugins",
+          "summary": "NVIDIA ACE Game Agent SDK结合Unreal Engine 5，助力开发者构建设备端AI伴侣。"
         },
         {
-          "title": "全球 AI “黑马神话”一夜反转，被指套壳阿里千问",
-          "summary": "某全球AI新星被曝套壳阿里千问模型，引发行业对原创性的反思。"
+          "title": "全网首份指令级拆解：看华为昇腾 950DT 芯片如何撬动 DeepSeek 75%降价与字节锁单",
+          "summary": "深度拆解华为昇腾950DT芯片如何实现DeepSeek 75%降价及字节跳动锁单。"
         },
         {
-          "title": "刚成立一年就拿下车厂订单，这家清华系公司把具身智能送进真实产线",
-          "summary": "清华系具身智能初创公司仅一年即获车企订单，实现从实验室到产线的落地。"
+          "title": "「逆矩阵」完成超亿美元融资，创始人：通用世界基座模型窗口期已压至18个月",
+          "summary": "逆矩阵获超亿美元融资，创始人称通用世界基座模型窗口期仅剩18个月。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦具身智能融资与落地，模型开源加速，基础设施瓶颈与套壳争议并存，行业走向务实与分化。",
-  "generated_at": "2026-06-16T12:30:17.380299+08:00",
+  "summary": "今日AI圈聚焦模型竞赛与监管趋严，具身智能和世界模型成新热点，同时财务透明与合规问题引发关注。",
+  "generated_at": "2026-06-17T12:24:00.013886+08:00",
   "source_count": 20
 }

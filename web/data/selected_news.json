@@ -1,57 +1,20 @@
 {
-  "updated_at": "2026-06-16T12:30:17.380386+08:00",
+  "updated_at": "2026-06-17T12:24:00.013982+08:00",
   "total": 20,
   "items": [
     {
-      "id": "a2e186a6a85f",
+      "id": "b376a3572ab2",
       "source_id": "nvidia-blog",
       "source_name": "NVIDIA Technical Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Pretrained to Imagine, Fine-Tuned to Act: The Rise of World-Action Models",
-      "link": "https://developer.nvidia.com/blog/pretrained-to-imagine-fine-tuned-to-act-the-rise-of-world-action-models/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/WAM_Blog_Post_Header-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"WAM_Blog_Post_Header\" width=\"768\" />Quick glossary for readers new to VLA/WAM terminology VLA Vision-Language-Action model: a robot policy that starts from a pretrained VLM backbone and adapts it...",
-      "published": "2026-06-15T20:00:00+08:00",
-      "fetched_at": "2026-06-16T12:28:40.642766+08:00",
-      "pre_filter_reason": "世界动作模型属于AI研究",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.8,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "什么是世界-动作模型？从预训练到微调一图看懂",
-          "angle": "用通俗比喻（如“先学会想象，再学会动手”）解释WAM的核心概念，对比传统AI模型，适合入门科普。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "世界-动作模型将如何改变机器人行业？",
-          "angle": "分析WAM在具身智能、自动驾驶等领域的应用前景，结合NVIDIA等大厂布局，探讨技术趋势。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "503011c8c73c",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "硅基流动完成新一轮超20亿元融资",
-      "link": "https://36kr.com/newsflashes/3855302945592321?f=rss",
-      "summary": "36氪获悉，近日，硅基流动已完成超20亿元B轮融资。本轮融资由携程战投、晶科能源控股、金蝶股份、壁仞战投、蔚来资本、商汤战投、巨人网络、国泰君安创新投、等产业资本、财务机构和国资联合投资，华兴资本担任独家财务顾问。过去一年，公司通过Token工厂模式提供高效 MaaS（模型即服务），日均Token调用量达数万亿，服务超1000万用户和1万家企业客户，营收同比增长超10倍，海外市场单月营收达数百万美元。",
-      "published": "2026-06-16T11:36:57+08:00",
-      "fetched_at": "2026-06-16T12:28:42.762011+08:00",
-      "pre_filter_reason": "AI company funding, MaaS platform.",
+      "title": "NVIDIA Blackwell Tops MLPerf Training 6.0 with Industry-Leading Scale and Performance",
+      "link": "https://developer.nvidia.com/blog/nvidia-blackwell-tops-mlperf-training-6-0-with-industry-leading-scale-and-performance/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/image1-7-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" />NVIDIA delivered a clean sweep in MLPerf Training v6.0, the latest edition of industry-standard AI training benchmarks developed by the MLCommons consortium....",
+      "published": "2026-06-16T23:11:13+08:00",
+      "fetched_at": "2026-06-17T12:22:14.487859+08:00",
+      "pre_filter_reason": "AI hardware benchmark",
       "scores": {
         "importance": 9,
         "timeliness": 8,
@@ -60,446 +23,446 @@
         "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.8,
+      "quality_score": 9.0,
       "topics": [
         {
-          "tag": "analysis",
-          "title": "硅基流动20亿融资背后：MaaS赛道的“Token工厂”模式为何受追捧？",
-          "angle": "拆解硅基流动的商业模式（Token工厂、日均数万亿调用、营收增长10倍），分析其获产业资本和财务机构联合投资的原因。",
+          "tag": "tutorial",
+          "title": "NVIDIA Blackwell MLPerf 训练实战：如何利用新架构提升模型性能",
+          "angle": "从MLPerf 6.0的测试结果出发，拆解Blackwell架构的关键技术（如FP8精度、NVLink），并给出开发者如何在自己的训练任务中利用这些特性进行调优的步骤指南。",
           "difficulty": "中级"
         },
         {
-          "tag": "tutorial",
-          "title": "MaaS入门：像用电一样用AI模型，硅基流动如何降低AI开发门槛？",
-          "angle": "以硅基流动为例，解释MaaS（模型即服务）的概念、优势及典型应用场景，适合开发者或企业决策者。",
+          "tag": "analysis",
+          "title": "MLPerf 6.0 榜单解读：NVIDIA Blackwell 为何能实现性能碾压？",
+          "angle": "分析Blackwell在MLPerf训练中的具体得分与竞品对比，探讨其规模扩展能力背后的工程突破（如液冷、通信优化），并预测对AI基础设施市场的影响。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "0a98b3eee23b",
-      "source_id": "hn-ai",
-      "source_name": "Hacker News (AI)",
-      "source_tier": "T2",
+      "id": "93dee25a607d",
+      "source_id": "deepmind-blog",
+      "source_name": "Google DeepMind",
+      "source_tier": "T1",
       "source_lang": "en",
-      "source_category": "community",
-      "title": "Microsoft turns to AWS as GitHub faces AI capacity crunch",
-      "link": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
-      "summary": "<p>Article URL: <a href=\"https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch\">https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48549918\">https://news.ycombinator.com/item?id=48549918</a></p>\n<p>Points: 109</p>\n<p># Comments: 41</p>",
-      "published": "2026-06-16T10:47:57+08:00",
-      "fetched_at": "2026-06-16T12:29:02.387500+08:00",
-      "pre_filter_reason": "Microsoft and GitHub facing AI capacity crunch.",
+      "source_category": "official",
+      "title": "Unlocking UK house-building with AI-accelerated planning",
+      "link": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+      "published": "2026-06-17T05:29:50+08:00",
+      "fetched_at": "2026-06-17T12:22:12.935984+08:00",
+      "pre_filter_reason": "AI-accelerated planning with DeepMind",
       "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "微软为何向AWS求助？揭秘GitHub的AI算力危机",
-          "angle": "分析微软/ GitHub 算力短缺的原因（AI需求爆发、GPU供应紧张），以及“竞争对手合作”背后的行业信号。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "opinion",
-          "title": "AI算力短缺常态化：企业如何避免“卡脖子”？",
-          "angle": "从微软求助AWS事件切入，讨论多云策略、算力储备、模型优化等应对方案，适合CIO/CTO视角。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "e500236a4f77",
-      "source_id": "hn-ai",
-      "source_name": "Hacker News (AI)",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "Claude Corps",
-      "link": "https://www.anthropic.com/news/claude-corps",
-      "summary": "<p>Article URL: <a href=\"https://www.anthropic.com/news/claude-corps\">https://www.anthropic.com/news/claude-corps</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48544637\">https://news.ycombinator.com/item?id=48544637</a></p>\n<p>Points: 103</p>\n<p># Comments: 67</p>",
-      "published": "2026-06-16T01:41:24+08:00",
-      "fetched_at": "2026-06-16T12:29:02.387545+08:00",
-      "pre_filter_reason": "News about Claude (Anthropic's AI model) and its product 'Claude Corps', AI-related.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Claude Corps是什么？一文看懂Anthropic的企业AI新计划",
-          "angle": "介绍Claude Corps的定位、目标用户、核心功能（如定制模型、企业级安全），对比其他企业AI服务。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "从Claude Corps看AI企业服务的下一个战场：定制化与安全合规",
-          "angle": "分析Anthropic推出该产品的战略意图，以及对企业AI市场（如微软Copilot、OpenAI企业版）的竞争影响。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "5ddaf8d79fe2",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "世航智能完成超 10 亿元 A 轮融资，创全球海洋机器人单轮融资纪录",
-      "link": "https://www.leiphone.com/category/robot/FufjKCluRRyP0ye4.html",
-      "summary": "<p>雷峰网获悉，6 月 15 日<strong>海洋具身智能公司世航智能宣布完成超 10 亿元 A 轮融资，为目前全球海洋机器人领域规模最大的单轮融资</strong>。</p><p>雷峰网了解到，该轮新投资方包括<strong>上河动量基金、新加坡淡马锡旗下 Vertex Growth、中信集团农业产业基金、誉尊资本</strong>、上市公司<strong>大洋电机</strong>；老股东<strong>金沙江创投</strong><strong>、祥峰中国、华映资本、长石资本</strong>等全部大比例超额追投。本轮融资将主要用于核心技术研发、全球化市场拓展及产业链生态建设，推动海洋机器人在复杂水下场景的规模化应用。</p><p>世航智能创始人兼 CEO <strong>陈晓博</strong>为 1989 年出生的哈尔滨工程大学校友，深耕海洋机器人领域 19 年，28 岁获国防科技进步一等奖，是该奖项最年轻获奖者之一，曾主导研发全国首台商用水下清洗机器人。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260615/6a2f7f313a139.png?imageView2/2/w/740\" /></p><p>技术层面，世航智能今年 4 月发布海洋具身大模型 “沧穹 CEORION”。不同于传统水下机器人依赖人工遥控或预设程序，该模型采用统一端到端架构，将环境感知、任务理解与动作生成集成，结合真实作业与仿真数据训练，依托百万小时级商业作业数据构建海洋世界模型。搭载该模型的机器人可覆盖巡检、清洗、抓取、焊接等 12 大类水下作业场景，仿真测试中任务成功率、精细控制定位抓取成功率均超 90%，达到专业潜水员操控水平；零样本环境适应能力超 70%，内置物理推理模块可降低 80% 碰撞事故率，弱通信甚至无通信环境下仍可自主完成任务。</p><p>针对海洋场景的极端条件，世航智能全栈自研动力、控制、传感、导航、密封、布放回收六大核心系统，拥有完全自主知识产权，产品具备 0 米至 10000 米全海深、全自由度作业能力，是目前唯一在真实海洋环境中实现全海深稳定商业部署的产品。</p><p>商业化方面，世航智能机器人已在船舶清洗、海洋风电光伏、海洋牧场、海底勘探等场景规模化落地，2026 年上半年订单金额已超 10 亿元。今年以来，世航牵头制定国内首个《水下清洗机器人操作规程》，获 2025 年度中国航海学会科学技术进步一等奖，并作为唯一中国公司入选新加坡海事及港务管理局国家水下船体检测与清洗计划，正式进入全球海事核心生态顶层设计圈层。</p><p>多位投资方表示，海洋是具身智能壁垒极高的硬科技赛道，世航智能凭借全栈技术能力与真实场景商业化闭环，已成为全球海洋具身智能标杆企业，有望重新定义全球海洋作业模式。</p><p><br /></p>",
-      "published": "2026-06-15T12:32:00+08:00",
-      "fetched_at": "2026-06-16T12:28:47.829697+08:00",
-      "pre_filter_reason": "海洋具身智能公司",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 9,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "10亿元！世航智能创海洋机器人单轮融资纪录，水下AI要爆发？",
-          "angle": "分析世航智能的“海洋具身智能”技术路线（机器人+AI），以及投资方阵容（淡马锡、中信等）背后的产业逻辑。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "tutorial",
-          "title": "海洋机器人是什么？从世航智能看水下AI的三大核心应用",
-          "angle": "科普海洋机器人的主要类型（AUV/ROV等）及在海洋勘探、渔业、国防等领域的实际应用，结合融资案例。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "e55608be776d",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "国内首个！具身数采「黑箱」正式开源，具身数据昂贵的时代结束了",
-      "link": "https://www.leiphone.com/category/ai/VzC236xZ6HQob91z.html",
-      "summary": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260616/6a30b2c1d78aa.jpg?imageMogr2/quality/90\" style=\"width: 100%; display: inline-block; text-align: center; background-color: transparent; height: auto !important;\" /></section><section style=\"padding-left: 16px; padding-right: 16px;\"><section style=\"width: 100%; display: flex; padding: 0px;\"><section style=\"width: 100%; padding-left: 0px; padding-right: 0px;\"><section style=\"width: 100%; background: rgb(246, 248, 255); padding: 20px 0px 12px; margin-top: 0px; margin-bottom: 0px;\"><section style=\"text-align: center;\"><section><section style=\"text-align: justify; margin: 0px 8px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><span>自变量开源XRZero-G0，数采成本直降到1/20。</span></span></span></section><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><section style=\"text-align: left; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><br /></span></span></section></section></section><span></span><span></span><span></span><span></span><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-weight: normal;\">&nbsp; &nbsp; 作者丨齐铖湧</span></span><strong><span><strong><span><span><br /></span></span></strong></span></strong></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Optima-Regular, PingFangTC-light;\"><span style=\"color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\"><span>&nbsp; &nbsp; 编辑丨马晓宁</span></span></span></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; text-align: right; margin: 0px 16px;\"><strong><strong><span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></strong></strong></p></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">最近具身行业被一个开源项目刷屏了。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">最早只是小圈子里传“有人在社区开源了一整套具身数据集”。我抱着“看看热闹”的心态去看了看，越看越不对劲，这不是简单的数据集，这是一整个无本体数采系统啊。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">换句话说，别人开源的是&quot;一段代码&quot;，而这个开源的是一套全身无本体数采+质检+训练+真机评测的完整链路，还有2000多小时、覆盖3000个任务的多模态无本体数据集，都完整打包放出来了。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260616/6a30b2c225185.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%; height: auto !important;\" /></section><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260616/6a30b2c255f94.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%; height: auto !important;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">论文地址：</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">https://arxiv.org/abs/2604.13001</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这在国内还是头一遭，于是我深扒了扒对应的论文：</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">简单来说，XRZero-G0 这篇论文做了两件事，第一是撬开了机器人数采的&quot;黑箱&quot;，手把手演示了如何超低成本采集一套高质量数据。第二，手把手教你怎么数据训练。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">先说第一点，数据采集。之前大家可能听说过“具身行业采数据又难又贵”，甚至有人抛出暴论，说具身发展慢，都是被数采拖累了。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">你看大模型，吃的是文本，互联网上到处都是。机器人吃的是物理数据，每一条都得真金白银去采。 而且过去采数据，行业里有三个大坑，贵、脏、不可复用，这也构成了具身数据层的&quot;不可能三角&quot;。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260616/6a30b2c2bb614.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%; height: auto !important;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">XRZero-G0论文里，给了一个巧妙的解法，核心就一句话：<span style=\"color: #4499E7; font-weight: bold;\">人戴着设备去干活，现场不需要机器人。</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这条路其实有人走过（比如UMI范式），但以前这种方式有个致命的毛病，采回来的数据像个&quot;黑箱&quot;，你不知道真机到底能不能跑通。而XRZero-G0这次通过三道&quot;安检&quot;，把黑箱变成了透明的白盒。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">第一道安检：三个摄像头。</span></span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">过去数采手持设备只有单视角或双视角，这种有个缺点，双手一交叉，或者物体被手臂挡住，数据当场报废。XRZero-G0 的做法很直接：给操作员戴上PICO &nbsp;VR 头显，头顶一个全局相机，左右手腕各挂一个相机。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260616/6a30b2c30fd82.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%; height: auto !important;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这三路视角加上六自由度位姿信息，加上背包边缘计算做时空对齐，精度直接≤4 毫米，不管你怎么转身、俯身、走动，遮挡和漂移问题都不会发生。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260616/6a30b2c34e87f.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%; height: auto !important;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">第二道安检：装一个虚拟限位器。</span></span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">大家知道人的关节灵活，能做瑜伽，但机器人不行。之前遥操作的时候，我做了</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">一个机器人做不出的动作，结果电机烧了。XRZero-G0 很聪明，引入自动逆运动学（IK）验证，过滤掉超出关节极限的动作。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">第三道安检：真机回放。</span></span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">前两道筛完，系统还会随机抽一部分数据，直接丢给真实的双臂机器人做&quot;开环回放&quot;。只有机器人顺利把任务做完，这批数据才算入库。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">三层漏斗筛下来，入库数据的有效率被拉升到了 85% 以上，可用性跟真机数据一样，采集速度还更快。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">看论文里数据，简单任务从 35 秒压缩到 15 秒，提速 2.33 倍；复杂任务也能快 1.71 倍。峰值采集速度达到 93.2 条轨迹每小时。这不比真机香？</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260616/6a30b2c3933c4.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%; height: auto !important;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">但以上只是教会了&quot;怎么更好的采集数据&quot;，XRZero-G0 论文里更关键的是教大家&quot;怎么训&quot;数据。</span></span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">具身训练里，大家都知道要把&quot;便宜无本体数据&quot;和&quot;昂贵真机数据&quot;混在一起用，但比例怎么配？以前全靠炼丹。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">XRZero-G0 团队做了一件特别扎实的事，系统性穷举实验，最终发现了一个&quot;黄金比例&quot;。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在这之前，他们对比了三套方案：</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-weight: bold; text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">▪&nbsp;</span></span><span style=\"font-weight: bold; text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">500 条纯真机数据（基线）</span></span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><strong><span style=\"font-weight: bold; text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">▪&nbsp;</span></span></strong><span style=\"font-weight: bold; text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">500 条真机+500 条无本体（1:1</span></span></strong><strong><span style=\"font-weight: bold; text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">）</span></span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><strong><span style=\"font-weight: bold; text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">▪&nbsp;</span></span></strong><span style=\"font-weight: bold; text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">50 条真机+500 条无本体（10:1）</span></span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">结果出乎意料：10:1 的方案，成功率跟 500 条纯真机基线持平，甚至更高。 说人话就是：你把真机数据用量砍掉 90%，总成本压到传统方式的二十分之一，训出来的模型一样聪明。</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">&nbsp;20 倍的成本效率跃升。</span></span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">论文解释了这背后的原因，叫&quot;少样本物理锚定效应&quot;。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260616/6a30b2c3c6277.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%; height: auto !important;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">还没完，这套数据训出来的模型，还能做到&quot;零样本&quot;跨本体迁移。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">前面说了，传统真机遥操作，最怕本体迁移。桌子高了十公分，或者换一台机器人，直接崩。但 XRZero-G0 是背包式的，操作员走来走去，采集过程中视角、高度、光照天然充满了动态变化。这种丰富的&quot;噪声&quot;，反而让模型练就了极强的鲁棒性。（雷峰网）</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">论文展示了非常震撼的细节：把这套混合数据训出来的模型，扔到 EX001 和 CX001 上，没有见过真机数据，直接部署， 结果插花、叠毛巾、装香肠都没问题。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260616/6a30b2c428a60.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%; height: auto !important;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">简单聊聊XRZero-G0 读后感，这篇论文核心就是把&quot;怎么低成本采数据&quot;和&quot;怎么高效用数据&quot;两件事，像说明书一样，掰开揉碎了给从业者看。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">大家都能感知到，具身行业正从&quot;拼Demo&quot;转向&quot;拼数据&quot;。但该如何堆时长，行业是缺乏共识和方向的。XRZero-G0把&quot;更方便地采数据&quot;、&quot;找到完美的数据配比&quot;，进而到最终实现&quot;零样本跨本体迁移&quot;这一整条链路，都教给行业了。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这种工程化的工作，不是某一个高校实验室或者明星学者能单枪匹马完成的，它必须是一支既懂学术又懂产业的产业界团队。（雷峰网）</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">XRZero-G0 背后的公司，是自变量机器人（X-Square Robot）。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">要理解自变量为啥能做XRZero-G0，看他们的路径选择就知道，公司从Day One就选端到端大模型，同时探索VLA、WM、WUM三条路线。圈内人都懂，这种路线没有扎实Infra能力根本跑不通，所以早期的从WALL-OSS，到XRZero-G0，自变量一直在建和Infra有关的基础设施。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这条路虽然难，但是正确。看资本就知道了，自变量不到两年9轮融资，估值过百亿，字节、美团、阿里、小米四家大厂都在股东名单。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">至于XRZero-G0全量开源的原因，更简单粗暴了。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">具身的&quot;ChatGPT时刻&quot;不可能靠一家公司憋出来。当高校、中小团队、个人开发者都能用XRZero-G0这套标准化工具链批量产数据时，全行业的数据飞轮才真正开始转动，那时候自变量的护城河，就建起来了。</span></p><p style=\"text-align: left; margin: 8px 16px 0px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px; color: #4499E7;\">文末附上 XRZero-G0 的GitHub主页，建议大家去玩玩</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px; color: #4499E7;\">看：</span></span></p><p style=\"text-align: justify; margin: 8px 16px 0px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-size: 14px; color: #4499E7;\">https://github.com/X-Square-Robot/XRZero-G0</span></span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260616/6a30b2c44949f.jpg?imageMogr2/quality/90\" style=\"height: auto !important;\" type=\"block\" /></section><section><span></span></section><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260616/6a30b2c46aec1.jpg?imageMogr2/quality/90\" style=\"width: 100%; height: auto !important;\" /></section><section><span></span></section>",
-      "published": "2026-06-16T10:24:00+08:00",
-      "fetched_at": "2026-06-16T12:28:47.829518+08:00",
-      "pre_filter_reason": "具身智能（embodied AI）数据开源，直接涉及AI模型和数据",
-      "scores": {
-        "importance": 8,
+        "importance": 7,
         "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 9,
+        "actionability": 8,
+        "scarcity": 7,
         "virality": 7,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.7,
+      "quality_score": 8.4,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "开源具身数据采集黑箱：如何用低成本方案替代昂贵数据？",
-          "angle": "手把手演示如何部署和运行该开源工具，对比传统数据采集成本，突出其降低门槛的价值。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "具身数据不再昂贵：开源黑箱如何改变机器人训练格局？",
-          "angle": "分析该开源项目对行业的影响，包括对小团队和科研机构的利好，以及对数据垄断的冲击。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "c2bb9147dba9",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Fine-Tuning Biological Foundation Models with LoRA Using NVIDIA BioNeMo Recipes",
-      "link": "https://developer.nvidia.com/blog/fine-tuning-biological-foundation-models-with-lora-using-nvidia-bionemo-recipes/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/biology-foundation-model-training-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"biology-foundation-model-training\" width=\"768\" />Foundation models are reshaping computational biology. Pretrained on massive corpora of protein or genomic sequences, models such as ESM2 (a protein language...",
-      "published": "2026-06-16T02:07:31+08:00",
-      "fetched_at": "2026-06-16T12:28:40.642714+08:00",
-      "pre_filter_reason": "Discusses fine-tuning biological foundation models with LoRA, an AI research topic.",
-      "scores": {
-        "importance": 7,
-        "timeliness": 6,
-        "actionability": 7,
-        "scarcity": 6,
-        "virality": 5,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "用LoRA微调生物学基础模型：NVIDIA BioNeMo配方实战",
-          "angle": "从零开始，使用NVIDIA BioNeMo提供的LoRA配方，快速微调生物学模型，适合生物信息学入门者。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "高效微调生物学模型：LoRA与BioNeMo的进阶技巧",
-          "angle": "深入讲解LoRA参数调整、训练加速技巧，以及如何评估微调后的模型性能，面向有基础的研究者。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "bbe1ca450fec",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Boosting MoE Training Throughput with Advanced Fusion Kernels",
-      "link": "https://developer.nvidia.com/blog/boosting-moe-training-throughput-with-advanced-fusion-kernels/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/image6-1-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image6\" width=\"768\" />Mixture-of-experts (MoE) models have quickly become a foundational component of modern, large-scale AI systems. They are widely adopted because they enable...",
-      "published": "2026-06-16T00:45:41+08:00",
-      "fetched_at": "2026-06-16T12:28:40.642750+08:00",
-      "pre_filter_reason": "AI model training optimization",
-      "scores": {
-        "importance": 7,
-        "timeliness": 6,
-        "actionability": 7,
-        "scarcity": 6,
-        "virality": 5,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "MoE训练提速秘籍：高级融合内核的原理与使用",
-          "angle": "解释MoE模型训练中的瓶颈，展示融合内核如何优化通信和计算，并提供代码示例。",
+          "title": "AI加速英国住房规划：DeepMind 模型如何优化审批流程？",
+          "angle": "以英国政府与DeepMind合作为案例，讲解AI在规划审批中的具体应用场景（如自动分析建筑图纸、合规性检查），并给出开发者如何构建类似决策支持系统的技术框架。",
           "difficulty": "中级"
         },
         {
           "tag": "analysis",
-          "title": "融合内核如何让MoE训练吞吐量翻倍？技术深度解析",
-          "angle": "从底层硬件和软件协同角度，分析融合内核的设计思路及其对大规模MoE训练的实际收益。",
-          "difficulty": "高级"
+          "title": "当AI遇上城市规划：英国用DeepMind加速建房审批的启示",
+          "angle": "从政策与效率角度，分析AI如何解决传统住房规划中的瓶颈（如数据孤岛、人工审核慢），并探讨该模式在其他国家落地的可行性与挑战。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "7b2939957c5d",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "WWDC 2026，硅谷历史上最昂贵的认输：1.2 万亿参数 Siri 来自 Gemini，但你的手机跑不了",
-      "link": "https://www.infoq.cn/article/LSwQ3hQpZ1INX40icTSE?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/LSwQ3hQpZ1INX40icTSE?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-06-15T18:00:57+08:00",
-      "fetched_at": "2026-06-16T12:28:49.065951+08:00",
-      "pre_filter_reason": "Siri 与 Gemini 模型、AI 参数规模",
+      "id": "b48c187fa47d",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Predicting model behavior before release by simulating deployment",
+      "link": "https://openai.com/index/deployment-simulation",
+      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+      "published": "2026-06-16T08:00:00+08:00",
+      "fetched_at": "2026-06-17T12:22:12.677467+08:00",
+      "pre_filter_reason": "OpenAI发布AI模型部署模拟方法，直接相关",
       "scores": {
         "importance": 9,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "WWDC 2026：苹果认输？1.2万亿参数Siri背后的战略转向",
-          "angle": "解读苹果为何选择Gemini而非自研模型，分析其对AI生态和用户隐私策略的长期影响。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "手机跑不了大模型？WWDC 2026揭示端侧AI的边界与未来",
-          "angle": "探讨大模型在移动设备上的部署挑战，以及苹果转向云端协作的启示。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "e3757ffa6228",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "NVIDIA /SkillSpector",
-      "link": "https://github.com/NVIDIA/SkillSpector",
-      "summary": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
-      "published": "2026-06-16T12:29:04.621023+08:00",
-      "fetched_at": "2026-06-16T12:29:04.621027+08:00",
-      "pre_filter_reason": "Security scanner for AI agent skills, AI-related.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 8,
+        "timeliness": 9,
+        "actionability": 9,
         "scarcity": 8,
         "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.6,
+      "quality_score": 8.4,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "AI Agent安全第一步：用SkillSpector扫描技能漏洞",
-          "angle": "演示如何安装和运行SkillSpector，检测常见恶意模式，保护Agent应用安全。",
-          "difficulty": "入门"
+          "title": "OpenAI 部署模拟技术详解：如何用真实对话数据预测模型行为",
+          "angle": "手把手教学：从数据收集、模拟环境搭建到评估指标设计，演示如何复现OpenAI的Deployment Simulation方法，帮助开发者在发布前发现潜在安全风险。",
+          "difficulty": "高级"
         },
         {
           "tag": "analysis",
-          "title": "AI Agent安全扫描器SkillSpector：为什么每个开发者都需要它？",
-          "angle": "分析AI Agent面临的安全威胁，以及SkillSpector如何填补这一空白，提升行业安全标准。",
-          "difficulty": "中级"
+          "title": "模型上线前先“预演”：OpenAI 部署模拟如何提升AI安全性？",
+          "angle": "解读Deployment Simulation的核心原理（如对抗性对话生成、行为边界测试），对比传统评估方法的优劣，并讨论其对AI治理和合规的深远影响。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "10b64327107d",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
+      "id": "2fd554912b56",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
+      "source_tier": "T1",
       "source_lang": "en",
-      "source_category": "community",
-      "title": "Panniantong /Agent-Reach",
-      "link": "https://github.com/Panniantong/Agent-Reach",
-      "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "published": "2026-06-16T12:29:04.617376+08:00",
-      "fetched_at": "2026-06-16T12:29:04.617380+08:00",
-      "pre_filter_reason": "AI agent with internet reading/search capabilities",
+      "source_category": "official",
+      "title": "Build On-Device AI Companions with the NVIDIA ACE Game Agent SDK and Unreal Engine 5 Plugins",
+      "link": "https://developer.nvidia.com/blog/build-on-device-ai-companions-with-the-nvidia-ace-game-agent-sdk-and-unreal-engine-5-plugins/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/ai-game-character.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ai-game-character.\" width=\"600\" />NVIDIA RTX technologies are deeply integrated into Unreal Engine 5 through the NVIDIA RTX Branch of Unreal Engine and the NVIDIA DLSS Unreal Engine plugin. This...",
+      "published": "2026-06-17T01:00:00+08:00",
+      "fetched_at": "2026-06-17T12:22:14.487830+08:00",
+      "pre_filter_reason": "NVIDIA ACE Game Agent SDK for on-device AI companions.",
       "scores": {
         "importance": 7,
         "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 9,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 6,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.6,
+      "quality_score": 8.1,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "零API费用，一键抓取全网数据：Agent-Reach 实战教程",
-          "angle": "手把手演示如何用一行命令让AI代理读取Twitter、Reddit、B站等平台数据，无需任何API费用，适合数据采集和内容分析场景。",
+          "title": "用NVIDIA ACE SDK在Unreal Engine 5中打造端侧AI游戏伙伴",
+          "angle": "从SDK安装、角色对话系统集成到端侧推理优化，逐步指导开发者利用ACE Game Agent和UE5插件，在游戏中实现低延迟、无云的AI NPC交互。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "analysis",
+          "title": "端侧AI游戏角色时代来了？NVIDIA ACE与UE5集成深度解析",
+          "angle": "分析ACE SDK的技术亮点（如RTX AI加速、本地推理），对比云端AI方案在延迟和隐私上的优势，并展望该技术对游戏叙事和玩家体验的变革潜力。",
           "difficulty": "入门"
-        },
-        {
-          "tag": "opinion",
-          "title": "AI代理的“眼睛”来了：Agent-Reach 如何改变数据获取方式？",
-          "angle": "分析Agent-Reach对开发者、内容创作者和企业的价值，探讨“零API费用”模式对传统数据采集工具的冲击。",
-          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "f56f8df0d0a8",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "阿里发布首个具身大模型Qwen-Robot系列",
-      "link": "https://36kr.com/newsflashes/3855340769563907?f=rss",
-      "summary": "6月16日，阿里巴巴发���千问具身智能大模型Qwen-Robot系列，包含VLA操作模型 Qwen-RobotManip、VLN移动模型Qwen-RobotNav和世界模型Qwen-RobotWorld三大模型。这是千问大模型家族首个完整的具身智能模型系列——三个模型分别为机器人装上灵巧的手、认路的脚和会思考的大脑，既可单独部署，也能协同运转。",
-      "published": "2026-06-16T12:26:55+08:00",
-      "fetched_at": "2026-06-16T12:28:42.761936+08:00",
-      "pre_filter_reason": "AI model launch (embodied intelligence)",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "阿里Qwen-Robot系列：手、脚、大脑三大模型如何协同工作？",
-          "angle": "拆解Qwen-RobotManip（操作）、Qwen-RobotNav（移动）、Qwen-RobotWorld（世界模型）的功能，并用简单案例说明机器人如何实现从感知到行动的闭环。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "opinion",
-          "title": "阿里发布首个具身智能大模型：机器人通用底座来了？",
-          "angle": "解读Qwen-Robot系列对机器人行业的战略意义，对比其他具身智能方案，探讨其是否真能成为“机器人操作系统”。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "0b147c32cc45",
+      "id": "d9e29bad4573",
       "source_id": "ithome-ai",
       "source_name": "IT之家",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "阿里巴巴发布首个具身智能大模型 Qwen-Robot 系列，为机器人打造手、脚、大脑通用底座",
-      "link": "https://www.ithome.com/0/964/748.htm",
-      "summary": "<p>IT之家 6 月 16 日消息，阿里巴巴发布千问具身智能大模型 Qwen-Robot 系列，包含 VLA 操作模型 Qwen-RobotManip、VLN 移动模型 Qwen-RobotNav 和世界模型 Qwen-RobotWorld 三大模型。</p><p>这是千问大模型家族首个完整的具身智能模型系列 —— 三个模型分别为机器人装上灵巧的手、认路的脚和会思考的大脑，既可单独部署，也能协同运转，让不同形态的机器人迈向真实落地有了可靠的“通用底座”。</p><p>IT之家注意到，5 月 20 日，阿里巴巴发布全新一代千问旗舰模型 Qwen3.7-Max，在三方机构 Arena 全球大模型盲测总榜中，Qwen3.7-Max 超过 Kimi-K2.6、DeepSeek-v4-pro、GLM-5.1，与 GPT、Claude、Gemini 最强模型接近，位列国产模型第一。</p>",
-      "published": "2026-06-16T12:21:21+08:00",
-      "fetched_at": "2026-06-16T12:28:56.042492+08:00",
-      "pre_filter_reason": "AI model launch (embodied intelligence)",
+      "title": "证监会主席吴清：依法从严打击利用人工智能非法荐股等乱象",
+      "link": "https://www.ithome.com/0/965/291.htm",
+      "summary": "<p>IT之家 6 月 17 日消息，今日，证监会主席吴清在 2026 陆家嘴论坛上表示，下一步将严查严处借科技之名蹭热点、炒概念，甚至操作市场、内幕交易等违法违规行为。适时发布规范发展资本市场人工智能的指导意见，依法从严打击利用人工智能非法荐股，甚至利用人工智能造谣传谣、违法交易等乱象。</p><p>吴清还表示，科创板将第五套标准适用范围将扩大至人工智能大模型行业。有序推进深化科创板改革，加大对新型消费和现代服务业的支持力度，更好服务成长型创新创业企业发展。</p><p>IT之家注意到，吴清透露，目前 A 股科技板块市值占比超过 3 成，市值超千亿的科技企业占比达到 45%。</p>",
+      "published": "2026-06-17T11:38:41+08:00",
+      "fetched_at": "2026-06-17T12:22:34.385041+08:00",
+      "pre_filter_reason": "AI regulation and policy",
       "scores": {
-        "importance": 8,
+        "importance": 9,
         "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
+        "actionability": 9,
+        "scarcity": 8,
         "virality": 8,
-        "crowd_heat": 0.0
+        "crowd_heat": 3.5
       },
-      "quality_score": 7.6,
+      "quality_score": 8.0,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "阿里巴巴Qwen-Robot系列：手把手理解VLA、VLN与世界模型",
-          "angle": "用通俗语言和类比解释三大模型（操作、移动、世界模型）的工作原理，并展示一个简单任务（如“去厨房拿杯子”）的完整流程。",
-          "difficulty": "入门"
+          "title": "合规指南：AI金融应用如何避开“非法荐股”红线？",
+          "angle": "结合证监会最新监管精神，梳理AI在金融领域合法使用的边界（如禁止自动生成个股推荐），并给出开发者构建合规AI投顾系统的技术实现要点（如内容审核、风险提示）。",
+          "difficulty": "中级"
         },
         {
-          "tag": "opinion",
-          "title": "从Qwen-Robot看具身智能：阿里如何让机器人拥有“通用底座”？",
-          "angle": "分析该系列模型的创新点（可单独部署/协同运转），并讨论其对机器人落地（如物流、家庭服务）的潜在影响。",
-          "difficulty": "中级"
+          "tag": "analysis",
+          "title": "证监会重拳出击：AI非法荐股与造谣乱象的监管逻辑",
+          "angle": "解读吴清主席讲话背后的政策信号，分析AI炒股、造谣等乱象的技术成因，并探讨科创板对AI大模型公司扩大覆盖范围带来的机遇与合规挑战。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "3c06b29d4c73",
+      "id": "1a5872731ed6",
       "source_id": "infoq-cn",
       "source_name": "InfoQ中国",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "Coding Agent 技术全景图：Context Engineering、Subagents 与 Harness，一年范式转移全解析",
-      "link": "https://www.infoq.cn/article/UFLm5D5VDPmu9Ykc9CdJ?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/UFLm5D5VDPmu9Ykc9CdJ?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-06-15T18:31:38+08:00",
-      "fetched_at": "2026-06-16T12:28:49.065914+08:00",
-      "pre_filter_reason": "Coding Agent 技术、AI 编程范式",
+      "title": "DeepSeek 融资交易曝光：腾讯、宁德时代等被锁5年，且没投票权，梁文锋绝对控制",
+      "link": "https://www.infoq.cn/article/IRLrMM9Rifv5Dmqr2fYR?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/IRLrMM9Rifv5Dmqr2fYR?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-06-17T02:50:59+08:00",
+      "fetched_at": "2026-06-17T12:22:25.179764+08:00",
+      "pre_filter_reason": "DeepSeek is an AI company; news about its financing round.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 9,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "DeepSeek融资结构拆解：腾讯、宁德时代为何接受5年锁定期与无投票权？",
+          "angle": "从融资条款（锁定期、投票权）出发，解读创始人梁文锋如何通过特殊股权设计保持绝对控制权，并分析这对AI初创公司治理的启示。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "case_study",
+          "title": "AI独角兽的“铁腕”融资：DeepSeek案例给创业者什么教训？",
+          "angle": "以DeepSeek融资事件为案例，探讨AI企业在高速扩张期如何平衡资本引入与创始人控制权，以及战略投资者（如腾讯、宁德时代）的长期绑定逻辑。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "42239c9b1f6a",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "search",
+      "title": "吴清：科创板第五套标准扩大至AI大模型行业，支持量子科技等硬科技企业上市 - 新浪网",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMFlTNlpEMVJ4bTFQX014UVdudnk3aTY3OTlkV1p6SWRZSXFkOUZIVFlIZ2NzVzAwOXBmM3VfYndkZHl6SGU1X2VjLXlVN2JRZWl3QVJwZXZPbF9xX09aMjA4czFlVnh6N3pYdE5IMmZkdlp4a0lCazlEM0NOeDFDZjMzRQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQMFlTNlpEMVJ4bTFQX014UVdudnk3aTY3OTlkV1p6SWRZSXFkOUZIVFlIZ2NzVzAwOXBmM3VfYndkZHl6SGU1X2VjLXlVN2JRZWl3QVJwZXZPbF9xX09aMjA4czFlVnh6N3pYdE5IMmZkdlp4a0lCazlEM0NOeDFDZjMzRQ?oc=5\" target=\"_blank\">吴清：科创板第五套标准扩大至AI大模型行业，支持量子科技等硬科技企业上市</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪网</font>",
+      "published": "2026-06-17T12:17:13+08:00",
+      "fetched_at": "2026-06-17T12:22:38.208013+08:00",
+      "pre_filter_reason": "科创板标准扩大至AI大模型行业",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "科创板第五套标准扩围：AI大模型企业如何抓住上市新机遇？",
+          "angle": "解释科创板第五套标准的核心变化（从生物医药扩展至AI大模型、量子科技），并给出硬科技企业满足上市条件的实操路径（研发投入、营收门槛等）。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "news_analysis",
+          "title": "政策风向标：科创板向AI大模型敞开大门，哪些公司最受益？",
+          "angle": "分析政策对AI产业链的影响，重点解读未盈利AI企业上市门槛降低后，对创业公司融资、估值及行业竞争格局的潜在冲击。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "80df981bc311",
+      "source_id": "hn-ai",
+      "source_name": "Hacker News (AI)",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "Leaked OpenAI financials show $38.5B loss and compute burn",
+      "link": "https://runtimewire.com/article/openai-leaked-financials-altman-compute-burn",
+      "summary": "<p>Article URL: <a href=\"https://runtimewire.com/article/openai-leaked-financials-altman-compute-burn\">https://runtimewire.com/article/openai-leaked-financials-altman-compute-burn</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48565130\">https://news.ycombinator.com/item?id=48565130</a></p>\n<p>Points: 14</p>\n<p># Comments: 5</p>",
+      "published": "2026-06-17T10:47:29+08:00",
+      "fetched_at": "2026-06-17T12:22:46.886682+08:00",
+      "pre_filter_reason": "OpenAI财务泄露，直接涉及AI公司",
       "scores": {
         "importance": 8,
         "timeliness": 8,
         "actionability": 9,
+        "scarcity": 9,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "OpenAI亏损385亿美元？一文读懂AI公司的“算力烧钱”经济学",
+          "angle": "以OpenAI财务数据为引，拆解AI大模型公司的主要成本结构（算力、人才、数据），并解释为何巨额亏损仍是行业常态。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "case_study",
+          "title": "从OpenAI财报看AI行业泡沫风险：算力军备竞赛何时休？",
+          "angle": "结合OpenAI亏损与算力消耗数据，分析AI公司商业化困境与资本依赖，探讨行业是否面临估值回调风险。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "5ac9da299d8c",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "How to Optimize Transformer-Based Models for Low-Precision Training",
+      "link": "https://developer.nvidia.com/blog/how-to-optimize-transformer-based-models-for-low-precision-training/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/cube-black-background-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"cube-black-background\" width=\"768\" />Transformer architectures are the backbone of many modern large language and generative AI models. As these models grow in size, training runs consume more GPU...",
+      "published": "2026-06-17T00:00:00+08:00",
+      "fetched_at": "2026-06-17T12:22:14.487845+08:00",
+      "pre_filter_reason": "Optimizing Transformer-based models, a core AI topic.",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 5,
+        "virality": 5,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "低精度训练实战：如何用FP8/INT8优化Transformer模型？",
+          "angle": "从技术原理（量化、混合精度）到代码示例，手把手教学如何在不显著损失精度的情况下降低Transformer训练显存与计算成本。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "NVIDIA最新工具：低精度训练Transformer的5个关键步骤",
+          "angle": "基于NVIDIA官方技术文档，提炼低精度训练的最佳实践（如梯度缩放、损失缩放、校准数据集选择），适合有深度学习基础的开发者。",
+          "difficulty": "高阶"
+        }
+      ]
+    },
+    {
+      "id": "14487ce5ffd7",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "全网首份指令级拆解：看华为昇腾 950DT 芯片如何撬动 DeepSeek 75%降价与字节锁单",
+      "link": "https://www.infoq.cn/article/y9letxDfTZ72Ls1JX27u?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/y9letxDfTZ72Ls1JX27u?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-06-17T19:12:03+08:00",
+      "fetched_at": "2026-06-17T12:22:25.179652+08:00",
+      "pre_filter_reason": "Discusses Huawei Ascend chip and DeepSeek, AI-related hardware and model.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 9,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "华为昇腾950DT芯片深度拆解：它如何让DeepSeek降价75%？",
+          "angle": "从指令集、架构优化到软件栈，解释昇腾950DT如何通过专用计算单元（如Cube、Vector）和内存带宽设计实现大模型推理降本。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "news_analysis",
+          "title": "字节跳动锁单华为昇腾950DT：国产AI芯片替代进入“深水区”？",
+          "angle": "分析字节大量采购昇腾芯片的战略意义，探讨国产芯片在AI推理场景的性价比突破，以及对英伟达市场份额的潜在影响。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "33f486fb1587",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "alistaitsacle/free-llm-api-keys",
+      "link": "https://github.com/alistaitsacle/free-llm-api-keys",
+      "summary": "Free LLM API keys for GPT-5.5, Claude, DeepSeek, Gemini, Grok — copy, paste, use. Updated 3-5x daily. No credit card needed.",
+      "published": "2026-06-17T12:22:49.068862+08:00",
+      "fetched_at": "2026-06-17T12:22:49.068864+08:00",
+      "pre_filter_reason": "Free LLM API keys",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "免费白嫖GPT-5.5？这个开源项目让你一键调用顶级大模型",
+          "angle": "手把手教学：如何从GitHub获取免费API密钥，并快速集成到自己的聊天或写作工具中，无需信用卡。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "news",
+          "title": "每天更新3-5次！这个免费API项目正在改变AI开发者的工作流",
+          "angle": "解读该项目为何火爆：免费、高频更新、支持多模型，对个人开发者和中小企业意味着什么。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "422914b11a0a",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Building AI Agents for AR Glasses and XR Devices with NVIDIA XR AI",
+      "link": "https://developer.nvidia.com/blog/building-ai-agents-for-ar-glasses-and-xr-devices-with-nvidia-xr-ai/",
+      "summary": "<img alt=\"An image of a scientist using XR glasses.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/AR-Glasses-e1781633499339-768x432.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"AR-Glasses\" width=\"768\" />Developers building for AR glasses and wearable devices face an infrastructure gap. The hardware is ready, but creating AI experiences requires integrating live...",
+      "published": "2026-06-17T06:30:00+08:00",
+      "fetched_at": "2026-06-17T12:22:14.487768+08:00",
+      "pre_filter_reason": "AI agents for AR/XR",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 5,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "AR眼镜+AI Agent：用NVIDIA XR AI打造你的第一个智能助手",
+          "angle": "从零开始，演示如何利用NVIDIA XR AI框架在AR/XR设备上构建一个能感知环境的AI Agent。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "news",
+          "title": "NVIDIA新动作：XR AI让AR眼镜学会“思考”，未来已来",
+          "angle": "分析NVIDIA XR AI的技术亮点及其对增强现实、混合现实行业的影响，展望人机交互新范式。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "350ba3215c47",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "「逆矩阵」完成超亿美元融资，创始人：通用世界基座模型窗口期已压至18个月",
+      "link": "https://36kr.com/p/3826129009234824?f=rss",
+      "summary": "<p>文｜王毓婵</p>\n  <p>编辑｜张雨忻</p>\n  <p>2026 年以来，一级市场对世界模型的抢筹进入白热化阶段。资金不再像早期那样“广撒网”，而是高度向头部玩家集中。这其中，逆矩阵科技（Physis）就接连完成了多轮融资。</p>\n  <p>36氪智能涌现独家据悉，世界模型公司逆矩阵科技已完成超亿美元种子++轮融资；此前的 3 月，刚完成了超千万美元首轮融资。本轮由经纬创投、五源资本、光合创投等机构共同参与，并获蚂蚁集团战略投资，老股东高瓴创投、燕缘创投持续加注。</p>\n  <p>在本轮融资落定前后，逆矩阵发布了通用世界基座模型Physis-v0.1，并将其概括为“One For All”的通用物理世界应用。该模型主打物理正确、长程一致、动作因果、通用泛化四项能力，一次预训练即可服务具身智能、工业仿真、游戏物理、科学预测等多类场景。</p>\n  <p>逆矩阵计划于 2026 年底发布旗舰模型，过程中将放出开源切片和技术报告。本轮资金将主要用于通用世界基座模型的预训练研发、规模化训练体系建设。</p>\n  <p>团队由北大青年学者陈博远、吉嘉铭联合创立，一半是青年学者（含奥赛金牌、省市状元与多位顶会论文作者），一半是来自一线科技企业的资深工程人才。他们组成了一个 AI-native 的扁平化团队，没有层级汇报与季度指标，靠技术判断而非行政命令对齐方向；信奉自由探索、第一性原理与长期主义。</p>\n  <p>智能涌现在新一轮融资敲定之际，独家采访了陈博远。他回答了关于组织架构、融资节奏、技术路线、行业判断和场景落地等多个问题。</p>\n  <p>“行业内目前的共识是，18~24个月内，世界基座模型能力会出现标志性的阶跃，36个月内，能在多个真实场景完成实际应用落地。”陈博远说。“这与语言模型从 GPT-3 到 ChatGPT 的路径高度吻合。”</p>\n  <p>以下是智能涌现与陈博远的对话实录：</p>\n  <h2><strong>通用世界基座模型的窗口期正在从三年压缩到十八个月</strong></h2>\n  <p><strong>Q1：恭喜逆矩阵完成新一轮超亿美元量级的融资。距离上一轮融资仅仅过去不到两个月，为什么能保持这么快的融资节奏？</strong></p>\n  <p>陈博远：这背后反映了投资人对 AI 发展第三次范式跃迁的押注。</p>\n  <p>过去十年，AI 经历了语言模型（预测下一个词）和视觉生成模型（预测下一帧）两次跃迁，分别催生了平台级公司。现在的第三次跃迁是由 AI 从虚拟世界走向物理世界带来的，核心是面向物理空间“预测下一个物理状态”。</p>\n  <p>这套“给定当前状态与动作，预测世界如何演化”的范式，曾在 AlphaGo、机器人控制等子问题中出现过，如今正在收敛为同一套解法框架。但物理世界与虚拟世界的根本区别在于，物理世界是“部分可观测”的，模型不能只停留在“看到什么做什么”，必须理解底层的物理约束。</p>\n  <p>投资人愿意快速跟进并追加投资，主要基于两点判断：</p>\n  <p>一是“底层统一建模物理规律，上层按需适配不同���景”的基座模型路径正在成为行业共识；</p>\n  <p>二是通用世界基座模型的窗口期正在从三年压缩到十八个月，做通用预训练的团队会拥有更大的空间。一个领先的通用基座具有数据scaling和算法有效性，会构成难以被追赶的壁垒。</p>\n  <p><strong>Q2：在融资过程中，投资人问得最多的问题是什么？大家对技术走向落地的时间周期有怎样的共识？</strong></p>\n  <p>陈博远：问得最密集的是：“凭什么相信通用世界基座模型能做成？”以及“团队是否在坚定地做基座模型？”</p>\n  <p>在我们看来，能不能称之为基座模型，关键在于是否真正从物理预测这个目标出发去构建。于是我们从零开始解决物理预测目标，自研底层架构，并在训练分布外看到了合理的物理推演曙光。</p>\n  <p>逆矩阵的内部实验表明，随着数据和参数规模增加，状态预测误差持续下降，呈现出类似大语言模型的指数级 Scaling 潜力，而未出现垂类模型的饱和拐点。</p>\n  <p>关于落地周期，共识是 18~24个月内基座模型能力会出现标志性的阶跃，并在真实需求上取得高分；36个月内能在多个真实场景完成实际应用落地。这与语言模型从 GPT-3 到 ChatGPT 的路径高度吻合。届时，各个垂类场景将直接成为基座模型 API 的调用者，形成类似 AWS 与 SaaS 的关系。</p>\n  <p><strong>Q3：为什么没有在当下引入产业基金投资？</strong></p>\n  <p>陈博远：现阶段我们最需要的是把\"弹药\"集中到一个方向，去攻克通用世界基座模型的研发与算力门槛。这是一件需要长期、专注投入的事。</p>\n  <p>我们现在不急于做商业化，这是我们在这个阶段做出的价值判断。对一家做通用基座的公司来说，过早把模型绑定到某个垂直场景去变现，看上去摘到了眼前的果实，实际上是给自己画了一道边界：一旦围绕单一场景去采数据、调模型、做交付，就会逐渐退化成\"一个场景、一套模型\"。</p>\n  <p>我们相信物理规律的通用解是存在的，重力、碰撞、摩擦等等在任何场景里都是同一套规律。基座的价值在于跨场景复用。所以我们不急于变现，并不意味着不重视商业化。我们看重商业化，但现阶段更愿意先把基座的物理理解能力打扎实；商业化的节奏，会随着技术成熟和真实产业需求自然展开。</p>\n  <p>能力先于商业动作，组织风格保持克制。投资人最终愿意为可重复、可扩张的能力买单，而把这个能力打扎实，是我们当下唯一该做的事。</p>\n  <p><strong>Q4：你也是智源行为世界模型创新中心的负责人，逆矩阵和智源研究院之间有关联吗？</strong></p>\n  <p>陈博远：智源研究院一直定位在 AI 领域从 0 到 1 的原始创新，逆矩阵本身更加聚焦于通用世界基座模型的底层探索和商业技术开发。两者都在逼近同一个目标——让人工智能真正理解物理规律。</p>\n  <h2><strong>最关键的分水岭：真正具备基座模型潜力</strong></h2>\n  <p><strong>Q5：世界模型会有自己的 Scaling Law 吗？</strong></p>\n  <p>陈博远：物理世界一定有自己的 Scaling Law，但绝不能沿用语言模型或视频生成的 Scaling Law。 直接复制存在三个失效原因：</p>\n  <p><strong>数据受限</strong>：物理交互数据无法像互联网文本那样无限爬取，采集与筛选成本极高。</p>\n  <p><strong>像素不等于物理</strong>：视频中 90% 的信息，如纹理、光照、运动模糊等，是与物理规律无关的视觉冗余。</p>\n  <p><strong>相关性不等于因果性</strong>：纯观察只能学到统计上的相关性，而物理的核心是因果性，必须有“动作”的介入才能区分规律与巧合。 因此，我们必须在“物理隐空间”而非像素空间进行 Scale up。这包含四个关键技术判断：</p>\n  <p><strong>压缩</strong>：将世界编码为包含力、速度等抽象表征的高效物理隐空间，剥离视觉冗余。</p>\n  <p><strong>因果性</strong>：在隐空间原生引入动作干预，让模型理解动作导致的物理状态转移。</p>\n  <p><strong>验证</strong>：纯生成式的路径只有生成能力、缺少验证能力，容易出现穿透、失重这类“物理幻觉”。为此我们引入强化学习，如 RLVR 可验证信号奖励，通过明确的物理约束构建闭环对齐信号。</p>\n  <p><strong>通用</strong>：最终的隐空间必须能服务于不同场景（One for All），因为物理规律在不同场景中是同一的。</p>\n  <p><strong>Q6：在模型训练中，具体是怎么设计机制让模型从“主动干预”中学习的？为了防止模型在面对未见环境时发生物理推演崩溃，引入的具体奖惩机制又是怎样的？</strong></p>\n  <p>陈博远：物理世界规律产生于交互，而非被动感知。</p>\n  <p>因此，我们从零设计了模型架构，在底层物理隐空间原生引入动作。这不像传统的视频生成模型通过嫁接引擎来响应控制，就好比不能在没有方向盘的车上焊一个方向盘，然后宣称它是可操控的。</p>\n  <p>我们将动作，无论是关节运动量，还是移动残差向量，作为条件信号注入，去调制下一个物理状态的预测过程。这样，每一条数据的密度都翻倍了，模型学到的不再是“世界长什么样”，而是“采取何种动作，导致了什么转移”，从而实现从相关性到因果性的跃迁。</p>\n  <p>物理天然是可验证的。例如，物体不会凭空消失，赛车不能穿墙，流体不能像冰块一样倒出。因此，我们在强化学习中构建了自动化的物理验证沙盒。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260616/v2_5ac919906acb4d04b0f36f5a9bb075a1@10269314_oswg444986oswg1265oswg717_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">世界模型的 W0–W5 能力分级 逆矩阵制图</p>\n  <p><strong>Q7：逆矩阵提到的“W0-W5世界模型能力分级”中，你们目前处于哪一层？当“一个机器人能顺利打鸡蛋”时，模型属于第几层？</strong></p>\n  <p>陈博远：这分类对标了自动驾驶的 L0-L5。当前大部分模型处于 W0-W1，能响应动作并生成流畅视频，</p>\n  <p>逆矩阵正在攻克 W1 到 W2 的跃迁，这是最关键的分水岭。 W2 代表模型真正具备基座模型潜力，解决了“物理真实性”问题，理解了因果关系。 如果仅仅为了让机器人“打鸡蛋”，垂类训练也能做到极好的控制，但它可能只懂打鸡蛋的局部场景，不懂通用物理。</p>\n  <p>衡量基座模型是否足够好的核心在于“动作跟随性（Action Following）”和泛化能力。就像基座模型不仅会打鸡蛋，换到柔性材料场景也能玩溜溜球。大模型通过强化学习实现了通用数学代码推理的跃迁，世界模型也需要在明确的物理验证信号下学习，突破为通用的指数级跃迁。</p>\n  <p><strong>Q8：在这个模型攀登过程中，最核心的瓶颈是算力、数据还是算法？</strong></p>\n  <p>陈博远：我觉得都非常重要。但是如果只能选一个的话，我认为是在数据和算法背后反映的“范式”。因为他们三者其实是统一于底层范式的变革。</p>\n  <p><strong>数据层面</strong>：我们构建了数据金字塔。第一层是强物理交互的真实视频（学习世界状态）；第二层是第一人称（Ego-centric）视频与游戏引擎数据（学习动作导致的转移）；第三层则是极其稀缺的关键物理突变数据（如玻璃破碎、流体断裂），我们通过自建数据生产闭环来生产这部分高价值数据。</p>\n  <p><strong>算力层面</strong>：关键在于算力效率。在物理隐空间进行 Scaling，确保相同算力下学习到的都是��效物理信号，而非视觉噪音。</p>\n  <p><strong>算法层面</strong>：强化学习提供了无限供给的物理教师，将自动化验证引入模型。</p>\n  <p><strong>Q9：面对目前 GPU 昂贵且资源紧缺，同时真实物理交互数据又极度稀缺且昂贵的现实困境，逆矩阵是如何解决的？</strong></p>\n  <p>陈博远：主要通过数据合作与重构数据获取范式两个方面来解决。</p>\n  <p>第一，在数据合作层面，我们与一些公司建立了上下游合作关系，这为模型训练提供了大量真机数据支持，构成了很好的基石。</p>\n  <p>第二，相比于单纯的数据量，更关键的是“我们要学习什么样的数据”。互联网每天产生海量的视频，YouTube 每天就能产生数十万小时内容，但其中可能只有5%包含真实的物理交互。对于学习物理来说，我们需要的不是那95%的视觉冗余，而是强物理动态属性的稀缺数据。 因此，我们构建了数据金字塔：</p>\n  <p><strong>L1层</strong>：通过筛选高质量的真实世界视频学习物理状态。</p>\n  <p><strong>L2层</strong>：通过第一人称视角（Ego-centric）视频与仿真引擎数据，学习动作导致的状态转移。</p>\n  <p><strong>L3层</strong>：通过自建数据生产闭环，在仿真环境中构建极端边缘状态，例如处于倒塌边缘的杯子，并主动筛选强物理突变的数据，如玻璃破碎、汽车爆炸等。这部分稀疏且突变的规律数据对于模型真正掌握真实物理规律具有极高的性价比，是迈向物理正确的最关键一环。</p>\n  <h2><strong>场景落地：先通用再适配</strong></h2>\n  <p><strong>Q10：今年底你们计划发布的旗舰模型，会首先切入具身智能、工业仿真还是游戏物理等垂直场景？</strong></p>\n  <p>陈博远：我们的定位是“先通用再适配”。底层同一个基座，通过拼接不同的可插拔解码器，就能服务于各个场景，比如视频解码器用于游戏渲染，运动解码器用于工业孪生，动作解码器用于具身智能控制。</p>\n  <p>我们在一年之内，并不着急去做世界模型 for 具身/for 工业场景/for 游戏，因为在真实物理世界里面，它们其实是共通的，过早聚焦垂类容易导致过拟合。</p>\n  <p>旗舰模型成熟后，我们会优先在具身智能、工业仿真等场景做验证与落地。年底发布的模型，重点是向全球开发者展示其在未见过的物理场景中的预测能力，成为物理世界基础设施的提供者。</p>\n  <p><strong>Q11：在 W2 和 W3 阶段，世界模型相比 Unity、Unreal 等传统引擎，能带来多大提升？是颠覆者还是互补者？</strong></p>\n  <p>陈博远：短期是互补，长期是颠覆。 传统引擎依赖手写规则，对刚体预测较准，但在柔性物体（流体断裂、形变）等复杂交互上是盲区。 世界模型通过交互学习真实的物理因果性，具有三大优势：</p>\n  <p><strong>天然支持复杂物理交互</strong>，不依赖手写规则；</p>\n  <p><strong>极强的泛化性</strong>，传统引擎换场景需重新调参，而基座模型一句话即可生成千万级具有真实物理属性的场景；</p>\n  <p><strong>极高的效率</strong>，状态预测是秒级的。当模型迈向 W3，机器将从“执行规则”变为“理解规律、自主推演”。</p>\n  <p><strong>Q12：您自己平时玩游戏吗？有哪些游戏在物理交互上做得让您印象深刻？像《塞尔达》中玩家利用风扇和瀑布涌现出的水雾效果，未来是否可以不由程序员手写代码，而是由大模型自主推演完成？</strong></p>\n  <p>陈博远：像《荒野大镖客》、《黑神话：悟空》这类开放世界与动作游戏，它们的视觉渲染与底层物理交互都做得非常逼真。</p>\n  <p>但这背后的代价是极高的，逼真效果高度依赖于大量手写的物理规则和材质变化的响应代码。这恰恰反映了世界模型的颠覆性价值。 如果引入了真正理解物理规律的通用基座模型，像《塞尔达》里这种复杂元素的叠加交互效果将能够自然涌现，不再需要程序员预先逐条编写规则。</p>\n  <p>基座模型代替手写代码实现机器自主推演，再结合三维渲染达到视觉效果，在底层上能实现对现有物理引擎的巨大互补甚至颠覆。</p>\n  <h2><strong>在前沿探索性极强的领域，不能再套用传统的公司组织架构</strong></h2>\n  <p><strong>Q13：公司为什么选择搭建一个没有层级汇报和季度指标、高度扁平化的 AI-native 团队？这种 Neo lab 的研究氛围，在拿了高额融资之后，如何确保团队的执行力和交付效率？</strong></p>\n  <p>陈博远：这可以从三个递进的层面来回答：AI-Native、扁平化与高效机制。</p>\n  <p>首先，AI-Native 意味着我们真正在用 AI 重塑工作流。 我们的每一位员工，都配备了代码智能体（Agent）。新员工入职的第一件事就是学会使用 AI 提效工具。现在一个工程师配合几个 Agent 就能完成以往一个基础技术团队的工作量。更重要的是，同事之间可以互相访问对方的 Agent 来了解工作进展，降低了信息同步和共享的沟通摩擦。</p>\n  <p>其次，关于无 KPI 与高度扁平化。 通用世界基座模型是一个前沿探索性极强的领域，最重要的技术突破往往来自意想不到的方向。我们非常欣赏早期的 DeepMind 和 OpenAI，那种真正的底层创新往往只来自于两三个人的核心灵感，随后再将其扩展。在这种阶段，强加的 KPI 和部门墙反而会成为创新的沉重负担。</p>\n  <p>我们依靠这三点保持高效：方向上大家高度对齐，每个人都清楚公司在做什么、为什么做，不用谁来催；信息几乎没有衰减，想找个不同背景的同事 challenge 一下想法，随时就能聊起来；最后是认结果，谁做了什么贡献都摆在明面上，用验证结果说话。</p>\n  <p><strong>Q14：一个由青年天才与资深工程人才组成的团队，是什么样的工作氛围？在直觉和经验不同时，大家是如何达成平衡的？</strong></p>\n  <p>陈博远：我们团队就像一艘探索无人区的“快艇”，极高的人才密度和跨界背景是我们最核心的特征。 团队里既有做视觉生成、强化学习、3D仿真的，也有来自大厂的核心底层架构（Infra）专家，以及年轻的的 IOI/ICPC 奥赛金牌得主。</p>\n  <p>过往的经验是我们的垫脚石，但我们要防止它成为技术突破的绊脚石。</p>\n  <p><strong>Q15：拿完融资之后，目前这种“精英小团队”组织形态会改变吗？AI人才现在极其抢手，逆矩阵如何面对大厂的竞争并留住这些顶尖人才？</strong></p>\n  <p>陈博远：面对大厂在资金、算力上的竞争，我们的定位和他们不在同一层——大厂更多是在应用层针对特定本体做优化，而我们做的是底层通用基础设施。大厂就像一艘远洋货轮，体量极大但很难轻易转向；而我们是一艘快艇，能更快地跑出从 0 到 1 的原始探索，这本身就需要初创的精英团队形态和极高的人才密度。 关于留住顶尖人才，其实不太靠“说服”，更多是互相吸引。一是这里足够自由；二是大家有共同的理想；三是从前沿研究到产业落地的链路在这里是完整的，研究能直接变成模型表现，最终推动真实的产业变化，而不只是停在论文上。</p>\n  <p><strong>Q16：过去一年，您个人最深刻的认知重塑是什么？</strong></p>\n  <p>陈博远：最大的认知重塑有两点： 第一，“物理的通用性”从我做学术时的一个抽象命题，真正在我们的工程实验中变成了可验证的事实。当我们看到模型规模扩大后涌现的泛化能力时，我确信这条路径走通了。</p>\n  <p>第二，真正的底层创新不能只靠个人的技术直觉，需要一群有技术品味的人相互碰撞、修偏纠错。我们不能被短期的商业焦虑驱动，把底层技术做透，生态和开花结果自然水到渠成。</p>",
+      "published": "2026-06-17T09:00:00+08:00",
+      "fetched_at": "2026-06-17T12:22:17.210160+08:00",
+      "pre_filter_reason": "World model AI company funding",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
         "scarcity": 8,
         "virality": 7,
         "crowd_heat": 0.0
@@ -507,183 +470,220 @@
       "quality_score": 7.6,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "Coding Agent技术全景图：Context Engineering、Subagents与Harness入门",
-          "angle": "用图解方式解释这三个核心概念（上下文工程、子代理、控制框架），并给出一个简单的代码示例，展示如何构建一个基础Coding Agent。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "opinion",
-          "title": "Coding Agent一年范式转移：从工具到自主编程的进化",
-          "angle": "回顾过去一年Coding Agent的技术演进，分析Context Engineering和Subagents如何推动AI编程从辅助到自主的转变，并预测未来趋势。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "a23a6c328c1b",
-      "source_id": "github-ai-repos",
-      "source_name": "GitHub AI 新项目",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "Comfy-Org/ComfyUI",
-      "link": "https://github.com/Comfy-Org/ComfyUI",
-      "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
-      "published": "2026-06-16T12:29:05.100169+08:00",
-      "fetched_at": "2026-06-16T12:29:05.100171+08:00",
-      "pre_filter_reason": "Diffusion model GUI and backend are AI-related.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 5,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "ComfyUI入门：用节点界面玩转扩散模型生成图像",
-          "angle": "从安装到第一个工作流，演示如何用ComfyUI的图形化节点界面实现文生图、图生图等基础功能，适合AI绘画新手。",
+          "tag": "news",
+          "title": "18个月窗口期！逆矩阵科技超亿美元融资，世界模型赛道为何如此疯狂",
+          "angle": "深度分析逆矩阵科技融资背景，解读“通用世界基座模型”的商业价值与技术壁垒，以及资本为何争相下注。",
           "difficulty": "入门"
         },
         {
           "tag": "tutorial",
-          "title": "ComfyUI进阶：自定义节点与高级工作流构建技巧",
-          "angle": "讲解如何创建自定义节点、优化工作流效率，并展示一个复杂案例（如视频生成或风格迁移），适合有一定基础的用户。",
-          "difficulty": "高级"
+          "title": "世界模型是什么？用Physis-v0.1看懂物理世界的AI推理",
+          "angle": "通俗解释世界模型概念，并结合逆矩阵发布的Physis-v0.1，展示其在模拟物理世界、预测未来方面的能力。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "2c4aa4a2dc3b",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
+      "id": "8703345e75f7",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
+      "source_tier": "T1",
       "source_lang": "en",
-      "source_category": "community",
-      "title": "trycua /cua",
-      "link": "https://github.com/trycua/cua",
-      "summary": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
-      "published": "2026-06-16T12:29:04.618810+08:00",
-      "fetched_at": "2026-06-16T12:29:04.618813+08:00",
-      "pre_filter_reason": "AI agents that control desktops, AI infrastructure",
+      "source_category": "official",
+      "title": "Build Your Own Transaction Foundation Model for Financial Intelligence",
+      "link": "https://developer.nvidia.com/blog/build-your-own-transaction-foundation-model-for-financial-intelligence/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/image7-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image7\" width=\"768\" />Every swipe, transfer, and payment on a modern financial network encodes a pattern of human behavior. Transaction data is one of the richest signals an...",
+      "published": "2026-06-17T04:30:08+08:00",
+      "fetched_at": "2026-06-17T12:22:14.487813+08:00",
+      "pre_filter_reason": "Mentions 'Transaction Foundation Model', which is an AI model for financial intelligence.",
       "scores": {
-        "importance": 8,
+        "importance": 6,
         "timeliness": 7,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 8,
+        "actionability": 6,
+        "scarcity": 6,
+        "virality": 5,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.5,
+      "quality_score": 7.6,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "5分钟搭建你的第一个电脑操控AI智能体",
-          "angle": "手把手教学，使用trycua/cua开源框架在本地搭建一个能控制桌面的AI智能体，适合开发者快速入门。",
-          "difficulty": "入门"
+          "title": "金融AI实战：用NVIDIA技术从零搭建交易基础模型",
+          "angle": "手把手教程：如何利用NVIDIA提供的框架和工具，构建一个能够分析交易数据、识别金融模式的专用模型。",
+          "difficulty": "进阶"
         },
         {
-          "tag": "analysis",
-          "title": "开源电脑操控智能体来了，开发者该关注什么？",
-          "angle": "解读trycua/cua项目的核心能力（沙箱、SDK、多系统支持），分析其对AI Agent生态和自动化测试领域的影响。",
-          "difficulty": "进阶"
+          "tag": "news",
+          "title": "金融智能新突破：NVIDIA教你打造自己的交易基础模型",
+          "angle": "解读该技术对金融行业的意义：从反欺诈到量化交易，AI如何重塑金融数据分析和决策流程。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "7b5746d6cf4f",
-      "source_id": "ifanr",
-      "source_name": "爱范儿",
+      "id": "f639c8270195",
+      "source_id": "qbitai",
+      "source_name": "量子位",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "实测鸿蒙 7 开发者 Beta：AI 很强大，小艺很能干",
-      "link": "https://www.ifanr.com/1668998?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "手机开始自己干活了？我们在 HDC 2026 现场实测了全新小艺。\n只需一句话，小艺就能跨设备取文件、做全能旅游搭子。\n戳视频，看小艺自己干活。<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
-      "published": "2026-06-15T21:03:28+08:00",
-      "fetched_at": "2026-06-16T12:28:53.853721+08:00",
-      "pre_filter_reason": "鸿蒙系统AI功能和小艺AI助手",
+      "title": "三连发！阿里发布首个具身大模型Qwen-Robot系列",
+      "link": "https://www.qbitai.com/2026/06/435873.html",
+      "summary": "边走、边看、边思考",
+      "published": "2026-06-16T12:39:39+08:00",
+      "fetched_at": "2026-06-17T12:22:26.962640+08:00",
+      "pre_filter_reason": "AI embodied model launch by Alibaba",
       "scores": {
-        "importance": 7,
+        "importance": 8,
         "timeliness": 9,
         "actionability": 8,
         "scarcity": 7,
         "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.5,
+      "quality_score": 7.6,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "一句话让小艺跨设备取文件，鸿蒙7 AI助手实测",
-          "angle": "演示如何用自然语言指令让小艺自动完成跨设备文件查找、整理与分享，展示AI助手的实用场景。",
+          "tag": "news",
+          "title": "阿里三连发！Qwen-Robot具身大模型让机器人“边走边看边思考”",
+          "angle": "解读Qwen-Robot系列的核心能力：多模态感知、实时决策与物理世界交互，以及阿里在具身智能领域的战略布局。",
           "difficulty": "入门"
         },
         {
-          "tag": "review",
-          "title": "鸿蒙7小艺升级：从语音助手到全能AI管家",
-          "angle": "评测小艺在HDC 2026上展示的跨设备协同、旅游规划等新能力，分析其与竞品的差异及对用户生活效率的提升。",
+          "tag": "tutorial",
+          "title": "具身智能入门：阿里Qwen-Robot如何让机器人学会“看路”",
+          "angle": "技术科普：以Qwen-Robot为例，解释具身大模型如何融合视觉、语言和运动控制，实现自主导航与操作。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "ee620ffc5662",
-      "source_id": "qbitai",
-      "source_name": "量子位",
+      "id": "979674c94cb3",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "刚成立一年就拿下车厂订单，这家清华系公司把具身智能送进真实产线",
-      "link": "https://www.qbitai.com/2026/06/435574.html",
-      "summary": "过去两年，具身智能行业最热的关键词是人形机器人。但未来几年，更重要的关键词或许会变成另一件事：智能生产力。",
-      "published": "2026-06-15T14:08:58+08:00",
-      "fetched_at": "2026-06-16T12:28:51.302517+08:00",
-      "pre_filter_reason": "具身智能和智能生产力，属于AI相关领域",
+      "title": "全新世界模型悟界·Physis将开源，22岁北大本科生担任负责人｜智源大会",
+      "link": "https://www.infoq.cn/article/DSWOGK8XvrirsxTIITdY?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/DSWOGK8XvrirsxTIITdY?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-06-17T18:09:05+08:00",
+      "fetched_at": "2026-06-17T12:22:25.179717+08:00",
+      "pre_filter_reason": "New world model open-sourced, AI research.",
       "scores": {
         "importance": 8,
-        "timeliness": 8,
+        "timeliness": 9,
         "actionability": 8,
-        "scarcity": 8,
+        "scarcity": 7,
         "virality": 7,
         "crowd_heat": 0.0
       },
       "quality_score": 7.5,
       "topics": [
         {
-          "tag": "case_study",
-          "title": "具身智能进工厂：这家清华系公司如何拿下车厂订单？",
-          "angle": "拆解其技术方案（环境感知、柔性操作）与落地路径，展示具身智能在真实产线中的降本增效成果。",
-          "difficulty": "进阶"
+          "tag": "tutorial",
+          "title": "22岁北大本科生开源世界模型，普通人如何上手体验？",
+          "angle": "从零开始，手把手教用户下载、部署并运行一个简单的世界模型demo，降低技术门槛，吸引对AI好奇的普通用户。",
+          "difficulty": "入门"
         },
         {
           "tag": "analysis",
-          "title": "人形机器人退潮？具身智能的下一个风口是智能生产力",
-          "angle": "分析行业从“人形”转向“智能生产力”的趋势，结合该案例探讨具身智能在制造业的规模化前景。",
+          "title": "世界模型开源意味着什么？解读智源大会重磅发布",
+          "angle": "深度分析世界模型开源对学术界和产业界的影响，对比现有模型，预测未来应用场景（如游戏、仿真、自动驾驶）。",
           "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "00db369cdc15",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
+      "id": "bf3ea7865a1f",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "全球 AI “黑马神话”一夜反转，被指套壳阿里千问",
-      "link": "https://www.leiphone.com/category/industrynews/cjoeciL965DpPQsY.html",
-      "summary": "<p>6 月 15 日，由巴西里约市政府旗下 IT 公司 IplanRIO 推出的“官方”开源模型Rio-3.5-Open-397B ，全球走红，被奉为拉美开源大模型的新势力。不到 24 小时，这场所谓 AI “黑马神话”就宣告反转，该模型被指控称是“套壳”阿里千问 Qwen 3.5 和Nex N2 Pro 的权重混合版本。目前，IplanRIO 已在开源社区 Hugging Face 公开致歉，承认“因操作失误”上传了用于对比的合并基线版本。</p><p><br /></p><p>Rio-3.5-Open-397B近两天走红AI开源社区，凭借“397B 参数、开放权重、MIT 许可协议”三大核心卖点，并标榜性能优越，刷爆全球 AI 圈。该模型开源后，立刻遭到AI开发社区质疑，HuggingFace研究员王铁震发文称，通过AI自动检查Rio-3.5-Open-397B在GitHub上的代码库，惊人发现Rio-3.5-Open-397B极大可能是开源模型Qwen3.5-397B-A17B和 Nex-N2-Pro杂糅体。</p><p><br /></p><p>随后，开源模型团队 Nex-AGI 公开指控称，巴西里约的这款模型，看不到任何 Rio 自己训练过的痕迹，所谓自研模型，其实就是 Nex N2 Pro 与Qwen3.5-397B-A17B 的权重混合版本。有AI开发者表示，将开源模型标榜为自研模型并且完全不提及母模型，是对开源社区承袭再发展规则的严重破坏。迫于压力下，IplanRIO 已在 Hugging Face 公开致歉，承认因操作失误上传了用于对比的合并基线版本，而非宣传中的最终自研版本，并表示后续将重新上传经过蒸馏与后训练的正式版。</p><p><br /></p><p>Qwen3.5-397B-A17B是阿里巴巴基础大模型千问系列模型之一。截至目前，阿里并未针对此事发声。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260615/6a2fc6f7d5f9c.png?imageView2/2/w/740\" /></p>",
-      "published": "2026-06-15T17:35:00+08:00",
-      "fetched_at": "2026-06-16T12:28:47.829619+08:00",
-      "pre_filter_reason": "AI model controversy and open-source LLM",
+      "title": "削弱罢工谈判筹码，消息称三星目标 2030 年实现无人晶圆厂",
+      "link": "https://www.ithome.com/0/965/309.htm",
+      "summary": "<p>IT之家 6 月 17 日消息，韩媒 ET News 昨日（6 月 16 日）发布博文，报道称三星为了削弱罢工施加的谈判筹码，<strong>宣布通过数据共享生态平台（DSEP），目标到 2030 年实现无人晶圆厂。</strong></p><p>IT之家注：数据共享生态平台（DSEP）是三星推出的半导体数据协作平台，向设备供应商共享晶圆厂实时工艺数据，同时汇集数据输入 AI 模型进行分析与决策。平台支持多模态交互，可远程诊断设备故障、优化良率，并降低对现场技术人员的依赖。</p><p>消息称 DSEP 首批家设备供应商已签约，未来数量还将增长。该平台能远程诊断设备故障、优化良率、改进缺陷检测，甚至开放此前因安全风险而限制的新工艺，大幅减少现场技术人员需求。</p><p>三星半导体部门为支撑海量数据处理，同步建设高性能计算（HPC）平台，为 DSEP 提供算力底座。三星希望显著降低对人力的依赖，逐步实现从投片、生产到检测的全流程无人干预。</p><p>消息称三星积极推进无人晶圆厂计划的重要导火索，主要关联近期劳资博弈。三星于今年 5 月工会达成史上最昂贵奖金协议：若 2026-2028 年经营利润超过 200 万亿韩元（约合人民币 1.04 万亿元），或 2029-2035 年超过 100 万亿韩元，工人可获等于运营利润 10.5% 的特别绩效奖金。</p><p><strong>相关阅读：</strong></p><ul class=\"small-size list-paddingleft-2\"><li><p>《<a href=\"https://www.ithome.com/0/924/798.htm\" target=\"_blank\">三星电子公布工业 AI 路线图：数字孪生 + 专用机器人，到 2030 年全球制造基地将实现自主化生产</a>》</p></li><li><p>《<a href=\"https://www.ithome.com/0/955/688.htm\" target=\"_blank\">73.7% 投票支持：三星电子工会成员批准初步薪资协议，最高奖金约 6 亿韩元</a>》</p></li></ul>",
+      "published": "2026-06-17T12:01:13+08:00",
+      "fetched_at": "2026-06-17T12:22:34.384967+08:00",
+      "pre_filter_reason": "AI模型用于晶圆厂决策",
       "scores": {
-        "importance": 6,
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "三星2030年要建“无人晶圆厂”，AI如何接管芯片制造？",
+          "angle": "用动画或流程图，解释DSEP平台如何通过AI和远程诊断实现自动化，让观众直观理解“无人工厂”的运作逻辑。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "罢工谈判与无人化：三星的“阳谋”对芯片行业有何启示？",
+          "angle": "从劳资博弈切入，分析自动化战略如何改变制造业的权力结构，并讨论对全球芯片供应链的长期影响。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "e0b13f839f21",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "大晓机器人开源 ACE-Ego 具身操作 VLA 模型，能稳定完成塑料袋打包、鞋子装入鞋盒等操作",
+      "link": "https://www.ithome.com/0/965/292.htm",
+      "summary": "<p>IT之家 6 月 17 日消息，大晓机器人今日宣布，联合香港中文大学多媒体实验室正式发布全新“一脑多型”具身操作 VLA 模型 ACE-Ego，并向行业开源。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/9cdd7b3c-8b7c-4e79-a0e2-922863304310.png?x-bce-process=image/format,f_auto\" /></p><p>官方表示，在国际公认的人形机器人操作基准 RoboCasa GR1 TableTop 上，ACE-Ego 以 72.8% 的平均成功率<strong>刷新当前最高纪录，夺得榜首</strong>，大幅超越英伟达 GR00T、PI π₀.₅、京东 JoyAI-RA 等主流模型；在高难度双臂操作基准 RoboTwin 2.0 的强域随机化测试中，ACE-Ego 成功率 90.62%，远超行业平均水平。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/2c008878-0c27-4db4-ad90-eda5e45cb757.png?x-bce-process=image/format,f_auto\" /></p><p>据介绍，目前，ACE-Ego 已能<strong>稳定完成塑料袋打包、鞋子装入鞋盒</strong>等长周期、强接触的复杂零售操作，覆盖商品整理、打包履约等典型线下零售环节。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/f5815519-cea6-4364-9f07-e6e8e918213d.gif\" /></p><p>IT之家附相关链接如下：</p><ul class=\" list-paddingleft-2\"><li><p>项目链接：<a href=\"https://acerobotics-vla.github.io/ACE-Ego/\" target=\"_blank\"><span class=\"link-text-start-with-http\">https://acerobotics-vla.github.io/ACE-Ego/</span></a></p></li><li><p>技术报告链接：<a href=\"https://arxiv.org/abs/2606.17200\" target=\"_blank\"><span class=\"link-text-start-with-http\">https://arxiv.org/abs/2606.17200</span></a></p></li></ul>",
+      "published": "2026-06-17T11:38:52+08:00",
+      "fetched_at": "2026-06-17T12:22:34.385028+08:00",
+      "pre_filter_reason": "AI robotics VLA model",
+      "scores": {
+        "importance": 8,
         "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "开源VLA模型ACE-Ego：让机器人学会打包塑料袋，代码实操指南",
+          "angle": "展示ACE-Ego模型的安装与运行，重点演示“塑料袋打包”和“鞋子入盒”两个案例，提供代码片段和调试技巧。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "analysis",
+          "title": "具身智能新突破：ACE-Ego开源，人形机器人离家庭还有多远？",
+          "angle": "对比其他具身模型，分析ACE-Ego在操作精度和泛化能力上的优势，探讨其商业化前景和落地挑战。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "67506e854f45",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "华为小艺 Claw 接入开源盘古 2.0 Pro 模型，可重点提升鸿蒙系统级任务执行能力",
+      "link": "https://www.ithome.com/0/965/303.htm",
+      "summary": "<p>IT之家 6 月 17 日消息，据博主 @Adak封狼居胥 今日分享，小艺 Claw 接入开源盘古 openPangu 2.0 Pro 模型，<strong>可重点提升鸿蒙系统级任务执行能力</strong>。</p><p>小艺 Claw 是华为推出的 AI 智能体，支持多端协同，可与鸿蒙多设备互动。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/6/b030ed58-c20c-4c35-b0cb-90b3520d75e6.jpg?x-bce-process=image/format,f_auto\" /></p><p>据IT之家此前报道，在 6 月 12 日举行的华为开发者大会 HDC 2026 主题演讲中，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东正式<a href=\"https://www.ithome.com/0/963/480.htm\" target=\"_blank\">发布<strong>开源盘古 openPangu 2.0</strong></a>。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/6/784c53d6-0147-419d-baec-89703dea46ff.png?x-bce-process=image/format,f_auto\" /></p><p>openPangu 2.0 模型更亲和昇腾算力，单卡吞吐率可达其他业界主流开源模型的 2 倍；官方宣称<strong>更适配鸿蒙，Agent 任务更快更准更省</strong>。</p><p>openPangu 2.0 模型拥有 512K 上下文，<strong>包括 Pro 和 Flash 两个版本</strong>：</p><ul class=\" list-paddingleft-2\"><li><p>2.0 Pro 总参数量 505B，激活参数量 18B</p></li><li><p>2.0 Flash 总参数量 92B，激活参数量 6B</p></li></ul><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/6/eebcfb59-1d56-47f7-b939-8cc202046449.png?x-bce-process=image/format,f_auto\" /></p><p><strong>openPangu 2.0 计划从 6 月 30 日起陆续开源 7 大组件</strong>，包括新增开源的预训练代码、后训练代码、训练算子。</p>",
+      "published": "2026-06-17T11:57:41+08:00",
+      "fetched_at": "2026-06-17T12:22:34.384980+08:00",
+      "pre_filter_reason": "AI智能体接入盘古模型",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
         "actionability": 8,
         "scarcity": 7,
         "virality": 8,
@@ -692,52 +692,52 @@
       "quality_score": 7.4,
       "topics": [
         {
-          "tag": "analysis",
-          "title": "巴西“AI黑马”翻车：套壳阿里千问背后的开源信任危机",
-          "angle": "复盘Rio-3.5-Open-397B事件，分析开源模型“套壳”现象对社区信任、模型治理的警示。",
-          "difficulty": "进阶"
+          "tag": "tutorial",
+          "title": "华为小艺Claw接入盘古2.0 Pro，教你用一句话搞定系统级任务",
+          "angle": "演示如何通过语音指令让小艺Claw执行多设备协同操作（如跨设备文件传输、应用联动），突出“系统级任务”的实际效果。",
+          "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "如何识别开源模型是否“套壳”？3个检测技巧",
-          "angle": "介绍通过权重对比、架构分析、许可证检查等方法，帮助开发者辨别模型原创性，避免踩坑。",
-          "difficulty": "入门"
+          "tag": "analysis",
+          "title": "盘古2.0 Pro开源+小艺Claw：华为AI生态的“杀手锏”是什么？",
+          "angle": "分析开源模型与智能体结合的战略意义，对比苹果、谷歌的AI生态，探讨华为在端侧AI和鸿蒙生态中的独特优势。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "171b509b6c29",
-      "source_id": "36kr",
-      "source_name": "36氪",
+      "id": "7ec54e658c23",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "硬氪首发 | 海洋具身智能公司「世航智能」拿下创纪录10亿融资，朱啸虎押注",
-      "link": "https://36kr.com/p/3853011900142848?f=rss",
-      "summary": "<p>作者&nbsp;|&nbsp;邱晓芬</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，海洋具身智能公司「世航智能」完成A轮融资，融资金额超过10亿元，这也是目前全球海洋机器人领域规模最大的单轮融资。本轮融资由两家芯片公司「摩尔线程」和「昆仑芯」的产业投资方上河动量基金、新加坡国有投资平台Vertex Growth 、上市公司大洋电机等资方出资。</p>\n  <p>另外，金沙江创投也在本轮追加投资，这已是其创始人朱啸虎第五轮投资「世航智能」，祥峰中国、华映资本、长石资本等老股东亦全部超额跟投。</p>\n  <p>「世航智能」创始人兼CEO陈晓博为1989年出生的哈尔滨工程大学校友，长期深耕水下机器人领域，在28岁时获得国防科技进步一等奖，是该奖项最年轻获奖者，并主导研发全国首台商用水下清洗机器人。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260614/v2_f973153f6576424fb06765e4acbc200e@1199336245_oswg177265oswg1080oswg975_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">（图源/企业）</p>\n  <p>「世航智能」方面向硬氪透露，本轮融资将主要用于核心技术研发、全球化市场拓展及产业链生态建设，进一步推动海洋机器人在复杂水下场景中的规模化应用。</p>\n  <p>与工厂、仓储等相对标准化环境不同，<strong>海洋长期被视为机器人应用中难度最高的场景之一。</strong></p>\n  <p>在水下环境中，机器人需要同时面对低光照、高浑浊度、复杂洋流、通信受限、高压、腐蚀等多重挑战。这意味着，海洋机器人不仅要具备稳定的机械结构和运动控制能力，还要在复杂环境中完成感知、判断和自主作业。</p>\n  <p>在过去，大量水下作业仍高度依赖专业潜水员和大型装备完成，存在成本高、风险大、效率受限等问题。</p>\n  <p>据「世航智能」介绍，其长期围绕海洋机器人底层能力进行自主研发，核心技术覆盖动力、控制、传感、导航、密封和布放等六大核心系统。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260614/v2_2c0c8e98a9724489971601cded7b6da8@1199336245_oswg630410oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">（图源/企业）</p>\n  <p>据了解，「世航智能」的机器人已具备0米至10000米全海深、全自由度作业能力，可在水下三维空间实现前进、后退、横移、翻滚等复杂动作，并支持自主导航、多机器人协同作业等功能。截至目前，「世航智能」的机器人已在<strong>船舶清洗、水下安保、海洋风电、海洋牧场、海底巡检</strong>等场景实现应用落地。</p>\n  <p>公司方面透露，仅2026年上半年，<strong>「世航智能」获得订单金额已超过10亿元。</strong></p>\n  <p>其中，「世航智能」旗下的“虎鲸机器人”已在招商轮船、中远散货等头部航运企业投入应用，并已经累计完成超千艘大型船舶养护作业，此前还牵头制定中国首个《水下清洗机器人操作规程》标准，获得2025年度中国航海学会科学技术进步一等奖。</p>\n  <p>在商业化布局之外「世航智能」也持续布局核心技术。今年4月，「世航智能」发布了<strong>海洋具身大模型“沧穹 CEORION”——</strong>与传统水下机器人依赖人工遥控或预设程序不同，沧穹试图让机器人具备感知、理解和自主执行能力。</p>\n  <p>「世航智能」创始人兼CEO陈晓博告诉硬氪，“沧穹 CEORION”采用统一端到端架构，将环境感知、任务理解和动作生成集成在同一个模型中，并结合真实作业数据与仿真数据进行训练。目前，“沧穹 CEORION”已基于百万小时级商业作业数据，构建了一个海洋世界模型，并通过真实任务持续迭代优化。</p>\n  <p>这意味着，搭载“沧穹 CEORION”的海洋机器人已经无需针对不同任务切换多个模型，即可覆盖<strong>巡检、检测、清洗、抓取、切割、焊接、勘探、搜救、应急等12大类水下作业场景。</strong></p>\n  <p>其中，在仿真测试中，<strong>“沧穹 CEORION”的任务成功率超过90%</strong>、精细控制定位抓取成功率超过90%——达到专业潜水操作员的操控水平。另外，面对从未见过的海域环境、水质条件、光照变化以及不同机器人平台，“沧穹 CEORION”的<strong>模型零样本适应能力超过70%。</strong></p>\n  <p>此外，海洋场景与陆地场景最大的区别还在于推理困难——视觉信息往往受到海水浑浊、光线衰减以及悬浮颗粒物影响。因此，模型需要同时融合多种感知信息，并具备复杂的物理推理能力，才能完成作业决策。</p>\n  <p>而在“沧穹 CEORION”的大模型架构中，「世航智能」将物理推理模块内置，使得模型能够在动作执行前预判潜在风险并优化决策，将碰撞事故率降低80%——这意味着，即便在弱通信甚至无通信环境下，机器人仍可自主完成任务规划与执行。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260614/v2_556b0b8f262a4dbc9b7702b5aa90d09f@1199336245_oswg1332297oswg1080oswg855_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">（图源/企业）</p>\n  <p>今年上半年，世航智能还入选新加坡海事及港务管理局国家水下船体检测与清洗计划，成为该国家级项目核心技术合作伙伴。</p>\n  <p>这些落地进展意味着，海洋机器人正在从单点项目验证走向规模化应用，而真实作业场景不仅为企业带来订单收入，也持续沉淀高价值作业数据，推动机器人能力在“作业—数据—模型”的循环中不断提升。</p>\n  <p>「世航智能」创始人兼CEO陈晓博告诉硬氪，公司将继续围绕海洋机器人核心技术、海洋具身智能模型和全球化应用场景进行投入，推动海洋机器人在更多高风险、高难度、高价值水下作业中实现应用落地。</p>\n  <p><strong>首页图源｜企业供图</strong></p>\n  <p><strong>排版｜范馨雅</strong></p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260614/v2_5260128d5c014f619077e7bf7143e241@1199336245_oswg53536oswg1080oswg337_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">欢迎交流</p>",
-      "published": "2026-06-15T09:50:00+08:00",
-      "fetched_at": "2026-06-16T12:28:42.761833+08:00",
-      "pre_filter_reason": "海洋具身智能公司，AI 机器人",
+      "title": "高通推出个人 AI 设备上市加速计划 Snapdragon START",
+      "link": "https://www.ithome.com/0/965/296.htm",
+      "summary": "<p>IT之家 6 月 17 日消息，Qualcomm（高通）当地时间 17 日在 AWE USA 2026<sub>（增强现实世界博览会）</sub>上宣布推出 Snapdragon START (<strong>S</strong>calable <strong>T</strong>urnkey <strong>A</strong>I-<strong>R</strong>eady <strong>T</strong>oolkit)。这一计划旨在帮助品牌更快、更灵活地将自己的个人 AI 设备推向市场。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/2fe83311-8de6-4d97-a388-1cc86fa948c9.jpg?x-bce-process=image/format,f_auto\" /></p><p>IT之家获悉，Snapdragon START 的<strong>核心是基于高通骁龙平台的硬件模块</strong>，为紧凑型可穿戴设备注入先进的计算、连接、AI 能力。在该计划的支持下<strong>企业和组织能够专注于打造全新的独特用户体验</strong>，优化产品设计与市场推广策略，从而加速产品落地进程。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/50ef33ad-340e-4568-9752-eb4c1e4879c7.jpg?x-bce-process=image/format,f_auto\" /></p><figcaption>▲ 白标产品预览</figcaption><p>高通 Snapdragon START 计划<strong>率先支持智能眼镜</strong>，并将在今年晚些时候扩展到其它设备形态。</p>",
+      "published": "2026-06-17T11:50:11+08:00",
+      "fetched_at": "2026-06-17T12:22:34.385004+08:00",
+      "pre_filter_reason": "高通个人AI设备计划",
       "scores": {
-        "importance": 8,
+        "importance": 7,
         "timeliness": 9,
         "actionability": 8,
-        "scarcity": 9,
+        "scarcity": 7,
         "virality": 7,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.3,
+      "quality_score": 7.4,
       "topics": [
         {
-          "tag": "analysis",
-          "title": "10亿融资！海洋具身智能为何成为资本新宠？",
-          "angle": "解读世航智能的融资背景、技术壁垒（海洋机器人+具身智能）及投资方逻辑（朱啸虎五轮加注），分析赛道前景。",
+          "tag": "tutorial",
+          "title": "高通Snapdragon START计划：如何快速打造你自己的AI设备？",
+          "angle": "以智能眼镜或AI音箱为例，介绍Snapdragon START提供的工具包和流程，展示从硬件选型到软件部署的简化步骤。",
           "difficulty": "进阶"
         },
         {
-          "tag": "case_study",
-          "title": "从实验室到海洋：具身智能如何解决水下作业难题？",
-          "angle": "以世航智能为例，展示具身智能在海洋巡检、水下作业等场景中的技术突破与商业化路径。",
+          "tag": "analysis",
+          "title": "高通加速AI硬件落地：Snapdragon START对初创公司意味着什么？",
+          "angle": "分析该计划如何降低AI设备开发门槛，对比英伟达、联发科等竞品策略，讨论对个人AI设备市场格局的潜在影响。",
           "difficulty": "进阶"
         }
       ]
