@@ -1,242 +1,205 @@
 {
-  "updated_at": "2026-06-18T12:16:34.251771+08:00",
+  "updated_at": "2026-06-19T12:44:44.713455+08:00",
   "total": 20,
   "items": [
     {
-      "id": "1ef402cf3b2f",
+      "id": "5db11b7e3889",
       "source_id": "openai-blog",
       "source_name": "OpenAI Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
-      "link": "https://openai.com/index/ai-chemist-improves-reaction",
-      "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
-      "published": "2026-06-17T18:00:00+08:00",
-      "fetched_at": "2026-06-18T12:14:51.093645+08:00",
-      "pre_filter_reason": "描述AI化学家使用GPT-5.4改进药物反应，属于AI研究应用",
+      "title": "Improving health intelligence in ChatGPT",
+      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+      "published": "2026-06-18T19:00:00+08:00",
+      "fetched_at": "2026-06-19T12:43:06.554061+08:00",
+      "pre_filter_reason": "Improving health intelligence in ChatGPT, an AI model",
       "scores": {
-        "importance": 9,
+        "importance": 8,
         "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 9,
-        "virality": 8,
-        "crowd_heat": 3.5
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 9,
+        "crowd_heat": 0.0
       },
-      "quality_score": 9.2,
+      "quality_score": 9.0,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "AI化学家如何优化药物反应？GPT-5.4实战教程",
-          "angle": "以GPT-5.4自动优化药物合成反应为例，讲解AI在化学实验设计中的工作流，适合化学和AI交叉领域的学习者。",
-          "difficulty": "中级"
+          "title": "ChatGPT健康问答升级：如何用GPT-5.5获得更专业的建议",
+          "angle": "演示GPT-5.5在健康咨询中的实际对比案例，展示推理和沟通能力的提升，教用户如何提问以获得更准确的健康信息。",
+          "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "OpenAI联手Molecule.one：AI化学家如何改变制药业？",
-          "angle": "分析近自主AI化学家如何提升关键药物反应效率，探讨对医药研发流程的颠覆性影响。",
+          "tag": "news",
+          "title": "AI医生更靠谱了？ChatGPT健康智能升级解读",
+          "angle": "解读GPT-5.5在医疗健康领域的改进点（推理、上下文、清晰度），分析对普通用户和医疗从业者的实际影响。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "cfb19bc2461e",
+      "id": "62c9a11b053f",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+      "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+      "published": "2026-06-18T16:00:00+08:00",
+      "fetched_at": "2026-06-19T12:43:06.554079+08:00",
+      "pre_filter_reason": "AI used to diagnose rare genetic diseases, involving an OpenAI reasoning model.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.9,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "AI立功：OpenAI模型帮助诊断18例罕见儿童遗传病",
+          "angle": "讲述AI如何从已放弃的病例中找到新线索，突出技术突破和人文关怀，适合科普类短视频。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "AI辅助罕见病诊断：医生如何用推理模型破解疑难病例",
+          "angle": "以案例教学方式，展示AI推理模型在基因数据分析中的工作流程，适合医疗从业者学习。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "be804aba7400",
       "source_id": "huggingface-blog",
       "source_name": "Hugging Face Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-      "link": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+      "title": "MosaicLeaks: Can your research agent keep a secret?",
+      "link": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
       "summary": "",
-      "published": "2026-06-17T18:18:05+08:00",
-      "fetched_at": "2026-06-18T12:14:53.288721+08:00",
-      "pre_filter_reason": "Involves robot hardware and AI agents from Hugging Face.",
+      "published": "2026-06-19T02:13:13+08:00",
+      "fetched_at": "2026-06-19T12:43:09.487166+08:00",
+      "pre_filter_reason": "Concerns security of AI research agents.",
       "scores": {
         "importance": 7,
         "timeliness": 8,
         "actionability": 8,
-        "scarcity": 7,
+        "scarcity": 9,
         "virality": 7,
         "crowd_heat": 0.0
       },
-      "quality_score": 8.4,
+      "quality_score": 8.7,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "从Hugging Face到机器人：Strands Agents与LeRobot部署指南",
-          "angle": "手把手教学如何将Hugging Face Hub的模型通过Strands Agents部署到真实机器人硬件，结合LeRobot实现动作控制。",
-          "difficulty": "中级"
+          "tag": "news",
+          "title": "你的AI研究助手会泄密吗？MosaicLeaks安全警示",
+          "angle": "探讨AI研究代理在数据隐私方面的风险，结合MosaicLeaks事件，提醒用户注意敏感信息保护。",
+          "difficulty": "入门"
         },
         {
-          "tag": "overview",
-          "title": "Strands Agents+LeRobot：打通AI模型与机器人硬件的桥梁",
-          "angle": "概述Strands Agents如何连接Hugging Face模型与机器人，以及LeRobot在硬件部署中的角色，适合机器人开发者入门。",
-          "difficulty": "入门"
+          "tag": "tutorial",
+          "title": "保护数据隐私：使用AI研究代理时的安全设置指南",
+          "angle": "提供实操步骤，教用户如何配置AI工具以防止数据泄露，包括权限管理、数据脱敏等。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "3abb8e5e4ab5",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
+      "id": "0a1fba02e007",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "SpaceX 600 亿美元收购 Cursor！马斯克不补课，直接买课代表",
-      "link": "https://www.infoq.cn/article/D9oPd77E8bEpRvpE7oM4?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/D9oPd77E8bEpRvpE7oM4?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-06-18T08:46:05+08:00",
-      "fetched_at": "2026-06-18T12:15:01.334533+08:00",
-      "pre_filter_reason": "SpaceX收购Cursor，Cursor是AI编程工具，涉及AI产品",
+      "title": "全民每年发 1000 美元：美议员桑德斯提案征收 50% AI 股票税，设 7 万亿美元基金",
+      "link": "https://www.ithome.com/0/966/309.htm",
+      "summary": "<p>IT之家 6 月 19 日消息，美国参议员伯尼 · 桑德斯（Bernie Sanders）昨日（6 月 18 日）提出《美国 AI 主权财富基金法案》，拟对美国最大型 AI 公司征收 50% 一次性股票税，<strong>每年可向每位美国公民直接支付超 1000 美元（IT之家注：现汇率约合 6784 元人民币）。</strong></p><p>该《法案》希望打破大型科技公司对人工智能领域的垄断，让美国公众直接分享 AI 发展带来的经济红利。根据拟定的《法案》条款，美国将对估值最高的 AI 公司征收 50% 的一次性股票税，税后股票将统一存入新设立的联邦主权财富基金，从而让公众获得这些公司 50% 的所有权。</p><p>在核心执行机制上，该《法案》计划成立由总统提名、参议院确认的 7 人独立委员会，负责管理主权财富基金。委员会持有投票股，有权否决伤害美国公众利益的公司决策，并推动有利于公众的政策。</p><p>按当前估值计算，该基金规模约达 7 万亿美元（现汇率约合 47.48 万亿元人民币）。若每年发放 5% 的分红，每位美国公民可获超过 1000 美元。</p><p>桑德斯在声明中指出，如果 AI 公司持续高速增长，基金积累的财富未来将足以保障每个美国人享有体面的生活，包括医疗、教育、住房和健康环境。同时法案设置了风险分担机制：若 AI 公司市值下跌，损失由公司承担，联邦政府不兜底。</p><p>桑德斯强调，AI 技术的基础是全人类知识积累和数千万人的创造性劳动，不应被少数科技寡头垄断。目前全球已有超过 100 个主权财富基金（如挪威、阿拉斯加），通过公共资源收益惠及全民。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/7ec72884-51bd-445f-8629-c26d678d8725.jpg?x-bce-process=image/format,f_auto\" /></p>",
+      "published": "2026-06-19T09:55:08+08:00",
+      "fetched_at": "2026-06-19T12:43:25.545747+08:00",
+      "pre_filter_reason": "AI policy/ethics: proposes tax on AI companies and AI sovereign wealth fund",
       "scores": {
-        "importance": 9,
+        "importance": 8,
         "timeliness": 9,
         "actionability": 9,
         "scarcity": 9,
-        "virality": 10,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.3,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "马斯克600亿美元收购Cursor：不补课直接买课代表背后的战略",
-          "angle": "分析SpaceX巨额收购Cursor的动机，探讨马斯克在AI编程工具领域的布局及其对航天软件开发的潜在影响。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "opinion",
-          "title": "SpaceX收购Cursor：AI编程工具为何成为科技巨头必争之地？",
-          "angle": "评论收购事件背后的行业趋势，解读Cursor在代码生成领域的优势，以及马斯克此举如何加速SpaceX的软件自动化。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "9079fad6a810",
-      "source_id": "huggingface-blog",
-      "source_name": "Hugging Face Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "MolmoMotion: Language-guided 3D motion forecasting",
-      "link": "https://huggingface.co/blog/allenai/molmomotion",
-      "summary": "",
-      "published": "2026-06-17T23:26:44+08:00",
-      "fetched_at": "2026-06-18T12:14:53.288685+08:00",
-      "pre_filter_reason": "AI research (language-guided 3D motion forecasting)",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 8,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.3,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "MolmoMotion入门：用自然语言驱动3D运动预测",
-          "angle": "教程演示如何使用MolmoMotion根据语言指令生成3D运动轨迹，涵盖模型输入、输出及实际应用场景。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "overview",
-          "title": "语言引导3D运动预测：MolmoMotion如何改变人机交互？",
-          "angle": "概述MolmoMotion的核心技术，解释语言指令如何转化为3D运动预测，并探讨在机器人、游戏等领域的应用前景。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "ba12e6e85f97",
-      "source_id": "huggingface-blog",
-      "source_name": "Hugging Face Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "GLM-5.2: Built for Long-Horizon Tasks",
-      "link": "https://huggingface.co/blog/zai-org/glm-52-blog",
-      "summary": "",
-      "published": "2026-06-17T17:01:25+08:00",
-      "fetched_at": "2026-06-18T12:14:53.288739+08:00",
-      "pre_filter_reason": "GLM-5.2为AI模型，标题提及长程任务，属于AI模型发布",
-      "scores": {
-        "importance": 8,
-        "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.3,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "GLM-5.2长程任务实战：如何让AI保持上下文一致性",
-          "angle": "教程讲解GLM-5.2在长程任务中的优势，通过案例展示如何利用其长上下文能力处理复杂多步骤问题。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "analysis",
-          "title": "GLM-5.2发布：长程任务AI的新标杆",
-          "angle": "分析GLM-5.2针对长程任务的优化，对比其他模型在持久对话和复杂推理上的表现，解读其技术突破。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "7fef37884555",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "OpenAI 被传要终止 IPO？",
-      "link": "https://www.leiphone.com/category/ai/OOjkRGQUyVp9mtQ4.html",
-      "summary": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260617/6a323fd1b4e83.jpg?imageMogr2/quality/90\" style=\"width: 100%; display: inline-block; text-align: center; background-color: transparent;\" /></section><section style=\"padding-left: 16px; padding-right: 16px;\"><section style=\"width: 100%; display: flex; padding: 0px;\"><section style=\"width: 100%; padding-left: 0px; padding-right: 0px;\"><section style=\"width: 100%; background: rgb(246, 248, 255); padding: 20px 0px 12px; margin-top: 0px; margin-bottom: 0px;\"><section style=\"text-align: center;\"><section><section style=\"text-align: justify; margin: 0px 16px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><span>GPT 或许已经接近递归自我改进。</span></span></span></section><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><section style=\"text-align: left; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><br /></span></span></section></section></section><span></span><span></span><span></span><span></span><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-weight: normal;\">&nbsp; &nbsp; 作者丨郑佳美</span></span><strong><span><strong><span><span><br /></span></span></strong></span></strong></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Optima-Regular, PingFangTC-light;\"><span style=\"color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\"><span>&nbsp; &nbsp; 编辑丨马晓宁</span></span></span></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; text-align: right; margin: 0px 16px;\"><strong><strong><span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></strong></strong></p></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">最近关于 OpenAI 是否要 IPO 的讨论里，有一个很有意思的角度：如果 GPT 已经接近递归自我改进，那么融资和上市的意义是不是会下降？</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这个问题之所以有传播力，是因为它把两个看起来很远的东西放在了一起。一边是资本市场里的公司估值、融资节奏和基础设施投入，另一边是技术叙事里的模型进化、自动化研发和智能增长。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">但这个问题如果只停在“AI 会不会自己变强”，很容易变成玄学。真正值得讨论的不是模型会不会突然进入某种科幻式跃迁，而是一个更现实的工程问题：当一个 AI 系统在真实任务中不断犯错、修正、验证和沉淀时，它能不能形成类似复利的改进能力。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这才是递归自我改进最有价值的地方。它不是一句关于未来的口号，而是一个关于工程系统能否持续积累经验的问题。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260617/6a323fd1eadb8.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260617/6a323fd235442.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>01</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">当前 AI 产品的摩擦点：强，但不稳定</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">今天很多人用 AI 编程，感受其实很复杂。它确实能大幅提高效率，尤其是在写脚本、补函数、解释报错、生成样例代码这些场景里，表现已经足够让人改变工作流。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">但一旦任务变长，问题就开始浮出来。它可能在一个局部判断上很聪明，却很难稳定维护整个项目的状态；它可以快速提出修改方案，却未必理解这个方案会怎样影响其他模块；它能解释一次报错，却未必能形成下次避免同类错误的机制。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这就是现在很多 AI Agent 最尴尬的地方：它们不是没有能力，而是能力不够可积累。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">一个人类工程师在项目里踩过坑之后，会逐渐形成对代码库、依赖关系、团队规范和风险边界的理解。可很多 AI 系统在完成一次任务之后，留下来的只是日志、对话和一些零散反馈，并不会自然转化成下一次任务里的稳定优势。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">所以，递归自我改进真正要跨过的门槛，不是让模型在单次对话里显得更聪明，而是让系统在长期任务中变得更可靠。这里的关键词不是“智能爆炸”，而是“经验沉淀”。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">当然递归自我改进也不是模型独角戏，很多人把递归自我改进想象成模型自己修改模型。这个想象很刺激，但它忽略了现实工程里的复杂性。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">一个模型即便能提出改进建议，也不能直接证明这个建议真的有效。它可以生成新的代码、设计新的策略、写出新的评估方案，但这些东西只有经过外部验证，才有资格被称为改进。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">更准确地说，</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">递归自我改进不是一个模型单独完成的动作，而是一个系统闭环。</span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">模型负责提出方案和执行任务，工具链负责让它接触真实环境，评估系统负责判断结果是否有效，数据系统负责记录失败与成功，发布系统负责决定哪些变化可以进入生产流程。只有这些环节连接起来，模型的错误才可能被转化为下一轮能力提升的材料。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这也是为什么 OpenAI 这类公司的竞争，不会只停留在“谁训练出更强模型”。底层模型当然重要，但越往后，模型周围的工程系统会变得同样重要。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">真正能形成壁垒的，可能是把真实用户任务转化成高质量反馈，再把反馈转化成评估、数据、工具和流程更新的能力。雷峰网</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260617/6a323fd274040.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>02</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">生成很便宜，验证很贵</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">AI 时代最容易被低估的一件事，是验证成本。生成一段代码、一个方案、一篇报告，成本正在快速下降；但判断这些内容是否正确、是否安全、是否能在真实环境中稳定运行，成本并没有同等下降。很多时候，验证甚至比生成更难，因为它要求系统理解上下文、约束条件、业务后果和失败边界。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这也是递归自我改进的核心难点。如果一个 AI 系统只是不断生成新方案，然后用相似的模型去判断这些方案是否更好，那么它很容易陷入自我确认。表面上看，系统在迭代；实际上，它可能只是在优化自己喜欢的答案，而不是优化真实世界里的结果。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">工程上真正有价值的改进，必须经得起外部约束。代码要通过测试，事实要能追溯来源，数据分析要能复现口径，线上改动要能灰度和回滚，高风险决策要有权限与审计。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">没有这些约束，所谓自我改进就只是更复杂的自动生成。</span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">所以，未来 AI 系统最关键的能力之一，不是“多生成几个候选答案”，而是建立足够强的验证层。谁能更便宜、更快、更可靠地判断 AI 的输出质量，谁就更接近真正的自我改进。雷峰网</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这么看的话，这个发展大概率会改变未来 AI 公司的估值逻辑，因为如果一家 AI 公司只是不断训练更大的模型，那么它的商业逻辑相对容易理解。它需要更多算力、更大数据集、更强研究团队，也需要资本去支撑昂贵的训练和推理成本。这也是为什么融资、估值和 IPO 会成为外界关注的焦点。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">但如果一家 AI 公司逐渐建立起递归自我改进的工程闭环，它的价值就不只来自某一次模型发布，而来自系统持续学习的速度。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">模型上线后处理的每一次真实任务，都可能成为新的反馈来源；用户指出的每一个问题，都可能被转化为评估样本；Agent 在执行过程中留下的失败轨迹，也可能帮助系统改进任务拆解、工具调用和风险控制。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这意味着公司资产的形态会发生变化。</span></strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">过去最显眼的资产是模型本身，未来更隐性的资产可能是反馈系统、评估体系、任务轨迹、工具生态和数据闭环。一个模型可以被追赶，但一个长期运转、不断吸收真实世界反馈的改进系统，追赶起来要困难得多。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">从这个角度看，IPO 是否重要并不是问题的核心。更核心的是，资本最终会被用来建设什么。如果资金只是继续堆训练规模，那它还是传统大模型竞赛；如果资金被用来建设更强的反馈闭环、更可靠的验证系统和更大规模的任务基础设施，那它就会变成另一种竞争。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">再换一个角度，当我们回看大模型早期，发现大家都喜欢比较参数规模、榜单成绩和 demo 效果，因为这些指标直观，也容易传播。但随着模型能力逐渐接近，差距会越来越多地体现在真实任务表现上。真实任务不像benchmark 那样干净，它有脏数据、旧系统、权限限制、需求变化和不可预期的边界条件。一个系统能不能在这些复杂环境里持续变稳，比它能不能在一次演示里表现惊艳更重要。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">递归自我改进的护城河，本质上就是学习速度。不是模型参数意义上的学习，而是整个系统从失败中提取信号的速度。一个系统如果每次失败之后都能更快定位原因，更快更新评估，更快修正工具链，更快把经验沉淀到下一次任务中，它的进步就会带有复利效应。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这也是为什么 AI 编程、AI 科研、AI 客服、AI 数据分析这些场景，未来都会非常依赖闭环能力。单次生成能力决定了产品能不能用，持续改进能力决定了产品能不能越用越好。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">没有闭环的 AI 产品，用户每一次使用都只是在消费模型能力，但有闭环的 AI 产品，用户每一次使用都在帮助系统积累资产。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260617/6a323fd2adc79.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>03</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">最大的风险：把自我确认误当成自我改进</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">递归自我改进听起来很诱人，但它也有天然风险。一个系统越自动化，越容易把内部指标当成真实进步。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">模型可能在自己熟悉的评估集上表现越来越好，却没有真正提升真实任务成功率；系统可能降低了某个局部成本，却增加了整体故障风险；某个自动生成的策略看似提高了效率，却把错误转移到了更难发现的位置。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">所以，自我改进必须被放在可审计的工程框架里。系统可以自动提出改进，但不能自动定义所有成功标准，模型可以参与评估，但不能成为唯一裁判，反馈可以被快速吸收，但不能绕过安全边界和回滚机制。越接近高自动化，越需要更严格的外部校验。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这也是递归自我改进和科幻想象最大的区别。它不是让 AI 摆脱人类和工程规则，而是让工程规则变成 AI 进步的轨道。没有轨道，速度越快越危险，有了轨道，速度才会转化成真正的生产力。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260617/6a323fd2dff73.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>04</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">最重要的，或许是学习斜率</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">今天讨论 AI 公司，很容易被单次发布吸引。某个模型更强，某个 demo 更惊艳，某个榜单分数更高，都会引发一轮热度。但如果递归自我改进真的开始变得重要，那么更值得看的就不是某一次发布，而是系统的学习斜率。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">所谓学习斜率，就是它从真实世界吸收反馈的速度。一个系统如果每次失败之后都回到原点，它的能力增长主要依赖下一次大模型更新。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">另一个系统如果能把失败沉淀为测试、规则、数据和流程，它的能力增长就会带有复利。时间拉长之后，差距不会只体现在模型聪不聪明，而会体现在系统稳不稳、贵不贵、能不能少犯重复错误。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">所以，OpenAI 要不要 IPO 只是表面问题。更深的问题是：如果 AI 公司正在从“训练模型”变成“运营一个持续学习的工程系统”，那它的估值逻辑就不能只看某个模型有多强，而要看它有没有能力把真实世界的每一次使用，转化成下一次进步的燃料。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">递归自我改进最现实的样子，不是 AI 忽然摆脱资本和工程约束，而是它让资本和工程约束变得更关键。谁能建设起最强的反馈闭环，谁就拥有更快的进化速度。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">有了这个速度，才可能是下一阶段 AI 公司真正的护城河。</span></p><p style=\"text-align: left; margin: 16px 16px 8px; line-height: 1.75em;\"><em><span style=\"line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">参考链接：</span></span></em></p><p style=\"text-align: left; margin: 16px 16px 8px; line-height: 1.75em;\"><span style=\"font-size: 14px;\"><em><span style=\"line-height: 1.75em; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">https://x.com/iamai_omni/status/2065045974272385054</span></span></em></span></p><p style=\"text-align: left; margin: 16px 16px 8px; line-height: 1.75em;\"><em><span style=\"line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">https://www.reuters.com/business/openai-expects-go-public-within-next-year-information-reports-2026-06-10/</span></span></em></p><section><span></span></section><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260617/6a323fd312d19.jpg?imageMogr2/quality/90\" style=\"width: 100%;\" /></span></p><section><span></span></section>",
-      "published": "2026-06-17T14:34:00+08:00",
-      "fetched_at": "2026-06-18T12:15:00.044087+08:00",
-      "pre_filter_reason": "OpenAI IPO news, AI company",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
         "virality": 9,
         "crowd_heat": 0.0
       },
       "quality_score": 8.1,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "OpenAI终止IPO传闻解析：对AI初创公司融资意味着什么？",
-          "angle": "从OpenAI可能终止IPO的传闻切入，分析当前AI行业融资环境的变化，以及初创公司应如何调整融资策略。",
+          "tag": "news",
+          "title": "每人每年发1000美元？美国AI股票税提案深度解读",
+          "angle": "分析桑德斯提案的核心内容、对AI公司和普通民众的影响，以及可能引发的全球政策讨论。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "opinion",
+          "title": "AI红利该归谁？从桑德斯提案看全民分红模式",
+          "angle": "讨论AI技术带来的财富分配问题，对比不同国家方案，引发观众对科技公平的思考。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "6fa3be9d4c1b",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "全员本科生！何恺明组新作：文生图，258M参数就够了",
+      "link": "https://www.qbitai.com/2026/06/436518.html",
+      "summary": "整篇论文一共六位作者。除了何恺明之外，其余五位都还是本科生。",
+      "published": "2026-06-18T17:12:09+08:00",
+      "fetched_at": "2026-06-19T12:43:20.299716+08:00",
+      "pre_filter_reason": "文生图AI研究，何恺明组新作",
+      "scores": {
+        "importance": 9,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 9,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.1,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "何恺明团队新突破：258M参数文生图，全员本科生",
+          "angle": "突出年轻团队用小模型实现大效果的反差，介绍技术亮点和学术意义，激励学生群体。",
           "difficulty": "入门"
         },
         {
           "tag": "tutorial",
-          "title": "AI公司上市路在何方？从OpenAI事件看IPO替代方案",
-          "angle": "解读OpenAI不急于IPO背后的原因，介绍AI公司可考虑的融资替代方案（如战略投资、债券融资等），并提供实操建议。",
+          "title": "小模型大智慧：如何用258M参数实现高质量文生图",
+          "angle": "拆解论文中的关键技术（如高效架构、训练策略），为AI开发者提供轻量化模型设计思路。",
           "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "5edb0e4aad50",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
+      "id": "5edee332dea1",
+      "source_id": "36kr",
+      "source_name": "36氪",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "Fable 5被禁3天后Anthropic认怂！连夜急派员工赴华盛顿谈判：GPT 5.5有同款漏洞",
-      "link": "https://www.infoq.cn/article/mBHRVxO514Uki3Eyikxl?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/mBHRVxO514Uki3Eyikxl?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-06-17T23:00:00+08:00",
-      "fetched_at": "2026-06-18T12:15:01.334705+08:00",
-      "pre_filter_reason": "AI policy/ethics (Anthropic and AI model vulnerabilities)",
+      "title": "Waymo因存在驶入施工路段风险，召回3800余辆自动驾驶出租车",
+      "link": "https://36kr.com/newsflashes/3859411565532422?f=rss",
+      "summary": "Waymo宣布召回数千辆自动驾驶出租车，隐患为车辆可能高速闯入高速公路施工路段。这家隶属于字母表集团、与谷歌同属兄弟企业的自动驾驶公司，针对旗下部分搭载第五代自动驾驶系统的车辆发起召回。此前已发生多起安全事件：车辆未能识别匝道封闭标识，径直驶入规划中的高速公路施工区域。（新浪财经）",
+      "published": "2026-06-19T11:59:17+08:00",
+      "fetched_at": "2026-06-19T12:43:11.203574+08:00",
+      "pre_filter_reason": "Autonomous driving (Waymo) AI-related recall",
       "scores": {
         "importance": 8,
         "timeliness": 9,
@@ -249,194 +212,447 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "Anthropic认怂事件：AI安全漏洞如何影响模型发布节奏？",
-          "angle": "以Fable 5被禁后Anthropic紧急谈判为例，讲解AI安全漏洞的发现流程、企业应对策略及对产品上线的影响。",
+          "title": "自动驾驶如何识别施工路段？从Waymo召回看技术盲区",
+          "angle": "以Waymo召回事件为切入点，解析自动驾驶车辆在复杂路况（如施工区域）下的感知与决策机制，以及当前技术的局限性。",
           "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "GPT-5.5同款漏洞揭秘：开发者如何提前规避AI模型安全风险？",
-          "angle": "从技术角度分析GPT-5.5与Fable 5共有的漏洞类型，提供开发者可操作的代码审计与安全测试清单。",
-          "difficulty": "进阶"
+          "tag": "news",
+          "title": "Waymo召回3800辆出租车，自动驾驶安全再敲警钟",
+          "angle": "梳理Waymo近年安全事件，分析自动驾驶商业化进程中面临的监管与公众信任挑战。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "e3c1590fdf1e",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "search",
-      "title": "上交所：AI 大模型企业适用科创板第五套上市标准，在申报时至少有一个大模型产品已完成上线发布并实现规模化应用 - 新浪网",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeDIwMHlSclBnSzljZW9OSkVubXVnMmZQSGtYenpqNi1IR3dLa2tyNjR1OWJMZXpaaEZuNkMzN1FtUjZnQXZJMzN6ZHRnMFE4X0hJOG84X0lqX21PcDBiLU5lTlRVZEtYWWloRHlxZ1dXOEZwbnpTcFk3aDRpSmZ3NnRPV1FTTXU5dlBSSWR1bEpSZTF2?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNeDIwMHlSclBnSzljZW9OSkVubXVnMmZQSGtYenpqNi1IR3dLa2tyNjR1OWJMZXpaaEZuNkMzN1FtUjZnQXZJMzN6ZHRnMFE4X0hJOG84X0lqX21PcDBiLU5lTlRVZEtYWWloRHlxZ1dXOEZwbnpTcFk3aDRpSmZ3NnRPV1FTTXU5dlBSSWR1bEpSZTF2?oc=5\" target=\"_blank\">上交所：AI 大模型企业适用科创板第五套上市标准，在申报时至少有一个大模型产品已完成上线发布并实现规模化应用</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪网</font>",
-      "published": "2026-06-18T09:33:31+08:00",
-      "fetched_at": "2026-06-18T12:15:12.211000+08:00",
-      "pre_filter_reason": "AI大模型企业上市标准",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "科创板第五套标准扩容：AI大模型企业上市条件全解读",
-          "angle": "详细解释科创板第五套标准对AI大模型企业的具体要求（产品上线、规模化应用等），帮助创业者评估上市可行性。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "AI大模型企业如何满足科创板上市条件？从产品上线到规模化应用实操指南",
-          "angle": "分步骤指导AI企业如何规划产品上线、积累用户数据、实现规模化应用，以符合科创板第五套标准。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "be5cc7b99c93",
+      "id": "980b3c54e09a",
       "source_id": "infoq-cn",
       "source_name": "InfoQ中国",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "“零数据”机器人来了，验证两月即可上岗！这群清华博士破局世界模型，靠“本能”让机器人上手就会",
-      "link": "https://www.infoq.cn/article/mxw8pKVvLpuF20CQJr6j?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/mxw8pKVvLpuF20CQJr6j?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-06-18T02:01:54+08:00",
-      "fetched_at": "2026-06-18T12:15:01.334607+08:00",
-      "pre_filter_reason": "Describes a 'zero-data' robot using world models and AI for autonomous operation.",
+      "title": "Anthropic 发布 Claude Fable 5 三天遭临时下架",
+      "link": "https://www.infoq.cn/article/UXghld6fuzYxJNuU6L47?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/UXghld6fuzYxJNuU6L47?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-06-19T02:14:00+08:00",
+      "fetched_at": "2026-06-19T12:43:18.755773+08:00",
+      "pre_filter_reason": "Reports on an AI model release and takedown.",
       "scores": {
         "importance": 8,
-        "timeliness": 8,
+        "timeliness": 9,
         "actionability": 9,
         "scarcity": 8,
         "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.8,
+      "quality_score": 8.0,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "零数据机器人来了！清华博士团队如何让机器人靠“本能”工作？",
-          "angle": "科普“零数据”机器人的技术原理（世界模型、本能驱动），对比传统数据驱动方法，展示其应用场景与优势。",
+          "tag": "news",
+          "title": "Claude Fable 5 上线三天即下架，Anthropic发生了什么？",
+          "angle": "追踪Claude Fable 5临时下架事件，推测可能原因（技术故障、内容安全等），并探讨AI模型快速迭代中的风险。",
           "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "从零数据到上岗：世界模型在机器人领域的实战部署指南",
-          "angle": "针对技术团队，解析清华博士团队的世界模型架构、训练方法及部署流程，提供可复现的代码示例与性能优化建议。",
-          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "ffbd29326db7",
+      "id": "cb725f5a2d30",
       "source_id": "google-news-ai-zh",
       "source_name": "Google News (AI 中文)",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "search",
-      "title": "科创板第五套标准将扩容，纳入人工智能大模型！智谱、MiniMax回A提速 - 新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0wVVJkbnk3VVY0RzBPR0ROM3NlRnh4eENETlptZUROak8zU1lVckdSV0VkZ1ItbjN1QzZLMjZsNkwxN0dBQjB1NHpnekp6UnA0elZfUlgxTHVVLTNHSm5NOE1kXzlrZ0Y0Ymxva1BtZXB3YjFtUFJQMw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE0wVVJkbnk3VVY0RzBPR0ROM3NlRnh4eENETlptZUROak8zU1lVckdSV0VkZ1ItbjN1QzZLMjZsNkwxN0dBQjB1NHpnekp6UnA0elZfUlgxTHVVLTNHSm5NOE1kXzlrZ0Y0Ymxva1BtZXB3YjFtUFJQMw?oc=5\" target=\"_blank\">科创板第五套标准将扩容，纳入人工智能大模型！智谱、MiniMax回A提速</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>",
-      "published": "2026-06-17T18:56:00+08:00",
-      "fetched_at": "2026-06-18T12:15:12.211150+08:00",
-      "pre_filter_reason": "Directly about AI large models and listing standards.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "科创板扩容AI大模型：智谱、MiniMax回A提速，对创业者有何启示？",
-          "angle": "分析科创板纳入AI大模型企业后，对国内AI创业公司的上市路径、估值逻辑及融资节奏的影响。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "AI大模型企业回A股上市全流程：从准备到申报的关键步骤",
-          "angle": "以智谱、MiniMax为例，梳理AI企业回A股（科创板）的上市流程、材料准备、合规要点及常见问题。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "65fdf6140d46",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "阿里发布世界模型HappyOyster 1.0，用户可实时探索、导演并重塑 AI 世界",
-      "link": "https://www.leiphone.com/category/industrynews/1CH2JRMcIM0JbVu1.html",
-      "summary": "<p>6月17日，阿里发布可实时构建和交互的开放式世界模型产品HappyOyster 1.0（快乐生蚝1.0），该产品深度学习物理世界状态转移规律，能主动推演从动作到反馈的因果链，并保持人物和环境的长程一致性。HappyOyster 1.0具备世界探索（Adventure）和实时导演（Directing）两大核心能力，并升级了交互功能，新增攻击、跳跃、剧情回溯、剧情分支等操控能力，用户仅需一句话或一张图，就能生成可互动、可探索、可实时改变的AI数字世界。HappyOyster 1.0可广泛应用于交互式游戏、虚拟陪伴、互动短剧、文旅体验、直播等行业，目前官网已开放用户注册体验，官网地址https://www.happyoyster.cn。</p><p>&nbsp;</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260617/6a32715b10bad.png?imageView2/2/w/740\" />&nbsp;</p><p style=\"text-align: center;\">图示 HappyOyster 1.0官网</p><p>&nbsp;</p><p>区别于文生视频模型从输入文字到生成视频的单向操作，HappyOyster 1.0能让用户完成丰富的实时互动，并支持用户在任意节点介入，改变数字世界的走向。上述差异源自模型学习目标的不同，文生视频模型的学习目标是文本到视频的单向映射，而世界模型的学习目标是从“当前状态/动作”到“下一状态/动作”的转移规律。相较于大语言模型日趋成熟的架构与范式，世界模型仍属于新兴赛道，而HappyOyster 1.0已在探索该赛道的前沿，它从海量自然视频中学习现实里人物、事物和环境的演变，自主推演从动作到反馈的因果链，从而能自然迁移到没见过的场景，根据用户指令推理出新的因果，并维持数字世界的长程稳定和音视频的长时协同。</p><p><br /></p><p>相较上一版，HappyOyster 1.0在交互能力上做了优化升级。在世界探索模式下，用户输入一句话或上传一张图，就能生成可深度探索的数字世界，通过新增的前冲、下蹲、跳跃、攻击等操控按键，丰富人物的运动轨迹，并支持载具驾驶与武器战斗等复杂物理交互；实时导演模式赋予了用户“上帝视角”，通过新增的暂停、回溯与分支叙事能力，用户能在体验过程中的任意节点暂停，并回跳至剧情中的关键节点，输入新的提示词来改变剧情走向，实现了用低成本让同一开局衍生出无限可能。目前，世界探索模式支持长达1分钟的连续实时位移与镜头控制，实时导演模式支持生成3分钟以上的480p或720p实时画面，且两个模式的生成内容均能一键分享。</p><p>&nbsp;</p><p>HappyOyster 1.0正在探索下一代多模态的互动内容形态。在交互式游戏领域，开发者无需耗费数周甚至数月写代码、做测试，通过上传图片和输入提示词，就能在HappyOyster 1.0上快速生成符合物理规律的开放世界原型、角色交互和各类战斗场景；在互动短剧、虚拟陪伴或直播场景中，用户通过自然语言指令，就能构建人物和剧情，并能在任意节点改写画面、角色、剧情走向，把传统的线性叙事转化为用户掌握主动权的互动体验；在文旅领域，HappyOyster 1.0能为游客提供沉浸式的探索体验，不仅能生成具备稳定一致性的数字人IP，还可以让游客决定游览路线，甚至步入深海、月球等奇幻场景。</p><p>&nbsp;</p><p>世界模型的发展仍处于早期阶段，业界缺乏可量化的测评标准。目前，HappyOyster团队联合南京大学，正在着手打造首个覆盖过程交互、跨模态对齐、长程一致与物理仿真验证的行业基准，旨在填补世界模型测评标准的空白。据悉，HappyOyster 1.0近期还会全面开放API接口，携手各行各业共建世界模型的新生态，全面释放世界模型生产力。即日起，每日登录HappyOyster 1.0官网即可免费领取积分，体验可实时交互的数字世界。</p><p><br /></p>",
-      "published": "2026-06-17T18:08:00+08:00",
-      "fetched_at": "2026-06-18T12:15:00.044049+08:00",
-      "pre_filter_reason": "阿里发布世界模型产品，属于AI产品发布",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "一句话生成一个可玩的AI世界：HappyOyster 1.0 快速上手教程",
-          "angle": "手把手演示如何用一句话或一张图创建可交互的3D世界，并展示攻击、跳跃、剧情回溯等核心玩法，突出“零门槛”和“实时导演”特性。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "阿里发布世界模型，AI数字世界的“导演”时代来了？",
-          "angle": "分析HappyOyster 1.0对游戏、短剧、虚拟陪伴等行业的颠覆潜力，对比传统游戏开发流程，探讨“一句话生成世界”如何降低创作门槛。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "40274c798b51",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "头部具身大脑公司再获数亿美元融资！世界模型路线，15家VC抢着投",
-      "link": "https://www.qbitai.com/2026/06/436148.html",
-      "summary": "半年三连发：从开源到端侧再到训练场",
-      "published": "2026-06-17T14:22:39+08:00",
-      "fetched_at": "2026-06-18T12:15:03.084441+08:00",
-      "pre_filter_reason": "Funding for embodied AI company with world model",
+      "title": "资本市场破冰！AI大模型获专属科创板上市通道 - 中国科技网",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWVlE1dXFUMXk4MVZVMjJPdG5VeE84UmQ2OGdpR1pFdXBzbjZPV3JiXzlsNFU1V2JRSGdvb05KR1k2NVhqcDd1dW84NG5sOGJzZU5pT2daSEN4N2xFRFlSOXdscW9jVnIxaXlldlhMS0c?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFBWVlE1dXFUMXk4MVZVMjJPdG5VeE84UmQ2OGdpR1pFdXBzbjZPV3JiXzlsNFU1V2JRSGdvb05KR1k2NVhqcDd1dW84NG5sOGJzZU5pT2daSEN4N2xFRFlSOXdscW9jVnIxaXlldlhMS0c?oc=5\" target=\"_blank\">资本市场破冰！AI大模型获专属科创板上市通道</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">中国科技网</font>",
+      "published": "2026-06-18T11:44:24+08:00",
+      "fetched_at": "2026-06-19T12:43:29.228194+08:00",
+      "pre_filter_reason": "AI大模型专属上市通道",
       "scores": {
         "importance": 9,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.9,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "AI大模型专属科创板通道：资本市场新风口来了",
+          "angle": "解读科创板为AI大模型公司开辟上市通道的政策背景，分析对AI行业融资与发展的影响。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "AI创业公司如何抓住科创板上市机遇？",
+          "angle": "从政策要求、技术壁垒、商业模式等角度，为AI创业者提供科创板上市的准备指南。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "065914feceef",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "上下文窗口限制被打破：Subquadratic推出了一个1200万Token的窗口",
+      "link": "https://www.infoq.cn/article/0zbyxse0IZs690HL9Jev?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/0zbyxse0IZs690HL9Jev?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-06-19T01:18:21+08:00",
+      "fetched_at": "2026-06-19T12:43:18.755846+08:00",
+      "pre_filter_reason": "AI context window breakthrough with 12M tokens",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 9,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "1200万Token上下文窗口：大模型能力跃升意味着什么？",
+          "angle": "解释上下文窗口的概念，分析Subquadratic突破对长文本处理、AI应用场景（如法律、科研）的潜在影响。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "a3478ad7c513",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+      "published": "2026-06-19T01:00:00+08:00",
+      "fetched_at": "2026-06-19T12:43:06.554014+08:00",
+      "pre_filter_reason": "OpenAI enterprise AI usage analytics and controls",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 5,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "企业如何用ChatGPT Enterprise新功能控制AI成本？",
+          "angle": "介绍OpenAI新增的用量分析和支出控制功能，指导企业管理者合理规划AI使用预算。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "news",
+          "title": "OpenAI推出企业级成本控制工具，AI规模化应用再提速",
+          "angle": "分析新功能对ChatGPT Enterprise用户的价值，以及OpenAI在B端市场的战略布局。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "98744982cb8e",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "AI 账单失控：AT&T、Meta 等巨头急刹车，从“疯狂消耗”到“严苛限制”",
+      "link": "https://www.ithome.com/0/966/306.htm",
+      "summary": "<p>IT之家 6 月 19 日消息，科技媒体 The Information 昨日（6 月 18 日）发布博文，报道称包括 AT&amp;T、Meta、Uber、微软在内的诸多科技公司已严苛限制内部 AI 工具使用，<strong>正从鼓励 AI 无限使用（tokenmaxxing）转向严格限制（tokenminimizing）。</strong></p><p>IT之家注：tokenmaxxing 是指企业鼓励员工无限制使用 AI 计算资源，部分企业甚至设立排行榜奖励消耗量最大的员工，导致计算成本急剧失控。</p><p>而 tokenminimizing 和 tokenmaxxing 相对，指企业在 AI 支出压力下主动限制内部 AI 工具的使用量，通过设置月度限额、取消排行榜、路由简单任务到低价模型等方式降低 token 消耗，目前已成为 2026 年企业 AI 治理的主流方向。</p><p>报告指出大型企业在 AI 支出方面正“能踩刹车”，在 2025 年还鼓励员工尽可能多地使用 AI 创造，<strong>而在 2026 年面对每月每员工高达 7500 美元（现汇率约合 50877 元人民币）的计算账单</strong>，企业纷纷转向 tokenminimizing（最小化算力消耗），严格限制内部 AI 工具的使用。</p><p>Uber 在四个月内就花光了 2026 年全年的 AI 编码预算，被迫将每个工具的人均月花费上限设为 1500 美元。沃尔玛对内部 AI 助手实施了类似限制，亚马逊则直接取消了员工 AI 使用排行榜。</p><p>Meta 正悄然削减在 Anthropic 等平台上的内部支出，AT&amp;T 则限制了员工使用 GitHub Copilot 的权限。更惊人的是，微软发现部分工程师个人每月的编码 token 消耗竟高达 2000 美元。</p><p>为平衡效率与成本，企业引入“AI 网关”工具（来自微软、Databricks、Factory 等），自动将简单的行政任务路由到更便宜的开源模型。微软 CEO 萨提亚 · 纳德拉在近期行业文章中主张建立可互换的 AI 架构，避免少数大模型吸收全部企业经济价值。</p>",
+      "published": "2026-06-19T09:29:45+08:00",
+      "fetched_at": "2026-06-19T12:43:25.545779+08:00",
+      "pre_filter_reason": "AI industry trend: companies limiting internal AI tool usage",
+      "scores": {
+        "importance": 8,
         "timeliness": 8,
         "actionability": 9,
         "scarcity": 8,
         "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.8,
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "AI账单太贵？三步学会“Token精打细算”法",
+          "angle": "以AT&T、Meta等大厂从“疯狂消耗”转向“严苛限制”为引子，教企业或个人用户如何通过优化提示词、限制输出长度、使用缓存等方法降低AI使用成本。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "AI烧钱时代终结？大厂集体“踩刹车”背后的商业逻辑",
+          "angle": "分析从tokenmaxxing到tokenminimizing的转变原因，探讨AI成本失控对企业利润的影响，以及未来AI工具使用策略的演变趋势。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "b7b6bf4f5cfa",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "全球首个人形机器人通用小脑来了！全球最大规模2万小时人类动作数据，实现零样本泛化",
+      "link": "https://www.qbitai.com/2026/06/436813.html",
+      "summary": "人形机器人正式迈入“GPT时代”",
+      "published": "2026-06-19T11:28:37+08:00",
+      "fetched_at": "2026-06-19T12:43:20.299621+08:00",
+      "pre_filter_reason": "人形机器人通用小脑，AI相关",
+      "scores": {
+        "importance": 8,
+        "timeliness": 7,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 5.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "人形机器人“小脑”是什么？一图看懂零样本泛化技术",
+          "angle": "用通俗语言解释“通用小脑”和“2万小时人类动作数据”如何让机器人无需训练就能执行新任务，类比人类学习过程，降低理解门槛。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "人形机器人进入GPT时刻：通用小脑将如何改变制造业与服务业？",
+          "angle": "结合全球首个人形机器人通用小脑的突破，探讨其对工业自动化、家庭服务等领域的潜在影响，以及当前技术瓶颈与未来展望。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "52998fde14f2",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "亚马逊员工遭公司内部调查，曾公开批评数据中心扩张",
+      "link": "https://36kr.com/newsflashes/3859409625256963?f=rss",
+      "summary": "一群亚马逊工程师公开批评企业疯狂扩张人工智能数据中心，并呼吁政府加强监管，如今他们正遭到公司内部调查。本月早些时候，美国西雅图市议会就一项政策征集公众意见：当地计划暂停新建大型数据中心项目为期一年，为城市完善相关监管规则留出时间。共有五名亚马逊员工出席听证会并作证。6月9日，西雅图市议会全票通过了这项暂停建设的禁令。（新浪财经）",
+      "published": "2026-06-19T11:47:18+08:00",
+      "fetched_at": "2026-06-19T12:43:11.203595+08:00",
+      "pre_filter_reason": "Amazon employees criticize AI data center expansion",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
       "topics": [
         {
           "tag": "analysis",
-          "title": "半年三轮融资，具身智能的“世界模型”为何被VC疯抢？",
-          "angle": "解读该融资事件背后的技术路线（世界模型）和资本逻辑，分析具身智能从开源到端侧再到训练场的商业化路径。",
+          "title": "亚马逊员工因批评数据中心遭调查：科技巨头的“言论自由”边界在哪？",
+          "angle": "从亚马逊内部调查事件切入，讨论科技公司员工公开批评公司政策（如AI数据中心扩张）时面临的职业风险，以及企业责任与员工权益的平衡。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "tutorial",
+          "title": "数据中心扩张争议：普通人如何参与城市监管决策？",
+          "angle": "以西雅图暂停新建数据中心为例，教观众如何关注本地AI基础设施建设政策，并通过听证会、民意反馈等渠道表达意见。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "bd5318669394",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "砍掉90%冗余词元，省下70万美元：Netflix开源工具狙击AI账单黑洞",
+      "link": "https://www.infoq.cn/article/SdkcGqZQ2coEqM04xsQG?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/SdkcGqZQ2coEqM04xsQG?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-06-19T01:42:01+08:00",
+      "fetched_at": "2026-06-19T12:43:18.755815+08:00",
+      "pre_filter_reason": "Netflix AI tool for reducing tokens, directly AI-related",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Netflix开源工具实测：如何砍掉90%冗余词元省下70万美元？",
+          "angle": "手把手演示Netflix新开源工具的使用方法，展示如何识别和删除AI对话中的无效词元，从而大幅降低API调用成本。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "analysis",
+          "title": "AI账单黑洞有救了？Netflix开源工具背后的成本控制革命",
+          "angle": "分析Netflix开源工具的技术原理，并对比其他大厂的类似策略，探讨企业级AI成本优化的未来方向。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "02c523190a90",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "Momenta港股IPO证监会备案通过，将成“物理AI第一股”",
+      "link": "https://www.leiphone.com/category/industrynews/mOyyJ7O75GDwbwTc.html",
+      "summary": "<p style=\"text-align: justify; margin-bottom: 15.65pt;\"><span style=\"font-size: 10.5pt; text-align: left;\">2026年6月18日，全球领先的物理AI公司Momenta取得中国证监会境外发行上市备案通知书。据文件，Momenta拟发行不超过43,754,060股境外上市普通股，并在香港联合交易所上市。备案获批，标志着Momenta的资本化进程迈出关键一步，将成“物理AI第一股”。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260618//6a33c1e7d1470.jpg?imageMogr2/quality/90\" /></p><p style=\"text-align: center; margin-top: 0; margin-bottom: 0;\"><span style=\"font-size: 12pt; font-weight: bold;\">以世界模型为基座，激发物理AI的“GPT时刻”</span></p><p>&nbsp;</p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-size: 10.5pt;\">当下，数字AI正在加速向物理AI跃迁，物理AI的“GPT时刻”即将来临。世界模型作为物理AI的核心基座模型，被认为是激发物理AI“GPT时刻”的关键突破口。</span></p><p>&nbsp;</p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-size: 10.5pt;\">Momenta CEO曹旭东指出，物理AI的核心是数据scaling和商业scaling，且二者形成正向反馈，而目前唯一实现这两者的是自动驾驶。</span></p><p>&nbsp;</p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-size: 10.5pt;\">基于上述判断，Momenta将自己定位为物理AI基座模型的构建者，而非单纯的自动驾驶公司。Momenta正在做的，是打造一个能够理解物理规律、推演世界演变的通用世界模型——正如GPT为数字AI提供了语言基座，Momenta的世界模型，将为物理AI提供时空基座。</span></p><p>&nbsp;</p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-size: 10.5pt;\">今年4月，Momenta R7世界模型实现量产首发，标志着物理AI正式从技术理念走向规模化量产落地，实现从“看见世界”到“理解世界”的跨越。</span></p><p>&nbsp;</p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-size: 10.5pt;\">Momenta的世界模型分为三个层次：第一层，世界模型预训练。通过海量真实驾驶数据的预训练，将物理规律、常识与因果关系压缩进模型，使系统形成对物理世界的基础认知；第二层，世界模型仿真。将世界模型用于自动驾驶的闭环仿真，让系统能够推演自身行为变化时世界将如何演变，依托高效场景推演能力，对长尾场景进行性能评估；第三层，在世界模型中进行强化学习。在前两层的基础上，为强化学习构建一个高度真实的虚拟训练场，让系统在接近真实的环境中反复探索与试错。</span></p><p>&nbsp;</p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-size: 10.5pt;\">通过上述三层迭代，系统从单纯的“模仿学习”走向“想象与探索”，在虚拟世界中经历千万次推演，自主习得在复杂博弈中做出最优决策的能力，让模型在罕见极端场景下的表现超越人类驾驶员的水平。基于量产业务带来的超过120亿公里实车里程，以及从中提炼的超1亿段黄金数据，R7世界模型能够通过强化学习训练自我博弈进化，关键场景能力大幅提升。</span></p><p>&nbsp;</p><p style=\"text-align: center; margin-top: 0; margin-bottom: 0;\"><span style=\"font-size: 12pt; font-weight: bold;\">“飞轮效应”全面显现，物理AI加速跨界赋能</span></p><p>&nbsp;</p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-size: 10.5pt;\">为实现物理AI的规模化落地，Momenta在全球率先采用“两条腿”策略，基于数据驱动的“飞轮”技术洞察，以及量产辅助驾驶（Mass Production）与自动驾驶（Scalable Robo）相结合的产品战略，赋能更安全、便捷、高效的未来智慧生活。</span></p><p>&nbsp;</p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-size: 10.5pt;\">在商业模式层面，Momenta精准定位自动驾驶领域的“平台级”公司——用一套大模型同时覆盖乘用车以及无人驾驶出租车（Robotaxi）、无人物流车（Robovan），2027年还将扩展至无人驾驶卡车（Robotruck）领域。这种全场景、平台化的布局，在降低边际成本的同时，还构建出多元协同、可持续增长的商业生态。</span></p><p>&nbsp;</p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-size: 10.5pt;\">凭借在物理AI、世界模型和商业化上的先发优势，Momenta的“飞轮效应”已全面显现：2022年首个10万台量产耗时24个月，而今最快不到40天即可完成10万台交付。</span></p><p>&nbsp;</p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-size: 10.5pt;\">另据行业权威研究机构CIC灼识咨询近日发布的《自动驾驶行业蓝皮书》，2025年3月至2026年2月，中国第三方城市NOA供应商市场中，Momenta销量市占率达65%，领跑行业。城市NOA正处于规模化爆发的关键拐点：预计到2030年，中国城市NOA解决方案渗透率将从2025年的11%飙升至2030年的62%，市场空间有望进一步扩大。</span></p><p>&nbsp;</p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-size: 10.5pt;\">在全球化布局方面，Momenta的量产方案已在亚洲、欧洲和大洋洲的10多个国家和地区实现落地。Momenta Robotaxi已与Uber、Grab、Lumo、享道出行等全球出行平台以及梅赛德斯-奔驰等车企建立合作，目前已落地亚洲、欧洲和中东地区，并计划今年在全球多个新城市及区域落地。</span></p><p>&nbsp;</p><p style=\"margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-size: 10.5pt;\">此次证监会备案通过，标志着Momenta的IPO进程已迈出关键一步。IPO不仅将为Momenta的全球化布局和全场景拓展提供更坚实的资本支撑，还将为物理AI技术从理论研究走向规模化、产业化落地提供典型样本。</span></p>",
+      "published": "2026-06-18T18:04:00+08:00",
+      "fetched_at": "2026-06-19T12:43:17.499941+08:00",
+      "pre_filter_reason": "物理AI公司，AI相关",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "Momenta冲刺港股IPO：什么是“物理AI”，它为何是下一个风口？",
+          "angle": "解释“物理AI”概念（如自动驾驶、机器人等与物理世界交互的AI），分析Momenta上市对行业的意义，以及投资机会与风险。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "从Momenta看物理AI公司：如何评估一家AI企业的上市潜力？",
+          "angle": "教投资者从技术壁垒、数据规模、商业化落地等维度分析物理AI公司的价值，以Momenta为例进行实战拆解。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "de7327f8b36e",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "zai-org /GLM-5",
+      "link": "https://github.com/zai-org/GLM-5",
+      "summary": "GLM-5: From Vibe Coding to Agentic Engineering",
+      "published": "2026-06-19T12:43:38.285141+08:00",
+      "fetched_at": "2026-06-19T12:43:38.285144+08:00",
+      "pre_filter_reason": "GLM is an AI model; mentions agentic engineering.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "从Vibe Coding到Agentic Engineering：GLM-5实战入门",
+          "angle": "手把手演示如何用GLM-5实现从简单代码生成到智能体自主编程的升级，对比传统开发流程，突出Agentic Engineering的核心优势。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "GLM-5发布：Agentic Engineering将如何重塑开发者工作流？",
+          "angle": "解读GLM-5从Vibe Coding到Agentic Engineering的转变，分析其对开发者角色、代码质量及项目协作方式的潜在影响。",
           "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "1fba4163053b",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "全球首个 AI 艺术博物馆：谷歌协力打造，生成 12 亿像素超现实画面",
+      "link": "https://www.ithome.com/0/966/311.htm",
+      "summary": "<p>IT之家 6 月 19 日消息，谷歌昨日（6 月 18 日）发布博文，宣布携手艺术家 Refik Anadol，<strong>在洛杉矶打造全球首个 AI 艺术博物馆 Dataland，将于明日（6 月 20 日）开馆。</strong></p><p style=\"text-align: center;\"> </p><p>博物馆位于 Frank Gehly 设计的 The Grand LA 综合体内，面积约 2500 平方米，是一个将数据转化为颜料、艺术实时演变的全感官生态系统。IT之家附上相关视频如下：</p><p style=\"text-align: center;\"> </p><p>开幕展“Machine Dreams: Rainforest”由 Large Nature Model（大型自然模型）驱动，该模型基于大量自然世界数据集训练。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/ac602d41-1293-46ff-8466-2a1792cd1055.png?x-bce-process=image/format,f_auto\" /></p><p>博物馆为将复杂环境数据转化为 12 亿像素的超生成现实，使用 Google Cloud（谷歌云）工具，包括 Gemini Enterprise Agent Platform（双子座企业智能体平台）和 Compute Engine（计算引擎），协调 GANs（生成对抗网络）、扩散模型和 Gemini 等 AI 模型。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/0b088a51-16d5-41d3-8d2b-7a7e1ca96a0d.png?x-bce-process=image/format,f_auto\" /></p><p>博物馆创造全新交互范式：画廊与访客形成主动对话。Google 基础设施处理数据，生成动态声景、实时情绪感应，并通过算法增强气味，根据人类互动动态响应。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/efd96c9f-9623-473e-8722-938336eea5fd.png?x-bce-process=image/format,f_auto\" /></p><p>整个系统运行在 Google Cloud 高效计算基础设施上，使用 87% 无碳可再生能源，从入口票务到墙面像素均确保流畅可持续运行。</p>",
+      "published": "2026-06-19T10:21:37+08:00",
+      "fetched_at": "2026-06-19T12:43:25.545725+08:00",
+      "pre_filter_reason": "AI art museum created with Google, uses AI to generate art.",
+      "scores": {
+        "importance": 6,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "探秘全球首个AI艺术博物馆：谷歌如何用12亿像素生成超现实画面？",
+          "angle": "以Dataland博物馆为例，拆解AI艺术生成的技术流程（数据转颜料、实时演变），并展示如何用类似工具创作自己的AI艺术品。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "AI艺术博物馆开馆：当数据成为颜料，艺术创作将走向何方？",
+          "angle": "分析Dataland博物馆的里程碑意义，探讨AI艺术对传统艺术行业、版权及审美标准的冲击与融合。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "e3e01d8747cc",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "Gemini 联合负责人出走 OpenAI：Google 为什么总让 AI 天才感到挫败？",
+      "link": "https://www.infoq.cn/article/3hkmF10X9ec1ujwwIjFW?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/3hkmF10X9ec1ujwwIjFW?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-06-19T02:15:00+08:00",
+      "fetched_at": "2026-06-19T12:43:18.755762+08:00",
+      "pre_filter_reason": "Involves AI talent movement between major AI companies.",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "Gemini联合负责人出走OpenAI：Google为何留不住AI天才？",
+          "angle": "复盘Google近年AI人才流失案例，分析其组织文化、资源分配及创新机制上的深层问题，对比OpenAI的吸引力。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "opinion",
+          "title": "从Gemini到OpenAI：AI人才流动背后的行业风向标",
+          "angle": "以Gemini负责人跳槽为切入点，解读当前AI人才市场趋势，以及大厂与创业公司在AI人才争夺中的策略差异。",
+          "difficulty": "入门"
         }
       ]
     },
@@ -451,269 +667,65 @@
       "link": "https://www.infoq.cn/article/pl4x24FzEJDfhBRgiWAc?utm_source=rss&utm_medium=article",
       "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/pl4x24FzEJDfhBRgiWAc?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
       "published": "2026-06-18T20:02:51+08:00",
-      "fetched_at": "2026-06-18T12:15:01.334449+08:00",
-      "pre_filter_reason": "AI model news and product launch involving Cursor and Musk",
+      "fetched_at": "2026-06-19T12:43:18.755909+08:00",
+      "pre_filter_reason": "Mentions Cursor model and AI coding tool competition",
       "scores": {
-        "importance": 8,
-        "timeliness": 9,
+        "importance": 7,
+        "timeliness": 8,
         "actionability": 8,
-        "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "Cursor 1.5T新模型弃用Kimi基座，马斯克收购后第一刀砍向GitHub？",
-          "angle": "快速解读Cursor换基座事件，分析马斯克收购后对GitHub的潜在影响，以及这对AI编程工具生态的冲击。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "d8d49b84a378",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "英国监管机构要求谷歌整改：限期 6 个月提高搜索算法透明度",
-      "link": "https://www.ithome.com/0/965/858.htm",
-      "summary": "<p>IT之家 6 月 18 日消息，科技媒体 Android Headline 昨日（6 月 17 日）发布博文，<strong>报道称英国竞争与市场管理局（CMA）已限期 6 个月，要求谷歌整改其搜索系统，提高搜索排名算法透明度。</strong></p><p>IT之家援引博文介绍，英国监管机构 CMA 在收到大量英国企业投诉（称谷歌当前的排名实践既不公正也不透明）后，于 2025 年根据英国最新数字竞争框架，授予谷歌的“战略市场地位”定位。</p><p>根据最新具有法律约束力的整改要求，谷歌必须确保所有自然搜索结果仅基于严格客观且非歧视的标准排名，且该规则同样适用于谷歌的 AI 概述功能，要求 AI 生成的答案不得偏袒任何平台。</p><p>CMA 还要求谷歌必须建立更清晰的内部流程来处理企业投诉，并允许用户将其个人搜索数据安全地迁移至用户授权的第三方。</p><p>CMA 数字市场执行董事威尔 · 海特强调，这些逐步改革将营造可预测的环境，让本地出版商和企业安心发展。谷歌需在 3 个月内完成数据可移植性架构，并在 6 个月内全面实施公平排名系统。</p><p>谷歌发言人表示，其排名系统已经公平、透明，旨在提升高质量内容，但公司将配合监管机构以维护系统完整性。</p>",
-      "published": "2026-06-18T11:39:27+08:00",
-      "fetched_at": "2026-06-18T12:15:08.685245+08:00",
-      "pre_filter_reason": "监管要求整改AI概述功能，涉及AI政策",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "英国限期6个月整改：谷歌搜索算法必须“透明”，AI摘要也逃不掉",
-          "angle": "解读CMA对谷歌的整改要求，重点分析“AI概述”也被纳入监管意味着什么，以及对SEO和内容创作者的影响。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "ae7a69e66f14",
-      "source_id": "ifanr",
-      "source_name": "爱范儿",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "营收涨了 30 倍，ARR 3 亿美金，这家 AI 公司已经在赚钱了",
-      "link": "https://www.ifanr.com/1669210?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "演语科技完成了近 3 亿美元的 B+ 轮融资，投后估值超过 20 亿美元<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
-      "published": "2026-06-18T10:02:05+08:00",
-      "fetched_at": "2026-06-18T12:15:06.170952+08:00",
-      "pre_filter_reason": "AI公司营收与融资",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
         "scarcity": 7,
         "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.7,
+      "quality_score": 7.4,
       "topics": [
         {
-          "tag": "case_study",
-          "title": "营收涨30倍、ARR达3亿美金：这家AI公司如何实现盈利？",
-          "angle": "拆解演语科技的商业模式和增长路径，分析其从融资到盈利的关键决策，为AI创业者提供可复用的策略。",
+          "tag": "tutorial",
+          "title": "Cursor 1.5T新模型来了！放弃Kimi基座后，如何迁移你的AI编程工作流？",
+          "angle": "针对Cursor用户，演示新模型特性（性能提升、兼容性变化），并给出从Kimi基座迁移到新模型的具体步骤与注意事项。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "马斯克第一刀砍向GitHub？600亿美元股票换Cursor背后的AI编程战局",
+          "angle": "分析Cursor估值飙升与马斯克收购意图，探讨AI编程工具市场格局变化及对微软GitHub的潜在冲击。",
           "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "c4b0e5e9f34c",
+      "id": "a551e7f2aec7",
       "source_id": "infoq-cn",
       "source_name": "InfoQ中国",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "万亿估值前夜，OpenAI 被曝一年亏约 2600 亿",
-      "link": "https://www.infoq.cn/article/XHlhul82geYax30TcJbP?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/XHlhul82geYax30TcJbP?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-06-18T08:44:03+08:00",
-      "fetched_at": "2026-06-18T12:15:01.334546+08:00",
-      "pre_filter_reason": "OpenAI亏损新闻，涉及AI模型公司",
+      "title": "Chrome 推出 WebMCP 标准提案（Origin Trial）：为智能体提供原生 Web 操作能力",
+      "link": "https://www.infoq.cn/article/wCUdx4sZt94siodQI7u0?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/wCUdx4sZt94siodQI7u0?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-06-18T19:35:00+08:00",
+      "fetched_at": "2026-06-19T12:43:18.755919+08:00",
+      "pre_filter_reason": "Proposes WebMCP standard for AI agents",
       "scores": {
-        "importance": 8,
+        "importance": 7,
         "timeliness": 8,
         "actionability": 8,
-        "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "OpenAI 巨亏背后：AI 公司的烧钱模式能持续吗？",
-          "angle": "分析 OpenAI 的亏损结构（算力、人力、研发），对比其估值逻辑，解读 AI 行业“高投入换高估值”的商业模型，适合投资人或科技从业者理解行业风险。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "从 OpenAI 亏损看 AI 创业：如何避免烧钱陷阱？",
-          "angle": "以 OpenAI 为反面案例，拆解 AI 创业公司常见的成本黑洞（如 GPU 租赁、人才竞争），并提供 3 个降低运营成本的实用策略（如模型蒸馏、边缘计算）。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "47d5ce8c1532",
-      "source_id": "ifanr",
-      "source_name": "爱范儿",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "早报｜曝第二代iPhone Air明年春季推出/特斯拉「车顶维权」名誉权案再审被驳回/微信支付推出AI专属卡",
-      "link": "https://www.ifanr.com/1669281?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "· 上交所发布指引：大模型企业上市需至少一个产品规模化应用\n· 曝字节洽购至少 5 万颗天数智芯推理 GPU\n· Meta CTO：公司士气接近史上最低点<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
-      "published": "2026-06-18T08:10:28+08:00",
-      "fetched_at": "2026-06-18T12:15:06.170969+08:00",
-      "pre_filter_reason": "Contains AI-related topics: large model listing rules, GPU procurement, and AI card launch.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "微信支付推出 AI 专属卡：你的数字钱包要升级了？",
-          "angle": "介绍 AI 专属卡的功能（如智能消费分析、自动理财），对比传统支付工具，演示如何开通和使用，适合普通用户快速上手。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "大模型企业上市新规：你的 AI 产品必须“规模化应用”了吗？",
-          "angle": "解读上交所新指引的核心要求（如用户量、营收门槛），分析对 AI 创业公司融资和产品规划的影响，并给出合规建议。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "b042db16dd5d",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "刚刚，北京建了一座AI工厂：目标10万P算力，日产10万亿Token！",
-      "link": "https://www.qbitai.com/2026/06/436456.html",
-      "summary": "计划1000倍综合降本",
-      "published": "2026-06-17T21:07:48+08:00",
-      "fetched_at": "2026-06-18T12:15:03.084332+08:00",
-      "pre_filter_reason": "AI product/news (AI factory for compute and tokens)",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "北京 AI 工厂揭秘：10 万 P 算力如何“日产”10 万亿 Token？",
-          "angle": "用通俗语言解释算力（P）和 Token 的概念，通过动画或图表展示 AI 工厂的运作流程（数据清洗、训练、推理），适合技术小白理解 AI 基础设施。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "AI 工厂降本 1000 倍：企业如何复制这一模式？",
-          "angle": "分析北京 AI 工厂的降本策略（如算力调度优化、硬件定制），提炼出可复用的技术方案（如混合云架构、模型量化），面向技术决策者。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "e0269b525477",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "DeepSeek完成500亿融资，采用特殊架构保梁文锋控权；被约谈后，山姆总部更换董事长；豪掷20亿元股权！理想重赏三大高管，市值1万亿元可解锁兑现",
-      "link": "https://www.leiphone.com/category/zaobao/x7smRCp8vFcgtOEU.html",
-      "summary": "<section></section><section><section><section><section><section><section><section style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong><span style=\"text-align: justify;\">要闻提示</span></strong></span></section><section><section><br /></section></section></section></section></section></section></section></section><p style=\"text-align: justify;\">1.DeepSeek完成超500亿创纪录融资，采用特殊架构保梁文锋控权</p><p style=\"text-align: justify;\">2.蔚来李斌：今年是我进入汽车行业以来最难的一年，新乐道 L60 不至于卖一辆亏一辆</p><p style=\"text-align: justify;\">3.被约谈后，山姆总部更换董事长，其曾在阿里巴巴担任高管</p><p style=\"text-align: justify;\">4.豪掷20亿元股权！理想重赏三大高管，市值1万亿元可解锁兑现</p><p style=\"text-align: justify;\">5.字节豆包日收入不足百万，Seedance毛利率达70%</p><p style=\"text-align: justify;\">6.小红书选定高盛、中金筹备香港IPO，最早下半年上市</p><p style=\"text-align: justify;\">7.2.75万亿美元！SpaceX总市值超越亚马逊，马斯克身家相当于8.8个巴菲特</p><section><section><section><section><section><section><section></section><section><section style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>今日头条</strong></span></section><section><br /></section></section></section></section></section></section></section></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>DeepSeek完成超500亿创纪录融资，采用特殊架构保梁文锋控权</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">6月16日消息，据报道，DeepSeek在首轮融资中筹得逾500亿元人民币（74亿美元），估值超500亿美元（约合人民币3380亿元），并采用了旨在维持创始人控制权的交易结构。这是中国AI行业迄今规模最大的单轮融资。</p><p style=\"text-align: justify;\">据知情人士透露，除国家人工智能产业投资基金外，所有外部投资方的资金需注入由梁文锋管理的有限合伙企业，而非直接投向DeepSeek主体。报道称，投资者需遵守五年锁定期，且不享有表决权。梁文锋身边人士透露，他坚定主张AI技术开源、让技术普惠大众，五年锁定期正是为了筛选出不追求短期套现的长期资本。</p><p style=\"text-align: justify;\">另一项特殊条款同样引发关注：梁文锋团队要求核查所有出资基金背后的有限合伙人真实身份，规避股权最终流入不明主体手中的风险。</p><p style=\"text-align: justify;\">此前报道，创始人梁文锋在本轮融资中个人投资200亿元，此外腾讯正考虑投资100亿元，宁德时代则计划投资50亿元，这将使它们成为本轮融资中最大的外部投资者。（环球市场播报、独角兽早知道）</p><p style=\"text-align: justify;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260617/6a323b585ff95.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></p><p style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>国内资讯</strong></span><strong><br /></strong></p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>蔚来李斌：今年是我进入汽车行业以来最难的一年，新乐道 L60 不至于卖一辆亏一辆</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">6 月 16 日消息，据报道，日前，蔚来创始人、董事长李斌在接受采访时直言：“我进入汽车行业这么多年，今年是真正最难的一年。”</p><p style=\"text-align: justify;\">新乐道 L60 汽车于 6 月 11 日上市，整车购买方案 19.28 万-22.28 万元，较老款车型下探了 1.41 万元。李斌坦言：“新乐道 L60 还有毛利，不至于卖一辆亏一辆，但比较‘惨’，现在供应链端涨价太多。所以今年的毛利和整个利润的增长，主要还是看总额。”</p><p style=\"text-align: justify;\">李斌认为，目前汽车经销商和二手车商的压力都非常大，车市整体处于临界点。“接下来几个月，不确定因素非常多。如何度过这段时间，对每家企业来讲都是要回答的重要课题。”李斌透露称，今年芯片和锂原料的双重涨价，已使乐道汽车的单车成本增加 1 万多元，传导至售价约 1.5 万元。（IT之家、每日经济新闻）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>被约谈后，山姆总部更换董事长，其曾在阿里巴巴担任高管</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">6月16日，沃尔玛（中国）投资有限公司发生工商信息变更，公司核心管理层完成交接。公开信息显示，MUK SOOK YEE已卸任公司法定代表人及董事长职务，由现任山姆会员店业态总裁刘鹏接任。目前，刘鹏在完成业务交接后，进一步出任沃尔玛（中国）投资有限公司董事长及法定代表人，管理职责进一步集中。</p><p style=\"text-align: justify;\">接任董事长的刘鹏，于2025年10月加入沃尔玛中国，直接向沃尔玛中国总裁兼首席执行官朱晓静汇报。在加入沃尔玛之前，刘鹏长期任职于阿里巴巴集团，曾负责天猫国际及天猫进出口业务，并担任集团副总裁、B2C零售事业群总裁、淘天集团品牌业务发展中心总裁等职务，参与跨境供应链整合与品牌运营体系建设。</p><p style=\"text-align: justify;\">此次人事调整发生在监管关注持续升温的背景下。此前6月15日报道，国家市场监督管理总局就近期媒体曝光及监管检查中发现的山姆线下门店及线上渠道食品安全相关问题，对沃尔玛（中国）投资有限公司负责人进行了约谈。（新黄河）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260617/6a323b58b1b05.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 260px; height: 300px;\" /></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>豪掷20亿元股权！理想重赏三大高管，市值1万亿元可解锁兑现</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">6月16日消息，理想汽车落地全新高管股权激励方案，向首席财务官李铁、总裁马东辉、首席技术官谢炎三名核心高管授出合计3500万份A类普通股购股权（对应1750万份美国存托股份ADS），按授出日股价核算总价值约19.90亿港元（约合17.18亿元人民币）。</p><p style=\"text-align: justify;\">同时，公司向马东辉及99名基层员工授出555.72万份受限制股份单位（RSU），对应价值约3.16亿港元（约合2.73亿元人民币），两类股权激励合计市场价值超20亿元人民币。</p><p style=\"text-align: justify;\">购股权分配明细显示：马东辉获授1500万份，李铁、谢炎各获1000万份。而该股权并非无偿授予，高管行权需按每股ADS 14.38美元的价格出资，三人全额行权合计需支付2.5165亿美元。</p><p style=\"text-align: justify;\">并且，这批购股权设置市值考核门槛，需港股市值连续30个交易日平均值达标方可解锁对应份额：市值达2000亿港元解锁20%、4000亿港元再解锁20%、6000亿港元解锁20%、8000亿港元解锁20%，只有市值站稳1万亿港元（折合人民币约8627亿元），才能全额兑现全部购股权。截至6月15日收盘，理想汽车港股市值约1230亿港元（折合人民币约1069亿元），距离万亿港元的全额解锁目标存在约8倍估值提升空间。（快科技）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>字节豆包日收入不足百万，Seedance毛利率达70%</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">6月16日消息，据报道，截至上半年，每天2亿多人使用的豆包应用每天收入不足百万元，主要来自电商佣金。而到今年5月，豆包应用每天消耗数千万元，文字聊天成本较低，但推理、图片识别、语音聊天、视频聊天等多模态功能需要的算力成本要贵几倍甚至几十倍。字节跳动计划将2026年的资本开支上调超2000亿元，相当于2025年利润的约六成。</p><p style=\"text-align: justify;\">据了解，两个月前字节高层到访Anthropic后，字节开始调整AI资源分配，重心从豆包这类面向大众的产品，转向服务企业的产品。过去半年，Anthropic证明了AI编程能让巨额基建投入产生回报，其Claude Code去年5月上线，半年做到10亿美元年化收入，今年2月翻到25亿，估值冲到9650亿美元。字节Seedance也证明了企业服务这条路走得通，该视频生成模型当前年化收入（ARR）已达20亿美元（约143亿元），单月超10亿元，Seedance绝大多数收入来自企业客户。</p><p style=\"text-align: justify;\">目前，Seedance毛利率达70%，每卖出10元API调用，服务器和推理成本约占3元。相比之下，语言模型通常有更多版本、更密集的迭代和更长的训练周期，总体训练成本可能是视频模型的3到5倍。Seedance目前主要押注一个视频生成模型，训练投入更容易被后续收入摊薄。（晚点LatePost）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>快手前副总裁王志强入职盒马：手握创新项目向CEO严筱磊汇报</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">6月16日消息，近日，有知情人士透露，原快手副总裁王志强现已入职盒马，负责创新项目并直接向盒马CEO严筱磊（花名：百何）汇报。现阶段王志强还处在入职适应阶段，暂未全面接手各项具体业务。</p><p style=\"text-align: justify;\">此前报道，2026财年结束，盒马整体GMV突破1070亿元，线上GMV占比超六成。伴随盒马汇报线调整为直连蒋凡，企业急需擅长流量运营、商家生态管理的核心人才，以此加深和阿里中国电商事业群的业务协同。业内人士预判，王志强入职后，核心工作将聚焦三方面：提升盒马线上引流获客实力、推进平台商家生态联动、孵化升级盒马现打酒铺这类全新线下业态。</p><p style=\"text-align: justify;\">公开履历显示，王志强毕业于哈尔滨工业大学，早年任职联想，出任渠道分销经理；2014年加入京东，负责乳品、酒水等多个快消品类管理工作；2021年入职美团，执掌买菜业务商品部；2024年转战快手，先后担任中小商家业务负责人、磁力引擎副总裁等重要岗位。（新浪科技）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>小红书选定高盛、中金筹备香港IPO，最早下半年上市</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">6 月 16 日消息，据两位知情人士透露，小红书已聘请高盛、中金公司等投行，筹备潜在的香港首次公开募股（IPO）事宜。本次IPO的募资规模与估值目前尚未确定，不过另有两位消息人士称，去年年末，小红书在私募二级市场交易中的估值最高达到500亿美元。</p><p style=\"text-align: justify;\">另有两位知情人士表示，这家公司最早有望于今年下半年在港上市。小红书未对此置评，高盛拒绝发表评论，中金公司也暂未回应相关问询。</p><p style=\"text-align: justify;\">本周一，媒体报道了小红书的上市计划，称该公司正准备在6月底前向港交所递交秘密上市申请。一位消息人士透露，小红书2026年预计净利润有望达到30亿美元。（新浪科技）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>海康威视通知经销商：硬盘产品 7 月起上调价格</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">6 月 16 日消息，媒体援引知情人士消息称，海康威视近日已向经销商下发硬盘调价函，自今年 7 月 1 日起，公司硬盘产品价格将进行同步上调。报道称，7 月 1 日之前，海康威视旗下其他产品也将先行完成一轮涨价，而此次硬盘价格上调主要针对经销商渠道。面对当前供应与价格波动较大的形势，海康威视已建议经销商尽快锁定订单与价格。</p><p style=\"text-align: justify;\">报道提到，知情人士透露，硬盘采购成本持续攀升，相比今年二季度，原厂三季度的硬盘成本报价上涨幅度已超过 50%。此次成本上涨远超海康威视内部可消化的能力范围。该知情人士同时指出，基于当前市场形势，未来一段时间内产品价格仍存在持续上调的可能性。</p><p style=\"text-align: justify;\">据悉，摩根士丹利周一在致客户的一份通知中，大幅上调了希捷科技和西部数据的目标价，引用了亚洲的调查显示硬盘驱动器周期正在延长，预计短缺至少持续到 2028 年。（蓝鲸科技、IT之家）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>直播15小时都不觉得累！雷军鼓励年轻人要懂一行爱一行：才能把这一行干到极致</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">6月16日消息，近日小米集团创始人雷军在武汉发表演讲，特意回溯了三十多年前自己从武汉启程踏出创业第一步的初心，分享沉淀多年的真实感悟。雷军强调的一个核心观点就是，一定要找到一件自己真正发自内心热爱的事，踏踏实实沉下去长期坚持，这也是他走了这么多年总结出来的最有分量的人生经验。</p><p style=\"text-align: justify;\">他还举了个接地气的例子：之前他驾驶刚迭代完成的新一代小米SU7，完成了一场从北京一路开到上海的15小时全程公开直播，旁人看他熬了大半天连轴转肯定累到脱力，他自己全程完全没感觉到疲惫，反而越开越兴奋，整个人完全乐在其中。</p><p style=\"text-align: justify;\">雷军坦言，这份完全由热爱支撑的内生动力，就是他这么多年能一路闯过无数关卡的核心底气，他也借此鼓励全球的年轻群体，只有真的沉下心摸透一个行业的逻辑、打心底认可自己做的事，才有可能把手里的行当真正干到极致。（快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260617/6a323b58d6a5f.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>格力朱磊：空调抽真空15分钟是国标，产品质量差抽2小时也白扯</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">6月16日消息，近期家装空调领域“抽真空必须15分钟”在业内引发热议，有人将15分钟抽真空奉为高端安装标配，也有人认为抽真空时长无关紧要。</p><p style=\"text-align: justify;\">针对热议话题，格力电器市场总监朱磊表示，“抽真空满15分钟其实是国家通用标准，是空调行业的基本操作。空调外机管路出厂前已经抽干净并封闭，安装时需要把内机管道和连接管道抽到标准兆帕，为冷媒进入创造良好环境，所以国标提出抽15分钟。”</p><p style=\"text-align: justify;\">朱磊还强调“最终不管抽15分钟还是两个小时，产品耐用性和效果好不好，根本还是看产品质量。如果产品质量不好，抽两个小时也白扯”。据悉，国标明确硬性指标：安装管路真空度必须稳定达到0.1MPa；制冷量≤4.5kW，也就是市面上主流1-1.5匹挂机，抽真空时长最低不得少于15分钟。（快科技）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>曝微信支付正测试AI支付功能，腾讯方回应</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">6月16日晚间消息，有媒体报道，微信支付正联合腾讯智能体产品WorkBuddy测试Al支付功能，计划在微信钱包中上线“AI专属卡”。</p><p style=\"text-align: justify;\">据报道，该卡消费上限由用户充值金额决定，支付授权范围可随时管控，资金专款专用，智能体发起支付须经用户验密确认。有消息人士称，该功能最快于本周上线。对此，腾讯方面暂未回应。腾讯客服则表示，“目前暂未查询到相关信息，无法确认该内容的准确性。”（新浪科技）</p><section><section><section><section><section><section><p style=\"text-align: justify;\">阿里推出具身智能大模型Qwen-Robot系列<br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">6月16日，阿里巴巴正式推出千问具身智能大模型Qwen-Robot系列，这是千问大模型家族首次推出完整的具身智能模型体系。</p><p style=\"text-align: justify;\">该系列包含 Qwen-RobotManip、Qwen-RobotNav 和 Qwen-RobotWorld 三大核心模型，分别为机器人装上灵巧的手、认路的脚和会思考的大脑，既可单独部署，也能协同运转，让不同形态的机器人迈向真实落地有了可靠的“通用底座”。（新浪科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260617/6a323b5912c5f.jpg?imageMogr2/quality/90\" style=\"background-color: transparent;\" /></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>成本砍半，字节跳动推出 Seedance 2.0 Mini 视频生成模型</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">6 月 16 日消息，字节跳动火山引擎旗下火山方舟体验中心于 6 月 15 日正式上线 Seedance 2.0 Mini 视频生成模型，并计划近期开放 API 服务。该模型主打高性价比定位，瞄准更广泛的视频创作与规模化生产市场。</p><p style=\"text-align: justify;\">官方称，Seedance 2.0 Mini 比 Seedance 2.0 Fast 快 2 倍，输出质量与 Seedance 2.0 Fast 相当。据火山引擎公布的定价方案，Seedance 2.0 Mini 图生视频定价为 0.023 元 / 千 tokens，视频生视频定价为 0.014 元 / 千 tokens。若以 720P 规格计算，该模型单秒视频生成成本约为 0.5 元，较 Seedance 2.0 标准版降低约一半。（IT之家）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260617/6a323b594d29b.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><section><section style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>国际资讯</strong></span></section><section><br /></section></section></section></section></section></section></section></section></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>2.75万亿美元！SpaceX总市值超越亚马逊，马斯克身家相当于8.8个巴菲特</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">6月16日消息，埃隆·马斯克旗下的SpaceX股价周二上涨逾8%，使其市值超越亚马逊，成为全球市值第五大的公司。</p><p style=\"text-align: justify;\">SpaceX股价最新报209.30美元，上涨8.7%，较135美元的IPO发行价飙升逾54%；若涨势得以维持，该公司市值将达到约2.75万亿美元。亚马逊的市值为2.65万亿美元，微软为2.92万亿美元，全球市值排名前三的公司均超过4万亿美元。</p><p style=\"text-align: justify;\">股价暴涨直接推高马斯克个人财富，福布斯实时富豪榜显示，马斯克的身家周一上涨逾1600亿美元，达到1.3万亿美元——这相当于全球第二至第六大富豪身家之和，或者8.8个巴菲特（一千四百六十四亿美元）。（快科技、新浪科技）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>OpenAI 去年支出 340 亿美元，研发支出 190 亿美元</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">6 月 16 日消息，据外媒日前报道，人工智能公司 OpenAI 去年总支出达到 340 亿美元（约合 2302.45 亿元人民币）。其中，OpenAI 去年的研发支出大约是 190 亿美元（约合 1286.66 亿元人民币），销售和市场营销费用约为 60 亿美元（约合 406.31 亿元人民币），剩下的 90 亿美元（约合 609.47 亿元人民币）则主要是基础设施、运营成本等。</p><p style=\"text-align: justify;\">此前报道，OpenAI 去年营收额为 130 亿美元（约合 880.35 亿元人民币），与 340 亿美元支出相比仍存在巨大差距。同时，OpenAI 去年录得 390 亿美元（约合 2641.04 亿元人民币）净亏损，意味着该公司仍处于大规模投入阶段。业内人士认为，OpenAI 持续亏损的主要原因是不断投入算力芯片采购、数据中心建设和挖人才。</p><p style=\"text-align: justify;\">此外，OpenAI 内部正在优化运营方式，通过提高运营效率、控制研发支出增长速度、精简非核心项目，为今年的 IPO（首次公开募股）做好准备。（IT之家）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>古尔曼：因苹果在 AI 领域面临开发挑战，内置摄像头的 AirPods 耳机已被延迟至 2027 年发布</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">6 月 17 日消息，科技记者马克 · 古尔曼发文，透露由于苹果在 Apple 智能 / Siri AI 方面面临开发挑战，同时公司还要为 AirPods 机能优化能够识别用户周围物体的视觉人工智能模型，因此传闻已久的带摄像头的 AirPods 将延迟到 2027 年发布。</p><p style=\"text-align: justify;\">此前消息显示，这款耳机左右耳机均配备低分辨率摄像头，旨在捕捉用户周围环境中的视觉信息。除耳机柄因容纳摄像头而略微加长外，其整体外观与 AirPods Pro 3 相似。</p><p style=\"text-align: justify;\">此外，苹果还在探索其摄像头的更多用途，包括根据看到的内容向佩戴者发送提醒，或利用外部视觉信息提供更高级的逐向导航。在导航场景中，AI 可以提示前方特定的地标，告诉用户何时转弯。（IT之家）</p><p style=\"text-align: justify;\"><strong>芯片大神Jim Keller的公司要卖了！高通拟最高676亿元收购Tenstorrent</strong></p><p style=\"text-align: justify;\">6月16日消息，据报道，高通正与AI芯片初创公司Tenstorrent洽谈收购事宜，交易金额预计在80亿至100亿美元（约合人民币540亿至676亿元）之间。</p><p style=\"text-align: justify;\">Tenstorrent成立于2016年，由半导体业界传奇人物Jim Keller领导。Jim Keller曾在苹果担任芯片设计师，主导了A系列芯片的研发，此后又负责特斯拉自动驾驶芯片的设计工作。他在业内被视为芯片架构领域的代表性人物之一。他带领的Tenstorrent团队主要开发用于AI模型训练和推理的加速器芯片，同时对外授权RISC-V知识产权。</p><p style=\"text-align: justify;\">此次收购若达成，将大幅扩充高通在AI与数据中心芯片领域的产品线实力。从估值来看，Tenstorrent去年底完成D轮融资，募资超过6.93亿美元，当时估值约为26亿美元。如今收购价最高达100亿美元，溢价数倍。双方谈判仍在进行中，价格可能调整，谈判也有破裂风险。（快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260617/6a323b59b25c7.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 291px; height: 288px;\" /></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>经典双圆尾灯回归！全新日产Skyline今年冬季发布</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">6月16日消息，日产CEO Ivan Espinosa在接受采访时确认，全新Skyline将会在今年冬季正式发布，同时GT-R R36也正在研发之中。通过此前预告图来看，新车前脸拥有十分锐利的造型，进气格栅采用扁平化设计，配合两侧纵向布局的灯组，展现强烈运动感。车辆尾部保留经典的双炮筒式圆形尾灯设计，侧后方加入“Skyline”标识，并悬挂全新标识展现身份。</p><p style=\"text-align: justify;\">日产全球设计总监Alfonso Albaisa表示，新一代Skyline将从历史汲取灵感，但并非单纯复古，而是以现代手法重新诠释经典。动力方面官方尚未公布具体信息，有内部人士称新车将搭载日产Z中使用的VR30DDTT 3.0T V6双涡轮增压发动机，最大功率420马力，峰值扭矩520牛·米，传动系统或提供手动变速箱+后驱以及自动变速箱+四驱两种组合。</p><p style=\"text-align: justify;\">在部分市场，这款车依旧以英菲尼迪Q50的身份发布。对于全新一代GT-R，Ivan Espinosa暗示这款车正在开发中，未来会公开更多细节。而日产家庭、产品与零部件执行高管Richard Candler则表示，GT-R会继续搭载燃油动力。（快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260617/6a323b59e431d.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section>",
-      "published": "2026-06-17T08:28:00+08:00",
-      "fetched_at": "2026-06-18T12:15:00.044162+08:00",
-      "pre_filter_reason": "DeepSeek AI融资",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 9,
         "scarcity": 8,
-        "virality": 10,
+        "virality": 7,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.6,
+      "quality_score": 7.4,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "DeepSeek 500 亿融资：特殊架构如何保住创始人控股权？",
-          "angle": "解释“特殊架构”（如 AB 股、一致行动协议）的原理，对比其他公司案例（如京东、字节），分析其对创业者的启示，适合创始人或投资者。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "理想汽车 20 亿股权激励：高管如何“解锁”万亿市值？",
-          "angle": "拆解股权激励的兑现条件（如市值目标、业绩指标），用时间线展示理想汽车的增长轨迹，并给出员工参与股权激励的注意事项。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "94660a797a53",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Introducing LifeSciBench",
-      "link": "https://openai.com/index/introducing-life-sci-bench",
-      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
-      "published": "2026-06-17T08:00:00+08:00",
-      "fetched_at": "2026-06-18T12:14:51.093694+08:00",
-      "pre_filter_reason": "AI系统评估基准LifeSciBench",
-      "scores": {
-        "importance": 8,
-        "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "LifeSciBench 是什么？AI 如何通过“生命科学高考”？",
-          "angle": "用比喻（如“AI 的生物学考试”）解释 LifeSciBench 的测试内容（药物研发、基因分析等），展示 AI 在真实科研中的表现，适合科研人员或 AI 爱好者。",
+          "title": "Chrome WebMCP标准提案解读：如何让AI智能体原生操控网页？",
+          "angle": "通过实际案例演示WebMCP的Origin Trial功能，展示AI智能体如何通过该标准直接操作网页元素（如点击、填表），并给出开发者接入指南。",
           "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "用 LifeSciBench 评估你的 AI 模型：5 分钟上手教程",
-          "angle": "提供 LifeSciBench 的安装、数据加载和评估步骤（含代码片段），对比不同模型（如 GPT-4、Claude）的得分，适合 AI 开发者。",
+          "tag": "analysis",
+          "title": "WebMCP标准来袭：浏览器将成为AI智能体的新战场？",
+          "angle": "分析Chrome推出WebMCP的战略意图，探讨其对网页自动化、RPA行业及AI Agent生态的深远影响。",
           "difficulty": "进阶"
         }
       ]
