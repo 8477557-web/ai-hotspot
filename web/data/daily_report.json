@@ -1,20 +1,20 @@
 {
-  "title": "AI日报 - 2026年06月20日",
+  "title": "AI日报 - 2026年06月21日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "calesthio /OpenMontage",
-          "summary": "开源项目OpenMontage发布，提供新的图像拼接与生成能力。"
+          "title": "撸猫撸出SOTA！3个00后2个月，造出史上最快流式音视频社交模型",
+          "summary": "三位00后开发者仅用两个月打造出史上最快流式音视频社交模型，达到SOTA水平。"
         },
         {
-          "title": "zai-org /GLM-5",
-          "summary": "智谱AI发布GLM-5模型，进一步推进大语言模型能力。"
+          "title": "马斯克：Grok 语音控制特斯拉 FSD 功能将在 3 个月左右推出",
+          "summary": "马斯克宣布Grok语音控制特斯拉FSD功能预计三个月内上线。"
         },
         {
-          "title": "Lightricks /LTX-2",
-          "summary": "Lightricks推出LTX-2模型，增强视频生成与编辑功能。"
+          "title": "Temporary Cloudflare accounts for AI agents",
+          "summary": "Cloudflare推出面向AI代理的临时账户服务，提升自动化任务的安全性与灵活性。"
         }
       ]
     },
@@ -22,20 +22,16 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "Norway imposes near ban on AI in elementary school",
-          "summary": "挪威几乎全面禁止在小学使用AI，引发全球教育科技讨论。"
+          "title": "诺奖得主、AlphaFold之父投奔Anthropic！谷歌48小时连跑俩大将",
+          "summary": "诺奖得主及AlphaFold之父相继离开谷歌加入Anthropic，引发对谷歌AI人才流失的讨论。"
         },
         {
-          "title": "英特尔 AMD 世纪破冰完善 x86 生态，ACE 规范 1.15 公布增强 AI 算力",
-          "summary": "英特尔与AMD联手推出ACE 1.15规范，旨在提升x86架构的AI计算能力。"
+          "title": "Meta员工士气跌至20年谷底！内部直播当众开骂，CTO承认AI重组糟糕透顶",
+          "summary": "Meta员工士气创20年新低，CTO公开承认AI重组失败，内部直播中爆发激烈批评。"
         },
         {
-          "title": "科创板第五套标准正式扩容AI大模型",
-          "summary": "科创板第五套标准正式纳入AI大模型企业，为行业融资提供新通道。"
-        },
-        {
-          "title": "Anthropic 恰乌里称有信心“未来几天”重新开放 Mythos 及 Fable 5 AI 模型",
-          "summary": "Anthropic表示将很快重新上线被下架的Mythos和Fable 5模型，回应安全质疑。"
+          "title": "一放一严！机构热议科创新政：AI“六小虎”或加速上市回流，题材炒作监管全面收紧",
+          "summary": "科创板新政引发热议，AI初创企业或加速上市，同时监管对题材炒作趋严。"
         }
       ]
     },
@@ -43,16 +39,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "全球首个人形机器人通用小脑来了！全球最大规模2万小时人类动作数据，实现零样本泛化",
-          "summary": "研究团队发布人形机器人通用小脑，基于2万小时人类动作数据实现零样本泛化。"
+          "title": "google-research /timesfm",
+          "summary": "Google Research开源时间序列基础模型TimesFM，为时序预测提供通用解决方案。"
         },
         {
-          "title": "GPT发AI原创新成果了",
-          "summary": "GPT模型在AI原创性研究上取得新突破，展示自主创新能力。"
+          "title": "DVD-JEPA: an open-source, fully-reproducible JEPA world model [P]",
+          "summary": "开源项目DVD-JEPA发布完全可复现的JEPA世界模型，推动自监督学习研究。"
         },
         {
-          "title": "MosaicLeaks: Can your research agent keep a secret?",
-          "summary": "新研究揭示AI研究代理在保密性方面的漏洞，引发隐私安全关注。"
+          "title": "Studying FLUX in diffusers library was hard, so I built a smaller open-source version [P]",
+          "summary": "开发者因FLUX在diffusers库中学习困难，自建了更小型的开源版本以降低门槛。"
         }
       ]
     },
@@ -60,21 +56,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "How does torch.compile() achieve massive speedups despite highly optimized NumPy functions?",
-          "summary": "技术讨论深入解析torch.compile()在NumPy高度优化下仍能大幅加速的原理。"
+          "title": "Anthropic首席执行官：人工智能公司需要“数千亿美元”收入，否则将面临生存风险",
+          "summary": "Anthropic CEO警告AI公司需达到数千亿美元收入才能生存，行业资本门槛极高。"
         },
         {
-          "title": "刚刚，Codex 大更新，你在电脑的操作正在成为 AI 经验包",
-          "summary": "Codex重大更新，将用户电脑操作转化为AI训练数据，提升智能助手能力。"
+          "title": "Would you let an ML PhD student graduate without a top-tier paper? [D]",
+          "summary": "Reddit热议ML博士生是否应允许无顶会论文毕业，引发对学术评价标准的反思。"
         },
         {
-          "title": "我把昨晚的梦输入AI，它居然直接把我拉进去玩儿了一把？！",
-          "summary": "有趣实验展示AI将梦境描述转化为沉浸式交互体验，探索创意应用。"
+          "title": "不等 R 星了，独立开发者用 AI 自制《GTA6》",
+          "summary": "独立开发者利用AI工具自制《GTA6》原型，展示AI在游戏开发中的创造力。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦模型开源、教育监管与硬件生态合作，人形机器人与创意应用成为亮点。",
-  "generated_at": "2026-06-20T11:58:38.080771+08:00",
+  "summary": "今日AI圈人才流动加剧，模型开源与创新加速，但行业资本压力与监管趋严并存。",
+  "generated_at": "2026-06-21T12:29:14.678973+08:00",
   "source_count": 20
 }
