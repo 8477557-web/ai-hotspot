@@ -1,20 +1,16 @@
 {
-  "title": "AI日报 - 2026年06月21日",
+  "title": "AI日报 - 2026年06月22日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "撸猫撸出SOTA！3个00后2个月，造出史上最快流式音视频社交模型",
-          "summary": "三位00后开发者仅用两个月打造出史上最快流式音视频社交模型，达到SOTA水平。"
+          "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+          "summary": "三星正式向员工开放ChatGPT和Codex，成为OpenAI史上最大规模企业部署之一。"
         },
         {
-          "title": "马斯克：Grok 语音控制特斯拉 FSD 功能将在 3 个月左右推出",
-          "summary": "马斯克宣布Grok语音控制特斯拉FSD功能预计三个月内上线。"
-        },
-        {
-          "title": "Temporary Cloudflare accounts for AI agents",
-          "summary": "Cloudflare推出面向AI代理的临时账户服务，提升自动化任务的安全性与灵活性。"
+          "title": "Apertus – Open Foundation Model for Sovereign AI",
+          "summary": "开源主权AI基础模型Apertus发布，旨在推动自主可控的AI生态。"
         }
       ]
     },
@@ -22,16 +18,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "诺奖得主、AlphaFold之父投奔Anthropic！谷歌48小时连跑俩大将",
-          "summary": "诺奖得主及AlphaFold之父相继离开谷歌加入Anthropic，引发对谷歌AI人才流失的讨论。"
+          "title": "2026世界杯佛得角连续逼平两个世界冠军，12家AI集体预测错误",
+          "summary": "世界杯冷门频出，12家AI模型集体预测失准，暴露了体育预测的局限性。"
         },
         {
-          "title": "Meta员工士气跌至20年谷底！内部直播当众开骂，CTO承认AI重组糟糕透顶",
-          "summary": "Meta员工士气创20年新低，CTO公开承认AI重组失败，内部直播中爆发激烈批评。"
+          "title": "AI热潮重塑韩国股市格局：SK海力士市值一度超越三星电子成韩国最具价值企业",
+          "summary": "AI芯片需求推动SK海力士市值短暂超越三星，韩国股市格局生变。"
         },
         {
-          "title": "一放一严！机构热议科创新政：AI“六小虎”或加速上市回流，题材炒作监管全面收紧",
-          "summary": "科创板新政引发热议，AI初创企业或加速上市，同时监管对题材炒作趋严。"
+          "title": "小米YU7 GT第一视角：见证全球首个纽北自动驾驶圈速纪录诞生",
+          "summary": "小米YU7 GT在纽博格林赛道创下全球首个自动驾驶圈速纪录。"
+        },
+        {
+          "title": "HD现代基于英伟达平台研发造船AI机器人，将率先应用于焊接工序",
+          "summary": "HD现代利用英伟达平台开发造船AI机器人，焊接工序将首批应用。"
         }
       ]
     },
@@ -39,16 +39,12 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "google-research /timesfm",
-          "summary": "Google Research开源时间序列基础模型TimesFM，为时序预测提供通用解决方案。"
+          "title": "I released a softmax-free attention model at GPT-2 Medium scale (~354M params, 11.5B tokens): structural sparsity + tile-skipping kernels for long-context VRAM savings. Open weights + custom Triton kernels [R]",
+          "summary": "研究者发布无softmax注意力模型，通过结构稀疏性和tile-skipping内核实现长上下文VRAM节省。"
         },
         {
-          "title": "DVD-JEPA: an open-source, fully-reproducible JEPA world model [P]",
-          "summary": "开源项目DVD-JEPA发布完全可复现的JEPA世界模型，推动自监督学习研究。"
-        },
-        {
-          "title": "Studying FLUX in diffusers library was hard, so I built a smaller open-source version [P]",
-          "summary": "开发者因FLUX在diffusers库中学习困难，自建了更小型的开源版本以降低门槛。"
+          "title": "asgeirtj /system_prompts_leaks",
+          "summary": "GitHub上出现系统提示词泄露项目，引发对AI安全与隐私的讨论。"
         }
       ]
     },
@@ -56,21 +52,17 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "Anthropic首席执行官：人工智能公司需要“数千亿美元”收入，否则将面临生存风险",
-          "summary": "Anthropic CEO警告AI公司需达到数千亿美元收入才能生存，行业资本门槛极高。"
+          "title": "chopratejas /headroom",
+          "summary": "开源工具Headroom帮助开发者监控和管理AI模型的内存使用。"
         },
         {
-          "title": "Would you let an ML PhD student graduate without a top-tier paper? [D]",
-          "summary": "Reddit热议ML博士生是否应允许无顶会论文毕业，引发对学术评价标准的反思。"
-        },
-        {
-          "title": "不等 R 星了，独立开发者用 AI 自制《GTA6》",
-          "summary": "独立开发者利用AI工具自制《GTA6》原型，展示AI在游戏开发中的创造力。"
+          "title": "omnigent-ai/omnigent",
+          "summary": "Omnigent项目提供多智能体协作框架，助力复杂任务分解与执行。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈人才流动加剧，模型开源与创新加速，但行业资本压力与监管趋严并存。",
-  "generated_at": "2026-06-21T12:29:14.678973+08:00",
+  "summary": "今日AI圈聚焦企业大规模部署、开源模型创新及行业应用落地，同时冷门事件暴露AI预测短板。",
+  "generated_at": "2026-06-22T12:45:36.086305+08:00",
   "source_count": 20
 }

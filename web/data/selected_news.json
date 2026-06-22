@@ -1,233 +1,78 @@
 {
-  "updated_at": "2026-06-21T12:29:14.679062+08:00",
+  "updated_at": "2026-06-22T12:45:36.086400+08:00",
   "total": 20,
   "items": [
     {
-      "id": "04d2288ddf46",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "诺奖得主、AlphaFold之父投奔Anthropic！谷歌48小时连跑俩大将",
-      "link": "https://www.qbitai.com/2026/06/436980.html",
-      "summary": "Gemini 3.5 Pro呢？",
-      "published": "2026-06-20T17:42:18+08:00",
-      "fetched_at": "2026-06-21T12:27:44.077303+08:00",
-      "pre_filter_reason": "AlphaFold creator joining Anthropic, an AI company.",
+      "id": "b61cc06048f8",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "published": "2026-06-22T07:00:00+08:00",
+      "fetched_at": "2026-06-22T12:43:50.515578+08:00",
+      "pre_filter_reason": "AI product launch (ChatGPT Enterprise, Codex)",
       "scores": {
         "importance": 8,
         "timeliness": 9,
         "actionability": 9,
         "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
+        "virality": 8,
+        "crowd_heat": 3.5
       },
-      "quality_score": 8.0,
+      "quality_score": 9.0,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "AI人才争夺战：谷歌为何留不住诺奖得主？",
-          "angle": "分析AlphaFold之父转投Anthropic背后的行业趋势，解读大模型人才流动对谷歌和Anthropic的影响，适合科技从业者了解AI人才格局。",
+          "title": "三星员工都在用的AI工具：ChatGPT Enterprise 和 Codex 实战指南",
+          "angle": "从三星的部署案例切入，演示ChatGPT Enterprise和Codex在实际工作场景（如代码生成、文档总结）中的具体操作步骤，突出企业级AI工具如何提升效率。",
           "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "OpenAI最大企业部署：三星全面接入AI，对行业意味着什么？",
+          "angle": "分析三星大规模部署ChatGPT和Codex背后的战略意义，探讨企业级AI落地的趋势、挑战（如数据安全、员工培训）以及对竞争对手（如谷歌、微软）的影响。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "d3e204d8bfff",
-      "source_id": "ifanr",
-      "source_name": "爱范儿",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "诺奖得主转投Anthropic，谷歌48小时连失两大牛，内部信仰崩塌？",
-      "link": "https://www.ifanr.com/1669460?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "大公司在 AI 时代会成为过去式<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
-      "published": "2026-06-20T13:25:30+08:00",
-      "fetched_at": "2026-06-21T12:27:46.387394+08:00",
-      "pre_filter_reason": "Nobel laureate joins AI company Anthropic",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "大公司信仰崩塌？AI时代人才流失的警示",
-          "angle": "从谷歌48小时连失两位大将切入，探讨大公司在AI时代面临的创新困境和人才管理挑战，适合企业管理者和AI从业者。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "56b5a052ddec",
+      "id": "d46df060f7a4",
       "source_id": "github-trending",
       "source_name": "GitHub Trending",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "calesthio /OpenMontage",
-      "link": "https://github.com/calesthio/OpenMontage",
-      "summary": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "published": "2026-06-21T12:27:54.237659+08:00",
-      "fetched_at": "2026-06-21T12:27:54.237660+08:00",
-      "pre_filter_reason": "AI-powered video production system",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 9,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "开源AI视频制作系统OpenMontage入门指南",
-          "angle": "介绍OpenMontage的12条流水线和500+智能体技能，演示如何将AI编程助手变成视频制作工作室，适合内容创作者和开发者。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "368af40a4911",
-      "source_id": "baidu-hot",
-      "source_name": "百度热搜",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "hotlist",
-      "title": "人形机器人登山时表示想自己走",
-      "link": "https://www.baidu.com/s?wd=人形机器人登山时表示想自己走",
-      "summary": "美国公司基于宇树G1改装人形机器人边巴，耗时16小时登顶6200米钦博拉索火山，是首台登上6000米高峰的人形机器人。行至海拔5800米时，机器人自主示意想要自行行走，该项目用于打造极端环境作业设备。",
-      "published": "2026-06-21T12:27:50.247601+08:00",
-      "fetched_at": "2026-06-21T12:27:50.247602+08:00",
-      "pre_filter_reason": "人形机器人登山，涉及AI机器人自主决策和极端环境作业设备",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 9,
-        "virality": 9,
-        "crowd_heat": 7.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "人形机器人登顶6200米火山：极端环境作业的未来",
-          "angle": "解析宇树G1改装机器人边巴的登山过程，重点介绍其自主行走决策背后的AI技术，探讨极端环境作业设备的发展前景。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "088cd98d604d",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "search",
-      "title": "GPT周报｜上交所发布大模型企业适用科创板第五套上市指引；Anthropic应美国政府要求关停大模型服务；微信支付打通AI智能体 - 财新",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9MZlFuYjd1eUlRdHRWN09kd2RZRWwyREJpQ20tQTVNRGlDdDVzTU16SEkzLTRmWjBOZUtsb1FGTXllajNuc2htQnhHNlhJeFY2TGc4NHJ0bDhhR2RvRjduWDBnTkI?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE9MZlFuYjd1eUlRdHRWN09kd2RZRWwyREJpQ20tQTVNRGlDdDVzTU16SEkzLTRmWjBOZUtsb1FGTXllajNuc2htQnhHNlhJeFY2TGc4NHJ0bDhhR2RvRjduWDBnTkI?oc=5\" target=\"_blank\">GPT周报｜上交所发布大模型企业适用科创板第五套上市指引；Anthropic应美国政府要求关停大模型服务；微信支付打通AI智能体</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财新</font>",
-      "published": "2026-06-20T21:06:00+08:00",
-      "fetched_at": "2026-06-21T12:27:51.627266+08:00",
-      "pre_filter_reason": "AI policy, LLM, and AI agent news",
+      "title": "asgeirtj /system_prompts_leaks",
+      "link": "https://github.com/asgeirtj/system_prompts_leaks",
+      "summary": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "published": "2026-06-22T12:44:15.016123+08:00",
+      "fetched_at": "2026-06-22T12:44:15.016125+08:00",
+      "pre_filter_reason": "System prompts from AI models",
       "scores": {
         "importance": 8,
         "timeliness": 9,
-        "actionability": 7,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "GPT周报速读：上交所新规、Anthropic关停服务、微信支付AI智能体",
-          "angle": "一周AI政策与商业动态汇总，解读上交所大模型企业上市指引、美国政府要求关停服务的影响，以及微信支付打通AI智能体的实际应用场景。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "f7a7c9d8796d",
-      "source_id": "hn-ai",
-      "source_name": "Hacker News (AI)",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "Temporary Cloudflare accounts for AI agents",
-      "link": "https://blog.cloudflare.com/temporary-accounts/",
-      "summary": "<p>Article URL: <a href=\"https://blog.cloudflare.com/temporary-accounts/\">https://blog.cloudflare.com/temporary-accounts/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48608394\">https://news.ycombinator.com/item?id=48608394</a></p>\n<p>Points: 187</p>\n<p># Comments: 101</p>",
-      "published": "2026-06-20T19:19:05+08:00",
-      "fetched_at": "2026-06-21T12:27:52.102778+08:00",
-      "pre_filter_reason": "Cloudflare accounts designed for AI agents.",
-      "scores": {
-        "importance": 7,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "5分钟搭建AI代理专用临时邮箱：Cloudflare临时账户实战",
-          "angle": "手把手教你利用Cloudflare新功能为AI代理创建一次性临时账户，避免主账户泄露风险，适合开发者和AI工具使用者。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "Cloudflare推临时账户：AI代理安全的新防线还是营销噱头？",
-          "angle": "分析临时账户对AI代理生态的意义，对比传统API密钥管理的优劣，探讨对开发者和企业安全策略的影响。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "97375fe4d7cb",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "特斯拉撞入美国得州一民宅致 76 岁女性身亡，司机称事发时开启了 Autopilot",
-      "link": "https://www.ithome.com/0/966/610.htm",
-      "summary": "<p>IT之家 6 月 21 日消息，据 Electrek 报道，一名驾驶员向哈里斯县调查人员供述，事发时他的特斯拉车辆开启了 Autopilot 系统，随后车辆驶离得克萨斯州凯蒂市一处居民区道路，冲破一栋住宅的砖墙，造成屋内一名 76 岁女性身亡。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/ce806af7-934e-415d-8e64-0e3f3a6fec53.png?x-bce-process=image/format,f_auto\" /></p><p>据哈里斯县第五治安官分局以及哈里斯县警长办公室通报，这起车祸于当地时间周五晚 8 时左右发生在罗斯霍洛巷 21300 号街区。</p><p>哈里斯县警长办公室表示，这辆特斯拉行至路口时未能右转，保持高速直行，径直撞入住宅前厅。</p><p>车辆冲入屋内时，这名 76 岁女性正站在该房间内并遭到撞击。急救直升机将她送往赫尔曼纪念医院，后经医院抢救无效宣告死亡。</p><p>官方披露涉事驾驶员为一名 44 岁男子，已由救护车送往医院救治。调查人员称，该男子无酒驾、毒驾迹象，全程配合警方问询。截至周六下午，尚未对其提起任何指控，案件调查仍在推进中。</p><p>由治安官特里 · 奥尔布里顿主管的第五治安官分局表示，驾驶员向警员称，车祸发生时车辆处于 Autopilot 开启状态。该说法仅为驾驶员单方面陈述，尚未经调查人员独立核实。</p><p>哈里斯县警长办公室事故调查专员、公共信息官亚历克斯 · 特曼中士接受 Covering Katy News 采访时表示，事故具体成因目前尚无定论。</p><p>当被问及车辆驾驶辅助功能是否处于启用状态时，特曼回应：“我们正在深入核查，这必然是本次调查的核心方向。”</p><p>特曼补充道，调查人员正联合特斯拉车辆专业技术人员以及涉事驾驶员，厘清“驾驶员对车辆的操控行为在本次事故中起到了何种作用”。</p><p>此处需要明确区分两个系统：无论是治安分局还是警长办公室，均未确认驾驶员口中的系统究竟是特斯拉基础驾驶辅助套件 Autopilot，还是功能更强的“FSD（监督版）”软件。两套系统都要求驾驶员时刻集中注意力、随时接管车辆，二者均无法实现车辆完全自动行驶。</p><p>IT之家注意到，本次事故发生之际，特斯拉的驾驶辅助系统正面临日趋严格的监管审查。2025 年 10 月，美国国家公路交通安全管理局（NHTSA）针对约 290 万辆搭载“FSD”系统的特斯拉车辆展开调查，涉事问题包括车辆闯红灯、逆向行驶；2026 年 3 月，该局将调查升级为工程分析，这是启动车辆召回前的最后一道流程。</p><p>此外，美国国家公路交通安全管理局还另立专案调查特斯拉，指控该公司未按规定上报所有涉及 Autopilot 和 FSD 的交通事故；特斯拉相关系统的安全争议也多次出现在法庭庭审中。一名特斯拉工程师去年承认，该系统上线后的前三年，公司并未留存完整的 Autopilot 事故记录。</p>",
-      "published": "2026-06-21T10:03:00+08:00",
-      "fetched_at": "2026-06-21T12:27:48.698033+08:00",
-      "pre_filter_reason": "Tesla Autopilot incident, an AI driving system.",
-      "scores": {
-        "importance": 6,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 6,
+        "actionability": 9,
+        "scarcity": 9,
         "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.4,
+      "quality_score": 8.1,
       "topics": [
         {
-          "tag": "news",
-          "title": "特斯拉Autopilot再酿悲剧：76岁女性家中遇难，责任如何界定？",
-          "angle": "梳理事故经过与调查进展，聚焦自动驾驶系统在非高速公路场景下的安全隐患，以及法律与伦理责任归属。",
-          "difficulty": "入门"
+          "tag": "tutorial",
+          "title": "如何利用泄露的系统提示词优化你的AI应用？",
+          "angle": "以Claude、ChatGPT、Gemini等模型的真实系统提示词为例，讲解如何借鉴这些提示词结构来设计更高效的AI指令，提升输出质量。",
+          "difficulty": "进阶"
         },
         {
           "tag": "analysis",
-          "title": "从特斯拉致命事故看Autopilot的三大认知误区",
-          "angle": "深度解析用户对Autopilot功能的常见误解（如“完全自动驾驶”），结合事故数据，提醒车主正确使用辅助驾驶功能。",
-          "difficulty": "中级"
+          "title": "系统提示词泄露事件揭秘：AI大厂的“秘密配方”里有什么？",
+          "angle": "解读泄露的系统提示词内容，对比不同模型（如Anthropic、OpenAI、Google）的设计思路差异，揭示各大AI公司如何通过提示词控制模型行为。",
+          "difficulty": "入门"
         }
       ]
     },
@@ -241,9 +86,342 @@
       "title": "chopratejas /headroom",
       "link": "https://github.com/chopratejas/headroom",
       "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-      "published": "2026-06-21T12:27:54.238497+08:00",
-      "fetched_at": "2026-06-21T12:27:54.238498+08:00",
-      "pre_filter_reason": "Compress data before LLM, token reduction",
+      "published": "2026-06-22T12:44:15.013540+08:00",
+      "fetched_at": "2026-06-22T12:44:15.013542+08:00",
+      "pre_filter_reason": "Compresses data before reaching LLM, reduces tokens",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "节省60-95% Token！Headroom工具安装与使用教程",
+          "angle": "手把手演示如何安装并配置Headroom（库/代理/MCP服务器），展示压缩前后Token数量的对比以及问答效果的一致性，帮助开发者降低API成本。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "Token压缩神器Headroom：LLM成本优化的新思路",
+          "angle": "分析Headroom的技术原理（如何压缩工具输出、日志、RAG块），对比其他Token优化方案，探讨其对大规模部署LLM的成本影响。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "c6f267a22d02",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "OpenAI 史上最大规模企业部署之一：三星向员工开放 ChatGPT 和 Codex",
+      "link": "https://www.ithome.com/0/966/876.htm",
+      "summary": "<p>IT之家 6 月 22 日消息，OpenAI 于当地时间 6 月 21 日宣布，三星电子正在全球向员工部署 <strong>ChatGPT Enterprise 和 Codex</strong>，加速公司 AI 的采用。</p><p>根据协议，ChatGPT 和 Codex 将向韩国三星电子的所有员工以及全球其设备体验（DX）部门的所有员工开放。<strong>这是 OpenAI 迄今为止最大规模的企业部署之一</strong>。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/d7c207c2-b481-4c90-b31b-2b4012c5bcca.png?x-bce-process=image/format,f_auto\" /></p><p>三星电子计划在工作中使用 ChatGPT 和 Codex，涵盖软件开发、市场营销、产品开发和制造等广泛职能，以提升员工生产力和解决问题的能力。</p><p>OpenAI 表示，借助 ChatGPT，三星电子员工能够更高效地完成各种知识型任务，包括搜索和分析信息、起草文档、构思和解读数据。<strong>ChatGPT Enterprise 提供企业级功能</strong>，使组织能够安全有效地使用人工智能，包括数据保护、用户和访问管理以及安全控制。</p><p>Codex 不仅可以通过编写、审核和调试代码等任务提升开发者的生产力，还能提升非技术团队日常工作的生产力。例如，员工可以使用 Codex 将想法转化为可用的软件、内部工具、网站和自动化工作流程。</p><p>OpenAI 还透露，自 2026 年 2 月 1 日以来，韩国 Codex 每周活跃用户增长了近 800%。</p><p>IT之家注意到，OpenAI 与三星电子此前已开始在全球人工智能基础设施领域合作。三星电子正与 OpenAI 合作，<strong>提供下一代 AI 基础设施所需的先进存储半导体</strong>。随着三星电子采用 ChatGPT Enterprise，两家公司的合作关系正从 AI 基础设施扩展到涵盖劳动力转型和全公司 AI 的应用。</p><p>同样在韩国，首尔国立大学最近开始为其 4.7 万名成员（包括学生、教职工）免费提供 ChatGPT Edu，作为其转型为人工智能原生校园的一部分。OpenAI 还与 Kakao 合作，使人们能够直接在 KakaoTalk 群聊中提问并接收回复，将 ChatGPT 带入韩国广泛使用的日常消息平台。</p><p>韩国各行各业的公司，包括 LG 电子、LG Uplus、LG CNS、GS E&amp;C、三星 SDS、TVING、Krafton、Toss、MUSINSA、韩国锌业、Nexen Tire 和 HanaTour，也在使用 ChatGPT Enterprise、OpenAI API 和 Codex。</p>",
+      "published": "2026-06-22T12:00:11+08:00",
+      "fetched_at": "2026-06-22T12:44:09.167484+08:00",
+      "pre_filter_reason": "OpenAI企业部署ChatGPT和Codex，直接涉及AI产品",
+      "scores": {
+        "importance": 9,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "三星员工AI办公秘籍：ChatGPT Enterprise 和 Codex 高效工作流",
+          "angle": "结合三星DX部门的实际场景，演示如何用ChatGPT Enterprise处理邮件、报告，用Codex辅助代码审查和自动化脚本编写，提供可复用的工作流模板。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "从三星到全球：OpenAI企业版部署的里程碑与启示",
+          "angle": "解读OpenAI与三星的合作细节，分析企业级AI部署的规模化挑战（如合规、本地化、员工接受度），并预测未来更多大型企业跟进的可能性。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "56b5a052ddec",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "calesthio /OpenMontage",
+      "link": "https://github.com/calesthio/OpenMontage",
+      "summary": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "published": "2026-06-22T12:44:15.013267+08:00",
+      "fetched_at": "2026-06-22T12:44:15.013270+08:00",
+      "pre_filter_reason": "Agentic video production system with AI coding assistant integration",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 9,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "开源视频制作系统OpenMontage：从AI编码助手到视频工作室",
+          "angle": "演示如何用OpenMontage的12条管道和52个工具，将AI编码助手的输出自动转化为视频，包括脚本生成、素材合成、配音等步骤，适合内容创作者。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "analysis",
+          "title": "全球首个开源智能视频系统：OpenMontage如何颠覆视频制作？",
+          "angle": "分析OpenMontage的500+智能体技能如何实现自动化视频生产，对比传统视频制作流程，探讨其对短视频、教育、营销等领域的潜在影响。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "e87a9e00f298",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "omnigent-ai/omnigent",
+      "link": "https://github.com/omnigent-ai/omnigent",
+      "summary": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "published": "2026-06-22T12:44:15.404123+08:00",
+      "fetched_at": "2026-06-22T12:44:15.404125+08:00",
+      "pre_filter_reason": "Open-source AI agent framework for orchestrating multiple AI tools.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "5分钟上手Omnigent：搭建你的第一个多模型AI Agent工作流",
+          "angle": "手把手教你安装和配置Omnigent框架，演示如何同时调用Claude、Codex和Cursor，实现一个简单的自动化任务。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "comparison",
+          "title": "Omnigent vs 传统AI框架：为什么你需要一个元编排层？",
+          "angle": "对比Omnigent与LangChain等框架，重点讲解它的“元编排”优势：无需重写代码即可切换模型、内置沙箱策略和实时协作。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "c841a02e56cc",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "2026 世界杯佛得角连续逼平两个世界冠军，12 家 AI 集体预测错误",
+      "link": "https://www.ithome.com/0/966/880.htm",
+      "summary": "<p>北京时间 6 月 22 日早晨 6 点，2026 年世界杯小组赛继续进行，乌拉圭迎战佛得角。赛前，这场比赛在外界看来悬念并不大。乌拉圭拥有更深厚的足球底蕴、更成熟的战术体系，以及明显占优的纸面实力。面对来自非洲的佛得角，多数人都认为这会是一场属于强队的比赛。</p><p>在联想集团与咪咕视频联合推出的《世界杯预测人机大战》活动中，<strong>12 家大模型也给出了完全一致的判断：全部预测乌拉圭获胜</strong>。</p><p>没有 AI 支持佛得角，没有 AI 预测平局。又一次，AI 阵营形成了 100% 共识。</p><p>但结果再次证明 —— 面对佛得角时，共识往往意味着危险。</p><h2>实际比分：2:2，乌拉圭没能带走胜利</h2><p>比赛结束，比分定格在乌拉圭 2:2 佛得角。乌拉圭没能兑现实力优势，佛得角则再次展现出惊人的韧性与执行力。他们并没有在比赛中被全面压制，反而在关键时刻展现出极强的反击效率和比赛抗压能力，面对强敌，佛得角依然踢出了自己的节奏。最终，他们再次从强队身上拿到分数。</p><p>而 AI，再次全军覆没。</p><h2>12 家 AI 全部预测乌拉圭胜，结果 0 家命中</h2><p>赛前预测中，<strong>12 家 AI 全部看好乌拉圭</strong>，0 家 AI 看好佛得角，0 家 AI 预测平局 AI 阵营命中率为 0%。这是佛得角第二次让大模型集体翻车，值得注意的是，这已经不是偶然。</p><p style=\"text-align: center;\"><img alt=\"\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/6180b1f2-c978-4a1a-9a49-1a98ccf7ed93.jpg?x-bce-process=image/format,f_auto\" /></p><h2>佛得角，正在成为大模型的“死角”</h2><p>回顾佛得角本届世界杯表现，你会发现一个惊人规律。第一场西班牙 vs 佛得角，赛前几乎所有 AI 看好西班牙，结果却是 0:0，AI 集体翻车。第二场乌拉圭 vs 佛得角，赛前 12 家 AI 全部支持乌拉圭，结果却是 2:2，AI 第二次翻车。</p><p>从西班牙，到乌拉圭，佛得角已经连续两场，让传统强队无法全取三分。更夸张的是，<strong>它两次都打穿了 AI 的预测模型</strong>。这说明佛得角并不是“运气好”，它正在系统性挑战 AI 的预测逻辑。</p><h2>为什么 AI 总看不懂佛得角？</h2><p>问题的关键在于，佛得角是一支极难量化的球队。</p><p>AI 通常依赖球队历史战绩、世界排名、球员身价等维度进行预测，按照这些指标，佛得角几乎处于全面下风。但足球比赛里，有些东西很难被数字完整描述，如团队执行力、防守纪律、反击效率、比赛韧性、临场心理等。而这些，恰恰是佛得角最大的优势。</p><p>换句话说，<strong>AI 看到的是：纸面弱队</strong>。但赛场上的佛得角，却踢出了：强队杀手。</p><h2>世界杯最可怕的，不是强队，而是变量</h2><p>西班牙、乌拉圭 —— 两支传统强队，全部没能击败佛得角。这支赛前并不被看好的球队，正在成为本届世界杯最大黑马之一。而对于 AI 来说，佛得角已经不只是黑马，<strong>它更像一个无法被稳定建模的变量</strong>。</p><p>这场比赛再次说明，AI 最擅长预测的是确定性。但世界杯最迷人的，偏偏是不确定性。</p><p>至少到目前为止，佛得角已经用两场比赛证明：有些球队，也许真的不属于算法，它们属于足球本身。</p><p><span class=\"font-color-greytip\">原标题《佛得角，AI 始终预测不了的球队：12 家 AI 第二次集体看错这支黑马》</span></p>",
+      "published": "2026-06-22T12:18:01+08:00",
+      "fetched_at": "2026-06-22T12:44:09.167441+08:00",
+      "pre_filter_reason": "涉及12家AI模型集体预测世界杯结果，属于AI应用相关新闻",
+      "scores": {
+        "importance": 5,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 9,
+        "virality": 9,
+        "crowd_heat": 10.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "12家AI集体翻车：佛得角逼平乌拉圭，我们该反思什么？",
+          "angle": "分析AI预测集体失误的原因：数据偏见、同质化训练、以及“共识陷阱”。探讨在体育预测等不确定场景中，AI的局限性。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "opinion",
+          "title": "当100%共识成为危险信号：AI预测为何总在冷门上栽跟头？",
+          "angle": "从佛得角案例出发，讨论AI预测中的“羊群效应”，以及如何通过引入对抗性思考或混合模型来提升预测鲁棒性。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "12260909cb4b",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "小米 YU7 GT 第一视角：见证全球首个纽北自动驾驶圈速纪录诞生",
+      "link": "https://www.ithome.com/0/966/844.htm",
+      "summary": "<p>IT之家 6 月 22 日消息，小米汽车今日官宣，小米 YU7 GT 达成全球首个纽北自动驾驶圈速纪录，时间为 10 分 29 秒 483。官方现已公布小米 YU7 GT 第一视角，感受全球首个纽北自动驾驶圈速纪录的诞生。</p><p style=\"text-align: center;\"><a class=\"ithome_super_player\" contenteditable=\"false\" href=\"https://weibo.com/tv/show/1034:5312546274738193?mid=5312563067753067\" target=\"_blank\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/6/46d46669-bafa-4c7a-ad89-361c7c52dbca.jpg?x-bce-process=image/format,f_auto\" /></a></p><p>IT之家注意到，<a href=\"https://www.ithome.com/0/953/623.htm\" target=\"_blank\">小米 YU7 GT 于 5 月 21 日正式发布</a>，搭载新一代超级电机 V8s EVO，定位为“跑车级 SUV”，官方指导价 38.99 万元、大满配 42.99 万元。</p><p>该车最大马力 1003 匹、峰值功率 738kW、CLTC 续航 705km，零百加速 2.92 秒，最高时速 300km/h。其搭载 101.7kWh 三元锂电池，基于 897V 碳化硅高压平台，15 分钟充电最长可补能 570km。</p><p>除了强劲的性能配置外，该车还搭载旗舰级的辅助驾驶硬件，全系标配 1 个激光雷达、1 个 4D 毫米波雷达、11 个高清摄像头、12 个超声波雷达，<strong>全系标配小米 HAD 辅助驾驶</strong>，搭载全新一代 NVIDIA DRIVE AGX Thor™ 车载计算平台等。</p><p style=\"text-align: center;\"><img class=\"lazy no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/bcbc04fe-8c34-4fd4-8e37-6961854d6237.jpg?x-bce-process=image/format,f_auto\" title=\"10 分 29 秒 483，小米 YU7 GT 达成全球首个纽北自动驾驶圈速纪录\" /></p>",
+      "published": "2026-06-22T11:19:41+08:00",
+      "fetched_at": "2026-06-22T12:44:09.167559+08:00",
+      "pre_filter_reason": "自动驾驶圈速纪录，AI相关",
+      "scores": {
+        "importance": 6,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tech-review",
+          "title": "10分29秒！小米YU7 GT纽北自动驾驶圈速纪录全解析",
+          "angle": "逐段解读第一视角视频，分析小米自动驾驶系统在纽北赛道的关键技术点：路径规划、速度控制、弯道策略。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "news",
+          "title": "全球首个纽北自动驾驶圈速纪录诞生：小米YU7 GT做到了什么？",
+          "angle": "快速报道事件，重点突出“自动驾驶”而非“人类驾驶”的里程碑意义，以及这对行业标准的潜在影响。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "b30ce96a7db9",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "verifywise-ai/verifywise",
+      "link": "https://github.com/verifywise-ai/verifywise",
+      "summary": "Complete AI governance and LLM Evals platform with support for EU AI Act, ISO 42001, NIST AI RMF and 20+ more AI frameworks and regulations. Join our Discord channel: https://discord.com/invite/d3k3E4uEpR",
+      "published": "2026-06-22T12:44:15.404112+08:00",
+      "fetched_at": "2026-06-22T12:44:15.404114+08:00",
+      "pre_filter_reason": "AI governance and LLM Evals platform",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "VerifyWise入门：如何用开源工具通过EU AI Act合规审计？",
+          "angle": "以EU AI Act为例，演示如何在VerifyWise平台上创建评估项目、配置风险框架、生成合规报告。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "comparison",
+          "title": "AI治理工具横向对比：VerifyWise vs IBM AI FactSheets vs Credo AI",
+          "angle": "从框架支持数量（20+）、开源程度、易用性三个维度对比，帮助团队选择最适合的AI治理平台。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "ed445e1416ba",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "AI 热潮重塑韩国股市格局：SK 海力士市值一度超越三星电子成韩国最具价值企业",
+      "link": "https://www.ithome.com/0/966/878.htm",
+      "summary": "<p>IT之家 6 月 22 日消息，全球人工智能（AI）投资热潮重塑了韩国股市格局。在韩国本土市场，占据市值榜首长达 27 年的三星电子，将股市“王座”拱手让给了 SK 海力士。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/f83acff3-4af8-4bb5-aae0-55903691b462.jpg?x-bce-process=image/format,f_auto\" /></p><p>据 Chosun 报道，当地时间 6 月 22 日盘中交易时段，SK 海力士市值史上首次超越三星电子。中午 12 点 40 分数据显示，SK 海力士总市值达 2090 万亿韩元（IT之家注：现汇率约合 9.29 万亿元人民币），超过市值 2088 万亿韩元（现汇率约合 9.29 万亿元人民币）的三星电子，登顶韩国股市市值第一。不过截至IT之家发稿，三星电子市值小幅领先 SK 海力士。</p><p>自 1999 年以来，三星电子稳居韩国蓝筹股市值龙头长达 27 年，此次让出榜首位置尚属首次。</p><p>三星电子丢掉坚守多年的市值第一宝座，根源在于人工智能行业爆发式增长，以及半导体行业迎来超级景气周期。全球 AI 投资热潮大幅推高了全球半导体需求，芯片售价一路暴涨，三星电子与 SK 海力士的利润也随之大幅飙升。</p><p>不过，三星电子业务多元，除半导体外还布局智能手机、家电等多条产品线，而 SK 海力士则专注芯片赛道。尤为关键的是，SK 海力士率先研发出高带宽内存（HBM）产品并供货英伟达，领先三星电子、美光等竞争对手，领跑该细分市场。</p><p>受半导体行业红利加持，SK 海力士股价涨幅远超三星电子。过去一年，三星电子股价累计上涨约 480%，SK 海力士涨幅则超 920%。去年 6 月 SK 海力士市值仅 187 万亿韩元，短短一年便跃升至 2000 万亿韩元区间。</p><p>除此之外，SK 海力士计划于今年下半年在美国股市发行美国存托凭证（ADR）。今年 3 月，该公司已向美国证券交易委员会（SEC）提交 F-1 表格，申报美国存托凭证发行注册文件。</p><p>尽管 SK 海力士股价短期内大幅飙升，但业内专家认为其仍有上涨空间。KB 证券研究主管金东元表示：“随着智能体市场从云端快速拓展至个人电脑、手机等终端设备，高带宽内存、服务器动态随机存取存储器、企业级固态硬盘等全品类存储芯片需求将进入加速增长阶段。”他同时提出，SK 海力士股价有望触及 380 万韩元（目前约 290 万韩元）。</p><p>金东元还补充道，SK 海力士二季度营业利润预计可达 69 万亿韩元（现汇率约合 3068.43 亿元人民币），同比暴涨 7.5 倍；营业利润率预计达到 77.2%，创下全球行业最高水平，业绩将大幅超出市场预期。</p><p>SK 海力士新晋登顶市值榜首，打破了三星电子自 1999 年以来的长期垄断，两家上市公司的市值角逐预计还将持续。市场主流观点认为，三星电子股价后续仍有上行空间，该公司正持续扩大高带宽内存市场份额，同时修复晶圆代工业务竞争力。</p>",
+      "published": "2026-06-22T12:01:22+08:00",
+      "fetched_at": "2026-06-22T12:44:09.167470+08:00",
+      "pre_filter_reason": "AI热潮影响韩国股市格局，直接关联AI产业",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "SK海力士市值超越三星：AI热潮如何重塑韩国芯片格局？",
+          "angle": "分析SK海力士在HBM（高带宽内存）领域的领先地位如何受益于AI需求，以及三星为何在AI时代掉队。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "opinion",
+          "title": "从三星到SK海力士：一个27年王座的终结给科技巨头的启示",
+          "angle": "探讨传统巨头在技术变革期面临的创新困境，以及AI浪潮下“专精型”企业如何逆袭“全能型”巨头。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "432802ce4b58",
+      "source_id": "hn-ai",
+      "source_name": "Hacker News (AI)",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "Apertus – Open Foundation Model for Sovereign AI",
+      "link": "https://apertvs.ai/",
+      "summary": "<p>Article URL: <a href=\"https://apertvs.ai/\">https://apertvs.ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48622778\">https://news.ycombinator.com/item?id=48622778</a></p>\n<p>Points: 275</p>\n<p># Comments: 98</p>",
+      "published": "2026-06-22T05:29:43+08:00",
+      "fetched_at": "2026-06-22T12:44:13.102801+08:00",
+      "pre_filter_reason": "AI model news (open foundation model for sovereign AI)",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "什么是主权AI？Apertus开源模型入门指南",
+          "angle": "从概念到实践，解释主权AI的意义，并手把手演示如何部署和使用Apertus开源基础模型。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "Apertus vs. 闭源巨头：开源主权AI的机遇与挑战",
+          "angle": "分析Apertus模型在数据主权、隐私和可控性方面的优势，对比主流闭源模型，探讨其应用场景。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "1af2a03b2215",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "cortexkit/aft",
+      "link": "https://github.com/cortexkit/aft",
+      "summary": "Give your agent a proper IDE and OS. The sensorimotor cortex for coding agents (OpenCode + Pi), part of CortexKit: symbol-aware edits, semantic search, code health, fast grep/glob, bash compression, background tasks, PTY.",
+      "published": "2026-06-22T12:44:15.404105+08:00",
+      "fetched_at": "2026-06-22T12:44:15.404107+08:00",
+      "pre_filter_reason": "Coding agents and AI sensorimotor cortex",
       "scores": {
         "importance": 7,
         "timeliness": 8,
@@ -256,441 +434,311 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "让LLM更省钱：Headroom工具压缩日志与RAG块，节省60%+ Token",
-          "angle": "演示如何通过Headroom库/代理/MCP服务器压缩输入数据，显著降低调用大模型的成本，同时保持回答质量。",
-          "difficulty": "入门"
+          "title": "给AI Agent装上“操作系统”：cortexkit/aft实战教程",
+          "angle": "演示如何利用cortexkit/aft为代码Agent提供IDE和OS能力，包括符号感知编辑、语义搜索和后台任务。",
+          "difficulty": "中级"
         },
         {
-          "tag": "product",
-          "title": "Token压缩黑科技：Headroom如何让LLM推理成本直降95%？",
-          "angle": "介绍Headroom的压缩原理（非简单截断），对比其他压缩方案，展示在日志分析、RAG等场景下的实测效果。",
-          "difficulty": "中级"
+          "tag": "overview",
+          "title": "CortexKit揭秘：下一代编码Agent的传感器运动皮层",
+          "angle": "介绍cortexkit/aft的核心功能（OpenCode + Pi），解释它如何提升Agent的代码理解和执行效率。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "48260dae0256",
+      "id": "b9dd04480c50",
       "source_id": "reddit-ml",
       "source_name": "Reddit r/MachineLearning",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "Would you let an ML PhD student graduate without a top-tier paper? [D]",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1uazlhg/would_you_let_an_ml_phd_student_graduate_without/",
-      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Suppose you’re a PhD advisor in machine learning.</p> <p>Your student has been in the program for 4 years, has done solid work, and has a coherent thesis direction but they haven’t published in an A*ML venue or top journal. No NeurIPS/ICML/ICLR/CVPR/etc., and no equivalent top venue in their subfield either but 3 First author A level paper.</p> <p>Would you still support them graduating if the thesis itself is solid? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Hope999991\"> /u/Hope999991 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uazlhg/would_you_let_an_ml_phd_student_graduate_without/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uazlhg/would_you_let_an_ml_phd_student_graduate_without/\">[comments]</a></span>",
-      "published": "2026-06-20T23:36:16+08:00",
-      "fetched_at": "2026-06-21T12:27:52.996338+08:00",
-      "pre_filter_reason": "ML PhD student discussion",
+      "title": "I released a softmax-free attention model at GPT-2 Medium scale (~354M params, 11.5B tokens): structural sparsity + tile-skipping kernels for long-context VRAM savings. Open weights + custom Triton kernels [R]",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1ubmybr/i_released_a_softmaxfree_attention_model_at_gpt2/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1ubmybr/i_released_a_softmaxfree_attention_model_at_gpt2/\"> <img alt=\"I released a softmax-free attention model at GPT-2 Medium scale (~354M params, 11.5B tokens): structural sparsity + tile-skipping kernels for long-context VRAM savings. Open weights + custom Triton kernels [R]\" src=\"https://external-preview.redd.it/fzbusCnVMF6KiLx-XGEbOtJ2hfOGlk4ouLmg5Wsh_8c.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=fb342a515f360dfb611d261f135a028577e8e501\" title=\"I released a softmax-free attention model at GPT-2 Medium scale (~354M params, 11.5B tokens): structural sparsity + tile-skipping kernels for long-context VRAM savings. Open weights + custom Triton kernels [R]\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NonGameCatharsis\"> /u/NonGameCatharsis </a> <br /> <span><a href=\"https://huggingface.co/Tripstoph/RRT-Foundation\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ubmybr/i_released_a_softmaxfree_attention_model_at_gpt2/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-21T18:46:36+08:00",
+      "fetched_at": "2026-06-22T12:44:13.883126+08:00",
+      "pre_filter_reason": "AI research on attention model",
       "scores": {
-        "importance": 6,
-        "timeliness": 7,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 6,
+        "crowd_heat": 3.5
       },
       "quality_score": 7.2,
       "topics": [
         {
-          "tag": "opinion",
-          "title": "ML博士毕业必须顶会论文？学术界的一场激烈辩论",
-          "angle": "呈现支持与反对两方观点：顶会论文是能力证明还是学术内卷？探讨对博士生培养和科研评价体系的启示。",
-          "difficulty": "入门"
+          "tag": "tutorial",
+          "title": "告别Softmax：如何用结构稀疏注意力训练长上下文模型",
+          "angle": "解析softmax-free注意力机制的原理，并展示如何使用自定义Triton内核和tile-skipping技术节省VRAM。",
+          "difficulty": "高级"
         },
         {
           "tag": "analysis",
-          "title": "没有NeurIPS/ICML也能毕业？ML博士评价标准的破与立",
-          "angle": "分析当前ML领域“唯顶会论”的弊端，讨论更合理的毕业标准（如开源贡献、落地项目、技术报告），结合行业需求。",
+          "title": "GPT-2 Medium规模新突破：软注意力替代方案性能实测",
+          "angle": "对比该模型与传统GPT-2 Medium在长上下文任务中的表现，分析结构稀疏性带来的效率提升。",
           "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "aa992cd4d7c1",
-      "source_id": "qbitai",
-      "source_name": "量子位",
+      "id": "3d7ad5ce6d95",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
       "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "撸猫撸出SOTA！3个00后2个月，造出史上最快流式音视频社交模型",
-      "link": "https://www.qbitai.com/2026/06/436996.html",
-      "summary": "速度快7倍，成本只有Veo 3的1/2000",
-      "published": "2026-06-20T18:42:35+08:00",
-      "fetched_at": "2026-06-21T12:27:44.077295+08:00",
-      "pre_filter_reason": "Streaming audio-video social model, an AI product/model.",
-      "scores": {
-        "importance": 6,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.2,
-      "topics": [
-        {
-          "tag": "product",
-          "title": "00后团队2个月打造SOTA：速度7倍、成本仅1/2000的流式音视频模型",
-          "angle": "揭秘该模型的创新点（架构/训练方法），对比Veo 3的性能与成本优势，展示在实时社交场景中的应用潜力。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "story",
-          "title": "3个00后撸猫撸出SOTA：低成本造出最快流式音视频模型的故事",
-          "angle": "以团队故事为切入点，讲述年轻开发者如何利用创新思路突破资源限制，实现技术突破，激励开发者社区。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "936ffd8f8ddf",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Meta员工士气跌至20年谷底！内部直播当众开骂，CTO承认AI重组糟糕透顶",
-      "link": "https://www.qbitai.com/2026/06/436966.html",
-      "summary": "抢人最猛的Meta，似乎先从内部裂开了",
-      "published": "2026-06-20T17:36:31+08:00",
-      "fetched_at": "2026-06-21T12:27:44.077310+08:00",
-      "pre_filter_reason": "Meta AI reorganization affecting employee morale.",
-      "scores": {
-        "importance": 6,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.2,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Meta内部崩盘？从CTO道歉看大厂AI转型的三大致命错误",
-          "angle": "分析Meta AI重组失败的原因，结合CTO公开承认的失误，总结大厂在技术转型中常见的组织管理陷阱，为科技公司管理者提供避坑指南。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "员工士气跌谷底怎么办？从Meta危机学团队激励的5个反常识策略",
-          "angle": "以Meta员工公开批评管理层为案例，拆解高压力环境下如何通过透明沟通、快速试错机制和授权来重建团队信任，适合HR和团队leader。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "83fc9e4469bc",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "search",
-      "title": "一放一严！机构热议科创新政：AI“六小虎”或加速上市回流，题材炒作监管全面收紧 - 新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQQk1pcHlKRFJ0ZUtYR3lQVWQ0NWlpQ2VNME1obk1jUTUzTlFRdkZUTm9iRW10cjFNVko2b3dTMXdGVzBOeXR1RzM4REI0cElZX25WTTlzUi1FTjVFMEZHdlk2enpIbE5hbng5STA1NGxBX0hibEFJdmNIWVowdTI0RzJXdzY0Wk9QUEpUeFBBV3BMOXlrZVBiYm5nSk56MFNXTHhoTWJmNkR6RlVrczNCMkFpUTc5OTdTSDZyQjc2MHdUMDQ4T2J4M091dlVEaGxybGlTVXNkam9nbTdoYlMtNWlmSmFXczFnOUVoVUx0eGJhRGRkSmpxQU4zVGJxNjhHMkRhZFpvaVFTdDJY?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAJBVV95cUxQQk1pcHlKRFJ0ZUtYR3lQVWQ0NWlpQ2VNME1obk1jUTUzTlFRdkZUTm9iRW10cjFNVko2b3dTMXdGVzBOeXR1RzM4REI0cElZX25WTTlzUi1FTjVFMEZHdlk2enpIbE5hbng5STA1NGxBX0hibEFJdmNIWVowdTI0RzJXdzY0Wk9QUEpUeFBBV3BMOXlrZVBiYm5nSk56MFNXTHhoTWJmNkR6RlVrczNCMkFpUTc5OTdTSDZyQjc2MHdUMDQ4T2J4M091dlVEaGxybGlTVXNkam9nbTdoYlMtNWlmSmFXczFnOUVoVUx0eGJhRGRkSmpxQU4zVGJxNjhHMkRhZFpvaVFTdDJY?oc=5\" target=\"_blank\">一放一严！机构热议科创新政：AI“六小虎”或加速上市回流，题材炒作监管全面收紧</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>",
-      "published": "2026-06-21T10:27:59+08:00",
-      "fetched_at": "2026-06-21T12:27:51.627336+08:00",
-      "pre_filter_reason": "AI 'Six Little Tigers' companies and AI-related IPO policy.",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "lobehub/lobehub",
+      "link": "https://github.com/lobehub/lobehub",
+      "summary": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+      "published": "2026-06-22T12:44:15.404129+08:00",
+      "fetched_at": "2026-06-22T12:44:15.404130+08:00",
+      "pre_filter_reason": "AI agent platform for organizing and scheduling AI teams.",
       "scores": {
         "importance": 7,
         "timeliness": 8,
         "actionability": 8,
-        "scarcity": 7,
-        "virality": 6,
+        "scarcity": 6,
+        "virality": 7,
         "crowd_heat": 0.0
       },
       "quality_score": 7.1,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "AI“六小虎”要上市？一文看懂科创新政对AI创业公司的真正影响",
-          "angle": "解读科创新政中“一放一严”的具体内容，分析对AI初创企业（尤其是“六小虎”）融资、上市路径和题材炒作监管的实际影响，帮助创业者理解政策风向。",
+          "title": "LobeHub入门：一键组建你的7×24 AI特工团队",
+          "angle": "演示如何使用LobeHub招聘、调度和管理多个AI Agent，实现自动化任务分配与汇报。",
           "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "731d9b2c1e59",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "马斯克：Grok 语音控制特斯拉 FSD 功能将在 3 个月左右推出",
-      "link": "https://www.ithome.com/0/966/604.htm",
-      "summary": "<p>IT之家 6 月 21 日消息，自从去年 Grok 智能助手上线后，特斯拉车主已习惯和自己的爱车对话，但车辆的驾乘交互体验即将迎来一次全方位的语音革新。以往用户只能通过语音搜索歌曲、给导航添加目的地，而不久之后，用户将能用自然语言直接设定特斯拉 FSD（监督版）系统的全部行驶逻辑。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/60de2bcd-ae15-4230-b3e8-6e23e8634544.png?x-bce-process=image/format,f_auto\" /></p><p>IT之家注意到，一位 X 平台用户发帖，希望车载 AI 能新增 FSD 语音控制功能，马斯克很快给出了明确预估：“该功能大约三个月左右就能上线。”</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/1a7ccc2c-1749-4084-bef2-ee84379f5191.jpg?x-bce-process=image/format,f_auto\" /></p><p>马斯克此前已证实，Grok 与 FSD 系统的适配工作正在推进，而这次回复是首次给出确切落地周期。若该时间计划如期推进，这套高阶语音操控功能将于今年秋季陆续推送至全系特斯拉车辆。</p><p>Grok 去年夏天率先在美国以测试版车载助手的身份登陆特斯拉车型，随后逐步覆盖加拿大、欧洲等地区。本月初，特斯拉进一步扩大 Grok 的开通国家范围。</p><p>这款智能对话机器人持续拓展车辆实用控制能力：特斯拉在 2025 年假日版本更新中，为 Grok 新增导航语音指令，驾驶员可通过语音一键添加途经点、重新规划路线；不久前推送的 2026 春季功能更新（系统版本 2026.14 及以上），上线语音唤醒口令“嘿，Grok”与基于位置的导航提醒功能，车主只需口述“快到家时提醒我买橙汁”即可设置提醒。</p><p>让 Grok 直接操控 FSD 底层系统，是顺理成章的下一步，同时也是一次重大突破。当前新版 FSD（监督版）系统，仅能依靠驾驶员手动打转向灯，引导车辆转向；而接入 Grok 后，无需手动操作，仅凭自然语言就能操控车辆，彻底改变驾驶交互方式。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/b3ed51fb-87cf-4f42-835a-5c87d927a530.png?x-bce-process=image/format,f_auto\" /></p><p>Grok 与 FSD 系统适配后，提升最显著的场景当属停车，停车一直是车主反馈最多的问题。14.1 版本虽新增“抵达目的地自动泊车”功能，但车机屏幕可选模式十分有限，无法精准指定车辆停放位置。</p><p>依托 Grok 搭建起通往自动驾驶神经网络的语音通道，车主可实时口述精准泊车指令。例如你可以直接说：“导航去五金店，到店后倒进门店门口的车位”，或是“开回家，直接驶入自家车道”。</p>",
-      "published": "2026-06-21T09:12:11+08:00",
-      "fetched_at": "2026-06-21T12:27:48.698075+08:00",
-      "pre_filter_reason": "Mentions Grok AI assistant and voice control for Tesla FSD.",
-      "scores": {
-        "importance": 6,
-        "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 6,
-        "virality": 8,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.0,
-      "topics": [
+        },
         {
-          "tag": "tutorial",
-          "title": "用嘴开车不是梦！Grok语音控制特斯拉FSD保姆级教程（预测版）",
-          "angle": "基于马斯克宣布的Grok语音控制FSD功能，模拟未来用户如何使用自然语言设定行驶逻辑（如“去超市并避开高速”），提前教用户如何配置和调用该功能。",
-          "difficulty": "入门"
+          "tag": "overview",
+          "title": "首席Agent运营官：LobeHub如何重塑AI团队协作",
+          "angle": "介绍LobeHub作为Agent编排平台的核心价值，探讨其在企业自动化中的潜在应用。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "530c5ead2e45",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "不等 R 星了，独立开发者用 AI 自制《GTA6》",
-      "link": "https://www.ithome.com/0/966/599.htm",
-      "summary": "<p>IT之家 6 月 21 日消息，一款电子游戏要让玩家等上十三年，实在太过漫长，漫长到有人索性自己做。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/0b123aa0-cafb-4515-9d1c-25ad167db3cf.jpg\" /></p><p>25 岁的徐子文（Ziwen Xu，音译）是人工智能智能体初创公司 HyperEcho 的创始人，他在 X 平台发文，正式启动了这个自制项目。他写道：“自制《GTA6》，开工第一天。打出这句话时我依旧觉得像做梦。”为此，他专门升级到了 Claude Max 20x 大模型投入开发。项目放出的首段演示画面和大家预想的相差无几：一个蓝色方块在空旷的三维平面里四处移动。画面内容虽简陋，但所有游戏的起点大抵都是这般模样。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/3da3d506-7b73-4259-9eac-e90ef2c87428.jpg\" /></p><p>起初一周里，无数人劝他更换游戏引擎，他全都置之不理，直到第七天才妥协，将开发工程从 Godot 引擎迁移至虚幻引擎。这个名为 GT-Caliber 的项目保持每日公开更新，代码托管在开源 GitHub 仓库中；多款 AI 智能体持续循环运行，实时收集社区玩家提出的功能需求，并自动生成代码合并请求。该项目没有发行商合作，也没有游戏工作室提供开发资金，徐子文只能依靠所有自愿参与项目的爱好者共同推进。</p><p>这个项目推进速度快得惊人，过程却也一团混乱。开工首周，徐子文前后换了三次引擎，最终选定 Unity 引擎。他解释称，想要做出 3A 级别的游戏，搭载一款成熟商用引擎至关重要。大量游戏素材的制作工作由各类 AI 工具完成，生成了贴合 R 星风格的新闻片段、游戏角色、载具与建筑。几乎全部内容，都是依靠他口中“氛围式编程”，搭配多组循环联动的 AI 智能体制作而成。</p><p>仅仅九天的开发进度，成果堪称离谱。开工第三天，游戏内就实现了路人 NPC 自主行走、道路车辆通行、可用武器系统，还有内置仿 Instagram 软件的游戏手机。到第七天，屏幕里已经生成了一整片带街道的居民区，只不过 AI 建模时搞错了地域，造出了洛杉矶的场景，而非原定的迈阿密。徐子文表示，这是项目第一次看上去像正经的《GTA》系列作品，不再只是粗糙原型。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/cff23433-30c6-4536-837d-794aed05508e.png\" /></p><p>IT之家注意到，R 星已正式公布《GTA6》预购开启日期为 2026 年 6 月 25 日，同步放出游戏官方封面。封面沿用该系列标志性拼贴画风，主角杰森 · 杜瓦尔与露西娅 · 卡米诺斯占据画面核心。本作依旧定于 11 月 19 日登陆 PS5、Xbox Series X|S 平台。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/8b119979-564c-4df4-b8b5-96afd63f3306.jpg\" /></p><p>如此算来，徐子文仅有约五个月的开发时间，而他的自制项目还在每日迭代更新。反观 R 星，为打造《GTA6》投入了十三年光阴与数千名开发人员。不论徐子文最终能否做出一款完整可玩的成品，还是仅仅成为网上最有意思的独立开发日志，这个项目都值得持续关注。</p>",
-      "published": "2026-06-21T08:45:44+08:00",
-      "fetched_at": "2026-06-21T12:27:48.698108+08:00",
-      "pre_filter_reason": "AI used to create a game",
-      "scores": {
-        "importance": 4,
-        "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "不等R星自己造！独立开发者用AI自制《GTA6》的完整技术拆解",
-          "angle": "揭秘独立开发者徐子文如何利用AI智能体、生成式模型和开源工具搭建游戏原型，分步骤讲解从场景生成到角色控制的AI工作流，适合游戏开发者和AI爱好者。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "f47b0c3f5258",
+      "id": "1a77417dda08",
       "source_id": "github-trending",
       "source_name": "GitHub Trending",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "google-research /timesfm",
-      "link": "https://github.com/google-research/timesfm",
-      "summary": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "published": "2026-06-21T12:27:54.237981+08:00",
-      "fetched_at": "2026-06-21T12:27:54.237983+08:00",
-      "pre_filter_reason": "AI time-series foundation model",
+      "title": "mukul975 /Anthropic-Cybersecurity-Skills",
+      "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "summary": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+      "published": "2026-06-22T12:44:15.014954+08:00",
+      "fetched_at": "2026-06-22T12:44:15.014956+08:00",
+      "pre_filter_reason": "Structured cybersecurity skills for AI agents, works with multiple AI coding assistants",
       "scores": {
-        "importance": 8,
-        "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 6,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 6.9,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Google TimesFM上手：5分钟用时间序列基础模型预测股票/天气",
-          "angle": "手把手教用户如何调用Google Research开源的TimesFM模型，从安装环境到加载预训练权重，并用真实数据（如气温或股价）进行简单预测，适合数据科学初学者。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "TimesFM进阶：如何微调Google时间序列基础模型提升预测精度",
-          "angle": "针对有Python基础的开发者，讲解如何在自己的业务数据上微调TimesFM，包括数据格式转换、训练参数调整和评估指标解读，帮助提升特定场景的预测效果。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "70d95eb7fbc0",
-      "source_id": "baidu-hot",
-      "source_name": "百度热搜",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "hotlist",
-      "title": "女子用AI写3000字股市谣言被罚",
-      "link": "https://www.baidu.com/s?wd=女子用AI写3000字股市谣言被罚",
-      "summary": "四川南部县警方调查发现，四川女子王某某利用AI大模型生成约3000字涉股市文章，再将其上传到今日头条，王某某滥用AI炮制网络热点、制造股市噱头、吸引网民眼球，其根本目的就是从网络空间攫取更多流量收益。6月18日，南部县警方对其予以行政处罚。",
-      "published": "2026-06-21T12:27:50.247572+08:00",
-      "fetched_at": "2026-06-21T12:27:50.247574+08:00",
-      "pre_filter_reason": "女子用AI生成股市谣言并被处罚，涉及AI滥用和伦理",
-      "scores": {
-        "importance": 6,
-        "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 6,
-        "virality": 8,
-        "crowd_heat": 7.0
-      },
-      "quality_score": 6.9,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "用AI写股市谣言被罚？教你合规使用AI内容生成",
-          "angle": "以真实案例为引，讲解AI生成内容的法律红线，包括如何避免虚假信息、标注AI来源、遵守平台规则，适合内容创作者学习合规技巧。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "AI造谣背后的流量生意：从3000字股市谣言看平台监管漏洞",
-          "angle": "深度分析该事件背后的动机（流量变现），探讨AI如何被滥用制造虚假热点，以及平台和监管如何应对新型AI谣言风险。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "1e78b2e0fbaf",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Anthropic首席执行官：人工智能公司需要“数千亿美元”收入，否则将面临生存风险",
-      "link": "https://36kr.com/newsflashes/3862373538386952?f=rss",
-      "summary": "Anthropic首席执行官表示，人工智能公司需要“数千亿美元”收入，否则将面临生存风险。（财联社）",
-      "published": "2026-06-21T11:40:32+08:00",
-      "fetched_at": "2026-06-21T12:27:37.290870+08:00",
-      "pre_filter_reason": "AI公司高管讨论AI行业收入",
-      "scores": {
-        "importance": 8,
-        "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 5,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 6.9,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "AI公司需要“数千亿美元”收入？解读Anthropic CEO的生存警告",
-          "angle": "解析Anthropic CEO言论背后的行业逻辑：为什么AI巨头需要如此高的收入？从算力成本、模型训练、商业化挑战等角度分析AI行业的盈利困境。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "opinion",
-          "title": "AI烧钱大战：数千亿美元收入是泡沫还是必经之路？",
-          "angle": "以批判性视角探讨AI公司的高收入需求是否合理，对比其他科技行业的发展周期，给出对AI投资和创业者的建议。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "d05298fd76ad",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "报道：特斯拉加速推进人工智能与机器人战略，申请注册 “Amazing Abundance” 商标",
-      "link": "https://36kr.com/newsflashes/3862280121865219?f=rss",
-      "summary": "据报道，特斯拉已正式提交 “Amazing Abundance” 商标注册申请，此举表明企业将进一步深耕长期发展愿景，核心布局人工智能、人形机器人、自动驾驶系统，并依托自动化技术实现生产成本大幅下降的未来图景。（新浪财经）",
-      "published": "2026-06-21T09:54:30+08:00",
-      "fetched_at": "2026-06-21T12:27:37.290911+08:00",
-      "pre_filter_reason": "Tesla AI, robotics, and autonomous driving strategy.",
-      "scores": {
-        "importance": 6,
-        "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 6.9,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "特斯拉注册“Amazing Abundance”商标，AI+机器人战略再提速",
-          "angle": "快速解读特斯拉新商标的含义，梳理其在AI、人形机器人、自动驾驶领域的布局，展望自动化技术如何降低生产成本。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "从“Amazing Abundance”看特斯拉的未来：AI机器人如何改变制造业？",
-          "angle": "深入分析特斯拉商标背后的长期愿景，结合Optimus机器人、FSD自动驾驶等产品，探讨自动化技术对汽车制造和物流行业的颠覆性影响。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "6404714bfaac",
-      "source_id": "reddit-ml",
-      "source_name": "Reddit r/MachineLearning",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "Studying FLUX in diffusers library was hard, so I built a smaller open-source version [P]",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1ub1db3/studying_flux_in_diffusers_library_was_hard_so_i/",
-      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1ub1db3/studying_flux_in_diffusers_library_was_hard_so_i/\"> <img alt=\"Studying FLUX in diffusers library was hard, so I built a smaller open-source version [P]\" src=\"https://external-preview.redd.it/uv398bfX18yu7nOwYr1BvWXo17XA71mEA-OZaywzR94.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=712e935e0e7c861dbd7a322a30a29249b46c25fe\" title=\"Studying FLUX in diffusers library was hard, so I built a smaller open-source version [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>If you've tried to study modern diffusion models by digging through the official diffusers library, you know it can be overwhelming with its complexity and abstractions.</p> <p>I wanted to simplify FLUX diffusion models, so I built <strong>minFLUX</strong>: a PyTorch implementation focused on its core architecture and math. Here is the project: <a href=\"https://github.com/purohit10saurabh/minFLUX\">https://github.com/purohit10saurabh/minFLUX</a></p> <p>What’s inside:</p> <p>- Minimal FLUX.1 + FLUX.2 implementation with VAE and transformer model.</p> <p>- Line-by-line mappings to the source HuggingFace diffusers.</p> <p>- Training loop (VAE encode → flow matching → velocity MSE)</p> <p>- Inference loop (noise → Euler ODE → VAE decode)</p> <p>- Shared utilities (RoPE, timestep embeddings)</p> <p>The most interesting part for me was seeing that FLUX.2 is not just a scaled-up FLUX.1. It improves the transformer blocks, modulation, FFN, VAE normalization, position IDs, etc. The architecture overview of FLUX.2 is attached.</p> <p>Let me know if you find this interesting! 🙂</p> <p><a href=\"https://preview.redd.it/9evuthx2vg8h1.jpg?width=1080&amp;format=pjpg&amp;auto=webp&amp;s=47e4f72f4751e1c11d3928f6dcb43c9e96cbbc0b\">https://preview.redd.it/9evuthx2vg8h1.jpg?width=1080&amp;format=pjpg&amp;auto=webp&amp;s=47e4f72f4751e1c11d3928f6dcb43c9e96cbbc0b</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Other-Eye-8152\"> /u/Other-Eye-8152 </a> <br /> <span><a href=\"https://github.com/purohit10saurabh/minFLUX\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ub1db3/studying_flux_in_diffusers_library_was_hard_so_i/\">[comments]</a></span> </td></tr></table>",
-      "published": "2026-06-21T00:50:08+08:00",
-      "fetched_at": "2026-06-21T12:27:52.996384+08:00",
-      "pre_filter_reason": "Open-source AI model (FLUX)",
-      "scores": {
-        "importance": 6,
+        "importance": 7,
         "timeliness": 7,
         "actionability": 8,
         "scarcity": 7,
-        "virality": 6,
+        "virality": 7,
         "crowd_heat": 0.0
       },
-      "quality_score": 6.9,
+      "quality_score": 7.1,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "FLUX模型太难学？手把手教你用开源简化版快速上手",
-          "angle": "面向AI开发者和研究者，介绍如何利用开源简化版FLUX模型进行学习，对比原版diffusers库的复杂度，提供代码示例和部署技巧。",
-          "difficulty": "进阶"
+          "title": "让AI Agent掌握网络安全：754项技能库实战应用",
+          "angle": "演示如何将Anthropic网络安全技能库集成到Claude Code、Cursor等工具中，实现自动化安全分析。",
+          "difficulty": "中级"
         },
         {
-          "tag": "project",
-          "title": "开源项目推荐：简化版FLUX模型，让图像生成学习更轻松",
-          "angle": "以项目展示形式介绍该开源简化版FLUX模型的特点、安装步骤和应用场景，适合对图像生成感兴趣的初学者快速入门。",
+          "tag": "analysis",
+          "title": "从MITRE到NIST：AI Agent的网络安全技能框架全解析",
+          "angle": "解读该技能库如何映射5大安全框架，并分析其对AI驱动安全运营的意义。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "e4bbc3fcd523",
-      "source_id": "reddit-ml",
-      "source_name": "Reddit r/MachineLearning",
+      "id": "f73e49485913",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "DVD-JEPA: an open-source, fully-reproducible JEPA world model [P]",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1uatlzx/dvdjepa_an_opensource_fullyreproducible_jepa/",
-      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1uatlzx/dvdjepa_an_opensource_fullyreproducible_jepa/\"> <img alt=\"DVD-JEPA: an open-source, fully-reproducible JEPA world model [P]\" src=\"https://external-preview.redd.it/7Yk-dVZdsxRAQqEO5ORd7NEfPMoyhS_r0yWYVqTgq68.png?width=140&amp;height=73&amp;auto=webp&amp;s=a0dddb8d7ddd01622ed54c9914776b0469a188ad\" title=\"DVD-JEPA: an open-source, fully-reproducible JEPA world model [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>A paper currently trending on <a href=\"http://paperswithcode.co\">paperswithcode.co</a> in the &quot;Anomaly Detection&quot; category is <a href=\"https://paperswithcode.co/paper/98361\">DVD-JEPA</a>.</p> <p><a href=\"https://i.redd.it/r6fd8n3d4f8h1.gif\">https://i.redd.it/r6fd8n3d4f8h1.gif</a></p> <p>Here is the short summary:</p> <p>Most attempts to learn a <strong>world model</strong> from video try to predict the next frame pixel-by-pixel, and drown in detail that is fundamentally unpredictable. <strong>JEPA</strong> (Joint-Embedding Predictive Architecture, <a href=\"https://paperswithcode.co/paper/98584\">LeCun 2022</a>) makes a different bet: predict the <em>representation</em> of the future, not the pixels, and let the encoder discard whatever it cannot predict.</p> <p><strong>DVD-JEPA</strong> is the smallest honest demonstration of that idea we could build. The &quot;world&quot; is a DVD logo bouncing in a 16×16 box. A context encoder, an EMA target encoder, and a latent predictor are trained — with no labels and no decoder — to predict the next observation <strong>in a 32-dimensional representation space</strong>. We then show three things:</p> <ol> <li><strong>It learned the world.</strong> A linear probe recovers the logo's exact (y, x) position from the frozen 32-d latent to within <strong>0.73 px</strong> — though it was never given a coordinate.</li> <li><strong>It can dream (once you add a decoder).</strong> Bolt an optional decoder onto the frozen latents and roll the predictor forward: it renders a correct <strong>future-frame video</strong> of the bounce, including wall reflections, for ~20 steps before latent drift sets in.</li> <li><strong>It is useful.</strong> Run it as a 1-step predictive monitor, and the prediction error becomes an <strong>anomaly signal</strong>: inject a teleport and surprise spikes <strong>88×</strong> over baseline, on the right frame.</li> </ol> <p>The whole thing runs <strong>client-side in your browser</strong> — the trained MLPs are re-implemented in ~40 lines of JavaScript. It is a joke, and it is also a correct, working instance of the architecture behind I-JEPA, V-JEPA, and V-JEPA 2.</p> <p>Find the paper, HF model, and project page here: <a href=\"https://paperswithcode.co/paper/98361\">https://paperswithcode.co/paper/98361</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NielsRogge\"> /u/NielsRogge </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uatlzx/dvdjepa_an_opensource_fullyreproducible_jepa/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uatlzx/dvdjepa_an_opensource_fullyreproducible_jepa/\">[comments]</a></span> </td></tr></table>",
-      "published": "2026-06-20T18:52:35+08:00",
-      "fetched_at": "2026-06-21T12:27:52.996345+08:00",
-      "pre_filter_reason": "Open-source JEPA world model, an AI research paper.",
+      "title": "bytedance /deer-flow",
+      "link": "https://github.com/bytedance/deer-flow",
+      "summary": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "published": "2026-06-22T12:44:15.014500+08:00",
+      "fetched_at": "2026-06-22T12:44:15.014502+08:00",
+      "pre_filter_reason": "Open-source SuperAgent harness for AI agents that researches, codes, and creates",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.1,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "五分钟搭建你的超级AI助手：Deer-Flow入门指南",
+          "angle": "手把手演示如何部署Deer-Flow，并展示其处理一个需要多步骤协作的复杂任务（如自动调研并生成代码）的全过程，突出其“沙盒+记忆+工具”的核心架构。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "case_study",
+          "title": "从分钟到小时：Deer-Flow如何重新定义AI任务边界",
+          "angle": "对比传统AI助手与Deer-Flow在处理长周期任务时的差异，通过一个具体案例（如自动编写一个小型网站）展示其子代理协作与消息网关的价值。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "24fcb7967924",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "HD 现代基于英伟达平台研发造船 AI 机器人，将率先应用于焊接工序",
+      "link": "https://www.ithome.com/0/966/881.htm",
+      "summary": "<p>IT之家 6 月 22 日消息，据 Herald Economy 报道，HD 现代（韩国现代集团旗下的综合型重工业企业）正基于英伟达机器人仿真平台 Isaac Sim 研发实体人工智能机器人。HD 现代计划将这类机器人投用于焊接等船舶制造核心工序。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/37d00048-b49f-43b4-8c4b-30d683c35f78.jpg?x-bce-process=image/format,f_auto\" /></p><p>HD 现代目前正推动基于英伟达 Isaac Sim 平台训练的实体人工智能机器人在其造船流程中的应用。HD 现代一名负责人表示：“我们研发这款机器人的目标是投入厂区作业，会先应用于焊接、涂装、板材折弯工序，后续再评估拓展至更多工序的可行性。”</p><p>据IT之家了解，HD 现代旗下造船厂现阶段在建造作业中使用协作机器人，但这类机器人存在局限，必须依靠人工操控。若借助 Isaac Sim 搭建实体人工智能仿真环境，有望打造出基于实体人工智能的智能化建造场景，机器人可自主感知周边环境、独立完成作业。Isaac Sim 是英伟达推出的虚拟环境 AI 机器人训练平台。</p><p>这套技术流程的原理为：机器人先在英伟达 Omniverse 三维协同生态平台中完成数据预学习，该虚拟平台复刻了现实世界全部物理规则，完成训练后便可直接部署至真实的厂区。</p><p>Isaac Sim 依托英伟达 Omniverse 与新一代通用场景描述标准 OpenUSD 打造，具备高真实度、可大规模拓展两大核心优势。</p><p>平台采用实时光线追踪技术搭建高度逼真的视觉场景，并搭载英伟达新一代物理引擎 Newton，让机器人精准学习现实世界的各类物理规律。</p><p>充当机器人视觉、听觉感知设备的摄像头与各类传感器，运行机制和实体硬件完全一致。研发人员可在机器人实地投产前，充分验证自主导航、精密操作等核心技术。</p><p>业界普遍认为，Isaac Sim 突破性解决了数据匮乏难题，而数据短缺此前一直是 AI 机器人规模化落地的最大阻碍。</p><p>训练人工智能需要海量图像与环境数据。借助 Isaac Sim，研发人员仅需少量鼠标操作，就能在虚拟场景中变换光线、物体色彩与摆放位置，生成数万种不同工况组合数据。</p><p>HD 现代是全球首家采用 Isaac Sim 平台的船舶制造企业。目前物流行业的亚马逊、汽车行业的德国宝马与日本丰田，均已在厂区作业中投入基于 Isaac Sim 开发的机器人。</p><p>HD 现代相关负责人介绍：“现阶段研发进度已能支撑机器人在厂区完成基础焊接作业。”</p><p>与此同时，HD 现代正联合海内外多家头部企业，冲刺 2030 年建成“未来智能先进船厂（FOS）”的目标，该船厂将通过数据打通从船舶设计到建造的全流程。</p><p>值得一提的是，HD 现代去年联合全球科技企业西门子、英伟达搭建的数字孪生船厂，在 2026 年国际消费电子展（CES）上收获英伟达首席执行官黄仁勋高度评价，他称这座船厂是“诠释数字孪生理念的绝佳范本”。</p><p>今年，HD 现代联合现代三湖重工、HD 现代机器人事业部同步推进自动化技术研发，还与 Persona AI 合作开发人形焊接机器人。近期该公司持续提速全流程自动化落地，已将彩虹机器人公司的协作机器人投入焊接产线使用。</p>",
+      "published": "2026-06-22T12:31:41+08:00",
+      "fetched_at": "2026-06-22T12:44:09.167405+08:00",
+      "pre_filter_reason": "基于英伟达平台研发造船AI机器人",
       "scores": {
         "importance": 7,
         "timeliness": 8,
         "actionability": 7,
         "scarcity": 7,
-        "virality": 5,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.0,
+      "topics": [
+        {
+          "tag": "news_analysis",
+          "title": "英伟达+造船巨头：焊接机器人如何改变重工业？",
+          "angle": "解读HD现代基于Isaac Sim研发焊接AI机器人的技术路径，分析其如何通过仿真平台降低实体机器人部署风险，并展望对船舶制造效率的提升。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "trend",
+          "title": "AI机器人进入造船厂：下一个被颠覆的行业是？",
+          "angle": "从HD现代案例切入，探讨AI+仿真技术如何从汽车制造向船舶、建筑等重工业渗透，预测未来3年关键工序的自动化趋势。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "239cd1fd60b3",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "Mesh-LLM/mesh-llm",
+      "link": "https://github.com/Mesh-LLM/mesh-llm",
+      "summary": "Distributed AI/LLM for the people. Share compute privately or publicly to power your agents and chat.",
+      "published": "2026-06-22T12:44:15.404154+08:00",
+      "fetched_at": "2026-06-22T12:44:15.404156+08:00",
+      "pre_filter_reason": "Distributed AI/LLM project for compute sharing and agent powering.",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 6,
         "crowd_heat": 0.0
       },
       "quality_score": 6.9,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "开源世界模型DVD-JEPA：从零开始复现与实战指南",
-          "angle": "提供DVD-JEPA的完整复现教程，包括环境配置、数据准备、训练和推理步骤，适合想深入理解JEPA架构的AI研究人员。",
-          "difficulty": "进阶"
+          "title": "人人可用的分布式AI：Mesh-LLM快速上手指南",
+          "angle": "演示如何加入Mesh-LLM网络，利用闲置算力参与分布式推理或聊天，并对比与传统云端AI的隐私与成本优势。",
+          "difficulty": "入门"
         },
         {
-          "tag": "project",
-          "title": "DVD-JEPA开源项目解析：可复现的世界模型如何推动AI研究？",
-          "angle": "介绍DVD-JEPA的核心技术特点（完全可复现、开源），对比其他世界模型，探讨其对AI基础研究和应用开发的潜在影响。",
-          "difficulty": "进阶"
+          "tag": "opinion",
+          "title": "去中心化AI的野望：Mesh-LLM能挑战OpenAI吗？",
+          "angle": "分析Mesh-LLM的“共享算力”模式如何降低AI使用门槛，探讨其在隐私、抗审查方面的潜力，以及当前面临的网络规模与性能瓶颈。",
+          "difficulty": "高级"
+        }
+      ]
+    },
+    {
+      "id": "12d49f923575",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "koala73 /worldmonitor",
+      "link": "https://github.com/koala73/worldmonitor",
+      "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "published": "2026-06-22T12:44:15.014314+08:00",
+      "fetched_at": "2026-06-22T12:44:15.014316+08:00",
+      "pre_filter_reason": "AI-powered news aggregation and geopolitical monitoring",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 6,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 6.9,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "用WorldMonitor打造你的全球情报看板",
+          "angle": "演示如何配置WorldMonitor，实时追踪特定地区新闻、基建动态和地缘政治事件，展示其AI聚合与可视化能力。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "case_study",
+          "title": "从数据到决策：WorldMonitor如何赋能跨境投资与安全分析",
+          "angle": "通过一个虚构的跨境投资场景，展示WorldMonitor如何帮助用户快速掌握目标国的政治风险、基础设施进展和舆论风向，辅助决策。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "6db0e4449bde",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "深圳230亿IPO敲钟，这两家机构成最大赢家",
+      "link": "https://36kr.com/p/3863788804855047?f=rss",
+      "summary": "<p>本文约3000字，建议阅读6分钟</p>\n  <p>作者&nbsp;|&nbsp;彭孝秋</p>\n  <p>6月22日，深圳海清智元（01392.HK）正式在港交所敲钟上市，此次IPO发行价7.20港元，开盘涨313.89%，市值230亿港币。海清智元被誉为多光谱AI第一股，其已在深圳成立13年。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260622/v2_a37a9769dcf3473f8703f6e263efb700@430412560_oswg648862oswg1080oswg2341_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p>值得一提的是，<strong>海清智元此次IPO无基石投资者、无稳价人、无绿鞋（超额配股权）。</strong>从招股书来看，这家公司账面上扭了亏，但经营活动现金却在大笔大笔地往外淌；它最赚钱的「AI大模型服务」，越赚钱毛利率反而越低。海清智元最值得关注的投资亮点有六点：</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260622/v2_c0dca35ee4464065a65b9bfedd49a257@430412560_oswg4040oswg900oswg145_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <h2><strong>亮点一：扭亏为盈后，净利润反而掉头向下</strong></h2>\n  <p>从业绩来看，海清智元2023、2024、2025三个财年收入分别为<strong>1.17亿、5.23亿、6.69亿元</strong>，三年复合增速高达<strong>138.9%。</strong>2024年一年同比暴增346.4%，2025年再增27.9%。盘子三年扩大近5.7倍。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260622/v2_d18a5f00c2304de99e137ba7b6160f1c@430412560_oswg49238oswg1080oswg658_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p>(图源/硬氪整理)</p>\n  <p>利润也完成「扭亏为盈」：2023年还亏损1841.3万元，2024年一举转正、净赚4041.2万元。但<strong>2025年净利润不升反降，从4041.2万元掉到了2935.4万元</strong>。一家冲IPO、营收还在涨的公司，利润为什么往下走？</p>\n  <p>公司的解释是「主要由于一般及行政开支及研发开支大幅增加」。其实翻到经调整口径就明白了：2025年经调整净利润被加回了两部分——一部分是846.5万元的股份支付，另一部分是<strong>1742.6万元的</strong>一次性开支。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260622/v2_dc81536a71694cf89d919743a1287319@430412560_oswg4703oswg900oswg145_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <h2><strong>亮点二：经营现金流净流出1.3亿——钱去哪了？</strong></h2>\n  <p>如果只看利润表，海清智元是一家「2024年扭亏、2025年仍盈利」的成长股。但把现金流量表摊开，2023年公司经营活动还能净流入近7000万元，2024年转负，到2025年净流出<strong>1.3亿元</strong>——而同期账面净利润是正的2935万。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260622/v2_325c875d220d4d3a943c503a67c0fc27@430412560_oswg9425oswg1006oswg130_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p>钱去哪了？招股书解释称，2025年主要源于营运资金变动——应收款项增加1.73亿元（其中<strong>向若干供应商增加预付款约1.47亿元</strong>，为保障近期需求旺盛的HPC服务器供应稳定）、存货增加5550万元。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260622/v2_b20a6364c5fd4012bc0a9a2206c90910@430412560_oswg4962oswg900oswg145_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <h2><strong>亮点三：53%收入来自「多光谱AI大模型服务」</strong></h2>\n  <p>从收入结构来看，海清智元已经从「卖硬件」升级到「卖高毛利的AI大模型服务」。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260622/v2_b25218c82b504b25b69a04bc5854a581@430412560_oswg19176oswg934oswg234_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p>大模型服务2024年才商业化、首次录得收入，2025年就冲到3.554亿、占了<strong>半壁江山（53.1%）</strong>。这正是转型叙事的来源。</p>\n  <p>但<strong>大模型服务的毛利率，从2024年的49.5%降低到2025年的30.4%</strong>。一门越做越大的「AI服务」，毛利率为什么越做越薄？</p>\n  <p>招股书显示，2024年大模型服务项目主要为不附带硬件的项目；到2025年，绝大部分项目变成了<strong>软硬件集成的定制方案，专用设备主要是计算机服务器（HPC）</strong>。具体到数字——</p>\n  <p>2024年：交付<strong>4个</strong>带硬件项目，收入5760万元，占大模型服务的50.6%；</p>\n  <p>2025年：交付<strong>9个</strong>带硬件项目，收入<strong>2.58亿元</strong>，占大模型服务的<strong>72.5%</strong>。</p>\n  <p><strong>有意思的是，其硬件组件按现行市价自第三方供应商采购，加成有限。</strong></p>\n  <p>对应到成本结构上，海清智元的销售成本里，直接<strong>原材料及耗材占比从2023年的69.9%一路升到2025年的91.9%</strong>。换句话说，其超九成的成本是买原材料和设备。</p>\n  <p>所以海清智元2025年那53%的「大模型服务」收入，七成以上是带着服务器一起卖出去的集成项目，硬件几乎按市价平进平出。这门生意里当然有自研的「智元起源大模型」和算法（这是真壁垒，已通过网信办算法备案、入选广东省首批行业大模型），但<strong>驱动2025年收入翻番的主力，相当程度上是「服务器搬运+定制集成」，而非纯粹的高毛利软件</strong>。这也解释了为什么它一边利润增长、一边要预付1.47亿去囤HPC服务器。</p>\n  <p>细分来看，其预付供应商款项从2023年的273万、2024年的2509万，飙到2025年末的<strong>1.56亿元</strong>。其中2025年12月31日一次性向四名供应商预付约1.469亿，「以确保提供多光谱AI大模型服务及感知终端所需设备（主要是近期市场需求高的HPC服务器）的稳定及时供应」——光供应商K和供应商D两家就预付了6690万（42.8%）和2160万（13.8%）。一家利润2935万的公司，趴在供应商账上的预付款是利润的5倍。</p>\n  <p>此外，贸易应收款项周转天数2023、2024、2025年分别为<strong>68天、60天、95天</strong>。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260622/v2_bdd5c66c5c2141668fa98d7ca4bc98fe@430412560_oswg4603oswg900oswg145_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <h2><strong>亮点四：收入项目制</strong></h2>\n  <p>海清智元营收三年5倍的「火箭速度」，可从五大客户收入占比观察：2023年为38.3%，2024年为<strong>59.0%，2025年为</strong>46.8%。</p>\n  <p>其最大单一客户：2023年贡献2300万（19.6%），2024年暴增到<strong>1.86亿（35.5%）</strong>，2025年回落到9400万（14.1%）。</p>\n  <p>2024年最大客户一家就贡献35.5%收入，这正是当年营收暴增3倍的发动机；2025年这台发动机降速，换成了大模型服务接棒。</p>\n  <p>而大模型服务本身是<strong>项目制、单一时间点确认收入</strong>（客户完成项目验收时确认）。2025年41个大模型订单里，<strong>26个来自非上市私营企业、贡献2.94亿元（82.7%）</strong>；上市<strong>私营</strong>客户只有4个、合计1240万（3.5%）。项目制的好处是爆发力强，坏处是收入「凸凹不平」、可持续性要打问号——这也是它应收账款和存货大起大落的根源。</p>\n  <p>供应链同样集中：五大供应商采购占比常年在54%~66%，2024年最大供应商一家就占采购总额39.9%。上游核心器件（微处理器占成本15-30%、CMOS传感器占10-20%）依赖外部，议价能力有限。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260622/v2_f529a9aedff44eebb54e37178ffaefb3@430412560_oswg4844oswg900oswg145_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <h2><strong>亮点五：估值阶梯，浙商创投、深圳国资是最早赢家</strong></h2>\n  <p>成立以来，海清智元一共融资五轮，最亮眼的是两点。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260622/v2_775cf1dde4ef46afa087e12590baa902@430412560_oswg25220oswg1080oswg358_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p>其一，<strong>估值在2025年坐了火箭</strong>：C+轮（2024年12月）投后还只有10.1亿，到D轮（2025年7月）投后估值直接跳到35.5亿，半年涨3.5倍——恰好对应大模型服务收入在2025年爆发。而这35.5亿的D轮估值，距离招股不过一年。本次发行价市值约55.7亿港元，仅比D轮投后高约36%；可到了暗盘价，市值冲到约202亿港元，是D轮估值的<strong>约4.9倍</strong>。</p>\n  <p>其二，<strong>最大赢家是2020年就进场的早期机构</strong>。以发行价7.20港元计：</p>\n  <p><strong>A轮</strong>每股成本约0.57元 → 较发行价折让约<strong>90.8%</strong>，账面浮盈约10倍；按暗盘价22.5元计，浮盈约<strong>38倍</strong>；</p>\n  <p><strong>D轮</strong>每股5.15元 → 较发行价仅折让约17%——2025年7月才进场的「值得九号」，押对了节奏但成本已不低。</p>\n  <p>谁是A、B轮的赢家？<strong>浙商创投系</strong>（韬略新能源、韬略信旺、金兰阳光，合计持股14.86%）和<strong>深圳高新投集团系</strong>（深圳国资，深圳市投资控股旗下，合计4.54%）是最早、成本最低的两路资金。其中浙商创投牵头的韬略新能源在A轮以每股约0.57元入场，是这场IPO折让最大、浮盈最厚的玩家之一。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260622/v2_eea64cd33b9349d69d6e95cc785d09bb@430412560_oswg4792oswg900oswg145_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <h2><strong>亮点六：西安科大「黄河数字系」班底</strong></h2>\n  <p>海清创始人、董事长兼总经理是<strong>周波，</strong>在计算机视觉与热成像行业深耕约26年：1999年从西安矿业学院（现西安科技大学）自动控制专业本科毕业，先后在成都科力电子研究所做视讯研发工程师、在图敏智能视频（833318）做产品经理，2005到2012年在<strong>深圳市黄河数字技术有限公司</strong>做到董事兼总经理，2013年自立门户创办海清。</p>\n  <p>他的核心班底，是一支「西安科大＋黄河数字」老搭档：执行董事兼副总经理<strong>苗瑞</strong>（40岁，西安科技大学计算机本科，曾任职黄河数字技术）、执行董事兼供应链总监<strong>邹小刚</strong>（43岁）、执行董事兼技术专家<strong>陈永刚</strong>（54岁，28年技术经验）——多人2013年公司成立时即加入。</p>\n  <p>周波通过众诚天盈、众正天盈、众知天盈三个员工持股平台担任唯一执行事务合伙人，加上直接持股，IPO前合计控制48.87%投票权。</p>\n  <p>海清智元的故事，是一家把多光谱AI做到中国行业第一、在一条高景气赛道（中国多光谱AI市场2025年约200亿元、预计2030年794亿元，CAGR 31.8%）上卡住身位的技术公司。它的自研大模型、端侧轻量化能力、专精特新重点「小巨人」标签，都是实打实的资质。</p>\n  <p>但「第一」需要还原口径——按弗若斯特沙利文，2025年海清在中国多光谱AI企业中<strong>收入排名第一，市场份额仅3.3%</strong>，前五名合计8%，这是一个高度分散市场里的「相对第一」。</p>\n  <p>一家西安科大出身的技术团队，用十三年把「给设备装上超级慧眼」讲成了港股最炙手可热的物理AI新股。上市后，市场会给出什么答案。我们持续关注。</p>",
+      "published": "2026-06-22T11:30:06+08:00",
+      "fetched_at": "2026-06-22T12:43:54.438241+08:00",
+      "pre_filter_reason": "多光谱AI第一股，AI相关",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.9,
+      "topics": [
+        {
+          "tag": "news_analysis",
+          "title": "230亿港元！多光谱AI第一股海清智元凭什么？",
+          "angle": "拆解海清智元的技术壁垒（多光谱AI）与市场定位，分析其IPO暴涨背后的行业逻辑，以及两家最大赢家机构的投资策略。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "trend",
+          "title": "多光谱AI赛道爆发：下一个千亿市场在哪里？",
+          "angle": "以海清智元上市为引，盘点多光谱AI在安防、工业检测、自动驾驶等领域的应用前景，并预测未来3年的投资热点。",
+          "difficulty": "中级"
         }
       ]
     }
