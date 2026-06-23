@@ -1,16 +1,20 @@
 {
-  "title": "AI日报 - 2026年06月22日",
+  "title": "AI日报 - 2026年06月23日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-          "summary": "三星正式向员工开放ChatGPT和Codex，成为OpenAI史上最大规模企业部署之一。"
+          "title": "Daybreak: Tools for securing every organization in the world",
+          "summary": "OpenAI发布Daybreak安全工具，旨在保护全球组织安全。"
         },
         {
-          "title": "Apertus – Open Foundation Model for Sovereign AI",
-          "summary": "开源主权AI基础模型Apertus发布，旨在推动自主可控的AI生态。"
+          "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+          "summary": "Hugging Face推出PP-OCRv6，支持50种语言，参数量从1.5M扩展到34.5M。"
+        },
+        {
+          "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+          "summary": "三星电子将ChatGPT和Codex引入内部，赋能员工工作效率。"
         }
       ]
     },
@@ -18,20 +22,16 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "2026世界杯佛得角连续逼平两个世界冠军，12家AI集体预测错误",
-          "summary": "世界杯冷门频出，12家AI模型集体预测失准，暴露了体育预测的局限性。"
+          "title": "刚注册就成独角兽，具身创企昆仑行90天融资数十亿元｜36氪独家",
+          "summary": "具身智能初创公司昆仑行成立仅90天即融资数十亿元，估值达独角兽级别。"
         },
         {
-          "title": "AI热潮重塑韩国股市格局：SK海力士市值一度超越三星电子成韩国最具价值企业",
-          "summary": "AI芯片需求推动SK海力士市值短暂超越三星，韩国股市格局生变。"
+          "title": "“物理AI第一股”海清智元港股上市首日暴涨270%，多光谱AI大模型服务市占率全国第一 - 电子工程专辑",
+          "summary": "海清智元港股上市首日暴涨270%，成为“物理AI第一股”，多光谱AI大模型市占率全国第一。"
         },
         {
-          "title": "小米YU7 GT第一视角：见证全球首个纽北自动驾驶圈速纪录诞生",
-          "summary": "小米YU7 GT在纽博格林赛道创下全球首个自动驾驶圈速纪录。"
-        },
-        {
-          "title": "HD现代基于英伟达平台研发造船AI机器人，将率先应用于焊接工序",
-          "summary": "HD现代利用英伟达平台开发造船AI机器人，焊接工序将首批应用。"
+          "title": "豆包大模型日均 tokens 调用量达 180 万亿，字节跳动 CEO 梁汝波称聚焦提升大模型能力",
+          "summary": "字节跳动豆包大模型日均tokens调用量达180万亿，CEO梁汝波表示将持续聚焦大模型能力提升。"
         }
       ]
     },
@@ -39,12 +39,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "I released a softmax-free attention model at GPT-2 Medium scale (~354M params, 11.5B tokens): structural sparsity + tile-skipping kernels for long-context VRAM savings. Open weights + custom Triton kernels [R]",
-          "summary": "研究者发布无softmax注意力模型，通过结构稀疏性和tile-skipping内核实现长上下文VRAM节省。"
+          "title": "Inside NVIDIA Halos for Robotics: A Full-Stack Functional Safety System for Physical AI",
+          "summary": "NVIDIA发布Halos机器人全栈功能安全系统，为物理AI提供安全保障。"
         },
         {
-          "title": "asgeirtj /system_prompts_leaks",
-          "summary": "GitHub上出现系统提示词泄露项目，引发对AI安全与隐私的讨论。"
+          "title": "AI 内存紧缺新解法：SPHBM4 标准公示，引脚数降至 1/5、速率提高 300%",
+          "summary": "SPHBM4内存标准公示，引脚数降至1/5，速率提升300%，解决AI内存紧缺问题。"
+        },
+        {
+          "title": "Enable Real-Time AI for High-Speed Data Acquisition with DAQIRI",
+          "summary": "NVIDIA推出DAQIRI框架，实现高速数据采集场景下的实时AI推理。"
         }
       ]
     },
@@ -52,17 +56,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "chopratejas /headroom",
-          "summary": "开源工具Headroom帮助开发者监控和管理AI模型的内存使用。"
+          "title": "吴恩达戳破AI幻象：炒作过头了，未来公司是10人小队＋Agent重做数据架构",
+          "summary": "吴恩达指出AI炒作过度，未来公司将是10人小队结合Agent重构数据架构。"
         },
         {
-          "title": "omnigent-ai/omnigent",
-          "summary": "Omnigent项目提供多智能体协作框架，助力复杂任务分解与执行。"
+          "title": "Fable 5 刚被封杀，OpenRouter 用「多模型协作」搞出了「平替天团」",
+          "summary": "Fable 5被封后，OpenRouter通过多模型协作推出替代方案，引发关注。"
+        },
+        {
+          "title": "小扎「蒸馏员工」计划紧急喊停！私聊数据都泄露了…",
+          "summary": "Meta的“蒸馏员工”计划因私聊数据泄露被紧急叫停，引发隐私争议。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦企业大规模部署、开源模型创新及行业应用落地，同时冷门事件暴露AI预测短板。",
-  "generated_at": "2026-06-22T12:45:36.086305+08:00",
+  "summary": "今日AI圈聚焦安全与物理AI落地，大模型调用量激增，具身智能与内存创新成新热点，行业泡沫与隐私风险并存。",
+  "generated_at": "2026-06-23T11:51:30.325343+08:00",
   "source_count": 20
 }
