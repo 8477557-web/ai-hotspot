@@ -1,99 +1,62 @@
 {
-  "updated_at": "2026-06-23T11:51:30.325426+08:00",
+  "updated_at": "2026-06-24T11:52:38.153842+08:00",
   "total": 20,
   "items": [
     {
-      "id": "b56ba23ee39f",
+      "id": "2ec7a3359930",
       "source_id": "openai-blog",
       "source_name": "OpenAI Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "link": "https://openai.com/index/daybreak-securing-the-world",
-      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "published": "2026-06-22T18:00:00+08:00",
-      "fetched_at": "2026-06-23T11:49:59.932446+08:00",
-      "pre_filter_reason": "OpenAI security tools including AI models",
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "link": "https://openai.com/index/gpt-5-immunology-mystery",
+      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "published": "2026-06-24T01:00:00+08:00",
+      "fetched_at": "2026-06-24T11:51:07.327747+08:00",
+      "pre_filter_reason": "Mentions GPT-5, an AI model, and its use in solving a research problem.",
       "scores": {
-        "importance": 9,
+        "importance": 8,
         "timeliness": 9,
         "actionability": 9,
         "scarcity": 8,
         "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 9.3,
+      "quality_score": 9.2,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "Daybreak工具实战：用Codex Security自动发现并修复漏洞",
-          "angle": "手把手演示如何利用OpenAI新发布的Daybreak工具（Codex Security）扫描代码库、定位漏洞并自动生成补丁，适合安全工程师和DevOps团队快速上手。",
+          "title": "GPT-5 如何帮免疫学家破解三年未解之谜？",
+          "angle": "以免疫学家 Derya Unutmaz 的真实案例为切入点，展示 GPT-5 在科研场景中的具体应用步骤：如何提问、如何分析 T 细胞数据、如何验证假设，最终帮助用户理解 AI 辅助科研的实操方法。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "Daybreak来了：OpenAI如何用AI重塑企业安全防线",
-          "angle": "解读Daybreak工具集（Codex Security + GPT-5.5-Cyber）如何改变漏洞发现、验证和修复的流程，分析其对安全行业的影响和潜在挑战。",
+          "tag": "case_study",
+          "title": "AI 破解免疫学谜题：GPT-5 在癌症研究中的突破",
+          "angle": "从新闻事件出发，深入解读 GPT-5 如何通过推理和数据分析发现 T 细胞行为的新线索，并探讨这一突破对癌症和自身免疫疾病研究的潜在影响，适合科普或行业分析类内容。",
           "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "46206327707f",
+      "id": "f5c512bb75cf",
       "source_id": "nvidia-blog",
       "source_name": "NVIDIA Technical Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Inside NVIDIA Halos for Robotics: A Full-Stack Functional Safety System for Physical AI",
-      "link": "https://developer.nvidia.com/blog/inside-nvidia-halos-for-robotics-a-full-stack-functional-safety-system-for-physical-ai/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/humanoid-robot-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"humanoid-robot\" width=\"768\" />Physical AI—robots working autonomously alongside people in factories, warehouses, hospitals, and homes—is arriving faster than most expected. Traditional...",
-      "published": "2026-06-22T21:00:00+08:00",
-      "fetched_at": "2026-06-23T11:50:02.165629+08:00",
-      "pre_filter_reason": "Physical AI and robotics system from NVIDIA",
-      "scores": {
-        "importance": 9,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.9,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "NVIDIA Halos入门：构建机器人的全栈功能安全系统",
-          "angle": "从零了解NVIDIA Halos框架的核心组件，包括安全监控、冗余设计和实时响应机制，帮助机器人开发者理解如何为Physical AI系统添加功能安全层。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "Physical AI的安全基石：NVIDIA Halos如何让机器人更可靠",
-          "angle": "深入分析NVIDIA Halos在自动驾驶、人形机器人等场景下的全栈安全设计，探讨功能安全对物理AI落地的重要性。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "d4736281f6cd",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "link": "https://openai.com/index/patch-the-planet",
-      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-      "published": "2026-06-22T18:00:00+08:00",
-      "fetched_at": "2026-06-23T11:49:59.932392+08:00",
-      "pre_filter_reason": "OpenAI initiative using AI to support open source security",
+      "title": "Boost Inference Performance up to 15x on NVIDIA Blackwell Using DFlash Speculative Decoding",
+      "link": "https://developer.nvidia.com/blog/boost-inference-performance-up-to-15x-on-nvidia-blackwell-using-dflash-speculative-decoding/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/cuda-python-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"cuda-python\" width=\"768\" />As AI systems move from single-turn interactions to coordinated multiagent workflows, low-latency inference becomes increasingly important. Autoregressive LLMs...",
+      "published": "2026-06-23T23:00:00+08:00",
+      "fetched_at": "2026-06-24T11:51:09.811564+08:00",
+      "pre_filter_reason": "Discusses inference performance and speculative decoding on NVIDIA Blackwell for AI.",
       "scores": {
         "importance": 8,
         "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
+        "actionability": 7,
+        "scarcity": 8,
         "virality": 8,
         "crowd_heat": 0.0
       },
@@ -101,452 +64,51 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "参与Patch the Planet：用AI帮助开源项目快速修复漏洞",
-          "angle": "演示如何通过OpenAI的Patch the Planet计划，利用AI工具发现并修复开源项目中的安全漏洞，并提交给维护者审核，适合开源贡献者和安全研究者。",
-          "difficulty": "入门"
+          "title": "NVIDIA Blackwell 上提速 15 倍：DFlash 投机解码实战指南",
+          "summary": "以 DFlash 投机解码技术为核心，分步讲解如何在 NVIDIA Blackwell 架构上配置和运行优化，包括环境搭建、参数调整和性能对比，帮助开发者快速上手。",
+          "difficulty": "高级"
         },
         {
-          "tag": "story",
-          "title": "开源守护者：Patch the Planet如何用AI赋能社区安全",
-          "angle": "讲述OpenAI Daybreak计划下的Patch the Planet项目如何结合AI和专家审核，帮助开源维护者应对漏洞修复压力，展示真实案例和社区反馈。",
-          "difficulty": "中级"
+          "tag": "explainer",
+          "title": "什么是投机解码？DFlash 如何让 AI 推理快 15 倍？",
+          "angle": "用通俗语言解释投机解码原理，结合 DFlash 在 Blackwell 上的实现，对比传统推理方式，让非技术观众也能理解性能提升背后的技术逻辑。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "b61cc06048f8",
+      "id": "24098d362a13",
       "source_id": "openai-blog",
       "source_name": "OpenAI Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-      "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
-      "published": "2026-06-22T07:00:00+08:00",
-      "fetched_at": "2026-06-23T11:49:59.932482+08:00",
-      "pre_filter_reason": "AI product launch (ChatGPT Enterprise, Codex)",
+      "title": "Helping build shared standards for advanced AI",
+      "link": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+      "published": "2026-06-23T21:00:00+08:00",
+      "fetched_at": "2026-06-24T11:51:07.327691+08:00",
+      "pre_filter_reason": "AI policy/ethics",
       "scores": {
         "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.1,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "三星员工都在用：ChatGPT Enterprise企业部署指南",
-          "angle": "以三星电子部署ChatGPT Enterprise和Codex为例，讲解企业如何安全、高效地引入AI工具，包括权限管理、数据隐私和集成流程。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "analysis",
-          "title": "企业AI规模化落地：三星×OpenAI合作背后的启示",
-          "angle": "分析三星电子全球部署ChatGPT Enterprise和Codex的案例，探讨大型企业AI落地的关键因素、挑战及对行业的影响。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "6b0ac3330ebf",
-      "source_id": "github-ai-repos",
-      "source_name": "GitHub AI 新项目",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "SemiAnalysisAI/InferenceX",
-      "link": "https://github.com/SemiAnalysisAI/InferenceX",
-      "summary": "Open Source Continuous Inference Benchmark Research Platform — Kimi K2.7-Code, MiniMax M3, DeepSeekv4, GLM5 - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 & soon™ TPUv6e/v7/Trainium2/3",
-      "published": "2026-06-23T11:50:25.653279+08:00",
-      "fetched_at": "2026-06-23T11:50:25.653280+08:00",
-      "pre_filter_reason": "Discusses AI inference benchmarks and models like DeepSeekv4, GLM5.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 9,
-        "virality": 8,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "InferenceX入门：用开源基准测试工具对比最新AI芯片性能",
-          "angle": "介绍如何安装和使用InferenceX平台，对Kimi K2.7-Code、DeepSeekv4等模型在GB200、MI355X等硬件上的推理性能进行对比测试，适合AI工程师和硬件评测者。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "analysis",
-          "title": "AI芯片性能对决：InferenceX基准测试揭示的硬件趋势",
-          "angle": "基于SemiAnalysisAI的InferenceX平台数据，分析GB200 NVL72、MI355X、B200等芯片在最新模型推理中的表现，解读硬件竞争格局。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "f73e49485913",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "bytedance /deer-flow",
-      "link": "https://github.com/bytedance/deer-flow",
-      "summary": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-      "published": "2026-06-23T11:50:25.172906+08:00",
-      "fetched_at": "2026-06-23T11:50:25.172909+08:00",
-      "pre_filter_reason": "AI agent framework for research and coding",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "5分钟搭建你的超级AI助手：Deer-Flow开源项目实战",
-          "angle": "手把手演示如何部署和配置Deer-Flow，展示其处理长周期任务（如自动研究+写代码）的能力，突出沙箱、记忆、子代理等核心模块的用法。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "字节跳动开源SuperAgent：Deer-Flow如何让AI自主工作数小时？",
-          "angle": "解析Deer-Flow的技术架构（沙箱、记忆、工具链、子代理），对比现有Agent框架，分析其对企业自动化长周期任务的潜在价值。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "592e4ec17dd9",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "刚注册就成独角兽，具身创企昆仑行90天融资数十亿元｜36氪独家",
-      "link": "https://36kr.com/p/3865188719121668?f=rss",
-      "summary": "<p>离开阿里云一年多以后，前阿里集团副总裁、阿里云中国区总裁任庚，以昆仑行创始人的身份，再次切入AI的战场。这次他锚定的领域，是AI的落地终端——机器人。</p>\n  <p><strong>36氪获悉，昆仑行机器人注册不到90天，已接连完成了3轮融资，累计融资规模为数十亿元。3轮融资后，公司估值已超十亿美元，成为具身行业独角兽。</strong>这样的节奏显然刷新了具身智能行业的独角兽速度。</p>\n  <p>公司此前发布的信息显示，昆仑行机器人“对标特斯拉人形机器人这一行业标杆”，“坚持‘本体+大脑’双轮��动战略”。前理想辅助驾驶一号位郎咸朋，是昆仑行的联合创始人。</p>\n  <p>一家接触过昆仑行的头部资本判断，任庚的重心，会更多地落在战略方向，组织体系搭建，商业运作、企业整体运营等，郎咸朋则主要负责AI技术的研发与落地。</p>\n  <p>这样的创业组合，让昆仑行饱受资本追捧。其首轮融资在企业注册不到3天时，便被顶级投资机构哄抢份额。有行业人士评价：“在这具身赛道内是较为罕见的。”</p>\n  <p>目前，昆仑行的股东有高瓴资本、高榕创投、钟鼎资本、中科创星、华业资本、创新工场、心资本等国内头部创投机构，还有巨型产业集团建发集团旗下的产业资本。而且，首轮进场的所有投资人，包括高瓴资本、高榕创投、中科创星、华业资本等顶级创投，连续3轮加码跟投昆仑行。</p>\n  <p>有接近昆仑行的行业人士甚至告诉36氪：<strong>“其实公司还没有注册完成时，估值便已跻身独角兽。”</strong></p>\n  <p>36氪从不少投资机构处了解到，任庚和郎咸朋组合之所以倍受关注，是因为在当下的具身赛道中，两人过往的业绩积累都足够厚重。</p>\n  <p>任庚曾带领阿里云长期保持国内市场份额第一，是实现过千亿营收的综合能力型掌舵者；郎咸朋0-1带领团队交付超百万辆智驾方案，奠定理想辅助驾驶行业头部实力，是既懂前沿技术又有丰富量产经验的技术大脑。</p>\n  <h3><strong>“我们主要看团队是否够强”</strong></h3>\n  <p>特斯拉&nbsp;Optimus&nbsp;的技术迭代、宇树科技IPO&nbsp;快速过会等一系列因素，点燃了资本对具身智能赛道的热情。热钱浩荡，但“好的投资标的并不多”，因而有投资人对36氪表示：“在一些好项目面前，投资人现在偏乙方。”</p>\n  <p>而关于如何衡量一个投资标的优劣，一家头部资本对36氪称：“团队是否够强，是比较关键的衡量维度。而且我们希望企业兼顾软硬件，在一定时间内，可以找到一些可落地的应用场景。</p>\n  <p>评判团队实力的主要依据，就是过去是否做出关键成果，带过多少人等等。</p>\n  <p>一家投资了昆仑行的头部资本，也向36氪坦言，他们筛选投资项目，“主要看团队是否够强”。</p>\n  <p>某种意义上，昆仑行的创始团队背景，堪称当下具身创企中的“稀有组合”。</p>\n  <p>据公开信息显示，昆仑行创始人任庚，不到30岁就担任华为海外国家CEO这一重要职位，全面负责华为在海外所在国的运营商、企业、终端三大BG，统筹解决方案、销售、交付到采购、供应链、GR/PR等业务。</p>\n  <p>2015年加入阿里后，任庚作为阿里集团当时为数不多的80后集团副总裁，先后担任阿里云中国区总裁、阿里云视频云&amp;边缘云研发总裁、阿里云总参谋长等核心职务。从数据上来看，任庚执掌阿里云期间，阿里云长期保持国内市场份额第一，并在2020年创下阿里公有云市场份额42.1%的记录。</p>\n  <p>出任新奥集团总裁期间，任庚带领这家超5万人的集团，布局行业大模型、数字智能体、具身智能等前沿领域。</p>\n  <p>在公开的头衔与履历之外，部分接近阿里云的行业人士，这样对36氪总结任庚对阿里云的贡献：</p>\n  <p>2015年前后，阿里云走完了早期发展阶段，需要在商业化上更进一步。“但阿里云早期的To B打法相对粗糙，反观当时华为在To B&nbsp;业务上表现出的能力，受到国内许多大厂的认可”。</p>\n  <p>任庚的加入，“推动阿里云的业务模式，从以往的粗放，走向体系化”。“比如To B业务的产研、售前、销售、交付相互的职责等等，还包括产品管理、销售运营、价格管理、项目运作、供应链管理等，整套机制在逐步规范化。”</p>\n  <p>正如任庚所强调的，具身智能公司想要真正实现量产、完成商业闭环，除了AI技术能力，还需要完善的从商机到回款的商业体系，成熟的供应链生态和服务体系。</p>\n  <p>相比纯技术高管背景的创业团队，任庚所拥有的，全球化的商业视野、搭建To B业务的组织体系、端到端经营组织流程的经验，正可为昆仑行带来，行业所稀缺的端到端整体操盘能力。</p>\n  <p>昆仑行的联合创始人郎咸朋，是企业的另一核心力量。</p>\n  <p>有投资人对36氪评价：“现阶段，汽车公司，在智能化技术之外，或许还需要具备产品等其他能力，但具身智能赛道当前的较量，很大程度上聚焦于AI技术的研发、落地能力。”&nbsp;而智驾正是物理AI的最小实现单体，汽车领域的“感知-决策-执行”的技术链条，与机器人高度同源。</p>\n  <p>郎咸朋作为曾经的理想汽车辅助驾驶“一号员工”，搭建了理想的辅助驾驶研发体系、组建了核心技术团队。在理想时期，郎咸朋凭借全年1000万元左右的研发预算，启动辅助驾驶自研，最终交付了150万辆高阶辅助驾驶方案。郎咸朋本人曾公开表示，将理想辅助驾驶的研发历程，概括为“后进生逆袭到第一梯队”。</p>\n  <p>这是其他从辅助驾驶跨界至具身领域的高管，所没有的成绩。如今他转战具身智能领域，有资本判断，郎咸朋在大模型、辅助驾驶上的研发和交付能力，也将赋能昆仑行。</p>\n  <p>除此之外，昆仑行还有一支来自华为、理想、阿里等行业头部企业的核心成员，他们在技术、商业等业务上也曾长期独当一面。</p>\n  <h3><strong>对标特斯拉，昆仑行押注具身智能更终局形态</strong></h3>\n  <p>在商业路径上，昆仑行讲述的是一个关于通用人形机器人的故事。企业对标的是特斯拉人形机器人，这一物理AI量产落地的行业标杆。</p>\n  <p>特斯拉&nbsp;Optimus&nbsp;是现今全球估值最高的人形机器人项目之一。Optimus定位人形通用机器人，特斯拉在不久前的财报电话会上表示，今年年中，企业将对外完整发布机器人Optimus Gen3，并在&nbsp;2026&nbsp;年&nbsp;7–8&nbsp;月，启动弗里蒙特工厂小批量量产。</p>\n  <p>一直以来，人形机器人被市场视作，继&nbsp;PC、智能手机之后的第三代计算终端，知名投资银行摩根士丹利在去年底预测，到&nbsp;2050&nbsp;年它的全球市场规模可达&nbsp;5&nbsp;万亿美元。而今昆仑行押注人形机器人，不难看出企业的远大商业展望。</p>\n  <p>为了跑通人形机器人的商业叙事，昆仑行参考特斯拉人形机器人和自动驾驶落地实践经验，力图通过软硬一体、全栈自研，构建企业的竞争壁垒。</p>\n  <p>软硬一体的能力，是昆仑行找到的差异化身位。</p>\n  <p>眼下的人形机器人赛道，部分公司专注硬件和控制算法，或者产品定位导览，AI算法发力不久。</p>\n  <p>而昆仑行在创立之初，便同时布局了机器人“大脑”和本体。</p>\n  <p>关于机器人的“大脑”，昆仑行认为，缺乏物理因果能力、场景泛化性差、模型决策过程“黑箱”，是现在机器人大脑的普遍痛点，因而昆仑行提出了以昆仑世界模型（Kunlun World Model，KWM）为核心的双系统机器人智能架构，以此提升模型的迭代效率，和泛化能力。</p>\n  <p>在硬件层面，昆仑行遵循算法定义硬件的思路，希望以此克服软硬割裂难题。此外，昆仑行自研了关键零部件与运控算法，并通过模块化的通用设计，降低模型适配不同机器人的门槛。</p>\n  <p>值得注意的是，尽管通用人形机器人，被行业普遍看作是具身的更终局形态，但迄今为止，它的量产落地还有一些需要攻克的难题。</p>\n  <p>单是通用人形机器人的硬件供应链，就尚未走出迷雾。</p>\n  <p>以容易损耗的灵巧手和机械臂为例，有公开信息显示，机器人灵巧手的使用寿命往往不超过&nbsp;2&nbsp;个月。这意味着，零部件的损耗成本高企，短期难以应用于规模量产的商品。</p>\n  <p>硬件尚且如此，遑论落地难度更大的机器人“大脑”。</p>\n  <p>押注人形通用机器人，昆仑行不是第一个，也必然不会是最后一个。在团队背景和融资进展层面，昆仑行相较多数具身智能企业领先半步，而这些，或许都将助力昆仑行，更早跨越人形机器人的量产鸿沟。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260623/v2_e7dbf8b07e564700a647344614fff759@6215398_oswg41960oswg1080oswg335_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">作者微信：luckg17305264638</p>",
-      "published": "2026-06-23T11:18:18+08:00",
-      "fetched_at": "2026-06-23T11:50:03.863679+08:00",
-      "pre_filter_reason": "具身智能机器人公司，AI落地终端",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 9,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "90天融资数十亿！这家机器人独角兽凭什么？",
-          "angle": "拆解昆仑行机器人快速成为独角兽的关键因素：前阿里高管团队、对标特斯拉人形机器人、本体+大脑双轮驱动战略，以及资本对具身智能赛道的狂热。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "从阿里云到人形机器人：任庚的二次创业能复制成功吗？",
-          "angle": "深度分析创始人任庚的背景与战略选择，结合昆仑行“对标特斯拉”的定位，探讨具身智能行业的技术壁垒与商业化前景。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "4c4025f820fc",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "search",
-      "title": "“物理AI第一股”海清智元港股上市首日暴涨270%，多光谱AI大模型服务市占率全国第一 - 电子工程专辑",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBXeW0xMXlIQTYwNWtIYUFGUW9ONVB1LTV3MUpZaEh4R0lqa1JEZkNZNVRGbS13MHRLUkJneW5KaklYLUJiVGZER2VSTUJNeENfQWJXOUNCbk1pZ3ln?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTFBXeW0xMXlIQTYwNWtIYUFGUW9ONVB1LTV3MUpZaEh4R0lqa1JEZkNZNVRGbS13MHRLUkJneW5KaklYLUJiVGZER2VSTUJNeENfQWJXOUNCbk1pZ3ln?oc=5\" target=\"_blank\">“物理AI第一股”海清智元港股上市首日暴涨270%，多光谱AI大模型服务市占率全国第一</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">电子工程专辑</font>",
-      "published": "2026-06-23T10:04:47+08:00",
-      "fetched_at": "2026-06-23T11:50:17.813453+08:00",
-      "pre_filter_reason": "物理AI公司上市，AI相关",
-      "scores": {
-        "importance": 7,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "暴涨270%！“物理AI第一股”海清智元凭什么？",
-          "angle": "解读海清智元上市首日暴涨原因：多光谱AI大模型服务市占率全国第一，以及“物理AI”概念如何吸引资本市场。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "多光谱AI大模型：海清智元如何卡位物理世界？",
-          "angle": "分析多光谱AI在工业、安防等领域的应用场景，海清智元的技术护城河，以及“物理AI第一股”对行业的意义。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "566d6060f2ec",
-      "source_id": "huggingface-blog",
-      "source_name": "Hugging Face Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
-      "link": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-      "summary": "",
-      "published": "2026-06-22T21:18:56+08:00",
-      "fetched_at": "2026-06-23T11:50:02.469843+08:00",
-      "pre_filter_reason": "PP-OCRv6 is an AI-based OCR model.",
-      "scores": {
-        "importance": 6,
         "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 6,
-        "virality": 5,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "50语言OCR免费开箱：Hugging Face上玩转PP-OCRv6",
-          "angle": "演示如何在Hugging Face上快速调用PP-OCRv6模型，对比不同参数版本（1.5M vs 34.5M）的识别效果，适合多语言文档处理场景。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "comparison",
-          "title": "PP-OCRv6 vs 商业OCR：开源模型能否替代付费方案？",
-          "angle": "对比PP-OCRv6与主流商业OCR服务（如百度、阿里）在准确率、速度、多语言支持上的差异，评估开源方案在中小企业中的可行性。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "ca39f573346f",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "AI 内存紧缺新解法：SPHBM4 标准公示，引脚数降至 1/5、速率提高 300%",
-      "link": "https://www.ithome.com/0/967/346.htm",
-      "summary": "<p>IT之家 6 月 23 日消息，国际半导体标准组织 JEDEC 正式批准新一代高带宽内存标准 SPHBM4，<strong>引脚数降低至 HBM4 的 1/5，每引脚速率提高 300%</strong>，从而降低对先进封装的依赖。</p><p>IT之家注：SPHBM4 是 JEDEC 批准的新型高带宽内存标准，在尽量保留 HBM4 级带宽的前提下，减少信号引脚数量，<strong>采用标准封装与标准基板，降低对昂贵先进封装的依赖，适用于 AI 加速器、高性能计算等场景。</strong></p><p style=\"text-align: center;\"><img class=\"not-source\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/7fde2a7f-4809-43ac-87fa-179c20265696.jpg?x-bce-process=image/format,f_auto\" /></p><p>该标准编号 JESD330-4，由 DRAM 委员会 JC-42.2 讨论后，提交董事会并获最终通过。该标准主要通过减少信号引脚的情况下，提供接近 HBM4 的带宽表现，并降低对先进封装的依赖。</p><p>该媒体指出现有 HBM 方案的成本之一就是配套封装，当前设计通常依赖中介层、先进基板和复杂封装工艺，这些条件抬高了 GPU、AI 加速器和 HPC 芯片的制造难度，也限制了量产能力。</p><p style=\"text-align: center;\"><img class=\"not-source\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/e4b19651-b45e-43c7-9bfb-961a316246e2.jpg?x-bce-process=image/format,f_auto\" /></p><p>HBM4 拥有约 2000 个引脚，每引脚速率约 11 Gbps，总带宽为 2.8TBps。而 SPHBM4 通过使用标准基板，减少复杂封装依赖，<strong>把信号引脚数降到约现有 HBM4 方案的 1/5（约为 400 个），同时用约 4 倍的信号速度（每引脚速率提高到约 44 Gbps）补偿带宽。</strong></p><p style=\"text-align: center;\"><img class=\"not-source\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/fa70e673-5d2c-43fe-948d-6c20b72bc967.jpg?x-bce-process=image/format,f_auto\" /></p>",
-      "published": "2026-06-23T11:24:59+08:00",
-      "fetched_at": "2026-06-23T11:50:14.942174+08:00",
-      "pre_filter_reason": "AI内存标准SPHBM4，适用于AI加速器",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
+        "actionability": 6,
         "scarcity": 8,
         "virality": 7,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "AI内存危机新解：SPHBM4标准如何让引脚数暴降80%？",
-          "angle": "解读SPHBM4标准的核心改进：引脚数降至HBM4的1/5、速率提高300%，以及如何通过标准封装降低AI加速器的成本。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "SPHBM4 vs HBM4：谁才是AI芯片的内存未来？",
-          "angle": "对比SPHBM4与HBM4的技术路线，分析SPHBM4在降低先进封装依赖方面的优势，以及对AI芯片设计格局的潜在影响。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "49eb8c51cf37",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "豆包大模型日均 tokens 调用量达 180 万亿，字节跳动 CEO 梁汝波称聚焦提升大模型能力",
-      "link": "https://www.ithome.com/0/967/330.htm",
-      "summary": "<p>IT之家 6 月 23 日消息，据《科创板日报》今日报道，在 2026 火山引擎 force 原动力大会上，火山引擎总裁谭待表示，截至 2026 年 6 月，<strong>豆包大模型日均 tokens 调用量达 180 万亿</strong>，较发布时增长超 1500 倍，过去一年增长超 10 倍。</p><p>此外，字节跳动 CEO 梁汝波在火山引擎 Force 大会上表示，字节跳动年度关键词定为“勇攀高峰”，<strong>核心是聚焦提升大模型能力</strong>，火山引擎 PaaS 业务已转为公司基础业务，对 MaaS 业务投入长期坚定。他透露，上年度累计 Topview 消耗超 1 万亿的成员已达 200 多家。此外，视频生成模型 Seedance 新版本将发布 3D 白膜预演功能，系业内率先提供该能力。</p><p>IT之家注意到，此前有报道显示，截至上半年，<strong><a href=\"https://www.ithome.com/0/965/167.htm\" target=\"_blank\">每天 2 亿多人使用的豆包应用每天收入不足百万元</a></strong>，主要来自电商佣金。而到今年 5 月，参照火山引擎公开 API 价格，结合豆包大模型的毛利率及豆包用户使用习惯，在不算为训练豆包模型搭建的算力中心成本下，报道推算豆包每天日消耗的算力成本达数千万元。</p><p>据悉，两个月前有字节高层到访 Anthropic，回来不久字节开始调整 AI 资源分配，<strong>重心从豆包这类面向大众的产品，转向服务企业的产品</strong>。</p><p>而字节 Seedance 已证明企业服务的方向可行。消息称目前 Seedance 年化收入（ARR）已达 20 亿美元（IT之家注：现汇率约合 135.74 亿元人民币），单月超 10 亿元 —— 差不多抵消豆包的算力成本，Seedance 绝大多数收入来自企业客户。</p>",
-      "published": "2026-06-23T10:54:37+08:00",
-      "fetched_at": "2026-06-23T11:50:14.942251+08:00",
-      "pre_filter_reason": "豆包大模型日均tokens调用量及字节跳动聚焦提升大模型能力，直接关联AI",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 6,
-        "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.6,
+      "quality_score": 8.3,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "豆包大模型日均调用量180万亿，普通人如何用好AI？",
-          "angle": "从豆包大模型惊人的调用量切入，讲解普通用户如何利用豆包等AI工具提升日常工作效率，如写作、翻译、信息检索等，降低AI使用门槛。",
-          "difficulty": "入门"
+          "tag": "news_analysis",
+          "title": "OpenAI 加入 Appia 基金会：AI 安全标准为何需要全球协作？",
+          "angle": "分析 OpenAI 参与共建 AI 评估框架和安全标准的意义，讨论 Appia 基金会如何推动跨国合作，以及这对未来 AI 监管和行业发展的影响。",
+          "difficulty": "中级"
         },
         {
-          "tag": "analysis",
-          "title": "字节跳动“勇攀高峰”：大模型竞争进入白热化阶段",
-          "angle": "分析字节跳动聚焦大模型能力的战略意义，对比国内外大模型厂商的竞争格局，探讨豆包日均180万亿tokens调用量背后的技术投入与市场影响。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "14e2eee319ff",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "豆包大模型的日均tokens调用量达到180万亿",
-      "link": "https://36kr.com/newsflashes/3865137028928774?f=rss",
-      "summary": "在2026火山引擎force原动力大会上，火山引擎总裁谭待表示，截至2026年6月，豆包大模型日均tokens调用量达180万亿，较发布时增长超1500倍，过去一年增长超10倍。（财联社）",
-      "published": "2026-06-23T10:20:42+08:00",
-      "fetched_at": "2026-06-23T11:50:03.863906+08:00",
-      "pre_filter_reason": "豆包大模型tokens调用量，AI模型相关",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 6,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "从0到180万亿：豆包大模型增长1500倍背后的秘密",
-          "angle": "以豆包大模型的增长数据为引子，介绍大模型tokens的概念及其重要性，帮助初学者理解大模型的能力衡量标准。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "b199fbda0326",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "超越 SONIC ！人形机器人通用小脑迎来 GPT 时刻",
-      "link": "https://www.leiphone.com/category/ai/lzqSU7xisToFg45M.html",
-      "summary": "<section style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><span style=\"color: #4499E7;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a390450b4a2e.jpg?imageMogr2/quality/90\" style=\"width: 100%; display: inline-block; text-align: center; background-color: transparent;\" /></span></section><section style=\"padding-left: 16px; padding-right: 16px;\"><section style=\"width: 100%; display: flex; padding: 0px;\"><section style=\"width: 100%; padding-left: 0px; padding-right: 0px;\"><section style=\"width: 100%; background: rgb(246, 248, 255); padding: 20px 0px 12px; margin-top: 0px; margin-bottom: 0px;\"><section style=\"text-align: center;\"><section><section style=\"text-align: justify; margin: 0px 16px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><span>AstraBrain-WBC 0.5 论文深度解读</span></span></span></section><span></span><span></span><span></span><span></span><section style=\"text-align: left; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><br /></span></span></section></section></section><span></span><span></span><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-weight: normal;\">&nbsp; &nbsp; 作者丨</span></span><span><span style=\"color: #888888; font-weight: normal;\">齐铖湧</span></span><strong><span><strong><span><span><br /></span></span></strong></span></strong></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Optima-Regular, PingFangTC-light;\"><span style=\"color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\"><span>&nbsp; &nbsp; 编辑丨</span><span>林觉民</span></span></span></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; text-align: right; margin: 0px 16px;\"><strong><strong><span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></strong></strong></p></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">全球首个人形通用小脑GPT基座大模型来了。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在美国科罗</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">拉多州</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">丹佛会议中心举行的CVPR 2026现场，银河通用联合研究团队提</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">出的</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">AstraBrain-WBC 0.5</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">，用一组数字直接刷新了行业认知：</span></p><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">引入&quot;20亿帧最大人类行为数据规模&quot;</span></span></strong></p></section><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">真机实测效果，显著优于SONIC</span></span></strong></p></section><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">零样本泛化成功率92.58%</span></span></strong></p></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">史上最大规模、</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">整</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">整20亿</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">帧人类动作数据，80.4M参数，零样本泛化成功率92.58%，</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">把传统三</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">层ML</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">P的76.89%远远甩在身后，在MPJPE、MPJVE等多项指标上全面超越SONIC、</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">TWIST、Any2Track等当前最优方法。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这是</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">人形机器人运控领域前所未有的事。（雷峰网）</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a390451059da.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>01</span></strong></p><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">引入&quot;最大人类行为数据规模&quot;，</span></section><section style=\"text-align: center;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">真机实测超越</span><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">SONIC</span></strong></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">一个模型，没有任何预先编程，就能直接跟做从未见过的新动作。在室外泥地里拿起锄头干活，在家庭里丝滑稳定地撸猫/铲屎，在拳打脚踢下保持鲁棒，也能风度翩翩跳起华尔兹。武术踢腿、篮球运球投篮等高动态动作，同样是零样本，无需针对任务</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">微调。</span></p><section style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a390451c8bd5.jpg?imageMogr2/quality/90\" style=\"width: 100%;\" type=\"block\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这就是银河通用最新发布——全球首个人</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">形通用小脑GPT基座大模型的含金量。</span></p><section class=\"channels_iframe_wrp\" style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">AstraB</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">rain-WBC 0.5，作为全球首个人形机器通用小脑GPT基座大模型，有几个特点：第一是GPT式预训练，告别三层MLP，实现规模即智能。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">它通过引入GPT式预训练+时序因果建模、加入超大规模数据训练，其中Transformer相比MLP，拥有更强的可扩展性，打破单一动作过拟合，实现了零样本泛化追踪全新动作。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">再加上训练数据组最近邻检索，实现完全OOD泛化，以及谐波自编码器与聚类，重塑训练流程，让这个人形机器人运控领域的&quot;GPT式大规模预训练系统&quot;，呈现出几个显著亮点：</span></p><section><section><section><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"text-align: justify; line-height: 1.75em; color: #1597EE; font-size: 15px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;\"><strong><span><span style=\"text-align: justify; line-height: 1.75em; color: #1597EE; font-size: 15px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;\">▎</span></span></strong></span><span style=\"text-align: justify; line-height: 1.75em; color: #1597EE; font-size: 15px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;\">引入了&quot;最大人类行为数据规模&quot;。</span><span style=\"font-family: Arial, Helvetica, sans-serif; text-align: justify; line-height: 1.75em; letter-spacing: 0.034em; font-size: 15px;\"><br /></span></strong></p></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">从规模上看，AstraBrain-WBC 0.5包含了20亿帧、8000万参数，其中20亿帧可以简单等效于20亿token，这个数字已经比肩2018年GPT-1的量级（GPT-1约1.17亿参数），这是人形机器人运控领域有史以来最大规模的人类行为数据集。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">比此前最常用的公开数据集AMASS（约720万帧）高出两个数量级，是业内同类跟踪模型训练集的200倍以上。</span></p><section><section><section><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"text-align: justify; line-height: 1.75em; color: #1597EE; font-size: 15px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;\"><strong><span><span style=\"text-align: justify; line-height: 1.75em; color: #1597EE; font-size: 15px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;\">▎</span></span></strong></span><span style=\"text-align: justify; line-height: 1.75em; color: #1597EE; font-size: 15px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;\">真机实测效果，显著优于SONIC。</span><span style=\"font-family: Arial, Helvetica, sans-serif; text-align: justify; line-height: 1.75em; letter-spacing: 0.034em; font-size: 15px;\"><br /></span></strong></p></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">真机实测中，在没有任何预先编程的前提下，不仅能拿锄头，跳华尔兹，还能完成武术踢腿、篮球运球投篮等高动态动作，而且全是零样本，无需针对任务微调。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在四个未见舞蹈动作的跟踪误差对比中，AstraBrain-WBC 0.5在MPJPE、MPJVE等多项指标上，显著优于SONIC、TWIST、Any2Track等当前最优方法；而当模型扩容到80.4M参数的AstraBrain-WBC 0.5，成功率跃升至92.58%，把三层MLP的76.89%远远甩在身后。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">20亿帧，堪比2018年GPT-1的量级，Scaling Law在人形运动控制领域真实存在。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">但这只是结果。要理解AstraBrain-WBC 0.5为什么能做到这些，得先看看它解决了什么问题。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在过去几年，人形机器人运动控制领域虽然发展很快，但&quot;敏捷&quot;、&quot;稳定&quot;和&quot;泛化&quot;始终不可兼得。有些方法能让人形机器人奔跑跳跃，完成舞蹈、武术动作，也有些方法让人形机器人泛化能力强，能跟踪更开放的动作输入，但一遇到复杂舞蹈、快速接触切换、或是&quot;金鸡独立&quot;&quot;叶问蹲&quot;等平衡性动作，机器人全身大幅协调，就会变得僵硬，动作精度明显下降。要敏捷，就会牺牲稳定性和泛化性；要泛化，</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">动作质量就打折扣。</span></p><section style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a390453cd7fa.jpg?imageMogr2/quality/90\" style=\"width: 100%;\" type=\"block\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">AstraBrain-WBC 0.5正是冲着这个&quot;不可能三角&quot;去的。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a3904541cdb7.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>02</span></strong></p><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span>AstraBrain-WBC 0.5解读：</span></strong></strong></strong><strong><strong style=\"font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"line-height: 25px; font-family: Arial, Helvetica, sans-serif;\"><span>把全身运动视为&quot;动作语言&quot;</span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">核心思想，可</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">以概括为一句话：把人体全身运动看作一种&quot;动作语言&quot;，用处理自然语言的方式去理解和</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">生成它。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a390454524d8.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">https://arxiv.org/abs/2606.03985</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">论文中提到了GPT之所以能在文本领域实现通用智能，关键在于以下三方面：</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><em><strong><span><span style=\"color: #4499E7;\">▪&nbsp;</span></span><span style=\"font-weight: bold; text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">海量且均衡的数据</span></span></strong></em></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><em><strong><span><span style=\"color: #4499E7;\">▪&nbsp;</span></span><span style=\"font-weight: bold; text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">因果Transformer架构的自回归预测能力</span></span></strong></em></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><em><strong><span><span style=\"color: #4499E7;\">▪&nbsp;</span></span><span style=\"font-weight: bold; text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">从大量&quot;专家&quot;中提炼出的通用表示（预训练语料）</span></span></strong></em></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">AstraBrain-WBC 0.5团队认为，这三点同样适用于人形运动控制，于是先采集海量人类动作数据集，再用谐波运动嵌入方法让模型吃下数据，再经过专家经验的Transformer模型训练，最后在部署方面控制住推理延迟。完成了运控大模型的闭环。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">我深扒了一下论文，具体来说，</span><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">AstraBrain-WBC&nbsp;</span></span></strong><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">0.5</span></span></strong><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">的整套方案分为三个紧密衔接的阶段：数据基建、架构改造、双阶段训练。</span></span></strong></p><section><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">第一、数据基建，解决&quot;模型吃什么&quot;的问题</span></span></strong></p></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">人形机器人运控数据很稀缺，AstraBrain-WBC 0.5团队没有局限于某个单一数据集，而是整合了AMASS、LAFAN1、MotionMillion、PHUMA、Motion-X++等多个来源的动作数据，再加上超过一千小时的高质量内部采集数据，统一重定向到宇树G1的29自由度关节空间。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a3904548843b.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">但光是&quot;堆数据&quot;不够。不同动作的频率、幅度、风格差异巨大，直接混在一起训练，模型会&quot;消化不良&quot;。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">AstraBrain-WBC 0.5团队引入了Harmonic Motion Embedding（HME，谐波运动嵌入）技术，基于动作的周期特征进行聚类，把约20亿帧原始数据切分成大约300个运动簇。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这一步非常关键。它相当于给动作数据做了一次&quot;词性标注&quot;和&quot;句法分析&quot;，让后续的训练更有条理。没有这一步，20亿帧数据就是一锅粥；有了这一步，它变成了一本结构清晰的词典。</span></p><section><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">第二、架构改造，解决&quot;用什么吃数据&quot;的问题</span></span></strong></p></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">团队彻底抛弃了浅层MLP，改用GPT风格的Causal Transformer（因果Transformer）。这个选择不是跟风，而是有扎实的控制理论依据：在线动作跟踪本质上是一个时序预测问题，机器人每一步的决策都依赖于过去的状态和动作历史。Causal Transformer的&quot;因果注意力&quot;机制，天然适合处理这种&quot;只能看过去、不能偷看未来&quot;的场景。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">相比MLP只能看当前几帧的&quot;短视&quot;，Transformer可以捕捉更长的时间上下文，理解动作的连贯性和节奏感。一个舞蹈动作失败，往往不是因为当前这一步错了，而是因为三步之前的重心没调好。Transformer的长记忆能力，让它能够&quot;复盘&quot;历史，做出更连贯的决策。</span></p><section><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">第三、双阶段训练，解决&quot;怎么消化&quot;的问题</span></span></strong></p></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">团队没有天真地指望一个Transformer直接硬啃20亿帧数据。他们采用了&quot;先分后总&quot;的策略：第一阶段，为300个运动簇分别训练约300个PPO（近端策略优化）运动专家，让每个专家把自己那一类动作学到极致；</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">第二阶段，用DAgger（数据集聚合）算法，把这300个专家的经验蒸馏到单一的AstraBrain-WBC 0.5模型中，相当于专科会诊，再培养一个全科医生。专家策略负责在各自领域达到性能上限，蒸馏过程则负责把分散的知识整合成通用能力。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a3904554ae5c.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这三个阶段环环相扣，缺一不可。没有高质量的数据基建，Transformer就是无米之炊；没有架构升级，数据再多也装不进小容量的MLP；没有双阶段训练，大规模数据会导致训练不稳定、收敛困难。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这是一个系统工程，不是某个单点技术的突破。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a39045586d50.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>03</span></strong></p><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">架构创新：</span></strong></strong></strong><strong><strong style=\"font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"line-height: 25px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"line-height: 25px;\">Transformer</span><span>重构小脑，终结MLP时代</span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">接下来聊聊AstraBrain-WBC 0.5的创新性。我觉得论文中首先值得一提的，是架构创新。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">简单来说，用Transformer替代MLP，是首次实现人形运控模型的规模化扩展。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这是论文最直接、但也最容易被我们&quot;理所当然化&quot;的贡献。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这部分团队做了非常扎实的对比实验：在同样的2M token训练数据下，三层MLP的成功率是76.89%，8层TCN（时序卷积网络）提升到81.48%，而参数量仅5.7M的AstraBrain-WBC 0.5-S就达到了83.26%。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">当数据量提升到20亿token、模型参数扩展到80.4M时，成功率跃升至92.58%。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">论文中也给出了对比：当数据量达到最大的AstraBrain-WBC 0.5-L，在全部评测指标上几乎都实现性能最优。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这组数字说明了两件事。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">第一，Transformer的容量天花板远高于MLP和TCN，能够持续从更多数据中&quot;汲取营养&quot;；第二，在人形运动控制领域，Scaling Law是真实存在的。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">更值得注意的是，团队证明了Transformer在保持高容量的同时，依然可以满足实时控制的严苛要求。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这里面有个细节：团队通过ONNX导出、TensorRT编译、C++流式数据通道等工程优化，在单张RTX 4090显卡上把端到端推理延迟压到了1.5毫秒以下。作为对比，传统方案TWIST在CPU ONNX上的延迟是2.79—3.32毫秒。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a390455b815f.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这意味着，即便模型大了几十倍，真机部署时的响应速度依然比很多传统小模型更快。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这一点打破了&quot;大模型必然慢&quot;的偏见，为后续更大规模的模型奠定了基础。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a3904560b990.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>04</span></strong></p><p style=\"width: 100%; padding: 0px 14px; display: flex; text-align: center;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">20亿帧超大规模人类动作数据集：</span></p><p style=\"width: 100%; padding: 0px 14px; display: flex; text-align: center;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">首次验证小脑大模型 Scaling low</span></p></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">如果说架构创新是最容易被看见的，数据基建就是这篇论文中最容易被忽略的部分。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">我们都知道，人形动作数据如果分布太窄，模型只会在窄分布里越来越熟。未来要接住各种动作，数据来源必须更杂。我看了下论文里提到的20亿帧、8000万参数的分布，这个参数量达到了“最大人类行为数据规模”，这体现出银河通用团队在数据积累层面的强大技术壁垒。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">他们统一不同数据源的骨骼偏差、过滤低质量动作片段、进行时序分段和数据增广、通过HME聚类保证数据分布均衡。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在最终的数据集里，我又发现了一个细节。看右侧图表这样的配比，能看得出来，这个数据配比融入了各种数据来源，既保证了多样性，又避免了某些数据源的过度主导，明显是多次试验验证得到的。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a3904564b8fe.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">某种意义上，它证实了一件事：只要你有足够的数据、足够的算力、足够好的架构，人形机器人的运动控制也能像自然语言一样，通过规模化实现质变。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a3904568e3fd.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>05</span></strong></p><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span>零样本泛化关键：</span></strong></strong></strong><strong><strong style=\"font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"line-height: 25px; font-family: Arial, Helvetica, sans-serif;\"><span>300个专家&quot;会诊&quot;1个模型</span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">双阶段训练是整套系统的核心，也是炼成通用能力的关键。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在第一训练阶段，论文提到一个细节：AstraBrain-WBC 0.5团队没有把所有动作直接扔给一个模型硬学。它先用HME把动作分簇，再训练一批motion experts。A</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">straBrain-WBC 0.5的处理很直接：先承认动作分布不同，让专家各自把一块学稳，再把专</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">家经验蒸馏回一个大模型。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">训练这300个PPO专家，消耗了15000 GPU小时中的75%，投入是巨大的，但也是必要的。</span></p><section style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a390456c69c0.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 555px; height: 296px;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">第二阶段是蒸馏。团队用DAgger算法，让AstraBrain-WBC 0.5在专家策略生成的轨迹上学习，逐步把300个专家的&quot;集体智慧&quot;压缩到一个模型里。为防止越学越偏，用算法收集学生模型的</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">&quot;犯错数据&quot;并交给专家重新标注，这就解决了&quot;分布偏移&quot;。</span></p><section style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a390457c4da3.jpg?imageMogr2/quality/90\" style=\"width: 100%;\" type=\"block\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">最终得到的AstraBrain-WBC 0.5，既保留了专家策略的高</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">性能，又具备了单一模型的通用性和部署便利性。这是一种典型的&quot;用工程复杂度换模型通用性&quot;的思路，也是大模型时代常见的技术路线。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">其实当时看论文看到这里，我想到一个现实问题：以后人形机器人底层运控如果真的走向基座化，算力账本可能不会只出现在VLA和世界模型里。身体这一层，也开始有自己的数据账本、专家账本和蒸馏账本。</span></p><section><span></span></section><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a39045815528.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>06</span></strong></p><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span>从&quot;只会走&quot;到&quot;全身动&quot;：</span></strong></strong></strong><strong><strong style=\"font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"line-height: 25px; font-family: Arial, Helvetica, sans-serif;\"><span>伯克利之后，</span></strong></strong></strong><strong><strong style=\"font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"line-height: 25px; font-family: Arial, Helvetica, sans-serif;\"><span>谁把GPT范式推到了极致？</span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">其实AstraBrain-WBC 0.5的工作，并不是凭空出现的范式创新。不少人看到这里，应该想到了2024年伯克利团队的《Humanoid Locomotion as Next Token Prediction》论文，它的核心思路是用&quot;预测下一个token&quot;的自回归方式做人形机器人的行走控制。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">当时这篇论文在学术界引起了很大反响，因为它首次把GPT的范式引入机器人运动领域，证明了在单一行走任务上，自回归模型可以取得不错的效果。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">而AstraBrain-WBC 0.5，则是在此基础上往前迈出了一大步。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">伯克利的工作主要聚焦于行走（Locomotion），这是一个相对单一的任务域。行走虽然复杂，但本质上是一个周期性运动，状态空间相对有限。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">而AstraBrain-WBC 0.5解决的是全身运动跟踪，涵盖走路、跑步、舞蹈、武术、搬运、倒地起身等极其丰富的动作类型。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">从&quot;只会走&quot;到&quot;全身都会动&quot;，这中间的难度跨越不是线性的，而是指数级的。</span></span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">更重要的是，AstraBrain-WBC 0.5实现了零样本泛化。</span></p><section style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a390458796b6.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 550px; height: 185px;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">从效果上看，AstraBrain-WBC 0.5在多个维度实现了突破：</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">第一是高动态动作支持。 真机实测视频中，机器人可以完成跳跃、快速转身、武术踢腿等动作。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">很多人形动作失败，看起来发生在某一帧，根源往往在前面几步。节奏没接上，重心提前偏了，脚落点稍微错了一点，后面再想补就很难。Transformer真正有用的地方，是它给tracker更长的时间视野。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">第二是超低延迟响应。 端到端推理延迟低于1.5毫秒。在人形机器人控制中，延迟非常要命。每多一毫秒，机器人在受到扰动时的恢复窗口就小一分。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">第三是鲁棒性。 论文展示了机器人在受到外部推力、地面摩擦变化等干扰下的表现。这不是&quot;死记硬背&quot;某个动作轨迹，而是真正理解。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">论文里，团队用四个未见舞蹈动作的真机跟踪误差横向对比AstraBrain-WBC 0.5与SONIC、TWIST、Any2Track，AstraBrain-WBC 0.5-B在多项指标上优于GMT、TWIST、Any2Track。</span></p><section style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a390458ea1d9.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 554px; height: 402px;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">此外还有一个在线遥操作验证的实验：实时MoCap流持续重定向到G1关节空间，AstraBrain-WBC 0.5不额外微调，直接驱动机器人跟随。这些都是非常直观的突破。</span></p><section><span></span></section><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a3904593a42b.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>07</span></strong></p><h2><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section style=\"text-align: center;\"><h2 style=\"width: 100%; padding: 0px 14px; display: flex; text-align: center;\"><strong><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">银河通用</span><span style=\"color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">重构人形机器人商业版图</span></strong></h2></section></section></section></section></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">最后，抛开顶会论文的学术意义，我们再聊聊AstraBrain-WBC 0.5的产业价值。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">首先，AstraBrain-WBC 0.5作为一个预训练的&quot;运控基座&quot;，其他研究者可以直接零样本跟踪新的参考动作，大幅降低研究门槛。再加上开源了代码和部分工具，这意味着全球的研</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">究者都可以在此基础上进行二次开发。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a39045990da0.png?imageMogr2/quality/90\" style=\"width: 100%;\" type=\"block\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">放在娱乐场景，AstraBrain-WBC 0.5让&quot;一键生成复</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">杂拟人化表演&quot;成为可能。以后舞蹈编导可以给远在千里之外的机器人实时复现，迪士尼或者剧组的机器人拿到远程运控信号，就可以随时开跳。对于应急救援等严肃场景，AstraBrain-WBC 0.5的泛化能力也让机器人可以在未知环境中执行更复杂的身体任务。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">最后，必须要说的是，AstraBrain-WBC 0.5也是具身头部公司银河通用的&quot;银河星脑&quot;的小脑部分。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">银河星脑是全球首个集成&quot;大脑-小脑-神经控制&quot;于一体的全身全手端到端具身大模型，其中AstraBrain-WBC 0.5所擅长的，就是把高层指令转化为具体的关节运动。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">回顾银河通用的发展轨迹，这家公司成立于2023年5月，短短两年多时间，已经完成了</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">从零样本抓取、零售场景、导航基座到AstraBrain（全身全手大模型）的技术布局。</span></p><section style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a39045a7df5e.jpg?imageMogr2/quality/90\" style=\"width: 100%;\" type=\"block\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">AstraBrain-WBC 0.5作为其中的&quot;小脑&quot;</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">模块，不仅补齐了全身运动控制这块关键拼图，也为整个银河星脑的泛化能力提供了坚实的身体底座。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">银河通用带领团队的这项工作，在学术领域最大的意义或许在于：在人形机器人运控领域已经找到了一条可扩展、可复现的技术路径，就像2018年的GPT-1的出现，虽然远不及今天的GPT-4，但它却奠定了一个路书。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">而在商业视角下，AstraBrain-WBC 0.5的价值还在于它正在重构人形机器人的商业模型。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">一个预训练的通用运控基座，意味着银河通用无需为每个新场景重新投入研发成本，舞蹈、巡检、救援共用同一套&quot;身体操作系统&quot;。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">边际成本随部署规模递减，毛利率曲线将显著抬升。而零样本泛化能力大幅缩短了客户验证周期，从&quot;定制开发&quot;变成&quot;即插即用&quot;，客户获取速度有望复制软件行业的规模化扩张路径。（雷峰网）</span></p><section style=\"text-align: justify; margin-right: 16px; margin-bottom: 24px; margin-left: 16px; line-height: 1.75em;\"></section><section style=\"text-align: justify; margin-right: 16px; margin-bottom: 24px; margin-left: 16px; line-height: 1.75em;\"><span></span></section>",
-      "published": "2026-06-22T17:48:00+08:00",
-      "fetched_at": "2026-06-23T11:50:08.101140+08:00",
-      "pre_filter_reason": "AI product launches: humanoid robot AI",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "人形机器人“通用小脑”是什么？一文看懂机器人AI新突破",
-          "angle": "用通俗语言解释人形机器人“通用小脑”的概念，类比人类小脑功能，介绍其如何让机器人实现更灵活的运动和任务执行，适合科技爱好者入门。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "超越SONIC：人形机器人通用小脑的GPT时刻意味着什么？",
-          "angle": "深度分析人形机器人通用小脑技术的突破性进展，对比SONIC等前代技术，探讨其对机器人行业和AI应用场景的变革意义。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "b59bb63942ab",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "AI 太烧钱！微软选择「倒戈」DeepSeek",
-      "link": "https://www.leiphone.com/category/ai/66F6EZoPUvuBgKtF.html",
-      "summary": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a38a3bb1e582.jpg?imageMogr2/quality/90\" style=\"width: 100%; display: inline-block; text-align: center; background-color: transparent;\" /></section><section style=\"padding-left: 16px; padding-right: 16px;\"><section style=\"width: 100%; display: flex; padding: 0px;\"><section style=\"width: 100%; padding-left: 0px; padding-right: 0px;\"><section style=\"width: 100%; background: rgb(246, 248, 255); padding: 20px 0px 12px; margin-top: 0px; margin-bottom: 0px;\"><section style=\"text-align: center;\"><section><section style=\"text-align: justify; margin: 0px 8px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><span><span style=\"font-weight: bold;\">&nbsp;Claude、GPT 不再独占 Copilot。</span></span></span></span></section><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><section style=\"text-align: left; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><br /></span></span></section></section></section><span></span><span></span><span></span><span></span><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-weight: normal;\">&nbsp; &nbsp; 作者丨</span></span><span style=\"font-size: 14px; color: #000000; line-height: 25px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-weight: normal;\">樊天骄、郑佳美</span></span><strong><span><strong><span><span><br /></span></span></strong></span></strong></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Optima-Regular, PingFangTC-light;\"><span style=\"color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\"><span>&nbsp; &nbsp; 编辑丨</span><span>郑佳美</span></span></span></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; text-align: right; margin: 0px 16px;\"><strong><strong><span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></strong></strong></p></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这两天，微软连续释放了两条重磅消息。</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">第一条来自产品层面。微软宣布 Copilot Cowork 在全球正式上线。这款能够跨 Outlook、Teams、Excel 等应用自主执行任务的 AI Agent 系统将正式商用。据微软披露，超过一半的《财富》500 强企业已经在预览期进行了部署。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">第二条则来自商业模式层面。Copilot Cowork 将不再完全沿用每月 30 美元的固定订阅模式，而是开始引入按使用量计费机制。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">几乎在同一时间，Axios 又披露了一则消息：微软正评估将 DeepSeek V4 引入 Copilot Cowork，作为低成本模型选项。如果最终落地，这将成为美国大型科技公司首次在核心企业级 AI 产品中引入中国大模型。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这两条消息似乎释放出一个信号，即Agent 的普及正在让 AI 的成本问题变得前所未有地突出。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">过去的聊天机器人更像一次性服务。用户提问，模型回答，任务到此结束。而在 Agent 模式下，一个任务往往需要经历任务拆解、数据检索、工具调用、结果生成和反复修正等多个环节。用户看到的是一次任务交付，系统背后却可能已经完成了数十次甚至上百次模型调用。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">当下的模型市场价格体系也在迅速拉开差距。从 Anthropic 高端模型每百万 Token 数十美元的推理成本，到 DeepSeek V4 Flash 每百万 Token 不足 0.3 美元，价格跨度已经达到数百倍。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">当任务量持续增长、模型价格不断分化，企业需要解决的问题便不再是“选择哪个模型”，而是“什么任务应该使用什么模型”。模型路由、成本控制和资源调度，也因此开始从后台基础设施问题，走向 AI 产品竞争的核心位置。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a38a3bb5332e.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>01</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"font-weight: bold;\">算力成本为何激增</span></span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">要理解微软此次架构重构的必要性，首先需要看到一个正在发生的变化：</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">Agent 正在改变 AI 的成本结构。</span></span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">在传统聊天式 AI 中，用户发起一次请求，系统返回一次响应。而固定订阅模式之所以能够成立，本质上依赖于一种成本平均主义：即少数重度用户所消耗的 token，会被大量低频用户的闲置额度所摊薄。雷峰网</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">但 Agent 打破了这一平衡。以 Copilot Cowork 为代表的新一代 Agent 的工作模式已不再是单次问答工具，而是持续运行的任务执行系统。一次简单的“整理客户反馈并生成报告”，背后可能涉及任务拆解、企业数据检索、工具调用、内容生成与多轮修订等多个环节，对应数十次甚至上百次模型调用。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">微软 Copilot 产品负责人 Aparna Chennapragada 透露，部分用户每周会让 Agent 执行数百项任务。</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">在这种模式下，重度用户的算力消耗可以达到普通聊天用户的数百倍甚至上千倍。</span></span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">而这种变化已经反映在真实生产数据中。Vercel AI Gateway 的统计显示，不足四分之一的请求包含工具调用，但却贡献了超过一半的 Token 消耗；与此同时，Agent 类请求的平均 Token 密度约为普通对话的 2.5 倍。换句话说，AI 成本不是均匀分布的，而是高度集中了在少数复杂任务之中。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a38a3bb84956.png?imageMogr2/quality/90\" style=\"background-color: transparent;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">除此之外，模型市场本身也在快速分层。雷峰网</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">高端模型价格持续攀升。Anthropic Fable 5 的定价达到输入 10 美元、输出 50 美元/百万 Token；而另一端，DeepSeek V4 Flash 的价格仅为输入 0.14 美元、输出 0.28 美元/百万 Token。整个市场的输出价格跨度已经达到约</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;180&nbsp;</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">倍，若按照部分场景价格计算，能力与成本之间的价差甚至超过</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;600&nbsp;</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">倍。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这意味着企业面对的已经不再是用贵模型还是便宜模型的问题，而是一条覆盖数百倍成本差异的能力光谱。如何让不同复杂度的任务匹配不同成本层级的模型成为了一个新的工程问题：</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">当算力成本从可预测变量演变为持续波动的结构性风险后，如何通过定价、路由和架构设计，让它重新回到可管理、可控制的范围之内。</span></span></strong></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a38a3bbc45e6.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>02</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"font-weight: bold;\">350 倍价差，模型光谱如何生效</span></span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">面对 Agent 带来的成本失控风险，微软进行了一次围绕计费、观测与调度的系统性重构。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">最先被改变的是定价逻辑。在新的 Copilot Cowork 体系中，用户仍需支付 Microsoft 365 Copilot 的基础订阅费用，但 Agent 的额外消耗将按照实际资源使用情况单独计费。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">微软将任务成本拆解为模型调用、上下文检索、工具使用和运行时长四个维度，并提供按需付费（PAYG）与预购套餐（P3）两种模式。通过基础订阅覆盖稳定需求，按量计费则对应 Agent 带来的增量消耗。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a38a3bc11ba8.png?imageMogr2/quality/90\" style=\"background-color: transparent;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">固定订阅模式的问题在于，由于价格统一，用户无法感知价格背后的资源消耗；而纯按量计费则会放大预算不确定性，增加企业采用门槛。当模型调用、工具使用和运行时长被拆解为可量化指标后，算力第一次从后台资源变成了可以被观察、管理和优化的经营成本。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">但成本被看见之后，一个新的问题随之浮现：</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">这些预算应该如何分配？</span></span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">一端是 GPT、Claude 等高端模型持续突破能力边界，另一端则是 DeepSeek 等开源模型不断压缩推理成本。从旗舰模型到低成本模型，价格跨度达数百倍，但模型能力的差距却远没有价格差距那样夸张。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">一味购入旗舰模型未必是一个盈利的选择，大量办公、检索和流程自动化这样的场景下，性能提升带来的边际收益，往往不足以支撑数倍甚至数十倍的成本增长。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">微软推动模型分层路由，本质上正是在顺应这一变化。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">对于复杂任务，系统调用 GPT 或 Claude 等旗舰模型；对于常规工作流，则优先使用 DeepSeek 或自研模型；而路由系统负责在质量、成本与响应速度之间寻找最优解。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这也是纳德拉近年来反复强调多模型生态的原因。Azure AI Foundry 已经集成 GPT、Claude、Gemini、DeepSeek 等多个模型体系，而即将推出的 Cowork 1，则进一步补全了微软在低成本办公场景中的能力布局。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">从这个角度看，微软正在构建的并不是一个由单一模型驱动的 Agent 平台，而是一套面向 Agent 时代的智能调度系统。当模型能力逐渐趋同之后，竞争焦点也将随之转移：</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">决定企业优势的，或许不再是谁拥有最强模型，而是谁能够以最低成本，将最合适的模型部署到最合适的任务之中。</span></span></strong></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a38a3bc43ad7.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>03</span><span><br /></span></strong></p><h2><span><br /></span><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span>降本后的质量问题</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">成本控制，只是第一步。降低成本后的质量问题才是这套体系稳定运行的关键。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">对于任何企业级 AI 产品而言，降本的前提始终是质量能够满足实际业务需求。如果低成本模型无法完成工作，那么再低的价格也没有意义。所以，在将 DeepSeek V4 引入 Copilot Cowork 的同时，微软也在构建一套与成本控制并行的质量保障体系。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">首先，对于微软来说 DeepSeek 并非默认模型，而是作为可选方案存在。对于高复杂度任务，企业仍然可以选择 Claude 等旗舰模型。这意味着微软并没有试图用低成本模型替代所有模型，而是在不同能力层级之间建立分工。</span></p><section style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a38a3bc6d0cd.png?imageMogr2/quality/90\" style=\"background-color: transparent;\" /></section><p style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><em><span style=\"font-size: 14px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">&nbsp;Copilot Cowork的模型选择界面</span></span></em></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">其次，DeepSeek V4 完全部署在 Azure 云环境中，数据始终留存在微软基础设施内部，受到企业级安全、合规与数据驻留策略保护。对于企业客户而言，这种托管方式的重要性不亚于模型能力本身。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">更重要的是，微软针对企业场景进行了额外的安全对齐与偏见治理微调（fine-tuning with safeguards against bias），确保模型输出符合企业级应用标准。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这些措施背后反映出一个越来越清晰的行业判断：并非所有任务都需要最顶级的大模型能力。对于文档整理、信息检索、代码补全和流程自动化等高频办公场景而言，经过针对性优化的开源模型已经能够达到“足够好”的水平。而真正昂贵的旗舰模型，则被保留给复杂推理、关键决策以及高风险业务场景。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这也是 Cowork 1 的定位逻辑。微软将其描述为“post-trained to handle tasks at a substantially lower cost”，即通过后训练让模型以更低成本完成特定任务。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这其实是对大模型资源的重新配置：</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">让针对办公场景优化的模型处理办公场景任务，让最昂贵的算力资源只服务于真正需要高阶智能的场景。</span></span></strong></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a38a3bc993a7.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>04</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"font-weight: bold;\">成本竞赛，正在取代模型竞赛</span></span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">过去两年，大模型行业的主流叙事仍然是“模型能力竞赛”——谁更强、谁分数更高、谁率先突破能力边界；而到了 2026 年，竞争重心正在悄然转向另一条轨道：</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">成本工程化能力</span></span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">。</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">微软对 Copilot Cowork 的重构之所以具有行业意义，在于它代表了一类大厂正在形成的共识：当 AI 从“可选工具”演化为持续运行的 Agent 系统后，企业必须同时管理三件事——模型能力、算力成本与系统调度能力。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">从这一点看，微软所构建的路径，可能正在成为未来大厂的标准范式：通过定价机制让成本显性化，通过模型分层压缩平均推理成本，通过多模型生态分散供应链风险，再通过路由与抽象层实现系统级调度，使 AI 架构从“模型中心化”走向“系统工程化”。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这一趋势也已经开始在企业侧显现。AT&amp;T、Meta、Uber、沃尔玛等公司正在逐步限制员工 AI 使用强度，从鼓励“最大化使用”转向主动控制 token 消耗。这更像是一种工业化阶段的必然结果——当成本曲线开始反向约束技术扩张时，工程能力就会取代模型能力，成为新的核心竞争力。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">或许，从Toke</span><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">nmaxxing到Tokenminimizing，AI 的下半场竞争不再是谁的模型更强，而是谁能</span><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">够在可控成本下，持续释放更高的系统效能。</span></p><p style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><em><span style=\"font-size: 14px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">参考链接：</span></span></em><em><span style=\"font-size: 14px; font-family: Arial, Helvetica, sans-serif;\"><br /></span></em></p><p style=\"text-align: justify; margin: 0px 16px 24px; line-height: 1em;\"><em><span style=\"font-size: 14px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">https://vercel.com/blog/ai-gateway-production-index-june-2026?</span></span></em></p><section><span></span></section><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a38a3bcb8229.jpg?imageMogr2/quality/90\" type=\"block\" /></section><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a38a3bcd953d.jpg?imageMogr2/quality/90\" type=\"block\" /></section><section><section><section><section><section><section><svg viewBox=\"0 0 1 1\" xmlns=\"http://www.w3.org/2000/svg\"></svg></section></section><section><p><strong><span><span style=\"color: #4499E7;\">上车，带你看遍全球 AI 顶会精华</span></span></strong></p><span></span></section></section></section></section></section><section><section><p style=\"text-align: center; margin: 0px 16px 8px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">可独家畅览：</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">专家演讲PPT</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">大会报告全文</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">热门论文解读</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">学术新星访谈</span></span></p><span></span><section style=\"text-align: center; margin-bottom: 16px;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a38a3bd0e474.jpg?imageMogr2/quality/90\" style=\"width: 100%;\" /></section><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">扫描上方二维码</span></span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">或点击</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">「</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">阅读原文</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">」</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">关注专区。</span></span></span></p></section></section><section><span></span></section><section><span></span></section>",
-      "published": "2026-06-22T10:55:00+08:00",
-      "fetched_at": "2026-06-23T11:50:08.101244+08:00",
-      "pre_filter_reason": "AI模型DeepSeek相关",
-      "scores": {
-        "importance": 9,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "微软为何“倒戈”DeepSeek？AI烧钱背后的商业逻辑",
-          "angle": "以微软选择DeepSeek为案例，解释大模型训练成本高昂的现状，以及企业如何通过合作或开源降低成本，适合对AI商业感兴趣的入门读者。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "AI烧钱大战：微软转向DeepSeek，大模型行业格局生变？",
-          "angle": "分析微软从自研转向合作DeepSeek的战略原因，探讨大模型行业成本压力下的合作趋势，以及对OpenAI、谷歌等竞争对手的影响。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "df8efe7e5f3e",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "lyogavin /airllm",
-      "link": "https://github.com/lyogavin/airllm",
-      "summary": "AirLLM 70B inference with single 4GB GPU",
-      "published": "2026-06-23T11:50:25.174153+08:00",
-      "fetched_at": "2026-06-23T11:50:25.174158+08:00",
-      "pre_filter_reason": "AirLLM for LLM inference on limited GPU.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "一块4GB显卡跑70B大模型？AirLLM部署实战指南",
-          "angle": "手把手教用户如何在低配置显卡上使用AirLLM运行70B参数大模型，包括安装步骤、参数调整和效果演示，适合AI开发者和硬件受限的爱好者。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "大模型平民化：AirLLM让单GPU也能跑70B模型",
-          "angle": "介绍AirLLM的核心技术原理（如模型压缩、量化），解释为什么4GB显卡也能运行大模型，降低AI开发门槛，适合入门级开发者。",
+          "tag": "explainer",
+          "title": "AI 安全标准是什么？OpenAI 与 Appia 基金会正在做什么？",
+          "angle": "用简单易懂的方式介绍 AI 评估框架、安全实践和全球合作的概念，结合 OpenAI 的最新动作，帮助普通用户理解 AI 治理的重要性。",
           "difficulty": "入门"
         }
       ]
@@ -561,14 +123,532 @@
       "title": "calesthio /OpenMontage",
       "link": "https://github.com/calesthio/OpenMontage",
       "summary": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "published": "2026-06-23T11:50:25.170628+08:00",
-      "fetched_at": "2026-06-23T11:50:25.170643+08:00",
-      "pre_filter_reason": "Agentic video production system using AI agents",
+      "published": "2026-06-24T11:51:30.021747+08:00",
+      "fetched_at": "2026-06-24T11:51:30.021761+08:00",
+      "pre_filter_reason": "AI-powered video production system with agentic capabilities",
       "scores": {
-        "importance": 7,
-        "timeliness": 8,
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 9,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "用 OpenMontage 把 AI 编码助手变成视频工作室：入门指南",
+          "angle": "从安装到第一个项目，逐步演示如何使用 OpenMontage 的 12 条流水线和 52 个工具，将 AI 编码助手转化为视频制作系统，适合内容创作者和技术爱好者。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "product_showcase",
+          "title": "全球首个开源智能体视频系统 OpenMontage：500+技能如何改变视频制作？",
+          "angle": "展示 OpenMontage 的核心功能（多流水线、智能体协作），对比传统视频制作流程，突出其自动化、开源和可扩展性优势，吸引独立制作人和开发者。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "f74860d41274",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "阿里千问发布首个原生语言世界模型 Qwen-AgentWorld，可在七大领域中模拟智能体交互环境",
+      "link": "https://www.ithome.com/0/967/843.htm",
+      "summary": "<p>IT之家 6 月 24 日消息，阿里巴巴千问大模型今天正式发布 Qwen-AgentWorld，官方称这是首个原生语言世界模型，能够在七大领域中模拟智能体交互环境，提供两种规模（35B-A3B 与 397B-A17B）。</p><ul class=\" list-paddingleft-2\"><li><p><strong>原生世界建模</strong>：环境建模从继续预训练（CPT）阶段起即为训练目标，贯穿 CPT → SFT → RL 全流程，而非对通用大语言模型的事后适配。</p></li><li><p><strong>七大领域，一个模型</strong>：单一模型同时覆盖文本类环境（MCP、Search、Terminal、SWE）与 GUI 类环境（Web、OS、Android），实现跨领域知识迁移。</p></li></ul><p>同步发布的还有 AgentWorldBench—— 覆盖七大领域的语言世界模型评测基准，每条测试样本均配备真实环境执行所得的真实环境观测数据。模型与评测基准可从 Hugging Face 和 ModelScope 获取。</p><p>IT之家附官方介绍如下：</p><blockquote><p><strong>Qwen-AgentWorld</strong> 代表了我们的核心探索：基于语言模型的世界建模，能否进一步拓展通用智能体能力的边界。</p><p>我们从两个方向探索如何实现语言世界建模，以及如何将其应用于推进通用智能体：</p><ul class=\" list-paddingleft-2\"><li><p>首先，我们<strong>构建了智能体环境模拟的基础模型</strong>：Qwen-AgentWorld 是首个在单一模型中覆盖七大智能体交互领域（MCP、Search、Terminal、SWE、Web、OS、Android）的语言世界模型，基于超过 1000 万条真实环境交互轨迹，经由 CPT → SFT → RL 三阶段训练而成。在 AgentWorldBench 评测中，Qwen-AgentWorld-397B-A17B 取得了最高的整体模拟质量，超越 GPT-5.4、Claude Opus 4.8 与 Gemini 3.1 Pro。</p></li><li><p>其次，我们<strong>探讨世界建模在智能体训练中的作用</strong>，并通过两种互补范式加以验证：作为解耦的环境模拟器，它为智能体强化学习提供了更优的可扩展性与可控性 —— 可控的模拟 RL 能够以真实环境无法实现的方式塑造智能体行为，且显著优于仅在真实环境中训练的 RL；作为统一的智能体基础模型，LWM 预热训练可有效迁移至涵盖七个基准（其中三个完全未出现在训练集中）的多轮智能体任务，且无需在智能体任务上进行任何 RL 微调，初步验证了语言世界模型能够作为构建更强智能体模型的基础。</p></li></ul><p>通过三阶段训练范式 —— 持续预训练（CPT）注入环境知识、监督微调（SFT）激活下一状态预测推理、强化学习（RL）打磨模拟真实性 —— 自底向上逐步构建世界建模能力。我们探索了世界模型赋能通用智能体的两种互补范式：作为解耦的环境模拟器，我们在 Tool Decathlon、MCPMark 和 WideSearch 上验证了可控模拟的有效性，其表现超越了无控模拟与真实环境训练；作为统一智能体基础模型，语言世界模型（LWM）的预热训练可迁移至涵盖七个基准（其中三个完全属于域外）的多轮智能体任务，初步验证了语言世界模型能够作为构建更强智能体模型的基础。语言世界建模开辟了一条互补的扩展路径，使通用智能体的能力边界得以突破真实环境交互所能提供的上限。</p></blockquote><p>AgentWorldBench 已在 Hugging Face 上发布，以按领域划分的 JSONL 文件形式提供，每个文件包含来自真实环境的交互轨迹及对应的真实观测数据。</p>",
+      "published": "2026-06-24T11:45:09+08:00",
+      "fetched_at": "2026-06-24T11:51:23.631202+08:00",
+      "pre_filter_reason": "阿里千问发布AI世界模型",
+      "scores": {
+        "importance": 9,
+        "timeliness": 9,
         "actionability": 8,
         "scarcity": 9,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Qwen-AgentWorld 入门：用原生语言世界模型模拟智能体交互",
+          "angle": "以七大领域中的某个场景（如文本游戏或虚拟实验室）为例，演示如何部署和使用 Qwen-AgentWorld 的 35B 或 397B 模型，包括环境配置、任务创建和结果分析。",
+          "difficulty": "高级"
+        },
+        {
+          "tag": "explainer",
+          "title": "什么是原生语言世界模型？阿里千问 Qwen-AgentWorld 能做什么？",
+          "angle": "解释“原生世界建模”概念，对比传统通用大模型，展示 Qwen-AgentWorld 在模拟环境中的独特优势，并列举七大领域的实际应用案例，适合技术科普。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "b856267c47a4",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Build an AI Scientist for Life Science Discovery with NVIDIA BioNeMo Agent Toolkit",
+      "link": "https://developer.nvidia.com/blog/build-an-ai-scientist-for-life-science-discovery-with-nvidia-bionemo-agent-toolkit/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/hc-bonemo-agent-toolkit-1920x1080-1-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"hc-bonemo-agent-toolkit-1920x1080\" width=\"768\" />AI scientists are emerging as a new interface for scientific computing. These agents can read papers, write code, generate hypotheses, call APIs, inspect files,...",
+      "published": "2026-06-23T21:30:00+08:00",
+      "fetched_at": "2026-06-24T11:51:09.811576+08:00",
+      "pre_filter_reason": "AI research/papers",
+      "scores": {
+        "importance": 7,
+        "timeliness": 6,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "用NVIDIA BioNeMo Agent Toolkit打造你的AI科学家",
+          "angle": "手把手教你如何利用BioNeMo Agent Toolkit搭建一个用于生命科学发现的AI智能体，从环境配置到第一个药物分子预测任务。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "case_study",
+          "title": "AI科学家来了：BioNeMo如何加速生命科学发现？",
+          "angle": "解析BioNeMo Agent Toolkit在蛋白质结构预测、分子生成等场景的实际应用案例，展示AI如何辅助科研人员提升效率。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "6fcd7a8144a0",
+      "source_id": "huggingface-blog",
+      "source_name": "Hugging Face Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+      "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "summary": "",
+      "published": "2026-06-23T20:51:55+08:00",
+      "fetched_at": "2026-06-24T11:51:10.080427+08:00",
+      "pre_filter_reason": "AI product launches",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 5,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "CUGA轻量框架实战：从零搭建你的第一个Agent应用",
+          "angle": "基于CUGA提供的二十多个现成示例，手把手演示如何快速构建一个真实可用的智能体应用，适合初学者快速上手。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "overview",
+          "title": "CUGA是什么？一个轻量级Agent框架的深度解析",
+          "angle": "介绍CUGA的核心设计理念、与LangChain等主流框架的对比，以及它如何通过轻量级设计降低Agent开发门槛。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "5a170bc10cd5",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "search",
+      "title": "“五眼联盟”警告：AI大模型可能在数月内拥有毁灭性攻击力量 - 财联社",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8tQW5Nd2h4T2ZWb1RoYnV1b0t2amxiQkxCVFhJbUpOd0xULVRaejZRVkdDN2ZlejlfV1RtU1VoZlJCQ2RWMXpxZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE8tQW5Nd2h4T2ZWb1RoYnV1b0t2amxiQkxCVFhJbUpOd0xULVRaejZRVkdDN2ZlejlfV1RtU1VoZlJCQ2RWMXpxZw?oc=5\" target=\"_blank\">“五眼联盟”警告：AI大模型可能在数月内拥有毁灭性攻击力量</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财联社</font>",
+      "published": "2026-06-24T03:49:23+08:00",
+      "fetched_at": "2026-06-24T11:51:27.259068+08:00",
+      "pre_filter_reason": "AI model warning about destructive attack capabilities.",
+      "scores": {
+        "importance": 9,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "五眼联盟预警：AI大模型的安全红线在哪里？",
+          "angle": "解读五眼联盟关于AI大模型可能具备毁灭性攻击能力的警告，分析背后的技术逻辑与潜在风险，并讨论行业应对措施。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "opinion",
+          "title": "AI安全警钟：我们离失控的AI攻击还有多远？",
+          "angle": "结合五眼联盟的警告，探讨当前AI安全治理的紧迫性，以及企业/开发者应如何提前防范模型被恶意利用。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "9cc0e420f8e4",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "Meta 几周内毁掉二十年工程文化，给所有“AI 优先”公司上了一课",
+      "link": "https://www.infoq.cn/article/CuH2KDSV1bvb6btQOeRf?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/CuH2KDSV1bvb6btQOeRf?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-06-24T03:04:13+08:00",
+      "fetched_at": "2026-06-24T11:51:17.975975+08:00",
+      "pre_filter_reason": "Meta's engineering culture change with AI priority.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "Meta的教训：AI优先如何摧毁二十年工程文化？",
+          "angle": "复盘Meta在转向AI优先战略后，工程文化急剧恶化的关键事件，分析其决策失误及对团队效率、创新力的影响。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "opinion",
+          "title": "给所有AI优先公司的警示：别让技术狂热毁了根基",
+          "angle": "从Meta案例出发，讨论企业在推进AI转型时如何平衡技术创新与工程文化传承，避免重蹈覆辙。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "10d301e47343",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "刚刚，豆包2.1发布！Agent自己跑18个小时搞定芯片设计代码",
+      "link": "https://www.qbitai.com/2026/06/437503.html",
+      "summary": "编程比肩Opus 4.7",
+      "published": "2026-06-23T21:37:17+08:00",
+      "fetched_at": "2026-06-24T11:51:19.549450+08:00",
+      "pre_filter_reason": "Mentions an AI agent autonomously generating chip design code.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "豆包2.1实战：让Agent自动跑18小时生成芯片设计代码",
+          "angle": "演示如何使用豆包2.1的Agent功能，设置一个芯片设计代码生成任务，并让AI自主运行18小时，最终产出可用的设计代码。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "comparison",
+          "title": "豆包2.1 vs Opus 4.7：编程能力大比拼",
+          "angle": "对比测试豆包2.1与Opus 4.7在芯片设计代码生成、复杂算法实现等任务上的表现，分析各自优劣势。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "b76cfe43c0c2",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "网易有道首发14语种零口音语音克隆模型，无需参考文本即可复刻任意音色",
+      "link": "https://www.leiphone.com/category/industrynews/30qYFuhjh76yBsIV.html",
+      "summary": "<p>当前，人工智能作为培育新质生产力的核心引擎，已上升为国家战略层面。国务院《关于深入实施“人工智能+”行动的意见》明确提出，要加快AI核心技术自主创新、降低产业落地门槛、构建开放共享的国产AI生态，推动人工智能与千行百业深度融合。</p><p>在这一战略背景下，网易有道正式推出“子曰4.0”大模型体系TTS语音合成引擎——Confucius4-TTS，并已面向全球用户开放。近日，该引擎凭借全球首个不依赖参考文本即可实现14语种无口音跨语种语音克隆的开创性突破引发行业高度关注，为数字人、跨境传播、智能教育等产业提供国产化、低成本语音克隆功能。</p><p style=\"text-align: center;\"><strong>重磅开源发布，完整模型权重本地可部署</strong></p><p>Confucius4-TTS采用1.3B参数高性能语音模型，开放行业领先的零样本语音克隆、跨语种无痕音色迁移、情感复刻能力，采用宽松友好的Apache开源协议，面向全球创作者、开发者开放完整模型权重与配套工具链。开发者可完整下载54G资源包，本地离线部署运行，配套开源龙虾智能体工具链，商用无限制。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260623/6a3a1f068a05d.png?imageView2/2/w/740\" /></p><p style=\"text-align: center;\"><span style=\"color: #A5A5A5;\">图 1 TTS模型开源地址：https://github.com/netease-youdao/Confucius4-TTS</span></p><p style=\"text-align: center;\"><strong>三大技术突破，重新定义开源TTS天花板</strong></p><p><strong>突破一：3秒极速克隆，零样本即可复刻原声</strong></p><p>Confucius4-TTS实现了真正的零样本语音克隆能力。用户仅需3秒即可完成音频克隆，克隆音色与原声相似度超过85%，克隆任务准确度高达97%。相较于初代EmotiVoice仅支持训练集内音色的局限，Confucius4-TTS实现了“无口语零样本复刻”的跨越式升级。</p><p><strong>突破二：14种语言跨语种互通，彻底告别“中式口音”</strong></p><p>Confucius4-TTS全面支持中、英、日、韩、德、法、西、印尼、意、泰、葡、俄、马来、越南语等14种语言的自然流利表达。其最大亮点在于解决了语音合成领域长期存在的跨语种口音痛点——用户上传中文音频，AI即可用该音色流利说出日语、英语等外语，发音地道自然。技术博主@XAMTO_AI评价：“你拿中文声音去讲日语，听着就像地道的日本人在说话，彻底告别了‘外国人在那儿硬凹’的尴尬。”</p><p><strong>突破三：音频Prompt情感克隆，语调韵律精准迁移</strong></p><p>区别于初代EmotiVoice仅支持“happy/sad/angry”等离散文本标签的粗放式情感控制，Confucius4-TTS创新性地支持音频Prompt情感克隆迁移。系统可自动提取参考音频中的情感标签，精准复刻其语调、韵律，支持跨语种无损迁移——“只要生气地说一句话，合成出来的外语也是生气的语气。”</p><p style=\"text-align: center;\"><strong>全栈技术架构升级，从“传统声码器”到“大模型驱动”</strong></p><p style=\"text-align: left;\">Confucius4-TTS在底层架构上实现了全面革新。相较于初代EmotiVoice采用传统HiFi-GAN声码器和Speaker ID查表的方案，Confucius4-TTS引入了GPT式语义大模型作为主干，搭配基于SSL预训练特征和ECAPA-TDNN的可学习说话人编码器，并采用Flow Matching流匹配生成框架实现高保真、高自然度的语音合成。</p><p>语音克隆方面，EmotiVoice不支持克隆功能，而Confucius4-TTS不仅只需3秒音频即可完成克隆，而且无需参考文本。</p><p style=\"text-align: center;\"><strong>社区反响热烈，开发者实测验证</strong></p><p style=\"text-align: center;\">自开源以来，Confucius4-TTS迅速获得开发者社区的积极反馈。技术博主@dsd2077在实测使用日语人声的参考音频生成中文语音，表示虽无法 100% 复刻细微音色，但整体听感自然流畅，无生硬外语口音。</p><p>另一位技术博主@XAMTO_AI评价道：“这回是真开源——人家给的是真权重而不是只给API，整整54个G直接让你下，还能本地跑。做口播配音数字人，省钱又好用。”</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260623/6a3a1f06c5dbd.png?imageView2/2/w/740\" /></p><p style=\"text-align: center;\"><span style=\"color: #A5A5A5;\">图2 技术博主@dsd2077实测反馈</span></p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260623/6a3a1f06c31f9.png?imageView2/2/w/740\" /></p><p style=\"text-align: center;\"><span style=\"text-align: left; color: #A5A5A5;\">图3 技术博主@XAMTO_AI实测反馈</span></p><p><br /></p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260623/6a3a1f06c83a9.png?imageView2/2/w/740\" /></p><p style=\"text-align: center;\"><span style=\"color: #A5A5A5;\">图4 AI博主刘聪NLP测评</span></p><p>Confucius4-TTS的低门槛语音克隆和情感合成能力，可广泛应用于多语种内容创作、数字人配音、跨语言教学以及本地化运营等多种场景。</p><p>网易有道表示，希望通过全量开源Confucius4-TTS，降低语音克隆和情感合成的门槛，期待社区探索出更多有趣、有用的新玩法。<span style=\"color: #FFFFFF;\">（雷峰网雷峰网雷峰网）</span></p>",
+      "published": "2026-06-23T13:57:00+08:00",
+      "fetched_at": "2026-06-24T11:51:16.660307+08:00",
+      "pre_filter_reason": "AI voice cloning model and TTS engine",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 9,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "14语种零口音克隆，网易有道TTS模型怎么用？",
+          "angle": "手把手演示如何上传语音样本，利用Confucius4-TTS生成不同语种的无口音克隆语音，突出无需参考文本的便捷性。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "低成本打造多语种数字人：有道语音克隆实战指南",
+          "angle": "结合跨境传播和智能教育场景，展示如何用该模型快速为数字人配音，降低多语种内容制作门槛。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "1b0aee272cf2",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "Jamendo 起诉英伟达未经授权用数万首音乐训练 AI 模型，索赔超 1780 万欧元",
+      "link": "https://www.ithome.com/0/967/838.htm",
+      "summary": "<p>IT之家 6 月 24 日消息，独立线上音乐平台 Jamendo 起诉英伟达侵犯著作权、违反合同，指控其未经授权使用数万首曲目训练 AI 模型。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/3/278316e8-1c15-4d6e-86a3-aef371f9261d.png?x-bce-process=image/format,f_auto\" /></p><p>总部位于卢森堡的 Jamendo 昨日向美国加利福尼亚州联邦法院递交了这份起诉状。约八个月前，该平台已在比利时对英伟达发起诉讼。今年 6 月初，当地法官驳回了英伟达比利时分公司的管辖权异议，裁定本案继续审理、就实体争议展开庭审。</p><p>但英伟达比利时分公司仍拒不认可“Jamendo 开具账单的效力与可执行性”，隶属于 Winamp 集团的 Jamendo 显然认为，当下时机成熟，可同步在美国寻求司法救济。</p><p>原告表示，英伟达非法使用由 Jamendo 与西班牙巴塞罗那庞培法布拉大学音乐技术研究组（MTG）联合搭建的音乐数据库，训练旗下 Fugatto、Audio Flamingo 两款音频大模型。</p><p>诉状显示，尽管 Jamendo 平台总计上架数十万首歌曲，但这份由双方联合打造的 MTG-Jamendo 数据集包含约 5.6 万首曲目，附带详尽元数据。</p><p>该数据集对外公开的使用权限仅限非商用科研与学术场景，任何商业用途都必须取得 Jamendo 书面明确许可。</p><p>英伟达公开发表的多篇技术论文均明确标注，MTG-Jamendo 是其研发 Fugatto、Audio Flamingo 产品所使用的训练数据集之一，这一点让原告无法接受。</p><p>显而易见，上述使用行为并未获得授权。诉状记载，2024 年 3 月 Jamendo 发现英伟达无授权大规模训练模型后，当即主动接洽英伟达，希望洽谈商用授权事宜。</p><p>直至 2025 年 6 月，Jamendo 多次与英伟达及其代理方协商谈判，均未能达成满意结果。协商无果后，Jamendo 向英伟达寄出前述数据库商用计费账单，并在比利时提起了前文提及的诉讼。</p><p>这份账单作为美国诉状的附件证据提交，计费标准为：数据库中 55600 首曲目，单首使用费 289 欧元（IT之家注：现汇率约合 2238 元人民币）；整套全球商用授权合计 1610 万欧元（现汇率约合 1.25 亿元人民币）。</p><p>诉状原文写道：“英伟达拒不纠正自身违约侵权行为，未支付账单载明款项，且持续享受未经授权使用 MTG-Jamendo 数据集带来的全部收益。”</p><p>综合全部诉求，Jamendo 提出四项诉讼主张：直接著作权侵权、违约（非法商用知识产权、违反 Jamendo 平台使用条款）、不当得利（英伟达通过使用涉案数据集获取巨额商业收益）、不正当竞争。</p><p>针对不正当竞争诉请，原告称：“据原告掌握信息及合理推断，英伟达规避了授权采购成本、省去自建同等数据集的开支，大幅压缩研发费用，同时加快了人工智能系统的迭代进度。”</p><p>赔偿诉求方面，Jamendo 多项主张中包含最低索赔 1780 万欧元（现汇率约合 1.38 亿元人民币），即账单本金加逾期利息。</p>",
+      "published": "2026-06-24T11:33:58+08:00",
+      "fetched_at": "2026-06-24T11:51:23.631269+08:00",
+      "pre_filter_reason": "AI模型训练侵权诉讼",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "AI训练用音乐侵权风险解析：从Jamendo诉英伟达案学避坑",
+          "angle": "解读案件核心争议点，分析AI公司使用音乐数据时的法律边界，给出合规建议。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "音乐版权保护指南：如何防止你的作品被AI模型抓取？",
+          "angle": "面向独立音乐人，介绍如何利用平台条款、技术手段（如音频水印）保护作品不被未授权使用。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "2fb69cd58c05",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "孙正义：软银旗下Arm将进军芯片制造，“还有10倍以上成长空间”",
+      "link": "https://36kr.com/newsflashes/3866599242257416?f=rss",
+      "summary": "6月24日，软银集团董事长孙正义在股东大会上表示，旗下英国芯片设计公司Arm将从芯片设计者进化为芯片提供者，并亲自参与制造。他预判“今后AI时代将以CPU为中心”，并强调Arm“还有10倍以上的成长空间”。他同时提及软银对英特尔约3000亿日元的投资，称“当初遭到非议”，但目前“按市值计算的利润已达数万亿日元”。（界面）",
+      "published": "2026-06-24T11:08:08+08:00",
+      "fetched_at": "2026-06-24T11:51:11.891118+08:00",
+      "pre_filter_reason": "孙正义谈及Arm进军芯片制造，强调AI时代以CPU为中心，与AI相关",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Arm进军芯片制造：对AI硬件生态意味着什么？",
+          "angle": "分析Arm从设计到制造的战略转变，解读其对AI芯片市场格局的潜在影响。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "孙正义的AI投资逻辑：从软银押注Arm看未来趋势",
+          "angle": "梳理软银在AI芯片领域的投资布局，探讨CPU在AI时代的新角色。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "0980bbf72579",
+      "source_id": "ifanr",
+      "source_name": "爱范儿",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "刚刚，Seedance 2.5 正式发布，国产视频模型再次捅破天花板",
+      "link": "https://www.ifanr.com/1669752?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "既 SOTA，也划算<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
+      "published": "2026-06-23T17:36:00+08:00",
+      "fetched_at": "2026-06-24T11:51:21.924566+08:00",
+      "pre_filter_reason": "AI视频模型发布",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Seedance 2.5实测：国产视频模型如何做到“既SOTA又划算”？",
+          "angle": "对比Seedance 2.5与主流视频模型的生成效果和成本，展示其在创意视频制作中的实际应用。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "零基础用Seedance 2.5生成高质量短视频",
+          "angle": "从注册到出片，一步步演示如何利用该模型快速生成用于社交媒体或广告的短视频。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "cfb868e90f70",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "机器人全栈操作系统！老黄率先抛出“具身版安卓”",
+      "link": "https://www.qbitai.com/2026/06/437382.html",
+      "summary": "英伟达：不造机器人，但要帮具身企业造好机器人",
+      "published": "2026-06-23T14:06:02+08:00",
+      "fetched_at": "2026-06-24T11:51:19.549478+08:00",
+      "pre_filter_reason": "NVIDIA's robot operating system for embodied AI",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 5.6
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "英伟达“具身版安卓”发布：机器人开发者如何快速上手？",
+          "angle": "介绍机器人全栈操作系统的核心功能，演示如何利用该平台加速机器人开发。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "不造机器人但帮造机器人：英伟达的具身智能生态解析",
+          "angle": "解读英伟达在机器人领域的战略定位，分析其对创业公司和传统制造企业的赋能价值。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "b9c15ccfd013",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "全公司“围观”私聊与绩效，Meta紧急叫停用员工训练AI：士气崩了，员工怒骂高管“狗屎”",
+      "link": "https://www.infoq.cn/article/puuuQ3qD8AKrP5AmBGfk?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/puuuQ3qD8AKrP5AmBGfk?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-06-24T18:16:58+08:00",
+      "fetched_at": "2026-06-24T11:51:17.975904+08:00",
+      "pre_filter_reason": "涉及用员工数据训练AI及AI伦理",
+      "scores": {
+        "importance": 6,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Meta用员工数据训练AI惹众怒：企业如何合规使用内部数据？",
+          "angle": "从Meta事件切入，讲解企业使用员工数据训练AI时的法律风险、伦理边界和最佳实践，提供合规操作指南。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "AI训练数据危机：如何避免“数据丑闻”伤害公司士气？",
+          "angle": "分析Meta事件对员工信任的冲击，分享企业透明沟通、数据匿名化处理、以及建立AI伦理委员会的具体步骤。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "f73e49485913",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "bytedance /deer-flow",
+      "link": "https://github.com/bytedance/deer-flow",
+      "summary": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "published": "2026-06-24T11:51:30.022443+08:00",
+      "fetched_at": "2026-06-24T11:51:30.022444+08:00",
+      "pre_filter_reason": "AI SuperAgent harness",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "开源SuperAgent框架deer-flow：从零搭建你的长周期AI助手",
+          "angle": "手把手演示如何部署和配置deer-flow，重点讲解其沙箱、记忆、工具调用等核心模块，帮助开发者快速上手。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "deer-flow实战：用开源工具让AI自动完成数小时的研究与编码任务",
+          "angle": "通过一个具体项目案例（如自动爬取数据并生成报告），展示deer-flow如何协调子代理、记忆和技能完成复杂工作流。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "09c836d53a38",
+      "source_id": "reddit-ml",
+      "source_name": "Reddit r/MachineLearning",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "DeepSWE: new benchmark looking at how well today's frontier models can actually write code [R]",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/\"> <img alt=\"DeepSWE: new benchmark looking at how well today's frontier models can actually write code [R]\" src=\"https://preview.redd.it/lacvagyr159h1.png?width=140&amp;height=89&amp;auto=webp&amp;s=14f97a97511fbfe2fd767e4dc986ce0b4da5c73e\" title=\"DeepSWE: new benchmark looking at how well today's frontier models can actually write code [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>DeepSWE delivers four advances over existing public benchmarks:</p> <ul> <li>Contamination free: Tasks are written from scratch, not adapted from existing commits or PRs, so no model has seen the solution during pretraining.</li> <li>High diversity: Tasks span a broad pool of 91 repositories across 5 languages.</li> <li>Real-world complexity: Prompts are ~half the length of SWE-bench Pro's, yet solutions require 5.5x more code and ~2x more output tokens.</li> <li>Reliable verification: Verifiers are hand-written to test software behavior rather than implementation details.</li> </ul> <p>The result is a benchmark that reflects how today's frontier coding agents actually perform in software engineering work.</p> <p><a href=\"https://preview.redd.it/lacvagyr159h1.png?width=1373&amp;format=png&amp;auto=webp&amp;s=6514340a15d51d7f03da733f08fb3f6a302cac75\">https://preview.redd.it/lacvagyr159h1.png?width=1373&amp;format=png&amp;auto=webp&amp;s=6514340a15d51d7f03da733f08fb3f6a302cac75</a></p> <p>It's open-source: <a href=\"https://github.com/datacurve-ai/deep-swe\">https://github.com/datacurve-ai/deep-swe</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/we_are_mammals\"> /u/we_are_mammals </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-06-24T10:03:34+08:00",
+      "fetched_at": "2026-06-24T11:51:28.663295+08:00",
+      "pre_filter_reason": "AI代码能力基准研究",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 7,
         "virality": 7,
         "crowd_heat": 0.0
       },
@@ -576,138 +656,88 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "手把手教你用OpenMontage搭建AI视频工作室",
-          "angle": "从零开始演示如何配置12条管线、调用52个工具，让AI编程助手变身视频制作全流程工具。",
+          "title": "DeepSWE基准测试解读：当前最强AI写代码能力到底如何？",
+          "angle": "解析DeepSWE的测试方法、关键指标和模型排名，帮助开发者理解前沿模型在实际编码任务中的优势与局限。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "开源视频生产系统OpenMontage：Agent如何颠覆传统影视制作？",
-          "angle": "解析500+智能体技能如何协作完成视频创作，对比传统工作流，探讨开源对行业的影响。",
+          "tag": "tutorial",
+          "title": "用DeepSWE评估你的AI编码助手：自定义测试与优化指南",
+          "angle": "指导开发者如何利用类似DeepSWE的基准测试框架，评估自家AI编码工具的性能，并给出针对性优化建议。",
           "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "081704e83b96",
+      "id": "6c6177210b29",
       "source_id": "nvidia-blog",
       "source_name": "NVIDIA Technical Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Enable Real-Time AI for High-Speed Data Acquisition with DAQIRI",
-      "link": "https://developer.nvidia.com/blog/enable-real-time-ai-for-high-speed-data-acquisition-with-daqiri/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/image1-4-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" />When AlphaFold2 revolutionized drug discovery in 2020, its success relied entirely on the roughly 170,000 protein structures collected by scientists since 1971...",
-      "published": "2026-06-22T23:00:00+08:00",
-      "fetched_at": "2026-06-23T11:50:02.165599+08:00",
-      "pre_filter_reason": "Focuses on real-time AI for data acquisition.",
+      "title": "Maximize AI Factory Energy Efficiency Through Full-Stack Inference and Training Optimizations",
+      "link": "https://developer.nvidia.com/blog/maximize-ai-factory-energy-efficiency-through-full-stack-inference-and-training-optimizations/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/ai-factory-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ai-factory\" width=\"768\" />Power can account for 40% of the operating expenses (OpEx) to run an AI factory. Each watt can be spent on overhead, data ingestion, training, or generating...",
+      "published": "2026-06-24T00:30:00+08:00",
+      "fetched_at": "2026-06-24T11:51:09.811527+08:00",
+      "pre_filter_reason": "Discusses AI factory energy efficiency and inference/training optimizations.",
       "scores": {
         "importance": 6,
         "timeliness": 7,
         "actionability": 6,
-        "scarcity": 5,
-        "virality": 5,
+        "scarcity": 6,
+        "virality": 4,
         "crowd_heat": 0.0
       },
       "quality_score": 7.5,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "DAQIRI实战：用实时AI加速高速数据采集",
-          "angle": "结合AlphaFold2案例，演示DAQIRI如何在高频数据流中部署实时AI推理，提升药物发现效率。",
+          "title": "AI工厂能耗优化：从推理到训练的全栈节能策略",
+          "angle": "结合NVIDIA方案，讲解如何通过硬件选型、模型压缩、动态电源管理等手段降低AI工厂40%运营成本。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "绿色AI实战：用全栈优化工具降低模型训练碳排放",
+          "angle": "提供具体工具和代码示例（如NVIDIA Triton、TensorRT），演示如何在不牺牲性能的前提下实现节能推理与训练。",
           "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "978d112eaa59",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "小扎「蒸馏员工」计划紧急喊停！私聊数据都泄露了…",
-      "link": "https://www.qbitai.com/2026/06/437330.html",
-      "summary": "Meta这团乱麻，几顿零食是搞不定了",
-      "published": "2026-06-23T08:33:00+08:00",
-      "fetched_at": "2026-06-23T11:50:11.088218+08:00",
-      "pre_filter_reason": "涉及Meta的AI模型训练和数据泄露问题",
+      "id": "3f561e6945ff",
+      "source_id": "huggingface-blog",
+      "source_name": "Hugging Face Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+      "link": "https://huggingface.co/blog/huggingface-hub-release-ci",
+      "summary": "",
+      "published": "2026-06-23T08:00:00+08:00",
+      "fetched_at": "2026-06-24T11:51:10.080463+08:00",
+      "pre_filter_reason": "Mentions AI and open tools in the context of shipping software.",
       "scores": {
         "importance": 6,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "Meta紧急叫停「蒸馏员工」计划：私聊数据泄露引隐私危机",
-          "angle": "曝光Meta内部计划细节，分析数据泄露风险及对AI训练伦理的冲击。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "f67e80233d47",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "吴恩达戳破AI幻象：炒作过头了，未来公司是10人小队＋Agent重做数据架构",
-      "link": "https://www.infoq.cn/article/9ubrcrTRdxROBUo5igpy?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/9ubrcrTRdxROBUo5igpy?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-06-23T00:55:45+08:00",
-      "fetched_at": "2026-06-23T11:50:09.341212+08:00",
-      "pre_filter_reason": "Discusses AI hype and AI agent architecture.",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
+        "timeliness": 7,
         "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
+        "scarcity": 6,
+        "virality": 7,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.4,
+      "quality_score": 7.5,
       "topics": [
         {
-          "tag": "analysis",
-          "title": "吴恩达预言：未来公司=10人小队+Agent重做数据架构",
-          "angle": "解读吴恩达对AI泡沫的批判，分析小团队+智能体如何重构企业数据流程。",
+          "tag": "tutorial",
+          "title": "AI辅助每周发布：huggingface_hub的自动化发布流程揭秘",
+          "angle": "拆解其每周发布流程，展示如何结合AI代码审查、自动测试和人工审核，实现高效且可靠的版本迭代。",
           "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "c5be6c8946c9",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Fable 5 刚被封杀，OpenRouter 用「多模型协作」搞出了「平替天团」",
-      "link": "https://www.leiphone.com/category/yanxishe/9TGZvtD8CvNeaEKw.html",
-      "summary": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a390737329b1.jpg?imageMogr2/quality/90\" style=\"width: 100%; display: inline-block; text-align: center; background-color: transparent;\" /></section><section style=\"padding-left: 16px; padding-right: 16px;\"><section style=\"width: 100%; display: flex; padding: 0px;\"><section style=\"width: 100%; padding-left: 0px; padding-right: 0px;\"><section style=\"width: 100%; background: rgb(246, 248, 255); padding: 20px 0px 12px; margin-top: 0px; margin-bottom: 0px;\"><section style=\"text-align: center;\"><section><section style=\"text-align: justify; margin: 0px 8px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><span>&nbsp;</span><span>最强 AI 突遭封杀下架，多模型协作能否填补空白？</span></span></span></section><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><section style=\"text-align: left; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><br /></span></span></section></section></section><span></span><span></span><span></span><span></span><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-weight: normal;\">&nbsp; &nbsp; 作者丨</span></span><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-weight: normal;\">高允毅</span></span><strong><span><strong><span><span><br /></span></span></strong></span></strong></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Optima-Regular, PingFangTC-light;\"><span style=\"color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\"><span>&nbsp; &nbsp; 编辑丨</span><span>马晓宁</span></span></span></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; text-align: right; margin: 0px 16px;\"><strong><strong><span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></strong></strong></p></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">当世界上最聪明的 AI 被强制拔掉网线，我们能否有另一套方案，用上同样聪明的智力？</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">2026年6月14日，全球最大的大模型 API 聚合平台OpenRouter，在 X 上发布一条推文，短短几天，吸引近600万人围观。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a390737732a7.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">该平台宣布推出了世界上最聪明的“复合模型”Fusion API ，能用模型组合的方式，复刻 Claude Fable 5 的智力水平。 所谓“复合模型”，不是靠一个 AI 自己埋头苦干，而是让好多 AI 模型一块儿配合，做出一份最好的答案，再交给用户，对外统一用一个API 入口。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">Fusion API 的横空出世，踩中了一个微妙的时机。 就在同一周，Anthropic 刚发布了 史上最强模型Claude Fable 5。该模型以强悍的长周期智能体推理出圈，能将企业原本需要数月的代码迁移工作缩短至一天。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">然而，发布仅 3 天，美国政府便签发了紧急出口管制令。Anthropic 官方被迫切断全球网络，暂停该模型的 API 访问，原本跃跃欲试的开发者们，瞬间哀嚎遍野。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">OpenRouter这条推文，正是精准地踩在了市场真空期的最痛点，同时给出一套新方案：与其押注单一模型，不如让一群模型&quot;开会&quot;。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">它公布了一组惊人数据：在深度研究中，由 Gemini 3 Flash、Kimi K2.6 和 DeepSeek V4 Pro 组成的“模型专家团”，融合后不仅轻松击败了 Opus 4.8，其综合智力与被禁的 Fable 5 相比，得分误差不到 1%。（注：Claude Fable 5 因内容过滤仅完成 DRACO 100 道任务中的 93 道，中端模型组合完整跑完全部 100 题，二者评测样本存在差异。）</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">而实现这一切的调用成本，仅仅是 Fable 5 的一半。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a390737a43a2.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>01</span><span><br /></span></strong></p><h2><span><br /></span><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span>Fusion API背后的“多模型拼盘”</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">OpenRouter 将 Fusion 冠以“市场上最智能复合模型”的称号，确实带有营销色彩。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">从底层来看，它的原理是将“多模型并行、裁判海选、终审合成”三步走流程化、标准化的工程解法。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">第一步：</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">专家团模型的“头脑风暴” 首先，用户的提示词一经触发，系统会将其同时派发给最多8 个“专家模型”，包括Fable 5、GPT-5.5、Gemini 3.1 Pro以及国产好评的GLM-5.2、Kimi K2.6等众多模型。 值得注意的是，为了防止模型“闭门造车”，系统在底层为所有专家统一配备了实时联网搜索与网页内容抓取工具。这意味着，专家模型们在交卷前，可以查阅全网最新的参考资料。这种实时交互，让 Fusion 彻底区别于简单的“少数服从多数”的盲目投票。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">第二步：</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">裁判模型来挑刺 这是 Fusion 的灵魂所在。一个被指定当“裁判”的模型，会把所有专家的回答看一遍，然后写出一份细致的分析报告。它会特别严格地把这些回答里的意见一致的地方、 互相矛盾的地方、特别出彩的个人见解，还有大家都没注意到的盲点，一条条都揪出来。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">第三步：</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">主笔模型最后定稿 裁判的报告出来之后， 一个主笔模型就上场了。它会吸收所有专家的优点，排除掉个别模型瞎编的东西，最后产出一份没有技术矛盾、逻辑顺畅的高质量回答。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在这里，OpenRouter 展现了一个很聪明的工程设计：为了避免多次调用导致系统延迟全面崩塌，它巧妙地让“裁判”与“主笔”两件事，放在同一个超级大模型的一次思考里一口气完成。那些复杂的开会、辩论、审计、整合，全都在后台悄悄做完了，用户最终只是一个干干净净的结果。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">Fusion的这套思路，其实在学术界早有探索。2024年，Together AI 团队正式提出的一种多模型协同技术范式，又称MoA。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">它的核心逻辑是“三个臭皮匠，顶个诸葛亮”，不再死磕一个超级贵、超级大的单个模型，而是分好几层，让一组便宜些的模型同时想，再让一个高级模型当评委，最后出来的答案，反而比任何单个模型都强。 在 MoA 正式提出之前，学界长期争论一个猜想：把好多比较弱的模型凑在一起，</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">能不能出现比最强模型还好的集体智慧？ 于是就有了这种让 AI 组团辩论的方法。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">从很早将工具与模型缝合的复合 AI 系统，到 2023 年把多个模型的输出直接糅合的工具，再到 2024 年谷歌让多个智能体像开会一样辩论的论文，学术界早已论证了同一件事：组合拳的输出远比单打独斗更具确定性。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">Fusion 的核心价值在于它是行业首个将完整 “多模型合议” 流程标准化、托管化、开箱即用的商用 API 产品。 它把一整套复杂架构变成了一项可以托管的、即插即用的 API，无需任何基础设施。开发者不用自己再去搭服务器、调参数。只要改一行代码，就能直接指挥一整个专家团。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在真正落地的过程里，OpenRouter 表现得很务实，主要体现在两个机制上：</span></p><ul class=\" list-paddingleft-2\"><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-weight: bold;\">第一，</span>给用户完全透明的控制权：你可以自己决定让哪些模型当评审，让哪个模型当最后的主裁判。如果国外的服务不好用，你还能让咱们的国产大模型挑大梁。甚至可以给不同模型分配重要程度，让整个合作网完全听你指挥。</span></p></li><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-weight: bold;\">第二，</span>极具灵巧性的“动态智能门控”：这个功能像一个工具箱里的小插件。平时问点简单的问题，系统会自动识别，直接让一个便宜的模型秒回，根本不启动复杂的开会流程。只有碰到特别难、需要深思熟虑的问题时，才会把一群模型叫起来，一起商量。</span></p></li></ul><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a390737d6020.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>02</span><span><br /></span></strong></p><h2><span><br /></span><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span>在DRACO基准测试中的“聪明”表现</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">Fusion这套“组队干活”的聪明效果，在 Perplexity AI 发布的权威深度研究基准测试 DRACO 中得到了直接印证。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">作为一个专门测试 AI 深度研究能力的硬核考场，DRACO 包含了法律、金融、医学等 10 个领域的 100 道复杂任务。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">它的规则极其严苛，采用“负分淘汰制”，每道题约有39 个判定标准进行全方位“挑刺”，回答错误或硬凑字数，都会被扣分。为了防止运气成分，每个回答要找三个不同的裁判，各看一次，最后取一个稳定的平均分。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a3907380335a.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在DRACO的真实评测中，可以看到一些有趣的信息：</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">总榜排在最前列的几乎清一色是“组合模型”，其实际效果把排在后方的单体模型远远甩在了身后</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">“自己和自己组队”也能变强：利用 Fusion 机制，即便是相同的模型融合，也能实现超越前沿的性能。比如两个Claude Opus 4.8 互相融合，其最终的得分不仅远超自己，甚至直接超越了Fable 5。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">最有趣的是，哪怕不用昂贵的顶级模型，用中端模型组队同样能逼近天花板。由 Gemini 3 Flash、Kimi K2.6 和 DeepSeek V4 Pro 组成的“平民专家队”，在经过 Fusion组合后，以不到 1% 的微弱得分差距，正面直逼 Fable 5。 当然，最强的模型组合依然来自最强模型的强强联手，Fable 5+GPT-5.5霸榜第一。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a3907383e066.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">但需要注意的是，DRACO只考察“纯文字、纯英文”的深度研究能力，不包含长周期动态任务、代码运行、多模态与非英文场景。这种固定的测评体系，无法考察将来实际用起来是什么样；而且分数多少，也跟找谁来当裁判有很大关系，不同的评委大模型，绝对分数会产生 10 到 25 分的巨大波动，但相对系统排名保持稳定。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">简而言之，Fusion的绝对优势，主要在研究复杂问题，把很多信息揉在一起， 写出一份的高质量深度报告这件事上。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a390738702f5.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>03</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"font-weight: bold;\">最吸引人的经济账：真的只要一半吗？</span></span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">Fusion最受人们关注的是莫过于那句口号：只用一半的价格，达到Fable 5的智力效果。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">众所周知，Claude Fable 5 的价格堪称昂贵，其输入每百万 Token 为 10 美元，输出每百万 Token 达 50 美元。这一价格正好是前代旗舰 Claude Opus 4.8 的两倍，也是目前市场上最昂贵的前沿大模型之一。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">如果真的能省下一半成本，开发者们自然趋之若鹜。但 Fusion 这笔账到底是怎么算的？</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">Fusion 的收费规则是“你调用了几个模型就得付几个模型的钱。”，这意味着一条提示词如果被路由分配到 4 个模型，用户就要付 4 次钱。这让很多开发者直呼“太贵了”。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">那为什么它最终还能省钱？秘密在于 Token 价格的极端不对称性：大模型的输入成本通常极其廉价，而长篇大论的输出成本却极其高昂。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">Fusion 省钱的本质，就是“多花好几份极便宜的输入费”，去避开那个“最贵最贵的输出费”。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">以4个模型为例，虽然4 个模型的输入都需要付钱，但只付了 4 次很便宜的输入费，但最终答案，只有一个模型输出。所以真正花大钱的地方，只有一份。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">如果配合前文提到的“动态智能门控”，这笔账还会更划算。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">当公司大规模跑业务的时候，90% 的简单问题，可以自动分给便宜又好用的模型了。 &nbsp;只有那 10% 超级难的、触及能力上限的问题，才会启动 Fusion 开会。这样算下来，整体成本可能比“全部用昂贵模型”还要低。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">而真正让 OpenRouter 敢喊出“成本减半”的终极底气，来自于它有一个功能叫“提示词缓存”。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">当你要处理的文本特别长，或者系统指令里有一大段固定不变的东西，哪怕输入再便宜，一旦要让 4 个甚至 8 个模型都看一遍，总价还是很吓人的。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">但 Fusion 聪明就聪明在，多个专家模型可以同时用同一份缓存好的数据。除了第一次要付全价，后面再读同样的东西，就只要付一顿几乎可以忽略的零头，大概只有原价的 10% 到 20%。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">如果没有提示词缓存这项技术托底，多模型辩论就只是一个“开着豪车送外卖”的工程乌托邦。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">把账算清楚之后，企业做技术的人就能清楚知道Fusion的使用边界，什么场景能省钱，什么场景会破产？</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">当你遇到了一个超级难题，单凭任何一个模型都搞不定，你原本只能咬牙花大价钱用最牛的那个。现在你用 4 个中等模型组队，加上缓存，总账单确实能比天价模型便宜一大截。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">反而会更贵的场景是：如果你的日常工作，本来一个便宜模型就能轻松搞定，你却非要逼着大家组队上，那多模型并行带来的太多额外花费，很快就能把公司账目搞崩。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">简而言之，Fusion 是一场精准的账目精算。它是最牛模型非常好的平价替代，但绝对不是普通便宜模型的平价替代。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">过去，科技公司靠不断堆出一个超级贵、超级大的单模型来垄断挣钱。 但现在，这种垄断，正在被“便宜模型组合”、“聪明开关”加上“缓存优化”，这一套组合拳给打破了。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">Fusion给了我们一个选择空间，在 AI 这个赛道下半场，你不需要买那个最贵的单模型了，一套足够聪明的调度系统也可以成为平替方案。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a390738a1dfc.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>04</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"font-weight: bold;\">三个没那么光鲜的工程黑洞</span></span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">尽管概念惊艳，但目前 Fusion 依然无法直接替代 Fable 5。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">作为一个尚处早期探索阶段的产物，在开发者和企业最在意的真实落地战场上，它暴露出三个不容忽视的致命短板。</span></p><section><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">&nbsp;问题一：编程场景不实用</span></span></strong></p></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">官方明确指出，Fusion并非编码模型的直接替代品，它更像一个带着搜索和运行环境的“高级智囊团”。 这决定了它在编程场景应用中的明显分化。在应对复杂架构设计、技术选型或百年不遇的报错原因时，它能发挥多方求证的优势；但在开发者日常写代码的主战场，它反而比普通模型难用得多。核心原因有三：</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-weight: bold;\">（1）写代码要快，它太慢了：</span>因为Fusion底下是好几个模型在协作，反应速度根本跟不上你在编辑器里敲代码的节奏，像代码补全、修语法这种要秒回的活儿，它干不了。&nbsp;</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-weight: bold;\">（2）处理大工程容易“断片”：</span>在面对超长上下文或“整个仓库重构”级别的任务时，Fusion 那种把任务切给好几个模型的做法，很容易让上下文断掉，目前无法像 Fable 5 那样完美保持 200k+ token 的长程连贯性。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-weight: bold;\">（3）拼出来的代码可能根本跑不起来：</span>有深度用户反馈，它的裁判模型只负责在意思上“开会总结”，没有真正的编译器去当场验证。这导致它有时候会犯很低级的工程错误，把不同语言、甚至逻辑互相打架的代码片段硬缝在一起，结果代码一跑就崩。</span></p><section><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">问题二：非常慢</span></span></strong></p></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">由于 Fusion要同时叫好几个不同的模型一起干活，所以它的反应速度特别慢，通常耗时是单一普通模型的 2 到 4 倍。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这就像一群人一起做一件事，必须等最磨蹭的那个人干完，大家才能往下走。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">系统必须等所有模型全跑完，整个链条的总时间，就直接卡在后台反应最慢、网络最卡的那个模型身上。更花时间的是，等所有模型都交卷了，后台还得让裁判模型把所有结果处理一遍，才能生成最终答案。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在今天这个连“首字延迟”都要按毫秒抠的实际工作场景中，这种慢可以说是致命的，这也注定了它没法用在实时客服聊天，或者代码即时补全这种要速度的战场上。&nbsp;</span></p><section><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">问题三：数据合规的黑箱</span></span></strong></p></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这是企业系统落地时最难规避的合规死穴。当开发者向 Fusion 发起请求，意味着同一个提示词和上下文，在同一秒内经过了全球多家不同的 AI 服务商的服务器。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">面对严苛的数据隐私法规，企业的法务和网络安全团队必须评估多路分发带来的隐患：这些服务商会如何留存数据？OpenRouter 作为中间路由层，又能否提供有效的技术担保？这个问题的答案目前依然是不透明的。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a390738dd28d.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>05</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"font-weight: bold;\">多模型协作时代全面到来了吗？</span></span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在 Fusion 身上，有人看到了“多模型协作（MoA）”的强势崛起，也有人嘲笑这是 AI 发展从“炼丹求道”向“缝缝补补的软件工程”的倒退。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">过去两年，整个行业陷入了对“万亿参数单体战神”的盲目崇拜中，坚信只要算力足够大，就能大力出奇迹。但随着算力边际效应的递减，Fusion 用一套精巧的拼盘方案证明了：系统的整体能力，完全可以大于单体之和。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这套逻辑，正在从三个维度重塑整个 AI 行业的底层逻辑：</span></p><section><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">1.商业权力的重构：打破“超级模型”的定价霸权</span></span></strong></p></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">长期以来，像 Anthropic 或 OpenAI 这样的头部玩家，试图通过单体模型的能力碾压，建立起极高的定价护城河。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">但 Fusion 的出现，是对这种商业模式的降维打击。一旦“一个 Opus + 三个中等模型”能打平 Fable 5，大模型能力的“商品化”时代就真正到来了。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">底层模型将变得像云服务器里的 CPU 算力一样，不再具有不可替代的神秘光环。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这不仅会逼着前沿大模型重新想想自己是不是卖太贵了，甚至得降价，还会催生出像 OpenRouter 这样，手里握着“流量分发权”的超级路由平台。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">在未来，谁掌握了调度系统，谁就掌握了 AI 时代的“终极入口”。</span></p><section><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">2.地缘政治风险让&quot;多模型依赖&quot;从可选变成必需。</span></span></strong></p></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">Fable 5 发布仅三天就被紧急拔掉网线，给全球开发者上了一堂极其生动的一课：将全部业务核心押注在单一大模型上的风险，比很多开发者以为的要高。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">Fusion 这类&quot;拼盘&quot;方案，在合规意义上也是一种风险对冲。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">这也是国产大模型的绝佳窗口期。Fable 5 被封后，智谱迅速宣布 GLM-5.2 全量开放，并喊出“前沿智能不该被少数规则随时收回”。而 DeepSeek V4 Pro 等高性价比模型在 DRACO 测试中的惊艳表现，让市场意识到：</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">国产模型不需要在所有指标上死磕第一，只要能在 MoA 的“专家库”里占据一席之地，成为那 90% 高性价比流量的承接者，就已经是一场巨大的商业胜利。</span></p><section><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">3.技术演进的新瓶颈：得“主裁判”者得天下</span></span></strong></p></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">当然，多模型协作绝非完美的乌托邦。当下限被一群廉价专家模型拉高时，整个系统的智力上限，死死卡在了“裁判模型”的瓶颈上。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">裁判模型的综合评审能力、消除幻觉的能力以及对抗偏见的能力，决定了最终输出是“博采众长”还是“一地鸡毛”。如果裁判本身存在盲点，多模型协作反而会放大错误。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">回望 Fusion API 爆火的这几天，它像是一个行业清醒剂。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\">&quot;桌上还有很多盏小灯，把它们摆对位置，照样能照亮前路。&quot;雷峰网认为，对于当下的企业和开发者而言，Fusion 值不值得用？答案已经写在了它的架构基因里。</span></p><p style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">参考链接：</span></span></p><p style=\"text-align: justify; margin: 0px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 14px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">https://x.com/OpenRouter/status/2065856853989270011</span></span></p><section><span></span></section><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a3907391829c.jpg?imageMogr2/quality/90\" style=\"width: 100%;\" /></section><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260622/6a39073939453.jpg?imageMogr2/quality/90\" style=\"width: 100%;\" /></span></section><section><span></span></section>",
-      "published": "2026-06-22T18:03:00+08:00",
-      "fetched_at": "2026-06-23T11:50:08.101126+08:00",
-      "pre_filter_reason": "Multi-model collaboration as AI alternative to a banned model",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
+        },
         {
-          "tag": "news",
-          "title": "Fable 5被封杀后，OpenRouter用多模型协作打造「平替天团」",
-          "angle": "揭秘OpenRouter如何组合多个模型实现等效功能，对比Fable 5的优劣势。",
+          "tag": "tutorial",
+          "title": "开源工具+人机协作：像Hugging Face一样用AI加速你的发布周期",
+          "angle": "介绍可复用的开源工具链（如GitHub Actions、预训练模型），并分享设置“人在回路”检查点的关键步骤。",
           "difficulty": "入门"
         }
       ]
