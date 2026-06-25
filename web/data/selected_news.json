@@ -1,559 +1,226 @@
 {
-  "updated_at": "2026-06-24T11:52:38.153842+08:00",
+  "updated_at": "2026-06-25T11:53:27.759424+08:00",
   "total": 20,
   "items": [
     {
-      "id": "2ec7a3359930",
+      "id": "4139fe2676b2",
       "source_id": "openai-blog",
       "source_name": "OpenAI Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-      "link": "https://openai.com/index/gpt-5-immunology-mystery",
-      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
-      "published": "2026-06-24T01:00:00+08:00",
-      "fetched_at": "2026-06-24T11:51:07.327747+08:00",
-      "pre_filter_reason": "Mentions GPT-5, an AI model, and its use in solving a research problem.",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "published": "2026-06-24T14:00:00+08:00",
+      "fetched_at": "2026-06-25T11:51:51.861442+08:00",
+      "pre_filter_reason": "AI chip for LLM inference",
       "scores": {
-        "importance": 8,
-        "timeliness": 9,
+        "importance": 10,
+        "timeliness": 10,
         "actionability": 9,
-        "scarcity": 8,
+        "scarcity": 9,
         "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 9.2,
+      "quality_score": 9.6,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "GPT-5 如何帮免疫学家破解三年未解之谜？",
-          "angle": "以免疫学家 Derya Unutmaz 的真实案例为切入点，展示 GPT-5 在科研场景中的具体应用步骤：如何提问、如何分析 T 细胞数据、如何验证假设，最终帮助用户理解 AI 辅助科研的实操方法。",
+          "title": "Jalapeño芯片如何让AI推理快10倍？",
+          "angle": "拆解OpenAI与博通联合设计的LLM推理芯片，从架构、能效到实际性能提升，用通俗语言解释它如何优化大模型运行速度。",
           "difficulty": "入门"
         },
         {
-          "tag": "case_study",
-          "title": "AI 破解免疫学谜题：GPT-5 在癌症研究中的突破",
-          "angle": "从新闻事件出发，深入解读 GPT-5 如何通过推理和数据分析发现 T 细胞行为的新线索，并探讨这一突破对癌症和自身免疫疾病研究的潜在影响，适合科普或行业分析类内容。",
+          "tag": "analysis",
+          "title": "定制芯片时代来了：Jalapeño对AI行业意味着什么？",
+          "angle": "分析OpenAI自研芯片的战略意义，对比英伟达GPU方案，探讨其对AI成本、生态和未来模型发展的影响。",
           "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "f5c512bb75cf",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
+      "id": "f0355607b5cc",
+      "source_id": "deepmind-blog",
+      "source_name": "Google DeepMind",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Boost Inference Performance up to 15x on NVIDIA Blackwell Using DFlash Speculative Decoding",
-      "link": "https://developer.nvidia.com/blog/boost-inference-performance-up-to-15x-on-nvidia-blackwell-using-dflash-speculative-decoding/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/cuda-python-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"cuda-python\" width=\"768\" />As AI systems move from single-turn interactions to coordinated multiagent workflows, low-latency inference becomes increasingly important. Autoregressive LLMs...",
-      "published": "2026-06-23T23:00:00+08:00",
-      "fetched_at": "2026-06-24T11:51:09.811564+08:00",
-      "pre_filter_reason": "Discusses inference performance and speculative decoding on NVIDIA Blackwell for AI.",
+      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "link": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "summary": "",
+      "published": "2026-06-25T00:30:01+08:00",
+      "fetched_at": "2026-06-25T11:51:52.064074+08:00",
+      "pre_filter_reason": "AI model Gemini computer use feature",
       "scores": {
         "importance": 8,
         "timeliness": 9,
-        "actionability": 7,
-        "scarcity": 8,
+        "actionability": 8,
+        "scarcity": 7,
         "virality": 8,
-        "crowd_heat": 0.0
+        "crowd_heat": 3.5
       },
       "quality_score": 8.8,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "NVIDIA Blackwell 上提速 15 倍：DFlash 投机解码实战指南",
-          "summary": "以 DFlash 投机解码技术为核心，分步讲解如何在 NVIDIA Blackwell 架构上配置和运行优化，包括环境搭建、参数调整和性能对比，帮助开发者快速上手。",
-          "difficulty": "高级"
+          "title": "Gemini 3.5 Flash“电脑操控”功能实战演示",
+          "angle": "展示如何用Gemini 3.5 Flash直接控制电脑界面，包括打开应用、填写表单、跨平台操作等场景，突出其自动化潜力。",
+          "difficulty": "入门"
         },
         {
-          "tag": "explainer",
-          "title": "什么是投机解码？DFlash 如何让 AI 推理快 15 倍？",
-          "angle": "用通俗语言解释投机解码原理，结合 DFlash 在 Blackwell 上的实现，对比传统推理方式，让非技术观众也能理解性能提升背后的技术逻辑。",
-          "difficulty": "入门"
+          "tag": "review",
+          "title": "电脑操控能力对比：Gemini 3.5 Flash vs. 其他AI助手",
+          "angle": "横向对比Gemini 3.5 Flash与Claude、ChatGPT等模型的计算机操作能力，分析各自的优势、局限和适用场景。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "24098d362a13",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
+      "id": "6ea74cf10a1b",
+      "source_id": "anthropic-blog",
+      "source_name": "Anthropic (Claude Blog)",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Helping build shared standards for advanced AI",
-      "link": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
-      "published": "2026-06-23T21:00:00+08:00",
-      "fetched_at": "2026-06-24T11:51:07.327691+08:00",
-      "pre_filter_reason": "AI policy/ethics",
+      "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
+      "link": "https://claude.com/blog/agent-identity-access-model",
+      "summary": "<div class=\"u-rich-text-blog u-margin-trim w-richtext\"><p>For an AI agent to do its best work on a human-agent team, it needs access to the same tools, documents, and context humans have. </p><p>In a “single player” AI experience (where one person chats with one assistant), that’s straightforward: you connect your own accounts and the agent acts on your behalf. But in a “multiplayer” AI experience like <a href=\"http://anthropic.com/news/introducing-claude-tag\" target=\"_blank\">Claude Tag</a>, Claude sits in a shared channel alongside many people at once, and it draws on the tools and context that belong to the <em>workspace</em>, rather than any one individual. </p><p>To make multiplayer experiences work, Claude needs its own accounts for those tools, set up by an admin and tied to the workspace. We call this access model <strong><em>agent identity</em></strong>.</p><p>In this post, we explain how agent identity works, how it moves permissions from per-user to per-channel, and how to scope it well in your own workspace.</p><figure class=\"w-richtext-align-fullwidth w-richtext-figure-type-video\" style=\"padding-bottom: 75%;\"><div></div></figure><h2><strong>Why “act as the user” breaks down</strong></h2><p>When you use AI as a personal assistant, you can connect platforms like Google Drive, GitHub, and your calendar, and let the model use <em>your</em> access permissions to read and write in them. </p><p>This model doesn’t work for Claude Tag for two reasons:</p><ul><li><strong>Increasing agent autonomy.</strong> The length of a task that an AI agent can reliably complete on its own has been <a href=\"https://www.anthropic.com/institute/recursive-self-improvement\" target=\"_blank\">doubling roughly every four months</a>. Agents now schedule their own tasks for later and respond to events long after the person who asked has logged off. While users set up routines that trigger them to act given certain situations, the agent works largely autonomously. </li></ul><ul><li><strong>Multiplayer teams.</strong> Claude Tag places Claude in shared spaces where  teams are already working—e.g., a channel where three engineers and a PM are debugging together. But when more than one person is steering, whose permissions apply? There’s no single choice of person that’d be right all of the time. This gives admins the ability to define what an agent can do in Slack independent from the humans involved, and a distinct tracking of what is done in Slack. </li></ul><h3>Claude acts as itself</h3><p>In a channel where Claude Tag is active, Claude isn’t acting on behalf of a single user. It has its own account in each system it touches: it posts in Slack as the Claude app, opens pull requests as the Claude GitHub App, and queries your warehouse under a service account provisioned by an admin.</p><p>And because there are no personal user credentials in play, a shared channel can never become a side door into someone’s private documents.</p><h3>Inheriting permissions</h3><p>In the agent identity model, admins define an identity—the baseline set of connections and skills Claude holds everywhere—at the workspace level, and every channel inherits it by default. Then, where it makes sense, they can override it at the channel level, such as by granting the engineering channel access to GitHub and the data warehouse, or confining a CRM connection to a single private channel.</p><p>In addition to credentials, admins also define: </p><ul><li><strong>Repository access:</strong> which repos Claude can read and write to.</li><li><strong>Connectors:</strong> the tools and API keys that Claude uses to do its job. Across an organization, different API keys can connect to the same service at different permission levels (e.g., Claude might be given read-only warehouse access in a general channel, and write access in the data team’s private one).</li><li><strong>Skills and plugins:</strong> folders of instructions, scripts, and resources Claude loads dynamically to improve performance on specialized tasks.</li><li><strong>Standing instructions:</strong> custom instructions and context for each channel.</li></ul><p>Because this model works around distinct Claude identities, revoking the identity ends Claude’s access everywhere that the identity was used. This takes much less effort to manage than auditing individual agent actions across dozens of user accounts.</p><h2>How the agent identity model works</h2><p>Agent identity replaces the question “what can this user do?” with “what can this agent do in this compartment?” That’s a departure from per-user Access Control Lists: it means that a channel member without direct access to the repo can ask Claude to read that repo, if the channel’s profile grants Claude that permission.</p><p>This is unusual, but we think it is a necessary step toward an access model that works for autonomous, multiplayer agents. Below, we sketch out how to think about setting those boundaries.</p><h3>How identity boundaries work</h3><p>Claude Tag creates a distinct identity for each private channel; public channels in a workspace share a workspace-level identity. Claude's identity in a legal channel can't reach code that wasn't granted there, and its identity in an engineering channel can't read legal documents that weren't granted there. Memory and access respect those boundaries: what Claude learns in a private channel never appears in the wider workspace.</p><p>The identity belongs to the channel, so anyone in it can tag Claude by default, and admins can scope each channel's profile to the least-privileged member. On Enterprise plans, role-based access control lets admins go further and decide which members can invoke Claude at all, so a channel governs both what the agent can reach and who can ask.</p><h3>Broad default access to tools and context</h3><figure class=\"w-richtext-align-center w-richtext-figure-type-image\"><div><img alt=\"\" src=\"https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a3a0eae87418506ee6e5b08_agent-access-scoping%20(2).jpg\" /></div><figcaption>How teams scope Claude's tool access in Claude Tag: broad, low-risk integrations run in shared channels under an agent identity, while personal or team-specific tools stay in DMs and run as the user.</figcaption></figure><p>Running Claude Tag inside Anthropic, we found that its value compounds with tool and context access. Each connected system makes every other one more useful, because Claude can combine context across them—pulling a thread from Slack, a doc from Drive, a ticket from a tracker, and a query from a warehouse into one answer that no single tool could provide.</p><p>The teams that get the most out of Claude are the ones that grant it generous access from the start, and pare access back depending on their organization’s admin preferences. Agent identity gives admins broad enough scope for Claude to do useful cross-system work, with boundaries firm enough that the access never travels somewhere it wasn’t granted. Our advice is to start with a baseline profile in a few channels, read the audit trail, and then extend access where the work justifies it, one deliberate grant at a time.</p><p>For organizations that require even more granularity, admins can disable Claude Tag in specific channels. Admins can also apply role-based access controls (RBAC) to limit access to Claude Tag to specific users.</p><h3>Direct messages</h3><p>With Claude Tag, direct messages work differently than in shared channels. DMs run on users’ individual claude.ai accounts—their connectors, credentials, and name on the result. This makes DMs the right place to work with Claude on tasks and with tools that should never live in a channel, like email drafts or software only you have a license for.</p><h3>Security and audit</h3><p>When an admin adds a connection to a channel's profile, the credential is stored independently and mapped to that channel's identity, then injected at the network boundary at request time. Outbound traffic to any host an admin hasn't allowed is blocked outright. On the audit side, every routine, memory write, and network call made with agent credentials is recorded, and because Claude acts under its own service accounts, those actions also land in each connected system's own logs.</p><h2>What’s next</h2><p>Agent identity is the foundation of Claude Tag's access model. In the future, we plan to strengthen our Claude Tag’s security offerings to include just-in-time credential grants—so that a user can approve a single sensitive action in the moment without permanently widening the agent's scope—and an identity-aware overlay for organizations with more complex clearance structures. This will add user-level checks on top of an agent’s scope, so Claude only acts when both the channel's profile and the requesting user's own permissions allow it.</p><p>The shift from single player to multiplayer AI in products like Claude Tag makes long-running, team-based work possible. Agent identity ensures that Claude’s access to tools is broad enough to be useful, but scoped enough to be secure at enterprise scale.</p><p><a href=\"https://www.claude.com/tag\"><strong>Learn more</strong></a><strong> about Claude Tag.</strong></p><p><em>This article was written by Noah Zweben, a member of technical staff on the Claude Code team.</em></p></div>",
+      "published": "2026-06-24T08:00:00+08:00",
+      "fetched_at": "2026-06-25T11:51:52.200771+08:00",
+      "pre_filter_reason": "AI agent identity and access model",
       "scores": {
         "importance": 8,
-        "timeliness": 7,
-        "actionability": 6,
+        "timeliness": 9,
+        "actionability": 9,
         "scarcity": 8,
-        "virality": 7,
+        "virality": 8,
         "crowd_heat": 0.0
       },
       "quality_score": 8.3,
       "topics": [
         {
-          "tag": "news_analysis",
-          "title": "OpenAI 加入 Appia 基金会：AI 安全标准为何需要全球协作？",
-          "angle": "分析 OpenAI 参与共建 AI 评估框架和安全标准的意义，讨论 Appia 基金会如何推动跨国合作，以及这对未来 AI 监管和行业发展的影响。",
-          "difficulty": "中级"
+          "tag": "tutorial",
+          "title": "Claude Tag“代理身份”是什么？团队AI协作新玩法",
+          "angle": "解释Claude Tag如何让AI代理获得与人类同等的工具和文档权限，实现真正的自主团队协作，并演示配置步骤。",
+          "difficulty": "入门"
         },
         {
-          "tag": "explainer",
-          "title": "AI 安全标准是什么？OpenAI 与 Appia 基金会正在做什么？",
-          "angle": "用简单易懂的方式介绍 AI 评估框架、安全实践和全球合作的概念，结合 OpenAI 的最新动作，帮助普通用户理解 AI 治理的重要性。",
-          "difficulty": "入门"
+          "tag": "analysis",
+          "title": "从“单聊”到“团队”：AI代理身份如何重塑工作流",
+          "angle": "探讨Claude Tag的代理身份模型如何改变企业协作模式，对比传统AI使用方式，分析其对效率和安全的潜在影响。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "56b5a052ddec",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
+      "id": "c9864fd72560",
+      "source_id": "hn-ai",
+      "source_name": "Hacker News (AI)",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "calesthio /OpenMontage",
-      "link": "https://github.com/calesthio/OpenMontage",
-      "summary": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "published": "2026-06-24T11:51:30.021747+08:00",
-      "fetched_at": "2026-06-24T11:51:30.021761+08:00",
-      "pre_filter_reason": "AI-powered video production system with agentic capabilities",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 9,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "用 OpenMontage 把 AI 编码助手变成视频工作室：入门指南",
-          "angle": "从安装到第一个项目，逐步演示如何使用 OpenMontage 的 12 条流水线和 52 个工具，将 AI 编码助手转化为视频制作系统，适合内容创作者和技术爱好者。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "product_showcase",
-          "title": "全球首个开源智能体视频系统 OpenMontage：500+技能如何改变视频制作？",
-          "angle": "展示 OpenMontage 的核心功能（多流水线、智能体协作），对比传统视频制作流程，突出其自动化、开源和可扩展性优势，吸引独立制作人和开发者。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "f74860d41274",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "阿里千问发布首个原生语言世界模型 Qwen-AgentWorld，可在七大领域中模拟智能体交互环境",
-      "link": "https://www.ithome.com/0/967/843.htm",
-      "summary": "<p>IT之家 6 月 24 日消息，阿里巴巴千问大模型今天正式发布 Qwen-AgentWorld，官方称这是首个原生语言世界模型，能够在七大领域中模拟智能体交互环境，提供两种规模（35B-A3B 与 397B-A17B）。</p><ul class=\" list-paddingleft-2\"><li><p><strong>原生世界建模</strong>：环境建模从继续预训练（CPT）阶段起即为训练目标，贯穿 CPT → SFT → RL 全流程，而非对通用大语言模型的事后适配。</p></li><li><p><strong>七大领域，一个模型</strong>：单一模型同时覆盖文本类环境（MCP、Search、Terminal、SWE）与 GUI 类环境（Web、OS、Android），实现跨领域知识迁移。</p></li></ul><p>同步发布的还有 AgentWorldBench—— 覆盖七大领域的语言世界模型评测基准，每条测试样本均配备真实环境执行所得的真实环境观测数据。模型与评测基准可从 Hugging Face 和 ModelScope 获取。</p><p>IT之家附官方介绍如下：</p><blockquote><p><strong>Qwen-AgentWorld</strong> 代表了我们的核心探索：基于语言模型的世界建模，能否进一步拓展通用智能体能力的边界。</p><p>我们从两个方向探索如何实现语言世界建模，以及如何将其应用于推进通用智能体：</p><ul class=\" list-paddingleft-2\"><li><p>首先，我们<strong>构建了智能体环境模拟的基础模型</strong>：Qwen-AgentWorld 是首个在单一模型中覆盖七大智能体交互领域（MCP、Search、Terminal、SWE、Web、OS、Android）的语言世界模型，基于超过 1000 万条真实环境交互轨迹，经由 CPT → SFT → RL 三阶段训练而成。在 AgentWorldBench 评测中，Qwen-AgentWorld-397B-A17B 取得了最高的整体模拟质量，超越 GPT-5.4、Claude Opus 4.8 与 Gemini 3.1 Pro。</p></li><li><p>其次，我们<strong>探讨世界建模在智能体训练中的作用</strong>，并通过两种互补范式加以验证：作为解耦的环境模拟器，它为智能体强化学习提供了更优的可扩展性与可控性 —— 可控的模拟 RL 能够以真实环境无法实现的方式塑造智能体行为，且显著优于仅在真实环境中训练的 RL；作为统一的智能体基础模型，LWM 预热训练可有效迁移至涵盖七个基准（其中三个完全未出现在训练集中）的多轮智能体任务，且无需在智能体任务上进行任何 RL 微调，初步验证了语言世界模型能够作为构建更强智能体模型的基础。</p></li></ul><p>通过三阶段训练范式 —— 持续预训练（CPT）注入环境知识、监督微调（SFT）激活下一状态预测推理、强化学习（RL）打磨模拟真实性 —— 自底向上逐步构建世界建模能力。我们探索了世界模型赋能通用智能体的两种互补范式：作为解耦的环境模拟器，我们在 Tool Decathlon、MCPMark 和 WideSearch 上验证了可控模拟的有效性，其表现超越了无控模拟与真实环境训练；作为统一智能体基础模型，语言世界模型（LWM）的预热训练可迁移至涵盖七个基准（其中三个完全属于域外）的多轮智能体任务，初步验证了语言世界模型能够作为构建更强智能体模型的基础。语言世界建模开辟了一条互补的扩展路径，使通用智能体的能力边界得以突破真实环境交互所能提供的上限。</p></blockquote><p>AgentWorldBench 已在 Hugging Face 上发布，以按领域划分的 JSONL 文件形式提供，每个文件包含来自真实环境的交互轨迹及对应的真实观测数据。</p>",
-      "published": "2026-06-24T11:45:09+08:00",
-      "fetched_at": "2026-06-24T11:51:23.631202+08:00",
-      "pre_filter_reason": "阿里千问发布AI世界模型",
+      "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+      "link": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
+      "summary": "<p>Article URL: <a href=\"https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/\">https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48664814\">https://news.ycombinator.com/item?id=48664814</a></p>\n<p>Points: 138</p>\n<p># Comments: 252</p>",
+      "published": "2026-06-25T03:48:01+08:00",
+      "fetched_at": "2026-06-25T11:52:22.677016+08:00",
+      "pre_filter_reason": "Anthropic指控阿里巴巴提取AI模型能力，涉及AI伦理",
       "scores": {
         "importance": 9,
         "timeliness": 9,
         "actionability": 8,
         "scarcity": 9,
-        "virality": 8,
+        "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 8.0,
+      "quality_score": 8.1,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "Qwen-AgentWorld 入门：用原生语言世界模型模拟智能体交互",
-          "angle": "以七大领域中的某个场景（如文本游戏或虚拟实验室）为例，演示如何部署和使用 Qwen-AgentWorld 的 35B 或 397B 模型，包括环境配置、任务创建和结果分析。",
-          "difficulty": "高级"
-        },
-        {
-          "tag": "explainer",
-          "title": "什么是原生语言世界模型？阿里千问 Qwen-AgentWorld 能做什么？",
-          "angle": "解释“原生世界建模”概念，对比传统通用大模型，展示 Qwen-AgentWorld 在模拟环境中的独特优势，并列举七大领域的实际应用案例，适合技术科普。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "b856267c47a4",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Build an AI Scientist for Life Science Discovery with NVIDIA BioNeMo Agent Toolkit",
-      "link": "https://developer.nvidia.com/blog/build-an-ai-scientist-for-life-science-discovery-with-nvidia-bionemo-agent-toolkit/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/hc-bonemo-agent-toolkit-1920x1080-1-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"hc-bonemo-agent-toolkit-1920x1080\" width=\"768\" />AI scientists are emerging as a new interface for scientific computing. These agents can read papers, write code, generate hypotheses, call APIs, inspect files,...",
-      "published": "2026-06-23T21:30:00+08:00",
-      "fetched_at": "2026-06-24T11:51:09.811576+08:00",
-      "pre_filter_reason": "AI research/papers",
-      "scores": {
-        "importance": 7,
-        "timeliness": 6,
-        "actionability": 7,
-        "scarcity": 7,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "用NVIDIA BioNeMo Agent Toolkit打造你的AI科学家",
-          "angle": "手把手教你如何利用BioNeMo Agent Toolkit搭建一个用于生命科学发现的AI智能体，从环境配置到第一个药物分子预测任务。",
+          "tag": "news",
+          "title": "Anthropic指控阿里“偷”模型能力：AI安全新风暴",
+          "angle": "梳理事件来龙去脉，解释“模型提取”技术手段，分析Anthropic的指控依据及对中美AI竞争格局的影响。",
           "difficulty": "入门"
         },
         {
-          "tag": "case_study",
-          "title": "AI科学家来了：BioNeMo如何加速生命科学发现？",
-          "angle": "解析BioNeMo Agent Toolkit在蛋白质结构预测、分子生成等场景的实际应用案例，展示AI如何辅助科研人员提升效率。",
+          "tag": "analysis",
+          "title": "模型能力被“窃取”有多严重？AI知识产权保护困局",
+          "angle": "深入探讨大模型被非法提取的技术原理、法律灰色地带，以及行业应如何建立更有效的防护机制。",
           "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "6fcd7a8144a0",
+      "id": "e509ceb66f8a",
+      "source_id": "hn-ai",
+      "source_name": "Hacker News (AI)",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "OpenAI unveils its first custom chip, built by Broadcom",
+      "link": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "summary": "<p>Announcement: <a href=\"https://openai.com/index/openai-broadcom-jalapeno-inference-chip/\" rel=\"nofollow\">https://openai.com/index/openai-broadcom-jalapeno-inference-...</a><p><a href=\"https://decrypt.co/371971/openai-broadcom-jalapeno-first-custom-ai-chip\" rel=\"nofollow\">https://decrypt.co/371971/openai-broadcom-jalapeno-first-cus...</a><p><a href=\"https://www.cnn.com/2026/06/24/tech/openai-broadcom-jalapeno-ai-chip\" rel=\"nofollow\">https://www.cnn.com/2026/06/24/tech/openai-broadcom-jalapeno...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48663324\">https://news.ycombinator.com/item?id=48663324</a></p>\n<p>Points: 583</p>\n<p># Comments: 347</p>",
+      "published": "2026-06-25T01:47:00+08:00",
+      "fetched_at": "2026-06-25T11:52:22.677033+08:00",
+      "pre_filter_reason": "OpenAI发布首款AI定制芯片",
+      "scores": {
+        "importance": 9,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "OpenAI首款自研芯片Jalapeño：性能与成本全解析",
+          "angle": "用数据图表展示Jalapeño芯片的算力、功耗和成本优势，对比现有GPU方案，帮助读者理解其技术突破。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "OpenAI造芯：从依赖英伟达到自主可控的转折点",
+          "angle": "分析OpenAI自研芯片的战略动机，探讨其对供应链、AI定价权以及未来模型迭代速度的深远影响。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "7feb659e258d",
       "source_id": "huggingface-blog",
       "source_name": "Hugging Face Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
-      "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "link": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
       "summary": "",
-      "published": "2026-06-23T20:51:55+08:00",
-      "fetched_at": "2026-06-24T11:51:10.080427+08:00",
-      "pre_filter_reason": "AI product launches",
+      "published": "2026-06-25T00:00:13+08:00",
+      "fetched_at": "2026-06-25T11:51:53.835891+08:00",
+      "pre_filter_reason": "NVIDIA NeMo for transformer fine-tuning, AI",
       "scores": {
         "importance": 6,
         "timeliness": 7,
         "actionability": 8,
-        "scarcity": 7,
-        "virality": 5,
-        "crowd_heat": 0.0
+        "scarcity": 6,
+        "virality": 6,
+        "crowd_heat": 3.5
       },
       "quality_score": 8.0,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "CUGA轻量框架实战：从零搭建你的第一个Agent应用",
-          "angle": "基于CUGA提供的二十多个现成示例，手把手演示如何快速构建一个真实可用的智能体应用，适合初学者快速上手。",
+          "title": "用NeMo AutoModel一键加速Transformer微调",
+          "angle": "手把手演示如何使用NVIDIA NeMo AutoModel的自动化流程，将传统需要数小时的Transformer模型微调缩短到几分钟，并对比性能提升效果。",
           "difficulty": "入门"
         },
-        {
-          "tag": "overview",
-          "title": "CUGA是什么？一个轻量级Agent框架的深度解析",
-          "angle": "介绍CUGA的核心设计理念、与LangChain等主流框架的对比，以及它如何通过轻量级设计降低Agent开发门槛。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "5a170bc10cd5",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "search",
-      "title": "“五眼联盟”警告：AI大模型可能在数月内拥有毁灭性攻击力量 - 财联社",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8tQW5Nd2h4T2ZWb1RoYnV1b0t2amxiQkxCVFhJbUpOd0xULVRaejZRVkdDN2ZlejlfV1RtU1VoZlJCQ2RWMXpxZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE8tQW5Nd2h4T2ZWb1RoYnV1b0t2amxiQkxCVFhJbUpOd0xULVRaejZRVkdDN2ZlejlfV1RtU1VoZlJCQ2RWMXpxZw?oc=5\" target=\"_blank\">“五眼联盟”警告：AI大模型可能在数月内拥有毁灭性攻击力量</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财联社</font>",
-      "published": "2026-06-24T03:49:23+08:00",
-      "fetched_at": "2026-06-24T11:51:27.259068+08:00",
-      "pre_filter_reason": "AI model warning about destructive attack capabilities.",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
         {
           "tag": "analysis",
-          "title": "五眼联盟预警：AI大模型的安全红线在哪里？",
-          "angle": "解读五眼联盟关于AI大模型可能具备毁灭性攻击能力的警告，分析背后的技术逻辑与潜在风险，并讨论行业应对措施。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "opinion",
-          "title": "AI安全警钟：我们离失控的AI攻击还有多远？",
-          "angle": "结合五眼联盟的警告，探讨当前AI安全治理的紧迫性，以及企业/开发者应如何提前防范模型被恶意利用。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "9cc0e420f8e4",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Meta 几周内毁掉二十年工程文化，给所有“AI 优先”公司上了一课",
-      "link": "https://www.infoq.cn/article/CuH2KDSV1bvb6btQOeRf?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/CuH2KDSV1bvb6btQOeRf?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-06-24T03:04:13+08:00",
-      "fetched_at": "2026-06-24T11:51:17.975975+08:00",
-      "pre_filter_reason": "Meta's engineering culture change with AI priority.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "Meta的教训：AI优先如何摧毁二十年工程文化？",
-          "angle": "复盘Meta在转向AI优先战略后，工程文化急剧恶化的关键事件，分析其决策失误及对团队效率、创新力的影响。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "opinion",
-          "title": "给所有AI优先公司的警示：别让技术狂热毁了根基",
-          "angle": "从Meta案例出发，讨论企业在推进AI转型时如何平衡技术创新与工程文化传承，避免重蹈覆辙。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "10d301e47343",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "刚刚，豆包2.1发布！Agent自己跑18个小时搞定芯片设计代码",
-      "link": "https://www.qbitai.com/2026/06/437503.html",
-      "summary": "编程比肩Opus 4.7",
-      "published": "2026-06-23T21:37:17+08:00",
-      "fetched_at": "2026-06-24T11:51:19.549450+08:00",
-      "pre_filter_reason": "Mentions an AI agent autonomously generating chip design code.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "豆包2.1实战：让Agent自动跑18小时生成芯片设计代码",
-          "angle": "演示如何使用豆包2.1的Agent功能，设置一个芯片设计代码生成任务，并让AI自主运行18小时，最终产出可用的设计代码。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "comparison",
-          "title": "豆包2.1 vs Opus 4.7：编程能力大比拼",
-          "angle": "对比测试豆包2.1与Opus 4.7在芯片设计代码生成、复杂算法实现等任务上的表现，分析各自优劣势。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "b76cfe43c0c2",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "网易有道首发14语种零口音语音克隆模型，无需参考文本即可复刻任意音色",
-      "link": "https://www.leiphone.com/category/industrynews/30qYFuhjh76yBsIV.html",
-      "summary": "<p>当前，人工智能作为培育新质生产力的核心引擎，已上升为国家战略层面。国务院《关于深入实施“人工智能+”行动的意见》明确提出，要加快AI核心技术自主创新、降低产业落地门槛、构建开放共享的国产AI生态，推动人工智能与千行百业深度融合。</p><p>在这一战略背景下，网易有道正式推出“子曰4.0”大模型体系TTS语音合成引擎——Confucius4-TTS，并已面向全球用户开放。近日，该引擎凭借全球首个不依赖参考文本即可实现14语种无口音跨语种语音克隆的开创性突破引发行业高度关注，为数字人、跨境传播、智能教育等产业提供国产化、低成本语音克隆功能。</p><p style=\"text-align: center;\"><strong>重磅开源发布，完整模型权重本地可部署</strong></p><p>Confucius4-TTS采用1.3B参数高性能语音模型，开放行业领先的零样本语音克隆、跨语种无痕音色迁移、情感复刻能力，采用宽松友好的Apache开源协议，面向全球创作者、开发者开放完整模型权重与配套工具链。开发者可完整下载54G资源包，本地离线部署运行，配套开源龙虾智能体工具链，商用无限制。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260623/6a3a1f068a05d.png?imageView2/2/w/740\" /></p><p style=\"text-align: center;\"><span style=\"color: #A5A5A5;\">图 1 TTS模型开源地址：https://github.com/netease-youdao/Confucius4-TTS</span></p><p style=\"text-align: center;\"><strong>三大技术突破，重新定义开源TTS天花板</strong></p><p><strong>突破一：3秒极速克隆，零样本即可复刻原声</strong></p><p>Confucius4-TTS实现了真正的零样本语音克隆能力。用户仅需3秒即可完成音频克隆，克隆音色与原声相似度超过85%，克隆任务准确度高达97%。相较于初代EmotiVoice仅支持训练集内音色的局限，Confucius4-TTS实现了“无口语零样本复刻”的跨越式升级。</p><p><strong>突破二：14种语言跨语种互通，彻底告别“中式口音”</strong></p><p>Confucius4-TTS全面支持中、英、日、韩、德、法、西、印尼、意、泰、葡、俄、马来、越南语等14种语言的自然流利表达。其最大亮点在于解决了语音合成领域长期存在的跨语种口音痛点——用户上传中文音频，AI即可用该音色流利说出日语、英语等外语，发音地道自然。技术博主@XAMTO_AI评价：“你拿中文声音去讲日语，听着就像地道的日本人在说话，彻底告别了‘外国人在那儿硬凹’的尴尬。”</p><p><strong>突破三：音频Prompt情感克隆，语调韵律精准迁移</strong></p><p>区别于初代EmotiVoice仅支持“happy/sad/angry”等离散文本标签的粗放式情感控制，Confucius4-TTS创新性地支持音频Prompt情感克隆迁移。系统可自动提取参考音频中的情感标签，精准复刻其语调、韵律，支持跨语种无损迁移——“只要生气地说一句话，合成出来的外语也是生气的语气。”</p><p style=\"text-align: center;\"><strong>全栈技术架构升级，从“传统声码器”到“大模型驱动”</strong></p><p style=\"text-align: left;\">Confucius4-TTS在底层架构上实现了全面革新。相较于初代EmotiVoice采用传统HiFi-GAN声码器和Speaker ID查表的方案，Confucius4-TTS引入了GPT式语义大模型作为主干，搭配基于SSL预训练特征和ECAPA-TDNN的可学习说话人编码器，并采用Flow Matching流匹配生成框架实现高保真、高自然度的语音合成。</p><p>语音克隆方面，EmotiVoice不支持克隆功能，而Confucius4-TTS不仅只需3秒音频即可完成克隆，而且无需参考文本。</p><p style=\"text-align: center;\"><strong>社区反响热烈，开发者实测验证</strong></p><p style=\"text-align: center;\">自开源以来，Confucius4-TTS迅速获得开发者社区的积极反馈。技术博主@dsd2077在实测使用日语人声的参考音频生成中文语音，表示虽无法 100% 复刻细微音色，但整体听感自然流畅，无生硬外语口音。</p><p>另一位技术博主@XAMTO_AI评价道：“这回是真开源——人家给的是真权重而不是只给API，整整54个G直接让你下，还能本地跑。做口播配音数字人，省钱又好用。”</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260623/6a3a1f06c5dbd.png?imageView2/2/w/740\" /></p><p style=\"text-align: center;\"><span style=\"color: #A5A5A5;\">图2 技术博主@dsd2077实测反馈</span></p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260623/6a3a1f06c31f9.png?imageView2/2/w/740\" /></p><p style=\"text-align: center;\"><span style=\"text-align: left; color: #A5A5A5;\">图3 技术博主@XAMTO_AI实测反馈</span></p><p><br /></p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260623/6a3a1f06c83a9.png?imageView2/2/w/740\" /></p><p style=\"text-align: center;\"><span style=\"color: #A5A5A5;\">图4 AI博主刘聪NLP测评</span></p><p>Confucius4-TTS的低门槛语音克隆和情感合成能力，可广泛应用于多语种内容创作、数字人配音、跨语言教学以及本地化运营等多种场景。</p><p>网易有道表示，希望通过全量开源Confucius4-TTS，降低语音克隆和情感合成的门槛，期待社区探索出更多有趣、有用的新玩法。<span style=\"color: #FFFFFF;\">（雷峰网雷峰网雷峰网）</span></p>",
-      "published": "2026-06-23T13:57:00+08:00",
-      "fetched_at": "2026-06-24T11:51:16.660307+08:00",
-      "pre_filter_reason": "AI voice cloning model and TTS engine",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 9,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "14语种零口音克隆，网易有道TTS模型怎么用？",
-          "angle": "手把手演示如何上传语音样本，利用Confucius4-TTS生成不同语种的无口音克隆语音，突出无需参考文本的便捷性。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "低成本打造多语种数字人：有道语音克隆实战指南",
-          "angle": "结合跨境传播和智能教育场景，展示如何用该模型快速为数字人配音，降低多语种内容制作门槛。",
+          "title": "NeMo AutoModel如何改变大模型微调效率？",
+          "angle": "分析NVIDIA NeMo AutoModel的核心技术原理（如自动混合精度、梯度检查点、模型并行），并探讨它对AI开发者和企业的实际价值。",
           "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "1b0aee272cf2",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Jamendo 起诉英伟达未经授权用数万首音乐训练 AI 模型，索赔超 1780 万欧元",
-      "link": "https://www.ithome.com/0/967/838.htm",
-      "summary": "<p>IT之家 6 月 24 日消息，独立线上音乐平台 Jamendo 起诉英伟达侵犯著作权、违反合同，指控其未经授权使用数万首曲目训练 AI 模型。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/3/278316e8-1c15-4d6e-86a3-aef371f9261d.png?x-bce-process=image/format,f_auto\" /></p><p>总部位于卢森堡的 Jamendo 昨日向美国加利福尼亚州联邦法院递交了这份起诉状。约八个月前，该平台已在比利时对英伟达发起诉讼。今年 6 月初，当地法官驳回了英伟达比利时分公司的管辖权异议，裁定本案继续审理、就实体争议展开庭审。</p><p>但英伟达比利时分公司仍拒不认可“Jamendo 开具账单的效力与可执行性”，隶属于 Winamp 集团的 Jamendo 显然认为，当下时机成熟，可同步在美国寻求司法救济。</p><p>原告表示，英伟达非法使用由 Jamendo 与西班牙巴塞罗那庞培法布拉大学音乐技术研究组（MTG）联合搭建的音乐数据库，训练旗下 Fugatto、Audio Flamingo 两款音频大模型。</p><p>诉状显示，尽管 Jamendo 平台总计上架数十万首歌曲，但这份由双方联合打造的 MTG-Jamendo 数据集包含约 5.6 万首曲目，附带详尽元数据。</p><p>该数据集对外公开的使用权限仅限非商用科研与学术场景，任何商业用途都必须取得 Jamendo 书面明确许可。</p><p>英伟达公开发表的多篇技术论文均明确标注，MTG-Jamendo 是其研发 Fugatto、Audio Flamingo 产品所使用的训练数据集之一，这一点让原告无法接受。</p><p>显而易见，上述使用行为并未获得授权。诉状记载，2024 年 3 月 Jamendo 发现英伟达无授权大规模训练模型后，当即主动接洽英伟达，希望洽谈商用授权事宜。</p><p>直至 2025 年 6 月，Jamendo 多次与英伟达及其代理方协商谈判，均未能达成满意结果。协商无果后，Jamendo 向英伟达寄出前述数据库商用计费账单，并在比利时提起了前文提及的诉讼。</p><p>这份账单作为美国诉状的附件证据提交，计费标准为：数据库中 55600 首曲目，单首使用费 289 欧元（IT之家注：现汇率约合 2238 元人民币）；整套全球商用授权合计 1610 万欧元（现汇率约合 1.25 亿元人民币）。</p><p>诉状原文写道：“英伟达拒不纠正自身违约侵权行为，未支付账单载明款项，且持续享受未经授权使用 MTG-Jamendo 数据集带来的全部收益。”</p><p>综合全部诉求，Jamendo 提出四项诉讼主张：直接著作权侵权、违约（非法商用知识产权、违反 Jamendo 平台使用条款）、不当得利（英伟达通过使用涉案数据集获取巨额商业收益）、不正当竞争。</p><p>针对不正当竞争诉请，原告称：“据原告掌握信息及合理推断，英伟达规避了授权采购成本、省去自建同等数据集的开支，大幅压缩研发费用，同时加快了人工智能系统的迭代进度。”</p><p>赔偿诉求方面，Jamendo 多项主张中包含最低索赔 1780 万欧元（现汇率约合 1.38 亿元人民币），即账单本金加逾期利息。</p>",
-      "published": "2026-06-24T11:33:58+08:00",
-      "fetched_at": "2026-06-24T11:51:23.631269+08:00",
-      "pre_filter_reason": "AI模型训练侵权诉讼",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "AI训练用音乐侵权风险解析：从Jamendo诉英伟达案学避坑",
-          "angle": "解读案件核心争议点，分析AI公司使用音乐数据时的法律边界，给出合规建议。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "音乐版权保护指南：如何防止你的作品被AI模型抓取？",
-          "angle": "面向独立音乐人，介绍如何利用平台条款、技术手段（如音频水印）保护作品不被未授权使用。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "2fb69cd58c05",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "孙正义：软银旗下Arm将进军芯片制造，“还有10倍以上成长空间”",
-      "link": "https://36kr.com/newsflashes/3866599242257416?f=rss",
-      "summary": "6月24日，软银集团董事长孙正义在股东大会上表示，旗下英国芯片设计公司Arm将从芯片设计者进化为芯片提供者，并亲自参与制造。他预判“今后AI时代将以CPU为中心”，并强调Arm“还有10倍以上的成长空间”。他同时提及软银对英特尔约3000亿日元的投资，称“当初遭到非议”，但目前“按市值计算的利润已达数万亿日元”。（界面）",
-      "published": "2026-06-24T11:08:08+08:00",
-      "fetched_at": "2026-06-24T11:51:11.891118+08:00",
-      "pre_filter_reason": "孙正义谈及Arm进军芯片制造，强调AI时代以CPU为中心，与AI相关",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Arm进军芯片制造：对AI硬件生态意味着什么？",
-          "angle": "分析Arm从设计到制造的战略转变，解读其对AI芯片市场格局的潜在影响。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "孙正义的AI投资逻辑：从软银押注Arm看未来趋势",
-          "angle": "梳理软银在AI芯片领域的投资布局，探讨CPU在AI时代的新角色。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "0980bbf72579",
-      "source_id": "ifanr",
-      "source_name": "爱范儿",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "刚刚，Seedance 2.5 正式发布，国产视频模型再次捅破天花板",
-      "link": "https://www.ifanr.com/1669752?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "既 SOTA，也划算<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
-      "published": "2026-06-23T17:36:00+08:00",
-      "fetched_at": "2026-06-24T11:51:21.924566+08:00",
-      "pre_filter_reason": "AI视频模型发布",
-      "scores": {
-        "importance": 7,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Seedance 2.5实测：国产视频模型如何做到“既SOTA又划算”？",
-          "angle": "对比Seedance 2.5与主流视频模型的生成效果和成本，展示其在创意视频制作中的实际应用。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "零基础用Seedance 2.5生成高质量短视频",
-          "angle": "从注册到出片，一步步演示如何利用该模型快速生成用于社交媒体或广告的短视频。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "cfb868e90f70",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "机器人全栈操作系统！老黄率先抛出“具身版安卓”",
-      "link": "https://www.qbitai.com/2026/06/437382.html",
-      "summary": "英伟达：不造机器人，但要帮具身企业造好机器人",
-      "published": "2026-06-23T14:06:02+08:00",
-      "fetched_at": "2026-06-24T11:51:19.549478+08:00",
-      "pre_filter_reason": "NVIDIA's robot operating system for embodied AI",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 5.6
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "英伟达“具身版安卓”发布：机器人开发者如何快速上手？",
-          "angle": "介绍机器人全栈操作系统的核心功能，演示如何利用该平台加速机器人开发。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "不造机器人但帮造机器人：英伟达的具身智能生态解析",
-          "angle": "解读英伟达在机器人领域的战略定位，分析其对创业公司和传统制造企业的赋能价值。",
-          "difficulty": "入门"
         }
       ]
     },
@@ -568,177 +235,510 @@
       "link": "https://www.infoq.cn/article/puuuQ3qD8AKrP5AmBGfk?utm_source=rss&utm_medium=article",
       "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/puuuQ3qD8AKrP5AmBGfk?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
       "published": "2026-06-24T18:16:58+08:00",
-      "fetched_at": "2026-06-24T11:51:17.975904+08:00",
-      "pre_filter_reason": "涉及用员工数据训练AI及AI伦理",
+      "fetched_at": "2026-06-25T11:52:04.027614+08:00",
+      "pre_filter_reason": "Meta用员工数据训练AI，AI伦理",
       "scores": {
-        "importance": 6,
+        "importance": 8,
         "timeliness": 9,
-        "actionability": 8,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "Meta用员工私聊数据训练AI引发众怒",
+          "angle": "解读Meta因使用员工私聊和绩效数据训练AI而被迫叫停的事件，分析其背后的隐私争议、员工士气崩塌以及高管应对失误。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "从Meta事件看企业AI训练的数据伦理红线",
+          "angle": "探讨企业在使用内部数据训练AI时面临的隐私与信任危机，结合Meta案例给出合规建议和最佳实践。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "33f486fb1587",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "alistaitsacle/free-llm-api-keys",
+      "link": "https://github.com/alistaitsacle/free-llm-api-keys",
+      "summary": "Free LLM API keys for GPT-5.5, Claude, DeepSeek, Gemini, Grok — copy, paste, use. Updated 3-5x daily. No credit card needed.",
+      "published": "2026-06-25T11:52:25.326661+08:00",
+      "fetched_at": "2026-06-25T11:52:25.326675+08:00",
+      "pre_filter_reason": "Summary mentions free LLM API keys for GPT, Claude, DeepSeek, Gemini, Grok.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
         "scarcity": 7,
         "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.5,
+      "quality_score": 7.8,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "Meta用员工数据训练AI惹众怒：企业如何合规使用内部数据？",
-          "angle": "从Meta事件切入，讲解企业使用员工数据训练AI时的法律风险、伦理边界和最佳实践，提供合规操作指南。",
+          "title": "免费获取GPT-5.5、Claude等大模型API密钥",
+          "angle": "演示如何从alistaitsacle/free-llm-api-keys仓库快速获取并测试免费的GPT-5.5、Claude、DeepSeek等API密钥，无需信用卡。",
           "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "AI训练数据危机：如何避免“数据丑闻”伤害公司士气？",
-          "angle": "分析Meta事件对员工信任的冲击，分享企业透明沟通、数据匿名化处理、以及建立AI伦理委员会的具体步骤。",
+          "tag": "review",
+          "title": "免费LLM API密钥合集：质量与可靠性实测",
+          "angle": "对alistaitsacle/free-llm-api-keys仓库中提供的各类免费API密钥进行实测，评估其响应速度、稳定性及可用性，并给出使用建议。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "f73e49485913",
+      "id": "83704f9fbe4e",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "360发布“中国版Mythos”图龙锋 周鸿祎：漏洞发现能力正成为新的战略能力",
+      "link": "https://www.leiphone.com/category/industrynews/t81MR1roNriefQ6v.html",
+      "summary": "<p>在今日开幕的ISC.AI 2026（第十四届互联网安全大会）上，360集团创始人周鸿祎正式发布360 AI安全“倚天屠龙”两大核心能力：漏洞自动化挖掘智能体“图龙锋”和网络安全自动化防御系统“仪天阵”。同时，360联合飞腾、麒麟等信创、安全、云计算、大模型和算力等产业伙伴，共同发起“磐石之盾”安全协作计划。</p><p>近期，Anthropic宣布限制内部最强模型Mythos对外开放，引发全球安全行业广泛关注。早在该模型问世初期，曾引发美国一众网络安全巨头股价集体暴跌。</p><p>周鸿祎认为，Mythos之所以引发震动，根本原因在于它能自主发现漏洞、分析漏洞甚至构造网络攻击“武器”，相当于AI时代的“网络核武器”，已经形成新的战略威慑。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260624/6a3b7fc2a0de4.png?imageView2/2/w/740\" /></p><p>过去30年，网络攻防平衡很大程度上建立在“漏洞难找”的基础上。</p><p>高价值漏洞数量有限、发现成本高昂，往往只有少数顶级安全专家和国家级团队具备持续挖掘能力。</p><p>但AI正在改变这一切。它让漏洞发现变得更快、更便宜、更规模化，过去少数人掌握的能力开始被批量复制。大量长期潜伏、难以发现的陈年漏洞将被陆续翻出。当漏洞从稀缺资源变成规模化资源，网络安全行业运行30年的游戏规则将被彻底改写。</p><p>周鸿祎在演讲中提出警告：Mythos已经对传统安全行业形成降维打击，安全行业的“旧药方”已经失灵。如果没有一套新的应对办法，中国网络安全将面临“第二次单向透明”。</p><p>360曾经花了20年应对第一次单向透明挑战——境外APT组织长期潜伏、“敌暗我明”。但Mythos的到来让攻防态势变成了敌快我慢、敌众我寡：对方已经复制出一批黑客智能体同时工作，而我们还在靠几个安全专家人工分析。“当AI能够快速、批量发现漏洞，在攻击方眼中，我们的系统就像一个筛子，到处都是可进攻的点”。</p><p>周鸿祎预测，未来几年，我国很多关键基础设施和重要产业将进入网络攻击高发期。对此他表示，中国网络安全行业必须拥有自己的Mythos，自己的漏洞自己先看见、先修补，而不是等别人发现后再被动应对。“做到手里有牌，才能心里有数”。</p><p>但他同时表示，中国不能简单照搬国外依靠算力和模型能力“大力出奇迹”的路线，而要发挥工程化优势走智能体路线——把大模型能力、安全专家经验、漏洞知识库等，组织成可协同工作的智能体系统。</p><p>基于这一思路，360正式发布“倚天屠龙”两大AI安全能力。</p><p>其中“图龙锋”被视为中国版Mythos，面向漏洞发现和风险前置，已累计挖掘漏洞3432个，其中监管确认105个，多个漏洞被国家漏洞库定义为高危漏洞，覆盖开源代码、操作系统、办公软件、AI智能体平台等多个场景。它能将过去高度依赖专家个人经验的漏洞挖掘过程，变成可持续、可验证、可规模化的智能体作业流程，让漏洞发现从“偶然中彩票”走向稳定的“工厂生产”。周鸿祎表示，“图龙锋”已具备Mythos同等能力。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260624/6a3b7fc2c750b.png?imageView2/2/w/740\" /></p><p>“仪天阵”则面向安全运营和自动化防御，能够基于真实网络环境自主规划任务、研判告警、联动处置，推动安全运营从依赖人工值守、人工分析、人工响应，向自动化、智能化运营演进。周鸿祎认为，即使有了中国版 Mythos，也不代表所有风险都能一次性消除，因为漏洞不能穷尽。唯一的出路是以算力对抗算力，让中国网络安全防御体系从“人海战术”走向“自动驾驶”。</p><p>周鸿祎在ISC大会现场宣布发起“磐石之盾”安全协作计划，把AI安全“倚天屠龙”能力率先开放给中国的重点信创企业和关键基础设施单位，把AI安全能力落实到产业中。统信、麒麟、山石网科、海光、飞腾、金蝶、壁仞、移动云、宝兰德、达梦等企业首批加入计划。</p><p>周鸿祎表示，美国把Mythos装进Glasswing联盟保护自己的关键基础设施，中国也要有自己的安全协作体系，不能坐等风险爆发。<span style=\"color: #F2F2F2;\">（雷峰网雷峰网雷峰网）</span></p>",
+      "published": "2026-06-24T15:00:00+08:00",
+      "fetched_at": "2026-06-25T11:52:02.475671+08:00",
+      "pre_filter_reason": "AI安全与漏洞挖掘智能体",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "360发布“图龙锋”：中国版Mythos如何自动挖漏洞？",
+          "angle": "介绍360发布的漏洞自动化挖掘智能体“图龙锋”，对比Anthropic的Mythos，解释其如何自主发现漏洞并成为新的战略能力。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "AI自主挖漏洞时代来临：360“图龙锋”与Mythos的较量",
+          "angle": "深入分析AI在漏洞挖掘领域的突破，对比360“图龙锋”与Anthropic Mythos的技术路径，探讨其对网络安全行业和股价的影响。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "56b5a052ddec",
       "source_id": "github-trending",
       "source_name": "GitHub Trending",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "bytedance /deer-flow",
-      "link": "https://github.com/bytedance/deer-flow",
-      "summary": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-      "published": "2026-06-24T11:51:30.022443+08:00",
-      "fetched_at": "2026-06-24T11:51:30.022444+08:00",
-      "pre_filter_reason": "AI SuperAgent harness",
+      "title": "calesthio /OpenMontage",
+      "link": "https://github.com/calesthio/OpenMontage",
+      "summary": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "published": "2026-06-25T11:52:24.909746+08:00",
+      "fetched_at": "2026-06-25T11:52:24.909762+08:00",
+      "pre_filter_reason": "Agentic video production system with AI",
       "scores": {
         "importance": 8,
         "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "用OpenMontage将AI编程助手变成视频制作工作室",
+          "angle": "演示如何安装并使用OpenMontage开源视频生产系统，通过其12条流水线和500+智能体技能，从零开始生成一个完整视频。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "review",
+          "title": "开源视频生产系统OpenMontage深度评测",
+          "angle": "评测OpenMontage的12条流水线、52个工具和500+智能体技能的实际效果，对比商业视频制作工具，分析其优势和局限。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "5a170bc10cd5",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "search",
+      "title": "“五眼联盟”警告：AI大模型可能在数月内拥有毁灭性攻击力量 - 财联社",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8tQW5Nd2h4T2ZWb1RoYnV1b0t2amxiQkxCVFhJbUpOd0xULVRaejZRVkdDN2ZlejlfV1RtU1VoZlJCQ2RWMXpxZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE8tQW5Nd2h4T2ZWb1RoYnV1b0t2amxiQkxCVFhJbUpOd0xULVRaejZRVkdDN2ZlejlfV1RtU1VoZlJCQ2RWMXpxZw?oc=5\" target=\"_blank\">“五眼联盟”警告：AI大模型可能在数月内拥有毁灭性攻击力量</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财联社</font>",
+      "published": "2026-06-24T13:50:22+08:00",
+      "fetched_at": "2026-06-25T11:52:16.277883+08:00",
+      "pre_filter_reason": "AI model warning",
+      "scores": {
+        "importance": 9,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "科普",
+          "title": "五眼联盟的AI安全警告：我们该害怕吗？",
+          "angle": "解读五眼联盟警告背后的技术逻辑与现实威胁，分析AI大模型在数月内具备“毁灭性攻击力量”的可能性，并给出普通人应如何理性看待的建议。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "深度分析",
+          "title": "AI安全临界点：从五眼联盟警告看全球AI治理新阶段",
+          "angle": "从地缘政治与AI安全治理角度，分析五眼联盟发布此警告的动机、对AI行业的影响，以及未来可能出台的监管政策。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "0902d8db98af",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "search",
+      "title": "Open AI全量推送GPT - 5.5 Instant：战略转型期体验防守，改写大模型竞争格局 - blog.csdn.net",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1OTmV1V0ROWUJpb3ZqUU1ITjFMbUh5QU85UWNzQUpvamtVX0dOUWwwam9TUmV5aFpoMkFRSHJZTDQybjA4Mjk1QkQ4TVZHcXJKblc4NVg4dGNFU2hkZHAtVzFhRWw3S29vSlNN?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1OTmV1V0ROWUJpb3ZqUU1ITjFMbUh5QU85UWNzQUpvamtVX0dOUWwwam9TUmV5aFpoMkFRSHJZTDQybjA4Mjk1QkQ4TVZHcXJKblc4NVg4dGNFU2hkZHAtVzFhRWw3S29vSlNN?oc=5\" target=\"_blank\">Open AI全量推送GPT - 5.5 Instant：战略转型期体验防守，改写大模型竞争格局</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">blog.csdn.net</font>",
+      "published": "2026-06-25T09:05:37+08:00",
+      "fetched_at": "2026-06-25T11:52:16.277806+08:00",
+      "pre_filter_reason": "Open AI推送GPT-5.5，直接涉及AI模型",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
         "actionability": 8,
         "scarcity": 7,
         "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.5,
+      "quality_score": 7.6,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "开源SuperAgent框架deer-flow：从零搭建你的长周期AI助手",
-          "angle": "手把手演示如何部署和配置deer-flow，重点讲解其沙箱、记忆、工具调用等核心模块，帮助开发者快速上手。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "deer-flow实战：用开源工具让AI自动完成数小时的研究与编码任务",
-          "angle": "通过一个具体项目案例（如自动爬取数据并生成报告），展示deer-flow如何协调子代理、记忆和技能完成复杂工作流。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "09c836d53a38",
-      "source_id": "reddit-ml",
-      "source_name": "Reddit r/MachineLearning",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "DeepSWE: new benchmark looking at how well today's frontier models can actually write code [R]",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/",
-      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/\"> <img alt=\"DeepSWE: new benchmark looking at how well today's frontier models can actually write code [R]\" src=\"https://preview.redd.it/lacvagyr159h1.png?width=140&amp;height=89&amp;auto=webp&amp;s=14f97a97511fbfe2fd767e4dc986ce0b4da5c73e\" title=\"DeepSWE: new benchmark looking at how well today's frontier models can actually write code [R]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>DeepSWE delivers four advances over existing public benchmarks:</p> <ul> <li>Contamination free: Tasks are written from scratch, not adapted from existing commits or PRs, so no model has seen the solution during pretraining.</li> <li>High diversity: Tasks span a broad pool of 91 repositories across 5 languages.</li> <li>Real-world complexity: Prompts are ~half the length of SWE-bench Pro's, yet solutions require 5.5x more code and ~2x more output tokens.</li> <li>Reliable verification: Verifiers are hand-written to test software behavior rather than implementation details.</li> </ul> <p>The result is a benchmark that reflects how today's frontier coding agents actually perform in software engineering work.</p> <p><a href=\"https://preview.redd.it/lacvagyr159h1.png?width=1373&amp;format=png&amp;auto=webp&amp;s=6514340a15d51d7f03da733f08fb3f6a302cac75\">https://preview.redd.it/lacvagyr159h1.png?width=1373&amp;format=png&amp;auto=webp&amp;s=6514340a15d51d7f03da733f08fb3f6a302cac75</a></p> <p>It's open-source: <a href=\"https://github.com/datacurve-ai/deep-swe\">https://github.com/datacurve-ai/deep-swe</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/we_are_mammals\"> /u/we_are_mammals </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ue0hlp/deepswe_new_benchmark_looking_at_how_well_todays/\">[comments]</a></span> </td></tr></table>",
-      "published": "2026-06-24T10:03:34+08:00",
-      "fetched_at": "2026-06-24T11:51:28.663295+08:00",
-      "pre_filter_reason": "AI代码能力基准研究",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "DeepSWE基准测试解读：当前最强AI写代码能力到底如何？",
-          "angle": "解析DeepSWE的测试方法、关键指标和模型排名，帮助开发者理解前沿模型在实际编码任务中的优势与局限。",
+          "tag": "产品评测",
+          "title": "GPT-5.5 Instant实测：OpenAI的“防守”牌到底好不好用？",
+          "angle": "对比GPT-5.5 Instant与上一代模型在速度、准确率、多模态能力上的差异，结合用户实际使用场景给出是否值得升级的建议。",
           "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "用DeepSWE评估你的AI编码助手：自定义测试与优化指南",
-          "angle": "指导开发者如何利用类似DeepSWE的基准测试框架，评估自家AI编码工具的性能，并给出针对性优化建议。",
+          "tag": "行业分析",
+          "title": "OpenAI全量推送GPT-5.5：战略转型期的“体验防守”意味着什么？",
+          "angle": "分析OpenAI在当前竞争格局下（如Claude、Gemini等对手）推出GPT-5.5的战略意图，探讨“体验防守”对大模型市场未来走向的影响。",
           "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "6c6177210b29",
+      "id": "dfd00495a439",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "瑞为技术通过港交所聆讯，冲刺港股“视觉具身智能第一股”",
+      "link": "https://36kr.com/newsflashes/3868021691929861?f=rss",
+      "summary": "港交所文件显示，瑞为技术已于6月24日通过主板上市聆讯，联席保荐人为华泰国际、建银国际、农银国际。瑞为技术以视觉感知为起点，经视觉智能体逐步延伸至依托自研VTFLA技术的具身机器人产品，有望冲刺港股“视觉具身智能第一股”，并成为18C（特专科技）赛道又一标志性案例。",
+      "published": "2026-06-25T11:15:08+08:00",
+      "fetched_at": "2026-06-25T11:51:55.719120+08:00",
+      "pre_filter_reason": "AI company IPO with visual AI and robotics.",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 7,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "公司解读",
+          "title": "瑞为技术冲刺港股：视觉具身智能第一股成色几何？",
+          "angle": "拆解瑞为技术的核心技术（视觉感知→视觉智能体→具身机器人）、商业模式及市场前景，分析其能否撑起“视觉具身智能第一股”的估值。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "投资分析",
+          "title": "港股18C再添新军：瑞为技术上市对AI视觉赛道意味着什么？",
+          "angle": "从港股18C特专科技板块的定位出发，分析瑞为技术上市对AI视觉、具身智能赛道的资本效应，以及投资者应关注的关键指标。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "e61c9c015038",
       "source_id": "nvidia-blog",
       "source_name": "NVIDIA Technical Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Maximize AI Factory Energy Efficiency Through Full-Stack Inference and Training Optimizations",
-      "link": "https://developer.nvidia.com/blog/maximize-ai-factory-energy-efficiency-through-full-stack-inference-and-training-optimizations/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/ai-factory-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"ai-factory\" width=\"768\" />Power can account for 40% of the operating expenses (OpEx) to run an AI factory. Each watt can be spent on overhead, data ingestion, training, or generating...",
-      "published": "2026-06-24T00:30:00+08:00",
-      "fetched_at": "2026-06-24T11:51:09.811527+08:00",
-      "pre_filter_reason": "Discusses AI factory energy efficiency and inference/training optimizations.",
+      "title": "Accelerating BEV Pooling on NVIDIA GPUs for Physical AI Applications",
+      "link": "https://developer.nvidia.com/blog/accelerating-bev-pooling-on-nvidia-gpus-for-physical-ai-applications/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/tensorrt-optimized-industries-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"tensorrt-optimized-industries\" width=\"768\" />An increasingly common design pattern for autonomous vehicles (AVs), robotics, and spatial AI systems is bird's-eye-view (BEV) perception. BEV models project...",
+      "published": "2026-06-25T00:30:00+08:00",
+      "fetched_at": "2026-06-25T11:51:53.589346+08:00",
+      "pre_filter_reason": "NVIDIA GPU acceleration for Physical AI applications",
       "scores": {
         "importance": 6,
         "timeliness": 7,
-        "actionability": 6,
+        "actionability": 5,
         "scarcity": 6,
         "virality": 4,
-        "crowd_heat": 0.0
+        "crowd_heat": 3.5
       },
-      "quality_score": 7.5,
+      "quality_score": 7.4,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "AI工厂能耗优化：从推理到训练的全栈节能策略",
-          "angle": "结合NVIDIA方案，讲解如何通过硬件选型、模型压缩、动态电源管理等手段降低AI工厂40%运营成本。",
+          "tag": "技术教程",
+          "title": "NVIDIA GPU上加速BEV Pooling：物理AI应用实战指南",
+          "angle": "以实际代码示例，讲解如何利用TensorRT等工具在NVIDIA GPU上优化BEV Pooling算子，提升自动驾驶、机器人等物理AI应用的推理效率。",
           "difficulty": "进阶"
         },
         {
-          "tag": "tutorial",
-          "title": "绿色AI实战：用全栈优化工具降低模型训练碳排放",
-          "angle": "提供具体工具和代码示例（如NVIDIA Triton、TensorRT），演示如何在不牺牲性能的前提下实现节能推理与训练。",
+          "tag": "趋势解读",
+          "title": "BEV Pooling加速：NVIDIA如何为物理AI铺路？",
+          "angle": "解读BEV Pooling在自动驾驶、机器人等物理AI场景中的关键作用，以及NVIDIA最新优化技术对行业开发者的实际影响。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "2fd6e89bc122",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "交通运输部等：开展智能驾驶“端到端”大模型研发与测试",
+      "link": "https://www.ithome.com/0/968/341.htm",
+      "summary": "<p>IT之家 6 月 25 日消息，今日，交通运输部、国家铁路局、中国民用航空局、国家邮政局、中国国家铁路集团有限公司印发《“人工智能 + 交通运输”典型应用场景创新行动方案》。</p><p>重点任务包括聚焦<strong>智能驾驶、智慧公路、智能铁路、智能航运、智慧民航、智慧邮政、智能建养、智慧出行服务、智慧货运、智能安全监管</strong>等重点方向，围绕路网运行状态智能监测、铁路装备自主健康管理、船舶编队智能航行、航空旅客智能安检、邮件快件智能分拣、基础设施智能巡检、海上智能救援、数智化执法等典型应用场景开展试点示范。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/1eac5ee3-1b48-4e9d-bac7-88ae4ee4d1bc.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto\" /></p><p>其中提出，<strong>开展智能驾驶“端到端”大模型研发与测试</strong>。面向公路货运、园区运输、短途接驳等不同类型场景，开展智能测评技术研发与验证，探索建立虚实结合的智能化测试场。聚焦矿产、集装箱、粮食等大宗货物干线运输场景，开展智能驾驶技术集成应用验证，推进货物运输技术性降本提质增效。</p><p>依托公路既有感知设施，探索采用多杆合一、多感合一等模式，利用多模态大模型等技术，提升覆盖基础设施、交通运行、路网环境的公路全要素感知能力，加强对夜间、雨雪等天气、施工作业等异常状态下的路网运行监测。开展交通流态势智能推演与拥堵机理分析，自动生成疏导策略，并向出行者推送，提升路网智能调度能力。<strong>鼓励采用人工智能技术，开展公路自由流收费创新，实现“无感通行”新体验</strong>。</p><p>推动智能列车与运行控制系统研发与测试，支持嵌入具备自感知、自学习、自运行能力的智能化部件，提升列车状态识别与运行过程自主调节能力。<strong>鼓励采用视觉大模型、智能机器人等</strong>，实现简单重复性巡检场景的智能化作业，提升装备自主检测、自主诊断、自适应等数智化精准运维能力。围绕调度、通信、供电、服务、应急等核心环节，推动铁路运行模式智能化能力提升，拓展智能铁路应用边界。</p>",
+      "published": "2026-06-25T11:18:29+08:00",
+      "fetched_at": "2026-06-25T11:52:12.174556+08:00",
+      "pre_filter_reason": "AI in transportation policy and R&D.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "政策解读",
+          "title": "交通运输部力推“端到端”大模型：智能驾驶迎来新拐点？",
+          "angle": "解读《“人工智能+交通运输”典型应用场景创新行动方案》中关于智能驾驶“端到端”大模型研发的重点任务，分析其对行业技术路线和商业落地的推动意义。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "行业展望",
+          "title": "从智能驾驶到智慧铁路：AI+交通运输的十大典型场景全解析",
+          "angle": "梳理方案中提到的10个重点方向（智能驾驶、智慧公路、智能铁路等），结合当前技术进展，展望未来3-5年AI在交通运输领域的落地机会。",
           "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "3f561e6945ff",
-      "source_id": "huggingface-blog",
-      "source_name": "Hugging Face Blog",
-      "source_tier": "T1",
+      "id": "aec4797b1c3e",
+      "source_id": "hn-ai",
+      "source_name": "Hacker News (AI)",
+      "source_tier": "T2",
       "source_lang": "en",
-      "source_category": "official",
-      "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
-      "link": "https://huggingface.co/blog/huggingface-hub-release-ci",
-      "summary": "",
-      "published": "2026-06-23T08:00:00+08:00",
-      "fetched_at": "2026-06-24T11:51:10.080463+08:00",
-      "pre_filter_reason": "Mentions AI and open tools in the context of shipping software.",
+      "source_category": "community",
+      "title": "Computer use in Gemini 3.5 Flash",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+      "summary": "<p>Article URL: <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/\">https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48662999\">https://news.ycombinator.com/item?id=48662999</a></p>\n<p>Points: 187</p>\n<p># Comments: 117</p>",
+      "published": "2026-06-25T01:21:34+08:00",
+      "fetched_at": "2026-06-25T11:52:22.677047+08:00",
+      "pre_filter_reason": "AI model Gemini computer use feature",
       "scores": {
-        "importance": 6,
-        "timeliness": 7,
+        "importance": 7,
+        "timeliness": 8,
         "actionability": 8,
-        "scarcity": 6,
+        "scarcity": 7,
         "virality": 7,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.5,
+      "quality_score": 7.2,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "AI辅助每周发布：huggingface_hub的自动化发布流程揭秘",
-          "angle": "拆解其每周发布流程，展示如何结合AI代码审查、自动测试和人工审核，实现高效且可靠的版本迭代。",
-          "difficulty": "进阶"
+          "title": "Gemini 3.5 Flash 电脑操控功能上手教程",
+          "angle": "手把手演示如何用Gemini 3.5 Flash控制电脑桌面，展示自动化操作（如打开浏览器、填写表单），突出其与普通AI助手的区别。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "AI能操控电脑了？Gemini 3.5 Flash 带来的新可能",
+          "angle": "分析“Computer use”功能对日常办公、自动化流程的潜在影响，对比其他AI模型（如Claude、GPT-4）的类似能力，探讨应用场景。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "8b610fa8d8ea",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "完成数亿元新融资，影眸科技 Hyper3D 让 3D 生成进入“思考时代”丨36氪首发",
+      "link": "https://36kr.com/p/3865060112438533?f=rss",
+      "summary": "<p><strong>文｜王欣逸</strong></p>\n  <p><strong>编辑｜张雨忻</strong></p>\n  <p>2026 年开年来，3D&nbsp;生成模型赛道相当热闹。</p>\n  <p>今年第一季度，影眸科技发布首个 3D 编辑模型 Rodin Gen-2 Edit，让 AI 3D 模型第一次可编辑；今年 6 月，VAST&nbsp;官宣了新一轮融资，Meshy&nbsp;也紧随其后，宣称自己发布了全球首款&nbsp;3D AI Agent。</p>\n  <p>近日，影眸科技——这支扎根学术圈、创业早、年轻的&nbsp;3D&nbsp;模型团队，带着最新的技术研究成果，以及新一轮融资，再添了一把火。</p>\n  <p>这支团队创立于&nbsp;2020&nbsp;年，创始人兼&nbsp;CEO 吴迪、和联合创始人兼 CTO 张启煊以及另外两位联合创始人张龙文、曾初啸均来自上海科技大学。团队约&nbsp;60&nbsp;人，平均年龄不到&nbsp;25&nbsp;岁。</p>\n  <p>尽管看起来年轻，但在&nbsp;B&nbsp;端市场，影眸几乎站稳了头部地位，其&nbsp;B&nbsp;端客户数及收入比行业内其他公司加起来还要多，客户包括字节跳动、Unity、Figma、Canva&nbsp;等企业，海外收入占总收入约&nbsp;80%。</p>\n  <p>提出定义主流&nbsp;AI 3D&nbsp;架构的原生&nbsp;3D&nbsp;生成方案&nbsp;CLAY、连续数年获得计算机图形学顶级会议&nbsp;SIGGRAPH&nbsp;最佳论文及提名——在学术成果上，影眸的科研履历也相当亮眼，在顶刊和各大会议上论文、奖项不断，其算法团队每2人中就有1人获得或提名过最佳论文。</p>\n  <p>《智能涌现》独家获悉，<strong>近日，影眸科技宣布完成数亿元新一轮融资，本轮融资由凯辉基金、上海国投先导领投，老股东持续跟投。</strong>此前，字节跳动、美团龙珠、红杉、蓝驰已相继押注。</p>\n  <p>伴随新一轮融资，影眸科技发布了最新一代&nbsp;3D&nbsp;生成模型——Hyper3D Rodin Gen-2.5，将语言模型“先思考再生成”的模式引入&nbsp;3D&nbsp;生成领域。面向不同的生产场景，Gen-2.5&nbsp;提供了可调节的精度模式，该模型是全球首个千万面级&nbsp;3D 生成模型，最快 4 秒可实现生成百万面模型，并同步推出全球首个&nbsp;12K 精度的原生 3D 贴图模型。</p>\n  <p>长期以来，影眸面向&nbsp;B&nbsp;端及专业&nbsp;C&nbsp;端，提供平台订阅、B&nbsp;端&nbsp;API&nbsp;售卖、私有化部署、直接提供最终资产等服务，主要的应用场景包括电商、3D&nbsp;打印、游戏、工业设计、具身智能等行业。</p>\n  <p>面对市场竞争，影眸的打法是，瞄准海外市场、C&nbsp;端专业用户以及让模型生成过程更为可控。</p>\n  <p>值得关注的是，在最新模型Rodin Gen-2.5发布后，C&nbsp;端收入正在反超&nbsp;B&nbsp;端。<strong>Rodin&nbsp;Gen-2.5&nbsp;上线首月，订阅用户与&nbsp;ARR&nbsp;的环比增速均超&nbsp;400%。</strong></p>\n  <p>C&nbsp;端的发力，正击中了影眸想要解决的问题：AI 3D&nbsp;能否被用户真正使用。</p>\n  <p>“从学术圈走出的人容易有惯性，认为自己的技术和论文很厉害，为什么市场不用。但实际上，实验室研发出来的东西和真正能被使用的东西之间，存在巨大的鸿沟。”吴迪告诉我们。</p>\n  <p>想要消弭这一鸿沟，核心在于，生成的模型要符合使用标准，用户能控制3D的生成结果。</p>\n  <p>为此，他们几乎最大程度上给予了用户参与编辑的自由。</p>\n  <p>在平台上，用户可以通过影眸自研的 3D ControlNet，控制生成结果的长宽高和形状；实现&nbsp;3D&nbsp;编辑功能，平台生成的模型乃至第三方模型都可以实现二次编辑，支持自然语言局部修改模型；能对&nbsp;3D&nbsp;资产进行分件，支持分件后再分件。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260623/v2_23605708aefc4d699513588dbbb5eb9c@6162492_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">△影眸科技3D资产的分件能力，图源：企业官方</p>\n  <p>在影眸看来，看似复杂、需要用户反复确认及控制的流程，恰恰是用户选择他们的理由。</p>\n  <p>“我们对&nbsp;3D&nbsp;生成的用户群体有预估，大部分愿意付费的用户，刚好是那些对「可控」有需求的群体，我们要先服务好真正会买单的人，”张启煊谈到，“3D 生成的落地运用，已经从追求观赏质量，迈向了可控、效率与质量并重，更贴近实际生产的下半场。”</p>\n  <h3><strong>在预训练阶段就做好模型的可控性设计</strong></h3>\n  <p>在经历元宇宙赛道萎缩、2023&nbsp;年资金困境后，2024&nbsp;年，原生&nbsp;3D&nbsp;生成方案&nbsp;CLAY&nbsp;的研究和提出，完全改变了影眸科技乃至整个&nbsp;3D 生成赛道的走向。</p>\n  <p>彼时，整个&nbsp;AI&nbsp;3D&nbsp;行业内的技术路径几乎都围绕“2D&nbsp;升维&nbsp;3D”的模式——先生成物体的多视角图像，再建模成&nbsp;3D&nbsp;资产。这一模式缺点明显：这一模式存在不可逆的信息丢失，生成的模型难以真正应用于工业设计、游戏等相关领域。</p>\n  <p>但影眸觉得，生成的&nbsp;3D&nbsp;资产是否做到了&nbsp;Production-Ready（生产就绪）是更重要的。于是，他们做出了一个反共识的决定：用&nbsp;3D&nbsp;数据，从头开始训&nbsp;3D&nbsp;原生模型。</p>\n  <p>这条没人走过的路被他们走通了。</p>\n  <p>2024 年，影眸团队提出全球首个产品化的 3D 原生大模型框架 CLAY（《CLAY：用于创建高质量 3D 资产的可控大规模生成模型》），通过算法和框架层面的底层创新，将 3D 生成效果从不可用变为可用。该研究提名当年&nbsp;SIGGRAPH 最佳论文。</p>\n  <p>同年年中，基于&nbsp;CLAY 架构，影眸科技发布了全球首个 3D 原生模型 Rodin Gen-1。这也让行业主流选择技术路线发生变化，纷纷走向了&nbsp;3D&nbsp;生成原生路线。</p>\n  <p><strong>影眸对他们的&nbsp;3D&nbsp;模型的两个最重要的要求是：可控性，以及质量。</strong></p>\n  <p><strong>其中，可控性，是影眸打出的一张明牌。</strong>“对专业创作者来说，可控性特别重要，这是他们选择我们的首要原因。”张启煊称。</p>\n  <p>“实现可控性的关键在于，在预训练阶段就将相关设计放进去，和模型底层一起长出来。”从&nbsp;Rodin&nbsp;的第一个版本起，他们就引入了&nbsp;3D ControlNet&nbsp;等可控能力。</p>\n  <p>此后，影眸团队也持续增加产品的可控性，包括支持局部修改模型，能自动拆分出不同部件，也能实现分件后继续分件，帮助用户减少抽卡次数，提高模型生成过程中的可控性。</p>\n  <p>Rodin Gen-2.5&nbsp;首次在&nbsp;3D 生成领域引入类似&nbsp;LLM（大语言模型）的&nbsp;Test-time Scaling（测试时缩放）策略，自适应的可调节&nbsp;Thinking Effort（思考力度）&nbsp;为未来实现与图像生成模型类似的、与&nbsp;LLM 的深度结合提供了可能性。通过该策略，用户可选择模型的思考时间和深度。它支持五档思考深度，耗时&nbsp;4&nbsp;秒至&nbsp;80&nbsp;秒不等，对应着从快速草稿到高精度资产。在&nbsp;Extreme-High&nbsp;模式下，模型能实现千万面数生成能力，能还原皮肤微结构、纹理、毛孔等特征。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260623/v2_04f36071465442a7aab999ff56948c9e@6162492_oswg783317oswg944oswg1068_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">△Rodin-2.5的五档思考深度，图源：企业官方</p>\n  <p>不仅如此，影眸还同步推出了一个原生&nbsp;3D&nbsp;贴图模型，区别传统投影法生成材质，这一模型能解决传统方法存在的颜色断层、浸染等问题，清晰保留&nbsp;Logo、文字等信息。从几何生成到贴图，最快仅需&nbsp;5&nbsp;秒。</p>\n  <p>该贴图模型具备图像生成级别能力，可实现材质纹理无死角覆盖，文字效果提升显著，支持基于物理的&nbsp;PBR 材质。配合同步推出的12K原生3D贴图模型，生成效果在几何精度与材质保真度上已可超越实景扫描，断代领先行业水平。</p>\n  <p><strong>另一个关键点——质量，影眸用一系列研究成果对此做出了证明。</strong></p>\n  <p>自&nbsp;CLAY&nbsp;后，他们相继推出了&nbsp;CAST、BANG&nbsp;等研究成果。前者能通过输入一张图片，便能生成包含物体和物体关系的完整&nbsp;3D&nbsp;场景；后者能实现对&nbsp;3D&nbsp;资产的分件。</p>\n  <p>其中，关于&nbsp;CAST 的研究论文《CAST：基于单张 RGB 图像的组件对齐式 3D 场景重建》斩获&nbsp;SIGGRAPH 2025 最佳论文奖。同期在该领域获得最佳论文的商业公司仅有谷歌、Meta 和影眸三家。</p>\n  <p>作为唯一连续多年获得&nbsp;SIGGRAPH 最佳论文及提名的商业公司，影眸自&nbsp;2020&nbsp;年以来在顶级学术会议及期刊上共发表了&nbsp;30&nbsp;余篇论文，其中&nbsp;70%&nbsp;的科研成果走向了落地。</p>\n  <p>这具体表现在产品的迭代上，近两年来，影眸的模型实现了四次重要迭代，从&nbsp;Rodin Gen-1、25&nbsp;年&nbsp;9&nbsp;月发布的拥有拆件能力的&nbsp;Rodin Gen-2、26&nbsp;年&nbsp;1&nbsp;月发布的有局部编辑功能的&nbsp;Rodin Gen-2 Edit，再到今年&nbsp;6&nbsp;月，最新发布的&nbsp;Rodin Gen-2.5。</p>\n  <p>谈及&nbsp;AI 3D&nbsp;的未来，吴迪告诉我们，未来一至两年内，公司会继续做两件事情，一是精进底层模型的生成质量，二是拓展编辑、Agent&nbsp;化等能力，让模型在专业领域越来越好用。</p>\n  <h3><strong>服务最专业的用户，解决最真实的问题</strong></h3>\n  <p>AI 3D 的商业化路径仍在被行业验证，但在影眸看来，这是一份可持续的好生意。</p>\n  <p>单看模型训练的算力成本，对&nbsp;Rodin&nbsp;而言，整数倍版本模型的迭代需要千卡级的训练，但由于影眸自身在算法架构上的积累，<strong>相比同行训练出一个同级别的模型，训练效率获得了极大提高。</strong></p>\n  <p>过去一年，<strong>企业级（B 端）营收的质量与可持续性，正逐步取代消费级用户规模，成为衡量AI公司长期价值的核心维度</strong>——以 Anthropic 为代表的企业级路线被广泛视为这一趋势的典型样本。</p>\n  <p>与此同时，在收入端，影眸正在走一条类似&nbsp;Anthropic 的企业级路线，其积累的B端客户营收超过同赛道其他公司的总和。</p>\n  <p>从客户的一侧来看，影眸&nbsp;的&nbsp;B&nbsp;端订单分布在游戏、电商、工业设计、具身智能、空间计算等多个高价值场景，与此同时，C&nbsp;端画像主要为&nbsp;Pro-C（专业级消费者），如建模师、3D&nbsp;打印爱好者、产品设计师等。</p>\n  <p>在影眸团队看来，未来&nbsp;3-5&nbsp;年，3D&nbsp;生成主要还是被专业用户使用。不管是语言模型、图像模型还是其他的模型，都很难从绝对效果上完全区分出高下。对于&nbsp;3D&nbsp;生成赛道而言，大众真正的关注点是，模型厂商能否满足下游行业的需求。</p>\n  <p>“我们研发出来的东西需要要接入到后期的流程里面去使用，因此我们要做&nbsp;Production-Ready&nbsp;的东西，让其可以直接进入影视、游戏等场景的后期中直接使用。”吴迪告诉我们。</p>\n  <p>因此，影眸将产品设计成生成过程中可逐步确认，满意后再付费的模式。这一模式，源自于影眸对于自身模型可用性的底气。</p>\n  <p>在影眸的客户列表里，有不少具身智能公司，他们把影眸的&nbsp;3D&nbsp;资产，拿来作为训练数据和生成仿真环境和资产。</p>\n  <p>谈及赛道内正热的“世界模型”，张启煊告诉我们，撕开世界模型的标签，大家在做的主要是两件事：一是实时视频生成，如&nbsp;Google&nbsp;的&nbsp;Genie-3；二是可仿真的环境，包括资产、模拟器等，以及做类似自动驾驶、机器人策略的执行器。</p>\n  <p>在世界模型版图里，影眸偏向于做可仿真资产。在平台上，他们有一个功能叫&nbsp;Sim-Ready，用户点击后，可以直接在英伟达的仿真环境里做物理仿真。</p>\n  <p>具身智能对&nbsp;3D&nbsp;生成模型的要求包括几个层面：一是物理反馈，如重量、碰撞体等，这些功能，影眸已经上线至产品中；二是可互动资产，如&nbsp;3D&nbsp;资产在分件后如何动起来，在这一内容上，影眸也做出了相关学术成果。</p>\n  <p>单纯用视频生成做世界模型，这可能会导致模型难以从视频中学习到真实物理世界的维度关系。这也正是&nbsp;3D&nbsp;的优势，能理解物品之间的位置关系、视角角度连续性好、能在模型中做物理模拟等。</p>\n  <p>吴迪认为：“未来的世界模型，需要让机器真正学到和真实世界一致的场景，其背后可能会是<strong>&nbsp;3D&nbsp;生成与视频生成混合的模式</strong>。”</p>\n  <p>“3D 生成的赛道正在收敛，而收敛意味着，最终只有少数真正解决了产业问题的团队能留在牌桌上。过去一年，市场习惯用用户规模和增长曲线来衡量一家 AI 公司的价值。3D 生成会是游戏、影视、工业设计乃至物理世界智能化都绕不开的底层能力，我们服务最专业的用户，解决最真实的生产问题，这个选择决定了我们今天的领先，也决定了我们未来要去定义、而不只是参与下一代 3D 生产工具的规则。”</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260623/v2_006563a55ff04b7ca91517f6fc9d0d19@6162492_oswg158012oswg900oswg335_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">欢迎交流</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260623/v2_4b0459439efb47d6ba75be530223850e@6162492_oswg66852oswg900oswg500_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">&nbsp;扫码加入「智涌AI交流群」</p>",
+      "published": "2026-06-24T18:06:36+08:00",
+      "fetched_at": "2026-06-25T11:51:55.719057+08:00",
+      "pre_filter_reason": "3D生成模型，AI相关",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "影眸科技获数亿元融资：3D生成进入“思考时代”",
+          "angle": "解读影眸科技Hyper3D的技术突破（如Rodin Gen-2 Edit的可编辑3D模型），分析其与VAST、Meshy的竞争格局，以及融资背后的行业趋势。",
+          "difficulty": "入门"
         },
         {
           "tag": "tutorial",
-          "title": "开源工具+人机协作：像Hugging Face一样用AI加速你的发布周期",
-          "angle": "介绍可复用的开源工具链（如GitHub Actions、预训练模型），并分享设置“人在回路”检查点的关键步骤。",
+          "title": "3D模型也能AI编辑？影眸Rodin Gen-2 Edit快速体验",
+          "angle": "演示如何用Rodin Gen-2 Edit对AI生成的3D模型进行局部修改（如改变颜色、形状），展示“可编辑”这一核心卖点，适合设计师和开发者。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "48c73e09ecb7",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "阿里QoderWork推“峰谷Token”，夜间使用Qwen3.7低至2折",
+      "link": "https://www.leiphone.com/category/industrynews/fnvQGe0cc0EAX1bK.html",
+      "summary": "<p>6月23日晚，阿里QoderWork推出“峰谷Token”，Agent在每晚 22:00到次日08:00运行可自动享受优惠，其中Qwen3.7-Max模型低至2折。这是国内首个上线“峰谷Token”的Agent产品，将大幅降低用户的使用成本。例如，用户可在白天设定好定时任务、或者睡前提交长程任务指令，选择Qwen3.7模型，让Agent自动跑完全流程，早上起来验收即可。据介绍，夜间折扣产品涵盖QoderWork、Qoder Desktop等产品。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260624/6a3b56f0c1aa2.png?imageView2/2/w/740\" /></p><p><br /></p>",
+      "published": "2026-06-24T12:03:00+08:00",
+      "fetched_at": "2026-06-25T11:52:02.475685+08:00",
+      "pre_filter_reason": "AI model Qwen3.7 and Agent product",
+      "scores": {
+        "importance": 6,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "阿里QoderWork“峰谷Token”省钱攻略：夜间用Qwen3.7低至2折",
+          "angle": "详细讲解如何设置定时任务，利用夜间折扣运行Agent，对比白天与夜间成本，给出最佳使用策略（如睡前提交长任务，早上验收）。",
           "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "国内首个“峰谷Token”Agent产品上线，AI算力也要分时计价？",
+          "angle": "分析阿里QoderWork推出峰谷Token的商业模式，探讨其对用户使用习惯、AI产品定价策略的影响，以及与电力峰谷电价的类比。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "bd4253d63c45",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "存储巨头上市估值冲万亿；大厂不隐藏身份抢数千台B300；Day0适配竞争变味；京东芯片核心成员创业拿亿元融资｜算力情报局Vol.12",
+      "link": "https://www.leiphone.com/category/chips/B9OrnyYJ8xX88loZ.html",
+      "summary": "<p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><br /></p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">大厂开始直接抢卡：B300被数千台扫货</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">国内头部互联网公司采购算力的方式正在发生变化。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">过去，大厂往往通过中间渠道隐藏真实身份进行采购，如今越来越多项目开始直接签约，自我保护色彩明显减弱。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">与此同时，B300正在被头部客户快速扫货。华东某互联网大厂采购规模超过2000台，华北某科技巨头也采购了一两千台，仅少数几家公司便消化掉市场相当比例的供给资源。更多算力市场内幕，欢迎添加</span><span style=\"font-family: 'Arial'; font-size: 11pt; font-weight: bold;\">微信EATINGNTAE</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">探讨。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">存储巨头估值冲向万亿，可能给已上市公司压力</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">国内两大存储原厂的上市进程持续受到资本市场关注。有消息称，其中一家存储巨头的上市估值有望从数千亿元上调至万亿元级别，而上市时间有可能较此前预期有所延后。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">多位业内人士表示尚未获得明确上调信息，但普遍认为，若估值进一步上调并不令人意外。随着估值水位抬升，老股东持股价值或迎来重估，而如此体量的企业登陆A股后，也可能对现有半导体上市公司的市值形成压力。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">上海AI芯片公司上市出现转机，Pro-IPO融资启动</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">去年底完成上市辅导的上海AI芯片公司，过去半年没有新的进展。据说该公司此前没有拿到绿通，上市遇到了一些挑战。但去年有高层领导参观的背书，目前已经拿到了上市“绿通”，上市进程出现转机。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">据悉目前已有投资方与该AI芯片公司接触讨论Pro-IPO轮融资事宜。AI芯片公司上市背后更多的信息交流欢迎添加微信</span><span style=\"font-family: 'Arial'; font-size: 11pt; font-weight: bold;\">BENSONEIT</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">英伟达5090和CDN同时涨价20%，但涨价逻辑不同</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">存储价格上涨之后，涨价开始向整个AI产业链传导。近期英伟达5090租赁价格上涨约20%，与此同时，CDN价格也出现接近20%的涨幅。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">不过，两者背后的逻辑并不相同。5090涨价主要来自需求增长，随着推理、Agent等应用快速发展，高端GPU持续供不应求；而CDN涨价的重要原因，则是低成本PCDN资源受到打压。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">业内人士表示，CDN承担着模型、图片、视频等数据分发任务，是连接用户与智算中心的重要网络基础设施。过去几年，PCDN通过边缘节点和P2P模式持续压低带宽成本。随着运营商加强治理，低价供给减少，CDN价格重新进入上涨通道。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">Day0适配开始变味：有厂商跑通一个版本就官宣</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">DeepSeek V4发布后，国产芯片厂商再次掀起Day0适配竞赛。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">有业内人士透露，某头部仅跑通一个版本后便对外宣布完成适配，只为赶上Day0名单。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">多位从业者认为，如今模型适配本身已不再构成核心门槛，真正拉开差距的是性能优化能力。同样完成适配，不同芯片厂商之间的性能差异依然十分明显。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">据悉，某统一生态内部实际上保留着详细评分体系和结果，但由于部分厂商对横向比较十分敏感，目前对外仅保留“通过”与“未通过”两类结果。芯片厂商大模型适配更多内幕，欢迎</span><span style=\"font-family: 'Arial'; font-size: 11pt; font-weight: bold;\">添加微信Evelynn7778</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">交流。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">京东芯片团队分流：有人去了紫京无限，有人拿到上亿融资</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">京东芯片团队上海伽脉科技调整之后，团队成员有了两个主要的去向。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">一部分员工进入京东与国产芯片厂商成立的合资公司紫京无限，另一部分核心成员则选择重新创业。其中，核心员工Jeffrey Xu参与创立的新公司已于今年5月成立，方向为AI推理芯片和软硬件系统。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">据业内人士透露，该公司成立不久便已获得上亿元融资。更多新成立芯片公司的信息交流添加</span><span style=\"font-family: 'Arial'; font-size: 11pt; font-weight: bold;\">微信BENSONEIT</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">存储涨价芯片公司态度不同：有人硬扛成本，有人丢智算订单</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">存储价格持续上涨，正在考验AI芯片公司的经营策略。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">有AI芯片公司选择自行消化成本，坚持不调整产品售价，理由是当前公司仍处于亏损拓展市场阶段，订单和客户比利润更加重要。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">但也有公司因此付出代价。某AI芯片公司此前已基本谈妥的智算项目，因存储价格持续上涨导致成本波动，项目方希望双方共同承担新增成本，该公司态度强硬拒绝让步，最终失去了订单。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">存储行业回款陷入死循环：不给现金，也不给汇票</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">特殊领域存储正在经历新一轮回款压力。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">有供应商透露，部分大型客户逾期付款已经成为常态。更特殊的是，一些集团此前要求不得开具承兑汇票，必须现金支付，但现实情况却演变成“没有现金，所以无法付款”。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">供应商主动提出接受汇票，对方则以“不符合规定”为由拒绝。最终既拿不到现金，也拿不到汇票，只能继续等待。“如果一年都等不到现金怎么办？”成为不少供应商共同面对的问题。欢迎添加</span><span style=\"font-family: 'Arial'; font-size: 11pt; font-weight: bold;\">微信EATINGNTAE</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">互通有无，探讨应对之道。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">上海AI芯片公司憋大招：下半年新品瞄准H100训练市场</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">上海AI芯片公司正推进新一代产品研发，计划于下半年正式推出。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">据业内人士透露，新产品主要面向大规模训练集群场景，重点对标英伟达H100平台，单卡售价达到数万元级别。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">与行业内频繁举办发布会的企业不同，该公司长期保持低调路线。有关该企业后续商业落地进展，可添加</span><span style=\"font-family: 'Arial'; font-size: 11pt; font-weight: bold;\">微信Evelynn7778</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">一起探讨。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">国产卡测试需求上升，但客户仍迷信大厂配置</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">据某芯片行业人士透露，算力运营商的客户大多为运营或软件出身，缺乏硬件评价基础，很难仅凭Token来衡量不同芯片的价值。因此，这些客户往往依赖算力运营商来提供硬件选型方案。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">过去，算力运营商几乎只使用英伟达产品；如今为了满足客户多样化的性价比需求，运营商开始主动测试国产卡，以形成与英伟达产品的实际比较。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">但测试归测试，实际落地仍面临障碍：互联网大厂拥有强大的工程师团队，能够自行完成适配调优；而多数央国企客户的信息中心人员仅懂基础运维，不具备芯片适配能力。即便运营商已验证某款国产卡可用，这些客户仍不敢贸然采用——因为一旦出问题，他们没有技术能力兜底。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">于是，央国企客户选择了一条“安全”的路径：盲目照搬国家电网等头部大厂的配置，直接上高端卡。以某供应链集团为例，其业务数据以物流、指令为主，实际部署7B或11B模型就已足够，却跟着上高端卡，性价比极低。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">DDR5砍通道、DDR3重新上岗，主板厂商开始“凑颗粒”</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">内存颗粒供应波动，正在倒逼主板厂商推出各种非常规方案。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">中国台湾某板卡厂商推出DDR5单通道主板，直接砍掉一个子通道，以减少颗粒需求；部分工控厂商则重新支持DDR3，只求先解决供货问题；还有厂商推出DDR4和DDR5双模兼容设计，为客户保留切换空间。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">在供应链紧张时期，“先解决有无，再讨论性能”正成为越来越普遍的选择。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">1万公里仅0.1秒，东数西算延迟焦虑正在消失</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">算力网建设持续推进，但外界对于东数西算最大的担忧始终是时延。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">有从业者测算，100公里传输延迟约1毫秒，1万公里也仅约0.1秒。对于大模型普遍200-300毫秒的首Token响应时间而言，跨区域调度带来的额外时延并没有想象中那么大。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">据悉，某西部5090万卡集群目前已实现满租，东西部算力流动正在变得越来越常见。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260624//6a3b4d2d7d6d6.jpg?imageMogr2/quality/90\" /></p><p><span style=\"color: #FFFFFF;\">&nbsp;雷峰网</span></p><p>&nbsp;</p>",
+      "published": "2026-06-24T11:25:00+08:00",
+      "fetched_at": "2026-06-25T11:52:02.475698+08:00",
+      "pre_filter_reason": "AI hardware B300 chips",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "存储巨头估值冲万亿，大厂抢购数千台B300：算力市场最新动态",
+          "angle": "梳理本期算力情报局核心事件：存储巨头上市估值、大厂不隐藏身份抢B300、京东芯片团队创业融资，解读算力产业链的资本与需求热点。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "B300被数千台扫货，大厂为何不再“隐藏身份”？",
+          "angle": "分析大厂直接抢购B300的原因（如算力紧缺、AI竞赛白热化），探讨“Day0适配竞争”变味对硬件厂商和云服务商的影响。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "2ec7a3359930",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "link": "https://openai.com/index/gpt-5-immunology-mystery",
+      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "published": "2026-06-24T01:00:00+08:00",
+      "fetched_at": "2026-06-25T11:51:51.861511+08:00",
+      "pre_filter_reason": "GPT-5 used in immunology research",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "GPT-5破解三年未解之谜：免疫学家的T细胞新发现",
+          "angle": "讲述GPT-5如何帮助免疫学家Derya Unutmaz破解T细胞行为谜团，突出AI在科研中的“推理”而非“检索”能力，展示其对癌症和自身免疫研究的潜在价值。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "用GPT-5做科研：如何像免疫学家一样提问并得到突破性答案",
+          "angle": "以免疫学案例为引，教科研人员如何设计提示词（如提供背景数据、要求假设生成），让GPT-5辅助解决长期未解问题，强调“协作式提问”技巧。",
+          "difficulty": "中级"
         }
       ]
     }

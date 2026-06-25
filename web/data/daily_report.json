@@ -1,24 +1,20 @@
 {
-  "title": "AI日报 - 2026年06月24日",
+  "title": "AI日报 - 2026年06月25日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "刚刚，豆包2.1发布！Agent自己跑18个小时搞定芯片设计代码",
-          "summary": "字节跳动发布豆包2.1，Agent可自主完成芯片设计代码编写。"
+          "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+          "summary": "OpenAI与博通联合发布首款专为大模型推理优化的定制芯片，标志着AI硬件自主化迈出关键一步。"
         },
         {
-          "title": "刚刚，Seedance 2.5 正式发布，国产视频模型再次捅破天花板",
-          "summary": "Seedance 2.5视频模型发布，性能再创新高。"
+          "title": "Introducing computer use in Gemini 3.5 Flash",
+          "summary": "Google DeepMind在Gemini 3.5 Flash中引入“电脑操控”能力，使AI能直接与桌面应用交互。"
         },
         {
-          "title": "网易有道首发14语种零口音语音克隆模型，无需参考文本即可复刻任意音色",
-          "summary": "网易有道推出多语种语音克隆模型，支持14种语言且无需参考文本。"
-        },
-        {
-          "title": "阿里千问发布首个原生语言世界模型 Qwen-AgentWorld，可在七大领域中模拟智能体交互环境",
-          "summary": "阿里千问发布Qwen-AgentWorld，用于模拟智能体交互环境。"
+          "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
+          "summary": "Anthropic推出Claude Tag智能体身份模型，支持团队级自主AI访问与协作。"
         }
       ]
     },
@@ -26,20 +22,16 @@
       "name": "行业动态",
       "items": [
         {
+          "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+          "summary": "Anthropic指控阿里巴巴非法提取Claude模型能力，引发AI知识产权与安全争议。"
+        },
+        {
+          "title": "全公司“围观”私聊与绩效，Meta紧急叫停用员工训练AI：士气崩了，员工怒骂高管“狗屎”",
+          "summary": "Meta因用员工私聊数据训练AI引发内部抗议，紧急叫停并面临信任危机。"
+        },
+        {
           "title": "“五眼联盟”警告：AI大模型可能在数月内拥有毁灭性攻击力量",
-          "summary": "五眼联盟警告AI大模型可能短期内具备毁灭性攻击能力。"
-        },
-        {
-          "title": "Meta 几周内毁掉二十年工程文化，给所有“AI 优先”公司上了一课",
-          "summary": "Meta因AI优先策略快速破坏工程文化，引发行业反思。"
-        },
-        {
-          "title": "Jamendo 起诉英伟达未经授权用数万首音乐训练 AI 模型，索赔超 1780 万欧元",
-          "summary": "Jamendo起诉英伟达未经授权使用音乐训练AI，索赔1780万欧元。"
-        },
-        {
-          "title": "孙正义：软银旗下Arm将进军芯片制造，“还有10倍以上成长空间”",
-          "summary": "孙正义宣布Arm将进军芯片制造，看好10倍增长空间。"
+          "summary": "五眼联盟联合警告，AI大模型数月内或具备毁灭性攻击能力，呼吁加强监管。"
         }
       ]
     },
@@ -47,16 +39,16 @@
       "name": "论文/研究",
       "items": [
         {
+          "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+          "summary": "NVIDIA发布NeMo AutoModel，大幅加速Transformer模型微调流程。"
+        },
+        {
+          "title": "Accelerating BEV Pooling on NVIDIA GPUs for Physical AI Applications",
+          "summary": "NVIDIA技术博客提出加速BEV池化方法，推动物理AI应用性能提升。"
+        },
+        {
           "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-          "summary": "GPT-5帮助免疫学家解决困扰三年的科学难题。"
-        },
-        {
-          "title": "Boost Inference Performance up to 15x on NVIDIA Blackwell Using DFlash Speculative Decoding",
-          "summary": "NVIDIA Blackwell通过DFlash投机解码实现推理性能提升15倍。"
-        },
-        {
-          "title": "DeepSWE: new benchmark looking at how well today's frontier models can actually write code",
-          "summary": "新基准DeepSWE评估前沿模型代码编写能力。"
+          "summary": "GPT-5助力免疫学家破解困扰三年的科学谜题，展示AI在科研中的突破性应用。"
         }
       ]
     },
@@ -64,21 +56,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
-          "summary": "CUGA提供轻量级框架和24个示例，助力构建真实Agent应用。"
+          "title": "360发布“中国版Mythos”图龙锋 周鸿祎：漏洞发现能力正成为新的战略能力",
+          "summary": "360发布图龙锋漏洞挖掘AI，周鸿祎强调漏洞发现能力正成为国家战略资源。"
         },
         {
-          "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
-          "summary": "Hugging Face分享每周发布huggingface_hub的AI+人工协作流程。"
+          "title": "阿里QoderWork推“峰谷Token”，夜间使用Qwen3.7低至2折",
+          "summary": "阿里推出峰谷Token计费策略，夜间调用Qwen3.7模型价格低至2折，降低开发者成本。"
         },
         {
-          "title": "Maximize AI Factory Energy Efficiency Through Full-Stack Inference and Training Optimizations",
-          "summary": "NVIDIA介绍全栈优化方法以最大化AI工厂能效。"
+          "title": "完成数亿元新融资，影眸科技 Hyper3D 让 3D 生成进入“思考时代”",
+          "summary": "影眸科技获数亿元融资，其Hyper3D技术让3D生成从“生成”迈向“思考”阶段。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦Agent落地与安全警示，模型能力持续突破，但伦理与版权争议加剧。",
-  "generated_at": "2026-06-24T11:52:38.153760+08:00",
+  "summary": "今日AI圈聚焦硬件自主化、模型安全争议与科研赋能，行业加速从能力展示向实际应用与治理落地转型。",
+  "generated_at": "2026-06-25T11:53:27.759292+08:00",
   "source_count": 20
 }
