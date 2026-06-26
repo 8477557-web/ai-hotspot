@@ -1,20 +1,20 @@
 {
-  "title": "AI日报 - 2026年06月25日",
+  "title": "AI日报 - 2026年06月26日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-          "summary": "OpenAI与博通联合发布首款专为大模型推理优化的定制芯片，标志着AI硬件自主化迈出关键一步。"
+          "title": "OpenAI发布首款AI芯片",
+          "summary": "OpenAI正式推出自研AI芯片，标志着其向硬件自主化迈出关键一步。"
         },
         {
-          "title": "Introducing computer use in Gemini 3.5 Flash",
-          "summary": "Google DeepMind在Gemini 3.5 Flash中引入“电脑操控”能力，使AI能直接与桌面应用交互。"
+          "title": "Apple to skip high-end M6 Mac chips in favor of AI-focused M7 line",
+          "summary": "苹果计划跳过高端M6芯片，转向专注于AI的M7系列，凸显AI在硬件战略中的核心地位。"
         },
         {
-          "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
-          "summary": "Anthropic推出Claude Tag智能体身份模型，支持团队级自主AI访问与协作。"
+          "title": "Run a vLLM Server on HF Jobs in One Command",
+          "summary": "Hugging Face推出单命令部署vLLM服务器功能，大幅简化大模型推理部署流程。"
         }
       ]
     },
@@ -22,16 +22,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
-          "summary": "Anthropic指控阿里巴巴非法提取Claude模型能力，引发AI知识产权与安全争议。"
+          "title": "这家Agent公司从Claude切到DeepSeek v4：一年省下数百万美元，迁移工作量却是预期的100倍",
+          "summary": "一家Agent公司从Claude迁移至DeepSeek v4，虽节省数百万美元成本，但迁移工作量远超预期。"
         },
         {
-          "title": "全公司“围观”私聊与绩效，Meta紧急叫停用员工训练AI：士气崩了，员工怒骂高管“狗屎”",
-          "summary": "Meta因用员工私聊数据训练AI引发内部抗议，紧急叫停并面临信任危机。"
+          "title": "Fable 5还未解禁，Anthropic一纸诉状砸向Qwen，自家CEO却被白宫嫌“怪”踢出局！",
+          "summary": "Anthropic起诉阿里Qwen模型侵权，同时其CEO因与白宫关系紧张被排除出关键会议，行业竞争与政治博弈交织。"
         },
         {
-          "title": "“五眼联盟”警告：AI大模型可能在数月内拥有毁灭性攻击力量",
-          "summary": "五眼联盟联合警告，AI大模型数月内或具备毁灭性攻击能力，呼吁加强监管。"
+          "title": "三家公司一周内出手，编码Agent进入团队基础设施时代",
+          "summary": "一周内三家厂商发布编码Agent产品，标志其从工具演变为团队级基础设施。"
+        },
+        {
+          "title": "国家能源局：未来西部地区不仅要向外送电、送煤、送气，还要向外送产品、送Token",
+          "summary": "国家能源局提出西部地区将向外输出Token等数字资源，AI算力成为新型能源战略组成部分。"
         }
       ]
     },
@@ -39,16 +43,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
-          "summary": "NVIDIA发布NeMo AutoModel，大幅加速Transformer模型微调流程。"
+          "title": "Compiling Agentic Workflows into LLM Weights: Near-Frontier Quality at Two Orders of Magnitude Less Cost",
+          "summary": "新研究将Agent工作流编译进LLM权重，以两个数量级更低的成本实现接近前沿模型的质量。"
         },
         {
-          "title": "Accelerating BEV Pooling on NVIDIA GPUs for Physical AI Applications",
-          "summary": "NVIDIA技术博客提出加速BEV池化方法，推动物理AI应用性能提升。"
+          "title": "Scaling AI Inference Across Multiple GPUs Using NVIDIA TensorRT with Multi-Device Inference Support",
+          "summary": "NVIDIA发布TensorRT多设备推理支持，实现跨多GPU的高效AI推理扩展。"
         },
         {
-          "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-          "summary": "GPT-5助力免疫学家破解困扰三年的科学谜题，展示AI在科研中的突破性应用。"
+          "title": "Understanding the brain with AI-driven explanations and experiments",
+          "summary": "微软研究院利用AI驱动解释与实验方法，探索大脑工作机制，推动神经科学与AI交叉研究。"
         }
       ]
     },
@@ -56,21 +60,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "360发布“中国版Mythos”图龙锋 周鸿祎：漏洞发现能力正成为新的战略能力",
-          "summary": "360发布图龙锋漏洞挖掘AI，周鸿祎强调漏洞发现能力正成为国家战略资源。"
+          "title": "2026年大模型迎“审美疲劳”与“信任危机”：GPT-5.6自救，AI检测AI成荒诞闭环",
+          "summary": "大模型面临审美疲劳与信任危机，GPT-5.6试图自救，但AI检测AI形成荒诞闭环引发反思。"
         },
         {
-          "title": "阿里QoderWork推“峰谷Token”，夜间使用Qwen3.7低至2折",
-          "summary": "阿里推出峰谷Token计费策略，夜间调用Qwen3.7模型价格低至2折，降低开发者成本。"
+          "title": "央视起底高报乱象，千问吴嘉发声：免费志愿服务不应被高价倒卖",
+          "summary": "央视曝光AI志愿填报乱象，千问吴嘉强调免费服务不应被高价倒卖，呼吁行业自律。"
         },
         {
-          "title": "完成数亿元新融资，影眸科技 Hyper3D 让 3D 生成进入“思考时代”",
-          "summary": "影眸科技获数亿元融资，其Hyper3D技术让3D生成从“生成”迈向“思考”阶段。"
+          "title": "马斯克预测GLM明年Q1追平Fable，智谱唐杰：没那么久",
+          "summary": "马斯克预测GLM明年Q1追平Fable，智谱唐杰回应称时间更短，中美大模型竞争白热化。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦硬件自主化、模型安全争议与科研赋能，行业加速从能力展示向实际应用与治理落地转型。",
-  "generated_at": "2026-06-25T11:53:27.759292+08:00",
+  "summary": "今日AI圈聚焦于Agent基础设施化、硬件AI化与模型信任危机，行业竞争与伦理反思并进。",
+  "generated_at": "2026-06-26T11:59:54.418568+08:00",
   "source_count": 20
 }
