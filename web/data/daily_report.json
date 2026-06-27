@@ -1,20 +1,20 @@
 {
-  "title": "AI日报 - 2026年06月26日",
+  "title": "AI日报 - 2026年06月27日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "OpenAI发布首款AI芯片",
-          "summary": "OpenAI正式推出自研AI芯片，标志着其向硬件自主化迈出关键一步。"
+          "title": "Previewing GPT-5.6 Sol: a next-generation model",
+          "summary": "OpenAI发布下一代模型GPT-5.6 Sol预览，性能大幅提升，引发行业关注。"
         },
         {
-          "title": "Apple to skip high-end M6 Mac chips in favor of AI-focused M7 line",
-          "summary": "苹果计划跳过高端M6芯片，转向专注于AI的M7系列，凸显AI在硬件战略中的核心地位。"
+          "title": "从 Copilot 到 Autopilot：微软发布常驻型企业智能体 Scout",
+          "summary": "微软推出企业级智能体Scout，实现从辅助到自主操作的跨越。"
         },
         {
-          "title": "Run a vLLM Server on HF Jobs in One Command",
-          "summary": "Hugging Face推出单命令部署vLLM服务器功能，大幅简化大模型推理部署流程。"
+          "title": "Deploy a Production-Ready NVIDIA AI-Q Blueprint on Oracle Cloud Infrastructure",
+          "summary": "NVIDIA与Oracle合作推出AI-Q蓝图，简化生产级AI部署流程。"
         }
       ]
     },
@@ -22,20 +22,16 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "这家Agent公司从Claude切到DeepSeek v4：一年省下数百万美元，迁移工作量却是预期的100倍",
-          "summary": "一家Agent公司从Claude迁移至DeepSeek v4，虽节省数百万美元成本，但迁移工作量远超预期。"
-        },
-        {
           "title": "Fable 5还未解禁，Anthropic一纸诉状砸向Qwen，自家CEO却被白宫嫌“怪”踢出局！",
-          "summary": "Anthropic起诉阿里Qwen模型侵权，同时其CEO因与白宫关系紧张被排除出关键会议，行业竞争与政治博弈交织。"
+          "summary": "Anthropic起诉Qwen侵权，同时CEO因行为怪异被白宫排除，行业竞争与人事动荡并存。"
         },
         {
-          "title": "三家公司一周内出手，编码Agent进入团队基础设施时代",
-          "summary": "一周内三家厂商发布编码Agent产品，标志其从工具演变为团队级基础设施。"
+          "title": "谷歌「推理之王」也跑路Meta了，当年还是李飞飞挖来的",
+          "summary": "谷歌核心推理研究员跳槽Meta，人才争夺战持续升温。"
         },
         {
-          "title": "国家能源局：未来西部地区不仅要向外送电、送煤、送气，还要向外送产品、送Token",
-          "summary": "国家能源局提出西部地区将向外输出Token等数字资源，AI算力成为新型能源战略组成部分。"
+          "title": "海淀诞生“决策大模型第一股”！股票代码“1956”致敬AI元年",
+          "summary": "北京海淀区决策大模型公司上市，代码1956致敬AI起源年份。"
         }
       ]
     },
@@ -43,16 +39,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "Compiling Agentic Workflows into LLM Weights: Near-Frontier Quality at Two Orders of Magnitude Less Cost",
-          "summary": "新研究将Agent工作流编译进LLM权重，以两个数量级更低的成本实现接近前沿模型的质量。"
+          "title": "GAIR Paper 107｜高校联合腾讯发布 GameCraft-Bench：AI已能端到端开发游戏，Claude Opus 四成达到可玩水平",
+          "summary": "高校与腾讯合作推出GameCraft-Bench，Claude Opus在四成案例中生成可玩游戏。"
         },
         {
-          "title": "Scaling AI Inference Across Multiple GPUs Using NVIDIA TensorRT with Multi-Device Inference Support",
-          "summary": "NVIDIA发布TensorRT多设备推理支持，实现跨多GPU的高效AI推理扩展。"
+          "title": "英伟达MoE新开源：一行import，微调加速3.7倍",
+          "summary": "NVIDIA开源MoE工具，一行代码实现3.7倍微调加速。"
         },
         {
-          "title": "Understanding the brain with AI-driven explanations and experiments",
-          "summary": "微软研究院利用AI驱动解释与实验方法，探索大脑工作机制，推动神经科学与AI交叉研究。"
+          "title": "Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer",
+          "summary": "NVIDIA发布Nemotron 3 Ultra模型检查点，优化器支持NVFP4精度。"
         }
       ]
     },
@@ -60,21 +56,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "2026年大模型迎“审美疲劳”与“信任危机”：GPT-5.6自救，AI检测AI成荒诞闭环",
-          "summary": "大模型面临审美疲劳与信任危机，GPT-5.6试图自救，但AI检测AI形成荒诞闭环引发反思。"
+          "title": "当 Agent 成为新的核心云用户：阿里云重新定义“用云范式”",
+          "summary": "阿里云提出Agent作为云服务核心用户，重塑云计算使用模式。"
         },
         {
-          "title": "央视起底高报乱象，千问吴嘉发声：免费志愿服务不应被高价倒卖",
-          "summary": "央视曝光AI志愿填报乱象，千问吴嘉强调免费服务不应被高价倒卖，呼吁行业自律。"
+          "title": "AI 设计9个月就能媲美Blackwell？OpenAI “辣芯”绕开英伟达正面战场，但老黄的GPU大盘不稳了",
+          "summary": "OpenAI自研芯片9个月性能接近Blackwell，英伟达GPU市场面临挑战。"
         },
         {
-          "title": "马斯克预测GLM明年Q1追平Fable，智谱唐杰：没那么久",
-          "summary": "马斯克预测GLM明年Q1追平Fable，智谱唐杰回应称时间更短，中美大模型竞争白热化。"
+          "title": "Run a vLLM Server on HF Jobs in One Command",
+          "summary": "Hugging Face推出单命令部署vLLM服务器，简化推理服务搭建。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦于Agent基础设施化、硬件AI化与模型信任危机，行业竞争与伦理反思并进。",
-  "generated_at": "2026-06-26T11:59:54.418568+08:00",
+  "summary": "今日AI圈聚焦模型迭代与人才流动，OpenAI GPT-5.6引领技术突破，Anthropic诉讼与谷歌人才流失凸显行业竞争白热化。",
+  "generated_at": "2026-06-27T11:42:41.667230+08:00",
   "source_count": 20
 }
