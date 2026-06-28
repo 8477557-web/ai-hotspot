@@ -1,20 +1,24 @@
 {
-  "title": "AI日报 - 2026年06月27日",
+  "title": "AI日报 - 2026年06月28日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "Previewing GPT-5.6 Sol: a next-generation model",
-          "summary": "OpenAI发布下一代模型GPT-5.6 Sol预览，性能大幅提升，引发行业关注。"
+          "title": "刚刚，GPT-5.6 正式发布，史上最强但被自己坑惨了",
+          "summary": "OpenAI发布GPT-5.6，性能达到史上最强，但因自身问题引发争议。"
         },
         {
-          "title": "从 Copilot 到 Autopilot：微软发布常驻型企业智能体 Scout",
-          "summary": "微软推出企业级智能体Scout，实现从辅助到自主操作的跨越。"
+          "title": "GPT-5.6突然发布！Fable5痛失最强基模王座",
+          "summary": "GPT-5.6的发布使Fable5失去最强基础模型地位，AI模型竞争加剧。"
         },
         {
-          "title": "Deploy a Production-Ready NVIDIA AI-Q Blueprint on Oracle Cloud Infrastructure",
-          "summary": "NVIDIA与Oracle合作推出AI-Q蓝图，简化生产级AI部署流程。"
+          "title": "重构交互底层逻辑：Rokid发布AIOS，智能眼镜行业进入“原生”时刻",
+          "summary": "Rokid发布AIOS操作系统，推动智能眼镜行业进入原生AI交互时代。"
+        },
+        {
+          "title": "苹果推出 Core AI 框架，为自研芯片优化端侧生成式 AI",
+          "summary": "苹果发布Core AI框架，针对自研芯片优化端侧生成式AI性能。"
         }
       ]
     },
@@ -22,16 +26,16 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "Fable 5还未解禁，Anthropic一纸诉状砸向Qwen，自家CEO却被白宫嫌“怪”踢出局！",
-          "summary": "Anthropic起诉Qwen侵权，同时CEO因行为怪异被白宫排除，行业竞争与人事动荡并存。"
+          "title": "“五眼联盟”警告：AI大模型可能在数月内拥有毁灭性攻击力量 - 财联社",
+          "summary": "五眼联盟警告称，AI大模型可能在数月内具备毁灭性攻击能力，引发安全担忧。"
         },
         {
-          "title": "谷歌「推理之王」也跑路Meta了，当年还是李飞飞挖来的",
-          "summary": "谷歌核心推理研究员跳槽Meta，人才争夺战持续升温。"
+          "title": "Ford hired AI and sacked humans. It backfired badly",
+          "summary": "福特公司用AI替代人类员工后遭遇严重反效果，引发对AI替代决策的反思。"
         },
         {
-          "title": "海淀诞生“决策大模型第一股”！股票代码“1956”致敬AI元年",
-          "summary": "北京海淀区决策大模型公司上市，代码1956致敬AI起源年份。"
+          "title": "Asian AI startups launch Mythos-like models",
+          "summary": "亚洲AI初创公司推出类似Mythos的模型，展现区域创新活力。"
         }
       ]
     },
@@ -39,16 +43,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "GAIR Paper 107｜高校联合腾讯发布 GameCraft-Bench：AI已能端到端开发游戏，Claude Opus 四成达到可玩水平",
-          "summary": "高校与腾讯合作推出GameCraft-Bench，Claude Opus在四成案例中生成可玩游戏。"
+          "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
+          "summary": "新研究提出DSpark方法，通过推测解码显著加速大模型推理过程。"
         },
         {
-          "title": "英伟达MoE新开源：一行import，微调加速3.7倍",
-          "summary": "NVIDIA开源MoE工具，一行代码实现3.7倍微调加速。"
+          "title": "CVPR 2026最热方向，被一家杭州团队率先跑进了端侧！",
+          "summary": "杭州团队将CVPR 2026热门研究方向率先实现端侧部署，推动边缘AI发展。"
         },
         {
-          "title": "Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer",
-          "summary": "NVIDIA发布Nemotron 3 Ultra模型检查点，优化器支持NVFP4精度。"
+          "title": "四大顶级 AI 对决《文明 VI》！Claude「核平」法国，结果还是输了",
+          "summary": "四大AI在《文明VI》中对抗，Claude虽使用核武器但仍未能获胜，展现AI策略局限性。"
         }
       ]
     },
@@ -56,21 +60,17 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "当 Agent 成为新的核心云用户：阿里云重新定义“用云范式”",
-          "summary": "阿里云提出Agent作为云服务核心用户，重塑云计算使用模式。"
+          "title": "Do we still need to study algorithms now that AI writes most of our code? [D]",
+          "summary": "讨论在AI编写大部分代码的背景下，学习算法是否仍有必要，引发教育反思。"
         },
         {
-          "title": "AI 设计9个月就能媲美Blackwell？OpenAI “辣芯”绕开英伟达正面战场，但老黄的GPU大盘不稳了",
-          "summary": "OpenAI自研芯片9个月性能接近Blackwell，英伟达GPU市场面临挑战。"
-        },
-        {
-          "title": "Run a vLLM Server on HF Jobs in One Command",
-          "summary": "Hugging Face推出单命令部署vLLM服务器，简化推理服务搭建。"
+          "title": "早报｜GPT-5.6正式亮相，但你可能还用不了/微软将上调Xbox主机价格/大疆回应Pocket 4P开售秒空",
+          "summary": "GPT-5.6虽发布但使用受限，同时微软上调Xbox价格，大疆新品热销。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦模型迭代与人才流动，OpenAI GPT-5.6引领技术突破，Anthropic诉讼与谷歌人才流失凸显行业竞争白热化。",
-  "generated_at": "2026-06-27T11:42:41.667230+08:00",
+  "summary": "今日AI圈聚焦GPT-5.6发布与安全警告，模型竞争白热化，端侧AI和推理优化成热点，行业应用反思增多。",
+  "generated_at": "2026-06-28T12:06:46.436495+08:00",
   "source_count": 20
 }

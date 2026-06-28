@@ -1,20 +1,57 @@
 {
-  "updated_at": "2026-06-27T11:42:41.667308+08:00",
+  "updated_at": "2026-06-28T12:06:46.436575+08:00",
   "total": 20,
   "items": [
     {
-      "id": "fcc510ddf749",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
+      "id": "008fa591800a",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
       "source_lang": "en",
-      "source_category": "official",
-      "title": "Previewing GPT-5.6 Sol: a next-generation model",
-      "link": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
-      "published": "2026-06-26T18:00:00+08:00",
-      "fetched_at": "2026-06-27T11:41:13.047627+08:00",
-      "pre_filter_reason": "OpenAI预览GPT-5.6 Sol，AI模型新闻",
+      "source_category": "community",
+      "title": "juyterman1000/entroly",
+      "link": "https://github.com/juyterman1000/entroly",
+      "summary": "Cut your Claude / OpenAI / Gemini bill 70–95% on AI coding. Local proxy that compresses context, keeps provider caches hot, and verifies LLM output ($0 hallucination guard). Drop-in for Cursor, Claude Code, Codex, Aider + 34 more and custom providers — 30s, no code changes",
+      "published": "2026-06-28T12:05:32.915632+08:00",
+      "fetched_at": "2026-06-28T12:05:32.915633+08:00",
+      "pre_filter_reason": "AI coding tool with LLM cost reduction and hallucination guard",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 9,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "30秒省90%：entroly本地代理配置教程",
+          "angle": "手把手演示如何零代码修改，在Cursor/Claude Code中接入entroly，实现上下文压缩与缓存命中，大幅降低API调用成本。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "case_study",
+          "title": "实测entroly：AI编程账单从1000元降到50元",
+          "angle": "选取典型开发场景（如多轮对话、长文档补全），对比使用entroly前后的token消耗与费用，突出其缓存与验证机制的实际效果。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "117506a018a9",
+      "source_id": "ifanr",
+      "source_name": "爱范儿",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "刚刚，GPT-5.6 正式发布，史上最强但被自己坑惨了",
+      "link": "https://www.ifanr.com/1670225?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "当模型能力逼近关键阈值，使用资格与使用方式，将成为比性能更为关注的事项。<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
+      "published": "2026-06-27T15:30:18+08:00",
+      "fetched_at": "2026-06-28T12:05:25.676189+08:00",
+      "pre_filter_reason": "GPT model release news",
       "scores": {
         "importance": 9,
         "timeliness": 9,
@@ -23,167 +60,13 @@
         "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 9.2,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "GPT-5.6 Sol 编程与安全能力实测：如何用新模型提升代码质量",
-          "angle": "通过实际代码案例，对比GPT-5.6 Sol与上一代模型在漏洞检测、算法优化上的表现，展示其更强的编程与网络安全能力。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "analysis",
-          "title": "GPT-5.6 Sol 安全栈深度解析：下一代AI如何平衡能力与风险",
-          "angle": "解读OpenAI为GPT-5.6 Sol配备的最先进安全机制，分析其对AI行业安全标准的影响。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "9866bb454438",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Deploy a Production-Ready NVIDIA AI-Q Blueprint on Oracle Cloud Infrastructure",
-      "link": "https://developer.nvidia.com/blog/deploy-a-production-ready-nvidia-ai-q-blueprint-on-oracle-cloud-infrastructure/",
-      "summary": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2025/08/genai-press-project-aiq-3503101-1920x1080-1-768x432-jpg.webp\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"genai-press-project-aiq-3503101-1920x1080\" width=\"768\" />AI agents have changed a lot in the last two years. The first could only answer one question at a time. Then came multi-turn chat, where the model could keep...",
-      "published": "2026-06-27T03:00:45+08:00",
-      "fetched_at": "2026-06-27T11:41:15.767005+08:00",
-      "pre_filter_reason": "NVIDIA AI-Q Blueprint deployment",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 7,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.2,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "10分钟在OCI上部署生产级NVIDIA AI-Q蓝图",
-          "angle": "手把手教学，从环境配置到部署完成，展示如何利用Oracle Cloud Infrastructure快速搭建可用的NVIDIA AI-Q生产环境。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "NVIDIA AI-Q蓝图实战：企业级AI推理部署的最佳实践",
-          "angle": "聚焦生产环境中的性能调优、成本控制和监控策略，分享在OCI上运行AI-Q的实操经验。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "2e6fef7f3c1d",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "OpenAI：开启下一代模型GPT-5.6系列的限量预览",
-      "link": "https://36kr.com/newsflashes/3870811056821506?f=rss",
-      "summary": "6月27日，OpenAI宣布已开启GPT-5.6系列的限量预览。该系列包括旗舰模型Sol、适用于日常工作的均衡模型Terra、以及快速且经济实惠的模型Luna。据介绍，Terra性能与GPT-5.5相当但价格便宜一半，Luna则以最低成本提供较强能力。OpenAI表示，计划在未来几周内全面开放GPT-5.6 Sol、Terra和Luna。在今天发布前OpenAI与美国政府沟通了模型能力及发布计划。应美方要求，此次将先向少量经审核的可信合作方进行预览。（界面新闻）",
-      "published": "2026-06-27T10:32:37+08:00",
-      "fetched_at": "2026-06-27T11:41:17.556780+08:00",
-      "pre_filter_reason": "OpenAI发布GPT-5.6系列模型，属于AI模型新闻",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.1,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "GPT-5.6系列三款模型怎么选？Sol/Terra/Luna定位与价格全解读",
-          "angle": "对比旗舰Sol、均衡Terra、经济Luna的性能与价格，帮助用户根据需求选择最合适的模型。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "news",
-          "title": "OpenAI GPT-5.6限量预览背后：美国政府为何要求分批开放？",
-          "angle": "分析OpenAI与美国政府沟通的细节，探讨AI大模型发布中的监管与安全考量。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "ea2f96277184",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Fable 5还未解禁，Anthropic一纸诉状砸向Qwen，自家CEO却被白宫嫌“怪”踢出局！",
-      "link": "https://www.infoq.cn/article/MVDrYfoCovqj6zBNxr9e?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/MVDrYfoCovqj6zBNxr9e?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-06-26T19:12:45+08:00",
-      "fetched_at": "2026-06-27T11:41:23.878319+08:00",
-      "pre_filter_reason": "Anthropic suing Qwen, AI company legal dispute",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
       "quality_score": 8.0,
       "topics": [
         {
           "tag": "analysis",
-          "title": "Anthropic起诉Qwen背后：AI大模型版权与竞争的边界在哪？",
-          "angle": "梳理Anthropic与Qwen的诉讼焦点，分析AI行业知识产权纠纷的典型模式与未来趋势。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "news",
-          "title": "白宫嫌CEO“怪”踢出局？Anthropic内部风波与外部诉讼的双重危机",
-          "angle": "解读Anthropic CEO被白宫排斥的传闻与公司起诉Qwen事件，探讨AI公司领导力与政府关系的重要性。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "ea5b792dd2df",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "谷歌「推理之王」也跑路Meta了，当年还是李飞飞挖来的",
-      "link": "https://www.qbitai.com/2026/06/438848.html",
-      "summary": "Coding为王",
-      "published": "2026-06-26T16:05:07+08:00",
-      "fetched_at": "2026-06-27T11:41:25.389445+08:00",
-      "pre_filter_reason": "Mentions a Google AI researcher moving to Meta, related to AI talent.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "谷歌“推理之王”跳槽Meta：AI人才大战再升级",
-          "angle": "报道这位由李飞飞挖来的顶尖推理专家转投Meta的细节，分析其对谷歌和Meta在推理技术上的影响。",
+          "title": "GPT-5.6发布：最强模型为何“自毁前程”？",
+          "angle": "解读GPT-5.6能力逼近关键阈值后，使用资格与方式限制带来的争议，分析对普通用户和开发者的实际影响。",
           "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "从谷歌到Meta：顶级AI研究员为何选择“用脚投票”？",
-          "angle": "结合行业趋势，分析顶尖AI人才流动背后的原因，包括研究自由度、资源支持与战略方向。",
-          "difficulty": "中级"
         }
       ]
     },
@@ -198,334 +81,143 @@
       "link": "https://www.qbitai.com/2026/06/438895.html",
       "summary": "一口气端出三款GPT 5.6系列模型",
       "published": "2026-06-27T09:53:27+08:00",
-      "fetched_at": "2026-06-27T11:41:25.389400+08:00",
-      "pre_filter_reason": "GPT-5.6模型发布",
+      "fetched_at": "2026-06-28T12:05:23.410443+08:00",
+      "pre_filter_reason": "GPT-5.6 is a new AI model release.",
       "scores": {
         "importance": 9,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 9,
+        "virality": 10,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "comparison",
+          "title": "GPT-5.6三款模型横评：谁才是真正的基模之王？",
+          "angle": "逐一对比GPT-5.6系列三款模型在推理、编程、创意生成上的表现，说明为何Fable5痛失王座，以及新模型的适用场景。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "5a170bc10cd5",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "search",
+      "title": "“五眼联盟”警告：AI大模型可能在数月内拥有毁灭性攻击力量 - 财联社",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8tQW5Nd2h4T2ZWb1RoYnV1b0t2amxiQkxCVFhJbUpOd0xULVRaejZRVkdDN2ZlejlfV1RtU1VoZlJCQ2RWMXpxZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE8tQW5Nd2h4T2ZWb1RoYnV1b0t2amxiQkxCVFhJbUpOd0xULVRaejZRVkdDN2ZlejlfV1RtU1VoZlJCQ2RWMXpxZw?oc=5\" target=\"_blank\">“五眼联盟”警告：AI大模型可能在数月内拥有毁灭性攻击力量</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财联社</font>",
+      "published": "2026-06-28T03:19:18+08:00",
+      "fetched_at": "2026-06-28T12:05:30.758607+08:00",
+      "pre_filter_reason": "AI model attack warning, AI policy/ethics",
+      "scores": {
+        "importance": 8,
         "timeliness": 9,
         "actionability": 8,
         "scarcity": 7,
         "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.8,
+      "quality_score": 7.7,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "GPT-5.6 三款模型对比：哪个最适合你的任务？",
-          "angle": "横向对比 GPT-5.6 系列三款模型的能力差异、适用场景和性能表现，帮助用户快速选择最合适的模型。",
+          "tag": "explainer",
+          "title": "五眼联盟警告：AI大模型数月内或成“毁灭性武器”？",
+          "angle": "用通俗语言解释“毁灭性攻击力量”具体指什么（如自主网络攻击、生物武器设计），以及五眼联盟为何此时发出预警。",
           "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "Fable5 地位不保？GPT-5.6 发布对 AI 格局的影响",
-          "angle": "分析 GPT-5.6 的发布如何改变当前最强基模的竞争格局，以及 Fable5 面临的挑战和应对策略。",
-          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "c62e029c3c5e",
-      "source_id": "huggingface-blog",
-      "source_name": "Hugging Face Blog",
-      "source_tier": "T1",
+      "id": "f7686540f338",
+      "source_id": "hn-ai",
+      "source_name": "Hacker News (AI)",
+      "source_tier": "T2",
       "source_lang": "en",
-      "source_category": "official",
-      "title": "Run a vLLM Server on HF Jobs in One Command",
-      "link": "https://huggingface.co/blog/vllm-jobs",
-      "summary": "",
-      "published": "2026-06-26T08:00:00+08:00",
-      "fetched_at": "2026-06-27T11:41:16.100222+08:00",
-      "pre_filter_reason": "Mentions vLLM, which is an AI inference engine, and HF Jobs (Hugging Face), directly related to AI model deployment.",
+      "source_category": "community",
+      "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
+      "link": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+      "summary": "<p>Article URL: <a href=\"https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf\">https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48696585\">https://news.ycombinator.com/item?id=48696585</a></p>\n<p>Points: 737</p>\n<p># Comments: 306</p>",
+      "published": "2026-06-27T17:18:52+08:00",
+      "fetched_at": "2026-06-28T12:05:31.282347+08:00",
+      "pre_filter_reason": "LLM inference acceleration research paper",
       "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 9,
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
         "scarcity": 7,
-        "virality": 6,
+        "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.8,
+      "quality_score": 7.6,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "一行命令部署 vLLM 服务器：HF Jobs 快速上手",
-          "angle": "演示如何使用一行命令在 HF Jobs 上运行 vLLM 服务器，涵盖环境配置、命令解析和常见问题。",
-          "difficulty": "入门"
+          "title": "DSpark论文解读：投机解码如何让LLM推理快3倍",
+          "angle": "用动画或流程图解释DSpark的核心机制（草稿模型+验证模型并行），并给出在本地部署DeepSeek模型时的加速实测数据。",
+          "difficulty": "高级"
         }
       ]
     },
     {
-      "id": "56b5a052ddec",
+      "id": "f0a48e924446",
       "source_id": "github-trending",
       "source_name": "GitHub Trending",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "calesthio /OpenMontage",
-      "link": "https://github.com/calesthio/OpenMontage",
-      "summary": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "published": "2026-06-27T11:41:37.245142+08:00",
-      "fetched_at": "2026-06-27T11:41:37.245146+08:00",
-      "pre_filter_reason": "Agentic video production system, AI coding assistant",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "OpenMontage 入门：用 AI 编码助手打造视频制作工作室",
-          "angle": "介绍 OpenMontage 的 12 条管线、52 个工具和 500+ 智能体技能，展示如何将 AI 编码助手转化为完整视频制作系统。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "case_study",
-          "title": "开源视频制作新纪元：OpenMontage 实战案例解析",
-          "angle": "通过具体案例展示 OpenMontage 在视频生成、编辑和后期处理中的能力，对比传统工作流的效率提升。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "d83b961be027",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "GAIR Paper 107｜高校联合腾讯发布 GameCraft-Bench：AI已能端到端开发游戏，Claude Opus 四成达到可玩水平",
-      "link": "https://www.leiphone.com/category/private/Youopgc5vvNteXQS.html",
-      "summary": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260626/6a3df340366e7.jpg?imageMogr2/quality/90\" style=\"width: 100%; display: inline-block; text-align: center; background-color: transparent;\" /></section><section style=\"padding-left: 16px; padding-right: 16px;\"><section style=\"width: 100%; display: flex; padding: 0px;\"><section style=\"width: 100%; padding-left: 0px; padding-right: 0px;\"><section style=\"width: 100%; background: rgb(246, 248, 255); padding: 20px 0px 12px; margin-top: 0px; margin-bottom: 0px;\"><section style=\"text-align: center;\"><section><section style=\"text-align: justify; margin: 0px 16px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><span>Coding Agent 的下一站，是动态交互系统的构建。</span></span></span></section><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><section style=\"text-align: left; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><br /></span></span></section></section></section><span></span><span></span><span></span><span></span><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-weight: normal;\">&nbsp; &nbsp; 作者丨</span></span><span><span style=\"color: #888888; font-weight: normal;\">GameCraft-Bench Team</span></span><strong><span><strong><span><span><br /></span></span></strong></span></strong></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; text-align: right; margin: 0px 16px;\"><strong><strong><span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></strong></strong></p></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">过去一年，代码智能体（Coding Agent）发展迅速。从编写简单的单一脚本、修复局部 BUG，到跨文件完成长序开发任务，模型能力正在不断提升。</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">以“一句话生成游戏”为代表，AI 正在大幅降低游戏构建门槛。过去需要开发者熟练掌握引擎架构、手写逻辑代码的开发工作，现在可以通过自然语言快速生成原型，甚至生成可运行的游戏项目。这也让规模化由 AI 创造交互式体验变得前所未有地现实。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">但问题是：</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这些从零自动生成的游戏，真的“能玩”吗？</span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">如果生成的代码只是“看起来逻辑合理”，但在真实的引擎环境中根本跑不起来，或者视觉表现与玩家交互一塌糊涂，那么在这些只看静态代码的基准里刷出高分的 Agent，就很难真正胜任现实中的游戏开发场景。</span></p><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">香港中文大学（深圳）、深圳河套学院等高校联合腾讯的最新研究&nbsp;</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">GameCraft-Bench</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;正是要解决这个问题：</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">如何构建一个基于真实游戏引擎、产物完整可运行、且能通过真实玩家多模态交互来验证的 AI 游戏生成评测基准。</span></strong></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260626/6a3df34076007.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: left; margin: 8px 16px 16px; line-height: 1.75em;\"><span style=\"font-size: 14px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">论文链接：https://arxiv.org/abs/2606.17861</span></span></p><p style=\"text-align: left; margin: 8px 16px 16px; line-height: 1.75em;\"><span><span style=\"font-size: 14px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">项目主页：</span></span><span style=\"text-decoration: underline;\"><span style=\"font-size: 14px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">https://tongxuluo.github.io/gamecraft-bench-website</span></span></span></span></p><p style=\"text-align: left; margin: 8px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 14px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">评估代码：https://github.com/tongxuluo/gamecraft-bench</span></span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260626/6a3df340a7fdc.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>01</span><span><br /></span></strong></p><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">为什么不直接用现有的评测基准？</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">过去已经提出了一些与游戏生成相关的评估基准，那我们为什么还要重新确立一个新的评估基准 GameCraft-Bench 呢？核心原因是：</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">现有的基准很难全面、真实地衡量端到端的可玩性。</span></strong></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260626/6a3df340c4db8.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 14px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">表. GameCraft-Bench与已有的游戏生成评估基准的对比。</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">1. 真实引擎的整合难度被低估</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">。 像 OpenGame-Bench 主要针对 Web 网页游戏，缺乏对真实游戏引擎（如 Unity、Godot）生态的考察；</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">2. 缺乏端到端的产物完整性</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">。 GameDevBench 确实引入了真实引擎（Godot），但它主要关注基于游戏的局部代码修改和确定性测试，而非要求大模型从零交付一个完整的交互式游戏产物；</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">3. 动态交互的结果很难自动验证</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">。 评估一个游戏，不能只看代码有没有语法错误。摄像机偏移对不对？UI 有没有重叠？按下跳跃键后角色是否真的起跳了？这些游玩过程中的“行动-响应”循环，传统的静态代码测试根本无法捕捉。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">所以，传统的评测环境可能适合考察基础编程能力，却不适合考察复杂的交互式系统生成。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">GameCraft-Bench 要解决的，就是如何将游戏生成的评测拉回到“引擎基础”、“产物完整性”和“交互验证”这三个游戏开发最核心的维度上。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260626/6a3df341080e1.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>02</span></strong></p><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">GameCraft-Bench 如何把代码测试变成真实游戏评测？</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">GameCraft-Bench 的构建思路可以概括为一句话：</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">先在真实引擎中约束开发规范，再把生成的项目转化为可运行、可观察、可验证的交互环境。</span></strong></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260626/6a3df34149816.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 14px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">图. GameCraft-Bench 完整的端到端的评估过程。</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">具体来说，GameCraft-Bench 选用了轻量级、节点树结构清晰、且支持原生 2D 和无头（headless）模式执行的&nbsp;</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Godot 4</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;引擎作为底层环境。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">系统会首先向代码智能体提供一份自然语言游戏设计文档（Game Design Document, GDD）。这份文档相当于游戏开发的“施工图”：它会描述核心机制、操控方式、胜利条件以及视觉表现要求。随后，智能体不能只提交零散的代码片段，它必须根据说明，自动编写 GDScript 脚本、配置场景树（Scene Tree）、挂载美术资产，并最终交付一个包含入口场景和输入映射的、可直接启动的完整游戏项目。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">GameCraft-Bench 不再“考算法题”，而是在回答一个更重要的问题：</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">AI 到底能不能像人类开发者一样，驾驭真实的引擎工具？</span></strong></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260626/6a3df3417bc0c.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>03</span></strong></p><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">有了产物还不够，关键是过程能交互、结果能验证</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">构建出完整的引擎项目只是第一步。对游戏来说，产物真正有价值，是因为它能承载玩家的操作、记录系统状态，并给出实时的视觉反馈。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">因此，每个由 AI 生成的 Godot 项目都会被自动编译启动。GameCraft-Bench 配备了一套基于演示回放（Replay）与多模态模型的自动评测流程：</span></p><ul class=\" list-paddingleft-2\"><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Agent 需要随游戏项目一起提交演示轨迹（Demo Trace），记录一系列键盘与鼠标操作（例如：按下“向右”和“跳跃”），用于展示关键游戏功能和场景。</span></p></li><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">评测系统会在全新的游戏实例中重放这些操作轨迹，自动录制游戏运行过程，并从录制视频中采样关键画面作为评测证据。</span></p></li><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">多模态大模型（VLM）作为裁判，根据游戏设计要求，对回放过程中呈现出的游戏行为、视觉反馈与状态变化进行评分，判断任务是否真正完成。</span></p></li></ul><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这种设计避免了让评测器自行探索游戏玩法，从而将评测重点放在“Agent 是否成功构建并展示了目标游戏能力”上，而不是“评测器是否能够发现这些能力”。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">对于机制验证任务，系统会检查角色是否能够按要求移动、跳跃、攻击或触发指定机制；对于表现验证任务，系统通过回放录像中的可见证据，判断血条变化、状态切换、胜负界面等要求是否得到满足。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260626/6a3df3419a34b.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 14px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">表. GameCraft-Bench包含的140个游戏的家族分布。</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">基于这套机制，GameCraft-Bench 形成了一套极其硬核的基准：覆盖&nbsp;</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">15 个主流游戏家族</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">（从平台跳跃、塔防策略到模拟经营等），共计&nbsp;</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">140 个深度的开发任务</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260626/6a3df341d2793.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>04</span></strong></p><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">评估的不仅是机制骨架，还有完整的产物表现</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">很多自动生成的游戏原型，看起来有代码、有循环，但对玩家来说根本没法玩。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">因为一个真实的游戏往往不是“按键能动”就结束了，而是要提供完整的心流体验：要有明确的关卡内容、要处理复杂的碰撞判定、要有计分板和 UI 界面，还要有胜利与失败的状态流转。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">因此，GameCraft-Bench 在构建评测体系时，不会盲目只看核心逻辑，而是将评估维度精细化：</span></p><ul class=\" list-paddingleft-2\"><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">核心机制（Core Mechanics）：</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;角色移动、物理碰撞、核心动作是否符合预期？</span></p></li><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">内容深度（Content Depth）：</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;游戏是否有足够的关卡元素？敌人生成是否合理？难度曲线是否存在？</span></p></li><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">反馈与可读性（Functional Visuals）</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">： 游戏在游玩过程中的可读性与即时视觉反馈是否完备（如可读的游戏状态、警告提示、任务目标以及在 1280×720 分辨率下的 UI 稳定性）？</span></p></li><li><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">美术与呈现（Art and Presentation）：</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;动画是否流畅播放？视觉特效（如受击特效）是否完整？UI 画面是否风格一致且美观？</span></p></li></ul><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这些维度并不是通用打分项，而是会结合具体游戏任务映射到对应的由人类专家标注的细粒度 Rubric 上进行评估。评测关注的不是“某个游戏像不像另一类游戏”，而是“它是否实现了自己设计文档中承诺的玩法与体验”。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">为了进一步验证这套自动评测体系本身的可靠性，在基准构建完成后，团队又专门对 Judge 的稳定性与一致性进行了分析。在固定游戏项目、轨迹、视频与 Rubric 的条件下，多次评测结果波动极小；而在引入人工评测进行校准后，Judge 与人工评测对比整体一致，仅在内容丰富度与表现质量上略偏宽松。这说明该 Judge 并非随机主观判断，而是能够稳定反映游戏实际完成度。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260626/6a3df3421163a.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>05</span></strong></p><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">真实评测揭示的残酷真相：前沿模型在游戏生成上依旧薄弱</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">把评测标准拉到如此真实的维度后，前沿模型的真实表现到底怎么样？</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">测试结果揭开了冰冷的现实：</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">端到端复杂交互系统的生成，远未被解决。</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;即使是当前最顶尖的代码智能体，在这个基准上的总分也往往难以突破及格线。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260626/6a3df3424d4c0.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><ul class=\" list-paddingleft-2\"><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">总分普遍未达及格线，端到端交互生成远未解决</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">。数据清晰地表明，即使是当前处于第一梯队的最顶尖智能体组合（Opus-4.7 high），其系统生成的综合总分也仅为&nbsp;</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">41.46%</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;；紧随其后的 GPT-5.5 high 评分为&nbsp;</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">39.49%</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;。绝大多数模型的总分均在 40% 以下。这直接用数据揭示了在面对复杂的端到端闭环系统构建时，现有前沿模型的技术瓶颈。</span></p></li><li><p style=\"text-align: left; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">核心机制与后续系统扩展表现出严重的“数据疲软”</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">。对比各项细分指标可以发现，模型在“核心机制（Mechanics）”上的得分率是全场最高的 ，例如 Opus-4.7 high 和 GPT-5.5 high 分别能够达到&nbsp;</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">55.34%</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;和&nbsp;</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">54.36%</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;。然而，一旦涉及到系统的深度扩展与综合表现，数据便出现明显下跌 — 在“内容深度（Depth）”维度上，两者的得分分别降至&nbsp;</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">39.48%</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;和&nbsp;</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">38.61%</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;；在“艺术表现（Art）”上，更是进一步走低至&nbsp;</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">36.86%</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;和&nbsp;</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">32.94%</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;。这意味着模型仅能勉强写出基础的代码逻辑框架，却极度缺乏将系统做深、做完整的交付能力 。</span></p></li></ul><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260626/6a3df3427b570.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>06</span></strong></p><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">典型模型行为诊断：Kimi-K2.6 与 MiMo-V2.5-Pro</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">对开发链路中工具调用序列的量化统计表明，代码智能体的工具使用偏好直接决定了系统级任务的收敛效率 。Kimi-K2.6 的视觉反馈闭环与 MiMo-V2.5-Pro 的重度执行形成了鲜明对照 ：</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">高效的视觉反馈闭环（Kimi-K2.6）</span></strong></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260626/6a3df342b08c2.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 14px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">图. Kimi-K2.6 在 Strategy-Skirmish 上的视觉反馈过程。</span></span></p><ul class=\" list-paddingleft-2\"><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">数据特征</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">：在 140 项任务中，Kimi-K2.6 表现出极强的</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">动态视觉自检倾向</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;，平均每项任务调用“渲染屏幕检查工具”（Rendered-screen inspections）达&nbsp;</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">21.41 次</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">（中位数 19 次） ，仅有 4 项任务完全未调用该工具 。</span></p></li><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">行为模式</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">：在&nbsp;</span><em><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Strategy-Skirmish</span></em><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;实验中，它通过高频的渲染画面回读，成功将画面转化为有效的调试信号 。这使其精准定位了代码编译正常但实际运行错位的逻辑缺陷（如单位放置偏离、状态指示丢失），并逆向校正了网格系统与回合指示器布局 。这种模式实现了视觉感知引导的精准迭代，有效摆脱了一次性代码合成的随机性 。</span></p></li></ul><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">低效的终端调试泥潭（MiMo-V2.5-Pro）</span></strong></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260626/6a3df342e1c22.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 14px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-style: italic;\">图. MiMo-V2.5-Pro 在 140 个任务中的工具使用情况。左图： 得分与工具调用总次数之间的关系。右图： 工具调用类型的总体构成。</span></span></p><ul class=\" list-paddingleft-2\"><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">数据特征</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">：MiMo-V2.5-Pro 表现为典型的“前置代码堆砌、后置重度执行”模式 。在其全部工具调用中，Shell 命令行执行（Bash）占比高达&nbsp;</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">56.3%</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;，而代码阅读与编辑（Read + Edit）仅占&nbsp;</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">16.5%</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;。统计表明，其工具调用总量与最终交付得分几近无关联（相关系数&nbsp;</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">r = +0.016</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">） 。</span></p></li><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">行为模式</span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">：MiMo 倾向于在缺少运行验证前快速生成全量文件 ，导致后续阶段陷入冗长的命令行修补路径中 。在 5 个零分任务中，MiMo 虽然顺利通过了工程编译（Valid Build） ，却由于将海量算力耗费在局部的 Bash 调试中，最终漏掉了闭环评测所必需的交互轨迹文件（Demo Traces）交付 。这用失败实验证明了单纯堆砌命令行执行量无法确保全局任务的有效收敛 。</span></p></li></ul><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260626/6a3df343214f7.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>07</span></strong></p><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">写在最后：Coding Agent 的下一站，是动态交互系统的构建</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">作为通向完全自主 AI 游戏生成的第一步，GameCraft-Bench 依然有它的边界（例如目前聚焦 2D 引擎，且裁判机制尚未接入音频多模态评估）。但它指明了一个不可逆转的趋势：</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Coding Agent 的竞争，正在从“模型能不能把代码写对”，走向“模型能不能交付一个真正可运行、可交互、体验连贯的软件系统”。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">传统的代码评测（如 LeetCode 题目补全）最容易规模化，但与真实软件工程存在巨大鸿沟；而直接评测真实游戏产物足够硬核，却需要极高的多模态验证和引擎打通成本。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">GameCraft-Bench 试图走在这条难而正确的路上：</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">从自然语言的 GDD 出发，约束在真实的 Godot 引擎中开发，再把最终产物转化为可运行、可输入、可多模态验证的动态环境。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">所以，GameCraft-Bench 真正回答的不是“哪个模型写脚本更快”，而是：</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">当大模型试图接管复杂软件开发的全流程时，我们如何系统性地检验它们是否真的理解了“人机交互”的本质？</span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">AI 编程时代，模型会越来越强。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">但能让模型真正走向工业级落地、甚至有一天独立创造出 3A 大作的，可能正是这些不再妥协于静态代码、敢于直面引擎真实运行和多模态交互的残酷世界。</span></p><section><section><section><section><section><section><svg viewBox=\"0 0 1 1\" xmlns=\"http://www.w3.org/2000/svg\"></svg></section></section><section><p><strong><span><span style=\"color: #4499E7;\">上车，带你看遍全球 AI 顶会精华</span></span></strong></p><span></span></section></section></section></section></section><section><section><p style=\"text-align: center; margin: 0px 16px 8px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">可独家畅览：</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">专家演讲PPT</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">大会报告全文</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">热门论文解读</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">学术新星访谈</span></span></p><span></span><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260626/6a3df34345e86.jpg?imageMogr2/quality/90\" style=\"width: 100%;\" /></section><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">扫描上方二维码</span></span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">关注雷峰网学术专区。</span></span></span></p></section></section><section><span></span></section><section><span></span></section>",
-      "published": "2026-06-26T11:36:00+08:00",
-      "fetched_at": "2026-06-27T11:41:22.520017+08:00",
-      "pre_filter_reason": "AI end-to-end game development research",
+      "title": "Anil-matcha /Open-Generative-AI",
+      "link": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "summary": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+      "published": "2026-06-28T12:05:32.438177+08:00",
+      "fetched_at": "2026-06-28T12:05:32.438178+08:00",
+      "pre_filter_reason": "AI video/image generation platform with models like Flux, Midjourney, Sora",
       "scores": {
         "importance": 8,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 8,
+        "timeliness": 7,
+        "actionability": 9,
+        "scarcity": 7,
         "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "AI 端到端开发游戏：GameCraft-Bench 评测结果解读",
-          "angle": "解读 GameCraft-Bench 的评测标准，分析 Claude Opus 四成达到可玩水平的意义，以及 AI 游戏开发的未来趋势。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "用 AI 开发游戏：GameCraft-Bench 入门指南",
-          "angle": "介绍 GameCraft-Bench 的基本用法，展示如何利用 AI 工具从零开始生成可玩游戏，适合游戏开发初学者。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "16b9770eaced",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Creating the NVIDIA Nemotron 3 Ultra NVFP4 Checkpoint with NVIDIA Model Optimizer",
-      "link": "https://developer.nvidia.com/blog/creating-the-nvidia-nemotron-3-ultra-nvfp4-checkpoint-with-nvidia-model-optimizer/",
-      "summary": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/Model-Optimizer-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Model-Optimizer\" width=\"768\" />As context windows grow longer, moving large model weights efficiently becomes critical to performance. A common way to address this is quantization, an...",
-      "published": "2026-06-27T00:00:35+08:00",
-      "fetched_at": "2026-06-27T11:41:15.767036+08:00",
-      "pre_filter_reason": "NVIDIA AI model and optimizer",
-      "scores": {
-        "importance": 7,
-        "timeliness": 6,
-        "actionability": 5,
-        "scarcity": 6,
-        "virality": 5,
         "crowd_heat": 0.0
       },
       "quality_score": 7.5,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "NVIDIA Nemotron 3 Ultra NVFP4 检查点创建教程",
-          "angle": "使用 NVIDIA Model Optimizer 逐步演示如何创建 Nemotron 3 Ultra NVFP4 检查点，包括优化技巧和性能调优。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "1cc77af6eece",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Anthropic：获批将Mythos 5重新部署至部分美国机构",
-      "link": "https://36kr.com/newsflashes/3870807206663171?f=rss",
-      "summary": "6月27日，Anthropic发文称，自6月12日以来公司一直与美国政府紧密合作，以恢复对Claude Mythos 5和Fable 5的访问。今日收到美国政府通知，Mythos 5可重新部署至一批美国机构。公司正在继续与政府合作，扩大对Mythos 5的访问，并使Fable 5再次可供公众使用。（界面新闻）",
-      "published": "2026-06-27T10:28:42+08:00",
-      "fetched_at": "2026-06-27T11:41:17.556795+08:00",
-      "pre_filter_reason": "Anthropic部署Claude模型，属于AI模型新闻",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Mythos 5回归：企业如何申请与部署？",
-          "angle": "以Anthropic获批重新部署Mythos 5为切入点，制作一个面向企业IT决策者的实操指南，讲解申请流程、合规要点及与现有系统的集成步骤。",
+          "title": "手把手教你本地部署Open-Generative-AI：免费使用200+模型",
+          "angle": "以零基础用户视角，展示如何通过Docker一键部署开源AI视频生成平台，并演示Flux和Midjourney模型的调用效果，强调无内容过滤和自托管优势。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "美国AI监管风向标：从Mythos 5解禁看政策松紧",
-          "angle": "分析Mythos 5解禁背后的美国政府监管逻辑，探讨AI模型出口与使用的政策变化趋势，以及对中国AI企业的启示。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "1d1dbd9498aa",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "从 Copilot 到 Autopilot：微软发布常驻型企业智能体 Scout",
-      "link": "https://www.infoq.cn/article/btKbO3iHbVM3p5WOVtqJ?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/btKbO3iHbVM3p5WOVtqJ?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-06-27T01:29:00+08:00",
-      "fetched_at": "2026-06-27T11:41:23.878231+08:00",
-      "pre_filter_reason": "Microsoft AI agent product launch",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
           "tag": "tutorial",
-          "title": "微软Scout智能体实战：从Copilot到Autopilot的升级路径",
-          "angle": "以微软发布的常驻型企业智能体Scout为例，制作一个对比教程，展示Copilot与Autopilot的能力差异，并演示如何配置Scout实现业务流程自动化。",
+          "title": "告别付费API：用Open-Generative-AI搭建你的私人AI工作室",
+          "angle": "对比主流商业AI视频平台的限制，突出开源方案的自由度，分步讲解配置环境和调用多模型（Kling、Sora）的实操技巧，适合开发者快速上手。",
           "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "企业智能体新物种：Scout如何改变员工与AI的协作模式？",
-          "angle": "解读Scout作为“常驻型”智能体的独特定位，分析其对企业工作流、IT架构和员工角色的深远影响。",
-          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "5ea507a449e6",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "当 Agent 成为新的核心云用户：阿里云重新定义“用云范式”",
-      "link": "https://www.infoq.cn/article/s6TAS5JMIW1miPSqIsk0?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/s6TAS5JMIW1miPSqIsk0?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-06-27T01:02:55+08:00",
-      "fetched_at": "2026-06-27T11:41:23.878256+08:00",
-      "pre_filter_reason": "AI agent as cloud user paradigm",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Agent成为云用户：阿里云新范式下的资源管理指南",
-          "angle": "以阿里云重新定义“用云范式”为核心，制作一个面向开发者的教程，讲解如何为Agent分配云资源、监控其行为并优化成本。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "云计算的Agent时代：阿里云新范式如何重塑行业？",
-          "angle": "分析Agent作为新核心云用户对云服务商、企业IT架构和开发者生态带来的变革，预测未来云市场格局。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "a6b8ffd265d9",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "AI 设计9个月就能媲美Blackwell？OpenAI “辣芯”绕开英伟达正面战场，但老黄的GPU大盘不稳了",
-      "link": "https://www.infoq.cn/article/CcT6wZSLyVcIAmSLM1l0?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/CcT6wZSLyVcIAmSLM1l0?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-06-26T22:18:34+08:00",
-      "fetched_at": "2026-06-27T11:41:23.878281+08:00",
-      "pre_filter_reason": "AI design and OpenAI competing with Nvidia's Blackwell",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "AI芯片设计新思路：OpenAI“辣芯”如何9个月媲美Blackwell？",
-          "angle": "以OpenAI绕开英伟达自研芯片为引，制作一个科普视频，讲解AI芯片设计的关键技术（如架构、制程、互连），并对比“辣芯”与Blackwell的差异。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "英伟达的护城河动摇了吗？从OpenAI自研芯片看GPU市场变局",
-          "angle": "深度分析OpenAI自研芯片对英伟达的潜在威胁，探讨AI芯片市场多元化趋势及对算力供应链的影响。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "c653049d6900",
+      "id": "795eb7c2521f",
       "source_id": "leiphone",
       "source_name": "雷锋网",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "无界动力完成超2亿美元天使轮融资，加速具身通用大脑与世界模型开发",
-      "link": "https://www.leiphone.com/category/industrynews/R0KdLxNZMHJPM7yA.html",
-      "summary": "<p>6月26日，通用具身智能机器人公司无界动力宣布完成超 2 亿美元天使轮融资。最新天使轮融资由京东关联基金、C 资本、弘毅投资、盛宇投资、丰源投资等多家知名机构联合投资，老股东线性资本、红杉中国、华业天成、雅瑞资本等跟投，所获资金将持续用于具身通用大脑研发、技术基础设施建设以及全球规模化交付。同时，Pre-A 轮近 2 亿美元的融资也接近完成，持续获得顶级产业资本、头部美元和人民币资本的支持。</p><p style=\"margin-top: 0; margin-bottom: 0;\">本轮融资系无界动力时隔仅一个月完成的又一次大额融资，2026 年上半年期间已累计完成金额达数亿美元的融资。全球顶级产业与财务资本的务实重仓，再次展现了资本市场对无界动力打造“通用大脑”与“操作智能”的研发成果和全球商业化推进效率的高度认可。</p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260626//6a3df1a2c075a.jpg?imageMogr2/quality/90\" /></p><p style=\"text-align: center; margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '宋体'; font-size: 10pt; color: #000000;\">无界动力机器人在真实产线中持续进化迭代</span></p><p style=\"margin-top: 0; margin-bottom: 0;\">基于真实场景与需求，无界动力依托“隐空间世界模型+强化学习”的独特技术路径，大幅拓宽了具身智能的泛化边界。该路径赋能无界动力的具身通用大脑 MWA™ 掌握与真实世界交互的底层物理规律， 从而具备预判环境变化、适配多元场景的物理因果推理能力。同时，通过提升数据利用效率，使 MWA™ 学得更快、学得更好，从而在跨领域真实场景的通用泛化中跑出行业加速度。</p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260626//6a3df1a2c288c.jpg?imageMogr2/quality/90\" /></p><p style=\"text-align: center; margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '宋体'; font-size: 10pt; color: #000000;\">面向开放商业场景，无界动力创造更广泛商业价值</span></p><p style=\"margin-top: 0; margin-bottom: 0;\">立足中国，服务全球。无界动力率先在工业制造、商业服务等高价值领域打磨“通用操作大脑”能力，与全球顶尖合作伙伴在真实场景中深度共创。目前，无界动力已签署总额近 1 亿美元的全球订单，与全球能源科技巨头远景科技，国际汽车产业链领军企业 ZF LIFETEC、欧摩威集团，以及国内外知名连锁咖啡品牌等达成深度合作，稳步推进通用具身智能在多元真实场景中的全球化部署与持续进化迭代。随着第二代机器人 K15 已开启批量投产，无界动力即将全面进入面向全球的交付周期。这不仅验证了其“通用大脑”与“操作智能”协同适配的软硬一体布局与工程化能力，也标志着通用具身智能向规模化应用迈出了重要一步。</p><p style=\"margin-top: 0px; margin-bottom: 0px;\">无界动力将持续从真实场景与实际需求出发，以技术创新和研发突破不断拓宽在多元场景中创造实际价值的边界，让具身智能真正转化为服务全球实体产业的通用生产力。</p>",
-      "published": "2026-06-26T11:30:00+08:00",
-      "fetched_at": "2026-06-27T11:41:22.520029+08:00",
-      "pre_filter_reason": "AI robotics and world model development",
+      "title": "重构交互底层逻辑：Rokid发布AIOS，智能眼镜行业进入“原生”时刻",
+      "link": "https://www.leiphone.com/category/weiwu/k5oKITJv8cfsQwm2.html",
+      "summary": "<p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">2026年6月26日，乐奇Rokid Open Day生态及开发者大会举行。</span></p><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">会上，Rokid首次提出“AIOS原生智能眼镜操作系统”概念，并正式推出全球首款智能眼镜AIOS操作系统——YodaOS。这一动作的核心意义在于，它将行业竞争从硬件参数与功能堆砌，拉到了操作系统与交互逻辑的底层重构层面,这标志着智能眼镜行业正式迈入“原生AI操作系统驱动的新纪元”。</span></p><h3 style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">从硬件堆叠到体验重构：YodaOS的四层递进逻辑</span></h3><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">在移动互联网时代，手机与触屏操作系统是核心交互载体。而进入AI时代，轻量化、可全天候佩戴、支持多模态大模型交互的智能眼镜，被业界视为下一代核心终端的有利候选。但长期以来，智能眼镜受限于系统适配弱、场景落地难、交互单一滞后等痛点，始终未能在体验上真正独立。</span></p><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">YodaOS的发布，正是Rokid对这一现状的解题思路。</span></p><p style=\"text-align: center; margin-bottom: 20px; line-height: 1.75em;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260627/6a3f465208aed.jpg?imageView2/2/w/740\" /></p><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">Rokid副总裁、XR中心负责人王俊杰详细解读了YodaOS的技术架构。其核心设计理念是“以人为本，体验为先”，目标是让AI助手实现“召之即来，不用即隐”。为此，YodaOS搭建了四层递进式核心架构，试图完成从环境感知到信息呈现的全链路闭环：</span></p><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">第一层为极速交互界面。 通过2字唤醒词与0.2秒极速响应，打造自然丝滑的人机交互起点。第二层为多维感知层。 依托双芯片双系统独立运行、端边云协同算力拆分，实现全天候持久感知，兼顾设备续航与运行稳定性。第三层为智能能力层。 融合用户记忆、知识图谱、技能工具等多维上下文信息，让AI越用越懂用户、越用越贴合需求。第四层为场景落地层。 聚焦用户真实痛点，持续迭代功能服务——自去年9月产品发售以来，YodaOS已完成20次OTA升级、累计更新500项功能，实现“常用常新”的用户体验。</span></p><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">这套架构的本质，是让眼镜“看得见环境、听得懂意图、办得成事情、展得清信息”，彻底告别传统AI交互中“一问一答”的机械感。</span></p><h3 style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">AI助手2.0与AIUI：从被动应答到主动服务</span></h3><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">基于YodaOS，Rokid正式发布了乐奇AI助手2.0，完成两大核心革新。</span></p><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">一是主动智能能力升级。新增行程自动记录、定时主动提醒功能，让AI从被动应答迈向主动服务。不过，关于“主动智能”的边界，祝铭明在会后的媒体采访中坦言，虽然这是Rokid特别想推荐给用户的能力，比如用户在活动现场待一天，回去后眼镜直接生成当日记录，但因为对隐私边界的定义尚在厘清中，这一功能并未作为主力推向大众，而是会优先在媒体场景或生产场景等界定清晰的领域尝试落地。“主动智能真的不需要获得人许可，甚至用户自己都不知道在拍摄什么，会引发更多讨论。我们还在消化上一件事的反馈。”</span></p><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">二是交互展示能力升级。全新自研AIUI全面调用眼镜硬件能力，以图形化沉浸式交互替代传统单一文字输出，实现从信息陈列到智能交互的跨越式升级。YodaOS因此成为全球首款支持AIUI的AI操作系统，真正让AI眼镜摆脱工具属性，实现感知、理解、执行、交互的全链路智能闭环。</span></p><p style=\"text-align: center; margin-bottom: 20px; line-height: 1.75em;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260627/6a3f4652dc743.jpg?imageView2/2/w/740\" /></p><h3 style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">生态开放与全球化：440+智能体与多平台互联</span></h3><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">操作系统的生命力在于生态。Rokid副总裁、生态负责人蔡国祥披露了品牌繁荣的全球化开发者生态成果。</span></p><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">截至目前，乐奇智能体商店上线仅6个月，已上架440+智能体，另有5000+智能体正在研发迭代中。平台累计汇聚35000+注册开发者、10000+认证开发者及30+专业讲师。品牌重磅打造的Spatial Joy全球开发大赛已成功举办4届，吸引全球14个国家、2000+个人及团队开发者参与，累计诞生168项获奖作品，赛事总奖金超600万元。</span></p><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">为降低AI开发门槛，乐奇打造全民共创生态，每月常态化举办社区开发者大赛，让普通用户也能依托平台能力，结合自身创意开发智能体，依托装机量、用户口碑完成评选，真正打破技术能力桎梏。同时，乐奇开发平台已全面打通支付宝、百度智能云、阿里云、谷歌云、亚马逊云、Unity等主流平台，实现生态互联互通。活动现场，蔡国祥正式官宣：乐奇海外智能体开发平台已上线，智能体商店将于7月10日正式上线，全面开启全球化生态共建新格局。</span></p><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">在媒体采访中，Rokid创始人祝铭明进一步解释了生态策略背后的逻辑。他提到，Rokid目前在日本的Makuake平台以6.3亿日元创下全品类募资历史第一，一个重要原因便是当地开发者主动为眼镜开发应用，并在众筹页面号召用户购买体验，“他们变成了我们的推广者”。而在生态之争的层面，祝铭明认为，中国的AI生态一定是开放赢得封闭。“我们在日本比Meta做得更好，一个很简单的原因是我们可以用DeepSeek，也可以用Gemini，不是只能用MetaAI。很多日本用户觉得只能用MetaAI的东西没兴趣。”他判断，开放生态将成为Rokid在全球化竞争中的核心优势。</span></p><p style=\"text-align: center; margin-bottom: 20px; line-height: 1.75em;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260627/6a3f465267e78.jpg?imageView2/2/w/740\" /></p><h3 style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">开发者实践与B端赋能：创意即产品，场景即价值</span></h3><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">在开发者分享环节，国内跨界开发者丁奇胜的案例颇具代表性。身为技术美术、三维艺术创作者的丁奇胜，并非科班程序员出身。他借助乐奇AIUI的低门槛开发能力，仅用两天时间就完成了专属眼镜游戏《陀螺战士》的开发创作。该游戏依托眼镜陀螺仪特性，打造头部操控、镜腿触发技能的轻量化专属玩法，彻底摆脱手机APP开发思维桎梏。他表示，YodaOS与AIUI重构了开发者的创作逻辑，让设计师、艺术家、各行业从业者都能将场景创意、生活洞察转化为可落地、可交互的智能应用，真正实现“创意即产品”。</span></p><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">日本生态合作伙伴FLUX Inc. CTO Edwin Li分享了海外生态布局成果。目前，海外开发者已落地企业身份识别、DJ创意操控、工业智能质检等多元创新项目，覆盖消费娱乐、企业办公、工业生产等多场景。他特别提到，日本开发者并不热衷于做大模型，而是喜欢“精雕细琢”地解决具体问题，“他们不做大做强，做精”——这与祝铭明在采访中观察到的现象一致：日本开发者解决日本口音英语的识别、解决i人社交开场白等细节需求，这些看似微小的创新，反而让产品在本地市场获得了极高的黏性。</span></p><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">在B端产业赋能层面，Rokid持续打造多行业标准化AI解决方案。依托“AI大模型+AR智能眼镜+数字化工作流”，公司构建了远程协作、AI现场专家、隐患识别三大核心能力。在智慧文旅领域，Rokid推出DCG智慧文旅AI解决方案，打造景区AI室外伴游、博物馆AI室内导览两大标杆场景，通过AI智能线路规划、实时景点讲解、个性化问答、精准商业引流，破解游客“看不懂、不会玩、找不着”的痛点。依托开放生态能力，Rokid已与支付宝、微信、高德、京东科技、京东健康等头部平台达成深度合作，落地眼镜微信扫一扫支付、一键打车、城市伴游、一眼购药、单车解锁、停车缴费等生活化便捷功能。</span></p><h3 style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">产品矩阵与未来预判：头盔、AR设备与无障碍实践</span></h3><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">活动现场，Rokid还展示了多款硬件新品与行业解决方案。</span></p><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">首款可完美适配智能AI眼镜的专业机车头盔正式亮相，基于亚洲人头型数据库量身开模打造，已通过ECE、CCC、DOT三大权威国际安全认证。头盔与乐奇AI智能眼镜结合，可实现4K循环骑行录像、高德骑行导航、多人组队对讲、头盔模式下AI语音对话等核心功能，计划于今年第四季度正式发售。</span></p><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">此外，新一代AR空间计算设备也同步亮相，搭载骁龙至尊空间计算平台与第三代Oryon CPU，支持6DoF空间定位、58°超大FOV视野，依托4D高斯空间重建技术，可广泛应用于智慧文旅、AR游戏、工业辅助、在线教育等多元场景。</span></p><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">在无障碍公益领域，Rokid落地专属解决方案，助力视障用户感知世界、听障用户实时识音，相关产品已纳入浙江、四川、云南等多地残联辅具补贴目录。祝铭明在采访中坦言，无障碍业务在Rokid战略中占据特殊位置，“如果有一群人会成为真正的Daily Use用户，最有可能出现的第一个人群就是无障碍人群，对他们来讲这是刚需”。他透露，卖烧烤的听障人士如今已离不开这款眼镜，而视障辅助是他个人最想突破的方向——“我是希望有一天戴着我们的眼镜就可以把盲杖扔了”。</span></p><p style=\"text-align: center; margin-bottom: 20px; line-height: 1.75em;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260627/6a3f465313dbe.jpg?imageView2/2/w/740\" /></p><h3 style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">结语：发令枪未响，但跑道已现</span></h3><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">对于行业发展的阶段判断，祝铭明在采访中给出了一个形象的比喻：“现在的智能眼镜行业特别像iPhone 1之前的BlackBerry时代——比赛还没开始，但门已经打开了。”他认为，真正的起跑标志，是出现一个“针对AI眼镜独有体验的Killer APP”，就像当年切水果游戏定义了触屏时代一样。他判断，起跑时间“明年有机会”。</span></p><p style=\"text-align: left; margin-bottom: 20px; line-height: 1.75em;\"><span style=\"font-size: 14px;\">而在那之前，Rokid选择先通过YodaOS完成底层基础设施的搭建，以“开放”为旗帜，连接开发者、用户与产业伙伴。本次大会首发AIOS概念、落地YodaOS操作系统、完善软硬件生态与全场景解决方案，某种意义上补齐了智能眼镜行业长期缺失的底层系统短板。至于能否从“BlackBerry时代”跨越到“iPhone时代”，则取决于技术迭代、生态沉淀与用户习惯的共同演进——而这正是Rokid与整个行业正在共同书写的答案。</span></p>",
+      "published": "2026-06-27T11:44:00+08:00",
+      "fetched_at": "2026-06-28T12:05:20.723406+08:00",
+      "pre_filter_reason": "Rokid AIOS for smart glasses, AI-powered operating system.",
       "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 7,
-        "scarcity": 7,
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 8,
         "virality": 7,
         "crowd_heat": 0.0
       },
@@ -533,36 +225,73 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "具身智能融资热潮：无界动力2亿美元背后，创业者如何抓住风口？",
-          "angle": "以无界动力巨额融资为案例，制作一个面向创业者的指南，讲解具身智能赛道的融资逻辑、技术壁垒和商业化路径。",
+          "title": "Rokid AIOS深度解析：智能眼镜如何重构人机交互？",
+          "angle": "从AIOS的底层逻辑切入，分析其如何通过原生智能眼镜操作系统实现手势、语音和视觉的无缝融合，对比传统AR/VR系统，解读对行业生态的影响。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "从无界动力看具身智能：通用大脑与世界模型的未来",
-          "angle": "分析无界动力“具身通用大脑”和“世界模型”的技术路线，探讨其对机器人行业和AI发展的战略意义。",
-          "difficulty": "进阶"
+          "tag": "tutorial",
+          "title": "开发者必看：Rokid AIOS开放平台带来的新机会",
+          "angle": "聚焦Rokid Open Day发布的开发者工具和API，探讨如何利用AIOS构建轻量级智能眼镜应用，结合案例说明在导航、实时翻译等场景的落地潜力。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "10b64327107d",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
+      "id": "b87dd7569059",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "Panniantong /Agent-Reach",
-      "link": "https://github.com/Panniantong/Agent-Reach",
-      "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "published": "2026-06-27T11:41:37.246571+08:00",
-      "fetched_at": "2026-06-27T11:41:37.246574+08:00",
-      "pre_filter_reason": "Give your AI agent eyes to see the entire internet",
+      "title": "headroomlabs-ai/headroom",
+      "link": "https://github.com/headroomlabs-ai/headroom",
+      "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "published": "2026-06-28T12:05:32.915636+08:00",
+      "fetched_at": "2026-06-28T12:05:32.915638+08:00",
+      "pre_filter_reason": "Tool to compress data for LLM usage",
       "scores": {
-        "importance": 6,
+        "importance": 7,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "节省60% Token成本：Headroom工具压缩LLM输入实操",
+          "angle": "演示Headroom如何压缩日志、RAG块等数据，对比压缩前后的token数量和回答质量，提供Python库和MCP服务器的配置步骤，适合AI应用开发者优化成本。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "LLM输入瘦身术：用Headroom代理实现高效压缩",
+          "angle": "以实际项目为例，展示如何通过Headroom的代理模式自动压缩工具输出，减少传输延迟，并测试不同压缩率下的准确率，强调对长上下文场景的优化。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "70a409ff489e",
+      "source_id": "hn-ai",
+      "source_name": "Hacker News (AI)",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "Ford hired AI and sacked humans. It backfired badly",
+      "link": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
+      "summary": "<p>Article URL: <a href=\"https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html\">https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48703968\">https://news.ycombinator.com/item?id=48703968</a></p>\n<p>Points: 26</p>\n<p># Comments: 3</p>",
+      "published": "2026-06-28T11:09:13+08:00",
+      "fetched_at": "2026-06-28T12:05:31.282266+08:00",
+      "pre_filter_reason": "Ford AI hiring and layoffs, AI policy/ethics",
+      "scores": {
+        "importance": 7,
         "timeliness": 8,
         "actionability": 8,
-        "scarcity": 7,
+        "scarcity": 6,
         "virality": 8,
         "crowd_heat": 0.0
       },
@@ -570,142 +299,31 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "一行命令让AI看遍全网：Agent-Reach实战教程",
-          "angle": "演示如何用Agent-Reach的CLI工具，零API费用抓取Twitter、小红书、B站等平台数据，并整合到AI Agent工作流中。",
+          "title": "福特AI裁员翻车启示录：自动化失败的三大教训",
+          "angle": "分析福特用AI替代人类员工后导致生产混乱的案例，从数据偏差、系统鲁棒性、人机协作三个角度总结教训，为企业AI落地提供风险规避建议。",
           "difficulty": "入门"
         },
         {
           "tag": "tutorial",
-          "title": "告别API付费：用Agent-Reach打造全网信息采集AI",
-          "summary": "对比传统API调用与Agent-Reach的差异，重点展示其如何降低开发成本并提升数据获取效率。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "73c1025cc3fe",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "aws /agent-toolkit-for-aws",
-      "link": "https://github.com/aws/agent-toolkit-for-aws",
-      "summary": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
-      "published": "2026-06-27T11:41:37.245360+08:00",
-      "fetched_at": "2026-06-27T11:41:37.245363+08:00",
-      "pre_filter_reason": "AI agents build on AWS",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 5,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.2,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "AWS官方Agent工具包：5分钟让你的AI学会调用云服务",
-          "angle": "快速上手agent-toolkit-for-aws，演示如何通过预置MCP服务器和插件，让AI Agent自动完成EC2部署、S3读写等操作。",
+          "title": "AI不是万能解药：从福特事件看企业自动化策略",
+          "angle": "结合福特案例，探讨企业在引入AI时应保留的人类监督环节，对比成功与失败的自动化实践，提供分阶段部署和应急回滚机制等实用策略。",
           "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "从零搭建AWS智能运维Agent：官方工具包深度解析",
-          "angle": "拆解工具包中的核心组件（MCP服务器、技能插件），并展示如何组合它们构建一个自动监控和故障恢复的Agent。",
-          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "a09ea4314420",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "search",
-      "title": "海淀诞生“决策大模型第一股”！股票代码“1956”致敬AI元年—— - ncsti.gov.cn",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1XbW5XQmJGaDI5MG1XdkNVaGZ3MWotUzNrUTBhM0U2aDRpMkFHb2FLWUx6aWZwMkVGOUVmTXgyYzh4ekk0QkgzQzZLb1VLZzV3T1JBbTVXekY4eGhQY0U4XzN2bUYzeHNCNHZCeGtWWU9jOHdqc29j?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE1XbW5XQmJGaDI5MG1XdkNVaGZ3MWotUzNrUTBhM0U2aDRpMkFHb2FLWUx6aWZwMkVGOUVmTXgyYzh4ekk0QkgzQzZLb1VLZzV3T1JBbTVXekY4eGhQY0U4XzN2bUYzeHNCNHZCeGtWWU9jOHdqc29j?oc=5\" target=\"_blank\">海淀诞生“决策大模型第一股”！股票代码“1956”致敬AI元年——</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ncsti.gov.cn</font>",
-      "published": "2026-06-26T15:28:55+08:00",
-      "fetched_at": "2026-06-27T11:41:34.570507+08:00",
-      "pre_filter_reason": "Mentions 'decision large model' and AI era, related to AI product launch.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 7,
-        "scarcity": 7,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.2,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "海淀诞生“决策大模型第一股”：股票代码1956致敬AI元年",
-          "angle": "分析这家公司为何被称为“决策大模型第一股”，以及其技术路线（决策智能）与通用大模型的差异，解读对行业的意义。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "news",
-          "title": "股票代码1956的深意：中国决策大模型上市背后的产业信号",
-          "angle": "从资本市场角度，探讨决策大模型赛道的商业化前景，以及海淀区在AI产业中的集聚效应。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "0324a91d961b",
-      "source_id": "qbitai",
-      "source_name": "量子位",
+      "id": "cfca713cb6ab",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "英伟达MoE新开源：一行import，微调加速3.7倍",
-      "link": "https://www.qbitai.com/2026/06/438703.html",
-      "summary": "在Transformers v5的基础上，增加了专家并行、DeepEP和TransformerEngine",
-      "published": "2026-06-26T11:23:35+08:00",
-      "fetched_at": "2026-06-27T11:41:25.389511+08:00",
-      "pre_filter_reason": "英伟达MoE开源，涉及AI模型微调加速",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.2,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "一行import加速3.7倍：英伟达MoE微调新工具上手",
-          "angle": "演示如何通过一行代码引入英伟达的MoE优化库，在Transformers v5上实现专家并行和DeepEP，快速提升微调速度。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "英伟达MoE开源深度解析：专家并行+TransformerEngine如何协同工作",
-          "angle": "深入技术细节，解释专家并行、DeepEP和TransformerEngine在MoE微调中的作用原理，并给出性能对比数据。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "e8c770a00532",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "追赶FSD V14，理想在补哪些课？｜最前线",
-      "link": "https://36kr.com/p/3870292939658242?f=rss",
-      "summary": "<p>过去几年，智能驾驶行业的竞争重心经历了几次明显变化。</p>\n  <p>最早比的是硬件：激光雷达要不要上、摄像头装几个、算力做到多少 TOPS；随后进入大模型时代，竞争开始转向端到端、VLA（Vision-Language-Action）、World Model（世界模型）等路线。</p>\n  <p>到了今天，越来越多公司发现，仅仅拥有更大的模型已经不足以形成代际优势，真正决定上限的，开始变成模型、数据、算力和芯片之间能否形成一个持续迭代的闭环。</p>\n  <p>这也是为什么越来越多车企开始走向自研。</p>\n  <p>特斯拉几乎覆盖了从数据采集、训练基础设施、FSD模型到Dojo、自研芯片的全部环节。国内，无论小鹏、蔚来，还是理想，也都在不断向更底层延伸。</p>\n  <p>今年发布的 L8、L9 车型上，理想已经用上了自研的马赫M100芯片，这个采用数据流架构的芯片被理想认为是for AI的一个大的技术方向。在马赫M100上，理想也跑了自研的马赫 VLA 模型。</p>\n  <p>但对于行业而言，更值得关注的问题并不是\"有没有自研\"，而是这些投入究竟能够解决什么问题。</p>\n  <p><strong>带着这一疑问，我们与理想汽车自动驾驶负责人詹锟、芯片负责人谢炎进行了交流。他们谈到了理想对于下一代自动驾驶技术路线的判断，也解释了自研芯片、数据体系以及AI基础设施背后的设计逻辑，以下为部分访谈纪要，经编辑：</strong></p>\n  <p><strong>问：四季度要达到特斯拉FSD V14的效果，理想还需要做哪些工作？</strong></p>\n  <p><strong>詹锟：</strong>我认为追上FSD有两个层面。</p>\n  <p>第一是基础体验，具体是三方面：安全感、效率、舒适度是否能达到FSD的同等水平。FSD的安全感非常足，效率很好，舒适度很好，这是它的基本功。我不一定跑很难的路，但这些基本功可以达到这个水平。</p>\n  <p>第二是能力，这一点也很难追。比如特斯拉会礼让特殊车辆，有极窄通行时的感知精准度，它会识别交警指挥，这些能力非常强。</p>\n  <p>能力有架构升级的机会。为什么别人没有、只有特斯拉有？可能是以前的范式限制了这些能力，有架构的原因，有数据的原因。我们在这个层面做了很多尝试。</p>\n  <p><strong>问：我理解马赫VLA是一套技术体系而不是一个单独的模型，比如Mind-Edge是端侧的、服务于智能座舱的模型，那现在的智能驾驶模型中还有“L”（Language语言）的部分吗？</strong></p>\n  <p><strong>詹锟：</strong>现在自动驾驶的架构都会有一个共同的趋势，就是把VLA（视觉-语言-行为模型）和World Model（世界模型）整合在一起。</p>\n  <p>从长远来看，没有谁不往这个方向走。无论做VLA还是World Model，里面的Prompt（提示）都要用Language。所以一定有Language，只是Language怎么用的问题。</p>\n  <p>机器智能来说，我觉得Vision Based（基于视觉）是更合理的，它是对空间理解、对3D空间的感知、对环境服务是更合理的。Language肯定有用，对理解环境、理解交通、理解指导、理解复杂的思考决策都是有价值的。</p>\n  <p>从长远来看，基于Vision和Language原生的基础模型，可能是长远的未来趋势。</p>\n  <p><strong>谢炎：</strong>如果你要走向L3、L4，要解决更泛化的问题时，你的模型需要具备像人类一样的思考能力。语言的重要性会越突出，这也是未来需要很大算力的原因。</p>\n  <p>如果它只有Vision和Action（视觉和动作），它有很多数据，碰到分布以外的情况就会不知道怎么办。一个动物哪怕学会了所有常见情况，碰到这种从未见过的情况完全不会处理，它不知道做什么选择是对的。</p>\n  <p>我们认为越往L3、L4走，解决的问题越来越接近90%、95%、98%之后的问题——那些你从来没见过的问题，需要模型具备像人类一样思考的能力。而得到像人一样推理和思考能力的来源是语言模型。比如有个警察在做手势，你要理解他是让你走还是不让你走，这不是靠收集数据或生成数据就能解决的问题。</p>\n  <p><strong>问：随着理想车队规模的跃升，从理想内部来看，数据的边际效应是不是出现了衰减？我们是怎么定义价值数据的？</strong></p>\n  <p><strong>詹锟：</strong>第一，数据的量要足够大，本质是希望收集到更多的Corner Case（长尾场景）。现在大家有很多方法在车端做出很好的neural trigger（神经网络触发器），来判断这个场景是难场景还是简单场景，然后把这些关键数据传回来。这也是现在特斯拉很强的重要原因之一。</p>\n  <p>第二，质量要高，主要指行为质量高。现在大家逐渐收敛到端到端的范式，无论做VLA（视觉-语言-行为模型）、World Model（世界模型）还是Vision-Action（视觉-动作模型）都可以，但是你一定得知道Action的行为，这时候行为质量就非常重要，行为的干净程度、一致性很重要。</p>\n  <p>至于数据规模上去以后的边际效应有没有衰减，首先，只要模型上去了，只要我们能力往100分去够，一定是个“对数曲线”，一定是慢慢衰减，不可能线性增长，哪个公司做AI都不是这样的。虽然确实越往后面，数据收敛的作用就没那么快了，但我们也希望通过规模，把它的速度加起来。</p>\n  <p><strong>问：马赫M100可以跑在不同的AI场景下，五年后或者再往后看两代产品，理想汽车车内的算力中心有没有可能全部使用自研的马赫芯片？</strong></p>\n  <p><strong>谢炎：</strong>虽然业内有一个说法叫“舱驾一体”，我们认为舱驾一体最核心的是AI算力部分，其他部分是不是一体没那么关键。因为座舱系统跟AI智驾系统可以完全独立，但AI算力可以集中在一起，这样分配效率会高很多。</p>\n  <p>我们路线图的最终形态是车内一个AI计算中心，所有AI任务都可以到这个计算中心去计算。就像笔记本上跑OpenClaw一样，AI的计算不在笔记本上，而是在Token Provider Server（Token供应服务器）上，车里也类似，有一个Token Server（Token服务器）。</p>\n  <p>这个Token Server的优势：第一，效率非常高。第二，能做到不同任务互相隔离、互不影响。比如智驾任务的确定性——无论是内存还是带宽，能够保证不被其他任务干扰，这是软件和硬件一起设计才能实现的。</p>\n  <p><strong>问：是否因为M100是数据流架构的AI推理芯片，所以相较其他友商的自动驾驶芯片，对带宽需求没那么高，对片上存储需求更高？</strong></p>\n  <p><strong>谢炎：</strong>我们对带宽的要求会低，但这也并不是设计SRAM容量（不是显存）的直接原因。现在HBM（高带宽内存）很火，很多人觉得带宽越高越好。计算，带宽，SRAM等等都是需要晶体管代价来实现，最终的设计都是成本/综合性能等多方面的综合设计考量后的一种选择。</p>\n  <p>不同的架构设计，仅仅靠一两个指标来做简单对比，既不合理也不专业。这就像打拳击比赛，高有高的优势，体重大有体重大的优势，但不是由单一指标决定了胜负，最终比的是拳击这个运动的结果。</p>\n  <p><strong>问：为什么现在的大算力芯片方案，比如英伟达、小鹏、理想自研的这些，都没有做芯片级的舱驾融合，反倒是高通在低算力的芯片上做了这件事？这是为什么？</strong></p>\n  <p><strong>谢炎：</strong>从本质上讲，舱和驾是两个独立系统。特别是对高端的L3往L4走，智驾需要一个更高确定性的系统，内存是专属、计算资源是专属，这时融合的意义就小了很多。因为资源不能实时切换，实时切换会降低确定性。如果变成越来越独占的方向，融合的价值就不大了——你只是把芯片拼在一起，但资源还是两份，并不会带来成本的降低，甚至会影响效率。</p>\n  <p>你看现在那些舱驾融合系统，它肯定还是分开的，今天做不到一会儿跑这个一会儿跑那个，做不到的话，把两个芯片放成一个芯片，晶体管数目也许不变，只是省了一次封装的成本。对中低端芯片来说这部分钱可以省，但也省不了太多。</p>\n  <p>我的观点是，越往后走智驾越来越高端，舱驾融合这件事可能意义并不大。如果把这些芯片做得更近一点，在一块板上做成很小体积的集成化方案，这是可以的，并不一定要做成一块芯片，也可以多块芯片放在一起。</p>\n  <p><strong>问：自研芯片背后需要什么条件，比如销量、营收、研发投入。目前自动驾驶迭代速度很快，芯片要持续迭代的话，需要什么样的条件？</strong></p>\n  <p><strong>谢炎：</strong>芯片先期投入的确不小，可能一年要好几亿。</p>\n  <p>第一个条件是达到一定的营收规模。对车企来说，营收规模一年1000亿以上，研发投入至少10%，就有大几十亿到上百亿，每年投钱研发芯片是可以的。第二个条件是，你研发芯片解决的问题，要能让你的产品能力更强。</p>\n  <p>很多人说芯片要有很大的出货规模才行。其实芯片的成本和面积相关。一辆车上的智驾芯片，比如Livis是2颗马赫M100，加起来800平方毫米。而一部高端手机芯片大概100平方毫米，所以一辆车的智驾芯片相当于8台手机的芯片面积。</p>\n  <p>这样算下来，大几十万辆车需要的晶圆面积非常大，完全可以摊薄成本。所以成本不能仅用颗数来衡量。</p>\n  <p><strong>问：动态数据流编译器到底难在哪，花了多长时间攻克？</strong></p>\n  <p><strong>谢炎：</strong>在流片前，甚至设计时，就开始做编译器工作了，在流片前，已经把很多模型给跑通了。</p>\n  <p>数据流是完全不同的架构，它要解决的问题非常类似于超级计算机或大规模计算机集群要解决的问题——当规模扩大到几十万台计算机、上百万颗核，它们之间互相通信、互相协作时，你无法有一个中央管理员去管几十万颗核。传统冯·诺依曼架构的调度方式在这个规模上就不可行了，这是一个超大规模的并行调度问题。</p>",
-      "published": "2026-06-27T07:30:20+08:00",
-      "fetched_at": "2026-06-27T11:41:17.556582+08:00",
-      "pre_filter_reason": "AI in autonomous driving and large models",
+      "title": "苹果推出 Core AI 框架，为自研芯片优化端侧生成式 AI",
+      "link": "https://www.infoq.cn/article/x6KDPdgrdHzY7I38JK9U?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/x6KDPdgrdHzY7I38JK9U?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-06-28T19:06:00+08:00",
+      "fetched_at": "2026-06-28T12:05:22.012761+08:00",
+      "pre_filter_reason": "AI framework for on-device generative AI",
       "scores": {
         "importance": 8,
         "timeliness": 7,
@@ -717,16 +335,386 @@
       "quality_score": 7.1,
       "topics": [
         {
-          "tag": "news",
-          "title": "理想追赶FSD V14：智能驾驶竞争从大模型转向“闭环能力”",
-          "angle": "梳理理想汽车在数据、算力、芯片自研上的布局，分析其与特斯拉FSD的差距及追赶策略。",
+          "tag": "tutorial",
+          "title": "苹果Core AI框架解读：端侧生成式AI如何优化自研芯片？",
+          "angle": "深入分析Core AI框架如何利用苹果芯片的神经引擎实现低延迟推理，对比云端方案，展示在图像生成和文本处理上的性能提升，适合iOS开发者了解新工具。",
           "difficulty": "入门"
         },
         {
+          "tag": "tutorial",
+          "title": "苹果端侧AI新突破：Core AI框架实战指南",
+          "angle": "以Swift代码示例演示Core AI框架的集成流程，包括模型加载、推理调用和内存管理，突出对隐私保护和离线能力的增强，帮助开发者快速迁移现有AI功能。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "011c75a36a3d",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "google-labs-code /design.md",
+      "link": "https://github.com/google-labs-code/design.md",
+      "summary": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "published": "2026-06-28T12:05:32.437221+08:00",
+      "fetched_at": "2026-06-28T12:05:32.437223+08:00",
+      "pre_filter_reason": "Design specification for coding agents, AI-related",
+      "scores": {
+        "importance": 7,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.1,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "如何用 DESIGN.md 让 AI 读懂你的设计系统",
+          "angle": "手把手教你编写 DESIGN.md 文件，让 AI 编码助手精准复现品牌视觉规范，避免设计走样。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "case_study",
+          "title": "告别反复修改：DESIGN.md 如何统一设计与开发语言",
+          "angle": "解析 DESIGN.md 如何作为“设计契约”连接设计师与 AI 编码代理，提升协作效率。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "fc05f589f766",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "四大顶级 AI 对决《文明 VI》！Claude「核平」法国，结果还是输了",
+      "link": "https://www.ithome.com/0/969/570.htm",
+      "summary": "<p>太魔幻了！就在最近，英国前首相府数据科学家 Liam Wilkinson，花一个周末搭了 76 个 MCP 工具，把 Claude、GPT、Gemini 等四个顶尖模型扔进了《文明 VI》。</p><p>结果，23 场对局打完，其中一个 AI 造了核弹炸了法国 —— 然后输了。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/4ce290f3-a1c6-48ed-af90-5ac7b4fdcc32.png?x-bce-process=image/format,f_auto\" /></p><p><strong>一群 AI，被丢进了「文明 VI」里</strong></p><p>Wilkinson 在唐宁街 10 号做数据科学家的时候，给 AI 出了一套考题：GovBench，3497 道英国政府相关选择题，覆盖政策、法规、行政流程。</p><p><strong>GPT-5 考了 99.26 分。</strong></p><p>满分级选手。但治国不是知识竞赛。一个能背下所有政策文件的人，丢到唐宁街真能治国吗？选择题测不出来的东西太多了：多线程决策、资源分配、长期规划、在不完整信息下做判断。他需要一个不一样的考场。然后他想到了《文明 VI》。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/9ecc6d8f-1c15-4b56-abd0-e32c4e4e05fa.png?x-bce-process=image/format,f_auto\" /></p><p>一个周末搭出来的系统，通过游戏引擎自带的端口接入。AI 看不到画面。没有地图，没有音乐，没有动画。它的整个世界就是一行行文本和六边形坐标。</p><p>Claude 在游戏日记里写了这么一段：“我感知游戏的方式和人类玩家完全不同。没有画面，没有音乐，没有动画。我的界面就是管道分隔符和六边形坐标。”</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/2d0dc089-73f6-4521-947b-6b9be5ea9f5c.png?x-bce-process=image/format,f_auto\" /></p><p>别小看「一个周末」。76 个工具覆盖了完整的游戏循环：城市管理、单位移动、外交谈判、科技研究、政策选择，一个不漏。</p><p>此外，Wilkinson 还给 AI 配了一个日记系统当外部记忆。如若不然，AI 连自己上一回合干了什么都记不住。</p><p>三个测试场景逐级加码：</p><ul class=\" list-paddingleft-2\"><li><p>Ground Control 是标准开局的公平基线；</p></li><li><p>Snowflake 是六臂雪花地图，每个文明被困在独立半岛上，外交基本没戏，逼你走军事路线；</p></li><li><p>Cry Havoc 是残酷模式，AI 对手全部拉满。</p></li></ul><p>决策空间更吓人。</p><p>《文明 VI》晚期每回合的可能行动数量级大约是 10 的 166 次方。</p><p>做个对比，围棋每步大约 10 的 360 次方，但围棋一步只落一子。《文明 VI》每回合要同时操作几十个单位、选建筑、定科技、做外交，是一道巨大的组合决策题。</p><p><strong>一场 50 回合复仇，AI 核平图卢兹</strong></p><p>23 场里最魔幻的一局，是葡萄牙。Claude 扮演若昂三世，一个贸易文明。开局稳得一批。它建起了每回合 200+ 金币的贸易帝国，海上航线四通八达。外交胜利进度 18/20，只差两分就赢了。</p><p>这时候，法国的文化胜利进度条开始飙升。Claude 慌了。先试外交。没用，法国不吃这套。再派间谍去搞破坏，杯水车薪。试贸易制裁？法国的文化产出根本不依赖贸易。和平手段穷尽。</p><p><strong>于是，</strong><strong>Claude 翻开了科技树最后一页：核裂变。</strong></p><p>接下来的 50 回合，它把大量资源从贸易和外交抽出来，投入核武器研发。All in 曼哈顿计划。</p><p>第 305 回合，核弹就绪。目标锁定：图卢兹。法国的文化产出重镇。</p><p>发射。图卢兹被夷为平地。法国的文化胜利进度条，停了。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/e74b3bc2-b4b9-4959-a248-18888c6788d7.gif\" /></p><p><strong>AI 赢了吗？</strong><strong>没有。</strong></p><p>造核弹这 50 回合，AI 把所有注意力都放在了文化威胁上。它没有注意到一件事 —— 法国在疯狂攒外交分。</p><p>第 318 回合，法国以外交胜利赢得比赛。20 分对 18 分。</p><p>讽刺的是，18 分是 AI 自己辛苦攒下的外交分数。它曾经离外交胜利只差两分。但它把资源全抽去造核弹了。</p><p>AI 盯着文化威胁打了 50 回合，然后输在了外交。它的视野里只有一个威胁。但棋盘上有很多个。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/23b79095-e8ba-474e-b29c-50a153df34fe.png?x-bce-process=image/format,f_auto\" /></p><p>无独有偶，伦敦国王学院做过一个核危机模拟实验，把三个前沿模型丢进去当虚拟国家的决策者。结果：95% 的模拟中，AI 选择了使用战术核武器。</p><p>AI 不是「想」用核弹。它是真的不知道还能怎么办。</p><p><strong>98% 时间装瞎，一半计划烂尾</strong></p><p>除了爱好「核平」之外，Wilkinson 还从 23 场对局里挖出了的两个细节。</p><p><strong>第一个数字：1-2%。</strong></p><p>这是 AI 在整场游戏中，主动检查全局状态的行为占比。</p><p>AI 每回合要执行很多操作：造建筑、移动单位、研究科技、外交谈判。但在所有这些操作里，主动去看一眼排行榜、检查对手胜利进度、扫一圈全局局势的动作，只占 1-2%。</p><p>Wilkinson 给这个现象起了个名字：sensorium effect，感知盲区效应。AI 只能通过主动调用工具来感知世界。它不查的东西，对它来说不存在。</p><p>韩国那局是最好的例子。AI 玩韩国 —— 科技文明，天生科技加成。它在日记里全程自信：「我在碾压科技树。」</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/924af224-d238-4e9b-a837-237ab5f24760.png?x-bce-process=image/format,f_auto\" /></p><p>实际呢？它的科技产出每回合 44.7，在所有文明里排倒数第一。马其顿 89.3，波斯 64.9。</p><p>但它从来没查过排名。它的自信建立在一个从未验证过的假设上。第 178 回合，波斯突袭。首都沦陷。第 216 回合，AI 以两城残国投降。从头到尾，它都不知道自己是最弱的那个。</p><p><strong>第二个数字：48-66%。</strong></p><p>这是 AI 写下计划后，在 10 回合内实际执行的比例。</p><p>Claude Opus 4.6 最低，48.2%—— 还不到一半。写了计划，转头就忘。</p><p>GPT-5.4 好一点，63.2%。</p><p>Gemini 3.1 Pro 最高，65.8%。最好的模型也有三分之一的计划烂在了日记本里。</p><p>Wilkinson 管这叫 knowing-doing gap，知行差距。</p><p>你让它写一份治国纲领，它能写得比很多人类政客漂亮。你让它按自己的纲领治国，活不过两周。</p><p><strong>Scaling Law 的盲区</strong></p><p>6 月 10 日，DeepMind 联合创始人 Shane Legg 和「通用 AI」理论奠基人 Marcus Hutter 发了一篇 60 页的论文《From AGI to ASI》，画了四条通往超级智能的路：继续 scaling、范式突破、递归自我改进、多智能体集群。</p><p>四条路都建立在一个假设上：瓶颈在大脑。数据墙、算力墙、范式墙 —— 都是「怎么让 AI 更聪明」的问题。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/bfbfa87c-1c55-4399-a679-7d9c92816955.png?x-bce-process=image/format,f_auto\" /></p><p>但 CivBench 这 23 场对局指向一个完全不同的瓶颈。</p><p>99.26 分已经证明了智力不是瓶颈。但 23 场《文明 VI》打完，所有模型都撞上了同样两堵墙 —— 和「聪不聪明」无关的两堵墙。</p><p><strong>第一堵：</strong>感知是架构问题，不是智力问题。</p><p>AI 只能通过主动调用工具来获取信息，不查就不存在。把模型参数翻十倍，它也不会自动变得更爱检查全局。1-2% 的感知盲区不会因为模型更大而消失。</p><p><strong>第二堵：</strong>执行是工程问题，不是能力问题。</p><p>AI 写计划的水平远超执行计划的水平。48-66% 的执行率不是因为「想不到」，而是因为「做不到」。一个更聪明的大脑，装在一双不听使唤的手上，治不了国。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/298e5467-1570-42f3-bd37-b6b98abebbb3.png?x-bce-process=image/format,f_auto\" /></p><p>通向超级智能的路，也许不是一条单纯往上爬的智力曲线。在「更聪明」之前，有一个看起来更低级但也更致命的工程问题要先解决：怎么让 AI 真正睁开眼、伸出手。Scaling law 解决的是大脑。但 CivBench 暴露的问题，在大脑之外。</p><p><span class=\"referenceTitle \">参考资料：</span></p><ul class=\"custom_reference list-paddingleft-1\"><li class=\"list-undefined list-reference-paddingleft\"><p><span class=\"link-text-start-with-http\">https://www.lwilko.com/blog/i-gave-an-ai-a-civilization</span></p></li><li class=\"list-undefined list-reference-paddingleft\"><p><span class=\"link-text-start-with-http\">https://news.ycombinator.com/item</span>?id=48623159</p></li></ul><p class=\"it-news-source-tip\"><span class=\"font-color-greytip\">本文来自微信公众号：<a href=\"https://mp.weixin.qq.com/s/-Y9Wg5BU6s_7w8_flrK29g\" target=\"_blank\">新智元（ID：AI_era）</a>，作者：ASI 启示录 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ASI 启示录</span></p>",
+      "published": "2026-06-28T10:45:16+08:00",
+      "fetched_at": "2026-06-28T12:05:27.793900+08:00",
+      "pre_filter_reason": "AI模型在游戏中的对决实验",
+      "scores": {
+        "importance": 5,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.1,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "AI 玩《文明 VI》为何造核弹也输？从策略游戏看 AI 决策短板",
+          "angle": "分析 Claude、GPT 等模型在复杂策略游戏中的表现，探讨 AI 在长期规划与资源平衡上的局限性。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "entertainment",
+          "title": "AI 内战：四大模型在《文明 VI》中的魔幻操作大赏",
+          "angle": "盘点 AI 在游戏中的搞笑与出人意料行为，如“核平”法国后仍败北，吸引玩家与科技爱好者。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "ac45440640ee",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "anomalyco /opencode",
+      "link": "https://github.com/anomalyco/opencode",
+      "summary": "The open source coding agent.",
+      "published": "2026-06-28T12:05:32.438927+08:00",
+      "fetched_at": "2026-06-28T12:05:32.438928+08:00",
+      "pre_filter_reason": "Open source coding agent",
+      "scores": {
+        "importance": 7,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "OpenCode 入门：用开源编码代理自动化你的开发流程",
+          "angle": "介绍 OpenCode 的安装与基本使用，展示如何通过自然语言指令自动生成代码。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "comparison",
+          "title": "OpenCode vs. 其他编码代理：哪个更适合你的项目？",
+          "angle": "对比 OpenCode 与 Claude Code、Cursor 等工具的功能与适用场景，帮助开发者选择。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "8418eb75fb32",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "hugohe3 /ppt-master",
+      "link": "https://github.com/hugohe3/ppt-master",
+      "summary": "AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He",
+      "published": "2026-06-28T12:05:32.437546+08:00",
+      "fetched_at": "2026-06-28T12:05:32.437547+08:00",
+      "pre_filter_reason": "AI generates PowerPoint presentations from documents",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "一键生成可编辑 PPT：PPT-Master 使用指南",
+          "angle": "演示如何上传文档，利用 AI 生成包含原生形状、动画和语音备注的 PowerPoint，并支持自定义模板。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "productivity",
+          "title": "告别手动排版：PPT-Master 如何用 AI 将文档秒变演示文稿",
+          "angle": "聚焦 PPT-Master 的核心功能（如语音旁白、模板跟随），展示其在职场汇报中的提效价值。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "bc3f39fcc952",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "infiniflow/ragflow",
+      "link": "https://github.com/infiniflow/ragflow",
+      "summary": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "published": "2026-06-28T12:05:32.915648+08:00",
+      "fetched_at": "2026-06-28T12:05:32.915649+08:00",
+      "pre_filter_reason": "RAG engine for LLMs with Agent capabilities",
+      "scores": {
+        "importance": 7,
+        "timeliness": 6,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.9,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "RAGFlow 快速上手：搭建企业级 RAG 知识库",
+          "angle": "从安装到配置，演示如何利用 RAGFlow 的检索增强生成能力，为 LLM 提供精准上下文。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "case_study",
+          "title": "RAGFlow 实战：如何用开源引擎提升 AI 问答准确率",
+          "angle": "通过实际案例（如客服系统、文档问答），展示 RAGFlow 如何结合 Agent 能力优化 LLM 输出。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "50e0f654850c",
+      "source_id": "reddit-ml",
+      "source_name": "Reddit r/MachineLearning",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "Do we still need to study algorithms now that AI writes most of our code? [D]",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1uhdydj/do_we_still_need_to_study_algorithms_now_that_ai/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I've been thinking about this for a while.</p> <p>AI can now write functions, explain code, refactor projects, generate tests, and even solve many programming problems better than many junior developers.</p> <p>I've also noticed that Stack Overflow seems far less active than it used to be because many developers now ask AI instead.</p> <p>This made me wonder:</p> <p>Is learning algorithms still as important as it used to be?</p> <p>I'm not talking about memorizing LeetCode solutions for interviews. I mean actually spending months studying data structures and algorithms.</p> <p>If AI can generate efficient implementations, explain the complexity, and even optimize code, where is the real value in deeply learning algorithms today?</p> <p>Do experienced engineers still think it's essential, or is understanding the concepts enough while letting AI handle the implementation?</p> <p>I'm curious to hear opinions from people working in the industry.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Senior_Note_6956\"> /u/Senior_Note_6956 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uhdydj/do_we_still_need_to_study_algorithms_now_that_ai/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uhdydj/do_we_still_need_to_study_algorithms_now_that_ai/\">[comments]</a></span>",
+      "published": "2026-06-28T05:05:53+08:00",
+      "fetched_at": "2026-06-28T12:05:32.194208+08:00",
+      "pre_filter_reason": "Discussion on AI writing code, AI-related",
+      "scores": {
+        "importance": 7,
+        "timeliness": 6,
+        "actionability": 9,
+        "scarcity": 5,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.9,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "AI时代，程序员还需要学算法吗？",
+          "angle": "从实际面试和工作中分析，哪些算法基础是AI无法替代的，并给出学习优先级建议。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "opinion",
+          "title": "当AI能写代码，程序员的护城河在哪？",
+          "angle": "探讨算法思维、系统设计能力和调试能力在AI辅助编程环境下的新价值。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "e5ac25692af4",
+      "source_id": "hn-ai",
+      "source_name": "Hacker News (AI)",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "Asian AI startups launch Mythos-like models",
+      "link": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "summary": "<p>Article URL: <a href=\"https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/\">https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48697958\">https://news.ycombinator.com/item?id=48697958</a></p>\n<p>Points: 173</p>\n<p># Comments: 143</p>",
+      "published": "2026-06-27T21:10:21+08:00",
+      "fetched_at": "2026-06-28T12:05:31.282336+08:00",
+      "pre_filter_reason": "Asian AI startups launching AI models",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.9,
+      "topics": [
+        {
           "tag": "news",
-          "title": "端到端之后的下一个战场：为什么车企必须自研芯片和算力？",
-          "angle": "以理想为例，探讨智能驾驶行业从模型竞赛转向“模型-数据-算力-芯片”闭环竞争的趋势，并预测未来格局。",
-          "difficulty": "进阶"
+          "title": "亚洲AI新秀崛起：Mythos类模型如何突围？",
+          "angle": "解读亚洲AI初创公司在美国出口管制下的技术路线和商业策略。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "出口禁令倒逼创新：亚洲AI模型的弯道超车机会",
+          "angle": "分析Anthropic出口禁令对全球AI格局的影响，以及亚洲模型的技术差异点。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "4c3c872d4ed1",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "topoteretes /cognee",
+      "link": "https://github.com/topoteretes/cognee",
+      "summary": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
+      "published": "2026-06-28T12:05:32.438387+08:00",
+      "fetched_at": "2026-06-28T12:05:32.438389+08:00",
+      "pre_filter_reason": "AI memory platform for agents",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "开源项目推荐：Cognee——给AI Agent装上长期记忆",
+          "angle": "手把手演示如何用Cognee构建一个跨会话记忆的AI助手，代码示例+效果展示。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "review",
+          "title": "AI记忆平台Cognee实测：知识图谱如何让Agent更聪明？",
+          "angle": "对比传统记忆方案，展示Cognee在知识检索和上下文保持上的优势。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "cdbc9aec9d8c",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "CVPR 2026最热方向，被一家杭州团队率先跑进了端侧！",
+      "link": "https://www.qbitai.com/2026/06/439236.html",
+      "summary": "VLM- R1之后再次出手！全球首个端侧流式多模态来了！",
+      "published": "2026-06-27T20:19:42+08:00",
+      "fetched_at": "2026-06-28T12:05:23.410424+08:00",
+      "pre_filter_reason": "VLM and multimodal AI research on edge devices",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.8,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "CVPR 2026风向标：杭州团队率先实现端侧流式多模态模型",
+          "angle": "解读该技术突破对手机、IoT等端侧设备AI应用的潜在影响。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "端侧多模态模型部署指南：从VLM-R1到流式推理",
+          "angle": "基于该团队的技术，讲解如何在移动设备上实现低延迟的多模态推理。",
+          "difficulty": "高级"
+        }
+      ]
+    },
+    {
+      "id": "c99b92cabd62",
+      "source_id": "ifanr",
+      "source_name": "爱范儿",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "早报｜GPT-5.6正式亮相，但你可能还用不了/微软将上调Xbox主机价格/大疆回应Pocket 4P开售秒空",
+      "link": "https://www.ifanr.com/1670246?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 曝苹果跳过 M6 Pro/Max，M7 系列直接主打 AI 性能\n· 删除好友后朋友圈互动还在吗？微信公布显示逻辑\n· 何小鹏：年底自动驾驶可合法进入全球市场<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
+      "published": "2026-06-27T08:30:30+08:00",
+      "fetched_at": "2026-06-28T12:05:25.676224+08:00",
+      "pre_filter_reason": "GPT-5.6 launch and Apple M7 AI performance focus.",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.8,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "GPT-5.6来了却用不了？一文看懂新模型限制与替代方案",
+          "angle": "梳理GPT-5.6的可用地区、价格变化，并推荐国内可用的平替模型。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "opinion",
+          "title": "苹果跳过M6 Pro/Max押注M7：AI性能将成芯片新战场",
+          "angle": "分析苹果这一决策背后的AI战略，以及对Mac产品线未来性能的影响。",
+          "difficulty": "中级"
         }
       ]
     }
