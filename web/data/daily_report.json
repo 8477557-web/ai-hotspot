@@ -1,20 +1,20 @@
 {
-  "title": "AI日报 - 2026年06月28日",
+  "title": "AI日报 - 2026年06月29日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "刚刚，GPT-5.6 正式发布，史上最强但被自己坑惨了",
-          "summary": "OpenAI发布GPT-5.6，性能达到史上最强，但因自身问题引发争议。"
+          "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+          "summary": "惠普与OpenAI建立战略合作伙伴关系，共同推进企业级AI应用。"
         },
         {
-          "title": "GPT-5.6突然发布！Fable5痛失最强基模王座",
-          "summary": "GPT-5.6的发布使Fable5失去最强基础模型地位，AI模型竞争加剧。"
+          "title": "DeepSeek 与北大联合开源 DSpark",
+          "summary": "DeepSeek与北京大学联合开源DSpark模型，旨在提升AI回答的连贯性与深度。"
         },
         {
-          "title": "重构交互底层逻辑：Rokid发布AIOS，智能眼镜行业进入“原生”时刻",
-          "summary": "Rokid发布AIOS操作系统，推动智能眼镜行业进入原生AI交互时代。"
+          "title": "GLM 5.2 beats Claude in our benchmarks",
+          "summary": "智谱GLM 5.2在内部基准测试中超越Claude，展现强劲性能。"
         },
         {
           "title": "苹果推出 Core AI 框架，为自研芯片优化端侧生成式 AI",
@@ -26,16 +26,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "“五眼联盟”警告：AI大模型可能在数月内拥有毁灭性攻击力量 - 财联社",
-          "summary": "五眼联盟警告称，AI大模型可能在数月内具备毁灭性攻击能力，引发安全担忧。"
+          "title": "AI boom risks global financial crash, warn central bankers",
+          "summary": "多国央行行长警告AI热潮可能引发全球金融风险。"
         },
         {
-          "title": "Ford hired AI and sacked humans. It backfired badly",
-          "summary": "福特公司用AI替代人类员工后遭遇严重反效果，引发对AI替代决策的反思。"
+          "title": "昆仑芯拟在港上市 目标估值500亿美元",
+          "summary": "百度旗下昆仑芯计划赴港上市，目标估值高达500亿美元。"
         },
         {
-          "title": "Asian AI startups launch Mythos-like models",
-          "summary": "亚洲AI初创公司推出类似Mythos的模型，展现区域创新活力。"
+          "title": "芬兰计划到 2031 年用 AI 全面改造公共部门，将取代部分员工",
+          "summary": "芬兰宣布到2031年用AI全面改造公共部门，部分岗位将被替代。"
+        },
+        {
+          "title": "“物理AI第一股”Momenta开启招股：14家超豪华基石护航",
+          "summary": "自动驾驶公司Momenta启动港股招股，获14家顶级基石投资者认购。"
         }
       ]
     },
@@ -43,16 +47,12 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
-          "summary": "新研究提出DSpark方法，通过推测解码显著加速大模型推理过程。"
+          "title": "DeusData /codebase-memory-mcp",
+          "summary": "开源项目codebase-memory-mcp登顶GitHub趋势榜，实现代码库记忆与上下文管理。"
         },
         {
-          "title": "CVPR 2026最热方向，被一家杭州团队率先跑进了端侧！",
-          "summary": "杭州团队将CVPR 2026热门研究方向率先实现端侧部署，推动边缘AI发展。"
-        },
-        {
-          "title": "四大顶级 AI 对决《文明 VI》！Claude「核平」法国，结果还是输了",
-          "summary": "四大AI在《文明VI》中对抗，Claude虽使用核武器但仍未能获胜，展现AI策略局限性。"
+          "title": "“词元盗用”正在成为AI商业化面临的新风险",
+          "summary": "研究指出“词元盗用”成为AI商业化中新的安全与版权风险。"
         }
       ]
     },
@@ -60,17 +60,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "Do we still need to study algorithms now that AI writes most of our code? [D]",
-          "summary": "讨论在AI编写大部分代码的背景下，学习算法是否仍有必要，引发教育反思。"
+          "title": "梁文锋署名的DSpark，看懂这10个点就够了！",
+          "summary": "深度解读梁文锋署名论文DSpark的10个关键要点，揭示模型设计思路。"
         },
         {
-          "title": "早报｜GPT-5.6正式亮相，但你可能还用不了/微软将上调Xbox主机价格/大疆回应Pocket 4P开售秒空",
-          "summary": "GPT-5.6虽发布但使用受限，同时微软上调Xbox价格，大疆新品热销。"
+          "title": "I used Claude Code to get a second opinion on my MRI",
+          "summary": "用户分享使用Claude Code分析个人MRI影像的实践，展示AI在医疗辅助中的潜力。"
+        },
+        {
+          "title": "不设KPI，MiniMax发6亿港元股票，员工满年限即可全拿",
+          "summary": "MiniMax推行无KPI激励，向员工发放6亿港元股票，满年限即可兑现。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦GPT-5.6发布与安全警告，模型竞争白热化，端侧AI和推理优化成热点，行业应用反思增多。",
-  "generated_at": "2026-06-28T12:06:46.436495+08:00",
+  "summary": "今日AI圈聚焦于模型开源与性能突破，同时金融风险与公共部门改革引发广泛讨论。",
+  "generated_at": "2026-06-29T12:13:31.576846+08:00",
   "source_count": 20
 }
