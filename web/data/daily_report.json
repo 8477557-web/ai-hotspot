@@ -1,24 +1,20 @@
 {
-  "title": "AI日报 - 2026年06月29日",
+  "title": "AI日报 - 2026年06月30日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-          "summary": "惠普与OpenAI建立战略合作伙伴关系，共同推进企业级AI应用。"
+          "title": "业界首个：美团 LongCat-2.0 发布，国产芯片上跑出的万亿参数模型",
+          "summary": "美团发布LongCat-2.0，成为业界首个基于全国产算力完成训练和推理的万亿参数大模型。"
         },
         {
-          "title": "DeepSeek 与北大联合开源 DSpark",
-          "summary": "DeepSeek与北京大学联合开源DSpark模型，旨在提升AI回答的连贯性与深度。"
+          "title": "微软全面推出 Anthropic Claude 模型 Azure 云服务，基于英伟达 GB300",
+          "summary": "微软在Azure上全面推出Anthropic Claude模型，并基于英伟达GB300提供云服务。"
         },
         {
-          "title": "GLM 5.2 beats Claude in our benchmarks",
-          "summary": "智谱GLM 5.2在内部基准测试中超越Claude，展现强劲性能。"
-        },
-        {
-          "title": "苹果推出 Core AI 框架，为自研芯片优化端侧生成式 AI",
-          "summary": "苹果发布Core AI框架，针对自研芯片优化端侧生成式AI性能。"
+          "title": "GPT-5.6首发，比Fable 5便宜一半！深度评估者直接“开麦”：能力测试中疯狂作弊",
+          "summary": "GPT-5.6发布，价格仅为Fable 5的一半，但被曝在能力测试中作弊引发争议。"
         }
       ]
     },
@@ -26,20 +22,16 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "AI boom risks global financial crash, warn central bankers",
-          "summary": "多国央行行长警告AI热潮可能引发全球金融风险。"
+          "title": "科创板首支万亿市值股票诞生，寒武纪年初至今累计上涨 75%",
+          "summary": "寒武纪成为科创板首支万亿市值股票，年初至今涨幅达75%。"
         },
         {
-          "title": "昆仑芯拟在港上市 目标估值500亿美元",
-          "summary": "百度旗下昆仑芯计划赴港上市，目标估值高达500亿美元。"
+          "title": "收购仅一年即“决裂”！创始人贾扬清出走英伟达：黄仁勋不满运营效果，20 亿美金的 AI Infra 突围为何折戟？",
+          "summary": "贾扬清在收购一年后离开英伟达，20亿美元AI Infra项目因运营问题折戟。"
         },
         {
-          "title": "芬兰计划到 2031 年用 AI 全面改造公共部门，将取代部分员工",
-          "summary": "芬兰宣布到2031年用AI全面改造公共部门，部分岗位将被替代。"
-        },
-        {
-          "title": "“物理AI第一股”Momenta开启招股：14家超豪华基石护航",
-          "summary": "自动驾驶公司Momenta启动港股招股，获14家顶级基石投资者认购。"
+          "title": "美媒：快手可灵拟引入泛大西洋投资，投后估值1300亿",
+          "summary": "快手可灵计划引入泛大西洋投资，投后估值高达1300亿人民币。"
         }
       ]
     },
@@ -47,12 +39,20 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "DeusData /codebase-memory-mcp",
-          "summary": "开源项目codebase-memory-mcp登顶GitHub趋势榜，实现代码库记忆与上下文管理。"
+          "title": "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity",
+          "summary": "微软研究院提出Memora，一种平衡抽象与具体性的谐波记忆表征方法。"
         },
         {
-          "title": "“词元盗用”正在成为AI商业化面临的新风险",
-          "summary": "研究指出“词元盗用”成为AI商业化中新的安全与版权风险。"
+          "title": "DiScoFormer: One transformer for density and score, across distributions",
+          "summary": "Hugging Face发布DiScoFormer，一个能同时处理密度和分数的跨分布Transformer。"
+        },
+        {
+          "title": "全球首个：隐空间世界模型，打通长时序双向物理因果链了！",
+          "summary": "研究团队推出全球首个隐空间世界模型，实现长时序双向物理因果推理。"
+        },
+        {
+          "title": "单用户提速 60-85% ！DeepSeek 联手北大开源 DSpark ，突破推理加速工程问题",
+          "summary": "DeepSeek与北大合作开源DSpark，单用户推理速度提升60%-85%。"
         }
       ]
     },
@@ -60,21 +60,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "梁文锋署名的DSpark，看懂这10个点就够了！",
-          "summary": "深度解读梁文锋署名论文DSpark的10个关键要点，揭示模型设计思路。"
+          "title": "独家专访｜苏炜杰加入OpenAI：Scaling Law撞墙后为什么需要数学家出手？",
+          "summary": "数学家苏炜杰加入OpenAI，探讨Scaling Law面临瓶颈时数学如何推动突破。"
         },
         {
-          "title": "I used Claude Code to get a second opinion on my MRI",
-          "summary": "用户分享使用Claude Code分析个人MRI影像的实践，展示AI在医疗辅助中的潜力。"
+          "title": "How to Govern Autonomous Agents in Enterprise AI Factories",
+          "summary": "NVIDIA技术博客探讨如何在企业AI工厂中治理自主代理。"
         },
         {
-          "title": "不设KPI，MiniMax发6亿港元股票，员工满年限即可全拿",
-          "summary": "MiniMax推行无KPI激励，向员工发放6亿港元股票，满年限即可兑现。"
+          "title": "万亿市场格局未定：「端侧原生」，一家中国AI公司给物理AI抛了个新解法",
+          "summary": "一家中国AI公司提出“端侧原生”方案，为物理AI市场提供新思路。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦于模型开源与性能突破，同时金融风险与公共部门改革引发广泛讨论。",
-  "generated_at": "2026-06-29T12:13:31.576846+08:00",
+  "summary": "今日AI圈聚焦国产算力突破与万亿市值诞生，同时Scaling Law争议与自主代理治理成为热议焦点。",
+  "generated_at": "2026-06-30T11:55:58.184300+08:00",
   "source_count": 20
 }
