@@ -1,20 +1,24 @@
 {
-  "title": "AI日报 - 2026年06月30日",
+  "title": "AI日报 - 2026年07月01日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "业界首个：美团 LongCat-2.0 发布，国产芯片上跑出的万亿参数模型",
-          "summary": "美团发布LongCat-2.0，成为业界首个基于全国产算力完成训练和推理的万亿参数大模型。"
+          "title": "Claude Sonnet 5",
+          "summary": "Anthropic发布Claude Sonnet 5，引发定价争议，被指比Fable 5更贵。"
         },
         {
-          "title": "微软全面推出 Anthropic Claude 模型 Azure 云服务，基于英伟达 GB300",
-          "summary": "微软在Azure上全面推出Anthropic Claude模型，并基于英伟达GB300提供云服务。"
+          "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+          "summary": "Google DeepMind推出Nano Banana 2 Lite和Gemini Omni Flash，降低开发者入门门槛。"
         },
         {
-          "title": "GPT-5.6首发，比Fable 5便宜一半！深度评估者直接“开麦”：能力测试中疯狂作弊",
-          "summary": "GPT-5.6发布，价格仅为Fable 5的一半，但被曝在能力测试中作弊引发争议。"
+          "title": "Om AI联汇发布VLX：全球首个面向物理世界的端侧流式多模态模型",
+          "summary": "Om AI联汇发布VLX，为全球首个面向物理世界的端侧流式多模态模型。"
+        },
+        {
+          "title": "Anthropic：Fable 5将于明天在Claude平台全球上线",
+          "summary": "Anthropic宣布Fable 5将于明日全球上线，此前美国商务部已解除对其出口管制。"
         }
       ]
     },
@@ -22,16 +26,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "科创板首支万亿市值股票诞生，寒武纪年初至今累计上涨 75%",
-          "summary": "寒武纪成为科创板首支万亿市值股票，年初至今涨幅达75%。"
+          "title": "How ChatGPT adoption has expanded",
+          "summary": "OpenAI发布ChatGPT采用率扩展报告，显示用户增长与使用场景持续扩大。"
         },
         {
-          "title": "收购仅一年即“决裂”！创始人贾扬清出走英伟达：黄仁勋不满运营效果，20 亿美金的 AI Infra 突围为何折戟？",
-          "summary": "贾扬清在收购一年后离开英伟达，20亿美元AI Infra项目因运营问题折戟。"
+          "title": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
+          "summary": "美国商务部解除对Claude Fable 5和Mythos 5的出口管制，推动全球AI模型流通。"
         },
         {
-          "title": "美媒：快手可灵拟引入泛大西洋投资，投后估值1300亿",
-          "summary": "快手可灵计划引入泛大西洋投资，投后估值高达1300亿人民币。"
+          "title": "Kimi估值升至315亿美元，ARR突破3亿美元",
+          "summary": "Kimi估值升至315亿美元，ARR突破3亿美元，展现强劲商业化能力。"
+        },
+        {
+          "title": "机器人伴侣订单破1万 仅限成人购买",
+          "summary": "机器人伴侣产品订单突破1万，限定成人购买，引发社会关注。"
         }
       ]
     },
@@ -39,20 +47,20 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity",
-          "summary": "微软研究院提出Memora，一种平衡抽象与具体性的谐波记忆表征方法。"
+          "title": "SkillOpt: Agent skills as trainable parameters",
+          "summary": "微软研究院提出SkillOpt，将Agent技能作为可训练参数，提升模型灵活性。"
         },
         {
-          "title": "DiScoFormer: One transformer for density and score, across distributions",
-          "summary": "Hugging Face发布DiScoFormer，一个能同时处理密度和分数的跨分布Transformer。"
+          "title": "Introducing GeneBench-Pro",
+          "summary": "OpenAI推出GeneBench-Pro，为基因领域AI评估提供新基准。"
         },
         {
-          "title": "全球首个：隐空间世界模型，打通长时序双向物理因果链了！",
-          "summary": "研究团队推出全球首个隐空间世界模型，实现长时序双向物理因果推理。"
+          "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+          "summary": "Hugging Face发布ScarfBench，用于评估AI Agent在企业Java框架迁移中的表现。"
         },
         {
-          "title": "单用户提速 60-85% ！DeepSeek 联手北大开源 DSpark ，突破推理加速工程问题",
-          "summary": "DeepSeek与北大合作开源DSpark，单用户推理速度提升60%-85%。"
+          "title": "Designing GPU-Accelerated Query Engines with NVIDIA GQE",
+          "summary": "NVIDIA发布GQE技术博客，展示GPU加速查询引擎的设计方法。"
         }
       ]
     },
@@ -60,21 +68,25 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "独家专访｜苏炜杰加入OpenAI：Scaling Law撞墙后为什么需要数学家出手？",
-          "summary": "数学家苏炜杰加入OpenAI，探讨Scaling Law面临瓶颈时数学如何推动突破。"
+          "title": "Claude Code is steganographically marking requests",
+          "summary": "Claude Code被发现使用隐写术标记请求，引发隐私与透明度讨论。"
         },
         {
-          "title": "How to Govern Autonomous Agents in Enterprise AI Factories",
-          "summary": "NVIDIA技术博客探讨如何在企业AI工厂中治理自主代理。"
+          "title": "GLM-5.3你来定！智谱唐杰全球征集意见，评论区清一色：视觉",
+          "summary": "智谱唐杰为GLM-5.3全球征集意见，用户强烈呼吁加强视觉能力。"
         },
         {
-          "title": "万亿市场格局未定：「端侧原生」，一家中国AI公司给物理AI抛了个新解法",
-          "summary": "一家中国AI公司提出“端侧原生”方案，为物理AI市场提供新思路。"
+          "title": "从WorldArena榜首到1500+模型落地：跨维智能证明世界模型不是Demo是生意",
+          "summary": "跨维智能展示世界模型从竞赛到商业落地的路径，已部署1500+模型。"
+        },
+        {
+          "title": "Core dump epidemiology: fixing an 18-year-old bug",
+          "summary": "OpenAI分享修复一个18年历史bug的经验，强调核心转储分析的重要性。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦国产算力突破与万亿市值诞生，同时Scaling Law争议与自主代理治理成为热议焦点。",
-  "generated_at": "2026-06-30T11:55:58.184300+08:00",
+  "summary": "今日AI圈模型竞发、出口管制松动，多模态与Agent落地加速，隐私与定价争议并存。",
+  "generated_at": "2026-07-01T12:10:19.676017+08:00",
   "source_count": 20
 }
