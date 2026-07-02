@@ -1,7 +1,51 @@
 {
-  "updated_at": "2026-07-01T12:10:19.835351+08:00",
-  "total_days": 50,
+  "updated_at": "2026-07-02T11:51:53.994843+08:00",
+  "total_days": 51,
   "days": [
+    {
+      "date": "2026-07-02",
+      "total_items": 20,
+      "avg_score": 7.6,
+      "max_score": 8.5,
+      "crowd_hot_count": 3,
+      "avg_crowd_heat": 0.7,
+      "topic_distribution": {
+        "tutorial": 15,
+        "opinion": 6,
+        "analysis": 5,
+        "news": 5,
+        "story": 2,
+        "list": 1,
+        "review": 1,
+        "case_study": 1
+      },
+      "source_distribution": {
+        "T1": 2,
+        "T2": 18
+      },
+      "top_keywords": [
+        [
+          "Claude",
+          2
+        ],
+        [
+          "Hugging Face",
+          1
+        ],
+        [
+          "Cerebras",
+          1
+        ],
+        [
+          "Gemma",
+          1
+        ],
+        [
+          "OmniRoute",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-07-01",
       "total_items": 20,
