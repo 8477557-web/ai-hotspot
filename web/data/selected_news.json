@@ -1,168 +1,57 @@
 {
-  "updated_at": "2026-07-02T11:51:53.843874+08:00",
+  "updated_at": "2026-07-03T11:32:53.392809+08:00",
   "total": 20,
   "items": [
     {
-      "id": "b78095ea325f",
-      "source_id": "huggingface-blog",
-      "source_name": "Hugging Face Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-      "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-      "summary": "",
-      "published": "2026-07-01T08:00:00+08:00",
-      "fetched_at": "2026-07-02T11:50:22.014589+08:00",
-      "pre_filter_reason": "Hugging Face and Cerebras AI voice model.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Hugging Face + Cerebras 联手：如何用 Gemma 4 搭建实时语音 AI",
-          "angle": "手把手教学，展示如何利用 Hugging Face 的模型库和 Cerebras 的硬件加速，快速构建一个低延迟的实时语音交互应用。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "实时语音 AI 新突破：Hugging Face 与 Cerebras 的合作意味着什么？",
-          "angle": "分析此次合作对语音 AI 开发者和行业的影响，探讨其如何降低实时语音应用的开发门槛。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "56599457bb46",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "diegosouzapw /OmniRoute",
-      "link": "https://github.com/diegosouzapw/OmniRoute",
-      "summary": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
-      "published": "2026-07-02T11:50:48.009496+08:00",
-      "fetched_at": "2026-07-02T11:50:48.009500+08:00",
-      "pre_filter_reason": "AI gateway for multiple LLM providers",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "OmniRoute 入门：一个 API 连接 231 个 AI 模型（含 50+ 免费）",
-          "angle": "介绍 OmniRoute 的配置方法，演示如何通过单一网关调用 Claude、GPT、Gemini 等模型，并展示其 token 压缩和自动回退功能。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "list",
-          "title": "2025 年最省钱的 AI 网关：OmniRoute 的 5 大核心功能解析",
-          "angle": "盘点 OmniRoute 的免费模型支持、智能回退、多模态 API 等特性，帮助开发者降低 API 调用成本。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "5677cabf0496",
-      "source_id": "36kr",
-      "source_name": "36氪",
+      "id": "bac65d12816f",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "独家｜清华系初创完成数亿元种子轮融资：我们不想被贴上「世界模型」的标签",
-      "link": "https://36kr.com/p/3877109751803904?f=rss",
-      "summary": "<p><strong>文｜周鑫雨</strong></p>\n  <p><strong>编辑｜张雨忻</strong></p>\n  <p>《长安的荔枝》，是 97 年清华博导李一鸣很喜欢的故事。</p>\n  <p>故事里，为了将“一日色变”的鲜荔枝从岭南运到长安，小吏李善德必须解决保鲜、驿站、路线、补给等一系列环环相扣的难题——没有这套完整系统，鲜荔枝寸步难行。</p>\n  <p>这个设定在唐朝的故事，在李一鸣眼中，却与当下的“世界模型”赛道，形成了巧妙的互文：</p>\n  <p>Physical AI（物理AI）的场景、解决的问题，是“鲜荔枝”；为了达到“运送”的目的，从业者们同样需要构建一整套涵盖数据采集、模型研发、硬件部署的系统方案。</p>\n  <p>“世界模型的第一性原理，不是走什么技术路线，而是最终解决什么问题。”他告诉《智能涌现》，<strong>所谓的世界模型，只是“一匹运送荔枝的马”，是解决问题的一条技术路线，离开其它环节的配合，将毫无价值。</strong></p>\n  <p>然而，2026 年初，当这名前英伟达 Vision &amp; Robotics 研究员，以清华大学人工智能学院助理教授的身份回到国内，他看到的 AI 赛道，正在陷入一场对“世界模型”的巨大 FOMO。</p>\n  <p>世界模型，2026 年最具迷惑性的概念之一，派系林立，众说纷纭。</p>\n  <p>非共识和想象力，又让世界模型成为当下估值泡沫最大的一个赛道。无论视频模型、3D 模型，还是走 VLA（视觉-语言-行动）路线的具身大脑，只要能和仿真、物理沾上边，都将自己划为“世界模型”的阵营。</p>\n  <p>相对的，李一鸣觉得，比厘清世界模型定义更重要的，反而是厘清一套让各种机器人在各个场景中泛化的系统。</p>\n  <p>近期，李一鸣团队提出了一套由数据和物理双轮驱动的<strong>Physical&nbsp;AI&nbsp;Infra</strong>。其中包含两个自研组件：</p>\n  <p><strong>数据管线</strong>：将数据采集量级快速规模化，从几十万小时的行业平均量级，提升到百万到千万小时。</p>\n  <p><strong>物理引擎</strong>：实现 Real-to-Sim-Real 的闭环，也就是基于真实世界数据，构建一个仿真世界，用于机器人对物理世界的强化学习，最后在真实世界中执行任务。</p>\n  <p>即便世界模型并非一个独立组件，它仍然渗透在这套系统设施的每一个环节中。比如，基于采集到的数据，系统会将“世界模型”作为预训练的目标；在后训练环节，“世界模型”又会成为机器人进行强化学习的仿真环境。</p>\n  <p>该基础设施能够实现切割、旋拧、插拔、搅拌、按压、捏取、穿引等精细操作技能的训练，并在不同类型的灵巧手、机械臂等本体间跨形态部署，同时可适配生产制造、零售服务、酒店运营、餐饮备料、医疗辅助等多元场景。</p>\n  <p>这套技术方案，也被 2026 年 4 月成立的「厘清智能」所采用。背靠李一鸣团队，这个 Physical AI 领域的新玩家，<strong>成立短短两个月内，便完成了多轮融资</strong>。</p>\n  <p>《智能涌现》独家获悉，<strong>厘清智能的种子轮融资金额高达数亿元，投资方包括顺为资本、红杉中国、高瓴创投、峰瑞资本、星连资本、水木清华校友种子基金、SEE FUND等基金，以及智元机器人、灵心巧手、世纪金源等多方产业资本。</strong></p>\n  <p>稀缺性，是让一级市场押注厘清的重要理由。</p>\n  <p>一方面是软硬一体的人才。李一鸣的履历，横跨空间感知、多模态推理、自动驾驶以及具身智能。</p>\n  <p>在纽约大学读博期间，他与谢赛宁（AMI Labs 联合创始人兼首席科学家）合作发表了具身视觉推理的研究成果；同时，他与英伟达联合发表了多篇 CVPR 与 NeurIPS 亮点论文，并获得了2024年度英伟达奖学金（全球仅 10 位）。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260701/v2_2030459cbd70499ebab2e092005b869b@5783683_oswg67585oswg1080oswg1072_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">△ 李一鸣。图源：受访者供图</p>\n  <p>厘清团队的 50 余名成员，大多是清华的学生，平均年龄 23 岁。“软硬一体的人才在国内很稀缺，所以清华给我们提供了很好的人才平台，”李一鸣告诉我们。</p>\n  <p>另一方面，则是厘清技术路线的稀缺性。李一鸣大胆选择了一条“很重”的路线：从数据采集，到模型训练，到物理引擎，全栈自研。</p>\n  <p>这在国内相当少见。前期的巨大投入、跨软硬的技术难度，已经劝退了一大波公司。但李一鸣认为，<strong>只有打通所有的环节，信息流才能在不同环节、不同模块中畅通无阻，不同环节才能协同优化。</strong></p>\n  <p>在李一鸣的规划中，今年年底前，团队将发布可以跨 B 端场景的世界模型；2028 年，厘清将实现解决方案的规模化。最终，他的目标是交付给客户一套软硬一体的解决方案，跨本体、跨场景地解决问题。</p>\n  <p>近期，《智能涌现》与李一鸣聊了聊他的技术判断，以及对世界模型、Physical AI 的判断。</p>\n  <p>以下是《智能涌现》对李一鸣观点的整理：</p>\n  <h2><strong>Physical AI 公司，不是本体公司，也不是模型公司</strong></h2>\n  <p><strong>🤖 我们做的不只是世界模型，而是一套系统。</strong></p>\n  <p>我们不以技术路线为导向，而是以实际问题为导向。训练世界模型的目的，不是为了训模型，而是为了解决 Physical AI（物理 AI）的一些问题，去迭代优化任务的成功率。</p>\n  <p>所以，我们不在意世界模型具体是什么，而是怎么将数据、模型、硬件、Infra 耦合成一个系统，最后成为一个能在场景中 work 的世界模型。</p>\n  <p>我们的目标是构建数据和物理双轮驱动的一套生态，“世界模型”渗透在每个环节中：</p>\n  <p>预训练过程，是将“世界模型”作为自监督的训练目标，同时对 state（状态）和 action（行动）进行建模；后训练过程，是将“世界模型”封为可交互的环境，机器人可以在环境中进行强化学习。</p>\n  <p>厘清智能其实不只是一家“世界模型公司”。整个团队做的是包含了数据管线、世界模型、物理引擎的一整套系统，所谓的“模型”只是其中的一个技术组件。</p>\n  <p><strong>🤖 新一代的 Physical&nbsp;AI&nbsp;团队，核心特点是全栈。</strong></p>\n  <p>从数采设备到数据管线，从可微物理引擎到模型训练，我们全部自建：</p>\n  <p>自研的全掌触觉手套等设备，将单套成本从美元压到人民币量级，实现数采规模化，达到百万小时量级。</p>\n  <p>自研的可微物理引擎，实现了 Real-to-Sim-Real 的闭环，可以建模复杂材质比如流体，软体、弹塑性形变物体，成为高效的强化学习后训练平台。</p>\n  <p>基于广泛场景中采集的数据，以及后训练物理引擎，我们自研的世界模型操作系统，既能快速泛化到各个场景，也能实现 cross-embodiment（跨本体）。</p>\n  <p><strong>🤖 新时代的具身公司，不应该是本体公司，也不应该是模型公司，而是一家 World Model as Service 公司。</strong></p>\n  <p>未来随着数据量的快速积累，我们可以实现快速的跨本体泛化，最终交付给客户的不是世界模型，而是一套软硬一体系统。</p>\n  <p>这套系统可以根据落地场景和客户预算自动匹配最优硬件方案，开箱即用。</p>\n  <p><strong>🤖 Physical&nbsp;AI&nbsp;的人才画像，是软硬一体。</strong></p>\n  <p>清华提供了很好的人才平台，我们团队的平均年龄是 03 年，甚至有 07 年的大一学生。</p>\n  <p>Physical AI 的人才画像，和 LLM 不太一样，我们需要的是软硬一体的人才。目前这样的人是非常稀缺的，因为我们的培养体系还在日渐成熟的过程中。</p>\n  <p>所以我们找到好苗子后会自己培养。现在的学生在一个好的团队中差不多半年、一年的时间，就能突飞猛进。</p>\n  <h2><strong>不能只做数据采集，忽视物理规律</strong></h2>\n  <p><strong>🤖 具身模型的参数至少要达到语言模型的量级，甚至还要比语言模型再高几个量级，才有可能谈“智能涌现”。</strong></p>\n  <p>语言是已经被压缩过的世界规则，现在都需要几百B的参数量，基于自然信号训练的具身模型，需要更多的数据与参数量。</p>\n  <p><strong>🤖 人类数据比真机数据更好 scale up（规模化）。</strong></p>\n  <p>全中国有几亿人在一线工作、在家庭中生活。相较于你操纵机器人采集数据，带着设备的真人采集数据的效率高许多，毕竟 scale up 人数，比 scale up 机器数量或者采集时长容易得多。</p>\n  <p>目前，我们已经找到了工厂、酒店、物业、商场、厨房等可规模化的场景方合作，短时间内会快速积累到百万小时的数据量。</p>\n  <p><strong>🤖 做一整套 Physical AI Infra，只靠数据采集是不现实的，还需要很多物理规律。</strong></p>\n  <p>现阶段采集到的数据量，还不支持 Physical AI 自主泛化到所有场景。然而，现实世界有很多场景，就连两个苹果都长得不一样，不可能将所有场景的数据都采一遍。</p>\n  <p>物理规律现阶段可以补足数据的局限性。所谓的物理规律，就像牛顿定律、纳维-斯托克斯方程（粘性牛顿流体运动规律），是人类对物理世界规则的总结，具有一定的通用性。</p>\n  <p><strong>🤖&nbsp;厘清智能设计了一套满足物理约束的世界模型方案，可以用别人 1% 的真机数据量训练策略模型，达到相同的成功率。</strong></p>\n  <p>我们先通过真机采集少量数据，再将真机数据的 state transition（状态转移，指世界状态随行动产生的改变）和物理世界模型的 state transition 进行对齐，并将 loss（损失函数，指模型犯错的程度）回传，进而不断优化世界模型。</p>\n  <p>这样做的好处是，我们只需要少量的真实数据，“校准”世界模型建模的状态转移，就能让机器人在虚拟世界中自主学习。</p>\n  <p>举个例子，以前机器人学习切苹果，需要切坏成百上千个材料；现在只需要真切十次，剩下的练习都可以在物理世界模型中完成。</p>\n  <h2><strong>VLA、视频模型、JEPA，都不是「原生世界模型」</strong></h2>\n  <p><strong>🤖&nbsp;世界模型负责机器和世界的交互，语言模型负责机器和人的交互。</strong></p>\n  <p><strong>现在大家都意识到，基于 LLM 做 VLM（视觉-语言模型）、做 VLA（视觉-语言-行为模型），本质上与物理世界没有那么适配。</strong></p>\n  <p><strong>因为语言模型是一个高度离散化的空间。简单来说，我们跟世界打交道，总结出了一套语法规则。但是每个国家的语种都不一样，语言也充满了人对世界的 bias（偏见），而且有很多东西是无法用语言讲清楚的。</strong></p>\n  <p><strong>本质上，语言的目的是交流，是人机交互的界面，而不是一个模态。模态是你对世界的观测，语言则是你摄入信号后的总结。所以训练世界模型，语言不是中心，而是辅助的。</strong></p>\n  <p><strong>🤖 世界模型的训练同时需要 SFT（监督微调）加上 RL（强化学习）。</strong></p>\n  <p><strong>世界模型需要在物理世界中做 SFT，但物理数据的量是不够的，所以我们需要自己采集数据，建立数据标准。</strong></p>\n  <p><strong>LLM 在后训练过程中可以生成任意的词元，但世界模型必须遵守物理规律，所以我们自研了可微物理引擎，让后训练可以在满足物理约束的前提下进行。</strong></p>\n  <p><strong>因此，世界模型的训练是一套 system，需要联合预训练、后训练，以及数据 Infra 和硬件 Infra，才能实现训练效益最大化。</strong></p>\n  <p><strong>🤖 全栈打通感知、推理、决策、动作输出，并且面向机器和世界交互任务设计的，才是“原生世界模型”。</strong></p>\n  <p><strong>VLA 是非原生的世界模型，因为它的表征是离散的语言空间，不是真实世界；JEPA（联合嵌入预测架构）只能预测状态（state），但无法输出动作。</strong></p>\n  <p><strong>视频生成模型也不是原生世界模型，因为推理过程不是原生的。它生成的像素，只能拟合世界的表象，很难保证复杂任务策略学习需要的几何与物理一致性。</strong></p>\n  <p><strong>🤖 训练“原生世界模型”，关键是如何将物理世界高效 tokenization（表征）。</strong></p>\n  <p><strong>多模态观测——视觉、触觉、力觉——如何被压缩成模型可消化、可推理的 Token 序列，直接决定了模型能理解什么，不能理解什么。这层表征质量，是后续所有能力的天花板。</strong></p>\n  <p><strong>我们是全球少数能将表征端 tokenization 的公司，也就是将物理世界，高效压缩为机器容易理解和学习的 Token。</strong></p>\n  <p><strong>这套体系的壁垒不在技术，而是认知。它需要很强的 Know-How，需要你知道整一套生态系统该怎么搭建。比如，数据怎么清洗？模型怎么优化？这些问题都有很强的认知壁垒。</strong></p>\n  <p><strong>目前，我们团队内部训练的视觉 tokenizer（表征器，用于将物理世界转译为 Token），效果已经优于 Meta 的视觉基础模型 DINOv3。后续物理世界的高效表征也会是我们团队的重点研究方向。</strong></p>\n  <p><strong>🤖 如何构建 Physical AI 的 Infra，是训练世界模型的另一个难题。</strong></p>\n  <p><strong>除了构建数据平台，我们还需要设计好物理引擎 Infra。比如，如何让物理引擎去高效建模柔性物体、流体的 state，从而高效计算 state transition。只有这样，机器人才能在物理引擎中做强化学习。</strong></p>\n  <p><strong>如果一家公司所谓的“Infra”，只能支持本体做一些简单的抓取，那就不叫真正的 Physical AI Infra。</strong></p>\n  <p><strong>真正的 Physical AI Infra，能够让你不断优化数据效率，提升复杂任务上预训练和后训练的效果；或者在短程任务上训练后，能够泛化部署在复杂的长程任务上。</strong></p>\n  <h2><strong>2028 年会是 Physical AI 规模化落地的 milestone</strong></h2>\n  <p><strong>🤖 轮臂是适配大多操作场景的硬件落地形态。</strong></p>\n  <p><strong>人形机器人的想象空间很大，但技术难度也很大。比如，目前的负载能力（payload）会限制人形机器人执行需要较大力量和复杂操作的任务；对人体的各个部位进行精准建模，也是一个难题。</strong></p>\n  <p><strong>因此，我们目前部署的硬件形态以轮臂为主，也就是带有轮子的机械臂。不同的机械臂、灵巧手会在各种细分场景中，去做泛化。</strong></p>\n  <p><strong>🤖 前期，我们要更积极地与场景方合作。</strong></p>\n  <p><strong>数据的规模化、包括机器的后训练，都离不开和与真实场景方的合作。</strong></p>\n  <p><strong>我们的场景切入模式是。先 ToB，后 ToC。在 B 端积累的数据和技能，最后都能用到 C 端。</strong></p>\n  <p><strong>在 B 端，我们会先切入工业场景、物流场景，以及生活类、消费类的场景，这些场景工种有很强的替代性和高度重复性，客户也有很强的降本提效需求。</strong></p>\n  <p>当然，硬件成本完全压到低于人力成本，肯定需要一个过程。但最重要的是先把场景铺开，这样才能不断优化模型性能，以及加快成本的边际效应。</p>\n  <p><strong>🤖 我们的终极目标是做通用 Physical AI Infra。</strong></p>\n  <p>我们的终极目标，是把这套系统封装为一款通用的 Physical AI Infra。</p>\n  <p>它不是针对某个任务、某个硬件的专用方案，而是一个能够部署在不同物理环境中的基础平台——像 iOS 之于移动应用一样，让各类物理操作任务可以规模化开发和部署。</p>\n  <p>这便是我们的“荔枝系统”。 而驱动其底层的核心能力，则来自两方面的坚实支撑：一整套原生世界模型架构，以及一套数据与物理双轮驱动的训练与评测基础设施。</p>\n  <p>2028年会是 Physical AI 的一个 milestone。根据我的推测， 数采的规模，以及电机密度都会实现跃升。到时，我们的方案才能规模化地落地。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260701/v2_7c9bdbd611c44b0f9502f11f876b8f95@5783683_oswg649725oswg1389oswg517_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">欢迎交流！</p>",
-      "published": "2026-07-01T21:21:17+08:00",
-      "fetched_at": "2026-07-02T11:50:23.622552+08:00",
-      "pre_filter_reason": "内容讨论'Physical AI'和'世界模型'，明确涉及AI领域。",
+      "title": "阿里达摩院：AI 智能体发现 4 种全新超导材料，已获实验验证",
+      "link": "https://www.ithome.com/0/972/089.htm",
+      "summary": "<p>IT之家 7 月 3 日消息，阿里达摩院通过公众号宣布，7 月 3 日（今天），阿里达摩院联合中国人民大学、中国科学院大学等发布首个超导材料发现 AI 智能体 Elements Claw，预测出 6.8 万个可能的超导材料，其中 4 种全新材料已合成并证实存在超导性。相关数据已全部开放。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/b23362d6-e1bd-4c47-b2bc-063ee1e5eef0.png?x-bce-process=image/format,f_auto\" /></p><p>目前，国际主流超导数据库 SuperCon 历经数十年积累，仅收录约 2000 种材料。为此，阿里达摩院发挥 AI for Science 技术优势，联合中国人民大学、中国科学院大学等机构研发 ElementsClaw，<strong>不仅可预测材料是否具有超导性，更能像人类材料学家一样查阅文献、评估合成可行性、设计实验方案</strong>，大幅提升材料发现效率和成功率。</p><p>据IT之家了解，ElementsClaw 采用“专通融合”架构。专有模型层面，团队基于<strong>包含 1.25 亿个分子和晶体结构</strong>的数据库，预训练出 1B 参数原子基础模型 Elements，判断材料是否具有超导性的 AUC 达 0.996，预测材料超导临界温度的平均误差在 1K 以内。通用智能体框架层面，ElementsClaw 实现了工具制造、流程编排、文献复核等整套自动化材料筛选流程，并能在文献中挖掘到新线索后“自我进化”。</p><p>AI 仅用 28 个 GPU 小时完成 240 万晶体结构筛选，预测出 6.8 万个超导候选材料。研究团队已实验合成并验证其中 4 种：</p><ul class=\" list-paddingleft-2\"><li><p>从现有数据库中捞出的“漏网之鱼”Hf<sub>21</sub>Re<sub>25</sub></p></li><li><p>纠正数据库构型错误后“正名”的 Zr<sub>4</sub>VRe<sub>7</sub></p></li><li><p>AI 从头设计生成的 HfZrRe<sub>4</sub></p></li><li><p>基于类似结构举一反三得到的 Zr<sub>3</sub>ScRe<sub>8</sub>，临界温度最高达 6.5K。</p></li></ul><p>达摩院科学智能负责人荣钰表示，这是 AI 智能体发现并获验证的第一批超导材料，初步验证了 AI 智能体框架在材料发现领域的潜力。后续，大量候选材料仍待探索。达摩院开放了 ElementsClaw 预测的所有 240 万稳定晶体的数据库，科研人员可免费使用。</p><p>中国人民大学高瓴人工智能学院副教授黄文炳表示，该 AI 智能体也有望应用于发现<strong>固态电池电解质、多相催化剂和热电材料</strong>等新材料。</p><p style=\"text-align: center;\"><img alt=\"图片\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/0e41c936-1a98-415b-9bb8-4932db9c4c1c.png?x-bce-process=image/format,f_auto\" /></p><ul class=\"custom_reference list-paddingleft-1\"><li class=\"list-undefined list-reference-paddingleft\"><p>论文链接：<a href=\"https://arxiv.org/abs/2604.23758\" target=\"_blank\">Agentic Fusion of Large Atomic and Language Models to Accelerate Superconductor Discovery</a></p></li><li class=\"list-undefined list-reference-paddingleft\"><p>超导数据库链接：<a href=\"https://science.damo-academy.com/#/material\" target=\"_blank\">DAMO AI for Science Portal</a></p></li></ul>",
+      "published": "2026-07-03T11:27:15+08:00",
+      "fetched_at": "2026-07-03T11:31:38.326550+08:00",
+      "pre_filter_reason": "AI智能体发现超导材料，属于AI研究/应用",
       "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "清华系初创获数亿元融资：为什么他们拒绝「世界模型」标签？",
-          "angle": "解读该公司的技术路线与市场定位，分析其避开“世界模型”概念背后的战略考量与行业趋势。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "story",
-          "title": "从《长安的荔枝》到 Physical AI：一个清华博导的系统工程哲学",
-          "angle": "以创始人李一鸣喜爱的故事为引子，讲述其团队如何用系统工程思维解决 Physical AI 中的复杂问题。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "b2862ac2d5f5",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "OpenSquilla 发布 0.4.0：AI 写代码首次能“自我验证”",
-      "link": "https://www.qbitai.com/2026/07/441240.html",
-      "summary": "OpenSquilla 上线后数周内 GitHub star 增至数千量级",
-      "published": "2026-07-01T15:32:23+08:00",
-      "fetched_at": "2026-07-02T11:50:33.826259+08:00",
-      "pre_filter_reason": "AI写代码自我验证，属于AI模型/产品新闻",
-      "scores": {
-        "importance": 8,
+        "importance": 9,
         "timeliness": 9,
         "actionability": 8,
         "scarcity": 9,
         "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.8,
+      "quality_score": 8.0,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "OpenSquilla 0.4.0 新功能实测：AI 写代码如何实现“自我验证”？",
-          "angle": "通过实际代码示例，演示 OpenSquilla 的自我验证机制，展示其如何自动检测和修正生成代码中的错误。",
+          "title": "AI如何发现超导材料？3分钟看懂Elements Claw",
+          "angle": "用通俗语言拆解AI智能体发现超导材料的技术流程，从预测到实验验证，适合对AI和材料科学感兴趣的普通观众。",
           "difficulty": "入门"
         },
         {
-          "tag": "news",
-          "title": "GitHub 星标飙升！OpenSquilla 0.4.0 让 AI 编程进入“自检时代”",
-          "angle": "报道 OpenSquilla 的最新版本发布，重点介绍“自我验证”功能对 AI 编程效率和安全性的提升。",
-          "difficulty": "入门"
+          "tag": "analysis",
+          "title": "4种全新超导材料诞生，AI科研时代来了？",
+          "angle": "分析阿里达摩院这一成果的意义：AI在材料科学领域的突破如何改变传统研发模式，以及开放数据对行业的影响。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "82b8366f2304",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
+      "id": "bcb74eddd4a3",
+      "source_id": "qbitai",
+      "source_name": "量子位",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "他山科技联合图灵奖得主萨顿共建“机器人幼儿园”，具身智能从“模仿时代”迈向“经验时代”",
-      "link": "https://www.leiphone.com/category/industrynews/LaVawKu3UpUILUSR.html",
-      "summary": "<p style=\"text-indent: 2em;\">雷峰网获悉，6月29日，“触碰真实·自主进化——机器人幼儿园启幕大会”在北京首钢园隆重举行。本次大会由他山科技与OpenMind Global Research共同发起，由北京具身智能研究院联合主办。大会上，由他山科技与2024年图灵奖得主、Openmind 全球研究院首席科学家理查德·萨顿（Richard Sutton）教授团队联合共建的“机器人幼儿园”正式揭牌。这是强化学习理论在具身智能领域的首个实体落点，标志着机器人从被动模仿的“数据时代”，正式迈向交互试错的“经验时代”。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260701/6a44af0480686.jpg?imageView2/2/w/740\" /></p><p><strong>一、一个让机器人充满好奇、安全试错的幼儿园</strong></p><p style=\"text-indent: 2em; text-align: justify;\">他山科技董事长孙滕谌在欢迎辞中指出，全球人工智能产业正向“实体生产力”转型，行业亟须一套全新的技术范式。“机器人幼儿园”创新性地以触觉感知为核心突破口，旨在打通强化学习实践全流程能力闭环，让机器人在自主触碰、持续试错中积累经验、迭代进化。</p><p style=\"text-indent: 2em; text-align: justify;\">紧接着，被誉为“强化学习之父”的传奇人物萨顿教授系统性地阐述了机器人幼儿园的核心理念。“在过去70多年，AI一直存在，AI过去的发展一直存在着一种探索，通过试错让机器人持续学习。”萨顿教授援引艾伦·图灵在1950年论文中的洞见：“与其开发一个类似人类一样思考的程序来模拟成年人的思维，不如尝试开发一个模拟儿童思维的程序，让他不断地成长，学会思考。”他指出，过去几十年虽有尝试，但受限于脆弱的硬件，机器人难以获得扎根现实的广泛经验。</p><p style=\"text-indent: 2em; text-align: justify;\">当前硬件已取得巨大进步且成本降低，传统从人类示例中训练出的机器人行为“不够强大”，萨顿教授认为，真正的答案是：机器人必须通过交互学习，通过试错在整个部署的生命周期中实现持续学习，像婴儿一样，从经验的积累、成长当中逐渐地一步步学习。他强调，与他山科技共建的机器人幼儿园实际上是基于这样强大的理念，让机器人在没有人类示例的情况下能够在线学习，“这也是人工智能的一个梦想。”</p><p style=\"text-indent: 2em; text-align: justify;\">随后，作为机器人幼儿园的联合发起者，他山科技CEO马扬从产业角度出发，剖析“为什么要建幼儿园”。他指出，机器人需要的不是孤立的数据而是在交互中持续产生并不断更新的经验。触觉是人类和机器人与客观世界产生交互的唯一通道，只有通过触觉才能真正接触物体，改变目标。他山科技从2017年成立起就聚焦于此，目前，他山科技已有数十万个触觉指尖应用于全球不同的人形机器人。</p><p style=\"text-indent: 2em; text-align: justify;\">“幼儿园”是自主探索真正萌发的阶段，也是孩子开始逐步脱离保护、与物理世界直接交互的阶段。为此，他山科技将为机器人幼儿园提供四个核心条件：允许犯错的机会、安全的探索环境、持续的真实交互、及时而明确的反馈。最后，马扬发出倡议，欢迎所有具身智能从业者一起来做机器人的启蒙者，“我们有足够的耐心，也足够谦虚，因为我们觉得这不只是对具身智能的启蒙时代，也是人类和具身智能一起去迎接碳基和硅基生命共存的启蒙时代。”</p><p><strong>二、一个开放生态的硬核底座</strong></p><p style=\"text-indent: 2em; text-align: justify;\">主题演讲后，在全场倒数声中，嘉宾共同按下启动光柱，“机器人幼儿园”正式揭牌，标志着具身智能从被动模仿正式迈向主动探索的新里程。</p><p style=\"text-indent: 2em; text-align: justify;\">揭牌只是序章，将这一平台真正转化为驱动产业进化的引擎，需要更多同行者携手入场。随后，“机器人幼儿园首批联合共建生态伙伴”启动仪式举行。加速进化、云迹科技、因时机器人、他山科技、Openmind全球研究院、北京市唯实具身智能研究院、北京人形机器人创新中心、节卡机器人、紫东太初等企业与机构代表同台，共同启动生态共建计划。他山科技集结从核心零部件到整机、从算法框架到场景应用的多元力量，合力为机器人打造一个开放、安全、鼓励试错与自主进化的创新生态。</p><p style=\"text-indent: 2em; text-align: justify;\">技术纵深层面，他山科技研发副总裁侯广东与Openmind研究员Dr. Kris De Asis提供了硬核注解。侯广东指出，他山科技与萨顿教授正在探索“真实系统上长程持续学习”的新范式，而在机器人的启蒙阶段，“婴儿最重要的第一感知很可能是触觉”，它将成为“主动探索的基石”。他山科技计划利用触觉定义机器人“疼痛”机制，并驱动机器人内在探索动机。</p><p style=\"text-indent: 2em; text-align: justify;\">Dr. Kris De Asis则提出了“为学习而设计”的突破性理念。他分享：“每当我提到我们应该直接在机器人身上学习的时候，我经常听到一个反对的意见，就是机器人会磨损并且出现故障。”Dr. Kris认为，这是实时学习的一个问题，但也是实时学习的闪光点。因为机器人会将这个情况视为一个新的现实，是必须经历的环境。而且机器人会根据所有的这些磨损以及损坏的情况来学习执行任务。</p><p><strong>三、一次关于成长与价值的对话</strong></p><p style=\"text-indent: 2em; text-align: justify;\">在以“机器人启蒙时代，具身智能如何实现‘自主进化’”为主题的圆桌讨论中，圆桌主持人中国信息通信研究院人工智能研究所具身智能与机器人部副主任张蔚敏开宗明义指出，萨顿教授提出的AI从“数据时代”走向“经验时代”，本质上是在重新定义“智能如何生长”。</p><p style=\"text-indent: 2em; text-align: justify;\">萨顿教授分享了机器人幼儿园的合作渊源：“我们选择他山，是因为他们对触觉的专注，以及与我们共同相信经验学习的力量。”他坦言，他山科技在触觉感知上的深耕，尤其是对试错学习理念的共鸣与快速行动，是双方共建机器人幼儿园的核心原因。</p><p style=\"text-indent: 2em; text-align: justify;\">他山科技董事长孙滕谌阐释了触觉与强化学习的深度融合：“触觉为强化学习提供了安全试错的屏障和感知的时序精度。”电容式触觉的接近觉能力让机器人在碰撞前即可预警规避，大幅降低试错成本；动态触觉技术将时间分辨率提升至微秒级，叠加类脑芯片对“脉冲－时序差分”算法的天然支持，为机器人的自主学习筑牢硬件基础。</p><p style=\"text-indent: 2em; text-align: justify;\">北京人形机器人创新中心CEO熊友军从生态建设切入：“开放的生态比单点突破更重要，我们需要产学研用分层协同。”他倡议，具身智能行业亟需学术研发、他山科技为代表的核心零部件和场景应用三类伙伴，通过开放共享的分层协作机制，加速智能进化与产业落地。</p><p style=\"text-indent: 2em; text-align: justify;\">软银中国管理合伙人宋安澜则从投资视角判断：“过去有教育培训、技术培训，AI时代是机器人的经验培训。”他认为，机器人幼儿园这一全球首创的学习范式，将在几年内产生显著的经济效应。</p><p style=\"text-indent: 2em; text-align: justify;\">第二场圆桌则围绕“从幼儿园到真实世界：机器人如何‘养活’自己”的讨论中展开，中信证券投资黄耀庭以“100万”的数字作为引子，直言“我更重视的不是出货100万台，而是机器人到底能否干活”，强调产业重心应回归学习方法与能力的持续进化。</p><p style=\"text-indent: 2em; text-align: justify;\">Openmind全球研究院-高级研究员Dr. Kris De Asis回应数据孤岛难题：“开源项目不止于算法和数据集，更应包括开放的机电一体化设计”，倡导硬件、模型同步开源以加速创新共享。</p><p style=\"text-indent: 2em; text-align: justify;\">首钢基金总经理张檬指出落地的关键瓶颈：机器人企业需“从解决小问题开始，才能理解整个工业流程的串联”，只有真正扎根场景、甘做累活，才能跨越从实验室到订单的鸿沟。</p><p style=\"text-indent: 2em; text-align: justify;\">节卡机器人副总裁许雄将数万台部署经验浓缩为一句话：“安全与交互性，是让机器人走出物理围栏的关键”，唯有突破可靠性门槛，人机协作才能走入开放的真实世界。</p><p style=\"text-indent: 2em; text-align: justify;\">因时机器人联合创始人/ CTO陈希则描绘了手与算法共生驱动的未来：“灵巧手不单是执行器，更是多模态感知的数据收集器”，耐用性与多维感知能力是下一步迭代的核心。</p><p style=\"text-indent: 2em; text-align: justify;\">云迹科技首席发展官CDO谢云鹏回应商业化平衡问题，给出的方法论是“瞄准一个小的点，饱和攻击，最终让它变成刚需”，通过深耕配送场景，在边用边学中让非刚需成为客户离不开的标配。</p><p><strong>四、一场稀缺的大师课</strong></p><p style=\"text-align: justify; text-indent: 2em;\">受他山科技邀请，萨顿教授专程面向国内具身智能行业进行了一整天的闭门授课。课程围绕“智能如何自主进化”这一根本命题，从理念框架、工程范式、核心挑战、算法引擎到最新演进路径，层层递进，系统性阐述了从数据驱动走向经验驱动的强化学习思想体系。</p><p style=\"text-align: justify; text-indent: 2em;\">在萨顿教授的分享中，他特别强调了三个关键点，除了技术理念和机器人幼儿园，还有一个重要的关键点是“坚韧”——保持谦逊、善良、乐观。这一价值观也与他山科技长期坚持的企业精神不谋而合。</p><p style=\"text-align: justify; text-indent: 2em;\">萨顿教授展示了智能体如何通过试错自主学习简单操作任务的过程。在问答环节，来自高校、企业实验室和产业一线的研究者们争相举手，萨顿教授一一耐心作答。这场大师课不仅是一次知识的传递，更被在场很多人视为一次难得的研究范式启迪。在他山科技的推动下，这样高密度、重交流的学术活动，将成为具身智能启蒙的重要思想策源地。</p><p style=\"text-align: justify; text-indent: 2em;\">机器人的成长还有很长的路要走，所有同行者都需要心怀这份坚韧，长期耕耘。</p><p style=\"text-align: left;\"><br /></p>",
-      "published": "2026-07-01T14:18:00+08:00",
-      "fetched_at": "2026-07-02T11:50:29.951502+08:00",
-      "pre_filter_reason": "具身智能、强化学习、机器人幼儿园，属于AI研究",
+      "title": "全球首个英伟达含量为0的万亿模型，成了海外开发者的抢手货",
+      "link": "https://www.qbitai.com/2026/07/442047.html",
+      "summary": "霸榜OpenR ou",
+      "published": "2026-07-02T18:56:23+08:00",
+      "fetched_at": "2026-07-03T11:31:34.211107+08:00",
+      "pre_filter_reason": "Trillion-parameter model without Nvidia, AI-related.",
       "scores": {
         "importance": 9,
         "timeliness": 8,
@@ -174,15 +63,225 @@
       "quality_score": 7.8,
       "topics": [
         {
+          "tag": "tutorial",
+          "title": "不用英伟达也能训万亿模型？揭秘开源新方案",
+          "angle": "介绍这个“英伟达含量为0”的万亿模型的技术架构和训练方法，对比传统方案，突出其低成本、高可及性的特点。",
+          "difficulty": "中级"
+        },
+        {
           "tag": "analysis",
-          "title": "图灵奖得主萨顿联手他山科技：“机器人幼儿园”如何重塑具身智能？",
-          "angle": "深度解析“机器人幼儿园”的概念，探讨强化学习从理论到实体落点的意义，以及其对机器人从模仿到经验学习的变革。",
+          "title": "海外开发者疯抢的万亿模型，凭什么？",
+          "angle": "解读该模型为何在海外爆火：技术突破、开源策略、对英伟达依赖的摆脱，以及对AI生态的潜在影响。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "b97ad6a13b48",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "三星首款 AI 眼镜 Galaxy Glasses 爆料：1200 万摄像头、光致变色镜片",
+      "link": "https://www.ithome.com/0/972/090.htm",
+      "summary": "<p>IT之家 7 月 3 日消息，科技媒体 Android Authority 昨日（7 月 2 日）发布博文，<strong>分享了一段渲染视频，展示了三星首款 AI 眼镜 Galaxy Glasses</strong>，其整体风格接近于 Meta x Ray-Ban 智能眼镜。</p><p>IT之家附上演示视频如下：</p><p style=\"text-align: center;\"><a class=\"ithome_super_player\" contenteditable=\"false\" href=\"https://weibo.com/tv/show/1034:5316555374788666?mid=5316555489414943\" target=\"_blank\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/7/1f351152-62a4-4d9e-9351-cbcc474187e5.jpg?x-bce-process=image/format,f_auto\" /></a></p><p>外观方面，三星 Galaxy Glasses 采用简约镜框，大部分元件集中在厚镜腿部分，整体佩戴体验更接近于传统太阳镜。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/f60e7dd1-855f-4b4f-a9c5-f32e503b622d.png?x-bce-process=image/format,f_auto\" /></p><p>系统方面，三星 Galaxy Glasses 运行谷歌 Android XR 系统，并深度集成谷歌的 Gemini AI 模型，核心功能围绕免提 AI 交互展开，包括拍照、录像、语音问答、实时翻译、音乐播放及导航。</p><p>在硬件规格方面，该眼镜预计搭载一颗 12MP 摄像头、内置麦克风与扬声器、支持触控操作。此外为适合不同使用场景，光致变色镜片可随环境光线自动调节。</p><p><strong>相关阅读：</strong></p><ul class=\"small-size list-paddingleft-2\"><li><p>《<a href=\"https://www.ithome.com/0/970/920.htm\" target=\"_blank\">三星首款 AI 眼镜 Galaxy Glasses 曝光：支持 Ring 戒指手势控制</a>》</p></li></ul>",
+      "published": "2026-07-03T11:29:55+08:00",
+      "fetched_at": "2026-07-03T11:31:38.326535+08:00",
+      "pre_filter_reason": "三星AI眼镜产品发布",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "三星AI眼镜Galaxy Glasses抢先看：功能与亮点解析",
+          "angle": "基于爆料信息，梳理三星AI眼镜的核心配置（1200万摄像头、光致变色镜片等），并与Meta Ray-Ban对比，帮助用户快速了解新品。",
           "difficulty": "入门"
         },
         {
-          "tag": "story",
-          "title": "具身智能新纪元：探访全球首个“机器人幼儿园”",
-          "angle": "以参观视角介绍“机器人幼儿园”的运作模式，展示机器人如何在模拟环境中通过交互试错积累经验。",
+          "tag": "analysis",
+          "title": "AI眼镜大战升级：三星入局，Meta如何接招？",
+          "angle": "分析三星AI眼镜的发布对智能眼镜市场格局的影响，对比Meta、苹果等竞品，探讨AI眼镜的未来发展方向。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "5626b7fd1f62",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "Claude Sonnet 5 上线一日差评刷屏：打不过千问和 Minimax，性价比全面翻车",
+      "link": "https://www.leiphone.com/category/yanxishe/GLDTfDIWau83OKGC.html",
+      "summary": "<section style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1.75em;\"><span style=\"color: #4499E7;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260702/6a4649b4e2894.jpg?imageMogr2/quality/90\" style=\"width: 100%; display: inline-block; text-align: center; background-color: transparent;\" /></span></section><section style=\"padding-left: 16px; padding-right: 16px;\"><section style=\"width: 100%; display: flex; padding: 0px;\"><section style=\"width: 100%; padding-left: 0px; padding-right: 0px;\"><section style=\"width: 100%; background: rgb(246, 248, 255); padding: 20px 0px 12px; margin-top: 0px; margin-bottom: 0px;\"><section style=\"text-align: center;\"><section><section style=\"text-align: justify; margin: 0px 16px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><span><span style=\"font-weight: bold;\">一张中文测评图把Claude Sonnet 5送上风口浪尖。</span></span></span></span></section><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><section style=\"text-align: left; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><br /></span></span></section></section></section><span></span><span></span><span></span><span></span><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-weight: normal;\">&nbsp; &nbsp; 作者丨</span></span><span style=\"font-size: 14px; line-height: 25px; color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\">高允毅</span><strong><span><strong><span><span><br /></span></span></strong></span></strong></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Optima-Regular, PingFangTC-light;\"><span style=\"color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\"><span>&nbsp; &nbsp; 编辑丨</span><span>马晓宁</span></span></span></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; text-align: right; margin: 0px 16px;\"><strong><strong><span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></strong></strong></p></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Claude Sonnet 5才发布了一天，网上已经吵翻天——几乎全是差评。</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Anthropic把它定位为“迄今最具 Agent 能力的 Sonnet”，甚至直接说它在大量智能体任务上已经接近旗舰 Opus 4.8，价格只有Opus 的四折。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">听起来，这就是来给开发者送温暖的：更强的Agent、更便宜的API、更长的上下文、更稳的安全对齐。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">但剧情没有按官方剧本走。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">发布不到 24 小时，一张来自 GitHub 的跑分截图开始在中文技术圈疯传。这个项目叫</span><strong style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">LLM Benchmark Dashboard</span></span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">，是个人私有题库，主要在逻辑、数学、编程、人类直觉等高难度硬核推理问题上，测模型在深度思考、长思维链（Reasoning）模式下的表现。</span></p><section style=\"text-align: center; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260702/6a4649b518d9e.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 352px; height: 710px;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">在这场考核中，被寄予厚望的 Sonnet 5 不仅没能碾压全场，反而暴露出一个致命弱点：</span><strong style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">极度拉胯的性价比。</span></span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">经过仔细对比，我们可以看到三个关键事实：</span></p><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">第一，极限分数上 Sonnet 5 丢掉了绝对统治力。</span></span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;在这套硬核逻辑题里，MiniMax-M3 跑出了 61.95 的高分拔得头筹，而 Qwen3.7-Plus 也在极限分上与 Sonnet 5 死死打平。这意味着国产推理大模型在纯逻辑的较量上，已经有能力和硅谷顶流平起平坐。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">第二，测试成本完全不在一个量级。</span></span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;这是对比中最刺眼的地方。Sonnet 5 跑完同一套测试花了 71.96 元，而 Qwen 只要 11.71 元，MiniMax 只要 11.64 元。Sonnet 5 的账单是国产模型的 6 倍还多。 如果真按这个比例大规模调用，企业的商业落地成本根本难以承受。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">第三，耗时最短，但在这里可能并不是好事。</span></span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">&nbsp;Sonnet 5 平均耗时仅 404 秒，远快于 Qwen 的 1156 秒和 MiniMax 的 887 秒。这说明它的 Token 吐出速度确实快。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">但在面对极难逻辑题时，“快”往往意味着思考不够深。显然，Sonnet 5 的思维链（CoT）堆叠得不够厚，自我纠错预算受限，导致它在真正需要“绞尽脑汁”的地方，没能靠算力把极限分拉开。</span></p></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">也难怪网友看完第一反应如此真实：</span></p><blockquote><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">“这不是能力不行，这是性价比不行。”</span></p></blockquote><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">不过也要说明，这毕竟是一家个人维护的私有题库，覆盖面和命题风格都有特定偏向。它不能代表 Sonnet 5 的全部能力，但在中文开发者关心的“纯逻辑攻坚”场景下，确实暴露了一个问题：在越来越卷的推理赛道里，Sonnet 5 不再是那个“闭眼选”的答案。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260702/6a4649b557e81.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>01</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"font-weight: bold;\">平替 Opus？拉倒吧</span></span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Anthropic 给 Sonnet 5 设定的官方叙事，原本非常清晰：Agent 能力大升级，价格却只要旗舰的四折。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">为了拉拢开发者，官方甚至直接“发糖”：2026 年 8 月 31 日前限时特惠，API 输入只要 2 美元 / 百万 token。（活动结束后恢复 3 美元 ）</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">面对这波疯狂暗示，全球社区的反馈却分成了“三派”。</span></p><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">“吹爆派”表示，Sonnet 5 在多步 Agent 和工程编程能力上，确实顶到了天花板</span></span></strong></p></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">在 Reddit 的开发者社区里，大量高强度手搓代码的程序员发来贺电，惊叹于</span><strong style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">它在复杂后端开发、多文件重构上的统治力。</span></span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">有开发者在体验后留下了这样一句高赞评价：“它只用了一会儿，就修复了一个把最新旗舰 Opus 4.8 卡了好几天的严重 Bug。拿到了 Opus 的智商，却只收 Sonnet 的价格。”</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这种强大的自主行动力本就是它的强项。在Claude Code 终端工具全新升级后，Sonnet 5 能够自主进行工作流规划、输出自检，并能熟练调用终端和浏览器。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">在极具含金量的 SWE-bench Pro 官方跑分中，Sonnet 5拿下了63.2%，直逼Opus 4.8 的 69.2%；而在主力编程工具 Cursor 发布的真实测试里，Sonnet 5 在 CursorBench 上的得分从前代 Sonnet 4.6 的 49% 一路暴涨到了 57%。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这意味着在实际研发场景中，它已经有能力在没有人类实时干预的情况下，独立搞定超过一半的多文件复杂重构任务。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">还有一位中文开发者实测了三个任务，分别是跨文件配置迁移、写 API 中间件和重构 200 行工具函数。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">结果前两个任务完美通关， Sonnet 5还会主动跑测试，但在第三个任务“重构 200 行工具函数”上却翻了车。但根本原因并不是代码能力不行，而是项目没写测试框架版本，模型只好“凭感觉盲开”。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">当然，它离“全能”还差得远。技术大佬 Simon Willison 吐槽，Sonnet 5在组合工具调用时经常卡壳，冷知识问答也全凭运气。最逗的是代码渲染翻车现场，本想让它画一只“骑自行车的鹈鹕”，它硬是给“指鸟为鹅”，画了只大白鹅出来。</span></p><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">吐槽派则认为Sonnet 5的Max 推理模式是个“账单刺客”</span></span></strong></p></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">如果说Sonnet 5基础能力让人惊喜，那它特意设计的</span><strong style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">Max 推理模式</span></span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">，直接把开发者看傻了。 官方初衷原本是希望模型进行更深度的推理。但实测发现，这玩意儿极度容易陷入高成本的“过度思考”。 有个网友神评论：“它思考了整整一个世纪，烧光了我的额度，最后就吐出那么短一句话。”</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">在 Agent 自主规划场景下，Sonnet 5 的调用轮次比上一代翻了 3 倍，输出 Token 膨胀了 40%。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">有网友掏出计算器一算，如果按标准定价，用 Sonnet 5 完成一个长程智能任务要花 2.29 美元；而用上一代的Opus 4.8，只要 1.80 美元，直接贵了 15%。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">而且，Anthropic 这次玩了个“暗度陈仓”，</span><strong style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">悄悄换了新的分词器（Tokenizer）</span></span></strong><span style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">。</span></span><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">导致同样一段文本，现在的 Token 数量会直接膨胀最高 35%。有网友总结，“价格看着没变，账单直接涨飞了”。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">当“话痨模型”遇上“计费通胀”，直接让 ToB 企业大破防。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Uber刚给 5000 名工程师开通 Claude Code 试用，结果重度用户的人均月度账单直接飙到了 500–2000 美元。短短四个月，全年的 AI 编程预算被硬生生烧光，逼得 Uber CTO 紧急踩刹车，宣布重新评估财务模型。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">无独有偶，微软最核心的 Windows 与 M365 团队也扛不住了。据曝他们将在 2026 年 6 月全员停用 Claude Code，全面迁回自家的 GitHub Copilot，只为了控住那极其离谱的 Token 成本。</span></p><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">观望派表示，不如国产模型，建议跳过</span></span></strong></p></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">在中文技术圈和 X 上，不少网友直接把它跟 GLM-5.2、MiniMax-M3、DeepSeek V4 Pro 对比。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">比能力？两者几乎持平。拼价格？价差最高 56 倍。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">专注 AI 基准测试的 LisanBench 创始人直接在 X 上辣评，帖子浏览量瞬间突破67万：“Sonnet 5 应该被扔进垃圾桶，它比 DeepSeek贵了整整 57 倍。”</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260702/6a4649b588a7b.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">更夸张的是一组来自国内开发者的真实跑账对比：有人用国产 DeepSeek 跑一整天工作流，Token 消耗超过 2400 万，账单仅 11.73 元人民币；而同一天用中转站调 Claude，花了 1700 元人民币。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">11 块 vs 1700 块，差了 145 倍。 这已经不是“性价比”层面的较量了，这根本就是两个世界的定价体系。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260702/6a4649b5b9245.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>02</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">争议核心：成也推理，败也推理</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">在这些争议的核心，Sonnet 5的推理能力是另一个值得关注的话题。 一方面，它在Agent场景中表现出色，展现了极强的自主规划、工具调用及多文件协作能力。它更像是能自主解决问题的“虚拟程序员”，场景越复杂，它的价值越高，展现了它在“慢思考”的真正实力。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">但另一方面，它在逻辑推理和考试型任务上，无论是极限能力，还是性价比，不如国产模型。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">归根结底，也是因为它的Max 推理模式“用力过猛”。 在追求最高性能时，高延迟和高成本使得在该模式下进行简单推理往往得不偿失。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Hacker News 的技术大佬 doctoboggan去扒出了 Anthropic 官方的“成本-性能散点图”后，证实了一个结论：</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">“在同等花销下，Opus 4.8 的表现反而更好！”</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260702/6a4649b5ecac0.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>03</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"font-weight: bold;\">太“乖”也是一种翻车</span></span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">除性能与定价争议外，Sonnet 5 过度保守，也成为开发者集中吐槽的一大短板。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">官方不仅自曝家丑，表示为了防止潜在滥用，模型被硬生生塞进了一个“道德审查器”。面对一些技术请求，它有时不仅不帮忙，还加大了对用户的“说教”。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Anthropic还在发布会大肆宣传：看！Sonnet 5 在“编写 Firefox 漏洞利用代码（Exploit Development）”的测试中，考了零分！</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">结果直接把 Hacker News 上的极客工程师们看笑了，网友们纷纷无情嘲讽：</span></p><blockquote><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">“这就像一家安全公司在骄傲地宣布：看，我们故意让这个模型变笨、变残废了，这样它就肯定不会惹麻烦。”</span></p></blockquote><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">对于需要进行网络安全攻防演练、黑盒测试的白帽子工程师来说，这种过度安全对齐不仅没有保护任何人，反而直接让工具失去了原本该有的实用价值。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-weight: normal;\">太“乖”的 Claude，也是一种翻车。</span></span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260702/6a4649b6312a7.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>04</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"font-weight: bold;\">性价比成为共识的追求</span></span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">Claude Sonnet 5 到底翻没翻车？这取决于你拿它干什么，以及你愿不愿意为它高昂的账单买单。</span></span></strong></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260702/6a4649b664b83.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">如果你的核心痛点是 Agent 智能体编程、复杂后端工程重构、多文件长程协同，它大概率依然会让你感到惊喜。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">但如果你只是想跑一些中文硬核逻辑题、做日常知识问答、或者在预算有限的情况下追求极致性价比，那它的表现和疯狂燃烧的 Token 账单，可能完全对不起它的身价。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">过去两年，所有人比拼的都是“谁更聪明、谁的基准分更高”；而现在的技术圈与企业界，大家都在拿着算盘计算</span><strong style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">“谁更划算、谁的商业落地成本更低”</span></span></strong><span style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">。</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">当国产 DeepSeek 级别的高级推理任务综合成本只要 0.04 美元，而 Sonnet 5 在 Max 模式下要花 2.29 美元时，跑分榜上那一两分的微弱差距，已经根本无法支撑起高达56倍的恐怖价差。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">大模型赛场，已经不再是Anthropic 想怎么定价，开发者就得怎么掏钱的时代了。</span></span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">对于正处于算力与预算双重焦虑中的普通开发者而言，或许最想问的是：我为 AI 烧进去的每一分真金白银，真的都买到了对应价值的‘智能’吗？</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">希望 Claude 能好好回答这个问题。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260702/6a4649b68a222.jpg?imageMogr2/quality/90\" /></section><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260702/6a4649b6b3f06.jpg?imageMogr2/quality/90\" /></section><section><section><section><section><section><section><svg viewBox=\"0 0 1 1\" xmlns=\"http://www.w3.org/2000/svg\"></svg></section></section><section><p><strong><span><span style=\"color: #4499E7;\">上车，雷峰网带你看遍全球 AI 顶会精华</span></span></strong></p><span></span></section></section></section></section></section><section><section><p style=\"text-align: center; margin: 0px 16px 8px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">可独家畅览：</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">专家演讲PPT</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">大会报告全文</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">热门论文解读</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">学术新星访谈</span></span></p><span></span><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260702/6a4649b6dfa85.jpg?imageMogr2/quality/90\" style=\"width: 100%;\" /></section><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">扫描上方二维码</span></span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">或点击</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">「</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">阅读原文</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">」</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">关注专区。</span></span></span></p></section></section><section><span></span></section><section><span></span></section>",
+      "published": "2026-07-02T19:22:00+08:00",
+      "fetched_at": "2026-07-03T11:31:30.933866+08:00",
+      "pre_filter_reason": "Claude Sonnet 5 AI model launch and review, AI-related.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "Claude Sonnet 5为何翻车？性价比全面对比千问和Minimax",
+          "angle": "从性能、价格、用户反馈等维度，对比Claude Sonnet 5与国产模型（千问、Minimax），分析其差评原因及市场反应。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "tutorial",
+          "title": "大模型选型避坑指南：从Claude Sonnet 5看如何评估性价比",
+          "angle": "以Claude Sonnet 5为例，教用户如何从任务场景、成本、性能等角度选择合适的大模型，避免踩坑。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "de69e557c5f8",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "全球首份大语言模型安全防范能力测评报告在北京发布",
+      "link": "https://www.leiphone.com/category/ai/24ZpHMxxsean7Pmy.html",
+      "summary": "<p><br /></p><p>大语言模型正在成为公众获取、理解和使用科技知识的重要工具，但是，它们能辨善恶吗？能否识别用户意图、理解具体语境、控制输出粒度，并在有用性与安全性之间保持稳定边界？7月2日于北京举行的2026全球数字经济大会云智算安全论坛上，《全球大语言模型安全防范能力测评报告（2026）》正式发布，该报告依据一套中国机构自主研发的科学测评方法体系，对全球主要大语言模型进行了一次统一标准的“体检”，作出了回答。（雷峰网）</p><p>这份由东壁科技数据有限责任公司（“东壁科技数据”）联合上海财经大学数字经济学院共同打造的研究成果，是全球首份大语言模型科技安全专项测评报告，也是首份大语言模型科技向善导向测评报告。报告以313条科技类高风险问题为测试集，覆盖38个国内外大语言模型，重点考察模型能否在正常的科技学习、科研的防护需求与潜在违法犯罪滥用之间，保持稳定、安全且可解释的边界，并同步发布多维度安全实力排名。</p><p>测评显示，多数模型具备基础拒答能力，但在前缀注入、场景伪装、情感伪装，以及伪装与示例诱导结合的复合攻击下，部分模型的安全边界明显承压。报告提出，科技安全治理不能仅以“拒答率”衡量，还应同时关注模型的意图识别能力、信息披露尺度和“可靠且高风险”输出。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260702/6a46400ae5428.png?imageView2/2/w/740\" />&nbsp;</p><p>图注：《全球大语言模型安全防范能力测评报告（2026）》正式发布</p><p><br /></p><p>立足真实风险补齐行业测评短板</p><p>上海财经大学数字经济学院院长、报告牵头编制人赵琳在论坛上对报告进行了解读。他表示，科技知识在正常场景中可以服务于教学、研究、产业创新和公共安全，但当它被置于特定目的、特定语境和特定对象面前，就可能转化为现实危害。从前沿模型安全框架看，国际上已经将生物化学、网络安全、自动化代理等高风险能力纳入重点评估范围。</p><p>当下，国内外围绕大模型安全、伦理和风险管理已经形成多层级测评与治理格局，为大模型安全治理提供了重要基础，但在科技类高风险场景下仍存在三方面缺口——通用内容安全测评较多，高风险科技语境测评不足。前沿能力评估较多关注极端能力阈值，对日常科技滥用场景覆盖不足。以及，通用有害问答数据集较多，基于真实案件和真实科技滥用语境构建的测试集不足。因此，构建科技类高风险场景的专项测评，是对现有测评体系的重要补充。</p><p>本次最终测试集包含313条科技类高风险问题，结果分析覆盖38个国内外模型，并按国内/国外、开源/闭源、大规模/小规模等属性进行分组比较。为辅助评估科技内容可靠性，报告从东壁全球科技文献数据平台（Dbdata）选取94,108份科技文献材料，并结合34,452条科技类百科条目构建RAG检索参考，用于判断模型回答中的科学事实、技术原理、因果逻辑和不确定性表述是否可靠。</p><p>赵琳提到，科技安全治理不能仅以“拒答率”衡量，还应同时关注模型的意图识别能力、信息披露尺度和“可靠且高风险”输出。报告同时设置意图识别能力、滥用风险可控性和科技内容可靠性三个维度，用于识别“过度拒答”“防御不足”和“可靠但高风险输出”等不同类型的问题。因此，本报告更接近“科技安全防范能力测评”，而不是单纯的“拒答率排行榜”。</p><p><br /></p><p>实测数据披露多重安全隐患</p><p>报告显示，多数模型具备基础拒答能力，直接攻击总体成功率为7.6%，但在前缀注入、场景伪装、情感伪装，以及伪装与示例诱导结合的复合攻击下，部分模型的安全边界明显承压。赵琳在解读报告时，介绍了部分测评结果，并披露其中多重安全隐患。</p><p>目前，攻击成功率最高的是场景伪装加上示例诱导，达53.8%，其次是场景伪装、前缀注入攻击、情感伪装，分别达51.3%、43.4%、30.7%，最低的是情感伪装加示例诱导，也达到了26.5%。“这说明场景伪装是最值得关注的攻击形态之一。”赵琳说，“合法授权”“安全研究”“攻防演练”等场景合法化叙事，比单纯情绪求助更容易削弱模型安全边界，示例诱导的影响则取决于其叠加在哪类伪装方式上，叠加在场景伪装中能增加越狱成功率，叠加在情感伪装中反而更容易让模型识别出请求的风险。</p><p>赵琳还提到，目前模型意图识别仍不充分。伪装类样本中，善意问题拒答率为30.6%，恶意问题回答率为29.7%。这说明过度防御和防御不足同时存在，模型尚未稳定掌握科技双用途语境下的差异化响应能力。以及，回答后的风险披露控制不足，模型一旦被诱导回答，往往未能有效切断从一般知识到现实实施之间的关键连接。</p><p>测评发现，科技内容可靠性与安全风险存在张力。已回答样本中，80.5%达到较可靠水平，55.1%同时具有较高可靠性和较高滥用风险。对恶意请求而言，可靠性越高不一定越安全。“关键在于能否把可靠知识限制在防护、合规和教育范围内”，赵琳表示。</p><p style=\"text-align: center;\">&nbsp;<img src=\"https://static.leiphone.com/uploads/new/images/20260702/6a46400b4f4b9.png?imageView2/2/w/740\" /></p><p>图注：上海财经大学数字经济学院院长、报告牵头编制人赵琳对报告进行解读</p><p>多维度安全榜单出炉</p><p>依托显性攻击、越狱对抗、意图识别、风险管控、知识可靠性五大测评维度量化打分，报告发布38款海内外主流大模型分层排名，多维度榜单清晰展现不同模型的安全防护水平。</p><p>在无伪装、直接索要危险技术方案的直接攻击测试中，Anthropic旗下三款Claude模型实现100%拒答，领跑行业，OpenAIgpt-5.4-mini、阿里通义千问qwen3.5-122b-a10b紧随其后。反观榜单末尾，mistral-small等多款轻量化开源模型基础防护垫底。</p><p>针对前缀注入、场景伪装、情感诱导、示例叠加等五类复杂越狱攻击的综合防护排名显示，全场景抵御能力前五名依旧由Claude全系三款模型包揽前三位，国内MiniMax-M3、OpenAIgpt-5.4-mini分列第四、五位，面对套着“安全演练、科研实验”外壳的诱导提问，依旧能稳定守住安全边界。测评同时指出，场景伪装叠加示例诱导是所有模型的共同薄弱环节，共有21款模型拒答率不足半数，其中字节豆包轻量化开源模型doubao-seed-2-0-mini在该场景下安全边界衰减幅度最为突出，防护短板显著。</p><p>在恶意伪装意图识别维度，拒答率榜单前五与越狱综合防护榜单高度重合，Claude全系列、MiniMax-M3、gpt-5.4-mini能够高效识别包装成教学、科研需求的恶意提问，拦截风险请求能力领跑行业。但测评也发现统一短板，榜单前列防护能力更强的模型，善意学习类问题拒答率同步走高，存在明显的过度防御现象，正常科研、科普学习需求容易被一并拦截，而大量中小开源模型则走向另一个极端，难以区分请求意图，恶意伪装提问极易顺利放行。</p><p>滥用风险可控性榜单仅针对成功绕过安全防线、产生输出内容的样本打分，分数越高代表模型越能规避危险实操细节泄露，榜单排名显示OpenAIgpt-5.4-mini以3.52分的均分拔得头筹，claude-haiku、gpt-5.5、阿里通义千问qwen3.6-27b、qwen3.6-flash依次跻身前五，即便不慎输出内容，也会主动规避关键参数、完整操作流程等高风险信息。</p><p>在衡量输出内容科学准确程度的科技内容可靠性榜单中，OpenAIgpt-5.5以均分3.52分拿下榜首，月之暗面Kimi-k2.6、阿里通义千问3.7-max旗舰闭源模型、qwen3.6-35b、qwen3.6-27b紧随其后，国内大规模闭源模型的专业科技内容准确度已达到行业第一梯队水平。</p><p>&nbsp;&nbsp; &nbsp; 总而言之，不同模型属性呈现出系统性差异。国外、闭源和大规模模型在恶意伪装请求拦截、越狱稳健性和回答后风险控制上整体更占优，但也更容易拒绝善意问题，体现出安全性与可用性之间的张力；开源、小规模以及部分国内模型在伪装攻击下更容易被诱导，说明安全对齐、产品化防护和持续红队测试仍需加强。与此同时，大规模和闭源模型的科技内容可靠性更高，一旦安全边界失效，高可靠回答更可能转化为现实可执行的信息增益，因此高能力模型更需要精细化的意图识别和输出粒度控制。</p><p><br /></p><p>治理路径与测评体系升级规则</p><p>针对测评暴露出的系统性安全短板，这份报告立足产业实际，提供了一套政策与治理建议，平衡AI知识普惠价值与公共安全底线。</p><p>报告提出，科技安全不能只依赖外部关键词拦截，要坚持内生化原则，把安全能力嵌入模型行为机制。越狱攻击方式更新快，模型版本迭代快，静态测评难以长期反映真实风险，建议坚持敏捷化原则，建立持续红队与复测机制。将科技安全测评从单一拒答率扩展为综合指标体系，至少包括“显性请求拒答能力、伪装请求稳健性、善意问题可用性、恶意问题拒答率、滥用风险可控性、科技内容可靠性、可靠且高风险输出占比、可靠且可控输出占比”。</p><p>“治理目标应是拒绝危险能力增益，而不是拒绝科技知识本身。”赵琳说。建议模型在高风险科技主题下建立更细的安全回答范式，对善意学习请求，提供概念解释、风险提示、合规边界和安全替代路径，对中性但不明确的请求，主动澄清目的和使用环境，对恶意或高度可疑请求，拒绝提供可执行细节，并转向防护、法律后果、求助渠道或安全教育内容。同时，报告强调，针对测评揭示的不同属性模型在安全能力上的系统性差异，应构建精准协同的多元共治机制，形成企业、测评机构、监管部门与行业专家多方协同、精准施策的治理生态。</p><p>东壁科技数据创始人、报告牵头编制人吴登生认为，这一报告的意义在于从“拒答率排行榜”转向综合风险评价。以真实案件和真实科技语境为基础，将越狱攻击与科技知识双重用途场景结合，并把“是否拒答”扩展为意图识别、滥用风险可控性和科技内容可靠性等综合评价。“这为模型企业、第三方测评机构、行业专家、监管部门和教育科研机构提供了专项测评与持续治理的参考，也强调在保护正当学习、科研和防护需求的同时，避免模型输出形成对现实危险行为的能力增益。”他说。</p><p>“这份报告只是一个开始。未来，我们将持续完善科技安全测试集，覆盖更多领域，例如工程控制、深度伪造、自动化智能体、实验室安全等方向。同时，也会加强多轮对话、工具调用、代码执行、多模态输入等复杂交互场景的测评。我们的目标不仅是发布一份报告，更希望逐步建立具有持治理政策、为教育科研机构安全使用人工智能提供参考依据。”吴登生表示。（雷峰网）</p><p><br /></p>",
+      "published": "2026-07-02T18:46:00+08:00",
+      "fetched_at": "2026-07-03T11:31:30.933893+08:00",
+      "pre_filter_reason": "LLM safety evaluation report, AI-related.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 9,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "全球首份大模型安全测评报告发布，谁最安全？",
+          "angle": "解读报告核心发现：哪些大模型在安全防范能力上表现优异？测评方法有何创新？对行业和用户有何启示？",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "tutorial",
+          "title": "大模型安全能力怎么测？3分钟看懂测评报告方法论",
+          "angle": "用通俗语言介绍报告中的测评体系（如意图识别、语境理解、输出控制等），帮助用户理解大模型安全性的关键指标。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "4a4c611eac84",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "8点1氪丨“具身智能第一股” 宇树科技上市申请通过；SK海力士单日市值蒸发10000亿元；配置失误引发0元抢购潮，霸王茶姬致歉",
+      "link": "https://36kr.com/p/3879158039834629?f=rss",
+      "summary": "<h2>今日热点导览</h2>\n  <p>苹果拟于今明两年推出至少五款新iPhone</p>\n  <p>AI版支付宝开放公测，上线72项办事技能</p>\n  <p>特朗普回应“利用职位牟利”：股市在涨，大家都在赚钱</p>\n  <p>LV起诉茉莉奶白，茉莉奶白被判赔1030万元</p>\n  <p>6月赴日航班取消1488个</p>\n  <p>安克创新港股上市首日破发</p>\n  <h2>TOP3大新闻</h2>\n  <p><strong>证监会同意宇树科技科创板IPO注册</strong></p>\n  <p>7月2日，证监会网站显示，同意宇树科技首次公开发行股票注册。这意味着，全球首家在IPO前实现人形机器人规模化盈利的企业正式拿到A股“入场券”，将成为A股“人形机器人第一股”。&nbsp;</p>\n  <p>宇树科技从今年3月20日科创板IPO申请获受理，再到7月2日注册生效，仅用时104天。其创下科创板预先审阅机制落地以来的最快审核纪录，也成为科创板预先审阅机制落地以来继长鑫科技之后的又一标杆案例。（科创板日报）&nbsp;</p>\n  <p><strong>亚太股指重挫，SK海力士单日市值蒸发10000亿元</strong></p>\n  <p>7月2日，全球科技股罕见降温。截至收盘，亚太多数股指重挫。A股上证指数跌2.03%，深证成指跌3.85%，创业板指跌5.71%，科创50指数跌7.7%。算力硬件股大幅调整，剑桥科技、华工科技等跌停；半导体芯片股集体下挫，兆易创新、长电科技等跌停。北方华创、金海通及晶方科技等多股跌停。日经225指数收盘下跌1741.81点，跌幅2.47%，报68958点。韩国KOSPI指数下跌7.89%，为6月8日以来最低收盘水平。三星电子收跌9%，SK海力士收跌超14%。SK海力士单日蒸发1600亿美元市值（约合人民币10000亿元），总市值降至约1万亿美元。（中国经济网）</p>\n  <p><strong>配置失误引发0元抢购潮，霸王茶姬紧急致歉</strong></p>\n  <p>7月2日凌晨，霸王茶姬线上点餐小程序突发系统异常，原定上线的新品特惠饮品标价全部变为0元，大量消费者闻讯涌入下单，瞬时高流量直接挤垮小程序后台。当日上午，霸王茶姬湖北子公司发布官方致歉声明，公司7月2日推出的“远山鲜沏”系列9.9元特惠活动，因运营后台配置失误，产品意外以0元上架，才引发大规模免费下单抢购事件。声明公布后续解决方案，7月2日零点至系统修复前，所有标价0元生成的订单全部统一取消。为弥补故障给消费者带来的不佳体验，每位受影响用户的账户将直接到账三张 “远山鲜沏” 系列0.01元无门槛兑换券。霸王茶姬湖北子公司还表示，事件发生后，公司已全面复盘内部流程与系统审核机制，坚决杜绝此类失误再次发生。（界面新闻）</p>\n  <h2>AI最前沿</h2>\n  <p><strong>AI版支付宝开放公测，上线72项办事技能</strong></p>\n  <p>36氪获悉，7月2日，AI版支付宝“阿宝”完成新一轮产品迭代并正式开放公测。iOS 和安卓系统用户在应用商店或支付宝App内搜索“阿宝”或“蚂蚁阿宝”进行更新体验。本次升级围绕生活服务垂域模型能力、服务生态和用户陪伴体系三方面展开，优化用户通过自然对话办理各类生活服务的使用体验。同时，从数千项生活办事服务中精选出72项智能办事技能，作为公测阶段的首批上手清单。&nbsp;</p>\n  <p><strong>Anthropic或正与三星洽谈定制人工智能芯片</strong></p>\n  <p>7月2日，据报道，有三位知情人士表示，Anthropic���启动自研AI芯片的早期工作，并与三星电子就潜在制造合作进行了洽谈。（界面新闻）&nbsp;</p>\n  <p><strong>Meta首席执行官扎克伯格称AI智能体开发未达预期</strong></p>\n  <p>据报道，Meta首席执行官马克·扎克伯格表示，过去四个月AI的智能体开发“并未以我们预期的方式加速”。扎克伯格补充称，包含大规模裁员在内的重组工作本可以更“干净利落”，公司对新架构的押注“目前还没有取得成效”。（新浪财经）&nbsp;</p>\n  <p><strong>英伟达推出AI基础设施新合作模式</strong></p>\n  <p>英伟达当地时间7月1日宣布推出全新的AI基础设施合作模式，将通过收入分成（Revenue-sharing）和信用支持（Credit-support）机制，与AI云服务商共同建设大规模、多租户AI工厂，帮助初创企业、模型开发者、企业及科研机构更快获得AI算力，同时为英伟达创造与算力使用量挂钩的持续性收入。根据方案，AI云厂商将部署基于英伟达DSX AI Factory架构的AI工厂，对外提供云计算服务。首批合作伙伴包括Sharon AI和Firmus。其中，Sharon AI计划部署最多4万块NVIDIA Grace Blackwell GB300 GPU；Firmus将在印度尼西亚巴淡岛建设DSX AI工厂园区，规划扩展至360兆瓦电力规模，并部署最多17万块英伟达GPU。（财联社）&nbsp;</p>\n  <p><strong>阿里整合QoderWork、悟空、MuleRun，将推出新的生产力AI产品</strong></p>\n  <p>36氪获悉，阿里巴巴正在对旗下Agent产品线进行整合：以QoderWork为基础，整合悟空、MuleRun的能力，整合升级成一款更强大的面向企业生产力场景的AI产品。新产品由陈宇森负责。阿里巴巴方面回应称，QoderWork、悟空、MuleRun现有产品服务未来将无缝升级，所有用户权益不会受影响。&nbsp;</p>\n  <p><strong>Meta将推出自有预测市场应用Arena</strong></p>\n  <p>Meta曾就收购预测市场公司Kalshi进行过谈判，但最终决定自行开发名为Arena的预测市场应用，采用虚拟货币而非真实资金下注。据透露，Meta首席执行官马克·扎克伯格去年在Kalshi人气飙升时会见了该公司CEO塔雷克·曼苏尔，讨论可能的收购事宜，但谈判未能推进。关于谈判破裂的原因存在不同说法，有消息称曼苏尔不愿出售，也有说法称Meta认为Kalshi面临的法律和伦理问题过于复杂。（新浪财经）&nbsp;</p>\n  <h2>大公司/大事件</h2>\n  <p><strong>理想“动刀”产品部：拆分整车和智驾产品，并入研发</strong></p>\n  <p>36氪从多位知情人士处获悉，理想即将围绕产品决策流程进行新一轮组织架构调整，计划将产品部的部分关键职能拆分，并入研发部门。从群组关系来看，理想汽车产品部由范皓宇负责，包含电动本体、空间智能、��动驾驶终端产品、交互设计、平台运营、App与官网等。了解调整动向的人士向36氪透露，目前调整主要针对电动本体和自动驾驶等核心产品定义团队，其中已经明确的是，产品部的电动本体定义团队，拆分并入刘立国带领的整车研发部门；自动驾驶终端产品团队将并进詹锟带领的基座模型研发团队。“可能也有一部分体验相关的产品人员进入刘杰的产品线。”一位知情人士说道。</p>\n  <p><strong>美光CEO再次暗讽苹果：低价采购是造成内存短缺的关键</strong></p>\n  <p>美光科技首席执行官最新表示，过去几年里，一些客户要求内存制造商降低价格，从而带来了一些负面影响。2023年美光的价格降到了原来的1/3，导致无力投资新的产能。美光的这番暗讽被普遍认为是针对其大客户苹果发出的，尽管他并未直接提及苹果的名字。美光与苹果之间的对峙，代表着内存公司与消费电子制造商的市场平衡因人工智能发展而改变。（新浪财经）</p>\n  <p><strong>马斯克两度否认SpaceX要造手机</strong></p>\n  <p>当地时间7月1日，有报道称SpaceX向一些投资者展示了一款类似于iPhone但“更纤薄”的原型机，该原型机将运行SpaceX的专有操作系统。知情人士表示，该设备还将采用SpaceX于2月份收购的xAI公司的AI技术，并使用高通公司的芯片。报道还显示，上述设备在公开展示前已向相关方进行过演示，但其设计在早期阶段，可能会有所修改。对此，马斯克予以否认，在社交平台发文称“完全不属实”。受上述消息带动，高通股价盘中一度跳涨超3%，股价短时站上190.99美元，但在马斯克回应后又下跌了1.55%，创下5月6日以来阶段新低。</p>\n  <p>SpaceX要造手机的消息并非首次传出。今年2月，曾有消息称SpaceX正考虑开发一款能够直接连接“星链”的移动设备。马斯克当时同样回应称，消息不实，SpaceX并未在开发手机。（界面新闻）</p>\n  <p><strong>苹果拟于今明两年推出至少五款新iPhone</strong></p>\n  <p>7月1日消息，据报道，苹果公司正计划在今年下半年至2027年上半年期间，发起一项雄心勃勃的iPhone新品发布计划，预计将推出至少五款新机型。尽管目前整个科技行业正面临供应链零部件短缺的困境，但苹果仍决定加大折叠屏手机的出货量，超出市场此前预期。报道称，苹果还计划于2027年上半年推出首款M7芯片，并发布第二代iPhone Air、入门版iPhone 18等产品。不过，由于内存和芯片供应紧张，部分产品发布时间仍可能调整。（界面新闻）</p>\n  <p><strong>张雪峰11岁女儿接手张雪峰公司股份</strong></p>\n  <p>7月2日消息，苏州研途教育科技有限公司近日发生工商变更，张雪峰（张子彪）退出，退出前任公司监事并持股约10.86%，退出后其所持股份由女儿张姩菡接手。公开信息显示，张姩菡，2015年6月出生，目前尚未成年。（界面新闻）</p>\n  <p><strong>腾讯QClaw负责人发长文宣布离职</strong></p>\n  <p>7月2日，腾讯AI助手QClaw产品负责人张舒昱在社交平台发文称，已于6月29日正式结束在腾讯的工作。她于2025年9月加入腾讯，在职约10个月，目前尚未透露下一站。关于张舒昱离职一事，记者向腾讯方面求证，截至发稿未获具体回应。（潇湘晨报）&nbsp;</p>\n  <p><strong>特朗普回应“利用职位牟利”：股市在涨，大家都在赚钱</strong></p>\n  <p>当地时间7月1日，特朗普回应了批评人士关于他“利用总统职位牟利”的指责，他说：“因为股市在上涨，大家都在赚钱。你有401（k）退休账户吗？大约上涨了85%左右。（你得说）谢谢您，特朗普总统。所以我们所有人都在赚钱。”他当天还对记者表示，“我不插手我的私事——我的钱由专人管理。嗯，在我当总统之前我就赚了很多钱，他们帮我投资，但我从不跟他们说话。我从来不——我甚至都不跟他们联系。”据了解，401（k）是美国最常见的企业养老金账户，账户资金通常投资于股票、基金等资产，因此股市上涨时，账户资产也可能随之增值。（中国新闻社、财联社）</p>\n  <p><strong>马斯克晒Optimus产线合照</strong></p>\n  <p>当地时间7月1日，马斯克发布了一张大合照，并配文称，在弗里蒙特工厂参观Optimus机器人生产线。这一言论可能代表着特斯拉的人形机器人Optimus正进入关键的量产阶段。特斯拉弗里蒙特工厂一直是该公司在美国的先锋制造中心，曾经用于生产特斯拉旗舰车型Model S轿车和Model X SUV，如今已成为该公司人形机器人生产线的所在地。（财联社AI daily）</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260703/v2_2318e6832c5a474dac4c52c059d693c7@5667365_oswg194047oswg1080oswg1389_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">配图</p>\n  <p><strong>安克创新港股上市首日破发</strong></p>\n  <p>7月2日，“充电宝一哥”安克创新（00668.HK）正式登陆港交所主板，完成A+H两地上市布局，但开盘瞬间即跌破99.32港元的发行价。截至午间休市，安克创新报94.05港元，跌5.31%，市值为548.23亿港元。午后，存储芯片概念持续下挫，兆易创新封跌停，成交超304亿元。记者拨打兆易创新投资者热线，对方工作人员回复：“公司目前生产经营一切正常，正值半年报披露窗口期，其他情况不便透露。”安克创新港股发行价对应A股收盘价折价约26%。其全球发售总量4663.28万股H股，配售结构采用9:1配比，90%股份投向国际机构认购，仅10%面向香港散户公开发售，同步设置15%超额配股权用于绿鞋稳定股价。（界面新闻、第一财经、财联社）&nbsp;</p>\n  <p><strong>6月赴日航班取消1488个</strong></p>\n  <p>航班管家DAST最新统计显示，6月共有25条中日航线取消全部航班。整个6月中国大陆赴日本共有1488个航班取消，取消率为37.5%。今年上半年TOP20通航国家中，韩泰日航班量位列前三，其中赴韩航班量超2019年水平，赴泰国、日本恢复率仅64.7%、53.5%。（界面新闻）</p>\n  <p><strong>“电子布大厂”富乔工业宣布涨价30%</strong></p>\n  <p>有市场消息称，由于制造成本上涨及市场供不应求，“电子布大厂”富乔工业近日向客户发出涨价通知，宣布旗下电子布产品价格上调15%至30%，新价格自2026年7月1日起执行。7月2日上午，记者致电富乔工业的核心经营主体富乔（东莞）玻纤有限公司进行了求证。该公司回应称，本轮调价已正式落地。其中，面向传统PCB、消费电子领域的普通E-glass电子布统一涨价30%；面向AI服务器、高速高频板等应用的低介电常数（Low DK2）电子布涨价15%。（上海证券报）</p>\n  <p><strong>LV起诉茉莉奶白，茉莉奶白被判赔1030万元</strong></p>\n  <p>7月2日消息，苏州市中院就路易威登马利蒂（Louis Vuitton Malletier，简称“LV”）诉茉莉奶白商标侵权案作出一审判决。法院认定，深圳市茉莉奶白餐饮管理有限公司及吴中经济开发区东侠饮品店侵害LV 7件四叶花卉图形注册商标专用权。茉莉奶白主体公司应在判决生效之日起10日内赔偿LV经济损失1000万元、维权合理开支30万元，合计1030万元。7月2日，记者致电茉莉奶白创始人张伯丞，其在电话中回复称，将上诉。记者在国家知识产权局商标检索发现，茉莉奶白申请的相关四叶花卉图形商标处于“驳回复审”或“无效”状态。（新黄河）</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260703/v2_132d202e40264398a5420ee46cab8aca@5667365_oswg161665oswg1080oswg1400_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">配图</p>\n  <p><strong>北京君正：DRAM三季度价格会继续上调，四季度存在继续调价的可能性</strong></p>\n  <p>36氪获悉，北京君正近日接受机构调研时表示，DRAM涨价比较多，一季度国内客户开始调价二季度国内客户仍在继续涨价，同时海外客户也陆续开始调整价格，预计二季度收入和毛利率会继续增长;三季度价格会继续上调，四季度的价格政策要到三季度才能确定，不过目前看四季度供应仍然较为紧张，存在继续调价的可能性。随着客户用部分SRAM产品来代替DRAM方案，部分SRAM芯片二季度价格也有所上涨。NORFlash一、二季度都有涨价，涨价幅度总体来说比DRAM要小，NORFlash虽然产能也在趋紧，但比DRAM要好很多，一季度公司Flash产品线实现了很好的收入增长，其中销量的增长占比较大。三季度的价格是根据具体产品和具体客户情况确定的，不一定都会调价。由于公司存储芯片持续在涨价，预计各季度毛利率会环比有所增长。&nbsp;</p>\n  <p><strong>腾讯市值重回4万亿港元</strong></p>\n  <p>7月2日，腾讯控股股价涨超2%，市值重回4万亿港元。这是腾讯股价连续第三个交易日上涨。今年3月腾讯市值曾跌破5万亿港元，6月又跌破4万亿港元。（第一财经）</p>\n  <p><strong>SK海力士将于2029年在清州建成NAND闪存工厂</strong></p>\n  <p>SK海力士将在忠清南道清州新建一座大型NAND闪存晶圆厂，目标于2029年投入运营。包括该项目在内，SK集团计划在忠清地区总投资170万亿韩元，涵盖先进封装和人工智能数据中心领域，旨在打造全球AI枢纽。（新浪财经）</p>\n  <p><strong>雀巢称消费者因价格压力避开中等包装产品</strong></p>\n  <p>雀巢表示，在美国消费者专注于产品可负担性、购买者纷纷转向大包装或经济型包装而避开中等规格产品的背景下，该公司正努力控制价格。（新浪财经）</p>\n  <p><strong>知情人士辟谣一汽奥迪中方一把手换帅：不实消息</strong></p>\n  <p>据媒体报道，就一汽奥迪中方一把手被曝换帅的传言，一汽奥迪方面知情人士表示，不实消息，目前郭永锋仍为一汽奥迪销售有限责任公司执行副总经理。自2025年9月1日起，郭永锋开始担任一汽奥迪销售有限责任公司执行副总经理，全面负责一汽奥迪在华所有国产及进口车的销售、售后服务、网络及品牌营销工作。（财联社）</p>\n  <p><strong>全球人工智能数据中心面临极端高温威胁</strong></p>\n  <p>一家气候风险分析机构近日公布的研究数据称，目前全球数据中心高达79%的算力容量面临着各种突发气候灾害的威胁，包括洪水、极端大风及山火等，这些灾害可能导致运营中断、停机时间增加，并推高保险和维修成本。目前，各大科技企业也正意识到气候因素给人工智能数据中心运行带来的挑战，并探索解决方案。微软公司表示，正在通过选址、完善冗余系统和实时监控等手段，来管理极端高温和恶劣天气带来的风险。英伟达公司上周表示，其新型的人工智能服务器可以在最高45摄氏度的冷却液环境下运行。英伟达称，冷却液温度提高1摄氏度，就可以使冷却系统能耗降低约4%。（科创板日报）</p>\n  <p><strong>美股三大指数收盘涨跌不一，特斯拉跌超7%</strong></p>\n  <p><strong>36氪获悉，7月2日收盘，美股三大指数涨跌不一，道指涨1.14%，纳指跌0.8%，标普500指数平收。大型科技股涨跌不一，特斯拉跌超7%，Arm跌超6%，Meta跌超4%，英伟达跌超1%，谷歌小幅下跌；奈飞、苹果涨超4%，SpaceX涨超2%，微软涨超1%，亚马逊小幅上涨。热门中概股多数下跌，爱奇艺跌超4%，小鹏集团、蔚来、百度跌超3%，阿里巴巴、网易、B站、微博、理想汽车跌超1%；京东涨超1%。</strong></p>\n  <h2>上市进行时</h2>\n  <p><strong>胜达克半导体启动上市辅导</strong></p>\n  <p>36氪获悉，证监会官网显示，胜达克半导体科技（上海）股份有限公司已启动上市辅导，招商证券担任辅导机构。&nbsp;</p>\n  <p><strong>深圳宏芯宇电子股份有限公司向港交所提交上市申请书</strong></p>\n  <p>36氪获悉，据港交所文件，深圳宏芯宇电子股份有限公司向港交所提交上市申请书。&nbsp;</p>\n  <h2>投融资</h2>\n  <p><strong>快手：旗下视频生成大模型可灵AI落地近30亿美元融资</strong></p>\n  <p>快手在港交所公告，快手旗下领先的视频生成大模型可灵AI落地近30亿美元融资，投后估值有望达到180亿美元。此次融资，可灵AI创下全球视频大模型公司最大额融资纪录，标志着其独立商业化发展进程正式开启。本轮融资由CPE源峰、国方创投、BlueFive、腾讯、中关村科学城基金（联合国科投资）、中信证券联合领投，以及数十家一线机构共同参与。据悉，该轮融资汇聚阿里云、百度等顶级产业资本，华策影视和芒果产业投资人（厚为资本）等头部文娱产业方积极参与。（财联社）&nbsp;</p>\n  <p><strong>“乐享科技”完成近5亿元Pre-A轮融资</strong></p>\n  <p>36氪获悉，“乐享科技”今日正式官宣完成近5亿元Pre-A轮融资。至此，乐享科技成立仅一年半，累计融资总额已达10亿元人民币。本轮融资由蚂蚁集团领投，产业方吉利资本、三七互娱，元禾璞华跟投，老股东 Monolith持续超额跟投，投资者汇集了顶级战投方、产业投资人与市场化基金。本轮融资资金将重点用于六项核心技术自研、人才引入、全球化市场渠道拓展等。</p>\n  <p><strong>德国无人机制造商Quantum Systems获得12亿美元融资</strong></p>\n  <p>德国国防科技公司Quantum Systems周四表示，已筹集12亿美元新资金，这使这家无人机制造商的估值达到约80亿美元，这也是迄今为止欧洲国防科技公司获得的最大规模私募融资之一。这一估值较一年前高出约八倍。这家总部位于慕尼黑的公司表示，本轮融资得到了国际投资者的支持。（新浪财经）</p>\n  <p><strong>“高云半导体”完成数亿元Pre-IPO轮融资</strong></p>\n  <p>36氪获悉，“高云半导体”宣布完成Pre-IPO轮融资交割落地。本次融资总规模达数亿元。本次Pre-IPO轮融资由广开基金、广州工控资本、越秀产业基金、广州金控基金、知识城创投、国创集团（大湾区国创中心资产管理平台）、番禺产投等本地国资共同参与。同时，本次成功引入多家产业资本，包括恒旭资本、仁发投资、梁溪科创产业二期母基金（博华产投管理），以及专业科技投资机构朗姿韩亚、景祥资本、中广创投等。</p>\n  <p><strong>“灵珠”完成天使轮融资</strong></p>\n  <p>36氪获悉，AI创作平台“灵珠”近日完成了天使轮融资，由TikTok天使投资人韦海军领投。</p>\n  <h2>AI图谱</h2>\n  <p><strong>AI图谱，带你解读最新最快的AI资讯。</strong>海尔的Agent OS，已经开始进入研发、采购、生产、客服等核心业务场景。&nbsp;</p>\n  <p>&nbsp;</p>\n  <p><strong>“零食消费”小调查</strong></p>\n  <p>明明没吃多少，零食账单却越来越长。这届年轻人，怎么越来越嘴馋了？&nbsp;</p>\n  <p>零食在年轻人生活中的地位似乎日渐重要。加班到九点，要靠一包“高蛋白肉干”撑到回家；下午路过便利店，顺手就拿一盒冷藏甜品、几颗现制卤味犒劳自己；周末，逛量贩零食店大采购成了日常解压方式——零食，悄悄占据了打工人的生活，成了忙碌日常中的“隐藏刚需”。&nbsp;</p>\n  <p>你买零食时，会因为“高蛋白、0糖、低卡”这些标签多拿一包吗？你多久会试一次没吃过的网红新品？你曾用零食代替过一顿正餐吗？在你心里，零食算一时嘴馋，还是一日续命？欢迎填写「零食消费小调查」，聊聊你心里最想推荐给大家的那款零食~&nbsp;</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260703/v2_20ba7d60512a4b4d8249b0ae493e42ff@5667365_oswg20714oswg512oswg512_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">“零食消费”小调查</p>\n  <p><strong>整理</strong>｜王倚轩&nbsp;</p>",
+      "published": "2026-07-03T08:06:38+08:00",
+      "fetched_at": "2026-07-03T11:31:25.773750+08:00",
+      "pre_filter_reason": "Mentions 'embodied intelligence' and AI version of Alipay.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "宇树科技IPO过会，具身智能赛道迎来“第一股”",
+          "angle": "解读宇树科技上市对机器人行业和投资者的意义，分析其技术壁垒与市场前景。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "霸王茶姬0元抢购乌龙事件：配置失误如何引发全网薅羊毛？",
+          "angle": "复盘事件经过，讲解电商活动配置中的常见坑点与防范策略，适合运营人员学习。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "ac1d1fae1479",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "天工AI业务ARR突破8亿美元，向中国首个非BAT10亿美元ARR的AI公司迈进",
+      "link": "https://www.qbitai.com/2026/07/441786.html",
+      "summary": "其中AI短剧平台业务ARR超过7亿美元",
+      "published": "2026-07-02T14:23:10+08:00",
+      "fetched_at": "2026-07-03T11:31:34.211200+08:00",
+      "pre_filter_reason": "AI业务ARR突破，涉及AI短剧平台",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "天工AI年化收入破8亿美元，AI短剧成最大功臣",
+          "angle": "拆解天工AI的商业模式，分析AI短剧为何能成为营收主力，以及对中国AI创业公司的启示。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "2b22558b8bff",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "被骂“退出AI竞赛”，Meta改行卖算力股价暴涨10%：卖铲子比淘金更赚？",
+      "link": "https://www.infoq.cn/article/vxgbzsNORRzQDz6xK1jv?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/vxgbzsNORRzQDz6xK1jv?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-07-03T02:27:05+08:00",
+      "fetched_at": "2026-07-03T11:31:32.550493+08:00",
+      "pre_filter_reason": "Meta AI competition and computing power sales",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Meta改行卖算力股价暴涨：从AI竞赛到“卖铲子”的生意经",
+          "angle": "分析Meta转型卖算力的商业逻辑，对比“淘金”与“卖铲子”模式，给创业者的战略启发。",
           "difficulty": "入门"
         }
       ]
@@ -198,29 +297,23 @@
       "link": "https://www.infoq.cn/article/zhoGu6x9CdUJ3XMFvyK1?utm_source=rss&utm_medium=article",
       "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/zhoGu6x9CdUJ3XMFvyK1?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
       "published": "2026-07-02T18:25:24+08:00",
-      "fetched_at": "2026-07-02T11:50:31.596866+08:00",
+      "fetched_at": "2026-07-03T11:31:32.550632+08:00",
       "pre_filter_reason": "AI agent security warning",
       "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
         "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 3.5
+        "virality": 9,
+        "crowd_heat": 0.0
       },
-      "quality_score": 7.7,
+      "quality_score": 7.5,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "Log4j 2.0：如何用 Agent 自动化检测和修复漏洞？",
-          "angle": "以 Cloudflare CEO 的警告为引子，演示如何使用 AI Agent 工具（如自动化扫描脚本或安全 Agent）快速发现并修复类似 Log4j 的漏洞，降低企业风险。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "opinion",
-          "title": "Agent 时代的安全危机：我们该如何应对“每周一个 Log4j”？",
-          "angle": "解读 Cloudflare CEO 的警告，分析 Agent 技术如何放大安全威胁，并给出企业和个人在 Agent 普及前应采取的预防措施。",
-          "difficulty": "入门"
+          "tag": "news",
+          "title": "Cloudflare CEO警告：Agent将让互联网每周爆出一个Log4j级漏洞",
+          "angle": "解读Agent技术带来的新型安全风险，分析为何传统防御手段失效，以及企业应如何提前布局。",
+          "difficulty": "进阶"
         }
       ]
     },
@@ -235,475 +328,271 @@
       "link": "https://www.leiphone.com/category/zaobao/8xIKNxdh5DASn0Tj.html",
       "summary": "<section></section><section><section><section><section><section><section><section style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong><span style=\"text-align: justify;\">要闻提示</span></strong></span></section><section><section><br /></section></section></section></section></section></section></section></section><p style=\"text-align: justify;\">1.美国最强AI公司被曝暗藏针对中国的“监视代码”，官方回应：将在更新中删除</p><p style=\"text-align: justify;\">2.优必选CEO：珍惜做牛马的时光吧，20年后全是机器人干活</p><p style=\"text-align: justify;\">3.小米人事调整：中国区总裁王晓雁不再兼任销售运营一部总经理，陈幕楠接任</p><p style=\"text-align: justify;\">4.山姆砍单多个苹果涨价前已付款订单，转头加价600元新上架遭质疑</p><p style=\"text-align: justify;\">5.百度持续加码AI技术投入：再次引入年轻技术人才</p><p style=\"text-align: justify;\">6.消息称iPhone17价格即将迎来调整</p><p style=\"text-align: justify;\">7.“家电不换成格力，凭什么分红？” 董明珠股东会言论惹争议，婉拒签名称“我不是雷总”</p><p style=\"text-align: justify;\">8.特斯拉超级芯片工厂迎来首位高管，英特尔17年老将掌舵</p><section><section><section><section><section><section><section></section><section><section style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>今日头条</strong></span></section><section><br /></section></section></section></section></section></section></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>美国最强AI公司被曝暗藏针对中国的“监视代码”，官方回应：将在更新中删除</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">7 月 1 日消息，近日，有外国网民在海外社交平台上爆出猛料，称美国目前最强的AI科技企业之一Anthropic推出的AI编程工具Claude Code的客户端里，暗藏着一段针对中国的“监视代码”，且该代码已经存在了长达3个月之久。</p><p style=\"text-align: justify;\">网友称，这段代码会在用户使用代理时，暗中进行两项检测：检查系统时区是否为中国时区（Asia / Shanghai 或 Asia / Urumqi），以及 URL 是否匹配一份包含 147 个条目的域名清单（包括百度、阿里巴巴、字节跳动等中国科技企业及 AI 实验室的域名，以及大量 Claude API 中转服务地址）。</p><p style=\"text-align: justify;\">而一旦检测到上述情况，那段可疑的代码就会在用户使用其程序向Anthropic的大模型发送指令时，悄悄篡改系统提示词中的日期格式和部分表达符号，向Anthropic 的服务器发送隐藏标记，从而令该公司识别到这些中国用户。对此，有开发者直言：“这甚至有些类似后门。”</p><p style=\"text-align: justify;\">在网友们的质疑声浪下，Anthropic公司Claude Code产品负责人Thariq Shihipar在7月1日回应称，这是“一个实验”，目的是防止未经授权的账户转售以及防范模型蒸馏攻击。他称其团队已经有了更好的应对方案，7月2日会撤下这段代码。（环球时报）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260702/6a45b29e37533.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section></section><section><section><section><section><section><section><section><section></section><section><section style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>国内资讯</strong></span></section><section><br /></section></section></section></section></section></section></section></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>优必选CEO：珍惜做牛马的时光吧，20年后全是机器人干活</strong></p></section></section></section></section></section></section><p style=\"text-align: justify;\">7月1日消息，近日，优必选CEO周剑在2026年度全球发布会上，再次谈及未来机器人与人类的工作格局。</p><p style=\"text-align: justify;\">周剑表示，好好珍惜我们作为牛马、作为劳动力工作的最后光阴吧，这也就是未来5年10年20年的事情了。现在20多岁的年轻人觉得累，可能过了20年你想工作也没了，因为全都是机器人在干活。那些大家如今觉得不愿意干的、特别枯燥、特别烦的工作，未来可能也没有了。</p><p style=\"text-align: justify;\">今年3月，周剑在一个访谈节目中表示，机器人首先替代的是一些招工难、环境困难的岗位。“举个例子，现在在温州工厂，干活的都是年纪较大的人。年轻女孩宁愿出去送外卖，都不愿意到简单、重复、枯燥的工厂环境中。其实社会生产力的极大丰富，可以让人类过上更加幸福美好的生活。未来的人类应该更多地从事艺术、哲学等创新性的工作。”（快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260702/6a45b29e936d9.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>小米人事调整：中国区总裁王晓雁不再兼任销售运营一部总经理，陈幕楠接任</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">7月1日消息，媒体获悉，小米中国区近日迎来人事调整，涉及汽车销交服部、销售运营一部、电商部、新零售部等多个部门。其中，任命樊家麟担任汽车销交服部下辖的销售运营部代理总经理，向汽车销交服部总经理夏志国汇报。樊家麟是小米早期员工，2025年9月，他从小米人车家与智能产品负责人被任命为小米汽车销售运营部副总经理。</p><p style=\"text-align: justify;\">任命陈幕楠担任销售运营一部总经理，向集团高级副总裁、中国区总裁王晓雁汇报。陈幕楠此前担任小米中国区电商部总经理，统筹小米在中国区的电商渠道管理、营销策略及用户增长。任命新零售部总经理张健兼任小米之家总经理，原小米之家总经理陈恺则担任电商部总经理，向集团高级副总裁、中国区总裁王晓雁汇报。</p><p style=\"text-align: justify;\">在2025年12月的上一轮中国区大调整中，小米集团高级副总裁、中国区总裁王晓雁兼任销售运营一部总经理，被外界解读为亲自下场抓业绩。对比此次调整，他不再兼任销售运营一部总经理一职。另外，小米新零售战略的重要载体小米之家总经理也经历了多轮调整。2025年，王晓雁一度兼任了小米之家总经理的职位，后任命当时的云南分公司总经理陈恺兼任；在此次调整中，则由新零售部总经理张健兼任。（新浪科技）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>山姆砍单多个苹果涨价前已付款订单，转头加价600元新上架遭质疑</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">7月1日消息，6月25日晚间，苹果宣布Mac、iPad等产品售价上涨16%-25%，因山姆超市未同步调价，多地门店出现抢购和代购。</p><p style=\"text-align: justify;\">不过，近日多位消费者投诉反馈，山姆超市以“商品缺货”为由，单方面取消普通会员的苹果产品订单，但出现了会员等级区别对待的情况：同款商品、同等订单，高级会员卡用户的订单均正常发货，普通会员订单却被无故取消。</p><p style=\"text-align: justify;\">有消费者透露，她曾同时下单两笔同款MacBook Neo电脑订单，最终高级会员卡对应的订单正常发货，普通会员卡的订单却被以缺货为由取消。更令人质疑的是，被标注“缺货”并取消订单的这款机型，很快便在山姆平台重新上架，页面显示“商品正在补货中”，但售价直接涨到5799元，较消费者此前的下单价格高出600元。</p><p style=\"text-align: justify;\">针对此次单方面取消订单的售后补偿问题，消费者表示山姆的处理方案十分敷衍。消费者多次主动维权、交涉后，客服回应称，自身最高权限仅能为每台取消订单的设备，提供50元优惠券补偿。（快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260702/6a45b29ed103d.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 269px; height: 282px;\" /></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>百度持续加码AI技术投入：再次引入年轻技术人才</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">7月1日消息，近日，大模型领域技术专家孙天祥正式加入百度，就任基础模型研发部（BMU）负责人。孙天祥此次同时进入百度模型委员会（BMC），从研发MOSS到提出MaaS再到其后续创业方向，他的学术与产业路径与百度基础模型的战略投入方向高度契合。</p><p style=\"text-align: justify;\">此前，百度分别成立基础模型研发部（BMU)和应用模型研发部（AMU），其中应用模型研发部由贾磊负责。过去一段时间，百度在AI组织架构和人才梯队上持续迭代：设立百度模型委员会、多批次引入年轻技术力量，围绕基础模型的系统性人才布局逐步成型。</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>消息称iPhone17价格即将迎来调整</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">7月1日消息，据博主定焦数码透露，iPhone 17当前价格坚持不了几天了，或即将迎来变动。此外他还称，据产业端消息，苹果已下调预期，生产计划下降15%。</p><p style=\"text-align: justify;\">此前6月25日深夜，苹果突然宣布面向全球市场上调Mac、iPad以及家居设备价格。</p><p style=\"text-align: justify;\">根据苹果官方数据，MacBook Neo起售价从599美元升至699美元，MacBook Air从1099美元升至1299美元，14英寸入门款MacBook Pro从1699美元升至1999美元，11英寸iPad Pro从999美元升至1199美元，iPad Air从599美元升至749美元。上述调价为全球性涨价，iPhone价格暂未调整。（三言科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260702/6a45b29ef312b.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>“家电不换成格力，凭什么分红？” 董明珠股东会言论惹争议，婉拒签名称“我不是雷总”</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">7 月 1 日消息，近日，格力2025年度股东大会召开，格力电器董事长董明珠在会上发言引发争议，其反复推荐产品的行为，被戏称“将股东大会开成推介会”。股东提问环节，董明珠还多次提及“脱谷机”，有股东带头购买并希望签名，她婉拒称：“我不是雷总”，随即引发全场哄堂大笑。</p><p style=\"text-align: justify;\">该事件引发了一些传言，有人称“现场需下单格力脱谷机方可获得提问机会”。对此，格力电器方面否认称，“现场股东表示自己也愿意下单、多交流，董总也笑着顺着氛围回应下单即可继续沟通，整段对话只是现场轻松的互动玩笑，绝非强制消费要求。”</p><p style=\"text-align: justify;\">争议较大的是她关于分红的回应。董明珠建议，股东拿到分红后，家电都换成格力产品，“家电不改为格力，凭什么分红？”而面对中国空调在欧洲“一机难求”，有股东追问“为何欧洲市场投入不大？”董明珠则坦言，“出口做得不好，很惭愧，希望可以给我们留点面子，接下来保证加快速度改进。”（新浪科技）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>连零件都不准卖！美新规表决封杀华为：含海思芯片的产品将全面禁售</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">7月1日消息，美国联邦通信委员会（FCC）近日宣布，计划在7月就一项新措施进行表决。该措施拟禁止在美国境内销售任何含有黑名单企业零组件的电子装置。现行禁令仅针对通讯装置成品，华为旗下海思设计的芯片若被其他品牌采购用于智能手机或平板电脑，再销往美国并未被明确禁止。</p><p style=\"text-align: justify;\">这正是FCC此次要堵上的关键漏洞。FCC在声明中强调，新规旨在切断构成安全风险的电子设备进入美国的渠道。新规若获批准，在美国市场销售各类电子装置的制造商，将被迫对内部零组件的采购来源进行更严格审查。搭载海思芯片的产品对美出口或在美国境内销售将成为不可能。</p><p style=\"text-align: justify;\">近几个月来，FCC已逐步加强管制，并在2022年禁令基础上持续扩大范围。2026年3月禁止外国制造消费级路由器进入美国市场。6月又收紧海底通信光缆监管规则。此次新规将管制从整机延伸至零部件层级，美国的限制措施进一步升级。（快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260702/6a45b29f265bc.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>拼多多雄安公司员工数量超600人</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">6月30日，据最新消息，拼多多雄安公司入职员工数量已超过600人，成为新区最大的互联网民营企业。</p><p style=\"text-align: justify;\">目前，拼多多雄安公司的员工超8成来自京津冀地区，应届毕业生的占比持续提升，毕业于北京、河北等高校的2026届毕业生不断奔赴新区。</p><p style=\"text-align: justify;\">此前报道，拼多多在雄安的首批招聘岗位数量达到1000个，整个招聘周期将为当地提供超5000个工作岗位，仅一个月的时间，首批招聘岗位已经完成了6成以上。</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>阿维塔向港交所提交上市申请书：2025 年营收同比增长 68.7%，引望已盈利</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">7 月 1 日消息，阿维塔科技（重庆）股份有限公司 6 月 30 日向港交所提交上市申请书，联席保荐人为中信证券、中金公司。招股说明书显示，长安汽车以 40.99% 持股为阿维塔第一大股东，宁德时代持股 9.17%。</p><p style=\"text-align: justify;\">阿维塔招股书显示，2025 年阿维塔全年营收为 256.31 亿元，同比增长 68.7%。毛利自 2024 年首次转正后，2025 年扩增至 24.17 亿元，毛利率升至 9.4%，2025 年经营性现金流为 23.15 亿元。阿维塔 2023 年、2024 年、2025 年期内亏损分别为 36.93 亿元、40.18 亿元、34.89 亿元。</p><p style=\"text-align: justify;\">据悉，阿维塔于 2025 年以 115 亿元战略入股引望，持有其 10% 股权，2025 年分占联营公司利润 1.82 亿元。海外市场方面，2025 年阿维塔海外收入 13.98 亿元，收入占比达 5.5%，海外市场平均售价超 30 万元。（IT之家）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>余承东亲自操刀！华为汽车顶棚专利曝光：车顶藏块投影幕布</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">7月1日消息，国家知识产权局近日公布华为技术有限公司一项外观设计专利，名称为“汽车顶棚”，授权公告日为2026年6月26日。专利页面显示，该汽车顶棚设计人包括余承东、伍国平、杨子墨、于清泉、孙斌和糜泽坤共6人。</p><p style=\"text-align: justify;\">本外观设计产品主要用于安装在汽车顶部，可存放投影幕布。从专利图可以看到，汽车顶棚与投影幕布存放处进行结合，让车内空间利用率得到进一步提升。鸿蒙智行官网展示的全新一代问界M9已运用与该专利极为相似的设计。全新一代问界M9支持在车辆正前方、二排幕布和后备箱外挂幕布三个位置进行投影，其中二排幕布便位于汽车顶棚位置。</p><p style=\"text-align: justify;\">此外，鸿蒙智行官方宣布，6月交付新车50624台，环比增长9.7%；2026年上半年累计交付24万台，同比增长18.6%。截至目前，鸿蒙智行全系累计交付突破143万台，刷新中国新势力品牌最快达成纪录，向第二个百万台里程碑迈进。（快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260702/6a45b29f486c4.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>阿里速卖通首次公布 618 中国品牌出海成交榜：小米系包揽手机领域冠亚军</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">7 月 1 日消息，阿里旗下跨境电商平台速卖通首次公布 618 中国品牌出海成交榜，覆盖手机、汽摩配、数码影音、电脑办公、运动鞋服、户外骑行等 10 大品类，号称是“跨境电商平台首次发布中国品牌出海成交排名”。</p><p style=\"text-align: justify;\">其中，在手机方面，小米系包揽冠亚军，其中小米子品牌 POCO 拿下第一，小米本家排名第二。荣耀、realme、一加、OPPO、vivo 紧随其后。DOOGEE（三防手机，第 8 名）和宝锋（对讲机，第 9 名）两个非典型品牌也杀入前十。</p><p style=\"text-align: justify;\">家电方面，本地备货趋势加速家电品类在海外爆发，近期因欧洲高温，包括美的、科沃斯品牌均上榜。泳池机器人是国内认知度低、但在欧美市场爆发式增长的新兴品类，中国出海品牌正在抓住这类窗口期。（IT之家）</p><section><section><section><section><section><section><section><section style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>国际资讯</strong></span></section><section><br /></section></section></section></section></section></section></section></section></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>曝三星不同部门奖金差距高达百倍：员工“大逃亡”，更有人有意跳槽 SK 海力士</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">7 月 1 日消息，据外媒报道，三星电子家电与移动（DX）部门一名入职 5 年的员工 A 某，正准备申请 SK 海力士的社招，申请截止时间为本月 6 日。A 某坦言，自己当年求职时甚至没有考虑过 SK 海力士，最近却下定决心“逃离三星电子”，直接原因是 DX 与半导体（DS）部门之间悬殊的绩效奖金差距。“继续遭受这种区别对待，我没法再留下了。”</p><p style=\"text-align: justify;\">据悉，DS 员工将获得数亿韩元绩效奖金，DX 员工却只能获得价值 600 万韩元的公司股票，名义上属于薪资谈判达成后的补偿金，部门矛盾由此爆发。A 表示，得知两个部门的绩效奖金差距最高可能达到 100 倍后，自己已经失去对三星电子的信任，“DX 部门赚来的钱，过去应该也用于建设半导体工厂。工会现在却装作不知道，这种态度更让我觉得遭到背叛。”</p><p style=\"text-align: justify;\">绩效奖金差距引发的 DS 与 DX 员工矛盾，已经出现演变为 DX 部门“跳槽潮”的迹象。SK 海力士今年 6 月接连启动新员工和社会招聘后，不少 DX 员工更加动摇。最近，一个由三星电子员工组成的秘密聊天室内出现了 SK 海力士招聘公告链接，员工纷纷留言称“利好来了”“2026 大逃离开始了”，反响热烈。（IT之家）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>特斯拉超级芯片工厂迎来首位高管，英特尔17年老将掌舵</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">7月1日消息，据媒体报道，特斯拉近日为其“Terafab”超级芯片工厂任命了首位高管——Gary Jiang，他曾在英特尔供职逾17年，将担任Terafab总监一职。</p><p style=\"text-align: justify;\">在加入特斯拉前，Gary Jiang已在英特尔工作长达17年零9个月。其最近一段任职经历为工厂经理，自2024年12月起，负责英特尔18A技术的开发转移、厂房建设与工具安装、产品认证启动，以及大规模量产能力的搭建。报道称，Jiang 在英特尔积累的设厂与运营经验，可能有助于 Terafab 推进复杂制造设施建设。</p><p style=\"text-align: justify;\">在 SpaceX 提交给当地政府的 30 天税收减免听证通知中，Terafab 拟建设“多阶段、下一代、垂直整合的半导体制造和先进计算制造设施”。文件显示，初始阶段预计资本投入为 550 亿美元（约合 3738.08 亿元人民币），若后续阶段继续建设，总资本投入估计为 1190 亿美元（约合 8087.84 亿元人民币）。（IT之家、快科技）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>英伟达节俭！员工没有免费午餐</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">7月1日消息，软件工程师兼行业分析师盖尔盖伊·奥罗斯兹近日在社交平台发帖称，英伟达不向员工提供免费零食与咖啡。这一爆料迅速引发外界对这家AI芯片巨头职场福利的关注。</p><p style=\"text-align: justify;\">两名前员工向外媒透露，英伟达员工餐厅的餐食并非完全免费。公司提供部分补贴承担一部分餐费，但员工仍需自付剩余部分。英伟达前员工表示，英伟达骨子里崇尚节俭，相比优厚福利，业务工作才是真正的核心重心。</p><p style=\"text-align: justify;\">一名前员工透露，英伟达创始人黄仁勋一贯主张享乐与工作应当分开。公司内部没有乒乓球桌、专属健身房或预约按摩这类休闲设施。一名前员工直言，硬件企业历来利润微薄，利润率远低于软件公司。秉持全员平等的企业文化，英伟达副总裁出差仅乘坐经济舱，也不配备专属高管助理。</p><p style=\"text-align: justify;\">如今科技行业进入降本增效新阶段，各大企业纷纷缩减员工福利。亚马逊和苹果同样不提供免费食物，而谷歌仍配备主厨定制餐食和零食茶水间。有消息称Meta因内部士气低迷，正着手升级茶水间配套。（快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260702/6a45b29fb1615.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>Meta 筹建云服务业务，计划对外售卖闲置 AI 算力与模型</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">7 月 1 日消息，据报道，Meta 公司正在规划一项全新的云基础设施业务，计划对外提供 AI 算力和模型的使用权。此举将使 Meta 在新的赛道上，与亚马逊 AWS、微软 Azure 以及谷歌云等行业巨头展开竞争。</p><p style=\"text-align: justify;\">知情人士透露，Meta 正计划成立一个新业务部门，将闲置的算力出售给外部客户以创造营收。其中一项潜在方案是开放 Meta 现有 AI 基础设施上托管的各类 AI 模型的调用权限，该模式类似于亚马逊 AWS 的 Bedrock 服务。Meta 将负责运营支撑这些模型（包括其自研的 Muse Spark 模型）运行的数据中心和芯片，并向开发者收取使用费。</p><p style=\"text-align: justify;\">知情人士还表示，Meta 同样在考虑对外出租“底层算力”。据一位熟悉该计划的人士称，这些新业务线的开发隶属于 Meta Compute —— 这是一个旨在构建和管理公司 AI 基础设施的内部项目。（IT之家）</p><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>倒计时5年中美抢登月！NASA再授予5.9亿美元合同：拟发射月球车</strong><br /></p></section></section></section></section></section></section><p style=\"text-align: justify;\">7月1日消息，据报道，美国宇航局（NASA）周二宣布向三家公司授予总金额约5.9亿美元的月球着陆器合同，加速推进2030年前建立月球基地的计划。具体来看，Astrobotic Technology获得两份合同共约2.98亿美元，Firefly Aerospace获得约1.44亿美元，Intuitive Machines获得约1.48亿美元。</p><p style=\"text-align: justify;\">据悉，此次合同授予是NASA月球战略大转向的一部分。今年5月，NASA宣布放弃绕月“月球门户”空间站现有方案，将200亿美元预算重点转向月球表面长期驻留基础设施，计划最快2028年再次实现载人登月，2030年代建立永久月球基地。</p><p style=\"text-align: justify;\">月球竞赛的另一方，中国同样在加速推进。中国国家航天局已明确计划在2030年前实现中国人首次登陆月球，嫦娥系列探测器持续开展月背采样和南极探测任务。中美两国均选择将2030年设为关键节点，而NASA此次密集签发着陆器合同，显然是想在倒计时5年内抢出更多进度。（快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260702/6a45b29fe842f.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 327px; height: 391px;\" /></section>",
       "published": "2026-07-02T08:52:00+08:00",
-      "fetched_at": "2026-07-02T11:50:29.951366+08:00",
-      "pre_filter_reason": "AI公司监视代码",
+      "fetched_at": "2026-07-03T11:31:30.934049+08:00",
+      "pre_filter_reason": "Mentions 'US strongest AI company' and surveillance code, related to AI policy/ethics.",
       "scores": {
         "importance": 8,
         "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "曝美国AI公司暗藏针对中国的“监视代码”，已持续3个月",
+          "angle": "梳理事件来龙去脉，分析AI模型供应链安全风险，以及中国企业和开发者如何自查防范。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "opinion",
+          "title": "优必选CEO：珍惜做牛马的时光，20年后全是机器人干活",
+          "angle": "探讨AI与机器人替代人类劳动的争议，结合CEO观点分析未来就业趋势与个人应对策略。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "90ae5f628be4",
+      "source_id": "apple-ml",
+      "source_name": "Apple ML Research",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Multi-Agent Teams Hold Experts Back",
+      "link": "https://machinelearning.apple.com/research/multi-agent-teams-experts",
+      "summary": "Multi-agent LLM systems are increasingly deployed as autonomous collaborators, where agents interact freely rather than execute fixed, pre-specified workflows. In such settings, effective coordination cannot be fully designed in advance and must instead emerge through interaction. However, most prior work enforces coordination through fixed roles, workflows, or aggregation rules, leaving open the question of how well self-organizing teams perform when coordination is unconstrained. Drawing on organizational psychology, we study whether self-organizing LLM teams achieve strong synergy, where…",
+      "published": "2026-07-02T08:00:00+08:00",
+      "fetched_at": "2026-07-03T11:31:24.206714+08:00",
+      "pre_filter_reason": "Discusses multi-agent LLM systems, a core AI research topic.",
+      "scores": {
+        "importance": 7,
+        "timeliness": 6,
         "actionability": 8,
         "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 3.5
+        "virality": 6,
+        "crowd_heat": 0.0
       },
-      "quality_score": 7.7,
+      "quality_score": 7.5,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "如何识别和防范 AI 模型中的“监视代码”？",
-          "angle": "以“美国AI公司暗藏监视代码”事件为例，讲解开发者如何通过代码审计、行为监控和合规检查来发现并移除AI模型中的隐藏后门。",
+          "title": "多智能体协作的陷阱：为什么自由交互反而拖后腿？",
+          "angle": "用生活化比喻（如“无领导会议”）解释多智能体系统自由交互时的协调难题，并给出3个避免协作失败的实用设计原则。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "从“预设流程”到“涌现协作”：多智能体系统的进化瓶颈",
+          "angle": "对比传统固定工作流与新兴自由交互模式，分析当前研究为何难以实现有效涌现协调，并预测未来突破方向。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "92b647a79112",
+      "source_id": "apple-ml",
+      "source_name": "Apple ML Research",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "On Robustness and Chain-of-Thought Consistency of RL-Finetuned VLMs",
+      "link": "https://machinelearning.apple.com/research/robustness-chain-thought-consistency",
+      "summary": "Reinforcement learning (RL) finetuning has become a key technique for enhancing large language models (LLMs) on reasoning-intensive tasks, motivating its extension to vision language models (VLMs). While RL-tuned VLMs improve on visual reasoning benchmarks, they remain vulnerable to weak visual grounding, hallucinations, and over-reliance on textual cues. We show that simple, controlled textual perturbations—misleading captions or incorrect chain-of-thought (CoT) traces—cause substantial drops in robustness and confidence, and that these effects are more pronounced when CoT consistency is…",
+      "published": "2026-07-02T08:00:00+08:00",
+      "fetched_at": "2026-07-03T11:31:24.206766+08:00",
+      "pre_filter_reason": "Discusses robustness and chain-of-thought in RL-finetuned vision-language models, an AI research topic.",
+      "scores": {
+        "importance": 7,
+        "timeliness": 6,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "RL微调视觉语言模型：如何避免“看图说话”翻车？",
+          "angle": "用案例展示RL微调VLM在视觉推理中的脆弱性（如被弱视觉线索误导），并教授3种提升鲁棒性的Chain-of-Thought一致性技巧。",
           "difficulty": "中级"
         },
         {
-          "tag": "opinion",
-          "title": "优必选CEO言论引发热议：20年后全是机器人，我们该焦虑还是期待？",
-          "angle": "结合优必选CEO的“珍惜做牛马时光”言论，探讨AI和机器人对就业结构的影响，以及个人如何提前规划技能转型。",
-          "difficulty": "入门"
+          "tag": "analysis",
+          "title": "强化学习不是万能药：视觉语言模型为何在简单图像上犯错？",
+          "angle": "深入分析RL微调VLM的视觉鲁棒性缺陷根源，对比人类视觉认知机制，探讨未来训练策略改进方向。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "357851d62998",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Anthropic 突发 Sonnet 5，但大家更期待 Fable 5 和 Mythos 5 明天解禁",
-      "link": "https://www.infoq.cn/article/S9zHYQqfFCXt8GoLlM5W?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/S9zHYQqfFCXt8GoLlM5W?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-07-02T01:09:25+08:00",
-      "fetched_at": "2026-07-02T11:50:31.596932+08:00",
-      "pre_filter_reason": "Anthropic is an AI company, and 'Sonnet 5' likely refers to an AI model; title implies AI product launch.",
+      "id": "ca2f0291ee0e",
+      "source_id": "apple-ml",
+      "source_name": "Apple ML Research",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Conformal Thinking: Risk Control for Reasoning on a Compute Budget",
+      "link": "https://machinelearning.apple.com/research/conformal-thinking-risk-control",
+      "summary": "Reasoning Large Language Models (LLMs) enable test-time scaling, with dataset-level accuracy improving as the token budget increases, motivating adaptive reasoning—spending tokens when they improve reliability and stopping early when additional computation is unlikely to help. However, setting the token budget, as well as the threshold for adaptive reasoning, is a practical challenge that entails a fundamental risk-accuracy trade-off. We re-frame the budget setting problem as risk control, limiting the error rate while minimizing compute. Our framework introduces an upper threshold that stops…",
+      "published": "2026-07-02T08:00:00+08:00",
+      "fetched_at": "2026-07-03T11:31:24.206832+08:00",
+      "pre_filter_reason": "AI research on reasoning LLMs and compute budget",
       "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
+        "importance": 7,
+        "timeliness": 6,
+        "actionability": 7,
         "scarcity": 7,
-        "virality": 8,
+        "virality": 6,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.7,
+      "quality_score": 7.4,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "Sonnet 5 来了！10分钟上手新模型的核心功能",
-          "angle": "针对Anthropic新发布的Sonnet 5，制作快速上手教程，展示其相比前代的性能提升和独特应用场景（如代码生成、长文本处理）。",
-          "difficulty": "入门"
+          "title": "给推理模型装个“预算表”：Conformal Thinking入门指南",
+          "angle": "用类比（如“考试时间分配”）解释如何通过风险控制机制在计算预算内自适应分配推理token，并给出简单代码实现框架。",
+          "difficulty": "中级"
         },
         {
-          "tag": "opinion",
-          "title": "Fable 5 vs Mythos 5：明天解禁，哪款模型更值得期待？",
-          "angle": "对比分析即将解禁的Fable 5和Mythos 5的传闻特性，结合用户需求（如创意写作 vs 逻辑推理），给出选择建议。",
-          "difficulty": "入门"
+          "tag": "analysis",
+          "title": "推理模型的“聪明暂停”：何时停止计算反而更可靠？",
+          "angle": "探讨自适应推理中token预算与准确率的权衡，分析Conformal Thinking方法如何平衡效率与风险，对比现有固定预算策略。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "e342eb7eef00",
-      "source_id": "ifanr",
-      "source_name": "爱范儿",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "大规模封号后，Claude 突然发布更便宜的新模型",
-      "link": "https://www.ifanr.com/1670577?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "Anthropic 想用 Claude 讲一个更大的故事<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
-      "published": "2026-07-01T19:49:05+08:00",
-      "fetched_at": "2026-07-02T11:50:36.977567+08:00",
-      "pre_filter_reason": "Claude是AI模型，发布新模型",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "大规模封号后，Claude 新模型如何更便宜地使用？",
-          "angle": "介绍Claude新模型的定价策略和性价比，演示如何通过API或第三方平台以更低成本调用新模型，并对比旧模型的费用节省。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "opinion",
-          "title": "Claude 的“大故事”：封号潮后，Anthropic 想用便宜模型挽回用户？",
-          "angle": "分析Anthropic在封号事件后发布更便宜模型的战略意图，讨论这是否是“亡羊补牢”还是“以价换量”的市场策略。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "b9b7180c5a4e",
+      "id": "53e3d708ae19",
       "source_id": "leiphone",
       "source_name": "雷锋网",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "Reddit 上爆出大猛料，Claude 为何封号中国用户又快又准？",
-      "link": "https://www.leiphone.com/category/ai/rzmbSvqty7wRNC3N.html",
-      "summary": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260701/6a44eaf721661.jpg?imageMogr2/quality/90\" style=\"width: 100%; display: inline-block; text-align: center; background-color: transparent;\" /></section><section style=\"padding-left: 16px; padding-right: 16px;\"><section style=\"width: 100%; display: flex; padding: 0px;\"><section style=\"width: 100%; padding-left: 0px; padding-right: 0px;\"><section style=\"width: 100%; background: rgb(246, 248, 255); padding: 20px 0px 12px; margin-top: 0px; margin-bottom: 0px;\"><section style=\"text-align: center;\"><section><section style=\"text-align: justify; margin: 0px 16px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><span><span style=\"font-weight: bold;\">Claude Code 负责人已回应：只是为了防止模型蒸馏！</span></span></span></span></section><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><section style=\"text-align: left; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><br /></span></span></section></section></section><span></span><span></span><span></span><span></span><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-weight: normal;\">&nbsp; &nbsp; 作者丨</span></span><span style=\"font-size: 14px; line-height: 25px; color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\">樊天骄</span><strong><span><strong><span><span><br /></span></span></strong></span></strong></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Optima-Regular, PingFangTC-light;\"><span style=\"color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\"><span>&nbsp; &nbsp; 编辑丨</span><span>郑佳美</span></span></span></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; text-align: right; margin: 0px 16px;\"><strong><strong><span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></strong></strong></p></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">昨天，一个 Reddit 大佬逆向了一下 Claude Code，发现为了防止中国用户，Anthropic 居然在最近更新的 Claude Code 2.1.196 版本中放了个</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">监控程序！</span></span></strong></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260701/6a44eaf747a2e.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">于是爆料者立刻追溯时间，发现这个程序不是最近才有的，早在 2026 年 4 月 2 日的 2.1.91 版本该程序就已上线，却从未写入官方更新日志。雷峰网</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">要知道，不久之前 Claude Code 还被曝出在用户的通知邮件内安装追踪器。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260701/6a44eaf79690b.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">用户们本以为这就是 Anthropic 的底线，紧接着 Anthropic 就被曝出安装了回传用户信息的间谍程序，用实际行动告诉你：我不光没有底线，我还没有下限。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">让人咂舌的是这个间谍程序的运行机制的确设计的足够精妙。它会通过篡改系统提示词的日期格式、替换细微特殊标点等肉眼完全无法识别的隐写手段对中国的用户进行秘密标记，并且回传用户信息。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这就是说，Claude Code 在神不知鬼不觉的情况下，已经偷偷回传了所有中国用户信息近 3 个月。也难怪今年会爆发一轮接一轮的 Claude Code 封号热潮：甭管你的 IP 地址在国内还是国外，也甭管调用 API 的方式多么高明，只要是中国人，Anthropic 都能做到精准封杀。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">依稀记得前段时间社区里的中国网友们都苦兮兮，技术人员谈论的主题不超过三句话：</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">你号封了吗?我号封了吗？我号怎么又被封了？</span></span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">看完这份逆向实锤，也难怪不少网友感慨：绝了，Anthropic，可真有你的。雷峰网</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260701/6a44eaf7d5856.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>01</span><span><br /></span></strong></p><h2><span><br /></span><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span>为了防止中国用户使用，</span></strong></strong></strong></h2></section><section style=\"text-align: center;\"><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span>Anthropic 有多努力</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Anthropic 究竟怎么通过这套间谍程序 （Spyware）, 精准封号中国网用户的？经 Reddit 大神的逆向拆解，这套内置程序设置了两套技术：</span></p><ul class=\" list-paddingleft-2\"><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">一种是基于系统提示词的文本隐写（Steganography）技术，负责对用户进行身份标记与隐秘回传；</span></p></li></ul><ul class=\" list-paddingleft-2\"><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">另一种是代码压缩与 XOR 加密混淆手段，用于隐藏检测逻辑本身的痕迹。</span></p></li></ul><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">第一种用于识别 “是否为中国用户”，然后给所有中国用户打上特定标记，把这些用户信息回传；第二种则负责掩盖第一步的操作，防止用户发现。</span></p><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">先来说第一种核心标记技术：系统提示词隐写溯源（Steganography）</span></span></strong></p></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">一旦用户开启代理，程序将执行双重维度的校验：</span></p><ul class=\" list-paddingleft-2\"><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">系统时区校验。即通过读取你个人设备本地的时间，判断用户是否处于“上海——乌鲁木齐”中国属地标准时区；</span></p></li></ul><ul class=\" list-paddingleft-2\"><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">代理域名核验：解析用户使用的代理网址，确认其是否为中国域名、是否命中预设黑名单域名列表，以及是否关联国内 AI 实验室。</span></p></li></ul><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这套程序的作用在于识别用户身份：即用户是否为中国属地，是普通用户还是 AI 机构主体。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">那么，在完成用户身份识别后，Anthropic 是如何在用户完全无感知的情况下，将这些身份信息神不知鬼不觉地回传至后台的？</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">这就涉及到本次爆料最让人大跌眼镜的操作</span></span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">—— 程序会先通过修改系统提示词的细节特征完成隐形标记，再进行回传。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">而怎么才能标记的更隐蔽？Anthropic 想到的方法是——改日期。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">如若检测到中国时区，程序会将提示词中默认的</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">横杠式日期格式（2026-06-30）替换为斜杠格式（2026/06/30）</span></span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">，完成基础属地标记。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">甚至，程序还会根据代理域名的属性，用三种外观高度相似、Unicode 编码完全不同的特殊字符，对用户进行更为精细化的分层标记：</span></p><ul class=\" list-paddingleft-2\"><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">如为普通国内代理用户（中国域名但非 AI 实验室主体），则替换为右单引号 ’（Unicode 编码 \\u2019）</span></p></li></ul><ul class=\" list-paddingleft-2\"><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">如为中国境外链路的国内 AI 机构（非中国域名但可匹配国内 AI 实验室名单），则替换为修饰字母撇号 ʼ（Unicode 编码 \\u02BC）</span></p></li></ul><ul class=\" list-paddingleft-2\"><li><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">如为中国境内 AI 机构主体（中国域名且匹配国内 AI 实验室名单），则替换为修饰重音符号 ʹ（Unicode 编码 \\u02B9）</span></p></li></ul><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这样，Anthropic 就完成了从属地识别、身份分层到无感回传的全流程操作 —— 全程没有用户授权提示，字符差异肉眼几乎不可辨。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">毕竟，谁会去关注日期显示是 6/30 日还是 6-30 日呢？</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">用户和模型都感知不到任何异常，官方后端却能根据预设的编码规则精准解码出用户身份，为后续定向封禁提供数据依据。</span></p><section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong><span><span style=\"color: #4499E7; font-weight: bold;\">▎</span></span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">第二步——通过代码混淆与版本特征</span></span></strong></p></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">显然 Anthropic 是知道这样的做法是不被允许的。因此，为了不被用户的逆向排查与安全扫描发现，Anthropic 对整套检测逻辑进行了高强度</span><strong style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">代码压缩与XOR加密混淆</span></span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">，隐藏在程序二进制文件中。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">经常做代码的朋友们应该都知道，为了方便维护，正常开发的代码函数都会起有实际含义的名字（比如检测时区的函数命名为 checkTimeZone ）。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">但 Anthropic 对风控代码做了压缩混淆处理，把所有有语义的函数名都替换成了 Crt、e0t 这类毫无含义的短字符。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这就导致普通人哪怕看到源码片段，也根本猜不出这些函数的真实作用。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">而在 2.1.196 版本中，该风控逻辑的核心函数包含 Crt()、Rrt(e)、e0t()、Zup()、edp、Vla 等。这类函数都为压缩混淆后的动态命名，会随版本迭代自动变更，具有极强的隐蔽性。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">先是用肉眼完全无法察觉的方式标记了用户身份并回传数据，然后给检测代码“加密伪装”，避免其被常规工具扫描识别。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">最后再叠加代理触发式的运行机制 —— 程序仅在用户开启网络代理时自动启动检测，直连用户完全不受影响。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这一套 “组合拳” 下来，Anthropic 美美收集了用户信息，而用户压根察觉不到。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260701/6a44eaf820a33.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>02</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"font-weight: bold;\">信任的崩塌只需一瞬间</span></span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Claude Code 是什么？</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这可是一个运行在你本地系统的 AI 编程工具。它拥有你电脑文件系统的所有读写权限，能直接读取、增删、修改本地所有项目代码与文档，甚至能调用系统终端执行指令、操控本地开发环境。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">相当于你花钱买家具，商家上门安装时偷偷在屋里装了摄像头，还顺手在门口贴了只有同伙能看懂的标记，暗示这家人可以去大偷特偷。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">最可笑的是，就连 Anthropic 自己的安全白皮书里，都在反复强调 Claude Code 的 “透明”和“可信”。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260701/6a44eaf85897e.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">目前这篇帖子的浏览量也已达到了100 W 级别，评论区也很嘈杂，概括起来就两种现象：中国网友很愤慨，外国网友很恐慌。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260701/6a44eaf87f288.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">而 Claude Code负责人 Thariq 也对此信息做出回应：</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260701/6a44eaf89d9b7.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Thariq 表示，这套检测机制是团队于当年 3 月启动的一项实验，初衷只是为了防范未经授权的账号转售滥用与模型蒸馏行为。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">团队后续已落地更强力的风控缓解方案，该检测功能本就计划下线，目前相关移除代码已完成合并，预计会在次日发布的版本中完全回滚该检测逻辑。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">可问题是，真的会回滚吗？没有人知道。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">毕竟 “信任的成本只会越来越高。”&nbsp;雷峰网</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260701/6a44eaf8c30ae.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1em;\"><em><span style=\"font-size: 14px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">参考链接：</span></span></em><em><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><br /></span></em></p><p style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1em;\"><span style=\"font-size: 14px;\"><em><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">https://www.reddit.com/r/ClaudeAI/comments/1ujila1/anthropic_embedded_spyware_in_claude_code_and/</span></span></em></span></p><p style=\"text-align: justify; margin: 16px 16px 0px; line-height: 1em;\"><em><span style=\"font-size: 14px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">https://x.com/trq212/status/2072079729331777817</span></span></em></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260701/6a44eaf8eabd6.jpg?imageMogr2/quality/90\" /></section><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260701/6a44eaf917e40.jpg?imageMogr2/quality/90\" /></section><section><section><section><section><section><section><svg viewBox=\"0 0 1 1\" xmlns=\"http://www.w3.org/2000/svg\"></svg></section></section><section><p><strong><span><span style=\"color: #4499E7;\">上车，带你看遍全球 AI 顶会精华</span></span></strong></p><span></span></section></section></section></section></section><section><section><p style=\"text-align: center; margin: 0px 16px 8px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">可独家畅览：</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">专家演讲PPT</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">大会报告全文</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">热门论文解读</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">学术新星访谈</span></span></p><span></span><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260701/6a44eaf9440ad.jpg?imageMogr2/quality/90\" style=\"width: 100%;\" /></section><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">扫描上方二维码</span></span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">或点击</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">「</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">阅读原文</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">」</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">关注专区。</span></span></span></p></section></section><section><span></span></section><section><span></span></section>",
-      "published": "2026-07-01T18:37:00+08:00",
-      "fetched_at": "2026-07-02T11:50:29.951425+08:00",
-      "pre_filter_reason": "Claude封号事件涉及AI模型",
-      "scores": {
-        "importance": 7,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Reddit 爆料：Claude 如何精准封禁中国用户？——技术原理与规避指南",
-          "angle": "基于Reddit爆料，解析Claude封号的技术手段（如IP检测、行为分析），并给出合法合规使用AI工具（如使用正规代理或本地部署）的建议。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "opinion",
-          "title": "Claude 封号中国用户又快又准：背后是技术还是政治？",
-          "angle": "探讨Claude封号事件背后的技术限制（如数据合规）与地缘政治因素，分析对中国AI用户和开发者的长期影响。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "dae13c76d532",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "卡帕西李飞飞辛顿都投了的Transformer专用芯片，签下10亿美元大单",
-      "link": "https://www.qbitai.com/2026/07/441183.html",
-      "summary": "已流片",
-      "published": "2026-07-01T15:15:29+08:00",
-      "fetched_at": "2026-07-02T11:50:33.826297+08:00",
-      "pre_filter_reason": "Transformer专用芯片，属于AI硬件/产品",
+      "title": "Anthropic、OpenAI同一天落子AI4S赛道，巨头混战从「拼模型」转向「卡生态」",
+      "link": "https://www.leiphone.com/category/shengwuyiyao/5hR8USux68fILtr1.html",
+      "summary": "<section><section><section><section><section></section><section><section><section><section></section></section></section><section><span><br /></span></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"font-size: 15px;\">6月30日，Anthropic和OpenAI同时在AI4S赛道投下了各自的筹码。</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">Anthropic发布了科研智能体工作台Claude Science，明确表态“不依赖新模型”，通过工作流整合现有能力来承包科学家的日常研究流程。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">OpenAI推出了GeneBench-Pro，一套覆盖基因组学、定量生物学等10个领域的评测基准，其测试数据显示，在129个真实科研workflow题目中，即便是最强的GPT-5.6 Sol，端到端通过率也只有28.7%。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">两家巨头的方向看似不同，但都是基于同一个判断：AI4S的瓶颈已不是模型不够强，而是模型远未做到真正的端到端。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">基于这一共识，Anthropic的选择是把现有模型装进可扩展的工作台，用工具链和流程弥补模型的不可靠；OpenAI的选择则是抢先定义“什么是科研任务的完成”，把话语权锁进标准里。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">而在此之前，Google DeepMind已凭借AlphaFold等基础模型在AI+科学领域深耕多年，其Gemini for Science平台正将专有资产与数据库捆绑，以平台整合的方式切入同一市场。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">AI4S的战局，已经悄然进入“巨头生态混战”阶段，从模型能力的单点比拼，全面切换到了生态位卡位与工作流整合的战场。</span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>01</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>AI4S撞上了一块怎样的“天花板”</span><span><br /></span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em; margin-top: 24px;\"><span><span style=\"letter-spacing: 0.5px;\">为什么三大巨头偏偏在这个时间点，不约而同地把战火烧到AI4S的底层基础设施？</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">开头提到，OpenAI这次在GeneBench-Pro中设计了129道题目，完整模拟了真实科研工作流：从原始数据清洗、质控、建模、诊断，一直到得出结论。评分标准是严苛的二元制：只有全部决策正确才算通过。也就是说，哪怕中间分析步骤全对，只要最终结论错了，这道题就是零分。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">数据显示，OpenAI最强的GPT-5.6 Sol在Max推理设置下的通过率也只有28.7%，而在非GPT模型中表现最强的Claude Opus 4.8，其通过率仅达到16.0%。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">这说明，模型是能够注意到数据异常，识别出局部诊断信号的，但无法将这一认知转化为下游的方法论调整，做出相应的正确分析决策。注意到了问题，但没有改变行动——OpenAI在论文中将这一缺陷，命名为“notice-act gap”。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">“识别”与“行动”之间的这道鸿沟从何而来？珞米科技创始人兼CEO吴昊从技术层面指出，通用大语言模型在生命科学领域存在三重结构性短板：</span></span></p><ul class=\" list-paddingleft-2\"><li><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">其一，难以直接理解生物原始数据的特殊结构；</span></span></p></li><li><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">其二，生物学中的许多现象无法简单套用文本的tokenization规则，比如基因表达本身具有随机性；</span></span></p></li><li><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">其三，生物学数据中普遍存在大量未知缺失值。</span></span></p></li></ul><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">科研成本也是不可忽视的一个因素。GeneBench-Pro数据显示，单道题的人工专家成本高达数千美元。当模型不可靠时，科研机构不得不继续依赖昂贵的人力。除此之外，生命科学领域也对数据合规有着极其严苛的要求。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">这就是混战发生在当下的原因。模型能力触及了“notice-act gap”的天花板，堆算力的老路在科研场景里走不通，工程化整合、生态卡位和数据主权，变成了更务实的突破口。三大巨头不约而同的入局，是“撞”天花板撞出来的必然。</span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>02</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>同一张牌桌，三种不同打法</span><span><br /></span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em; margin-top: 24px;\"><span><span style=\"letter-spacing: 0.5px;\">在这块天花板面前，三家巨头选择了截然不同的AI4S方向，雷峰网注意到，它们都指向同一个终点：成为科学家工作不可或缺的底层基础设施。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">Anthropic的打法最直白。Claude Science本质上是一个专门的工作台——主AI助手像项目经理一样拆分任务，拆解后分发给子助手执行，再由事实核验器交叉验证。它连接了60多个科学数据库，预建了基因组学、蛋白质结构和化学等工具包。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">吴昊分析指出，其技术实质是通过MCP协议调用外部垂直模型（如scGPT处理单细胞数据、DNABERT解析基因序列等）执行具体计算，Claude自身只承担自然语言理解、任务拆解和结果解读的角色。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">这种分工使得Anthropic确实无需依赖新模型，也带来了现实优势：一方面避免了通用大模型直接处理生物矩阵时的高昂推理成本；另一方面，垂直模型可以独立迭代，无需等待通用大模型的长周期更新。更重要的是，生命科学领域严格要求数据合规，这种做法能让敏感数据在本地MCP Server上处理，无需上传云端。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">如果说Anthropic的做法，相当于“包揽”了一整条跑道，那么OpenAI的逻辑，就是用GeneBench-Pro当裁判，定义“什么是好的AI4S”，再用专用模型GPT-Rosalind当运动员，去冲击高分。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">除了这次最新发布的GeneBench-Pro，OpenAI早在四个月前，就推出了GPT-Rosalind，这个模型专门做生物推理微调，以研究预览版形式向美国合格企业客户开放，需通过安全审查。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">Google DeepMind则握着独一无二的王牌。它拥有AlphaFold、AlphaGenome等基础科学模型，均为自有专有资产，并与Gemini for Science深度捆绑，整合30多个生命科学数据库。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">关键优势在于，其他玩家只能以调用工具的方式接入的模型，在Google这里是自家的底层基础设施。或许其他厂商能做一个更好的工作台，或者定义更严苛的基准，但蛋白质结构预测的核心能力在Google手里。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">在市场打法上，三家巨头的选择也各有不同：</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">Anthropic走宽，靠订阅普及化，Pro、Max、Team和Enterprise订阅用户均可使用Claude Science。值得一提的是，近期Anthropic还推出了$30,000 credits的资助计划，面向50个博士后和研究生项目，申请截止7月15日，试图在青年科学家成为独立PI之前，先把他们锁定在自己的工作台里，让下一代科研人员养成使用Claude Science的学术习惯。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">OpenAI走窄，标准公开，允许更多人入局使用，但模型封闭，靠企业门禁建立门槛。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">Google走深，靠专有资产构筑壁垒，模型即平台，越用越深，越深越离不开。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">三套打法，其实对应了三种不同的思路和风险。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">Anthropic赌天花板短期撞不穿，先用工程化把工作流铺开，核心风险在于模型突破万一提前到来，或许会沦为只能做排列组合的工具箱。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">OpenAI赌天花板迟早会破，先占住标准等模型能力追上来，但这种“自封裁判身份”的做法，存在不被科学界买账的可能。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">Google赌天花板之上还有一层——谁掌握了基础模型的源头，谁就永远有牌可打，壁垒确实够高，但生态相对封闭。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">三家各有筹码，各有盲区，没有一家拿到了必胜的手牌，但它们都在同一时间窗口里，把自己手上的筹码一次性推上了桌。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">目前来看，胜负难以预测，至少头部客户尚未被任何一家锁定：制药巨头Novo Nordisk同时出现在Anthropic（Claude Science案例客户）和OpenAI（Rosalind早期合作伙伴）的名单里。同一家甲方，正在并行试用多家方案，意味着市场还在开放竞争期，没有哪一家的工具链已经强到让科学家愿意把完整workflow迁移上去。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"font-size: 15px;\">AI4S的终局，大概率不会被任何一家巨头单独决定。当三大玩家在同一天撞上天花板，它们不约而同地选择了入局，但突围的方向还没有共识。真正的答案仍在科学家手中——他们如何在数据主权、学术独立性和研究效率之间取舍，又将信任的一票投给谁。这个答案，可能比任何技术参数都更能决定终局。</span></span></span></p><p style=\"text-align: justify; margin-bottom: 40px; line-height: 1.75em;\"><span><span><span style=\"font-size: 15px;\"><span style=\"font-weight: bold;\">有关AI4S的更多进展与行业观点，欢迎添加雷峰网作者微信 LorraineSummer 交流讨论。</span></span></span></span></p></section></section></section></section></section>",
+      "published": "2026-07-02T10:11:00+08:00",
+      "fetched_at": "2026-07-03T11:31:30.934024+08:00",
+      "pre_filter_reason": "AI research/papers, AI product launches",
       "scores": {
         "importance": 8,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Transformer专用芯片是什么？为什么大佬们都投它？",
-          "angle": "用通俗易懂的方式解释Transformer专用芯片的工作原理，以及它为何能获得卡帕西、李飞飞、辛顿等AI大佬的投资，并分析10亿美元大单背后的行业意义。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "news",
-          "title": "10亿美元大单背后：AI芯片新贵如何改变行业格局？",
-          "angle": "从新闻事件切入，分析这款已流片的芯片在性能、成本或能耗上的突破，以及它对现有AI芯片市场（如英伟达）的潜在冲击。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "06b1aa6855f0",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "AI 版支付宝开放公测，蚂蚁阿宝无需邀请码即可体验",
-      "link": "https://www.ithome.com/0/971/469.htm",
-      "summary": "<p>IT之家 7 月 2 日消息，支付宝今日官宣，阿宝 AI 助手正式开放公测： iOS 和安卓系统用户在应用商店或支付宝 App，直接搜「<strong>阿宝</strong>」或「<strong>蚂蚁阿宝</strong>」就能体验。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/fd7a840a-c501-4203-a45b-71e65b02232d.jpg?x-bce-process=image/format,f_auto\" /></p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/e9040a63-eb32-4b97-a1e3-8d0151218145.jpg?x-bce-process=image/format,f_auto\" /></p><p>开通后，用户可以在支付宝右滑进入新版，以对话的方式安排“阿宝”办事。</p><p>用户右滑进入新版，一眼看到的是一个干净的对话框和资产页面。</p><p style=\"text-align: center;\"><img alt=\"图片\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/5be1b291-9fd3-4399-b4e2-2bce1c52692e.gif\" /></p><p>想办什么事，直接在输入框里输入，或者直接开口说话就行。这是支付宝从“陈列式”到“对话式”的体验升级。</p><p>以查询公积金为例：用户只需说“我想查一下公积金”，阿宝会自动匹配对应的小程序以及具体的服务入口，直接把公积金查询的操作界面摆在用户面前，由用户点击登录确认即可完成。原本需要多步跳转的流程，折叠成了一句话。</p><p>支付宝也承诺，<strong>所有涉及资金变动和支付的环节，都会交由用户本人确认</strong>。阿宝负责把流程跑通、把窗口摆好，最后那一步“付”或“不付”，永远是用户自己来决定。</p><p>针对用户常用的扫码、转账功能，阿宝也预留出了入口。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/51929e19-291e-4fe4-99c0-ad3ff951d5de.jpg?x-bce-process=image/format,f_auto\" /></p>",
-      "published": "2026-07-02T10:51:10+08:00",
-      "fetched_at": "2026-07-02T11:50:38.758732+08:00",
-      "pre_filter_reason": "AI助手产品公测",
-      "scores": {
-        "importance": 7,
         "timeliness": 9,
         "actionability": 8,
         "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "手把手教你玩转「蚂蚁阿宝」：支付宝AI助手公测体验指南",
-          "angle": "以第一视角演示如何搜索、打开并使用阿宝AI助手，展示其核心功能（如查询、办理业务、智能推荐），并给出使用小技巧。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "review",
-          "title": "AI版支付宝来了！「蚂蚁阿宝」公测体验：是噱头还是真香？",
-          "angle": "对比传统支付宝操作与阿宝AI助手的差异，测试其在复杂任务（如账单查询、理财建议）上的表现，给出客观评价。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "71290cda2851",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "大湾区首个200亿具身大脑来了！自变量两个月连融四轮，完成交割",
-      "link": "https://www.qbitai.com/2026/07/441140.html",
-      "summary": "四大互联网分别领投",
-      "published": "2026-07-01T14:26:06+08:00",
-      "fetched_at": "2026-07-02T11:50:33.826309+08:00",
-      "pre_filter_reason": "具身大脑，属于AI机器人/产品",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 7,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "两个月连融四轮！大湾区“具身大脑”凭什么吸引四大互联网巨头？",
-          "angle": "解读“具身大脑”的技术定位（与机器人、自动驾驶等结合），分析其快速融资的原因，以及四大互联网公司各自领投的战略意图。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "tutorial",
-          "title": "什么是“具身大脑”？一文看懂AI从虚拟走向物理世界的关键",
-          "angle": "用比喻和案例解释“具身大脑”概念，对比传统AI与具身智能的区别，并展望其在工业、服务等领域的应用前景。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "8d9212b8644a",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Om AI联汇发布VLX：全球首个面向物理世界的端侧流式多模态模型",
-      "link": "https://www.qbitai.com/2026/07/441124.html",
-      "summary": "物理世界AI的下一步",
-      "published": "2026-07-01T11:46:20+08:00",
-      "fetched_at": "2026-07-02T11:50:33.826335+08:00",
-      "pre_filter_reason": "多模态模型、物理世界AI，属于AI研究",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 7,
-        "scarcity": 8,
         "virality": 7,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.5,
+      "quality_score": 7.3,
       "topics": [
-        {
-          "tag": "tutorial",
-          "title": "全球首个端侧流式多模态模型VLX：如何让AI看懂物理世界？",
-          "angle": "用动画或示意图解释“端侧”“流式”“多模态”三个关键词，展示VLX在实时识别、交互上的独特能力，并对比传统云端模型。",
-          "difficulty": "中级"
-        },
         {
           "tag": "news",
-          "title": "Om AI联汇发布VLX：物理世界AI的下一步是什么？",
-          "angle": "从行业趋势角度，分析VLX发布对机器人、智能家居、AR/VR等领域的潜在影响，并探讨“端侧智能”为何成为新战场。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "c890fdfef4ed",
-      "source_id": "baidu-hot",
-      "source_name": "百度热搜",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "hotlist",
-      "title": "越来越多公司证明AI无法替代人工",
-      "link": "https://www.baidu.com/s?wd=越来越多公司证明AI无法替代人工",
-      "summary": "据数据显示，39%的企业领导者因人工智能部署而裁员。然而，其中55%的人承认，他们在裁员问题上做出了错误的决定。对此，美国国会科技大学指出，人工智能正在改变工作场所，但越来越明显的是，各组织和企业发现，构建人机协作比完全取代人类工作更有价值。",
-      "published": "2026-07-02T11:50:40.959911+08:00",
-      "fetched_at": "2026-07-02T11:50:40.959912+08:00",
-      "pre_filter_reason": "讨论AI替代人工及人机协作",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 6,
-        "virality": 8,
-        "crowd_heat": 7.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "opinion",
-          "title": "裁员后又后悔：为什么55%的企业承认AI无法替代人工？",
-          "angle": "结合数据，分析AI在哪些场景下“翻车”（如创意、情感沟通、复杂决策），并引用专家观点，强调人机协作的价值。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "AI时代如何不被淘汰？给职场人的3个人机协作生存指南",
-          "angle": "从新闻结论出发，提供具体建议（如培养AI无法替代的技能、学会用AI提效而非被替代），并举例说明人机协作的成功案例。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "f632f01098f4",
-      "source_id": "reddit-ml",
-      "source_name": "Reddit r/MachineLearning",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "SentryCode: Real-time Auditor + Honeytokens for AI Coding Agents [P]",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1ul7ap2/sentrycode_realtime_auditor_honeytokens_for_ai/",
-      "summary": "<!-- SC_OFF --><div class=\"md\"><p>In light of recent privacy concerns arising from local AI coding agents performing telemetry, environmental scanning, and hidden cue fingerprinting, I've open-sourced SentryCode—a kernel-level behavior auditing tool.</p> <p>It logs file/network/cue activity, uses honeypot tokens for zero-false-positive data breach detection, detects steganographically encrypted covert channels, provides tamper-proof audit logs, and supports policy enforcement. All functions run locally without any outbound connections.</p> <p>The demo program can be run directly using pre-compiled binaries.</p> <p>GitHub: <a href=\"https://github.com/byte271/sentrycode\">https://github.com/byte271/sentrycode</a></p> <p>Feedback from users of local AI agents is welcome.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/cyh-c\"> /u/cyh-c </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ul7ap2/sentrycode_realtime_auditor_honeytokens_for_ai/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ul7ap2/sentrycode_realtime_auditor_honeytokens_for_ai/\">[comments]</a></span>",
-      "published": "2026-07-02T11:48:58+08:00",
-      "fetched_at": "2026-07-02T11:50:46.993647+08:00",
-      "pre_filter_reason": "AI编码代理的安全审计工具",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "AI编程助手安全吗？用SentryCode实时监控你的AI代理行为",
-          "angle": "手把手教开发者如何部署SentryCode，监控AI编码代理的文件、网络和系统调用，防范隐私泄露风险。",
+          "title": "AI巨头同日押注科学赛道：从模型军备竞赛到生态卡位战",
+          "angle": "解读Anthropic和OpenAI同日布局AI for Science的战略意义，分析为何竞争焦点从模型性能转向构建科研生态闭环。",
           "difficulty": "入门"
         },
         {
           "tag": "analysis",
-          "title": "AI编码代理的隐私黑洞：SentryCode如何成为你的安全护城河",
-          "angle": "分析AI编码代理常见的隐私风险（如环境指纹采集、隐蔽遥测），并解释SentryCode的蜜标（honeytoken）机制如何主动检测恶意行为。",
-          "difficulty": "中级"
+          "title": "AI4S赛道混战：谁在构建下一个“科学操作系统”？",
+          "angle": "对比Anthropic和OpenAI在科学领域的差异化布局（工具链、数据生态、合作伙伴），预测未来3年AI4S生态格局演变。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "e7c43f285b7b",
-      "source_id": "ifanr",
-      "source_name": "爱范儿",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "ChatGPT 这些翻车回答，居然是 Meta 找外包干的",
-      "link": "https://www.ifanr.com/1670735?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "美其名曰是安全测试<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
-      "published": "2026-07-02T11:24:11+08:00",
-      "fetched_at": "2026-07-02T11:50:36.977520+08:00",
-      "pre_filter_reason": "ChatGPT安全测试，涉及AI",
-      "scores": {
-        "importance": 6,
-        "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "ChatGPT翻车背后：Meta外包团队在做什么？",
-          "angle": "揭秘Meta外包团队如何通过伪装成用户提问，对ChatGPT进行安全压力测试，以及这对AI安全测试行业的启示。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "24f9cf66c641",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "钉钉凭借悟空入选Gartner首份《企业AI助手市场指南》报告",
-      "link": "https://36kr.com/newsflashes/3877897421991937?f=rss",
-      "summary": "36氪获悉，近日，国际商业技术洞察机构Gartner发布首份《企业AI助手市场指南》（Market Guide for Enterprise AI Assistants），（下简称“《报告》”），聚焦企业级AI助手的市场现状及发展趋势。钉钉凭借企业级 AI 原生工作平台“悟空”被认可为代表供应商，也是唯一一家中国厂商。",
-      "published": "2026-07-02T10:41:15+08:00",
-      "fetched_at": "2026-07-02T11:50:23.622703+08:00",
-      "pre_filter_reason": "企业AI助手市场报告",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "case_study",
-          "title": "钉钉悟空入选Gartner报告：中国企业AI助手凭什么脱颖而出？",
-          "angle": "解读钉钉悟空作为唯一中国厂商入选Gartner《企业AI助手市场指南》的原因，分析其企业级AI原生工作平台的核心能力与差异化优势。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "ac7dee6ddd3a",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
+      "id": "b34736816d42",
+      "source_id": "apple-ml",
+      "source_name": "Apple ML Research",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Mastering Agentic Techniques: AI Agent Reinforcement Learning",
-      "link": "https://developer.nvidia.com/blog/mastering-agentic-techniques-ai-agent-reinforcement-learning/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image4-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image4\" width=\"768\" />Reinforcement learning (RL) is central to aligning language models, from reinforcement learning with human feedback (RLHF) within AI assistants to newer...",
-      "published": "2026-07-02T01:04:02+08:00",
-      "fetched_at": "2026-07-02T11:50:21.775679+08:00",
-      "pre_filter_reason": "Title explicitly mentions 'AI Agent Reinforcement Learning', an AI research topic.",
+      "title": "Learning Structured Reasoning via Tractable Trajectory Control",
+      "link": "https://machinelearning.apple.com/research/learning-structured-reasoning",
+      "summary": "Large language models can exhibit emergent reasoning behaviors, often manifested as recurring lexical patterns (e.g., “wait,” indicating verification). However, complex reasoning trajectories remain sparse in unconstrained sampling, and standard RL often fails to guarantee the acquisition of diverse reasoning behaviors. We propose a systematic discovery and reinforcement of diverse reasoning patterns through structured reasoning, a paradigm that requires targeted exploration of specific reasoning patterns during the RL process. To this end, we propose Ctrl-R, a framework for learning…",
+      "published": "2026-07-02T08:00:00+08:00",
+      "fetched_at": "2026-07-03T11:31:24.206793+08:00",
+      "pre_filter_reason": "AI research on reasoning in large language models",
       "scores": {
-        "importance": 6,
-        "timeliness": 5,
+        "importance": 7,
+        "timeliness": 6,
         "actionability": 7,
-        "scarcity": 5,
-        "virality": 5,
-        "crowd_heat": 0.0
+        "scarcity": 6,
+        "virality": 6,
+        "crowd_heat": 3.5
       },
-      "quality_score": 7.4,
+      "quality_score": 7.3,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "强化学习入门：如何用RL训练更聪明的AI Agent",
-          "angle": "以NVIDIA技术博客为基础，用简单案例解释强化学习如何用于对齐AI代理行为，包括奖励函数设计和训练流程。",
+          "title": "训练大模型“学会推理”：结构化轨迹控制实战",
+          "angle": "用具体案例演示如何通过可追踪轨迹控制（如强制“等待”验证步骤）引导LLM生成更可靠的推理链，并提供训练调参技巧。",
           "difficulty": "中级"
+        },
+        {
+          "tag": "analysis",
+          "title": "当RL遇到推理稀疏性：结构化控制如何破解大模型“思维僵局”？",
+          "angle": "分析标准RL在复杂推理轨迹学习中的局限性，解释结构化轨迹控制为何能保证推理多样性，并对比现有采样策略的优劣。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "37dcf621e605",
-      "source_id": "36kr",
-      "source_name": "36氪",
+      "id": "eddb9e40f40e",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "defilantech/LLMKube",
+      "link": "https://github.com/defilantech/LLMKube",
+      "summary": "Kubernetes operator for self-hosted LLM inference across a heterogeneous GPU fleet: NVIDIA CUDA, AMD Vulkan, and Apple Silicon Metal. Runtimes: llama.cpp, vLLM, TGI, mlx-server. Multi-GPU sharding, model caching, OpenAI-compatible endpoints. Apache-2.0, run across homelab and on-prem fleets, actively developed.",
+      "published": "2026-07-03T11:31:45.283544+08:00",
+      "fetched_at": "2026-07-03T11:31:45.283547+08:00",
+      "pre_filter_reason": "Kubernetes operator for LLM inference",
+      "scores": {
+        "importance": 8,
+        "timeliness": 7,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "LLMKube 入门：在异构GPU集群上部署自托管LLM推理",
+          "angle": "手把手教你使用Kubernetes Operator在NVIDIA、AMD和Apple Silicon混合GPU环境中部署LLM推理服务，涵盖llama.cpp和vLLM等运行时配置。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "用LLMKube实现多GPU分片与模型缓存",
+          "angle": "深入解析LLMKube的多GPU分片策略和模型缓存机制，展示如何优化自托管推理性能并降低延迟。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "f820dfc850b2",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "英伟达为GPU采购提供融资支持，并从云计算收入中抽取一定比例分成",
-      "link": "https://36kr.com/newsflashes/3877951264239877?f=rss",
-      "summary": "据报道，英伟达为GPU采购提供融资支持，并从云计算收入中抽取一定比例分成。（财联社）",
-      "published": "2026-07-02T11:36:01+08:00",
-      "fetched_at": "2026-07-02T11:50:23.622628+08:00",
-      "pre_filter_reason": "英伟达GPU与云计算，涉及AI算力",
+      "title": "GitLab 调研：AI 工具仅加快编码，整体软件交付效率并未提升",
+      "link": "https://www.infoq.cn/article/8WD205mNH9OGrkf8BRYO?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/8WD205mNH9OGrkf8BRYO?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-07-02T23:00:00+08:00",
+      "fetched_at": "2026-07-03T11:31:32.550570+08:00",
+      "pre_filter_reason": "GitLab survey on AI tools' impact on software delivery efficiency, directly AI-related.",
       "scores": {
-        "importance": 8,
+        "importance": 7,
         "timeliness": 8,
-        "actionability": 7,
+        "actionability": 8,
         "scarcity": 7,
         "virality": 7,
         "crowd_heat": 0.0
@@ -711,10 +600,127 @@
       "quality_score": 7.2,
       "topics": [
         {
-          "tag": "analysis",
-          "title": "英伟达的“GPU融资+云分成”模式：AI算力租赁的新玩法",
-          "angle": "分析英伟达为GPU采购提供融资并从云计算收入抽成的商业模式，探讨这对AI创业公司和云服务商的影响。",
+          "tag": "tutorial",
+          "title": "AI编码工具效率陷阱：为什么快编码不等于快交付",
+          "angle": "基于GitLab调研，分析AI工具在编码阶段提速但整体交付效率未提升的原因，并提供优化团队工作流的实用建议。",
           "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "打破AI编码效率瓶颈：从代码生成到全流程交付",
+          "angle": "探讨如何将AI工具融入测试、部署和协作环节，避免“编码快、卡在其他环节”的常见问题，提升整体软件交付效率。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "6b731e6b0952",
+      "source_id": "apple-ml",
+      "source_name": "Apple ML Research",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "MemoryLLM: Plug-n-Play Interpretable Feed-Forward Memory for Transformers",
+      "link": "https://machinelearning.apple.com/research/memoryllm",
+      "summary": "Understanding how transformer components operate in LLMs is important, as it is at the core of recent technological advances in artificial intelligence. In this work, we revisit the challenges associated with interpretability of feed-forward modules (FFNs) and propose MemoryLLM, which aims to decouple FFNs from self-attention and enables us to study the decoupled FFNs as context-free token-wise neural retrieval memory. In detail, we investigate how input tokens access memory locations within FFN parameters and the importance of FFN memory across different downstream tasks. MemoryLLM achieves…",
+      "published": "2026-07-02T08:00:00+08:00",
+      "fetched_at": "2026-07-03T11:31:24.206779+08:00",
+      "pre_filter_reason": "AI research on LLMs and interpretability",
+      "scores": {
+        "importance": 7,
+        "timeliness": 6,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 5,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "MemoryLLM：让Transformer前馈模块更可解释",
+          "angle": "介绍MemoryLLM如何通过可插拔前馈记忆模块提升LLM可解释性，并展示其在实际应用中的优势。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "理解LLM内部机制：MemoryLLM如何解构前馈网络",
+          "angle": "用通俗语言解析MemoryLLM的核心技术，帮助开发者理解Transformer组件运作原理及其对AI进步的意义。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "78911c572f14",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "openai /codex-plugin-cc",
+      "link": "https://github.com/openai/codex-plugin-cc",
+      "summary": "Use Codex from Claude Code to review code or delegate tasks.",
+      "published": "2026-07-03T11:31:44.893418+08:00",
+      "fetched_at": "2026-07-03T11:31:44.893421+08:00",
+      "pre_filter_reason": "OpenAI Codex, AI code review/delegation",
+      "scores": {
+        "importance": 7,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.1,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "用Claude Code调用Codex：代码审查与任务委托实战",
+          "angle": "演示如何通过codex-plugin-cc在Claude Code中集成OpenAI Codex，实现自动化代码审查和任务分配，提升开发效率。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "跨模型协作：Claude Code + Codex插件的最佳实践",
+          "angle": "探索如何结合Claude Code和Codex插件进行代码审查与任务委托，分享配置技巧和常见用例。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "685a7299cee7",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "obra /superpowers",
+      "link": "https://github.com/obra/superpowers",
+      "summary": "An agentic skills framework & software development methodology that works.",
+      "published": "2026-07-03T11:31:44.891806+08:00",
+      "fetched_at": "2026-07-03T11:31:44.891809+08:00",
+      "pre_filter_reason": "Agentic skills framework for AI software development",
+      "scores": {
+        "importance": 7,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.1,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Superpowers框架入门：构建智能体技能与高效开发方法论",
+          "angle": "介绍Superpowers框架的核心概念，展示如何定义智能体技能并应用于软件开发流程，提升团队协作效率。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "用Superpowers重塑软件开发方法论",
+          "angle": "深入分析Superpowers框架如何结合智能体技能和现代开发实践，提供可落地的步骤和案例。",
+          "difficulty": "进阶"
         }
       ]
     }
