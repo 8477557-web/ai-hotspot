@@ -1,20 +1,20 @@
 {
-  "title": "AI日报 - 2026年07月03日",
+  "title": "AI日报 - 2026年07月04日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "Claude Sonnet 5 上线一日差评刷屏：打不过千问和 Minimax，性价比全面翻车",
-          "summary": "Claude Sonnet 5发布后因性能与性价比不及竞品而遭大量差评。"
+          "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+          "summary": "Google DeepMind与电影公司A24宣布首次研究合作，探索AI在创意领域的应用。"
         },
         {
-          "title": "三星首款 AI 眼镜 Galaxy Glasses 爆料：1200 万摄像头、光致变色镜片",
-          "summary": "三星首款AI眼镜Galaxy Glasses曝光，配备1200万像素摄像头和光致变色镜片。"
+          "title": "anthropics /claude-code",
+          "summary": "Anthropic开源Claude Code，展示AI编程助手大幅精简提示词的能力。"
         },
         {
-          "title": "全球首个英伟达含量为0的万亿模型，成了海外开发者的抢手货",
-          "summary": "全球首个不依赖英伟达硬件的万亿参数模型发布，受到海外开发者热捧。"
+          "title": "openai /codex-plugin-cc",
+          "summary": "OpenAI发布Codex插件CC版本，进一步推动AI编程工具生态。"
         }
       ]
     },
@@ -22,20 +22,16 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "全球首份大语言模型安全防范能力测评报告在北京发布",
-          "summary": "全球首份大语言模型安全防范能力测评报告在北京正式发布。"
+          "title": "阿里内部全面禁用Claude Code；FF洛杉矶总部人去楼空？公司回应：不实；微软砸25亿美元组建6000人AI新公司",
+          "summary": "阿里内部禁用Claude Code，微软斥资25亿美元组建6000人AI新公司，行业竞争加剧。"
         },
         {
-          "title": "天工AI业务ARR突破8亿美元，向中国首个非BAT10亿美元ARR的AI公司迈进",
-          "summary": "天工AI年化收入突破8亿美元，有望成为中国首个非BAT阵营的10亿美元ARR AI公司。"
+          "title": "拒绝天价账单！OpenAI、Anthropic 自研芯片，剑指英伟达“暴利”护城河",
+          "summary": "OpenAI和Anthropic开始自研芯片，试图打破英伟达在AI算力市场的垄断。"
         },
         {
-          "title": "被骂“退出AI竞赛”，Meta改行卖算力股价暴涨10%：卖铲子比淘金更赚？",
-          "summary": "Meta转向出售算力服务，股价大涨10%，引发“卖铲子比淘金更赚”的讨论。"
-        },
-        {
-          "title": "宇树科技上市申请通过，成“具身智能第一股”",
-          "summary": "宇树科技上市申请获批，成为具身智能领域首家上市公司。"
+          "title": "高盛经济学家布里格斯：AI 将迫使 1500 万美国劳动者离开岗位，但不意味着“失业”",
+          "summary": "高盛预测AI将影响1500万美国岗位，但认为这更多是职业转型而非失业。"
         }
       ]
     },
@@ -43,16 +39,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "阿里达摩院：AI 智能体发现 4 种全新超导材料，已获实验验证",
-          "summary": "阿里达摩院利用AI智能体发现4种全新超导材料，并已通过实验验证。"
+          "title": "AI找出4种全新超导体，只用28个GPU时！人类此前完全未知",
+          "summary": "AI仅用28个GPU时发现4种全新超导体，展示AI在材料科学中的巨大潜力。"
         },
         {
-          "title": "Multi-Agent Teams Hold Experts Back",
-          "summary": "苹果ML研究指出，多智能体团队协作反而可能限制专家性能。"
+          "title": "Contrastive Decoding Diffing (CDD): recovering verbatim finetuning data from logits alone, no weight access needed[R]",
+          "summary": "新方法CDD仅通过logits即可恢复微调数据，无需访问模型权重，引发隐私担忧。"
         },
         {
-          "title": "On Robustness and Chain-of-Thought Consistency of RL-Finetuned VLMs",
-          "summary": "苹果ML研究探讨了强化学习微调视觉语言模型的鲁棒性与思维链一致性。"
+          "title": "从LLM到JEPA，中国团队正在把“世界模型”搬进细胞内部",
+          "summary": "中国团队将世界模型概念引入细胞生物学，探索AI在生命科学中的新边界。"
         }
       ]
     },
@@ -60,21 +56,17 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "Cloudflare CEO 警告：未来两年，Agent 会让互联网每周爆出一个 Log4j",
-          "summary": "Cloudflare CEO警告，AI Agent将在未来两年导致类似Log4j的严重安全漏洞频繁出现。"
+          "title": "Claude Code 80%的提示词说删就删，Anthropic用Fable 5打了个样：AI行业的“降本”才刚刚开始",
+          "summary": "Anthropic通过Fable 5展示提示词精简80%的效果，预示AI成本优化进入新阶段。"
         },
         {
-          "title": "GitLab 调研：AI 工具仅加快编码，整体软件交付效率并未提升",
-          "summary": "GitLab调研显示，AI工具仅加速编码环节，但整体软件交付效率并未显著提升。"
-        },
-        {
-          "title": "Anthropic、OpenAI同一天落子AI4S赛道，巨头混战从「拼模型」转向「卡生态」",
-          "summary": "Anthropic与OpenAI同日布局AI for Science，行业竞争从模型性能转向生态构建。"
+          "title": "从 Coding 到 Anything，Agent 正在重写工作流",
+          "summary": "AI Agent正从编程扩展到通用任务，重新定义各行业工作流程。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦模型性价比争议、安全风险与生态竞争，行业从拼模型转向拼落地与安全。",
-  "generated_at": "2026-07-03T11:32:53.392736+08:00",
+  "summary": "今日AI圈聚焦于芯片自研、成本优化与跨领域应用，行业竞争与创新同步加速。",
+  "generated_at": "2026-07-04T11:24:56.738829+08:00",
   "source_count": 20
 }
