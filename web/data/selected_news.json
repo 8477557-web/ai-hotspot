@@ -1,41 +1,152 @@
 {
-  "updated_at": "2026-07-04T11:24:56.738915+08:00",
+  "updated_at": "2026-07-05T11:41:50.150582+08:00",
   "total": 20,
   "items": [
     {
-      "id": "d4f75b5d4186",
-      "source_id": "deepmind-blog",
-      "source_name": "Google DeepMind",
-      "source_tier": "T1",
+      "id": "d46df060f7a4",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
       "source_lang": "en",
-      "source_category": "official",
-      "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
-      "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
-      "summary": "",
-      "published": "2026-07-03T22:25:43+08:00",
-      "fetched_at": "2026-07-04T11:23:42.053065+08:00",
-      "pre_filter_reason": "Google DeepMind research partnership, AI-related.",
+      "source_category": "community",
+      "title": "asgeirtj /system_prompts_leaks",
+      "link": "https://github.com/asgeirtj/system_prompts_leaks",
+      "summary": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "published": "2026-07-05T11:40:44.439431+08:00",
+      "fetched_at": "2026-07-05T11:40:44.439434+08:00",
+      "pre_filter_reason": "System prompts from AI models like Anthropic, OpenAI, Google, xAI",
       "scores": {
         "importance": 8,
-        "timeliness": 8,
+        "timeliness": 9,
         "actionability": 9,
         "scarcity": 9,
-        "virality": 8,
-        "crowd_heat": 0.0
+        "virality": 9,
+        "crowd_heat": 3.5
       },
-      "quality_score": 9.0,
+      "quality_score": 8.1,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "AI与电影工业的跨界：DeepMind x A24合作能碰撞出什么火花？",
-          "angle": "解读DeepMind与A24合作背后的技术可能性，分析AI如何改变电影创作流程（如剧本生成、特效优化、观众分析），并探讨对独立电影制作的影响。",
+          "title": "如何利用泄露的系统提示词优化你的AI应用",
+          "angle": "深度解析Anthropic、OpenAI、Google等顶级AI模型的系统提示词结构，教你如何借鉴这些“黑盒”中的设计思路，提升自己AI产品的对话质量和行为控制能力。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "analysis",
+          "title": "AI模型提示词大揭秘：从Claude到GPT，谁的设计更胜一筹？",
+          "angle": "横向对比各大厂商（Anthropic、OpenAI、Google、xAI）的系统提示词风格差异，分析其背后的产品哲学和安全策略，探讨这对AI行业竞争格局的影响。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "c3eb809bdca5",
+      "source_id": "hn-ai",
+      "source_name": "Hacker News (AI)",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
+      "link": "https://github.com/openai/codex/issues/30364",
+      "summary": "<p>Article URL: <a href=\"https://github.com/openai/codex/issues/30364\">https://github.com/openai/codex/issues/30364</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48789428\">https://news.ycombinator.com/item?id=48789428</a></p>\n<p>Points: 177</p>\n<p># Comments: 55</p>",
+      "published": "2026-07-05T05:51:09+08:00",
+      "fetched_at": "2026-07-05T11:40:42.564929+08:00",
+      "pre_filter_reason": "GPT-5.5 Codex性能问题，涉及AI模型",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "GPT-5.5 Codex性能下降？教你如何规避推理Token聚类陷阱",
+          "angle": "针对GPT-5.5 Codex出现的推理token聚类问题，提供实用的代码调试技巧和替代方案，帮助开发者避免因模型内部聚类导致的输出质量下降。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "analysis",
+          "title": "GPT-5.5 Codex翻车事件：AI模型的“思维固化”危机",
+          "angle": "从技术角度解读推理token聚类如何导致模型性能退化，分析这一问题对依赖Codex进行代码生成的开发者的实际影响，并探讨OpenAI可能的修复方向。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "26856a53288c",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "美光科技投资93亿美元扩建先进存储芯片项目，预计2028下半年出货HBM",
+      "link": "https://36kr.com/newsflashes/3882061184413701?f=rss",
+      "summary": "美光科技当地时间周六（7月4日）正式启动其位于日本西部广岛工厂的扩建工程。这项总投资达1.5万亿日元（约合93亿美元）的项目，旨在生产包括高带宽存储器（HBM）在内的先进存储芯片，以满足人工智能（AI）浪潮带来的旺盛需求。HBM是英伟达AI处理器的关键组件，工厂预计将于2028年夏季左右开始出货。近期，美光、三星电子和SK海力士各自都宣布了扩充制造能力的计划。本周早些时候，SK海力士宣布，计划投资80万亿韩元（约合514.6亿美元），在韩国忠清北道首府清州市新建一座NAND存储芯片工厂。（财联社）",
+      "published": "2026-07-05T09:16:50+08:00",
+      "fetched_at": "2026-07-05T11:40:25.891590+08:00",
+      "pre_filter_reason": "HBM存储芯片用于AI处理器，满足AI需求",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "HBM芯片是什么？美光93亿美元投资背后的AI存储革命",
+          "angle": "用通俗易懂的方式解释高带宽存储器（HBM）的工作原理及其在AI训练中的关键作用，结合美光、三星、SK海力士的巨额投资，分析存储芯片行业的未来趋势。",
           "difficulty": "入门"
         },
         {
           "tag": "analysis",
-          "title": "从DeepMind x A24看AI内容创作的新纪元",
-          "angle": "以此次合作为切入点，分析AI在创意产业中的角色转变（从工具到合作伙伴），对比其他科技公司与影视公司的合作案例，预测未来趋势。",
-          "difficulty": "中级"
+          "title": "存储三巨头豪赌HBM：美光93亿美元扩建能否撼动三星海力士地位？",
+          "angle": "对比美光、三星、SK海力士在HBM领域的产能布局和技术路线，分析美光日本工厂2028年出货的时间窗口是否合理，以及这场存储芯片军备竞赛对AI产业链的深远影响。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "4dd047ee9b0a",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "苹果首次将私有云计算平台扩展至谷歌云",
+      "link": "https://www.infoq.cn/article/UoJtxVXj0d1QT1ftyjtd?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/UoJtxVXj0d1QT1ftyjtd?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-07-04T17:00:00+08:00",
+      "fetched_at": "2026-07-05T11:40:32.268987+08:00",
+      "pre_filter_reason": "Apple expanding private cloud computing platform, likely AI-related.",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "苹果的“云”变：为何将私有云计算平台扩展到谷歌云？",
+          "angle": "分析苹果从自建云基础设施到拥抱谷歌云的战略转变，探讨此举对苹果隐私保护承诺的挑战、成本效益考量，以及对AWS和Azure等竞争对手的潜在影响。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "多云战略实战：从苹果与谷歌云合作看企业如何选择云伙伴",
+          "angle": "以苹果扩展谷歌云为例，梳理企业实施多云战略的关键考量因素（数据主权、性能、成本、生态兼容性），提供一套选择云服务商的评估框架。",
+          "difficulty": "进阶"
         }
       ]
     },
@@ -48,68 +159,31 @@
       "source_category": "media",
       "title": "9点1氪｜阿里内部全面禁用Claude Code；FF洛杉矶总部人去楼空？公司回应：不实；微软砸25亿美元组建6000人AI新公司",
       "link": "https://36kr.com/p/3880629882679301?f=rss",
-      "summary": "<h2>今日热点导览</h2>\n  <ul>\n   <li>三部门：调整节能汽车、新能源汽车车船税优惠政策</li>\n   <li>三星传获Meta超10万亿韩元AI芯片代工订单</li>\n   <li>茉莉奶白小程序更换彩色Logo</li>\n   <li>Meta打算出售富余算力引发科技股回落</li>\n   <li>英伟达前光互连技术高管Ashkan Seyedi加入艾迈斯欧司朗</li>\n  </ul>\n  <h2>TOP3大新闻</h2>\n  <p><strong>因存在植入后门风险，阿里内部全面禁用Claude Code</strong></p>\n  <p>36氪从阿里内部人士处获悉，因近期Claude Code被曝存在植入后门的安全风险，阿里经综合评估后已将其列入高风险软件名单。自7月10日起，阿里将全面禁止内部员工在办公环境下使用Claude Code，并推荐使用Qoder作为替代方案。</p>\n  <p><strong>FF洛杉矶总部人去楼空？公司回应：不实</strong></p>\n  <p>7月3日，法拉第未来发布声明称，公司日前关注到近部分网络平台流传所谓“FF洛杉矶总部人去楼空”等不实信息。FF位于汉福德的工厂并未关闭，此次系全球总部正常搬迁至洛杉矶硅滩（El Segundo）。网传视频所拍摄地点为FF曾经位于Gardena市的旧总部，今年3月底开始不再由FF使用。所谓“FF洛杉矶总部人去楼空”的说法具有严重误导性，属于对公司正常办公地点搬迁事实的恶意歪曲。（界面新闻）</p>\n  <p><strong>微软砸25亿美元组建6000人AI新公司</strong></p>\n  <p>当地时间7月2日，微软宣布成立全新运营实体——微软前沿公司（Microsoft Frontier Company）。该业务依托微软现有人工智能工具，主要为企业客户落地有成效的人工智能部署项目。微软将为该项目投入25亿美元资金，并配备6000名行业专家与工程技术人员。据微软商业业务总裁贾德森·阿尔托夫（Judson Althoff）介绍，这项业务远超所谓前沿部署工程（FDE）的范畴，将打造业内规模最大、综合实力最强、以业务成果为核心导向的工程团队。</p>\n  <p>该部门将整合微软现有的FDE工程师、技术顾问、支持人员以及具备行业经验的销售团队。新公司将为客户提供AI技术选型与系统集成服务，涵盖微软自有模型及外部模型，并与企业自身的专有数据进行深度结合。客户将保留所有成果与开发成果的所有权，无需将结果回传给微软。（界面新闻）</p>\n  <h2>AI最前沿</h2>\n  <p><strong>Github Copilot接入开源模型Kimi K2.7</strong></p>\n  <p>36氪获悉，月之暗面宣布，Github Copilot接入第一个开源模型Kimi K2.7。</p>\n  <p><strong>阿里云宣布AI原生数据库服务产品Databridge Agent功能收费</strong></p>\n  <p>36氪获悉，阿里云官网显示，AI原生数据库服务产品Databridge Agent将于2026年8月1日正式转商业化计费。</p>\n  <h2>大公司/大事件</h2>\n  <p><strong>国家发改委：自7月3日24时起，国内汽、柴油（标准品）价格每吨分别下调950元、915元</strong></p>\n  <p>36氪获悉，据国家发改委，6月18日国内成品油价格调整以来，国际市场原油价格快速回落后小幅波动运行，本次调价的前10个工作日平均价格低于上次调价前10个工作日平均价格。根据国际市场油价变化情况，自7月3日24时起，国内汽、柴油（标准品）价格每吨分别下调950元、915元。</p>\n  <p><strong>多家品牌金饰价格大涨，周生生克价1266元</strong></p>\n  <p>7月3日，国内黄金饰品价格对比显示，多家黄金珠宝品牌公布的境内足金首饰价格较2日有所上调，老凤祥报价1260元/克，较前一日1230元/克涨30元；周生生报价1266元/克，较前一日1236元/克涨30元；周大福报价1262元/克，较前一日1233元涨29元；老庙黄金报价1261元/克，较前一日1235元/克涨26元。（界面新闻）</p>\n  <p><strong>三星传获Meta超10万亿韩元AI芯片代工订单，2纳米中长期积压订单看涨</strong></p>\n  <p>7月3日，据报道，三星电子正成为全球大科技公司自研AI芯片（ASIC）的核心生产基地，其中长期积压订单有望逼近50万亿韩元。Meta正推进与三星晶圆代工合作设计并生产价值超10万亿韩元的下一代ASIC。其自研AI加速器“MTIA”已锁定三星为合作伙伴，计划采用2纳米尖端工艺量产数十万组。同时，美国AI巨头Anthropic也在评估使用其2纳米工艺开发芯片。（界面新闻）</p>\n  <p><strong>国家金融监督管理总局决定对众邦银行实施接管</strong></p>\n  <p>国家金融监督管理总局、湖北省人民政府关于对武汉众邦银行股份有限公司实施接管的公告。鉴于武汉众邦银行股份有限公司（以下简称众邦银行）出现严重信用风险，为保护存款人和其他客户的合法权益，依照《中华人民共和国银行业监督管理法》和《中华人民共和国商业银行法》有关规定，国家金融监督管理总局决定对众邦银行实施接管。（央视新闻）</p>\n  <p><strong>三部门：调整节能汽车、新能源汽车车船税优惠政策</strong></p>\n  <p>36氪获悉，财政部、税务总局、工业和信息化部发布关于调整节能汽车、新能源汽车车船税优惠政策的公告。自2027年1月1日起，取消对节能汽车减半征收车船税政策，取消对纯电动商用车、插电式（含增程式）混合动力汽车、燃料电池商用车免征车船税政策；纳税人新取得及本公告实施前已取得的上述类型车辆，应按照《中华人民共和国车船税法》及其实施条例和其他相关规定征收车船税。</p>\n  <p><strong>科技板块遭遇深度调整，机构建议聚焦细分龙头</strong></p>\n  <p>7月2日，A股市场迎来大幅调整。分析人士认为，本轮调整并非基本面逻辑的逆转，而是上半年科技板块极致分化行情下交易拥挤、筹码结构脆弱等风险因素的集中释放。经历半年大幅上涨后，部分高位品种估值与预期透支较为严重，短期回调具有一定的合理性。但从中长期维度来看，AI产业趋势并未改变，机构普遍建议投资者在调整过程中保持定力，关注具备核心竞争力的细分龙头，同时适度配置高股息资产以平滑组合波动。（中证网）</p>\n  <p><strong>茉莉奶白小程序更换彩色Logo，此前被判赔LV超千万元</strong></p>\n  <p>因商标侵权纠纷一审被判向LV赔偿1000万元后，茉莉奶白更换头像的消息引发关注。7月2日晚上，茉莉奶白小程序会员中心原本黑色的Logo换成了彩色Logo，相关话题也冲上社交平台热搜。7月3日，记者就“换Logo是否与LV诉讼一事有关”的问题咨询茉莉奶白客服，工作人员对界面新闻表示：“抱歉给您添麻烦了，我司将依法提起上诉，未来我们将持续专注品质与服务，不负信任。”（界面新闻）</p>\n  <p><strong>腾讯游戏暑期未保行动：每周限玩3小时</strong></p>\n  <p>36氪获悉，7月3日，腾讯游戏发布“2026年暑期未成年人保护专项行动”，每周限玩3小时，升级“AI双引擎防沉迷”模式：游戏外，成长守护焕新AI版本，接入腾讯混元与DeepSeek双模型，家长可通过对话式交互完成信息查询与账号管控，提升管理便捷度；游戏内，健康系统推出AI巡航功能，内置“AI守卫”，基于玩家行为进行动态风险分级，并在人脸识别基础上，新增声纹检测、年龄识别等多模态验证，实现全链路干预，提高冒用、代过门槛。</p>\n  <p><strong>关停“杠杆炒金”通道，银行拧紧个人贵金属业务风险阀门</strong></p>\n  <p>6月以来，包括交通银行、招商银行、工商银行在内的多家国有大行、股份制银行密集“踩刹车”——宣布将于7月停办代理上海黄金交易所个人贵金属交易业务。在业内人士看来，这是银行主动进行风险管理的举措，通过提前压缩高风险投机业务，防范极端行情下的客户违约风险、声誉风险，同时帮助投资者规避贵金属价格波动带来的资金损失。（中证网）</p>\n  <p><strong>Meta打算出售富余算力引发科技股回落，业内人士：算力租赁市场并未降温</strong></p>\n  <p>科技巨头Meta（脸书）打算出售富余算力的消息，引发AI算力过剩恐慌，全球科技股普遍回落，A股存储、光模块、PCB（印制电路板）、MLCC（多层片式陶瓷电容器）等热门科技股纷纷下跌。与此同时，作为算力产业链上游链主，英伟达推出新型AI基础设施合作模式，计划通过收入分成和信用支持的合作模式，向快速增长的AI生态系统开放计算资源。有从业者表示，当前算力租赁市场并未降温，在手订单充沛。（证券时报）</p>\n  <p><strong>阿里云发布Qoder企业版</strong></p>\n  <p>36氪获悉，阿里云发布Qoder企业版，为企业提供个人云端知识库QMind，支持跨产品、跨设备、跨人员的知识共享。同时推出资源池化的Credits付费模式，企业管理员可按需为成员动态分配额度。</p>\n  <p><strong>华谊兄弟电影公司被执行1406万</strong></p>\n  <p>36氪获悉，天眼查App显示，近日，华谊兄弟电影有限公司新增三则被执行人信息，执行标的合计1406万余元，执行法院均为北京市朝阳区人民法院。该公司成立于2015年12月，法定代表人为王忠磊，注册资本1亿人民币，经营范围包括电影、网络剧制作、发行等，由华谊兄弟传媒股份有限公司全资持股。</p>\n  <p><strong>曝特斯拉限流AI开支</strong></p>\n  <p>北京时间7月3日凌晨，The Information援引特斯拉内部备忘录消息称，特斯拉将从7月6日起，把每名员工使用AI的费用限制在每周200美元（现汇率约合1359元人民币）以内。</p>\n  <p>就在几个月前，特斯拉还要求员工更积极地使用AI。政策如此迅速地转向，说明即便企业把未来押注在AI上，也很难控制不断增加的使用成本。多名参与特斯拉AI部署工作的人员称，过去半年，管理层一直在整合员工各自使用的AI工具，要求全公司采用经过批准的模型，并建立统一的安全规范。但统一方案刚刚成形，特斯拉很快又开始限制支出。（新浪科技）</p>\n  <p><strong>Meta低调推出AI社交应用Pocket，主打互动小游戏</strong></p>\n  <p>Meta近期在部分地区悄然上线了一款名为Pocket的人工智能社交应用。该平台允许用户通过输入简单的文字提示词，生成并分享名为“gizmo”的互动式小型游戏。Pocket被定义为一个“与朋友共同创作、分享及探索gizmos”的平台，每个gizmo都是由AI生成、可交互且能直接游玩的趣味内容。（新浪财经）</p>\n  <p><strong>英伟达前光互连技术高管Ashkan Seyedi加入艾迈斯欧司朗，出任光互连业务负责人</strong></p>\n  <p>艾迈斯欧司朗（ams OSRAM）当地时间7月2日宣布，曾任英伟达光互连技术高管的Ashkan Seyedi已正式加入公司，担任光互连业务线副总裁兼总经理，负责推动面向下一代AI数据中心的光互连技术发展。Seyedi此前在英伟达负责光互连技术研发，参与推动面向AI集群和数据中心的高速光通信技术发展。（界面新闻）</p>\n  <p><strong>美国三大蛋企涉价格操纵，同意支付330万美元并捐赠5300万枚鸡蛋以达成和解</strong></p>\n  <p>美国司法部与17个州的总检察长本周与三家全美最大的鸡蛋生产商达成和解协议，以解决它们涉嫌在2022年6月至2025年3月期间串通操纵鸡蛋价格的指控。涉案企业包括卡尔-梅因食品公司、弗索瓦公司和希克曼蛋业。调查发现，三家企业通过私下协调竞标活动，向市场分析机构厄纳-巴里提交数据时谎称存在更大需求，从而人为抬高Urner Barry每日发布的鸡蛋价格基准。Urner Barry的定价指数被广泛应用于全美鸡蛋供应合同，直接影响零售商和消费者支付的鸡蛋价格。（新浪财经）</p>\n  <p><strong>苹果iOS 27 Beta版操作系统最新SDK包括Apple智能功能</strong></p>\n  <p>36氪获悉，苹果开发者微信公众号发文宣布，iOS 27 Beta版操作系统现可下载。最新SDK带来新功能，包括平台设计优化、Apple智能功能，以及新的AI开发框架。</p>\n  <p><strong>黄仁勋穿过的皮夹克将被拍卖</strong></p>\n  <p>7月3日消息，《商业内幕》报道，苏富比拍卖行将于7月7日起，拍卖一件英伟达CEO黄仁勋穿过的黑色皮夹克，最终成交价预计在4万-6万美元（现汇率约合27.2万- 40.8万元人民币）之间。根据鉴定机构给出的信息，这件皮夹克由奢侈品牌Tom Ford打造，黄仁勋本人曾于2023年穿过它。并且，夹克上还带有黄仁勋的亲笔签名。（第一财经）</p>\n  <p><strong>韩国联合三星、SK等企业推出312万亿韩元投资计划，重点布局半导体与航天产业</strong></p>\n  <p>7月3日，韩国副总理兼企划财政部长官具润哲宣布，将推动各大企业在东南部（岭南地区）投资超312万亿韩元（约2040亿美元），以发展先进制造和AI产业。具体规划中，SK集团、三星、韩华及现代汽车将分别注入约140万亿、60万亿、55万亿和42万亿韩元，重点布局半导体、AI和航天等领域；LG与斗山也将跟进投资。此外，韩国还公布了以泗川为核心的国家航天战略，旨在打造南部沿海航天产业带。（界面新闻）</p>\n  <p><strong>欧盟拟出台未成年人社媒禁令</strong></p>\n  <p>“欧洲动态”网站7月2日援引多名欧盟官员的表态披露称，欧盟委员会主席冯德莱恩计划于9月16日在欧洲议会发表年度“盟情咨文”时公布在欧盟范围内禁止未成年人使用社交媒体的计划。一个未成年人上网安全研究咨询小组预计本月13日提交相关报告，为欧委会提供建议。报道说，尚不清楚欧委会将把使用社交媒体的年龄门槛定在多少岁，以及这项计划具体如何落实。（央视新闻）</p>\n  <h2>上市进行时</h2>\n  <p><strong>应能微电子启动北交所IPO辅导</strong></p>\n  <p>36氪获悉，证监会官网显示，江苏应能微电子股份有限公司已启动上市辅导，拟在北交所上市，辅导机构为申万宏源证券承销保荐有限责任公司。</p>\n  <p><strong>EG集团旗下坎伯兰农场申请美国IPO</strong></p>\n  <p>据报道，EG集团旗下坎伯兰农场申请美国IPO。</p>\n  <h2>投融资</h2>\n  <p><strong>“格式塔科技”完成4.2亿元天使+轮融资</strong></p>\n  <p>36氪获悉，“格式塔科技（Gestala）”宣布完成4.2亿元人民币天使+轮融资。本轮融资由华映资本领投，C资本、红杉中国、蓝思科技、中电健康基金、创新工场、临港科创投资、复旦复容资本、国泰创投等多家国内外头部投资机构跟投。道彤投资、云时资本、清松资本、戈壁创投等老股东持续超额加码认购。华兴资本担任独家财务顾问。</p>\n  <h2>酷产品</h2>\n  <p><strong>小鹏MONA L03预售开启</strong></p>\n  <p>36氪获悉，7月2日晚，小鹏MONA L03预售开启，并将于7月16日德国慕尼黑全球上市。</p>\n  <p><strong>xTool O1 UV打印机正式发布</strong></p>\n  <p>36氪获悉，近日，xTool在德国柏林举办欧洲品牌发布会，正式向全球推出xTool O1 UV打印机。O1将UV、DTF、DTG、UV DTF四种打印能力整合进一台设备，覆盖木材、金属、亚克力、玻璃、石材、织物、皮革等多种材料。此外，xTool还推出了Atomm创作者平台，并通过AImake等AI工具，帮助用户完成从想法到设计、从设计到制作的转化。</p>\n  <p class=\"editor-note\"><strong>整理</strong>｜娃娃菜</p>",
+      "summary": "<h2>今日热点导览</h2>\n  <ul>\n   <li>三部门：调整节能汽车、新能源汽车车船税优惠政策</li>\n   <li>三星传获Meta超10万亿韩元AI芯片代工订单</li>\n   <li>茉莉奶白小程序更换彩色Logo</li>\n   <li>Meta打算出售富余算力引发科技股回落</li>\n   <li>英伟达前光互连技术高管Ashkan Seyedi加入艾迈斯欧司朗</li>\n  </ul>\n  <h2>TOP3大新闻</h2>\n  <p><strong>因存在植入后门风险，阿里内部全面禁用Claude Code</strong></p>\n  <p>36氪从阿里内部人士处获悉，因近期Claude Code被曝存在植入后门的安全风险，阿里经综合评估后已将其列入高风险软件名单。自7月10日起，阿里将全面禁止内部员工在办公环境下使用Claude Code，并推荐使用Qoder作为替代方案。</p>\n  <p><strong>FF洛杉矶总部人去楼空？公司回应：不实</strong></p>\n  <p>7月3日，法拉第未来发布声明称，公司日前关注到近部分网络平台流传所谓“FF洛杉矶总部人去楼空”等不实信息。FF位于汉福德的工厂并未关闭，此次系全球总部正常搬迁至洛杉矶硅滩（El Segundo）。网传视频所拍摄地点为FF曾经位于Gardena市的旧总部，今年3月底开始不再由FF使用。所谓“FF洛杉矶总部人去楼空”的说法具有严重误导性，属于对公司正常办公地点搬迁事实的恶意歪曲。（界面新闻）</p>\n  <p><strong>微软砸25亿美元组建6000人AI新公司</strong></p>\n  <p>当地时间7月2日，微软宣布成立全新运营实体——微软前沿公司（Microsoft Frontier Company）。该业务依托微软现有人工智能工具，主要为企业客户落地有成效的人工智能部署项目。微软将为该项目投入25亿美元资金，并配备6000名行业专家与工程技术人员。据微软商业业务总裁贾德森·阿尔托夫（Judson Althoff）介绍，这项业务远超所谓前沿部署工程（FDE）的范畴，将打造业内规模最大、综合实力最强、以业务成果为核心导向的工程团队。</p>\n  <p>该部门将整合微软现有的FDE工程师、技术顾问、支持人员以及具备行业经验的销售团队。新公司将为客户提供AI技术选型与系统集成服务，涵盖微软自有模型及外部模型，并与企业自身的专有数据进行深度结合。客户将保留所有成果与开发成果的所有权，无需将结果回传给微软。（界面新闻）</p>\n  <h2>AI最前沿</h2>\n  <p><strong>Github Copilot接入开源模型Kimi K2.7</strong></p>\n  <p>36氪获悉，月之暗面宣布，Github Copilot接入第一个开源模型Kimi K2.7。</p>\n  <p><strong>阿里云宣布AI原生数据库服务产品Databridge Agent功能收费</strong></p>\n  <p>36氪获悉，阿里云官网显示，AI原生数据库服务产品Databridge Agent将于2026年8月1日正式转商业化计费。</p>\n  <h2>大公司/大事件</h2>\n  <p><strong>国家发改委：自7月3日24时起，国内汽、柴油（标准品）价格每吨分别下调950元、915元</strong></p>\n  <p>36氪获悉，据国家发改委，6月18日国内成品油价格调整以来，国际市场原油价格快速回落后小幅波动运行，本次调价的前10个工作日平均价格低于上次调价前10个工作日平均价格。根据国际市场油价变化情况，自7月3日24时起，国内汽、柴油（标准品）价格每吨分别下调950元、915元。</p>\n  <p><strong>多家品牌金饰价格大涨，周生生克价1266元</strong></p>\n  <p>7月3日，国内黄金饰品价格对比显示，多家黄金珠宝品牌公布的境内足金首饰价格较2日有所上调，老凤祥报价1260元/克，较前一日1230元/克涨30元；周生生报价1266元/克，较前一日1236元/克涨30元；周大福报价1262元/克，较前一日1233元涨29元；老庙黄金报价1261元/克，较前一日1235元/克涨26元。（界面新闻）</p>\n  <p><strong>三星传获Meta超10万亿韩元AI芯片代工订单，2纳米中长期积压订单看涨</strong></p>\n  <p>7月3日，据报道，三星电子正成为全球大科技公司自研AI芯片（ASIC）的核心生产基地，其中长期积压订单有望逼近50万亿韩元。Meta正推进与三星晶圆代工合作设计并生产价值超10万亿韩元的下一代ASIC。其自研AI加速器“MTIA”已锁定三星为合作伙伴，计划采用2纳米尖端工艺量产数十万组。同时，美国AI巨头Anthropic也在评估使用其2纳米工艺开发芯片。（界面新闻）</p>\n  <p><strong>国家金融监督管理总局决定对众邦银行实施接管</strong></p>\n  <p>国家金融监督管理总局、湖北省人民政府关于对武汉众邦银行股份有限公司实施接管的公告。鉴于武汉众邦银行股份有限公司（以下简称众邦银行）出现严重信用风险，为保护存款人和其他客户的合法权益，依照《中华人民共和国银行业监督管理法》和《中华人民共和国商业银行法》有关规定，国家金融监督管理总局决定对众邦银行实施接管。（央视新闻）</p>\n  <p><strong>三部门：调整节能汽车、新能源汽车车船税优惠政策</strong></p>\n  <p>36氪获悉，财政部、税务总局、工业和信息化部发布关于调整节能汽车、新能源汽车车船税优惠政策的公告。自2027年1月1日起，取消对节能汽车减半征收车船税政策，取消对纯电动商用车、插电式（含增程式）混合动力汽车、燃料电池商用车免征车船税政策；纳税人新取得及本公告实施前已取得的上述类型车辆，应按照《中华人民共和国车船税法》及其实施条例和其他相关规定征收车船税。</p>\n  <p><strong>科技板块遭遇深度调整，机构建议聚焦细分龙头</strong></p>\n  <p>7月2日，A股市场迎来大幅调整。分析人士认为，本轮调整并非基本面逻辑的逆转，而是上半年科技板块极致分化行情下交易拥挤、筹码结构脆弱等风险因素的集中释放。经历半年大幅上涨后，部分高位品种估值与预期透支较为严重，短期回调具有一定的合理性。但从中长期维度来看，AI产业趋势并未改变，机构普遍建议投资者在调整过程中保持定力，关注具备核心竞争力的细分龙头，同时适度配置高股息资产以平滑组合波动。（中证网）</p>\n  <p><strong>茉莉奶白小程序更换彩色Logo，此前被判赔LV超千万元</strong></p>\n  <p>因商标侵权纠纷一审被判向LV赔偿1000万元后，茉莉奶白更换头像的消息引发关注。7月2日晚上，茉莉奶白小程序会员中心原本黑色的Logo换成了彩色Logo，相关话题也冲上社交平台热搜。7月3日，记者就“换Logo是否与LV诉讼一事有关”的问题咨询茉莉奶白客服，工作人员对界面新闻表示：“抱歉给您添麻烦了，我司将依法提起上诉，未来我们将持续专注品质与服务，不负信任。”（界面新闻）</p>\n  <p><strong>腾讯游戏暑期未保行动：每周限玩3小时</strong></p>\n  <p>36氪获悉，7月3日，腾讯游戏发布“2026年暑期未成年人保护专项行动”，每周限玩3小时，升级“AI双引擎防沉迷”模式：游戏外，成长守护焕新AI版本，接入腾讯混元与DeepSeek双模型，家长可通过对话式交互完成信息查询与账号管控，提升管理便捷度；游戏内，健康系统推出AI巡航功能，内置“AI守卫”，基于玩家行为进行动态风险分级，并在人脸识别基础上，��增声纹检测、年龄识别等多模态验证，实现全链路干预，提高冒用、代过门槛。</p>\n  <p><strong>关停“杠杆炒金”通道，银行拧紧个人贵金属业务风险阀门</strong></p>\n  <p>6月以来，包括交通银行、招商银行、工商银行在内的多家国有大行、股份制银行密集“踩刹车”——宣布将于7月停办代理上海黄金交易所个人贵金属交易业务。在业内人士看来，这是银行主动进行风险管理的举措，通过提前压缩高风险投机业务，防范极端行情下的客户违约风险、声誉风险，同时帮助投资者规避贵金属价格波动带来的资金损失。（中证网）</p>\n  <p><strong>Meta打算出售富余算力引发科技股回落，业内人士：算力租赁市场并未降温</strong></p>\n  <p>科技巨头Meta（脸书）打算出售富余算力的消息，引发AI算力过剩恐慌，全球科技股普遍回落，A股存储、光模块、PCB（印制电路板）、MLCC（多层片式陶瓷电容器）等热门科技股纷纷下跌。与此同时，作为算力产业链上游链主，英伟达推出新型AI基础设施合作模式，计划通过收入分成和信用支持的合作模式，向快速增长的AI生态系统开放计算资源。有从业者表示，当前算力租赁市场并未降温，在手订单充沛。（证券时报）</p>\n  <p><strong>阿里云发布Qoder企业版</strong></p>\n  <p>36氪获悉，阿里云发布Qoder企业版，为企业提供个人云端知识库QMind，支持跨产品、跨设备、跨人员的知识共享。同时推出资源池化的Credits付费模式，企业管理员可按需为成员动态分配额度。</p>\n  <p><strong>华谊兄弟电影公司被执行1406万</strong></p>\n  <p>36氪获悉，天眼查App显示，近日，华谊兄弟电影有限公司新增三则被执行人信息，执行标的合计1406万余元，执行法院均为北京市朝阳区人民法院。该公司成立于2015年12月，法定代表人为王忠磊，注册资本1亿人民币，经营范围包括电影、网络剧制作、发行等，由华谊兄弟传媒股份有限公司全资持股。</p>\n  <p><strong>曝特斯拉限流AI开支</strong></p>\n  <p>北京时间7月3日凌晨，The Information援引特斯拉内部备忘录消息称，特斯拉将从7月6日起，把每名员工使用AI的费用限制在每周200美元（现汇率约合1359元人民币）以内。</p>\n  <p>就在几个月前，特斯拉还要求员工更积极地使用AI。政策如此迅速地转向，说明即便企业把未来押注在AI上，也很难控制不断增加的使用成本。多名参与特斯拉AI部署工作的人员称，过去半年，管理层一直在整合员工各自使用的AI工具，要求全公司采用经过批准的模型，并建立统一的安全规范。但统一方案刚刚成形，特斯拉很快又开始限制支出。（新浪科技）</p>\n  <p><strong>Meta低调推出AI社交应用Pocket，主打互动小游戏</strong></p>\n  <p>Meta近期在部分地区悄然上线了一款名为Pocket的人工智能社交应用。该平台允许用户通过输入简单的文字提示词，生成并分享名为“gizmo”的互动式小型游戏。Pocket被定义为一个“与朋友共同创作、分享及探索gizmos”的平台，每个gizmo都是由AI生成、可交互且能直接游玩的趣味内容。（新浪财经）</p>\n  <p><strong>英伟达前光互连技术高管Ashkan Seyedi加入艾迈斯欧司朗，出任光互连业务负责人</strong></p>\n  <p>艾迈斯欧司朗（ams OSRAM）当地时间7月2日宣布，曾任英伟达光互连技术高管的Ashkan Seyedi已正式加入公司，担任光互连业务线副总裁兼总经理，负责推动面向下一代AI数据中心的光互连技术发展。Seyedi此前在英伟达负责光互连技术研发，参与推动面向AI集群和数据中心的高速光通信技术发展。（界面新闻）</p>\n  <p><strong>美国三大蛋企涉价格操纵，同意支付330万美元并捐赠5300万枚鸡蛋以达成和解</strong></p>\n  <p>美国司法部与17个州的总检察长本周与三家全美最大的鸡蛋生产商达成和解协议，以解决它们涉嫌在2022年6月至2025年3月期间串通操纵鸡蛋价格的指控。涉案企业包括卡尔-梅因食品公司、弗索瓦公司和希克曼蛋业。调查发现，三家企业通过私下协调竞标活动，向市场分析机构厄纳-巴里提交数据时谎称存在更大需求，从而人为抬高Urner Barry每日发布的鸡蛋价格基准。Urner Barry的定价指数被广泛应用于全美鸡蛋供应合同，直接影响零售商和消费者支付的鸡蛋价格。（新浪财经）</p>\n  <p><strong>苹果iOS 27 Beta版操作系统最新SDK包括Apple智能功能</strong></p>\n  <p>36氪获悉，苹果开发者微信公众号发文宣布，iOS 27 Beta版操作系统现可下载。最新SDK带来新功能，包括平台设计优化、Apple智能功能，以及新的AI开发框架。</p>\n  <p><strong>黄仁勋穿过的皮夹克将被拍卖</strong></p>\n  <p>7月3日消息，《商业内幕》报道，苏富比拍卖行将于7月7日起，拍卖一件英伟达CEO黄仁勋穿过的黑色皮夹克，最终成交价预计在4万-6万美元（现汇率约合27.2万- 40.8万元人民币）之间。根据鉴定机构给出的信息，这件皮夹克由奢侈品牌Tom Ford打造，黄仁勋本人曾于2023年穿过它。并且，夹克上还带有黄仁勋的亲笔签名。（第一财经）</p>\n  <p><strong>韩国联合三星、SK等企业推出312万亿韩元投资计划，重点布局半导体与航天产业</strong></p>\n  <p>7月3日，韩国副总理兼企划财政部长官具润哲宣布，将推动各大企业在东南部（岭南地区）投资超312万亿韩元（约2040亿美元），以发展先进制造和AI产业。具体规划中，SK集团、三星、韩华及现代汽车将分别注入约140万亿、60万亿、55万亿和42万亿韩元，重点布局半导体、AI和航天等领域；LG与斗山也将跟进投资。此外，韩国还公布了以泗川为核心的国家航天战略，旨在打造南部沿海航天产业带。（界面新闻）</p>\n  <p><strong>欧盟拟出台未成年人社媒禁令</strong></p>\n  <p>“欧洲动态”网站7月2日援引多名欧盟官员的表态披露称，欧盟委员会主席冯德莱恩计划于9月16日在欧洲议会发表年度“盟情咨文”时公布在欧盟范围内禁止未成年人使用社交媒体的计划。一个未成年人上网安全研究咨询小组预计本月13日提交相关报告，为欧委会提供建议。报道说，尚不清楚欧委会将把使用社交媒体的年龄门槛定在多少岁，以及这项计划具体如何落实。（央视新闻）</p>\n  <h2>上市进行时</h2>\n  <p><strong>应能微电子启动北交所IPO辅导</strong></p>\n  <p>36氪获悉，证监会官网显示，江苏应能微电子股份有限公司已启动上市辅导，拟在北交所上市，辅导机构为申万宏源证券承销保荐有限责任公司。</p>\n  <p><strong>EG集团旗下坎伯兰农场申请美国IPO</strong></p>\n  <p>据报道，EG集团旗下坎伯兰农场申请美国IPO。</p>\n  <h2>投融资</h2>\n  <p><strong>“格式塔科技”完成4.2亿元天使+轮融资</strong></p>\n  <p>36氪获悉，“格式塔科技（Gestala）”宣布完成4.2亿元人民币天使+轮融资。本轮融资由华映资本领投，C资本、红杉中国、蓝思科技、中电健康基金、创新工场、临港科创投资、复旦复容资本、国泰创投等多家国内外头部投资机构跟投。道彤投资、云时资本、清松资本、戈壁创投等老股东持续超额加码认购。华兴资本担任独家财务顾问。</p>\n  <h2>酷产品</h2>\n  <p><strong>小鹏MONA L03预售开启</strong></p>\n  <p>36氪获悉，7月2日晚，小鹏MONA L03预售开启，并将于7月16日德国慕尼黑全球上市。</p>\n  <p><strong>xTool O1 UV打印机正式发布</strong></p>\n  <p>36氪获悉，近日，xTool在德国柏林举办欧洲品牌发布会，正式向全球推出xTool O1 UV打印机。O1将UV、DTF、DTG、UV DTF四种打印能力整合进一台设备，覆盖木材、金属、亚克力、玻璃、石材、织物、皮革等多种材料。此外，xTool还推出了Atomm创作者平台，并通过AImake等AI工具，帮助用户完成从想法到设计、从设计到制作的转化。</p>\n  <p class=\"editor-note\"><strong>整理</strong>｜娃娃菜</p>",
       "published": "2026-07-04T09:03:44+08:00",
-      "fetched_at": "2026-07-04T11:23:45.870210+08:00",
-      "pre_filter_reason": "AI policy/ethics (ban on Claude Code) and AI company news (Microsoft AI new company)",
+      "fetched_at": "2026-07-05T11:40:25.891419+08:00",
+      "pre_filter_reason": "阿里禁用Claude Code、微软AI新公司，均涉及AI",
       "scores": {
-        "importance": 9,
+        "importance": 7,
         "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.1,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "阿里内部禁用Claude Code：企业如何防范AI工具的后门风险？",
-          "angle": "以阿里事件为例，讲解企业使用第三方AI工具时的安全审查要点，包括代码审计、数据隔离、权限管理，并提供替代方案推荐。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "微软砸25亿美元建AI公司：科技巨头AI军备竞赛升级",
-          "angle": "分析微软大额投资背后的战略意图（如对抗谷歌、亚马逊），对比阿里、Meta等公司的AI投入，探讨AI人才争夺战和算力布局。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "191739f7ef05",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "AI找出4种全新超导体，只用28个GPU时！人类此前完全未知",
-      "link": "https://www.qbitai.com/2026/07/442452.html",
-      "summary": "超越人类超导体发现100年效率",
-      "published": "2026-07-03T15:35:58+08:00",
-      "fetched_at": "2026-07-04T11:23:50.658989+08:00",
-      "pre_filter_reason": "AI discovers new superconductors, AI research/papers.",
-      "scores": {
-        "importance": 9,
-        "timeliness": 8,
         "actionability": 8,
-        "scarcity": 9,
-        "virality": 9,
-        "crowd_heat": 0.0
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 3.5
       },
-      "quality_score": 8.0,
+      "quality_score": 7.1,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "AI发现4种全新超导体：28个GPU如何做到人类百年未成之事？",
-          "angle": "通俗解释AI在材料科学中的工作原理（如生成模型、高通量筛选），对比传统实验方法的效率差异，并展望AI加速科学发现的前景。",
-          "difficulty": "入门"
+          "title": "阿里禁用Claude Code：企业如何防范AI工具的后门风险？",
+          "angle": "从阿里内部禁用Claude Code事件出发，提供一套企业级AI工具安全评估清单，包括代码审计、数据泄露防护、供应链安全等实操建议。",
+          "difficulty": "进阶"
         },
         {
           "tag": "analysis",
-          "title": "超导体发现效率提升100倍：AI科研范式正在颠覆基础科学",
-          "angle": "深入分析AI在超导体、药物研发等领域的突破案例，讨论“AI+科学”对科研流程、论文发表、产业落地的深远影响。",
-          "difficulty": "高级"
+          "title": "阿里禁用Claude Code背后的AI安全博弈：大厂为何对第三方AI工具说“不”？",
+          "angle": "深度解读阿里禁用Claude Code的原因（后门风险），对比其他大厂（如微软、Meta）对AI开发工具的态度，探讨企业在效率与安全之间的平衡策略。",
+          "difficulty": "入门"
         }
       ]
     },
@@ -123,400 +197,61 @@
       "title": "alistaitsacle/free-llm-api-keys",
       "link": "https://github.com/alistaitsacle/free-llm-api-keys",
       "summary": "Free LLM API keys for GPT-5.5, Claude, DeepSeek, Gemini, Grok — copy, paste, use. Updated 3-5x daily. No credit card needed.",
-      "published": "2026-07-04T11:23:59.891216+08:00",
-      "fetched_at": "2026-07-04T11:23:59.891217+08:00",
-      "pre_filter_reason": "Free LLM API keys",
+      "published": "2026-07-05T11:40:44.717268+08:00",
+      "fetched_at": "2026-07-05T11:40:44.717269+08:00",
+      "pre_filter_reason": "Free LLM API keys for AI models",
       "scores": {
         "importance": 5,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "免费LLM API密钥合集：如何安全使用GPT-5.5、Claude等模型？",
-          "angle": "介绍该开源项目的内容和使用方法，重点讲解API密钥的安全注意事项（如避免泄露、限制调用频率），并对比各模型特点。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "零成本玩转AI：从free-llm-api-keys获取免费API的完整指南",
-          "angle": "手把手教程：如何从该仓库获取密钥、配置环境、调用API进行文本生成，适合AI初学者快速上手实践。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "d6405ec8d122",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "拒绝天价账单！OpenAI、Anthropic 自研芯片，剑指英伟达“暴利”护城河",
-      "link": "https://www.infoq.cn/article/MOqFJbvWYlJ9PXcfdfCC?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/MOqFJbvWYlJ9PXcfdfCC?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-07-04T02:00:00+08:00",
-      "fetched_at": "2026-07-04T11:23:49.135848+08:00",
-      "pre_filter_reason": "OpenAI and Anthropic developing their own chips for AI, directly AI-related.",
-      "scores": {
-        "importance": 8,
         "timeliness": 8,
-        "actionability": 9,
+        "actionability": 7,
         "scarcity": 7,
         "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "OpenAI、Anthropic自研芯片：英伟达的“暴利”护城河还能守多久？",
-          "angle": "分析AI公司自研芯片的动机（降本、定制化、供应链安全），对比英伟达的竞争壁垒（CUDA生态、产能），预测芯片市场格局变化。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "tutorial",
-          "title": "从依赖到自主：AI公司自研芯片的技术路径与挑战",
-          "angle": "科普AI芯片设计的关键技术（如架构、制程、互联），以OpenAI、Anthropic为例，讲解自研芯片的投入产出比和潜在风险。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "d34b23f9542f",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "黄仁勋说的Physical AI，被这家中国跨界选手带进了生命科学实验室",
-      "link": "https://www.qbitai.com/2026/07/442311.html",
-      "summary": "第三方测评超越OpenAI最强旗舰GPT-5.6 Sol",
-      "published": "2026-07-03T13:24:06+08:00",
-      "fetched_at": "2026-07-04T11:23:50.659014+08:00",
-      "pre_filter_reason": "Physical AI in life sciences, mentions AI model comparison.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
+      "quality_score": 7.0,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "Physical AI 是什么？黄仁勋的愿景如何落地生命科学",
-          "angle": "用通俗易懂的语言解释 Physical AI 概念，并以该中国公司的跨界案例展示其如何应用于药物研发或基因测序等场景，适合科技爱好者入门。",
+          "title": "零成本玩转大模型：免费API密钥获取与使用指南",
+          "angle": "手把手演示如何从该仓库获取免费的GPT-5.5、Claude等API密钥，并展示在常见工具（如ChatBox、Open WebUI）中配置使用的完整流程，突出无需信用卡、每日更新的优势。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "超越 GPT-5.6 Sol？这家中国公司如何用 AI 改写生命科学规则",
-          "angle": "深度分析该公司的技术路径和第三方测评结果，探讨中国 AI 在垂直领域的弯道超车机会，适合行业从业者。",
-          "difficulty": "进阶"
+          "tag": "list",
+          "title": "2025年最全免费LLM API密钥合集：每天更新，不用白不用",
+          "angle": "盘点该仓库提供的所有免费模型（GPT-5.5、Claude、DeepSeek、Gemini、Grok），对比各模型能力与适用场景，并给出选择建议，吸引开发者与AI爱好者尝试。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "647be25f3bbe",
+      "id": "661f4a743d89",
       "source_id": "github-trending",
       "source_name": "GitHub Trending",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "anthropics /claude-code",
-      "link": "https://github.com/anthropics/claude-code",
-      "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "published": "2026-07-04T11:23:59.499783+08:00",
-      "fetched_at": "2026-07-04T11:23:59.499786+08:00",
-      "pre_filter_reason": "Agentic coding tool by Anthropic (AI company)",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 6,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "终端里的 AI 编程助手：Claude Code 快速上手指南",
-          "angle": "演示如何通过自然语言命令用 Claude Code 理解代码库、执行日常任务和处理 Git 工作流，适合开发者入门。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "comparison",
-          "title": "Claude Code vs GitHub Copilot：谁才是终端编程王者？",
-          "angle": "对比两款工具的代理能力、代码理解深度和 Git 集成，帮助开发者选择最适合自己的 AI 编程助手。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "e5787b65bb1c",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "高盛经济学家布里格斯：AI 将迫使 1500 万美国劳动者离开岗位，但不意味着“失业”",
-      "link": "https://www.ithome.com/0/972/493.htm",
-      "summary": "<p>IT之家 7 月 4 日消息，据《商业内幕》今天（4 日）报道，高盛研究全球经济团队负责人约瑟夫 · 布里格斯预计，AI 普及将<strong>迫使约 9% 的美国劳动者离开现有岗位，涉及约 1500 万人</strong>。</p><p>不过，他认为这些人最终可以被劳动力市场重新吸纳，工作机会<strong>不会永久消失</strong>。</p><p>布里格斯指出，这轮调整的规模可与 20 世纪 90 年代末至 21 世纪初由科技进步引发的就业市场剧变相比。“9% 的劳动者相当于 1500 万人，他们必须离开当前岗位，寻找新的工作。”</p><p>在<strong>科技、管理咨询和平面设计</strong>等已经广泛采用 AI 工具的行业，布里格斯估计，AI 每月使美国新增就业岗位<strong>减少 1 万至 1.5 万个</strong>。</p><p>而对于科技行业领导者们言必称“部分岗位将永久消失”的现象，布里格斯认为，这种论调只计算 AI <strong>淘汰了多少工作</strong>，却忽略了<strong>技术进步也会创造新职业</strong>。</p><p>布里格斯指出，过去 80 年的就业变化支持这一判断，约 85% 的就业增长都来自<strong>技术进步创造的新岗位</strong>。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/f52d7d60-5225-4398-aacc-3e7f7a06e886.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto\" /></p><p>美国劳动力市场本身也在不断更替。布里格斯向主持人艾莉森 · 内森介绍，美国每年<strong>大约创造 3000 万个岗位</strong>，同时<strong>淘汰 2900 万个岗位</strong>。按照这种流动规模，只要岗位创造速度提高 5%，就足以重新吸纳所有因 AI 而转岗的劳动者。</p><p>同场参与讨论的麻省理工学院研究人员尼尔 · 汤普森认为，AI 对就业市场的冲击<strong>不会像技术能力提升那样迅速</strong>。AI 能够完成某项任务只是第一步，真正投入使用还需要获取适当数据，并把运行成本降到具有经济价值的水平。医疗等行业还受到隐私规定限制，因此实际应用速度可能明显落后于技术发展。</p><p>汤普森指出，多数职业更可能被部分自动化，而不是彻底消失，影响大小取决于 AI 接管哪些具体任务。GPS 取代出租车司机对城市路线的专业知识后，司机收入有所下降，但从业人数却大幅增加。</p><p>汤普森把 AI 比作劳动者能够<strong>提前看到并逐步适应的“上涨潮水”</strong>，而不是突然袭来、把人卷走的“滔天巨浪”。</p><p>不过，美国招聘市场已经出现放缓迹象。IT之家获悉，该国 6 月就业报告显示，美国仅新增 5.7 万个岗位，约为经济学家预期的一半；4 月和 5 月数据也合计下调 7.4 万个。失业率虽然降至 4.2%，但主要是因为部分劳动者退出劳动力市场。</p>",
-      "published": "2026-07-04T09:16:24+08:00",
-      "fetched_at": "2026-07-04T11:23:53.912820+08:00",
-      "pre_filter_reason": "Discusses AI's impact on employment, an AI policy/ethics topic.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 6,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "AI 迫使 1500 万人转行？高盛经济学家眼中的就业未来",
-          "angle": "解读报告核心观点，分析 AI 导致的岗位转移与 90 年代末科技变革的异同，探讨劳动者如何应对，适合职场人士。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "opinion",
-          "title": "AI 不意味着失业：1500 万美国劳动者如何找到新机会？",
-          "angle": "从历史数据出发，论证技术变革后劳动力市场的自我调节能力，并给出个人技能升级建议，适合焦虑的职场人。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "b219461d5638",
-      "source_id": "ifanr",
-      "source_name": "爱范儿",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "早报｜大疆影石专利战火烧回国内/阿里内部全面禁用Claude Code/茉莉奶白被判赔LV 1030万后，月薪4万招法务",
-      "link": "https://www.ifanr.com/1670957?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "· 曝腾讯 QClaw 负责人张舒昱离职，否认内部存在「赛马」机制\n· 每周最高 200 美元，特斯拉开始控制员工 AI 算力成本\n· 阿里整合三大 AI 智能体产品，92 年钉钉 CEO 陈宇森统领<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
-      "published": "2026-07-04T09:00:51+08:00",
-      "fetched_at": "2026-07-04T11:23:52.773294+08:00",
-      "pre_filter_reason": "AI news (Claude Code ban, AI agent integration, AI compute cost control)",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "一周科技速览：大疆影石专利战、阿里禁用 Claude Code、茉莉奶白天价赔偿",
-          "angle": "快速盘点本周三大科技/商业新闻，突出专利竞争、内部合规和品牌法律风险，适合碎片时间阅读。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "从茉莉奶白赔款 1030 万看品牌法务：月薪 4 万招人值吗？",
-          "angle": "分析商标侵权案例背后的法律成本，探讨企业如何通过高薪法务团队规避风险，适合创业者和管理者。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "776db7c9e820",
-      "source_id": "reddit-ml",
-      "source_name": "Reddit r/MachineLearning",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "Contrastive Decoding Diffing (CDD): recovering verbatim finetuning data from logits alone, no weight access needed[R]",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1umn2dk/contrastive_decoding_diffing_cdd_recovering/",
-      "summary": "<!-- SC_OFF --><div class=\"md\"><p>We built a model diffing method that recovers verbatim content from narrowly finetuned LLMs using only grey-box logit access (no weights, no activations, no probe corpus).</p> <p>Recent work (Minder, Dumas et al., &quot;Narrow Finetuning Leaves Clearly Readable Traces in Activation Differences&quot;) showed that finetuning leaves detectable traces in activation differences between base and finetuned models. Their method, Activation Difference Lens (ADL), steers generation using these differences, but it's whitebox (needs full weight access) and only recovers a vague, domain-level description of what the finetuning was about.</p> <p>We introduce Contrastive Decoding Diffing (CDD), the output-level analog. Instead of steering with activation differences, we contrast the base and finetuned model's logits directly. A single default configuration, no per-organism calibration, no layer selection, achieves a verbatim recovery score of 4+/5 on 19/20 organism x model pairs across four model families (1B to 32B params) on the SDF benchmark. ADL never exceeds 3/5 on the same benchmark, despite requiring full weight access.</p> <p>One unplanned finding: across four semantically unrelated finetuning domains (fake FDA drug approval, fake baking protocols, fake Roman concrete research), the same fictional persona kept showing up in the recovered text: &quot;Dr. Elena Rodriguez.&quot; Turns out this is a name Claude Sonnet 3.6 disproportionately favors when asked to generate a fictional scientist for synthetic data generation, so it got baked into every finetune that used LLM-generated training data, and CDD pulled it back out. We wrote up this specific finding on its own a few weeks back if you want the more accessible version first: <a href=\"https://www.reddit.com/r/MachineLearning/s/2nCYh9debS\">ghost couple</a></p> <p>Paper: <a href=\"https://arxiv.org/abs/2605.25902\">paper</a></p> <p>Code: <a href=\"https://github.com/SamsungLabs/contrastive_decoding_diffing\">code</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CebulkaZapiekana\"> /u/CebulkaZapiekana </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1umn2dk/contrastive_decoding_diffing_cdd_recovering/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1umn2dk/contrastive_decoding_diffing_cdd_recovering/\">[comments]</a></span>",
-      "published": "2026-07-04T03:01:48+08:00",
-      "fetched_at": "2026-07-04T11:23:57.951585+08:00",
-      "pre_filter_reason": "AI research/papers (contrastive decoding method for LLMs)",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "无需权重，仅靠 logits 恢复微调数据：CDD 方法揭秘",
-          "angle": "用图解方式解释对比解码差异（CDD）的核心原理，展示如何通过灰盒访问提取模型训练数据，适合 AI 研究员入门。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "analysis",
-          "title": "模型微调数据泄露风险：CDD 方法对 AI 安全的启示",
-          "angle": "探讨该技术对模型隐私和合规的冲击，分析企业如何防范微调数据被逆向提取，适合安全从业者。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "bfe3091fe4c7",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Fable 5回归24小时差评如潮！跑分大降，拒答问题，还偷偷骂用户",
-      "link": "https://www.qbitai.com/2026/07/442567.html",
-      "summary": "单词数r也是风险问题？！",
-      "published": "2026-07-03T20:17:37+08:00",
-      "fetched_at": "2026-07-04T11:23:50.658918+08:00",
-      "pre_filter_reason": "Fable 5 likely an AI model, performance issues and user complaints.",
-      "scores": {
-        "importance": 5,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Fable 5翻车事件全解析：跑分下降、拒绝回答、暗骂用户，到底发生了什么？",
-          "angle": "从技术角度拆解Fable 5的三大争议点（跑分、拒答、辱骂），分析可能的原因（如模型压缩、安全对齐过度等），并给出玩家/开发者应对建议。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "opinion",
-          "title": "Fable 5差评如潮：AI游戏NPC的信任危机来了？",
-          "angle": "探讨AI驱动的NPC在游戏中失控对玩家体验和品牌声誉的负面影响，以及游戏公司应如何平衡AI的创造性与可控性。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "696449693454",
-      "source_id": "github-ai-repos",
-      "source_name": "GitHub AI 新项目",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "tsouth89/toolport",
-      "link": "https://github.com/tsouth89/toolport",
-      "summary": "Local-first MCP gateway. One port for every tool and every AI client: lazy discovery (~90% token savings), tool integrity + quarantine, secrets in the OS keychain.",
-      "published": "2026-07-04T11:23:59.891236+08:00",
-      "fetched_at": "2026-07-04T11:23:59.891237+08:00",
-      "pre_filter_reason": "MCP gateway for AI clients",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.2,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Toolport入门：本地优先的MCP网关，如何实现90%的Token节省？",
-          "angle": "手把手介绍Toolport的核心功能（懒发现、工具隔离、密钥管理），演示如何搭建并连接AI客户端，重点突出Token节省的实际效果。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "用Toolport保护你的AI工具链：密钥安全与工具隔离实战",
-          "angle": "聚焦Toolport的安全特性（OS密钥链集成、工具隔离机制），指导开发者如何配置以防范工具滥用和数据泄露。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "0a284ffb5de3",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "从LLM到JEPA，中国团队正在把“世界模型”搬进细胞内部",
-      "link": "https://www.qbitai.com/2026/07/442746.html",
-      "summary": "四年前LeCun提出JEPA时，大概不会想到，这套架构有一天会被用来理解：一颗细胞。",
-      "published": "2026-07-03T22:28:38+08:00",
-      "fetched_at": "2026-07-04T11:23:50.658887+08:00",
-      "pre_filter_reason": "LLM, JEPA, world model applied to cells, AI research.",
+      "title": "harvard-edge /cs249r_book",
+      "link": "https://github.com/harvard-edge/cs249r_book",
+      "summary": "Machine Learning Systems",
+      "published": "2026-07-05T11:40:44.439650+08:00",
+      "fetched_at": "2026-07-05T11:40:44.439653+08:00",
+      "pre_filter_reason": "Machine Learning Systems is AI-related research",
       "scores": {
         "importance": 7,
         "timeliness": 7,
         "actionability": 8,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.2,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "从LLM到JEPA：中国团队如何用世界模型理解细胞内部？",
-          "angle": "用通俗语言解释JEPA架构与LLM的区别，以及为何JEPA更适合模拟细胞动态，结合案例说明其应用前景。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "opinion",
-          "title": "JEPA进入细胞：世界模型的下一个前沿是生物学？",
-          "angle": "探讨AI架构从语言模型向物理/生物世界模型迁移的趋势，分析中国团队在跨学科AI应用上的突破与挑战。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "4a4c611eac84",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "8点1氪丨“具身智能第一股” 宇树科技上市申请通过；SK海力士单日市值蒸发10000亿元；配置失误引发0元抢购潮，霸王茶姬致歉",
-      "link": "https://36kr.com/p/3879158039834629?f=rss",
-      "summary": "<h2>今日热点导览</h2>\n  <p>苹果拟于今明两年推出至少五款新iPhone</p>\n  <p>AI版支付宝开放公测，上线72项办事技能</p>\n  <p>特朗普回应“利用职位牟利”：股市在涨，大家都在赚钱</p>\n  <p>LV起诉茉莉奶白，茉莉奶白被判赔1030万元</p>\n  <p>6月赴日航班取消1488个</p>\n  <p>安克创新港股上市首日破发</p>\n  <h2>TOP3大新闻</h2>\n  <p><strong>证监会同意宇树科技科创板IPO注册</strong></p>\n  <p>7月2日，证监会网站显示，同意宇树科技首次公开发行股票注册。这意味着，全球首家在IPO前实现人形机器人规模化盈利的企业正式拿到A股“入场券”，将成为A股“人形机器人第一股”。&nbsp;</p>\n  <p>宇树科技从今年3月20日科创板IPO申请获受理，再到7月2日注册生效，仅用时104天。其创下科创板预先审阅机制落地以来的最快审核纪录，也成为科创板预先审阅机制落地以来继长鑫科技之后的又一标杆案例。（科创板日报）&nbsp;</p>\n  <p><strong>亚太股指重挫，SK海力士单日市值蒸发10000亿元</strong></p>\n  <p>7月2日，全球科技股罕见降温。截至收盘，亚太多数股指重挫。A股上证指数跌2.03%，深证成指跌3.85%，创业板指跌5.71%，科创50指数跌7.7%。算力硬件股大幅调整，剑桥科技、华工科技等跌停；半导体芯片股集体下挫，兆易创新、长电科技等跌停。北方华创、金海通及晶方科技等多股跌停。日经225指数收盘下跌1741.81点，跌幅2.47%，报68958点。韩国KOSPI指数下跌7.89%，为6月8日以来最低收盘水平。三星电子收跌9%，SK海力士收跌超14%。SK海力士单日蒸发1600亿美元市值（约合人民币10000亿元），总市值降至约1万亿美元。（中国经济网）</p>\n  <p><strong>配置失误引发0元抢购潮，霸王茶姬紧急致歉</strong></p>\n  <p>7月2日凌晨，霸王茶姬线上点餐小程序突发系统异常，原定上线的新品特惠饮品标价全部变为0元，大量消费者闻讯涌入下单，瞬时高流量直接挤垮小程序后台。当日上午，霸王茶姬湖北子公司发布官方致歉声明，公司7月2日推出的“远山鲜沏”系列9.9元特惠活动，因运营后台配置失误，产品意外以0元上架，才引发大规模免费下单抢购事件。声明公布后续解决方案，7月2日零点至系统修复前，所有标价0元生成的订单全部统一取消。为弥补故障给消费者带来的不佳体验，每位受影响用户的账户将直接到账三张 “远山鲜沏” 系列0.01元无门槛兑换券。霸王茶姬湖北子公司还表示，事件发生后，公司已全面复盘内部流程与系统审核机制，坚决杜绝此类失误再次��生。（界面新闻）</p>\n  <h2>AI最前沿</h2>\n  <p><strong>AI版支付宝开放公测，上线72项办事技能</strong></p>\n  <p>36氪获悉，7月2日，AI版支付宝“阿宝”完成新一轮产品迭代并正式开放公测。iOS 和安卓系统用户在应用商店或支付宝App内搜索“阿宝”或“蚂蚁阿宝”进行更新体验。本次升级围绕生活服务垂域模型能力、服务生态和用户陪伴体系三方面展开，优化用户通过自然对话办理各类生活服务的使用体验。同时，从数千项生活办事服务中精选出72项智能办事技能，作为公测阶段的首批上手清单。&nbsp;</p>\n  <p><strong>Anthropic或正与三星洽谈定制人工智能芯片</strong></p>\n  <p>7月2日，据报道，有三位知情人士表示，Anthropic已启动自研AI芯片的早期工作，并与三星电子就潜在制造合作进行了洽谈。（界面新闻）&nbsp;</p>\n  <p><strong>Meta首席执行官扎克伯格称AI智能体开发未达预期</strong></p>\n  <p>据报道，Meta首席执行官马克·扎克伯格表示，过去四个月AI的智能体开发“并未以我们预期的方式加速”。扎克伯格补充称，包含大规模裁员在内的重组工作本可以更“干净利落”，公司对新架构的押注“目前还没有取得成效”。（新浪财经）&nbsp;</p>\n  <p><strong>英伟达推出AI基础设施新合作模式</strong></p>\n  <p>英伟达当地时间7月1日宣布推出全新的AI基础设施合作模式，将通过收入分成（Revenue-sharing）和信用支持（Credit-support）机制，与AI云服务商共同建设大规模、多租户AI工厂，帮助初创企业、模型开发者、企业及科研机构更快获得AI算力，同时为英伟达创造与算力使用量挂钩的持续性收入。根据方案，AI云厂商将部署基于英伟达DSX AI Factory架构的AI工厂，对外提供云计算服务。首批合作伙伴包括Sharon AI和Firmus。其中，Sharon AI计划部署最多4万块NVIDIA Grace Blackwell GB300 GPU；Firmus将在印度尼西亚巴淡岛建设DSX AI工厂园区，规划扩展至360兆瓦电力规模，并部署最多17万块英伟达GPU。（财联社）&nbsp;</p>\n  <p><strong>阿里整合QoderWork、悟空、MuleRun，将推出新的生产力AI产品</strong></p>\n  <p>36氪获悉，阿里巴巴正在对旗下Agent产品线进行整合：以QoderWork为基础，整合悟空、MuleRun的能力，整合升级成一款更强大的面向企业生产力场景的AI产品。新产品由陈宇森负责。阿里巴巴方面回应称，QoderWork、悟空、MuleRun现有产品服务未来将无缝升级，所有用户权益不会受影响。&nbsp;</p>\n  <p><strong>Meta将推出自有预测市场应用Arena</strong></p>\n  <p>Meta曾就收购预测市场公司Kalshi进行过谈判，但最终决定自行开发名为Arena的预测市场应用，采用虚拟货币而非真实资金下注。据透露，Meta首席执行官马克·扎克伯格去年在Kalshi人气飙升时会见了该公司CEO塔雷克·曼苏尔，讨论可能的收购事宜，但谈判未能推进。关于谈判破裂的原因存在不同说法，有消息称曼苏尔不愿出售，也有说法称Meta认为Kalshi面临的法律和伦理问题过于复杂。（新浪财经）&nbsp;</p>\n  <h2>大公司/大事件</h2>\n  <p><strong>理想“动刀”产品部：拆分整车和智驾产品，并入研发</strong></p>\n  <p>36氪从多位知情人士处获悉，理想即将围绕产品决策流程进行新一轮组织架构调整，计划将产品部的部分关键职能拆分，并入研发部门。从群组关系来看，理想汽车产品部由范皓宇负责，包含电动本体、空间智能、自动驾驶终端产品、交互设计、平台运营、App与官网等。了解调整动向的人士向36氪透露，目前调整主要针对电动本体和自动驾驶等核心产品定义团队，其中已经明确的是，产品部的电动本体定义团队，拆分并入刘立国带领的整车研发部门；自动驾驶终端产品团队将并进詹锟带领的基座模型研发团队。“可能也有一部分体验相关的产品人员进入刘杰的产品线。”一位知情人士说道。</p>\n  <p><strong>美光CEO再次暗讽苹果：低价采购是造成内存短缺的关键</strong></p>\n  <p>美光科技首席执行官最新表示，过去几年里，一些客户要求内存制造商降低价格，从而带来了一些负面影响。2023年美光的价格降到了原来的1/3，导致无力投资新的产能。美光的这番暗讽被普遍认为是针对其大客户苹果发出的，尽管他并未直接提及苹果的名字。美光与苹果之间的对峙，代表着内存公司与消费电子制造商的市场平衡因人工智能发展而改变。（新浪财经）</p>\n  <p><strong>马斯克两度否认SpaceX要造手机</strong></p>\n  <p>当地时间7月1日，有报道称SpaceX向一些投资者展示了一款类似于iPhone但“更纤薄”的原型机，该原型机将运行SpaceX的专有操作系统。知情人士表示，该设备还将采用SpaceX于2月份收购的xAI公司的AI技术，并使用高通公司的芯片。报道还显示，上述设备在公开展示前已向相关方进行过演示，但其设计在早期阶段，可能会有所修改。对此，马斯克予以否认，在社交平台发文称“完全不属实”。受上述消息带动，高通股价盘中一度跳涨超3%，股价短时站上190.99美元，但在马斯克回应后又下跌了1.55%，创下5月6日以来阶段新低。</p>\n  <p>SpaceX要造手机的消息并非首次传出。今年2月，曾有消息称SpaceX正考虑开发一款能够直接连接“星链”的移动设备。马斯克当时同样回应称，消息不实，SpaceX并未在开发手机。（界面新闻）</p>\n  <p><strong>苹果拟于今明两年推出至少五款新iPhone</strong></p>\n  <p>7月1日消息，据报道，苹果公司正计划在今年下半年至2027年上半年期间，发起一项雄心勃勃的iPhone新品发布计划，预计将推出至少五款新机型。尽管目前整个科技行业正面临供应链零部件短缺的困境，但苹果仍决定加大折叠屏手机的出货量，超出市场此前预期。报道称，苹果还计划于2027年上半年推出首款M7芯片，并发布第二代iPhone Air、入门版iPhone 18等产品。不过，由于内存和芯片供应紧张，部分产品发布时间仍可能调整。（界面新闻）</p>\n  <p><strong>张雪峰11岁女儿接手张雪峰公司股份</strong></p>\n  <p>7月2日消息，苏州研途教育科技有限公司近日发生工商变更，张雪峰（张子彪）退出，退出前任公司监事并持股约10.86%，退出后其所持股份由女儿张姩菡接手。公开信息显示，张姩菡，2015年6月出生，目前尚未成年。（界面新闻）</p>\n  <p><strong>腾讯QClaw负责人发长文宣布离职</strong></p>\n  <p>7月2日，腾讯AI助手QClaw产品负责人张舒昱在社交平台发文称，已于6月29日正式结束在腾讯的工作。她于2025年9月加入腾讯，在职约10个月，目前尚未透露下一站。关于张舒昱离职一事，记者向腾讯方面求证，截至发稿未获具体回应。（潇湘晨报）&nbsp;</p>\n  <p><strong>特朗普回应“利用职位牟利”：股市在涨，大家都在赚钱</strong></p>\n  <p>当地时间7月1日，特朗普回应了批评人士关于他“利用总统职位牟利”的指责，他说：“因为股市在上涨，大家都在赚钱。你有401（k）退休账户吗？大约上涨了85%左右。（你得说）谢谢您，特朗普总统。所以我们所有人都在赚钱。”他当天还对记者表示，“我不插手我的私事——我的钱由专人管理。嗯，在我当总统之前我就赚了很多钱，他们帮我投资，但我从不跟他们说话。我从来不——我甚至都不跟他们联系。”据了解，401（k）是美国最常见的企业养老金账户，账户资金通常投资于股票、基金等资产，因此股市上涨时，账户资产也可能随之增值。（中国新闻社、财联社）</p>\n  <p><strong>马斯克晒Optimus产线合照</strong></p>\n  <p>当地时间7月1日，马斯克发布了一张大合照，并配文称，在弗里蒙特工厂参观Optimus机器人生产线。这一言论可能代表着特斯拉的人形机器人Optimus正进入关键的量产阶段。特斯拉弗里蒙特工厂一直是该公司在美国的先锋制造中心，曾经用于生产特斯拉旗舰车型Model S轿车和Model X SUV，如今已成为该公司人形机器人生产线的所在地。（财联社AI daily）</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260703/v2_2318e6832c5a474dac4c52c059d693c7@5667365_oswg194047oswg1080oswg1389_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">配图</p>\n  <p><strong>安克创新港股上市首日破发</strong></p>\n  <p>7月2日，“充电宝一哥”安克创新（00668.HK）正式登陆港交所主板，完成A+H两地上市布局，但开盘瞬间即跌破99.32港元的发行价。截至午间休市，安克创新报94.05港元，跌5.31%，市值为548.23亿港元。午后，存储芯片概念持续下挫，兆易创新封跌停，成交超304亿元。记者拨打兆易创新投资者热线，对方工作人员回复：“公司目前生产经营一切正常，正值半年报披露窗口期，其他情况不便透露。”安克创新港股发行价对应A股收盘价折价约26%。其全球发售总量4663.28万股H股，配售结构采用9:1配比，90%股份投向国际机构认购，仅10%面向香港散户公开发售，同步设置15%超额配股权用于绿鞋稳定股价。（界面新闻、第一财经、财联社）&nbsp;</p>\n  <p><strong>6月赴日航班取消1488个</strong></p>\n  <p>航班管家DAST最新统计显示，6月共有25条中日航线取消全部航班。整个6月中国大陆赴日本共有1488个航班取消，取消率为37.5%。今年上半年TOP20通航国家中，韩泰日航班量位列前三，其中赴韩航班量超2019年水平，赴泰国、日本恢复率仅64.7%、53.5%。（界面新闻）</p>\n  <p><strong>“电子布大厂”富乔工业宣布涨价30%</strong></p>\n  <p>有市场消息称，由于制造成本上涨及市场供不应求，“电子布大厂”富乔工业近日向客户发出涨价通知，宣布旗下电子布产品价格上调15%至30%，新价格自2026年7月1日起执行。7月2日上午，记者致电富乔工业的核心经营主体富乔（东莞）玻纤有限公司进行了求证。该公司回应称，本轮调价已正式落地。其中，面向传统PCB、消费电子领域的普通E-glass电子布统一涨价30%；面向AI服务器、高速高频板等应用的低介电常数（Low DK2）电子布涨价15%。（上海证券报）</p>\n  <p><strong>LV起诉茉莉奶白，茉莉奶白被判赔1030万元</strong></p>\n  <p>7月2日消息，苏州市中院就路易威登马利蒂（Louis Vuitton Malletier，简称“LV”）诉茉莉奶白商标侵权案作出一审判决。法院认定，深圳市茉莉奶白餐饮管理有限公司及吴中经济开发区东侠饮品店侵害LV 7件四叶花卉图形注册商标专用权。茉莉奶白主体公司应在判决生效之日起10日内赔偿LV经济损失1000万元、维权合理开支30万元，合计1030万元。7月2日，记者致电茉莉奶白创始人张伯丞，其在电话中回复称，将上诉。记者在国家知识产权局商标检索发现，茉莉奶白申请的相关四叶花卉图形商标处于“驳回复审”或“无效”状态。（新黄河）</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260703/v2_132d202e40264398a5420ee46cab8aca@5667365_oswg161665oswg1080oswg1400_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">配图</p>\n  <p><strong>北京君正：DRAM三季度价格会继续上调，四季度存在继续调价的可能性</strong></p>\n  <p>36氪获悉，北京君正近日接受机构调研时表示，DRAM涨价比较多，一季度国内客户开始调价二季度国内客户仍在继续涨价，同时海外客户也陆续开始调整价格，预计二季度收入和毛利率会继续增长;三季度价格会继续上调，四季度的价格政策要到三季度才能确定，不过目前看四季度供应仍然较为紧张，存在继续调价的可能性。随着客户用部分SRAM产品来代替DRAM方案，部分SRAM芯片二季度价格也有所上涨。NORFlash一、二季度都有涨价，涨价幅度总体来说比DRAM要小，NORFlash虽然产能也在趋紧，但比DRAM要好很多，一季度公司Flash产品线实现了很好的收入增长，其中销量的增长占比较大。三季度的价格是根据具体产品和具体客户情况确定的，不一定都会调价。由于公司存储芯片持续在涨价，预计各季度毛利率会环比有所增长。&nbsp;</p>\n  <p><strong>腾讯市值重回4万亿港元</strong></p>\n  <p>7月2日，腾讯控股股价涨超2%，市值重回4万亿港元。这是腾讯股价连续第三个交易日上涨。今年3月腾讯市值曾跌破5万亿港元，6月又跌破4万亿港元。（第一财经）</p>\n  <p><strong>SK海力士将于2029年在清州建成NAND闪存工厂</strong></p>\n  <p>SK海力士将在忠清南道清州新建一座大型NAND闪存晶圆厂，目标于2029年投入运营。包括该项目在内，SK集团计划在忠清地区总投资170万亿韩元，涵盖先进封装和人工智能数据中心领域，旨在打造全球AI枢纽。（新浪财经）</p>\n  <p><strong>雀巢称消费者因价格压力避开中等包装产品</strong></p>\n  <p>雀巢表示，在美国消费者专注于产品可负担性、购买者纷纷转向大包装或经济型包装而避开中等规格产品的背景下，该公司正努力控制价格。（新浪财经）</p>\n  <p><strong>知情人士辟谣一汽奥迪中方一把手换帅：不实消息</strong></p>\n  <p>据媒体报道，就一汽奥迪中方一把手被曝换帅的传言，一汽奥迪方面知情人士表示，不实消息，目前郭永锋仍为一汽奥迪销售有限责任公司执行副总经理。自2025年9月1日起，郭永锋开始担任一汽奥迪销售有限责任公司执行副总经理，全面负责一汽奥迪在华所有国产及进口车的销售、售后服务、网络及品牌营销工作。（财联社）</p>\n  <p><strong>全球人工智能数据中心面临极端高温威胁</strong></p>\n  <p>一家气候风险分析机构近日公布的研究数据称，目前全球数据中心高达79%的算力容量面临着各种突发气候灾害的威胁，包括洪水、极端大风及山火等，这些灾害可能导致运营中断、停机时间增加，并推高保险和维修成本。目前，各大科技企业也正意识到气候因素给人工智能数据中心运行带来的挑战，并探索解决方案。微软公司表示，正在通过选址、完善冗余系统和实时监控等手段，来管理极端高温和恶劣天气带来的风险。英伟达公司上周表示，其新型的人工智能服务器可以在最高45摄氏度的冷却液环境下运行。英伟达称，冷却液温度提高1摄氏度，就可以使冷却系统能耗降低约4%。（科创板日报）</p>\n  <p><strong>美股三大指数收盘涨跌不一，特斯拉跌超7%</strong></p>\n  <p><strong>36氪获悉，7月2日收盘，美股三大指数涨跌不一，道指涨1.14%，纳指跌0.8%，标普500指数平收。大型科技股涨跌不一，特斯拉跌超7%，Arm跌超6%，Meta跌超4%，英伟达跌超1%，谷歌小幅下跌；奈飞、苹果涨超4%，SpaceX涨超2%，微软涨超1%，亚马逊小幅上涨。热门中概股多数下跌，爱奇艺跌超4%，小鹏集团、蔚来、百度跌超3%，阿里巴巴、网易、B站、微博、理想汽车跌超1%；京东涨超1%。</strong></p>\n  <h2>上市进行时</h2>\n  <p><strong>胜达克半导体启动上市辅导</strong></p>\n  <p>36氪获悉，证监会官网显示，胜达克半导体科技（上海）股份有限公司已启动上市辅导，招商证券担任辅导机构。&nbsp;</p>\n  <p><strong>深圳宏芯宇电子股份有限公司向港交所提交上市申请书</strong></p>\n  <p>36氪获悉，据港交所文件，深圳宏芯宇电子股份有限公司向港交所提交上市申请书。&nbsp;</p>\n  <h2>投融资</h2>\n  <p><strong>快手：旗下视频生成大模型可灵AI落地近30亿美元融资</strong></p>\n  <p>快手在港交所公告，快手旗下领先的视频生成大模型可灵AI落地近30亿美元融资，投后估值有望达到180亿美元。此次融资，可灵AI创下全球视频大模型公司最大额融资纪录，标志着其独立商业化发展进程正式开启。本轮融资由CPE源峰、国方创投、BlueFive、腾讯、中关村科学城基金（联合国科投资）、中信证券联合领投，以及数十家一线机构共同参与。据悉，该轮融资汇聚阿里云、百度等顶级产业资本，华策影视和芒果产业投资人（厚为资本）等头部文娱产业方积极参与。（财联社）&nbsp;</p>\n  <p><strong>“乐享科技”完成近5亿元Pre-A轮融资</strong></p>\n  <p>36氪获悉，“乐享科技”今日正式官宣完成近5亿元Pre-A轮融资。至此，乐享科技成立仅一年半，累计融资总额已达10亿元人民币。本轮融资由蚂蚁集团领投，产业方吉利资本、三七互娱，元禾璞华跟投，老股东 Monolith持续超额跟投，投资者汇集了顶级战投方、产业投资人与市场化基金。本轮融资资金将重点用于六项核心技术自研、人才引入、全球化市场渠道拓展等。</p>\n  <p><strong>德国无人机制造商Quantum Systems获得12亿美元融资</strong></p>\n  <p>德国国防科技公司Quantum Systems周四表示，已筹集12亿美元新资金，这使这家无人机制造商的估值达到约80亿美元，这也是迄今为止欧洲国防科技公司获得的最大规模私募融资之一。这一估值较一年前高出约八倍。这家总部位于慕尼黑的公司表示，本轮融资得到了国际投资者的支持。（新浪财经）</p>\n  <p><strong>“高云半导体”完成数亿元Pre-IPO轮融资</strong></p>\n  <p>36氪获悉，“高云半导体”宣布完成Pre-IPO轮融资交割落地。本次融资总规模达数亿元。本次Pre-IPO轮融资由广开基金、广州工控资本、越秀产业基金、广州金控基金、知识城创投、国创集团（大湾区国创中心资产管理平台）、番禺产投等本地国资共同参与。同时，本次成功引入多家产业资本，包括恒旭资本、仁发投资、梁溪科创产业二期母基金（博华产投管理），以及专业科技投资机构朗姿韩亚、景祥资本、中广创投等。</p>\n  <p><strong>“灵珠”完成天使轮融资</strong></p>\n  <p>36氪获悉，AI创作平台“灵珠”近日完成了天使轮融资，由TikTok天使投资人韦海军领投。</p>\n  <h2>AI图谱</h2>\n  <p><strong>AI图谱，带你解读最新最快的AI资讯。</strong>海尔的Agent OS，已经开始进入研发、采购、生产、客服等核心业务场景。&nbsp;</p>\n  <p>&nbsp;</p>\n  <p><strong>“零食消费”小调查</strong></p>\n  <p>明明没吃多少，零食账单却越来越长。这届年轻人，怎么越来越嘴馋了？&nbsp;</p>\n  <p>零食在年轻人生活中的地位似乎日渐重要。加班到九点，要靠一包“高蛋白肉干”撑到回家；下午路过便利店，顺手就拿一盒冷藏甜品、几颗现制卤味犒劳自己；周末，逛量贩零食店大采购成了日常解压方式——零食，悄悄占据了打工人的生活，成了忙碌日常中的“隐藏刚需”。&nbsp;</p>\n  <p>你买零食时，会因为“高蛋白、0糖、低卡”这些标签多拿一包吗？你多久会试一次没吃过的网红新品？你曾用零食代替过一顿正餐吗？在你心里，零食算一时嘴馋，还是一日续命？欢迎填写「零食消费小调查」，聊聊你心里最想推荐给大家的那款零食~&nbsp;</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260703/v2_20ba7d60512a4b4d8249b0ae493e42ff@5667365_oswg20714oswg512oswg512_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">“零食消费”小调查</p>\n  <p><strong>整理</strong>｜王倚轩&nbsp;</p>",
-      "published": "2026-07-03T08:06:38+08:00",
-      "fetched_at": "2026-07-04T11:23:45.870346+08:00",
-      "pre_filter_reason": "Mentions '具身智能' (embodied intelligence) and AI version of Alipay.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
         "scarcity": 7,
-        "virality": 8,
+        "virality": 6,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.2,
+      "quality_score": 7.0,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "宇树科技IPO过会：具身智能第一股的投资逻辑与风险",
-          "angle": "解读宇树科技上市的意义，分析具身智能赛道现状，为投资者提供关键指标（技术壁垒、商业化进展、竞争格局）的评估方法。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "opinion",
-          "title": "霸王茶姬0元抢购乌龙：配置失误背后的电商系统安全警示",
-          "angle": "从技术和管理角度分析配置失误如何导致重大损失，总结电商平台在促销活动中的系统风控要点。",
-          "difficulty": "入门"
+          "title": "从零搭建ML系统：哈佛《机器学习系统》开源教材精讲",
+          "angle": "介绍这本书的独特价值（系统视角而非算法视角），选取书中一个核心章节（如分布式训练、模型部署）进行拆解，配合代码示例讲解，适合想深入ML工程的同学。",
+          "difficulty": "进阶"
         }
       ]
     },
@@ -530,66 +265,202 @@
       "title": "JuliusBrussee /caveman",
       "link": "https://github.com/JuliusBrussee/caveman",
       "summary": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
-      "published": "2026-07-04T11:23:59.497598+08:00",
-      "fetched_at": "2026-07-04T11:23:59.497602+08:00",
-      "pre_filter_reason": "Claude Code skill, token optimization for AI",
+      "published": "2026-07-05T11:40:44.438040+08:00",
+      "fetched_at": "2026-07-05T11:40:44.438046+08:00",
+      "pre_filter_reason": "Claude Code skill for token reduction",
       "scores": {
         "importance": 4,
         "timeliness": 8,
         "actionability": 7,
         "scarcity": 8,
-        "virality": 9,
+        "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.1,
+      "quality_score": 7.0,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "Caveman技能实测：让Claude Code用“原始人说话”省65%Token",
-          "angle": "演示Caveman技能的原理与安装方法，对比正常与原始人模式下的Token消耗，展示实际代码生成效果。",
+          "title": "野人模式编程：用Claude Code砍掉65% Token的秘诀",
+          "angle": "演示如何通过类似'野人说话'的极简提示词风格（少用虚词、直接指令）与Claude Code交互，对比传统提示词与'caveman'风格的Token消耗与输出质量，展示实际节省效果。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "Token省钱大法：让AI用'野人语'帮你写代码",
+          "angle": "从零开始教用户如何模仿caveman风格编写提示词（如'写Python函数 排序列表 返回新列表'），并测试在不同模型（GPT-4、Claude）上的效果，主打实用技巧。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "a1ed5d81915a",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "华为：截至目前，搭载乾崑智驾的车辆已超过 190 万辆",
+      "link": "https://www.ithome.com/0/972/722.htm",
+      "summary": "<p>IT之家 7 月 5 日消息，工信部在 7 月 2 日正式发布《智能网联汽车组合驾驶辅助系统安全要求》（GB 47955—2026）强制性国家标准，拟于 2027 年 1 月 1 日起正式实施。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/ce9b14b8-629b-4975-bbe0-7db7c503deb6.jpg\" /></p><p>IT之家注意到，华为乾崑智能汽车解决方案官方微博发布长文，谈及了《智能网联汽车组合驾驶辅助系统安全要求》。</p><p>据介绍，工信部相关数据显示，2026 年以来，我国搭载组合驾驶辅助功能的乘用车新车市场渗透率达到 70%，配备领航驾驶辅助功能的车型渗透率超过 30%。截至目前，<strong>搭载华为乾崑智驾的车辆已超过 190 万辆</strong>，累计辅助驾驶行驶里程超过 120 亿公里。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/b6f41614-a0c1-4c91-994d-50c1ed51019e.jpg?x-bce-process=image/format,f_auto\" /></p><p>根据推算，中国市场车辆平均每 180 万公里会发生一次严重事故（定义为安全气囊弹出、安全带炸药点爆的不可恢复事故），<strong>目前搭载华为乾崑智驾的车辆在辅助驾驶工作时的安全水平可达到中国平均值（推算）的 4.92 倍</strong>。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/930d4b10-1b08-486f-a7ef-adbed45b9696.png?x-bce-process=image/format,f_auto\" /></p>",
+      "published": "2026-07-05T11:24:08+08:00",
+      "fetched_at": "2026-07-05T11:40:38.649772+08:00",
+      "pre_filter_reason": "Huawei's intelligent driving system involves AI technology.",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.0,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "华为乾崑智驾突破190万辆：新国标出台，智驾安全再升级",
+          "angle": "解读华为乾崑智驾的里程碑数据（190万辆），结合工信部新国标《智能网联汽车组合驾驶辅助系统安全要求》的发布，分析对行业的影响以及华为的技术优势。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "d93d3a2499a9",
+      "source_id": "reddit-ml",
+      "source_name": "Reddit r/MachineLearning",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "BaryGraph - knowledge graph where every relationship is its own embedded document (not an edge) [R]",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1un3lsf/barygraph_knowledge_graph_where_every/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Instead of <code>node --edge--&gt; node</code>, every relationship is a first-class document with its own vector, called a BaryEdge. Stack pairs of BaryEdges recursively and you get &quot;MetaBary&quot; triads that surface structural bridges between concepts that live nowhere near each other in embedding space. Running locally on MongoDB Community + mongot + nomic-embed-text over the full English Wiktionary (6.6M docs). MCP server is live if you want to poke at it. Preprint + benchmark CSVs: <a href=\"https://zenodo.org/records/20186500\">https://zenodo.org/records/20186500</a></p> <p><strong>The problem I was chasing</strong></p> <p>Flat vector search treats a relationship as a byproduct of two points being close. That throws away information. Two papers can describe the same underlying phenomenon (a flyby anomaly in orbital mechanics, an anomalous residual in stellar dynamics) without ever citing each other and without their embeddings landing anywhere near each other. Nothing in standard RAG surfaces that connection.</p> <p><strong>What I did instead</strong></p> <p>Every relationship gets embedded too:</p> <p><code>bary_vector = normalize(q·v(CM1) + q·v(CM2) + (1−q)·v(type))</code></p> <p><code>q</code> is connection quality, <code>v(type)</code> is a contextual embedding of what kind of relationship it is. This BaryEdge is now a retrievable document in its own right — not metadata on an edge.</p> <p>Then it recurses: two BaryEdges at the same level get bridged by a third one level below, forming a MetaBary triad. Do that repeatedly and you climb an abstraction triads hierarchy built entirely from algebra — zero additional embedding calls above the base level. It's a forest (every node has at most one parent), so traversal to root is a single <code>$graphLookup</code>, no cycle handling.</p> <p><strong>Does it actually do anything useful?</strong></p> <p>Ran it against SimLex-999 and WordSim-353 as a sanity check (not the main claim, just &quot;is the substrate coherent&quot;). Raw cosine similarity barely correlates with human similarity judgments (ρ ≈ −0.04 on SimLex). Structural metrics — how many BaryEdges two words share, how much their relational neighborhoods overlap — correlate at ρ ≈ 0.32–0.53, p &lt; 10⁻¹⁵. So the graph is encoding something cosine alone doesn't.</p> <p>The part I actually care about is cross-domain bridging. Some probe traces from the live graph:</p> <ul> <li><p><em>octopus neuroscience</em> ↔ <em>distributed sensor networks</em>, bridged by shared structural-motif vocabulary (neuroarchitecture, smartdust)</p></li> <li><p><em>collagen folding</em> ↔ <em>linguistic syntax</em>, bridged by etymological + structural motif overlap (plicature / hypotaxis-parataxis)</p></li> <li><p><em>grief</em> ↔ <em>depression</em>, not bridged and this is a correctness demonstration, not a missing capability. The DSM-5 added a much-debated &quot;bereavement exclusion&quot; precisely because grief and depression share surface symptoms but are different <em>kinds</em> of state, with different prognosis and treatment</p></li> <li><p><em>radioactive decay</em> ↔ <em>obsolete words falling out of use</em>, bridged at a high abstraction level by register-varied decay verbs (collapsed, decayed, declined, disintegrated) — naming a Poisson-process state-loss pattern that both physics and historical linguistics instantiate, with no single word doing the work</p></li> </ul> <p>That last one is the case flat retrieval structurally cannot produce — there's no embedding axis for &quot;verbs co-occurring with reduction-of-state across unrelated domains.&quot;</p> <p><strong>Stack (all local, all free)</strong></p> <p>GitHub: <a href=\"https://github.com/oleksiy-perepelytsya/bary-vector\">https://github.com/oleksiy-perepelytsya/bary-vector</a></p> <ul> <li><p>MongoDB Community Edition + mongot for storage/vector search</p></li> <li><p>nomic-embed-text, 768-dim</p></li> <li><p>Python 3.11+</p></li> <li><p>Full build: ~6.66M documents, 8–14 hrs on a single workstation (8–16GB VRAM)</p></li> </ul> <p><strong>Try it</strong></p> <p>MCP server is public on request (SSE transport) — read-only tools for searching the live graph: <code>find_word</code>, <code>semantic_search</code>, <code>edge_info</code>, <code>leaf_nodes</code>, <code>traverse_up</code>, <code>sample_metabary</code>. If you've got an MCP-capable client you can point it at the graph and run your own probe queries in a few minutes.</p> <p><strong>What I'd actually want feedback on</strong></p> <ul> <li><p>Whether the cross-domain bridges hold up to someone who isn't me poking at them — try a probe query on a domain pair you know well and tell me if the bridge is real or if I'm pattern-matching myself into seeing structure that isn't there. Some bridges can be not obvious on the first look but they are actually the most intriguing ones and worth to be dug for the reason they built, so treat them as points of investigation</p></li> <li><p>Whether this is worth comparing directly against GraphRAG/RAPTOR-style hierarchical retrieval (I haven't done that benchmark yet, and I know that's the first thing this sub will ask)</p></li> <li><p>Whether anyone's tried something structurally similar and it fell apart at scale for reasons I haven't hit yet</p></li> </ul> <p>Preprint, architecture spec, and the raw SimLex/WordSim CSVs are all here: <a href=\"https://zenodo.org/records/20186500\">https://zenodo.org/records/20186500</a></p> <p>Happy to drop the MCP endpoint on request if there's interest.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/adseipsum\"> /u/adseipsum </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1un3lsf/barygraph_knowledge_graph_where_every/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1un3lsf/barygraph_knowledge_graph_where_every/\">[comments]</a></span>",
+      "published": "2026-07-04T16:24:42+08:00",
+      "fetched_at": "2026-07-05T11:40:43.343924+08:00",
+      "pre_filter_reason": "Knowledge graph with embedded vectors, AI research.",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "颠覆传统知识图谱：BaryGraph让每个关系都成为独立文档",
+          "angle": "用通俗语言解释BaryGraph的核心创新（关系即文档，而非边），对比传统知识图谱的局限性，并通过一个简单示例（如'爱因斯坦-发明-相对论'）展示BaryEdge如何工作。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "1fd9dd0f8aaf",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "marcusquinn/aidevops",
+      "link": "https://github.com/marcusquinn/aidevops",
+      "summary": "Vibe-Coding is easy. DevOps is hard. OpenCode & Git token-efficient AI agent automation for your app, business, and personal development. Opinionated tools, services, CLI & API stack for speed, security, and 24/7 results. Open-source first. SOTA everything. Try on your repos for money-making magic.",
+      "published": "2026-07-05T11:40:44.717290+08:00",
+      "fetched_at": "2026-07-05T11:40:44.717292+08:00",
+      "pre_filter_reason": "AI agent automation for DevOps",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.9,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "从零搭建AI自动化部署：aidevops入门指南",
+          "angle": "手把手教你使用OpenCode和Git token实现24/7的AI自动化运维，适合想用AI赚钱的开发者。",
           "difficulty": "入门"
         },
         {
-          "tag": "opinion",
-          "title": "Token节省65%？Caveman背后是AI交互的极简主义革命",
-          "angle": "探讨通过压缩语言复杂度来降低AI调用成本的思路，分析这种“反直觉”方法对开发者和企业的潜在价值。",
+          "tag": "case_study",
+          "title": "Vibe-Coding容易，DevOps难？aidevops帮你搞定",
+          "angle": "对比传统DevOps流程，展示aidevops如何用AI agent简化部署、提升效率，并给出实际收益案例。",
           "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "74e7b8c87ecb",
-      "source_id": "36kr",
-      "source_name": "36氪",
+      "id": "180429a399fe",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
       "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "秋声 | 袁进辉新公司冲港股IPO，成立不到三年",
-      "link": "https://36kr.com/p/3879814941437956?f=rss",
-      "summary": "<p>本文约2700字，建议阅读6分钟</p>\n  <p>作者&nbsp;|&nbsp;彭孝秋</p>\n  <blockquote>\n   <p><strong>编者按：</strong>AI大爆发之际，越来越多公司走向资本市场。每一份招股书翻动的声音里，都藏着一家公司想说与未曾明说的全部。</p>\n   <p>鉴于此，硬氪特推出「秋声」专栏。秋声取自欧阳修《秋声赋》，借“听秋声”之意，产业冷暖，辨公司成色，记录企业冲刺IPO途中那些被写下与被隐藏的真实。这是我们第七期，硅基流动。</p>\n  </blockquote>\n  <p>Q2的最后一天，硅基流动向港交所递交了上市申请，此次IPO是以18C未商业化公司身份申报。<strong>联席保荐人为华泰与海通国际</strong>。</p>\n  <p>如果你在AI开发者圈子，硅基流动（SiliconFlow）这个名字不会陌生。它就是那个在DeepSeek爆火时，第一个把R1/V3部署到国产芯片上跑token服务的平台。它的招股书数据也确实炸裂：注册用户两年多冲破1000万、2024年12月至2026年4月的日均token吞吐量增长12倍、付费客户一年涨292倍，估值两年半更是飙到77亿。</p>\n  <p>但硬氪翻遍347页招股书后，会发现一个华丽增长曲线背后的冷峻事实：<strong>硅基流动在亏本卖token，2025年毛利率是−24%。</strong></p>\n  <p>硅基流动于2023年8月成立，至今未满三年，招股书称是中国领先的开放、独立<strong>词元（token）供应平台。</strong>本质是AI推理基础设施公司。它把英伟达、AMD，以及昇腾、沐曦、摩尔线程等异构算力聚合起来，用自研推理引擎和算力编排系统，把底层算力翻译成标准化的token供应，通过公有云服务（无服务器token服务+专属实例）和本地部署解决方案两条线交付。</p>\n  <p>按第三方口径，按2025年token年吞吐量计，它是<strong>中国最大的独立生态token供应商、所有token供应商中位列前五</strong>。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260703/v2_3e9ef59cd2444250a67b7714f51d40b7@430412560_oswg4040oswg900oswg145_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <h2><strong>一门卖1元钱token、成本1.24元的生意</strong></h2>\n  <p>硅基流动的收入曲线极其陡峭：2023年成立前4个月，收入仅6000元，2024年734.6万元，2025年<strong>5533.0万元</strong>。一年增长逾七倍，但收入之下的成本结构，才是这门生意真相。</p>\n  <p>看毛利率的三年轨迹：2023年<strong>83.3%</strong>，2024年<strong>39.4%，</strong>2025年<strong>−24.0%</strong>。2025年，硅基流动的销售成本高达6863.2万元，是当年收入5533万元的<strong>124.0%</strong>。换句话说，<strong>它每卖出一块钱的token，背后的算力等成本要花1.24元，毛利直接为负，当年毛亏1330.2万元</strong>。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260703/v2_7cef20b6deb947eea142ccedb15a3ce4@430412560_oswg178013oswg1080oswg561_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260703/v2_86d838a9bc904c3eb5bf72f5b194a948@430412560_oswg126593oswg1080oswg460_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p>这是当前AI推理token价格战的直接投影。大模型API价格一路血洗、大厂把token单价打到地板。硅基流动作为中间层，其成本压力主要来自算力租赁。2025年，算力资源成本5962.7万元，占销售成本86.9%。招股书也提到，2025年销售成本大增正是快速扩大算力资源消耗以支持不断增长的服务需求所致。</p>\n  <p>另外两条费用线中：</p>\n  <p><strong>研发开支2025年2.09亿元，是当年收入的378.1%</strong>；三年研发累计2.84亿（2023年1084万→2024年6448万→2025年2.09亿）。</p>\n  <p><strong>销售及营销开支2025年8374.3万元，是收入的151.4%</strong>。</p>\n  <p>收入5533万，光研发加销售两项就烧掉近3亿。于是2023-2025年净亏损为 1222.3 万、8191.5 万、<strong>3.45 亿元</strong>，2025 年净亏损率 −624.4%，每股亏损 33.33 元。即便按经调整口径，加回股份支付 1.35亿 + 赎回负债利息 2307.6 万，2025 年经调整净亏损仍达<strong>1.871亿元</strong>。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260703/v2_4bc28488e0de461ebb5c07111835a9a8@430412560_oswg166586oswg1080oswg569_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p>经营活动现金流连续三年更是净流出，2025 年经营性现金净流出 1.72亿元。好消息是它有七轮融资，2025 年末现金及等价物 1.71 亿、另有 1 亿定期存款。</p>\n  <p>在2025 年收入结构中，公有云服务 2926.1 万元，占比52.9%。其中无服务器词元服务 1430 万 、专属实例 1500 万；本地部署解决方案 2606.9 万元，占比47.1%。即一边走开发者和中小企业的规模化流量，另一边走大企业和机构的高客单项目。</p>\n  <p>其中<strong>无服务器付费客户</strong>，从2455 到71.6万，<strong>增约 292 倍</strong>。已服务 1.3万企业客户、平台累计支持 170+ 模型。无服务器活跃用户2025年为545.3万，2026年前4个月为145.4万。2024年至2025年，专属实例客户由7家增至49家，2026年前4个月为20家；本地部署客户由28家降至20家，2026年前4个月分别为5家，但单客户收入大幅提升。</p>\n  <p>但硅基流动并非直接购买芯片，而主要通过合作方租赁算力资源。招股书募资用途里，多个大项都写明资金将用于<strong>租赁算力资源。</strong>其五大供应商（算力及云服务商）采购集中度高，2025 年五大供应商占采购额 70.8%、最大单一供应商 20.4%。此外，<strong>有两名主要业务伙伴同时是客户又是供应商</strong>。</p>\n  <p>在风险提示里，硅基流动表示<strong>在很大程度上依赖高质量开源 AI 模型的可得性</strong>。一旦模型停止开源、或授权条件生变，它的核心供给就会受冲击。</p>\n  <p>如果只看运营数据，硅基流动增长很快。2024年末、2025年末及2026年4月底，其注册用户数分别为12.7万、919.7万、1028.2万；从2024年12月至2026年4月，其日均词元吞吐量约增长12倍；其中2024年至2025年增长241.1%，2025年12月至2026年4月进一步增长254.7%。</p>\n  <p>但这些流量，最终在2025年只兑换出5533万元收入，而且是负毛利兑换。2025年，硅基流动销售成本达6863.2万元，占收入124.0%，整体毛损率为24.0%。用户、吞吐与付费客户的爆炸增长，和微薄且负毛利的变现之间，横着一道巨大的鸿沟。</p>\n  <p>招股书亦坦承，无服务器token服务面向开发者与中小企业、多为预付低价消耗，这类流量规模大、单价低、还要贴着成本甚至低于成本供给。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260703/v2_3e5126a4ddd346529781e68f66e1ffd9@430412560_oswg4703oswg900oswg145_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <h2><strong>七轮融资，估值从2.8亿飙到77亿</strong></h2>\n  <p>硅基流动从2023年12月至2026年6月，<strong>两年半融资七轮</strong>（天使、天使+、Pre-A、A、A+、B、B+）。事实上，其融资款净额<strong>仅动用约32%</strong>。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260703/v2_f02b7f919de24fc08bdd644d1026d7a3@430412560_oswg23095oswg790oswg428_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p><strong>投后估值从天使轮的 2.8 亿元，飙到 B+ 轮的 77.40 亿元。两年半涨 27.6 倍，每股成本涨 13.4 倍。</strong></p>\n  <p><strong>仅在2026年，硅基流动就完成了三轮，从A+轮的31亿元、涨到B轮的50亿，再到B+轮。值得一提的是，B+ 轮就在递表前一个月刚完成。按 B+ 投后 77.4 亿元人民币测算约合 84 亿港元，刚好踩在 18C未商业化公司上市门槛上。</strong></p>\n  <p>股东结构中，<strong>控股股东为袁进辉，直接持 14.35%。再通过员工激励平台</strong>（硅基创新/未来/探索各 7.85% + 硅基卓越 6.59%），合计控制约<strong>44.48%</strong>投票权；<strong>阿里巴巴持股 7.42%</strong>，派驻董事陈英杰；华为持股<strong>4.07%</strong>；<strong>创新工场持股4.01%</strong>；苏州耀途（耀途资本，半导体 VC）持股3.01%；南京绿涌持股3.01%<strong>；王慧文持股2.06%；</strong>普华基金持股1.81%；国泰君安持股 1.56%；<strong>商汤0.64%、壁仞0.39%</strong>、金蝶、美团。</p>\n  <p>创始人<strong>袁进辉，今年45岁</strong>，清华大学计算机博士、西安电子科技大学本科。从OneFlow到SiliconFlow，一人身兼多职：<strong>董事会主席、CEO、总经理兼财务负责人</strong>。袁进辉是 AI 老兵。2013–2016 年任微软（中国）主管研究员，主导开发过当时全球最快的大规模主题模型训练系统 LightLDA；2017–2023 年创立并主导<strong>深度学习框架公司OneFlow（一流科技），</strong>后被王慧文创立的光年之外收购，最终并入美团。2023 年 8 月，他带着 OneFlow 的核心班底转身做了硅基流动——CTO 柳俊丞、COO 赵震均为 OneFlow 旧部，副总经理曾华则来自京东集团副总裁。</p>\n  <p>非执行董事<strong>陈英杰，49岁，为阿里战略投资部董事总经理</strong>，同时兼任 MiniMax 非执行董事。</p>\n  <p>硅基流动的故事，是一支 OneFlow 老兵带队、踩中 AI 推理与 token 革命大浪潮的超级增长团队。但<strong>2025年在亏本卖token、毛利率−24%（销售成本达收入124%）</strong>；研发烧掉收入的378%、销售烧掉151%；收入5533万却亏3.46亿。IPO后究竟值多少钱，只有招股阶段才知道了。</p>\n  <p><strong>首页图源｜企业官网</strong></p>\n  <p><strong>排版｜范馨雅</strong></p>",
-      "published": "2026-07-03T19:12:32+08:00",
-      "fetched_at": "2026-07-04T11:23:45.870281+08:00",
-      "pre_filter_reason": "公司硅基流动涉及AI算力服务，IPO与AI相关",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "usestrix /strix",
+      "link": "https://github.com/usestrix/strix",
+      "summary": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "published": "2026-07-05T11:40:44.438563+08:00",
+      "fetched_at": "2026-07-05T11:40:44.438566+08:00",
+      "pre_filter_reason": "AI penetration testing tool",
       "scores": {
-        "importance": 7,
-        "timeliness": 8,
+        "importance": 6,
+        "timeliness": 7,
         "actionability": 8,
         "scarcity": 7,
         "virality": 6,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.1,
+      "quality_score": 6.9,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "硅基流动IPO启示录：AI创业公司如何快速走向资本市场？",
-          "angle": "从硅基流动成立不到三年即冲刺港股IPO的案例，拆解AI创业公司快速上市的关键因素，包括技术壁垒、市场定位和资本策略。",
-          "difficulty": "中级"
+          "title": "开源AI渗透测试工具Strix：5分钟找出你应用的漏洞",
+          "angle": "演示如何使用Strix自动扫描常见Web漏洞（如XSS、SQL注入），并给出修复建议。",
+          "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "秋声专栏：硅基流动招股书里的产业冷暖",
-          "angle": "深度解读硅基流动招股书，分析其商业模式、竞争优势和潜在风险，探讨AI公司上市潮背后的行业趋势。",
+          "tag": "comparison",
+          "title": "Strix vs 传统渗透测试工具：谁更高效？",
+          "angle": "对比Strix与Burp Suite、OWASP ZAP的扫描速度、准确率和使用门槛，突出AI驱动的优势。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "492132c8c9e0",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "alibaba /page-agent",
+      "link": "https://github.com/alibaba/page-agent",
+      "summary": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "published": "2026-07-05T11:40:44.438332+08:00",
+      "fetched_at": "2026-07-05T11:40:44.438338+08:00",
+      "pre_filter_reason": "JavaScript GUI agent using natural language control",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.9,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "用自然语言控制网页：Page-Agent实战教程",
+          "angle": "展示如何通过Page-Agent用一句话完成表单填写、数据抓取等操作，无需写代码。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "use_case",
+          "title": "自动化测试新范式：Page-Agent如何替代Selenium？",
+          "angle": "对比Page-Agent与传统自动化测试工具，分析其在复杂交互场景下的优势和局限性。",
           "difficulty": "高级"
         }
       ]
@@ -604,117 +475,252 @@
       "title": "openai /codex-plugin-cc",
       "link": "https://github.com/openai/codex-plugin-cc",
       "summary": "Use Codex from Claude Code to review code or delegate tasks.",
-      "published": "2026-07-04T11:23:59.497296+08:00",
-      "fetched_at": "2026-07-04T11:23:59.497301+08:00",
-      "pre_filter_reason": "OpenAI Codex, AI code review",
+      "published": "2026-07-05T11:40:44.437625+08:00",
+      "fetched_at": "2026-07-05T11:40:44.437637+08:00",
+      "pre_filter_reason": "Codex from Claude Code for code review",
       "scores": {
-        "importance": 7,
+        "importance": 6,
         "timeliness": 7,
         "actionability": 8,
-        "scarcity": 6,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "用OpenAI Codex插件在Claude Code中自动审查代码",
-          "angle": "手把手教你如何集成OpenAI Codex插件到Claude Code，实现代码审查和任务委派的自动化，提升开发效率。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "a1f5a766a161",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "4nm近售罄、部分8nm接近满载 三星晶圆代工开始选择性接单",
-      "link": "https://36kr.com/newsflashes/3880717381382148?f=rss",
-      "summary": "据报道，业内人士称，随着AI半导体需求升温、全球大型科技公司订单增加，三星电子晶圆代工部门已针对部分制程启动配额机制（allocation），将有限产能集中分配给较重要的客户和制程，将产能优先分配给现有客户，新客户订单则选择性承接。（新浪财经）",
-      "published": "2026-07-04T11:16:30+08:00",
-      "fetched_at": "2026-07-04T11:23:45.870373+08:00",
-      "pre_filter_reason": "AI半导体需求驱动晶圆代工",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 7,
         "scarcity": 7,
         "virality": 6,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.0,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "三星晶圆代工产能告急：4nm售罄背后的AI芯片需求爆发",
-          "angle": "分析三星4nm和8nm制程产能紧张的原因，解读AI半导体需求激增对全球芯片供应链的影响。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "6f53fc8f2a10",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Claude Code 80%的提示词说删就删，Anthropic用Fable 5打了个样：AI行业的“降本”才刚刚开始",
-      "link": "https://www.infoq.cn/article/GEkEm7rkUJfF8bdwTuBt?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/GEkEm7rkUJfF8bdwTuBt?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-07-04T03:27:10+08:00",
-      "fetched_at": "2026-07-04T11:23:49.135804+08:00",
-      "pre_filter_reason": "AI product news (Claude Code, Anthropic's Fable 5, AI cost reduction)",
-      "scores": {
-        "importance": 6,
-        "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.0,
+      "quality_score": 6.9,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "Fable 5实战：如何用Claude Code删掉80%的提示词？",
-          "angle": "以Anthropic的Fable 5为例，演示如何优化AI提示词设计，大幅减少冗余内容，实现AI应用的降本增效。",
+          "title": "在Claude Code中调用OpenAI Codex：代码审查与任务委派",
+          "angle": "演示如何配置codex-plugin-cc，让Claude Code自动调用Codex进行代码审查和子任务处理。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "comparison",
+          "title": "Codex vs Claude Code：谁更适合你的开发工作流？",
+          "angle": "对比两个AI编码助手的代码生成、审查和任务委派能力，给出选型建议。",
           "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "fab2e3491057",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
+      "id": "d3d33715a001",
+      "source_id": "reddit-ml",
+      "source_name": "Reddit r/MachineLearning",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "Proposal: Use semantic compression as input diffusion to read sessions larger than the context window [R]",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1un63hv/proposal_use_semantic_compression_as_input/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I've been trying to come up with a solution for keeping extremely long ai sessions coherent. Sometimes there is too much substance to risk compaction. With so much buzz around diffusion going on it got me thinking, what if we treat the context like a progressive render, blurry&gt;sharp.</p> <p>The practical way to make text &quot;blurry&quot; is compression. This is a &quot;diffusion inspired&quot; system which borrows the coarse-to-fine process, not the formal math. It uses semantic compression so the overall structure of the session stays intact. Read the compressed version first to build an outline. Then read progressively less compressed slices until you're reading small verbatim chunks that give full detail.</p> <p>So you're basically using compression as noise on the input side, then progressively building an output. Each slice is compressed to fit within the context window, so the model only ever needs to read the current slice+input+current output.</p> <p>Tell the model what pass it's on, so it knows whether to write an outline or add detail.</p> <p>The thing I'm actually trying to preserve is what you'd call &quot;non-local information&quot;. Think of it as stuff that surfaces when looking at the whole session &amp; doesn't survive fragmented retrieval. Retrieval misses it, compaction deletes it. Both miss what only exists in a holistic view.</p> <p>Here is a visual demonstration to get a general idea of the workflow. <a href=\"https://dev-boz.github.io/diffusive-semantic-compression/demo/architecture-demo.html\">https://dev-boz.github.io/diffusive-semantic-compression/demo/architecture-demo.html</a></p> <p>There is substantial overlap with lots of prior art, Recursive Language Models is one of the closest (source and output on disk, process recursively). I wrote most of this before I found RLM and nearly gave up before realising there was still a small part that was novel. As far as I can tell there's no exact match for this particular implementation. Please let me know if I've missed one.</p> <p>The difference to regular masked diffusion is in changing the length of the input rather than just masking.</p> <p>What seems to be new ground is using compression as noise and a position-aware process.</p> <p>I've done some basic testing. Mainly to see if it was at all viable. Just some basic tests using small models like Qwen2.5 7B. The untrained models show that they can do each part (outline, refine, add detail) but they struggle with the full end-to-end process. There 's occasional end-to-end success, but it's nowhere near reliable. On untrained models it also hasn't yet beaten a cheap dense read of the same document. The main bet is whether position-aware training changes that, I haven't been able to test that yet. I've published all the pre-registered failures, parser bugs I found etc.</p> <p>Another note: the goal is preserving structure and nuance, but the tests so far measure planted facts and split-up numeric composition. Mainly because the experiments needed answers you can actually score. The nuance evaluation is being designed but isn't ready yet.</p> <p>The next step is a small model fine tune to test if position aware training can help.</p> <p>If you have the time to look at the idea, it really needs a prior art check from anyone who knows the diffusion-LM/long-context space. And if anyone wanted to help expand the idea or contribute with compute or collaboration for the fine-tune please do.</p> <p>Here is the repo for the proposal. Links to testing repo and prior art inside.<br /> <a href=\"https://github.com/dev-boz/diffusive-semantic-compression\">https://github.com/dev-boz/diffusive-semantic-compression</a> </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Bravo_Oscar_Zulu\"> /u/Bravo_Oscar_Zulu </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1un63hv/proposal_use_semantic_compression_as_input/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1un63hv/proposal_use_semantic_compression_as_input/\">[comments]</a></span>",
+      "published": "2026-07-04T18:56:40+08:00",
+      "fetched_at": "2026-07-05T11:40:43.343963+08:00",
+      "pre_filter_reason": "Discusses AI session coherence and context window techniques.",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 7,
+        "scarcity": 8,
+        "virality": 6,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 6.9,
+      "topics": [
+        {
+          "tag": "explainer",
+          "title": "语义压缩+扩散模型：让AI处理超长对话的新思路",
+          "angle": "用通俗语言解释如何通过语义压缩和输入扩散技术，让AI模型理解超出上下文窗口的长会话。",
+          "difficulty": "高级"
+        },
+        {
+          "tag": "opinion",
+          "title": "长上下文AI的终极解法？语义压缩扩散方案深度解析",
+          "angle": "分析该提案的技术可行性、潜在应用场景（如长文档分析、持续对话），并对比现有方案（如滑动窗口、摘要）。",
+          "difficulty": "高级"
+        }
+      ]
+    },
+    {
+      "id": "b86212d59083",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
       "source_tier": "T2",
       "source_lang": "zh",
-      "source_category": "media",
-      "title": "从 Coding 到 Anything，Agent 正在重写工作流",
-      "link": "https://www.infoq.cn/article/yM8ms1eDlrY7wvF3SXtY?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/yM8ms1eDlrY7wvF3SXtY?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-07-04T02:40:56+08:00",
-      "fetched_at": "2026-07-04T11:23:49.135834+08:00",
-      "pre_filter_reason": "AI agent workflow transformation",
+      "source_category": "search",
+      "title": "每天烧百亿token，银行开始和AI算细账 - 21财经",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWk1tSFA3UXJKRDQ3RXNkOEFETnloZFFSdlJlcVNKZVVRVjVKYjA1ZE1iUjlrUFBOZnAyRlplQktaQWlRSktYSDdEdUI5MGpKYU5IN3EwQzloVWlHOW1NZ2o0Wlp5UkViWUVZalZLNTVhQlE4cjJMNFdCbjRpdkF1TzlZQXZqUHZQMVhOUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQWk1tSFA3UXJKRDQ3RXNkOEFETnloZFFSdlJlcVNKZVVRVjVKYjA1ZE1iUjlrUFBOZnAyRlplQktaQWlRSktYSDdEdUI5MGpKYU5IN3EwQzloVWlHOW1NZ2o0Wlp5UkViWUVZalZLNTVhQlE4cjJMNFdCbjRpdkF1TzlZQXZqUHZQMVhOUQ?oc=5\" target=\"_blank\">每天烧百亿token，银行开始和AI算细账</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">21财经</font>",
+      "published": "2026-07-04T11:11:00+08:00",
+      "fetched_at": "2026-07-05T11:40:42.239699+08:00",
+      "pre_filter_reason": "讨论银行AI算力成本，涉及AI应用",
       "scores": {
         "importance": 7,
-        "timeliness": 7,
-        "actionability": 8,
+        "timeliness": 8,
+        "actionability": 7,
         "scarcity": 6,
         "virality": 7,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.0,
+      "quality_score": 6.9,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "从Coding到Anything：用Agent自动化重写你的工作流",
-          "angle": "介绍如何利用AI Agent将编程任务扩展到其他工作场景，通过实际案例展示自动化工作流的搭建步骤。",
+          "title": "银行AI算账指南：如何优化Token成本？",
+          "angle": "从银行每天烧百亿Token的新闻切入，讲解企业如何计算和优化AI调用成本，包括Token用量监控、模型选择策略和缓存技巧。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "analysis",
+          "title": "银行AI算细账：金融业AI落地的成本真相",
+          "angle": "分析银行在AI投入上的成本结构，对比传统IT与AI支出的差异，探讨金融行业AI商业化的关键挑战与未来趋势。",
           "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "d6409da224d4",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "mattpocock /skills",
+      "link": "https://github.com/mattpocock/skills",
+      "summary": "Skills for Real Engineers. Straight from my .claude directory.",
+      "published": "2026-07-05T11:40:44.441438+08:00",
+      "fetched_at": "2026-07-05T11:40:44.441441+08:00",
+      "pre_filter_reason": "Skills for AI coding agents",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "从mattpocock/skills学AI工程：.claude目录里的秘密",
+          "angle": "拆解知名工程师的.claude目录结构，分享如何配置AI助手技能文件，提升代码生成质量和工程效率。",
+          "difficulty": "高级"
+        },
+        {
+          "tag": "tutorial",
+          "title": "AI工程必备：打造你自己的.claude技能库",
+          "angle": "手把手教你创建和整理.claude目录，包括常用提示模板、代码规范指令和调试技巧，让AI更懂你的项目。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "e071d21ccccb",
+      "source_id": "ifanr",
+      "source_name": "爱范儿",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "史上最强的 MacBook 要来了，苹果要 All in AI",
+      "link": "https://www.ifanr.com/1670819?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "近 5 年 MacBook Pro 最大升级即将到来<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
+      "published": "2026-07-04T10:43:11+08:00",
+      "fetched_at": "2026-07-05T11:40:37.112185+08:00",
+      "pre_filter_reason": "苹果All in AI，涉及AI产品战略",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 5,
+        "virality": 8,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 6.7,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "苹果All in AI：新MacBook如何改变创作者工作流？",
+          "angle": "预测苹果下一代MacBook的AI特性，分析其对视频剪辑、3D设计、音乐制作等创意工作的实际影响。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "MacBook AI升级在即：现在该不该入手？",
+          "angle": "对比当前MacBook与传闻中AI增强版的功能差异，提供购买决策指南，并分享如何利用现有MacBook运行本地AI模型。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "f29c8cca25d7",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "avibe-bot/avibe",
+      "link": "https://github.com/avibe-bot/avibe",
+      "summary": "The local-first Agent OS — your AI partner lives on your own machine. Drive the official Claude Code, Codex & OpenCode from your browser or any chat app.",
+      "published": "2026-07-05T11:40:44.717262+08:00",
+      "fetched_at": "2026-07-05T11:40:44.717264+08:00",
+      "pre_filter_reason": "AI partner, Claude Code, Codex",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "本地AI操作系统avibe：让Claude Code在你的电脑上运行",
+          "angle": "介绍avibe项目的核心功能，演示如何安装并配置本地Agent OS，实现从浏览器或聊天应用控制Claude Code等工具。",
+          "difficulty": "高级"
+        },
+        {
+          "tag": "tutorial",
+          "title": "告别云端：用avibe搭建你的私人AI助手",
+          "angle": "零基础教程，指导用户下载、安装avibe，并连接Claude Code或Codex，体验完全本地化的AI编程与任务自动化。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "d4f75b5d4186",
+      "source_id": "deepmind-blog",
+      "source_name": "Google DeepMind",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+      "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+      "summary": "",
+      "published": "2026-07-03T22:25:43+08:00",
+      "fetched_at": "2026-07-05T11:40:22.657938+08:00",
+      "pre_filter_reason": "Google DeepMind是AI研究机构，与A24合作属于AI相关",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 7,
+        "scarcity": 9,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.6,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "Google DeepMind x A24：AI与电影艺术的首次联姻",
+          "angle": "解读这次跨界合作背后的战略意义，探讨AI如何辅助电影创意、剧本生成和视觉效果，以及艺术界的反应。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "AI电影制作入门：从DeepMind x A24合作中学到的技巧",
+          "angle": "结合合作案例，分享如何利用现有AI工具（如视频生成、剧本辅助）进行短片创作，降低电影制作门槛。",
+          "difficulty": "中级"
         }
       ]
     }
