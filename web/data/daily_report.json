@@ -1,20 +1,20 @@
 {
-  "title": "AI日报 - 2026年07月05日",
+  "title": "AI日报 - 2026年07月06日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "苹果首次将私有云计算平台扩展至谷歌云",
-          "summary": "苹果将其私有云计算平台首次扩展到谷歌云，标志着其AI基础设施布局的重大转变。"
+          "title": "GPT-5.6 Sol Ultra will be in Codex",
+          "summary": "GPT-5.6 Sol Ultra即将集成到Codex中，进一步提升代码生成能力。"
         },
         {
-          "title": "华为：截至目前，搭载乾崑智驾的车辆已超过 190 万辆",
-          "summary": "华为宣布乾崑智驾搭载车辆突破190万辆，持续领跑智能驾驶赛道。"
+          "title": "美团万亿参数大模型 LongCat-2.0 开源，同步开放国产卡推理代码",
+          "summary": "美团开源万亿参数大模型LongCat-2.0，并同步开放国产卡推理代码，推动国产AI生态发展。"
         },
         {
-          "title": "微软砸25亿美元组建6000人AI新公司",
-          "summary": "微软斥资25亿美元成立6000人规模的AI新公司，进一步加码人工智能领域。"
+          "title": "Azure Functions在Build 2026发布Serverless智能体运行时",
+          "summary": "微软在Build 2026上发布Azure Functions Serverless智能体运行时，简化AI应用部署。"
         }
       ]
     },
@@ -22,16 +22,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "美光科技投资93亿美元扩建先进存储芯片项目，预计2028下半年出货HBM",
-          "summary": "美光科技投资93亿美元扩建先进存储芯片项目，HBM产品预计2028年下半年出货，AI算力基础设施持续扩张。"
+          "title": "豆包、千问关停智能体功能；曝腾讯研发token额度1400元/月起步，有人过万；美团限豆包、阿里禁Claude Code｜AI周报",
+          "summary": "国内AI平台出现分化：豆包、千问关停智能体功能，腾讯推出高价token套餐，美团和阿里则对第三方工具设限。"
         },
         {
-          "title": "阿里内部全面禁用Claude Code",
-          "summary": "阿里巴巴内部全面禁用Claude Code，反映出大厂对第三方AI开发工具的管控趋严。"
+          "title": "AI 砍掉的第一批大厂人：高薪，高绩效，高P｜深氪",
+          "summary": "AI替代效应显现，大厂首批被裁员工多为高薪、高绩效、高P级人才，引发行业反思。"
         },
         {
-          "title": "每天烧百亿token，银行开始和AI算细账",
-          "summary": "银行开始精细化核算AI token消耗成本，行业从“跑马圈地”进入成本管控阶段。"
+          "title": "SK海力士10日在纳斯达克上市290亿美元规模ADR，创外资企业史上最大规模",
+          "summary": "SK海力士在纳斯达克上市290亿美元ADR，创外资企业史上最大规模，凸显AI芯片需求旺盛。"
+        },
+        {
+          "title": "硬氪首发 | 小米前高管唐沐创业咖啡机器人，完成数亿融资，林斌、黎万强投过",
+          "summary": "小米前高管唐沐创业咖啡机器人项目获数亿融资，林斌、黎万强跟投，AI落地消费场景再获资本认可。"
         }
       ]
     },
@@ -39,16 +43,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "BaryGraph - knowledge graph where every relationship is its own embedded document (not an edge) [R]",
-          "summary": "BaryGraph提出将知识图谱中的每条关系作为独立嵌入文档而非边，为图表示学习带来新思路。"
+          "title": "刚刚，LeCun团队让世界模型学会持续学习！",
+          "summary": "LeCun团队在持续学习领域取得突破，让世界模型能够在不遗忘旧知识的情况下学习新任务。"
         },
         {
-          "title": "Proposal: Use semantic compression as input diffusion to read sessions larger than the context window [R]",
-          "summary": "研究者提出利用语义压缩作为输入扩散方法，以读取超出上下文窗口的会话，扩展大模型处理能力。"
+          "title": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
+          "summary": "达特茅斯学院测试的新型AI导师取得0.71-1.30标准差的学习效果提升，教育AI效果显著。"
         },
         {
-          "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
-          "summary": "社区发现GPT-5.5 Codex的推理token聚类可能导致性能退化，引发对模型内部机制的讨论。"
+          "title": "Competence Gate: gating tool-use on a small model's internal confidence signal instead of its verbalised one — Qwen3.5-4B, open weights [P]",
+          "summary": "研究者提出Competence Gate方法，让小型模型基于内部置信度信号而非口头表达来决定是否使用工具，Qwen3.5-4B已开源权重。"
         }
       ]
     },
@@ -56,21 +60,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "asgeirtj /system_prompts_leaks",
-          "summary": "GitHub上出现系统提示词泄露项目，提醒开发者注意AI应用中的提示词安全风险。"
+          "title": "73% PR 由AI生成！Claude Code之父对话Spotify：2900名工程师每天部署4500次，坐地铁都能提交代码",
+          "summary": "Claude Code之父透露，Spotify 73%的PR由AI生成，2900名工程师每天部署4500次，AI编码效率惊人。"
         },
         {
-          "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
-          "summary": "Google DeepMind与A24宣布首次研究合作，探索AI在创意内容生成领域的应用。"
+          "title": "Best models for generating red-team attacks? Also looking for public datasets [R]",
+          "summary": "Reddit社区讨论最佳红队攻击生成模型及公开数据集，揭示AI安全测试领域的最新需求。"
         },
         {
-          "title": "史上最强的 MacBook 要来了，苹果要 All in AI",
-          "summary": "苹果下一代MacBook将全面拥抱AI，预示着端侧AI硬件竞争进入新阶段。"
+          "title": "征程赶超｜WAIC 2026模型与智能体：后Scaling时代范式重构，迈入智能体生产力时代",
+          "summary": "WAIC 2026聚焦后Scaling时代范式重构，业界共识：AI正从模型能力竞赛转向智能体生产力时代。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈呈现基础设施扩张与成本管控并行的趋势，大厂纷纷加码算力与端侧AI，同时开始精细化控制token消耗。",
-  "generated_at": "2026-07-05T11:41:50.150506+08:00",
+  "summary": "今日AI圈呈现开源与商业分化、智能体落地加速、AI替代效应初显三大趋势，后Scaling时代范式重构成为行业共识。",
+  "generated_at": "2026-07-06T11:50:38.788543+08:00",
   "source_count": 20
 }
