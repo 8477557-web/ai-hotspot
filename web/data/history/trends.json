@@ -1,7 +1,47 @@
 {
-  "updated_at": "2026-07-06T11:50:38.940398+08:00",
-  "total_days": 55,
+  "updated_at": "2026-07-07T11:41:08.472660+08:00",
+  "total_days": 56,
   "days": [
+    {
+      "date": "2026-07-07",
+      "total_items": 20,
+      "avg_score": 7.6,
+      "max_score": 8.3,
+      "crowd_hot_count": 0,
+      "avg_crowd_heat": 0.0,
+      "topic_distribution": {
+        "tutorial": 23,
+        "analysis": 9,
+        "insight": 5,
+        "news": 3
+      },
+      "source_distribution": {
+        "T2": 16,
+        "T1": 4
+      },
+      "top_keywords": [
+        [
+          "论文",
+          2
+        ],
+        [
+          "ICML",
+          2
+        ],
+        [
+          "Enhancing Goodput",
+          1
+        ],
+        [
+          "Large-Scale LLM Training",
+          1
+        ],
+        [
+          "Nonuniform Tensor Parallelism",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-07-06",
       "total_items": 20,
