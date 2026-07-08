@@ -1,24 +1,20 @@
 {
-  "title": "AI日报 - 2026年07月07日",
+  "title": "AI日报 - 2026年07月08日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "腾讯混元Hy3正式发布，元宝同步上线Hy3 Agent能力、免费开放",
-          "summary": "腾讯发布混元Hy3模型，并同步开放Agent能力，推动大模型应用落地。"
+          "title": "NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads",
+          "summary": "NVIDIA发布Vera CPU，大幅提升AI工厂吞吐量，加速智能体工作负载。"
         },
         {
-          "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
-          "summary": "Hugging Face发布LeRobot v0.6.0，强化机器人学习中的想象、评估与改进能力。"
+          "title": "Develop Humanoid Robot Policies End-to-End with NVIDIA Isaac GR00T",
+          "summary": "NVIDIA推出Isaac GR00T，支持端到端开发人形机器人策略。"
         },
         {
-          "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
-          "summary": "新工具OfficeCLI让AI代理能直接读写编辑Office文件，提升办公自动化效率。"
-        },
-        {
-          "title": "AMD Ryzen AI Halo – $4k AI Dev Kit",
-          "summary": "AMD推出售价4000美元的Ryzen AI Halo开发套件，瞄准AI开发者市场。"
+          "title": "传GPT-5.6明日发布：要打赢Fable 5，光靠刷分可不行",
+          "summary": "传闻GPT-5.6即将发布，业界关注其能否在竞争中超越Fable 5。"
         }
       ]
     },
@@ -26,20 +22,16 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "成立半年估值超70亿，墨奇智能刷新国内具身智能首轮融资规模纪录",
-          "summary": "具身智能公司墨奇智能成立仅半年估值超70亿，创国内该领域首轮融资纪录。"
+          "title": "市场担忧致半导体股集体下跌：英特尔跌近10%，三星、SK海力士超4%",
+          "summary": "市场情绪低迷导致半导体股普跌，英特尔跌幅近10%。"
         },
         {
-          "title": "大模型、具身智能、AI安全……6项国家标准立项，要给AI“立规矩”了",
-          "summary": "中国启动6项AI国家标准立项，覆盖大模型、具身智能与安全等领域，推动规范化发展。"
+          "title": "肯德基、蜜雪冰城、瑞幸、高德打车、滴滴等首批接入支付宝AI开放平台",
+          "summary": "多家知名品牌接入支付宝AI开放平台，推动AI在消费场景落地。"
         },
         {
-          "title": "被美国工会抵制的 AI 演员 Tilly Norwood 即将“主演”首部电影《Misaligned》",
-          "summary": "AI演员Tilly Norwood虽遭工会抵制，仍将主演电影《Misaligned》，引发行业伦理讨论。"
-        },
-        {
-          "title": "独家丨ACM戈登贝尔奖得主杨超领衔，北大系顶尖团队入局物理 AI 底层基建",
-          "summary": "ACM戈登贝尔奖得主杨超率北大团队入局物理AI底层基建，推动科学计算与AI融合。"
+          "title": "世界人工智能大会下周开幕！华为最大规模超节点真机、全球首款AI智能体手机等首秀",
+          "summary": "世界人工智能大会即将开幕，华为将展示超节点真机及首款AI智能体手机。"
         }
       ]
     },
@@ -47,20 +39,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "大道至简，阿里与清华论文揭示扩散大模型推理能力，入选 ICML 杰出论文",
-          "summary": "阿里与清华合作论文以极简方案刷新扩散模型推理纪录，获ICML杰出论文奖。"
+          "title": "A Single Neuron Is Sufficient to Bypass Safety Alignment in Large Language Models",
+          "summary": "苹果研究表明，单个神经元即可绕过大型语言模型的安全对齐机制。"
         },
         {
-          "title": "Enhancing Goodput in Large-Scale LLM Training with Nonuniform Tensor Parallelism",
-          "summary": "NVIDIA提出非均匀张量并行方法，显著提升大规模LLM训练的有效吞吐量。"
+          "title": "ICML 2026开幕，清华团队获最佳论文奖，DeepMind经典巨作拿下时间检验奖",
+          "summary": "ICML 2026开幕，清华团队获最佳论文奖，DeepMind经典研究获时间检验奖。"
         },
         {
-          "title": "Scaling Properties of Continuous Diffusion Spoken Language Models",
-          "summary": "Apple ML研究揭示连续扩散语音语言模型的扩展特性，为语音AI提供新视角。"
-        },
-        {
-          "title": "Claude的脑子里，也长出了一块「意识」",
-          "summary": "研究探讨Claude模型内部涌现类似意识表征的现象，引发AI意识讨论。"
+          "title": "Weblica: Scalable and Reproducible Training Environments for Visual Web Agents",
+          "summary": "苹果推出Weblica，为视觉网络智能体提供可扩展、可复现的训练环境。"
         }
       ]
     },
@@ -68,21 +56,17 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "Does anyone have a name for that subtle \"Sameness\" creeping into model outputs lately? [R]",
-          "summary": "社区热议AI模型输出逐渐趋同的“同质化”现象，引发对多样性的担忧。"
+          "title": "Claude的脑子里，也长出了一块「意识」",
+          "summary": "探讨Claude模型内部涌现的类意识现象，引发对AI认知的思考。"
         },
         {
-          "title": "GLM 5.2 and the coming AI margin collapse",
-          "summary": "分析认为GLM 5.2等模型的发布可能加速AI行业利润压缩，引发市场洗牌。"
-        },
-        {
-          "title": "登顶多项全球 SOTA！大晓全开源首个「统一具身基模型」ACE-Brain-0.5",
-          "summary": "大晓开源统一具身基模型ACE-Brain-0.5，登顶多项SOTA，推动机器人通用能力。"
+          "title": "前华为天才少年李博杰吐槽DeepSeek面试后遭投资人“反怼”",
+          "summary": "前华为天才少年李博杰公开吐槽DeepSeek面试经历，引发行业对招聘文化的讨论。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦具身智能融资热潮、模型同质化隐忧，以及开源与标准化并进的多元化趋势。",
-  "generated_at": "2026-07-07T11:41:08.329129+08:00",
+  "summary": "今日AI圈聚焦硬件突破与安全隐忧，模型发布加速，但行业波动与伦理争议并存。",
+  "generated_at": "2026-07-08T10:55:32.147577+08:00",
   "source_count": 20
 }
