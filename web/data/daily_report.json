@@ -1,20 +1,20 @@
 {
-  "title": "AI日报 - 2026年07月08日",
+  "title": "AI日报 - 2026年07月09日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads",
-          "summary": "NVIDIA发布Vera CPU，大幅提升AI工厂吞吐量，加速智能体工作负载。"
+          "title": "Introducing GPT-Live",
+          "summary": "OpenAI发布GPT-Live，支持实时语音同声传译，引发同传行业震动。"
         },
         {
-          "title": "Develop Humanoid Robot Policies End-to-End with NVIDIA Isaac GR00T",
-          "summary": "NVIDIA推出Isaac GR00T，支持端到端开发人形机器人策略。"
+          "title": "Flint: A visualization language for the AI era",
+          "summary": "微软研究院推出Flint，一种面向AI时代的数据可视化语言。"
         },
         {
-          "title": "传GPT-5.6明日发布：要打赢Fable 5，光靠刷分可不行",
-          "summary": "传闻GPT-5.6即将发布，业界关注其能否在竞争中超越Fable 5。"
+          "title": "高德发布Phys AI Data：首个面向物理AI训练与应用的一站式空间数据基座",
+          "summary": "高德推出Phys AI Data，为物理AI训练提供一站式空间数据基座。"
         }
       ]
     },
@@ -22,16 +22,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "市场担忧致半导体股集体下跌：英特尔跌近10%，三星、SK海力士超4%",
-          "summary": "市场情绪低迷导致半导体股普跌，英特尔跌幅近10%。"
+          "title": "DeepSeek被曝自研AI推理芯片，一年前已启动，正对接代工与存储厂商",
+          "summary": "DeepSeek被曝自研AI推理芯片，已启动一年并对接代工与存储厂商。"
         },
         {
-          "title": "肯德基、蜜雪冰城、瑞幸、高德打车、滴滴等首批接入支付宝AI开放平台",
-          "summary": "多家知名品牌接入支付宝AI开放平台，推动AI在消费场景落地。"
+          "title": "突发！DeepSeek、阿里等AI公司将购买约20万张英伟达算力，用于训练模型",
+          "summary": "DeepSeek、阿里等AI公司计划购买约20万张英伟达算力用于模型训练。"
         },
         {
-          "title": "世界人工智能大会下周开幕！华为最大规模超节点真机、全球首款AI智能体手机等首秀",
-          "summary": "世界人工智能大会即将开幕，华为将展示超节点真机及首款AI智能体手机。"
+          "title": "全国最大单体国产 AI 算力池落地郑州，国家超算互联网核心节点正式上线",
+          "summary": "全国最大单体国产AI算力池在郑州落地，国家超算互联网核心节点上线。"
+        },
+        {
+          "title": "OpenAI首席未来学家宣布离职",
+          "summary": "OpenAI首席未来学家宣布离职，引发行业关注。"
         }
       ]
     },
@@ -39,16 +43,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "A Single Neuron Is Sufficient to Bypass Safety Alignment in Large Language Models",
-          "summary": "苹果研究表明，单个神经元即可绕过大型语言模型的安全对齐机制。"
+          "title": "Separating signal from noise in coding evaluations",
+          "summary": "OpenAI发布研究，探讨如何在编程评估中区分信号与噪声。"
         },
         {
-          "title": "ICML 2026开幕，清华团队获最佳论文奖，DeepMind经典巨作拿下时间检验奖",
-          "summary": "ICML 2026开幕，清华团队获最佳论文奖，DeepMind经典研究获时间检验奖。"
+          "title": "Agentic safety triggers aren't textual safety triggers — MCP attacks that beat SOTA guardrails more than half the time (code + dataset) [R]",
+          "summary": "研究揭示MCP攻击可超半数时间突破SOTA安全护栏，强调智能体安全触发机制与文本安全不同。"
         },
         {
-          "title": "Weblica: Scalable and Reproducible Training Environments for Visual Web Agents",
-          "summary": "苹果推出Weblica，为视觉网络智能体提供可扩展、可复现的训练环境。"
+          "title": "ICML 精选 Spotlight Poster 汇总：Session 4-1 & 4-3",
+          "summary": "ICML会议精选Spotlight海报汇总，展示最新机器学习研究成果。"
         }
       ]
     },
@@ -56,17 +60,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "Claude的脑子里，也长出了一块「意识」",
-          "summary": "探讨Claude模型内部涌现的类意识现象，引发对AI认知的思考。"
+          "title": "Helping K–12 educators build practical AI skills",
+          "summary": "OpenAI分享帮助K-12教育者构建实用AI技能的方法。"
         },
         {
-          "title": "前华为天才少年李博杰吐槽DeepSeek面试后遭投资人“反怼”",
-          "summary": "前华为天才少年李博杰公开吐槽DeepSeek面试经历，引发行业对招聘文化的讨论。"
+          "title": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance",
+          "summary": "NVIDIA技术博客介绍如何为Nemotron 3 Ultra创建LangChain深度代理配置以提升性能。"
+        },
+        {
+          "title": "Native-speed vLLM transformers modeling backend",
+          "summary": "Hugging Face博客发布原生速度vLLM transformers建模后端。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦硬件突破与安全隐忧，模型发布加速，但行业波动与伦理争议并存。",
-  "generated_at": "2026-07-08T10:55:32.147577+08:00",
+  "summary": "今日AI圈聚焦实时语音模型发布、芯片自研与算力基建扩张，安全与教育应用同步推进。",
+  "generated_at": "2026-07-09T11:39:07.234807+08:00",
   "source_count": 20
 }
