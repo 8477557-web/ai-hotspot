@@ -1,20 +1,24 @@
 {
-  "title": "AI日报 - 2026年07月09日",
+  "title": "AI日报 - 2026年07月10日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "Introducing GPT-Live",
-          "summary": "OpenAI发布GPT-Live，支持实时语音同声传译，引发同传行业震动。"
+          "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+          "summary": "OpenAI发布GPT-5.6，定位为前沿智能模型，可根据用户需求扩展能力。"
         },
         {
-          "title": "Flint: A visualization language for the AI era",
-          "summary": "微软研究院推出Flint，一种面向AI时代的数据可视化语言。"
+          "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+          "summary": "GPT-5.6成为Microsoft 365 Copilot首选模型，深度整合办公场景。"
         },
         {
-          "title": "高德发布Phys AI Data：首个面向物理AI训练与应用的一站式空间数据基座",
-          "summary": "高德推出Phys AI Data，为物理AI训练提供一站式空间数据基座。"
+          "title": "刚刚，全球首个具身专属的MoE视频模型，开源了！",
+          "summary": "蚂蚁灵波开源全球首个面向具身智能的MoE视频模型LingBot-Video，推动机器人视觉发展。"
+        },
+        {
+          "title": "Meta加入AI价格战！首推付费大模型，能力超越Google，定价仅为Anthropic四分之一",
+          "summary": "Meta推出付费大模型，以超低价格（仅为Anthropic四分之一）加入AI竞争，性能超越Google。"
         }
       ]
     },
@@ -22,20 +26,16 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "DeepSeek被曝自研AI推理芯片，一年前已启动，正对接代工与存储厂商",
-          "summary": "DeepSeek被曝自研AI推理芯片，已启动一年并对接代工与存储厂商。"
+          "title": "刚刚，OpenAI首席未来学家离职！曾被马斯克骂蠢驴",
+          "summary": "OpenAI首席未来学家离职，引发业界对人才流动的关注。"
         },
         {
-          "title": "突发！DeepSeek、阿里等AI公司将购买约20万张英伟达算力，用于训练模型",
-          "summary": "DeepSeek、阿里等AI公司计划购买约20万张英伟达算力用于模型训练。"
+          "title": "Claude“脑内小剧场”首曝光：隐藏工作空间自发涌现类人意识，谷歌DeepMind权威认证！",
+          "summary": "Claude模型内部被曝出现类似人类意识的隐藏工作空间，获谷歌DeepMind认证。"
         },
         {
-          "title": "全国最大单体国产 AI 算力池落地郑州，国家超算互联网核心节点正式上线",
-          "summary": "全国最大单体国产AI算力池在郑州落地，国家超算互联网核心节点上线。"
-        },
-        {
-          "title": "OpenAI首席未来学家宣布离职",
-          "summary": "OpenAI首席未来学家宣布离职，引发行业关注。"
+          "title": "一夜之间，GPT-5.6 来了，Codex 没了，Claude 急了",
+          "summary": "GPT-5.6发布引发连锁反应，Codex被取代，Claude面临竞争压力。"
         }
       ]
     },
@@ -43,16 +43,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "Separating signal from noise in coding evaluations",
-          "summary": "OpenAI发布研究，探讨如何在编程评估中区分信号与噪声。"
+          "title": "Aurora 1.5: Extending open foundation models for weather and Earth-system applications",
+          "summary": "微软发布Aurora 1.5，扩展开放基础模型在天气和地球系统中的应用。"
         },
         {
-          "title": "Agentic safety triggers aren't textual safety triggers — MCP attacks that beat SOTA guardrails more than half the time (code + dataset) [R]",
-          "summary": "研究揭示MCP攻击可超半数时间突破SOTA安全护栏，强调智能体安全触发机制与文本安全不同。"
+          "title": "Recursive Language Models Meet Uncertainty: The Surprising Effectiveness of Self-Reflective Program Search for Long Context",
+          "summary": "苹果研究揭示递归语言模型结合自反思程序搜索在长上下文任务中的惊人效果。"
         },
         {
-          "title": "ICML 精选 Spotlight Poster 汇总：Session 4-1 & 4-3",
-          "summary": "ICML会议精选Spotlight海报汇总，展示最新机器学习研究成果。"
+          "title": "Synthetic Data Generation for Financial AI Research with NVIDIA NeMo",
+          "summary": "NVIDIA发布基于NeMo的金融AI合成数据生成方案，助力金融研究。"
         }
       ]
     },
@@ -60,21 +60,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "Helping K–12 educators build practical AI skills",
-          "summary": "OpenAI分享帮助K-12教育者构建实用AI技能的方法。"
+          "title": "asgeirtj /system_prompts_leaks",
+          "summary": "GitHub上出现系统提示词泄露项目，提醒开发者注意AI安全与隐私。"
         },
         {
-          "title": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance",
-          "summary": "NVIDIA技术博客介绍如何为Nemotron 3 Ultra创建LangChain深度代理配置以提升性能。"
+          "title": "GPT-5.5 Bio Bug Bounty",
+          "summary": "OpenAI启动GPT-5.5生物安全漏洞赏金计划，强化AI生物安全防护。"
         },
         {
-          "title": "Native-speed vLLM transformers modeling backend",
-          "summary": "Hugging Face博客发布原生速度vLLM transformers建模后端。"
+          "title": "john-rocky/coreai-model-zoo",
+          "summary": "GitHub新项目coreai-model-zoo提供核心AI模型集合，方便开发者快速部署。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦实时语音模型发布、芯片自研与算力基建扩张，安全与教育应用同步推进。",
-  "generated_at": "2026-07-09T11:39:07.234807+08:00",
+  "summary": "今日AI圈聚焦GPT-5.6发布与具身智能开源，模型竞争加剧，安全与隐私问题持续受关注。",
+  "generated_at": "2026-07-10T11:35:54.297030+08:00",
   "source_count": 20
 }
