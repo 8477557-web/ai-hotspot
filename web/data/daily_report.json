@@ -1,24 +1,20 @@
 {
-  "title": "AI日报 - 2026年07月10日",
+  "title": "AI日报 - 2026年07月11日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-          "summary": "OpenAI发布GPT-5.6，定位为前沿智能模型，可根据用户需求扩展能力。"
+          "title": "GPT-5.6全面围剿Claude Fable 5，“超级应用”ChatGPT Work上位，Altman紧急澄清：不会取代Coedx",
+          "summary": "OpenAI发布GPT-5.6，强化ChatGPT Work功能，引发与Claude的竞争，Altman澄清新功能不会取代Codex。"
         },
         {
-          "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-          "summary": "GPT-5.6成为Microsoft 365 Copilot首选模型，深度整合办公场景。"
+          "title": "行业首个具身原生世界动作模型来了！蚂蚁灵波发布LingBot-VA 2.0",
+          "summary": "蚂蚁灵波发布LingBot-VA 2.0，为行业首个具身原生世界动作模型，推动机器人从物理世界学习动作。"
         },
         {
-          "title": "刚刚，全球首个具身专属的MoE视频模型，开源了！",
-          "summary": "蚂蚁灵波开源全球首个面向具身智能的MoE视频模型LingBot-Video，推动机器人视觉发展。"
-        },
-        {
-          "title": "Meta加入AI价格战！首推付费大模型，能力超越Google，定价仅为Anthropic四分之一",
-          "summary": "Meta推出付费大模型，以超低价格（仅为Anthropic四分之一）加入AI竞争，性能超越Google。"
+          "title": "全球首个「具身原生」预训练模型发布，从物理世界出发为机器人造大脑！",
+          "summary": "全球首个具身原生预训练模型发布，旨在为机器人构建基于物理世界的大脑，提升自主决策能力。"
         }
       ]
     },
@@ -26,16 +22,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "刚刚，OpenAI首席未来学家离职！曾被马斯克骂蠢驴",
-          "summary": "OpenAI首席未来学家离职，引发业界对人才流动的关注。"
+          "title": "芯片商Etched累计融资近60亿，获台积电、辛顿、李飞飞押注",
+          "summary": "AI芯片公司Etched累计融资近60亿元，获得台积电、辛顿、李飞飞等知名投资方支持。"
         },
         {
-          "title": "Claude“脑内小剧场”首曝光：隐藏工作空间自发涌现类人意识，谷歌DeepMind权威认证！",
-          "summary": "Claude模型内部被曝出现类似人类意识的隐藏工作空间，获谷歌DeepMind认证。"
+          "title": "马斯克据悉要求特斯拉员工转向使用Grok",
+          "summary": "马斯克据称要求特斯拉员工全面使用其AI助手Grok，以推动内部AI工具统一。"
         },
         {
-          "title": "一夜之间，GPT-5.6 来了，Codex 没了，Claude 急了",
-          "summary": "GPT-5.6发布引发连锁反应，Codex被取代，Claude面临竞争压力。"
+          "title": "OpenAI 权力洗牌：安全元老 Joshua Achiam 离职，白宫政策操盘手加入",
+          "summary": "OpenAI安全负责人Joshua Achiam离职，前白宫政策专家加入，公司治理结构发生重大调整。"
+        },
+        {
+          "title": "遭连日舆论抨击后，Meta暂停AI图像生成功能",
+          "summary": "因舆论压力，Meta暂停AI图像生成功能，以应对伦理和内容安全争议。"
         }
       ]
     },
@@ -43,16 +43,20 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "Aurora 1.5: Extending open foundation models for weather and Earth-system applications",
-          "summary": "微软发布Aurora 1.5，扩展开放基础模型在天气和地球系统中的应用。"
+          "title": "Reducing High-Bandwidth Memory Bottlenecks in JAX-Based LLM Training with Host Offloading",
+          "summary": "NVIDIA提出通过主机卸载减少JAX大模型训练中的高带宽内存瓶颈，提升训练效率。"
         },
         {
-          "title": "Recursive Language Models Meet Uncertainty: The Surprising Effectiveness of Self-Reflective Program Search for Long Context",
-          "summary": "苹果研究揭示递归语言模型结合自反思程序搜索在长上下文任务中的惊人效果。"
+          "title": "AI Model Co-Design: Hardware-Friendly LLM Design",
+          "summary": "NVIDIA探索硬件友好的大模型协同设计，旨在优化LLM与硬件的适配性。"
         },
         {
-          "title": "Synthetic Data Generation for Financial AI Research with NVIDIA NeMo",
-          "summary": "NVIDIA发布基于NeMo的金融AI合成数据生成方案，助力金融研究。"
+          "title": "Behavioral Privacy Leakage in Agentic Negotiation: Formalizing and Mitigating Inference Attacks via Randomized Policies",
+          "summary": "Apple研究揭示智能体谈判中的行为隐私泄露，提出随机化策略来防御推理攻击。"
+        },
+        {
+          "title": "AI 内存 V-Die 方案亮相：侧立放置 DRAM 吞吐 540 tokens/s，较 HBM4 高 82.43%",
+          "summary": "新型V-Die内存方案通过侧立DRAM实现540 tokens/s吞吐量，性能较HBM4提升82.43%。"
         }
       ]
     },
@@ -60,21 +64,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "asgeirtj /system_prompts_leaks",
-          "summary": "GitHub上出现系统提示词泄露项目，提醒开发者注意AI安全与隐私。"
+          "title": "史上最高调的AI重写：Claude花11天搞定Bun，创始人花一个月才敢交底",
+          "summary": "Claude用11天重写Bun项目，创始人谨慎一个月才公开，引发对AI代码生成能力的讨论。"
         },
         {
-          "title": "GPT-5.5 Bio Bug Bounty",
-          "summary": "OpenAI启动GPT-5.5生物安全漏洞赏金计划，强化AI生物安全防护。"
+          "title": "从“AI偷脸”到“大模型虚假输出”，司法如何追赶技术狂奔的速度？",
+          "summary": "探讨AI深度伪造和虚假输出带来的法律挑战，呼吁司法体系加速适应技术发展。"
         },
         {
-          "title": "john-rocky/coreai-model-zoo",
-          "summary": "GitHub新项目coreai-model-zoo提供核心AI模型集合，方便开发者快速部署。"
+          "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
+          "summary": "Hugging Face发布PyTorch性能分析第三部分，聚焦注意力机制的性能优化技巧。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦GPT-5.6发布与具身智能开源，模型竞争加剧，安全与隐私问题持续受关注。",
-  "generated_at": "2026-07-10T11:35:54.297030+08:00",
+  "summary": "今日AI圈聚焦于具身智能与模型竞争，同时隐私、伦理和治理问题引发广泛关注。",
+  "generated_at": "2026-07-11T10:51:16.873069+08:00",
   "source_count": 20
 }

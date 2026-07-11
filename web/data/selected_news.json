@@ -1,246 +1,135 @@
 {
-  "updated_at": "2026-07-10T11:35:54.297118+08:00",
+  "updated_at": "2026-07-11T10:51:16.873175+08:00",
   "total": 20,
   "items": [
     {
-      "id": "326fe3aebe03",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
+      "id": "a5b4863b01de",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-      "link": "https://openai.com/index/gpt-5-6",
-      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
-      "published": "2026-07-09T18:00:00+08:00",
-      "fetched_at": "2026-07-10T11:34:26.688364+08:00",
-      "pre_filter_reason": "GPT-5.6，AI模型发布",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 10,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 9.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "GPT-5.6 性能实测：如何用更少成本获得更高智能",
-          "angle": "通过对比测试，展示 GPT-5.6 在相同预算下比前代模型输出质量提升多少，并给出具体使用场景建议。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "GPT-5.6 进阶技巧：让每个 Token 发挥最大价值",
-          "angle": "讲解如何通过提示词优化和参数调整，充分利用 GPT-5.6 的“每 Token 更多智能”特性，提升复杂任务的输出质量。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "5e393d01ddf7",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "ChatGPT is now a partner for your most ambitious work",
-      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-      "published": "2026-07-09T18:00:00+08:00",
-      "fetched_at": "2026-07-10T11:34:26.688332+08:00",
-      "pre_filter_reason": "ChatGPT AI产品，AI agent",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 9.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "ChatGPT Work 实战：让 AI 帮你完成跨应用长周期项目",
-          "angle": "演示如何使用 ChatGPT Work 连接多个办公应用（如文档、表格、邮件），自动执行多步骤任务，从目标到成品全流程自动化。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "打造你的 AI 项目助理：ChatGPT Work 高级工作流设计",
-          "angle": "深入讲解如何为 ChatGPT Work 设计复杂项目指令，使其在数小时内自主完成调研、分析、报告生成等连贯工作。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "33fea32c66fd",
-      "source_id": "hn-ai",
-      "source_name": "Hacker News (AI)",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "GPT-5.6",
-      "link": "https://openai.com/index/gpt-5-6/",
-      "summary": "<p><a href=\"https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdf\" rel=\"nofollow\">https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdf</a><p><a href=\"https://developers.openai.com/api/docs/guides/latest-model\" rel=\"nofollow\">https://developers.openai.com/api/docs/guides/latest-model</a><p><a href=\"https://x.com/levie/status/2075287443411222628\" rel=\"nofollow\">https://x.com/levie/status/2075287443411222628</a>, <a href=\"https://xcancel.com/levie/status/2075287443411222628\" rel=\"nofollow\">https://xcancel.com/levie/status/2075287443411222628</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48849066\">https://news.ycombinator.com/item?id=48849066</a></p>\n<p>Points: 1111</p>\n<p># Comments: 802</p>",
-      "published": "2026-07-10T01:04:14+08:00",
-      "fetched_at": "2026-07-10T11:34:46.555617+08:00",
-      "pre_filter_reason": "GPT-5.6 AI model",
-      "scores": {
-        "importance": 9,
-        "timeliness": 10,
-        "actionability": 9,
-        "scarcity": 9,
-        "virality": 10,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 8.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "GPT-5.6 开发者必看：新 API 文档关键更新解读",
-          "angle": "梳理 GPT-5.6 API 文档中的核心变化，包括新参数、性能优化建议和迁移注意事项，帮助开发者快速上手。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "GPT-5.6 部署安全指南：从系统卡到最佳实践",
-          "angle": "解读 OpenAI 发布的 GPT-5.6 部署安全文档，总结关键安全措施和风险评估要点，为企业部署提供参考。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "58c1a12e3257",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "link": "https://openai.com/index/bio-bug-bounty",
-      "summary": "Details about the OpenAI Bio Bounty program",
-      "published": "2026-07-09T18:00:00+08:00",
-      "fetched_at": "2026-07-10T11:34:26.688350+08:00",
-      "pre_filter_reason": "GPT-5.5，OpenAI AI模型",
+      "title": "Reducing High-Bandwidth Memory Bottlenecks in JAX-Based LLM Training with Host Offloading",
+      "link": "https://developer.nvidia.com/blog/reducing-high-bandwidth-memory-bottlenecks-in-jax-based-llm-training-with-host-offloading/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/host-data-workflow-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"host-data-workflow\" width=\"768\" />Large language model (LLM) training workloads increasingly run into GPU memory limits before compute is fully used. Model weights, gradients, optimizer states,...",
+      "published": "2026-07-11T02:17:40+08:00",
+      "fetched_at": "2026-07-11T10:49:49.123576+08:00",
+      "pre_filter_reason": "LLM training optimization with JAX",
       "scores": {
         "importance": 7,
         "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 8.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "GPT-5.5 生物漏洞赏金计划：安全研究者参与指南",
-          "angle": "介绍 OpenAI 生物漏洞赏金计划的规则、奖励范围和提交流程，鼓励安全社区参与 AI 生物安全评估。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "AI 生物安全前沿：GPT-5.5 漏洞赏金计划背后的技术挑战",
-          "angle": "分析该赏金计划关注的生物安全风险类型（如双用途知识、病原体设计），探讨 AI 系统在生物领域的潜在威胁与防护。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "93b09326d694",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
-      "published": "2026-07-09T21:00:00+08:00",
-      "fetched_at": "2026-07-10T11:34:26.688293+08:00",
-      "pre_filter_reason": "AI model GPT-5.6 powering Microsoft 365 Copilot.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 7,
         "actionability": 8,
-        "scarcity": 6,
-        "virality": 7,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 8.3,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "微软 365 Copilot 升级 GPT-5.6：Word/Excel/PPT 效率翻倍技巧",
-          "angle": "展示 GPT-5.6 在 Copilot 中的实际应用案例，如自动生成复杂公式、智能排版文档、快速创建演示文稿，对比升级前后的效果差异。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "企业级 AI 办公：GPT-5.6 如何重塑 Microsoft 365 工作流",
-          "angle": "从团队协作角度出发，讲解如何利用 GPT-5.6 驱动的 Copilot 在 Chat 和 Cowork 中实现跨部门高效协同，减少重复劳动。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "c58f0de6b2f6",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "刚刚，全球首个具身专属的MoE视频模型，开源了！",
-      "link": "https://www.qbitai.com/2026/07/446568.html",
-      "summary": "视频生成的下一站，或是机器人大脑",
-      "published": "2026-07-09T13:47:05+08:00",
-      "fetched_at": "2026-07-10T11:34:37.406538+08:00",
-      "pre_filter_reason": "AI video model for robotics",
-      "scores": {
-        "importance": 9,
-        "timeliness": 10,
-        "actionability": 9,
-        "scarcity": 9,
-        "virality": 9,
+        "scarcity": 7,
+        "virality": 6,
         "crowd_heat": 0.0
       },
       "quality_score": 8.3,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "手把手教你运行全球首个具身MoE视频模型",
-          "angle": "从零开始，演示如何下载、配置并运行该开源模型，重点解析其MoE架构如何赋能机器人视觉理解。",
-          "difficulty": "入门"
+          "title": "JAX大模型训练内存不足？用Host Offloading轻松解决",
+          "angle": "手把手演示如何在JAX中配置主机内存卸载，缓解高带宽内存瓶颈，提升LLM训练效率。",
+          "difficulty": "中级"
         },
         {
           "tag": "analysis",
-          "title": "机器人大脑新纪元：MoE视频模型为何是下一站？",
-          "angle": "深度解读该模型对具身智能的意义，对比传统视频生成模型，分析MoE架构在机器人感知与决策中的独特优势。",
-          "difficulty": "入门"
+          "title": "HBM瓶颈终结者？Host Offloading技术深度解析",
+          "angle": "分析Host Offloading如何降低显存压力，对比传统方案的优势与适用场景，适合技术选型参考。",
+          "difficulty": "高级"
         }
       ]
     },
     {
-      "id": "d46df060f7a4",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
+      "id": "c69324a2c5e2",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
+      "source_tier": "T1",
       "source_lang": "en",
-      "source_category": "community",
-      "title": "asgeirtj /system_prompts_leaks",
-      "link": "https://github.com/asgeirtj/system_prompts_leaks",
-      "summary": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
-      "published": "2026-07-10T11:34:48.585361+08:00",
-      "fetched_at": "2026-07-10T11:34:48.585365+08:00",
-      "pre_filter_reason": "System prompts from AI models (Claude, ChatGPT, Gemini, Grok)",
+      "source_category": "official",
+      "title": "AI Model Co-Design: Hardware-Friendly LLM Design",
+      "link": "https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-3-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image (3)\" width=\"768\" />AI performance comes down to three dimensions:&nbsp; Accuracy: How well the model reasons and produces outputs Throughput: How many tokens per second a...",
+      "published": "2026-07-11T00:36:02+08:00",
+      "fetched_at": "2026-07-11T10:49:49.123633+08:00",
+      "pre_filter_reason": "Hardware-friendly LLM design",
+      "scores": {
+        "importance": 8,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.3,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "硬件友好型LLM设计：从算法到芯片的协同优化",
+          "angle": "介绍AI模型与硬件协同设计的三维优化方法，通过实例展示如何提升推理速度与能效。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "analysis",
+          "title": "AI性能三要素：如何用Co-Design打破算力天花板",
+          "angle": "解读硬件友好LLM设计的关键维度，分析其对未来AI芯片和模型架构的影响。",
+          "difficulty": "高级"
+        }
+      ]
+    },
+    {
+      "id": "0e3cb984a1eb",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "GPT-5.6全面围剿Claude Fable 5，“超级应用”ChatGPT Work上位，Altman紧急澄清：不会取代Coedx",
+      "link": "https://www.infoq.cn/article/iqUrh3vqeO4xszUa1bCd?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/iqUrh3vqeO4xszUa1bCd?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-07-10T22:10:30+08:00",
+      "fetched_at": "2026-07-11T10:49:57.895892+08:00",
+      "pre_filter_reason": "Mentions GPT-5.6, Claude Fable 5, ChatGPT Work, all AI models/products.",
       "scores": {
         "importance": 8,
         "timeliness": 9,
         "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "GPT-5.6 vs Claude Fable 5：超级应用ChatGPT Work登场",
+          "angle": "快速解读GPT-5.6与Claude Fable 5的竞争态势，以及ChatGPT Work作为超级应用的新定位。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "Altman紧急澄清：ChatGPT Work不会取代Coedx，背后有何深意？",
+          "angle": "分析Altman澄清背后的产品战略，探讨ChatGPT Work与Coedx的差异化定位及开发者生态影响。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "be7c3166f87c",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "行业首个具身原生世界动作模型来了！蚂蚁灵波发布LingBot-VA 2.0",
+      "link": "https://www.leiphone.com/category/industrynews/TqBu1RpMYf17uLo0.html",
+      "summary": "<p>7 月 10 日，蚂蚁灵波发布业界首个具身原生世界动作模型 LingBot-VA 2.0。该模型的发布，标志着机器人基础模型正式从“基于数字世界模型构建”到“面向物理世界原生设计”的关键转变。它代表了具身智能发展的一种关键路线选择：机器人“大脑”不再依托数字世界模型能力的“嫁接”，而是从动态建模、因果预测、实时执行等与环境交互的原始需求出发，进行原生设计。</p><p>&nbsp;</p><p>得益于具身原生架构，LingBot-VA 2.0在真机测试中表现出了出色的执行速度和泛化能力。以下面这个视频为例，在不依赖任何外部拍摄设备的情况下，机器人就可以完成与人类的多轮随机对打。</p><p>&nbsp;</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260710/6a5087525557d.gif\" />&nbsp;</p><p>&nbsp;</p><p>今年以来，世界模型与具身智能怎么融合一直是各方关注的焦点。以终为始，从物理世界的“控制执行”需求出发，就需要持续符合因果规律的“预测能力”。机器人要面对的是一个连续变化的真实世界，不仅要针对当前情况作出反应，还要理解一个动作会引发怎样的环境变化，并据此决定下一步动作。当前行业主流路线大多依托面向数字内容创作的视频生成模型，再通过微调的方式适配机器人控制任务。</p><p>&nbsp;</p><p>然而内容创作和机器人控制有着不同的出发点，内容创作更在意画质和创意，机器人控制则更在意执行效率和预测的合理性。上述这些不同导致数字世界的视频模型和物理世界的视频动作模型在设计之初就有各自的能力侧重点，强行‘微调’把前者适配成后者会带来知识遗忘、泛化性下降等副作用。</p><p>&nbsp;</p><p>LingBot-VA 2.0选择直面问题，探索一条更艰难的路——基于自回归架构从头开始预训练，通过四大核心设计构建原生基模。</p><p>&nbsp;</p><p>首先，模型引入语义视觉-动作分词器（Tokenizer）作为全新的视觉编码器，在视觉压缩过程中加入了语义与动作信息的对齐，使模型在后续的训练中更容易把“理解指令”转化为“完成动作”，有助于指令跟随与提升动作精度。其次，模型采用严格的因果预训练范式，让模型从训练一开始就使用自回归架构，确保视觉预测和动作生成完全遵循单向时间顺序。第三，引入 MoE 架构，在不牺牲推理效率的前提下有效扩大了模型容量，在性能和效率之间取得平衡。最后，通过增强的异步推理机制实现实时闭环控制，在机器人执行动作的同时预测未来状态，并利用最新真实观测不断校正下一步决策。基于这些设计，在行业普遍面临的具身世界模型执行效率低这一问题上，LingBot-VA 2.0给出了单卡150Hz实时推理效率的答卷。</p><p>&nbsp;</p><p>从“干活”的角度出发，机器人需要“看的更清楚”“想的更明白”“干的更利索”。本周，蚂蚁灵波已经连续发布和开源了多款模型，包括：面向空间感知的LingBot-Vision和 LingBot-Depth 2.0、面向“一脑多机”的动作模型LingBot-VLA 2.0、面向实时交互的 LingBot-World 2.0 和面向更高推理效率的视频生成基模 LingBot-Video。上述模型代表着蚂蚁灵波在持续探索具身原生需要的细分方向能力，而 LingBot-VA 2.0 作为集大成者扮演了收官之作的角色，也正式开启了具身原生新阶段。</p><p>&nbsp;</p><p>蚂蚁灵波CEO朱兴表示，一方面灵波将持续探索具身智能新上限，另一方面也将加速构建开放的技术生态和场景生态，助力机器人加速走向产业场景。</p><p>&nbsp;</p><p>据悉，蚂蚁灵波将于 7 月 17 日至 20 日在 2026 世界人工智能大会（WAIC）期间，全面展示全栈大脑 2.0 落地场景的能力。观众可前往上海世博展览馆（H3-B302、H1-C701展位）进行现场体验。</p><p><br /></p>",
+      "published": "2026-07-10T13:48:00+08:00",
+      "fetched_at": "2026-07-11T10:49:56.058056+08:00",
+      "pre_filter_reason": "Embodied world action model for robots",
+      "scores": {
+        "importance": 9,
+        "timeliness": 9,
+        "actionability": 8,
         "scarcity": 9,
         "virality": 8,
         "crowd_heat": 0.0
@@ -248,164 +137,90 @@
       "quality_score": 8.0,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "如何安全查看和分析泄露的AI系统提示词？",
-          "angle": "以该泄露数据集为例，讲解如何获取、解析并对比不同AI模型的系统提示词，揭示模型设计思路与安全风险。",
+          "tag": "news",
+          "title": "蚂蚁灵波发布LingBot-VA 2.0：首个具身原生世界动作模型",
+          "angle": "介绍LingBot-VA 2.0的核心创新：从数字世界模型转向物理世界原生设计，展示真机对打视频亮点。",
           "difficulty": "入门"
         },
         {
           "tag": "analysis",
-          "title": "AI系统提示词泄露事件：我们学到了什么？",
-          "angle": "分析泄露提示词中反映的模型行为设计差异，探讨提示词安全与AI对齐的实践启示。",
-          "difficulty": "入门"
+          "title": "具身智能新路线：为什么LingBot-VA 2.0选择“原生”而非“嫁接”？",
+          "angle": "深度对比具身原生架构与传统数字模型嫁接路线的优劣，分析其对机器人产业的关键意义。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "c33aa7e9a4a8",
-      "source_id": "sspai",
-      "source_name": "少数派",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "派早报：蔚来 ES8 大五座版正式上市等",
-      "link": "https://sspai.com/post/112143",
-      "summary": "OpenAI 发布 GPT-5.6 系列模型等，SpaceXAI 发布编程智能体模型 Grok 4.5。<a href=\"https://sspai.com/post/112143\" target=\"_blank\">查看全文</a>",
-      "published": "2026-07-10T08:56:18+08:00",
-      "fetched_at": "2026-07-10T11:34:31.442945+08:00",
-      "pre_filter_reason": "Mentions OpenAI GPT-5.6 and SpaceXAI Grok 4.5, both AI models.",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "GPT-5.6 vs Grok 4.5：新模型能力速览与实测",
-          "angle": "快速对比OpenAI和SpaceXAI最新模型的核心升级点，通过实际案例展示其在编程、对话等场景的表现差异。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "蔚来ES8大五座版上市：电动SUV市场再添变数",
-          "angle": "解读蔚来ES8新车型的定位与配置亮点，分析其对高端电动SUV市场的竞争格局影响。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "88829c0ac09c",
-      "source_id": "microsoft-research",
-      "source_name": "Microsoft Research",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Aurora 1.5: Extending open foundation models for weather and Earth-system applications",
-      "link": "https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/",
-      "summary": "<p>Aurora 1.5 adds 22 more variables, hourly temporal resolution, and probabilistic ensemble forecasting to the Aurora foundation model, making it more useful for real-world weather, climate, and energy applications.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/\">Aurora 1.5: Extending open foundation models for weather and Earth-system applications</a> appeared first on <a href=\"https://www.microsoft.com/en-us/research\">Microsoft Research</a>.</p>",
-      "published": "2026-07-10T00:46:22+08:00",
-      "fetched_at": "2026-07-10T11:34:28.121075+08:00",
-      "pre_filter_reason": "AI foundation model for weather",
-      "scores": {
-        "importance": 7,
-        "timeliness": 7,
-        "actionability": 6,
-        "scarcity": 7,
-        "virality": 6,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Aurora 1.5模型实战：用AI做高精度天气预测",
-          "angle": "介绍Aurora 1.5新增的22个变量和小时级分辨率，演示如何利用该模型进行能源与气候应用的概率预报。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "从Aurora 1.5看AI气象模型的进化方向",
-          "angle": "分析Aurora 1.5在时空分辨率和集合预报上的突破，探讨开源基础模型如何推动气象与能源行业的AI应用。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "1a3028c72ed2",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Claude“脑内小剧场”首曝光：隐藏工作空间自发涌现类人意识，谷歌DeepMind权威认证！",
-      "link": "https://www.infoq.cn/article/7Rgp3820XIGYqEV9JPSq?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/7Rgp3820XIGYqEV9JPSq?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-07-09T21:56:49+08:00",
-      "fetched_at": "2026-07-10T11:34:36.070379+08:00",
-      "pre_filter_reason": "Claude AI model internal behavior research",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 9,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "Claude“脑内小剧场”揭秘：AI隐藏工作空间如何涌现类人意识？",
-          "angle": "解读谷歌DeepMind认证的Claude内部工作空间现象，分析其与类人意识涌现的关联及对AI安全研究的启示。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "如何观察AI模型的“隐藏思维”？以Claude为例",
-          "angle": "介绍探测AI内部工作空间的方法论，结合Claude案例讲解如何通过提示工程或可视化工具发现模型的隐性推理过程。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "f540c70d2d76",
+      "id": "10b943308da5",
       "source_id": "qbitai",
       "source_name": "量子位",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "刚刚，OpenAI首席未来学家离职！曾被马斯克骂蠢驴",
-      "link": "https://www.qbitai.com/2026/07/446658.html",
-      "summary": "To safe AGI.",
-      "published": "2026-07-09T14:29:30+08:00",
-      "fetched_at": "2026-07-10T11:34:37.406525+08:00",
-      "pre_filter_reason": "OpenAI是AI研究机构，首席未来学家离职直接关联AI领域。",
+      "title": "全球首个「具身原生」预训练模型发布，从物理世界出发为机器人造大脑！",
+      "link": "https://www.qbitai.com/2026/07/447627.html",
+      "summary": "开源第四弹：LingBot-VA 2.0",
+      "published": "2026-07-10T16:01:00+08:00",
+      "fetched_at": "2026-07-11T10:50:03.191949+08:00",
+      "pre_filter_reason": "Embodied AI pre-trained model for robots is AI research.",
       "scores": {
         "importance": 8,
         "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 9,
+        "actionability": 8,
+        "scarcity": 9,
+        "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 8.0,
+      "quality_score": 7.8,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "首席科学家离职：OpenAI安全路线图全解析",
-          "angle": "从离职事件切入，梳理OpenAI从非营利到商业化的安全理念演变，解读‘安全AGI’的真正含义及对行业的影响。",
+          "tag": "news",
+          "title": "全球首个具身原生预训练模型开源：LingBot-VA 2.0第四弹",
+          "angle": "快速报道LingBot-VA 2.0开源发布，强调其为机器人从物理世界出发设计大脑的里程碑意义。",
           "difficulty": "入门"
         },
         {
           "tag": "tutorial",
-          "title": "马斯克骂他‘蠢驴’？揭秘AI安全派与加速派之争",
-          "angle": "以人物争议为引子，对比AI安全派（如离职科学家）与加速派（如马斯克）的核心分歧，帮助观众理解AI发展中的伦理博弈。",
-          "difficulty": "入门"
+          "title": "如何上手LingBot-VA 2.0？具身原生模型部署指南",
+          "angle": "提供LingBot-VA 2.0的快速部署教程，包括环境配置、模型加载及简单交互示例。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "b8b093a0969a",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "link": "https://openai.com/index/deutsche-telekom",
+      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+      "published": "2026-07-10T15:00:00+08:00",
+      "fetched_at": "2026-07-11T10:49:47.602545+08:00",
+      "pre_filter_reason": "AI transforming telecom operations and customer service",
+      "scores": {
+        "importance": 7,
+        "timeliness": 7,
+        "actionability": 6,
+        "scarcity": 6,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "德国电信如何用AI改造客服？三步打造AI原生运营商",
+          "angle": "拆解德国电信与OpenAI合作的具体案例，展示AI如何优化客户服务流程，提供可复用的客服自动化步骤。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "analysis",
+          "title": "从网络运维到语音未来：AI如何重塑电信业？",
+          "angle": "分析德国电信在员工工作流、网络运维和语音技术上的AI应用，探讨电信行业向AI原生转型的关键趋势。",
+          "difficulty": "高级"
         }
       ]
     },
@@ -420,123 +235,49 @@
       "link": "https://www.ifanr.com/1671521?utm_source=rss&utm_medium=rss&utm_campaign=",
       "summary": "ChatGPT+Codex=ChatGPT Work<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
       "published": "2026-07-10T10:26:53+08:00",
-      "fetched_at": "2026-07-10T11:34:40.480262+08:00",
-      "pre_filter_reason": "Mentions GPT-5.6, Codex, Claude, which are AI models.",
+      "fetched_at": "2026-07-11T10:50:06.418419+08:00",
+      "pre_filter_reason": "新闻涉及GPT-5.6和Codex等AI模型更新",
       "scores": {
         "importance": 8,
         "timeliness": 9,
         "actionability": 9,
         "scarcity": 7,
         "virality": 9,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "GPT-5.6来了，Codex没了：一文看懂OpenAI产品线大整合",
-          "angle": "拆解‘ChatGPT+Codex=ChatGPT Work’背后的产品逻辑，分析OpenAI如何通过合并工具构建统一工作平台，以及这对开发者和普通用户意味着什么。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "Claude急了？从GPT-5.6发布看AI助手竞争新格局",
-          "angle": "以‘Claude急了’为情绪锚点，对比GPT-5.6与Claude系列的最新功能差异，分析AI助手市场从‘模型竞赛’转向‘应用生态’的关键转折。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "e93d7162e7f7",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Synthetic Data Generation for Financial AI Research with NVIDIA NeMo",
-      "link": "https://developer.nvidia.com/blog/synthetic-data-generation-for-financial-ai-research-with-nvidia-nemo/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/featured-image-16x9.jpg-768x432.jpeg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"featured-image-16x9.jpg\" width=\"768\" />Fine-tuning LLMs for financial natural language processing (NLP) is constrained by limited, imbalanced data. Real-world financial news overrepresents earnings...",
-      "published": "2026-07-10T03:40:37+08:00",
-      "fetched_at": "2026-07-10T11:34:28.537956+08:00",
-      "pre_filter_reason": "AI research with NVIDIA NeMo",
-      "scores": {
-        "importance": 7,
-        "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 6,
-        "virality": 5,
         "crowd_heat": 0.0
       },
       "quality_score": 7.8,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "金融AI研究必备：用NVIDIA NeMo生成高质量合成数据",
-          "angle": "手把手教程：如何使用NeMo框架为金融领域微调LLM生成合成数据，涵盖数据隐私保护、场景模拟及模型性能提升技巧。",
-          "difficulty": "进阶"
+          "tag": "news",
+          "title": "GPT-5.6突然发布，Codex被整合：AI工具格局一夜巨变",
+          "angle": "解读ChatGPT+Codex合并为ChatGPT Work的意义，分析对开发者和普通用户的影响。",
+          "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "合成数据+金融AI：NeMo如何解决真实数据稀缺难题",
-          "angle": "从行业痛点出发，解释合成数据在金融风控、交易策略等场景中的价值，并展示NVIDIA NeMo的端到端工作流。",
-          "difficulty": "进阶"
+          "tag": "comparison",
+          "title": "Claude慌了？GPT-5.6 vs Claude最新模型：谁更胜一筹",
+          "angle": "对比GPT-5.6与Claude的近期更新，从功能、价格、生态角度分析竞争态势。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "8b8dd6a53292",
-      "source_id": "github-ai-repos",
-      "source_name": "GitHub AI 新项目",
+      "id": "2dd60a78e3d3",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
       "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "john-rocky/coreai-model-zoo",
-      "link": "https://github.com/john-rocky/coreai-model-zoo",
-      "summary": "Community model zoo + knowledge base for Apple Core AI (iOS/macOS 27): Qwen3.5 & Gemma 4 converted end-to-end, verified on-device (iPhone 17 Pro GPU/ANE), conversion gotchas, custom Metal kernels, Swift runner",
-      "published": "2026-07-10T11:34:49.003738+08:00",
-      "fetched_at": "2026-07-10T11:34:49.003740+08:00",
-      "pre_filter_reason": "AI model zoo, on-device AI conversion, custom Metal kernels for AI",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "芯片商Etched累计融资近60亿，获台积电、辛顿、李飞飞押注",
+      "link": "https://www.leiphone.com/category/industrynews/fke9ApznCGrLefuE.html",
+      "summary": "<section><section><section><section><section></section><section><section><section><section></section></section></section><section style=\"text-align: center;\"><span><img src=\"https://static.leiphone.com/uploads/new/images/20260710/6a50af4c54f2b.png?imageView2/2/w/740\" /></span></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px; font-size: 15px;\"><span>昨日，一条消息在AI圈和芯片圈炸开了锅：硅谷AI芯片创业公司Etched宣布完成累计8亿美元融资（将近60亿人民币），估值冲上50亿美元，同时拿下一张10亿美元的芯片大单。</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">这家公司此前颇为低调。它2022年才成立，三位创始人是哈佛辍学生，但它的投资人名单不可小觑：诺贝尔奖得主Geoffrey Hinton、斯坦福AI视觉先驱李飞飞、OpenAI联创Andrej Karpathy、风投教父Peter Thiel、融资的量化巨头Jane Street和台积电关联基金等悉数入局。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">他们押注的是一件看起来很极端的事：造一款只跑Transformer的芯片。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">Sohu，是Etched的第一款芯片，采用的是台积电4纳米工艺，目前已经流片成功。官方声称：在Llama 70B推理场景下，8张Sohu组成的服务器，可以替代160张英伟达H100。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">这件事指向了一个更深层的问题：AI芯片的“通用时代”，是不是快要结束了？</span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>01</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>Etched做的是什么芯片？</span><span><br /></span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em; margin-top: 24px;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">要理解Etched在做什么，得先理解AI芯片的“通用”与“专用”之别。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">英伟达的GPU，本质上是一种通用芯片。它能跑Transformer，能跑CNN，能跑RNN，甚至还能挖比特币。这种“什么都能干”的设计，是英伟达成功的根本原因。不管AI的下一个风口是什么，GPU总能用得上。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">但“通用”的代价，是效率的浪费。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">跑Transformer模型时，GPU上有大量晶体管在做这件事之外的事情。就像开着一辆全地形越野车送外卖——能送到，但油耗高得离谱。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">Etched的做法，用一句话概括就是：把Transformer架构“刻”进芯片硬件里。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px;\">Sohu是一款ASIC（专用集成电路）芯片。和GPU不同，ASIC不是为了可编程性设计的，</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">它里面的电路是固定死的，只干一件事：运行Transformer模型的前向推理。</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">这意味着，Sohu根本跑不了CNN，跑不了RNN，甚至Transformer的某个运算如果和Etched的硬件实现不匹配，也跑不了。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">这种极端的设计取舍，换来的是极端的效率。Etched官方声称，Sohu在运行Llama 70B推理时，吞吐量是H100的20倍，每美元性能是GPU的140倍。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong style=\"font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px;\">为什么说这件事“牛逼”？</span></span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">Sohu的技术突破，不在制程，不在算力规模，而在架构取舍的胆量。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">芯片行业有一个铁律：越通用的芯片，市场越大，但效率越低；越专用的芯片，效率越高，但市场越小。ASIC是效率的极致，也是风险的极致——如果算法架构变了，专用芯片就是一块昂贵的废硅。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">Etched敢下这个注，前提是它判断：Transformer架构已经足够稳定，值得为它专门造芯片。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">毕竟，Transformer 架构已统治AI主流应用超五年，从语言模型到文生视频，其底层根基短期内很难被轻易掀翻。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">更现实的推力在于大厂正面临巨量的推理成本消耗，仅OpenAI每年在此项上的支出就达数十亿美元，这种压力让市场对“降本增效”极度饥渴。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">而那张 10 亿美元的预售大单则是最好的市场验证。愿意在量产前签下如此规模的合同，意味着客户大概率已在早期原型上跑通过真实负载，且结果足够好。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong style=\"font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px;\">大牛投资人们为什么敢信Etched团队？</span></span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">芯片是极少数“PPT融资，十年出不来产品”的行业。Etched能让Hinton、Karpathy和李飞飞把钱投进来，团队底色很关键。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">三位创始人都是Thiel Fellowship的入选者。这个由Peter Thiel创办的奖学金，专门资助辍学创业的大学生，入选者能获得10万美元资助，条件是辍学全职创业。历届入选者创办的公司包括以太坊、Linear Technology等。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">CEO Gavin Uberti，曾在Jane Street做高频交易，对低延迟计算有深刻理解。CTO Chris Zhu，曾在谷歌TPU团队实习，亲历过专用芯片从设计到落地的全过程。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">公司目前有超过400名工程师，主要来自英伟达、谷歌TPU团队、博通、台积电……几乎覆盖了AI芯片产业链的每一个关键环节。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">一个有400个芯片老手的团队，加上已经流片成功的产品，加上10亿美元订单，这个组合在芯片创业公司里，已经算是“验证充分”了。</span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>02</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>英伟达铁幕下的又一道裂缝</span><span><br /></span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em; margin-top: 24px;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">英伟达的护城河，从来不只是芯片性能，更是CUDA生态。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">任何想挑战英伟达的芯片公司，都要面对一个灵魂拷问：你的芯片再快，开发者愿意重写代码吗？</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">Etched的聪明之处在于，它不要求开发者重写代码。Sohu支持直接运行Transformer模型，用户用PyTorch训练的模型，不需要改代码，就能在Sohu上跑。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong style=\"font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px;\">这是ASIC芯片历史上很少见的情况。</span></span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">以往的ASIC，通常意味着新的编程模型、新的软件栈、新的学习成本。Sohu之所以能避开这个问题，是因为Transformer的生态已经足够统一：模型格式标准，推理框架成熟，专用芯片只需要对接这个统一层就行。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">这对英伟达来说，是一个前所未有的挑战。因为英伟达的核心优势是“通用+生态”，如果客户发现“专用芯片又快又便宜还不用改代码”，通用性的溢价就会迅速缩水。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong style=\"font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px;\">事实上，眼下，全球AI芯片产业链，正在分裂成三条路线。</span></span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">一条是通用GPU路线，如英伟达、AMD等，卖铲子给所有人，不管你挖什么矿。优势是生态成熟、通用性强；劣势是效率低、成本高。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">一条是云厂商自研路线，如谷歌TPU、AWS Trainium、Meta自研芯片等，优势是深度绑定自身业务，成本可控；劣势是生态封闭，技术外溢有限。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">还有一条是第三方专用芯片路线，如Etched、Cerebras、Groq等，主打一个我为特定计算优化，但我卖给所有人。它们的优势是效率极致；劣势是风险比较集中。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">在不少业内人看来，这三条路线会长期并存，但市场份额会重新洗牌。而未来2-3年，可能是格局初定的关键窗口期。</span></span></p><p style=\"text-align: justify; margin-bottom: 40px; line-height: 1.75em;\"><strong style=\"font-size: 15px;\"><span style=\"letter-spacing: 0.5px;\">本文作者长期追踪海外AI巨头资本动态、前沿技术和幕后故事，欢迎添加作者微信 xf123a 互通有无。<span style=\"letter-spacing: 0.5px; color: #FFFFFF;\">雷峰网雷峰网雷峰网</span></span></strong></p></section></section></section></section></section>",
+      "published": "2026-07-10T16:38:00+08:00",
+      "fetched_at": "2026-07-11T10:49:56.057953+08:00",
+      "pre_filter_reason": "Etched is a chip company focused on AI, with investments from AI figures like Hinton and Fei-Fei Li.",
       "scores": {
-        "importance": 7,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 9,
-        "virality": 8,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "苹果Core AI实战：将Qwen3.5/Gemma 4部署到iPhone 17 Pro",
-          "angle": "基于开源模型库，演示如何将大模型转换、优化并部署到苹果设备（GPU/ANE），涵盖转换陷阱、自定义Metal内核及Swift运行器编写。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "从模型库到知识库：构建你自己的Apple Core AI端侧推理栈",
-          "angle": "以john-rocky/coreai-model-zoo为例，讲解如何整合社区模型、知识库与苹果Core AI框架，实现端侧高效推理。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "9e25bc217dd6",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "iOfficeAI /OfficeCLI",
-      "link": "https://github.com/iOfficeAI/OfficeCLI",
-      "summary": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-      "published": "2026-07-10T11:34:48.582645+08:00",
-      "fetched_at": "2026-07-10T11:34:48.582648+08:00",
-      "pre_filter_reason": "AI agent tool (Office suite for AI agents)",
-      "scores": {
-        "importance": 8,
+        "importance": 9,
         "timeliness": 8,
-        "actionability": 9,
+        "actionability": 8,
         "scarcity": 8,
         "virality": 8,
         "crowd_heat": 0.0
@@ -544,201 +285,436 @@
       "quality_score": 7.7,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "OfficeCLI入门：让AI代理自动读写Word/Excel/PPT",
-          "angle": "零基础教程：介绍OfficeCLI的安装、核心命令及如何与AI代理集成，实现文档自动化处理（无需安装Office）。",
-          "difficulty": "入门"
+          "tag": "analysis",
+          "title": "芯片新星Etched获台积电、辛顿、李飞飞押注：凭什么？",
+          "angle": "分析Etched的芯片技术亮点（如专用AI架构），以及为何能吸引顶级投资人和代工厂。",
+          "difficulty": "高级"
         },
         {
           "tag": "tutorial",
-          "title": "开源替代微软Office？OfficeCLI如何重塑AI办公自动化",
-          "angle": "深度解析OfficeCLI的设计理念、技术架构（单二进制、无依赖），对比传统Office自动化方案，探讨其在AI工作流中的独特优势。",
-          "difficulty": "进阶"
+          "title": "AI芯片投资入门：从Etched融资看硬件赛道机会",
+          "angle": "以Etched为例，讲解AI专用芯片（ASIC）与通用芯片的区别，以及投资者关注的关键指标。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "41ea7bd53c43",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
+      "id": "4e2f70ccc685",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
       "source_tier": "T2",
       "source_lang": "zh",
-      "source_category": "search",
-      "title": "Meta加入AI价格战！首推付费大模型，能力超越Google，定价仅为Anthropic四分之一 - 华尔街见闻",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aOGVCakd3LW91dWVaaUhaY2N5TmVQWjRoZlVUSk5IVktwX1J5Y1F6VUt3MWFoY0RBUmRiZy1wR2hueE1WcENPbm1NYkRhVmJzcG9V?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aOGVCakd3LW91dWVaaUhaY2N5TmVQWjRoZlVUSk5IVktwX1J5Y1F6VUt3MWFoY0RBUmRiZy1wR2hueE1WcENPbm1NYkRhVmJzcG9V?oc=5\" target=\"_blank\">Meta加入AI价格战！首推付费大模型，能力超越Google，定价仅为Anthropic四分之一</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">华尔街见闻</font>",
-      "published": "2026-07-09T23:35:59+08:00",
-      "fetched_at": "2026-07-10T11:34:45.022063+08:00",
-      "pre_filter_reason": "Meta AI model pricing and launch",
+      "source_category": "media",
+      "title": "1662 万美元！开发者收到 Anthropic 巨额 AI 账单，Claude 控制台显示 0 美元",
+      "link": "https://www.ithome.com/0/975/395.htm",
+      "summary": "<p>IT之家 7 月 11 日消息，科技媒体 Wccftech 昨日（7 月 10 日）发布博文，报道称<strong>一位韩国开发者收到来自 Anthropic 的 160 万美元、1662 万美元两笔扣款账单</strong>，但在 Claude API 控制台中显示为 0 美元。</p><p style=\"text-align: center;\"><img class=\"not-source\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/20de3bdd-f6bc-4fde-b174-430186c36d54.jpg?x-bce-process=image/format,f_auto\" /></p><p>博文指出该开发者于 7 月 8 日共收到 2 封由 Anthropic 自动发送的扣款通知，其中第一笔扣款金额通知约为 160 万美元（现汇率约合 1085.6 万元人民币），第二笔扣款通知显示约为 1662 万美元（IT之家注：现汇率约合 1.13 亿元人民币）。</p><p style=\"text-align: center;\"><img class=\"not-source\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/c710d687-00e0-4252-8b68-faaf05753e93.jpg?x-bce-process=image/format,f_auto\" /></p><p>开发者通过调用 API 方式来使用 AI 智能体编程，虽然有时候会因为无限循环，导致大额消耗 Token，形成巨额账单，但该媒体指出在单个周期内 1662 万美元的账单，依然是非常夸张的数据，对于个人开发者用度而言，几乎不可能达到这种消费水平。</p><p style=\"text-align: center;\"><img class=\"not-source\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/eec97bef-320b-4b69-9766-4702f5635670.jpg?x-bce-process=image/format,f_auto\" /></p><p style=\"text-align: center;\"><img class=\"not-source\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/db9a154c-080c-471c-89a4-fba3a08395eb.jpg?x-bce-process=image/format,f_auto\" /></p><p style=\"text-align: center;\"><img class=\"not-source\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/0cacc26e-67fd-4e0a-bff0-3c7815e22a22.jpg?x-bce-process=image/format,f_auto\" /></p><figcaption>Claude API 控制台中显示为 0 美元</figcaption>",
+      "published": "2026-07-11T09:18:10+08:00",
+      "fetched_at": "2026-07-11T10:50:08.057234+08:00",
+      "pre_filter_reason": "Anthropic AI账单问题，直接涉及AI服务",
       "scores": {
-        "importance": 8,
+        "importance": 6,
         "timeliness": 9,
         "actionability": 8,
-        "scarcity": 7,
+        "scarcity": 8,
         "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Meta大模型价格战：如何用四分之一成本实现超越？",
-          "angle": "对比Meta、Google、Anthropic三款大模型的定价与性能，手把手教用户如何选择性价比最高的模型，并演示调用Meta付费模型的简单步骤。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "AI价格战背后的战略：Meta为何敢定价仅为对手四分之一？",
-          "angle": "分析Meta低价策略对AI行业竞争格局的影响，探讨其技术优势与商业模式，以及对企业用户和开发者的实际意义。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "c95e200b4b79",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "蚂蚁灵波开源 LingBot-Video，全球首个面向具身的视频基模来了！",
-      "link": "https://www.leiphone.com/category/industrynews/I7tF0IFX1Q8hH4Im.html",
-      "summary": "<p>7&nbsp;月&nbsp;9&nbsp;日，蚂蚁灵波开源&nbsp;LingBot-Video，这是全球首个基于&nbsp;Mixture-of-Experts（MoE）架构、面向具身智能的开源视频生成基础模型。该模型围绕机器人和具身智能的核心需求重新设计视频预训练范式，在推理效率、物理合理性、动作理解和任务完成度等方面取得系统性提升，为视频基础模型从数字内容创作走向具身智能提供了新的开源底座。</p><p>在北京大学联合字节跳动发布的基准&nbsp;RBench&nbsp;上，LingBot-Video&nbsp;的总分是&nbsp;0.620，超越了&nbsp;Wan2.6（0.607）、Seedance 1.5 Pro（0.584）、Cosmos3 Super（0.581）。RBench&nbsp;作为面向机器人操作视频的综合评测基准，重点考察模型能否生成符合真实物理规律的机器人行为。这一结果表明，LingBot-Video&nbsp;在生成机器人相关视频时，更能保持动作过程的合理性和任务执行的完整性。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260709/6a4f10247d912.png?imageView2/2/w/740\" /></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">（图说：LingBot-Video&nbsp;在&nbsp;RBench&nbsp;上性能最优）</span></p><p style=\"text-align: left;\">&nbsp;<span style=\"text-align: left;\">为进一步验证&nbsp;LingBot-Video&nbsp;对物理世界变化的建模能力，蚂蚁灵波在内部&nbsp;benchmark&nbsp;中从通用质量和具身领域两个维度进行评估。结果显示，对比&nbsp;NVIDIA Cosmos 3、Wan 2.2 A14B、LongCat-Video、Hunyuan Video 1.5、LTX-2.3&nbsp;等五个开源模型，LingBot-Video&nbsp;在具身领域表现优于主要基线模型。</span></p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260709/6a4f10247c894.png?imageView2/2/w/740\" /></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">（图说：综合评测显示，LingBot-Video在具身相关场景中展现出更强的物理理解和动作一致性）</span></p><p>&nbsp;过去几年，视频生成模型在画质、流畅度和创意表达上快速进步，但对于具身智能来说，一个看起来逼真、动作流畅的视频，却无法反映真实的物理规律，难以支撑机器人连续预测、规划和执行任务。与此同时，具身智能还要求模型具备更高推理效率，以适应实时交互和控制闭环。</p><p>&nbsp;这也让视频生成开始出现两种不同的演进方向：一条通向影院，服务于内容创作；另一条通向机器人，服务于物理世界的理解、预测与交互。LingBot-Video&nbsp;正是蚂蚁灵波面向具身智能开辟视频生成新路线的重要探索。</p><p>LingBot-Video&nbsp;从架构、数据和训练三方面进行了系统创新。</p><p>在架构上，LingBot-Video&nbsp;采用&nbsp;DiT + MoE&nbsp;设计，以&nbsp;MoE&nbsp;替代传统&nbsp;Dense&nbsp;架构，在扩大模型容量的同时控制单次推理成本。其30B&nbsp;总参数模型在生成时仅激活约&nbsp;3B&nbsp;参数，相比同等参数规模&nbsp;Dense&nbsp;架构拥有约&nbsp;3&nbsp;倍推理效率。这一设计使模型既能获得大规模参数带来的视觉表达能力，又更适合具身智能对高效推理的要求。</p><p>在数据上，LingBot-Video&nbsp;构建了数据画像引擎，在海量互联网视频的基础上进一步引入&nbsp;VLA、VLN、Ego&nbsp;等机器人相关数据，覆盖灵巧操作、机器人移动和第一视角交互等场景，总规模达&nbsp;7&nbsp;万小时的具身数据。这些数据帮助模型学习动作与环境变化之间的关系，而不只是学习视频的表面纹理和视觉风格。&nbsp;</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260709/6a4f11d0f19f3.png?imageView2/2/w/740\" /><img src=\"https://static.leiphone.com/uploads/new/images/20260709/6a4f11d12f9e7.png?imageView2/2/w/740\" /><img src=\"https://static.leiphone.com/uploads/new/images/20260709/6a4f11d16add2.png?imageView2/2/w/740\" /></p><p>&nbsp;在训练上，LingBot-Video&nbsp;引入多维强化学习奖励系统。除美学、prompt&nbsp;跟随和运动一致性等常规指标外，模型进一步围绕物理合理性和任务完成度进行对齐，使生成结果更符合真实世界规律，也更贴近机器人在真实世界完成任务的需求。</p><p>据介绍，LingBot-Video&nbsp;可用于机器人动作预测、仿真数据生成、动作条件建模、世界模型研究等方向。目前，LingBot-Video&nbsp;已正式开源。</p><p><br /></p>",
-      "published": "2026-07-09T11:14:00+08:00",
-      "fetched_at": "2026-07-10T11:34:34.704205+08:00",
-      "pre_filter_reason": "AI model release for embodied intelligence",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 9,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "蚂蚁灵波LingBot-Video开源：5分钟上手具身智能视频生成",
-          "angle": "从零开始介绍LingBot-Video的安装与基本使用，展示如何用该模型生成机器人动作视频，突出其MoE架构和物理合理性优势。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "全球首个具身视频基模开源：LingBot-Video如何超越Wan2.6？",
-          "angle": "深度解析LingBot-Video的技术创新点（MoE架构、物理预测、动作理解），对比RBench基准测试结果，探讨其对具身智能行业的推动。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "26bc139d05c4",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "中国机器人大脑引爆海外，蚂蚁灵波全栈2.0模型定义具身智能“新大脑”",
-      "link": "https://www.leiphone.com/category/industrynews/G37AgItr75dHXX0i.html",
-      "summary": "<p>7月9日，中国AI创新力量再次引发全球关注。</p><p>中国具身智能公司——蚂蚁灵波科技升级全栈大脑2.0，一口气发布了涵盖视觉、动作、操作以及物理预测等方向的具身智能大模型，在海外开发者社区掀起热潮，发布即登上海外社交媒体热榜。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260709/6a4f3b437431c.png?imageView2/2/w/740\" /></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">图说：蚂蚁灵波世界模型LingBot-World 2.0（Infinity）及具身模型LingBot-VLA2.0登上X科技热榜</span></p><p>在Reddit、X（原Twitter）及Hugging Face等国际主流技术平台上，LingBot-World 2.0被网友评价为“相当惊艳”！&nbsp;海外知名科技博主AK等纷纷点赞，指出该模型实现了长达一小时的连续生成且画质零衰减，解决了长视频生成的结构失真难题。在海外社交媒体上，用户正通过键盘实时操控角色在赛博朋克风格的城市中施法、战斗，画面达到720p/60fps的高清流畅度，这种“像游戏一样可玩”的实时反馈能力让海外网友惊叹不已。&nbsp;</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260709/6a4f3b43a066e.png?imageView2/2/w/740\" /></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">图说：海外开发者用蚂蚁灵波世界模型LingBot-World-Infinity跑出游戏实时互动效果</span></p><p>&nbsp;然而，LingBot-World 2.0的意义远不止于娱乐。作为蚂蚁灵波全栈大脑2.0的核心一环，它被视为具身智能行业的“基础设施”。传统的机器人训练受限于物理环境的采集成本，而LingBot-World 2.0构建了一个符合物理规律、支持多人多机交互的虚拟仿真环境。这意味着机器人可以在这个无限演化的数字世界中低成本地进行海量试错与技能学习——无论是应对突发天气还是复杂地形，都能先在“脑内”演练。</p><p>&nbsp;当天发布的另一款具身视频生成模型LingBot-Video模型也同样获得了海外赞誉。知名&nbsp;AI&nbsp;博主AK在推文中特别指出：“Hour-long generation with zero quality drift ——&nbsp;这是目前所有开源模型中唯一做到的。”这意味着它不仅能用于游戏或影视预演，更能作为具身智能的“无限训练场”：机器人可在其中反复演练复杂任务，如穿越废墟、应对突发灾害，而无需担心画面失真导致学习偏差。</p><p>&nbsp;</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260709/6a4f3b4391f09.png?imageView2/2/w/740\" /></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">图说：海外知名技术大V AK解读蚂蚁灵波具身视觉模型LingBot-Video</span></p><p>&nbsp;此次开源的新一代空间模型LingBot-Depth2.0也获得了行业赞誉。现&nbsp;Agility，前&nbsp;Meta、NV&nbsp;的具身智能从业者评价：“Depth models like this are going to be incredibly valuable for spatial understanding（空间模型正在为空间理解带来难以置信的价值）。”</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260709/6a4f3b439df54.png?imageView2/2/w/740\" /></p><p>&nbsp;此次开源不仅展示了中国在具身智能领域的顶尖实力，更通过降低使用门槛，为全球具身智能的发展提供了强大的“模拟器”与“加速器”，标志着具身智能的原生范式被国际认可！</p><p><br /></p>",
-      "published": "2026-07-09T14:12:00+08:00",
-      "fetched_at": "2026-07-10T11:34:34.704075+08:00",
-      "pre_filter_reason": "AI model launch for embodied intelligence",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
       "quality_score": 7.6,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "中国机器人大脑升级：蚂蚁灵波全栈2.0模型功能速览",
-          "angle": "分模块介绍视觉、动作、操作、物理预测四大模型的核心能力，用实际案例演示如何组合使用这些模型完成复杂任务。",
+          "tag": "news",
+          "title": "天价账单乌龙：开发者收到Anthropic 1662万美元扣款，控制台却显示0元",
+          "angle": "还原事件经过，解释可能的技术原因（计费系统bug或API调用异常），提醒开发者注意账单监控。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "蚂蚁灵波全栈2.0引爆海外：具身智能“新大脑”有何不同？",
-          "angle": "分析该模型在海外开发者社区走红的原因，对比国际竞品，探讨其技术突破（如多模态融合、实时物理仿真）对机器人行业的变革意义。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "3be752e662b5",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "蚂蚁灵波开源 LingBot-Video，全球首个面向具身的视频基模来了！",
-      "link": "https://www.leiphone.com/category/industrynews/6Hyio1NHDBM1d5Iw.html",
-      "summary": "<p>&nbsp;</p><p>7 月 9 日，蚂蚁灵波开源&nbsp;LingBot-Video，这是全球首个基于 Mixture-of-Experts（MoE）架构、面向具身智能的开源视频生成基础模型。该模型围绕机器人和具身智能的核心需求重新设计视频预训练范式，在推理效率、物理合理性、动作理解和任务完成度等方面取得系统性提升，为视频基础模型从数字内容创作走向具身智能提供了新的开源底座。</p><p>&nbsp;</p><p>在北京大学联合字节跳动发布的基准&nbsp;RBench&nbsp;上，LingBot-Video 的总分是 0.620，超越了 Wan2.6（0.607）、Seedance&nbsp;1.5 Pro（0.584）、Cosmos3 Super（0.581）。RBench&nbsp;作为面向机器人操作视频的综合评测基准，重点考察模型能否生成符合真实物理规律的机器人行为。这一结果表明，LingBot-Video 在生成机器人相关视频时，更能保持动作过程的合理性和任务执行的完整性。</p><p>&nbsp;</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260709/6a4f1b8c586d5.png?imageView2/2/w/740\" /></p><p>（图说：LingBot-Video 在&nbsp;RBench&nbsp;上性能最优）</p><p>&nbsp;</p><p>为进一步验证 LingBot-Video 对物理世界变化的建模能力，蚂蚁灵波在内部 benchmark 中从通用质量和具身领域两个维度进行评估。结果显示，对比 NVIDIA Cosmos 3、Wan 2.2 A14B、LongCat-Video、Hunyuan&nbsp;Video 1.5、LTX-2.3 等五个开源模型，LingBot-Video 在具身领域表现优于主要基线模型。</p><p>&nbsp;</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260709/6a4f1b8c67dce.png?imageView2/2/w/740\" /></p><p>（图说：综合评测显示，LingBot-Video在具身相关场景中展现出更强的物理理解和动作一致性）</p><p>&nbsp;</p><p>过去几年，视频生成模型在画质、流畅度和创意表达上快速进步，但对于具身智能来说，一个看起来逼真、动作流畅的视频，却无法反映真实的物理规律，难以支撑机器人连续预测、规划和执行任务。与此同时，具身智能还要求模型具备更高推理效率，以适应实时交互和控制闭环。</p><p>&nbsp;</p><p>这也让视频生成开始出现两种不同的演进方向：一条通向影院，服务于内容创作；另一条通向机器人，服务于物理世界的理解、预测与交互。LingBot-Video 正是蚂蚁灵波面向具身智能开辟视频生成新路线的重要探索。</p><p>&nbsp;</p><p>LingBot-Video 从架构、数据和训练三方面进行了系统创新。</p><p>&nbsp;</p><p>在架构上，LingBot-Video 采用&nbsp;DiT&nbsp;+ MoE 设计，以 MoE 替代传统 Dense 架构，在扩大模型容量的同时控制单次推理成本。其 30B 总参数模型在生成时仅激活约 3B 参数，相比同等参数规模 Dense 架构拥有约 3 倍推理效率。这一设计使模型既能获得大规模参数带来的视觉表达能力，又更适合具身智能对高效推理的要求。</p><p>&nbsp;</p><p>在数据上，LingBot-Video 构建了数据画像引擎，在海量互联网视频的基础上进一步引入 VLA、VLN、Ego 等机器人相关数据，覆盖灵巧操作、机器人移动和第一视角交互等场景，总规模达 7 万小时的具身数据。这些数据帮助模型学习动作与环境变化之间的关系，而不只是学习视频的表面纹理和视觉风格。</p><p>&nbsp;</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260709/6a4f1bb5e8e17.jpeg?imageView2/2/w/740\" /><img src=\"https://static.leiphone.com/uploads/new/images/20260709/6a4f1bc19fc6e.jpeg?imageView2/2/w/740\" /><img src=\"https://static.leiphone.com/uploads/new/images/20260709/6a4f1ba551af8.gif\" /></p><p>&nbsp;</p><p>在训练上，LingBot-Video 引入多维强化学习奖励系统。除美学、prompt 跟随和运动一致性等常规指标外，模型进一步围绕物理合理性和任务完成度进行对齐，使生成结果更符合真实世界规律，也更贴近机器人在真实世界完成任务的需求。</p><p>&nbsp;</p><p>据介绍，LingBot-Video 可用于机器人动作预测、仿真数据生成、动作条件建模、世界模型研究等方向。目前，LingBot-Video 已正式开源。</p><p><br /></p>",
-      "published": "2026-07-09T11:57:00+08:00",
-      "fetched_at": "2026-07-10T11:34:34.704123+08:00",
-      "pre_filter_reason": "open-source AI video model for embodied AI",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
           "tag": "tutorial",
-          "title": "开源LingBot-Video：如何用MoE架构提升视频生成效率？",
-          "angle": "通过代码示例和参数调优，展示LingBot-Video在推理效率上的优势，对比传统视频模型，教用户如何部署并优化生成效果。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "analysis",
-          "title": "从数字内容到具身智能：LingBot-Video开源的意义何在？",
-          "angle": "探讨视频生成模型从娱乐创作转向机器人训练的关键技术跨越，分析开源策略对学术界和产业界的双重影响。",
-          "difficulty": "进阶"
+          "title": "如何避免AI API天价账单？开发者必看的费用管理指南",
+          "angle": "提供Claude、OpenAI等API的费用设置、用量警报和预算控制技巧，从该事件中吸取教训。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "47b952a2ec06",
+      "id": "b009ce40a679",
       "source_id": "apple-ml",
       "source_name": "Apple ML Research",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Recursive Language Models Meet Uncertainty: The Surprising Effectiveness of Self-Reflective Program Search for Long Context",
-      "link": "https://machinelearning.apple.com/research/self-reflective-program-search",
-      "summary": "Long-context handling remains a core challenge for language models: even with extended context windows, models often fail to reliably extract, reason over, and use the information across long contexts. Recent works like Recursive Language Models (RLMs) have approached this challenge by agentic way of decomposing long contexts into recursive sub-queries through programmatic interaction at inference. While promising, the success of RLMs critically depends on how these trajectories of context-interaction programs are selected, which has remained unexplored. In this paper, we study this problem…",
-      "published": "2026-07-09T08:00:00+08:00",
-      "fetched_at": "2026-07-10T11:34:29.000584+08:00",
-      "pre_filter_reason": "Research on recursive language models and long-context handling in AI",
+      "title": "Behavioral Privacy Leakage in Agentic Negotiation: Formalizing and Mitigating Inference Attacks via Randomized Policies",
+      "link": "https://machinelearning.apple.com/research/behavioral-privacy-agentic-negotiation",
+      "summary": "This paper was accepted at the AI4TCI (Workshop on AI for Secure and Trustworthy Critical Infrastructure Systems) Workshop at the International Conference on Availability, Reliability and Security (ARES) 2026.\nAutonomous negotiation agents are increasingly deployed in high-stakes settings such as insurance and procurement. While cryptographic techniques protect explicitly disclosed constraint values, they fail to address a subtler threat: behavioral privacy leakage, where an adversary infers private constraints from observable negotiation dynamics such as concession trajectories, timing, and…",
+      "published": "2026-07-10T08:00:00+08:00",
+      "fetched_at": "2026-07-11T10:49:49.544137+08:00",
+      "pre_filter_reason": "AI research paper on agentic negotiation and inference attacks.",
       "scores": {
         "importance": 7,
-        "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 6,
-        "crowd_heat": 3.5
+        "timeliness": 8,
+        "actionability": 6,
+        "scarcity": 8,
+        "virality": 5,
+        "crowd_heat": 0.0
       },
       "quality_score": 7.6,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "长上下文处理新方法：递归语言模型+自反射程序搜索入门",
-          "angle": "用简单案例解释Recursive Language Models和Self-Reflective Program Search的核心思想，对比传统长上下文方法，展示如何提升信息提取准确率。",
-          "difficulty": "进阶"
+          "title": "AI谈判机器人也会泄露隐私？一文读懂行为隐私泄露与防御",
+          "angle": "用通俗语言解释什么是行为隐私泄露，以及论文中提出的随机化策略如何防御推理攻击。",
+          "difficulty": "中级"
         },
         {
           "tag": "analysis",
-          "title": "递归语言模型如何突破长上下文瓶颈？最新研究解读",
-          "angle": "分析该论文提出的方法如何通过自我反思和程序搜索解决长文本推理难题，讨论其对AI Agent和文档分析等实际应用的潜在影响。",
-          "difficulty": "进阶"
+          "title": "AI代理的安全隐患：从谈判场景看隐私保护新挑战",
+          "angle": "结合论文案例，分析自主谈判代理在高风险场景下的隐私风险，并讨论未来安全设计方向。",
+          "difficulty": "高级"
+        }
+      ]
+    },
+    {
+      "id": "432cb1620b53",
+      "source_id": "ifanr",
+      "source_name": "爱范儿",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "早报｜苹果起诉OpenAI/努比亚倪飞披露AI智能体手机细节/小米澎程N90升降车顶曝光",
+      "link": "https://www.ifanr.com/1671681?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 大众计划削减一半车型线，全球裁员规模或达 12 万人\n· 扎克伯格否认 Meta 算力过剩：没人会嫌算力太多\n· 宇树 G1 机器人完成两例活体手术，登上《自然》<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
+      "published": "2026-07-11T08:14:02+08:00",
+      "fetched_at": "2026-07-11T10:50:06.418333+08:00",
+      "pre_filter_reason": "苹果起诉OpenAI、AI智能体手机、宇树机器人等涉及AI",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "宇树G1机器人做手术，未来医疗会怎样？",
+          "angle": "从宇树G1机器人完成活体手术的新闻切入，分析具身智能在医疗领域的应用前景，并探讨普通人未来可能如何受益于这类手术机器人。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "大众裁员12万，传统车企的转型阵痛",
+          "angle": "以大众计划削减一半车型线并裁员12万为引子，解读传统车企向电动化、智能化转型的必然性和挑战，并给出消费者购车建议。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "715eb2b76557",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "search",
+      "title": "从“AI偷脸”到“大模型虚假输出”，司法如何追赶技术狂奔的速度？ - 每日经济新闻",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VZUZJcmE4dE9TVjVIMUtlUmpYc3JMU2tvTGs2RWFvWXEwQ29NV2xlZldKV3NUY0UzdFZVT2FUQ3VyakRKU0p4SFVwWE11clliSTNNR3BpTFlscGlMTFlzcFpYTjUtdw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VZUZJcmE4dE9TVjVIMUtlUmpYc3JMU2tvTGs2RWFvWXEwQ29NV2xlZldKV3NUY0UzdFZVT2FUQ3VyakRKU0p4SFVwWE11clliSTNNR3BpTFlscGlMTFlzcFpYTjUtdw?oc=5\" target=\"_blank\">从“AI偷脸”到“大模型虚假输出”，司法如何追赶技术狂奔的速度？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">每日经济新闻</font>",
+      "published": "2026-07-10T18:09:00+08:00",
+      "fetched_at": "2026-07-11T10:50:11.615190+08:00",
+      "pre_filter_reason": "AI ethics, deepfake, legal issues",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "AI偷脸、虚假输出，法律怎么管？",
+          "angle": "从AI侵权案例出发，梳理当前法律对AI生成内容（如换脸、虚假信息）的监管现状与难点，并给出个人如何防范AI侵权的实用建议。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "cd17bbb995e5",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "OpenAI 权力洗牌：安全元老 Joshua Achiam 离职，白宫政策操盘手加入",
+      "link": "https://www.leiphone.com/category/industrynews/6YYc1vkNrQVjRHfg.html",
+      "summary": "<section><section><section><section><section></section><section><section><section><section></section></section></section><section><span><br /></span></section><p style=\"text-align: center; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span><span style=\"font-size: 15px;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260710/6a50afc78ec27.jpg?imageView2/2/w/740\" /></span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span style=\"font-size: 15px;\"><span><span style=\"font-size: 15px;\">换故事，换靠山，近期的两起高管变动，正在暴露OpenAI的新算盘。</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">据社交平台 X 上的爆料，近日，OpenAI安全元老、首席未来学家 Joshua Achiam宣布离职；而几乎在同一时间，拥有深厚白宫政商背景、曾参与起草美国国家级AI政策的华盛顿精英 Dean Ball 加盟OpenAI，担任“战略未来负责人”。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">这“一出一进”绝非简单的岗位更迭。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">不少业内观察者认为，此举意味着以“确保 AGI 造福全人类”为使命的理想主义技术安全派在 OpenAI 内部走向边缘化，而深谙政策制定与博弈的“政商操盘手”，正在进入 OpenAI 的权力核心。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">OpenAI 的战略叙事和套利锚点，正在转移。</span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>01</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>走掉的技术理想派：Joshua Achiam其人</span><span><br /></span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em; margin-top: 24px;\"><span><span style=\"letter-spacing: 0.5px;\">Joshua Achiam在业内被评价为典型的学术理想派。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">他本科毕业于佛罗里达大学，获得了物理学与航空航天工程双学士学位，随后进入全球计算机圣地加州大学伯克利分校深造，并顺利取得了电气工程与计算机科学博士学位。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">2017年，25岁的 Achiam 以实习生的身份跨进 OpenAI 的大门。那时的 OpenAI 还是一个纯粹的、不以盈利为目的的非营利研究室。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px;\">转正后，他作为研究科学家，长期深耕于强化学习安全约束（Safe RL）和 AI 长期社会影响研究，曾一手打造了在深度强化学习领域著名的开源教学资</span><span style=\"letter-spacing: 0.5px; font-style: normal;\">源&nbsp;</span></span><em><span><span style=\"letter-spacing: 0.5px; font-style: normal;\">Spinning Up in Deep RL</span></span></em><span><span style=\"letter-spacing: 0.5px; font-style: normal;\">。</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">在OpenAI内部，Achiam 以誓死捍卫安全使命而闻名。在今年5月埃隆·马斯克起诉 OpenAI 与萨姆·奥特曼的联邦诉讼案中，Achiam 作为证人提供的一段法庭证词成为一个经典桥段：</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">2018年，马斯克试图将 OpenAI 收入麾下并加速推进 AGI，Achiam 在会议上公开质疑马斯克：在特斯拉开发 AGI，会不会以牺牲安全性为代价？马斯克当场大怒，斥责他是“蠢驴（jackass）”。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">事后，包括如今 Anthropic 创始人（当时还是 OpenAI 核心）在内的多位同事，专门送给 Achiam 一个刻着 “为了安全，永远不要停止当那个 jackass”的金色驴奖杯。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">2024年9月，OpenAI 前 CTO Mira Murati 离职当天，萨姆·奥特曼任命 Achiam 组建并领导全新的“使命对齐团队（Mission Alignment）”。然而，这一度被视作安全派中兴的信号，很快便在商业现实面前退潮。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">在2026年2月，“使命对齐团队”遭遇解散，Achiam 被任命为“首席未来学家”。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">然而头衔虽然听上去宏大，但硅谷分析师普遍指出，这实际上是一个“明升暗降”的顾问虚职，Achiam不再拥有实际业务的否决权，而成了一个类似负责“宏观战略咨询”的角色。</span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>02</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>Dean Ball：</span></span></strong></h4></section><section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>帮OpenAI吃“政策红利”的华盛顿老手</span><span><br /></span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em; margin-top: 24px;\"><span><span style=\"letter-spacing: 0.5px;\">与学术派、理想主义的 Achiam 截然相反，7月6日入职的 Dean Ball，是一位标准的华盛顿政治精英与政策操盘手。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">Dean Ball 毕业于汉密尔顿学院历史系，曾经频繁穿梭于美国最核心的保守派与自由意志派智库群。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">他的一个核心履历来自于：他曾担任白宫科学和技术政策办公室（OSTP）的AI与新兴技术高级政策顾问，以及国家科学基金会（NSF）的 AI 战略顾问。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">更重要的是，他是去年轰动全球的白宫《美国人工智能行动计划》的主要核心起草人。在智库圈，他主笔的 Substack 专栏《Hyperdimensional》在科技政治界拥有很高的号召力。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">据了解，加入 OpenAI 后，Dean Ball 汇报给首席战略官 Jason Kwon。他将全权领导一个新设立的跨学科智囊团：战略未来团队。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">据相关披露，战略未来团队的权力辐射范围很大，比如包含对外公共政策，负责针对美国联邦政府及全球监管机构输出立法提案与游说策略。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">比如还包含对内实验室治理，协同技术团队与防备团队，重新评估技术突破可能触碰的政治红线、模型递归自我改进的监管边界，以及 AGI 对劳动力市场的冲击等议题。</span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>03</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>这“一出一进”背后有何深意？</span><span><br /></span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em; margin-top: 24px;\"><span><span style=\"letter-spacing: 0.5px;\">在不少长期跟踪 AI 产业的行业观察者看来，这两起高管变动在时间上高度重合，释放了一个非常务实的商业信号：OpenAI的套利重心之一，正在转向对外政策沟通与行业规则博弈。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">有不少观点认为，这步人事变动棋是为了去华盛顿“提前占座”。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">眼下，美国 AI 监管环境正由紧转松，行业规则面临重写。在这个节骨眼上，引入一位懂白宫政治运作的政策老手，能让 OpenAI 在规则重塑期影响高层决策。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">而更深层的行业现实是，各大厂的大模型差距正在拉平，接下来行业竞争的核心，已经从“比拼技术”，变成了“谁能左右规制标准的制定”。OpenAI 引入资深政策人才，可以为后续监管博弈储备筹码。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">事实上，华盛顿已经成了 AI 巨头们的另一个战场。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">谷歌、Anthropic 也都在扩建政府事务团队，做政策游说。OpenAI 引入 Ball 既是防御性补课，也是卡位反击。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">在长期研究宏观科技监管的业内人士眼中，对一家要上市、要赚利润的公司来说，安全是成本，而政策是杠杆。把“未来”叙事从成本中心挪到杠杆中心，影响写规则的人，率先吃到政策红利，其实是一笔很现实也很划算的账。</span></span></p><p style=\"text-align: justify; margin-bottom: 40px; line-height: 1.75em;\"><span>而 OpenAI，正在把筹码押在这里。<span>雷峰网雷峰网雷峰网</span></span></p></section></section></section></section></section>",
+      "published": "2026-07-10T16:41:00+08:00",
+      "fetched_at": "2026-07-11T10:49:56.057940+08:00",
+      "pre_filter_reason": "OpenAI personnel changes and policy involvement are directly related to AI.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "OpenAI安全负责人离职，AI安全何去何从？",
+          "angle": "解读OpenAI安全团队核心成员离职、白宫背景人士加入这一人事变动，分析其对OpenAI未来安全策略及全球AI治理格局的影响。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "391ffe9d026a",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "全球首个获工业级全域CE认证的具身智能机器人！无界动力K15开启全球批量交付",
+      "link": "https://www.leiphone.com/category/industrynews/jZnmuG3qKKX5smDx.html",
+      "summary": "<p style=\"text-align: left; margin-top: 0px; margin-bottom: 0px;\"><span style=\"text-align: left; font-family: MiSans; font-size: 10.5pt;\">2026年7月9日，无界动力正式宣布旗下第二代机器人 K15 已通过欧盟合规准入，成为</span><span style=\"text-align: left; font-family: MiSans; font-size: 10.5pt; font-weight: bold;\">全球首个获得工业级全域 CE 认证的具身智能机器人</span><span style=\"text-align: left; font-family: MiSans; font-size: 10.5pt;\">。该产品全面通过了欧盟CE-MD（机械安全）、CE-RED（无线电设备）、CE-EMC（电磁兼容）以及EN ISO 13849（功能安全）全套工业级高标准认证，并在此基础上，成为</span><span style=\"text-align: left; font-family: MiSans; font-size: 10.5pt; font-weight: bold;\">全球唯一通过 EN 18031 网络安全标准认证的具身智能机器人</span><span style=\"text-align: left; font-family: MiSans; font-size: 10.5pt;\">。</span></p><p style=\"text-align: center; margin-top: 0px; margin-bottom: 0px;\"><span style=\"text-align: left; font-family: MiSans; font-size: 10.5pt;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260710/6a5092c6c9367.png?imageView2/2/w/740\" /></span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: 'MiSans'; font-size: 10.5pt;\">工业级全域 CE 认证的通过，充分证明了无界动力机器人在结构安全、作业安全、生产安全及国际合规上已对接全球最高标准。作为全球公认准入门槛最高、体系最严苛的合规规范，CE 认证不仅让 K15 机器人全面获得了欧盟及关联英国等国家及地区的工业制造链准入资质，更因其高标准的国际通用性，为无界动力铺开全球市场筑牢了底座。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: 'MiSans'; font-size: 10.5pt;\">与此同时，无界动力全球近 1 亿美元的国内外订单已全面开启交付，相关发货计划将持续推进。目前，首批 K15 机器人正式发往欧洲，这标志着无界动力已顺利对接国际标准化交付流程，并实现了全球化供应链与服务能力的跨区域延伸。随着全球化战略的加速落地，</span><span style=\"font-family: 'MiSans'; font-size: 10.5pt; font-weight: bold;\">无界动力不仅实现了中国具身智能在高准入门槛海外场景的战略破局，更推动着中国智造向更高价值链延伸——由单纯的硬件产品输出，升级为向全球输送“软硬一体”的具身智能基础设施。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><span style=\"font-family: 'MiSans'; font-size: 10.5pt; font-weight: bold;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260710/6a5092bde13ed.png?imageView2/2/w/740\" /></span></p><h3 style=\"margin-top: 0px; margin-bottom: 0px;\"><span style=\"color: #F79646; font-family: MiSans; font-size: 10.5pt; font-weight: bold;\">深入海外工业全场景：全球首个工业级全域 CE 认证具身智能机器人</span></h3><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: 'MiSans'; font-size: 10.5pt; font-weight: bold;\">CE认证是产品进入欧洲市场的强制性安全准入背书。</span><span style=\"font-family: 'MiSans'; font-size: 10.5pt;\">而具身智能机器人出海欧洲，通过通用型合规测试只是基础，一旦切入真正的工业生产环境，车间复杂的机械风险、控制隐患以及电磁干扰，对设备的机械安全与功能安全提出了更高的要求。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: 'MiSans'; font-size: 10.5pt; font-weight: bold;\">无界动力 K15 机器人通过系统性评估，成为全球首个全面通过多项工业级&nbsp;CE&nbsp;标准认证的具身智能机器人。</span><span style=\"font-family: 'MiSans'; font-size: 10.5pt;\">这标志着产品各项指标已全面符合严苛的欧盟工业级应用标准，也为具身智能全面进驻工业一线、实现规模化产业落地筑牢了合规根基：</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: 'MiSans'; font-size: 10.5pt; font-weight: bold;\">CE-MD（机械安全指令）：&nbsp;</span><span style=\"font-family: 'MiSans'; font-size: 10.5pt;\">聚焦于复杂工业环境下的机械结构与动力系统安全，确保 K15 在动态作业与人机协作交互时，具备应对物理碰撞与机械风险的可靠防范能力，保障车间人员与周边设施的安全。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: 'MiSans'; font-size: 10.5pt; font-weight: bold;\">CE-EMC（电磁兼容指令）：&nbsp;</span><span style=\"font-family: 'MiSans'; font-size: 10.5pt;\">针对现代工业车间特性，确保 K15 运行时电磁辐射极低，与产线其他设备互不干扰，同时具备极强的电磁抗扰度，即使在强电磁干扰环境下也能保持高可靠运转。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: 'MiSans'; font-size: 10.5pt; font-weight: bold;\">CE-RED（无线电设备指令）：&nbsp;</span><span style=\"font-family: 'MiSans'; font-size: 10.5pt;\">专注于移动机器人在高频作业环境下的通信质量，验证了 K15 具备高可靠性、高带宽的无线通信传输能力，保障软硬一体数据传输的稳定。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: 'MiSans'; font-size: 10.5pt; font-weight: bold;\">EN ISO 13849（功能安全标准）：</span><span style=\"font-family: 'MiSans'; font-size: 10.5pt;\">&nbsp;深入到控制系统底层，实现从硬件架构到软件系统的全链路安全控制。作为全球首个通过完整 13849-1 与 13849-2 标准验证的具身智能机器人，K15 凭借严苛的架构冗余设计，确保在面临潜在安全风险时，底层仍具备极高容错率，实现毫秒级的主动安全响应。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: 'MiSans'; font-size: 10.5pt; font-weight: bold;\">EN 18031（网络安全认证）：</span><span style=\"font-family: 'MiSans'; font-size: 10.5pt;\">&nbsp;该标准是针对智能设备网络安全与数据安全的国际规范，对设备在复杂网络环境下的抗风险与高频数据交互能力提出了极高要求。作为</span><span style=\"font-family: 'MiSans'; font-size: 10.5pt; font-weight: bold;\">全球目前唯一</span><span style=\"font-family: 'MiSans'; font-size: 10.5pt; font-weight: bold;\">通过该项认证的具身智能机器人</span><span style=\"font-family: 'MiSans'; font-size: 10.5pt;\">，K15 在无线通信安全与数据传输保障等维度实现了高标准合规，不仅为具身智能模型确立了高规格的网络安全屏障，更全面满足了现代化智慧场景对设备安全互联的严苛要求。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: 'MiSans'; font-size: 10.5pt; font-weight: bold;\">在这一系列高标准合规资质的基础上，无界动力提前布局设备安全与网络安全的实际价值，在于将安全边界从单一终端延伸至全局网络，</span><span style=\"font-family: 'MiSans'; font-size: 10.5pt;\">为具身智能模型的数据交互提供了进一步保障，并为远程运维、在线 OTA 升级等核心功能奠定了安全基础，使机器人具备了跨地域的安全介入响应与软件持续迭代能力，全面满足了现代化智慧场景对智能设备安全互联与长效运行的严苛要求。</span></p><h3 style=\"margin-top: 0px; margin-bottom: 0px;\"><span style=\"color: #F79646; font-family: MiSans; font-size: 10.5pt; font-weight: bold;\">全球近 1 亿美元订单开启交付：首个落地欧洲新能源场景的中国具身智能企业</span></h3><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: 'MiSans'; font-size: 10.5pt;\">随着首批 K15 机器人正式发往欧洲，无界动力此前达成的全球近 1 亿美元总订单全面进入交付阶段。其中，无界动力与远景科技集团达成的全球规模化部署与联合研发合作迎来关键进展，交付其法国工厂的机器人首发阵容，已率先启程奔赴项目现场。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><span style=\"font-family: 'MiSans'; font-size: 10.5pt;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260710/6a5092e10a293.png?imageView2/2/w/740\" /></span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: 'MiSans'; font-size: 10.5pt;\">作为此次国际交付的核心主角，无界动力 K15 是一款专为全场景灵巧作业打造的通用轮式半人形机器人。该机器人结合实际场景需求，采用了兼具拟人化与轻量化的灵巧结构设计。其腕部翻转半径仅为 30mm，在全向工作空间宽度不超过 800mm 的环境下仍能稳定作业。极致的空间适应能力，让 K15 得以在业务布局上顺畅打通从工业紧凑产线、商用公共服务到未来家庭生活场景的作业链路，全面覆盖人类生产与生活的核心空间。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: 'MiSans'; font-size: 10.5pt;\">凭借成熟的国际供应链与制造能力，无界动力在行业内率先跑通了大批量、跨国界的具身智能商业化交付全流程。</span><span style=\"font-family: 'MiSans'; font-size: 10.5pt; font-weight: bold;\">这标志着中国技术出海正在向全球价值链的高端延伸。</span><span style=\"font-family: 'MiSans'; font-size: 10.5pt;\">无界动力通过技术合规与量产交付的同步突破，不仅</span><span style=\"font-family: 'MiSans'; font-size: 10.5pt; font-weight: bold;\">推动中国技术出海从传统的“纯硬件输出”向“软硬一体”智能基础设施的跨越</span><span style=\"font-family: 'MiSans'; font-size: 10.5pt;\">，更作为</span><span style=\"font-family: 'MiSans'; font-size: 10.5pt; font-weight: bold;\">首个落地欧洲新能源场景的中国具身智能企业</span><span style=\"font-family: 'MiSans'; font-size: 10.5pt;\">，成功打通了海外高门槛核心产业的落地路径，真正切入全球主流应用场景的核心腹地。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><span style=\"font-family: 'MiSans'; font-size: 10.5pt;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260710/6a5092f33184c.png?imageView2/2/w/740\" /></span></p><p style=\"margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-family: 'MiSans'; font-size: 10.5pt; color: #3E3E3E;\">站在全球化交付的新起点上，无界动力将持续以国际高标准合规资质为基石，扎实推进全球订单的高质量交付，</span><span style=\"font-family: 'MiSans'; font-size: 10.5pt; color: #3E3E3E; font-weight: bold;\">依托具身通用大脑与软硬一体的泛化能力，全面加速向多元业态的深度渗透，推动具身智能在更丰富的现实场景中迎来规模化爆发</span><span style=\"font-family: 'MiSans'; font-size: 10.5pt; color: #3E3E3E;\">。</span></p>",
+      "published": "2026-07-10T14:38:00+08:00",
+      "fetched_at": "2026-07-11T10:49:56.058043+08:00",
+      "pre_filter_reason": "Embodied intelligent robot with CE certification",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 9,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "全球首个工业级CE认证机器人，意味着什么？",
+          "angle": "以无界动力K15获得CE认证为切入点，解释CE认证对工业机器人进入欧洲市场的意义，并展望具身智能机器人在工业领域的批量交付前景。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "ed0c9fa6b8ce",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "行业首个具身原生世界动作模型来了！蚂蚁灵波发布LingBot-VA 2.0",
+      "link": "https://www.qbitai.com/2026/07/447597.html",
+      "summary": "",
+      "published": "2026-07-10T11:28:59+08:00",
+      "fetched_at": "2026-07-11T10:50:03.191975+08:00",
+      "pre_filter_reason": "Embodied world action model for robots",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 7,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "蚂蚁发布世界动作模型，具身智能要爆发了？",
+          "angle": "从蚂蚁灵波发布LingBot-VA 2.0动作模型出发，解释什么是“具身原生世界动作模型”，并分析其对机器人自主行动能力提升的关键作用。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "d9a8493392ed",
+      "source_id": "huggingface-blog",
+      "source_name": "Hugging Face Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
+      "link": "https://huggingface.co/blog/torch-attention-profile",
+      "summary": "",
+      "published": "2026-07-10T08:00:00+08:00",
+      "fetched_at": "2026-07-11T10:49:49.370753+08:00",
+      "pre_filter_reason": "PyTorch profiling, likely AI-related research.",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 5,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "PyTorch Profiling 实战：三步定位模型性能瓶颈",
+          "angle": "以“Attention is all you profile”为引，手把手演示如何用PyTorch Profiler分析Transformer模型的计算热点和内存占用，并给出优化建议。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "explainer",
+          "title": "为什么说“注意力机制”是Profiling的关键？",
+          "angle": "解读PyTorch Profiling系列第三篇的核心观点，解释为什么Attention层是性能瓶颈高发区，以及Profiling如何帮助开发者精准优化。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "8b8afd49c812",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "马斯克据悉要求特斯拉员工转向使用Grok",
+      "link": "https://36kr.com/newsflashes/3890551915411972?f=rss",
+      "summary": "据报道，马斯克在一份备忘录中告知特斯拉员工，鉴于Grok 4.5的Token成本低于竞争对手，员工们应“尽可能”切换到Grok。他还要求工程师直接通过电子邮件向他反馈有关该模型的信息。（界面）",
+      "published": "2026-07-11T10:00:57+08:00",
+      "fetched_at": "2026-07-11T10:49:51.260759+08:00",
+      "pre_filter_reason": "马斯克要求特斯拉员工使用Grok AI模型",
+      "scores": {
+        "importance": 6,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "马斯克强制特斯拉员工用Grok：成本更低但效果如何？",
+          "angle": "分析马斯克要求员工切换至Grok 4.5的背后逻辑——成本优势与内部反馈机制，并对比Grok与其他主流模型在企业场景下的表现。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "opinion",
+          "title": "从Grok到特斯拉：马斯克如何用AI重塑内部效率？",
+          "angle": "探讨马斯克通过Grok推动特斯拉内部AI工具化的战略意图，以及这种“自上而下”的AI部署方式对企业的启示。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "43daaa716d72",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "AI 内存 V-Die 方案亮相：侧立放置 DRAM 吞吐 540 tokens/s，较 HBM4 高 82.43%",
+      "link": "https://www.ithome.com/0/975/397.htm",
+      "summary": "<p>IT之家 7 月 11 日消息，科技媒体 Tom's Hardware 昨日（7 月 10 日）发布博文，报道称在 6 月召开的 IEEE / JSAP 超大规模集成电路技术研讨会上，<strong>针对 AI 加速器的内存散热与带宽瓶颈，研究团队提出 V-Die 与 MOSAIC 两种 HBM 集成方案。</strong></p><p>IT之家注：高带宽内存（HBM）是面向高性能计算与 AI 加速器的近封装内存技术，通过多层 DRAM 堆叠，并借助超宽总线与处理器近距离互连，以较短数据路径提供极高带宽。典型应用包括 GPU、AI 训练与推理加速器、超级计算节点等高吞吐场景。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/fbb43707-cc1f-4f52-bfd7-36bacf27e326.png\" /></p><figcaption>图源：AMD</figcaption><p>为了缓解 AI 加速器 HBM 内存散热与带宽瓶颈，韩国蔚山国立科学技术院（UNIST）研究人员提出 V-Die 解决方案，而日本东京大学牵头团队提出 MOSAIC 两种解决方案。</p><p>两者共同思路是将 DRAM 芯片由传统向上堆叠，改为侧立放置，以缓解更高堆叠带来的散热压力。</p><p>V-Die 竖直放置 DRAM Die 芯片，取消 TSV（硅通孔），改用每片裸片底边 I/O 连接，并在相邻裸片间加入液冷通道。</p><p>研究团队称，在与 HBM4 等容量对比下，<strong>V-Die 在 GPT-3 规模工作负载中达到 540 tokens/s，而 HBM4 为 296 tokens/s，前者高出 82.43%。</strong>V-Die 底边连接间距为 20 微米，连接数量可达 HBM4 的 4 倍，内存读取时间下降 37%。</p><p>在一组与 H100 级硬件匹配的 16 层堆叠仿真中，该方案将首 Token 时延降低 32%，约 24 毫秒。散热方面，团队称微流体冷却可将堆叠温度维持在约 45°C，低于高密度 HBM 系统常见的 80°C 以上区间。</p><p>MOSAIC 方案由东京大学牵头团队提出，重点在于提升侧立堆叠的可制造性。该方案采用正交裸片堆叠与无接触裸片互连，用微型感应线圈替代严格对准的金属信号接触。</p><p>研究人员称，该原型接口速率最高达 4 Gbps / 通道，并可在 DRAM-on-GPU 结构中实现 HBM4 级容量的 2 倍。</p><p>另一组相关的 bump-MOSAIC 硬件演示在 ECTC 会议披露，采用 100 微米间距微凸点，X 射线 CT 验证堆叠对准误差控制在 6 微米以内。研究团队称，该配置热导率达到传统堆叠的 3 倍，并可额外增加最高 30% 内存容量。</p>",
+      "published": "2026-07-11T09:52:35+08:00",
+      "fetched_at": "2026-07-11T10:50:08.057210+08:00",
+      "pre_filter_reason": "AI加速器内存方案V-Die和MOSAIC，针对AI场景",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 7,
+        "scarcity": 8,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "explainer",
+          "title": "V-Die方案是什么？它如何让AI内存速度飙升82%？",
+          "angle": "用通俗语言解释V-Die和MOSAIC两种HBM集成方案的核心创新（侧立DRAM、散热优化），并对比HBM4说明其性能提升原理。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "tutorial",
+          "title": "AI加速器内存瓶颈科普：从HBM到V-Die的演进",
+          "angle": "以图文形式梳理AI内存技术发展史，重点讲解V-Die方案如何突破带宽和散热限制，适合硬件入门读者。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "d2ff821d4a1b",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "遭连日舆论抨击后，Meta暂停AI图像生成功能",
+      "link": "https://36kr.com/newsflashes/3890535190444553?f=rss",
+      "summary": "因该功能的退出授权机制连日饱受批评，好莱坞多家艺人经纪公司也提出质疑，Meta宣布停用一项允许用户调用公开Instagram账号素材生成图像的AI功能。Meta一名发言人在声明中表示：“本周早些时候，我们推出了Meta AI的一种图像生成方式，用户只需@提及想要引用素材的公开Instagram账号即可创作图片。我们推出该功能的初衷，是提供实用的创意工具，同时让用户自主选择是否允许自身公开内容以此方式被调用。但我们收到大量反馈，证实这项功能设计存在严重问题，因此现已下线该功能。”（新浪财经）",
+      "published": "2026-07-11T09:29:55+08:00",
+      "fetched_at": "2026-07-11T10:49:51.260851+08:00",
+      "pre_filter_reason": "Meta因争议暂停AI图像生成功能，涉及AI产品与伦理",
+      "scores": {
+        "importance": 6,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "Meta AI图像功能翻车：用户隐私与创意的边界在哪？",
+          "angle": "复盘Meta因舆论压力暂停AI图像生成功能的事件，分析其设计缺陷（默认引用公开素材）及对行业隐私规范的警示。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "opinion",
+          "title": "从Meta停用AI功能看：企业如何平衡创新与用户信任？",
+          "angle": "探讨Meta此次事件背后的产品设计教训，以及AI时代企业如何在推出新功能时提前规避隐私争议。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "684cd2368c72",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "史上最高调的AI重写：Claude花11天搞定Bun，创始人花一个月才敢交底",
+      "link": "https://www.infoq.cn/article/uHkOoJ6Nfm6wNCsUryuO?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/uHkOoJ6Nfm6wNCsUryuO?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-07-10T21:21:31+08:00",
+      "fetched_at": "2026-07-11T10:49:57.895918+08:00",
+      "pre_filter_reason": "Claude AI rewriting Bun, an AI-related event.",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "explainer",
+          "title": "Claude 11天重写Bun：AI编程能力到底有多强？",
+          "angle": "解读Claude用11天完成Bun重写的案例，分析其技术路径（代码重构、测试生成）和对开发者效率的颠覆性影响。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "tutorial",
+          "title": "用Claude重写你的项目：从Bun案例学AI辅助重构技巧",
+          "angle": "以Bun重写为范例，演示如何利用Claude等AI工具进行代码重构、生成测试和文档，并分享创始人“一个月才敢交底”的谨慎心态。",
+          "difficulty": "高级"
         }
       ]
     }
