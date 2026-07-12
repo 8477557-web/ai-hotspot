@@ -1,20 +1,20 @@
 {
-  "title": "AI日报 - 2026年07月11日",
+  "title": "AI日报 - 2026年07月12日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "GPT-5.6全面围剿Claude Fable 5，“超级应用”ChatGPT Work上位，Altman紧急澄清：不会取代Coedx",
-          "summary": "OpenAI发布GPT-5.6，强化ChatGPT Work功能，引发与Claude的竞争，Altman澄清新功能不会取代Codex。"
+          "title": "GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent",
+          "summary": "OpenAI发布GPT-5.6，以700词Prompt调度64个子Agent，一小时破解困扰数学界50年的猜想。"
         },
         {
-          "title": "行业首个具身原生世界动作模型来了！蚂蚁灵波发布LingBot-VA 2.0",
-          "summary": "蚂蚁灵波发布LingBot-VA 2.0，为行业首个具身原生世界动作模型，推动机器人从物理世界学习动作。"
+          "title": "老黄RTX Spark真机现身Bilibili World！CPU和GPU直接焊在一起，笔记本跑120B大模型",
+          "summary": "NVIDIA RTX Spark亮相Bilibili World，通过CPU-GPU一体化设计使笔记本可运行120B参数大模型。"
         },
         {
-          "title": "全球首个「具身原生」预训练模型发布，从物理世界出发为机器人造大脑！",
-          "summary": "全球首个具身原生预训练模型发布，旨在为机器人构建基于物理世界的大脑，提升自主决策能力。"
+          "title": "Meta紧急下线争议AI生图功能",
+          "summary": "Meta因内容安全争议紧急下架其AI图像生成功能，引发行业对生成内容管控的讨论。"
         }
       ]
     },
@@ -22,20 +22,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "芯片商Etched累计融资近60亿，获台积电、辛顿、李飞飞押注",
-          "summary": "AI芯片公司Etched累计融资近60亿元，获得台积电、辛顿、李飞飞等知名投资方支持。"
+          "title": "苹果甩出41页PDF怒告OpenAI“偷师”其核心机密！网友：早知道就等印度开源了",
+          "summary": "苹果提交41页诉讼指控OpenAI窃取其核心机密，分析师称即使指控未证实也可能重创OpenAI硬件计划。"
         },
         {
-          "title": "马斯克据悉要求特斯拉员工转向使用Grok",
-          "summary": "马斯克据称要求特斯拉员工全面使用其AI助手Grok，以推动内部AI工具统一。"
+          "title": "独家 | 智谱创始人唐杰发内部信：「GLM 时刻」之后，什么是更重要的事",
+          "summary": "智谱创始人唐杰发布内部信，强调在GLM取得突破后需聚焦长期战略与生态建设。"
         },
         {
-          "title": "OpenAI 权力洗牌：安全元老 Joshua Achiam 离职，白宫政策操盘手加入",
-          "summary": "OpenAI安全负责人Joshua Achiam离职，前白宫政策专家加入，公司治理结构发生重大调整。"
+          "title": "特斯拉 46 天拆除 Model S/X 产线，为 Optimus 人形机器人量产铺路",
+          "summary": "特斯拉用46天拆除Model S/X产线，全力转向Optimus人形机器人量产，加速AI硬件落地。"
         },
         {
-          "title": "遭连日舆论抨击后，Meta暂停AI图像生成功能",
-          "summary": "因舆论压力，Meta暂停AI图像生成功能，以应对伦理和内容安全争议。"
+          "title": "中国首个十万卡集群落成！全国产算力支撑“十万卡时代”",
+          "summary": "中国建成首个十万卡算力集群，采用全国产硬件，标志着国产算力进入新阶段。"
         }
       ]
     },
@@ -43,20 +43,12 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "Reducing High-Bandwidth Memory Bottlenecks in JAX-Based LLM Training with Host Offloading",
-          "summary": "NVIDIA提出通过主机卸载减少JAX大模型训练中的高带宽内存瓶颈，提升训练效率。"
+          "title": "How to Evaluate General-Purpose Robot Policies for Real-World Deployment",
+          "summary": "NVIDIA发布通用机器人策略评估指南，为机器人从实验室到真实部署提供方法论。"
         },
         {
-          "title": "AI Model Co-Design: Hardware-Friendly LLM Design",
-          "summary": "NVIDIA探索硬件友好的大模型协同设计，旨在优化LLM与硬件的适配性。"
-        },
-        {
-          "title": "Behavioral Privacy Leakage in Agentic Negotiation: Formalizing and Mitigating Inference Attacks via Randomized Policies",
-          "summary": "Apple研究揭示智能体谈判中的行为隐私泄露，提出随机化策略来防御推理攻击。"
-        },
-        {
-          "title": "AI 内存 V-Die 方案亮相：侧立放置 DRAM 吞吐 540 tokens/s，较 HBM4 高 82.43%",
-          "summary": "新型V-Die内存方案通过侧立DRAM实现540 tokens/s吞吐量，性能较HBM4提升82.43%。"
+          "title": "Mesh LLM: distributed AI computing on iroh",
+          "summary": "新研究提出Mesh LLM框架，基于iroh实现分布式AI计算，提升大模型推理效率。"
         }
       ]
     },
@@ -64,21 +56,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "史上最高调的AI重写：Claude花11天搞定Bun，创始人花一个月才敢交底",
-          "summary": "Claude用11天重写Bun项目，创始人谨慎一个月才公开，引发对AI代码生成能力的讨论。"
+          "title": "分析师：特斯拉 FSD 即将迎来属于自己的 iPhone 时刻",
+          "summary": "分析师预测特斯拉FSD将迎来类似iPhone的爆发时刻，FSD v14 Lite已首次走出美国在韩国更新。"
         },
         {
-          "title": "从“AI偷脸”到“大模型虚假输出”，司法如何追赶技术狂奔的速度？",
-          "summary": "探讨AI深度伪造和虚假输出带来的法律挑战，呼吁司法体系加速适应技术发展。"
+          "title": "特斯拉正开发 Grok 语音控制 FSD 功能，未来可像与司机对话般指挥自动驾驶",
+          "summary": "特斯拉计划集成Grok语音助手，实现自然语言控制FSD，提升人车交互体验。"
         },
         {
-          "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
-          "summary": "Hugging Face发布PyTorch性能分析第三部分，聚焦注意力机制的性能优化技巧。"
+          "title": "机构：到2029年中国国内算力卡采购额将达到1.44万亿元，将诞生多家市值万亿甚至十万亿的上市企业",
+          "summary": "机构预测中国算力卡采购额2029年达1.44万亿元，将催生多家万亿级AI硬件企业。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦于具身智能与模型竞争，同时隐私、伦理和治理问题引发广泛关注。",
-  "generated_at": "2026-07-11T10:51:16.873069+08:00",
+  "summary": "今日AI圈聚焦大模型突破、算力基建加速与法律纠纷，同时机器人量产和自动驾驶语音交互成为新热点。",
+  "generated_at": "2026-07-12T11:15:58.075344+08:00",
   "source_count": 20
 }
