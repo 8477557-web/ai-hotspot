@@ -1,41 +1,183 @@
 {
-  "updated_at": "2026-07-12T11:15:58.075430+08:00",
+  "updated_at": "2026-07-13T11:18:57.003722+08:00",
   "total": 20,
   "items": [
     {
-      "id": "520b731d8792",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent",
-      "link": "https://www.qbitai.com/2026/07/447873.html",
-      "summary": "神话级大模型驾驭宝典",
-      "published": "2026-07-11T13:30:11+08:00",
-      "fetched_at": "2026-07-12T11:14:33.325957+08:00",
-      "pre_filter_reason": "GPT-5.6 is an AI model, and the news discusses AI research and multi-agent systems.",
+      "id": "92645ae49e17",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "How to Evaluate General-Purpose Robot Policies for Real-World Deployment",
+      "link": "https://developer.nvidia.com/blog/how-to-evaluate-general-purpose-robot-policies-for-real-world-deployment/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/robot_grid_2k_3x_16s_600x338.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"robot_grid_2k_3x_16s_600x338\" width=\"600\" />Robotics foundation models have made remarkable progress. Today's best systems can follow natural language instructions to pick, place, sort, and manipulate a...",
+      "published": "2026-07-12T09:08:17+08:00",
+      "fetched_at": "2026-07-13T11:17:05.095637+08:00",
+      "pre_filter_reason": "AI robotics research from NVIDIA",
       "scores": {
-        "importance": 9,
+        "importance": 8,
         "timeliness": 8,
         "actionability": 9,
-        "scarcity": 9,
-        "virality": 9,
-        "crowd_heat": 3.5
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
       },
-      "quality_score": 8.1,
+      "quality_score": 8.3,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "GPT-5.6 解谜实战：如何用700词Prompt指挥64个Agent攻克数学猜想",
-          "angle": "手把手拆解GPT-5.6的多Agent协作机制，教用户如何设计高精度Prompt来分配复杂任务，并用一个简化版数学问题演示流程。",
-          "difficulty": "进阶"
+          "title": "机器人部署评估指南：如何判断通用策略是否可靠？",
+          "angle": "从实际部署痛点出发，拆解评估通用机器人策略的关键指标（如泛化能力、安全性、鲁棒性），提供可操作的测试框架。",
+          "difficulty": "中级"
         },
         {
-          "tag": "case_study",
-          "title": "50年难题一朝解：GPT-5.6的‘神话级’能力从何而来？",
-          "angle": "分析GPT-5.6突破性成果背后的技术原理（如Agent数量与协作效率），探讨其对科研、工程等领域的实际应用价值。",
+          "tag": "analysis",
+          "title": "NVIDIA新研究解读：通用机器人策略落地的三大挑战",
+          "angle": "结合NVIDIA最新研究，分析通用机器人从实验室到真实场景的难点，并探讨行业解决方案趋势。",
           "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "e510309d6c7f",
+      "source_id": "bilibili-hot",
+      "source_name": "B站热搜",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "hotlist",
+      "title": "苹果指控OpenAI偷窃商业机密",
+      "link": "https://search.bilibili.com/all?keyword=苹果指控OpenAI偷窃商业机密",
+      "summary": "",
+      "published": "2026-07-13T11:17:28.316191+08:00",
+      "fetched_at": "2026-07-13T11:17:28.316193+08:00",
+      "pre_filter_reason": "Involves OpenAI, an AI company, and allegations of trade secret theft.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "苹果 vs OpenAI：商业机密纠纷背后的AI竞争暗战",
+          "angle": "梳理苹果指控OpenAI窃取商业机密的核心事件，分析两大巨头在AI领域的竞争格局与法律风险。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "7767361b82ce",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "高盛：AI或引爆美国通胀，存储暴涨是核心推手",
+      "link": "https://36kr.com/newsflashes/3893440881621760?f=rss",
+      "summary": "高盛最新研究表明，美国很可能将首当其冲地受到由人工智能（AI）引发的全球通胀浪潮的冲击。这家华尔街巨头对AI热潮如何推高全球消费者价格进行了分析。由于供应受限，内存芯片和半导体等关键零部件的价格被推高。高盛经济学家Megan Peters撰文指出，美国可能会遭受最严重的通胀冲击。根据高盛的估计，AI每年使美国核心个人消费支出（PCE）通胀率（美联储偏好的通胀指标）上升约20个基点。到今年年底，预计这股通胀压力将增加一倍以上，对核心PCE的推升幅度将达到50个基点。（财联社）",
+      "published": "2026-07-13T10:12:52+08:00",
+      "fetched_at": "2026-07-13T11:17:07.901132+08:00",
+      "pre_filter_reason": "AI引发通胀分析，涉及AI经济影响",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "高盛警告：AI或成美国通胀新推手，存储芯片暴涨是主因",
+          "angle": "解读高盛报告，分析AI热潮如何通过存储芯片等供应链瓶颈推高通胀，并预测对美联储政策的影响。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "explainer",
+          "title": "AI如何影响你的钱包？一文看懂“AI通胀”传导链",
+          "angle": "用通俗语言解释AI从芯片短缺到消费者物价上涨的传导路径，帮助普通观众理解宏观经济影响。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "29f501918959",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "8点1氪丨SK海力士CEO称史上最大存储短缺将在明年到来；苹果起诉OpenAI窃取商业机密‌；赛力斯预计上半年净亏损15亿元-18亿元",
+      "link": "https://36kr.com/p/3893305996442118?f=rss",
+      "summary": "<h2>今日热点导览</h2>\n  <ul>\n   <li>世界杯决赛一块草皮卖3050元，上架后很快售空</li>\n   <li>中国石化完成对中国航油重组</li>\n   <li>巨力索具因误导性陈述被罚450万元</li>\n   <li>SK海力士考虑“内存即服务”模式，或允许客户租赁而非购买芯片</li>\n   <li>马斯克据悉要求特斯拉员工转向使用Grok</li>\n  </ul>\n  <h2>TOP 3 大新闻</h2>\n  <p><strong>SK海力士CEO：2027年将成为存储行业历史上供应最紧张的一年</strong></p>\n  <p>美东时间周五（7月10日）晚间，SK海力士首席执行官郭鲁正（Kwak Noh-jung）向外界预计，2027年将成为存储行业历史上供应最紧张的一年。“现在客户纷纷前来SK海力士寻求长期供货协议。需求持续增长，而我们的产能却存在限制。尽管我们正尽最大努力扩充产能，但即使到2030年以后，客户需求仍可能高于公司的供应能力。”他说。他还表示美国在晶圆厂选址候选名单中，但尚未做出决定。公司将优先选择成本、土地、水电和技术工人条件优越的地点，美国、日本和东南亚均在考虑范围内。（新浪科技、证券时报）</p>\n  <p><strong>苹果在重磅诉讼中起诉OpenAI窃取商业机密‌，OpenAI回应</strong></p>\n  <p>苹果公司以窃取商业机密为由起诉OpenAI，指控该公司通过协同行动窃取苹果未发布产品的相关信息。苹果称OpenAI鼓动其员工分享未发布产品的相关信息、零部件、图纸及其他资料，以此来开发自家的全系列硬件产品。苹果要求OpenAI停止相关行为、销毁所有苹果的专有资料，并重新设计其待发布产品，确保其中不包含任何苹果的技术。对此，OpenAI回应称对其他公司的商业秘密不感兴趣，OpenAI仍专注于打造创新技术。（财联社）</p>\n  <p><strong>赛力斯：预计上半年净亏损15亿元-18亿元</strong></p>\n  <p>36氪获悉，赛力斯公告，预计2026年上半年归母净利润亏损15亿元到18亿元，上年同期盈利29.41亿元。受存储芯片、工业金属、碳酸锂等主要原材料价格上涨等因素的影响，公司生产成本随之增加；基于审慎性原则并进一步夯实整体资产质量，结合资产后续收益预期，对部分因技术迭代、车型换代导致适配性有限的存量资产调整账面价值。受上述因素影响，公司核心子公司问界汽车业绩出现波动，由盈转亏。因此，预计公司本期合并口径归属于上市公司股东的净利润为负值。</p>\n  <h2>AI最前沿</h2>\n  <p><strong>Meta紧急下线争议AI生图功能</strong></p>\n  <p>社交媒体巨头Meta本周推出一项允许用户通过@提及公开Instagram账号、利用他人公开内容生成AI图像的新功能。该功能上线时默认允许公开内容被引用，引发美国演员工会等机构对肖像权侵犯以及犯罪风险的强烈担忧。Meta表示，相关功能“未能达到预期效果”，因此决定全面下线。（财联社）</p>\n  <p><strong>FansAI收购OPC公司新映科技</strong></p>\n  <p>7月11日消息，AI内容和互动影视公司垚城智能（FansAI）宣布全资收购AI音乐应用新映科技，这是OPC领域目前少见的探索性并购案例。（新浪财经）</p>\n  <p><strong>腾讯洽购Manus？知情人士：腾讯仍将保留少数股东地位</strong></p>\n  <p>7月11日，有消息称腾讯正在洽谈成为通用AI Agent公司Manus的最大股东，据该消息，由腾讯牵头的中方资本组团以约20亿美元估值从Meta手中回购Manus的全部股权。记者向腾讯方面求证，截至发稿腾讯方面暂无回应。另有知情人士向记者透露，此次交易后，腾讯仍将保持少数股东地位，但不会控股。（南方都市报）</p>\n  <p><strong>马斯克据悉要求特斯拉员工转向使用Grok</strong></p>\n  <p>据报道，马斯克在一份备忘录中告知特斯拉员工，鉴于Grok 4.5的Token成本低于竞争对手，员工们应“尽可能”切换到Grok。他还要求工程师直接通过电子邮件向他反馈有关该模型的信息。（界面新闻）</p>\n  <h2>大公司/大事件</h2>\n  <p><strong>智谱创始人唐杰发内部信：“GLM时刻”之后，什么是更重要的事</strong></p>\n  <p>36氪独家获悉，7月11日，智谱创始人唐杰，在智谱发布了主题为《巨浪已来》的内部信。其中提到，智谱将不追求短期的应用变现，而是直指AGI的下一个高地：长程任务能力、完全自治的智能体系统、自我进化、极致安全治理。过去半年来，智谱收获了创立以来的高光时刻：市值较半年前上市初期涨了10倍，并在2026年 6月，跻身“万亿港元俱乐部”。</p>\n  <p><strong>长鑫科技IPO周四迎来网上申购，将成为今年A股市场规模最大的IPO</strong></p>\n  <p>根据发行安排，7月16日，长鑫科技IPO将迎来网上申购，作为国产存储芯片巨头，5月27日IPO过会，6月12日注册生效，长鑫科技此次科创板上市，拟融资金额高达295亿元，将成为今年A股市场规模最大的IPO，也是科创板史上的第二大IPO，仅次于中芯国际的532亿元。长鑫科技网上发行申购上限为167.2万股，顶格申购需配沪市市值1672万元。Wind数据显示，长鑫科技是今年以来发行股票数量最多的新股，同时也是科创板历史上发行股票数量最多的新股。这意味着，长鑫科技的中签率预计较高。（央视财经）</p>\n  <p><strong>美国共和党“鹰派”参议员林赛·格雷厄姆去世</strong></p>\n  <p>美国共和党“鹰派”参议员林赛·格雷厄姆办公室通讯主任于美东时间7月12日凌晨在社交平台发文称，格雷厄姆因突发急病，于当地时间7月11日晚去世，终年71岁。据了解，林赛·格雷厄姆，1956年出生于美国南卡罗来纳州，共和党参议员，生前任美国参议院预算委员会主席。格雷厄姆在多数外交和安全议题上持强硬立场，他与美国总统特朗普关系密切，外界认为他是促使特朗普对伊朗开战的重要推手之一。他曾将美伊战事描述为一场“对石油资源的争夺”。（CCTV国际时讯、极目新闻）</p>\n  <p><strong>世界杯决赛一块草皮卖3050元，上架后很快售空</strong></p>\n  <p>2026美加墨世界杯决赛将在纽约新泽西体育场举行，但国际足联已提前发售决赛场地的草皮，价格为每份450美元（约合人民币3050元）。这款草皮藏品在国际足联官方商店上架后很快售空。国际足联官方商店的样品图片显示，一小片绿色草皮封装在有机玻璃立方体中，上面印着“纽约新泽西体育场”、比赛时间等字样。外包装是一个黑色盒子。产品套装还包含一个U盘，里面有一段认证视频。该商品的尺寸标注为“17.5×17.5×17.5”，但没有标注单位，也没有说明这是草皮、有机玻璃立方体还是外包装的尺寸。该商品将在世界杯决赛结束后开始发货，目前仅面向美国、欧洲发货。（央视财经）</p>\n  <p><strong>宇树G1机器人完成两例活体手术，登上《自然》</strong></p>\n  <p>国际学术期刊《Nature》近日发表了一篇题为《人形机器人用于外科手术的活体可行性研究》的论文。该研究由加州大学圣迭戈分校（UCSanDiego）团队完成，成功利用宇树G1人形机器人通过远程操作为两头活猪实施了腹腔镜胆囊切除术，这也是全球首例登上《Nature》的人形机器人活体手术研究。不过，研究团队也强调，人形机器人要在临床部署中真正替代或辅助人类医生，仍需克服一系列技术挑战。</p>\n  <p><strong>大疆回应无人机吊人救援：不建议模仿，救援受损设备将免费维修</strong></p>\n  <p>据蓝鲸新闻报道，针对近日广西洪灾中出现的无人机“空中吊人”救援行为，大疆官方昨日回应称，原则上无人机严禁载人，吊人仅属救援紧急情况下的特殊操作，后续仍不建议模仿。官方信息显示，参与此次救援的多为大疆FC100和FC200系列运载无人机，售价区间为77999元至170999元。针对救援工作，大疆农业及运载系列已推出售后关怀政策，凡在救援期间出现故障或损坏的设备，经核实后由授权服务门店提供免费维修保障。（蓝鲸新闻）</p>\n  <p><strong>Meta面临1.4万亿美元罚款，被指控侵害未成年人权益</strong></p>\n  <p>美国4州联合指控“元”公司（Meta）利用成瘾算法诱导未成年人，并隐瞒其对青少年心理健康的负面影响，索赔高达1.4万亿美元；全美已有29州就此提起诉讼。与此同时，欧盟委员会依据《数字服务法》发布初步报告，要求Meta修改“自动播放”“无限滚动”等成瘾性设计，否则面临全球年收入6%的巨额罚款。Meta否认指控，并表示将继续抗辩。（央视财经）</p>\n  <p><strong>离开俞敏洪后，孙东旭与前东方甄选主播石明、天权合伙开公司</strong></p>\n  <p>近日记者查询发现，“美丽明天（北京）科技有限公司”于7月10日成立，企查查app显示，该公司股东共有三人分别是孙东旭与石明、郭天权。与东方甄选前CEO孙东旭、前主播明明、天权同名。三人分别出资340万与330万元，其中孙东旭持股比例最多为34%，任经理、董事、财务负责人。此外，国家企业信用信息公示系统显示，该公司经营范围包含鲜肉批发；鲜肉零售；水产品批发；水产品零售；新鲜水果批发；新鲜水果零售；新鲜蔬菜批发；新鲜蔬菜零售；化妆品批发；化妆品零售；演出经纪；网络文化经营等。（蓝鲸新闻）</p>\n  <p><strong>小米回应澎程N90的定价猜测</strong></p>\n  <p>小米汽车官方回应全新增程SUV澎程的网传售价传闻，称不少猜测脱离造车基础成本逻辑，呼吁大众理性看待定价预期，新车主打家庭多元空间，和现有轿车产品线平行，近期就会公布确切发布时间，准确信息以官方渠道为准。&nbsp;</p>\n  <p>此外在答网友问第 259 集中，小米还针对澎程的上市准备工作、澎程这么大的车开起来是否会有压力、撕车衣视频是什么等问题进行了解答。（新浪财经）</p>\n  <p><strong>特斯拉下令冲刺年产10万台Optimus，马斯克放话：必须实现，否则撤换整个采购团队</strong></p>\n  <p>近期，多位特斯拉供应链知情人士透露，特斯拉近期已向供应商下发具体的Optimus零部件采购指引。特斯拉要求，今年9月前产能需提升至每周1000台，年底前把产量提升到每周2000至2500台。按年底周产能推算，届时供应商将具备向特斯拉供应约10万台Optimus零部件的年化能力。据媒体报道，马斯克曾在会上向团队下达了明确的命令：必须在年底前实现产能目标，否则整个Optimus采购团队将被撤换。有供应链人士表示，这比任何纸面上的订单指引都更能体现特斯拉的决心。（21世纪经济新闻）</p>\n  <p><strong>消息称迪士尼考虑推出免费版Disney+服务</strong></p>\n  <p>据悉，迪士尼正在考虑探索免费流媒体服务，让用户可以不花钱观看 Disney+ 的部分内容。过去十年来，各大流媒体平台订阅服务价格不断上调，反而让越来越多观众流向 YouTube 等免费平台。迪士尼的免费流媒体服务究竟会提供哪些内容仍不得而知。但该公司已在今年早些时候布局竖屏短视频领域，将原创内容与宣传片结合。（IT之家）</p>\n  <p><strong>中国石化完成对中国航油重组</strong></p>\n  <p>据中国石化新闻办消息，中国石化宣布完成对中国航油的重组工作，中国航油正式成为中国石化二级全资子公司。这是推进中央企业战略性、专业化重组的重要举措，也是服务国家战略、应对国际竞争的主动作为，将提升保障国家航空能源供应安全能力和水平，推动航空能源供应绿色低碳转型，更好地服务人民美好出行需要。（央视新闻）</p>\n  <p><strong>巨力索具因误导性陈述被罚450万元</strong></p>\n  <p>36氪获悉，巨力索具公告，公司收到河北证监局下发的《行政处罚决定书》，因在深交所互动易平台回复投资者提问时未准确披露商业航天领域产品应用情况、订单金额及占比等，构成误导性陈述。河北证监局决定对公司责令改正，给予警告，并处以450万元罚款；对时任董事会秘书张云给予警告，并处以300万元罚款；对时任总经理杨超给予警告，并处以200万元罚款。</p>\n  <p><strong>SK海力士考虑“内存即服务”模式，或允许客户租赁而非购买芯片</strong></p>\n  <p>SK海力士正在考虑以新的方式销售其内存芯片的使用权，包括所谓的“内存即服务”，这意味着客户可以向这家韩国公司租用存储资源，而无需购买芯片。“我们实际上可以提供其他商业模式，”SK集团会长崔泰源在接受彭博电视采访时表示。“我们可以成为存储服务提供商，提供‘内存即服务’。未来，这实际上是我们可以关注的另一个领域。”（财联社）</p>\n  <p><strong>OpenAI安全系统负责人据悉将离职</strong></p>\n  <p>据报道，在OpenAI重组之际，该公司安全系统负责人Johannes Heidecke本周告知员工其将离职。此次重组旨在整合OpenAI的安全团队和研究团队。备忘录显示，OpenAI首席研究官Mark Chen表示，安全团队将向公司研究副总裁兼整合负责人Mia Glaese汇报工作，后者将兼任研究与安全副总裁。此前领导 OpenAI安全团队的Saachi Jain将成为公司临时安全系统负责人，向Glaese汇报工作。（界面新闻）</p>\n  <p><strong>三菱汽车将量产人形机器人，未来或考虑对外销售</strong></p>\n  <p>三菱汽车7月9日表示，将在日本工厂启动人形机器人量产。三菱汽车与其投资的新兴企业Highlanders共同开发的人形机器人将于2027年左右投产，并率先导入自有工厂使用，未来还将考虑对外销售。公司将在生产发动机的京都工厂闲置空间新建生产设备，月产能计划为1000台。（界面新闻）</p>\n  <p><strong>上半年中国创新药对外授权规模接近去年全年</strong></p>\n  <p>2026年上半年，中国共计获批38个创新药，11个新靶点、新机制药物均为国产。与此同时，中国创新药同期对外授权的交易总额接近1100亿美元。12日，在北京·昌平生命科学论坛上，国家药监局药品注册管理司相关负责人披露了中国创新药发展的最新“成绩单”。根据国家药监局统计，2025年全年，中国创新药对外授权的交易总额为1356.55亿美元。换言之，今年上半年，中国创新药对外授权规模已接近去年全年。（第一财经）</p>\n  <p><strong>欧洲央行的Moulin认为人工智能可能加剧通胀波动</strong></p>\n  <p>欧洲央行管委Emmanuel Moulin表示，人工智能对通胀的影响难以预测，而且可能导致价格波动加剧。“由于人工智能同时作用于供需两方面的变量，因此对通胀的总体影响尤为难以预测，”Moulin在Investir刊登的评论中表示。“此外，其影响可能不仅体现在通胀水平，还可能体现在通胀的波动。”这位法国央行行长表示，由于资本支出增加，人工智能短期内可能具有通胀效应，但随着生产率提升，后续则可能抑制通胀。（财联社）</p>\n  <h2>上市进行时</h2>\n  <p><strong>长江存储，31人IPO“辅导天团”亮相</strong></p>\n  <p>长江存储IPO辅导工作迎来首期进展更新。7月10日，证监会官网披露其辅导工作第一期报告，一个细节尤为抢眼——中信证券、中信建投两家券商合计派出31人组成辅导团队，如此规模在近年IPO项目中并不多见。（财联社）</p>\n  <h2>投融资</h2>\n  <p><strong>“鹰瞰智翼”完成数千万元A轮融资</strong></p>\n  <p>36氪获悉，具身智能仿生扑翼飞行机器人公司“鹰瞰智翼”已于近期完成数千万元A轮融资。本轮融资是公司在三个月内完成的第三轮融资，由元禾璞华领投，孚腾资本、厚雪资本跟投。资金将主要用于首款消费级产品的量产备货、市场拓展，团队扩充以及下一代具身智能扑翼机器人与流体仿真引擎的研发。</p>\n  <p><strong>整理</strong>｜迟雨</p>",
+      "published": "2026-07-13T07:55:49+08:00",
+      "fetched_at": "2026-07-13T11:17:07.901022+08:00",
+      "pre_filter_reason": "涉及苹果起诉OpenAI窃取商业机密等AI相关新闻",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "SK海力士CEO预警：明年将迎史上最严重存储短缺",
+          "angle": "聚焦SK海力士CEO的警告，分析存储芯片供需紧张的原因，以及对科技行业和消费者的潜在影响。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "存储短缺+AI需求爆发：2025年芯片行业将迎来什么？",
+          "angle": "结合SK海力士和苹果诉讼等事件，探讨存储短缺如何加剧AI芯片竞争，并预测行业格局变化。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "a768f91c39db",
+      "source_id": "ifanr",
+      "source_name": "爱范儿",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "早报｜曝苹果M7 Ultra最高支持1.5TB内存/海力士CEO:明年将迎史上最严峻储存短缺/马斯克奥特曼再次公开对垒",
+      "link": "https://www.ifanr.com/1671746?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 大众计划削减一半车型线，全球裁员规模或达 12 万人\n· 扎克伯格否认 Meta 算力过剩：没人会嫌算力太多\n· 宇树 G1 机器人完成两例活体手术，登上《自然》<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
+      "published": "2026-07-13T08:26:28+08:00",
+      "fetched_at": "2026-07-13T11:17:25.088453+08:00",
+      "pre_filter_reason": "包含AI芯片、机器人手术等AI相关新闻",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "苹果M7 Ultra曝光：最高支持1.5TB内存，性能怪兽来了？",
+          "angle": "汇总苹果M7 Ultra的传闻规格，分析其对专业用户和AI工作负载的意义，并对比前代产品。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "马斯克 vs 奥特曼再交锋：AI领袖的公开对垒背后",
+          "angle": "梳理马斯克与奥特曼的最新公开争论，分析两人在AI安全、开源与商业化路径上的根本分歧。",
+          "difficulty": "中级"
         }
       ]
     },
@@ -50,177 +192,103 @@
       "link": "https://www.qbitai.com/2026/07/447981.html",
       "summary": "老黄在ComputeX发布的“超级芯片”，已经在真机中落地了",
       "published": "2026-07-12T09:37:11+08:00",
-      "fetched_at": "2026-07-12T11:14:33.325858+08:00",
-      "pre_filter_reason": "RTX Spark芯片用于运行120B大模型，AI相关",
+      "fetched_at": "2026-07-13T11:17:22.035542+08:00",
+      "pre_filter_reason": "AI hardware product launch for large models",
       "scores": {
-        "importance": 8,
+        "importance": 7,
         "timeliness": 9,
         "actionability": 8,
         "scarcity": 8,
-        "virality": 9,
+        "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.8,
+      "quality_score": 7.3,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "老黄RTX Spark真机首秀：笔记本跑120B大模型，性能实测与部署指南",
-          "angle": "结合Bilibili World现场演示，测试RTX Spark在笔记本上运行120B参数大模型的推理速度、显存占用，并给出本地部署的简易步骤。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "case_study",
-          "title": "CPU+GPU‘焊’在一起：RTX Spark如何重新定义AI终端？",
-          "angle": "解读‘超级芯片’架构的创新点（集成化设计、功耗优化），对比传统方案，展望其对边缘AI和移动端大模型应用的颠覆。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "abc9efe9b75a",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "苹果甩出41页PDF怒告OpenAI“偷师”其核心机密！网友：早知道就等印度开源了",
-      "link": "https://www.infoq.cn/article/Rzh9umgPl90MgGolBcWm?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/Rzh9umgPl90MgGolBcWm?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-07-12T01:00:00+08:00",
-      "fetched_at": "2026-07-12T11:14:31.242781+08:00",
-      "pre_filter_reason": "Apple suing OpenAI over core secrets, directly involves AI company and legal dispute.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "case_study",
-          "title": "苹果怒告OpenAI‘偷师’：41页PDF揭露了什么核心机密？",
-          "angle": "梳理苹果诉讼中的关键指控（挖角、窃取工程机），分析OpenAI可能触及的苹果核心技术（如芯片设计、隐私框架），并解读双方博弈。",
+          "title": "老黄RTX Spark真机首秀：CPU和GPU焊在一起，笔记本就能跑120B大模型？",
+          "angle": "从Bilibili World现场真机入手，拆解“超级芯片”如何实现笔记本运行120B大模型，对比传统显卡+CPU方案的优势与门槛。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "苹果vs OpenAI：一场诉讼如何影响AI行业的人才与硬件格局？",
-          "angle": "从诉讼细节切入，探讨其对AI人才流动、硬件生态（如OpenAI芯片计划）的潜在冲击，以及‘印度开源’等替代方案的兴起。",
+          "tag": "tutorial",
+          "title": "120B大模型本地部署新选择：老黄RTX Spark芯片实战指南",
+          "angle": "以RTX Spark真机为案例，手把手演示如何配置环境、加载120B模型并运行推理，突出“焊在一起”带来的性能提升和便携性。",
           "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "1d292a73ffe2",
+      "id": "a722cc8593a4",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "独家 | 智谱创始人唐杰发内部信：「GLM 时刻」之后，什么是更重要的事",
-      "link": "https://36kr.com/p/3891132709206784?f=rss",
-      "summary": "<p>文 | 周鑫雨</p>\n  <p>编辑 | 张雨忻</p>\n  <p>《智能涌现》独家获悉，2026 年 7 月 11 日，智谱创始人唐杰，在智谱发布了主题为《巨浪已来》的内部信。</p>\n  <p>过去半年来，智谱收获了创立以来的高光时刻：市值较半年前上市初期涨了 10 倍，并在 2026 年 6 月，跻身“万亿港元俱乐部”——这个数字，是百度市值的近 3 倍，并且超过了小米。7 月 8 日，首批股票解禁后，智谱依然稳住了股价。</p>\n  <p>这也是当下 AI 大模型赛道，最性感的故事：押注对的技术方向，换来斐然市场口碑和商业化成绩。</p>\n  <p>抽丝剥茧，智谱起飞的根源，离不开一年前对 Coding 的押注。2025 年初，智谱就开始重新分配资源，将力量收敛到了对模型 Coding 能力的提升上。</p>\n  <p>一场活动上，清华大学计算机系教授、智谱创始人唐杰点出了押注 Coding 的理由：DeepSeek R1 的出现，标志着 Chat 范式的探索已经基本结束。后DeepSeek时代的模型训练范式，他形容智谱“Bet（赌）”了 Coding 和 Reasoning——一种能与 Agent 共生共荣的模型能力。</p>\n  <p>事实证明，这是一次成功的赌注。</p>\n  <p>如今，AI Coding 已经成了 AI 商业化的最近端。一个典型的案例，是同样靠押注 Coding，对 OpenAI“弯道超车”的 Anthropic。2024 年 1 月，Anthropic 的年化收入还只有 8700 万美金；2026 年 6 月，它的 ARR 已经突破 470 亿美元，</p>\n  <p>2025 年 7 月发布的旗舰模型 GLM-4.5，到 2026 年 6 月上线并开源的 GLM-5.2，让智谱跻身全球 AI Coding 第一梯队。 开源的 GLM-5.2，多个核心指标已经追平甚至超过了 Claude Opus 4.8，以及 GPT-5.5。</p>\n  <p>技术能力，也体现在了营收上。智谱 2025 年财报显示，截至报告期末（2026 年 3 月），MaaS 平台的 ARR 达到了 17 亿元，过去一年提升了 60 倍。</p>\n  <p>而唐杰的内部信，向我们展示了后 Coding 时代，智谱押注的新命题：</p>\n  <ul>\n   <li><strong>长程任务能力</strong>（Long Horizon Task）</li>\n   <li><strong>完全自治的智能体系统</strong>（Autonomous Agent System）</li>\n   <li><strong>自我进化</strong>（Self-Evolving）</li>\n  </ul>\n  <h3>以下是唐杰的内部信内容：</h3>\n  <p>巨浪已来</p>\n  <p>——致每一位智谱人和关心人工智能未来的伙伴</p>\n  <p>请允许我借这篇文章，谈三件事：我们是谁，我们如何看待这个时代，以及我们决定全力倾注的战略方向。</p>\n  <h4>（一）我们是谁：“本质、反直觉、专注”</h4>\n  <p>智谱从不是一家追风口的公司。它从一间实验室里长出来，带着这间实验室二十年的方法论。这套方法论可以用三个词概括：本质、反直觉、专注——想得足够深，才敢选得足够反；选得足够反，就必须守得足够久。</p>\n  <p>回望来路，我们几乎每一个关键选择都曾经显得“反直觉”。2006年，我们守着一台台式机上的学术搜索系统坐冷板凳，因为我们想清楚了那背后是“挖掘学科演化机理”这件值得用十年回答的事；2021到2022年，当“让机器像人一样思考”被绝大多数人视为登月般的疯狂计划时，我们抽调资源、押注千亿参数，做出了GLM-130B——那是ChatGPT引爆世界整整一年半之前；而在智谱2026年1月8日H股上市的那一天，我们把它当作一个全新的起点，坚定地全面回归基础模型研究，全力冲击下一代模型。</p>\n  <p>别人敲钟，我们归零。这不是姿态，这是信念——既然终点是AGI，那么短期利益或者行业风口，都只是通向终局的沿途风景。</p>\n  <p>支撑我们一路走到今天的，是一种极致的专注和至真至纯的理想主义。学术搜索系统从一台台式机做到千万用户，我们用了十年；大模型这条路，我们又做了近十年，并且还会坚定深耕，继续走下去。今天的智谱，是一群愿意追问本质、敢于反直觉，又能专注地把事情做到底的人——这就是智谱核心竞争力的来源。</p>\n  <h4>（二）我们如何看待这个时代：智能的上界正在被改写</h4>\n  <p>如果说过去二十年我们学会了一件事，那就是：真正的商业机会，从来不在产品和模式的微调里，而在智能上界的跃迁中。这是我们对当下AI变革最根本的判断，也是我们最想传递给大家的认知。</p>\n  <p>这一次变革，本质不是一次产品创新或商业模式创新，而是技术革命本身抬高了“智能上界”。谁能率先将该上界向上推升一寸，谁就能重新定义千行百业的能力边界。所有聚焦第一性原理的新一代AI企业，争夺的正是这一寸的突破。</p>\n  <p>而智能上界的演进，有一条清晰的路径。人工智能正在完成从感知智能到认知智能的跨越——机器不再只是“看见”和“听见”，而是开始“理解”和“推理”。而下一步，正指向AGI。</p>\n  <p>我们对AGI有一个朴素而苛刻的定义：AGI不是某一个天才的智慧，而是全人类智慧水平的总和。它理应具备创造出“相对论”级别原创知识的能力，这是我们衡量是否真正到达巅峰的唯一标准。通往这个终点的道路上，有几座必须翻越的山峰，它们也正是今天技术浪潮最汹涌的地方：</p>\n  <p>第一座：<strong>长程任务能力（Long Horizon Task）</strong></p>\n  <p>今天最令人兴奋的突破，是让模型学会完成一个极长的任务——不是即时问答，而是跨越数周、数月乃至数年的规划与执行。例如，一个模型可以不知疲倦地在软件中寻找漏洞，本质上是在学习一名顶级安全专家的思维方式，然后通过机器的耐力把它放大。</p>\n  <p>第二座：<strong>完全自治的智能体系统（Autonomous Agent System）</strong></p>\n  <p>在长程任务之上，能够自主驱动、协同作业、7×24小时运转的智能体群体将成为新的生产力形态。我们曾提过“一人公司OPC”，但技术的脚步比预想更快——我们正在走向“全自动化公司NPC”。记忆（Memory）、持续学习（Continual Learning）、自我评判（Self-Judge）这三个曾被认为需要范式变革才能解决的难题，现已在技术与应用的双重驱动下逐步消解：长上下文与检索增强生成（RAG）逼近记忆雏形；模型迭代频次的提升本身即在逼近持续学习；前沿模型已显露自我评判的萌芽。</p>\n  <p>第三座：<strong>自我进化（Self-Evolving）</strong></p>\n  <p>这是最艰难、也最诱人的一座。AI训练AI已经成型——模型自己写代码、自己清洗与合成数据、自己训练自己。这或许会消耗一些算力，却节省了最宝贵的人力与时间。而在大模型时代，速度是最重要的，快速迭代会直接拉开认知的代际差距。当海外头部企业开始筹建百万乃至两百万芯片级别的算力集群，其真正的用途，很可能正是让模型自己训练自己。</p>\n  <p>翻过这三座山之后，会发生什么？</p>\n  <p>AI将开始学习什么是“我”，什么是自我认知；再往后，它会触及人类的情感；更远处，是意识本身。从感知到认知，从认知到通用，从通用走向超级智能（ASI）——这条路已经铺开，巨浪已来，且不可逆转。</p>\n  <p>这并非我们一家之言。Google DeepMind在《From AGI to ASI》报告中给出了一个冷峻的论断：即便单个模型的能力永远停在人类水平，只要算力还在增长，超级智能可能会被硬生生“挤”出来。他们推演，若全球可运行AGI实例以每年十倍速增长，五年后将达一亿个。这些共享同一底层大脑、思考效率百倍提升且零成本复制经验的智能体，在群体层面即等同于ASI。换言之，从AGI迈向ASI，既需要算法层面的突破，也需要超大算力资源的汇聚。</p>\n  <p>这种不可逆转的趋势将自上而下穿透整个技术栈：当AGI到来，今天的应用或许都要被重构为AI原生，甚至不再需要这些应用；操作系统可能被重写，未来你打开电脑，看到的将是一个“LLM OS”，所有功能按需生成（generate on demand）；再往深处，是对运行了八十年的冯·诺依曼体系的挑战。金融、法律、电商、互联网……没有一个行业会置身事外。很多朋友找到我，说想变革企业、追赶AI的步伐，但真正洞察到“这场不可逆变革已然开启”者，仍属寥寥。</p>\n  <h4>（三）我们全力倾注的方向：“摸高”</h4>\n  <p>认清趋势之后，剩下的就是选择。而智谱的选择，一如既往地“反直觉”—— 在行业普遍加速商业变现的当下，我们决定向上突破。</p>\n  <p>我们将这一战略命名为 “Touch High（摸高）计划”。在人工智能从感知、认知向完全通用智能跨越的历史节点，智谱将以“摸高”的姿态，挑战当前技术的物理与算法极限。未来两年，我们计划战略性投入——不追求短期的应用变现，而是直指AGI的下一个高地。</p>\n  <p>这笔投入将集中在四大核心引擎上：</p>\n  <p>其一，长程任务。让AI从“即时问答”走向“宏大工程”，研发新一代记忆架构，使模型贯穿项目全生命周期“边学、边做、边记”，并具备将宏大目标（如“设计一种新型抗癌药物分子”）自主拆解为数千个可执行子任务的顶层能力。</p>\n  <p>其二，自治智能体系统。从“智能助手”走向“数字员工”，构建包含成千上万个不同专业“性格”与“技能”的智能体社会，让它们自主辩论、协作、审查代码、调度资源，实现“自动驾驶”级别的数字生产力。</p>\n  <p>其三，完全自我训练（Fully Self Training）。在人类高质量数据即将耗尽之际，把算力转化为进化的燃料——建设高质量合成数据工厂，通过AI与AI的博弈对抗（Self-Play）实现知识的“无中生有”，并在安全沙盒内赋予系统重构自身代码的能力，让进化速度挣脱人类工程师的物理限制。</p>\n  <p>其四，极致安全治理。这是四大引擎中我最想着重强调的一个。</p>\n  <p>能力越强大，安全约束机制也必须越稳固。智谱创立伊始即确立准则：AI必须服务于人类福祉，服务于国家战略。公司摒弃外挂式安全补丁，坚持将人类伦理、社会规范及国家法律法规作为底层公理写入模型价值函数；计划投入百亿级资源攻坚“机械可解释性”，厘清模型决策背后的神经元逻辑，推动黑盒系统向透明可解释系统转变；同时积极参与国际AI治理，防范AI技术被滥用。</p>\n  <p>这种紧迫感并非杞人忧天。当海外最前沿的顶级模型因风险考量而暂缓全面公开发布，其企业负责人公开警示AI的深远影响将深刻重塑全球力量格局时，我们更应清醒：超级智能的实现与超级对齐的研究，必须同步推进。这也是我们在面对颠覆性技术时反复审视的命题——历史一再表明，当一项技术抵达足以改变文明进程的力量量级时，安全就不再是附属品，而是技术得以存续与被允许应用的根本前提。</p>\n  <h4>（四）开放生态：智能普惠和安全治理的底层逻辑</h4>\n  <p>我们始终认为，人工智能作为引领未来的战略性技术，其长远发展离不开开放协同的产业生态。前沿智能的价值不仅在于技术突破本身，更在于它能否广泛赋能千行百业、惠及每一位开发者。我们坚信，真正的安全并非建立在技术封闭与壁垒之上，而是源于阳光下广泛的共建、共享与监督。</p>\n  <p>正是基于对技术普惠的深刻认同，智谱给出了自身的战略答卷。近日，我们发布了迄今能力最强的开源模型 GLM-5.2，它支持真正可用的百万（1M）上下文，在长程任务上继续保持领先，面向全量用户开放，并将以最宽松的 MIT 协议正式开源——任何人都可以下载、部署、商用，没有主体界别。这是公司以产品形态表达的坚定态度。</p>\n  <p>我们选择相信另一条路：前沿智能不应只属于少数人，也不应被少数规则随时收回。它应该开放、可用、可构建，并服务于每一位开发者。</p>\n  <p>这与“摸高”并不矛盾，反而是一体两面：我们一只手向上摸高，挑战智能的极限；另一只手向下铺路，让最前沿的能力尽可能地开放与普惠。摸到的高度属于全人类，修成的道路也属于每一个人。</p>\n  <h4>（五）结语：为什么是现在，为什么是我们</h4>\n  <p>有人会问：为什么智谱上市后反而还要继续倾注核心资源、向最不确定的方向“摸高”？因为我们相信一个朴素的道理：真正的登顶者，会把山修成路。</p>\n  <p>我们想清楚的那个本质，曾通过“悟道大模型”项目凝聚成几百位科学家的共识，又通过智谱的产业投资和整个生态，变成一代创业者起跳的基石。今天，我们想把这条路修得更高、更宽——高到能保护我们自己、守卫国家安全，高到能让人类有机会探索更多未知，探索宇宙的奥秘；也宽到能让每一位开发者、每一个团队，都走得上来。</p>\n  <p>在AGI时代，这些曾经遥不可及的事，第一次有了实现的可能。这正是我们这一代国人最大的幸运，也是最重的责任。</p>\n  <p>巨浪已来，趋势不可逆转。智谱要做那个迎着浪头、向上摸高的人。</p>\n  <p>不登顶，就是失败。</p>\n  <p>这一次，我们要摸到的，是属于全人类的那个高度。</p>\n  <p>智谱创始人 唐杰</p>\n  <p>2026年7月11日</p>",
-      "published": "2026-07-11T19:28:29+08:00",
-      "fetched_at": "2026-07-12T11:14:24.744768+08:00",
-      "pre_filter_reason": "Founder of AI company Zhipu discussing AI model and company growth.",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "case_study",
-          "title": "智谱创始人内部信解密：‘GLM时刻’后，万亿市值如何炼成？",
-          "angle": "拆解唐杰内部信的核心观点（技术路线选择、商业化策略），结合智谱市值暴涨10倍、超越百度小米的历程，提炼成功关键。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "从智谱看中国AI：大模型赛道‘最性感故事’的底层逻辑",
-          "angle": "分析智谱崛起背后的技术（GLM系列）、市场（万亿港元俱乐部）和战略（股票解禁后稳价），对比国内外AI公司，探讨中国大模型未来。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "4e11e84c1a63",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "分析师：即使窃密指控未获证实，苹果诉讼仍可能重创 OpenAI 硬件计划",
-      "link": "https://www.ithome.com/0/975/666.htm",
-      "summary": "<p>IT之家 7 月 12 日消息，苹果前天在美国起诉 OpenAI，指控其挖角 400 名员工、窃取工程机和机密文件。一位分析师认为，这场诉讼将成为 OpenAI 绕过 iPhone、直接与消费者建立联系的一大障碍。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/e3e140f0-969c-4059-950c-dc72de7f76c0.jpg?x-bce-process=image/format,f_auto\" /></p><p>据科技媒体 Wccftech 昨天报道，PP Foresight 分析师 Paolo Pescatore 表示，两家公司的关系正在逐步恶化，即使苹果提出的指控最终无法证实，OpenAI 的硬件计划仍可能受到影响。</p><p>他对此解释道：“苹果眼睁睁看着 OpenAI 从合作伙伴变成竞争对手，而 OpenAI 则试图降低 iPhone 依赖，与消费者建立直接联系。即使诉状中的指控没有得到证实，OpenAI 的硬件产品很可能受到拖累，双方本就脆弱的合作关系还可能进一步削弱”。</p><p>在美国加州，从竞争对手处挖角员工并不违法。但斯坦福大学法学院教授 Mark Lemley 指出：“如果那几名前苹果员工真的带走了机密文件，并在 OpenAI 使用，那么问题将变得很严重”。</p><p>IT之家注意到，AI 业界的法律纠纷主要集中在软件领域，而苹果与 OpenAI 本次案件涉及消费级硬件产品。随着案情推进，事态可能越来越复杂，预计未来还有更多信息曝光。</p><p><strong>相关阅读：</strong></p><ul class=\"small-size list-paddingleft-2\"><li><p>《<a href=\"https://www.ithome.com/0/975/370.htm\" target=\"_blank\">苹果起诉 OpenAI，指控其挖角前员工窃取未发布产品、供应链资料等商业机密</a>》</p></li><li><p>《<a href=\"https://www.ithome.com/0/975/372.htm\" target=\"_blank\">OpenAI 回应苹果起诉：我们对其他公司的商业机密毫无兴趣</a>》</p></li><li><p>《<a href=\"https://www.ithome.com/0/975/634.htm\" target=\"_blank\">彭博社揭秘苹果起诉 OpenAI 内幕：前员工一句“哈哈”成窃密关键</a>》</p></li></ul>",
-      "published": "2026-07-12T10:37:22+08:00",
-      "fetched_at": "2026-07-12T11:14:37.890876+08:00",
-      "pre_filter_reason": "苹果诉OpenAI，涉及AI公司",
+      "title": "五一视界与环天智慧正式达成空天领域战略合作",
+      "link": "https://36kr.com/newsflashes/3893500374350338?f=rss",
+      "summary": "36氪获悉，五一视界公告，公司与环天智慧正式达成空天领域战略合作，将围绕高精度卫星遥感数据的采集与“物理级可用”数据资产重建展开合作，联合定制全球首颗专为物理AI训练与仿真应用设计的商业遥感卫星——地球克隆之星“ECS-1”。据公告显示，地球克隆之星“ECS-1”是全球首颗针对物理AI数据需求专项定制的商业遥感卫星。",
+      "published": "2026-07-13T11:13:23+08:00",
+      "fetched_at": "2026-07-13T11:17:07.901060+08:00",
+      "pre_filter_reason": "涉及物理AI训练与仿真应用的商业遥感卫星",
       "scores": {
         "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "苹果诉讼的‘蝴蝶效应’：即使未证实，OpenAI硬件计划为何已遭重创？",
-          "angle": "解读分析师观点，分析诉讼对OpenAI绕过iPhone、直接面向消费者（如硬件设备）的阻碍，探讨法律风险如何影响商业扩张。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "case_study",
-          "title": "苹果vs OpenAI：一场窃密诉讼背后的硬件生态暗战",
-          "angle": "从诉讼中的‘工程机’和‘挖角400人’入手，揭示苹果与OpenAI在AI硬件（如芯片、终端设备）上的竞争，以及双方可能的和解路径。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "92645ae49e17",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "How to Evaluate General-Purpose Robot Policies for Real-World Deployment",
-      "link": "https://developer.nvidia.com/blog/how-to-evaluate-general-purpose-robot-policies-for-real-world-deployment/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/robot_grid_2k_3x_16s_600x338.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"robot_grid_2k_3x_16s_600x338\" width=\"600\" />Robotics foundation models have made remarkable progress. Today's best systems can follow natural language instructions to pick, place, sort, and manipulate a...",
-      "published": "2026-07-12T09:08:17+08:00",
-      "fetched_at": "2026-07-12T11:14:21.749619+08:00",
-      "pre_filter_reason": "Robot policy evaluation, AI robotics research",
-      "scores": {
-        "importance": 7,
         "timeliness": 7,
-        "actionability": 6,
-        "scarcity": 6,
-        "virality": 5,
+        "actionability": 7,
+        "scarcity": 9,
+        "virality": 6,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.7,
+      "quality_score": 7.2,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "机器人部署评估指南：从实验室到真实世界的关键指标",
-          "angle": "拆解评估通用机器人策略的核心维度（如鲁棒性、泛化能力、安全性），提供可操作的检查清单，帮助开发者避免常见部署陷阱。",
-          "difficulty": "中级"
+          "title": "物理AI训练新利器：全球首颗商业遥感卫星“地球克隆之星”如何助力空天数据重建？",
+          "angle": "解读五一视界与环天智慧合作背后的技术逻辑：高精度卫星遥感数据如何通过“物理级可用”重建，服务于物理AI仿真训练。",
+          "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "NVIDIA机器人基础模型：为什么评估比训练更重要？",
-          "angle": "分析当前机器人领域从模型研发转向实际部署的趋势，探讨评估框架对降低风险、加速落地的战略价值。",
-          "difficulty": "高级"
+          "tag": "tutorial",
+          "title": "从卫星到数字孪生：ECS-1卫星如何为物理AI提供“真实”训练数据？",
+          "angle": "深入分析“地球克隆之星”卫星的定制化设计，对比传统遥感数据，展示其在自动驾驶、机器人仿真等领域的应用前景。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "d93211053d46",
+      "source_id": "hn-ai",
+      "source_name": "Hacker News (AI)",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+      "link": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+      "summary": "<p>Article URL: <a href=\"https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6\">https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48882716\">https://news.ycombinator.com/item?id=48882716</a></p>\n<p>Points: 150</p>\n<p># Comments: 50</p>",
+      "published": "2026-07-13T01:13:07+08:00",
+      "fetched_at": "2026-07-13T11:17:49.196672+08:00",
+      "pre_filter_reason": "Migrating a production AI agent to a new GPT model.",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "生产级AI Agent迁移GPT-5.6实战：速度提升2.2倍，成本降低27%",
+          "angle": "以实际迁移案例为蓝本，分步讲解如何优化AI Agent的模型调用、推理缓存和Token管理，实现性能与成本的双重提升。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "AI Agent成本优化秘籍：从GPT-4到GPT-5.6的迁移经验总结",
+          "angle": "提炼迁移过程中的关键决策点（如模型选择、Prompt压缩、批处理策略），提供可复用的降本增效模板。",
+          "difficulty": "入门"
         }
       ]
     },
@@ -234,236 +302,88 @@
       "title": "wonderwhy-er /DesktopCommanderMCP",
       "link": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
       "summary": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
-      "published": "2026-07-12T11:15:01.944739+08:00",
-      "fetched_at": "2026-07-12T11:15:01.944742+08:00",
-      "pre_filter_reason": "MCP server for Claude, an AI model",
+      "published": "2026-07-13T11:17:51.455720+08:00",
+      "fetched_at": "2026-07-13T11:17:51.455723+08:00",
+      "pre_filter_reason": "MCP server for Claude AI",
       "scores": {
         "importance": 7,
         "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "手把手教你搭建Claude MCP服务器：实现终端控制与文件编辑",
-          "angle": "以DesktopCommanderMCP为例，演示如何配置MCP服务器，让Claude具备终端操作、文件搜索和差异编辑能力，提升开发效率。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "review",
-          "title": "MCP服务器实战评测：Claude变身超级开发助手",
-          "angle": "测试DesktopCommanderMCP的核心功能（终端控制、文件搜索、diff编辑），对比传统工作流，总结优劣势和最佳使用场景。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "562768f84e7a",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Meta紧急下线争议AI生图功能",
-      "link": "https://36kr.com/newsflashes/3891995047033351?f=rss",
-      "summary": "社交媒体巨头Meta本周推出一项允许用户通过@提及公开Instagram账号、利用他人公开内容生成AI图像的新功能。该功能上线时默认允许公开内容被引用，引发美国演员工会等机构对肖像权侵犯以及犯罪风险的强烈担忧。Meta表示，相关功能“未能达到预期效果”，因此决定全面下线。（财联社）",
-      "published": "2026-07-12T10:20:09+08:00",
-      "fetched_at": "2026-07-12T11:14:24.744937+08:00",
-      "pre_filter_reason": "Meta的AI图像生成功能，属于AI产品/伦理",
-      "scores": {
-        "importance": 7,
-        "timeliness": 9,
         "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "explainer",
-          "title": "Meta AI生图功能为何翻车？肖像权与AI的灰色地带",
-          "angle": "解析Meta新功能的技术原理（@提及公开账号生成图像），梳理引发争议的关键点（默认开放、肖像权侵犯、犯罪风险），并讨论行业监管启示。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "从Meta紧急下线看AI产品的伦理红线：用户同意为何至关重要？",
-          "angle": "结合Meta案例，分析AI产品设计中“默认开放”与“用户授权”的平衡问题，探讨企业如何避免类似公关危机。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "5dadc37e8ca1",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "特斯拉 46 天拆除 Model S/X 产线，为 Optimus 人形机器人量产铺路",
-      "link": "https://www.ithome.com/0/975/664.htm",
-      "summary": "<p>IT之家 7 月 12 日消息，特斯拉近日发布了一段视频，展示了位于美国加州北部弗里蒙特工厂（Fremont Factory）原有 Model S 和 Model X 生产线的拆除过程。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/7/d04afb90-dc43-4b00-a0c4-05d3fae2bc1a.jpg\" /></p><p>整个拆除工程仅耗时 46 天，期间动用了大量重型机械，拆除了混凝土地基、机器人机械臂以及输送设备，为新的生产线腾出空间。</p><p style=\"text-align: center;\"> </p><p>IT之家注意到，特斯拉在发布视频时配文称：“一个时代的结束（End of an era）。”</p><p>这不仅意味着 Model S 和 Model X 生产时代正式落幕，也标志着特斯拉正全面转向下一项重大业务 ——Optimus 人形机器人。</p><p>停止生产 Model S 和 Model X 的决定，最早是在 2026 年 1 月底举行的 2025 财年第四季度财报电话会议上公布的。当时，特斯拉 CEO 埃隆 · 马斯克表示，这两款旗舰车型将在 2026 年第二季度末结束生产，并形容这是给予它们一次“光荣退役（honorable discharge）”。</p><p>两款车型于 2026 年 4 月初停止接受定制订单，最后一批车辆则在 5 月初驶下生产线。5 月 20 日，特斯拉还专门举行了一场签名交付仪式，为这两款车型画上句号。</p><p>自 2012 年 Model S 上市以来，Model S 和随后推出的 Model X 一直是特斯拉豪华电动车产品线的代表，也奠定了公司早期发展的基础。</p><p>拆除这条生产线的主要原因，是为了将宝贵的厂房空间改造成 Optimus 人形机器人生产基地。</p><p>马斯克此前曾在财报电话会议上透露，弗里蒙特工厂原有的 Model S/X 生产线，将被一条专门生产 Optimus 的新产线取代。这条新生产线的目标年产能高达 100 万台。</p><p>这一调整也反映出特斯拉战略重心正在发生变化。公司正逐渐从传统汽车制造商，转向机器人和人工智能企业，并充分利用自身在自动驾驶、AI 神经网络训练以及大规模制造方面积累的技术优势。</p><p>Optimus 是特斯拉研发的通用型人形机器人。其目标是在工厂、仓库、未来家庭等场景中，承担重复性、高危险性的工作。</p><p>该机器人依托特斯拉自主研发的 AI 和神经网络技术，希望打造一款兼具通用性与低成本优势的平台。</p><p>目前，第三代 Optimus（Optimus Gen 3）已在弗里蒙特工厂开始小规模生产。利用改造后的新产线进行大规模量产，预计将在今年 7 月底或 8 月启动。</p><p>特斯拉希望 Optimus 能够快速实现规模化生产。根据公司内部目标，到 2026 年底，年产量有望达到数万台，甚至数十万台。</p><p>从长期来看，特斯拉还正在得州超级工厂（Giga Texas）建设规模更大的第二代 Optimus 工厂。未来，该工厂的年产能有望达到数百万台。</p><p>特斯拉认为，Optimus 将成为一款具有颠覆意义的新产品。未来，无论是业务规模还是商业价值，都有可能超过公司的汽车业务，并推动机器人在各行各业的大规模应用。马斯克甚至曾预测，Optimus 将成为“有史以来最受欢迎的产品”。</p><p>随着弗里蒙特工厂 Model S 和 Model X 生产线的拆除，一个属于特斯拉豪华电动车的时代正式落下帷幕，而属于 Optimus 人形机器人的新时代，则正在快速开启。</p>",
-      "published": "2026-07-12T10:33:28+08:00",
-      "fetched_at": "2026-07-12T11:14:37.890903+08:00",
-      "pre_filter_reason": "涉及特斯拉人形机器人Optimus，属于AI/机器人产品",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
+        "scarcity": 6,
         "virality": 7,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "特斯拉46天拆线：Model S/X停产背后的人形机器人战略",
-          "angle": "解读特斯拉快速拆除产线的战略意图，分析Optimus人形机器人的量产计划对工厂布局、供应链和产能的影响。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "explainer",
-          "title": "从汽车到机器人：特斯拉弗里蒙特工厂的转型之路",
-          "angle": "以视频中拆除过程为切入点，介绍特斯拉如何将汽车产线改造为人形机器人产线，包括设备迁移、地基拆除等工程细节。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "c0bab759e48b",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "机构：到2029年中国国内算力卡采购额将达到1.44万亿元，将诞生多家市值万亿甚至十万亿的上市企业",
-      "link": "https://36kr.com/newsflashes/3891934990744327?f=rss",
-      "summary": "据央视财经，有机构预测，到2029年，中国国内算力卡采购额将达到1.44万亿元。庞大的算力需求让投资机构相信，中国将诞生多家市值万亿甚至十万亿的上市企业。（财联社）",
-      "published": "2026-07-12T09:00:00+08:00",
-      "fetched_at": "2026-07-12T11:14:24.745031+08:00",
-      "pre_filter_reason": "Computing power procurement forecast, AI infrastructure",
-      "scores": {
-        "importance": 8,
-        "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "1.44万亿算力卡市场：中国AI基建的下一波投资机会",
-          "angle": "解读机构预测数据，分析算力需求爆发的驱动力（大模型、自动驾驶等），梳理受益产业链环节（芯片、服务器、数据中心）。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "explainer",
-          "title": "算力卡采购额1.44万亿意味着什么？普通人如何理解AI基建规模？",
-          "angle": "用通俗比喻（如“相当于建多少座数据中心”）解释万亿级算力投资的意义，并探讨对就业、创业和日常生活的潜在影响。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "8143173a47da",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "google-labs-code /stitch-skills",
-      "link": "https://github.com/google-labs-code/stitch-skills",
-      "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "published": "2026-07-12T11:15:01.943738+08:00",
-      "fetched_at": "2026-07-12T11:15:01.943741+08:00",
-      "pre_filter_reason": "Agent Skills for coding agents like Claude Code, AI-related",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.2,
+      "quality_score": 7.1,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "手把手教你用Stitch MCP技能库打造专属AI编程助手",
-          "angle": "以Antigravity、Gemini CLI等编程代理为例，演示如何从Stitch MCP技能库中调用现成的Agent Skills，快速提升代码生成与调试效率。",
+          "title": "Claude变身超级终端助手：DesktopCommanderMCP安装与使用教程",
+          "angle": "从零开始演示如何配置MCP服务器，让Claude获得终端控制、文件搜索和代码编辑能力，提升开发效率。",
           "difficulty": "入门"
         },
         {
-          "tag": "case_study",
-          "title": "开源Agent技能标准落地：Stitch MCP如何统一编程代理生态？",
-          "angle": "分析google-labs-code/stitch-skills的开放标准设计，探讨其对多代理协作和工具链互操作性的意义。",
+          "tag": "tutorial",
+          "title": "MCP实战：用DesktopCommanderMCP让Claude自动管理文件系统与代码",
+          "angle": "深入讲解MCP协议原理，结合具体场景（如批量文件重命名、代码diff审查）展示Claude的自动化能力。",
           "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "3cd1f1f78a01",
-      "source_id": "qbitai",
-      "source_name": "量子位",
+      "id": "14a5048bc4e7",
+      "source_id": "36kr",
+      "source_name": "36氪",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "中国首个十万卡集群落成！全国产算力支撑“十万卡时代”",
-      "link": "https://www.qbitai.com/2026/07/447902.html",
-      "summary": "已跑通300余项应用",
-      "published": "2026-07-11T18:07:17+08:00",
-      "fetched_at": "2026-07-12T11:14:33.325904+08:00",
-      "pre_filter_reason": "China's first 100K GPU cluster for AI computing infrastructure.",
+      "title": "韩国央行：全球半导体市场目前仍处于供不应求的状态，由AI驱动的芯片超级周期预计还将持续一段时间",
+      "link": "https://36kr.com/newsflashes/3893454854765059?f=rss",
+      "summary": "韩国央行在周一发布的一份报告中驳斥了投资者关于芯片周期已然见顶的担忧。该行表示，全球半导体市场目前仍处于供不应求的状态，由人工智能（AI）驱动的芯片超级周期预计还将持续一段时间。韩国央行认为，本轮芯片周期与以往不同，其驱动力是各大企业竞相投资，这些投资是基于对AI普及将引发产业生态系统根本性变革的预期。（财联社）",
+      "published": "2026-07-13T10:43:00+08:00",
+      "fetched_at": "2026-07-13T11:17:07.901105+08:00",
+      "pre_filter_reason": "AI驱动的芯片超级周期",
       "scores": {
-        "importance": 8,
+        "importance": 7,
         "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 7,
+        "actionability": 8,
+        "scarcity": 6,
         "virality": 7,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.2,
+      "quality_score": 7.1,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "十万卡集群如何跑通300+应用？国产算力实操指南",
-          "angle": "以典型AI训练任务为例，拆解全国产算力集群的资源调度与并行计算策略，展示从部署到优化的全流程。",
-          "difficulty": "进阶"
+          "title": "韩国央行确认：AI芯片超级周期远未结束，现在入局还来得及吗？",
+          "angle": "解读韩国央行报告核心观点，分析AI驱动芯片需求的结构性变化，为投资者和从业者提供决策参考。",
+          "difficulty": "入门"
         },
         {
-          "tag": "case_study",
-          "title": "中国算力里程碑：十万卡集群落成背后的技术突破",
-          "angle": "对比国际同类集群，解读国产算力在硬件、网络、软件栈上的创新，以及其对AI大模型训练的实际推动。",
-          "difficulty": "入门"
+          "tag": "tutorial",
+          "title": "芯片超级周期下的投资逻辑：从韩国央行报告看AI硬件未来趋势",
+          "angle": "结合历史芯片周期规律，对比本轮AI驱动的特殊性，探讨半导体供应链、算力需求及国产替代机会。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "f321ff678819",
-      "source_id": "qbitai",
-      "source_name": "量子位",
+      "id": "f55ed49a2fc3",
+      "source_id": "36kr",
+      "source_name": "36氪",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "中国首个十万卡集群落成！全国产算力支撑“十万卡时代”",
-      "link": "https://www.qbitai.com/2026/07/447891.html",
-      "summary": "从FP64到INT8，全精度覆盖。",
-      "published": "2026-07-11T14:26:46+08:00",
-      "fetched_at": "2026-07-12T11:14:33.325938+08:00",
-      "pre_filter_reason": "China's first 100K GPU cluster for AI computing, covering precision formats.",
+      "title": "对话Om AI赵天成：多年坚守，押注物理AI原生的「流式」未来",
+      "link": "https://36kr.com/p/3893445208717826?f=rss",
+      "summary": "<p>一个从未见过监控画面的多模态模型，却比在监控数据上练了多年的小模型“老将”更懂监控。这不是科幻电影，这是2023年Om AI联汇的一场“无心插柳”，也是CEO兼首席科学家赵天成博士更加坚信“多模态训练方式能为物理开放世界带来泛化性”的关键节点。彼时，AI行业正在追求以大语言模型为核心的生成式AI。</p>\n  <p>三年后，这个多模态模型演变成了VLX——全球首个面向物理AI的端侧流式多模态模型系列。首次提出“端侧原生流式多模态”这一全新模型架构，而通过这个从Day 1为端侧算力约束设计的架构，VLX模型首次在端侧打通“持续感知+精准定位+行动决策”的物理AI完整闭环。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260713/v2_b00a13bf0a3f45a88d3d27c919ef4dd2@5925182_oswg753581oswg1080oswg652_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">VLX概览图</p>\n  <p>毫无疑问，站在2026年夏天的时间节点，AI行业的热度已经开始从数字AI转向物理AI。不同于数字AI的2023年，虽然物理AI的热度很高，但是行业仍未收敛，多路线并存，距生产落地尚远：以语言为中心的VLA、以像素为中心的视频生成、以3D结构为中心的仿真、以视觉表征为中心的JEPA……行业对最主流的VLA与世界模型两条概念路线的选择，也依然摇摆不定，是替代，还是并存，抑或是融合？</p>\n  <p>就在这一行业还在争论谁是物理AI终极答案之时，Om AI联汇的VLX系列模型已然完成物理AI从仿真实验到产业落地的商业闭环，通过赋予机器人、无人机、可穿戴设备、安防摄像头、AI PC等多类物理终端自主感知的“小脑”和认知决策的“大脑”，让这些物理终端实现从“被动执行指令”向“主动适应场景”跨越。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260713/v2_34b89351baf44832b3bccd0ea38afb35@5925182_oswg796330oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">VLX架构图</p>\n  <p>这并非偶然，而是Om AI联汇多年漫长专注后的必然结果。</p>\n  <p>2019年，当赵天成从CMU语言技术所博士毕业时，他的履历足够耀眼：所在实验室导师Maxine Eskenazi是对话系统的开山鼻祖，90年代做出了全球第一个实用化对话智能体；而他本人是实验室第三代系统的缔造者，2016年就率先用神经网络将延续了20年的系统改造成端到端生成式模型。当时进入学术圈当教授、大厂，几乎唾手可得。</p>\n  <p>但他选了第三条路——创业。而且是一条在当时几乎无人理解的路线：不做纯文本大模型，不追生成式AI的热潮，而是死磕“视觉+语言”的流式多模态。即便是当下，这也并非主流的技术路线。行业的主流叙事是“离线抽帧”：视频就是一帧一帧截出来当图片处理，推理是批量的、离散的、一问一答的。而赵天成从一开始就要做的是“流式”：视频像水流一样持续进入模型，AI自己一直在看，不用等人提问。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260713/v2_648521e908b24ff2bbd3b1d0bd320d92@5925182_oswg169311oswg1080oswg613_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">Flow推理速度优势</p>\n  <p>这是赵天成自己的判断。在CMU期间，他经历了雅虎10亿美金的多模态智能体项目，“那让我意识到多模态的价值上限会高很多，它就真的让你感觉这是一个活物，而不只是一个对话的系统。”回国后，他没有跟风当时国内AI公司扎堆的生成式对话模型赛道，而是坚定地把视觉和语言融合在一起，“这两个是主模态，至少90%的物理信息都覆盖掉了。”</p>\n  <p>五年里，从文本生成到文生图，从VLA到世界模型，AI赛道换了三四轮“当红炸子鸡”。2023年语言模型大火，有人曾拉他说“你以前不也搞语言模型的，为什么不出来做？”每一轮都有资本和同行劝他“转个方向更快变现”。</p>\n  <p>“我们的东西，在物理AI之前一直没有成为最火的东西。”赵天成坦言，“一直会有更火的东西摆在前面。”团队里也有小伙伴信心动摇，有人离开，但更多核心伙伴留了下来。留下来的这群人，多年如一日，始终围绕“V和L”这两个点持续产出。</p>\n  <p>五年后的今天，AI行业喊着要从“云端”回到“地面”，要深入产业，并真正产生价值，物理AI成为最热门的概念：2026年上半年，全球物理AI领域仅一季度融资就超过64亿美元；物理AI也开始多场景落地，工业机器人智能化升级、自动驾驶城市NOA大规模普及等端侧智能终端快速渗透……但在物理AI这场浪潮中，VLX系列模型是为数不多的，跑在端侧的流式多模态模型。它回答着一个根本问题：物理世界的AI，到底需要什么架构？</p>\n  <p>VLX系列模型是少数把三个闭环都跑通的公司：模型闭环，让VLX的Flow+Seek+Go在感知—定位—行动上自成一体，不是三个独立模型，是同一条视频流上不可分割的三个能力层；数据闭环，让百万级摄像头、无人机、机器人等真实业务场景持续回流端侧数据，反哺模型迭代；商业闭环，完成PMF，公司营收以亿为单位。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260713/v2_1223a86fa2c041458264ce078da2bc7c@5925182_oswg842013oswg1080oswg604_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">VLX三层定义</p>\n  <p>当产业的需求曲线与技术的积累曲线在2026年交汇，一场“长期主义与产业拐点的双向奔赴”也正式上演。而当物理AI终于从“概念炒作期”迈入“场景验证期”，赵天成和他的团队反而显得从容。这不是一个追风者的故事，而是一个关于判断力、定力，以及用多年时间验证的一个“反共识”判断的商业样本。</p>\n  <p>以下是36氪和赵天成对谈，对话经过编辑：</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260713/v2_fbc125a350f24d5d9a1c5b13f9e7d3ef@5925182_oswg422601oswg476oswg716_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">Om AI联汇CEO兼首席科学家赵天成博士</p>\n  <h2><strong>物理AI的本质：模态，语义、几何、预测和决策</strong></h2>\n  <p><strong>36氪：今年物理AI很火，世界模型是其中最热门的技术路线，但又派系林立，众说纷纭，你是如何看待？</strong></p>\n  <p><strong>赵天成：</strong>物理AI本身是一个很宏大的主题。从模型的角度来说，不管是什么路线，关键点在于要让其能够理解世界，这本身不是一个单点的事情。就像李飞飞这次发的博客，讲她理解的三条路线，并且最终这三条路线可能会融合在一起，而不是三个离散的东西。</p>\n  <p>在我们的定义里面，物理AI至少4种能力是必须具备的，第一，模型要认识它里面的内容，也就是语义信息；第二，要认识它的几何空间，知道3D形状是什么样的；第三，它能够去做决策和动作控制；第四，在前三者的基础上，它能够对未来的预测。&nbsp;</p>\n  <p>这次我们发布的模型为什么叫VLX，就是因为X代表无限可能，最起码是包含前面说的4种能力。现阶段网上流行的一种说法，VLA已死，世界模型已来，还是偏炒作为主。因为VLA这三个模态怎么会过时？视觉语言动作从概念上是永远不会过时的，但下面的方法肯定会不断变化，把方法和概念挂钩本身是错误的行为。所以我们的理念不是看表面，而是看本质，本质就是刚刚提到的4个核心模态，语义、几何空间、感知规划以及预测这4种能力都搞定了，物理AI也就来了。</p>\n  <p>物理AI本身是一个多维度的事情，比如预测也只是里面的一个维度，但这个维度的确之前做的人比较少，难度比较大。预测未来的画面会怎么发展，也就成了世界模型，这是当前比较有热度的事情，但这个事情其实也是建立在语义、几何这些基础能力上新增的能力。</p>\n  <p><strong>36氪：物理AI的第一性原理应该是什么？</strong></p>\n  <p><strong>赵天成：</strong>物理AI的第一性原理，本质要看做什么事情。Om AI联汇想做一个在物理世界里面能够去感知、决策、执行的物理智能体，我希望无人机、机器狗、机器人等等物理终端，它们非常聪明，物理终端之间可以交互、能够完成任务，最重要的东西其实就看要实现这个目标到底缺什么能力。现阶段语言交互越来越好了，基本不会产生什么问题，但是只要涉及开放环境，它能不能自主导航，能不能灵巧地操作和不同物件做交互，这些事情之前几乎不太可能。</p>\n  <p>比如，物理交互场景下终端对实时性需求就很高，终端需要有决策中枢让它去快速决策。通过视觉中枢，实时接收外界信息，然后通过决策中枢可以自主决策此时此刻应该干什么，比如该开门还是说话等。</p>\n  <p>所以当前的物理AI，是一个大楼里面，只有框架但缺的砖块还很多，需要不同团队或者不同企业去添砖加瓦，形成完整的物理AI体系。单依靠某一个模型把全部物理AI都解决，我觉得不太现实，也不符合第一性原理。人的大脑也是分区分块的，语言模型现在这么强了，到应用层也是分区分块的，物理AI更复杂，所以更加需要产业的生态协同去完成这个事情。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260713/v2_940fbc0249e8456584f22cdf94a52da5@5925182_oswg430014oswg1080oswg626_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">云端AI与终端AI的区别</p>\n  <p><strong>36氪：在你看来，在方法层不同路线在物理AI落地过程中最大的瓶颈是什么？</strong></p>\n  <p><strong>赵天成：</strong>世界模型或者别的云端模型有很大的价值，只是到终局的时候，物理AI被广泛应用的时候，必然有很强的端侧智能，这是我们相信的事情。因为物理世界本来就要交互，并且会带来很多严肃的后果。代码写错一字一行无所谓，但是机器人突然卡机不动或者摔倒了，后果是很严重的，就跟智驾一样，不能车开着就突然失灵了，这个是不可想象的。很多物理终端以后都要进入生活成为其中一个伙伴，全部由一个脑子控制也挺恐怖的，跟科幻片的反派一样，只要控制一个AI，所有终端都变成挟持人类的工具。</p>\n  <p>所以我们希望是分布式的智能，跟人一样，每个大脑都是独立的，自主的。但是核心在于云端模型之外，物理AI每个端侧它具备分布式智能，而且是在本地快速、安全的响应能力，这才是一个比较稳定的结局。这也是为什么我们觉得端侧有价值。</p>\n  <h2><strong>物理AI处于寒武纪，流式多模态是Om AI最重要的基础能力</strong></h2>\n  <p><strong>36氪：物理AI的竞争格局，你是怎么看的？</strong></p>\n  <p><strong>赵天成：</strong>物理AI特别像2016年的感觉，当时深度学习语言是刚刚突破，��时我也发了最早一批生成式的语言模型，在那个时候有很多思路，也有很多问题待解决，没有人知道唯一的、收敛的终局是什么，所以我觉得当前物理AI处在一个寒武纪，类似一个物种大爆发期。物理AI这个机会太大了，我不相信物理AI只有一条路，就一个方法，就聚焦在机器人一个载体上，肯定是百花齐放。</p>\n  <p>从技术侧来看，技术侧近几年通过VLM多模态的方式，在感知理解推理方面取得大幅度突破，可以做很多以前不能做的事情，但像世界模型，或者物理交互，方法又很不确定。现在既有已经突破的技术，完成从0到1的技术，也有很多需要解决从0到0.5的突破的点。现在刚好是一个交界点，从0到1的技术还没有开始规模化应用，又出现了很多0到1未解的问题。在这个点上，会有很多可能性，可以做底层突破，也可以是应用层，都有机会。</p>\n  <p><strong>36氪：Om AI押注流式多模态，是场景倒逼还是自主选择？</strong></p>\n  <p><strong>赵天成：</strong>流式多模态是自己的选择。从问题本身出发，语言模型的核心计算单元是Token以字符串的方式处理，文本流打字聊天是可以的，因为信息是线性的字符串进来，但是到物理世界后，原生的信息输入就是视频流。视频流和文本流很不一样，文本流其实每个字都很重要，但是视频流里面大量的冗余信息，很多画面其实是没什么变化的。就像人眼看的时候，也不是每一个像素每一帧都在看，是一个自己抓重点的过程。视频流本身又是非常动态和物理世界直接对接的信息。而任何在物理世界好用的东西，交互肯定要比较丝滑，肯定要很快速地响应。物理世界是一个非常多模态的流式的交互的场景，在这个场景下面只用文本的token去做信息单元肯定是不太合适的事情，肯定需要有更加原生的方式去理解多模态的信息流。我觉得需要有不一样的技术栈和不同的方法去做才会更原生。如果用文本把信息流近似一下，就又回到了最老的那种比较笨的交互系统，又慢又傻。</p>\n  <p>所以，流式多模态我们一直觉得是非常重要的基础能力，也是最不可替代的底层技术之一。</p>\n  <p><strong>36氪：物理AI是一个万亿级市场，Om AI瞄准的是哪一部分？</strong></p>\n  <p><strong>赵天成：</strong>如果用一句话来总结的话，我们瞄准的是“从成熟硬件向新兴本体纵深演进”的物理AI终端市场。我们是这么理解的，所有事情都得有基础，就如信息化没做的时候一定做不了数字化。所以物理AI的成熟落地，和终端的商业化成熟度有正向的关系。比如摄像头，在手机电脑等个人智慧终端，本体已经很成熟了，但是现在没有物理AI能力的。再往前走一点，到无人机或者机器狗，目前已经在应用但是属于比较新兴的终端，再往前，到真正的人形机器人，或者轻量级的可穿戴设备。Om AI对硬件终端的成熟度排序，与物理AI结合也是按照先成熟，后新兴的落地顺序排序。过去几年我们跟IoT摄像头、AI PC、个人终端这些成熟产品已经开始结合，现在已经开始向无人机和机器人布局。</p>\n  <p>这也是为什么我们觉得“一脑多形”的价值所在，因为“一脑多形”，才能把成熟的经验带到新的本体里面去。比如机器狗，其实本身没有什么数据，但是可以把过去上百万的摄像头或者PC的经验延续到机器狗上，让机器狗有个很好的起点，通过新的场景、新的数据反哺。市场爆发的点需要双向奔赴，硬件成熟了，AI也成熟了，结合在一起就变成了一个真正的物理AI终端。</p>\n  <p><strong>36氪：这次WAIC，Om AI的参展计划和亮点是什么？</strong></p>\n  <p><strong>赵天成：</strong>此次重磅亮相的，是我们这次新发布的VLX模型系列。这也是我们过去一年多时间，最核心的技术突破。我们会同步展出在不同场景落地的终端产品。</p>\n  <p><strong>36氪：VLX模型系列有非常多技术创新，实现了更小的模型更优的效果，这种效果是架构优化后的必然结果？</strong></p>\n  <p><strong>赵天成：</strong>这是我们能做基础模型架构创新的优势，很多时候大家动不了架构，所以会被卡脖子，当能动架构之后，就可以做一些不一样的事情。Om AI没有针对某个领域去专门定制，而是做成了一个通用模型，让模型能在多场景多领域泛化，但是对于某种特别需要的能力，我们会定制加强。比如老鹰捕猎和图书管理员对眼睛的使用需求是不一样的，OM AI很多模型架构创新就是为了解决如何让原生的架构适合干物理AI的活，包括流式的快速理解，快速推理，都是为了让模型原生的架构天花板变得更高。</p>\n  <h2><strong>基于多模态训练方式，能带来开放世界的泛化性</strong></h2>\n  <p><strong>36氪：公司布局物理AI的契机是什么？</strong></p>\n  <p><strong>赵天成：</strong>第一个原点是2023年的时候，公司第三代模型出来。最早的时候，模型是基于大量的多媒体的数据去训练的，一开始的场景其实也是会偏媒体场景，比如视频剪辑，编辑查询等。2023年的时候有一个用户，说他有很多监控摄像头是用来做卫生管理的，能不能把数据接进来试试看。当时我们不太看好，因为以前很多同行也做了很多，感觉没什么好做了，但后来发现，其实就是一个简单的摄像头识别下面场景，基于上一代计算机视觉技术的小模型思路和解决方案，泛化性很差，远远没有想的渗透率那么高。我们尝试了一下，发现当时的模型泛化性已经比小模型好很多了，所以我们意识到，基于多模态训练方式，真的能带来一些开放世界的泛化性。这在广阔的物理场景下面，就是一个刚性需求，我们也以这个为起点，做了很多模型的研发。</p>\n  <p><strong>36氪：产品发布后，公司上线了产品体验平台，后续有开源计划吗？</strong></p>\n  <p><strong>赵天成：</strong>有的，我们对开源非常重视的。我在学生时代就做了很多开源的工作。开源非常有利于产品进步。开源一方面是对产品自信的表现，说明产品进化速度很快，已经有更好的东西在做了。用户也会证明这是一个好东西，并为我们带来更多正面的声量。另一方面，用户的反馈对我们也是很大的帮助，我们会了解他们的卡点是什么，产品应该怎么更好地融合。总的来说，开源是一个非常好的机制，既带来了口碑与共识，也带来了反馈，也让整个市场更信任我们。开源本身也是促使AI在早期实现快速发展的原因。</p>\n  <p><strong>36氪：模型从实验室到落地应用过程中，有哪些有趣的故事？</strong></p>\n  <p><strong>赵天成：</strong>故事比较多，经过了好多卡点。第一个阶段就是解决市场教育问题，多模态模型本身是一个全新的概念，机器视觉或者视觉本身并不是以前没有的东西，它也有上一代的技术，但随着通用多模态模型出来之后，以前很多不能干的事情，比如开放理解、总结报告输出等，现在都能干。在用户层面，一开始是完全无法理解，需要很多用户教育。以前我们发明了很多概念，一句话生成一个算法、视觉大脑、万物识别等等，各种名词想办法让用户更理解这个事情。</p>\n  <p>第二阶段，实验室里技术突破和用户能验收产品中间其实有很大的鸿沟。做学术的时候，从65分到70分，或者60分到80分就是重大突破或者革命性突破，但是到了用户层面，可能会觉得没有到95分都是垃圾，是没有意义的事情。从0到60到90可能很快，但是最后的一节，可能是最难的部分，需要很细致的模型训练方法改进，或者工程化的数据投入，才能把最后一节攻下来。本质来说，还是要把硬骨头啃下来，才能让实验室的模型过渡到产业级。</p>\n  <p>最后，还要实现产品理念的提升。很多模型还是模型，它是一个能力，是一个接口，是一个API，现在大家都说AI原生应用，这句话非常重要，如果还是以前那套软件后面加个能力，用户是感受不到的，或者感知很弱。只有当年ChatGPT出来后，创新了对话模式。多模态模型也是一样，要更加AI原生，从产品层面就要以AI人才去牵头做，才会让用户感受到产品的不一样。现在我们走到产品层面，也得用新的思路去干，才能让整个商业闭环走通。</p>\n  <p><strong>36氪：公司主要落地了哪些商业化场景？</strong></p>\n  <p><strong>赵天成：</strong>我们的核心是“围绕视频密度高、硬件成熟度高的场景层层推进”。目前已经有的板块比如PC，通过赋能内容创作者，他们有很多视频剪辑编辑处理的需求；工业物联，让以前普通的摄像头，给它们装上大模型大脑，变成物理智能体……已经有很多的业务板块，目前重点拓展的是围绕具身智能场景，特别是机器狗、无人机等，本体已慢慢成熟，缺乏的是让它变成自主行动自主决策的物理Agent。</p>\n  <p>未来海外市场也是我们重点拓展的方向之一，我们在海外展会发现，中国的产品力非常强，特别是真正到端侧多模态，我们的模型有极大的优势。如果纯数字空间和海外产品对比，大家都很强，但是到物理终端场景下面，中国反而有优势，这个方向是有可能做到业务全球化的。</p>\n  <p><strong>36氪：在商业模式上你的思考是什么？</strong></p>\n  <p><strong>赵天成：</strong>AI是一个新东西，商业模式肯定不能套用过往的经验。我们现在也有很多创新的模式。比如模型更新很快，用户是愿意付订阅费的。再往前走，当物理AI出来之后，也可以探索以结果付费的逻辑，产生了多少价值，赚/省了多少钱，采取分润的模式。</p>\n  <p><strong>36氪：当前很多物理AI公司还未能完成PMF，公司如何做到已经实现以亿为单位的营收的？</strong></p>\n  <p><strong>赵天成：</strong>首先我们一直坚持初心还是有比较大的先发优势。可能国内大部分的认知到2024年的时候才知道有多模态模型这个事情，或者觉得这种技术路线是一件事，才有人去研究怎么用，怎么落地的事情。我们的研究会早很多，我从2018年已经在做多模态的研究，回国后2021年开始做多模态模型训练，我们比别人会早个三四年，技术储备、模型训练、应用场景探索，甚至市场教育，我们的先发优势都是基于非常有价值的多年积淀。2024年，很大一批人拿大的模型去调试、测试，会发现很多如成本高、速度慢的问题，他们会认为这个事情不能在物理AI场景应用，但我们基于具备原生创新的技术能力，对技术的理解深度会深很多。我想这是我们非常重要的核心优势。</p>\n  <h2><strong>先把数据飞轮转起来，在物理AI就是领先的</strong></h2>\n  <p><strong>36氪：你如何看待未来的行业竞争？公司如何保持竞争优势？</strong></p>\n  <p><strong>赵天成：</strong>未来物理AI的场景肯定会越来越多人关注，竞争肯定会加剧，不管是新创立的企业，还是大厂。对于我们来说，当前技术还是一个高度变革的时期，方法完全没有到收敛期，团队还是很纯粹地在做底层技术的研究，这也让我们有非常大的人才吸引力，这点是未来要保持的。另一点是我们有比较好的先发优势，我们让更多的终端先用先跑，这是一个非常大的护城河，因为物理AI的很多场景，大家都没有过探索，先把数据飞轮转起来，在这个板块里面就是领先的。这也会产生一定的马太效应，把更多的资源、数据、客户，吸引过来。</p>\n  <p><strong>36氪：公司有一段从技术到商业再回归到技术的思路转变，为什么？</strong></p>\n  <p><strong>赵天成：</strong>公司里面纯粹搞研究的同学，他们一直比较纯粹，但是对我来说我得负责整体，就会遇到双向的冲击和输入，是技术与市场预期之间的差距。所以市场化的过程中，好像模型也没有很重要，好像引以为傲的技术在里面只占了30%或40%的感觉。但回过头来看，这其实只是一个过渡期，客户真正买单的还是为智能买单，最终还是依靠模型能力。如果你的模型能力不是最好、最强的，后面就会失去最核心的竞争力。领悟这点后，就会来到第三阶段，上面的花架子也重要，但是不能没有最核心的点，只有把最核心的点做到最强，才能把规模做大。</p>\n  <p><strong>36氪：从校园到现在，有没有哪个决策或时刻，你认为比较具有转折意义？</strong></p>\n  <p><strong>赵天成：</strong>第一个是毕业的时候，我研究做得很好，是当时最优秀的毕业生之一，不管是大厂做科研，还是去做教授其实是水到渠成的事情。但当时特别想做产品做创业，因为当时觉得模型做了很多，论文发了很多，却跟现实世界差距很远。</p>\n  <p>第二个是回国之后，在美国创业就是常规逻辑，做SaaS产品和创业公司打通就可以，但是回来之后我想还是要跟中国比较有优势的行业做结合，所以当时想是不是做点跟硬件结合的东西。于是我们就开始跟终端结合，现实的确做出一些在美国做不了的事情，当然这个路肯定更苦一些。</p>\n  <p>第三个是2024年的时候，以前公司的日子过得挺好的，当时也没什么人做这个方向的探索，2024年竞争一下就起来了，各类模型都出来了，这个时候要决定到底专攻哪个点。比较了云端的模型，端侧的模型，多模态的、语言的、视频生成的，我们觉得还是要坚持在流式多模态上面持续专攻，这个跟别人是有差异性的。虽然说它定位到端侧之后可能会有更多的挑战，不管是商业模式，还是软硬件结合会有很多的挑战，但是我们决定保持初心，押注物理AI，把流式多模态做成最核心的能力。</p>\n  <p><strong>36氪：是什么原因让你一开始就坚定多模态这个方向？</strong></p>\n  <p><strong>赵天成：</strong>卡耐基梅隆⼤学语言技术研究所（CMU LTI）是做语言最出名的地方，我的导师90年代的时候做了第一个实用化的对话的智能体，它的第三代是我做的，2016年我把它从一个用了20年的神经网络系统替代成了一个生成式模型。在读博过程中，虽然也做了很多对话的模型，但我感觉它只是交互场景，比如聊天、情感陪伴等，离我想要的“活的”AI差了点东西。只是对话不产生价值，2017年左右，雅虎又一个多模态智能体的项目给了CMU，这个项目让我感觉到多模态价值上限会高很多。所以我觉得应该投在多模态，把视觉跟语言融合在一起。</p>\n  <h2><strong>跑得快、看得远、守得住</strong></h2>\n  <p>就在6月27日至29日连续发布了VLX-Flow、VLX-Seek、VLX-Go系列模型后，7月10日，Om AI联汇再次发布了VLX-Seek 1.5，这是专为无人机、机器人、机器狗、智能监控等真实具身场景进化的版本，相比1.0版本，1.5版本在模型架构、训练数据和推理效率上进行了系统升级，覆盖多种参数规模，能够兼顾轻量化端侧部署与高性能应用需求，在准确性、效率、可靠性和部署灵活性方面实现全面提升。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260713/v2_b9141e77531b4687915180464a6bdd25@5925182_oswg484508oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">VLX-Seek架构图</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260713/v2_326bb5b2841e4482a908d4bdb24bc4d9@5925182_oswg560821oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">VLX-Go架构图</p>\n  <p class=\"third-class\">&amp;amp;nbsp;</p>\n  <p>版本的连续发布，密集却不仓促，因为每一代模型的升级，背后都是多年流式多模态技术积累的自然释放。而从CMU的第三代对话系统，到物理世界终端上跑通的VLX模型，赵天成用多年时间完成了一次完整的商业验证：技术路线的选择、产业拐点的预判、端侧场景的深耕、数据飞轮的转动——每一环都经受了市场的检验。这个关于“判断力+定力”的商业样本，它的核心启示或许很简单：在瞬息万变的AI时代，能够抵达终局的人，不仅需要跑得快，更需要比市场更早看到未来，且从不偏离方向。</p>\n  <p class=\"third-class\">&amp;amp;nbsp;</p>\n  <p class=\"editor-note\">本文来自微信公众号<a href=\"https://mp.weixin.qq.com/s/LRq1gPadqAoQw2aIPEdinw\" rel=\"noopener noreferrer\" target=\"_blank\">“36氪”</a>，36氪经授权发布。</p>",
+      "published": "2026-07-13T10:39:18+08:00",
+      "fetched_at": "2026-07-13T11:17:07.900994+08:00",
+      "pre_filter_reason": "物理AI多模态模型",
       "scores": {
         "importance": 8,
         "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 8,
+        "actionability": 8,
+        "scarcity": 7,
         "virality": 6,
         "crowd_heat": 0.0
       },
@@ -471,14 +391,14 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "从FP64到INT8：十万卡集群全精度覆盖的算力调优秘籍",
-          "angle": "结合科学计算与AI推理场景，讲解如何利用集群的多种精度模式（FP64/FP32/INT8）平衡性能与精度。",
-          "difficulty": "进阶"
+          "title": "Om AI 的 VLX 模型：端侧流式多模态如何让监控更智能？",
+          "angle": "从“未见过监控画面却更懂监控”的案例切入，拆解 VLX 模型如何实现持续感知、定位与决策的闭环，适合技术爱好者了解前沿架构。",
+          "difficulty": "中级"
         },
         {
-          "tag": "case_study",
-          "title": "全精度算力意味着什么？十万卡集群的行业应用展望",
-          "angle": "分析FP64在气候模拟、INT8在边缘AI等场景的价值，展望国产算力对科研与产业的赋能。",
+          "tag": "tutorial",
+          "title": "物理 AI 的“流式”未来：Om AI 赵天成谈多模态模型泛化性",
+          "angle": "以创始人访谈为素材，解释“物理 AI 原生流式”概念，对比传统小模型与多模态大模型的优势，适合关注 AI 趋势的从业者。",
           "difficulty": "入门"
         }
       ]
@@ -493,9 +413,9 @@
       "title": "elizaOS/eliza",
       "link": "https://github.com/elizaOS/eliza",
       "summary": "Open source agentic operating system",
-      "published": "2026-07-12T11:15:02.267691+08:00",
-      "fetched_at": "2026-07-12T11:15:02.267693+08:00",
-      "pre_filter_reason": "Described as an open source agentic operating system for AI agents.",
+      "published": "2026-07-13T11:17:51.946610+08:00",
+      "fetched_at": "2026-07-13T11:17:51.946611+08:00",
+      "pre_filter_reason": "Agentic operating system, AI-related",
       "scores": {
         "importance": 7,
         "timeliness": 7,
@@ -508,15 +428,225 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "5分钟搭建你的第一个AI Agent：elizaOS入门指南",
-          "angle": "从零开始，演示如何用elizaOS部署一个简单的自主代理，涵盖安装、配置与基础任务执行。",
+          "title": "开源智能体操作系统 elizaOS：快速上手与核心功能解析",
+          "angle": "介绍 elizaOS 作为开源智能体操作系统的定位，演示如何部署和运行一个简单的智能体任务，适合开发者入门。",
           "difficulty": "入门"
         },
         {
-          "tag": "case_study",
-          "title": "开源Agent OS崛起：elizaOS如何重塑自主系统开发？",
-          "angle": "对比传统Agent框架，解析elizaOS的模块化架构、事件驱动机制及其在多代理协作中的优势。",
-          "difficulty": "进阶"
+          "tag": "tutorial",
+          "title": "从 elizaOS 看智能体操作系统：架构设计与应用场景",
+          "angle": "深入分析 elizaOS 的架构特点，对比传统操作系统，探讨其在自动化、机器人等领域的潜力，适合技术进阶读者。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "7af59c9ece1c",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "韩国央行：AI 驱动的半导体超级周期未结束，供应扩张受限将支撑长期增长",
+      "link": "https://www.ithome.com/0/975/879.htm",
+      "summary": "<p>IT之家 7 月 13 日消息，韩国央行表示，全球半导体市场目前仍处于供不应求状态，由人工智能推动的新一轮行业超级周期（Supercycle）预计还将持续一段时间，并否认了市场有关“芯片周期已经见顶”的担忧。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/3/ff981935-0ecd-4222-944f-5a5a1b43b922.jpg?x-bce-process=image/format,f_auto\" /></p><p>韩国银行（BOK，韩国央行）周一发布的一份报告指出：“随着人工智能基础设施投资快速增长，全球半导体需求大幅攀升，但供应扩张速度相对缓慢。”该报告提交给韩国国会议员朴成勋（Park Sung-hoon），并表示当前半导体景气周期尚未出现放缓迹象。</p><p>韩国央行认为，本轮半导体周期与以往最大的不同在于，<strong>其驱动力来自企业为迎接 AI 带来的产业生态变革而展开的竞争性投资，而非传统的周期性需求。</strong></p><p>报告称：“由于高带宽内存（HBM）等定制化产品正成为市场主流，半导体供应扩张速度比过去更受限制。因此，全球半导体市场预计将在相当长一段时间内保持扩张态势。”</p><p>这份报告发布之际，市场正越来越担心 AI 基础设施建设过度依赖债务融资、科技股估值过高，以及未来存储芯片可能出现供过于求，这些担忧近期引发了全球科技股抛售。</p><p>韩国两大存储芯片厂商三星电子和 SK 海力士近期股价均出现明显回落。其中，三星电子股价在 7 月 2 日下跌超过 9%，SK 海力士跌幅接近 15%。</p><p>上周二，即便三星电子公布第二季度营业利润接近 90 万亿韩元（IT之家注：现汇率约合 4055.4 亿元人民币），高于市场预期，其股价当天仍下跌 7%，SK 海力士也下跌 6%。</p><p>韩国央行表示：“AI 技术的普及速度、应用范围以及最终盈利能力仍存在不确定性。”</p><p>不过，报告指出，包括摩根大通（<span class=\"link-text-start-with-http\">J.P</span>. Morgan）、高盛（Goldman Sachs）和摩根士丹利（Morgan Stanley）在内的多家国际投资银行普遍预计，全球半导体市场至少将在明年之前继续保持强劲增长。</p>",
+      "published": "2026-07-13T09:56:58+08:00",
+      "fetched_at": "2026-07-13T11:17:26.429254+08:00",
+      "pre_filter_reason": "AI驱动半导体周期，涉及AI",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "韩国央行解读：AI 驱动的半导体超级周期为何还未结束？",
+          "angle": "基于韩国央行报告，解释“供不应求”与“供应扩张受限”如何支撑长期增长，适合投资者和科技从业者了解市场逻辑。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "半导体超级周期下的投资机会：AI 芯片需求与供应瓶颈分析",
+          "angle": "结合韩国央行观点，分析 AI 芯片需求趋势和供应端挑战，给出行业观察和投资建议，适合财经类观众。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "735df456becb",
+      "source_id": "reddit-ml",
+      "source_name": "Reddit r/MachineLearning",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "Zer0Fit: I took Google's new TabFM & TimesFM ML foundation models and made them available as an MCP server for zero-shot ML tasks (forecasts / classifications / regressions). 100% local. [P]",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1uue8cc/zer0fit_i_took_googles_new_tabfm_timesfm_ml/",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/MachineLearning/comments/1uue8cc/zer0fit_i_took_googles_new_tabfm_timesfm_ml/\"> <img alt=\"Zer0Fit: I took Google's new TabFM &amp; TimesFM ML foundation models and made them available as an MCP server for zero-shot ML tasks (forecasts / classifications / regressions). 100% local. [P]\" src=\"https://preview.redd.it/cy6kekuamsch1.jpg?width=140&amp;height=70&amp;auto=webp&amp;s=73676a2130325bec57d5a5677698a48d658477e2\" title=\"Zer0Fit: I took Google's new TabFM &amp; TimesFM ML foundation models and made them available as an MCP server for zero-shot ML tasks (forecasts / classifications / regressions). 100% local. [P]\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>TL:DR: I’m a grad student in AI, I saw that Google released TabFM and TimesFM last week, I built an MCP wrapper to serve both transformer models in a single Docker container so you can connect their new ML transformer models to a local LLM via Open WebUI, Claude Code, or Codex and do ML tasks that would have previously required building, training, and tuning ML models to do. Tested with classic ML datasets (Iris, California Housing, etc), Pretty solid scores for accuracy for being zero-shot: (94.7% for Iris) and R2 of 0.91 for regression test) vs. traditionally tuned ML models. You need about 16GB of VRAM to run both models. I added dynamic model load and unload with a TTL set to 5 mins. CSV. support now, with XLS, XLSX, JSON, JSONL support soon. PyTorch-based so CUDA only. Works on DGX Spark, 3090, H100 and most anything Nvidia with 16GB+ VRAM. Install script auto detects architecture. </p> <p>Here is my repo if you want to try out the MCP:</p> <p><a href=\"https://github.com/porespellar/Zer0Fit\">https://github.com/porespellar/Zer0Fit</a></p> <p>Here’s the non-TLDR version:</p> <p>I’m working on my Masters in AI and I saw someone’s post here the other day about Google’s new TabFM Tabular data foundational transformer models released last week and I thought that they were super groundbreaking in that they were basically bringing ML models into the GenAI space which is both weird and cool because ML models are very different animals than LLMs</p> <p>Here was the original Google blog post on it:</p> <p><a href=\"https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/\">https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data/</a></p> <p>Anyways, I wanted to play around with these new models from a chat interface and try to “kick the tires” a bit, so I built an MCP implementation for both the TabFM and TimesFM models. Nothing super fancy, just a quick and dirty MCP wrapper of the PyTorch versions (this will only run on CUDA). </p> <p>I made the MCP with 2 build targets in mind: DGX Spark (arm-based with CUDA 13) and 3090 (AMD64 with CUDA 12.6). No Mac support because of Google using PyTorch, sorry. </p> <p>I also wanted this to work with my preferred chat client: Open WebUI, so that’s what it’s geared towards running best with and was tested against, I also added Claude Code and Codex CLI support as well, but haven’t really fully tested those out yet.</p> <p>Install is just a git clone and an ./install.sh. The whole thing runs out of a single Docker container and dynamically loads and unloads the models into VRAM with a TTL of 5 minutes to free up reserved VRAM when not in use. I also included an Open WebUI Skill.md that can be imported into Open WebUI, and skill.md and agents.md for the other harnesses. </p> <p>I tested it with some fairly classic ML datasets from Kaggle that most data science students have probably encountered while studying AI/ML.</p> <p>- Iris (classifiers)<br /> - California housing (regression)<br /> - Airline Passengers (time series forecast) </p> <p>I spent a semester trying to learn ML models and tuning them and not really knowing what the hell I was doing, usually overfitting my models, and changing all kinds of parameters that I didn’t know if they were really helping or hurting my models. It all seemed like a dark art that I never fully understood. TBH, I wasn’t really a fan of ML, I think it’s cool stuff, but I just don’t have the math skills or stats chops to be able to understand WTF I’m doing most of the time with hyperparameters tuning. A man has to know his limitations, LOL. </p> <p>Anyways, as I said earlier, I just wanted to get Google’s cool new ML models running where I could feed a dataset to an MCP and then have it do all the ML magic that Google trained these foundational models to do. I tried to make it easy for the average person like myself to run. I thought others might want to test out the models too so I made it a public repo. </p> <p>So here it is if you want to mess around with it:</p> <p><a href=\"https://github.com/porespellar/Zer0Fit\">https://github.com/porespellar/Zer0Fit</a></p> <p>I’ll try and do some maintaining if I see that there is any continued interest, but I can’t promise that I’ll keep up with it, so please feel free to fork the repo and take it in any direction you want to. </p> <p>I think models like TabFM and TimesFM are going to low-key bring the branches of AI / ML tree closer together and we’re going to see some really cool and wild stuff as people take these concepts further in the future. </p> <p>Note: This repo was hastily built to just get the models running. I’ve done very limited testing only on DGX Spark. Again, feel free to fork it and make it as good as you want to. </p> <p>And please remember that this stuff is very experimental. Don’t use the forecasts or predictions made by these models for anything other than just research curiosity. Use at your own risk. </p> <p>Let me know what you think of the repo if you give it a try. Cheers. </p> <p>Note Regarding my test results in the images: I created the test scripts using DeepSeek V4 Flash and I had Claude Opus 4.6 review the test methods, code, and results. I don’t claim to be smart enough to know if the stats / math is correct. I would love it if some of the very smart ML research folks on here would give the repo a try and let us know if they are getting similar results or if my results are completely wrong. I included the sample datasets in the repo so “apples-to apples” comparison tests could be run by others to either prove or disprove my results. I really don’t mind if I’m wrong, I’m a student and just want to learn and improve. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Porespellar\"> /u/Porespellar </a> <br /> <span><a href=\"https://www.reddit.com/gallery/1uue8cc\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uue8cc/zer0fit_i_took_googles_new_tabfm_timesfm_ml/\">[comments]</a></span> </td></tr></table>",
+      "published": "2026-07-12T20:32:29+08:00",
+      "fetched_at": "2026-07-13T11:17:50.093534+08:00",
+      "pre_filter_reason": "Making Google's ML foundation models available for zero-shot ML tasks.",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Zer0Fit：用 Google TabFM 和 TimesFM 实现零样本机器学习（MCP 服务器）",
+          "angle": "演示如何通过 Zer0Fit 的 MCP 服务器调用 Google 的表格和时间序列基础模型，完成预测、分类等任务，适合数据科学家。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "tutorial",
+          "title": "零样本 ML 新工具：Zer0Fit 让 TimesFM 和 TabFM 本地运行",
+          "angle": "介绍 Zer0Fit 项目背景和核心功能，对比传统 ML 流程，展示零样本预测的便捷性，适合 AI 工具爱好者。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "728f8af1cbb1",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "36氪首发 | 港中大博士、前大疆工程师创业消费级四足机器人，天使轮获正轩领投数千万元",
+      "link": "https://36kr.com/p/3893473722514181?f=rss",
+      "summary": "<p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，深圳光之跃迁科技有限公司（Lumisition Robotics）（以下简称“光之跃迁”）近日完成近五千万元天使轮融资，由正轩领投，光点资本、力合资本、松禾资本、恒信未来等机构跟投。本轮资金将主要用于产品研发、算法迭代及量产准备。</p>\n  <p>光之跃迁成立于2026年2月，<strong>聚焦消费级四足机器人市场，</strong>希望以“全地形移动底盘”切入户外场景，解决搬运、辅助行动等体力劳动需求。公司<strong>瞄准拥有独栋住宅的欧美家庭、户外运动爱好者以及银发群体</strong>，希望让四足机器人从展示型产品转向具备实际生产力的消费级工具。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260713/v2_d215f32209b749f599d317139c067b8a@5920579_oswg919898oswg1080oswg593_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">（图源/企业）</p>\n  <p>公司创始人兼CEO乐林株毕业于香港中文大学机器人专业，拥有机器人博士及博士后背景，是香港中文大学LRL Lab联合创立人，曾任大疆创新研发骨干，并曾联合创办B端四足机器人企业光年创新科技。</p>\n  <p>CTO与硬件VP均毕业于香港中文大学机器人专业。CTO本科为浙大竺可桢学院，专注强化学习与运动控制算法。硬件VP为华中科技大学本硕（师从高亮教授），曾任石头科技工程师，发表IEEE/ASME TMECH、IROS、ICRA论文5篇，持发明专利7项，主导5+款关节电机、大型液压人形机器人及多款四足机器人平台研发。</p>\n  <p>创始人乐林株向硬氪表示，与部分消费机器人强调陪伴、情绪价值不同，光之跃迁更关注真实场景中的“体力替代”。例如在欧美家庭中，独栋住宅面积较大，居民经常需要完成车库到住宅、停车场到家门口等“最后一公里”搬运任务；同时，老龄化趋势加剧、护理成本上升以及劳动力短缺，也催生了户外移动辅助设备的市场需求。围绕不同需求，光之跃迁计划推出城市、轻城市、户外级等适应不同地形的产品。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260713/v2_5b0a81738c5d4aec8f1e3fa950c6a826@5920579_oswg505409oswg1080oswg579_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">（图源/企业）</p>\n  <p>围绕“全地形辅助”这一定位，光之跃迁构建了四层智能架构，包括感知智能、运动智能、意图智能和角色智能。感知层负责环境信息获取；运动层基于团队多年强化学习（RL）运控研究，实现复杂地形下的稳定运动与越障；意图层通过Agent技术理解用户复杂指令和行为偏好，例如在速度优先或安全优先之间进行自主决策；角色层则能够根据场景动态切换运输工具、营地助手、守护者或家庭伙伴等不同功能，并支持模块化改装，例如安装座椅后变为智能轮椅，或扩展为婴儿车等形态。</p>\n  <p><strong>技术路线方面，公司持续布局面向户外场景的基础模型和数据体系。</strong>创始人介绍，目前行业普遍缺乏覆盖复杂非结构化环境的数据集，而四足机器人在运动过程中能够直接获取地面摩擦力、刚度等丰富物理信息，因此既是移动平台，也是天然的数据采集终端。随着部署规模扩大，公司希望逐步形成覆盖户外场景的数据飞轮，构建长期竞争壁垒。</p>\n  <p><strong>除了算法研发，光之跃迁还将硬件降本作为产品落地的重要策略。</strong>在硬件设计上，公司强调以算法驱动研发优化，例如通过多学科优化算法重构关节模组设计，将约18个零部件精简至11个，在降低制造与装配成本的同时缩短研发迭代周期。导航系统则采用低成本摄像头与激光雷达组合，并结合模型蒸馏等技术降低算力需求，减少对高性能硬件的依赖。</p>\n  <p>乐林株表示，公司的成本控制并非依赖单一环节，而是覆盖产品设计、零部件选型、传感器配置、导航方案和模型部署等全链路的系统性优化，在保证性能的前提下充分发挥国内供应链优势，以实现更具竞争力的产品定价。</p>\n  <p>目前，光之跃迁已完成样机开发并进入测试阶段。按照规划，公司计划于今年10月开展为期三天的户外徒步直播测试，<strong>并预计于2027年CES展会上正式对外发布产品</strong>，2027年4月至5月启动量产。</p>\n  <p><strong>以下为硬氪与创始人乐林株访谈节选：</strong></p>\n  <p><strong>硬氪：为什么选择面向C端的四足狗作为这次创业的切入点？</strong></p>\n  <p><strong>乐林株：</strong>选择四足机器人作为切入方向，一方面源于团队长期的技术积累。核心成员来自香港中文大学机器人实验室，曾参与开发多款四足机器人和人形机器人，在全栈硬件、运动控制、导航算法等方面拥有较深的研发基础。</p>\n  <p>我们认为消费级四足机器人市场仍存在明确的差异化机会。目前多数产品强调陪伴、展示或情绪价值，我们把自身定位为全地形移动底盘 / 户外智能伙伴, 解决搬运、辅助行动等真实需求, 帮用户完成户外场景中的体力劳动，做的是增强人的能力, 而不是替代人。</p>\n  <p>这一定位与我们的目标人群高度吻合。我们的核心用户是有独栋、有院子、习惯露营/打猎/DIY、并且倾向主动寻找工具来增强自己的人群，他们天然属于海外的“车库文化” (Garage Culture) 与 DIY 改装生态。对这群人， 产品不是一个被动的陪伴物，而是一件能被他们改装、扩展、据为己用的装备。</p>\n  <p>我们希望机器人成为一个能扩展用户能力边界的平台: 通过模块化改装支持多种应用形态，运输工具、露营助手、辅助出行设备等。目标始终是增强人，而非取代人。沿着这个方向往前，我们的长期愿景是把“增强”从“移动物”延伸到“移动人本身”，包括未来可载人的四足形态。它不是把人换成机器，而是重新定义一个人凭自己能抵达多远。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260713/v2_7c17bec4b3d64aeab7310a9575e32dad@5920579_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">（图源/企业）</p>\n  <p><strong>硬氪：为实现全地形运动能力，公司在算法上做了哪些创新？</strong></p>\n  <p><strong>乐林株：</strong>针对复杂地形越障问题，我们融合Terrain Map（地形地图）、在线状态估计和足部结构化奖励机制，构建了更加鲁棒的感知越障系统，提升机器人在非连续、崎岖地形中的稳定移动能力。</p>\n  <p>在运动生成方面，我们提出LMV（Learn from Motion Video）框架，直接从原始视频学习运动策略，减少对动作捕捉和仿真数据的依赖，利用更丰富、真实、可扩展的数据生成自然步态。</p>\n  <p>导航方面，我们以语义拓扑图替代传统几何地图，将导航从依赖空间坐标的“几何寻路”升级为基于语义关系的“决策寻路”，更符合家庭、庭院等复杂环境中的导航需求。</p>\n  <p>此外还研发了交互式导航框架，让机器人不再局限于预先建图和固定路径规划，而能够主动利用环境中的可交互物体创造通行路径，例如推开门、移��椅子或挪开障碍物，从而在半结构化、动态变化频繁的真实场景中具备更强的环境适应能力。</p>\n  <p><strong>投资人观点</strong></p>\n  <p><strong>正轩投资项目负责人：</strong>具身智能产业从实验室走向规模化应用的发展趋势，而光之跃迁正是兼具技术创新与产品落地能力的代表性团队。公司以领先的机器人底层运控和自主导航技术为核心，构建了覆盖关键硬件与算法的软件硬件一体化能力，研发端到端Navigation模型，并聚焦户外等高价值新场景，率先打造兼具性能与商业价值的轮足机器人产品。我们相信，随着具身智能技术持续成熟与应用场景不断拓展，光之跃迁有望成长为全球移动领域的重要创新力量。正轩投资将持续陪伴团队长期投入，去开创一个全新品类。</p>",
+      "published": "2026-07-13T10:47:38+08:00",
+      "fetched_at": "2026-07-13T11:17:07.900984+08:00",
+      "pre_filter_reason": "消费级四足机器人涉及AI算法",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.9,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "光之跃迁：消费级四足机器人如何成为“全地形移动底盘”？",
+          "angle": "从融资新闻切入，介绍四足机器人的技术亮点和户外应用场景（搬运、辅助行动），适合科技和机器人爱好者。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "前大疆工程师创业：消费级四足机器人的市场机会与挑战",
+          "angle": "分析团队背景（港中大博士、大疆工程师）和产品定位（欧美独栋家庭），探讨消费级四足机器人的商业化路径，适合创业者和投资者。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "a19763eaf3ac",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "头部人形机器人关节公司半年再获新融资，同创伟业领投数亿元｜硬氪首发",
+      "link": "https://36kr.com/p/3885232033378308?f=rss",
+      "summary": "<p>作者｜黄楠</p>\n  <p>编辑｜袁斯来</p>\n  <p>硬氪获悉，零差云控（深圳）科技股份有限公司（以下简称“零差云控”）近日完成C++轮融资数亿元，本轮由同创伟业领投、国泰君安创新投资跟投，老股东华控基金追加投资。本轮资金将用于产能扩张和全球市场布局。源式资本担任本轮独家财务顾问，并由一苇资本和源式资本共同担任后续融资财务顾问。</p>\n  <p>人形机器人赛道在经历了概念爆火与资本狂热后，行业关键词正在悄然转变，供应��的产能与可靠性成为真正的瓶颈。当本体厂商进入量产焦虑，上游核心零部件公司的选择与判断，或许更能反映赛道的真实水温。</p>\n  <p>零差云控是硬氪长期关注的企业。公司成立于2016年，长期专注高可靠、高精度、标准化的机器人关键核心零部件的研发与制造，服务全球机器人与自动化产业，聚焦原本依赖人工的高可靠性应用场景。</p>\n  <p>官方数据显示，2025年零差云控营收同比增长超过100%，预计2026年将保持翻倍增速。其中，来自人形及具身智能机器人领域的订单初步放量，贡献约65%的增速。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260707/v2_122d55d317d84680b5886098f1a08b42@6022551_oswg326631oswg1788oswg1000_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">零差云控一体化关节（图源/企业）</p>\n  <p>“下游客户的需求已经从‘有没有成熟的产品’迅速转变为‘能不能及时供得上货’。”零差云控创始人贾玺庆告诉硬氪，“头部客户的订单几乎是敞口式的——你有多少，我就要多少。所以不仅我们自己在拼命提产能，上游的电机、减速机供应商也被拉着一起扩产。”</p>\n  <p>产能只是硬币的一面。在更底层，一个日益尖锐的设计悖论正浮出水面：当前的技术框架，几乎不可能在不突破物理极限的前提下，同时实现拟人化的灵活度、与人类相当的负载能力以及紧凑的人体尺寸这三大目标。零差云控将其归结为“人形机器人设计的‘不可能三角’”。</p>\n  <p>“这不是大家不想做，是客观规律使然。”贾玺庆解释道，“如果要求关节自由度与负载能力均与人类相当，那么体积一定会大，必然超出人体尺度；要是限定体积并追求高负载，则无法容纳足够多的关节，灵活性就必然妥协；转而兼顾灵活性与紧凑尺寸，则最后机器人的负载能力会大打折扣。”</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260707/v2_f53a4c1a72b9454b909ba557e7859003@6022551_oswg678250oswg1986oswg1128_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">零差云控关节方案图（图源/企业）</p>\n  <p>“不可能三角”的每一条边对应着系列现实中的妥协。为了让机器人在有限的尺寸内塞入足够多的关节，许多厂商不得不让关节“凸出”或“拐弯”，最终导致机器人的运动学模型与人类不同。这也意味着，无法直接用海量的人类动作视频进行模型训练，而必须为其单独搭建训练环境和数据集。</p>\n  <p>零差云控的差异化策略并非试图颠覆物理规律，而是在不牺牲核心指标的前提下，聚焦已通过大规模一致性制造验证的成熟路径，不参与底层材料、齿形、工艺的重构，而是将现有方案的集成效率推向极致。</p>\n  <p>在贾玺庆看来，当下企业客户口中的“定制”，诉求高度一致，“无非是更轻、更强、更小、更精、更便宜。这不叫个性，这叫共性，”他补充道，“客户只是用‘定制’这个词，来表达现有产品尚未满足的普适性能诉求。”</p>\n  <p>这一判断直接影响了零差云控的产品策略，将那些看似个性、实则共性的需求，转化为多型号、标准化的产品矩阵。其eRob系列涵盖直筒I型、转角T型等多种形态，最小模组直径仅70mm，最大容许扭矩达1180Nm；依托编码器、驱动器自研优势，同等负载规格下，产品轴向长度较行业通用方案缩减了44%、整机重量下降超两成，可以覆盖从物流仓储到重载工业的广泛场景。</p>\n  <p>不同于传统5自由度机械臂的整机装配，通常需要三四十个独立零部件，零差云控经过结构优化后，将同款构型的零件数量压缩至7个，大幅降低了装配难度与故障率。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260707/v2_b06ba4d7cf164b2aac356d0af62346f4@6022551_oswg268032oswg1080oswg607_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">零差云控“乐高式”模块化设计（图源/企业）</p>\n  <p>这种“乐高式”的模块化设计，恰好契合了人形机器人对标人体解剖结构的设计思路。肩、肘、胯等关键关节的标准化模组可直接卡扣装配，无需额外加工件。同时，小臂空间被完整保留，可预留给绳驱灵巧手厂商布局肌腱驱动组件，兼容市面主流五指灵巧手方案，实现从关节到末端执行器的全链路适配。</p>\n  <p>模块化的最终落点，是让关节成为一种标准品。对下游本体厂商而言，产品的标准化优势远不止于结构上的简洁：可预测的交付周期、一致的质量管控，以及规模效应下的成本优化，才是更核心的产业价值。零差云控提供的不是一个需要反复验证的工程样品，而是一个开箱即用的动力单元，将上百种机械电子器件的选型、设计、采购与组装，压缩为简单的模块拼接。</p>\n  <p>样机研发的难题已逐步突破，但规模化落地的核心矛盾正集中在供应链端。在制造业领域，“能做出一台样机”与“能稳定、大批量、一致性地做出来”之间，横亘的鸿沟仍未消解。</p>\n  <p>零差云控通过自建五轴精密加工、检测、组装车间，以及对每台关节模组进行全检与工况模拟，已经完成了从产品认证、大规模一致性批量制造到商业规模落地的完整跨越。</p>\n  <p>目前，其产品已覆盖人形机器人、工业机器人、手术机器人、协作机器人、物流、交通运输等行业应用，下游客户超过2000家，长期客户覆盖全球科技消费品、机器人、自动化、汽车等领域的头部企业。</p>\n  <p>需求爆发正倒逼上游零部件产业加速迭代。人形机器人已迈入小批量落地阶段，全产业链面临一个统一命题，守住可靠性，同时扩容产能、压缩成本。这条产业化之路，没有捷径可言。</p>\n  <p><strong>以下为硬氪与零差云控创始人贾玺庆的访谈节选（略经编辑）：</strong></p>\n  <p><strong>硬氪：人形机器人设计存在灵活度、负载、人体尺寸无法同时兼顾的不可能三角，零差依靠集成优化实现尺寸减重，这套设计逻辑能带来哪些连锁产业价值？</strong></p>\n  <p><strong>贾玺庆：</strong>受制于物理极限，多数厂商为了把电机、减速机、编码器、驱动器等一堆元器件塞进关节，只能把结构做得外凸或弯折。这样一来，整机的运动学模型就跟人体生理结构产生了巨大偏差，无法直接用海量公开的人体动作视频去做AI训练，因为机器人的“骨骼”跟人不一样。整机厂商只好额外搭建专属的动作采集设备和数据集，这拉高了算法研发的门槛和成本。</p>\n  <p>相比之下，零差云控在做反过来的事情，先框定人体解剖学空间边界——肩关节、肘关节、胯部、膝部允许的最大包络尺寸是多少，然后在这个“笼子”里做极限集成。同等负载规格下关节轴向长度缩减、自重下降，而且肩、肘、胯关键关节实现了卡扣式拼装，小臂空间完整保留出来，可以兼容市面上各类绳驱、肌腱驱动的灵巧手方案。</p>\n  <p>这套设计最大的产业价值在于，一旦关节外形尺寸、运动副关系趋近原生人体构造，本体厂商可以直接借助成熟的人体动作数据库，比如公开的CMU MoCap、AMASS等进行模型训练，从底层缓解行业长期面临的数据集定制成本过高的问题。</p>\n  <p><strong>硬氪：结合现阶段行业路线发散的现状，如何理解“伪定制、真标准化” 的现象？</strong></p>\n  <p><strong>贾玺庆：</strong>现阶段机器人关节的技术路线远未收敛，甚至还在持续发散，下游本体厂商就很难找到一个“刚刚好”的现成产品，各家定义的接口、尺寸、性能参数都不一样。因此，客户只能以“定制”的名义来找我们，但实际需求翻来覆去就是那几句话：轻一点、强一点、小一点、精一点、便宜一点。</p>\n  <p>这不叫个性，这叫共性。他们只是用“定制”这个词，来表达现有产品还没满足的、普适的性能诉求。不存在真正意义上需要从头开发的个性化开发。</p>\n  <p>基于这个判断，我们放弃了非标定制开发的老路，把这些通用性能诉求沉淀为多型号、标准化的产品矩阵，只有极少数特定工况，比如防爆、IP67防水，我们才做差异化配置。</p>\n  <p>这套策略的价值是双重的，对客户来说，选型、设计、采购、组装从上百个器件压缩到几个模块，研发试错周期大幅缩短；对我们来说，靠量产摊薄单件成本，交付周期和质量管控都可预测。</p>\n  <p><strong>硬氪：头部客户大批量锁单采购，产能爬坡的难点主要卡在哪里？</strong></p>\n  <p><strong>贾玺庆： </strong>全产业链的产能瓶颈是一个系统性问题。</p>\n  <p>一方面，我们做的是高可靠产品，基本盘是医疗手术、工业自动化、电力作业这些“不能掉链子”的场景。新产线落地、操作工招募与技能培训、全流程质检体系搭建都需要时间周期。盲目提速，新员工没培训到位，检查机制跟不上，就容易造成产品一致性下滑，出厂良率出问题。对于我们这种靠可靠性吃饭的公司来说，这是不能妥协的。</p>\n  <p>另一方面，上游电机供应商、减速机外协厂也被下游旺盛的订单倒逼着扩产。他们要去买设备、改造产线、培训人员，同样存在少则数月的周期。。</p>\n  <p>目前人形机器人行业的需求，已经从2024、2025年的“验证样品好不好用”，迅速转向了“大批量、一致性稳定供货”。从材料、加工、部件到总成，整条供应链处在被动追赶需求的阶段。这也是2026年量产元年最鲜明的产业特征，技术难题逐步收窄，但供应链的交付能力成了左右行业节奏的核心变量。</p>\n  <p>谁能在守住可靠性的前提下把产能跑起来，谁就能吃到这波红利。</p>",
+      "published": "2026-07-13T10:37:39+08:00",
+      "fetched_at": "2026-07-13T11:17:07.901003+08:00",
+      "pre_filter_reason": "人形机器人关节公司，涉及AI",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.9,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "人形机器人核心零部件：从融资看赛道新趋势",
+          "angle": "解读零差云控C++轮融资背后的行业逻辑，分析人形机器人从概念炒作转向供应链产能瓶颈的现状，并探讨上游零部件企业的投资价值。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "人形机器人产业链拆解：关节模组为何成为资本宠儿？",
+          "angle": "以零差云控为例，科普人形机器人关节模组的技术难点与市场格局，解释为何该领域能吸引数亿元融资，并展望未来产能扩张对行业的影响。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "5344e7036f98",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "BasedHardware/omi",
+      "link": "https://github.com/BasedHardware/omi",
+      "summary": "AI that sees your screen, listens to your conversations and tells you what to do",
+      "published": "2026-07-13T11:17:51.946606+08:00",
+      "fetched_at": "2026-07-13T11:17:51.946607+08:00",
+      "pre_filter_reason": "AI that sees and listens",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 7,
+        "scarcity": 5,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "AI屏幕监听助手：如何用Omi提升工作效率？",
+          "angle": "演示Omi如何通过屏幕和语音分析实时提供行动建议，适用于会议记录、代码调试等场景，并讨论隐私与便利性的平衡。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "4eb61be28809",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "virattt /ai-hedge-fund",
+      "link": "https://github.com/virattt/ai-hedge-fund",
+      "summary": "An AI Hedge Fund Team",
+      "published": "2026-07-13T11:17:51.457480+08:00",
+      "fetched_at": "2026-07-13T11:17:51.457481+08:00",
+      "pre_filter_reason": "AI Hedge Fund Team, explicitly AI-related.",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 5,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "用AI搭建量化对冲基金：从零开始实操指南",
+          "angle": "基于开源项目ai-hedge-fund，讲解如何利用AI模型进行市场分析、风险管理和交易决策，适合金融科技爱好者入门。",
+          "difficulty": "入门"
         }
       ]
     },
@@ -530,194 +660,40 @@
       "title": "anthropics /claude-cookbooks",
       "link": "https://github.com/anthropics/claude-cookbooks",
       "summary": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
-      "published": "2026-07-12T11:15:01.947506+08:00",
-      "fetched_at": "2026-07-12T11:15:01.947509+08:00",
-      "pre_filter_reason": "Claude is an AI model",
+      "published": "2026-07-13T11:17:51.456421+08:00",
+      "fetched_at": "2026-07-13T11:17:51.456423+08:00",
+      "pre_filter_reason": "Claude AI cookbooks",
       "scores": {
         "importance": 7,
         "timeliness": 7,
         "actionability": 8,
-        "scarcity": 6,
-        "virality": 7,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Claude Cookbooks必学食谱：5个提升AI对话质量的实用技巧",
-          "angle": "精选Claude Cookbooks中的经典案例，如提示链、多模态处理，手把手教你写出更精准的Claude指令。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "case_study",
-          "title": "从Notebook到生产：Claude Cookbooks中的企业级AI应用模式",
-          "angle": "分析Cookbooks中的高级配方（如自动化工作流、知识库集成），探讨如何将其转化为可复用的业务方案。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "d08652ae2dba",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "分析师：特斯拉 FSD 即将迎来属于自己的 iPhone 时刻",
-      "link": "https://www.ithome.com/0/975/667.htm",
-      "summary": "<p>IT之家 7 月 12 日消息，一位长期关注特斯拉的分析师认为，特斯拉 FSD（Full Self-Driving）系统正接近一个“拐点（inflection point）”，届时人们将逐渐意识到，它的价值远不止是一项驾驶辅助功能，就像当年的 iPhone 一样。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/32e83dd9-5ee3-4975-b95f-672edb03b8d6.jpg?x-bce-process=image/format,f_auto\" /></p><p>长期跟踪特斯拉的新街研究公司（New Street Research）分析师 Pierre Ferragu 表示，FSD 是证明“特斯拉不仅仅是一辆汽车”的重要依据。</p><p>他将特斯拉与苹果 iPhone 进行了类比。Ferragu 指出，iPhone 刚推出时，很多人都觉得它价格过高，仅仅作为一部手机并不值得花那么多钱。但后来，人们逐渐意识到，iPhone 并不仅仅是一部打电话的工具，它改变了人们的生活方式，让日常生活变得更加便捷。正因如此，最初看似昂贵的售价最终被市场接受。</p><p>根据 Kelley Blue Book 的数据，美国新车平均成交价已超过 4.9 万美元（IT之家注：现汇率约合 33.3 万元人民币）。而特斯拉目前已有多款车型售价低于这一水平。不过，Ferragu 也承认，即便如此，约 3.5 万美元的汽车对于许多消费者来说依然价格不菲。</p><p>他表示：“还记得 iPhone 最初的目标市场只有约 1000 万部吗？后来，人们意识到它究竟有多优秀，如今每年销量已接近 2.5 亿部。特斯拉未来仍有可能经历类似的发展过程。特斯拉不是一辆普通汽车，就像 iPhone 不是一部普通手机一样。售价 3.5 万美元、再加上每月 100 美元订阅费用的 Model 3，如果只是作为一辆汽车来看，确实对大多数人来说太贵了；这就像当年售价 600 美元的 iPhone，在大家还没有认识到它远不止是一部手机之前，同样显得价格过高。但如果把它看作一项能够每天早晨轻松、安全地送你去上班的工具，它其实并不昂贵。”</p><p>Ferragu 认为，特斯拉的自动驾驶技术还需要大约两个季度的发展时间，届时市场对于 FSD 的认知可能会发生明显变化。不过，他并未具体说明未来两个季度会发生哪些关键进展，仅表示：“再过两个季度，我们就会看到事情将走向何方。”</p>",
-      "published": "2026-07-12T10:47:11+08:00",
-      "fetched_at": "2026-07-12T11:14:37.890862+08:00",
-      "pre_filter_reason": "特斯拉FSD自动驾驶系统，属于AI相关产品",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
         "scarcity": 5,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "特斯拉FSD的iPhone时刻：从驾驶辅助到全自动驾驶的质变",
-          "angle": "深度解析FSD技术拐点的三大标志：算法突破、用户认知转变、商业模式重塑，类比iPhone如何重新定义手机行业。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "FSD价值重估：为什么它不只是“自动驾驶”而是下一个平台级产品",
-          "angle": "从分析师视角拆解FSD的潜在价值：出行服务、数据资产、能源网络集成，以及它如何改变特斯拉的估值逻辑。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "6358ae06f4cc",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "特斯拉 FSD v14 Lite 首次走出美国，韩国率先获得更新",
-      "link": "https://www.ithome.com/0/975/655.htm",
-      "summary": "<p>IT之家 7 月 12 日消息，根据特斯拉韩国官方 X 账号 @tesla_korea 公布的消息，FSD（Supervised）v14 Lite 已开始在美国以外的市场首次推送。那些担心因 HW3 硬件较旧而被“抛弃”的车主，终于迎来了体验最新版 FSD 的机会。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/f33428c0-d3b9-4c8d-acfb-f048a3c81df1.png?x-bce-process=image/format,f_auto\" /></p><p>IT之家注意到，韩国正式成为全球首个获得 FSD v14 Lite 更新的海外市场。这一安排颇为特殊，因为以往加拿大通常都会紧随美国之后率先获得特斯拉的软件更新。但这一次，加拿大用户仍在等待，韩国反而成为 FSD v14 Lite 全球推广的第一站。</p><p>事实上，韩国去年也是北美以外首个获得 FSD v14 主版本更新的国家，不过当时加拿大、墨西哥和波多黎各都已率先完成推送。</p><p>目前，韩国首批升级仅面向早期测试用户开放，适用车型为美国生产的 Model 3 和 Model Y，且搭载较早的 Hardware 3（HW3/AI3）自动驾驶计算平台。</p><p>虽然首批测试规模较小，但特斯拉官方 @Tesla_AI 账号随后确认，在完成进一步验证后，FSD v14 Lite 将逐步向韩国所有符合条件的 AI3 车型车主开放。</p><p>这是 AI3（HW3）车型约 14 个月以来首次获得新版 FSD 更新。FSD v14 Lite 本质上是针对搭载 AI4 硬件车辆所运行的 FSD v14 主版本进行“精简优化”后的版本，该版本两周前刚刚面向美国测试用户推出。</p><p>此前，特斯拉 CEO 埃隆 · 马斯克曾表示，AI3 计算平台的内存带宽仅为 AI4 的约 15%，因此要在 HW3 上运行新版 FSD，需要进行大量软件优化，这也是一项极具挑战性的工程任务。</p><p>特斯拉此前已确认，FSD v14 Lite 将逐步推广至国际市场。外界普遍认为，凡是已经支持或批准 FSD v14 的国家和地区，未来都有机会获得 v14 Lite。目前，这一名单包括：</p><ul class=\" list-paddingleft-2\"><li><p>美国</p></li><li><p>加拿大</p></li><li><p>墨西哥</p></li><li><p>波多黎各</p></li><li><p>中国</p></li><li><p>韩国</p></li><li><p>澳大利亚</p></li><li><p>新西兰</p></li><li><p>荷兰</p></li><li><p>立陶宛</p></li><li><p>爱沙尼亚</p></li><li><p>丹麦</p></li><li><p>比利时</p></li></ul><p>不过，目前特斯拉尚未公布其他国家和地区的具体推送时间表，也没有透露下一批开放市场。</p><p>距离 FSD v14 Lite 在美国首次上线已接近两周，但该版本至今仍未向美国所有符合条件的用户全面开放。因此，目前还无法判断韩国所谓的“进一步验证”需要持续多久，更难预测其他市场何时能够收到更新。</p>",
-      "published": "2026-07-12T09:44:04+08:00",
-      "fetched_at": "2026-07-12T11:14:37.891021+08:00",
-      "pre_filter_reason": "特斯拉FSD自动驾驶系统更新，涉及AI技术",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 6,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "特斯拉FSD v14 Lite首次出海：韩国车主抢先体验，HW3老车主终于等到了",
-          "angle": "对比FSD v14 Lite在韩国与美国的差异，分析海外推送对特斯拉全球自动驾驶战略的意义，以及HW3老车主的实际体验反馈。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "FSD v14 Lite海外首测：韩国路况下的自动驾驶表现与挑战",
-          "angle": "实测视角：韩国复杂城市道路（如首尔江南区）对FSD v14 Lite的考验，包括行人、摩托车、狭窄街道等场景，对比美国测试结果。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "9510de18965d",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "特斯拉正开发 Grok 语音控制 FSD 功能，未来可像与司机对话般指挥自动驾驶",
-      "link": "https://www.ithome.com/0/975/658.htm",
-      "summary": "<p>IT之家 7 月 12 日消息，与汽车交流的方式，即将变得更像与一位专属司机对话，而不再只是生硬地下达语音指令。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/148ae070-8f7f-401d-bab9-1a921ec85d3c.png?x-bce-process=image/format,f_auto\" /></p><p>随着特斯拉不断将人工智能引入车内，下一步的发展重点将是让 Grok AI 聊天机器人与车辆的自动驾驶系统深度结合，使 AI 不仅能聊天，还能真正影响车辆驾驶行为。</p><p>IT之家注意到，近日，科技记者兼特斯拉车主 @ChrissGPT 在 X 平台分享了自己对 FSD（Full Self-Driving）的使用体验。他表示：“如果我能像对司机说话一样，直接告诉 FSD 要驶入哪一个车道、哪一户人家的车道，那么 FSD 在住宅区的实用性至少能提升一倍。”</p><p>他还举例称，如果自己只需告诉车辆“就是那栋房子”，FSD 就能准确驶到门前，并记住这个位置，供以后再次使用，那体验将会好得多。</p><p>对此，特斯拉 AI 负责人 Ashok Elluswamy 回复了一句简短的话：“正在开发中（Working on it）。”</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/e3fec532-b574-41ad-ab8b-4bc48c439b6a.jpg?x-bce-process=image/format,f_auto\" /></p><p>这也意味着，利用自然语言直接控制 FSD 的功能已经进入研发阶段。</p><p>随着 Grok 接入特斯拉车机，车辆已经具备了更强的 AI 能力。Grok 去年夏天首次登陆特斯拉汽车，用户可以通过自然语言与 AI 对话，例如：提出开放式问题；查询知识信息；获取新闻事件摘要等。</p><p>随后，特斯拉不断扩展 Grok 的功能。例如：支持通过语音添加导航途经点；在行驶过程中修改导航路线。</p><p>而在 2026 年春季更新中，特斯拉又加入了基于地点的提醒功能。例如，用户可以直接说：“回家后提醒我把健身包从后备箱拿出来。”</p><p>如今，Grok 与 FSD 自动驾驶系统进一步融合，也被认为是这一 AI 生态发展的自然下一步。</p><p>这一消息也印证了埃隆 · 马斯克此前透露的时间表。上个月，马斯克表示：Grok 语音控制 FSD 功能预计将在“大约三个月内”推出。如果进展顺利，该功能最快有望于 2026 年秋季上线。</p><p>事实上，今年年初，马斯克就曾确认，利用 Grok 控制 FSD 已被列入开发计划。而如今 Ashok Elluswamy 的回应，则说明该项目正在按计划推进。</p><p>目前，车主如果希望 FSD 在路口选择不同路线，有时只能通过提前打开转向灯来进行一定程度的引导。未来接入 Grok 后，驾驶员只需直接说：“前面停止标志左转，不要直行。”“导航去 Costco，并把车停在离其他车辆远一点的位置。”FSD 就有望理解并执行这些自然语言指令。</p><p>这项功能最大的意义之一，就是改善 FSD 在行程最后阶段的表现。虽然 FSD v14.1 已新增“到达目的地停车（Parking at Destination）”功能，但目前仍存在不少限制。例如：很难准确停到指定门口；接送乘客时停车位置仍显生硬。</p><p>近年来，特斯拉一直在持续优化 FSD 在这一环节的表现。如果未来乘客能够直接告诉车辆：“停到右边第二栋房子的车道口。”那么 FSD 的实用性将得到大幅提升。</p><p>此外，马斯克此前还透露，未来 FSD 将能够记住用户在家、公司等常去地点的停车习惯，包括：喜欢停在哪个位置；停车朝向；停车方式等。</p><p>这项能力未来还可能成为 Robotaxi 服务的重要功能。例如，乘客可以直接通过语音：增加新的停靠点；更改行驶路线；告诉车辆准确停在哪栋建筑门前。整个过程无需手动修改导航。</p><p>目前，这项功能尚未公布正式上线时间。虽然马斯克提出的“三个月”时间表一向存在所谓的“Elon Time（马斯克时间）”—— 即发布时间可能推迟，但此次特斯拉 AI 团队公开确认项目正在推进，也意味着相关软件框架已经进入实际验证阶段。</p><p>当 Grok 能够直接控制 FSD 后，下一步的发展方向很可能就是进一步接管车内功能。届时，车主或许只需用日常语言就能完成各种操作，例如：打开或关闭车窗；开启宠物模式（Pet Mode）；调节空调和温度等。</p>",
-      "published": "2026-07-12T09:56:15+08:00",
-      "fetched_at": "2026-07-12T11:14:37.890994+08:00",
-      "pre_filter_reason": "特斯拉开发Grok AI语音控制FSD功能",
-      "scores": {
-        "importance": 6,
-        "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 6,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 6.9,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Grok语音控制FSD：特斯拉如何让AI像司机一样理解你的意图",
-          "angle": "技术解析：Grok语音控制FSD的工作原理，从自然语言处理到驾驶指令映射，对比传统语音命令的局限性，展示“对话式驾驶”的未来。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "未来车内交互：Grok+FSD如何重塑人车关系",
-          "angle": "场景化演示：用户如何通过自然语言（如“前面路口右转，找个咖啡店停车”）指挥车辆，分析这种交互方式对驾驶安全、便利性和用户体验的影响。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "07cb0caf64e5",
-      "source_id": "hn-ai",
-      "source_name": "Hacker News (AI)",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "Mesh LLM: distributed AI computing on iroh",
-      "link": "https://www.iroh.computer/blog/mesh-llm",
-      "summary": "<p>Article URL: <a href=\"https://www.iroh.computer/blog/mesh-llm\">https://www.iroh.computer/blog/mesh-llm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48876505\">https://news.ycombinator.com/item?id=48876505</a></p>\n<p>Points: 126</p>\n<p># Comments: 31</p>",
-      "published": "2026-07-12T06:38:57+08:00",
-      "fetched_at": "2026-07-12T11:14:59.789672+08:00",
-      "pre_filter_reason": "Distributed AI computing on LLM",
-      "scores": {
-        "importance": 6,
-        "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 7,
         "virality": 6,
         "crowd_heat": 0.0
       },
-      "quality_score": 6.9,
+      "quality_score": 6.8,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "Mesh LLM：分布式AI计算的未来——如何在iroh上运行大模型",
-          "angle": "技术教程：从零开始搭建Mesh LLM节点，讲解分布式推理的原理、节点发现、任务分配与结果聚合，适合对去中心化AI感兴趣的开发者。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "iroh Mesh LLM实战：用分布式网络运行你的第一个大语言模型",
-          "angle": "动手实践：通过iroh工具链部署一个简单的LLM集群，演示如何利用闲置算力进行推理，对比中心化API的成本与延迟优势。",
-          "difficulty": "进阶"
+          "title": "Claude Cookbooks：5个创意AI应用案例解析",
+          "angle": "精选Claude Cookbooks中的实用Notebook，展示如何用Claude进行数据分析、代码生成或创意写作，并提供逐步操作演示。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "3ff5a651916b",
-      "source_id": "github-ai-repos",
-      "source_name": "GitHub AI 新项目",
+      "id": "56ea0e805629",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "compozy/agh",
-      "link": "https://github.com/compozy/agh",
-      "summary": "An open workplace for AI agents — local-first runtime with durable sessions and agent-to-agent networking.",
-      "published": "2026-07-12T11:15:02.267697+08:00",
-      "fetched_at": "2026-07-12T11:15:02.267698+08:00",
-      "pre_filter_reason": "Designed as an open workplace for AI agents with agent-to-agent networking.",
+      "title": "Dicklesworthstone /destructive_command_guard",
+      "link": "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "summary": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+      "published": "2026-07-13T11:17:51.455449+08:00",
+      "fetched_at": "2026-07-13T11:17:51.455467+08:00",
+      "pre_filter_reason": "command guard for AI agents",
       "scores": {
         "importance": 6,
         "timeliness": 7,
@@ -730,15 +706,9 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "compozy/agh：本地优先的AI智能体协作平台入门指南",
-          "angle": "新手教程：安装并运行compozy/agh，创建第一个AI智能体，实现持久化会话与智能体间通信，展示本地运行的优势与隐私保护。",
+          "title": "AI代理安全防护：用Destructive Command Guard防止灾难性命令",
+          "angle": "介绍dcg工具如何拦截危险git和shell命令，保护AI代理执行环境，适合DevOps和AI安全从业者学习。",
           "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "AI智能体网络：用compozy/agh构建你的多智能体协作系统",
-          "angle": "进阶教程：设计一个多智能体工作流（如数据采集-分析-报告生成），利用agh的agent-to-agent网络实现任务分发与结果汇总，探索本地优先架构的应用场景。",
-          "difficulty": "进阶"
         }
       ]
     }

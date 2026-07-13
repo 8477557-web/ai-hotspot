@@ -1,20 +1,20 @@
 {
-  "title": "AI日报 - 2026年07月12日",
+  "title": "AI日报 - 2026年07月13日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent",
-          "summary": "OpenAI发布GPT-5.6，以700词Prompt调度64个子Agent，一小时破解困扰数学界50年的猜想。"
-        },
-        {
           "title": "老黄RTX Spark真机现身Bilibili World！CPU和GPU直接焊在一起，笔记本跑120B大模型",
-          "summary": "NVIDIA RTX Spark亮相Bilibili World，通过CPU-GPU一体化设计使笔记本可运行120B参数大模型。"
+          "summary": "NVIDIA展示RTX Spark真机，将CPU与GPU集成一体，使笔记本能运行120B参数大模型。"
         },
         {
-          "title": "Meta紧急下线争议AI生图功能",
-          "summary": "Meta因内容安全争议紧急下架其AI图像生成功能，引发行业对生成内容管控的讨论。"
+          "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+          "summary": "生产环境AI代理迁移至GPT-5.6后，速度提升2.2倍，成本降低27%。"
+        },
+        {
+          "title": "Zer0Fit: I took Google's new TabFM & TimesFM ML foundation models and made them available as an MCP server for zero-shot ML tasks",
+          "summary": "开发者将Google的TabFM和TimesFM基础模型封装为MCP服务器，支持零样本机器学习任务。"
         }
       ]
     },
@@ -22,20 +22,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "苹果甩出41页PDF怒告OpenAI“偷师”其核心机密！网友：早知道就等印度开源了",
-          "summary": "苹果提交41页诉讼指控OpenAI窃取其核心机密，分析师称即使指控未证实也可能重创OpenAI硬件计划。"
+          "title": "苹果指控OpenAI偷窃商业机密",
+          "summary": "苹果对OpenAI提起商业机密窃取诉讼，引发行业关注。"
         },
         {
-          "title": "独家 | 智谱创始人唐杰发内部信：「GLM 时刻」之后，什么是更重要的事",
-          "summary": "智谱创始人唐杰发布内部信，强调在GLM取得突破后需聚焦长期战略与生态建设。"
+          "title": "高盛：AI或引爆美国通胀，存储暴涨是核心推手",
+          "summary": "高盛报告指出AI可能推高美国通胀，存储芯片价格暴涨是主要因素。"
         },
         {
-          "title": "特斯拉 46 天拆除 Model S/X 产线，为 Optimus 人形机器人量产铺路",
-          "summary": "特斯拉用46天拆除Model S/X产线，全力转向Optimus人形机器人量产，加速AI硬件落地。"
+          "title": "韩国央行：全球半导体市场目前仍处于供不应求的状态，由AI驱动的芯片超级周期预计还将持续",
+          "summary": "韩国央行确认AI驱动的半导体超级周期未结束，供应短缺将持续支撑市场。"
         },
         {
-          "title": "中国首个十万卡集群落成！全国产算力支撑“十万卡时代”",
-          "summary": "中国建成首个十万卡算力集群，采用全国产硬件，标志着国产算力进入新阶段。"
+          "title": "头部人形机器人关节公司半年再获新融资，同创伟业领投数亿元",
+          "summary": "人形机器人关节领域头部企业再获数亿元融资，资本持续加注。"
         }
       ]
     },
@@ -44,11 +44,11 @@
       "items": [
         {
           "title": "How to Evaluate General-Purpose Robot Policies for Real-World Deployment",
-          "summary": "NVIDIA发布通用机器人策略评估指南，为机器人从实验室到真实部署提供方法论。"
+          "summary": "NVIDIA发布通用机器人策略评估指南，聚焦实际部署中的关键指标。"
         },
         {
-          "title": "Mesh LLM: distributed AI computing on iroh",
-          "summary": "新研究提出Mesh LLM框架，基于iroh实现分布式AI计算，提升大模型推理效率。"
+          "title": "对话Om AI赵天成：多年坚守，押注物理AI原生的「流式」未来",
+          "summary": "Om AI创始人赵天成分享物理AI原生流式架构的长期愿景与技术路径。"
         }
       ]
     },
@@ -56,21 +56,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "分析师：特斯拉 FSD 即将迎来属于自己的 iPhone 时刻",
-          "summary": "分析师预测特斯拉FSD将迎来类似iPhone的爆发时刻，FSD v14 Lite已首次走出美国在韩国更新。"
+          "title": "wonderwhy-er /DesktopCommanderMCP",
+          "summary": "开源项目DesktopCommanderMCP提供桌面端AI命令控制新方案。"
         },
         {
-          "title": "特斯拉正开发 Grok 语音控制 FSD 功能，未来可像与司机对话般指挥自动驾驶",
-          "summary": "特斯拉计划集成Grok语音助手，实现自然语言控制FSD，提升人车交互体验。"
+          "title": "virattt /ai-hedge-fund",
+          "summary": "GitHub热门项目ai-hedge-fund展示AI在量化对冲基金中的应用实践。"
         },
         {
-          "title": "机构：到2029年中国国内算力卡采购额将达到1.44万亿元，将诞生多家市值万亿甚至十万亿的上市企业",
-          "summary": "机构预测中国算力卡采购额2029年达1.44万亿元，将催生多家万亿级AI硬件企业。"
+          "title": "anthropics /claude-cookbooks",
+          "summary": "Anthropic发布Claude Cookbooks，提供实用AI开发技巧与案例。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦大模型突破、算力基建加速与法律纠纷，同时机器人量产和自动驾驶语音交互成为新热点。",
-  "generated_at": "2026-07-12T11:15:58.075344+08:00",
+  "summary": "今日AI圈聚焦硬件创新与商业博弈，存储短缺与机器人融资热度不减，开源生态持续丰富。",
+  "generated_at": "2026-07-13T11:18:57.003634+08:00",
   "source_count": 20
 }
