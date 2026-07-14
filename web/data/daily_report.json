@@ -1,20 +1,20 @@
 {
-  "title": "AI日报 - 2026年07月13日",
+  "title": "AI日报 - 2026年07月14日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "老黄RTX Spark真机现身Bilibili World！CPU和GPU直接焊在一起，笔记本跑120B大模型",
-          "summary": "NVIDIA展示RTX Spark真机，将CPU与GPU集成一体，使笔记本能运行120B参数大模型。"
+          "title": "阶跃发布大模型原生AI终端品牌STEPX及Step AOS，全球首款大模型原生智能体手机同步亮相",
+          "summary": "阶跃科技推出全球首款大模型原生智能体手机及操作系统，标志着AI终端进入原生智能体时代。"
         },
         {
-          "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
-          "summary": "生产环境AI代理迁移至GPT-5.6后，速度提升2.2倍，成本降低27%。"
+          "title": "Meta最强Agent模型进军编程，从免费开源到卖“低价”模型",
+          "summary": "Meta发布最强Agent模型并开源，同时推出低价商用版本，意图抢占编程领域AI市场。"
         },
         {
-          "title": "Zer0Fit: I took Google's new TabFM & TimesFM ML foundation models and made them available as an MCP server for zero-shot ML tasks",
-          "summary": "开发者将Google的TabFM和TimesFM基础模型封装为MCP服务器，支持零样本机器学习任务。"
+          "title": "英伟达 AIPC 中国首秀，笔记本里装下一座「曼哈顿」",
+          "summary": "英伟达在中国首次展示AIPC笔记本，将高性能AI计算能力浓缩于移动设备中。"
         }
       ]
     },
@@ -22,20 +22,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "苹果指控OpenAI偷窃商业机密",
-          "summary": "苹果对OpenAI提起商业机密窃取诉讼，引发行业关注。"
+          "title": "习近平将出席2026世界人工智能大会开幕式并发表主旨讲话",
+          "summary": "2026世界人工智能大会今日开幕，国家主席习近平将发表主旨讲话，大会亮点纷呈且一票难求。"
         },
         {
-          "title": "高盛：AI或引爆美国通胀，存储暴涨是核心推手",
-          "summary": "高盛报告指出AI可能推高美国通胀，存储芯片价格暴涨是主要因素。"
+          "title": "GPT-5.6刚发布，OpenAI安全主管就跑路了？？",
+          "summary": "OpenAI发布GPT-5.6后，其安全主管突然离职，引发业界对AI安全治理的广泛讨论。"
         },
         {
-          "title": "韩国央行：全球半导体市场目前仍处于供不应求的状态，由AI驱动的芯片超级周期预计还将持续",
-          "summary": "韩国央行确认AI驱动的半导体超级周期未结束，供应短缺将持续支撑市场。"
+          "title": "字节探索自动驾驶，Seed世界模型团队负责｜36氪独家",
+          "summary": "字节跳动正式进军自动驾驶领域，由Seed世界模型团队主导研发，布局AI+出行。"
         },
         {
-          "title": "头部人形机器人关节公司半年再获新融资，同创伟业领投数亿元",
-          "summary": "人形机器人关节领域头部企业再获数亿元融资，资本持续加注。"
+          "title": "苹果起诉 OpenAI 窃取商业机密",
+          "summary": "苹果对OpenAI提起诉讼，指控其窃取商业机密，科技巨头间的AI竞争进一步激化。"
         }
       ]
     },
@@ -43,12 +43,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "How to Evaluate General-Purpose Robot Policies for Real-World Deployment",
-          "summary": "NVIDIA发布通用机器人策略评估指南，聚焦实际部署中的关键指标。"
+          "title": "NVIDIA Ising Decoding Cuts Color Code Logical Error Rates by Over 300X",
+          "summary": "英伟达提出Ising解码方法，将量子纠错中的逻辑错误率降低超过300倍，大幅提升量子计算可靠性。"
         },
         {
-          "title": "对话Om AI赵天成：多年坚守，押注物理AI原生的「流式」未来",
-          "summary": "Om AI创始人赵天成分享物理AI原生流式架构的长期愿景与技术路径。"
+          "title": "ICML 2026世界模型研究盘点：LAWM VS WAM，谁主沉浮？",
+          "summary": "ICML 2026上世界模型研究成为焦点，LAWM与WAM两大流派展开激烈竞争，推动AI对物理世界的理解。"
+        },
+        {
+          "title": "Extreme Event Likelihoods with Guided Generative Models",
+          "summary": "英伟达提出引导生成模型用于极端事件概率估计，为气候预测和风险管理提供新工具。"
         }
       ]
     },
@@ -56,21 +60,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "wonderwhy-er /DesktopCommanderMCP",
-          "summary": "开源项目DesktopCommanderMCP提供桌面端AI命令控制新方案。"
+          "title": "AI推理成本首次算清：GPU利用率不到52%，千万别自建！",
+          "summary": "最新分析显示AI推理时GPU平均利用率不足52%，专家建议企业避免自建推理基础设施以降低成本。"
         },
         {
-          "title": "virattt /ai-hedge-fund",
-          "summary": "GitHub热门项目ai-hedge-fund展示AI在量化对冲基金中的应用实践。"
+          "title": "Codex 不限时了，我先删掉了一堆 Skills ｜附 GPT-5.6 官方指南",
+          "summary": "OpenAI Codex取消时间限制，用户可更灵活使用，同时官方发布GPT-5.6使用指南优化体验。"
         },
         {
-          "title": "anthropics /claude-cookbooks",
-          "summary": "Anthropic发布Claude Cookbooks，提供实用AI开发技巧与案例。"
+          "title": "Claude Code砸的坑，蚂蚁安全在尝试填上",
+          "summary": "蚂蚁安全团队针对Claude Code的潜在安全漏洞提出修复方案，推动AI编程工具的安全性提升。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦硬件创新与商业博弈，存储短缺与机器人融资热度不减，开源生态持续丰富。",
-  "generated_at": "2026-07-13T11:18:57.003634+08:00",
+  "summary": "今日AI圈聚焦原生智能体终端、量子纠错突破与安全治理，行业竞争加剧，技术落地加速。",
+  "generated_at": "2026-07-14T10:43:04.422941+08:00",
   "source_count": 20
 }
