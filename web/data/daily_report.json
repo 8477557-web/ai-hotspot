@@ -1,20 +1,20 @@
 {
-  "title": "AI日报 - 2026年07月14日",
+  "title": "AI日报 - 2026年07月15日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "阶跃发布大模型原生AI终端品牌STEPX及Step AOS，全球首款大模型原生智能体手机同步亮相",
-          "summary": "阶跃科技推出全球首款大模型原生智能体手机及操作系统，标志着AI终端进入原生智能体时代。"
+          "title": "刚刚，一个免费AI Coding选手杀入全球第一梯队",
+          "summary": "一款免费AI编程工具凭借出色性能跻身全球第一梯队，引发开发者广泛关注。"
         },
         {
-          "title": "Meta最强Agent模型进军编程，从免费开源到卖“低价”模型",
-          "summary": "Meta发布最强Agent模型并开源，同时推出低价商用版本，意图抢占编程领域AI市场。"
+          "title": "阶跃星辰发布Step AOS智能体原生操作系统与STEPX Neo手机，定义大模型原生AI终端新范式",
+          "summary": "阶跃星辰推出全球首个智能体原生操作系统Step AOS及配套手机，重新定义AI终端体验。"
         },
         {
-          "title": "英伟达 AIPC 中国首秀，笔记本里装下一座「曼哈顿」",
-          "summary": "英伟达在中国首次展示AIPC笔记本，将高性能AI计算能力浓缩于移动设备中。"
+          "title": "SpaceX联手Cursor的首个AI产品曝光！全能办公智能体内测中，ChatGPT Work迎来劲敌",
+          "summary": "SpaceX与Cursor合作推出全能办公智能体，内测中，或与ChatGPT Work直接竞争。"
         }
       ]
     },
@@ -22,20 +22,16 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "习近平将出席2026世界人工智能大会开幕式并发表主旨讲话",
-          "summary": "2026世界人工智能大会今日开幕，国家主席习近平将发表主旨讲话，大会亮点纷呈且一票难求。"
+          "title": "估值4800亿，DeepSeek火速开启新一轮融资！最快明年IPO",
+          "summary": "DeepSeek启动新一轮融资，估值达4800亿，并计划最快明年IPO，梁文锋登顶AI大模型全球首富。"
         },
         {
-          "title": "GPT-5.6刚发布，OpenAI安全主管就跑路了？？",
-          "summary": "OpenAI发布GPT-5.6后，其安全主管突然离职，引发业界对AI安全治理的广泛讨论。"
+          "title": "OpenAI 商业化版图「一拆为三」，原掌舵人 Fidji Simo 突遭离职",
+          "summary": "OpenAI将业务拆分为三个独立板块，同时原掌舵人Fidji Simo意外离职，引发行业震荡。"
         },
         {
-          "title": "字节探索自动驾驶，Seed世界模型团队负责｜36氪独家",
-          "summary": "字节跳动正式进军自动驾驶领域，由Seed世界模型团队主导研发，布局AI+出行。"
-        },
-        {
-          "title": "苹果起诉 OpenAI 窃取商业机密",
-          "summary": "苹果对OpenAI提起诉讼，指控其窃取商业机密，科技巨头间的AI竞争进一步激化。"
+          "title": "ChatGPT出现故障",
+          "summary": "ChatGPT今日发生大规模故障，影响全球用户，具体原因尚在排查中。"
         }
       ]
     },
@@ -43,16 +39,16 @@
       "name": "论文/研究",
       "items": [
         {
+          "title": "Post-Train NVIDIA Cosmos 3 in One Day Using Agent Skills",
+          "summary": "NVIDIA展示如何利用Agent技能在一天内完成Cosmos 3模型的后训练，大幅提升效率。"
+        },
+        {
+          "title": "Proactive Agent Research Environment: Simulating Active Users to Evaluate Proactive Assistants",
+          "summary": "苹果提出主动式智能体研究环境，通过模拟活跃用户来评估前瞻性助手的表现。"
+        },
+        {
           "title": "NVIDIA Ising Decoding Cuts Color Code Logical Error Rates by Over 300X",
-          "summary": "英伟达提出Ising解码方法，将量子纠错中的逻辑错误率降低超过300倍，大幅提升量子计算可靠性。"
-        },
-        {
-          "title": "ICML 2026世界模型研究盘点：LAWM VS WAM，谁主沉浮？",
-          "summary": "ICML 2026上世界模型研究成为焦点，LAWM与WAM两大流派展开激烈竞争，推动AI对物理世界的理解。"
-        },
-        {
-          "title": "Extreme Event Likelihoods with Guided Generative Models",
-          "summary": "英伟达提出引导生成模型用于极端事件概率估计，为气候预测和风险管理提供新工具。"
+          "summary": "NVIDIA的伊辛解码技术将颜色码逻辑错误率降低300倍以上，推动量子纠错进步。"
         }
       ]
     },
@@ -60,21 +56,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "AI推理成本首次算清：GPU利用率不到52%，千万别自建！",
-          "summary": "最新分析显示AI推理时GPU平均利用率不足52%，专家建议企业避免自建推理基础设施以降低成本。"
+          "title": "Lessons From the Leaderboard: What 5,000+ Kagglers Taught Us About Improving AI Reasoning",
+          "summary": "NVIDIA从5000多名Kaggle参赛者中总结出提升AI推理能力的实战经验。"
         },
         {
-          "title": "Codex 不限时了，我先删掉了一堆 Skills ｜附 GPT-5.6 官方指南",
-          "summary": "OpenAI Codex取消时间限制，用户可更灵活使用，同时官方发布GPT-5.6使用指南优化体验。"
+          "title": "How to manage AI investments in the agentic era",
+          "summary": "OpenAI分享在智能体时代管理AI投资的策略，强调长期布局与风险控制。"
         },
         {
-          "title": "Claude Code砸的坑，蚂蚁安全在尝试填上",
-          "summary": "蚂蚁安全团队针对Claude Code的潜在安全漏洞提出修复方案，推动AI编程工具的安全性提升。"
+          "title": "内存占用 54 GB → 3.9GB！苹果正评估 PrismML 量化 AI 技术，让 iPhone 15 及后续机型运行 27B 模型",
+          "summary": "苹果测试PrismML量化技术，将模型内存占用从54GB压缩至3.9GB，有望在iPhone上运行27B参数大模型。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦原生智能体终端、量子纠错突破与安全治理，行业竞争加剧，技术落地加速。",
-  "generated_at": "2026-07-14T10:43:04.422941+08:00",
+  "summary": "今日AI圈聚焦智能体生态与资本热潮，模型效率提升与终端落地成为核心主线。",
+  "generated_at": "2026-07-15T10:41:09.478063+08:00",
   "source_count": 20
 }
