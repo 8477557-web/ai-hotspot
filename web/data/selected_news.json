@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-07-15T10:41:09.478148+08:00",
+  "updated_at": "2026-07-16T10:48:25.204864+08:00",
   "total": 20,
   "items": [
     {
-      "id": "9cb9197a042e",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
+      "id": "c4a8a3b382e5",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Post-Train NVIDIA Cosmos 3 in One Day Using Agent Skills",
-      "link": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-in-one-day-using-agent-skills/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/nvidia-tao-cosmos-traffic-intersection-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-tao-cosmos-traffic-intersection\" width=\"768\" />What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning...",
-      "published": "2026-07-15T00:00:00+08:00",
-      "fetched_at": "2026-07-15T10:39:43.577102+08:00",
-      "pre_filter_reason": "AI model post-training with agent skills",
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+      "published": "2026-07-15T18:00:00+08:00",
+      "fetched_at": "2026-07-16T10:46:46.423189+08:00",
+      "pre_filter_reason": "GPT-Red是OpenAI的AI安全系统，涉及AI研究和安全",
       "scores": {
         "importance": 8,
-        "timeliness": 7,
-        "actionability": 9,
-        "scarcity": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
         "virality": 7,
         "crowd_heat": 0.0
       },
@@ -27,29 +27,35 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "一天搞定NVIDIA Cosmos 3后训练：Agent技能实战指南",
-          "angle": "手把手教你使用Agent技能在一天内完成NVIDIA Cosmos 3的后训练，涵盖环境配置、数据准备和关键参数调优。",
+          "title": "GPT-Red 如何用“左右互搏”提升AI安全性？",
+          "angle": "以 GPT-Red 为例，讲解自我对抗式红队测试的原理、步骤，以及它对防止提示注入攻击的实际效果。",
           "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "手把手教你搭建一个简易的AI红队测试流程",
+          "angle": "从 GPT-Red 的设计思路出发，教开发者如何用少量代码模拟自动化红队测试，提升自己模型的鲁棒性。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "a54033ae8333",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
+      "id": "8e96ec9b00c1",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "How to Run an Autoresearch Workflow with RL Agent Skills and NVIDIA NeMo",
-      "link": "https://developer.nvidia.com/blog/how-to-run-an-autoresearch-workflow-with-rl-agent-skills-and-nvidia-nemo/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/agentic-ai-rl-gym-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"agentic-ai-rl-gym\" width=\"768\" />Coding AI agents are becoming practical operators for long-running machine learning (ML) workflows. They can inspect repositories, set up runtimes, resolve...",
-      "published": "2026-07-15T00:00:00+08:00",
-      "fetched_at": "2026-07-15T10:39:43.577086+08:00",
-      "pre_filter_reason": "AI agent workflow with RL and NVIDIA NeMo",
+      "title": "The US is advancing AI safety through state and federal action",
+      "link": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+      "published": "2026-07-15T20:00:00+08:00",
+      "fetched_at": "2026-07-16T10:46:46.423137+08:00",
+      "pre_filter_reason": "AI safety policy",
       "scores": {
         "importance": 7,
-        "timeliness": 8,
-        "actionability": 7,
+        "timeliness": 7,
+        "actionability": 8,
         "scarcity": 7,
         "virality": 6,
         "crowd_heat": 0.0
@@ -58,39 +64,88 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "RL Agent + NVIDIA NeMo：自动化研究工作流搭建",
-          "angle": "从零开始，演示如何利用RL Agent技能和NVIDIA NeMo框架构建一个自动化的AI研究流程，包括环境设置、任务定义和结果分析。",
+          "title": "什么是“反向联邦主义”？美国AI监管新思路解读",
+          "angle": "用通俗语言解释 OpenAI 提出的“州法先行、联邦兜底”的 AI 治理模式，并对比中美AI监管差异。",
           "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "AI企业如何应对美国各州不同的安全法规？",
+          "angle": "从企业合规角度，分析美国州级AI法案（如科罗拉多、康涅狄格）的要点，并提供应对策略。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "e20236850d6e",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "刚刚，一个免费AI Coding选手杀入全球第一梯队",
-      "link": "https://www.qbitai.com/2026/07/448475.html",
-      "summary": "一手实测这就奉上",
-      "published": "2026-07-14T20:36:48+08:00",
-      "fetched_at": "2026-07-15T10:40:02.027297+08:00",
-      "pre_filter_reason": "AI Coding工具",
+      "id": "131c3b8b46a4",
+      "source_id": "huggingface-blog",
+      "source_name": "Hugging Face Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "What building Shippy taught us about building agents",
+      "link": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "summary": "",
+      "published": "2026-07-16T01:29:41+08:00",
+      "fetched_at": "2026-07-16T10:46:48.094073+08:00",
+      "pre_filter_reason": "Building agents implies AI agents",
       "scores": {
-        "importance": 9,
-        "timeliness": 10,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 9,
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 5,
         "crowd_heat": 0.0
       },
-      "quality_score": 8.2,
+      "quality_score": 8.0,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "实测免费AI Coding新星：如何用它提升编程效率",
-          "angle": "亲测这款免费AI编程工具的实际表现，展示其在代码生成、调试和优化方面的能力，并对比其他主流工具。",
+          "title": "从“Shippy”项目学到的智能体构建三大教训",
+          "angle": "复盘 Shippy 项目中的关键决策点，总结构建可靠AI Agent 的常见陷阱与最佳实践。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "tutorial",
+          "title": "如何设计一个不会“跑偏”的AI Agent？",
+          "angle": "结合 Shippy 的经验，讲解 Agent 的规划、工具调用、错误恢复等核心模块的设计思路。",
+          "difficulty": "高级"
+        }
+      ]
+    },
+    {
+      "id": "c7c73642efb1",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "独家｜面壁智能端侧大模型将搭载三星手机上市",
+      "link": "https://36kr.com/p/3896830362601351?f=rss",
+      "summary": "<p><strong>文｜邓咏仪</strong></p>\n  <p><strong>编辑｜张雨忻 杨轩</strong></p>\n  <p>《智能涌现》独家获悉，端侧大模型公司面壁智能已与三星手机达成合作，其自主研发的MiniCPM系列端侧模型将搭载于三星手机上市，覆盖数款旗舰机型。</p>\n  <p>就在同一日，网信部门发布公告，包括“Apple智能”等7款提供手机端侧生成式人工智能服务完成备案。</p>\n  <p>公告显示，Apple智能、华为小艺AI大模型、OPPO Andes GPT、vivo蓝心端侧大模型、小米澎湃AI、三星盖乐世AI以及努比亚豆包手机大模型共7款服务完成备案。</p>\n  <p>大模型浪潮来临后，端侧AI一直处于技术探索和萌芽期。此次七款手机端侧AI同日获批，是业界的重要里程碑——端侧AI不再是概念演示，进入了规模化落地阶段。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260715/v2_c47f286e2748467fbc532dd4448e4721@2057308263_oswg372385oswg1080oswg1007_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">△来源：网信中国</p>\n  <p>同日，阿里巴巴向媒体确认，阿里千问将作为AI能力集成至Apple智能，覆盖iOS、iPadOS、macOS和visionOS的国行设备，用户无需切换App即可在苹果设备上体验千问的文本与图像理解、内容生成等能力。此后，阿里股价应声上涨超过5%。</p>\n  <p>此前，国内手机厂商的端侧AI能力大多由自研模型支撑——华为有小艺、OPPO有AndesGPT、vivo有蓝心、小米有澎湃AI。而如今，阿里千问落地Apple智能、面壁智能搭载三星手机，这说明了AI模型公司正在成为手机AI能力的重要供给方——手机厂商不必事事自研，端侧模型的市场化分工正在形成。</p>\n  <h2><strong>最早押注端侧AI的初创公司</strong></h2>\n  <p>面壁智能2022年8月在北京成立，孵化自清华大学自然语言处理实验室。联合创始人、CEO李大海曾任知乎合伙人、CTO；联合创始人、首席科学家刘知远现任清华大学计算机系教授；联合创始人、CTO曾国洋在22岁时作为核心工程负责人，训练了中国第一个大语言模型CPM-1。</p>\n  <p><strong>据投资界报道，2026年上半年，面壁智能累计融资超50亿元，估值突破200亿元，成为国内端侧AI领域估值最高的独角兽。</strong></p>\n  <p>面壁智能也是国内最早押注端侧AI的初创公司。2023年下半年，当行业还在追赶云端大模型参数规模时，面壁智能决定全力押注端侧。这个选择在当时并不主流——做大模型的公司都在卷参数、卷算力，端侧模型被视为“做小”的边缘路线。</p>\n  <p>面壁智能的判断基于一个核心方法论：知识密度。2024年，面壁智能与清华大学团队提出“大模型密度定律”（Densing Law），认为开源大模型的最高能力密度约每3.5个月翻一番，同等智能所需的参数规模呈指数级下降。</p>\n  <p>这个判断在后续的模型发布中被逐步验证。2026年5月，面壁联合清华大学、OpenBMB开源的新一代端侧文本基座模型MiniCPM5-1B，参数量仅10亿，在Artificial Analysis Intelligence Index中获得17.9分，超过多款参数规模更大的开源基座模型；另一款MiniCPM-V 4.6仅1.3B参数、6GB内存即可在手机上流畅运行，支持iOS、Android、HarmonyOS等主流操作系统。</p>\n  <p>目前，MiniCPM系列开源模型在GitHub、Hugging Face等平台的累计下载量已突破3800万次。</p>\n  <p>在近期36氪对曾国洋的专访中，他解释了端侧模型的底层逻辑：“端侧是硬限制——如果模型太大，跑不动就是跑不动，补贴钱没用；功耗太高会发热，你不可能补贴一个冰块。”在他看来，做端侧模型的难度并不亚于做大：“做高效是非常难的，不是越大越简单。”</p>\n  <p>端侧模型的落地不只是把模型做高效，还要打通算法、芯片适配、功耗优化、终端部署的全链路。</p>\n  <p>面壁智能已完成对高通、联发科、英特尔、瑞芯微、英伟达、AMD等主流芯片平台的全面适配。在国产芯片方面，面壁智能参与了华为昇腾、寒武纪等国产芯片的软件栈构建，发布了全国首个三值量化大模型BitCPM-CANN，推理阶段可节省约6倍显存。</p>\n  <p>面壁智能也已建立多样化的端侧模型矩阵。比如，最新发布的MiniCPM-o4.5是一个全双工全模态大模型，以9B参数量，就是实现语音、视频、文本的全模态同步交互。</p>\n  <p>端侧模型要在手机上跑起来，得要解决功耗、散热、内存占用、响应延迟，每一个环节都不可缺少。“端侧模型不单看评测效果，还有响应时间、硬件成本，它很难从单一维度胜出。”曾国洋在专访中表示。</p>\n  <p>在汽车端，面壁智能已初步验证了规模化落地能力。其自研端侧智能体SuperMate到2026年底预计将交付超30万台量产车，覆盖吉利、上汽大众、广汽、马自达等品牌，跑通了模型适配、硬件兼容、供应链、终端交付的全链路。</p>\n  <p>三星是全球出货量最大的安卓手机厂商之一，其端侧AI能力此前主要依赖自研的Galaxy AI和与谷歌的合作。据韩媒报道，三星正与谷歌深度合作，将Gemini整合进其设备生态，包括即将于7月22日在伦敦发布的Galaxy Unpacked 2026系列产品。面壁智能的端侧模型在三星体系中具体承担怎样的角色，仍有待进一步确认。</p>\n  <p><strong>封面来源｜AI生成</strong></p>\n  <p>&nbsp;</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260715/v2_6c2c24f65f7247228a1cf662b54d7799@2057308263_oswg66520oswg900oswg500_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">👇🏻&nbsp; 扫码加入「智涌AI交流群」👇🏻</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260715/v2_a87ba363e0ae48e8b74b4237d5a60ffb@2057308263_oswg53751oswg900oswg335_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">欢迎交流</p>\n  <p>本文来自微信公众号<a href=\"https://mp.weixin.qq.com/s?__biz=MzkwMDQ2NDU2Nw==&amp;tempkey=MTM4M19NajZ4NE1neEpiSUhkeU5nMHNmaTk0OERudm5mTHVwNkhjWVI4VnU4Q3BPbzRuS1Myb3RVaXhTU1hVVjZLbkdWNlBRa1E2NUJHcURMY2lHakZ4cW5hQWJOb09wWFNJNzNMblZNOFpKai1lZEYwU1VOeXNlT01jU3NXRjF4REI5SlJCLVFVSVM4d19DVEFXUkl2UnFVTVcyVjZ2akw1U0JhTnBFZk9Rfn4%3D&amp;chksm=418c08c8dab2d6d4008851f34c8852d39ffeb8e16fcac54d22dabe3f4f134b793a56e9d15447&amp;mpshare=1&amp;scene=1&amp;srcid=0715K3lJ8yumyj4T8mEqfzeR&amp;sharer_shareinfo=0fadfb1222bcf2b203f4d9eda85bcb48&amp;sharer_shareinfo_first=0fadfb1222bcf2b203f4d9eda85bcb48#wechat_redirect\" rel=\"noopener noreferrer\" target=\"_blank\">“智能涌现”</a>，作者：邓咏仪，36氪经授权发布。</p>",
+      "published": "2026-07-15T19:47:14+08:00",
+      "fetched_at": "2026-07-16T10:46:49.818378+08:00",
+      "pre_filter_reason": "AI model partnership with Samsung",
+      "scores": {
+        "importance": 9,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 9,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "端侧大模型如何“塞进”手机？面壁智能与三星合作解析",
+          "angle": "从技术角度解释端侧模型（如 MiniCPM）的量化、蒸馏和部署技巧，以及为什么三星选择它。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "tutorial",
+          "title": "手机AI大模型备案清单出炉，开发者如何合规接入？",
+          "angle": "解读网信办端侧AI备案公告，为App开发者提供接入已备案模型（如Apple智能、华为小艺）的合规路径。",
           "difficulty": "入门"
         }
       ]
@@ -106,608 +161,535 @@
       "link": "https://www.qbitai.com/2026/07/450101.html",
       "summary": "距首轮估值上涨37%",
       "published": "2026-07-15T08:54:59+08:00",
-      "fetched_at": "2026-07-15T10:40:02.027251+08:00",
-      "pre_filter_reason": "AI company funding",
+      "fetched_at": "2026-07-16T10:47:02.649697+08:00",
+      "pre_filter_reason": "DeepSeek is an AI model company; news about its financing and IPO is AI-related.",
       "scores": {
         "importance": 9,
         "timeliness": 9,
         "actionability": 9,
-        "scarcity": 8,
-        "virality": 9,
+        "scarcity": 9,
+        "virality": 10,
         "crowd_heat": 0.0
       },
-      "quality_score": 8.1,
+      "quality_score": 8.0,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "DeepSeek估值4800亿：AI独角兽的融资策略与IPO路径解析",
-          "angle": "分析DeepSeek快速融资和IPO计划背后的商业逻辑，解读其估值增长37%的关键驱动因素。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "edcc6dfccb97",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Lessons From the Leaderboard: What 5,000+ Kagglers Taught Us About Improving AI Reasoning",
-      "link": "https://developer.nvidia.com/blog/lessons-from-the-leaderboard-what-5000-kagglers-taught-us-about-improving-ai-reasoning/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image7-1-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image7\" width=\"768\" />The NVIDIA Nemotron Model Reasoning Challenge invited the Kaggle community to explore a focused question: What techniques can improve reasoning accuracy when...",
-      "published": "2026-07-15T02:20:32+08:00",
-      "fetched_at": "2026-07-15T10:39:43.577047+08:00",
-      "pre_filter_reason": "Covers AI reasoning improvement from Kaggle competition.",
-      "scores": {
-        "importance": 7,
-        "timeliness": 6,
-        "actionability": 8,
-        "scarcity": 6,
-        "virality": 7,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 8.1,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Kaggle冠军秘籍：5000+选手如何提升AI推理能力",
-          "angle": "总结NVIDIA Nemotron推理挑战赛中5000+Kagglers的经验，提炼出提升AI推理能力的核心技巧和常见陷阱。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "984ca3e891e8",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "How to manage AI investments in the agentic era",
-      "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
-      "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
-      "published": "2026-07-14T18:00:00+08:00",
-      "fetched_at": "2026-07-15T10:39:41.265930+08:00",
-      "pre_filter_reason": "Managing AI investments in the agentic era, AI-related.",
-      "scores": {
-        "importance": 7,
-        "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 5,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.1,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "代理时代如何衡量AI投资回报？",
-          "angle": "用“每美元有用工作量”这个新指标，手把手教你评估和优化企业AI投入的效率。",
+          "title": "DeepSeek估值飙涨37%！AI独角兽的融资逻辑是什么？",
+          "angle": "分析 DeepSeek 从首轮到最新融资的估值增长原因，拆解AI公司如何用技术壁垒吸引资本。",
           "difficulty": "入门"
         },
         {
           "tag": "tutorial",
-          "title": "三步法：从AI实验到规模化高价值工作流",
-          "angle": "拆解企业如何识别高价值场景、量化效率提升、并安全扩展AI代理应用。",
-          "difficulty": "中级"
+          "title": "AI公司IPO前夜：从DeepSeek看如何准备上市材料",
+          "angle": "以 DeepSeek 为例，讲解AI初创企业在冲刺IPO时需关注的财务、合规和技术披露要点。",
+          "difficulty": "高级"
         }
       ]
     },
     {
-      "id": "2e43d218bbd0",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
+      "id": "4aa052fc80c3",
+      "source_id": "36kr",
+      "source_name": "36氪",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "刚刚，GPT 5.6 发布会上，OpenAI 暴露了哪些 Agent 技术路线？",
-      "link": "https://www.leiphone.com/category/ai/yRE0svXZn6QDTNov.html",
-      "summary": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260714/6a55b74166034.jpg?imageMogr2/quality/90\" style=\"width: 100%; display: inline-block; text-align: center; background-color: transparent;\" /></section><section style=\"padding-left: 16px; padding-right: 16px;\"><section style=\"width: 100%; display: flex; padding: 0px;\"><section style=\"width: 100%; padding-left: 0px; padding-right: 0px;\"><section style=\"width: 100%; background: rgb(246, 248, 255); padding: 20px 0px 12px; margin-top: 0px; margin-bottom: 0px;\"><section style=\"text-align: center;\"><section><section style=\"text-align: justify; margin: 0px 16px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><span><span style=\"font-weight: bold;\">ChatGPT 和 codex 合二为一。</span></span></span></span></section><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><section style=\"text-align: left; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><br /></span></span></section></section></section><span></span><span></span><span></span><span></span><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-weight: normal;\">&nbsp; &nbsp; 作者丨</span></span><span style=\"font-size: 14px; line-height: 25px; color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\">郑佳美</span><strong><span><strong><span><span><br /></span></span></strong></span></strong></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Optima-Regular, PingFangTC-light;\"><span style=\"color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\"><span>&nbsp; &nbsp; 编辑丨</span><span>马晓宁</span></span></span></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; text-align: right; margin: 0px 16px;\"><strong><strong><span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></strong></strong></p></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">北京时间凌晨一点，GPT 5.6 亮相 Open AI 发布会。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这场发布会没有只围绕一个模型展开，而是同时推出了 ChatGPT Work、全新的 ChatGPT 桌面 App、Hosted Sites，以及 GPT 5.6 系列模型 Soul、Terra、Luna。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">单独看，这些像是几个不同功能；放在一起看，它们其实在补同一件事：让 ChatGPT 从一个生成回答的工具，逐步变成能接任务、读上下文、调工具、操作环境并交付结果的执行系统。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">传统聊天产品主要处理“输入”和“输出”。用户问，模型答，任务大多停在聊天框里。执行系统要复杂得多，它要处理任务拆解、上下文管理、工具调用、状态跟踪、权限控制和结果校验。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">发布会里的财务分析、Excel 更新、PPT 生成、桌面应用操作、网页托管和多 Agent 协作，都可以放进这条技术路线里理解。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这条路线可以先从产品链路看起。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260714/6a55b74197bad.jpg?imageMogr2/quality/90\" style=\"background-color: transparent;\" /></section><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260714/6a55b741ccb55.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>01</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"font-weight: bold;\">执行链路</span></span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">ChatGPT Work 承担的是任务入口。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">用户给它的请求，不再只是一段明确的文本，而是一个带有目标的工作任务。比如从 Slack 和员工反馈里找到内部典型使用案例，再结合行程安排访谈；或者读取财务数据，做 variance analysis，更新 forecast，生成汇报材料和可分享页面。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这种任务的难点在于编排。系统要判断需要哪些数据源，先读什么，后处理什么，哪些步骤可以自动执行，哪些地方需要用户确认。雷峰网</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">普通问答只需要处理当前输入，Agent 工作流则必须维护任务状态：已经用了哪些材料，得出了哪些中间结论，还有哪些假设没有确认。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">任务入口解决之后，下一步自然是环境接入。因为真实工作很少只存在于一个聊天框里，更多时候分散在本地文件、浏览器标签页、表格、笔记、邮件和协作工具里。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这就是桌面 App 的意义。网页端主要依赖上传文件和云端连接器，桌面端可以接触本地文件、浏览器标签页和其他应用。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">发布会里展示的 Apple Notes 整理、本地文件夹读取、Chrome 标签页分析和表格可视化，本质上是在让 ChatGPT 进入用户真实工作环境。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">但接入环境之后，问题不会自动变简单，反而会多出一层上下文工程。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260714/6a55b7421526c.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">模型不可能把用户电脑里的所有文件、浏览器页面和历史记录都塞进上下文窗口。它要先判断哪些内容和任务相关，再把 PDF、Excel、网页、PPT、笔记等不同格式转成可处理的表示。这背后涉及文件索引、语义检索、上下文压缩、引用追踪和冲突处理。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">比如同一个项目里，PDF、PPT、Slack 消息和 Excel 表格可能同时存在，信息还可能互相矛盾。Agent 不能只是把材料拼在一起，它要判断哪些来源更新、哪些来源可信、哪些内容只是背景材料。上下文越多，如果筛选和引用做不好，错误来源也会越多。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">接入和理解环境之后，结果还要能交付。Hosted Sites 补的是这一端。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">过去大模型输出多是文本、代码片段或静态文件，用户还要把结果搬到其他工具里继续处理。Hosted Sites 把结果直接变成网页、看板、内部工具或交互式原型，更适合临时 dashboard、项目汇报、产品原型这类轻量场景。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">不过，交付层要稳定，不能只靠模型自由生成。Agent 调用工具时，需要结构化工具协议：输入字段是什么，返回结果怎么表示，失败状态怎么处理，哪些操作只读，哪些操作会产生副作用。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">比如“更新 forecast”这种任务，如果只是让模型理解 Excel 后直接修改，风险会很高。更稳的方式是把动作拆成读取单元格、检查公式、生成 diff、等待确认、写回文件。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这样看，执行链路可以拆成三段：ChatGPT Work 接任务，桌面 App 接环境，Hosted Sites 交付结果。链路搭起来之后，问题就转向下一层：这么多步骤不可能都靠同一个模型硬跑，背后必须有模型调度。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260714/6a55b742547a6.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260714/6a55b7428b6b6.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>02</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"font-weight: bold;\">模型调度</span></span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">GPT 5.6 这次拆成 Soul、Terra、Luna 三个层级。Soul 面向复杂 Agent 工作流，Terra 面向日常任务，Luna 面向高频低成本任务。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这个分层的重点在于调度。Agent 场景下，成本和延迟会被放大。一次复杂任务可能包含长文档读取、上下文压缩、多轮工具调用、代码生成、结果校验和多次修改。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">如果每一步都调用最强模型，费用和响应时间都会上升；如果全程使用低成本模型，规划、推理和关键操作又可能不稳定。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">所以更合理的方式是分层路由。摘要、分类、格式转换、批处理可以交给低成本模型；复杂规划、长上下文推理、代码生成、财务分析和高风险操作交给更强模型；中间步骤根据任务状态动态切换。用户看到的是一个 ChatGPT，系统内部实际要完成模型选择、上下文分配和工具调度。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">当单个模型不足以覆盖复杂任务时，多 Agent 就会进入这套调度系统。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260714/6a55b742c37d2.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Ultra Mode 可以理解为把复杂任务拆给多个 Agent 并行处理。一个 Agent 读取资料，一个 Agent 处理表格，一个 Agent 生成页面，一个 Agent 检查一致性，最后再整合结果。这个方向能提高速度，也能在一定程度上做交叉检查。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">真正难的是 orchestrator。它要决定任务怎么拆，每个 Agent 拿到哪些上下文，冲突结果如何处理，什么时候停止，怎样避免重复劳动，以及如何控制成本。多 Agent 系统如果没有稳定的调度层，只会让错误链路更长，排查也更困难。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">模型调度还带来另一个问题：怎么评估它到底有没有变好。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这类系统不能只看传统问答 benchmark。发布会里提到 Terminal Bench、BrowseComp 和 Agent’s Last Exam，分别更接近代码执行、复杂信息检索和长周期专业任务。它们比单轮问答更贴近 Agent 场景，因为模型需要持续规划、查找信息、执行操作，并在中途修正。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">但真实企业环境很难被标准测试集完整覆盖。真实任务里经常有权限限制、脏数据、历史包袱和组织内部口径。对 GPT 5.6 这类系统来说，更关键的指标应该是失败率、人工接管率、平均完成时间、工具调用成功率、结果可复核程度，以及单位任务成本。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">模型调度解决的是“用什么模型、用多少成本、用什么方式完成任务”。当系统开始真的执行任务，下一个问题就变得更重要：用户能不能放心让它做。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260714/6a55b742f1e1c.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260714/6a55b74335d84.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>03</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"font-weight: bold;\">可信边界</span></span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Agent 系统越靠近真实工作环境，安全问题越具体。雷峰网</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">过去模型安全更多关注输出内容，例如是否生成错误信息、敏感信息或危险内容。进入 Agent 阶段后，风险会落到动作上：读取了哪些文件，修改了哪些表格，调用了哪些工具，是否发送了消息，是否提交了代码，是否更新了业务系统。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">发布会提到 GPT 5.6 在 cyber 能力上有明显提升，可以发现漏洞，也能生成补丁。这个能力用于防御有价值，但放进通用 Agent 产品里，也要求更严格的权限设计。一个能读文件、写代码、操作浏览器、调用企业系统的模型，必须被限制在清晰边界内。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260714/6a55b74364ef5.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">可信 Agent 至少需要几层机制。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">第一是最小权限。任务需要访问什么，就开放什么，避免因为一个简单任务暴露过多文件、连接器或应用。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">第二是操作分级。读取资料、生成草稿、修改文件、发送消息、提交代码、更新财务模型，这些动作的风险级别不同，确认逻辑也应该不同。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">第三是过程审计。系统需要记录模型读了什么、改了什么、依据是什么、哪些结论来自原始数据，哪些内容属于模型推断。财务、法务、安全和医疗这类场景尤其依赖审计链路。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">第四是事务化执行。只要 Agent 能修改真实环境，就应该先生成计划和变更 diff，让用户或验证器检查，再一次性提交，而不是边想边改。修改 Excel、移动文件、发送消息、提交代码，都应该有 dry run、diff、确认和 rollback。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这和数据库事务的思路类似。关键不是保证每一步都不出错，而是出错后不能留下不可控的中间状态。Agent 如果没有事务机制，就很难处理高价值任务，因为用户无法判断它到底改了什么，也无法安全撤销。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">在企业场景里，还需要运行观测系统。长任务执行过程中，系统应该记录每个子任务的输入、输出、工具调用、模型版本、耗时、失败原因和人工接管点。否则一旦结果出错，很难判断问题出在模型推理、上下文检索、工具接口，还是权限配置。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这类 observability 会成为 Agent 平台的基础能力。传统软件看日志、链路追踪和监控指标；Agent 系统也需要类似的执行轨迹。尤其在多 Agent 并行时，如果没有清楚的 trace，最后结果越复杂，排查成本越高。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">可信边界也是财务 Demo 比 3D 页面更值得关注的原因。生成页面主要考验代码和交互能力，更新财务模型则涉及数据一致性、公式正确性、假设透明度和责任归属。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">模型改了哪个单元格，PPT 里的数字是否与源表一致，forecast 的变化是否有明确依据，这些问题决定它能不能进入企业核心工作流。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260714/6a55b7439c62c.png?imageMogr2/quality/90\" style=\"background-color: transparent;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">整体看，GPT 5.6 发布会给出的技术路线已经比较清晰：先用 ChatGPT Work 接任务，再用桌面 App 接入真实环境，用 Hosted Sites 完成交付；底层通过 Soul、Terra、Luna 和 Ultra Mode 做模型调度；最后用权限、审计、事务和观测机制控制风险。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这几层是连在一起的。执行链路决定 ChatGPT 能不能把任务跑起来，模型调度决定它能不能以合理成本跑下去，可信边界决定用户敢不敢把关键任务交给它。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">GPT 5.6 的价值，最终不会由发布会里的页面效果决定，而会由真实工作中的稳定性决定。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260714/6a55b743bbf98.jpg?imageMogr2/quality/90\" /></section><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260714/6a55b743db8f4.jpg?imageMogr2/quality/90\" /></section><section><section><section><section><section><section><svg viewBox=\"0 0 1 1\" xmlns=\"http://www.w3.org/2000/svg\"></svg></section></section><section><p><strong><span><span style=\"color: #4499E7;\">上车，带你看遍全球 AI 顶会精华</span></span></strong></p><span></span></section></section></section></section></section><section><section><p style=\"text-align: center; margin: 0px 16px 8px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">可独家畅览：</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">专家演讲PPT</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">大会报告全文</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">热门论文解读</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">学术新星访谈</span></span></p><span></span><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260714/6a55b7440f27a.jpg?imageMogr2/quality/90\" style=\"width: 100%;\" /></section><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">扫描上方二维码</span></span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">或点击</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">「</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">阅读原文</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">」</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">关注专区。</span></span></span></p></section></section><section><span></span></section><section><span></span></section>",
-      "published": "2026-07-14T12:13:00+08:00",
-      "fetched_at": "2026-07-15T10:39:58.990176+08:00",
-      "pre_filter_reason": "AI model and agent technology",
+      "title": "8点1氪丨国行苹果AI功能完成备案；三家共享单车上调起步价；知情人曝DeepSeek开始筹备IPO",
+      "link": "https://36kr.com/p/3897553391978371?f=rss",
+      "summary": "<h2><strong>今日热点导览</strong></h2>\n  <p>澳洲将设AI办公室，限制数据中心能源消耗</p>\n  <p>巴菲特宣布8年内清仓伯克希尔股票</p>\n  <p>前高通自动驾驶工程副总裁将加入英伟达自动驾驶团队</p>\n  <p>长鑫科技：上市后仍将保持无实际控制人的控制权架构</p>\n  <p>谷歌参与建设美国最大太阳能项目，总规模达2.5GW</p>\n  <h2><strong>TOP 3大新闻</strong></h2>\n  <p><strong>阿里、百度分别为苹果智能提供AI相关能力支撑</strong></p>\n  <p>36氪获悉，网信办公布7款端侧生成式AI服务备案，苹果“Apple智能”大模型7月8日完成备案。阿里千问将为苹果全系列国行设备提供文本、图像生成AI能力，百度则负责配套AI搜索功能，二者共同完善国内版苹果智能套件与Siri功能。</p>\n  <p><strong>三家共享单车上调起步价，拉长基础骑行时长</strong></p>\n  <p>近期，美团单车、滴滴青桔、哈啰单车相继在北京等多个城市上调计费规则，三大平台不约而同地采取了“提高起步定价、拉长基础骑行时长”的组合策略：起步价从此前的1.5元/30分钟左右，普遍调整为1.88元至1.99元/60分钟。这成为共享单车行业近年来较大范围的一次集体调价。（金融时报）</p>\n  <p><strong>知情人曝DeepSeek已开始筹备IPO，最快可能今年提交申请</strong></p>\n  <p>据彭博社报道，知情人士透露，DeepSeek已开始筹备首次公开募股（IPO），规划在内地上市，最快可能于今年提交申请，并在2027年完成上市。据悉，DeepSeek正与会计师事务所合作，力争在今年12月底前完成财务报告，这是IPO申报的必要步骤。相关讨论仍在进行中，IPO时间安排和融资计划可能有所调整，执行将取决于市场状况及公司业绩。（新浪科技）</p>\n  <h2><strong>AI最前沿</strong></h2>\n  <p><strong>澳洲将设AI办公室，限制数据中心能源消耗</strong></p>\n  <p>澳大利亚总理阿尔巴尼斯星期三（7月15日）说，澳洲政府将设立一个“人工智能办公室”，负责管理人工智能（AI）标准的制定，并会强制规定数据中心须成为能源净生产者，以及限制用水量。这个办公室将在总理公署下设立，以确保各内阁部门采取协同一致的全政府应对模式。相关立法将于明年初提交国会。（财联社）</p>\n  <p><strong>Anthropic、黑石集团等联合推出企业AI服务公司Ode</strong></p>\n  <p>7月15日，Anthropic、黑石集团与Hellman&amp;Friedman联合推出今年早些时候公布的企业AI服务公司Ode with Anthropic（简称“Ode”），现以正式名称和品牌亮相。Ode公司由Chris Taylor担任首席执行官，Eddie Siegel担任首席技术官。除创始合伙人外，投资者联盟还包括高盛、General Atlantic、Leonard Green&amp;Partners、阿波罗全球管理公司、新加坡政府投资公司（GIC）和红杉资本。（界面新闻）</p>\n  <p><strong>机构：预估陪伴型人形机器人2030年产值达11亿美元</strong></p>\n  <p>36氪获悉，根据TrendForce集邦咨询最新机器人产业研究，陪伴型机器人已从早期的养老照护陪伴、疗愈设计，拓展至近年来的真人化互动和情感陪伴，日前中国厂商优必选发布超仿生人形机器人U1，象征此类陪伴型产品正式跨入真人化时代。随着全球人口结构走向老龄化、少子化，且独居人口持续增加，陪伴型人形机器人需求获得快速崛起的“陪伴经济”支撑，预估其产值将于2030年达到11亿美元。</p>\n  <p><strong>Xmax AI发布通用实时交互AI视频模型X2.0</strong></p>\n  <p>36氪获悉，15日，Xmax AI正式发布新一代通用实时交互AI视频模型Xmax X2.0，并同步开放API及产业合作接入。Xmax X2.0实时重渲能力升级，实现了CharX实时换人、ClothX实时换装、VibeX实时换风格等多项功能。交互层面，Xmax X2.0统一交互架构把只懂Prompt的模型升级为能理解摄像头、视频流与手势行为的全能模型。</p>\n  <p><strong>Anthropic计划几周内召开IPO投资者会议</strong></p>\n  <p>据知情人士透露，Anthropic正安排与投资者举行会面，为潜在的大规模IPO做准备。消息人士称，负责此次IPO的承销银行将在未来几周安排投资者与这家Claude聊天机器人开发商会面。此前有报道称，Anthropic最早可能于10月启动IPO。（新浪财经）</p>\n  <h2><strong>大公司/大事件</strong></h2>\n  <p><strong>巴菲特称将捐出1400亿美元股票</strong></p>\n  <p>美国知名投资人沃伦·巴菲特7月14日表示，到2034年底将其剩余的伯克希尔-哈撒韦公司股票，价值超1400亿美元，全部捐赠给慈善机构，而这份捐赠名单中并没有包括盖茨基金会。现年95岁的巴菲特自2006年开始捐赠名下资产，自2006年宣布捐出全部财富的计划以来，已累计捐赠了超过610亿美元（约合人民币4128亿元）。（央视财经）</p>\n  <p><strong>毒理的上游药效行业需求高速增长，实验猴市价涨到20万</strong></p>\n  <p>近期“猴子”刷屏投资圈。据报道，实验猴市价已涨到20万，堪比一台中档车。有业内专业人士表示，猴价是供需决定的，毒理的上游药效行业需求高速增长，可以预计2026—2027年对猴子的需求也是快速增长的。供给端前几年主要靠自产，2026年上半年放开了进口，根据行业专家反馈，应该进口了5000只左右，国内自产应该有3万—3.5万只的能力，2025年用猴子的数量约为3.5万只，按照2025年药效20%—30%的增长简单计算，今年毒理猴子的需求可能也是20%的增长，大概需要4.2万只猴。而最新调研反馈，毒理实验还是处于缺猴子的状态，头部公司项目排期已到明年初。（券商中国）</p>\n  <p><strong>罗技广告称消费者像狗被罚20万，品牌方已经介入处理并发布致歉声明</strong></p>\n  <p>因称消费者会因产品降价像狗一样跑过来，知名鼠标品牌罗技分销商上海百事得电子有限公司被认定广告违法，并于近日被上海市静安区市场监管局罚款20万元。</p>\n  <p>据行政处罚决定书，上海百事得电子有限公司为罗技（中国）科技有限公司的分销商，负责罗技在抖音平台的多个账号运营。经查明，2026年3月25日-3月26日，上海百事得电子有限公司在“罗技”账号发布含有“当我一降价，你还不是像狗一样跑过来”侮辱性内容的降价促销视频广告。</p>\n  <p>7月15日，罗技官方客服向记者表示，品牌方为带给用户不好的体验而致歉，此次为个别店铺账号的违规行为，品牌方已经介入处理并发布致歉声明，客服称将把采访予以转达。（南方都市报）</p>\n  <p><strong>长鑫科技：上市后仍将保持无实际控制人的控制权架构</strong></p>\n  <p>7月15日，长鑫科技科创板上市网上投资者交流会举行。长鑫科技副总裁、董事会秘书袁园在回复投资者提问时表示，公司上市后股权结构将进一步分散，前五大股东持股比例均不超过30%，不存在单一持股比例超过50%的股东；此外，公司已建立由股东会、董事会、各专门委员会和经营管理层组成的现代企业治理结构，董事会由11名成员构成，除4名独立董事外，7名非独立董事实际提名方为：清辉长鑫1席，长鑫集成1席，大基金二期2席，合肥集鑫1席，安徽省投1席，职工董事1席，无任何一名股东通过实际支配表决权能够决定长鑫科技董事会半数以上成员的选任，上市后公司预计仍将保持较为分散的董事会提名结构。因此，长鑫科技上市后仍将保持无实际控制人的控制权架构。（上证报）</p>\n  <p><strong>安踏品牌CEO徐阳将离职</strong></p>\n  <p>7月15日，界面新闻自安踏集团获悉，原安踏品牌CEO徐阳因家庭原因辞任该职，集团已批准并将另有任用。安踏集团执行董事、集团联席CEO赖世贤即日起将代理安踏品牌CEO一职，全面负责品牌日常经营与管理工作。（界面新闻）</p>\n  <p><strong>前高通自动驾驶工程副总裁将加入英伟达自动驾驶团队</strong></p>\n  <p>36氪独家获悉，英伟达自动驾驶团队近期发布内部信称，前高通自动驾驶工程副总裁Dheeraj Ahuja将加入吴新宙团队，而原英伟达自动驾驶软件副总裁，负责量产项目的Sarah Tariq则进入职务过渡期。近日，Sarah Tariq也发出了告别信。Dheeraj Ahuja和吴新宙都曾在高通任职，在过去七年多里，Dheeraj一直负责高通的自动驾驶项目，2021年底至2022年，高通成功击退英伟达和Mobileye，拿下了宝马下一代ADAS和自动驾驶平台的订单，Dheeraj正是该项目的直接工程负责人。</p>\n  <p><strong>香港证券市场下调最低上落价位第二阶段将于8月3日生效</strong></p>\n  <p>香港证券市场在第一阶段最低上落价位下调措施实施后取得积极成效。与实施前相比，适用股票的买卖价差收窄35%，订单成交时间缩短30%。在此基础上，香港交易所将于2026年8月3日推出第二阶段措施，进一步优化交易体验，支持香港证券市场持续发展。（证券时报）</p>\n  <p><strong>英国将对十六七岁青少年实施社媒“宵禁”</strong></p>\n  <p>英国政府7月14日宣布，将对16岁至17岁青少年使用社交媒体实施“宵禁”。这是英国政府继上月宣布将禁止16岁以下人群使用一系列社交媒体应用程序后新的社媒限制举措。英国政府表示，在默认设置状态下，16岁至17岁青少年在0时至6时不能使用社交媒体；旨在诱使用户更长时间浏览的功能，包括视频自动连续播放，也将默认关闭。英国政府6月表示，将效仿澳大利亚，禁止16岁以下人群使用一系列社交媒体应用程序。（新华社）</p>\n  <p><strong>美国FCC批准发射阳光反射卫星计划，为地球夜间区域提供应急照明</strong></p>\n  <p>美国联邦通信委员会（FCC）近日批准了一家初创企业的申请，允许其建造并发射一枚反光卫星，该卫星携带巨型聚酯薄膜（Mylar）反射镜，可将阳光反射回地球，为地球的夜间区域提供短暂应急照明。总部位于加利福尼亚州霍桑市的轨道反射公司（Reflect Orbital）于7月9日获得联邦通信委员会的许可。该企业计划发射一枚名为埃雅仁迪尔一号（Earendil-1）的试验卫星，并将其部署在近地轨道运行。（新浪财经）</p>\n  <p><strong>A股成交2.57万亿缩量1328亿</strong></p>\n  <p>7月15日，市场震荡调整，创业板指冲高回落跌超1%，科创50指数高开低走跌超4%。沪深两市成交额2.57万亿，较上一个交易日缩量1328亿。盘面上，市场热点较为杂乱，全市场超3300只个股上涨。</p>\n  <p>从板块来看，医药板块逆势活跃，博瑞医药、迪哲医药、睿智医药20CM涨停，哈药股份4连板，海南海药、昂利康涨停。白酒概念震荡走高，古井贡酒、金种子酒涨停。零售概念异动拉升，新华百货、宁波中百涨停。游戏概念表现活跃，巨人网络、恺英网络涨停。下跌方面，半导体产业链集体调整，存储芯片、算力芯片、半导体设备方向跌幅居前，德明利一字跌停，强一股份、华峰测控、佰维存储、沐曦股份均跌超11%。截至收盘，沪指跌0.29%，深成指跌0.97%，创业板指跌1.21%。（财联社）</p>\n  <p><strong>谷歌参与建设美国最大太阳能项目，总规模达2.5GW</strong></p>\n  <p>谷歌当地时间7月14日宣布，与Cypress Creek Energy在美国阿肯色州启动Steel River Energy Center项目建设。该项目建成后将成为美国最大的太阳能发电设施，也是谷歌全球规模最大的太阳能及储能项目。谷歌将作为锚定投资者和购电方支持项目一期和二期建设，新增1.6GW直流太阳能发电和1.9GWh储能；整个三期项目预计于2029年全部投运，总规模将达到2.5GW直流太阳能发电和2.9GWh储能。（界面新闻）</p>\n  <p><strong>中国日均生产芯片超15亿块</strong></p>\n  <p>今年上半年，规模以上高技术制造业增加值、数字产品制造业增加值分别增长13.3%和12.3%，比一季度都有所加快。特别是全球人工智能技术变革带来的高端算力芯片和存储芯片需求爆发。上半年中国规模以上工业企业的集成电路产量增长23.1%，产量规模达到2798亿块。国家统计局新闻发言人王冠华表示：“这个数字非常庞大，换算下来平均每天生产集成电路超过15亿块。集成电路就是我们平时说的芯片，它广泛应用于智能装备、电子产品当中。”除了集成电路，5G智能手机、3D打印设备、服务机器人等智能产品产量也保持了快速增长；日均词元调用量已达数百万亿，实现了量级式跨越。初步测算，上半年以高技术制造业、数字产品制造业为代表的新动能，以两成多的增加值占比贡献了近五成的工业增长，是拉动工业增长的重要引擎（央视财经）</p>\n  <p><strong>Meta遭员工起诉，被指利用AI系统筛选裁员对象，不公平针对休假员工</strong></p>\n  <p>26名Meta员工本周提起诉讼，指控该公司利用人工智能系统筛选裁员对象，尤其对正在休病假、育儿假或家庭照料假的员工产生了不公平的影响。诉状称，这套评分体系从设计层面就存在缺陷：处于受法律保护的病假、家庭照料假期，或是因身体残障导致工作产出下降的员工，根本无法积累充足评分。诉状还表示，Meta在核算员工评分时并未考虑员工享有的法定休假，也未按照法律要求暂停自动化系统，开展兼顾休假、特殊便利需求的人工单独复核。（新浪财经）</p>\n  <p><strong>印度宣布再投1.28万亿卢比，提升本土芯片制造能力</strong></p>\n  <p>7月15日，据报道，印度承诺再投入1.28万亿卢比（约合133亿美元）以促进国内芯片制造发展。报道称，此项举措将建立在印度2021年推出的100亿美元激励计划基础之上，该计划曾承诺承担半导体项目建设成本的一半。（界面新闻）</p>\n  <p><strong>Stripe与Advent据悉联合提出530亿美元收购PayPal</strong></p>\n  <p>7月15日，据报道，支付公司Stripe与私募股权公司Advent International本月早些时候联合提出以每股60.50美元收购PayPal，交易对PayPal估值超过530亿美元，较PayPal周二收盘价溢价约28%。据悉，该收购提议已获得银行约500亿美元融资承诺。（界面新闻）</p>\n  <p><strong>面壁智能端侧大模型将搭载三星手机上市</strong></p>\n  <p>36氪独家获悉，端侧大模型公司面壁智能已与三星手机达成合作，其自主研发的MiniCPM系列端侧模型将搭载于三星手机上市，覆盖数款旗舰机型。</p>\n  <p><strong>诺基亚与英伟达推出行业首个商用AI-RAN平台</strong></p>\n  <p>7月15日，诺基亚公司发表声明称，公司已与英伟达共同开发出业界首个商用人工智能驱动的无线接入网络（AI-RAN）平台。诺基亚表示，新的网络设备将使电信网络运营商到2028年能够在相同无线频段上传输的数据量翻倍，其预计将于明年上市。（界面新闻）</p>\n  <p><strong>美股三大指数集体收涨，大型科技股多数上涨</strong></p>\n  <p>36氪获悉，7月15日收盘，美股三大指数集体上涨，道指涨0.29%，纳指涨0.62%，标普500指数涨0.38%。大型科技股多数上涨，苹果涨超4%，谷歌、Meta、亚马逊涨超3%，微软涨超2%，英伟达小幅上涨；英特尔跌超4%，特斯拉小幅下跌。热门中概股普涨，腾讯控股涨超5%，阿里巴巴、哔哩哔哩涨超4%，小鹏集团涨超3%，唯品会、爱奇艺、理想汽车、拼多多涨超2%，百度、网易涨超1%。</p>\n  <h2><strong>上市进行时</strong></h2>\n  <p><strong>越疆科技创业板IPO将于7月22日上会</strong></p>\n  <p>36氪获悉，据深交所网站披露，深交所上市审核委员会定于7月22日召开2026年第45次上市审核委员会审议会议，届时将审议深圳市越疆科技股份有限公司的首发事项。</p>\n  <p><strong>环能涡轮北交所IPO将于7月22日上会</strong></p>\n  <p>36氪获悉，据北交所网站披露，北交所上市审核委员会定于2026年7月22日上午9时召开2026年第69次上市审核委员会审议会议，届时将审议常州环能涡轮动力股份有限公司的首发事项。</p>\n  <h2><strong>大公司财报</strong></h2>\n  <p><strong>凯尔达：预计2026年半年度净利润同比增长1006%-1191%</strong></p>\n  <p>36氪获悉，凯尔达公告，预计2026年半年度归属于上市公司股东的净利润为2615.11万元-3053.38万元，同比增长1006%-1191%。业绩变动主要系公司产品竞争力提升、下游市场需求回暖，营业收入持续增长，同时股份支付费用同比下降。</p>\n  <p><strong>华联控股：预计2026年半年度净利润同比增长1030%-1423%</strong></p>\n  <p>36氪获悉，华联控股公告，预计2026年半年度归属于上市公司股东的净利润为2300万元-3100万元，同比增长1030%-1423%。业绩变动主要系杭州“钱塘公馆”项目房产销售收入增加及上年同期基数较低。</p>\n  <h2><strong>投融资</strong></h2>\n  <p><strong>“问天量子”完成B轮融资</strong></p>\n  <p>36氪获悉，近日，“问天量子”完成B轮融资，获得6亿元资金注入，新进投资方包括海南晴澜、海南量启、淄博汇富齐嘉等多家机构。此次融资资金将主要用于核心技术的规模化商用、量子随机数芯片的量产扩能，以及面向人工智能时代的量子AI融合产品研发。</p>\n  <p><strong>“灵巧智能”完成数亿元A轮融资，上海电气战略入股</strong></p>\n  <p>近日，具身智能企业“灵巧智能”（DexRobot）宣布完成数亿元A轮融资，本轮由上海电气战略投资，产业资本与财务资本持续加码。2026年内，公司已先后完成天使轮及A轮两轮融资，融资资金将重点用于灵巧操作全栈技术研发、核心产品迭代、教育/电力/工业三大场景落地及产业生态建设。此外，上海电气旗下上海机电与灵巧智能同步成立两家合资公司——灵机壹动与灵机智联，总注册资本超亿元，分别聚焦核心零部件量产与工业场景解决方案，标志着公司从技术研发迈入产业规模化交付阶段。</p>\n  <p><strong>“面壁智能”完成新一轮融资，估值超200亿元</strong></p>\n  <p>36氪获悉，面壁智能已完成新一轮融资，投资方包括国家级基金、央企、汽车制造商等各类产业方、财务投资人等。至此，面壁智能2026上半年累计融资金额超50亿元，估值超200亿元，一跃成为端侧智能领域公开估值最大的独角兽企业。面壁智能专注于将原生端侧大模型技术转化为标准化产品，在具身、汽车、手机、低空、民航等核心赛道落地，未来还将拓展至工业、家居、特种领域等。</p>\n  <h2><strong>酷产品</strong></h2>\n  <p><strong>三星电子推出新款990固态硬盘</strong></p>\n  <p>7月15日，三星电子宣布，新款990固态硬盘现已全球陆续上市，提供1TB、2TB两种容量版本。厂商建议零售价分别为269.99美元、529.99美元。（界面新闻）</p>\n  <p><strong>整理</strong>｜王浩阳&nbsp;</p>",
+      "published": "2026-07-16T07:59:41+08:00",
+      "fetched_at": "2026-07-16T10:46:49.818364+08:00",
+      "pre_filter_reason": "苹果AI、AI办公室、AI能力",
       "scores": {
-        "importance": 9,
+        "importance": 8,
         "timeliness": 9,
         "actionability": 9,
         "scarcity": 7,
         "virality": 9,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "GPT 5.6发布会解读：OpenAI的Agent技术路线图",
-          "angle": "提炼发布会上暴露的关键Agent技术方向（如多步推理、工具调用），分析对开发者和企业的启示。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "tutorial",
-          "title": "从GPT 5.6看未来：Agent如何改变AI应用开发范式？",
-          "angle": "对比传统AI应用与Agent架构，讲解开发者应关注的新能力与挑战。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "b85268f4795e",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "OpenAI 商业化版图「一拆为三」，原掌舵人 Fidji Simo 突遭离职",
-      "link": "https://www.leiphone.com/category/industrynews/AsJkNmGbxJ5mPq93.html",
-      "summary": "<section><section><section><section><section></section><section><section><section><section></section></section></section><section><span><br /></span></section><p style=\"text-align: center; margin-bottom: 24px; line-height: 1.75em;\"><strong><span style=\"font-weight: normal; font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px; font-size: 15px;\"><span><img src=\"https://static.leiphone.com/uploads/new/images/20260714/6a559745de00a.jpg?imageView2/2/w/740\" /></span></span></span></span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong><span style=\"font-weight: normal; font-size: 15px;\"><span><span style=\"letter-spacing: 0.5px; font-size: 15px;\"><span>就在 OpenAI 发布办公智能体 ChatGPT Work，冲刺 To B 市场时，它的商业化掌舵人却意外离场。</span></span></span></span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">近日，OpenAI 负责“AGI 部署与应用”的首席执行官 Fidji Simo 在社交平台 X 上公开宣布：由于过去三个月里慢性神经免疫疾病（POTS）的严重恶化，她将卸任全职高管职务，退居二线转任公司的兼职顾问。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px;\">在 OpenAI 全力冲刺 IPO、与 Anthropic 贴身肉搏的关键时刻，</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">商业化掌舵人的意外离场，让外界开始重新审视这家 AI 巨头在商业化全面扩张期的战力与变数。</span></span></strong></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>01</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>一场延续七年的暗战，</span></span></strong></h4></section><section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>与提前终止的“IPO 操盘”</span><span><br /></span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em; margin-top: 24px;\"><span><span style=\"letter-spacing: 0.5px;\">对于 Fidji Simo 而言，这次离职更像是一场与身体长达七年暗战后的无奈妥协。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">Simo 在发文中透露，自己长期与一种慢性神经免疫疾病（体位性心动过速综合征，POTS）抗争。早在今年 4 月，她的病情就已出现严重恶化的征兆，并被迫开启了病假。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">然而经过三个月的调整，康复进度的迟缓让她意识到，高强度的科技巨头高管工作已无法与身体调理兼容。“康复之路比预想的要漫长和复杂得多，”Simo 写道，全面放手、专注于健康成了唯一的选择。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">Fidji Simo 出身法国渔民家庭，也是家族第一个完成高等教育、赴海外深造的人。她持有巴黎高等商学院管理学硕士学位，求学期间曾赴加州大学洛杉矶分校交换。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">2007 年她加入 eBay，积累电商商业化运营经验。2011 至 2021 年任职 Meta 十年，一路晋升至 Facebook App 全球负责人，主导信息流广告、视频内容生态搭建，打造出公司数百亿美元规模的核心营收业务。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">2021 年，Simo 出任美国头部线上生鲜杂货即时零售平台 Instacart 的 CEO，通过业务优化实现连续盈利，并带领企业完成美股IPO。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">2024 年，在 OpenAI 经历“政变风波”后的董事会重组中，时任Instacart 首席执行官的 Simo 作为外部独立董事引入，用以稳定投资人信心。她的加入，向资本市场传递了 OpenAI 开始走向正规化上市企业治理的强力信号。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">在 OpenAI 期间，她不仅协助梳理了 ChatGPT 的消费者订阅逻辑，更为后续引入广告系统、开拓 B 端生态以及长期的医疗健康产品线规划了最初的商业蓝图。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">同时她还为 ChatGPT Work 奠定产品哲学。据多家外媒报道，在内部，Simo 一直倡导“应用层革命”，即将 AI 从一个简单的对话框，升级为能够真正嵌入白领日常工作流的智能体。这也为 OpenAI 发布企业级工具 ChatGPT Work 提供了重要的战略支撑。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px;\">回顾 Simo 的 OpenAI 轨迹，</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">她的加入曾被视为这家技术极客公司走向成熟商业帝国的风向标。</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">2025 年 5 月，随着 OpenAI 内部架构调整、正式成立应用/AGI 部署业务板块，Simo 顺理成章地走向前台，出任该板块的 CEO，向 Sam Altman 汇报。在重要性上，Simo 被业内视为 OpenAI 的二号人物。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px;\">在过去的十四个月里，她的核心任务极其明确：</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">把技术转化大众日常工具，打通 ChatGPT 的消费者、企业级及广告变现路径，为 OpenAI 估值数千亿美元的 IPO 铺平道路。</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">这种情况下，她的离去，意味着 OpenAI 在商业化最关键的破局期，失去了一位拥有顶级硅谷大厂经验的掌舵者。</span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>02</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>商业化权力“一拆为三”</span><span><br /></span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em; margin-top: 24px;\"><span><span style=\"letter-spacing: 0.5px;\">OpenAI 的战车不可能因个别成员的离队而停摆。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px;\">Simo 离职后，她麾下原本横跨消费端产品、企业级业务和规模化扩张的庞大职权，并未由单一继任者接管，而是被</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">分拆交给了 OpenAI 目前最具权势的三位核心高管：</span></span></strong></span></p><blockquote><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><strong><span><span style=\"font-size: 15px;\">Greg Brockman（总裁）：</span></span></strong><span><span style=\"letter-spacing: 0.5px;\">&nbsp;预计将深度介入应用层的产品方向与技术落地的对齐；</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><strong><span><span style=\"letter-spacing: 0.5px;\">Sarah Friar（CFO）：</span></span></strong><span><span style=\"letter-spacing: 0.5px;\">&nbsp;鉴于其前 Square CFO、Nextdoor CEO 的背景，商业化、B端大客户开拓的财务与运营归属大概率向其集中；</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><strong><span><span style=\"letter-spacing: 0.5px;\">Jason Kwon（CSO）：</span></span></strong><span><span style=\"font-size: 15px;\">&nbsp;负责战略规划与外部生态的纵深推进。</span></span></span></p></blockquote><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">在不少业内人看来，这种“三巨头分治”的临时架构，反映出 Simo 负责的业务盘子权重极大，短时间内很难在外部或内部找到兼具产品视野与强商业手腕的单一替代者。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">同时，这也透露出 Sam Altman 在当前敏感阶段的防御策略，用成熟高管来顶上，确保业务不出现阵痛期。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">虽然 Simo 承诺未来仍会以兼职顾问的身份，在消费级产品、广告系统以及医疗健康产品上提供建议，但顾问的推力显然无法与全职 CEO 的强力推进相提并论。</span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>03</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>微妙的节点：ChatGPT Work 何去何从？</span><span><br /></span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em; margin-top: 24px;\"><span><span style=\"letter-spacing: 0.5px;\">Simo 宣布离职，恰逢 OpenAI 商业化版图上的一个里程碑式节点：企业智能体工具 ChatGPT Work 闪电发布。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">这恰恰是 Simo 过去一年里在内部极力推动的“应用层革命”的成果：将 AI 从一个“对话框”升级为能深度嵌入白领工作流的“超级智能体”。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px;\">在 Anthropic 凭借 Claude 系列在编程、企业长文本处理领域疯狂蚕食 OpenAI 市场份额的 2026 年，</span></span><strong><span><span style=\"letter-spacing: 0.5px;\">ChatGPT Work 的推出本该是 OpenAI 冲刺 B 端市场的总攻信号。</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">在这个本该属于商业化团队开香槟的时刻，主帅的缺席让这场发布会多了一丝变数。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">从 2024 年至今，OpenAI 经历了一轮又一轮的人事洗牌：从最初的技术派创始人（如 Ilya Sutskever、John Schulman）相继出走，到商业派、管理派高管（如 Sarah Friar、Fidji Simo）的引入。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">外界曾认为，OpenAI 已经完成了从“非营利研究实验室”向“高效商业机器”的深度蜕变。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">而如今，Simo 的因病隐退再次打破了管理层的平衡。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">在 Greg Brockman、Sarah Friar 和 Jason Kwon 接手后，OpenAI 能否在保持技术领先的同时，将ChatGPT Work 的商业潜力变现到极致？在即将到来的超级 IPO 面前，这台庞大机器的齿轮如何重新磨合？</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">业内正拭目以待。</span></span></p><p style=\"text-align: justify; margin-bottom: 40px; line-height: 1.75em;\"><span>本文作者长期追踪海外 AI 巨头资本动态、前沿技术和幕后故事，欢迎添加作者微信 xf123a 互通有无。<span>雷峰网雷峰网</span></span></p></section></section></section></section></section>",
-      "published": "2026-07-14T09:57:00+08:00",
-      "fetched_at": "2026-07-15T10:39:58.990269+08:00",
-      "pre_filter_reason": "OpenAI商业化",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "OpenAI商业化拆分：对AI创业公司的3个战略启示",
-          "angle": "分析OpenAI拆分为三块业务背后的逻辑，以及创业公司如何借鉴其组织架构优化商业化路径。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "高管离职背后：AI公司如何平衡技术研发与商业变现？",
-          "angle": "以Fidji Simo离职为引，探讨AI企业在高速扩张期的人才管理与战略聚焦。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "a03fc1de42b3",
-      "source_id": "apple-ml",
-      "source_name": "Apple ML Research",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Proactive Agent Research Environment: Simulating Active Users to Evaluate Proactive Assistants",
-      "link": "https://machinelearning.apple.com/research/proactive-agent-research-environment",
-      "summary": "Proactive agents that anticipate user needs and autonomously execute tasks hold great promise as digital assistants, yet the lack of realistic user simulation frameworks hinders their development. Existing approaches model apps as flat tool-calling APIs, failing to capture the stateful and sequential nature of user interaction in digital environments and making realistic user simulation infeasible. We introduce Proactive Agent Research Environment (Pare), a framework for building and evaluating proactive agents in digital environments. Pare models applications as finite state machines with…",
-      "published": "2026-07-14T08:00:00+08:00",
-      "fetched_at": "2026-07-15T10:39:44.052329+08:00",
-      "pre_filter_reason": "主动智能体研究环境，AI研究",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 8,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.9,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "如何构建主动式AI助手？从用户模拟环境开始",
-          "angle": "讲解Proactive Agent Research Environment原理，教你搭建模拟用户来测试和优化主动式AI。",
-          "difficulty": "高级"
-        },
-        {
-          "tag": "tutorial",
-          "title": "主动式AI评估的难点与解法：为什么需要状态化模拟？",
-          "angle": "对比传统工具调用评估与状态化用户模拟，说明如何更真实地衡量AI代理的主动能力。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "a8523eacea5e",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "内存占用 54 GB → 3.9GB！苹果正评估 PrismML 量化 AI 技术，让 iPhone 15 及后续机型运行 27B 模型",
-      "link": "https://www.ithome.com/0/976/826.htm",
-      "summary": "<p>IT之家 7 月 15 日消息，昨日（7 月 14 日）在接受 CNBC 采访时，PrismML 首席执行官巴博克 · 哈西（Babak Hassibi）表示，<strong>其公司确实和苹果公司接洽，并透露苹果公司正在评估其相关 AI 量化技术。</strong></p><p>在采访中，哈西表示：“他们 [指苹果公司] 目前正在认真评估我们的技术”，但他并未透露会谈的具体内容，只表示会谈尚处于早期阶段，但“进展顺利”。</p><p style=\"text-align: center;\"> </p><p>该媒体认为谈判的范围涵盖简单地通过授权使用 PrismML 技术，甚至不排除苹果直接收购 PrismML 的可能。</p><p>PrismML 是加州理工衍生出来的 AI 初创公司，核心突破为原生 1-bit 模型压缩技术，模型体积可压缩至全精度版本的 1/14 左右，内存占用降低超 90%。</p><p>原生 1-bit 模型压缩技术权重仅用 {-1, +1} 表示，配合分组缩放因子，非传统量化，声称无“高精度逃生通道”，宣称在保持接近 FP16 模型精度的同时，推理速度提升最高 8 倍，能耗降低 75%-80%。</p><p>IT之家今天报道，PrismML 公司今天宣布推出 Bonsai 27B 模型，基于 Qwen 3.6 27B 模型微调，在保留 90% 智能水平的情况下，可以在 12GB 内存的 iPhone 上原生运行。</p><p>该公司表示，已将该模型从约 54 GB 缩减至不足 4 GB，让能在 iPhone 15 以及后续机型上运行完整 27B 参数模型。</p><p>在采访中，哈西表示这种量化技术必然需要牺牲部分性能，相比较完整体积版本，量化后的模型性能保留了 95%（3-bit）/90%（1-bit）的基准测试得分，在处理事实推理、数学和编程方面也明显较弱。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/915b5076-a12c-4646-8b15-c6dc5f21565f.png?x-bce-process=image/format,f_auto\" /></p><p><strong>相关阅读：</strong></p><ul class=\"small-size list-paddingleft-2\"><li><p>《<a href=\"https://www.ithome.com/0/974/796.htm\" target=\"_blank\">已在 iPhone 17 Pro 上完整运行 Qwen 3.6，消息称 PrismML 模型 AI 压缩技术被苹果看中</a>》</p></li><li><p>《<a href=\"https://www.ithome.com/0/976/772.htm\" target=\"_blank\">手机 AI 的 DeepSeek 时刻：Bonsai 27B 模型登场，苹果 iPhone 17 Pro 可运行</a>》</p></li></ul>",
-      "published": "2026-07-15T10:14:48+08:00",
-      "fetched_at": "2026-07-15T10:40:06.239626+08:00",
-      "pre_filter_reason": "涉及AI量化技术和苹果评估AI模型运行",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 9,
-        "virality": 8,
         "crowd_heat": 0.0
       },
       "quality_score": 7.8,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "苹果的AI量化术：如何将54GB模型压缩到3.9GB？",
-          "angle": "科普PrismML量化技术原理，解释它如何让大模型在iPhone上高效运行，并分析对移动AI的影响。",
+          "title": "国行苹果AI功能备案意味着什么？三步看懂端侧大模型",
+          "angle": "解读国行苹果AI备案背景，用三步法解释端侧大模型的工作原理、与云端AI的区别，以及用户隐私保护机制。",
           "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "边缘AI新突破：量化技术如何让27B模型在手机上跑起来？",
-          "angle": "从内存占用下降95%说起，讲解量化、剪枝等压缩技术，并展望未来手机AI应用。",
-          "difficulty": "中级"
+          "tag": "analysis",
+          "title": "共享单车涨价背后：成本、竞争与用户选择",
+          "angle": "分析三家共享单车同步上调起步价的原因，包括运营成本上升、市场竞争格局变化，以及对用户出行习惯的影响。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "fea8ed081f25",
+      "id": "8278b08a78b0",
       "source_id": "google-news-ai-zh",
       "source_name": "Google News (AI 中文)",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "search",
-      "title": "重磅！DeepSeek启动 IPO筹备，梁文锋登顶AI大模型全球首富！ - 手机网易网",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE94RlVCYkdheFlPcXZpQXZWOU1mLTVkNzJnSzFIc0NZZE1HMzU3dXNIbW5jOW9iVTI0dTFIMmhjS000Zndjd1o3ZEhKc1hFV0dsV3FxVUNsTEVDSzRseVpFemxn?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE94RlVCYkdheFlPcXZpQXZWOU1mLTVkNzJnSzFIc0NZZE1HMzU3dXNIbW5jOW9iVTI0dTFIMmhjS000Zndjd1o3ZEhKc1hFV0dsV3FxVUNsTEVDSzRseVpFemxn?oc=5\" target=\"_blank\">重磅！DeepSeek启动 IPO筹备，梁文锋登顶AI大模型全球首富！</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">手机网易网</font>",
-      "published": "2026-07-15T09:49:42+08:00",
-      "fetched_at": "2026-07-15T10:40:09.629503+08:00",
-      "pre_filter_reason": "DeepSeek AI模型公司IPO",
-      "scores": {
-        "importance": 9,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "DeepSeek启动IPO，梁文锋成AI首富",
-          "angle": "分析DeepSeek的IPO对AI行业格局的影响，以及梁文锋个人财富增长的背后逻辑。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "如何从DeepSeek的崛起中学习AI创业",
-          "angle": "拆解DeepSeek的成功要素，为创业者提供可借鉴的商业模式和技术策略。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "1444b0dc36f0",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "SpaceX联手Cursor的首个AI产品曝光！全能办公智能体内测中，ChatGPT Work迎来劲敌",
-      "link": "https://www.infoq.cn/article/uwozdp7L5ex4Z2r7iZRC?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/uwozdp7L5ex4Z2r7iZRC?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-07-14T23:10:48+08:00",
-      "fetched_at": "2026-07-15T10:40:00.313753+08:00",
-      "pre_filter_reason": "AI产品曝光",
+      "title": "梁文锋登顶全球 AI 大模型首富 DeepSeek 估值飙升重塑行业财富格局 - 新浪网",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX0RJa2loeFV0cldoZWtXWF9GTkJNTFppejRXVllyY3BFLUNUMFVsU0VvSnJvdExkRjZfRi1yd09LTlkyZ04zU3pCa2I4azlhclNFZ1R2U29naVpROC1OQ2lwS21MY0tEQkNLSENPZlFUMGhIUFFvSVI5Y0xFMVNIZ2JfTzRHdXY2Xzc3Xzdpbi1ERFU?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPX0RJa2loeFV0cldoZWtXWF9GTkJNTFppejRXVllyY3BFLUNUMFVsU0VvSnJvdExkRjZfRi1yd09LTlkyZ04zU3pCa2I4azlhclNFZ1R2U29naVpROC1OQ2lwS21MY0tEQkNLSENPZlFUMGhIUFFvSVI5Y0xFMVNIZ2JfTzRHdXY2Xzc3Xzdpbi1ERFU?oc=5\" target=\"_blank\">梁文锋登顶全球 AI 大模型首富 DeepSeek 估值飙升重塑行业财富格局</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪网</font>",
+      "published": "2026-07-16T01:46:46+08:00",
+      "fetched_at": "2026-07-16T10:47:16.197012+08:00",
+      "pre_filter_reason": "AI model and DeepSeek",
       "scores": {
         "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "news",
-          "title": "SpaceX联手Cursor推出AI办公产品",
-          "angle": "介绍这款全能办公智能体的核心功能，并对比ChatGPT Work的优劣势。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "AI办公智能体如何提升你的工作效率",
-          "angle": "以SpaceX和Cursor的产品为例，演示AI在文档处理、日程管理等场景的实际应用。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "b67b18418025",
-      "source_id": "baidu-hot",
-      "source_name": "百度热搜",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "hotlist",
-      "title": "ChatGPT出现故障",
-      "link": "https://www.baidu.com/s?wd=ChatGPT出现故障",
-      "summary": "7月15日，OpenAI官方状态页面显示，旗下聊天机器人ChatGPT目前正遭遇故障。页面公告指出，ChatGPT出现了“错误率升高”的情况。OpenAI正在对用户反映的登录问题以及影响该服务的间歇性错误展开调查。截至报告发布时，该故障已持续发生17分钟。",
-      "published": "2026-07-15T10:40:08.004946+08:00",
-      "fetched_at": "2026-07-15T10:40:08.004948+08:00",
-      "pre_filter_reason": "ChatGPT outage, AI product news",
-      "scores": {
-        "importance": 7,
         "timeliness": 9,
         "actionability": 8,
         "scarcity": 7,
         "virality": 9,
-        "crowd_heat": 7.0
+        "crowd_heat": 0.0
       },
-      "quality_score": 7.6,
+      "quality_score": 7.7,
       "topics": [
         {
-          "tag": "news",
-          "title": "ChatGPT突发故障，用户登录受影响",
-          "angle": "报道故障详情及OpenAI的应对措施，探讨AI服务稳定性对用户的影响。",
-          "difficulty": "入门"
-        },
-        {
           "tag": "tutorial",
-          "title": "ChatGPT故障时，你可以使用的替代AI工具",
-          "angle": "推荐几款在ChatGPT宕机时能应急的AI聊天或写作工具，并对比其特点。",
+          "title": "DeepSeek估值飙升，普通人如何理解AI大模型财富密码？",
+          "angle": "从梁文锋登顶首富事件切入，用通俗比喻解释大模型公司估值逻辑（技术壁垒、数据价值、算力成本），并介绍AI行业投资入门知识。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "a2d56eee8b04",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
+      "id": "97abc3cdcbee",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
       "source_tier": "T2",
       "source_lang": "zh",
-      "source_category": "media",
-      "title": "机器人，从此“变”了！上纬启元T1将在WAIC期间首秀",
-      "link": "https://www.leiphone.com/category/industrynews/cjkqMQqW31Ak4F46.html",
-      "summary": "<p style=\"margin-top: 5pt; margin-bottom: 5pt;\"><span>近日，上纬新材正式发布旗下消费级具身智能品牌启元机器人的全新产品——启元T1（Transformer 1）。作为全球首个可变形个人机器人，启元T1采用行业首创的Transformer跨形态一体架构，可实现轮足人形与四足形态的自主切换，进一步拓展机器人在家庭陪伴、户外出行、移动拍摄等多元场景中的应用能力。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000;\">据了解，启元T1将于7月17日至20日举行的2026世界人工智能大会暨人工智能全球治理高级别会议（WAIC）期间首次公开亮相，观众可在现场近距离体验产品的可变形能力及实际应用表现。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260714/6a56366451c97.png?imageView2/2/w/740\" /></span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '微软雅黑'; font-size: 11pt; color: #000000; font-weight: bold;\">聚焦多场景应用，打造更适合个人使用的机器人</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000;\">区别于传统单一形态机器人，启元T1最大的特点在于能够根据环境变化，自主切换不同运动形态，以适应更加丰富的生活场景。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000;\">在室内环境中，启元T1采用轮足人形形态，可实现安静、平稳移动，不影响家庭休息和办公环境。产品采用零转弯半径设计，可在客厅、书房等有限空间内灵活通行。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000;\">在人机交互方面，启元T1将柔性力控技术应用于牵手、触碰等近距离交互场景，支持更加自然、安全的人机接触体验，使机器人不仅能够完成任务，也能够承担陪伴角色。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000;\">进入户外后，启元T1可自动切换至四足形态，提升复杂地形通过能力，可稳定适应草地、砂石、斜坡及台阶等不同路况，满足公园散步、户外露营等多样化使用需求。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000;\">从室内到室外，机器人可自主识别环境变化并完成形态切换，无需人工搬运、扶持或手动设置，进一步降低消费级机器人的使用门槛。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '微软雅黑'; font-size: 11pt; color: #000000; font-weight: bold;\">支持智能跟拍，拓展个人机器人应用边界</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000;\">除移动与陪伴功能外，启元T1还支持移动影像创作能力。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000;\">产品可与主流运动相机实现联动，支持语音拍摄、智能跟随、轨迹运镜及多机位搭载等功能，可作为移动摄影设备完成日常记录。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000;\">例如，在户外运动或家庭活动过程中，用户仅需发出&quot;跟着我拍&quot;等语音指令，启元T1即可自动完成跟随拍摄，并根据运动轨迹保持合适的拍摄距离和取景角度，帮助用户记录旅行、亲子成长、家庭聚会等生活场景。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260714/6a563681f2be2.png?imageView2/2/w/740\" /></span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '微软雅黑'; font-size: 11pt; color: #000000; font-weight: bold;\">一套架构驱动两种形态，实现运动能力统一控制</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000;\">启元T1可变形能力的背后，是其采用的</span><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000; font-weight: bold;\">Transformer跨形态一体架构</span><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000;\">。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000;\">该架构围绕机器人结构设计、关节系统、动力系统、感知系统及交互模块进行了统一设计，通过同一套运动控制系统，实现两种形态下平衡控制、运动规划、姿态调整及交互能力的连续协同。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000;\">对于用户而言，无需关注复杂的变形过程，只需根据不同使用场景，机器人即可自主切换至更加适合的运动形态，实现更加自然、流畅的人机协同体验。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000;\">据介绍，“Transformer”不仅代表产品能够完成形态转换，更体现了其通过统一技术架构实现多形态融合的设计理念。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '微软雅黑'; font-size: 11pt; color: #000000; font-weight: bold;\">持续布局消费级具身智能 推动个人机器人商业化落地</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000;\">启元机器人是上纬新材旗下消费级具身智能品牌。2025年公司确立围绕“新材料+具身智能”双轮驱动战略，正式布局个人机器人赛道。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000;\">目前，公司已推出全球首个小尺寸全身力控人形机器人启元Q1，以及全球首个可变形个人机器人启元T1，产品矩阵持续完善。</span></p><p style=\"margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000;\">财报数据显示，2026年第一季度，上纬新材研发投入达4585.16万元，同比增长504.37%。其中，具身智能业务研发投入3778万元，主要用于核心零部件、机器人算法及平台能力建设，加快消费级具身智能产品研发及商业化进程。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px;\"><span style=\"font-family: '微软雅黑'; font-size: 9pt; color: #000000;\">与此同时，启元机器人渠道建设也在持续推进，上海、深圳、西安、厦门、广州等城市线下体验店已陆续启动。未来，用户可在线下近距离体验启元机器人产品，直观感受可变形个人机器人在真实生活场景中的应用能力。</span></p>",
-      "published": "2026-07-14T21:17:00+08:00",
-      "fetched_at": "2026-07-15T10:39:58.990074+08:00",
-      "pre_filter_reason": "具身智能机器人",
+      "source_category": "search",
+      "title": "7款手机端侧大模型获备案！苹果Apple智能在列，阿里、百度提供支持 - 财联社",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBUNzlxNUduTl9EbzM5VkZKdFZLY1N3VDVGX01VQ2tKNTNYN28tVkVidFl6N3VEd205X1VDNEs5aEVSRzAycWpDMA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTFBUNzlxNUduTl9EbzM5VkZKdFZLY1N3VDVGX01VQ2tKNTNYN28tVkVidFl6N3VEd205X1VDNEs5aEVSRzAycWpDMA?oc=5\" target=\"_blank\">7款手机端侧大模型获备案！苹果Apple智能在列，阿里、百度提供支持</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财联社</font>",
+      "published": "2026-07-15T18:18:28+08:00",
+      "fetched_at": "2026-07-16T10:47:16.196839+08:00",
+      "pre_filter_reason": "手机端侧大模型获备案，直接涉及AI模型",
       "scores": {
-        "importance": 7,
-        "timeliness": 8,
+        "importance": 8,
+        "timeliness": 9,
         "actionability": 8,
-        "scarcity": 9,
+        "scarcity": 8,
         "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.6,
+      "quality_score": 7.7,
       "topics": [
         {
-          "tag": "news",
-          "title": "启元T1机器人发布：可变形个人机器人首秀",
-          "angle": "介绍启元T1的跨形态设计及其在家庭、户外等场景的应用潜力。",
-          "difficulty": "入门"
-        },
-        {
           "tag": "tutorial",
-          "title": "未来已来：可变形机器人如何改变我们的生活",
-          "angle": "从启元T1出发，展望个人机器人在陪伴、拍摄等领域的实际使用技巧。",
-          "difficulty": "中级"
+          "title": "7款手机端侧大模型获备案，你的手机AI能力将如何升级？",
+          "angle": "以苹果Apple智能为例，讲解端侧大模型备案的意义，以及用户实际能体验到的AI功能（如离线语音助手、本地图像处理），并对比安卓与iOS的差异。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "e04a5fbfc18d",
+      "id": "3c7172a48527",
       "source_id": "qbitai",
       "source_name": "量子位",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "马斯克“机器人还进不了厂”刚说完，小米机器人”上岗“汽车产线了",
-      "link": "https://www.qbitai.com/2026/07/449906.html",
-      "summary": "全面硬刚Figure",
-      "published": "2026-07-14T20:04:42+08:00",
-      "fetched_at": "2026-07-15T10:40:02.027310+08:00",
-      "pre_filter_reason": "机器人应用涉及AI",
+      "title": "马斯克也开始L4降维L2了！FSD正式进入反转时刻",
+      "link": "https://www.qbitai.com/2026/07/450657.html",
+      "summary": "FSD、Robotaxi共用一套模型",
+      "published": "2026-07-15T15:22:26+08:00",
+      "fetched_at": "2026-07-16T10:47:02.649635+08:00",
+      "pre_filter_reason": "FSD and Robotaxi use AI models",
       "scores": {
         "importance": 8,
         "timeliness": 9,
         "actionability": 8,
         "scarcity": 7,
-        "virality": 8,
+        "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.6,
+      "quality_score": 7.7,
       "topics": [
         {
-          "tag": "news",
-          "title": "小米机器人上岗汽车产线，马斯克言论遭打脸",
-          "angle": "对比小米机器人与Figure的进展，分析人形机器人进入工厂的现状与挑战。",
-          "difficulty": "入门"
-        },
-        {
           "tag": "tutorial",
-          "title": "从产线到家庭：人形机器人的落地场景解析",
-          "angle": "以小米和Figure为例，讲解人形机器人在工业与消费领域的应用差异和未来趋势。",
-          "difficulty": "中级"
+          "title": "马斯克的FSD从L4降级到L2，自动驾驶等级到底怎么分？",
+          "angle": "用图解方式解释L0-L5自动驾驶等级定义，分析FSD降级背后的技术挑战（如复杂路况处理、法规限制），并展望L2级功能对日常驾驶的实际帮助。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "1b0ad99d3f23",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
+      "id": "05c97f182fa6",
+      "source_id": "ifanr",
+      "source_name": "爱范儿",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "独家｜把芯片设计交给AI，上海AI Lab李林阳创业获数千万元首轮融资",
-      "link": "https://www.leiphone.com/category/chips/3nmA7UMFjI21f5Eh.html",
-      "summary": "<p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: Arial; font-size: 11pt;\">芯片设计服务正在迎来AI拐点。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">雷峰网独家获悉，一家国内创企Novasilicon（芯星元）率先入局，近日已完成首轮融资，由五源资本独家投资数千万元。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">与传统Design House不同的是，Novasilicon认为AI不再只是工具。“我们更希望从大模型本身出发，重新思考芯片设计。”创始人兼CEO李林阳告诉雷峰网。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">要真正实现这一设想，仅懂AI或仅懂芯片都不够。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">公开资料显示，李林阳目前担任上海人工智能实验室青年科学家，曾参与国内首个开源大语言模型MOSS研发，并带队完成国内首个兼具专业围棋能力与自然语言思维解释能力的大模型InternThinker。去年起他还负责了AI for Chip Design相关项目。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">另外两位联合创始人则进一步补齐了芯片设计所需的工程能力——COO薛建喜深耕数字芯片设计二十余年，曾对接国内多家知名AI芯片企业；CTO陈建球为翱捷科技早期核心成员，拥有二十余年模拟及混合信号芯片设计经验。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">Novasilicon的目标是服务包括大模型企业、智能机器人公司、云计算服务商、消费电子等有增量自研芯片需求的公司。目前Novasilicon已通过NRE（一次性工程服务）模式，正在推进与Foundry、IDM等产业链企业的合作。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">按照规划，公司计划于年内推出标准化后端设计产品，进一步验证从工程服务走向产品化的发展路径。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">值得注意的是，用AI设计芯片并非新命题。2021年谷歌DeepMind团队就公开用AI完成TPU的版图规划，以缩短芯片设计周期。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">而在五年后的今天，大模型的能力早已突飞猛进，国外涌现了一批由谷歌、英伟达前员工创办的用AI驱动芯片设计的公司，累计融资超过5亿美元。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">作为国内首家浮出水面的同类型企业，也是AI-Native的新公司，Novasilicon要做什么？计划怎么做？</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">AI DesignHouse，瞄准AI设计芯片增量市场</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">在过去半年里，芯片龙头、大模型企业和云厂商不约而同地选择加速押注云端算力：微软时隔两年推出自研的第二代推理GPU，英伟达开始引入新架构芯片LPU，OpenAI与博通合作开发适用于自家大模型推理的ASIC。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">与此同时，Fortune Business Insights预计，全球边缘AI半导体市场规模将从2026年的298.5亿美元增长至2034年的1078.6亿美元，多样化的硬件应用场景也在催生定制化芯片需求。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">李林阳开始意识到，以人工为核心的芯片设计模式已经无法跟上小批量、多品类、快速迭代的芯片生产节奏，前所未有的增量市场是用AI设计芯片的巨大机遇。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">Novasilicon从更宏观的视角判断，AI在整个芯片设计流程中的参与度将从2025年的5%跃升至五年后的80%。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">Novasilicon是想要做AI EDA吗？李林阳首先否认这一外界最容易产生的误解：“</span><span style=\"font-family: 'Arial'; font-size: 11pt; font-weight: bold;\">我们不是一家EDA公司。”</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">他表示，EDA仍然是芯片设计不可或缺的基础设施，而目前EDA公司的主流思路是在既有工具体系中引入AI。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">Novasilicon并不打算替代这些工具，而是选择直接突破原有范式，让多AI Agent承担人的工作，负责设计、规划、调用EDA以及持续迭代优化等任务。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">如果必须用一个类比，李林阳认为</span><span style=\"font-family: 'Arial'; font-size: 11pt; font-weight: bold;\">Novasilicon更像AI版的博通</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">，服务过去很难被覆盖或是当前处于井喷的需求市场，例如有多项芯片设计需求却苦于周期漫长、成本高昂的企业、从未想过自己也能拥有一颗芯片的公司。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">具体到交付形式，联创薛建喜表示，客户既可以选择拿到图纸自己投产，也可以直接获得可用的芯片。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">“AI版博通”回答的是NovaSilicon今天的商业模式，而谈到长期愿景，团队更愿意用另一家公司来解释自己。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">在他们看来，1987年半导体产业完成了第一次专业化分工，IDM逐渐分化为Fabless和Foundry，后者里的龙头台积电让晶圆制造成为整个产业都可以调用的基础设施。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">如果说台积电让“制造能力”平台化，那么对于试图推动AI时代下半导体行业第二次分工的NovaSilicon来说，</span><span style=\"font-family: 'Arial'; font-size: 11pt; font-weight: bold;\">他们希望做到“芯片设计能力”的平台化</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">，推动Fabless进一步演进为“Designless+AI DesignHouse”——越来越多企业无需自建芯片设计团队，而是按需调用芯片设计能力。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 16pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 16pt; font-weight: bold;\">不依赖数据，用强化学习从后端切入AI芯片设计</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">在李林阳看来，真正让“AI设计芯片”这项服务成立的，是大模型本身。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">当以Openclaw为代表的Agent框架展现了AI任务规划、工具调用和多智能体协同能力时，这意味着大模型已经有底气承担复杂的工程任务，而芯片设计恰好提供了天然的训练场。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">李林阳认为，芯片设计的每次优化都能通过大量的物理仿真得到验证，EDA工具链则进一步缩短了验证和迭代周期。在这个过程中，大模型不仅能够参与设计，更能够在持续试错中不断学习和优化。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">OpenAI与博通的合作便是典型案例。从产品定义到流片仅耗时约九个月的背后，离不开OpenAI将自身的大模型能力引入芯片研发流程。薛建喜表示，某种程度上他们也是在构建垂直领域的模型。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">也正因如此，Novasilicon没有选择采用行业更主流的模仿学习方式。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">“这一路径是基于历史RTL代码、验证数据、网表、版图、设计文档等资料训练或微调模型，在RTL生成等文本化环节确有成效。”</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">李林阳解释，芯片设计数据天然高度保密，开源高质量的可用数据又极为有限，如何持续获得足够规模的数据集反而成为制约大模型能力的瓶颈。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">基于此，</span><span style=\"font-family: 'Arial'; font-size: 11pt; font-weight: bold;\">Novasilicon选择SuperLearner类似的强化学习路线</span><span style=\"font-family: 'Arial'; font-size: 11pt;\">——构建具备通用决策能力的模型，通过自主探索不断寻找最优策略，而非依赖海量人工数据。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">当然，Novasilicon也不是这条路上的孤勇者，谷歌、英伟达等巨头都已在实践。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">另一方面，一批围绕用AI设计芯片的新创公司也快速涌现：谷歌AlphaChip核心成员、英伟达芯片设计AI负责人任浩星纷纷选择自立门户，瞄准芯片基础模型的Cognichip吸引了英特尔CEO陈立武加入董事会。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">资本也开始集中押注这一方向。雷峰网统计发现，仅Ricursive、ChipAgents和Cognichip三家国外AI芯片设计创业公司，公开融资金额便已超过5亿美元。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">在李林阳看来，Novasilicon与这些公司在技术路线和业务模式上并不完全相同。他们希望进一步整合通用模型、多Agent协同和芯片设计能力，最终搭建一套能够持续交付芯片设计成果的平台。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">不过芯片设计流程漫长且复杂，实现全流程自动化仍是一道高门槛。当前，Novasilicon选择先从模拟后端版图设计和数字后端布局布线任务切入。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">李林阳告诉雷峰网，后端决定“能否制造、制造后能否正常工作”，相比前端拥有更明确的工程约束和量化反馈，是最容易形成商业闭环的突破口。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">“许多人认为前端只是很简单地写代码，实则只是看到露在水面上的冰山一角。站在大模型解决问题的角度看，难度其实有本质区别。”李林阳直言。</span></p><p>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt;\">不过，对于Novasilicon而言，后端只是起点。李林阳透露，未来几个月团队将进一步推进覆盖AI芯片设计前后端全流程的多Agent集群建设，而这也正是Novasilicon想抓住的未来。</span></p><p><br /></p><p><span style=\"font-size: 12px;\">更多关于AI Design House的企业故事和产业观察，欢迎添加作者微信 Evelynn7778 交流。</span></p><p>&nbsp;</p><p>&nbsp;</p>",
-      "published": "2026-07-14T18:31:00+08:00",
-      "fetched_at": "2026-07-15T10:39:58.990115+08:00",
-      "pre_filter_reason": "Focuses on using AI for chip design, a clear AI application.",
+      "title": "苹果想要「掐死」OpenAI 手机",
+      "link": "https://www.ifanr.com/1672040?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "苹果也有自己的越战泥潭<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
+      "published": "2026-07-15T11:39:38+08:00",
+      "fetched_at": "2026-07-16T10:47:05.538476+08:00",
+      "pre_filter_reason": "AI公司竞争",
       "scores": {
-        "importance": 8,
+        "importance": 7,
         "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 9,
-        "virality": 7,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.6,
+      "quality_score": 7.7,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "AI如何设计芯片？从融资新闻看EDA智能化趋势",
-          "angle": "以新闻为切入点，用通俗语言解释AI如何辅助或替代传统芯片设计流程，并介绍该创业公司的技术方向与市场价值。",
-          "difficulty": "入门"
-        },
-        {
           "tag": "analysis",
-          "title": "芯片设计交给AI，是噱头还是未来？",
-          "angle": "分析AI在芯片设计领域的实际应用案例、技术瓶颈与商业前景，结合本次融资事件探讨行业拐点是否真的到来。",
-          "difficulty": "中级"
+          "title": "苹果为何要“掐死”OpenAI？揭秘科技巨头的AI战略博弈",
+          "angle": "分析苹果自研AI模型与依赖OpenAI的利弊，探讨苹果在隐私保护、生态控制、技术自主性上的考量，以及此举对消费者未来使用AI服务的影响。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "874b5598164d",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "search",
-      "title": "阶跃星辰发布Step AOS智能体原生操作系统与STEPX Neo手机，定义大模型原生AI终端新范式 - 电子工程专辑",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1UNkdwOENJOFdaRHF0WExpLTdvclV1SXI3d21LQmJxekg3TllKZjBBcVZrZTExOWtUYV9wYnNKOXdHZHp4RWFmY0RkMjhGUGpmVThTRUJVTm9ycEY5?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE1UNkdwOENJOFdaRHF0WExpLTdvclV1SXI3d21LQmJxekg3TllKZjBBcVZrZTExOWtUYV9wYnNKOXdHZHp4RWFmY0RkMjhGUGpmVThTRUJVTm9ycEY5?oc=5\" target=\"_blank\">阶跃星辰发布Step AOS智能体原生操作系统与STEPX Neo手机，定义大模型原生AI终端新范式</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">电子工程专辑</font>",
-      "published": "2026-07-15T09:15:56+08:00",
-      "fetched_at": "2026-07-15T10:40:09.629408+08:00",
-      "pre_filter_reason": "AI operating system and device launch",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "什么是智能体原生操作系统？Step AOS 入门解读",
-          "angle": "从用户视角解释智能体原生操作系统的概念、与传统OS的区别，以及它如何改变手机使用体验。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "大模型原生AI终端来了，手机厂商如何应对？",
-          "angle": "分析阶跃星辰发布Step AOS和STEPX Neo对手机行业的影响，探讨大模型原生终端是否会成为新范式。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "ae2750ac33ba",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
+      "id": "860d85ddb25f",
+      "source_id": "36kr",
+      "source_name": "36氪",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "为智能体重新设计操作系统：全球首个智能体原生操作系统Step AOS发布",
-      "link": "https://www.leiphone.com/category/ai/DCPWHecweBJl5y9S.html",
-      "summary": "<p><span style=\"font-size: 12pt; font-family: Arial;\">7月13日，阶跃星辰在上海举办发布会，正式发布全球首个智能体原生操作系统Step AOS（Step Agentic-native OS）、基于模型矩阵及Step AOS打造的个人智能体阶跃Amoo，以及大模型原生AI终端品牌STEPX。全球首款大模型原生智能体手机STEPX Neo同场亮相。至此，阶跃构建起从模型、系统到终端的</span><span style=\"font-size: 12pt; font-family: Arial;\">“</span><span style=\"font-size: 12pt; font-family: Arial;\">模软硬</span><span style=\"font-size: 12pt; font-family: Arial;\">”</span><span style=\"font-size: 12pt; font-family: Arial;\">三位一体技术闭环。雷峰网</span></p><p>&nbsp;</p><p style=\"margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 12pt; font-weight: bold;\">为智能体从零构建运行环境</span></p><p style=\"margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 12pt;\">历经数年高速发展，AI已来到智能体时代的门口。但智能体要真正走进人们的日常生活，光有聪明的模型还不够，横在面前的还有三堵墙：记忆墙、决策墙和行动墙。智能体记不住用户，难以自主完成复杂任务的判断，更无法系统</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">地</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">替用户完成各种任务。阶跃认为，这是操作系统层面的结构性问题，靠单点的应用内的功能叠加无法解决。</span></p><p>&nbsp;</p><p style=\"margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 12pt;\">阶跃给出的解法，不是业界普遍的</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">“</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">OS+AI</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">”</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">路线，而是以人机共生为原则，为智能体从零构建运行环境，这就是Step AOS。“在旧系统上给智能体开一扇门，它永远是访客。为智能体盖一座房子，它才是原住民。”</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260714//6a5585e73a9f1.jpg?imageMogr2/quality/90\" /></p><p>&nbsp;</p><p style=\"margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 12pt;\">Step AOS带来三层革新：新设施、新能力、新交互。驱动这一切的，是阶跃星辰覆盖基座模型与多模态模型的Step</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">”</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">1+N</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">”</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">模型矩阵。其中，刚刚发布的Step Edge端侧基座模型专为终端硬件定制，在29项权威基准评测中位列同类端侧模型第一。可独立完成轻量化智能任务，复杂场景下联动云端旗舰模型协同运算，兼顾低延迟、隐私安全与使用体验。</span></p><p>&nbsp;</p><p style=\"margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 12pt; font-weight: bold;\">新设施：为智能体重构系统资源</span></p><p style=\"margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 12pt;\">传统操作系统的一切资源都围绕</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">“</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">人操作应用</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">“</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">来设计，Step AOS则专门为智能体重新分配硬件资源、重新调度系统能力。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260714//6a5585e73b280.jpg?imageMogr2/quality/90\" /></p><p>&nbsp;</p><p style=\"margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 12pt;\">计算层面，统一计算资源池调度CPU、GPU、NPU等异构算力，对端侧模型和系统服务提供弹性的高性能算力供给，让端侧模型和服务调度实现相对最优供给；数据层面，统一语义数据层将感知、行为与个人数据加工为统一语义文件，配合高速混合数据库实现极速传输；应用及服务层面，原子能力引擎将原有系统的功能和服务拆解为适合</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">智能体</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">调</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">度和编排的原子化服务，系统服务框架提供高效服务引擎和统一协议开放平台，向生态开放。</span></p><p>&nbsp;</p><p style=\"margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 12pt; font-weight: bold;\">新能力：记忆、决策执行与安全</span></p><p style=\"margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 12pt;\">记忆让智能体真正懂用户，决策与执行让它高效替用户办事，安全让用户放心把行动权交给它，这是Step AOS的三大关键技术能力。</span></p><p>&nbsp;</p><p style=\"margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 12pt;\">记忆方面，Step AOS构建了双域三步记忆结构：用户域让智能体记得用户、理解用户，智能体域让其自身知识与经验持续成长。记忆遵循</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">“</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">记—理—忆</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">“</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">三步链路，日常交互中随时记录，后台自动整理沉淀，需要时精准召回，用户无需反复交代，智能体越用越懂你。该能力已在</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">Personamem</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">、</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">LongMemEval</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">等国际评测基准上达到SOTA水平，日常问答记忆召回最快仅需15毫秒，为同类最快。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260714//6a5585e73be3e.jpg?imageMogr2/quality/90\" /></p><p>&nbsp;</p><p style=\"margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 12pt;\">决策与执行方面，端云多脑体系让简单事快反应、复杂事深思考：设闹钟、找照片等即时任务由端侧模型在百毫秒内完成，执行成功率超99%；复杂推理与多步骤规划交由云端接管，隐私数据始终不离开设备。其终端交互任务成功率位列</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">AndroidDaily</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">评测第一梯队，Claw Eval任务成功率居国内首位。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260714//6a5585e73cb8f.jpg?imageMogr2/quality/90\" /></p><p>&nbsp;</p><p style=\"margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 12pt;\">安全方面，Step AOS提出智能体四维安全体系</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">。</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">可信：操作在可信执行环境中完成，数据不出安全边界；可见：每一步操作可审计、可回溯；可控：权限按</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">需授予、用完即收，智能体记忆可删除；可逆：误操作可一键撤回。智能体越能干，行动权越需要治理，四维安全体系正是用户放心托付的基础。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260714//6a5585e73d34b.jpg?imageMogr2/quality/90\" /></p><p>&nbsp;</p><p style=\"margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 12pt; font-weight: bold;\">新交互：重新定义人与机器的相处方式</span></p><p style=\"margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 12pt;\">智能体交互层是Step AOS底层能力面向用户的统一呈现，其核心是交互范式从“过程交互”转向“结果交互”：用户不再需要逐步下达指令，只需表达任务意图，智能体完成其余链路，并主动输出任务规划、执行进度与建议。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260714//6a5585e73d903.jpg?imageMogr2/quality/90\" /></p><p>&nbsp;</p><p style=\"margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 12pt;\">这一范式建立在三大支柱之上：多模态交互让用户以语音、视觉、文字等自然方式表达；上下文记忆自动补全身份、偏好与情境，交互无需从零开始；结果交付让智能体察觉用户所处的环境与状态，使用户意图直达结果；三者叠加，用户得以用最简单的语言完成最复杂的任务，交互的本质从“人操作机器”变为“用户意图直达优质服务”。</span></p><p>&nbsp;</p><p style=\"margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 12pt; font-weight: bold;\">阶跃Amoo：在Step AOS中生长出的新一代个人智能体</span></p><p style=\"margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 12pt;\">基于上述能力，阶跃星辰同步推出新一代个人智能体阶跃Amoo。</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">与</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">只能在单一应用内工作的App级智能体不同，阶跃Amoo拥有操作系统级身份，能够跨应用调度、端云协同，并在多台设备间无缝接续任务。Step AOS与阶跃Amoo</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">将率先搭载于同场亮相的全球首款智能体手机STEPX Neo</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">之上</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; text-align: center;\"><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260714//6a5585e7404f4.jpg?imageMogr2/quality/90\" /></p><p>&nbsp;</p><p style=\"margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 12pt; font-weight: bold;\">能力跃迁的同时，建立可信边界</span></p><p style=\"margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 12pt;\">智能体越有能力，安全越是前提。同日，阶跃联合上海人工智能实验室发布</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">《</span><span style=\"font-family: 'Arial'; font-size: 12pt;\">新一代智能体系统安全技术白皮书》及《端侧大模型网络安全指南》，首次系统提出&quot;可信、可见、可控、可逆&quot;的智能体安全框架，共同研制智能体安全技术国家标准，在智能体能力跃迁的同时建立可信边界。</span></p><p>&nbsp;</p><p style=\"margin-top: 15pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 12pt; font-weight: bold;\">关于阶跃终端</span></p><p style=\"margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial';\">阶跃终端汇聚中国顶尖</span><span style=\"font-family: 'Arial';\">AI</span><span style=\"font-family: 'Arial';\">科学家、智能终端产品技术及应用专家，聚焦</span><span style=\"font-family: 'Arial';\">AI</span><span style=\"font-family: 'Arial';\">终端，以</span><span style=\"font-family: 'Arial';\">“</span><span style=\"font-family: 'Arial';\">模型</span><span style=\"font-family: 'Arial';\">+</span><span style=\"font-family: 'Arial';\">软件</span><span style=\"font-family: 'Arial';\">+</span><span style=\"font-family: 'Arial';\">硬件</span><span style=\"font-family: 'Arial';\">”</span><span style=\"font-family: 'Arial';\">深度融合共生为核心战略，推出全球首个大模型原生</span><span style=\"font-family: 'Arial';\">AI</span><span style=\"font-family: 'Arial';\">终端品牌</span><span style=\"font-family: 'Arial';\">STEPX</span><span style=\"font-family: 'Arial';\">，致力于为全球用户提供领先的</span><span style=\"font-family: 'Arial';\">AI</span><span style=\"font-family: 'Arial';\">生态产品体验。雷峰网</span></p><p>&nbsp;</p>",
-      "published": "2026-07-14T08:57:00+08:00",
-      "fetched_at": "2026-07-15T10:39:58.990282+08:00",
-      "pre_filter_reason": "智能体原生操作系统",
+      "title": "众筹近400万美金，这家明星AI体育硬件公司做了款多合一教练机器人 ｜产品观察",
+      "link": "https://36kr.com/p/3896586337978244?f=rss",
+      "summary": "<p>作者｜黄楠</p>\n  <p>编辑｜袁斯来</p>\n  <p>在首款网球发球机卖爆后，庞伯特做了一款多合一AI教练机器人 。</p>\n  <p>这家公司是在一级市场很受关注的标的，2025年半年内完成三轮融资累计数亿元；旗下产品也在全球拥有了30余万用户，设备累计发球总量超20亿次。</p>\n  <p>但当下硬件赛道已经不容小而美的公司慢慢成长，网球赛道涌入了越来越多的对手，国内硬件创业团队快速入局，海外老牌专业设备厂商也在加速占据全球专业市场。</p>\n  <p>庞伯特很早就有拓宽赛道的想法，直到今年5月，其首款多运动合一智能体育AI教练机器人Aura发布，完成了从网球场景的训练工具、到多运动AI教练机器人的落地。这款产品在Kickstarter上线当天，仅5小时众筹金额便超过100万美金，累计金额近400万美元。</p>\n  <p>它的核心思路很直接：与其让用户为每一项运动分别买单，不如用一台设备覆盖尽可能多的场景，包括时下热门的板式网球、匹克球等等。基于所搭载的AI Coach智能教练体系，拓宽产品适用场景与用户覆盖范围。</p>\n  <p>从单一专项的训练工具，到兼容多类隔网运动的AI私教，庞伯特Aura所代表的，是智能硬件从专业竞技赛道向大众运动场景的一次纵深延伸。当设备不再只为少数人的性能指标服务，才能真正还给用户自由开启一项新运动的选择权。</p>\n  <h2><strong>当AI Coach长出「手眼脑」</strong></h2>\n  <p>在庞伯特的产品矩阵中，Aura的定位有些特殊。</p>\n  <p>此前，其PACE系列面向深度爱好者，球速高达130km/h，追求极致的球速、旋转、落点精度等发球性能。而Aura整机仅7公斤，可放入背包随身携带，它所搭载的首创AI Coach智能教练体系，将目标用户锁定在更广谱的大众球类爱好者群体。</p>\n  <p>一位教练的日常教学是怎样的？用手喂球给学员，用眼观察学员的动作，实时指正学员的动作。每一次喂球，都伴随一次即时的反馈与调整。</p>\n  <p>不同于传统视觉分析方案中，设备只能在训练结束后生成报告，用户无法在过程中主动调整，Aura要做的，是完整复刻教练的现场教学——其AI Coach会实时指出问题，通过与用户的动态交互中持续观察、判断和调整发球，在每一次击球中完成指导闭环，而非停留于事后的动作分析。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260715/v2_c4bb82b0c6c243999c5b719dd7da6478@6022551_oswg6668333oswg4000oswg2667_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">多运动合一智能体育AI教练机器人Aura（图源/企业）</p>\n  <p>但跨球类适配的难度，并非仅算法层面就能解决，还需要平台级的硬件能力。&nbsp;</p>\n  <p>不同球类的物理参数差异极大。单是网球运动，就涵盖了有压比赛用球、无压训练球、适合青少年用户的75%气压软球、以及低龄训练使用的50%气压轻球等多种规格。匹克球亦存在16洞、24洞两种结构，洞数不同，球体重量、风阻系数和飞行轨迹便截然不同。</p>\n  <p>常规单一发球机的夹持与推送结构仅适配一类标准球体，一旦更换球型，就容易出现球体挤压变形、卡球、出球偏移等故障。要让一套送球、落球、击球模块在同时兼容这些物理差异，必须对发球机器人的硬件架构进行系统性重构。</p>\n  <p>在出球前，轮组系统会根据球种差异，调整夹持间距与加速方式。比如网球，需要更大的夹持力和更高的轮速才能产生足够的出球速度和旋转；而匹克球更轻、风阻更大，则自动调整为对应标定参数。</p>\n  <p>“多合一设备的技术门槛并不仅在于‘能否把球发出去’，真正决定产品可用价值的核心难点，是针对不同球体，机器人对出球轨迹与旋转力度的可控性。”庞伯特创始人兼CEO张海波告诉硬氪。</p>\n  <p>由于各类球体的空气动力学特性完全独立，一套通用机械结构无法共用同一套运动参数，因此，团队还必须针对各细分球型搭建独立控制模型，以保证用户在切换运动后依旧拥有稳定、可控的训练手感。</p>\n  <p>如果说多合一发球和供球系统是Aura的“手”，作为执行终端负责精准可控地完成多品类发球，那其AI Coach的能力则建立在视觉感知与算法决策两个层面。“眼”负责捕捉每一次挥拍与球的轨迹，“脑”负责分析数据并给出训练建议。</p>\n  <p>Aura搭载了一个可拆卸的120fps双摄视觉模块Spotter，拥有10Tops端侧算力，配合语言、语音大模型，通过Spotter视觉感知与庞伯特体育大脑深度融合，实现“会看、会想、会指导”。</p>\n  <p>不同于以视觉分析为核心的方案，通过摄像头捕捉用户挥拍动作，生成训练报告与改进建议，它的优势是部署灵活、不依赖特定硬件，但其能力边界也很清晰，无法主动介入训练进程。Aura教练机器人的分野在于，前者从“分析动作”切入，后者从“发起练习”开始。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260715/v2_e799c56e33004725a0672047c2f48f68@6022551_oswg7043130oswg4000oswg2667_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">多运动合一智能体育AI教练机器人Aura（图源/企业）</p>\n  <p>基于庞伯特后端的“体育大模型”，背后是其“手-眼-脑”一体化技术架构的完整落地。系统不仅会记录下“球打到了哪里”，还能解析“为什么打到那里”，比如引拍慢了半拍？击球点偏外了？重心转移没跟上？</p>\n  <p>这些判断以语音即时提醒的交互形式，可在击球后实时反馈给用户并给出调整反馈，并驱动发球机器人调整下一组发球策略。在张海波看来，真正的教学必须从“喂球”起步，在动态交互中观察、判断、调整，而非停留在事后的动作分析层面。</p>\n  <p>同时，AI教练的进化同样依赖于高质量数据，这套完整训练闭环将进一步构成独特数据壁垒。庞伯特方面预计，Aura上市后每年可采集超过500万小时有效的高质量运动交互数据飞轮。</p>\n  <h2><strong>从专业化到多合一</strong></h2>\n  <p>作为全球首款提出多运动合一的AI教练机器人，面向大众球类运动爱好者，Aura在产品定义阶段就曾面临不小的争议。张海波向硬氪回忆，彼时团队内部的分歧很直接：“多合一会让用户觉得你什么都做，什么都不专业。”外部合作伙伴和投资机构也表达了类似的疑虑。</p>\n  <p>但他始终没有动摇，这个决策背后源于两重考量。</p>\n  <p>传统体育产品逻辑是“先选定运动、再购买设备”，这恰恰是初学者长期被忽略的核心痛点。在他们还没确定自己的运动偏好时，就得为单一运动支付整套设备成本。</p>\n  <p>根据PPA、Monitor Deloitte等行业调查显示，<strong>匹克球在北美以每年超过30%的增速，成为增长最快的运动之一；板式网球在欧洲的球场数量过去五年翻了近三倍；而网球本身仍是全球参与人数最高的球拍类运动。</strong></p>\n  <p>这三项运动在规则与场地上的相似性，决定了它们的初学人群存在大量重叠。</p>\n  <p>Aura的解决方案是，设备本身兼容三种球，用户按需解锁。“你不必在购买设备之前就做出决定。先用网球入门，哪天想试试匹克球了，在App里支付对应的订阅费用就能解锁。对用户而言，用一次日常体验课相当的花销，就能去尝试自己对另一项运动的兴趣。”张海波说。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260715/v2_1e6063ee328a415fa404dd9a197446f6@6022551_oswg6817991oswg4000oswg2667_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">多运动合一智能体育AI教练机器人Aura（图源/企业）</p>\n  <p>上线结果也印证了他的判断。张海波告诉硬氪，下单用户中，基本全部用户选择了带AI教练功能的版本，选择多运动合一的用户占比也超过一半。</p>\n  <p>这其实是消费心理里一种典型的“价值感知”逻辑：多合一功能未必被高频使用，但它的存在本身放大了用户对产品性价比的判断，降低了首次购买的决策门槛。</p>\n  <p>“它是一个信号，多合一功能意味着用一台设备的成本，享有多种运动的服务，性价比优势不言而喻。”张海波补充道。“用户希望拥有这个可能性，哪怕当下用不上。”</p>\n  <p>而从商业化角度看，对于创业公司来说，多合一功能也是个更具性价比的选择。</p>\n  <p>Aura的策略是把核心机械平台做通用，只在轮组调节和算法参数层面做差异化适配。用单个SKU覆盖网球、匹克球、板式网球等多个品类，供应链物料复用程度更高、生产效率和成本管控更优；而它触达的用户群体，从单一运动人群扩展到了三个重叠度极高的运动人群。</p>\n  <p>标准化设备是硬件入口，真正的价值锚点也进一步向软件定义的运动体验渗透。庞伯特用户可以选择购买单运动版本，后续想解锁匹克球或板式网球，通过App内按月或按年付费即可。</p>\n  <p>这种“硬件平价、软件增值”的模式过去在消费电子领域已被验证，但在智能化AI运动硬件行业仍属少数。它更深层意图的意图在于，先用一套硬件和一套数据系统把用户留在自己的生态里。</p>\n  <p>“用户今天用Aura学网球，数据积累在庞伯特的系统里；三个月后想试试匹克球，不需要再买一台机器，只需在软件端完成一次付费解锁。设备没换，用户没流失，数据还在持续生长。”张海波说。</p>\n  <p>用户想要的不是功能堆叠，而是一个能在动态训练中持续陪伴、实时反馈的“真实存在”。它是一种更具体的需求。庞伯特试图在构建一个越用越聪明的AI教练网络，真正将“数据×算法×硬件×场景”融合并落地为消费级产品。</p>\n  <p>硬件是入口，用户是资产，数据是壁垒，三者闭环一旦形成，对庞伯特而言，真正的护城河就不再是那一台设备，而是一套持续进化的训练系统。Aura要做的，是实时指导的教练，多合一的运动，它从硬件层面重新思考了“一台设备到底能覆盖多少场景”，又用软件和数据把不同场景串联起来，形成一个可扩展的体系。当用户用得越久，系统就越懂TA。</p>\n  <p>这个思路未必是唯一的答案，但它提供了一个被讨论样本：在运动器材这个行业里，让初学者能实现低成本的跨运动切换——并在尝试的过程中，让系统记下每一次挥拍。</p>",
+      "published": "2026-07-16T09:30:00+08:00",
+      "fetched_at": "2026-07-16T10:46:49.818339+08:00",
+      "pre_filter_reason": "AI体育硬件产品",
       "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 9,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "全球首个智能体原生操作系统Step AOS：如何重新定义人机交互？",
-          "angle": "用案例演示Step AOS如何让AI主动理解用户意图并执行任务，对比传统操作系统的被动响应模式。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "从模型到终端：阶跃星辰的AI生态布局全解析",
-          "angle": "梳理阶跃星辰在模型、系统、终端三端的战略布局，分析其打造闭环生态的意图与挑战。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "e4777b33ff19",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "NVIDIA Ising Decoding Cuts Color Code Logical Error Rates by Over 300X",
-      "link": "https://developer.nvidia.com/blog/nvidia-ising-decoding-cuts-color-code-logical-error-rates-by-over-300x/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image1-5-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image1\" width=\"768\" />Useful quantum computers will require fault tolerant logical operations. Researchers are actively exploring many different quantum error correction (QEC) codes...",
-      "published": "2026-07-14T03:00:00+08:00",
-      "fetched_at": "2026-07-15T10:39:43.577116+08:00",
-      "pre_filter_reason": "AI for quantum error correction",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 7,
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 9,
         "scarcity": 8,
         "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.5,
+      "quality_score": 7.6,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "NVIDIA Ising解码如何将量子纠错错误率降低300倍？",
-          "angle": "用类比和图示解释量子纠错中的颜色码问题，以及NVIDIA Ising解码的核心原理和突破意义。",
-          "difficulty": "中级"
+          "title": "AI教练机器人Aura：多合一运动训练指南",
+          "angle": "演示Aura如何从网球发球机升级为多运动教练，展示其核心功能和使用场景，帮助用户快速上手",
+          "difficulty": "入门"
         },
         {
           "tag": "analysis",
-          "title": "量子计算实用化的关键一步：NVIDIA解码技术为何重要？",
-          "angle": "分析逻辑错误率降低300倍对容错量子计算的意义，以及NVIDIA在量子计算领域的战略布局。",
+          "title": "明星AI硬件公司庞伯特：从爆款到多合一，如何应对赛道竞争？",
+          "angle": "分析庞伯特的产品策略和市场挑战，探讨AI体育硬件公司如何在激烈竞争中保持增长",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "76424aba08ae",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "人在Meta，休个病假/产假转身被AI裁了？？",
+      "link": "https://www.qbitai.com/2026/07/450709.html",
+      "summary": "26名员工正在集体起诉Meta",
+      "published": "2026-07-15T17:03:58+08:00",
+      "fetched_at": "2026-07-16T10:47:02.649609+08:00",
+      "pre_filter_reason": "Meta使用AI裁员",
+      "scores": {
+        "importance": 6,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "AI裁员风险：如何保护你的工作权益？",
+          "angle": "结合Meta案例，讲解员工如何应对AI驱动的裁员，包括保留证据、了解法律途径等实用技巧",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "AI裁员的伦理困境：Meta病假产假被裁事件深度解读",
+          "angle": "探讨AI在人力资源管理中的滥用风险，分析企业责任和员工权益保护的缺失",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "554fd7ec8047",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "又快又聪明，阿里发布 Qwen-Audio-3.0-Realtime：实时语音大模型四项功能升级",
+      "link": "https://www.leiphone.com/category/industrynews/Yg2RqalAz09LS6WJ.html",
+      "summary": "<p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260715/6a56fce820bda.png?imageView2/2/w/740\" /></p><p>7月15日，阿里巴巴发布实时语音交互对话模型Qwen-Audio-3.0-Realtime，在智商、Agent 工具调用、共情对话和双工交互流畅度四条主线上同步升级，力求“又快又聪明”。模型包括推理更强的Plus 版本和速度更快的Flash 版本，适用于智能客服、教育培训、娱乐互动与情感陪伴等场景。今年5月，模型的Preview版本曾在全球权威第三方评测平台Artificial Analysis榜单斩获了两项冠军，超越GPT-Realtime-2。</p><p>为压低时延，实时语音模型往往牺牲推理深度，智商衰减。Qwen-Audio-3.0-Realtime针对日常对话、简单问答等对时延敏感的场景，可直接生成回复，毫秒级响应。在考验“AI会不会答”的语音问答基准 VoiceBench 上，以书面化的标准 prompt和口语化的prompt提问，Plus版本得分分别为92.5和90.5，仅下降 2.0——意味着模型能扛住真人说话的随意性。在更难的多轮音频对话挑战AudioMultiChallenge 基准测试中，Flash版本标准和口语化prompt得分分别为 43.6和38.1，仅下降5.5。今年5月，模型的Preview 版本Fun-Realtime-Audiochat在“语音推理能力”指标上曾以 97.6% 登顶Artificial Analysis。</p><p>文本大模型的Agent能力已相当成熟，但语音模型往往是“能聊天不能办事”，模型要边听边判断何时该调工具，往往需要用户明显说出“帮我打开 XX&quot;”才能触发工具，且切回闲聊后，容易出现上下文断裂。Qwen-Audio-3.0-Realtime无需明确的指令，即可自行调用外部工具，调用结果还会自动融入对话记忆，一次调用的结果会被记住，后面几轮追问都能接着用。例如用户先问“附近有什么川菜馆”，再追问“评分 4.5 以上的哪家最近”，模型会自动衔接地图工具的上一次返回结果继续检索。模型基于 FunctionCall 标准协议，可以完成 MCP、API、知识库的引入。</p><p>共情对话是本版本最能改变用户主观体验的部分。Qwen-Audio-3.0-Realtime 摆脱了传统语音助手的机械感，可根据对话语境动态调整语气、节奏、音调与情感，比如在辩论场景中，模型能准确抓取对方论点并快速组织反驳，并保持恰当的语气强度。在情感陪伴中，则通过语调、节奏与笑声、叹息、犹豫等副语言信号进行共情回应。在专门考“AI 说得像不像人”的 S2S 语音指令遵循公开基准 VStyle 上，模型取得 SOTA 成绩。</p><p>双工交互流畅度意为即模型能边说边听，像真人一样随时打断、插话，而非一问一答的对讲机模式。Qwen-Audio-3.0-Realtime内置“多模态感知的双工控制”子模型，通过分析音频信号、语义内容与说话人声纹特征，来判断如何交谈。比如在餐厅、开放工区等嘈杂环境中，它不会被背景噪声误打断；在多人讨论中能锁定主对话对象、忽略旁听者交谈；在多说话人切换时，则能根据语义线索自然过渡。因此，今年5月，模型的Preview 版本在对话流畅度指标上曾以 97.6% 登顶Artificial Analysis。此外，模型的API还预留了 audio_prompt 字段，用户可上传提前录制的音频样本，锁定声纹，聚焦特定的说话人。</p><p>上述能力的提升源于模型采用的 On-Policy Distillation（在线策略蒸馏）框架。研究团队将文本大模型的完整推理能力蒸馏至语音模型——语音模型一边自己生成回答、一边由文本大模型实时纠正。同时引入多教师蒸馏策略：口语多轮偏好教师保障口语化表达与指令遵循，通用教师负责基础问答与推理，Agentic 教师锁定工具调用与复杂任务，音频理解教师处理副语言与音频语义信息，确保模型在四条主线上均不偏科。</p><p>&nbsp;</p><p><br /></p>",
+      "published": "2026-07-15T11:25:00+08:00",
+      "fetched_at": "2026-07-16T10:46:59.476164+08:00",
+      "pre_filter_reason": "AI语音大模型发布",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Qwen-Audio-3.0-Realtime上手：实时语音交互四大升级详解",
+          "angle": "分步演示新模型的智商提升、工具调用、共情对话和双工交互功能，展示实际应用场景",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "阿里实时语音模型升级：智能客服和情感陪伴的新可能",
+          "angle": "分析Qwen-Audio-3.0-Realtime的技术亮点和行业影响，探讨其在教育、娱乐等领域的落地前景",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "d11cc7eb99f9",
+      "source_id": "apple-ml",
+      "source_name": "Apple ML Research",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "One Layer Is Enough: Adapting Pretrained Visual Encoders for Image Generation",
+      "link": "https://machinelearning.apple.com/research/adapting-pretrained-visual-encoders",
+      "summary": "Visual generative models (e.g., diffusion models) typically operate in compressed latent spaces to balance training efficiency and sample quality. In parallel, there has been growing interest in leveraging high-quality pre-trained visual representations—either by aligning them inside VAEs or directly within the generative model. However, adapting such representations remains challenging due to fundamental mismatches between understanding-oriented features and generation-friendly latent spaces. Representation encoders benefit from high-dimensional latents that capture diverse hypotheses for…",
+      "published": "2026-07-15T08:00:00+08:00",
+      "fetched_at": "2026-07-16T10:46:48.150386+08:00",
+      "pre_filter_reason": "Paper on adapting visual encoders for image generation is AI research.",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 6,
+        "scarcity": 8,
+        "virality": 5,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "One Layer Is Enough：如何用单层适配预训练视觉编码器进行图像生成",
+          "angle": "以简洁步骤解释论文核心方法，展示如何高效利用预训练模型进行图像生成，适合研究者快速理解",
+          "difficulty": "高级"
+        },
+        {
+          "tag": "analysis",
+          "title": "单层适配革命：预训练视觉编码器在图像生成中的新突破",
+          "angle": "解读论文的创新点和潜在影响，对比传统方法，探讨其对生成模型效率的提升意义",
           "difficulty": "高级"
         }
       ]
     },
     {
-      "id": "ac52be0ed7d5",
-      "source_id": "github-ai-repos",
-      "source_name": "GitHub AI 新项目",
+      "id": "4e88506a4ae1",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "search",
+      "title": "Apple智能等7款手机端侧AI完成备案：阿里千问接入国行iPhone - 电子工程专辑",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE50QlBPc25RTEx4WEp5azRFUjV4bjVfU1poNzQ1bkowZjRwRXdxcmpndVMtTVgyV3VQTTdEbFBkTmQ4WXB6dEVNTzJzcUxSTVdEZWNCX0pLUEdlbFMy?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE50QlBPc25RTEx4WEp5azRFUjV4bjVfU1poNzQ1bkowZjRwRXdxcmpndVMtTVgyV3VQTTdEbFBkTmQ4WXB6dEVNTzJzcUxSTVdEZWNCX0pLUEdlbFMy?oc=5\" target=\"_blank\">Apple智能等7款手机端侧AI完成备案：阿里千问接入国行iPhone</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">电子工程专辑</font>",
+      "published": "2026-07-16T10:37:44+08:00",
+      "fetched_at": "2026-07-16T10:47:16.196851+08:00",
+      "pre_filter_reason": "Apple Intelligence and on-device AI",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Apple智能+阿里千问：国行iPhone端侧AI备案后如何启用？",
+          "angle": "指导用户如何在国行iPhone上使用已备案的端侧AI功能，包括设置步骤和实用技巧",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "7款手机端侧AI完成备案：阿里千问入局国行iPhone意味着什么？",
+          "angle": "分析端侧AI备案对国内手机生态的影响，探讨阿里千问与苹果合作的市场战略",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "734ea971bc08",
+      "source_id": "ifanr",
+      "source_name": "爱范儿",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "早报｜国行苹果AI要来了，将搭载千问模型/曝DeepSeek计划明年上市/Codex首款硬件发布",
+      "link": "https://www.ifanr.com/1672097?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· ChatGPT 服务中断约 45 分钟，登录、聊天等功能受影响\n· 京东与元宝打通购物服务，商品咨询后可直接跳转下单\n· 上海开出脑机接口首张处方，获批产品完成首例植入手术<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
+      "published": "2026-07-16T08:49:18+08:00",
+      "fetched_at": "2026-07-16T10:47:05.538394+08:00",
+      "pre_filter_reason": "国行苹果AI、DeepSeek、AI模型",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "国行苹果AI来了！手把手教你如何用千问模型玩转新功能",
+          "angle": "以国行苹果AI即将搭载千问模型为切入点，制作一个入门级教程视频，展示用户如何在iPhone上开启和使用这些AI功能，例如智能写作、图像生成等，并对比与现有模型的差异。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "京东+元宝购物新体验：如何一句话下单？",
+          "summary": "以京东与元宝打通购物服务为亮点，制作一个简短教程，演示用户如何通过元宝咨询商品后直接跳转京东下单，突出便捷性和效率提升。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "5927c401eb7c",
+      "source_id": "reddit-ml",
+      "source_name": "Reddit r/MachineLearning",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "KevRojo/Dulus",
-      "link": "https://github.com/KevRojo/Dulus",
-      "summary": "Use Web AI as an agent without an API key. $0 | litellm , local models via Ollama, /lang in 34 languages, Mesa Redonda, voice, OCR, MemPalace, embedded sandbox OS. (The Hermes Killer)",
-      "published": "2026-07-15T10:40:12.322203+08:00",
-      "fetched_at": "2026-07-15T10:40:12.322205+08:00",
-      "pre_filter_reason": "Uses Web AI as an agent with local models.",
+      "title": "NeurIPS reviews coming in soon! [D]",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1ux8p0a/neurips_reviews_coming_in_soon_d/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>So, from what I've seen across twitter(x) and reddit, I've inferred that we'll be seeing NeurIPS reviews drop on July 22nd 5:30 pm AoE(Anywhere on earth), what's your thoughts to those who've submitted to NeurIPS 2026 ? Would love to hear your opinion by the reviewers, the people who've submitted to the workshops (who should've already gotten their decisions too by now I think) and to the main tracks and other available tracks. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Practical-Buddy6323\"> /u/Practical-Buddy6323 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ux8p0a/neurips_reviews_coming_in_soon_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ux8p0a/neurips_reviews_coming_in_soon_d/\">[comments]</a></span>",
+      "published": "2026-07-15T23:13:26+08:00",
+      "fetched_at": "2026-07-16T10:47:20.395920+08:00",
+      "pre_filter_reason": "Mentions NeurIPS, a top AI/ML conference, and review process.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "NeurIPS 2026审稿倒计时：如何准备你的论文回复？",
+          "angle": "针对NeurIPS审稿即将发布，制作一个教程视频，指导研究者如何高效阅读审稿意见、撰写回复信并修改论文，重点包括常见问题的应对策略和时间管理技巧。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "c86364c0fae8",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "不是吧OpenAI首款硬件吹半天就是个AI音箱？？",
+      "link": "https://www.qbitai.com/2026/07/450385.html",
+      "summary": "难怪苹果急眼了",
+      "published": "2026-07-15T12:46:18+08:00",
+      "fetched_at": "2026-07-16T10:47:02.649673+08:00",
+      "pre_filter_reason": "OpenAI hardware product, AI-related",
+      "scores": {
+        "importance": 6,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "OpenAI首款硬件竟是AI音箱？深度解析其功能与竞品对比",
+          "angle": "以OpenAI发布AI音箱为话题，制作一个对比评测视频，分析其核心功能（如语音交互、智能家居控制）与苹果HomePod、亚马逊Echo等产品的差异，并探讨苹果为何“急眼”。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "39e4038014d2",
+      "source_id": "apple-ml",
+      "source_name": "Apple ML Research",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Uncertainty Quantification for LLM Function-Calling",
+      "link": "https://machinelearning.apple.com/research/uncertainty-quantification-function-calling",
+      "summary": "Large Language Models (LLMs) are increasingly deployed to autonomously solve real-world tasks. A key ingredient for this is the LLM Function-Calling paradigm, a widely used approach for equipping LLMs with tool-use capabilities. However, an LLM calling functions incorrectly can have severe implications, especially when their effects are irreversible, e.g., transferring money or deleting data. Hence, it is of paramount importance to consider the LLM’s confidence that a function call solves the task correctly prior to executing it. Uncertainty Quantification (UQ) methods can be used to quantify…",
+      "published": "2026-07-15T08:00:00+08:00",
+      "fetched_at": "2026-07-16T10:46:48.150429+08:00",
+      "pre_filter_reason": "Paper on uncertainty quantification for LLM function-calling is AI research.",
       "scores": {
         "importance": 7,
+        "timeliness": 6,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 5,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "LLM函数调用不可靠？教你用不确定性量化提升准确性",
+          "angle": "针对LLM函数调用中的不确定性，制作一个技术教程，介绍如何应用不确定性量化方法（如贝叶斯推断、置信度评分）来减少错误调用，并附上代码示例和实际应用场景。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "2e8643a990d6",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "纽约州试点引入“机器人老师”：课程内容可控、保护隐私、不“说谎”",
+      "link": "https://www.ithome.com/0/977/321.htm",
+      "summary": "<p>IT之家 7 月 16 日消息，据外媒 Gadget Review 今天（16 日）报道，今年秋季，由 Realbotix 提供的人形机器人 Sally 将来到美国纽约州西部公立的萨拉曼卡市中央学区担任“助教”。Sally 拥有硅胶皮肤和棕色长发，外形高度逼真，<strong>职责是协助教师，而不是取代教师</strong>。</p><p>萨拉曼卡市中央学区与 Realbotix 公布的方案强调<strong>课程内容可控、学生隐私受到保护</strong>，并允许学生随时获得辅导。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/421e0319-0285-4d9b-af83-5cf03a496e1f.png?x-bce-process=image/format,f_auto\" /></p><p>据IT之家了解，Sally 采用 Realbotix M-Series 平台，保持固定坐姿，训练材料仅限萨拉曼卡市中央学区课程，不接触开放互联网。整套系统<strong>运行在封闭网络中</strong>，不连接公共互联网，无法获取能够识别学生身份的个人信息。</p><p>每名学生通过专属识别码登录，Sally 能够延续之前的对话，并按照学生过去的学习表现调整辅导内容；学生还可通过笔记本电脑使用配套 AI 虚拟助手 Optio，全天 24 小时获得<strong>作业辅导、课程生成和 100 多种语言的翻译服务</strong>。</p><p>此外，为降低 AI 编造答案的风险，Sally 会在无法回答时<strong>明确说“我不知道”</strong>；一旦学生提到自残，系统会自动向管理人员发出警报。</p><p>Sally 最初将进入高中 AI 与机器人课程，教学内容以苹果联合创始人史蒂夫 · 沃兹尼亚克开发的课程体系为基础，预计到 9 月服务约 500 名学生。</p><p>目前，纽约市已经暂停采购教育科技产品，纽约州教师工会也要求对 AI 设置严格限制，萨拉曼卡市中央学区却朝着相反方向迈进。至于到今年秋季，学生是否愿意信任 Sally、教师是否认为 Sally 真正有用，以及学生数据能否始终封闭保存，都有待实际检验。</p>",
+      "published": "2026-07-16T09:59:40+08:00",
+      "fetched_at": "2026-07-16T10:47:07.129465+08:00",
+      "pre_filter_reason": "机器人老师用于教育，涉及AI",
+      "scores": {
+        "importance": 6,
         "timeliness": 8,
         "actionability": 8,
-        "scarcity": 8,
-        "virality": 7,
+        "scarcity": 7,
+        "virality": 9,
         "crowd_heat": 0.0
       },
       "quality_score": 7.4,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "零成本使用Web AI智能体：Dulus项目快速上手",
-          "angle": "演示如何无需API密钥，通过Dulus调用本地模型、多语言支持、OCR等功能，打造个人AI助手。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "开源AI智能体Dulus能否成为“Hermes杀手”？",
-          "angle": "对比Dulus与Hermes等主流AI代理方案的功能、成本与易用性，分析其创新点与潜在影响。",
+          "title": "纽约州引入“机器人老师”：如何设计隐私保护与课程可控的AI助教？",
+          "angle": "以纽约州试点机器人老师为案例，制作一个教程视频，讲解如何设计和部署AI助教系统，重点包括课程内容过滤、学生隐私保护措施以及避免AI“说谎”的技术实现。",
           "difficulty": "中级"
         }
       ]
