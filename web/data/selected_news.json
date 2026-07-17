@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-07-16T10:48:25.204864+08:00",
+  "updated_at": "2026-07-17T10:50:48.607293+08:00",
   "total": 20,
   "items": [
     {
-      "id": "c4a8a3b382e5",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
+      "id": "1ae408b8f967",
+      "source_id": "huggingface-blog",
+      "source_name": "Hugging Face Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
-      "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
-      "published": "2026-07-15T18:00:00+08:00",
-      "fetched_at": "2026-07-16T10:46:46.423189+08:00",
-      "pre_filter_reason": "GPT-Red是OpenAI的AI安全系统，涉及AI研究和安全",
+      "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+      "summary": "",
+      "published": "2026-07-17T00:01:21+08:00",
+      "fetched_at": "2026-07-17T10:49:24.331756+08:00",
+      "pre_filter_reason": "NVIDIA AI embedding model ranking.",
       "scores": {
         "importance": 8,
         "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
+        "actionability": 7,
+        "scarcity": 8,
         "virality": 7,
         "crowd_heat": 0.0
       },
@@ -27,252 +27,339 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "GPT-Red 如何用“左右互搏”提升AI安全性？",
-          "angle": "以 GPT-Red 为例，讲解自我对抗式红队测试的原理、步骤，以及它对防止提示注入攻击的实际效果。",
+          "title": "NVIDIA Nemotron-3 嵌入模型登顶RTEB：如何提升智能检索性能",
+          "angle": "解析Nemotron-3在RTEB排行榜上排名第一的技术优势，并演示如何将其应用于智能体检索场景，提升搜索结果的相关性。",
           "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "手把手教你搭建一个简易的AI红队测试流程",
-          "angle": "从 GPT-Red 的设计思路出发，教开发者如何用少量代码模拟自动化红队测试，提升自己模型的鲁棒性。",
-          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "8e96ec9b00c1",
+      "id": "d2a52ee98c19",
       "source_id": "openai-blog",
       "source_name": "OpenAI Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "The US is advancing AI safety through state and federal action",
-      "link": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
-      "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
-      "published": "2026-07-15T20:00:00+08:00",
-      "fetched_at": "2026-07-16T10:46:46.423137+08:00",
-      "pre_filter_reason": "AI safety policy",
+      "title": "Why teens deserve access to safe AI",
+      "link": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+      "published": "2026-07-17T00:00:00+08:00",
+      "fetched_at": "2026-07-17T10:49:21.981782+08:00",
+      "pre_filter_reason": "OpenAI making ChatGPT safer for teens.",
       "scores": {
         "importance": 7,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 6,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "OpenAI如何为青少年打造安全AI：家长控制与学习工具详解",
+          "angle": "介绍OpenAI为ChatGPT新增的青少年安全保护措施，包括年龄限制、家长监控和学习辅助功能，帮助家长和教育者理解如何安全使用AI。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "67835ae2c62e",
+      "source_id": "deepmind-blog",
+      "source_name": "Google DeepMind",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Our approach to bioresilience",
+      "link": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+      "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
+      "published": "2026-07-16T17:30:42+08:00",
+      "fetched_at": "2026-07-17T10:49:22.395948+08:00",
+      "pre_filter_reason": "AI models for bioresilience",
+      "scores": {
+        "importance": 8,
         "timeliness": 7,
-        "actionability": 8,
+        "actionability": 7,
+        "scarcity": 8,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.3,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Google DeepMind的生物韧性策略：AI模型如何应对生物安全挑战",
+          "angle": "解读DeepMind与Isomorphic Labs联合提出的生物韧性方法，探讨AI在疾病预测、药物研发和生物安全中的关键作用。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "dc54a07fe9af",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Integrating Context-Aware Video AI Agents Into Enterprise Workflows",
+      "link": "https://developer.nvidia.com/blog/integrating-context-aware-video-ai-agents-into-enterprise-workflows/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/nvidia-metropolis-nemoclaw-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"nvidia-metropolis-nemoclaw\" width=\"768\" />A video analytics AI agent that can perceive, reason, and act based on massive amounts of video footage must be integrated with existing workflows and...",
+      "published": "2026-07-17T00:03:35+08:00",
+      "fetched_at": "2026-07-17T10:49:24.060140+08:00",
+      "pre_filter_reason": "Context-aware video AI agents.",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.1,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "企业级视频AI智能体集成：从NVIDIA Metropolis看上下文感知工作流",
+          "angle": "展示如何利用NVIDIA Metropolis平台将上下文感知的视频AI智能体嵌入企业工作流，提升视频分析效率和自动化水平。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "81a3f97d3395",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Scaling Agentic AI Factories Through Extreme Co-Design with NVIDIA BlueField",
+      "link": "https://developer.nvidia.com/blog/scaling-agentic-ai-factories-through-extreme-co-design-with-nvidia-bluefield/",
+      "summary": "<img alt=\"Decorative image.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/Bluefield-4-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Bluefield-4\" width=\"768\" />Agentic AI changes the infrastructure pattern for AI factories. One request can trigger many model calls, tool calls, memory lookups, policy checks, storage...",
+      "published": "2026-07-17T00:00:00+08:00",
+      "fetched_at": "2026-07-17T10:49:24.060152+08:00",
+      "pre_filter_reason": "Agentic AI factories and NVIDIA BlueField.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 7,
+        "actionability": 6,
         "scarcity": 7,
         "virality": 6,
         "crowd_heat": 0.0
       },
-      "quality_score": 8.2,
+      "quality_score": 8.1,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "什么是“反向联邦主义”？美国AI监管新思路解读",
-          "angle": "用通俗语言解释 OpenAI 提出的“州法先行、联邦兜底”的 AI 治理模式，并对比中美AI监管差异。",
+          "title": "NVIDIA BlueField DPU如何通过极致协同设计扩展智能体AI工厂",
+          "angle": "解释NVIDIA BlueField DPU在智能体AI工厂中的角色，通过硬件与软件协同设计优化数据中心基础设施，实现规模化AI部署。",
           "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "AI企业如何应对美国各州不同的安全法规？",
-          "angle": "从企业合规角度，分析美国州级AI法案（如科罗拉多、康涅狄格）的要点，并提供应对策略。",
-          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "131c3b8b46a4",
-      "source_id": "huggingface-blog",
-      "source_name": "Hugging Face Blog",
+      "id": "b42467f89549",
+      "source_id": "apple-ml",
+      "source_name": "Apple ML Research",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "What building Shippy taught us about building agents",
-      "link": "https://huggingface.co/blog/allenai/shippy-tech-blog",
-      "summary": "",
-      "published": "2026-07-16T01:29:41+08:00",
-      "fetched_at": "2026-07-16T10:46:48.094073+08:00",
-      "pre_filter_reason": "Building agents implies AI agents",
+      "title": "Embarrassingly Simple Self-Distillation Improves Code Generation",
+      "link": "https://machinelearning.apple.com/research/simple-self-distillation",
+      "summary": "Can a large language model (LLM) improve at code generation using only its own raw outputs, without a verifier, a teacher model, or reinforcement learning? We answer in the affirmative with simple self-distillation (SSD): sample solutions from the model with certain temperature and truncation configurations, then fine-tune on those samples with standard supervised fine-tuning. SSD improves Qwen3-30B-Instruct from 42.4% to 55.3% pass@1 on LiveCodeBench v6, with gains concentrating on harder problems, and it generalizes across Qwen and Llama models at 4B, 8B, and 30B scale, including both…",
+      "published": "2026-07-16T08:00:00+08:00",
+      "fetched_at": "2026-07-17T10:49:24.490891+08:00",
+      "pre_filter_reason": "Self-distillation for LLM code generation",
       "scores": {
-        "importance": 6,
-        "timeliness": 7,
+        "importance": 7,
+        "timeliness": 8,
         "actionability": 8,
-        "scarcity": 7,
-        "virality": 5,
+        "scarcity": 8,
+        "virality": 7,
         "crowd_heat": 0.0
       },
-      "quality_score": 8.0,
+      "quality_score": 8.1,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "从“Shippy”项目学到的智能体构建三大教训",
-          "angle": "复盘 Shippy 项目中的关键决策点，总结构建可靠AI Agent 的常见陷阱与最佳实践。",
-          "difficulty": "中级"
+          "title": "不用老师、不用强化学习：用自己生成的代码就能自我提升？",
+          "angle": "手把手拆解“简单自蒸馏（SSD）”的技术原理，展示如何通过调整采样温度和截断配置，让模型利用自身输出迭代优化代码生成能力。",
+          "difficulty": "入门"
         },
         {
           "tag": "tutorial",
-          "title": "如何设计一个不会“跑偏”的AI Agent？",
-          "angle": "结合 Shippy 的经验，讲解 Agent 的规划、工具调用、错误恢复等核心模块的设计思路。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "c7c73642efb1",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "独家｜面壁智能端侧大模型将搭载三星手机上市",
-      "link": "https://36kr.com/p/3896830362601351?f=rss",
-      "summary": "<p><strong>文｜邓咏仪</strong></p>\n  <p><strong>编辑｜张雨忻 杨轩</strong></p>\n  <p>《智能涌现》独家获悉，端侧大模型公司面壁智能已与三星手机达成合作，其自主研发的MiniCPM系列端侧模型将搭载于三星手机上市，覆盖数款旗舰机型。</p>\n  <p>就在同一日，网信部门发布公告，包括“Apple智能”等7款提供手机端侧生成式人工智能服务完成备案。</p>\n  <p>公告显示，Apple智能、华为小艺AI大模型、OPPO Andes GPT、vivo蓝心端侧大模型、小米澎湃AI、三星盖乐世AI以及努比亚豆包手机大模型共7款服务完成备案。</p>\n  <p>大模型浪潮来临后，端侧AI一直处于技术探索和萌芽期。此次七款手机端侧AI同日获批，是业界的重要里程碑——端侧AI不再是概念演示，进入了规模化落地阶段。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260715/v2_c47f286e2748467fbc532dd4448e4721@2057308263_oswg372385oswg1080oswg1007_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">△来源：网信中国</p>\n  <p>同日，阿里巴巴向媒体确认，阿里千问将作为AI能力集成至Apple智能，覆盖iOS、iPadOS、macOS和visionOS的国行设备，用户无需切换App即可在苹果设备上体验千问的文本与图像理解、内容生成等能力。此后，阿里股价应声上涨超过5%。</p>\n  <p>此前，国内手机厂商的端侧AI能力大多由自研模型支撑——华为有小艺、OPPO有AndesGPT、vivo有蓝心、小米有澎湃AI。而如今，阿里千问落地Apple智能、面壁智能搭载三星手机，这说明了AI模型公司正在成为手机AI能力的重要供给方——手机厂商不必事事自研，端侧模型的市场化分工正在形成。</p>\n  <h2><strong>最早押注端侧AI的初创公司</strong></h2>\n  <p>面壁智能2022年8月在北京成立，孵化自清华大学自然语言处理实验室。联合创始人、CEO李大海曾任知乎合伙人、CTO；联合创始人、首席科学家刘知远现任清华大学计算机系教授；联合创始人、CTO曾国洋在22岁时作为核心工程负责人，训练了中国第一个大语言模型CPM-1。</p>\n  <p><strong>据投资界报道，2026年上半年，面壁智能累计融资超50亿元，估值突破200亿元，成为国内端侧AI领域估值最高的独角兽。</strong></p>\n  <p>面壁智能也是国内最早押注端侧AI的初创公司。2023年下半年，当行业还在追赶云端大模型参数规模时，面壁智能决定全力押注端侧。这个选择在当时并不主流——做大模型的公司都在卷参数、卷算力，端侧模型被视为“做小”的边缘路线。</p>\n  <p>面壁智能的判断基于一个核心方法论：知识密度。2024年，面壁智能与清华大学团队提出“大模型密度定律”（Densing Law），认为开源大模型的最高能力密度约每3.5个月翻一番，同等智能所需的参数规模呈指数级下降。</p>\n  <p>这个判断在后续的模型发布中被逐步验证。2026年5月，面壁联合清华大学、OpenBMB开源的新一代端侧文本基座模型MiniCPM5-1B，参数量仅10亿，在Artificial Analysis Intelligence Index中获得17.9分，超过多款参数规模更大的开源基座模型；另一款MiniCPM-V 4.6仅1.3B参数、6GB内存即可在手机上流畅运行，支持iOS、Android、HarmonyOS等主流操作系统。</p>\n  <p>目前，MiniCPM系列开源模型在GitHub、Hugging Face等平台的累计下载量已突破3800万次。</p>\n  <p>在近期36氪对曾国洋的专访中，他解释了端侧模型的底层逻辑：“端侧是硬限制——如果模型太大，跑不动就是跑不动，补贴钱没用；功耗太高会发热，你不可能补贴一个冰块。”在他看来，做端侧模型的难度并不亚于做大：“做高效是非常难的，不是越大越简单。”</p>\n  <p>端侧模型的落地不只是把模型做高效，还要打通算法、芯片适配、功耗优化、终端部署的全链路。</p>\n  <p>面壁智能已完成对高通、联发科、英特尔、瑞芯微、英伟达、AMD等主流芯片平台的全面适配。在国产芯片方面，面壁智能参与了华为昇腾、寒武纪等国产芯片的软件栈构建，发布了全国首个三值量化大模型BitCPM-CANN，推理阶段可节省约6倍显存。</p>\n  <p>面壁智能也已建立多样化的端侧模型矩阵。比如，最新发布的MiniCPM-o4.5是一个全双工全模态大模型，以9B参数量，就是实现语音、视频、文本的全模态同步交互。</p>\n  <p>端侧模型要在手机上跑起来，得要解决功耗、散热、内存占用、响应延迟，每一个环节都不可缺少。“端侧模型不单看评测效果，还有响应时间、硬件成本，它很难从单一维度胜出。”曾国洋在专访中表示。</p>\n  <p>在汽车端，面壁智能已初步验证了规模化落地能力。其自研端侧智能体SuperMate到2026年底预计将交付超30万台量产车，覆盖吉利、上汽大众、广汽、马自达等品牌，跑通了模型适配、硬件兼容、供应链、终端交付的全链路。</p>\n  <p>三星是全球出货量最大的安卓手机厂商之一，其端侧AI能力此前主要依赖自研的Galaxy AI和与谷歌的合作。据韩媒报道，三星正与谷歌深度合作，将Gemini整合进其设备生态，包括即将于7月22日在伦敦发布的Galaxy Unpacked 2026系列产品。面壁智能的端侧模型在三星体系中具体承担怎样的角色，仍有待进一步确认。</p>\n  <p><strong>封面来源｜AI生成</strong></p>\n  <p>&nbsp;</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260715/v2_6c2c24f65f7247228a1cf662b54d7799@2057308263_oswg66520oswg900oswg500_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">👇🏻&nbsp; 扫码加入「智涌AI交流群」👇🏻</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260715/v2_a87ba363e0ae48e8b74b4237d5a60ffb@2057308263_oswg53751oswg900oswg335_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">欢迎交流</p>\n  <p>本文来自微信公众号<a href=\"https://mp.weixin.qq.com/s?__biz=MzkwMDQ2NDU2Nw==&amp;tempkey=MTM4M19NajZ4NE1neEpiSUhkeU5nMHNmaTk0OERudm5mTHVwNkhjWVI4VnU4Q3BPbzRuS1Myb3RVaXhTU1hVVjZLbkdWNlBRa1E2NUJHcURMY2lHakZ4cW5hQWJOb09wWFNJNzNMblZNOFpKai1lZEYwU1VOeXNlT01jU3NXRjF4REI5SlJCLVFVSVM4d19DVEFXUkl2UnFVTVcyVjZ2akw1U0JhTnBFZk9Rfn4%3D&amp;chksm=418c08c8dab2d6d4008851f34c8852d39ffeb8e16fcac54d22dabe3f4f134b793a56e9d15447&amp;mpshare=1&amp;scene=1&amp;srcid=0715K3lJ8yumyj4T8mEqfzeR&amp;sharer_shareinfo=0fadfb1222bcf2b203f4d9eda85bcb48&amp;sharer_shareinfo_first=0fadfb1222bcf2b203f4d9eda85bcb48#wechat_redirect\" rel=\"noopener noreferrer\" target=\"_blank\">“智能涌现”</a>，作者：邓咏仪，36氪经授权发布。</p>",
-      "published": "2026-07-15T19:47:14+08:00",
-      "fetched_at": "2026-07-16T10:46:49.818378+08:00",
-      "pre_filter_reason": "AI model partnership with Samsung",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 9,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "端侧大模型如何“塞进”手机？面壁智能与三星合作解析",
-          "angle": "从技术角度解释端侧模型（如 MiniCPM）的量化、蒸馏和部署技巧，以及为什么三星选择它。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "tutorial",
-          "title": "手机AI大模型备案清单出炉，开发者如何合规接入？",
-          "angle": "解读网信办端侧AI备案公告，为App开发者提供接入已备案模型（如Apple智能、华为小艺）的合规路径。",
+          "title": "代码生成新范式：如何用“自蒸馏”让大模型自我进化？",
+          "angle": "对比传统蒸馏与SSD的差异，强调“无需验证器/教师模型”的突破性，并给出可复现的简易实验步骤。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "8393b42402b7",
-      "source_id": "qbitai",
-      "source_name": "量子位",
+      "id": "d76b1eaab354",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
       "source_tier": "T2",
       "source_lang": "zh",
-      "source_category": "media",
-      "title": "估值4800亿，DeepSeek火速开启新一轮融资！最快明年IPO",
-      "link": "https://www.qbitai.com/2026/07/450101.html",
-      "summary": "距首轮估值上涨37%",
-      "published": "2026-07-15T08:54:59+08:00",
-      "fetched_at": "2026-07-16T10:47:02.649697+08:00",
-      "pre_filter_reason": "DeepSeek is an AI model company; news about its financing and IPO is AI-related.",
+      "source_category": "search",
+      "title": "中国企业发布全球最大规模的开源模型Kimi K3 - 新京报",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04YUhVUk50THNRbmhiOUJvMV9ZRFZQS2ZIU1hiUVlxZWhTZFVFMVFWV2EtYlF1SHVmS1hWTldnUWh3cVpHQmc3bXI1M0ZOUE10U2FwaUwxUU9FOHBTZ25CeUlhSFA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE04YUhVUk50THNRbmhiOUJvMV9ZRFZQS2ZIU1hiUVlxZWhTZFVFMVFWV2EtYlF1SHVmS1hWTldnUWh3cVpHQmc3bXI1M0ZOUE10U2FwaUwxUU9FOHBTZ25CeUlhSFA?oc=5\" target=\"_blank\">中国企业发布全球最大规模的开源模型Kimi K3</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新京报</font>",
+      "published": "2026-07-17T07:25:00+08:00",
+      "fetched_at": "2026-07-17T10:49:40.419408+08:00",
+      "pre_filter_reason": "开源模型发布",
       "scores": {
         "importance": 9,
-        "timeliness": 9,
-        "actionability": 9,
+        "timeliness": 8,
+        "actionability": 8,
         "scarcity": 9,
-        "virality": 10,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "DeepSeek估值飙涨37%！AI独角兽的融资逻辑是什么？",
-          "angle": "分析 DeepSeek 从首轮到最新融资的估值增长原因，拆解AI公司如何用技术壁垒吸引资本。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "AI公司IPO前夜：从DeepSeek看如何准备上市材料",
-          "angle": "以 DeepSeek 为例，讲解AI初创企业在冲刺IPO时需关注的财务、合规和技术披露要点。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "4aa052fc80c3",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "8点1氪丨国行苹果AI功能完成备案；三家共享单车上调起步价；知情人曝DeepSeek开始筹备IPO",
-      "link": "https://36kr.com/p/3897553391978371?f=rss",
-      "summary": "<h2><strong>今日热点导览</strong></h2>\n  <p>澳洲将设AI办公室，限制数据中心能源消耗</p>\n  <p>巴菲特宣布8年内清仓伯克希尔股票</p>\n  <p>前高通自动驾驶工程副总裁将加入英伟达自动驾驶团队</p>\n  <p>长鑫科技：上市后仍将保持无实际控制人的控制权架构</p>\n  <p>谷歌参与建设美国最大太阳能项目，总规模达2.5GW</p>\n  <h2><strong>TOP 3大新闻</strong></h2>\n  <p><strong>阿里、百度分别为苹果智能提供AI相关能力支撑</strong></p>\n  <p>36氪获悉，网信办公布7款端侧生成式AI服务备案，苹果“Apple智能”大模型7月8日完成备案。阿里千问将为苹果全系列国行设备提供文本、图像生成AI能力，百度则负责配套AI搜索功能，二者共同完善国内版苹果智能套件与Siri功能。</p>\n  <p><strong>三家共享单车上调起步价，拉长基础骑行时长</strong></p>\n  <p>近期，美团单车、滴滴青桔、哈啰单车相继在北京等多个城市上调计费规则，三大平台不约而同地采取了“提高起步定价、拉长基础骑行时长”的组合策略：起步价从此前的1.5元/30分钟左右，普遍调整为1.88元至1.99元/60分钟。这成为共享单车行业近年来较大范围的一次集体调价。（金融时报）</p>\n  <p><strong>知情人曝DeepSeek已开始筹备IPO，最快可能今年提交申请</strong></p>\n  <p>据彭博社报道，知情人士透露，DeepSeek已开始筹备首次公开募股（IPO），规划在内地上市，最快可能于今年提交申请，并在2027年完成上市。据悉，DeepSeek正与会计师事务所合作，力争在今年12月底前完成财务报告，这是IPO申报的必要步骤。相关讨论仍在进行中，IPO时间安排和融资计划可能有所调整，执行将取决于市场状况及公司业绩。（新浪科技）</p>\n  <h2><strong>AI最前沿</strong></h2>\n  <p><strong>澳洲将设AI办公室，限制数据中心能源消耗</strong></p>\n  <p>澳大利亚总理阿尔巴尼斯星期三（7月15日）说，澳洲政府将设立一个“人工智能办公室”，负责管理人工智能（AI）标准的制定，并会强制规定数据中心须成为能源净生产者，以及限制用水量。这个办公室将在总理公署下设立，以确保各内阁部门采取协同一致的全政府应对模式。相关立法将于明年初提交国会。（财联社）</p>\n  <p><strong>Anthropic、黑石集团等联合推出企业AI服务公司Ode</strong></p>\n  <p>7月15日，Anthropic、黑石集团与Hellman&amp;Friedman联合推出今年早些时候公布的企业AI服务公司Ode with Anthropic（简称“Ode”），现以正式名称和品牌亮相。Ode公司由Chris Taylor担任首席执行官，Eddie Siegel担任首席技术官。除创始合伙人外，投资者联盟还包括高盛、General Atlantic、Leonard Green&amp;Partners、阿波罗全球管理公司、新加坡政府投资公司（GIC）和红杉资本。（界面新闻）</p>\n  <p><strong>机构：预估陪伴型人形机器人2030年产值达11亿美元</strong></p>\n  <p>36氪获悉，根据TrendForce集邦咨询最新机器人产业研究，陪伴型机器人已从早期的养老照护陪伴、疗愈设计，拓展至近年来的真人化互动和情感陪伴，日前中国厂商优必选发布超仿生人形机器人U1，象征此类陪伴型产品正式跨入真人化时代。随着全球人口结构走向老龄化、少子化，且独居人口持续增加，陪伴型人形机器人需求获得快速崛起的“陪伴经济”支撑，预估其产值将于2030年达到11亿美元。</p>\n  <p><strong>Xmax AI发布通用实时交互AI视频模型X2.0</strong></p>\n  <p>36氪获悉，15日，Xmax AI正式发布新一代通用实时交互AI视频模型Xmax X2.0，并同步开放API及产业合作接入。Xmax X2.0实时重渲能力升级，实现了CharX实时换人、ClothX实时换装、VibeX实时换风格等多项功能。交互层面，Xmax X2.0统一交互架构把只懂Prompt的模型升级为能理解摄像头、视频流与手势行为的全能模型。</p>\n  <p><strong>Anthropic计划几周内召开IPO投资者会议</strong></p>\n  <p>据知情人士透露，Anthropic正安排与投资者举行会面，为潜在的大规模IPO做准备。消息人士称，负责此次IPO的承销银行将在未来几周安排投资者与这家Claude聊天机器人开发商会面。此前有报道称，Anthropic最早可能于10月启动IPO。（新浪财经）</p>\n  <h2><strong>大公司/大事件</strong></h2>\n  <p><strong>巴菲特称将捐出1400亿美元股票</strong></p>\n  <p>美国知名投资人沃伦·巴菲特7月14日表示，到2034年底将其剩余的伯克希尔-哈撒韦公司股票，价值超1400亿美元，全部捐赠给慈善机构，而这份捐赠名单中并没有包括盖茨基金会。现年95岁的巴菲特自2006年开始捐赠名下资产，自2006年宣布捐出全部财富的计划以来，已累计捐赠了超过610亿美元（约合人民币4128亿元）。（央视财经）</p>\n  <p><strong>毒理的上游药效行业需求高速增长，实验猴市价涨到20万</strong></p>\n  <p>近期“猴子”刷屏投资圈。据报道，实验猴市价已涨到20万，堪比一台中档车。有业内专业人士表示，猴价是供需决定的，毒理的上游药效行业需求高速增长，可以预计2026—2027年对猴子的需求也是快速增长的。供给端前几年主要靠自产，2026年上半年放开了进口，根据行业专家反馈，应该进口了5000只左右，国内自产应该有3万—3.5万只的能力，2025年用猴子的数量约为3.5万只，按照2025年药效20%—30%的增长简单计算，今年毒理猴子的需求可能也是20%的增长，大概需要4.2万只猴。而最新调研反馈，毒理实验还是处于缺猴子的状态，头部公司项目排期已到明年初。（券商中国）</p>\n  <p><strong>罗技广告称消费者像狗被罚20万，品牌方已经介入处理并发布致歉声明</strong></p>\n  <p>因称消费者会因产品降价像狗一样跑过来，知名鼠标品牌罗技分销商上海百事得电子有限公司被认定广告违法，并于近日被上海市静安区市场监管局罚款20万元。</p>\n  <p>据行政处罚决定书，上海百事得电子有限公司为罗技（中国）科技有限公司的分销商，负责罗技在抖音平台的多个账号运营。经查明，2026年3月25日-3月26日，上海百事得电子有限公司在“罗技”账号发布含有“当我一降价，你还不是像狗一样跑过来”侮辱性内容的降价促销视频广告。</p>\n  <p>7月15日，罗技官方客服向记者表示，品牌方为带给用户不好的体验而致歉，此次为个别店铺账号的违规行为，品牌方已经介入处理并发布致歉声明，客服称将把采访予以转达。（南方都市报）</p>\n  <p><strong>长鑫科技：上市后仍将保持无实际控制人的控制权架构</strong></p>\n  <p>7月15日，长鑫科技科创板上市网上投资者交流会举行。长鑫科技副总裁、董事会秘书袁园在回复投资者提问时表示，公司上市后股权结构将进一步分散，前五大股东持股比例均不超过30%，不存在单一持股比例超过50%的股东；此外，公司已建立由股东会、董事会、各专门委员会和经营管理层组成的现代企业治理结构，董事会由11名成员构成，除4名独立董事外，7名非独立董事实际提名方为：清辉长鑫1席，长鑫集成1席，大基金二期2席，合肥集鑫1席，安徽省投1席，职工董事1席，无任何一名股东通过实际支配表决权能够决定长鑫科技董事会半数以上成员的选任，上市后公司预计仍将保持较为分散的董事会提名结构。因此，长鑫科技上市后仍将保持无实际控制人的控制权架构。（上证报）</p>\n  <p><strong>安踏品牌CEO徐阳将离职</strong></p>\n  <p>7月15日，界面新闻自安踏集团获悉，原安踏品牌CEO徐阳因家庭原因辞任该职，集团已批准并将另有任用。安踏集团执行董事、集团联席CEO赖世贤即日起将代理安踏品牌CEO一职，全面负责品牌日常经营与管理工作。（界面新闻）</p>\n  <p><strong>前高通自动驾驶工程副总裁将加入英伟达自动驾驶团队</strong></p>\n  <p>36氪独家获悉，英伟达自动驾驶团队近期发布内部信称，前高通自动驾驶工程副总裁Dheeraj Ahuja将加入吴新宙团队，而原英伟达自动驾驶软件副总裁，负责量产项目的Sarah Tariq则进入职务过渡期。近日，Sarah Tariq也发出了告别信。Dheeraj Ahuja和吴新宙都曾在高通任职，在过去七年多里，Dheeraj一直负责高通的自动驾驶项目，2021年底至2022年，高通成功击退英伟达和Mobileye，拿下了宝马下一代ADAS和自动驾驶平台的订单，Dheeraj正是该项目的直接工程负责人。</p>\n  <p><strong>香港证券市场下调最低上落价位第二阶段将于8月3日生效</strong></p>\n  <p>香港证券市场在第一阶段最低上落价位下调措施实施后取得积极成效。与实施前相比，适用股票的买卖价差收窄35%，订单成交时间缩短30%。在此基础上，香港交易所将于2026年8月3日推出第二阶段措施，进一步优化交易体验，支持香港证券市场持续发展。（证券时报）</p>\n  <p><strong>英国将对十六七岁青少年实施社媒“宵禁”</strong></p>\n  <p>英国政府7月14日宣布，将对16岁至17岁青少年使用社交媒体实施“宵禁”。这是英国政府继上月宣布将禁止16岁以下人群使用一系列社交媒体应用程序后新的社媒限制举措。英国政府表示，在默认设置状态下，16岁至17岁青少年在0时至6时不能使用社交媒体；旨在诱使用户更长时间浏览的功能，包括视频自动连续播放，也将默认关闭。英国政府6月表示，将效仿澳大利亚，禁止16岁以下人群使用一系列社交媒体应用程序。（新华社）</p>\n  <p><strong>美国FCC批准发射阳光反射卫星计划，为地球夜间区域提供应急照明</strong></p>\n  <p>美国联邦通信委员会（FCC）近日批准了一家初创企业的申请，允许其建造并发射一枚反光卫星，该卫星携带巨型聚酯薄膜（Mylar）反射镜，可将阳光反射回地球，为地球的夜间区域提供短暂应急照明。总部位于加利福尼亚州霍桑市的轨道反射公司（Reflect Orbital）于7月9日获得联邦通信委员会的许可。该企业计划发射一枚名为埃雅仁迪尔一号（Earendil-1）的试验卫星，并将其部署在近地轨道运行。（新浪财经）</p>\n  <p><strong>A股成交2.57万亿缩量1328亿</strong></p>\n  <p>7月15日，市场震荡调整，创业板指冲高回落跌超1%，科创50指数高开低走跌超4%。沪深两市成交额2.57万亿，较上一个交易日缩量1328亿。盘面上，市场热点较为杂乱，全市场超3300只个股上涨。</p>\n  <p>从板块来看，医药板块逆势活跃，博瑞医药、迪哲医药、睿智医药20CM涨停，哈药股份4连板，海南海药、昂利康涨停。白酒概念震荡走高，古井贡酒、金种子酒涨停。零售概念异动拉升，新华百货、宁波中百涨停。游戏概念表现活跃，巨人网络、恺英网络涨停。下跌方面，半导体产业链集体调整，存储芯片、算力芯片、半导体设备方向跌幅居前，德明利一字跌停，强一股份、华峰测控、佰维存储、沐曦股份均跌超11%。截至收盘，沪指跌0.29%，深成指跌0.97%，创业板指跌1.21%。（财联社）</p>\n  <p><strong>谷歌参与建设美国最大太阳能项目，总规模达2.5GW</strong></p>\n  <p>谷歌当地时间7月14日宣布，与Cypress Creek Energy在美国阿肯色州启动Steel River Energy Center项目建设。该项目建成后将成为美国最大的太阳能发电设施，也是谷歌全球规模最大的太阳能及储能项目。谷歌将作为锚定投资者和购电方支持项目一期和二期建设，新增1.6GW直流太阳能发电和1.9GWh储能；整个三期项目预计于2029年全部投运，总规模将达到2.5GW直流太阳能发电和2.9GWh储能。（界面新闻）</p>\n  <p><strong>中国日均生产芯片超15亿块</strong></p>\n  <p>今年上半年，规模以上高技术制造业增加值、数字产品制造业增加值分别增长13.3%和12.3%，比一季度都有所加快。特别是全球人工智能技术变革带来的高端算力芯片和存储芯片需求爆发。上半年中国规模以上工业企业的集成电路产量增长23.1%，产量规模达到2798亿块。国家统计局新闻发言人王冠华表示：“这个数字非常庞大，换算下来平均每天生产集成电路超过15亿块。集成电路就是我们平时说的芯片，它广泛应用于智能装备、电子产品当中。”除了集成电路，5G智能手机、3D打印设备、服务机器人等智能产品产量也保持了快速增长；日均词元调用量已达数百万亿，实现了量级式跨越。初步测算，上半年以高技术制造业、数字产品制造业为代表的新动能，以两成多的增加值占比贡献了近五成的工业增长，是拉动工业增长的重要引擎（央视财经）</p>\n  <p><strong>Meta遭员工起诉，被指利用AI系统筛选裁员对象，不公平针对休假员工</strong></p>\n  <p>26名Meta员工本周提起诉讼，指控该公司利用人工智能系统筛选裁员对象，尤其对正在休病假、育儿假或家庭照料假的员工产生了不公平的影响。诉状称，这套评分体系从设计层面就存在缺陷：处于受法律保护的病假、家庭照料假期，或是因身体残障导致工作产出下降的员工，根本无法积累充足评分。诉状还表示，Meta在核算员工评分时并未考虑员工享有的法定休假，也未按照法律要求暂停自动化系统，开展兼顾休假、特殊便利需求的人工单独复核。（新浪财经）</p>\n  <p><strong>印度宣布再投1.28万亿卢比，提升本土芯片制造能力</strong></p>\n  <p>7月15日，据报道，印度承诺再投入1.28万亿卢比（约合133亿美元）以促进国内芯片制造发展。报道称，此项举措将建立在印度2021年推出的100亿美元激励计划基础之上，该计划曾承诺承担半导体项目建设成本的一半。（界面新闻）</p>\n  <p><strong>Stripe与Advent据悉联合提出530亿美元收购PayPal</strong></p>\n  <p>7月15日，据报道，支付公司Stripe与私募股权公司Advent International本月早些时候联合提出以每股60.50美元收购PayPal，交易对PayPal估值超过530亿美元，较PayPal周二收盘价溢价约28%。据悉，该收购提议已获得银行约500亿美元融资承诺。（界面新闻）</p>\n  <p><strong>面壁智能端侧大模型将搭载三星手机上市</strong></p>\n  <p>36氪独家获悉，端侧大模型公司面壁智能已与三星手机达成合作，其自主研发的MiniCPM系列端侧模型将搭载于三星手机上市，覆盖数款旗舰机型。</p>\n  <p><strong>诺基亚与英伟达推出行业首个商用AI-RAN平台</strong></p>\n  <p>7月15日，诺基亚公司发表声明称，公司已与英伟达共同开发出业界首个商用人工智能驱动的无线接入网络（AI-RAN）平台。诺基亚表示，新的网络设备将使电信网络运营商到2028年能够在相同无线频段上传输的数据量翻倍，其预计将于明年上市。（界面新闻）</p>\n  <p><strong>美股三大指数集体收涨，大型科技股多数上涨</strong></p>\n  <p>36氪获悉，7月15日收盘，美股三大指数集体上涨，道指涨0.29%，纳指涨0.62%，标普500指数涨0.38%。大型科技股多数上涨，苹果涨超4%，谷歌、Meta、亚马逊涨超3%，微软涨超2%，英伟达小幅上涨；英特尔跌超4%，特斯拉小幅下跌。热门中概股普涨，腾讯控股涨超5%，阿里巴巴、哔哩哔哩涨超4%，小鹏集团涨超3%，唯品会、爱奇艺、理想汽车、拼多多涨超2%，百度、网易涨超1%。</p>\n  <h2><strong>上市进行时</strong></h2>\n  <p><strong>越疆科技创业板IPO将于7月22日上会</strong></p>\n  <p>36氪获悉，据深交所网站披露，深交所上市审核委员会定于7月22日召开2026年第45次上市审核委员会审议会议，届时将审议深圳市越疆科技股份有限公司的首发事项。</p>\n  <p><strong>环能涡轮北交所IPO将于7月22日上会</strong></p>\n  <p>36氪获悉，据北交所网站披露，北交所上市审核委员会定于2026年7月22日上午9时召开2026年第69次上市审核委员会审议会议，届时将审议常州环能涡轮动力股份有限公司的首发事项。</p>\n  <h2><strong>大公司财报</strong></h2>\n  <p><strong>凯尔达：预计2026年半年度净利润同比增长1006%-1191%</strong></p>\n  <p>36氪获悉，凯尔达公告，预计2026年半年度归属于上市公司股东的净利润为2615.11万元-3053.38万元，同比增长1006%-1191%。业绩变动主要系公司产品竞争力提升、下游市场需求回暖，营业收入持续增长，同时股份支付费用同比下降。</p>\n  <p><strong>华联控股：预计2026年半年度净利润同比增长1030%-1423%</strong></p>\n  <p>36氪获悉，华联控股公告，预计2026年半年度归属于上市公司股东的净利润为2300万元-3100万元，同比增长1030%-1423%。业绩变动主要系杭州“钱塘公馆”项目房产销售收入增加及上年同期基数较低。</p>\n  <h2><strong>投融资</strong></h2>\n  <p><strong>“问天量子”完成B轮融资</strong></p>\n  <p>36氪获悉，近日，“问天量子”完成B轮融资，获得6亿元资金注入，新进投资方包括海南晴澜、海南量启、淄博汇富齐嘉等多家机构。此次融资资金将主要用于核心技术的规模化商用、量子随机数芯片的量产扩能，以及面向人工智能时代的量子AI融合产品研发。</p>\n  <p><strong>“灵巧智能”完成数亿元A轮融资，上海电气战略入股</strong></p>\n  <p>近日，具身智能企业“灵巧智能”（DexRobot）宣布完成数亿元A轮融资，本轮由上海电气战略投资，产业资本与财务资本持续加码。2026年内，公司已先后完成天使轮及A轮两轮融资，融资资金将重点用于灵巧操作全栈技术研发、核心产品迭代、教育/电力/工业三大场景落地及产业生态建设。此外，上海电气旗下上海机电与灵巧智能同步成立两家合资公司——灵机壹动与灵机智联，总注册资本超亿元，分别聚焦核心零部件量产与工业场景解决方案，标志着公司从技术研发迈入产业规模化交付阶段。</p>\n  <p><strong>“面壁智能”完成新一轮融资，估值超200亿元</strong></p>\n  <p>36氪获悉，面壁智能已完成新一轮融资，投资方包括国家级基金、央企、汽车制造商等各类产业方、财务投资人等。至此，面壁智能2026上半年累计融资金额超50亿元，估值超200亿元，一跃成为端侧智能领域公开估值最大的独角兽企业。面壁智能专注于将原生端侧大模型技术转化为标准化产品，在具身、汽车、手机、低空、民航等核心赛道落地，未来还将拓展至工业、家居、特种领域等。</p>\n  <h2><strong>酷产品</strong></h2>\n  <p><strong>三星电子推出新款990固态硬盘</strong></p>\n  <p>7月15日，三星电子宣布，新款990固态硬盘现已全球陆续上市，提供1TB、2TB两种容量版本。厂商建议零售价分别为269.99美元、529.99美元。（界面新闻）</p>\n  <p><strong>整理</strong>｜王浩阳&nbsp;</p>",
-      "published": "2026-07-16T07:59:41+08:00",
-      "fetched_at": "2026-07-16T10:46:49.818364+08:00",
-      "pre_filter_reason": "苹果AI、AI办公室、AI能力",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 7,
         "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Kimi K3 开源模型实测：全球最大规模到底有多强？",
+          "angle": "以Kimi K3为案例，讲解开源大模型规模（参数/训练数据）对实际任务的影响，并演示如何快速部署和调用该模型。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "开源模型新标杆：Kimi K3 的架构亮点与使用指南",
+          "angle": "解析Kimi K3在模型架构、训练效率上的创新点，并给出开发者快速上手的代码示例和API调用技巧。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "6f12c2dbabe8",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "独家 | 智谱 ARR 达到10 亿美元，半年增长 15 倍",
+      "link": "https://36kr.com/p/3898662052693894?f=rss",
+      "summary": "<p>文 | 周鑫雨</p>\n  <p>编辑 | 张雨忻</p>\n  <p>智能涌现从多个独立信源处获悉，<strong>截至 2026 年 7 月， 智谱的 ARR（年度经常性收入）已经达到 10 亿美元</strong>。</p>\n  <p>截至发稿前，针对上述信息，智谱未回复。</p>\n  <p>过去一年，AI Coding 和视频生成模型已经成为全球造血能力最强的 AI 赛道。</p>\n  <p>海外，Anthropic 的 Claude Code 仅发布半年，ARR 就飙升至 10 亿美金。这一现金牛产品，也将 Anthropic 的整体 估值抬高到万亿美金（2026 年 5 月），超过了 OpenAI。</p>\n  <p>但此前，对于国内大模型公司能否复刻 Anthropic 的财富神话，市场一直抱有疑问。一方面，背靠企业付费意愿高、订阅生态成熟的北美市场，Anthropic 有天然优渥的商业化土壤。另一方面，Anthropic 的估值，与智谱最新市值仍存在一个数量级的差距——这意味着，Anthropic 有更大量的资金能获取训练资源，这是国内模型厂商还比不了的。</p>\n  <p>但智谱达到 10 亿美金 ARR 的速度，远超预期。曾有投资人对我们表示，智谱的 ARR 预计到 2026 年底，才能达到 10 亿-15 亿美金。</p>\n  <p>一个更直观的对比是：根据Anthropic 的官方数据和智谱财报数据，ARR 从 1 亿美金增长到 10 亿美金，Anthropic 用了 15 个月，智谱仅用了 5 个月。<strong>据知情人士，在2026 年 1 月到7 月期间，智谱的 ARR 增长了 15 倍。</strong></p>\n  <p>智谱是国内最早押注 Coding 路线的模型厂商之一。2025年初，智谱就开始将力量收敛到了对模型 Coding 能力的提升上。智谱创始人唐杰曾形容智谱押注了 Coding 和 Reasoning——一种能与 Agent 共生共荣的模型能力。</p>\n  <p>后续，智谱以平均两个月一版的速度，发布了一系列 Coding 能力位于全球第一梯队的旗舰模型。2026 年 6 月最新上线的 GLM-5.2，即便开源，多个核心指标依然追平甚至超过了 Claude Opus 4.8 以及 GPT-5.5。</p>\n  <p>智谱官方曾提到，<strong>大模型的商业价值可以理解为</strong>“<strong>智能上限 × Token 消耗规模</strong>”，只要模型能力继续领先，调用量就会不断增长。财报显示，<strong>今年 Q1，GLM 的 API 价格累计调高约 83%，海外订阅价格甚至接近 Claude Code，但调用量仍增长约 400%。</strong></p>\n  <p>在用 Token 消耗衡量模型商业化水平的当下，Coding 和视频生成模型代表了两种范式：前者为企业和开发者直接提供生产力，后者则是进入到了工业化内容生产的核心环节。</p>\n  <p>从营收数据上看，Coding 的市场需求已经走向确定，视频生成也是。据智能涌现了解，Seedance2.0 的月营收接近 10 亿元；而高盛预测，可灵 AI 的 ARR 到年底能达到 10 亿美金。</p>\n  <p>不过，确定性的生意，也意味着更激烈的竞争。6 月，MiniMax 发布了 M3，重点强化了 Coding 和 Agent 能力。7 月 16 日，月之暗面也发布了 K3，一个参数量 达 2.8 万亿、综合智力水平仅次于 Claude Fable 5 和 GPT-5.6 Sol 的开源模型。</p>\n  <p>就连海外，随着 GPT-5.6 的发布、ChatGPT 与 CodeX 的合并，OpenAI 在 Coding 领域，也显示出了逆袭 Anthropic 的势头。</p>\n  <p>在当下这个时间点，Coding 之战还远未结束。</p>",
+      "published": "2026-07-17T09:05:04+08:00",
+      "fetched_at": "2026-07-17T10:49:25.738987+08:00",
+      "pre_filter_reason": "AI company revenue and AI coding/video generation.",
+      "scores": {
+        "importance": 9,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 8,
         "crowd_heat": 0.0
       },
       "quality_score": 7.8,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "国行苹果AI功能备案意味着什么？三步看懂端侧大模型",
-          "angle": "解读国行苹果AI备案背景，用三步法解释端侧大模型的工作原理、与云端AI的区别，以及用户隐私保护机制。",
+          "title": "ARR 10亿美元背后：智谱如何用AI Coding和视频生成实现商业飞轮？",
+          "angle": "拆解智谱的商业模式，重点分析AI Coding和视频生成赛道的变现逻辑，并给出类似创业项目的关键指标参考。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "共享单车涨价背后：成本、竞争与用户选择",
-          "angle": "分析三家共享单车同步上调起步价的原因，包括运营成本上升、市场竞争格局变化，以及对用户出行习惯的影响。",
+          "tag": "tutorial",
+          "title": "从0到10亿ARR：智谱的增长策略与AI产品设计启示",
+          "angle": "结合智谱案例，讲解AI产品如何通过高频场景（如代码生成、视频创作）实现快速商业化，并提供可借鉴的产品迭代思路。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "8278b08a78b0",
+      "id": "42f702dded4e",
+      "source_id": "reddit-ml",
+      "source_name": "Reddit r/MachineLearning",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "New Fable5/Opus4.8 harness called \"Schema\" claims 99% on ARC-3 [R]",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1uyf8oo/new_fable5opus48_harness_called_schema_claims_99/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><blockquote> <p>Schema, the harness we introduce today, reaches 99% on the ARC‑AGI‑3 Public set using Claude Opus 4.8 and Fable 5, and 95.35% using GPT‑5.6 Sol. It does not change the underlying model weights. Instead, it changes the process around them: how observations are turned into a working model of the game, how predictions are tested against the interaction history, and how plans are executed and revised.</p> <p>Both scores come from a fixed fallback rule: Opus 4.8 and Sol xhigh run first; games scoring below 80 are rerun with Fable 5 and Sol max, respectively, and the higher per-game score is retained.</p> </blockquote> <p><a href=\"https://schema-harness.github.io/\">https://schema-harness.github.io/</a></p> <p>The president of ARC Prize tweeted this saying <em>&quot;Looks cool - need to dig into it&quot;</em></p> <hr /> <p>I'm not affiliated with ARC Prize, or with this team. I'm posting this to try to bring back technical discussions to this community.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/we_are_mammals\"> /u/we_are_mammals </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uyf8oo/new_fable5opus48_harness_called_schema_claims_99/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uyf8oo/new_fable5opus48_harness_called_schema_claims_99/\">[comments]</a></span>",
+      "published": "2026-07-17T05:02:45+08:00",
+      "fetched_at": "2026-07-17T10:49:43.672001+08:00",
+      "pre_filter_reason": "AI模型和基准测试",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 9,
+        "virality": 8,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "ARC-3 99% 准确率！新框架 Schema 如何不修改模型权重就提升推理能力？",
+          "angle": "深入解析Schema框架的核心机制——如何通过改变观察/推理过程（而非模型参数）来突破AGI基准测试，并给出简易实现思路。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "不用改模型也能变强？Schema 框架的“过程优化”实战指南",
+          "angle": "以ARC-3任务为例，演示如何利用Schema的“观察-推理-行动”循环提升模型表现，并对比传统微调方法的优劣。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "b0769b2a43a5",
       "source_id": "google-news-ai-zh",
       "source_name": "Google News (AI 中文)",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "search",
-      "title": "梁文锋登顶全球 AI 大模型首富 DeepSeek 估值飙升重塑行业财富格局 - 新浪网",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX0RJa2loeFV0cldoZWtXWF9GTkJNTFppejRXVllyY3BFLUNUMFVsU0VvSnJvdExkRjZfRi1yd09LTlkyZ04zU3pCa2I4azlhclNFZ1R2U29naVpROC1OQ2lwS21MY0tEQkNLSENPZlFUMGhIUFFvSVI5Y0xFMVNIZ2JfTzRHdXY2Xzc3Xzdpbi1ERFU?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPX0RJa2loeFV0cldoZWtXWF9GTkJNTFppejRXVllyY3BFLUNUMFVsU0VvSnJvdExkRjZfRi1yd09LTlkyZ04zU3pCa2I4azlhclNFZ1R2U29naVpROC1OQ2lwS21MY0tEQkNLSENPZlFUMGhIUFFvSVI5Y0xFMVNIZ2JfTzRHdXY2Xzc3Xzdpbi1ERFU?oc=5\" target=\"_blank\">梁文锋登顶全球 AI 大模型首富 DeepSeek 估值飙升重塑行业财富格局</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪网</font>",
-      "published": "2026-07-16T01:46:46+08:00",
-      "fetched_at": "2026-07-16T10:47:16.197012+08:00",
-      "pre_filter_reason": "AI model and DeepSeek",
+      "title": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式 - 环球网",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4wQTc0RjhCYXRHdEkyUXVlb3N5eUxwNzA5Z0VScy1iR3lVS1NSd0lGU2JWWTBKRW1Rb2ZlUVdjRnJTbmhxVW9VWWo1M0ZHYVN6eVlId2ktcFY?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE4wQTc0RjhCYXRHdEkyUXVlb3N5eUxwNzA5Z0VScy1iR3lVS1NSd0lGU2JWWTBKRW1Rb2ZlUVdjRnJTbmhxVW9VWWo1M0ZHYVN6eVlId2ktcFY?oc=5\" target=\"_blank\">习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">环球网</font>",
+      "published": "2026-07-17T10:15:46+08:00",
+      "fetched_at": "2026-07-17T10:49:40.419483+08:00",
+      "pre_filter_reason": "世界人工智能大会及AI治理",
       "scores": {
         "importance": 8,
         "timeliness": 9,
         "actionability": 8,
         "scarcity": 7,
         "virality": 9,
-        "crowd_heat": 0.0
+        "crowd_heat": 3.5
       },
       "quality_score": 7.7,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "DeepSeek估值飙升，普通人如何理解AI大模型财富密码？",
-          "angle": "从梁文锋登顶首富事件切入，用通俗比喻解释大模型公司估值逻辑（技术壁垒、数据价值、算力成本），并介绍AI行业投资入门知识。",
+          "title": "从WAIC看趋势：2026年AI治理与产业落地的关键信号",
+          "angle": "解读习近平主席在WAIC开幕式上的讲话要点，提炼AI全球治理的新方向，并分析对中国AI产业发展的潜在影响。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "AI治理新篇章：如何理解“发展”与“安全”的平衡之道？",
+          "angle": "结合WAIC高层声音，梳理AI治理的核心议题（数据安全、伦理、国际合作），并给出企业合规与创新并行的实操建议。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "97abc3cdcbee",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
+      "id": "8a8b372bee7d",
+      "source_id": "qbitai",
+      "source_name": "量子位",
       "source_tier": "T2",
       "source_lang": "zh",
-      "source_category": "search",
-      "title": "7款手机端侧大模型获备案！苹果Apple智能在列，阿里、百度提供支持 - 财联社",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBUNzlxNUduTl9EbzM5VkZKdFZLY1N3VDVGX01VQ2tKNTNYN28tVkVidFl6N3VEd205X1VDNEs5aEVSRzAycWpDMA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTFBUNzlxNUduTl9EbzM5VkZKdFZLY1N3VDVGX01VQ2tKNTNYN28tVkVidFl6N3VEd205X1VDNEs5aEVSRzAycWpDMA?oc=5\" target=\"_blank\">7款手机端侧大模型获备案！苹果Apple智能在列，阿里、百度提供支持</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财联社</font>",
-      "published": "2026-07-15T18:18:28+08:00",
-      "fetched_at": "2026-07-16T10:47:16.196839+08:00",
-      "pre_filter_reason": "手机端侧大模型获备案，直接涉及AI模型",
+      "source_category": "media",
+      "title": "全球首个！银河通用新框架仅需人类视频即可部署，特斯拉蚌埠住了",
+      "link": "https://www.qbitai.com/2026/07/451403.html",
+      "summary": "还能让机器人边干边学",
+      "published": "2026-07-16T18:51:10+08:00",
+      "fetched_at": "2026-07-17T10:49:33.016257+08:00",
+      "pre_filter_reason": "机器人新框架，涉及AI部署",
       "scores": {
         "importance": 8,
-        "timeliness": 9,
+        "timeliness": 8,
         "actionability": 8,
-        "scarcity": 8,
+        "scarcity": 9,
         "virality": 8,
         "crowd_heat": 0.0
       },
@@ -280,91 +367,72 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "7款手机端侧大模型获备案，你的手机AI能力将如何升级？",
-          "angle": "以苹果Apple智能为例，讲解端侧大模型备案的意义，以及用户实际能体验到的AI功能（如离线语音助手、本地图像处理），并对比安卓与iOS的差异。",
+          "title": "银河通用新框架：如何用人类视频训练机器人",
+          "angle": "手把手拆解从人类视频到机器人部署的全流程，突出“边干边学”的实用技巧，适合AI开发者与机器人爱好者快速上手。",
           "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "特斯拉慌了？银河通用新框架颠覆机器人训练方式",
+          "angle": "分析银河通用框架如何绕过传统仿真环境，直接利用人类视频实现机器人技能迁移，对比特斯拉现有方案，探讨行业影响。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "3c7172a48527",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "马斯克也开始L4降维L2了！FSD正式进入反转时刻",
-      "link": "https://www.qbitai.com/2026/07/450657.html",
-      "summary": "FSD、Robotaxi共用一套模型",
-      "published": "2026-07-15T15:22:26+08:00",
-      "fetched_at": "2026-07-16T10:47:02.649635+08:00",
-      "pre_filter_reason": "FSD and Robotaxi use AI models",
+      "id": "e2fb18372915",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "How Cars24 scales conversations and builds faster with OpenAI",
+      "link": "https://openai.com/index/cars24",
+      "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+      "published": "2026-07-16T08:00:00+08:00",
+      "fetched_at": "2026-07-17T10:49:21.981838+08:00",
+      "pre_filter_reason": "Mentions OpenAI-powered voice and chat agents",
       "scores": {
-        "importance": 8,
-        "timeliness": 9,
+        "importance": 6,
+        "timeliness": 8,
         "actionability": 8,
-        "scarcity": 7,
-        "virality": 9,
+        "scarcity": 6,
+        "virality": 7,
         "crowd_heat": 0.0
       },
       "quality_score": 7.7,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "马斯克的FSD从L4降级到L2，自动驾驶等级到底怎么分？",
-          "angle": "用图解方式解释L0-L5自动驾驶等级定义，分析FSD降级背后的技术挑战（如复杂路况处理、法规限制），并展望L2级功能对日常驾驶的实际帮助。",
+          "title": "Cars24如何用OpenAI实现每月百万分钟对话",
+          "angle": "拆解Cars24的AI语音与聊天代理架构，分享恢复12%流失线索的实战经验，提供可复用的对话式AI部署步骤。",
           "difficulty": "入门"
+        },
+        {
+          "tag": "case_study",
+          "title": "从Cars24看企业级AI代理工作流的最佳实践",
+          "angle": "深入分析Cars24如何将AI代理融入团队协作，实现规模化客户沟通，提炼适用于其他企业的关键策略。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "05c97f182fa6",
+      "id": "8a678eb0ebae",
       "source_id": "ifanr",
       "source_name": "爱范儿",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "苹果想要「掐死」OpenAI 手机",
-      "link": "https://www.ifanr.com/1672040?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "苹果也有自己的越战泥潭<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
-      "published": "2026-07-15T11:39:38+08:00",
-      "fetched_at": "2026-07-16T10:47:05.538476+08:00",
-      "pre_filter_reason": "AI公司竞争",
+      "title": "连夜实测 Kimi K3，建议改名 Kable",
+      "link": "https://www.ifanr.com/1672232?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "开源模型的 K3 时刻<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
+      "published": "2026-07-17T10:19:00+08:00",
+      "fetched_at": "2026-07-17T10:49:35.530305+08:00",
+      "pre_filter_reason": "AI模型Kimi K3评测",
       "scores": {
         "importance": 7,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "苹果为何要“掐死”OpenAI？揭秘科技巨头的AI战略博弈",
-          "angle": "分析苹果自研AI模型与依赖OpenAI的利弊，探讨苹果在隐私保护、生态控制、技术自主性上的考量，以及此举对消费者未来使用AI服务的影响。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "860d85ddb25f",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "众筹近400万美金，这家明星AI体育硬件公司做了款多合一教练机器人 ｜产品观察",
-      "link": "https://36kr.com/p/3896586337978244?f=rss",
-      "summary": "<p>作者｜黄楠</p>\n  <p>编辑｜袁斯来</p>\n  <p>在首款网球发球机卖爆后，庞伯特做了一款多合一AI教练机器人 。</p>\n  <p>这家公司是在一级市场很受关注的标的，2025年半年内完成三轮融资累计数亿元；旗下产品也在全球拥有了30余万用户，设备累计发球总量超20亿次。</p>\n  <p>但当下硬件赛道已经不容小而美的公司慢慢成长，网球赛道涌入了越来越多的对手，国内硬件创业团队快速入局，海外老牌专业设备厂商也在加速占据全球专业市场。</p>\n  <p>庞伯特很早就有拓宽赛道的想法，直到今年5月，其首款多运动合一智能体育AI教练机器人Aura发布，完成了从网球场景的训练工具、到多运动AI教练机器人的落地。这款产品在Kickstarter上线当天，仅5小时众筹金额便超过100万美金，累计金额近400万美元。</p>\n  <p>它的核心思路很直接：与其让用户为每一项运动分别买单，不如用一台设备覆盖尽可能多的场景，包括时下热门的板式网球、匹克球等等。基于所搭载的AI Coach智能教练体系，拓宽产品适用场景与用户覆盖范围。</p>\n  <p>从单一专项的训练工具，到兼容多类隔网运动的AI私教，庞伯特Aura所代表的，是智能硬件从专业竞技赛道向大众运动场景的一次纵深延伸。当设备不再只为少数人的性能指标服务，才能真正还给用户自由开启一项新运动的选择权。</p>\n  <h2><strong>当AI Coach长出「手眼脑」</strong></h2>\n  <p>在庞伯特的产品矩阵中，Aura的定位有些特殊。</p>\n  <p>此前，其PACE系列面向深度爱好者，球速高达130km/h，追求极致的球速、旋转、落点精度等发球性能。而Aura整机仅7公斤，可放入背包随身携带，它所搭载的首创AI Coach智能教练体系，将目标用户锁定在更广谱的大众球类爱好者群体。</p>\n  <p>一位教练的日常教学是怎样的？用手喂球给学员，用眼观察学员的动作，实时指正学员的动作。每一次喂球，都伴随一次即时的反馈与调整。</p>\n  <p>不同于传统视觉分析方案中，设备只能在训练结束后生成报告，用户无法在过程中主动调整，Aura要做的，是完整复刻教练的现场教学——其AI Coach会实时指出问题，通过与用户的动态交互中持续观察、判断和调整发球，在每一次击球中完成指导闭环，而非停留于事后的动作分析。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260715/v2_c4bb82b0c6c243999c5b719dd7da6478@6022551_oswg6668333oswg4000oswg2667_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">多运动合一智能体育AI教练机器人Aura（图源/企业）</p>\n  <p>但跨球类适配的难度，并非仅算法层面就能解决，还需要平台级的硬件能力。&nbsp;</p>\n  <p>不同球类的物理参数差异极大。单是网球运动，就涵盖了有压比赛用球、无压训练球、适合青少年用户的75%气压软球、以及低龄训练使用的50%气压轻球等多种规格。匹克球亦存在16洞、24洞两种结构，洞数不同，球体重量、风阻系数和飞行轨迹便截然不同。</p>\n  <p>常规单一发球机的夹持与推送结构仅适配一类标准球体，一旦更换球型，就容易出现球体挤压变形、卡球、出球偏移等故障。要让一套送球、落球、击球模块在同时兼容这些物理差异，必须对发球机器人的硬件架构进行系统性重构。</p>\n  <p>在出球前，轮组系统会根据球种差异，调整夹持间距与加速方式。比如网球，需要更大的夹持力和更高的轮速才能产生足够的出球速度和旋转；而匹克球更轻、风阻更大，则自动调整为对应标定参数。</p>\n  <p>“多合一设备的技术门槛并不仅在于‘能否把球发出去’，真正决定产品可用价值的核心难点，是针对不同球体，机器人对出球轨迹与旋转力度的可控性。”庞伯特创始人兼CEO张海波告诉硬氪。</p>\n  <p>由于各类球体的空气动力学特性完全独立，一套通用机械结构无法共用同一套运动参数，因此，团队还必须针对各细分球型搭建独立控制模型，以保证用户在切换运动后依旧拥有稳定、可控的训练手感。</p>\n  <p>如果说多合一发球和供球系统是Aura的“手”，作为执行终端负责精准可控地完成多品类发球，那其AI Coach的能力则建立在视觉感知与算法决策两个层面。“眼”负责捕捉每一次挥拍与球的轨迹，“脑”负责分析数据并给出训练建议。</p>\n  <p>Aura搭载了一个可拆卸的120fps双摄视觉模块Spotter，拥有10Tops端侧算力，配合语言、语音大模型，通过Spotter视觉感知与庞伯特体育大脑深度融合，实现“会看、会想、会指导”。</p>\n  <p>不同于以视觉分析为核心的方案，通过摄像头捕捉用户挥拍动作，生成训练报告与改进建议，它的优势是部署灵活、不依赖特定硬件，但其能力边界也很清晰，无法主动介入训练进程。Aura教练机器人的分野在于，前者从“分析动作”切入，后者从“发起练习”开始。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260715/v2_e799c56e33004725a0672047c2f48f68@6022551_oswg7043130oswg4000oswg2667_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">多运动合一智能体育AI教练机器人Aura（图源/企业）</p>\n  <p>基于庞伯特后端的“体育大模型”，背后是其“手-眼-脑”一体化技术架构的完整落地。系统不仅会记录下“球打到了哪里”，还能解析“为什么打到那里”，比如引拍慢了半拍？击球点偏外了？重心转移没跟上？</p>\n  <p>这些判断以语音即时提醒的交互形式，可在击球后实时反馈给用户并给出调整反馈，并驱动发球机器人调整下一组发球策略。在张海波看来，真正的教学必须从“喂球”起步，在动态交互中观察、判断、调整，而非停留在事后的动作分析层面。</p>\n  <p>同时，AI教练的进化同样依赖于高质量数据，这套完整训练闭环将进一步构成独特数据壁垒。庞伯特方面预计，Aura上市后每年可采集超过500万小时有效的高质量运动交互数据飞轮。</p>\n  <h2><strong>从专业化到多合一</strong></h2>\n  <p>作为全球首款提出多运动合一的AI教练机器人，面向大众球类运动爱好者，Aura在产品定义阶段就曾面临不小的争议。张海波向硬氪回忆，彼时团队内部的分歧很直接：“多合一会让用户觉得你什么都做，什么都不专业。”外部合作伙伴和投资机构也表达了类似的疑虑。</p>\n  <p>但他始终没有动摇，这个决策背后源于两重考量。</p>\n  <p>传统体育产品逻辑是“先选定运动、再购买设备”，这恰恰是初学者长期被忽略的核心痛点。在他们还没确定自己的运动偏好时，就得为单一运动支付整套设备成本。</p>\n  <p>根据PPA、Monitor Deloitte等行业调查显示，<strong>匹克球在北美以每年超过30%的增速，成为增长最快的运动之一；板式网球在欧洲的球场数量过去五年翻了近三倍；而网球本身仍是全球参与人数最高的球拍类运动。</strong></p>\n  <p>这三项运动在规则与场地上的相似性，决定了它们的初学人群存在大量重叠。</p>\n  <p>Aura的解决方案是，设备本身兼容三种球，用户按需解锁。“你不必在购买设备之前就做出决定。先用网球入门，哪天想试试匹克球了，在App里支付对应的订阅费用就能解锁。对用户而言，用一次日常体验课相当的花销，就能去尝试自己对另一项运动的兴趣。”张海波说。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260715/v2_1e6063ee328a415fa404dd9a197446f6@6022551_oswg6817991oswg4000oswg2667_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">多运动合一智能体育AI教练机器人Aura（图源/企业）</p>\n  <p>上线结果也印证了他的判断。张海波告诉硬氪，下单用户中，基本全部用户选择了带AI教练功能的版本，选择多运动合一的用户占比也超过一半。</p>\n  <p>这其实是消费心理里一种典型的“价值感知”逻辑：多合一功能未必被高频使用，但它的存在本身放大了用户对产品性价比的判断，降低了首次购买的决策门槛。</p>\n  <p>“它是一个信号，多合一功能意味着用一台设备的成本，享有多种运动的服务，性价比优势不言而喻。”张海波补充道。“用户希望拥有这个可能性，哪怕当下用不上。”</p>\n  <p>而从商业化角度看，对于创业公司来说，多合一功能也是个更具性价比的选择。</p>\n  <p>Aura的策略是把核心机械平台做通用，只在轮组调节和算法参数层面做差异化适配。用单个SKU覆盖网球、匹克球、板式网球等多个品类，供应链物料复用程度更高、生产效率和成本管控更优；而它触达的用户群体，从单一运动人群扩展到了三个重叠度极高的运动人群。</p>\n  <p>标准化设备是硬件入口，真正的价值锚点也进一步向软件定义的运动体验渗透。庞伯特用户可以选择购买单运动版本，后续想解锁匹克球或板式网球，通过App内按月或按年付费即可。</p>\n  <p>这种“硬件平价、软件增值”的模式过去在消费电子领域已被验证，但在智能化AI运动硬件行业仍属少数。它更深层意图的意图在于，先用一套硬件和一套数据系统把用户留在自己的生态里。</p>\n  <p>“用户今天用Aura学网球，数据积累在庞伯特的系统里；三个月后想试试匹克球，不需要再买一台机器，只需在软件端完成一次付费解锁。设备没换，用户没流失，数据还在持续生长。”张海波说。</p>\n  <p>用户想要的不是功能堆叠，而是一个能在动态训练中持续陪伴、实时反馈的“真实存在”。它是一种更具体的需求。庞伯特试图在构建一个越用越聪明的AI教练网络，真正将“数据×算法×硬件×场景”融合并落地为消费级产品。</p>\n  <p>硬件是入口，用户是资产，数据是壁垒，三者闭环一旦形成，对庞伯特而言，真正的护城河就不再是那一台设备，而是一套持续进化的训练系统。Aura要做的，是实时指导的教练，多合一的运动，它从硬件层面重新思考了“一台设备到底能覆盖多少场景”，又用软件和数据把不同场景串联起来，形成一个可扩展的体系。当用户用得越久，系统就越懂TA。</p>\n  <p>这个思路未必是唯一的答案，但它提供了一个被讨论样本：在运动器材这个行业里，让初学者能实现低成本的跨运动切换——并在尝试的过程中，让系统记下每一次挥拍。</p>",
-      "published": "2026-07-16T09:30:00+08:00",
-      "fetched_at": "2026-07-16T10:46:49.818339+08:00",
-      "pre_filter_reason": "AI体育硬件产品",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 9,
+        "timeliness": 9,
+        "actionability": 8,
         "scarcity": 8,
         "virality": 8,
         "crowd_heat": 0.0
@@ -372,69 +440,69 @@
       "quality_score": 7.6,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "AI教练机器人Aura：多合一运动训练指南",
-          "angle": "演示Aura如何从网球发球机升级为多运动教练，展示其核心功能和使用场景，帮助用户快速上手",
+          "tag": "review",
+          "title": "Kimi K3实测：开源模型的“Kable”时刻来了",
+          "angle": "连夜上手Kimi K3，对比开源模型与闭源模型的表现，重点测试其推理、代码生成与多轮对话能力，给出真实使用评价。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "明星AI硬件公司庞伯特：从爆款到多合一，如何应对赛道竞争？",
-          "angle": "分析庞伯特的产品策略和市场挑战，探讨AI体育硬件公司如何在激烈竞争中保持增长",
-          "difficulty": "中级"
+          "tag": "tutorial",
+          "title": "如何用Kimi K3搭建本地智能助手（附避坑指南）",
+          "angle": "从下载、部署到调优，手把手教读者在本地运行Kimi K3，并分享实测中发现的性能瓶颈与优化技巧。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "76424aba08ae",
-      "source_id": "qbitai",
-      "source_name": "量子位",
+      "id": "a62489b4e1ca",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "人在Meta，休个病假/产假转身被AI裁了？？",
-      "link": "https://www.qbitai.com/2026/07/450709.html",
-      "summary": "26名员工正在集体起诉Meta",
-      "published": "2026-07-15T17:03:58+08:00",
-      "fetched_at": "2026-07-16T10:47:02.649609+08:00",
-      "pre_filter_reason": "Meta使用AI裁员",
+      "title": "DeepSeek 最新估值曝光，在 3250 亿元至 3500 亿元区间",
+      "link": "https://www.ithome.com/0/977/882.htm",
+      "summary": "<p>IT之家 7 月 17 日消息，开润股份 7 月 16 日晚间发布公告，通过砺思星灵（全名：天津砺思星灵创业投资合伙企业）间接投资 DeepSeek 公司主体深度求索（全名：杭州深度求索人工智能基础技术研究有限公司）4000 万元，<strong>穿透持股比例为 0.0114%</strong>。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/1645e302-9d6c-4bf9-be92-603e9f71df5c.jpg?x-bce-process=image/format,f_auto\" /></p><p>同日，汤臣倍健披露，公司通过砺思星灵间接持有深度求索 <strong>0.04% 股权</strong>，投资金额 1.3 亿元。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/a265040f-66b0-4367-b1a1-1d998878b680.png\" /></p><p>照此计算，DeepSeek 最新估值在 <strong>3250 亿元至 3500 亿元区间</strong>。</p><p><a href=\"https://www.ithome.com/0/976/713.htm\" target=\"_blank\">据英媒《金融时报》7 月 14 日报道</a>，三位消息人士表示，DeepSeek 的首轮外部融资于今年 5 月末完成，筹集约 70 亿美元资金，其中约 30 亿美元来自创始人梁文峰，<strong>投后估值达到 520 亿美元（IT之家注：现汇率约合 3525.78 亿元人民币）</strong>。</p><p>报道还称，DeepSeek 计划以 710 亿美元（现汇率约合 4814.04 亿元人民币）的投前估值再次募集资金。</p>",
+      "published": "2026-07-17T09:53:05+08:00",
+      "fetched_at": "2026-07-17T10:49:37.297324+08:00",
+      "pre_filter_reason": "AI company valuation",
       "scores": {
-        "importance": 6,
+        "importance": 8,
         "timeliness": 9,
-        "actionability": 9,
+        "actionability": 8,
         "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 0.0
+        "virality": 8,
+        "crowd_heat": 3.5
       },
       "quality_score": 7.6,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "AI裁员风险：如何保护你的工作权益？",
-          "angle": "结合Meta案例，讲解员工如何应对AI驱动的裁员，包括保留证据、了解法律途径等实用技巧",
+          "tag": "analysis",
+          "title": "DeepSeek估值3500亿：AI独角兽的资本密码",
+          "angle": "通过开润股份的投资公告，解读DeepSeek的估值逻辑、股东结构及市场预期，分析其在高估值下的增长潜力与风险。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "AI裁员的伦理困境：Meta病假产假被裁事件深度解读",
-          "angle": "探讨AI在人力资源管理中的滥用风险，分析企业责任和员工权益保护的缺失",
-          "difficulty": "中级"
+          "tag": "tutorial",
+          "title": "如何从公开公告中挖掘AI公司投资线索",
+          "angle": "以DeepSeek为例，教读者通过上市公司公告、穿透持股比例等公开信息，识别AI独角兽的早期投资信号。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "554fd7ec8047",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
+      "id": "338676960e2f",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
       "source_tier": "T2",
       "source_lang": "zh",
-      "source_category": "media",
-      "title": "又快又聪明，阿里发布 Qwen-Audio-3.0-Realtime：实时语音大模型四项功能升级",
-      "link": "https://www.leiphone.com/category/industrynews/Yg2RqalAz09LS6WJ.html",
-      "summary": "<p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260715/6a56fce820bda.png?imageView2/2/w/740\" /></p><p>7月15日，阿里巴巴发布实时语音交互对话模型Qwen-Audio-3.0-Realtime，在智商、Agent 工具调用、共情对话和双工交互流畅度四条主线上同步升级，力求“又快又聪明”。模型包括推理更强的Plus 版本和速度更快的Flash 版本，适用于智能客服、教育培训、娱乐互动与情感陪伴等场景。今年5月，模型的Preview版本曾在全球权威第三方评测平台Artificial Analysis榜单斩获了两项冠军，超越GPT-Realtime-2。</p><p>为压低时延，实时语音模型往往牺牲推理深度，智商衰减。Qwen-Audio-3.0-Realtime针对日常对话、简单问答等对时延敏感的场景，可直接生成回复，毫秒级响应。在考验“AI会不会答”的语音问答基准 VoiceBench 上，以书面化的标准 prompt和口语化的prompt提问，Plus版本得分分别为92.5和90.5，仅下降 2.0——意味着模型能扛住真人说话的随意性。在更难的多轮音频对话挑战AudioMultiChallenge 基准测试中，Flash版本标准和口语化prompt得分分别为 43.6和38.1，仅下降5.5。今年5月，模型的Preview 版本Fun-Realtime-Audiochat在“语音推理能力”指标上曾以 97.6% 登顶Artificial Analysis。</p><p>文本大模型的Agent能力已相当成熟，但语音模型往往是“能聊天不能办事”，模型要边听边判断何时该调工具，往往需要用户明显说出“帮我打开 XX&quot;”才能触发工具，且切回闲聊后，容易出现上下文断裂。Qwen-Audio-3.0-Realtime无需明确的指令，即可自行调用外部工具，调用结果还会自动融入对话记忆，一次调用的结果会被记住，后面几轮追问都能接着用。例如用户先问“附近有什么川菜馆”，再追问“评分 4.5 以上的哪家最近”，模型会自动衔接地图工具的上一次返回结果继续检索。模型基于 FunctionCall 标准协议，可以完成 MCP、API、知识库的引入。</p><p>共情对话是本版本最能改变用户主观体验的部分。Qwen-Audio-3.0-Realtime 摆脱了传统语音助手的机械感，可根据对话语境动态调整语气、节奏、音调与情感，比如在辩论场景中，模型能准确抓取对方论点并快速组织反驳，并保持恰当的语气强度。在情感陪伴中，则通过语调、节奏与笑声、叹息、犹豫等副语言信号进行共情回应。在专门考“AI 说得像不像人”的 S2S 语音指令遵循公开基准 VStyle 上，模型取得 SOTA 成绩。</p><p>双工交互流畅度意为即模型能边说边听，像真人一样随时打断、插话，而非一问一答的对讲机模式。Qwen-Audio-3.0-Realtime内置“多模态感知的双工控制”子模型，通过分析音频信号、语义内容与说话人声纹特征，来判断如何交谈。比如在餐厅、开放工区等嘈杂环境中，它不会被背景噪声误打断；在多人讨论中能锁定主对话对象、忽略旁听者交谈；在多说话人切换时，则能根据语义线索自然过渡。因此，今年5月，模型的Preview 版本在对话流畅度指标上曾以 97.6% 登顶Artificial Analysis。此外，模型的API还预留了 audio_prompt 字段，用户可上传提前录制的音频样本，锁定声纹，聚焦特定的说话人。</p><p>上述能力的提升源于模型采用的 On-Policy Distillation（在线策略蒸馏）框架。研究团队将文本大模型的完整推理能力蒸馏至语音模型——语音模型一边自己生成回答、一边由文本大模型实时纠正。同时引入多教师蒸馏策略：口语多轮偏好教师保障口语化表达与指令遵循，通用教师负责基础问答与推理，Agentic 教师锁定工具调用与复杂任务，音频理解教师处理副语言与音频语义信息，确保模型在四条主线上均不偏科。</p><p>&nbsp;</p><p><br /></p>",
-      "published": "2026-07-15T11:25:00+08:00",
-      "fetched_at": "2026-07-16T10:46:59.476164+08:00",
-      "pre_filter_reason": "AI语音大模型发布",
+      "source_category": "search",
+      "title": "国产AI迭代提速！全球最大开源模型Kimi K3问世 多只概念股业绩有望高增 - 东方财富",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9KUFlsa1NZM0dSc3ZWQThXcjlNUlpPVGpKZDFfSGdCMkxEUVpNQXloM0FzM05scjRCa3ZOUXVUWTdNVkMxYU9EZXNfUlZxcnlxT19xN2xiNjZSNGxENVZiT0hwOA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE9KUFlsa1NZM0dSc3ZWQThXcjlNUlpPVGpKZDFfSGdCMkxEUVpNQXloM0FzM05scjRCa3ZOUXVUWTdNVkMxYU9EZXNfUlZxcnlxT19xN2xiNjZSNGxENVZiT0hwOA?oc=5\" target=\"_blank\">国产AI迭代提速！全球最大开源模型Kimi K3问世 多只概念股业绩有望高增</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">东方财富</font>",
+      "published": "2026-07-17T09:11:05+08:00",
+      "fetched_at": "2026-07-17T10:49:40.419421+08:00",
+      "pre_filter_reason": "AI model release",
       "scores": {
         "importance": 8,
         "timeliness": 9,
@@ -446,90 +514,90 @@
       "quality_score": 7.6,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "Qwen-Audio-3.0-Realtime上手：实时语音交互四大升级详解",
-          "angle": "分步演示新模型的智商提升、工具调用、共情对话和双工交互功能，展示实际应用场景",
+          "tag": "analysis",
+          "title": "Kimi K3发布：国产AI开源模型的“全球最大”意味着什么",
+          "angle": "解读Kimi K3作为全球最大开源模型的技术突破，分析其对国产AI生态、开发者社区及概念股业绩的潜在影响。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "阿里实时语音模型升级：智能客服和情感陪伴的新可能",
-          "angle": "分析Qwen-Audio-3.0-Realtime的技术亮点和行业影响，探讨其在教育、娱乐等领域的落地前景",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "d11cc7eb99f9",
-      "source_id": "apple-ml",
-      "source_name": "Apple ML Research",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "One Layer Is Enough: Adapting Pretrained Visual Encoders for Image Generation",
-      "link": "https://machinelearning.apple.com/research/adapting-pretrained-visual-encoders",
-      "summary": "Visual generative models (e.g., diffusion models) typically operate in compressed latent spaces to balance training efficiency and sample quality. In parallel, there has been growing interest in leveraging high-quality pre-trained visual representations—either by aligning them inside VAEs or directly within the generative model. However, adapting such representations remains challenging due to fundamental mismatches between understanding-oriented features and generation-friendly latent spaces. Representation encoders benefit from high-dimensional latents that capture diverse hypotheses for…",
-      "published": "2026-07-15T08:00:00+08:00",
-      "fetched_at": "2026-07-16T10:46:48.150386+08:00",
-      "pre_filter_reason": "Paper on adapting visual encoders for image generation is AI research.",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 6,
-        "scarcity": 8,
-        "virality": 5,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
           "tag": "tutorial",
-          "title": "One Layer Is Enough：如何用单层适配预训练视觉编码器进行图像生成",
-          "angle": "以简洁步骤解释论文核心方法，展示如何高效利用预训练模型进行图像生成，适合研究者快速理解",
-          "difficulty": "高级"
-        },
-        {
-          "tag": "analysis",
-          "title": "单层适配革命：预训练视觉编码器在图像生成中的新突破",
-          "angle": "解读论文的创新点和潜在影响，对比传统方法，探讨其对生成模型效率的提升意义",
-          "difficulty": "高级"
+          "title": "从Kimi K3看开源模型选型指南：参数规模 vs 实际性能",
+          "angle": "对比Kimi K3与其他主流开源模型，提供基于任务类型、硬件成本、社区支持等因素的选型建议，帮助开发者做出最优决策。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "4e88506a4ae1",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
+      "id": "cc443b2fe54f",
+      "source_id": "36kr",
+      "source_name": "36氪",
       "source_tier": "T2",
       "source_lang": "zh",
-      "source_category": "search",
-      "title": "Apple智能等7款手机端侧AI完成备案：阿里千问接入国行iPhone - 电子工程专辑",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE50QlBPc25RTEx4WEp5azRFUjV4bjVfU1poNzQ1bkowZjRwRXdxcmpndVMtTVgyV3VQTTdEbFBkTmQ4WXB6dEVNTzJzcUxSTVdEZWNCX0pLUEdlbFMy?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE50QlBPc25RTEx4WEp5azRFUjV4bjVfU1poNzQ1bkowZjRwRXdxcmpndVMtTVgyV3VQTTdEbFBkTmQ4WXB6dEVNTzJzcUxSTVdEZWNCX0pLUEdlbFMy?oc=5\" target=\"_blank\">Apple智能等7款手机端侧AI完成备案：阿里千问接入国行iPhone</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">电子工程专辑</font>",
-      "published": "2026-07-16T10:37:44+08:00",
-      "fetched_at": "2026-07-16T10:47:16.196851+08:00",
-      "pre_filter_reason": "Apple Intelligence and on-device AI",
+      "source_category": "media",
+      "title": "36氪首发 | 前蔚来、华为智驾核心成员联手创业具身世界模型，三个月内完成数亿元融资",
+      "link": "https://36kr.com/p/3899081603483525?f=rss",
+      "summary": "<p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，具身智能世界模型公司日冕开物（北京日冕机器人有限公司）近期完成连续两轮种子轮融资，融资合计金额达数亿元人民币，由鼎峰科创、远图未来、百度风投、沃衍资本、武岳峰科创、万林国际共同参与投资。同时，新一轮融资也在同步交割中。</p>\n  <p>此前融资资金主要用于自研世界模型 LaMPA 的研发迭代、强化学习体系建设，以及数据闭环和产品交付能力的持续完善。</p>\n  <p>日冕开物成立于2026年3月，聚焦物理世界基础模型研发，希望打造能够理解物理世界、预测环境变化并驱动机器人执行任务的基础模型，帮助机器人从单一场景能力，逐步迈向跨场景泛化。</p>\n  <p><strong>日冕创始团队均为清华自动驾驶背景，主导过行业首批智驾世界模型研发落地以及首批具身强化学习与交付工作。</strong>创始人肖中阳博士，曾主导智驾行业首个复杂交互场景的世界模型交付，该模型已搭载超过70万辆蔚来汽车；团队基座模型负责人，“华为天才少年”钟元鑫博士，曾主导华为新一代智驾世界模型基模的设计与量产落地工作；模型后训练与交付负责人，蔚来Super Spark王云龙博士，曾在智元机器人负责大模型与真机强化学习算法研发工作，并推动了行业首批进厂打工项目落地交付。市场负责人戴亚奇博士，曾任武岳峰科创合伙人，主导投资过数亿美金。</p>\n  <p>随着机器人开始进入复杂场景，行业越来越意识到，仅依赖模仿学习或任务级训练，难以支撑机器人真正具备泛化能力，机器人需要理解物理世界运行规律，并据此预测未来状态、规划动作，这也是世界模型成为具身智能重要技术方向的原因。</p>\n  <p>目前，业内不少研究都会参考图灵奖得主、卷积神经网络之父Yann LeCun（杨立昆）提出的JEPA理论，其核心思想是让模型学习物理世界更抽象、更本质的表征，而不是停留在像素层面的生成。</p>\n  <p>肖中阳向硬氪表示，<strong>JEPA提供了一套理论框架，而机器人真正落地仍有两个关键问题需要回答：物理世界应该如何表征，以及模型如何高效学习这些表征之间的因果关系。</strong></p>\n  <p>围绕这一问题，日冕开物研发了自有世界模型LaMPA。LaMPA的第一个核心创新在于构建了一套<strong>面向物理世界的三重表征体系</strong>。</p>\n  <p>肖中阳解释道，大语言模型之所以能够理解语言，是因为把自然语言转换成了统一的Token。而机器人同样需要一套能够描述物理世界的\"语言\"。LaMPA将机器人需要理解的信息划分为三类。第一类是环境表征（Environment），描述周围物体的位置、关系以及空间结构；第二类是本体表征（Ego），描述机器人自身状态，包括关节位置、受力情况、传感器反馈等信息；第三类则是经验表征（Experience），用于沉淀机器人长期执行任务过程中形成的先验知识，包括物体基本属性和可供性（Affordance），例如物体哪些位置可以抓取、不同任务通常采用怎样的操作顺序等。</p>\n  <p>三类信息共同构成机器人理解物理世界的隐空间（Latent Space），随后交由基础模型学习三者之间的因果关系，从而预测未来状态，并生成机器人的控制动作。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260717/v2_aa087cd1212749c2b8b720f51d292e1b@5920579_oswg442951oswg1080oswg624_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">（图源/企业）</p>\n  <p>除了表征方式之外，<strong>LaMPA在基础模型架构上也进行了重新设计</strong>。团队采用了更适合世界模型训练的块扩散（Block Diffusion）结构，旨在兼顾推理效率的同时，提升数据利用效率与模型可扩展性，并为后续大规模训练预留充足拓展空间。</p>\n  <p><strong>基础模型之外，强化学习是机器人最终完成场景交付的重要环节</strong>。肖中阳表示，目前不少强化学习方案依赖人工打分，当场景发生变化，例如光照、工位布局或环境噪声发生变化时，往往需要重新采集大量数据，重新进行后训练，导致部署周期较长。</p>\n  <p>针对这一问题，日冕开物引入了一套���泛化的World Reward Model（世界奖励模型）。这一模型来自基座世界模型，通过蒸馏和后训练，基座模型能够演化出一个专门负责“评价”的模型，判断什么是成功、什么是失败，像“评论家”一样为强化学习提供稳定、一致的反馈。让模型自动判断动作质量，大幅压缩针对新场景的后训练周期，加快工业场景部署效率。</p>\n  <p>据了解，公司目前已与远图未来达成战略合作，<strong>将进入服务器制造这一高精度工业装配场景</strong>，公司计划从服务器制造全流程开始，逐步延伸到前道和后道各项工序，实现全场景的跨产线规模部署</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260717/v2_d4037219b2a743bb8f656c0453d71797@5920579_oswg588116oswg1080oswg604_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">（图源/企业）</p>\n  <p>数据方面，日冕采用“自采+众包+模型增强”的策略：一方面，自建伴随式数据采集系统，沉淀具备场景壁垒的全模态精细操作数据；另一方面，通过数据众包平台获取高质量、多场景原始数据，扩大数据分布并降低采集成本；在数据准备阶段，利用世界模型驱动的数据增强（LCM），进一步提升数据利用效率。</p>\n  <p>未来一年，日冕开物将重点打通世界模型从场景调研、模型训练、现场部署到运行反馈的数据闭环，实现模型持续迭代。</p>\n  <p>长期来看，公司希望围绕模型、数据、交付和商业模式四个层面持续提升Scaling能力，使整套方案能够快速复制至更多工业场景及行业。</p>\n  <p><strong>以下是硬氪与日冕开物创始人肖中阳的交流节选：</strong></p>\n  <p><strong>硬氪：怎么理解日冕世界模型LaMPA&nbsp;和JEPA 之间的关系？</strong></p>\n  <p><strong>肖中阳：</strong>JEPA 是较早提出的一套非常基础的理论体系，其中有很多值得我们借鉴和吸收的地方。尤其是在 latent（隐空间）结构上的描述，我们非常认可。它强调模型应该关注事物的本质特征，而不是被像素级、细节层面的信息牵引，这一点对世界模型的发展非常重要。</p>\n  <p>严格来说，日冕世界模型是在这套理论体系基础上的进一步延伸。但我们并不是先选择某一套理论框架，再去做技术实现，而是从“一个原生世界模型应该如何构建”这个问题出发，探索适合的方法。JEPA 提出了一个重要方向，即模型需要学习一个更具抽象能力的 latent space。但它并没有进一步回答：这个 latent space 应该如何构建。另外，JEPA 也没有限定模型应该采用什么样的基础架构，去理解和预测未来状态。因此，我们也基于自身对世界模型的理解，探索了一套更适合规模化发展的模型范式。</p>\n  <p><strong>硬氪：与远图的合作推进得很快，为什么能够这么快推进从模型到工业场景的落地？</strong></p>\n  <p><strong>肖中阳：&nbsp;</strong>我觉得原因主要有几个。首先是模型本身。我们的世界模型和后训练体系具备比较好的泛化能力，能够快速适应新的场景。</p>\n  <p>其次是产品化思考，我们从创业一开始就比较重视产品化。工业客户需要的并不是机器人替代某一个工序，而是一整套能够快速部署、持续运行的解决方案。我们希望客户在进入新场景后，不需要依赖我们的工程师长期驻场，而是通过少量后训练就能够完成部署。这样交付的不只是自动化设备，而是能够持续学习、快速适应不同岗位的“硅基工人”。</p>\n  <p>因此我们提供的不只是模型，而是一套标准化产品，包括模型、硬件、训练系统，以及我们提出的Workflow Agent。它负责连接模型与真实生产流程，让机器人能够与工厂现有设备、人员和生产节拍协同工作。</p>\n  <p>与远图的合作也不仅是客户关系。远图为我们提供了服务器装配等高精度制造场景，用于验证方案；同时，<strong>双方也围绕装配和测试的共性需求与工序，共同打磨行业级解决方案</strong>，希望将这套能力复制到更多制造场景。</p>\n  <p><strong>硬氪：日冕此前发布了全球首个来自多个场景的双手全掌触觉专业操作数据集PalmDex。开源这个数据集，是出于哪些考虑？</strong></p>\n  <p><strong>肖中阳：</strong>之所以会关注全掌触觉是因为我们认为对力和触觉的理解是精细操作的基石，而精细操作是当前具身智能最痛点也最具价值的方向。此外，我们认为世界模型的发展最终不会依赖某一家公司的数据，而是依赖整个行业的数据生态。相比数据量，我们更关注数据分布。如果模型只学习某一种场景，即使数据再多，泛化能力也会受到限制；真正有价值的是覆盖工业、家庭、商业等不同场景、不同任务的数据，共同构成丰富的数据分布。</p>\n  <p>PalmDex的开源也是基于这样的思考。我们希望搭建一个开放的数据平台，让政府、客户、数据采集公司乃至个人开发者，都可以成为数据提供方，参与整个数据生态建设。</p>\n  <p>其次，这个平台最核心的能力之一其实是<strong>数据的价值发现和定价能力</strong>。作为一家模型公司，我们清楚模型当前最需要哪些数据、哪些数据已经充足、哪些数据仍然稀缺。对于真正稀缺、高价值的数据，就应该给予更合理的激励，让更多社会资源愿意持续参与数据采集。只有形成这样一套市场化的数据供给机制，才能真正实现数据规模和数据分布的持续扩展，最终推动世界模型不断迭代和泛化。</p>",
+      "published": "2026-07-17T09:52:16+08:00",
+      "fetched_at": "2026-07-17T10:49:25.738953+08:00",
+      "pre_filter_reason": "AI startup funding",
       "scores": {
         "importance": 7,
         "timeliness": 9,
         "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
+        "scarcity": 8,
+        "virality": 7,
         "crowd_heat": 0.0
       },
       "quality_score": 7.5,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "Apple智能+阿里千问：国行iPhone端侧AI备案后如何启用？",
-          "angle": "指导用户如何在国行iPhone上使用已备案的端侧AI功能，包括设置步骤和实用技巧",
+          "title": "什么是“具身世界模型”？3分钟看懂日冕开物的技术核心",
+          "angle": "用通俗语言解释“世界模型”概念，结合日冕开物的融资案例，分析其与自动驾驶技术的异同，帮助入门者理解具身智能的前沿方向。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "7款手机端侧AI完成备案：阿里千问入局国行iPhone意味着什么？",
-          "angle": "分析端侧AI备案对国内手机生态的影响，探讨阿里千问与苹果合作的市场战略",
-          "difficulty": "中级"
+          "tag": "tutorial",
+          "title": "从蔚来、华为到创业：智驾人才为何集体转向机器人？",
+          "angle": "以日冕开物创始团队背景为切入点，梳理智驾与具身智能的技术迁移路径，探讨行业趋势和人才流动背后的逻辑。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "09ee1e694f0f",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "给机器人造一座「数据工厂」，小米 Robotics-U0 如何破解具身智能最难的一道题？",
+      "link": "https://www.leiphone.com/category/robot/2m3jnMIPtYerJ6UR.html",
+      "summary": "<section><section><section><section><section></section><section><section><section><section></section></section></section><section><span>世界各地，有不少人正在给机器人当“幼教”。</span></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">在印度的一些工厂里，有工人头戴摄像头完成装配、分拣和搬运，将第一视角画面和完整操作过程记录下来；特斯拉 Optimus 的训练场里，也有工作人员佩戴装有多枚摄像头的头盔和背包，在固定场地内反复拿杯子、擦桌子、拉窗帘；一些数据公司付费邀请普通人拍摄自己叠衣服、洗碗和整理房间的过程。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">他们在做的，都是把人类早已习惯的动作重新示范、拆解和记录，让机器人从观察、模仿和反复练习开始，学习如何在真实世界行动。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">过去一年，机器人跑步、翻滚、格斗和叠衣服的视频不断刷屏，证明机器人可以完成越来越复杂的动作。但想要从一次展示走向长期稳定运行，机器人还要适应不同环境、物体和任务，并在失败中持续进化。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">这一过程依赖持续运转的数据闭环，包括数据采集、筛选、存储、训练、仿真、验证和回灌，而当下最先卡住行业进度的，是数据采集。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">语言模型可以从互联网获得大量文本和图片，机器人却没有同等规模的“物理世界互联网”。具身模型训练需要同时采集目标看到了什么、采取了什么动作，以及这个动作如何改变了自身和周围环境。这类相互对应的视觉、动作和状态数据，通常只能通过真机操作、人类遥操作或专门采集获得。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">但人工和真机采集都很难快速扩大规模。继续增加设备、摄像头和采集人员，能够带来更多样本，但训练时长、算力、存储成本都会线性上涨，更麻烦的是，低频和极端场景依然很难收集。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">因此，具身智能解决数据短缺，除了依靠扩大采集规模，也开始尝试通过生成模型扩展训练数据，但现有合成数据方案往往由多个模型分别负责不同环节，任务之间彼此割裂，既增加了复杂度，也容易在跨模型处理时破坏场景的一致性。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">小米正式发布并开源的 Xiaomi-Robotics-U0 正是为了解决这一问题，它将多类生成任务整合进同一套框架中，可以完成具身场景生成、具身迁移和机器人交互视频生成，并保留通用文生图与图像编辑能力，为机器人训练持续提供更多的可用的数据和场景。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">作为具身领域全球首个统一生成模型，Xiaomi-Robotics-U0 已经同时验证了生成质量、数据有效性和工程效率。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">在由清华大学、北京大学等机构联合建设的 WorldArena 基准测试中，U0 以匿名代号 UNIS 参评，取得全球总分第一；在真机评测中，使用 U0 扩增数据训练后的机器人策略，在未知光照、陌生背景等 OOD 场景下，任务完成进度平均提升 26.3 %；通过 FlashAR+ 推理加速方案，U0 的生成效率较原始自回归范式提升 82.9 倍，也将大规模生产具身数据的时间和算力成本压缩到了可以大规模使用的水平。</span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>01</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>小米 U0 的三项关键创新：统一、可控、高效</span><span><br /></span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em; margin-top: 24px;\"><span><strong><span><span style=\"letter-spacing: 0.5px;\">Xiaomi-Robotics-U0 最核心的创新，是全球首次在具身生成领域用一个统一模型覆盖四</span></span></strong><strong><span><span style=\"letter-spacing: 0.5px;\">类生成任务</span></span></strong><strong><span><span style=\"letter-spacing: 0.5px;\">，将具身场景生成、具身迁移、机器人交互视频生成，以及通用文生图和图像编辑能力整合进同一个模型。</span></span></strong></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">过去，这些任务通常由不同模型分别完成。每个模型都有自己的数据格式、训练方式和推理链路，彼此之间很难共享能力。一段真机数据经过多个系统处理后，既增加了工程成本，也不利于持续扩大数据规模。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">U0 的做法，是把这些任务放进同一个模型中。比如，研究人员已经采集了一段机械臂将耳机放入收纳盒的操作轨迹。U0 可以在保留原始动作关系的情况下，更换耳机的外观、调整光照、改变桌面背景，或者加入反光物体和其他视觉干扰，无需重新组织一次真机采集。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">模型还可以从零生成新的工作台和物体组合，补充危险、极端或低频出现的长尾环境。机器人在现实中很难经历的边缘场景，可以先通过生成方式加入训练数据。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">通用文生图和图像编辑能力被纳入统一架构，则使得模型还可以利用通用视觉模型积累的知识。真实机器人数据覆盖的物体和环境始终有限，但互联网视觉数据中包含海边、医院、仓库等不同场景，也包含各种材质和光照条件。这些视觉知识可以被用于扩展具身任务中的场景范围。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong><span><span style=\"letter-spacing: 0.5px;\">但数据能否批量生成，和数据能否用于机器人训练，是两回事。</span></span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">普通图像模型更关注生成结果是否符合指令。只要整体画面看起来合理，哪怕物体出现轻微位移，通常仍可视为成功。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">但具身数据的要求更严格。机械臂的位置、夹爪与物体的接触关系、桌面的空间结构，以及不同摄像头画面之间的几何关系，都要和原始动作轨迹对应。修改背景或光照时，如果这些信息发生变化，生成画面就无法继续匹配原有动作标签，也很难直接用于策略训练。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">为此，U0 设计了五维解耦的控制方式，将生成过程拆分为工作台布局、前景操作物体、前景无关杂物、光照条件和背景信息五个维度。每个维度都可以通过自然语言独立控制，只改变需要调整的变量，同时尽量保留其他结构和轨迹信息。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">比如，模型可以只改变光线，不动机械臂和物体的位置；也可以替换操作对象，同时保留工作台结构和原始轨迹；还可以增加桌面杂物，用来测试机器人在有干扰的环境中能否完成任务。</span></span></p><section style=\"text-align: justify; margin-bottom: 0px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260716/6a584b875e21c.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: center; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"font-size: 12px;\"><span style=\"letter-spacing: 0.5px; color: #888888;\">左侧为原始的多视角观测，右侧为修改了光照、工作区、物体描述等条件后，模型生成的多视角观测</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong><span><span style=\"letter-spacing: 0.5px;\">在解决统一性和可控性之后，U0 还要解决生成效率和成本的问题。如果生成一条数据需要过长时间和过多算力，即使模型能够覆盖更多任务，也很难真正支撑大规模使用。</span></span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">Xiaomi-Robotics-U0 采用了FlashAR+ 推理加速方案，在 FlashAR 的基础上进一步适配图像编辑、具身迁移和多参考图生成，并结合对角并行解码与 vLLM 的分页 KV 缓存和批量调度能力，提高推理速度和资源利用率。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">按照小米公布的数据，在 1024×1024 分辨率下，U0 的单样本生成时间由 450.77 秒缩短至 5.44 秒，生成效率提升约 82.9 倍。生成成本的下降，使一条真实轨迹批量衍生出大量不同场景成为可能，也让模型更容易部署在有限的算力资源上。</span></span></p><section style=\"text-align: justify; margin-bottom: 0px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260716/6a584b87928bd.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: center; margin-bottom: 0px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px; color: #888888;\">AR（自回归）和 FlashAR+ 的对比结果：</span></span></span></p><p style=\"text-align: center; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px; color: #888888;\">FlashAR+ 在保持了生成质量的同时，大幅度优化了推理效率</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">Xiaomi-Robotics-U0 的三项创新并不是独立的功能叠加，它们共同推动了具身智能数据的 scaling，统一架构打通了具身生成任务，五维解耦保证扩增后的数据仍然可控、可用；FlashAR+ 则把生成速度和算力成本压缩到了能够支持大规模使用的程度。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">Xiaomi-Robotics-U0 试图建立的，正是这样一套统一、可控、低成本的具身数据生产体系。</span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>02</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>WorldArena 全球第一，</span></span></strong></h4></section><section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>可控性超越 GPT-Image-2.0</span><span><br /></span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em; margin-top: 24px;\"><span><span style=\"letter-spacing: 0.5px;\">机器人策略的泛化能力，很大程度上取决于训练数据是否足够多样。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">此前，NVIDIA Isaac Sim 等平台也尝试用合成数据缓解数据不足，但合成数据始终有一个难点：生成的环境和真实世界之间存在差距。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">画面中的深度、物体位置、接触关系和运动规律，只要有一项出现偏差，机器人在合成环境中学到的能力就可能无法迁移到真机。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong><span><span style=\"letter-spacing: 0.5px;\">所以，判断 U0 能不能用于更广泛的具身训练，除了看它能生成什么，还要看用这些数据训练出的机器人，在真实环境中的表现。</span></span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">从小米公布的真机评测结果看，使用 U0 扩增数据训练后，机器人在未知光照、陌生背景等分布外场景中的任务完成进度平均提升了 26.3%，在耳机收纳这样的精细操作、毛巾折叠这样的可变形物体操作，以及物品装箱这样的长流程任务中，表现也都有提升。</span></span></p><section style=\"margin-bottom: 24px; line-height: 1.75em; text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260716/6a58596bf2bdf.gif\" /></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">面对反光物体、彩色灯光等视觉干扰时，只使用原始真机数据训练的策略更容易因为识别偏差而停滞，甚至直接失败。加入 U0 扩增数据后，机器人即使出现了动作偏差，也能根据后续观测重新判断环境并调整动作。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">这些结果说明，U0 所代表的数据扩增策略是有效的。 U0 在扩大数据量的同时，也提升了对陌生环境的覆盖能力。原本只在正常光照和固定背景下采集的一段轨迹，经过物体、背景、光照和干扰条件的扩增后，可以帮助机器人提前适应更多变化，并最终转化为机器人在真实场景中的性能提升。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><strong><span><span style=\"letter-spacing: 0.5px;\">同时，在与当前顶尖闭源模型 GPT-Image-2.0 的对比中，Xiaomi-Robotics-U0 也展现出了更好的可控性。</span></span></strong></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">两类模型之间最明显的差距，出现在多视角几何和机械臂位姿的保持上。GPT-Image-2.0 可以按照文本指令替换物体和场景，生成结果在视觉上也基本符合要求，但在不同摄像头视角中，物体位置有时会发生偏移，空间结构可能出现变形，机械臂姿态也不一定能完整保留。</span></span></p><section style=\"text-align: justify; margin-bottom: 0px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260716/6a584b87f380f.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: center; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"font-size: 12px;\"><span style=\"letter-spacing: 0.5px; color: #888888;\">GPT-Image-2.0 和 Xiaomi-Robotics-U0 的具身迁移效果对比，同一指令下，GPT-Image-2.0 的机械臂位置出现了错误</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">对于普通图像编辑而言，这些偏差可能只会影响画面质量。但对于具身数据，同一时刻的多个视角必须对应同一个真实空间，机械臂和操作物体也必须继续匹配原始动作轨迹。只要其中一个视角发生错位，生成数据就很难继续使用原有动作标签，也无法直接用于策略训练。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">小米还对 U0 的场景生成和具身迁移能力进行了单独评测。两项测试都设置了简单和困难两档任务，其中具身场景生成包含 400 个样本，具身迁移包含 300 个样本。根据人工评测结果，U0 在两类任务中的整体表现都优于参与对比的其他模型。</span></span></p><section style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260716/6a584b88226fc.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: center; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"font-size: 12px;\"><span style=\"letter-spacing: 0.5px; color: #888888;\">场景生成和具身迁移总体效果对比图：在人工搭建的具身场景生成（分为 Easy 和 Hard，各 200 个）和具身迁移（分为 Easy 和Hard，各 150 个）这两个 benchmark 中，Xiaomi-Robotics-U0 在人类评测中均取得了明显的领先</span></span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">在外部评测中，U0 也以匿名代号 UNIS 参加了由清华大学、北京大学等机构联合建设的 WorldArena 基准测试。截至 2026 年 7 月 15日，该榜单共有 126 个模型参评，UNIS 获得总分第一，并在指令遵循、交互质量和视角一致性三个子项中排名第一。</span></span></p><section style=\"text-align: justify; margin-bottom: 0px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260716/6a584b8855f1f.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: center; margin-bottom: 24px; line-height: 1.75em;\"><span><span><span style=\"letter-spacing: 0.5px; color: #888888;\">WorldArena 榜单</span></span></span></p><section><section><section><section><section style=\"padding-top: 10px; padding-bottom: 10px; text-align: center;\"><section style=\"display: inline-block;\"><section><span><br /></span></section><section><strong><span>03</span><span><br /></span></strong></section></section></section><h4 style=\"font-weight: 400; font-size: 16px; text-align: center; letter-spacing: 0.544px; line-height: 1.6em;\"><strong><span style=\"color: #EE5B2E;\"><span>一座低成本的&quot;具身数据工厂&quot;</span><span><br /></span></span></strong></h4></section></section></section></section><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em; margin-top: 24px;\"><span><span style=\"letter-spacing: 0.5px;\">从更大的行业视角看，U0 的开源解决了如何低成本生产有效数据的问题。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">过去，行业扩大具身数据规模，主要依赖增加机器人数量、延长真机运行时间、组织更多人工示范。数据增长与设备、人力和时间投入高度绑定，规模越大，成本越高。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">小米通过 U0 给出的路径是，在已有真实数据的基础上继续生成新的场景和样本，让数据扩张不再完全依赖新增采集，其创新性的通过统一的多模态自回归框架，将具身场景生成、具身迁移、机器人交互视频生成，以及通用文生图和图像编辑四类能力整合进了同一个模型。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">具身场景生成和具身迁移直接承担了扩展训练数据的作用，机器人交互视频生成进一步使静态场景能够扩展为完整的机器人交互过程，通用文生图和图像编辑能力则将互联网中积累的物体、环境和视觉知识引入具身任务，为模型生成更丰富的开放世界场景。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">U0 把场景生成、轨迹迁移和交互视频放进了同一条数据处理链路。模型可以先构造工作台和物体，再迁移已有操作轨迹，最后生成后续的机器人交互过程。这样一来，具身数据的扩展不再依赖多个彼此独立的工具。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">在多数公司仍在围绕机器人本体、VLA 模型和真机数据采集扩大投入时，小米已经先一步进入数据基础设施层，尝试解决整个行业都要面对的数据成本和长尾覆盖问题。</span></span></p><p style=\"text-align: justify; margin-bottom: 24px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">U0 像是一座可控、可用、低成本的“具身数据工厂”。虽然真机采集仍然不可替代，机器人需要从现实世界获得真实的动作、接触和反馈，生成模型也要依靠这些数据不断校准。但有了 U0 生成模型，一条真实数据不再只能对应一个固定场景。它可以被扩展到不同的环境、物体和视觉条件中，形成更多训练样本。</span></span></p><p style=\"text-align: justify; margin-bottom: 40px; line-height: 1.75em;\"><span><span style=\"letter-spacing: 0.5px;\">当具身数据开始具备更高效率、更低成本和更强可控性，模型训练就不必完全受限于现实世界的采集速度。行业也由此拥有了继续扩大数据规模、提高泛化能力，并最终支撑机器人规模化落地的基础。</span></span></p><p style=\"text-align: justify; margin-bottom: 40px; line-height: 1.75em;\"><span>雷峰网</span></p></section></section></section></section></section>",
+      "published": "2026-07-16T10:53:00+08:00",
+      "fetched_at": "2026-07-17T10:49:30.051464+08:00",
+      "pre_filter_reason": "The news discusses robotics and embodied intelligence, which involves AI.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "机器人“幼教”是什么？小米如何用数据工厂训练具身智能",
+          "angle": "以“数据工厂”和“幼教”比喻切入，解释机器人训练中的数据采集、标注和闭环流程，展示小米Robotics-U0的工程化思路。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "破解具身智能最难一题：数据从哪里来？",
+          "angle": "聚焦具身智能领域的数据瓶颈，对比传统AI训练与机器人数据采集的差异，分析小米方案对行业的意义。",
+          "difficulty": "入门"
         }
       ]
     },
@@ -544,153 +612,103 @@
       "link": "https://www.ifanr.com/1672097?utm_source=rss&utm_medium=rss&utm_campaign=",
       "summary": "· ChatGPT 服务中断约 45 分钟，登录、聊天等功能受影响\n· 京东与元宝打通购物服务，商品咨询后可直接跳转下单\n· 上海开出脑机接口首张处方，获批产品完成首例植入手术<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
       "published": "2026-07-16T08:49:18+08:00",
-      "fetched_at": "2026-07-16T10:47:05.538394+08:00",
-      "pre_filter_reason": "国行苹果AI、DeepSeek、AI模型",
+      "fetched_at": "2026-07-17T10:49:35.530466+08:00",
+      "pre_filter_reason": "Mentions Apple Intelligence, DeepSeek, and AI model Qwen",
       "scores": {
         "importance": 8,
         "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 6,
-        "virality": 8,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 9,
         "crowd_heat": 0.0
       },
       "quality_score": 7.5,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "国行苹果AI来了！手把手教你如何用千问模型玩转新功能",
-          "angle": "以国行苹果AI即将搭载千问模型为切入点，制作一个入门级教程视频，展示用户如何在iPhone上开启和使用这些AI功能，例如智能写作、图像生成等，并对比与现有模型的差异。",
+          "title": "国行苹果AI搭载千问模型：你的iPhone将迎来哪些新功能？",
+          "angle": "从用户视角出发，介绍苹果AI与千问模型合作后可能带来的本地化功能变化，如智能助手、图像识别等，并对比海外版差异。",
           "difficulty": "入门"
         },
         {
           "tag": "tutorial",
-          "title": "京东+元宝购物新体验：如何一句话下单？",
-          "summary": "以京东与元宝打通购物服务为亮点，制作一个简短教程，演示用户如何通过元宝咨询商品后直接跳转京东下单，突出便捷性和效率提升。",
+          "title": "脑机接口首张处方开出：这项技术离普通人还有多远？",
+          "angle": "以上海脑机接口处方事件为引，用通俗语言解释脑机接口的工作原理、当前应用场景（如医疗康复）及未来普及的挑战。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "5927c401eb7c",
-      "source_id": "reddit-ml",
-      "source_name": "Reddit r/MachineLearning",
+      "id": "b90c9d75e7c5",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "NeurIPS reviews coming in soon! [D]",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1ux8p0a/neurips_reviews_coming_in_soon_d/",
-      "summary": "<!-- SC_OFF --><div class=\"md\"><p>So, from what I've seen across twitter(x) and reddit, I've inferred that we'll be seeing NeurIPS reviews drop on July 22nd 5:30 pm AoE(Anywhere on earth), what's your thoughts to those who've submitted to NeurIPS 2026 ? Would love to hear your opinion by the reviewers, the people who've submitted to the workshops (who should've already gotten their decisions too by now I think) and to the main tracks and other available tracks. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Practical-Buddy6323\"> /u/Practical-Buddy6323 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ux8p0a/neurips_reviews_coming_in_soon_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1ux8p0a/neurips_reviews_coming_in_soon_d/\">[comments]</a></span>",
-      "published": "2026-07-15T23:13:26+08:00",
-      "fetched_at": "2026-07-16T10:47:20.395920+08:00",
-      "pre_filter_reason": "Mentions NeurIPS, a top AI/ML conference, and review process.",
+      "title": "github /copilot-sdk",
+      "link": "https://github.com/github/copilot-sdk",
+      "summary": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "published": "2026-07-17T10:49:44.144771+08:00",
+      "fetched_at": "2026-07-17T10:49:44.144773+08:00",
+      "pre_filter_reason": "GitHub Copilot SDK, AI coding assistant",
       "scores": {
         "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "NeurIPS 2026审稿倒计时：如何准备你的论文回复？",
-          "angle": "针对NeurIPS审稿即将发布，制作一个教程视频，指导研究者如何高效阅读审稿意见、撰写回复信并修改论文，重点包括常见问题的应对策略和时间管理技巧。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "c86364c0fae8",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "不是吧OpenAI首款硬件吹半天就是个AI音箱？？",
-      "link": "https://www.qbitai.com/2026/07/450385.html",
-      "summary": "难怪苹果急眼了",
-      "published": "2026-07-15T12:46:18+08:00",
-      "fetched_at": "2026-07-16T10:47:02.649673+08:00",
-      "pre_filter_reason": "OpenAI hardware product, AI-related",
-      "scores": {
-        "importance": 6,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "OpenAI首款硬件竟是AI音箱？深度解析其功能与竞品对比",
-          "angle": "以OpenAI发布AI音箱为话题，制作一个对比评测视频，分析其核心功能（如语音交互、智能家居控制）与苹果HomePod、亚马逊Echo等产品的差异，并探讨苹果为何“急眼”。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "39e4038014d2",
-      "source_id": "apple-ml",
-      "source_name": "Apple ML Research",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Uncertainty Quantification for LLM Function-Calling",
-      "link": "https://machinelearning.apple.com/research/uncertainty-quantification-function-calling",
-      "summary": "Large Language Models (LLMs) are increasingly deployed to autonomously solve real-world tasks. A key ingredient for this is the LLM Function-Calling paradigm, a widely used approach for equipping LLMs with tool-use capabilities. However, an LLM calling functions incorrectly can have severe implications, especially when their effects are irreversible, e.g., transferring money or deleting data. Hence, it is of paramount importance to consider the LLM’s confidence that a function call solves the task correctly prior to executing it. Uncertainty Quantification (UQ) methods can be used to quantify…",
-      "published": "2026-07-15T08:00:00+08:00",
-      "fetched_at": "2026-07-16T10:46:48.150429+08:00",
-      "pre_filter_reason": "Paper on uncertainty quantification for LLM function-calling is AI research.",
-      "scores": {
-        "importance": 7,
-        "timeliness": 6,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 5,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "LLM函数调用不可靠？教你用不确定性量化提升准确性",
-          "angle": "针对LLM函数调用中的不确定性，制作一个技术教程，介绍如何应用不确定性量化方法（如贝叶斯推断、置信度评分）来减少错误调用，并附上代码示例和实际应用场景。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "2e8643a990d6",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "纽约州试点引入“机器人老师”：课程内容可控、保护隐私、不“说谎”",
-      "link": "https://www.ithome.com/0/977/321.htm",
-      "summary": "<p>IT之家 7 月 16 日消息，据外媒 Gadget Review 今天（16 日）报道，今年秋季，由 Realbotix 提供的人形机器人 Sally 将来到美国纽约州西部公立的萨拉曼卡市中央学区担任“助教”。Sally 拥有硅胶皮肤和棕色长发，外形高度逼真，<strong>职责是协助教师，而不是取代教师</strong>。</p><p>萨拉曼卡市中央学区与 Realbotix 公布的方案强调<strong>课程内容可控、学生隐私受到保护</strong>，并允许学生随时获得辅导。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/421e0319-0285-4d9b-af83-5cf03a496e1f.png?x-bce-process=image/format,f_auto\" /></p><p>据IT之家了解，Sally 采用 Realbotix M-Series 平台，保持固定坐姿，训练材料仅限萨拉曼卡市中央学区课程，不接触开放互联网。整套系统<strong>运行在封闭网络中</strong>，不连接公共互联网，无法获取能够识别学生身份的个人信息。</p><p>每名学生通过专属识别码登录，Sally 能够延续之前的对话，并按照学生过去的学习表现调整辅导内容；学生还可通过笔记本电脑使用配套 AI 虚拟助手 Optio，全天 24 小时获得<strong>作业辅导、课程生成和 100 多种语言的翻译服务</strong>。</p><p>此外，为降低 AI 编造答案的风险，Sally 会在无法回答时<strong>明确说“我不知道”</strong>；一旦学生提到自残，系统会自动向管理人员发出警报。</p><p>Sally 最初将进入高中 AI 与机器人课程，教学内容以苹果联合创始人史蒂夫 · 沃兹尼亚克开发的课程体系为基础，预计到 9 月服务约 500 名学生。</p><p>目前，纽约市已经暂停采购教育科技产品，纽约州教师工会也要求对 AI 设置严格限制，萨拉曼卡市中央学区却朝着相反方向迈进。至于到今年秋季，学生是否愿意信任 Sally、教师是否认为 Sally 真正有用，以及学生数据能否始终封闭保存，都有待实际检验。</p>",
-      "published": "2026-07-16T09:59:40+08:00",
-      "fetched_at": "2026-07-16T10:47:07.129465+08:00",
-      "pre_filter_reason": "机器人老师用于教育，涉及AI",
-      "scores": {
-        "importance": 6,
         "timeliness": 8,
-        "actionability": 8,
+        "actionability": 7,
         "scarcity": 7,
-        "virality": 9,
+        "virality": 8,
         "crowd_heat": 0.0
       },
       "quality_score": 7.4,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "纽约州引入“机器人老师”：如何设计隐私保护与课程可控的AI助教？",
-          "angle": "以纽约州试点机器人老师为案例，制作一个教程视频，讲解如何设计和部署AI助教系统，重点包括课程内容过滤、学生隐私保护措施以及避免AI“说谎”的技术实现。",
-          "difficulty": "中级"
+          "title": "GitHub Copilot SDK发布：开发者如何在自己的应用中集成AI编程助手？",
+          "angle": "以教程形式介绍Copilot SDK的安装、基本配置和调用示例，展示如何将AI编程能力嵌入自定义工具或服务中。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "Copilot SDK vs 传统API：开发者为什么需要多平台AI编程工具？",
+          "angle": "对比分析Copilot SDK与普通API的差异，强调多平台支持、上下文感知和实时协作等优势，帮助开发者评估使用场景。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "aa0d09094a39",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "lobehub /lobehub",
+      "link": "https://github.com/lobehub/lobehub",
+      "summary": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+      "published": "2026-07-17T10:49:44.144020+08:00",
+      "fetched_at": "2026-07-17T10:49:44.144022+08:00",
+      "pre_filter_reason": "AI agent platform",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "LobeHub是什么？一篇文章看懂“首席智能体操作员”如何管理你的AI团队",
+          "angle": "用比喻（如“AI团队管家”）解释LobeHub的核心功能：智能体招聘、调度、汇报，展示如何实现7×24小时自动化运营。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "手把手教程：用LobeHub搭建你的第一个AI工作流",
+          "angle": "以具体场景（如自动客服、内容生成）为例，演示LobeHub的配置步骤，包括添加智能体、设定任务和查看报告。",
+          "difficulty": "入门"
         }
       ]
     }
