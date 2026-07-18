@@ -1,20 +1,24 @@
 {
-  "title": "AI日报 - 2026年07月17日",
+  "title": "AI日报 - 2026年07月18日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
-          "summary": "NVIDIA发布Nemotron 3 Embed模型，在RTEB基准上排名第一，推动智能体检索技术发展。"
+          "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+          "summary": "NVIDIA与Hugging Face联合推出大规模视频与图像模型微调工具。"
         },
         {
-          "title": "中国企业发布全球最大规模的开源模型Kimi K3 - 新京报",
-          "summary": "中国公司发布全球最大开源模型Kimi K3，引发业界关注和实测热潮。"
+          "title": "中国AI公司月之暗面发布全球最大规模开源模型 - DW.com",
+          "summary": "月之暗面发布全球最大开源模型，进一步推动开源生态发展。"
         },
         {
-          "title": "New Fable5/Opus4.8 harness called \"Schema\" claims 99% on ARC-3 [R]",
-          "summary": "名为“Schema”的新框架声称在ARC-3基准上达到99%准确率，引发社区热议。"
+          "title": "WAIC 2026 | 混元Hy3大模型首秀，腾讯上线AI技能支付体系",
+          "summary": "腾讯在WAIC上发布混元Hy3大模型并推出AI技能支付体系。"
+        },
+        {
+          "title": "阶跃与支付宝达成AI Agent系统级合作，跨端协同迈向“能办事”",
+          "summary": "阶跃与支付宝合作，推动AI Agent跨端协同落地。"
         }
       ]
     },
@@ -22,20 +26,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "独家 | 智谱 ARR 达到10 亿美元，半年增长 15 倍",
-          "summary": "智谱AI年经常性收入突破10亿美元，半年增长15倍，展现强劲商业化能力。"
+          "title": "美股半导体指数跌入熊市",
+          "summary": "美股半导体指数进入熊市，引发市场对AI硬件需求的担忧。"
         },
         {
-          "title": "DeepSeek 最新估值曝光，在 3250 亿元至 3500 亿元区间",
-          "summary": "DeepSeek最新估值曝光，区间达3250-3500亿元，并计划明年上市。"
+          "title": "2 年 100 亿美元：消息称 Anthropic 拟租赁 Meta 的 AI 算力",
+          "summary": "Anthropic计划以100亿美元租赁Meta的AI算力，凸显算力争夺白热化。"
         },
         {
-          "title": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式 - 环球网",
-          "summary": "习近平出席2026世界人工智能大会，强调AI全球治理重要性。"
+          "title": "医疗AI独角兽OpenEvidence再传融资意向，潜在估值升至200亿美元",
+          "summary": "医疗AI公司OpenEvidence估值或达200亿美元，资本持续涌入垂直领域。"
         },
         {
-          "title": "36氪首发 | 前蔚来、华为智驾核心成员联手创业具身世界模型，三个月内完成数亿元融资",
-          "summary": "前蔚来、华为智驾核心成员创业具身世界模型，三个月内获数亿元融资。"
+          "title": "东方算芯首次展出全球首颗软件定义近存计算 3D AI 芯片 DF1000，算力可达 520 TFLOPS",
+          "summary": "东方算芯发布全球首颗软件定义近存计算3D AI芯片，算力达520 TFLOPS。"
         }
       ]
     },
@@ -43,16 +47,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "Embarrassingly Simple Self-Distillation Improves Code Generation",
-          "summary": "苹果ML研究提出一种极其简单的自蒸馏方法，显著提升代码生成模型性能。"
+          "title": "When Unlearning Is Free: Leveraging Low Influence Points to Reduce Computational Costs",
+          "summary": "苹果研究提出利用低影响点降低AI模型遗忘计算成本的方法。"
         },
         {
-          "title": "全球首个！银河通用新框架仅需人类视频即可部署，特斯拉蚌埠住了",
-          "summary": "银河通用发布全球首个仅需人类视频即可部署的机器人框架，引发行业震动。"
+          "title": "A scorecard for the AI age",
+          "summary": "OpenAI发布AI时代评估卡，旨在量化AI系统影响与风险。"
         },
         {
-          "title": "给机器人造一座「数据工厂」，小米 Robotics-U0 如何破解具身智能最难的一道题？",
-          "summary": "小米Robotics-U0推出数据工厂方案，破解具身智能数据获取难题。"
+          "title": "“30秒换手即用”，RoboScience机器科学实现跨本体灵巧操作行业突破，全球首个云端具身大模型WAIC首秀",
+          "summary": "RoboScience展示跨本体灵巧操作技术，发布全球首个云端具身大模型。"
         }
       ]
     },
@@ -60,21 +64,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "Why teens deserve access to safe AI",
-          "summary": "OpenAI发文呼吁青少年应获得安全AI访问权，探讨AI伦理与教育。"
+          "title": "连夜实测 Kimi K3，建议改名 Kable",
+          "summary": "实测Kimi K3模型性能出色，评测者建议改名以突出其能力。"
         },
         {
-          "title": "Our approach to bioresilience",
-          "summary": "Google DeepMind阐述生物韧性研究路径，探索AI在生物安全领域的应用。"
+          "title": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse",
+          "summary": "Kaiser护士指出AI与监控技术反而降低了护理质量与工作体验。"
         },
         {
-          "title": "How Cars24 scales conversations and builds faster with OpenAI",
-          "summary": "Cars24分享如何利用OpenAI技术规模化对话系统并加速开发。"
+          "title": "“中国AI正以月为单位缩小与美国的差距” - 新浪网",
+          "summary": "分析称中国AI追赶速度加快，中美差距正以月为单位缩小。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦开源模型突破、具身智能融资热潮及AI治理议题，行业商业化与前沿研究齐头并进。",
-  "generated_at": "2026-07-17T10:50:48.607203+08:00",
+  "summary": "今日AI圈聚焦开源模型爆发、算力争夺加剧与垂直应用落地，同时芯片市场波动引发关注。",
+  "generated_at": "2026-07-18T10:43:05.349185+08:00",
   "source_count": 20
 }
