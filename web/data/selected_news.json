@@ -1,131 +1,20 @@
 {
-  "updated_at": "2026-07-18T10:43:05.349269+08:00",
+  "updated_at": "2026-07-19T10:56:53.075386+08:00",
   "total": 20,
   "items": [
     {
-      "id": "ed90c93fa700",
-      "source_id": "huggingface-blog",
-      "source_name": "Hugging Face Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
-      "link": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
-      "summary": "",
-      "published": "2026-07-17T23:57:54+08:00",
-      "fetched_at": "2026-07-18T10:41:40.809044+08:00",
-      "pre_filter_reason": "AI model fine-tuning with NVIDIA NeMo and Diffusers",
-      "scores": {
-        "importance": 7,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "NVIDIA NeMo + Hugging Face Diffusers：零基础微调视频与图像模型",
-          "angle": "手把手演示如何利用NeMo Automodel与Diffusers库，在云端一键启动模型微调，并展示从数据准备到模型部署的完整流程。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "企业级AI微调实战：用NVIDIA NeMo Automodel加速Diffusers模型训练",
-          "angle": "对比传统微调方式与NeMo Automodel的自动化优势，重点介绍如何通过并行计算和资源优化，将训练时间从数天缩短至数小时。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "ed1904c2d39a",
+      "id": "a52a5bb53659",
       "source_id": "ithome-ai",
       "source_name": "IT之家",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "东方算芯首次展出全球首颗软件定义近存计算 3D AI 芯片 DF1000，算力可达 520 TFLOPS",
-      "link": "https://www.ithome.com/0/978/368.htm",
-      "summary": "<p>IT之家 7 月 18 日消息，2026 世界人工智能大会（WAIC 2026）今天在上海举行。东方算芯在会上首次展出全球首颗软件定义近存计算 3D AI 芯片 ——DF1000，<strong>并荣获 2026 SAIL 奖（卓越人工智能引领者奖）</strong>。</p><p style=\"text-align: center;\"><img alt=\"图片\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/b438fd82-041a-4d51-adfe-cb2b800ca014.jpg?x-bce-process=image/format,f_auto\" /></p><p>据介绍，DF1000 依托全国产供应链打造，<strong>通过空间并行与时分复用设计提升硬件利用率</strong>，<strong>算力可达 520 TFLOPS</strong>。采用 3D 混合键合技术实现晶圆级堆叠，有效提升访存带宽，降低供应链依赖，拥有自主编程框架和软件生态，可为 AI 产业提供稳定的国产算力底座。</p><p style=\"text-align: left;\">同时，该产品以“软件定义＋3D 堆叠近存计算”的东方范式，破解了中国高端算力芯片发展面临的三大核心瓶颈。通过软件定义芯片技术实现软硬件解耦与动态重构，在 14nm 工艺节点下实现 520TFLOPS@BF16 的算力。</p><p style=\"text-align: center;\"><img class=\"not-source\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/dce63b2c-808a-41c3-9f73-0d126f131db8.png?x-bce-process=image/auto-orient,o_1\" /></p><p>IT之家查询公开资料获悉，上海东方算芯科技有限公司成立于 2024 年 5 月 20 日，总部设于上海张江，在北京、南京、西安、成都、苏州、深圳等设有分部，目前团队规模超 500 人。</p><p>东方算芯宣称依托自主原创的软件定义芯片、近存计算两大核心技术，基于全国产化供应链体系，研发打造了高性能、高能效、高灵活性的大算力芯片产品，搭建自主可控的生态系统。公司产品包括软件定义超高性能近存计算芯片、基础软件与应用软件、高性能服务器和大规模集群系统解决方案等。</p>",
-      "published": "2026-07-18T10:39:54+08:00",
-      "fetched_at": "2026-07-18T10:41:52.789936+08:00",
-      "pre_filter_reason": "AI芯片产品发布，直接相关",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 9,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.1,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "3D AI芯片DF1000科普：什么是软件定义近存计算？",
-          "angle": "用通俗语言和动画图解，解释近存计算如何减少数据搬运、提升能效，并对比传统芯片架构，让观众理解DF1000的520 TFLOPS算力意义。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "国产芯片突破：DF1000如何改变AI推理与训练格局？",
-          "angle": "分析DF1000在边缘计算、大模型推理场景中的潜在应用，探讨其软件定义特性对开发者生态的影响。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "fb4cb7e6336e",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "OpenAI 回应 GPT-5.6 Sol AI 意外删除用户文件：已采取措施降低风险",
-      "link": "https://www.ithome.com/0/978/347.htm",
-      "summary": "<p>IT之家 7 月 18 日消息，OpenAI 核心产品负责人蒂博 · 索蒂奥（Tibo Sottiaux）于 7 月 16 日在 X 平台发布推文，<strong>回应 GPT-5.6 Sol 会擅自删除用户文件问题。</strong></p><p>IT之家曾于 7 月 15 日报道，多名用户反馈在使用 OpenAI 最强模型 GPT-5.6 Sol 后，<a href=\"https://www.ithome.com/0/976/792.htm\" target=\"_blank\">该模型没有事先询问便擅自删除了文件、数据，甚至整个数据库</a>。</p><p>索蒂奥在推文中回应表示，这种情况通常发生在“完全访问”模式下，且 Codex 在无沙盒保护的情况下运行，包括未启用自动审核。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/a75dc136-3683-4273-a967-19aa0018c1de.png\" /></p><p>在这些特定设置中，AI 模型在执行任务时，本意是尝试通过覆盖环境变量 $HOME 来定义一个临时工作目录，但该操作在实际运行中出现失误，导致系统转而删除了整个 $HOME 目录。</p><p>索蒂奥将此次事件归因于 AI 系统的一次“意外失误”。为应对这一风险，OpenAI 目前正在采取多项紧急缓解措施。</p><p>该公司正在更新“完全访问模式”下的开发者提示信息，以明确告知用户在授予该权限时可能面临的操作影响，并引导用户切换至更安全的权限模式。同时，OpenAI 还在系统中加固了额外的防护措施，以防止此类误操作再次发生。</p>",
-      "published": "2026-07-18T08:36:56+08:00",
-      "fetched_at": "2026-07-18T10:41:52.790117+08:00",
-      "pre_filter_reason": "OpenAI模型GPT-5.6 Sol相关",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "GPT-5.6 Sol误删文件事件复盘：AI安全边界在哪里？",
-          "angle": "梳理事件经过与OpenAI回应，分析模型自主删除行为的潜在技术原因（如指令误解、权限过宽），并给出用户保护数据的实用建议。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "从GPT-5.6 Sol事故看AI代理权限管理最佳实践",
-          "angle": "分享如何通过沙箱隔离、操作确认机制、日志审计等手段，防止AI代理误操作导致数据丢失，适用于开发者和企业IT管理者。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "29967cf66fb0",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "search",
-      "title": "中国AI公司月之暗面发布全球最大规模开源模型 - DW.com",
-      "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxPd1JYUmFMRTc0V1RFZ2JYWE0yZkVQS1VtV1pabnZOXzE2VmVhSUFEb3hWUWczaUxfamVkU0JwcE1BY29HLW14dm4zR05MWTQ3SzVOSkVLUkhSWmRSRy1NWXF1LXl2dFVLRjJua3Fpcm5sZFpyUnprN0hNNDdsRXY5dy1LSDRzZi1sMGFKNm96aXVPQ3B6VVQ4UEtaVzNsTEljZ1lydExlMnp4bFQ0aFBsWnRGWFB4MjF5dWhEY2szcEFGNG1WVnFHNy16T0laQ0FjUUNnYmx4M1pod0dob2NHdnZGRERFV0E0emRZU3Azd05OMXh2bmV3cE9sVC1kNEpQN1VWX2w3M2YycHdSRk5fLUxURjVWVU9uTWFEZTN0R1JzMFFmdkt5aE81R3I2eDRMUExhZndpSkF3U0HSAbsCQVVfeXFMUHQ0dk15M192ZDczNTdBcVJLMFp5WkFSZ3hZLTJTZmx6SkZ5Q2kweWs2WnVoWE02eDRSVG16SGMxd2lVRWhuQWluaGhoRW5TVS1CcUctQ1VxQ0JLWUstd0l1SkJiSUM4YzBJcndXYTFXZG5CS1BpbmhWQ0dPZTlUYWtWWmdpZDFYTVBSaFBKczh5dTY3bmg0N1Y5Q0Y1QnAxZlFnLUNrUmF6Nzl0QlM0MHgyMlBoc05sN0tvMEhieHRNb2dmUUFodVZ3RGZHMDJOUlhreFk4YVNzaExFY2lEVk5WQ0k2ODZ1UEZoX3BPT0RqOGt4UG5aUk1rbW5PMVJ0T25EcWYwN0dqNVlHaVFudTBmVGZCVVU5LW02dEZKcG1hR1lmdVdsSGNJRXc4NXdJcl9rc1ZBRDlHRHZr?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwJBVV95cUxPd1JYUmFMRTc0V1RFZ2JYWE0yZkVQS1VtV1pabnZOXzE2VmVhSUFEb3hWUWczaUxfamVkU0JwcE1BY29HLW14dm4zR05MWTQ3SzVOSkVLUkhSWmRSRy1NWXF1LXl2dFVLRjJua3Fpcm5sZFpyUnprN0hNNDdsRXY5dy1LSDRzZi1sMGFKNm96aXVPQ3B6VVQ4UEtaVzNsTEljZ1lydExlMnp4bFQ0aFBsWnRGWFB4MjF5dWhEY2szcEFGNG1WVnFHNy16T0laQ0FjUUNnYmx4M1pod0dob2NHdnZGRERFV0E0emRZU3Azd05OMXh2bmV3cE9sVC1kNEpQN1VWX2w3M2YycHdSRk5fLUxURjVWVU9uTWFEZTN0R1JzMFFmdkt5aE81R3I2eDRMUExhZndpSkF3U0HSAbsCQVVfeXFMUHQ0dk15M192ZDczNTdBcVJLMFp5WkFSZ3hZLTJTZmx6SkZ5Q2kweWs2WnVoWE02eDRSVG16SGMxd2lVRWhuQWluaGhoRW5TVS1CcUctQ1VxQ0JLWUstd0l1SkJiSUM4YzBJcndXYTFXZG5CS1BpbmhWQ0dPZTlUYWtWWmdpZDFYTVBSaFBKczh5dTY3bmg0N1Y5Q0Y1QnAxZlFnLUNrUmF6Nzl0QlM0MHgyMlBoc05sN0tvMEhieHRNb2dmUUFodVZ3RGZHMDJOUlhreFk4YVNzaExFY2lEVk5WQ0k2ODZ1UEZoX3BPT0RqOGt4UG5aUk1rbW5PMVJ0T25EcWYwN0dqNVlHaVFudTBmVGZCVVU5LW02dEZKcG1hR1lmdVdsSGNJRXc4NXdJcl9rc1ZBRDlHRHZr?oc=5\" target=\"_blank\">中国AI公司月之暗面发布全球最大规模开源模型</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">DW.com</font>",
-      "published": "2026-07-17T22:56:50+08:00",
-      "fetched_at": "2026-07-18T10:41:55.819729+08:00",
-      "pre_filter_reason": "AI company launches open-source model",
+      "title": "谷歌安卓系统最新漏洞曝光：Gemini 可绕过锁屏密码发送短信，官方即将修复",
+      "link": "https://www.ithome.com/0/978/622.htm",
+      "summary": "<p>IT之家 7 月 19 日消息，据科技媒体 GSMArena 昨天报道，谷歌安卓系统存在一项身份验证绕过漏洞，可让攻击者在拥有物理访问权限的情况下，不输入锁屏密码就能通过 Gemini 发送短信或 WhatsApp 消息。</p><p style=\"text-align: center;\"><img class=\"not-source\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/587d3ad6-460a-4a55-9832-e08f0b31d84c.jpg?x-bce-process=image/format,f_auto\" /></p><p>IT之家从原报道了解到，该漏洞自今年 5 月以来被人们发现，最初是在 Android 16 系统、Pixel 6a 手机中复现。正常情况下，如果用户禁止 Gemini 访问消息等应用时，有人在锁屏界面要求 Gemini 发送短信，系统会就要求输入 PIN 码验证身份。</p><p>然而，如果用户这时同时按下“继续”（Continue）和“添加附件”（Add attachment）按钮，<strong>系统就会无视输入密码环节直接发送短信</strong>。并且攻击者还可以在锁屏界面，重新打开其他应用的访问权限。例如只需要在输入框键入“@WhatsApp”就能触发重新连接 WhatsApp 的提示，同样无需输入密码。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/7/ba996b07-5292-4e94-af71-f222fd333c5f.jpg?x-bce-process=image/format,f_auto\" /></p><p>虽然这种攻击手段并不能远程实施，但在现实生活中，手机被短暂遗落、被偷的情况并不少见，因此这种漏洞依然具有现实风险。</p><p>谷歌发言人对此表示，公司已经知悉该漏洞，并计划本周大范围推送修复补丁。</p>",
+      "published": "2026-07-19T08:35:39+08:00",
+      "fetched_at": "2026-07-19T10:55:46.275536+08:00",
+      "pre_filter_reason": "AI vulnerability in Gemini",
       "scores": {
         "importance": 8,
         "timeliness": 9,
@@ -138,258 +27,314 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "月之暗面发布全球最大开源模型：开发者如何快速上手？",
-          "angle": "介绍模型规模、开源协议与硬件需求，并提供从下载、部署到简单推理的快速入门指南，帮助开发者第一时间体验。",
+          "title": "安卓锁屏漏洞：Gemini 如何绕过密码发送短信？",
+          "angle": "演示该漏洞的具体操作步骤，并给出用户临时防范建议（如关闭Gemini锁屏权限）。",
           "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "全球最大开源模型技术解析：月之暗面如何突破训练与推理瓶颈？",
-          "angle": "深入分析模型架构创新（如MoE、稀疏注意力）、训练数据策略及分布式推理优化方案，适合AI研究员与高级工程师。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "43d77b559f3c",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "A scorecard for the AI age",
-      "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
-      "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
-      "published": "2026-07-17T18:00:00+08:00",
-      "fetched_at": "2026-07-18T10:41:38.061739+08:00",
-      "pre_filter_reason": "short",
-      "scores": {
-        "importance": 6,
-        "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 6,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "AI投资回报率怎么算？OpenAI CFO教你用“AI记分卡”",
-          "angle": "用实际案例解释四个核心指标（有用工作、单次成功成本、可靠性、计算回报），并给出Excel模板，帮助企业评估AI项目价值。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "构建AI记分卡：从指标定义到自动化监控的完整方案",
-          "angle": "针对数据团队，演示如何将OpenAI的记分卡框架落地为自动化仪表盘，集成到现有BI工具中，实时追踪AI投入产出。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "41abbb9586e3",
-      "source_id": "baidu-hot",
-      "source_name": "百度热搜",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "hotlist",
-      "title": "美股半导体指数跌入熊市",
-      "link": "https://www.baidu.com/s?wd=美股半导体指数跌入熊市",
-      "summary": "7月16日，月之暗面科技有限公司发布新一代模型Kimi K3，参数规模达2.8万亿。这是目前全球参数最大的开源模型，标志着我国人工智能模型发展迈出新的一步。彭博社17日报道称：因担忧DeepSeek时刻重现，美国股市本周收低，费城半导体指数下跌1.6%，跌幅扩大至20%，达到“熊市”定义标准。",
-      "published": "2026-07-18T10:41:54.549205+08:00",
-      "fetched_at": "2026-07-18T10:41:54.549206+08:00",
-      "pre_filter_reason": "涉及AI模型发布及对股市影响",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 7.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Kimi K3模型发布，美股半导体指数为何跌入熊市？",
-          "angle": "解读Kimi K3模型的技术突破如何引发市场对DeepSeek时刻的担忧，并分析其对半导体行业的连锁影响。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "从Kimi K3看开源大模型对股市的冲击",
-          "angle": "以Kimi K3为例，讲解开源大模型参数规模扩大如何改变AI竞争格局，并导致美股半导体指数下跌。",
+          "tag": "news",
+          "title": "谷歌安卓惊现高危漏洞：Gemini 可绕过锁屏发短信",
+          "angle": "解读漏洞原理、影响范围及官方修复进展，提醒用户注意物理安全。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "4ecb2664b19b",
+      "id": "7a615ed1ef35",
       "source_id": "reddit-ml",
       "source_name": "Reddit r/MachineLearning",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "Tried testing qwen 35b moe model on s26 ultra , without compromising on precision [R] ,[D]",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1uzik5s/tried_testing_qwen_35b_moe_model_on_s26_ultra/",
-      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Started testing a private qwen 35B moe capacity LLM runtime on s26 ultra, early testing shows that active model footprint can fit within the device’s memory limits.( not sharing the methods or architecture used) and results suggest roughly 90 input processing t/s achievable after optimisation and output generation is around 8 tokens/s on this mobile.</p> <p>Point is i learned ai ml based on my interest and no formal PhD , I have compute and resources to test. Anyone willing to join or collab to test on this</p> <p>I tried publishing papers on arxiv and 4 papers are still on hold as im first author and from no institution...</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Severe_Post_2751\"> /u/Severe_Post_2751 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uzik5s/tried_testing_qwen_35b_moe_model_on_s26_ultra/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uzik5s/tried_testing_qwen_35b_moe_model_on_s26_ultra/\">[comments]</a></span>",
-      "published": "2026-07-18T09:40:59+08:00",
-      "fetched_at": "2026-07-18T10:42:00.287252+08:00",
-      "pre_filter_reason": "测试qwen 35B MoE模型，涉及LLM/AI模型",
+      "title": "Did blatant AI Slop just win a 25K USD Deepmind / Kaggle Grand Prize? [D]",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1uzyf66/did_blatant_ai_slop_just_win_a_25k_usd_deepmind/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>The Google DeepMind-sponsored Kaggle challenge &quot;Measuring Progress Toward AGI - Cognitive Abilities&quot; asked participants to design new cognitive-science-based AI benchmarks and they just announced the results this week.</p> <p>In my two posts I present evidence that deepmind &amp; kaggle rewarded a nonsensical number generation machine and a litany of unfounded claims with 25k and a grand prize stamp.</p> <p>What the authors of the work I analyze intended to do was to present an LLM with alternative viewpoints of other LLMs on 5 claims regarding a tricky situation and see whether the model changes its own assessment. It's an interesting question. However, it turned into a vibed pile of spaghetti 10 times the size of the requested submission format which it seems neither the authors nor the judges were able to (or minded to?) give a cursory reading. </p> <p>Here's the original posts in the competition forum, if you are looking for some AI research slop detective work / rant please help yourselves. But beware, some of the &quot;universal findings&quot; or &quot;core insights&quot; of the authors might continue to haunt you. You might even question your own sanity (as I did).</p> <p><a href=\"https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423\">Part 1: The Smoke:</a> cursory review of the writeup </p> <p><a href=\"https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3499469\">Part 2: The Fire: </a>looking at the methodology, code, and data</p> <p>The organizers' stance has been that review was done properly and this is just a matter of subjectivity. What do you think? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TheWerkmeister\"> /u/TheWerkmeister </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uzyf66/did_blatant_ai_slop_just_win_a_25k_usd_deepmind/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1uzyf66/did_blatant_ai_slop_just_win_a_25k_usd_deepmind/\">[comments]</a></span>",
+      "published": "2026-07-18T23:10:52+08:00",
+      "fetched_at": "2026-07-19T10:55:51.556185+08:00",
+      "pre_filter_reason": "DeepMind/Kaggle AI benchmark competition.",
       "scores": {
-        "importance": 7,
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 9,
+        "virality": 9,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "DeepMind/Kaggle大奖被AI“垃圾”作品赢走？",
+          "angle": "分析争议焦点：AI生成内容是否应参与AI基准测试设计竞赛，探讨评审标准与公平性。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "12e1503b30a5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "妙啊！无人机直连卫星传Token",
+      "link": "https://www.qbitai.com/2026/07/453789.html",
+      "summary": "世界人工智能大会最高奖",
+      "published": "2026-07-18T16:17:18+08:00",
+      "fetched_at": "2026-07-19T10:55:42.480186+08:00",
+      "pre_filter_reason": "Mentions World AI Conference",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "无人机直连卫星传Token：世界人工智能大会最高奖技术解析",
+          "angle": "用通俗语言解释无人机如何通过卫星直接传输Token，以及该技术对通信和AI边缘计算的潜在影响。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "7ac46932873a",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "WAIC 2026 ｜李未可 发布全球首款X-AI记忆眼镜",
+      "link": "https://www.leiphone.com/category/industrynews/wUFNlyBF4e1FwnS6.html",
+      "summary": "<p>7月17日，2026世界人工智能大会（WAIC）在上海开幕。AI创新品牌李未可携全新品类力作重磅亮相，现场正式发布全球首款AI记忆眼镜——李未可X-AI记忆眼镜，以“长期记忆”为核心突破，将可穿戴硬件从“功能工具”推向“随身智能伙伴”，重新定义下一代随身AI交互形态。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260718/6a5afbe170d81.png?imageView2/2/w/740\" />&nbsp;</p><p><strong>真正的AI眼镜，是让AI听见、看见这个世界，再让它拥有记忆</strong></p><p>区别于传统AI眼镜聚焦单次拍照、翻译、问答的工具化能力，李未可X-AI记忆眼镜以“eXtended Memory记忆延伸”为产品哲学，跳出浅层交互内卷，锚定AI Agent时代核心趋势，打造可实时捕捉、结构化沉淀、可召回、可执行的完整现实记忆体系，完成AI眼镜从“功能工具”到“随身记忆智能伙伴”的品类跃迁。</p><p>目前，新品已开启全平台官方预约，用户仅支付1元即可锁定首批限量资格，更可享预售直抵300元购机权益，整机最低到手价499元起，支持标准版机身与磁吸摄像模组灵活选配。</p><p>轻量化模块化硬件设计，兼顾长效佩戴与隐私安全</p><p>在硬件体验层面，李未可兼顾轻量化佩戴、模块化自由与隐私安全，解决行业长期存在的功能与佩戴感失衡难题。整机主体仅26g，贴近日常光学眼镜佩戴体验，适配全天候长效佩戴；创新透明镜腿设计兼具科技质感与简约外观，支持9款镜框快拆自由更换。独立磁吸摄像模组重约10g，支持1200万像素拍照、1440P视频录制，可按需拆装，既满足视觉记录需求，也以物理模块化设计明确隐私边界，适配会议、办公等敏感场景。整机配备多麦克风阵列，支持10小时以上持续录音、30天超长待机，为全天候记忆捕捉筑牢硬件基础。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260718/6a5afbe1b0da7.png?imageView2/2/w/740\" />&nbsp;</p><p>&nbsp;<strong>四大核心能力落地，实现真实场景记忆结构化管理</strong></p><p>依托数万条真实场景数据与13维精细化标注体系，李未可搭建行业领先的自研Memory Policy Engine（记忆策略引擎），构建记得住、守得牢、理得清、做得到四层核心能力。设备可智能识别关键场景，自动启停记录日常对话与商务场景信息，自动生成纪要与待办；通过分层记忆管理、可见式录制状态、一键清除导出等机制，严守用户数据主权与隐私安全；同时智能提炼人物、事件、时间、任务等结构化信息，实现精准记忆召回。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260718/6a5afbcbcbcf4.png?imageView2/2/w/740\" />&nbsp;</p><p>&nbsp;<strong>携手腾讯云构建可穿戴 AI 记忆生态</strong></p><p>发布会现场，李未可宣布与腾讯云WorkBuddy生态合作正式落地。作为WorkBuddy生态首批战略共创伙伴，李未可以AI记忆眼镜为硬件入口，依托自研Wake-AI 3.0与WakeeMemory现实记忆架构，打通真实世界信息录入、长期记忆整理与智能体执行交付的完整链路，让线下会议、面谈、差旅、商务交流等真实场景信息，可直接转化为AI办公可识别、可执行、可落地的结构化任务。借助腾讯云WorkBuddy的专业办公能力，还能自动生成文稿、PPT、日程安排，完成任务跟进、内容优化与跨系统流转，真正实现“现实感知—记忆沉淀—办公落地”闭环，补齐了AI Agent线下场景落地的关键短板。</p><p style=\"text-align: left;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260718/6a5afbcbcc837.png?imageView2/2/w/740\" />&nbsp;<span style=\"text-align: left;\">随着智能体记忆赛道迎来高速增长，可穿戴硬件作为AI连接真实世界的核心入口，价值持续凸显。此次WAIC首发，标志着李未可成功开辟AI记忆眼镜全新赛道，以硬件入口、自研记忆架构、生态协同的差异化优势，推动AI从线上虚拟交互，全面走向现实生活、商务办公的长效服务，为可穿戴AI与智能体生态融合提供全新行业范式。</span></p><p style=\"text-align: left;\">&nbsp;</p><p><br /></p>",
+      "published": "2026-07-18T12:09:00+08:00",
+      "fetched_at": "2026-07-19T10:55:39.859048+08:00",
+      "pre_filter_reason": "AI记忆眼镜产品发布",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 9,
+        "virality": 8,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "李未可发布全球首款AI记忆眼镜：随身智能伙伴来了",
+          "angle": "介绍产品核心功能“长期记忆”如何改变人机交互，对比现有智能眼镜的差异。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "43166c7b68e3",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "search",
+      "title": "星智X-Intelligence大模型自动化评测超越Gemini 3.1 Pro、GPT-5.5 high；全球首款机器人手机荣耀Robot Phone开启预约｜封面科技周报 - 搜狐网",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jTURwd0ZQd0E5RkU3ZjNmcFB5clJYZm84eVkzRzNRaWlpODNYQldjd3o3SnQzb0VRR0FOTGI3NEFCSEc3a2QwVzN6TmNkNl9waXRseDdR?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jTURwd0ZQd0E5RkU3ZjNmcFB5clJYZm84eVkzRzNRaWlpODNYQldjd3o3SnQzb0VRR0FOTGI3NEFCSEc3a2QwVzN6TmNkNl9waXRseDdR?oc=5\" target=\"_blank\">星智X-Intelligence大模型自动化评测超越Gemini 3.1 Pro、GPT-5.5 high；全球首款机器人手机荣耀Robot Phone开启预约｜封面科技周报</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">搜狐网</font>",
+      "published": "2026-07-19T10:48:39+08:00",
+      "fetched_at": "2026-07-19T10:55:49.306549+08:00",
+      "pre_filter_reason": "Mentions AI model evaluation and robot phone, both AI-related.",
+      "scores": {
+        "importance": 8,
         "timeliness": 9,
         "actionability": 8,
         "scarcity": 8,
         "virality": 8,
-        "crowd_heat": 0.0
+        "crowd_heat": 3.5
       },
-      "quality_score": 7.6,
+      "quality_score": 7.7,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "如何在三星S26 Ultra上运行Qwen 35B MoE模型？",
-          "angle": "展示在移动设备上部署大语言模型的技术要点，包括内存优化和推理速度测试。",
-          "difficulty": "入门"
+          "tag": "news",
+          "title": "星智大模型评测超越Gemini 3.1 Pro和GPT-5.5 high",
+          "angle": "解读星智X-Intelligence在自动化评测中的优势，分析其对国产大模型竞争格局的意义。",
+          "difficulty": "中级"
         },
         {
-          "tag": "tutorial",
-          "title": "Qwen 35B MoE模型在手机上的性能实测",
-          "angle": "通过实际测试数据，分析大模型在移动端的可行性和应用前景。",
+          "tag": "news",
+          "title": "全球首款机器人手机荣耀Robot Phone开启预约",
+          "angle": "介绍Robot Phone的独特功能（如机器人形态、AI助手），并探讨手机形态创新的趋势。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "de9760e884e9",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "2 年 100 亿美元：消息称 Anthropic 拟租赁 Meta 的 AI 算力",
-      "link": "https://www.ithome.com/0/978/356.htm",
-      "summary": "<p>IT之家 7 月 18 日消息，纽约时报昨日（7 月 17 日）发布博文，报道称 Meta 和 Anthropic 公司正洽谈算力租赁协议，<strong>合同为期 2 年、总额最高 100 亿美元（现汇率约合 678.46 亿元人民币），按月付款，双方均可提前退出。</strong></p><p>IT之家援引博文介绍，Anthropic 公司于今年 6 月向 Meta 公司提出该交易，潜在规模最高 100 亿美元，周期为 2 年，如果按总额均分，Anthropic 每月支付约 4.17 亿美元（IT之家注：现汇率约合 28.29 亿元人民币）。</p><p>知情人士透露该协议细节目前正在商榷中，根据初步规划，Anthropic 计划按月支付款项，而且补充协议条款中，两家公司都可以提前终止协议。</p><p>纽约时报评论称对 Meta 而言，若协议落地，算力租赁可能成为新业务线，也可能缓解投资者对其数据中心支出的压力。</p><p>Anthropic 方面，报道称其因企业软件产品 Claude Code 发布后需求上升，需要与拥有大规模处理能力的企业合作，以服务扩大的客户群</p>",
-      "published": "2026-07-18T09:20:52+08:00",
-      "fetched_at": "2026-07-18T10:41:52.790048+08:00",
-      "pre_filter_reason": "AI算力租赁涉及AI公司Anthropic和Meta的AI基础设施",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Anthropic拟租赁Meta算力：100亿美元交易背后的AI算力市场",
-          "angle": "解析Anthropic与Meta的算力租赁协议，探讨AI公司如何通过租赁模式获取算力资源。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "算力租赁协议如何影响AI行业？以Anthropic和Meta为例",
-          "angle": "从商业模式角度，分析算力租赁对AI公司成本控制和市场竞争的影响。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "f9f31bb8315d",
+      "id": "4d94027a68d6",
       "source_id": "infoq-cn",
       "source_name": "InfoQ中国",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "WAIC 2026 | 混元Hy3大模型首秀，腾讯上线AI技能支付体系",
-      "link": "https://www.infoq.cn/article/FeWLPKLYDjWko8rJjxKq?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/FeWLPKLYDjWko8rJjxKq?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-07-18T05:01:17+08:00",
-      "fetched_at": "2026-07-18T10:41:47.467168+08:00",
-      "pre_filter_reason": "AI product launch",
+      "title": "腾讯发布三大具身基座模型，打通“感知—行动”闭环，工业实测成功率超95%",
+      "link": "https://www.infoq.cn/article/uD0p2FcQE2JKSwYY1wXK?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/uD0p2FcQE2JKSwYY1wXK?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-07-19T15:55:01+08:00",
+      "fetched_at": "2026-07-19T10:55:41.203596+08:00",
+      "pre_filter_reason": "AI embodied foundation models",
       "scores": {
         "importance": 8,
         "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 10.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "腾讯混元Hy3大模型首秀：AI技能支付体系是什么？",
-          "angle": "介绍混元Hy3模型的技术亮点，并解读腾讯推出的AI技能支付体系如何运作。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "从WAIC 2026看腾讯AI战略：混元Hy3与技能支付",
-          "angle": "结合大会发布，分析腾讯在AI领域的布局，重点讲解技能支付体系的创新点。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "deaeb2eb9b7d",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "医疗AI独角兽OpenEvidence再传融资意向，潜在估值升至200亿美元",
-      "link": "https://36kr.com/newsflashes/3900510926276486?f=rss",
-      "summary": "7月18日消息，据报道，有“医生版ChatGPT”之称的医疗人工智能初创公司OpenEvidence正在酝酿新一轮的融资计划。据悉，由于其在临床决策辅助和医学数据解析领域的强劲表现，外部风险投资机构正开出高达200亿美元的潜在估值，积极争取入股份额。",
-      "published": "2026-07-18T10:30:43+08:00",
-      "fetched_at": "2026-07-18T10:41:42.139585+08:00",
-      "pre_filter_reason": "医疗AI独角兽融资",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
         "actionability": 8,
         "scarcity": 7,
         "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.5,
+      "quality_score": 7.6,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "医疗AI独角兽OpenEvidence估值200亿美元：医生版ChatGPT如何炼成？",
-          "angle": "介绍OpenEvidence在临床决策辅助和医学数据解析方面的核心技术，分析其高估值原因。",
+          "title": "腾讯具身模型实战：如何用“感知-行动”闭环让工业机器人成功率超95%",
+          "angle": "拆解腾讯三大具身基座模型的技术原理，用通俗案例讲解“感知-行动”闭环如何提升工业任务成功率，并给出开发者入门建议。",
           "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "OpenEvidence融资意向解读：医疗AI独角兽的崛起之路",
-          "angle": "从融资背景和产品功能出发，讲解OpenEvidence如何成为医疗AI领域的明星公司。",
+          "tag": "analysis",
+          "title": "工业实测95%成功率背后：腾讯具身模型如何改变制造业？",
+          "angle": "分析该模型对工业自动化的实际影响，对比传统方案优势，并展望未来应用场景。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "d5937b037224",
-      "source_id": "ifanr",
-      "source_name": "爱范儿",
+      "id": "79ea550e086d",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "早报｜苹果上调Apple Music价格/小米SU7虚假碰撞测评博主被判一年八个月/努比亚、阶跃星辰智能体手机亮相WAIC",
-      "link": "https://www.ifanr.com/1672338?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "· 智谱 ARR 被曝达到 10 亿美元，半年增长 15 倍\n· Shopify CEO：反 AI 编程的人严重高估了人类代码质量\n· 影石与荣耀达成影像生态合作，计划年底前进驻 300 家荣耀门店<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
-      "published": "2026-07-18T08:49:59+08:00",
-      "fetched_at": "2026-07-18T10:41:51.489498+08:00",
-      "pre_filter_reason": "包含智谱AI、反AI编程、智能体手机等AI内容",
+      "title": "火速上架！空降即登顶Arena，Kimi K3当日登陆「模型广场」",
+      "link": "https://www.infoq.cn/article/NtfFE25blBHubhNNTmkJ?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/NtfFE25blBHubhNNTmkJ?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-07-19T01:14:05+08:00",
+      "fetched_at": "2026-07-19T10:55:41.203610+08:00",
+      "pre_filter_reason": "Kimi K3 is an AI model, launch news.",
       "scores": {
         "importance": 7,
         "timeliness": 9,
         "actionability": 8,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Kimi K3空降Arena榜首：如何快速上手体验新模型？",
+          "angle": "介绍Kimi K3的核心能力与登顶背景，手把手教用户如何在“模型广场”使用和测试该模型。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "Kimi K3登顶Arena意味着什么？国产大模型竞争格局解读",
+          "angle": "分析Kimi K3在性能、生态上的突破，对比其他国产模型，探讨其对行业的影响。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "4b1cd6d3f0d1",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "腾讯升级发布具身智能全栈方案，ADP 4.0海外版正式上线",
+      "link": "https://36kr.com/newsflashes/3900908700436103?f=rss",
+      "summary": "7月18日，在2026世界人工智能大会（WAIC）上，腾讯面向具身智能与智能体领域带来多项产品技术的升级发布。在具身智能领域，腾讯正式升级发布具身智能全栈方案，贯穿云底座、模型层、平台层与应用层，全面助力机器人本体及系统开发商提质提效；在智能体领域，基于个人与企业提效需求，推出差异化的全矩阵解决方案。其中，面向企业用户的腾讯云企业级智能体开发平台ADP4.0海外版正式上线，同时发布「十大行业百大场景生态计划」，目前该平台已落地30多个行业，覆盖智能客服、知识管理、媒体生产等业务场景；面向个人用户的腾讯WorkBuddy正式发布独立App，成为业界首个登陆iOS、Android、鸿蒙三端的通用智能体应用。",
+      "published": "2026-07-18T17:30:23+08:00",
+      "fetched_at": "2026-07-19T10:55:36.074216+08:00",
+      "pre_filter_reason": "AI产品发布",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
         "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "腾讯ADP 4.0海外版上线：企业如何用智能体开发平台快速搭建客服系统？",
+          "angle": "以智能客服场景为例，演示ADP 4.0的配置流程、核心功能与落地效果，适合企业决策者。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "从ADP 4.0到WorkBuddy：腾讯智能体全矩阵如何赋能个人与企业？",
+          "angle": "梳理腾讯智能体产品线（企业版+个人版），分析其差异化策略与行业覆盖案例。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "9c3c4ea57650",
+      "source_id": "baidu-hot",
+      "source_name": "百度热搜",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "hotlist",
+      "title": "“高考估分715查分299”？警方通报",
+      "link": "https://www.baidu.com/s?wd=“高考估分715查分299”？警方通报",
+      "summary": "近日，一篇 “高考估分715查分299” 的网文引发热议，经核查内容纯属编造，本地无涉事考生。警方抓获发帖人周某，其借助AI批量生成虚假网文牟利，已被依法行政拘留。",
+      "published": "2026-07-19T10:55:48.008257+08:00",
+      "fetched_at": "2026-07-19T10:55:48.008258+08:00",
+      "pre_filter_reason": "AI used to generate fake content.",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 9,
+        "crowd_heat": 7.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "警惕AI造谣：如何用简单方法识别AI生成的虚假新闻？",
+          "angle": "以“高考估分715查分299”事件为例，教用户从语言风格、逻辑漏洞、来源核查三方面辨别AI假新闻。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "AI批量造谣被拘：生成式内容的法律红线与平台责任",
+          "angle": "分析该案例的法律后果，讨论AI生成内容的监管挑战及平台审核机制。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "6603d7c28278",
+      "source_id": "baidu-hot",
+      "source_name": "百度热搜",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "hotlist",
+      "title": "本周中国硬核成果密集上新",
+      "link": "https://www.baidu.com/s?wd=本周中国硬核成果密集上新",
+      "summary": "全球首个千亿参数级气象大模型开源、首艘深海智能化海缆船入列、首颗自研AI芯片亮相……本周，从人工智能到深海装备，从芯片突破到高铁飞驰，我国多领域密集“上新”，硬核成果接连刷屏。",
+      "published": "2026-07-19T10:55:48.008201+08:00",
+      "fetched_at": "2026-07-19T10:55:48.008203+08:00",
+      "pre_filter_reason": "Mentions AI chip, meteorological AI model, and other AI-related breakthroughs.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 6,
         "virality": 8,
         "crowd_heat": 7.0
       },
@@ -397,332 +342,184 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "苹果涨价了！你的Apple Music订阅还香吗？",
-          "angle": "对比新旧价格，分析涨价原因，并给出是否续订的建议。",
+          "title": "本周硬核成果盘点：千亿气象大模型、AI芯片、深海缆船一图看懂",
+          "angle": "用信息图或短视频形式，快速介绍四大成果的核心突破与意义，适合科普传播。",
           "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "小米SU7虚假测评案宣判：博主被判刑，自媒体红线在哪？",
-          "angle": "解析案件判决依据，科普自媒体内容创作的法律风险与合规要点。",
+          "tag": "analysis",
+          "title": "一周内密集上新：中国硬核科技为何能“刷屏”？",
+          "angle": "从政策、研发投入、产业生态等角度分析中国科技密集突破的驱动力。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "da93219b5d06",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
+      "id": "e297092ba919",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "阶跃与支付宝达成AI Agent系统级合作，跨端协同迈向“能办事”",
-      "link": "https://www.leiphone.com/category/industrynews/owcf1OSxXWdhLsHd.html",
-      "summary": "<p>7月17日，在2026世界人工智能大会（WAIC）现场，支付宝与阶跃达成AI Agent系统级合作。双方围绕阶跃STEP-X原生AI终端展开深度协同，用户通过自然语言即可调用AI版支付宝“阿宝”连接真实服务，实现跨应用、多任务执行，推动智能体迈入“跨端互联办事”新阶段。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260717/6a59f66b9fd05.png?imageView2/2/w/740\" /></p><p>此次合作中，STEP-X负责理解用户需求和系统调度，阿宝依托支付宝生态网络，连接出行、本地生活、支付等服务技能，双方通过支付宝自研异构智能体跨端互联方案AHA（Agent Hub-Access）完成任务协同，实现从需求理解、任务执行到服务交付的完整闭环。</p><p>随着千问、OPPO、阶跃等多种AI终端率先接入，阿宝正成为连接商家与AI终端最多的“智能体服务中枢”。据悉，多家手机、AI终端及车机等厂商正陆续推进合作。</p><p>&nbsp;</p><p><br /></p>",
-      "published": "2026-07-17T17:32:00+08:00",
-      "fetched_at": "2026-07-18T10:41:46.094670+08:00",
-      "pre_filter_reason": "short",
+      "title": "安谋科技发起“开源 AIOS 联盟”，合作伙伴包含瑞芯微、紫光展锐、全志等",
+      "link": "https://www.ithome.com/0/978/628.htm",
+      "summary": "<p>IT之家 7 月 19 日消息，安谋科技在 2026 世界人工智能大会期间宣布发起“开源 AIOS 联盟”，目前已吸引超 20 家生态伙伴入驻，涵盖芯片与 IP、大模型、AI 硬件、具身本体、软件方案、高校、科研等国内 AI 产学研全链路。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/a48db532-e368-4fda-8d57-4a41e2e40398.png?x-bce-process=image/format,f_auto\" /></p><p>IT之家从安谋科技公众号了解到，开源 AIOS 系统聚焦 AI 模型能力、传感与运控、AI 任务编排、记忆系统四大技术模块，有望重塑基于感知的生成式交互和具身互动体验，面向新一代 AI 产品。</p><p>目前，<strong>“开源 AIOS 联盟”已有 20 家生态合作伙伴</strong>，其中牵头单位包括芯发科技、紫光展锐、<span>瑞芯微</span>、辉羲智能、此芯科技、全志科技等国内领先的芯片厂商，以及面壁智能、RT-Thread、AutoCore 等本土模型及软硬件方案提供商。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/ef9e7f49-8fb8-4e77-b099-01ba78d2ce10.png?x-bce-process=image/format,f_auto\" /></p><p>此外，清华大学智能产业研究院、香港科技大学物理 AI 研究中心等顶尖高校及科研机构也作为学术伙伴同步加入联盟。</p>",
+      "published": "2026-07-19T09:19:32+08:00",
+      "fetched_at": "2026-07-19T10:55:46.275472+08:00",
+      "pre_filter_reason": "AIOS联盟涉及AI生态",
       "scores": {
         "importance": 8,
         "timeliness": 9,
         "actionability": 8,
         "scarcity": 7,
         "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "阶跃×支付宝：AI Agent如何帮你“跨应用办事”？",
-          "angle": "演示通过自然语言调用支付宝服务（如点外卖、查账单）的实操流程，突出跨端协同优势。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "AI Agent落地新范式：阶跃与支付宝合作背后的技术逻辑",
-          "angle": "拆解“跨端互联办事”的技术架构，分析AI Agent如何实现多任务执行。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "0903a7503323",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "36氪首发 | 港科大博士创业做机器人全身触觉系统，红杉、瓴智、智元共同押注",
-      "link": "https://36kr.com/p/3899128277452681?f=rss",
-      "summary": "<p>作者&nbsp;|&nbsp;乔钰杰</p>\n  <p>编辑&nbsp;|&nbsp;袁斯来</p>\n  <p>硬氪获悉，全身多模态融合触觉解决方案公司模感科技（MoSense）近日完成数千万元天使轮融资，投资方包括红杉中国、高瓴创投及智元机器人。本轮融资资金将主要用于加速研发、团队扩充、算力投入及量产测试体系建设。</p>\n  <p>模感科技成立于2026年5月，总部注册于上海，在深圳前海设有研发中心，聚焦机器人全身多模态触觉感知系统研发。公司正式成立仅一个月便获得头部美元基金及人形厂商的共同押注。</p>\n  <p>随着人形机器人逐步从展示场景走向工业制造、物流搬运及家庭服务等真实复杂人物场景，机器人对环境的全面泛化感知能力正成为制约落地的重要瓶颈。相比视觉能够获取环境信息，触觉负责感知接触、受力、摩擦等物理交互状态，是机器人完成稳定操作和自主决策的重要基础。</p>\n  <p>不过，目前行业中的触觉方案大多集中部署于灵巧手或夹爪指尖指腹等局部位置，仅能应对局部精细操作需求。在复杂场景下，机器人身体其他部位仍然缺乏触觉反馈，难以形成完整的物理交互能力。同时，多种传统技术路线还受到成本、面积覆盖和感知模态等因素限制，难以实现大面积、连续曲面的规模化部署。</p>\n  <p>为增强机器人的全面感知能力，模感科技推出了<strong>基于电磁超构力学技术的MoSkin全身柔性多模态触觉系统</strong>，覆盖机器人手部、四肢、躯干、足底等多个部位，可将机器人刚性的物理边界转化为连续的六维力场感知，实现全身范围内的多模态触觉采集，为机器人运动控制和环境交互提供更加完整的物理信息。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260717/v2_05fd6eb5360b4020bd04319290006794@5920579_oswg371311oswg459oswg700_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">电磁超构感知皮肤（足底）</p>\n  <p>针对传统触觉系统模态单一的问题，公司MoSkin方案可以集成多种复杂模态物理信息，如力觉、温度、滑移、振动、材质等，实现接近真实皮肤的感知能力。<strong>除硬件外，模感科技还在同步研发多模态融合算法。</strong></p>\n  <p>严朝旭介绍称，当前世界模型已能够在仿真环境中完成策略训练，但模型部署至真实机器人时仍面临Sim-to-Real鸿沟，<strong>其中一个重要原因便是真机缺乏完整的全身触觉反馈，导致物理交互状态无法真实映射。</strong></p>\n  <p>基于全身触觉硬件，公司研发了基于多模态隐空间融合门控机制的世界动作触觉预测模型，通过高频、多维触觉反馈不断修正低频决策过程，并利用全身触觉补充物理先验信息，进一步缩小仿真与真实环境之间的差距。</p>\n  <p>以搬运场景为例，当机器人感知到手部或身体局部摩擦力发生变化时，可提前判断物体存在滑落风险，并主动调整抓取策略，而不是等物体掉落后再进行纠正。公司希望通过全身多模态融合感知，让机器人在执行过程中持续学习、持续修正，进一步提升真实环境中的泛化能力。</p>\n  <p>团队方面，联合创始人兼CEO严朝旭博士毕业于香港科技大学微电子系，长期从事高频系统、电磁算法及具身多模态传感研究，拥有微电子器件产业化及量产经验。</p>\n  <p>联合创始人兼CTO周航博士毕业于香港科技大学机器人系，曾任国内车规级自动驾驶企业资深算法研究员，长期从事端到端自动驾驶模型、世界模型及具身智能算法研究。联合创始人兼CFO杨穆君拥有香港大学经济学硕士学位，曾在多家头部金融及科技公司任职，具备丰富的财务统筹和公司治理经验。</p>\n  <p>首席科学家温维佳现任香港科技大学讲座教授、香港科技大学（广州）功能枢纽院长，曾获国家自然科学二等奖，并入选爱思唯尔“全球前2%顶尖科学家”榜单，拥有连续创业及科技成果转化经验。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260717/v2_c91f300e88d54587a987445574772647@5920579_oswg633366oswg750oswg562_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">公司联合创始团队及首席科学家（图源/企业）</p>\n  <p>商业化方面，公司多模态融合触觉方案目前正在推进商业化落地，除人形机器人相关业务外，也在面向多行业拓展智能传感器落地合作。</p>\n  <p><strong>以下是硬氪和模感科技创始人严朝旭交流节选：</strong></p>\n  <p><strong>硬氪：公司对全身触觉未来的应用有什么规划？</strong></p>\n  <p><strong>严朝旭：</strong>大概有三个阶段：第一步机器人先要学会感知物理边界，完成基础的防碰撞、放夹伤、精细操作等功能，机器人作为生产工具，安全性比功能性重要。</p>\n  <p>第二步是在全身触觉的辅助下完成各种复杂任务，比如机器人如何抱着一个大箱子走路，要求在复杂环境中箱子不掉落并且机器人不摔倒，再进阶一些比如说感知到箱子要滑落的时候用大腿去顶一下箱子，或者抱着箱子没手去开门的时候，它可以用脚或者胯去把门推开，FigureAI的机器人在家务中已经展现出了类似的拟人行为能力。</p>\n  <p>第三步就是真正最难的环节，直接面向高精度人机交互场景，以养老医疗场景举例，哪怕单纯把一个行动不便的人从床上抱起来去卫生间这个看似简单的动作，没有多模态的全身力感知几乎是不可能完成的，换句话说机器人哪怕重复十万次里面会失败一次把人摔地上，那后果都是不可接受的，量化为成功率就是99.999%以上。</p>\n  <p><strong>硬氪：为什么公司会在研究全身触觉硬件的同时也在推进世界模型相关的研究？</strong></p>\n  <p><strong>严朝旭：</strong>我们坚持做难而正确的事情，作为触觉行业新秀，模感科技的出发点是希望为机器人通向真实复杂场景的部署落地做出有价值的贡献。</p>\n  <p>目前世界模型已经可以在仿真环境中完成大量训练。在仿真器里，机器人能够准确知道自己的身体边界以及环境边界，因此可以完成复杂的交互策略学习。但当这些算法部署到真实机器人时，问题就出现了——由于机器人缺乏完整的全身触觉反馈，它无法判断究竟是手臂、肩膀还是身体其他部位发生了接触，导致仿真中的物理交互难以映射到真实世界，<strong>这也是Sim-to-Real落地的重要瓶颈之一</strong>。</p>\n  <p>我们一方面通过全身触觉硬件补齐机器人对真实世界的物理感知，另一方面也同步研发配套的世界模型，希望充分发挥硬件优势，让算法能够真正部署到真机上。但这明显还不够，Sim-to-Real鸿沟的弥合，仍需要通过全身多模态感知反馈修正决策过程、补全物理先验，因此模感科技也同步自研了基于多模态隐空间融合门控机制的世界动作触觉预测模型，希望充分发挥硬件优势，让算法能够真正部署到真机上。</p>\n  <p>未来机器人厂商需要的不仅是一套硬件，更是一套能够直接验证价值的完整解决方案。当客户评估一套全身触觉系统时，他们希望看到实际应用效果，而不仅仅是一块电子皮肤。直接采用我们皮肤加算法的集成方案可以省去算法开发和全身数据采集的成本，我们会先把大部分功能模块优化好，最终的模式大概像车企去找智驾公司买整体方案一样。因此，我们会提前完成部分算法和应用开发，帮助客户更快完成产品验证和落地。</p>\n  <p>我们的团队并不是一家单纯的硬件团队，而是由硬件、传感、算法共同组成，希望通过软硬件协同，把全身触觉真正变成机器人能力的重要组成部分，而不仅仅是一种传感器产品。</p>",
-      "published": "2026-07-17T10:39:17+08:00",
-      "fetched_at": "2026-07-18T10:41:42.139577+08:00",
-      "pre_filter_reason": "机器人触觉系统涉及AI",
-      "scores": {
-        "importance": 7,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "机器人“触觉”革命：模感科技如何让机器人感知世界？",
-          "angle": "介绍触觉系统在人形机器人中的应用场景（如抓取、避障），科普多模态融合技术原理。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "红杉、智元为何押注？一文看懂机器人触觉赛道投资逻辑",
-          "angle": "分析模感科技融资背景，解读触觉技术对机器人产业的关键价值。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "8a678eb0ebae",
-      "source_id": "ifanr",
-      "source_name": "爱范儿",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "连夜实测 Kimi K3，建议改名 Kable",
-      "link": "https://www.ifanr.com/1672232?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "开源模型的 K3 时刻<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
-      "published": "2026-07-17T10:19:00+08:00",
-      "fetched_at": "2026-07-18T10:41:51.489559+08:00",
-      "pre_filter_reason": "Kimi K3模型",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "实测Kimi K3：开源模型也能“能打”？",
-          "angle": "通过实际任务（如代码生成、逻辑推理）对比Kimi K3与主流闭源模型表现，评估其开源优势。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "Kimi K3改名Kable？开源模型的“K3时刻”意味着什么？",
-          "angle": "解读Kimi K3在开源社区的意义，分析其对AI生态的影响。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "14650bf986b0",
-      "source_id": "apple-ml",
-      "source_name": "Apple ML Research",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "When Unlearning Is Free: Leveraging Low Influence Points to Reduce Computational Costs",
-      "link": "https://machinelearning.apple.com/research/unlearning-free-low-influence",
-      "summary": "As concerns around data privacy in machine learning grow, the ability to unlearn—or remove—specific data points from trained models becomes increasingly important. While state-of-the-art unlearning methods have emerged in response, they typically treat all points in the forget set equally. In this work, we challenge this approach by asking: do points that have a negligible impact on the model’s learning need to be removed? Through a comparative analysis of influence functions across language and vision tasks, we identify subsets of training data with negligible impact on model outputs…",
-      "published": "2026-07-17T08:00:00+08:00",
-      "fetched_at": "2026-07-18T10:41:40.948626+08:00",
-      "pre_filter_reason": "Machine learning unlearning research",
-      "scores": {
-        "importance": 7,
-        "timeliness": 6,
-        "actionability": 7,
-        "scarcity": 8,
-        "virality": 5,
         "crowd_heat": 3.5
       },
       "quality_score": 7.5,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "AI“遗忘”数据也能省钱？揭秘低影响力点的计算优化",
-          "angle": "用通俗语言解释“无成本遗忘”概念，展示如何通过识别低影响力点降低模型训练成本。",
-          "difficulty": "进阶"
+          "title": "开源AIOS联盟是什么？一文看懂它如何改变AI硬件生态",
+          "angle": "用通俗易懂的方式解释开源AIOS联盟的组成、目标和对普通开发者的影响，重点突出瑞芯微、紫光展锐等芯片厂商的参与意义。",
+          "difficulty": "入门"
         },
         {
+          "tag": "analysis",
+          "title": "安谋科技牵头成立开源AIOS联盟，国产芯片厂商为何纷纷加入？",
+          "angle": "分析联盟成立的行业背景、各参与方的战略诉求，以及它可能对现有AI操作系统格局（如Android、HarmonyOS）带来的冲击。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "85ac222ba43a",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "荣耀新一代伙伴型多模态智能体操作系统 AgenticOS 发布，8 月 Robot Phone 首发内核",
+      "link": "https://www.ithome.com/0/978/621.htm",
+      "summary": "<p>IT之家 7 月 19 日消息，荣耀新一代伙伴型多模态智能体操作系统 AgenticOS 已在 2026 世界人工智能大会上正式发布。荣耀手机官方昨晚发布了 AgenticOS 的核心亮点一图知。</p><p style=\"text-align: center;\"><img class=\"nowebp no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/b26b34ca-4eda-4411-94e1-9a94eaed1690.jpg\" /></p><p>据介绍，荣耀 AgenticOS 系统支持意图驱动、自然交互、主动智能、天生跨端四大特征，拥有行业首个系统级 Agent 架构，支持全局多智能体协同、全场景自适应沉淀和面向全场景智能体的自循环等能力。</p><p>根据规划，<strong>8 月发布的荣耀 Robot Phone 将首发 AgenticOS 内核，而 Q4 发布的荣耀 Magic9 系列手机则会发布 AgenticOS 尝鲜版</strong>。</p><p>据IT之家昨日报道，<a href=\"https://www.ithome.com/0/978/394.htm\" target=\"_blank\">荣耀 Robot Phone 已正式开启预约</a>，该机搭载第五代骁龙 8 至尊版芯片，其核心创新在于机身顶部集成了一套行业最小的四自由度（4DoF）钛合金机械云台系统。云台系统配备微型电机，体积比主流方案缩小 70%。</p><p style=\"text-align: center;\"><img alt=\"008JwmeJgy1if5q7elj5gj31o02yonpd\" class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/6108d130-fed7-4d77-8c4c-4024facc6ecc.jpg?x-bce-process=image/auto-orient,o_1\" /></p>",
+      "published": "2026-07-19T08:30:21+08:00",
+      "fetched_at": "2026-07-19T10:55:46.275548+08:00",
+      "pre_filter_reason": "AI operating system launch",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
           "tag": "tutorial",
-          "title": "机器学习数据隐私新招：如何高效“删除”特定数据？",
-          "angle": "对比传统遗忘方法与论文提出的新策略，科普“低影响力点”的筛选逻辑。",
+          "title": "荣耀AgenticOS上手体验：多模态智能体如何让手机更懂你？",
+          "angle": "以用户日常使用场景（如语音订餐、跨应用操作）为例，演示AgenticOS的意图驱动和自然交互能力，对比传统操作系统。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "news",
+          "title": "荣耀发布AgenticOS，Robot Phone 8月首发：手机操作系统的AI新纪元",
+          "angle": "快速梳理AgenticOS的核心亮点（多模态、智能体、意图驱动），并预告Robot Phone的看点，吸引科技爱好者关注。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "37765f6a0641",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
+      "id": "792d2ae5a078",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
       "source_tier": "T2",
       "source_lang": "zh",
-      "source_category": "search",
-      "title": "“中国AI正以月为单位缩小与美国的差距” - 新浪网",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5qY3ZBdlNyMDEyYk9JbUlzZnlXS3QwSHZpanUxbVZwVEtzaWx2ZERReWgwU1NGYjh2MGxjTDUzNDh5bWlYVGJyX1E0QzdqRXQ3TGY1TjVGbUtONnprNnM0T3V2cDQ2UHA5Q2dlS21SbGRxUDRqQjliX3RIcTBJZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE5qY3ZBdlNyMDEyYk9JbUlzZnlXS3QwSHZpanUxbVZwVEtzaWx2ZERReWgwU1NGYjh2MGxjTDUzNDh5bWlYVGJyX1E0QzdqRXQ3TGY1TjVGbUtONnprNnM0T3V2cDQ2UHA5Q2dlS21SbGRxUDRqQjliX3RIcTBJZw?oc=5\" target=\"_blank\">“中国AI正以月为单位缩小与美国的差距”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪网</font>",
-      "published": "2026-07-18T07:28:22+08:00",
-      "fetched_at": "2026-07-18T10:41:55.819738+08:00",
-      "pre_filter_reason": "AI news/comparison",
+      "source_category": "media",
+      "title": "百度秒哒发布3.5版本，市场份额位居中国AI原生无代码应用生成平台第一",
+      "link": "https://www.leiphone.com/category/industrynews/aRNiQFaWXJssTnLJ.html",
+      "summary": "<p>7月18日，在2026世界人工智能大会（WAIC）上，百度秒哒正式发布3.5版本，围绕“更简单、更全能”完成六大能力升级，进一步打通AI应用从创意生成到产品交付的全链路。</p><p>作为国内AI原生无代码应用生成平台的代表产品，秒哒持续保持行业领先。国际咨询机构沙利文（Frost &amp; Sullivan）7月17日发布的《中国AI原生无代码应用生成平台市场研究，2026年H1》显示，2026年上半年，百度秒哒以33.4%的市场份额位居中国AI原生无代码应用生成平台市场第一（按平台月度活跃用户数计）。</p><p>&nbsp;</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260718/6a5b590916214.png?imageView2/2/w/740\" />&nbsp;</p><p>&nbsp;本次发布的秒哒3.5版本，新增SEO Agent智能流量优化、iOS App一键打包、多应用共享后端、一句话生成Skill、数据库多环境隔离、后端资源分级等六大能力，让用户无需代码基础，即可完成应用开发、部署、运营和持续迭代，实现从生成应用到交付产品的能力跃升。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260718/6a5b5940e8c0b.png?imageView2/2/w/740\" />&nbsp;</p><p>&nbsp;与产品升级一同亮相的，还有首次集体登场的“秒哒少年团”。在WAIC现场，5位8至12岁的少年开发者轮番登台，围绕各自开发的AI应用进行路演展示，分享从灵感萌生、产品设计到应用落地的创作过程。现场既有8岁扑满持续迭代的“哒哒打伞”校园拼伞应用，也有任乐意、董志钦、王奕舒、曾梓铭带来的球球大作战、校园帮班级数字化管理工具、国际象棋、FPS枪战游戏等不同类型应用。虽然年龄不大，但他们已经能够借助秒哒完成从创意构思、产品开发到现场展示的完整实践，成为AI应用开发门槛持续降低的生动缩影。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260718/6a5b59a773313.jpg?imageView2/2/w/740\" />&nbsp;</p><p><span style=\"text-align: left;\">截至目前，秒哒累计服务超过3500万用户，创造了350万个具有商业价值的应用，每天有近20万人使用这些应用解决真实问题，近百万超级个体和开发者在平台成长。此次3.5版本发布，也进一步完善了从应用生成、产品交付到商业运营的完整闭环，为更多普通用户、创业者和青少年提供了低门槛、高效率的AI应用开发能力。</span></p><p>&nbsp;</p><p>&nbsp;</p><p><br /></p>",
+      "published": "2026-07-18T18:48:00+08:00",
+      "fetched_at": "2026-07-19T10:55:39.858952+08:00",
+      "pre_filter_reason": "AI产品发布",
       "scores": {
-        "importance": 8,
-        "timeliness": 7,
+        "importance": 7,
+        "timeliness": 9,
         "actionability": 8,
         "scarcity": 7,
-        "virality": 8,
+        "virality": 7,
         "crowd_heat": 0.0
       },
       "quality_score": 7.4,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "中美AI差距正在缩小？一张图看懂中国AI最新突破",
-          "angle": "用信息图或时间线形式，梳理中国AI近几个月的关键进展（如大模型、应用落地），对比美国同期动态，直观展示“月为单位”的追赶速度。",
+          "title": "百度秒哒3.5版来了！零代码生成AI应用，小白也能做产品",
+          "angle": "以“一句话生成一个请假审批小程序”为例，展示秒哒3.5的六大升级点，强调“更简单、更全能”如何降低开发门槛。",
           "difficulty": "入门"
         },
         {
-          "tag": "tutorial",
-          "title": "普通人如何抓住AI追赶红利？3个实用工具推荐",
-          "angle": "从新闻切入，推荐3款近期中国AI领域推出的免费或低门槛工具（如对话、绘图、办公辅助），演示具体使用场景，帮助观众快速体验AI进步。",
-          "difficulty": "入门"
+          "tag": "analysis",
+          "title": "市场份额33.4%居首，百度秒哒凭什么成为AI原生无代码平台第一？",
+          "angle": "结合沙利文报告数据，分析秒哒领先的原因（如百度AI生态、易用性、功能完整度），并与竞品（如Dify、Coze）做简要对比。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "bdb984005164",
-      "source_id": "hn-ai",
-      "source_name": "Hacker News (AI)",
+      "id": "abdcdd11b130",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "后摩智能携 M50 Inside 终端亮相 WAIC 2026，支撑端侧 AI 算力与终端创新",
+      "link": "https://www.leiphone.com/category/industrynews/M1iLyizkT9WLF8YH.html",
+      "summary": "<p>仅手掌大小的Agent Computer，能驱动千亿参数大模型，24小时在线的本地“桌面AI助理”，能一句话自动生成PPT；全息交互个人终端，可以实时进行画面渲染，驱动一个可以持续对话的数字人……7月18日，在WAIC 2026张江科学会堂，（记者观察到，）后摩智能携多款M50 Inside创新AI终端集中亮相，让大模型从云端真正走向本地，端侧智能触手可及。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260718/6a5b244a73945.png?imageView2/2/w/740\" /></p><p>&nbsp;</p><p><strong>大模型推理走向端侧，高算力、低功耗、易部署芯片成刚需</strong></p><p>&nbsp;</p><p>随着大模型从云端全面向端侧迁移，端侧AI迎来爆发式增长，各类终端设备逐步具备自主记忆、智能检索、逻辑推演、自主任务执行的全流程能力。行业普遍将2026年定义为端侧AI元年，AI PC、智能服务机器人、边缘智能终端等产品加速落地商用场景。</p><p>&nbsp;</p><p>当前大模型参数规模持续扩容，但终端设备的体积、电池功耗、散热空间均存在刚性限制，算力、功耗、延时、部署等约束，已然成为大模型规模化落地端侧的核心瓶颈，也让高算力、低功耗、易部署的大模型端边AI芯片成为产业刚需。</p><p>&nbsp;</p><p>针对行业痛点，后摩智能M50芯片依托存算一体架构，在10W功耗下实现160 TOPS单芯片算力，可流畅运行30B至120B参数量级大模型。M50彻底突破终端算力桎梏，在有限电池容量与散热条件下，充分满足端侧复杂的记忆存储、智能检索、逻辑推演等AI任务需求。即便多并发推理的高负载场景，也能全程保障低延迟、高稳定运行。</p><p>&nbsp;</p><p>为加速大模型端侧AI算力规模化落地，降低行业适配门槛，后摩智能同步推出M.2卡、AI加速卡等多元化标准形态硬件。在软件侧，后摩自主研发了大道软件栈，可兼容主流深度学习框架并内置优化算子，客户无需手动调参和量化校准，即可完成大模型部署，大幅压缩产品适配及开发周期。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260718/6a5b244ab51d5.jpeg?imageView2/2/w/740\" /></p><p>&nbsp;</p><p>&nbsp;</p><p>大模型端侧AI加速规模化，M50 Inside 推动多终端商业化创新</p><p>&nbsp;</p><p>此次WAIC展会，后摩智能集中展现了M50芯片在Agent Computer、智能移动终端、具身机器人和端边推理等场景的应用成果，覆盖智能办公、智能教育、个人陪伴、边缘计算等热门领域。</p><p>&nbsp;</p><p>当下，科技圈 “养龙虾” 智能体热潮持续升温，Agent Computer 成为展区人气焦点。后摩智能联合聊趣智能推出全息交互个人智算中心 ClawHouse X1 Pro ，搭载 M50 存算一体芯片，可同步承载实时画面渲染、百亿级大模型本地推理、低延迟语音交互等多项高负载任务。无论智慧办公、智能教育还是个人智算场景，均能确保数据安全、交互流畅、算力充足，节省约80%繁冗操作。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260718/6a5b244abc974.jpeg?imageView2/2/w/740\" /></p><p>&nbsp;</p><p>&nbsp;</p><p>同为Agent Computer标杆产品，联想AI主机 P7搭载M50芯片，在手掌大小的机身中兼顾高性能算力与全本地部署能力，综合算力达到190TOPS。该设备可离线流畅运行高达1220亿参数大模型。无网络环境下本地推理速度达到50Tokens/s，可支撑多轮对话、专业知识问答、批量文档处理等高频场景的即时交互，为用户带来丝滑无感的本地AI体验。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260718/6a5b244b12e04.jpeg?imageView2/2/w/740\" /></p><p>&nbsp;</p><p>在智能移动终端场景，随着AI PC全球出货量跨过亿台门槛，本地计算带来的数据安全保障和离线办公能力，正成为AI PC区别于“云端AI+传统PC”方案的优势之一。展会现场，长城N90 Pro展现了35B本地大模型离线运行成果：借助M50芯片高算力底座，用户即便身处无网环境，仍可调用完整AI能力，使用智能文档写作、离线问答、会议记录、灵感速记等办公全场景功能；依托全栈国产自主软硬件与本地大模型，设备在提升数据安全和隐私保护水平的同时，也为政务、金融、能源等行业提供了更适合本地部署的AI办公方案。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260718/6a5b244b33bd9.jpeg?imageView2/2/w/740\" /></p><p>&nbsp;</p><p>展会现场，搭载M50芯片的联想AI Workmate概念机以桌面机器人形态呈现，可在本地处理语音控制和手势操作。设备扫描笔记或文档后，可生成摘要、梳理思路或转化为演示文稿，并通过投影形成共享看板，在断网环境下仍可使用。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260718/6a5b244b15826.jpeg?imageView2/2/w/740\" /></p><p>&nbsp;</p><p>面向端边推理，可道云TeamSilo A10内置后摩智能力擎LQ50 M.2卡，提供160 TOPS算力，可支撑35B大模型在本地离线运行。产品将企业云盘、知识库与本地大模型能力整合到一台设备中，围绕企业文件开展知识检索、离线问答和Agent应用搭建。&nbsp;</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260718/6a5b244c0c56c.jpeg?imageView2/2/w/740\" /></p><p>&nbsp;</p><p>目前，后摩智能已实现大模型端侧AI算力与多款AI创新硬件的深度融合，并与联想、长城、中国移动等数十家头部终端企业建立深度合作，推动 M50 芯片在 AI PC、桌面机器人、AI NAS、Agent Computer 等多元终端中实现规模化商用，持续拓宽端侧AI商业化应用边界。</p><p>&nbsp;</p><p>“各类智能终端走进千家万户，切实惠及民生，‘中国智造’已然成为中国式现代化的又一亮丽名片。”立足大模型端边AI产业变革浪潮，后摩智能始终坚守初心：用底层创新，加速大模型在每一台终端设备上的落地，让AI算力像电力一样随处可及，以一颗芯，驱动终端AI的全域进化与产业创新。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260718/6a5b244c55751.jpeg?imageView2/2/w/740\" /></p><p><br /></p>",
+      "published": "2026-07-18T15:02:00+08:00",
+      "fetched_at": "2026-07-19T10:55:39.858981+08:00",
+      "pre_filter_reason": "AI terminal, large model, agent",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "手掌大小的Agent Computer：后摩智能M50如何让千亿大模型跑在本地？",
+          "angle": "拆解M50 Inside终端的硬件配置和端侧推理能力，展示其“一句话生成PPT”“驱动数字人”等实际应用场景。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "WAIC 2026现场直击：后摩智能M50 Inside终端，端侧AI算力爆发的信号？",
+          "angle": "从产品展示出发，探讨端侧AI芯片（如后摩智能）如何推动大模型从云端走向本地，以及对AI终端形态（如AI PC、智能眼镜）的启示。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "dee5ca2ba1e6",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse",
-      "link": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
-      "summary": "<p>Article URL: <a href=\"https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/\">https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48952880\">https://news.ycombinator.com/item?id=48952880</a></p>\n<p>Points: 312</p>\n<p># Comments: 199</p>",
-      "published": "2026-07-18T06:26:30+08:00",
-      "fetched_at": "2026-07-18T10:41:59.314399+08:00",
-      "pre_filter_reason": "AI ethics/policy",
+      "title": "KnockOutEZ /wigolo",
+      "link": "https://github.com/KnockOutEZ/wigolo",
+      "summary": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+      "published": "2026-07-19T10:55:52.063620+08:00",
+      "fetched_at": "2026-07-19T10:55:52.063624+08:00",
+      "pre_filter_reason": "AI coding agent with MCP",
       "scores": {
         "importance": 7,
         "timeliness": 8,
         "actionability": 8,
         "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "护士被AI监控？职场人如何应对AI带来的隐私焦虑",
-          "angle": "以Kaiser护士案例为引，讲解职场中常见的AI监控形式（行为分析、排班算法等），并提供3条保护个人隐私与权益的实用建议。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "AI进医院，患者安全是变好还是变差？",
-          "angle": "分析AI在医疗场景的双刃剑效应：一边是效率提升，一边是护理质量下降风险。用对比表格展示AI辅助与人工护理的差异，并给出患者主动沟通的建议。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "a515c845601e",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "“30秒换手即用”，RoboScience机器科学实现跨本体灵巧操作行业突破，全球首个云端具身大模型WAIC首秀",
-      "link": "https://www.leiphone.com/category/industrynews/GXNexNIZrCRnzFxk.html",
-      "summary": "<p style=\"text-align: center; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"color: #000000; font-family: Arial; font-size: 11pt;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260717/6a5a3fc2de4ca.jpg?imageView2/2/w/740\" /></span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"color: #000000; font-family: Arial; font-size: 11pt;\">7月17日至20日，2026世界人工智能大会（WAIC）将在上海世博中心和世博展览馆举行。本届大会以“智联世界 生成未来”为主题，展览面积超10万平方米，超过1100家企业参展，是今年AI领域规格最高、规模最大的国际盛会。</span>&nbsp;</p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt; color: #000000;\">作为通用具身智能领域的创新力量，RoboScience机器科学首次亮相WAIC，现场展示自研通用具身大模型Visics、自研的可微多模态物理仿真引擎RoboMirage等在多项场景、任务及本体上的应用成果，并开展深度技术演示与沉浸式操作互动。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: Arial; color: #000000; font-weight: bold; font-size: 20px;\">30s换手即用：RoboScience机器科学首秀“一脑控多手”跨本体灵巧操作</span></p><p style=\"text-align: left; margin-top: 0; margin-bottom: 0;\"><span style=\"font-family: 'Arial'; font-size: 11pt; color: #000000;\">在RoboScience机器科学展台，</span><span style=\"font-family: 'Arial'; font-size: 11pt; color: #000000;\">多</span><span style=\"font-family: 'Arial'; font-size: 11pt; color: #000000;\">款不同品牌的灵巧手搭载同一套Visics通用具身大模型，同时向观众展示灵巧抓取能力。</span><span style=\"font-family: 'Arial'; font-size: 11pt; color: #000000;\">多</span><span style=\"font-family: 'Arial'; font-size: 11pt; color: #000000;\">款灵巧手全程自主实时感知、自主规划抓取策略并完成不同属性物体操作，从刚性工具到柔性物料，从规则形状到异形物件，</span><span style=\"font-family: '等线'; font-size: 11pt; color: #FF0000;\">甚至能抓取观众现场随机提供的物品，</span><span style=\"font-family: 'Arial'; font-size: 11pt; color: #FF0000;\">无需预设抓取流程</span><span style=\"font-family: '等线'; font-size: 11pt; color: #FF0000;\">。</span><span style=\"font-family: 'Arial'; font-size: 11pt; color: #000000;\">更值得关注的是，现场上演了“30秒极速换手”的硬核展示——工作人员直接更换不同品牌的灵巧手硬件，无需重新适配，灵巧手即在30秒内被即时识别，并流畅执行多类抓取任务，整个换手到再启动过程压缩至30秒以内，真正实现“换手即用”。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt; color: #000000;\">这一展项背后是RoboScience机器科学自研通用具身大模型Visics面向真实场景的跨本体大规模泛化抓取能力。行业目前普遍更依赖二指夹爪完成抓取任务，灵巧手的跨本体泛化操作仍是难题，而RoboScience机器科学首次实现了一套统一具身大模型同时支持多款不同构型灵巧手完成流畅抓取，且能做到Zero-shot（零样本泛化）适配、换手即用，无需针对特定硬件重新训练或微调。这一突破直接验证了Visics跨本体、跨物体、跨任务的三大维度泛化能力，意味着具身大模型第一次真正做到了“一脑多手”。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt; color: #000000;\">此外，在商超场景中，机器人能够自主理解指令，完成从移动到抓取再到交付的全流程操作，无需人工干预。针对狭窄通道，机器人采用紧凑型硬件设计，灵活适应复杂空间。目前，该方案目前已与多家零售、物流企业开展试点合作，多SKU抓取成功率稳定在99%以上。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt; color: #000000;\">在精细操作与视触觉感知方面，搭载了RoboScience机器科学自研微型视触觉模块FingerEye的机械臂，现场演示拆红包、立硬币等精细任务。FingerEye可在接触前提供立体深度指引，接触后通过形变推算六轴力矩，实现亚毫米级的力控精度，充分展现机器人在高精度操作场景中的技术实力。</span></p><p style=\"text-align: justify; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: Arial; color: #000000; font-weight: bold; font-size: 20px;\">与腾讯云达成战略合作，全球首个云端具身大模型亮相</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt; color: #000000;\">现场四大技术演示均基于通用具身大模型Visics这一技术底座。作为RoboScience机器科学的核心技术成果，Visics采用自研VLOA（Vision-Language-Object-Action）架构，以物体为中心进行感知、规划和执行。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt; color: #000000;\">据悉，RoboScience机器科学已与腾讯云达成战略合作，共同打造行业首个云端EaaS(Embodied-Al-as-a-Service)具身智能服务；Visics将作为全球首个具备云端部署能力的具身大模型，迈向云端规模化调用。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt; color: #000000;\">RoboScience机器科学通过自研通用具身大模型Visics的核心算法能力，包括VLOA架构、Object Trajectory数据标准、跨本体泛化能力及全自动数据管线等上层技术，结合腾讯云经过大规模用户验证的存储与算力底座，包括统一数据底座、高性能计算、智能编排调度等基础设施能力；双方优势互补，共同打通从多地协同标注到模型训练再到商业化落地的完整路径，构建云端EaaS具身智能服务，使具身智能从“技术验证”走向“规模化交付”，共同推动具身智能从“本体绑定”走向“云-端解耦”时代。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt; color: #000000;\">据介绍，RoboScience机器科学 Visics大模型融合“具身世界模型”和“通用操作模型”两大核心引擎，创新性地引入Object Trajectory作为中间接口，并以物体的连续3D点云轨迹进行表征。上层具身世界模型负责认知和预演物理轨迹，下层通用操作模型负责将轨迹转化为不同机器人的物理控制信号，实现了高层语义与底层物理规律的完美解耦，并分别用海量互联网视频及仿真数据进行预训练。</span><span style=\"color: #000000; font-family: Arial; font-size: 11pt;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt; color: #000000;\">针对数据缺口，RoboScience机器科学选择以自研可微多模态物理仿真引擎RoboMirage为核心，结合全自动视频数据标注与清洗管线，构建“仿真+视频”双数据飞轮。这一体系将单条数据的获取成本降至传统方案的1/20~1/200，同时以每周数十万小时的增速持续扩展，从根本上突破了数据规模与成本的双重瓶颈，为Visics大模型实现LLM级别的万亿级数据Scale-up奠定了基础。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt; color: #000000;\">其中，具身世界模型的预训练基于海量互联网视频数据。通过全自动数据标注及清洗pipeline，团队已积累数百万小时以物体为中心的高维多模态操作相关数据集（数千万video clips），并以每周数十万小时的速度增长，目标在2026年构建上千万小时的全球领先数据集。 通用操作模型则通过自研可微多模态物理引擎RoboMirage积累了数百亿次高质量manipulation操作轨迹数据集，2026年目标是构建超过1T高质量manipulation 操作轨迹数据集（1万亿次全空间物体的manipulation操作轨迹数据）。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt; color: #000000;\"> </span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt; color: #000000;\">WAIC 2026现场，RoboScience机器科学首次公开展示了通用具身大模型Visics的三大亮点成果：跨本体灵巧操作实现“30秒换手即用”，商超场景多SKU抓取成功率99%以上，FingerEye精细操作实现亚毫米级力控精度。三项演示集中验证了Visics跨本体、跨物体、跨任务的泛化能力。</span></p><p style=\"text-align: left; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-family: 'Arial'; font-size: 11pt; color: #000000;\">从展台出发，这些能力正加速走向真实产业场景。RoboScience机器科学将继续推进具身智能从技术验证到规模化落地，让机器人在工厂、商超和家庭等场景中真正理解世界、稳定执行任务。</span>&nbsp;</p>",
-      "published": "2026-07-17T22:16:00+08:00",
-      "fetched_at": "2026-07-18T10:41:46.094607+08:00",
-      "pre_filter_reason": "Embodied AI model and robotics",
-      "scores": {
-        "importance": 7,
-        "timeliness": 9,
-        "actionability": 7,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 7.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "30秒换手即用！机器人学会“灵巧操作”意味着什么？",
-          "angle": "用动画演示跨本体灵巧操作的技术原理（如抓取、换手），并解释这项突破对工业、家庭服务机器人的实际意义，降低理解门槛。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "云端具身大模型是什么？一张图看懂WAIC上的黑科技",
-          "angle": "以RoboScience的云端具身大模型为例，用图解方式拆解“云端大脑+机器人身体”的协作逻辑，并列举未来可能落地的场景（如远程手术、危险环境作业）。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "7a8f92a8c66c",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "千问AI眼镜将升级为智能体眼镜：能灵活调用Skill和Agent，能全天候感知",
-      "link": "https://www.leiphone.com/category/industrynews/JDlu3Gqj7atcWniy.html",
-      "summary": "<p>7月17日，2026年世界人工智能大会首日，千问宣布将AI眼镜升级为智能体眼镜。升级后，眼镜可通过智能体强化服务与决策能力，并能按需调用第三方Skill和Agent。同时，千问还推出全双工语音、眼动追踪、体征监测等一系列全新硬件技术，以增强智能体眼镜对物理世界的感知与交互能力。&nbsp;</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260717/6a59f418355ab.png?imageView2/2/w/740\" /></p><p>&nbsp;在听觉交互上，千问升级全双工语音模型架构，不仅能边听边说，还能实时判断交互意图，准确区分用户指令与环境对话；在视觉感知上，引入眼动追踪和Always-on视觉感知系统，并与蚂蚁集团合作推出虹膜核身，实现高安全级别的身份识别；在空间体验上，3D空间显示与3D空间音频也迎来全面升级。</p><p>&nbsp;同时，千问团队还在AI眼镜上实现了行业首个用户体征实时监测，通过内置PPG和温度传感器，可测量心率、血氧、HRV等数据，可为用户提供个性化的AI健康解读报告，还能使智能体对用户形成专属的健康记忆，使相关问答和服务更具针对性。</p><p>&nbsp;通过更丰富的真实世界感知信息，千问智能体眼镜将成为用户真正的随身AI助手。例如，长时间办公或阅读时，千问可结合用户的视线变化、眨眼频率和身体状态，判断是否出现用眼疲劳，并在合适的时机提醒用户休息、眺望远处或调整坐姿；长期使用后，还能结合健康数据变化提供解读和改善建议，形成从监测、提醒到分析建议的主动健康服务。</p><p>&nbsp;“没有硬件的智能体，无法触达现实，没有智能体的硬件，只是工具。所以，我们希望用最好的硬件，加上最好的智能体，为用户打造最好的AI助手。”发布现场，千问AI硬件产品总经理吴建军表示。</p><p>&nbsp;据介绍，上述硬件技术将在年内应用于千问AI智能体眼镜；已发售的千问AI眼镜S1、G1也将通过OTA引入Agent能力，进一步提升个性化任务理解和办事能力。今年以来，千问持续推进AI硬件布局，千问的首款AI智能体耳机也在WAIC现场正式亮相。</p><p><br /></p>",
-      "published": "2026-07-17T17:23:00+08:00",
-      "fetched_at": "2026-07-18T10:41:46.094696+08:00",
-      "pre_filter_reason": "AI眼镜升级为智能体眼镜",
-      "scores": {
-        "importance": 7,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "AI眼镜升级成“智能体眼镜”，能做什么？5个生活场景演示",
-          "angle": "通过分屏或模拟画面，展示眼镜在导航、健康监测、实时翻译、第三方技能调用等场景的用法，强调“全天候感知”的便利性。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "眼动追踪+全双工语音：下一代AI眼镜交互体验解析",
-          "angle": "聚焦硬件技术升级，用对比方式讲解眼动追踪如何解放双手、全双工语音如何实现自然对话，并给出用户选购或体验建议。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "289fd2042e60",
-      "source_id": "github-ai-repos",
-      "source_name": "GitHub AI 新项目",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "samchon/ttsc",
-      "link": "https://github.com/samchon/ttsc",
-      "summary": "A `typescript-go` toolchain for compiler-powered plugins + type-safe execution + 800x faster linter + codegraph reducing 90% AI tokens",
-      "published": "2026-07-18T10:42:02.021466+08:00",
-      "fetched_at": "2026-07-18T10:42:02.021467+08:00",
-      "pre_filter_reason": "AI token reduction toolchain",
-      "scores": {
-        "importance": 6,
-        "timeliness": 9,
-        "actionability": 7,
-        "scarcity": 8,
         "virality": 7,
         "crowd_heat": 0.0
       },
@@ -730,15 +527,200 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "TypeScript开发者福音：这个工具让AI推理成本直降90%",
-          "angle": "介绍samchon/ttsc的核心功能（编译器插件、类型安全执行、代码图），用实际代码对比展示如何减少AI token消耗，适合前端/全栈开发者快速上手。",
+          "title": "KnockOutEZ /wigolo：本地优先的AI编码代理，零成本实现搜索与爬虫",
+          "angle": "演示如何使用wigolo进行本地搜索、抓取和研究，强调无需API密钥、无需云服务、每查询零成本的特点，适合开发者快速上手。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "news",
+          "title": "AI编码代理新选择：KnockOutEZ /wigolo公测，主打本地优先与零成本",
+          "angle": "介绍wigolo的核心功能（搜索、抓取、爬虫、研究）及其MCP支持，对比现有AI编码工具（如Cursor、Copilot），突出其独特卖点。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "a2286140bf86",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "阶跃与上海期智研究院共建智能体前沿研究院",
+      "link": "https://36kr.com/newsflashes/3901840300754822?f=rss",
+      "summary": "据阶跃官微消息，7月18日，阶跃星辰与上海期智研究院宣布正式达成合作，双方将共同设立智能体前沿研究院，围绕智能体网络及经济原理、AI Safety等方向开展联合研究，探索Agent时代的基础理论、核心技术、标准体系与产业范式。（每经网）",
+      "published": "2026-07-19T09:00:00+08:00",
+      "fetched_at": "2026-07-19T10:55:36.074203+08:00",
+      "pre_filter_reason": "智能体前沿研究院，涉及AI研究",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "智能体安全与经济学：从阶跃与期智研究院合作看Agent未来",
+          "angle": "拆解合作背后的三大研究方向（智能体网络、经济原理、AI Safety），用案例说明为什么Agent需要“经济学”思维，以及普通开发者如何参与其中。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "AI Safety入门：智能体时代必须了解的三大风险与应对策略",
+          "angle": "以此次合作中的AI Safety方向为引，用通俗语言解释智能体可能带来的失控、隐私、经济博弈风险，并给出基础防护建议。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "413063fa1e5d",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "从“能回答”到“能执行”，WAIC 2026 网易有道 LobsterAI 重新定义办公助手边界",
+      "link": "https://www.leiphone.com/category/industrynews/59N2nNCnS8JoskbA.html",
+      "summary": "<p>7月17日，2026 世界人工智能大会（WAIC）在上海正式开幕。网易有道展位内人潮涌动，一款名为 LobsterAI 的桌面级办公助手 Agent 产品吸引了不少观众驻足体验，纷纷排队等待亲手“指挥” AI 完成真实任务。一位参展观众在试用后由衷感叹：“不是让 AI 帮我写一段话，而是让它真正进入电脑，一步步把任务完成。”</p><p style=\"text-align: center;\"></p><p style=\"text-align: center;\"><strong><img src=\"https://static.leiphone.com/uploads/new/images/20260718/6a5b1ff6cce00.png?imageView2/2/w/740\" /></strong></p><p style=\"text-align: center;\"><strong>从“对话”到“行动”：一个指令，自动拆解执行</strong></p><p style=\"text-align: left;\">网易有道此次 AI Agent 应用矩阵的共同底层逻辑是“Model + Harness”：即模型提供智能能力，Harness 则负责理解任务、连接工具、调度流程、管理上下文，把模型能力转化为可持续交付的产品体验。在 WAIC 现场，LobsterAI 展示了从“对话”走向“行动”的真实落地能力：用户只需下达任务指令，AI 即可连接文件、终端、浏览器与本地项目，自动拆解任务并执行，真正进入工作流完成实际工作。</p><p></p><p>一位上海的技术人员尝试在现场用 LobsterAI 自动连接本地项目、运行测试脚本、生成代码审查报告，体验后他感慨道：“这才是我想要的 Agent，不是聊天，是干活。”</p><p style=\"text-align: center;\"><strong>国内大厂首个 100% 开源桌面级办公助手 Agent：透明、安全、稳定交付</strong></p><p style=\"text-align: left;\">LobsterAI 是国内大厂首个 100% 开源的桌面级办公助手 Agent，能力透明可查，权限、数据与执行链路均可审计。据了解，在 GitHub 上，LobsterAI 已获得超 5.6k Stars，日均交互数十万次，迅速成为职场办公人群实现效能倍增的标杆工具，并得到了 OpenClaw 创始人唯一公开称赞。</p><p>一位穿着格子衫的技术开发者在电脑上打开 LobsterAI 的开源代码，看着屏幕上清晰的权限审计日志，转头对同伴说：“开源到这个程度，大厂里确实少见。”</p><p>在安全性上，所有会话、配置、记忆留在本机，工具调用有门控记录，确保数据安全可控。而生态层面，基于开源 Agent 框架，Skills、工具与模型持续接入，13套岗位专家套件一键安装即用，覆盖多种办公场景。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260718/6a5b1ff6ecd32.png?imageView2/2/w/740\" /></p><p style=\"text-align: center;\"><strong>全场景调度：远程指挥、语音输入、移动入口</strong></p><p>LobsterAI 彻底打破了传统 AI “仅对话”的局限，不仅能直接交付结果，还能无缝打通飞书、钉钉等主流办公通讯软件。用户即使不在电脑前，也能用手机远程指挥电脑端的 LobsterAI 发送紧急报表，或设定每日清晨自动搜集行业新闻，实现跨设备、跨应用的自动化办公。同时还能配合语音输入功能，像对话一样给AI布置任务，输入效率提升3倍以上。目前，LobsterAI 在 GitHub 已获得超 5.6k Stars，日均交互数十万次，用户满意度为 99%，迅速成为职场办公人群借助 AI 实现效能倍增的标杆工具。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260718/6a5b1ff885786.png?imageView2/2/w/740\" /></p><p>从“能回答”到“能执行”，LobsterAI 正重新定义桌面办公助手的边界。本届 WAIC 期间，观众来到网易有道的LobsterAI 展区，可以亲身见证 AI 如何真正“干活”，现场体验者还将有机会获赠千万 Token，抢先解锁 AI 办公的无限可能。<span style=\"color: #FFFFFF;\">（雷峰网雷峰网雷峰网）</span></p>",
+      "published": "2026-07-18T14:43:00+08:00",
+      "fetched_at": "2026-07-19T10:55:39.859008+08:00",
+      "pre_filter_reason": "AI office assistant agent",
+      "scores": {
+        "importance": 6,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "从“能回答”到“能执行”：LobsterAI如何让AI真正操作你的电脑",
+          "angle": "通过LobsterAI的现场演示案例，分步展示Agent如何接管桌面任务（如自动整理文件、操作软件），并对比传统AI助手的局限性。",
           "difficulty": "入门"
         },
         {
           "tag": "tutorial",
-          "title": "800倍提速！用TypeScript工具链优化你的AI项目",
-          "angle": "以“linter提速800倍”为亮点，分步演示如何集成ttsc到现有TypeScript项目，并解释代码图（codegraph）如何帮助AI理解代码结构，提升生成质量。",
+          "title": "打造你的第一个桌面Agent：三步让AI替你完成重复工作",
+          "angle": "基于LobsterAI的理念，教用户用低代码工具搭建一个能操作本地应用的简单Agent，覆盖任务拆解、权限设置、执行反馈。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "466e503aea65",
+      "source_id": "ifanr",
+      "source_name": "爱范儿",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "6 台机器人拼长城、首款智能体手机首秀：阶跃把 AI 塞进了现实世界｜WAIC 2026",
+      "link": "https://www.ifanr.com/1672344?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "大模型的下一站，是走出屏幕，自己动手<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
+      "published": "2026-07-18T12:01:07+08:00",
+      "fetched_at": "2026-07-19T10:55:44.785485+08:00",
+      "pre_filter_reason": "AI智能体手机和机器人展示",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "6台机器人拼长城：多智能体协作如何实现？",
+          "angle": "以阶跃的机器人拼长城演示为案例，解析多Agent协同工作的核心原理（任务分配、通信协议、冲突解决），并给出简单模拟实验。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "当AI走出屏幕：智能体手机如何改变你的生活？",
+          "angle": "从首款智能体手机切入，展示AI如何主动感知环境并执行物理操作（如自动叫车、控制家电），对比传统手机AI的被动响应模式。",
           "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "df8efe7e5f3e",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "lyogavin /airllm",
+      "link": "https://github.com/lyogavin/airllm",
+      "summary": "AirLLM 70B inference with single 4GB GPU",
+      "published": "2026-07-19T10:55:52.063387+08:00",
+      "fetched_at": "2026-07-19T10:55:52.063391+08:00",
+      "pre_filter_reason": "LLM inference",
+      "scores": {
+        "importance": 8,
+        "timeliness": 7,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.1,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "4GB显卡跑70B大模型：AirLLM极简部署教程",
+          "angle": "手把手教用户使用AirLLM在4GB显存GPU上运行70B模型，涵盖环境配置、模型下载、推理优化技巧，并对比传统部署方案的资源需求。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "低显存玩转大模型：AirLLM背后的内存优化原理",
+          "angle": "用通俗语言解释AirLLM如何通过分层推理、内存交换等技术突破显存限制，并给出普通用户选择模型的实用建议。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "f99b2f2a1ff9",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "search",
+      "title": "直击WAIC丨中科闻歌发布业界首个完整AI决策产品体系|2026世界人工智能大会|数据治理|大模型|上海市|数据_手机新浪网 - 新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQQll3Ty1zVVdHRGRJSmFabWFSWmhxdW1QWTNFT3RXTEc2Y25nS3RSRlAwNlhFUlJNMEVtU3hUNVFNc3NJSkxEQktQNlA1YzQ1MGZoTlBlbmpWRnU4RWJSRkh5NjNmeVllLTJSZXVpTDY4LW10bWRSbXBfcWFsMUw2d1pjcmRlRHJRcF9WdFRVRkQzUmR1NmFNaVVxMGxPZEdsSGFIZkwyTXZpc3IxaW1Ccl9YeTl4Mm9jdWNOM001YVFnUWxsVUMyOGpxRzc3bE84MF9kaHFEbF82aHBnSmdrSVpZZlhvcVp2UGZoVVR1cjI0a3ZPVGh2WkdiOFRIVkl0OVdv?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwJBVV95cUxQQll3Ty1zVVdHRGRJSmFabWFSWmhxdW1QWTNFT3RXTEc2Y25nS3RSRlAwNlhFUlJNMEVtU3hUNVFNc3NJSkxEQktQNlA1YzQ1MGZoTlBlbmpWRnU4RWJSRkh5NjNmeVllLTJSZXVpTDY4LW10bWRSbXBfcWFsMUw2d1pjcmRlRHJRcF9WdFRVRkQzUmR1NmFNaVVxMGxPZEdsSGFIZkwyTXZpc3IxaW1Ccl9YeTl4Mm9jdWNOM001YVFnUWxsVUMyOGpxRzc3bE84MF9kaHFEbF82aHBnSmdrSVpZZlhvcVp2UGZoVVR1cjI0a3ZPVGh2WkdiOFRIVkl0OVdv?oc=5\" target=\"_blank\">直击WAIC丨中科闻歌发布业界首个完整AI决策产品体系|2026世界人工智能大会|数据治理|大模型|上海市|数据_手机新浪网</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>",
+      "published": "2026-07-19T09:23:06+08:00",
+      "fetched_at": "2026-07-19T10:55:49.306578+08:00",
+      "pre_filter_reason": "AI决策产品体系发布",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 6,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.1,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "从数据到决策：中科闻歌AI决策产品体系全解析",
+          "angle": "梳理中科闻歌发布的完整AI决策产品线，用流程图展示数据治理→模型分析→决策输出的闭环，并对比传统BI工具的差异。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "企业级AI决策实战：如何用中科闻歌体系搭建智能数据看板",
+          "angle": "以具体业务场景（如供应链预测）为例，演示如何利用该产品体系完成数据清洗、模型训练、决策建议生成的全流程。",
+          "difficulty": "进阶"
         }
       ]
     }
