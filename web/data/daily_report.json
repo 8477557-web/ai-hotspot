@@ -1,20 +1,20 @@
 {
-  "title": "AI日报 - 2026年07月20日",
+  "title": "AI日报 - 2026年07月21日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "腾讯云ADP 4.0海外版发布，要把企业级智能体带到全球市场",
-          "summary": "腾讯云推出ADP 4.0海外版，旨在将企业级智能体能力拓展至全球。腾讯同时发布三大具身基座模型，打通感知-行动闭环，工业实测成功率超95%。"
+          "title": "实测千问 Qwen3.8 预览版，国产模型开始围攻 Fable 5",
+          "summary": "阿里千问Qwen3.8预览版实测表现亮眼，国产模型在Fable 5基准上形成围攻之势。"
         },
         {
-          "title": "百度昆仑芯 M100 实物首次展出：面向大模型推理进行针对性优化",
-          "summary": "百度昆仑芯M100实物亮相，针对大模型推理进行优化，延续自研XPU理念。"
+          "title": "AI语音进入“表演时代”：阿里Qwen-Audio-3.0-TTS登顶全球权威榜单",
+          "summary": "阿里Qwen-Audio-3.0-TTS登顶全球语音合成榜单，AI语音进入情感化表演时代。"
         },
         {
-          "title": "荣耀 Robot Phone 手机现身世界杯夺冠现场，YOYO 成功预测西班牙夺冠",
-          "summary": "荣耀Robot Phone在世界杯现场亮相，其AI助手YOYO此前成功预测西班牙夺冠。"
+          "title": "国产GPU分水岭时刻：当别家还在卷参数，摩尔线程早已训练出了世界模型",
+          "summary": "摩尔线程发布世界模型训练成果，标志国产GPU从参数竞赛转向应用落地。"
         }
       ]
     },
@@ -22,20 +22,16 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "我国人形机器人整机产品超全球半数",
-          "summary": "我国人形机器人整机产品数量已超过全球半数，彰显产业领先优势。"
+          "title": "美国版权案件最高金额：Anthropic 与作家群体 15 亿美元和解获批",
+          "summary": "Anthropic与作家群体15亿美元版权和解获批，创下AI领域版权案件最高金额纪录。"
         },
         {
-          "title": "工信部：将加快出台人工智能+软件行动方案",
-          "summary": "工信部表示将加快出台“人工智能+软件”行动方案，推动AI与软件深度融合。"
+          "title": "OpenAI高管炮轰Kimi K3：中国开源是减速主义，会抑制资本投入；腾讯拟超100亿，收购以色列休闲手游厂商；DeepSeek被曝高薪资配套打分机制",
+          "summary": "OpenAI高管批评中国开源策略，腾讯百亿收购以色列手游厂商，DeepSeek薪资机制引热议。"
         },
         {
-          "title": "IDC：2030年全球活跃智能体将超22亿个",
-          "summary": "IDC预测到2030年全球活跃智能体数量将超过22亿个，智能体时代加速到来。"
-        },
-        {
-          "title": "从烤披萨到拿快递，满场跑的机器人终于要进你家了｜WAIC 2026全面探展",
-          "summary": "WAIC 2026展示从烤披萨到取快递的多种机器人应用，家庭服务机器人即将普及。"
+          "title": "China’s open-weights AI strategy is winning",
+          "summary": "外媒分析认为中国开源权重AI策略正取得全球性胜利。"
         }
       ]
     },
@@ -43,16 +39,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "GitHub Copilot SDK 发布，助力开发者构建AI编程助手",
-          "summary": "GitHub发布Copilot SDK，为开发者提供构建自定义AI编程助手的能力。"
+          "title": "Safety and alignment in an era of long-horizon models",
+          "summary": "OpenAI发布长周期模型安全与对齐研究，探讨长期任务中AI行为的可控性。"
         },
         {
-          "title": "MoonshotAI /kimi-cli 开源，命令行AI助手新选择",
-          "summary": "MoonshotAI开源kimi-cli，提供命令行界面的AI助手工具。"
+          "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
+          "summary": "Claude Fable成功构造雅可比猜想的反例，展示AI在数学证明中的突破性能力。"
         },
         {
-          "title": "Canner /WrenAI 开源，加速数据分析与AI融合",
-          "summary": "Canner开源WrenAI项目，旨在简化数据分析与AI模型的集成。"
+          "title": "Length Value Model: Scalable Value Pretraining for Token-Level Length Modeling",
+          "summary": "Apple提出长度价值模型，实现Token级长度建模的可扩展预训练。"
         }
       ]
     },
@@ -60,21 +56,17 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "对话商汤林达华：多模态是 Coding 之后的下一个战场",
-          "summary": "商汤林达华认为多模态能力将成为继编程之后AI竞争的下一个关键领域。"
+          "title": "不同模型厂同一家Agentic Infra，AGI时代的地基终于浮出水面",
+          "summary": "多家模型厂商采用同一Agentic基础设施，AGI时代底层架构趋于统一。"
         },
         {
-          "title": "从CPU到Agentic OS，此芯走向智能体的「调度中枢」",
-          "summary": "此芯科技提出从CPU到Agentic OS的演进路径，打造智能体调度中枢。"
-        },
-        {
-          "title": "财经观察：当“中国开源”遇见“全球需求”，国产AI大模型加速出海",
-          "summary": "中国开源AI大模型正加速出海，满足全球市场需求。"
+          "title": "当AI进入最依赖“人”的行业：一家四线城市康复机构利润增长40%",
+          "summary": "AI在康复医疗领域落地，四线城市机构利润增长40%，展现AI赋能传统行业潜力。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦智能体与具身智能，多模态和开源成为关键趋势，国产AI加速全球化布局。",
-  "generated_at": "2026-07-20T11:47:15.412347+08:00",
+  "summary": "今日AI圈聚焦开源策略博弈、模型安全对齐及行业落地，国产力量在模型与基础设施上加速崛起。",
+  "generated_at": "2026-07-21T10:53:31.480630+08:00",
   "source_count": 20
 }
