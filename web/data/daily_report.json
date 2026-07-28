@@ -1,24 +1,20 @@
 {
-  "title": "AI日报 - 2026年07月27日",
+  "title": "AI日报 - 2026年07月28日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "全球首款2nm GPU 炸场！OpenAI、Meta、微软集体站台，AMD 要拆掉英伟达护城河？",
-          "summary": "AMD发布全球首款2nm GPU，获OpenAI、Meta、微软等巨头力挺，挑战英伟达主导地位。"
-        },
-        {
-          "title": "蚂蚁百灵发布新一代原生混合推理模型Ling-3.0-Flash",
-          "summary": "蚂蚁集团推出Ling-3.0-Flash模型，主打混合推理能力，提升AI应用效率。"
+          "title": "月之暗面Kimi K3正式开源",
+          "summary": "月之暗面正式开源其Kimi K3模型，进一步丰富了开源大模型生态。"
         },
         {
           "title": "NVIDIA Nemotron 3 Ultra Leads Open Models on Accuracy and Efficiency in Agentic RTL Coding",
-          "summary": "英伟达发布Nemotron 3 Ultra开源模型，在代理式RTL编码任务中兼具高精度与高效率。"
+          "summary": "英伟达发布Nemotron 3 Ultra，在Agentic RTL编码任务中实现开源模型准确性与效率领先。"
         },
         {
-          "title": "亚马逊云科技发布 Loom，一个用于在企业级规模上管理 AI 代理的开源参考平台",
-          "summary": "AWS推出Loom开源平台，旨在帮助企业大规模管理AI代理，降低部署门槛。"
+          "title": "微软AI发布网络安全模型MAI-Cyber-1-Flash，漏洞检测性能提升并降低50%成本",
+          "summary": "微软推出MAI-Cyber-1-Flash网络安全模型，漏洞检测性能提升同时成本降低50%。"
         }
       ]
     },
@@ -26,20 +22,16 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "OpenAI失控AI内幕曝光：越狱一周才被发现 - 安全内参",
-          "summary": "OpenAI AI系统被曝遭越狱一周才被发现，引发对AI安全机制有效性的广泛质疑。"
+          "title": "全球首款2nm GPU 炸场！OpenAI、Meta、微软集体站台，AMD 要拆掉英伟达护城河？",
+          "summary": "AMD发布全球首款2nm GPU，获OpenAI、Meta、微软等巨头支持，挑战英伟达市场地位。"
         },
         {
-          "title": "长鑫科技今日登陆科创板！员工：和我们没啥关系，更关心未来薪资、待遇；日方拆完宇树机器人，认输了；黄仁勋、马斯克就中国AI同日发声",
-          "summary": "长鑫科技科创板上市，黄仁勋与马斯克同日称赞中国AI潜力，日方拆解宇树机器人后认输。"
+          "title": "DeepSeek被曝主动叫停了第二轮融资签约",
+          "summary": "DeepSeek据称主动暂停第二轮融资签约，引发市场对其战略调整的猜测。"
         },
         {
-          "title": "三星电子与博通 5 年 2000 亿美元合作将围绕 HBM、2nm 及以下先进制程等展开",
-          "summary": "三星与博通达成2000亿美元五年合作，聚焦HBM和2nm及以下先进制程技术。"
-        },
-        {
-          "title": "曹操出行正式开放 Robotaxi 主驾无安全员测试",
-          "summary": "曹操出行启动主驾无安全员Robotaxi测试，推进自动驾驶商业化落地。"
+          "title": "比亚迪：人形机器人计划八月发布",
+          "summary": "比亚迪宣布将于八月发布人形机器人，跨界进军具身智能领域。"
         }
       ]
     },
@@ -47,16 +39,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "Cursor 用一群Agent重造SQLite：仅凭 835 页手册，无源码、无测试、不联网",
-          "summary": "Cursor团队利用多Agent系统仅凭手册重写SQLite，展示AI在逆向工程与代码生成中的潜力。"
+          "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+          "summary": "英伟达提出Cosmos-H-Dreams，实现手术机器人实时生成式仿真，推动医疗AI落地。"
         },
         {
-          "title": "3万小时触觉数据补齐具身智能“手感”！新智具身&复旦报告三连发",
-          "summary": "新智具身与复旦发布3万小时触觉数据集，为具身智能提供关键触觉感知能力。"
+          "title": "NVIDIA Ising Enables Fully Automated Quantum Computer Calibration with Enhanced In-Context Learning",
+          "summary": "英伟达发布Ising框架，通过增强上下文学习实现量子计算机全自动校准。"
         },
         {
-          "title": "Open-weight 4B models approach o3-level medical question answering in Swedish [P]",
-          "summary": "开源4B参数模型在瑞典语医疗问答中接近o3水平，展现小模型在垂直领域的突破。"
+          "title": "Evaluated 6 frontier LLMs (GPT-5.4, Claude Sonnet 4.6, Claude Opus 4.7, Gemini Pro/Flash, Grok 4.3) on political, gender, and racial bias across 8 benchmarks (~20,600 examples) [R]",
+          "summary": "一项研究评估了6个前沿大模型在政治、性别和种族偏见上的表现，覆盖8个基准约2万样本。"
         }
       ]
     },
@@ -64,21 +56,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "黄仁勋、马斯克同日发声：中国的人工智能注定卓越 将成为全球领导者 - 财联社",
-          "summary": "黄仁勋与马斯克一致认为中国AI将成全球领导者，强调技术自主与创新生态的重要性。"
+          "title": "How AI is expanding what people do at work",
+          "summary": "OpenAI发文探讨AI如何扩展人类工作能力，强调人机协作而非替代。"
         },
         {
-          "title": "这个被裁掉的女孩绕过了“恐怖谷”",
-          "summary": "一个被裁女孩通过AI创作绕过恐怖谷效应，引发对AI情感表达与就业替代的讨论。"
+          "title": "2026年，为什么资本更青睐“会赚钱”的AI应用？",
+          "summary": "分析指出，2026年资本更关注能直接产生商业价值的AI应用，而非单纯的技术创新。"
         },
         {
-          "title": "alibaba /open-code-review",
-          "summary": "阿里巴巴开源代码审查工具，助力开发者提升代码质量与协作效率。"
+          "title": "Cursor 用一群Agent重造SQLite：仅凭 835 页手册，无源码、无测试、不联网",
+          "summary": "Cursor团队利用多Agent系统仅凭手册重写SQLite，展示了Agent在代码生成中的潜力。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦硬件突破与安全争议，2nm GPU与AI失控事件并存，开源模型与具身智能持续升温。",
-  "generated_at": "2026-07-27T11:25:38.001689+08:00",
+  "summary": "今日AI圈聚焦于硬件突破（2nm GPU）、开源模型（Kimi K3）与资本理性化，Agent应用加速落地。",
+  "generated_at": "2026-07-28T10:43:27.262581+08:00",
   "source_count": 20
 }
