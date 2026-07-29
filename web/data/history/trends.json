@@ -1,7 +1,48 @@
 {
-  "updated_at": "2026-07-28T10:43:27.457882+08:00",
-  "total_days": 77,
+  "updated_at": "2026-07-29T10:50:37.404333+08:00",
+  "total_days": 78,
   "days": [
+    {
+      "date": "2026-07-29",
+      "total_items": 20,
+      "avg_score": 7.7,
+      "max_score": 8.8,
+      "crowd_hot_count": 3,
+      "avg_crowd_heat": 0.7,
+      "topic_distribution": {
+        "tutorial": 15,
+        "analysis": 11,
+        "news": 5,
+        "opinion": 4,
+        "explanation": 1
+      },
+      "source_distribution": {
+        "T1": 4,
+        "T2": 16
+      },
+      "top_keywords": [
+        [
+          "Anthropic",
+          3
+        ],
+        [
+          "OpenAI",
+          2
+        ],
+        [
+          "Scientific",
+          1
+        ],
+        [
+          "Memory Efficient Audio Synthesis",
+          1
+        ],
+        [
+          "Decoupled Temporal Depth Diffusion Transformers",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-07-28",
       "total_items": 20,

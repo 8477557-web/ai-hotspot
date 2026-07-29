@@ -1,20 +1,24 @@
 {
-  "title": "AI日报 - 2026年07月28日",
+  "title": "AI日报 - 2026年07月29日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "月之暗面Kimi K3正式开源",
-          "summary": "月之暗面正式开源其Kimi K3模型，进一步丰富了开源大模型生态。"
+          "title": "萝卜快跑跑通全球首例右舵全无人 伦敦接力开启公开道路测试",
+          "summary": "百度萝卜快跑在伦敦完成全球首个右舵全无人驾驶公开道路测试，加速海外布局。"
         },
         {
-          "title": "NVIDIA Nemotron 3 Ultra Leads Open Models on Accuracy and Efficiency in Agentic RTL Coding",
-          "summary": "英伟达发布Nemotron 3 Ultra，在Agentic RTL编码任务中实现开源模型准确性与效率领先。"
+          "title": "国内首个！阿里Qoder上线实时语音交互智能体，让Agent像真人一样交流干活",
+          "summary": "阿里发布Qoder实时语音交互智能体，实现类人交流与任务执行。"
         },
         {
-          "title": "微软AI发布网络安全模型MAI-Cyber-1-Flash，漏洞检测性能提升并降低50%成本",
-          "summary": "微软推出MAI-Cyber-1-Flash网络安全模型，漏洞检测性能提升同时成本降低50%。"
+          "title": "Kimi K3、Unlimited OCR包揽全球前二，中国开源模型持续刷屏海外",
+          "summary": "Kimi K3与Unlimited OCR模型在多项基准测试中包揽全球前二，彰显中国开源模型实力。"
+        },
+        {
+          "title": "苹果 AI 眼镜明年 WWDC 见，但这次「隐私」不好做",
+          "summary": "苹果计划于明年WWDC发布AI眼镜，但隐私保护成为技术难点。"
         }
       ]
     },
@@ -22,16 +26,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "全球首款2nm GPU 炸场！OpenAI、Meta、微软集体站台，AMD 要拆掉英伟达护城河？",
-          "summary": "AMD发布全球首款2nm GPU，获OpenAI、Meta、微软等巨头支持，挑战英伟达市场地位。"
+          "title": "Ilya获黄仁勋50亿美元押注：“是时候Scaling了”",
+          "summary": "Ilya Sutskever获得黄仁勋50亿美元投资，标志着AI规模化训练的新阶段。"
         },
         {
-          "title": "DeepSeek被曝主动叫停了第二轮融资签约",
-          "summary": "DeepSeek据称主动暂停第二轮融资签约，引发市场对其战略调整的猜测。"
+          "title": "OpenAI的ChatGPT周活跃用户数接近10亿",
+          "summary": "ChatGPT周活跃用户逼近10亿，持续巩固其全球最大AI应用地位。"
         },
         {
-          "title": "比亚迪：人形机器人计划八月发布",
-          "summary": "比亚迪宣布将于八月发布人形机器人，跨界进军具身智能领域。"
+          "title": "中国AI大模型周调用量领跑全球，占全球2/3市场份额",
+          "summary": "中国AI大模型周调用量全球占比达63.5%，前五名均为中国模型。"
+        },
+        {
+          "title": "扎克伯格公开批评 AI 权力集中：暗指 OpenAI 与 Anthropic 背离开放价值观",
+          "summary": "扎克伯格批评OpenAI与Anthropic背离开放原则，呼吁AI权力分散。"
         }
       ]
     },
@@ -39,16 +47,20 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
-          "summary": "英伟达提出Cosmos-H-Dreams，实现手术机器人实时生成式仿真，推动医疗AI落地。"
+          "title": "Scientific computing in the age of agentic AI",
+          "summary": "OpenAI发布报告，探讨智能体AI在科学计算中的变革潜力。"
         },
         {
-          "title": "NVIDIA Ising Enables Fully Automated Quantum Computer Calibration with Enhanced In-Context Learning",
-          "summary": "英伟达发布Ising框架，通过增强上下文学习实现量子计算机全自动校准。"
+          "title": "Memory Efficient Audio Synthesis with Decoupled Temporal Depth Diffusion Transformers",
+          "summary": "Apple提出解耦时间深度扩散Transformer，实现高内存效率的音频合成。"
         },
         {
-          "title": "Evaluated 6 frontier LLMs (GPT-5.4, Claude Sonnet 4.6, Claude Opus 4.7, Gemini Pro/Flash, Grok 4.3) on political, gender, and racial bias across 8 benchmarks (~20,600 examples) [R]",
-          "summary": "一项研究评估了6个前沿大模型在政治、性别和种族偏见上的表现，覆盖8个基准约2万样本。"
+          "title": "PNAS: Over Half of All Academic Articles Now Show LLM Influence—7.3M-Paper Study",
+          "summary": "PNAS研究显示，超半数学术论文受LLM影响，涉及730万篇论文。"
+        },
+        {
+          "title": "全球首个Agentic扩散模型来了：边行动边纠错，128K上下文追平自回归",
+          "summary": "研究者发布首个Agentic扩散模型，支持128K上下文与实时纠错，性能追平自回归模型。"
         }
       ]
     },
@@ -56,21 +68,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "How AI is expanding what people do at work",
-          "summary": "OpenAI发文探讨AI如何扩展人类工作能力，强调人机协作而非替代。"
+          "title": "普通人跑不起K3！Kimi 开源，Anthropic微妙表态：从未主张禁止开放权重模型",
+          "summary": "Kimi开源引发热议，Anthropic澄清从未反对开放权重，强调平衡安全与开放。"
         },
         {
-          "title": "2026年，为什么资本更青睐“会赚钱”的AI应用？",
-          "summary": "分析指出，2026年资本更关注能直接产生商业价值的AI应用，而非单纯的技术创新。"
+          "title": "黄仁勋倡议的开源联名信，Anthropic 为何不愿签名?",
+          "summary": "黄仁勋推动开源联名信，Anthropic拒绝签名引发对AI开放与安全边界的讨论。"
         },
         {
-          "title": "Cursor 用一群Agent重造SQLite：仅凭 835 页手册，无源码、无测试、不联网",
-          "summary": "Cursor团队利用多Agent系统仅凭手册重写SQLite，展示了Agent在代码生成中的潜力。"
+          "title": "豆包搜索，走出了豆包",
+          "summary": "豆包搜索功能突破原有边界，探索更广泛的AI搜索应用场景。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦于硬件突破（2nm GPU）、开源模型（Kimi K3）与资本理性化，Agent应用加速落地。",
-  "generated_at": "2026-07-28T10:43:27.262581+08:00",
+  "summary": "今日AI圈聚焦于智能体落地、中国模型全球领跑、开源与安全之争，规模化与开放成为核心关键词。",
+  "generated_at": "2026-07-29T10:50:37.125830+08:00",
   "source_count": 20
 }
