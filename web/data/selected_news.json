@@ -1,20 +1,57 @@
 {
-  "updated_at": "2026-07-29T10:50:37.125913+08:00",
+  "updated_at": "2026-07-30T10:35:17.017246+08:00",
   "total": 20,
   "items": [
     {
-      "id": "9f2abd54b912",
+      "id": "b36f5aa8f280",
       "source_id": "openai-blog",
       "source_name": "OpenAI Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Scientific computing in the age of agentic AI",
-      "link": "https://openai.com/index/scientific-computing-agentic-ai",
-      "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-      "published": "2026-07-29T01:00:00+08:00",
-      "fetched_at": "2026-07-29T10:49:04.111942+08:00",
-      "pre_filter_reason": "Explicitly about 'agentic AI' and AI coding agents in scientific computing.",
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+      "published": "2026-07-29T23:00:00+08:00",
+      "fetched_at": "2026-07-30T10:33:58.936460+08:00",
+      "pre_filter_reason": "AI基准测试",
+      "scores": {
+        "importance": 9,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 9.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "两个设置让ARC-AGI-3分数翻三倍",
+          "angle": "手把手教你调整GPT-5.6的两个关键API参数，保留推理能力并启用压缩，实测效果立竿见影。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "案例研究",
+          "title": "从平庸到顶尖：一个团队如何用两个设置逆袭AI基准测试",
+          "angle": "深度拆解这两个设置背后的原理，以及它们如何协同提升推理效率与得分。",
+          "difficulty": "高级"
+        }
+      ]
+    },
+    {
+      "id": "103a1bba1a57",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "link": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+      "published": "2026-07-29T18:00:00+08:00",
+      "fetched_at": "2026-07-30T10:33:58.936515+08:00",
+      "pre_filter_reason": "AI model access for researchers",
       "scores": {
         "importance": 8,
         "timeliness": 9,
@@ -26,69 +63,32 @@
       "quality_score": 8.8,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "用AI智能体加速科研：从基因组学到科学计算",
-          "angle": "手把手演示如何用AI编程助手（如Claude、Copilot）完成一个基因组数据处理脚本，展示从需求描述到代码生成、调试的全流程。",
+          "tag": "新闻解读",
+          "title": "OpenAI送10万学者免费顶级AI，科研要变天？",
+          "angle": "分析这项计划对学术研究、论文发表和跨学科合作的潜在影响。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "智能体AI如何重塑科学计算？",
-          "angle": "解读报告中的关键案例：AI智能体在科学软件现代化中的实际作用，以及这对科研效率的颠覆性影响。",
+          "tag": "教程",
+          "title": "学术研究者必看：如何用ChatGPT高级模型加速你的课题",
+          "angle": "针对研究人员，演示申请资格、使用技巧及在文献综述、数据分析中的实际应用。",
           "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "17255a464870",
-      "source_id": "apple-ml",
-      "source_name": "Apple ML Research",
+      "id": "9bf425764314",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Memory Efficient Audio Synthesis with Decoupled Temporal Depth Diffusion Transformers",
-      "link": "https://machinelearning.apple.com/research/audio-synthesis-diffusion-transformers",
-      "summary": "Siri Expressive Voices synthesize rich, configurable speech in real time and entirely on device, powered by AFM 3 Core Advanced, Apple’s most powerful on-device foundation model. This work presents the memory-efficient audio synthesis architecture behind that capability: a detokenizer that converts the semantic audio tokens emitted by the foundation model into high-fidelity audio within the tight compute and memory budget of the Apple Matrix Coprocessor (AMX). We convert semantic audio tokens to a residual vector quantization (RVQ) representation with a three-component design—a streaming…",
-      "published": "2026-07-28T08:00:00+08:00",
-      "fetched_at": "2026-07-29T10:49:07.819818+08:00",
-      "pre_filter_reason": "AI research paper on audio synthesis and Apple foundation model",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 7,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.2,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "苹果Siri新语音背后的黑科技：内存高效的音频合成",
-          "angle": "用通俗语言解释“解耦时间深度扩散Transformer”如何让AI在手机上实时生成自然语音，并对比传统方法的内存优势。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "从Siri Expressive Voices看端侧AI的音频革命",
-          "angle": "分析苹果AFM 3模型如何平衡实时性、表现力和设备内存限制，以及这对智能助手行业的启示。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "90cddf54a5df",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Ilya获黄仁勋50亿美元押注：“是时候Scaling了”",
-      "link": "https://www.qbitai.com/2026/07/461911.html",
-      "summary": "迷人的Scaling曲线",
-      "published": "2026-07-28T13:46:59+08:00",
-      "fetched_at": "2026-07-29T10:49:17.796674+08:00",
-      "pre_filter_reason": "Ilya is an AI researcher, and scaling is an AI topic.",
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+      "published": "2026-07-29T08:00:00+08:00",
+      "fetched_at": "2026-07-30T10:33:58.936534+08:00",
+      "pre_filter_reason": "GPT-5.6 is an AI model, discusses AI efficiency",
       "scores": {
         "importance": 9,
         "timeliness": 9,
@@ -97,38 +97,149 @@
         "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 8.1,
+      "quality_score": 8.8,
       "topics": [
         {
-          "tag": "analysis",
-          "title": "Ilya获黄仁勋50亿美元押注：Scaling Law为何依然迷人？",
-          "angle": "深入解读Ilya新方向与Scaling Law的关系，探讨为何顶级投资人和AI领袖仍坚信“更大模型”的潜力。",
+          "tag": "深度分析",
+          "title": "GPT-5.6的「聪明」与「省钱」如何兼得？",
+          "angle": "解读GPT-5.6在模型、推理和智能体工作流中的效率创新，以及每美元智能的提升逻辑。",
           "difficulty": "中级"
         },
         {
-          "tag": "opinion",
-          "title": "Scaling Law还没死？Ilya与黄仁勋的豪赌意味着什么",
-          "angle": "从行业视角分析：当Scaling Law遭遇瓶颈，Ilya的新尝试能否开启“第二增长曲线”？",
+          "tag": "对比评测",
+          "title": "GPT-5.6 vs 前代：同样预算，智能产出翻倍了吗？",
+          "angle": "通过实际任务测试，量化GPT-5.6在成本与性能上的改进。",
           "difficulty": "高级"
         }
       ]
     },
     {
-      "id": "198696bd1f4e",
-      "source_id": "reddit-ml",
-      "source_name": "Reddit r/MachineLearning",
-      "source_tier": "T2",
+      "id": "407f57bf62a4",
+      "source_id": "deepmind-blog",
+      "source_name": "Google DeepMind",
+      "source_tier": "T1",
       "source_lang": "en",
-      "source_category": "community",
-      "title": "PNAS: Over Half of All Academic Articles Now Show LLM Influence—7.3M-Paper Study [R]",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1v93q78/pnas_over_half_of_all_academic_articles_now_show/",
-      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Largest empirical study of AI penetration in academic publishing ever conducted—51%-by-2025 is the most authoritative quantitative marker yet of how thoroughly LLMs have reshaped scientific writing, and the inequality angle (adoption skews lower-prestige and non-English institutions) is a fresh policy dimension.</p> <p>---</p> <p>Source: <a href=\"https://pnas.org/doi/10.1073/pnas.2605754123\">https://pnas.org/doi/10.1073/pnas.2605754123</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Justgototheeffinmoon\"> /u/Justgototheeffinmoon </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v93q78/pnas_over_half_of_all_academic_articles_now_show/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v93q78/pnas_over_half_of_all_academic_articles_now_show/\">[comments]</a></span>",
-      "published": "2026-07-29T00:38:32+08:00",
-      "fetched_at": "2026-07-29T10:49:27.837567+08:00",
-      "pre_filter_reason": "Study on LLM influence in academic articles, directly AI-related.",
+      "source_category": "official",
+      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "link": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "summary": "",
+      "published": "2026-07-30T00:02:10+08:00",
+      "fetched_at": "2026-07-30T10:33:59.219737+08:00",
+      "pre_filter_reason": "AI音乐生成",
       "scores": {
-        "importance": 9,
+        "importance": 7,
         "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.2,
+      "topics": [
+        {
+          "tag": "产品测评",
+          "title": "Lyria 3.5来了！Google Flow Music的音乐创作有多强？",
+          "angle": "体验新版本在旋律、歌词、人声和创意控制上的突破，展示实际创作片段。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "教程",
+          "title": "用Lyria 3.5从零制作一首AI歌曲：歌词、人声全流程",
+          "angle": "分步教学如何利用新功能进行音乐创作，重点展示创意控制技巧。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "8cfa229dcd22",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "How to Self-Host a Validated AI Coding Assistant with NVIDIA NeMo Guardrails",
+      "link": "https://developer.nvidia.com/blog/how-to-self-host-a-validated-ai-coding-assistant-with-nvidia-nemo-guardrails/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/synthetic-gen-rep-768x432.jpg\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"synthetic-gen-rep\" width=\"768\" />Deploying an AI coding assistant in a regulated, sovereign, or source-sensitive environment, often comes with challenges. Three common issues are: the source...",
+      "published": "2026-07-30T00:46:45+08:00",
+      "fetched_at": "2026-07-30T10:34:00.853313+08:00",
+      "pre_filter_reason": "AI编码助手",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.1,
+      "topics": [
+        {
+          "tag": "教程",
+          "title": "自建AI编程助手：NVIDIA NeMo Guardrails部署实战",
+          "angle": "从环境搭建到规则配置，一步步教你自托管一个安全可控的AI编码助手。",
+          "difficulty": "高级"
+        },
+        {
+          "tag": "最佳实践",
+          "title": "为什么你的AI编程助手需要护栏？NeMo Guardrails安全指南",
+          "angle": "讲解在自托管场景下，如何利用NeMo Guardrails防止代码泄露和错误输出。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "bfae6d0af948",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "这这这…翁荔光速回OpenAI上班了",
+      "link": "https://www.qbitai.com/2026/07/462947.html",
+      "summary": "6位联合创始人——只剩2名。",
+      "published": "2026-07-30T08:31:19+08:00",
+      "fetched_at": "2026-07-30T10:34:10.715608+08:00",
+      "pre_filter_reason": "About OpenAI co-founder returning to work",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 9,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "news_analysis",
+          "title": "OpenAI创始团队大洗牌：翁荔回归，仅剩两位元老",
+          "angle": "分析OpenAI核心团队变动背后的战略意图，以及翁荔回归可能带来的技术方向变化。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "career",
+          "title": "从离职到回归：翁荔的OpenAI职场启示录",
+          "angle": "以翁荔的回归为案例，探讨AI行业顶尖人才的职业选择与公司忠诚度。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "53fc7c5ae9ed",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "GPT“失控”被索赔1亿美元，微软反手扔王炸：新模型踩翻Mythos、价格砍半，还拉上“苦主”组了联盟",
+      "link": "https://www.infoq.cn/article/HmUiGVoVoyMc0Y29cZXc?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/HmUiGVoVoyMc0Y29cZXc?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-07-29T22:00:00+08:00",
+      "fetched_at": "2026-07-30T10:34:09.152463+08:00",
+      "pre_filter_reason": "GPT与AI模型",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
         "actionability": 9,
         "scarcity": 8,
         "virality": 9,
@@ -137,512 +248,296 @@
       "quality_score": 8.0,
       "topics": [
         {
-          "tag": "analysis",
-          "title": "超半数论文已用AI写？PNAS研究揭示LLM对学术写作的渗透",
-          "angle": "解读7.3M篇论文的大规模研究：LLM如何改变学术写作，以及低影响力期刊和英语国家之外的不平等现象。",
-          "difficulty": "入门"
+          "tag": "tutorial",
+          "title": "GPT失控风险与微软新模型：企业如何安全部署AI？",
+          "angle": "结合GPT失控索赔事件，讲解企业在使用大模型时如何设置安全护栏和成本控制策略。",
+          "difficulty": "中级"
         },
         {
-          "tag": "opinion",
-          "title": "AI写论文是进步还是危机？从PNAS数据看学术诚信的未来",
-          "angle": "探讨LLM在学术写作中的双刃剑效应：效率提升 vs. 原创性稀释，以及审稿系统如何应对。",
+          "tag": "comparison",
+          "title": "微软新模型 vs 开源Mythos：性能与价格全面对比",
+          "angle": "对比微软新模型与Mythos在性能、价格、适用场景上的差异，帮助开发者选型。",
           "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "6235593d84b1",
-      "source_id": "reddit-ml",
-      "source_name": "Reddit r/MachineLearning",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "NeurIPS 2026 AI-generated reviews [D]",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1v8vuae/neurips_2026_aigenerated_reviews_d/",
-      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I'm really confused about what the point of the prompt injection was (speaking as an author). Is it just a study? I would really prefer that they took action against the AI-generated reviews. Obviously, we cannot assume that the reviewers were copy-pasting the output from the LLM without having given it any look at all, but in some cases that does look to be the case. In fact, in some cases the meta-reviewer seems to have also largely used LLMs. What exactly is the consequence here for using an LLM for reviewing? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bricklerex\"> /u/bricklerex </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v8vuae/neurips_2026_aigenerated_reviews_d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v8vuae/neurips_2026_aigenerated_reviews_d/\">[comments]</a></span>",
-      "published": "2026-07-28T19:34:57+08:00",
-      "fetched_at": "2026-07-29T10:49:27.837484+08:00",
-      "pre_filter_reason": "AI-generated reviews at NeurIPS conference",
-      "scores": {
-        "importance": 7,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 9,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "如何识破AI生成的论文审稿意见？",
-          "angle": "分享几个关键特征（如模板化语言、缺乏具体引用、逻辑跳跃），并演示用检测工具辅助判断。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "opinion",
-          "title": "NeurIPS 2026 AI审稿风波：提示注入实验该不该被允许？",
-          "angle": "从作者和研究者视角分析：AI生成审稿意见对学术公平的威胁，以及会议组织方应如何建立规则。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "3a872d60915e",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "萝卜快跑跑通全球首例右舵全无人 伦敦接力开启公开道路测试",
-      "link": "https://www.leiphone.com/category/industrynews/wBq37lyzbyhtGza5.html",
-      "summary": "<p>7月28日，百度萝卜快跑联合隶属 Lyft 集团的Freenow，在伦敦启动公开道路测试，计划2027年起面向市民提供无人驾驶出行服务。这是中国无人车首次在英国伦敦复杂路况下实地路测，也是继香港之后在右舵市场的又一重要突破。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260728/6a686c1951daa.png?imageView2/2/w/740\" /></p><p>﻿</p><p>双方于2025年达成合作意向，此次路测标志着项目从规划走向实质落地。未来，萝卜快跑和Freenow会将无人车与现有运力组成混合运营网络，覆盖城市与城郊复合路况，共同打造适配伦敦交通生态的方案。今年3月，Lyft首席执行官David Risher专程到访百度并试乘萝卜快跑，对技术成熟度与乘坐体验给予高度评价，为合作奠定了良好互信基础。</p><p>﻿</p><p>据悉，英国政府高度重视自动驾驶产业的长远价值，估算该产业到2035年会贡献逾420亿英镑的经济产值，并创造近4万个优质就业岗位。民调机构Censuswide调研显示，伦敦市民对自动驾驶车辆接受度较高，58%受访者表示愿意尝试，35岁以下人群中近三分之二持支持态度。</p><p>﻿</p><p>前一周，萝卜快跑在香港获得无人驾驶测试牌照，并于7月27日启动测试，成为全球首个在“右舵左行”体系开展全无人测试的平台。此次进入伦敦，标志着萝卜快跑在右舵市场实现了从单点突破到规模布局的转折。全球右舵市场覆盖70多个国家和地区、人口超20亿，占全球三分之一份额，囊括英国、澳大利亚、日本等发达经济体。截至目前，萝卜快跑已在北京、深圳、海南、迪拜、阿布扎比等全球27座城市落地，累计完成超2200万次出行服务。</p><p><br /></p>",
-      "published": "2026-07-28T16:46:00+08:00",
-      "fetched_at": "2026-07-29T10:49:14.561554+08:00",
-      "pre_filter_reason": "无人驾驶测试，AI应用",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "萝卜快跑伦敦路测：右舵无人驾驶技术难点解析",
-          "angle": "从技术角度拆解右舵无人驾驶与左舵的核心差异，包括感知系统标定、路径规划策略和交通规则适配，适合自动驾驶工程师和科技爱好者。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "news",
-          "title": "中国无人车首闯伦敦：萝卜快跑如何拿下右舵市场？",
-          "angle": "结合百度与Freenow的合作背景，分析中国自动驾驶企业出海英国的战略意义、市场机会及合规挑战，适合关注智能出行和商业趋势的观众。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "b3122db962f0",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ中国",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "普通人跑不起K3！Kimi 开源，Anthropic微妙表态：从未主张禁止开放权重模型",
-      "link": "https://www.infoq.cn/article/jZ394NO5PIZIqNVbN4mD?utm_source=rss&utm_medium=article",
-      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/jZ394NO5PIZIqNVbN4mD?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-      "published": "2026-07-29T17:57:08+08:00",
-      "fetched_at": "2026-07-29T10:49:15.895665+08:00",
-      "pre_filter_reason": "Discusses open-source AI model and Anthropic stance",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Kimi开源模型怎么跑？普通人也能用的低成本部署指南",
-          "angle": "针对Kimi开源后的普通开发者，提供从环境搭建到模型推理的简易教程，对比K3等高价方案，突出开源模型的性价比和可玩性。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "news",
-          "title": "Anthropic表态开放权重：开源与闭源之争迎来转折？",
-          "angle": "解读Anthropic对开放权重模型的最新立场，结合Kimi开源事件，分析AI行业开源生态的未来走向及对创业公司的影响。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "3fdfcc228f39",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Developing Healthcare Robotics with GPU-Native Medical Physics Simulation",
-      "link": "https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/Looping-catheter.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Looping-catheter\" width=\"600\" />Unlike autonomous driving or industrial robotics, healthcare robotics can’t rely on internet-scale data collection or unlimited real-world experimentation....",
-      "published": "2026-07-29T04:49:21+08:00",
-      "fetched_at": "2026-07-29T10:49:07.177839+08:00",
-      "pre_filter_reason": "Describes GPU-native simulation for healthcare robotics, involving AI",
-      "scores": {
-        "importance": 7,
-        "timeliness": 7,
-        "actionability": 5,
-        "scarcity": 7,
-        "virality": 5,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "GPU原生医疗物理仿真：从零搭建机器人手术模拟环境",
-          "angle": "基于NVIDIA技术栈，讲解如何利用GPU加速的物理仿真引擎开发医疗机器人，涵盖导管模拟、碰撞检测和实时渲染，适合医疗AI和机器人开发者。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "news",
-          "title": "医疗机器人新突破：GPU仿真如何让手术训练更安全？",
-          "angle": "介绍GPU原生仿真在医疗机器人研发中的应用价值，对比传统方法，强调降低实验成本、提升训练效率，适合医疗科技从业者和投资者。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "cbd3ea29695a",
-      "source_id": "huggingface-blog",
-      "source_name": "Hugging Face Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
-      "summary": "",
-      "published": "2026-07-28T23:01:45+08:00",
-      "fetched_at": "2026-07-29T10:49:07.578256+08:00",
-      "pre_filter_reason": "Encoders for long-context inference, likely AI model related.",
-      "scores": {
-        "importance": 6,
-        "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 6,
-        "virality": 5,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "CPU上跑长上下文模型？LFM2.5编码器加速技巧",
-          "angle": "针对资源受限场景，讲解LFM2.5编码器的架构优化、内存管理和并行推理策略，帮助开发者在CPU上实现高效长上下文推理。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "news",
-          "title": "告别GPU依赖：LFM2.5让CPU也能处理超长文本",
-          "angle": "解读LFM2.5编码器的技术突破及其对边缘设备、低算力场景的意义，适合关注AI推理效率和应用落地的读者。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "11226491b2dd",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "国内首个！阿里Qoder上线实时语音交互智能体，让Agent像真人一样交流干活",
-      "link": "https://www.leiphone.com/category/industrynews/Le7pnnrg155qtynu.html",
-      "summary": "<p>7月28日，阿里Qoder上线国内首个实时语音交互智能体Qoder Voice，用户语音唤醒智能体后，智能体可像真人助手一样实时与用户互动并执行任务，让用户解放双手，实现“动动嘴，让Agent干活”。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260728/6a68596e5db58.png?imageView2/2/w/740\" /></p><p>目前，Agent的交互形式以文本为主，在长上下文场景下输入效率较低，传统语音交互则以“对讲机”式的单向输入为主，Agent只能被动接受指令，无法以语音的形式主动与用户进行讨论。Qoder Voice提供了一种全新的Agent交互模式，它由实时全双工语音模型Qwen-Audio-3.0-Realtime驱动，该模型斩获了多项权威榜单第一，在Artificial Analysis上的综合指数（Speech to Speech Index）得分84.1%，摘得全球桂冠。</p><p><br /></p><p>现在，用户只需在Qoder Quest模式主界面点击语音入口，即可在任意界面，随时唤起常驻的语音助手悬浮窗，与Qoder进行实时双向交流。用户发起语音指令后，Qoder会自动创建任务、调用工具，并在后台持续执行任务。用户无需停留在页面等待结果，可以边交流边处理其他事情；对话过程中，还能随时打断、追问或调整需求，Qoder会实时响应，实现语音交互与任务执行同步进行，协作体验更加自然流畅。</p><p><br /></p><p>除了执行指令，Qoder还支持讨论式交互。面对复杂任务，AI会先给出执行方案，用户可通过语音补充需求或调整方向，AI再根据反馈优化并执行。例如，用户说“帮我重构这个模块”，Qoder会先给出多个重构方案，如果用户进一步提出“方案B更好，但要加上缓存”，Qoder会立即调整并继续执行，整个过程更接近人与人之间的协作。</p><p><br /></p><p>据悉，Qoder Voice已率先登陆Qoder国际版，首批开放给个人订阅、个人体验版和企业订阅用户，并提供3天限时免费试用。Qoder CN版也将在近期上线。</p><p><br /></p><p>目前，Qoder全系产品已服务中国一汽、中信证券、亚信科技等数十万家企业，全球用户已超500万，是中国最受欢迎的智能体编程平台之一。根据IDC最新发布的2025年中国AI编程市场份额报告，Qoder以47.6%的市场份额位居第一，超第二名至第五名总和，持续领跑中国AI编程市场。</p><p><br /></p>",
-      "published": "2026-07-28T15:26:00+08:00",
-      "fetched_at": "2026-07-29T10:49:14.561609+08:00",
-      "pre_filter_reason": "实时语音交互智能体，AI产品",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "阿里Qoder Voice上手：如何用语音让Agent帮你干活？",
-          "angle": "以实际任务为例（如查询天气、设置提醒、控制智能家居），演示Qoder Voice的语音唤醒、实时交互和任务执行流程，适合普通用户和开发者。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "news",
-          "title": "国内首个实时语音交互Agent来了：Qoder Voice如何改变人机协作？",
-          "angle": "分析Qoder Voice的技术亮点（低延迟、多轮对话、任务编排）及其在办公、生活场景中的潜力，对比传统文本Agent，展望语音交互的未来。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "21fb7f769f41",
-      "source_id": "ifanr",
-      "source_name": "爱范儿",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "苹果 AI 眼镜明年 WWDC 见，但这次「隐私」不好做",
-      "link": "https://www.ifanr.com/1673147?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "这一次，苹果又走到了科技与人文的十字路口。<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
-      "published": "2026-07-28T11:30:38+08:00",
-      "fetched_at": "2026-07-29T10:49:20.409091+08:00",
-      "pre_filter_reason": "About Apple's AI glasses, an AI product launch.",
-      "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.7,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "苹果AI眼镜的隐私难题：苹果如何平衡创新与用户数据安全？",
-          "angle": "从苹果AI眼镜的隐私挑战切入，分析苹果在硬件设计、数据本地化处理、用户权限控制等方面的可能解决方案，并对比竞争对手的隐私策略，提供用户选购建议。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "苹果AI眼镜推迟发布：是技术瓶颈还是隐私顾虑？",
-          "angle": "解读苹果AI眼镜推迟至明年WWDC的背后原因，聚焦隐私保护对产品开发的影响，探讨苹果如何在AR眼镜中实现“隐私优先”设计，以及对行业趋势的启示。",
-          "difficulty": "中级"
-        }
-      ]
-    },
-    {
-      "id": "e7a10d8aafc3",
+      "id": "78c8c52b8949",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "OpenAI的ChatGPT周活跃用户数接近10亿",
-      "link": "https://36kr.com/newsflashes/3916120299498883?f=rss",
-      "summary": "据OpenAI内部披露的信息，该公司旗下聊天机器人周活跃用户量即将突破10亿大关。这一里程碑原本是企业计划在去年年底达成的目标。尽管比原定预期晚了七个月才有望实现该目标，但ChatGPT上线不足四年就积累如此庞大的用户规模，即便不算增速第一，也属于互联网应用中增长速度最快的产品之一。公司发言人对此未予置评。（新浪财经）",
-      "published": "2026-07-29T10:43:34+08:00",
-      "fetched_at": "2026-07-29T10:49:10.203950+08:00",
-      "pre_filter_reason": "News about OpenAI's ChatGPT, an AI chatbot.",
+      "title": "字节跳动启动AI业务组织调整：飞书与豆包火山团队整合",
+      "link": "https://36kr.com/newsflashes/3917472450588032?f=rss",
+      "summary": "7月30日，字节跳动启动面向 AI 业务的组织调整。飞书产品团队与豆包产品团队将整合，成立新的豆包产品团队，由豆包负责人赵祺负责，飞书负责人谢欣向赵祺汇报。GTM （市场、销售、客户服务）体系方面，飞书GTM团队将与火山引擎团队整合，成立新的 ToB GTM 组织“创造力服务平台（Creativity Service Platform）”，整体负责字节 MaaS和SaaS等云服务的市场、销售和客户服务，由火山引擎负责人谭待负责，飞书销售负责人林婵、飞书战略及市场负责人史志隽向谭待汇报。（界面）",
+      "published": "2026-07-30T09:39:03+08:00",
+      "fetched_at": "2026-07-30T10:34:03.094168+08:00",
+      "pre_filter_reason": "AI业务组织调整",
       "scores": {
-        "importance": 9,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 6,
-        "virality": 9,
-        "crowd_heat": 7.0
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
       },
-      "quality_score": 7.6,
+      "quality_score": 7.8,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "ChatGPT周活近10亿：普通人如何利用AI工具提升效率？",
-          "angle": "以ChatGPT用户量爆发为背景，分享5个实用的ChatGPT使用技巧，涵盖写作、编程、学习、生活规划等场景，帮助新手快速上手并提高生产力。",
+          "tag": "news_analysis",
+          "title": "字节跳动AI大整合：飞书、豆包、火山引擎为何合体？",
+          "angle": "解读字节跳动组织调整背后的AI战略，分析ToB与ToC业务如何协同。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "ChatGPT用户增长放缓：AI聊天机器人市场进入成熟期？",
-          "angle": "分析ChatGPT周活接近10亿但未达原定目标的原因，探讨AI聊天机器人市场的竞争格局、用户增长瓶颈及未来发展方向，为投资者和从业者提供参考。",
-          "difficulty": "中级"
+          "tag": "tutorial",
+          "title": "飞书+豆包+火山引擎：企业如何利用字节AI全家桶提效？",
+          "angle": "以实际场景为例，展示整合后的一站式AI服务如何提升企业办公与开发效率。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "035d9c642a6b",
-      "source_id": "qbitai",
-      "source_name": "量子位",
+      "id": "f5fe08e41540",
+      "source_id": "36kr",
+      "source_name": "36氪",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "Kimi K3、Unlimited OCR包揽全球前二，中国开源模型持续刷屏海外",
-      "link": "https://www.qbitai.com/2026/07/461949.html",
-      "summary": "",
-      "published": "2026-07-28T16:17:05+08:00",
-      "fetched_at": "2026-07-29T10:49:17.796646+08:00",
-      "pre_filter_reason": "AI模型Kimi K3，开源模型",
+      "title": "8点1氪丨超1100名AI公司员工联名请愿美国政府；桃酥吃出假牙冠？山姆、泸溪河回应；月之暗面Kimi已完成超35亿美元F轮融资",
+      "link": "https://36kr.com/p/3917362478148993?f=rss",
+      "summary": "<h2>今日热点导览</h2>\n  <p>C长鑫成交额达400亿元</p>\n  <p>国家烟草专卖局约谈爱奇迹（深圳）技术有限公司</p>\n  <p>外交部回应美国实施先进机器人进口限制</p>\n  <p>宝马拟在德国裁员数千人，通过自愿离职计划削减成本</p>\n  <p>美联储宣布维持利率不变</p>\n  <h2>TOP3大新闻</h2>\n  <p><strong>Anthropic首席执行官等多位AI大牛签署联名信，呼吁控制人工智能发展步伐</strong></p>\n  <p>超过1100名来自领先人工智能公司的高管及员工联名签署了一封公开信，呼吁美国政府“支持国际社会共同打造技术与治理工具，以此对前沿自动化人工智能的发展节奏实施有序管控”。这封信于当地时间7月28日发布，并获得了Anthropic与OpenAI的支持，签署者包括Anthropic首席执行官达里奥・阿莫代伊、OpenAI首席科学家雅各布・帕霍茨基、谷歌安全与对齐副总裁安卡・德拉根，以及Meta AI首席科学家赵晟佳。上周，在一场网络安全测试中，OpenAI模型突破内部测试系统，并入侵模型代码库平台 Hugging Face，引发人工智能行业从业人员警觉。（新浪财经）</p>\n  <p><strong>桃酥吃出假牙冠？山姆、泸溪河回应</strong></p>\n  <p>7月29日，“泸溪河桃酥吃出牙冠”登上热搜。一名来自大连的网友在社交平台发布视频称，自己在山姆超市购买的泸溪河桃酥中吃出了疑似金属牙冠的异物。该网友表示，已就此联系山姆客服，但双方未就赔偿达成一致，目前已向12315投诉，正在等待处理。</p>\n  <p>对此，山姆客服回应：“山姆高度重视食品安全与会员体验。在收到会员相关反馈后，我们已对该涉事批次的商品进行下架封存。同时，我们第一时间启动了抽检以及溯源核查，并积极配合监管开展相关调查工作。同时，为维护会员合法权益，我们一直积极与该会员联系沟通，将依法依规妥善处理后续事宜。”</p>\n  <p>7月29日，泸溪河食品发布声明：近日关注到消费者在社交平台发布视频，称其在某商店购买的泸溪河单片密封包装桃酥里吃出三颗金属假牙排，对此公司高度重视，第一时间成立专项小组，立即开展当天的全生产线检视，对该批次产品进行排查，确保产品安全。泸溪河始终将食品安全放在首位，已将相关情况主动向政府监管部门报备，邀请政府监管部门到工厂检查，将与政府部门保持沟通与汇报。（第一财经）</p>\n  <p><strong>月之暗面Kimi已完成超35亿美元F轮融资，投后估值涨至350亿美元</strong></p>\n  <p>月之暗面Kimi已完成F轮融资，融资金额超35亿美元，投后估值涨至350亿美元。因超目标金额3倍多，本轮融资系提前关闭，原定8月开始的G轮（Pre IPO轮）已提前开始，投前估值升至500亿美元。（财联社）</p>\n  <h2>AI最前沿</h2>\n  <p><strong>OpenAI的ChatGPT周活跃用户数接近10亿</strong></p>\n  <p>据OpenAI内部披露的信息，该公司旗下聊天机器人周活跃用户量即将突破10亿大关。这一里程碑原本是企业计划在去年年底达成的目标。尽管比原定预期晚了七个月才有望实现该目标，但ChatGPT上线不足四年就积累如此庞大的用户规模，即便不算增速第一，也属于互联网应用中增长速度最快的产品之一。公司发言人对此未予置评。（新浪财经）</p>\n  <p><strong>深信服AI在CyberGym评测跻身全球前四，国内第一</strong></p>\n  <p>36氪获悉，近日，在面向AI安全能力的国际基准测试CyberGym中，Sangfor AI在依托纯国产基座模型（GLM-5.2）的固定模型配置下，系统面对涵盖ARVO与OSS-Fuzz的全量高难度漏洞挑战，在1507项任务中成功解决1301项，整体成功率达到86.3%。最终整体评测成绩跻身全球前四，位列国内参评团队第一。</p>\n  <p><strong>OpenAI发布开源版Codex&nbsp;Security CLI</strong></p>\n  <p>OpenAI当地时间7月28日在社交媒体平台X发文称，已发布开源版Codex Security CLI。用户现可利用该工具扫描代码仓库、跨多次运行追踪发现的问题、验证修复结果，并将安全检查纳入持续集成和持续交付（CI/CD）流程。OpenAI表示，该产品目前仍处于早期发布阶段，未来将根据用户反馈持续改进。（界面新闻）</p>\n  <p><strong>Artium AI成为OpenAI高级合作伙伴，助力企业开发定制化智能体AI方案</strong></p>\n  <p>7月29日，美国智能体AI软件咨询公司Artium AI宣布，已加入OpenAI合作伙伴网络，成为OpenAI高级合作伙伴。公司表示，未来将与OpenAI合作，帮助企业在金融服务、医疗、科技、电信、媒体和娱乐等领域构建、部署和扩展定制化智能体AI解决方案。（新浪财经）</p>\n  <p><strong>腾讯混元开源AngelSpec</strong></p>\n  <p>36氪获悉，7月29日，腾讯混元团队宣布正式开源AngelSpec。一个覆盖drafter训练、架构设计到线上部署的投机解码框架，并同步开源Hy3-A21B的MTP与DFly drafter权重及训练代码。</p>\n  <h2>大公司/大事件</h2>\n  <p><strong>《中华人民共和国反网络暴力法（征求意见稿）》公开征求意见</strong></p>\n  <p>36氪获悉，为了预防、制止和惩治网络暴力，加强反网络暴力工作，保护个人、组织的合法权益，维护国家安全和社会公共利益，按照有关立法规划计划安排，国家互联网信息办公室会同有关部门起草了《中华人民共和国反网络暴力法（征求意见稿）》，现向社会公开征求意见。</p>\n  <p><strong>美股三大指数集体收跌，存储板块大跌</strong></p>\n  <p>36氪获悉，7月19日收盘，美股三大指数集体下跌，道指跌2.19%，纳指跌1.74%，标普500指数跌1.52%。存储板块大跌，美光科技跌近10%，闪迪跌超7%，迈威尔科技跌超6%，英特尔跌超5%；科技股普跌，英伟达跌超3%，特斯拉跌超2%，亚马逊、Meta跌超1%。热门中概股多数上涨，理想汽车涨超4%，拼多多涨超3%，小鹏集团、哔哩哔哩涨超2%，京东、网易涨超1%，阿里巴巴小幅下跌。</p>\n  <p><strong>C长鑫成交额达400亿元</strong></p>\n  <p>36氪获悉，截至7月29日下午两点，C长鑫成交额达400亿元，现涨11.7%，总市值超3.51万亿元。</p>\n  <p><strong>智驾“小蓝灯”相关国标已启动制修订</strong></p>\n  <p>36氪获悉，7月29日，中国汽车标准化研究院发文称，当下多款搭载驾驶辅助“小蓝灯”的车型存在灯光滥用问题，夜间蓝光易造成眩光，干扰其他驾驶员判断；同时该类车辆易遭近距离跟车、恶意加塞，提升道路通行风险。该文表示，现行GB 4785—2019未对智驾外部蓝灯作出明确规定，按标准原则，车辆不可加装法规未定义的外部光信号装置。国际相关工作组对该类指示灯利弊仍存争议。全国汽车标准化技术委员会正在主管部门指导下，开展GB 4785《汽车及挂车外部照明和光信号装置的安装要求》标准制修订，同时配合开展加强“激进式”产品创新设计准入审查和测试验证管理相关工作，进一步规范车辆灯具安装使用，提升汽车产品安全性能。</p>\n  <p><strong>雷军回应小米为何要做增程车：增程市场远未饱和，大有可为</strong></p>\n  <p>36氪获悉，雷军微博发文解释小米澎程为什么要做增程。“增程还是纯电，没有技术路线的绝对优劣，只有产品体验的高下之分。”雷军表示，增程市场远未饱和，反而大有可为。“小米澎程的增程，解决了非常多槽点，和早期增程已经不可同日而语”。</p>\n  <p><strong>AI短剧半年规模超220亿元，产业爆发重塑内容生产逻辑</strong></p>\n  <p>今年上半年，AI短剧交出了一份远超市场预期的成绩单。DataEye最新数据显示，今年1月至5月AI短剧市场规模已突破220亿元，全年有望冲击400亿元大关，国内AI短剧用户在今年上半年突破6亿。当前，从平台到制作方，从技术提供方到内容创作者，各方都在热议一个共同话题——AI正在从根本上重塑短剧的生产逻辑与商业边界。业内人士普遍认为，AI短剧已走过试探期，规模化的产业爆发正在发生。（中证报）</p>\n  <p><strong>比亚迪李云飞：投资长鑫科技5000万元为公司行为，董事长王传福不存在个人对外投资情形</strong></p>\n  <p>针对比亚迪参与长鑫科技首轮融资情况，比亚迪集团品牌及公关处总经理李云飞表示，该投资六年前（2020年12月）由比亚迪股份出资5000万元完成，公司董事长王传福仅持有比亚迪相关股份，未以个人名义对外投资入股其他任何企业，不存在个人对外投资情形。同时，公司所有对外投资，均统一以比亚迪股份有限公司主体名义开展，公司高管从未以个人名义参与任何对外投资项目。“近年来公司开展的各项股权投资业务，均为企业层面的市场化投资行为。”李云飞表示。（财联社）</p>\n  <p><strong>国家烟草专卖局约谈爱奇迹（深圳）技术有限公司</strong></p>\n  <p>36氪获悉，针对日常监管中发现的爱奇迹（深圳）技术有限公司涉嫌违法违规生产经营、合规管理薄弱等突出问题，近日，国家烟草专卖局依法对爱奇迹（深圳）技术有限公司负责人进行了行政约谈，要求其严格遵守《中华人民共和国烟草专卖法》、《中华人民共和国烟草专卖法实施条例》及《电子烟管理办法》等规定和国家限制类产业政策，切实履行合规经营主体责任，严格落实电子烟监管要求，建立健全内部合规管理体系，全面提升企业管理水平。</p>\n  <p><strong>中际旭创回应光模块降价传闻</strong></p>\n  <p>7月28日晚，中际旭创在电话会议上表示，针对行业1.6T光模块价格降幅较大的市场传闻，公司1.6T的ASP远高于市场传言，行业不存在恶性竞争。当前整体行业需求非常旺盛，原材料紧缺，1.6T交付紧张，只有少数厂商具备大规模交付1.6T的能力。公司产品定价具备竞争力，能够稳定维持毛利率水平。（界面新闻）</p>\n  <p><strong>兆易创新：5月6日至6月12日朱一明合计减持约44亿元公司股份</strong></p>\n  <p>36氪获悉，兆易创新公告，公司股东朱一明在2026年5月6日至6月12日期间，通过集中竞价和大宗交易方式合计减持公司股份1111.06万股，占公司总股本的1.58%，减持总金额约44亿元。减持计划实施完毕后，朱一明与其一致行动人香港赢富得有限公司合计持有公司股份4770.09万股，占公司总股本的6.80%。</p>\n  <p><strong>Momenta获德国全境L4级测试许可，系首家获批中国企业</strong></p>\n  <p>36氪获悉，7月29日，Momenta宣布获得德国联邦机动车运输管理局（KBA）颁发的L4级自动驾驶测试许可，可在德国全国城市道路开展测试，无需逐城申报。这是中国企业首次获此资质。受此消息影响，Momenta港股收涨超10%。</p>\n  <p><strong>外交部回应美国实施先进机器人进口限制</strong></p>\n  <p>针对美国联邦通信委员会宣布对外国制造的先进机器人实施进口限制，包括中方占有主导地位的人形机器人，外交部发言人毛宁7月29日在例行记者会上说，中方一贯坚决反对美方泛化国家安全概念打压中国企业。保护主义提升不了美国的竞争力，只会损害美国企业和消费者的利益。中方将继续采取必要措施，坚定维护中国企业的正当合法权益。（新华社）</p>\n  <p><strong>张小龙卸任粉笔关联公司职务</strong></p>\n  <p>36氪获悉，天眼查App显示，近日，粉笔关联公司北京粉笔蓝天科技有限公司发生工商变更，张小龙卸任法定代表人、经理、董事，由罗成兴接任。该公司成立于2015年2月，注册资本1000万人民币，经营范围包括教育咨询服务、软件开发等，由张小龙、北京粉笔盒子企业管理合伙企业（有限合伙）、魏亮共同持股。据媒体报道，此前，粉笔发布公告称，张小龙将不再担任公司任何职位，即日起生效。</p>\n  <p><strong>SK海力士：AI投资并未明显放缓</strong></p>\n  <p>SK海力士表示，从与客户的实际沟通看，主要云服务厂商仍在提出更多存储芯片供应需求，AI投资并未明显放缓。（中证报）</p>\n  <p><strong>SK海力士跌逾17%，创纪录最大跌幅</strong></p>\n  <p>36氪获悉，截至7月29日中午十二点，韩国KOSPI指数跌幅扩大至11%。SK海力士跌逾17%，创纪录最大跌幅。</p>\n  <p><strong>韩国将召开紧急会议讨论市场形势，此前韩股连续两日触发熔断</strong></p>\n  <p>韩国将于当地时间7月29日晚间召开紧急会议，讨论股市暴跌后的市场形势，跌势已令投资者持仓市值蒸发数十亿美元。韩国议员柳东秀表示，会议将由财政部长具润哲主持，韩国主要金融监管部门负责人都将参加，会议定于当地时间下午6时开始。韩国Kospi指数较6月高点已暴跌约40%。SK海力士公布的业绩弱于预期后，加剧了市场跌势，并引发投资者对人工智能投资热潮的质疑，同时散户抛售加速。此次下跌导致韩国股市连续第二个交易日触发全市场熔断机制。（界面新闻）</p>\n  <p><strong>韩国财政部长：为在未充分审慎评估情况下推出单只股票杠杆型ETF致歉</strong></p>\n  <p>韩国财政部长表示，为在未充分审慎评估情况下推出单只股票杠杆型ETF致歉。韩国股市7月29日再度遭遇重挫，KOSPI指数一度跌超12%，失守5300点，较历史高点累计下跌超43%。存储龙头SK海力士一度跌逾17%，创纪录最大跌幅，较6月历史高点累计下跌57%，市值跌破6300亿美元。（财联社）</p>\n  <p><strong>宝马拟在德国裁员数千人，通过自愿离职计划削减成本</strong></p>\n  <p>据报道，宝马集团计划向德国数千名员工提供自愿离职补偿方案，作为公司削减成本、提升竞争力的一部分。宝马全球计划削减约8000个岗位，其中大部分将来自德国市场。此次自愿离职计划主要面向研发、产品规划及其他企业职能部门员工，生产线工人不在适用范围内。公司还计划在未来几个月精简管理层级。该方案预计10月启动，并持续至2027年。（新浪财经）</p>\n  <p><strong>爱马仕二季度销售增长7%</strong></p>\n  <p>法国奢侈品集团爱马仕近日公布的第二季度业绩显示，该公司当季销售额达41亿欧元，按固定汇率计算同比增长7%，符合市场预期。从区域市场看，除中东地区外，所有市场在截至6月底的三个月内均实现增长。（新浪财经）</p>\n  <p><strong>国产首颗OLED TDDI芯片量产</strong></p>\n  <p>36氪获悉，近日，集创北方自主研发的国内首颗OLED显示触控一体化（TDDI）芯片ICNA3611实现在国内知名品牌主流机型中的规模化量产，标志着中国在高端显示驱动芯片领域完成技术突破与商业化应用的关键跨越，为国产替代与产业链自主可控按下“加速键”。</p>\n  <p><strong>知情人士：市场监管总局将开展光伏行业价格合规指导活动</strong></p>\n  <p>从业内人士处获悉，国家市场监督管理总局价格监督检查和反不正当竞争局定于7月31日开展光伏行业价格合规指导活动，邀请参会单位包括中国光伏行业协会和相关光伏行业企业。此次会议为指导光伏行业加强成本核算，落实《光伏行业成本核算模型通则》，遏制非理性竞争。（财联社）</p>\n  <p><strong>长江存储：网传“核心3D NAND专利全部19项权利要求被裁定无效”系严重误导性描述</strong></p>\n  <p>36氪获悉，长江存储科技有限责任公司7月29日发布声明：一、网传“美国专利商标局于7月28日裁定长江存储核心3D NAND专利全部19项权利要求无效”等信息，系严重误导性描述。二、网传“长存相关概念股全线暴跌”系基于上述误导信息所作的恶意编造，相关描述与事实严重不符。三、2023年11月以来，长江存储在美国发起对美光科技公司的专利侵权诉讼，共涉及27项专利、295项专利权利主张，目前仍在审理中。公司不对正在进行中的诉讼发表评论，相关进展在公开渠道均可查询。四、长江存储始终坚持自主创新，依法合规经营，高度重视知识产权布局与保护。请相关账号及平台立即停止一切失实报道和恶意传播。公司将保留追究相关单位及人员法律责任的权利。（界面新闻）</p>\n  <p><strong>OceanBase回应融资报道：全力投入AI数据创新，与资本市场保持开放沟通</strong></p>\n  <p>36氪获悉，7月29日，针对有关首次外部股权融资的报道，OceanBase回复表示，公司全力投入AI时代的数据技术与产品创新，将持续与资本市场保持开放沟通。对于融资规模、投资机构及具体进展，OceanBase未作进一步回应。此前，媒体报道称，OceanBase正在与投资者洽谈A轮融资，目前已与多家头部投资机构接洽，目标融资规模约20亿至30亿元人民币。知情人士称，此次融资将帮助OceanBase进一步增强独立运营能力，并支持其向AI数据平台领域拓展。</p>\n  <p><strong>扎克伯格：美国不应为了在竞赛中占据优势，而封禁中国AI模型</strong></p>\n  <p>据英国《金融时报》、路透社7月29日报道，美国元公司首席执行官扎克伯格在接受媒体采访时表示，美国不应为了在人工智能（AI）竞赛中占据优势，而封禁中国AI模型。（环球网）</p>\n  <p><strong>美联储宣布维持利率不变</strong></p>\n  <p>当地时间7月29日，美国联邦储备委员会结束为期两天的议息会议，宣布将联邦基金利率目标区间维持在3.5%至3.75%之间不变，这也是美联储今年以来第五次维持利率不变。（央视财经）</p>\n  <p><strong>FAA拟豁免部分规定，加快SpaceX及Blue Origin火箭发射审批</strong></p>\n  <p>美国联邦航空管理局(FAA)提出的新规则，将有利于Elon Musk旗下SpaceX、Jeff Bezos创立的Blue Origin，以及其他火箭发射公司。FAA的新规则将容许该机构豁免部分商业太空牌照及许可证在13项法律下的要求，包括《国家环境政策法》、《濒危物种法》、《清洁水法》及《清洁空气法》的部分条文、《国家历史保护法》及《海洋哺乳动物保护法》。（财联社）</p>\n  <p><strong>诺奖级AlphaFold团队被拆散，DeepMind科研战略迎重大调整</strong></p>\n  <p>最新消息显示，谷歌DeepMind已解散其旗下AlphaFold团队。AlphaFold论文最初作者中的大多数成员在过去一年里已被重新分配岗位。这支团队打造了凭借蛋白质结构预测技术获得诺贝尔奖认可的人工智能（AI）系统，这一调整标志着这家全球顶尖AI研究机构正在重新制定科研战略。（财联社）</p>\n  <h2>投融资</h2>\n  <p><strong>“尧乐科技”完成Pre-A+新一轮融资</strong></p>\n  <p>36氪获悉，柔性触觉感知企业“尧乐科技”近日完成Pre-A+新一轮融资，本轮融资由鼎和高达领投，上市公司常熟汽饰、祖龙娱乐跟投，云道资本担任长期独家财务顾问。资金将主要用于柔性织物传感技术研发、产品性能迭代升级，加快数据手套产能拓展和批量交付，并完善数据采集、标定与接口能力，加速面向具身智能、世界模型与智能座舱等场景落地。</p>\n  <h2>大公司财报</h2>\n  <p><strong>微软第四财季净利润同比增长31%，Azure年收入首超1000亿美元</strong></p>\n  <p>微软公司7月30日发布了截至6月30日的2026财年第四季度及全年财报。财报显示，按照美国通用会计准则（GAAP）计算，微软第四财季总营收为900.07亿美元，较上年同期的764.41亿美元增长18%，按固定汇率计算同比增长17%；净利润为357.66亿美元，较上年同期的272.33亿美元增长31%。（凤凰网科技）</p>\n  <p><strong>Meta第二季度营收608.0亿美元，略高于市场预期</strong></p>\n  <p>Meta第二季度营收608.0亿美元，预估602.4亿美元；每股收益6.18美元，上年同期7.14美元。预计第三财季营收为610亿至640亿美元；分析师预估631.7亿美元。（财联社）</p>\n  <p><strong>保时捷上半年交付量同比下降16.5%，营业利润增至13.48亿欧元</strong></p>\n  <p>7月29日，保时捷公布，2026年上半年销售收入较去年同期从181.57亿欧元下降至172.29亿欧元；营业利润从10.07亿欧元增长至13.48亿欧元；销售回报率为7.8%（去年同期：5.5%），汽车业务EBITDA利润率为18.3%（去年同期：16.0%）；汽车交付量下降16.5%，至122306辆；汽车业务纯电动汽车份额降至19.4%（去年同期：23.5%）。（界面新闻）</p>\n  <p><strong>宝洁第四财季净销售额212亿美元，同比增长2%</strong></p>\n  <p>宝洁公司7月29日公布了截至2026年6月30日的2026财年第四季度及全年财报。在第四财季，公司实现净销售额212亿美元，同比增长2%。受成本及非核心调整等因素影响，第四季度稀释每股收益同比下降15%至1.26美元，核心每股收益下降3%至1.43美元。展望2027财年，宝洁预计全年的销售额与有机销售额增长率将在1%至3%之间，核心每股收益预计在6.89美元至7.11美元区间。（界面新闻）</p>\n  <p><strong>巴斯夫集团第二季度销售额172亿欧元，同比增长16.4%</strong></p>\n  <p>7月29日，巴斯夫集团披露，2026年第二季度销售额为172亿欧元，同比增长16.4%。这主要归因于价格大幅上涨（上涨11.5%）和销量增长（增长7.3%）。价格增长主要由化学品、表面处理技术、材料和工业解决方案业务领域推动。2026年第二季度EBITDA增至20亿欧元，而去年同期为13亿欧元。（界面新闻）</p>\n  <p><strong>福特汽车二季度净亏损13亿美元，营收同比下降4%</strong></p>\n  <p>当地时间7月28日，福特汽车公司公布，2026年第二季度营收为483亿美元，同比下降4%；净利润为负13亿美元，同比下降13亿美元；调整后息税前利润为25亿美元，同比增长4亿美元。该公司将全年调整后息税前利润指引上调至100亿-110亿美元（此前为85亿-105亿美元），调整后自由现金流上调至60亿-70亿美元（此前为50亿-60亿美元）。（界面新闻）</p>\n  <p><strong>瑞银二季度总营收137亿美元超预期，同比增长13%</strong></p>\n  <p>瑞银7月29日公布第二季度总营收137.0亿美元，同比增长13%，预估132.6亿美元；净利润28.0亿美元，同比增长17%，预估24.7亿美元。瑞银宣布启动另一项30亿美元的股票回购计划，计划最迟明年二季度末完成。（界面新闻）</p>\n  <p><strong>Visa三季度调整后净利润63亿美元超预期，同比增加7.9%</strong></p>\n  <p>Visa当地时间7月28日公布三季度净营收116.3亿美元，同比增加14%，预估114亿美元；调整后净利润63.0亿美元，同比增加7.9%，预估61.5亿美元；调整后每股收益3.32美元，上年同期2.98美元，预估3.23美元。（界面新闻）</p>\n  <p><strong>西部矿业：上半年净利润41.69亿元，同比增长123%</strong></p>\n  <p>36氪获悉，西部矿业发布2026年半年度业绩快报，报告期内实现营业收入394.43亿元，同比增长25%；归属于上市公司股东的净利润41.69亿元，同比增长123%。</p>\n  <p><strong>美邦股份：上半年净利润5106.74万元，同比增长41.32%</strong></p>\n  <p>36氪获悉，美邦股份披露半年报，公司上半年实现营业收入5.55亿元，同比增长14.34%；归属于上市公司股东的净利润5106.74万元，同比增长41.32%；基本每股收益0.38元。</p>\n  <p><strong>和我们同龄，却提前告别的人</strong></p>\n  <p>长大后慢慢发现，死亡不再只属于长辈与遥远的年龄。本该一起奔赴成年、打拼生活、慢慢变老的同龄人，有人停在了二十几岁、三十几岁，没能走完往后的人生。</p>\n  <p>中元节临近，我们想收集大家关于同龄人离世所有细碎、真实、无法释怀的回忆。如果你愿意，可以把Ta介绍给我们认识吗？你们有着怎样的故事？还记得你们的最后一面吗？所有的遗憾、错愕与思念，都可以好好说出来，欢迎扫描下方二维码参与我们的征集。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260730/v2_0e50732e5aae414eabb77c249fb5f045@5667365_oswg18985oswg354oswg356_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">扫码参与征集</p>\n  <p><strong>整理</strong>｜葡萄&nbsp;</p>",
+      "published": "2026-07-30T07:50:17+08:00",
+      "fetched_at": "2026-07-30T10:34:03.093951+08:00",
+      "pre_filter_reason": "Mentions AI company employees petition and AI-related news",
+      "scores": {
+        "importance": 9,
+        "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 7,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "news_analysis",
+          "title": "1100+AI员工联名请愿：AI发展该踩刹车吗？",
+          "angle": "梳理联名信的核心诉求，分析行业内外对AI安全与监管的不同立场。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "opinion",
+          "title": "Kimi融资35亿美元：中国AI大模型为何持续吸金？",
+          "angle": "从Kimi融资看中国AI大模型赛道的投资逻辑与竞争格局。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "22897d97b0b4",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "AI智能体正击穿生物安全防线！智源、北大实测11款商用大模型，均能生成绕过筛查的拆分方案",
+      "link": "https://www.infoq.cn/article/JOOv0RAS1AEZO92E4KyU?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/JOOv0RAS1AEZO92E4KyU?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-07-30T00:00:00+08:00",
+      "fetched_at": "2026-07-30T10:34:09.152451+08:00",
+      "pre_filter_reason": "AI智能体与大模型",
       "scores": {
         "importance": 8,
         "timeliness": 9,
         "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
+        "scarcity": 8,
+        "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.6,
+      "quality_score": 7.8,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "Kimi K3与Unlimited OCR：开源AI模型如何改变你的工作流？",
-          "angle": "介绍Kimi K3和Unlimited OCR这两个开源模型的核心功能，对比它们在文本处理、图像识别等任务上的表现，并给出实际应用场景（如文档数字化、内容创作）的操作指南。",
-          "difficulty": "入门"
+          "title": "AI智能体如何绕过生物安全筛查？实测11款大模型的风险",
+          "angle": "演示AI智能体生成危险拆分方案的过程，并讲解企业如何加强安全筛查。",
+          "difficulty": "高级"
         },
         {
-          "tag": "analysis",
-          "title": "中国开源模型包揽全球前二：开源AI生态的崛起与挑战",
-          "angle": "解读Kimi K3和Unlimited OCR在海外刷屏的原因，分析中国开源模型在技术、社区、商业化方面的优势，以及面临的国际竞争和生态建设难题。",
+          "tag": "news_analysis",
+          "title": "智源、北大实测：11款商用大模型均存生物安全漏洞",
+          "angle": "分析大模型在生物安全领域的潜在风险，呼吁行业建立更严格的测试标准。",
           "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "96c9b182479f",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "search",
-      "title": "A股头条：中国AI大模型周调用量领跑全球，占全球2/3市场份额；长鑫科技获纳入MSCI中国全股票指数，8月10日生效 - FX168财经",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBYVnJoQW1tMkp6ckF6bTAzTk1WNFJ6dzAtLTA1RGRPemtmYXdXd3NVNGp0Tm1jdC13N3Y4WmEwbkpzbWhSYUQ3TVR3Y01ka1FRakxr?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFBYVnJoQW1tMkp6ckF6bTAzTk1WNFJ6dzAtLTA1RGRPemtmYXdXd3NVNGp0Tm1jdC13N3Y4WmEwbkpzbWhSYUQ3TVR3Y01ka1FRakxr?oc=5\" target=\"_blank\">A股头条：中国AI大模型周调用量领跑全球，占全球2/3市场份额；长鑫科技获纳入MSCI中国全股票指数，8月10日生效</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FX168财经</font>",
-      "published": "2026-07-29T08:00:24+08:00",
-      "fetched_at": "2026-07-29T10:49:26.731012+08:00",
-      "pre_filter_reason": "Discusses AI large model usage statistics",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "中国AI大模型周调用量占全球2/3：是实力还是泡沫？",
-          "angle": "基于数据解读中国AI大模型调用量领先全球的现象，分析背后的驱动因素（如政策支持、应用场景丰富），同时探讨潜在风险（如重复建设、商业化难题），给出理性判断。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "tutorial",
-          "title": "长鑫科技纳入MSCI指数：普通投资者如何布局AI芯片股？",
-          "angle": "以长鑫科技被纳入MSCI指数为切入点，科普MSCI指数对股价的影响，并提供AI芯片产业链的投资逻辑和选股方法，适合入门投资者学习。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "83a5ae334d5b",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "search",
-      "title": "AI大模型周调用量前五均为中国模型 全球市场份额升至63.5% - 观点网",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1nSmxCN1pzX2w1aFJ4al9MVWZyelVkLW9senNSS2NMZng2bnZzQU1CMFVjNFdUTUtuLVp2SmNRQlFUWGpyNTE3dW1DdlYyQQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTE1nSmxCN1pzX2w1aFJ4al9MVWZyelVkLW9senNSS2NMZng2bnZzQU1CMFVjNFdUTUtuLVp2SmNRQlFUWGpyNTE3dW1DdlYyQQ?oc=5\" target=\"_blank\">AI大模型周调用量前五均为中国模型 全球市场份额升至63.5%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">观点网</font>",
-      "published": "2026-07-28T19:48:11+08:00",
-      "fetched_at": "2026-07-29T10:49:26.730915+08:00",
-      "pre_filter_reason": "AI model market statistics",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "全球AI大模型调用量前五全是中国的：这意味着什么？",
-          "angle": "深度解读“周调用量前五均为中国模型”这一现象，从技术、市场、政策三方面分析中国AI产业的全球地位，并展望未来竞争格局。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "tutorial",
-          "title": "中国AI模型调用量全球占比63.5%：企业如何选择适合自己的大模型？",
-          "angle": "针对企业用户，提供选择AI大模型的实用指南，包括评估指标（如调用量、响应速度、成本）、主流中国模型对比（如Kimi、文心一言等），以及部署建议。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "aec15cfcde25",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "microsoft /agent-governance-toolkit",
-      "link": "https://github.com/microsoft/agent-governance-toolkit",
-      "summary": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
-      "published": "2026-07-29T10:49:29.002475+08:00",
-      "fetched_at": "2026-07-29T10:49:29.002478+08:00",
-      "pre_filter_reason": "AI Agent governance toolkit for autonomous AI agents",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "微软Agent治理工具包实战：10分钟搭建安全合规的AI Agent",
-          "angle": "手把手演示如何利用微软工具包为AI Agent配置零信任身份、沙箱执行和策略规则，防范OWASP十大风险。",
-          "difficulty": "中级"
-        },
-        {
-          "tag": "analysis",
-          "title": "从微软Agent治理工具包看AI Agent安全新标准",
-          "angle": "解读工具包中10/10 OWASP覆盖意味着什么，以及它对开发者构建可靠Agent的启示。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "cd666e4511e9",
+      "id": "fb0570120f9c",
       "source_id": "ithome-ai",
       "source_name": "IT之家",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "扎克伯格公开批评 AI 权力集中：暗指 OpenAI 与 Anthropic 背离开放价值观",
-      "link": "https://www.ithome.com/0/982/845.htm",
-      "summary": "<p style=\"text-align: left;\">北京时间 7 月 29 日，据《纽约时报》报道，Meta CEO 马克 · 扎克伯格 (Mark Zuckerberg) 公开发声，抨击世界上两家最具价值的 AI 创业公司 Anthropic 和 OpenAI，称它们开发 AI 软件的方式可能导致权力集中，从而缩小人们获取这一变革性技术的渠道。</p><p style=\"text-align: center;\"><img alt=\"扎克伯格\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/c7c67339-0065-4af1-8599-67f67ce431c4.png?x-bce-process=image/format,f_auto\" /></p><figcaption>扎克伯格</figcaption><p>现年 42 岁的扎克伯格在周二接受了采访，并未直接点名 Anthropic 和 OpenAI。但他表示，如果领先的研究实验室想要以高度受控的方式开发 AI 技术，那就等同于在美国技术发展中“放弃我们的价值观”，并会扼杀创新。目前，Anthropic 和 OpenAI 正在以扎克伯格所说的方式开发 AI。</p><p>“许多其他正在开发这项技术的实验室进行的讨论，很大程度上都充满了末日式的悲观情绪。在这场辩论中，需要有一种声音，或者多种声音，为讨论带来现实主义视角。”他表示。</p><p>扎克伯格很少接受传统新闻媒体的采访，他此番言论加剧了关于 AI 软件开发方式的辩论，而这一争论已使硅谷产生分歧。</p><p>目前，像 Anthropic CEO 达里奥 · 阿莫代伊 (Dario Amodei) 和 OpenAI CEO 萨姆 · 奥特曼 (Sam Altman) 这样的技术人士表示，目前一些领先的 AI 模型过于危险，在没有严格管控的情况下，不应该被共享和开发。但微软、英伟达、谷歌和 Meta 则持不同意见，他们认为许多 AI 模型必须在很大程度上以开放方式开发，这样才能让人们推动技术进步，并建立新的商业机会。</p><p style=\"text-align: center;\"><img alt=\"阿莫代伊\" src=\"https://img.ithome.com/newsuploadfiles/2026/7/c7928657-61b0-4101-ad37-66c62c11bb8a.png?x-bce-process=image/format,f_auto\" /></p><figcaption>阿莫代伊</figcaption><p>在这场争论中，扎克伯格多次主张，应该让更多人而不是更少的人获得 AI 技术的使用权，这被认为是对阿莫代伊和奥特曼的一种含蓄批评。尤其是阿莫代伊，他曾多次指出“对齐风险”的危险性。所谓对齐风险，是指如何以一种对人类安全的方式对 AI 进行编程，使其目标和行为符合人类利益。</p><p>扎克伯格在采访中说：“我认为很多人抱有这样一种观念：如果你造出了某种超级 AI，就可以通过某种理想化的对齐方式，确保它对人类是友善的。我个人对这条路径持怀疑态度。”</p><p>相反，他呼吁为每个人提供“个性化超级智能”。这意味着企业可以根据每个人的需求和偏好，对 AI 进行定制。他认为单一“友善”的超级 AI 是不可行的，因为不同的人拥有不同的观点和价值体系。</p><p>“我认为，实际上不可能存在一个能够同时与所有人保持一致的单一友善超级智能。”扎克伯格称。</p><p>本周，《华尔街日报》刊登了一篇扎克伯格撰写的观点文章。在这篇文章中，他批评了 AI 权力的“集中化”，并表示自己支持“个人赋能、创新以及权力平衡”。他在文章中没有点名 Anthropic 和 OpenAI。</p><p>在周二的采访中，扎克伯格承认 AI 的争论存在争议，并指出他与硅谷和华盛顿各方的对话已经取得了积极进展。</p><p>“我不知道目标是否在于让所有人对所有事情都达成一致，”他表示，“按理说，如果你认同我的信念，你就不需要说服每个人接受所有事情。”</p><p>回顾科技发展的历程，他表示技术工具的民主化最终往往会胜出。“我相信，整个行业的发展大趋势一直是走向更加开放，让更多人掌握技术力量，而不是让更少的人掌握。”他说。</p><p><strong>相关阅读：</strong></p><ul class=\"small-size list-paddingleft-2\"><li><p>《<a href=\"https://www.ithome.com/0/982/816.htm\" target=\"_blank\">上千名员工呼吁美国政府控制 AI 发展，OpenAI CEO 奥尔特曼表态</a>》</p></li><li><p>《<a href=\"https://www.ithome.com/0/982/260.htm\" target=\"_blank\">科技行业力挺开源 AI，Anthropic 因保持沉默遭同行批评</a>》</p></li><li><p>《<a href=\"https://www.ithome.com/0/975/438.htm\" target=\"_blank\">扎克伯格称 Meta 在 AI 上落后 OpenAI 等公司，预告“西瓜”模型打造极致智能</a>》</p></li><li><p>《<a href=\"https://www.ithome.com/0/928/916.htm\" target=\"_blank\">消息称 Meta 全新 AI 模型“牛油果”推迟发布，性能不敌 OpenAI、Anthropic 等友商成主因</a>》</p></li></ul>",
-      "published": "2026-07-29T09:38:34+08:00",
-      "fetched_at": "2026-07-29T10:49:22.140896+08:00",
-      "pre_filter_reason": "扎克伯格批评AI公司权力集中",
+      "title": "微软 2026 财年第四财季业绩会实录：算力供给依然不足，Copilot 变现渠道丰富",
+      "link": "https://www.ithome.com/0/983/416.htm",
+      "summary": "<p>微软的云业务创四年来最快增长，表明这家科技巨头的计算基础设施和人工智能服务继续获得企业客户青睐。</p><p>微软 2026 财年（2025 年 7 月 1 日～2026 年 6 月 30 日）年报及第四财季（2026 年 4 月 1 日～2026 年 6 月 30 日）财报发布后，微软 CEO 萨提亚 · 纳德拉（Satya Nadella）和执行副总裁兼 CFO 艾米 · 胡德（Amy Hood）等公司高管出席了随后举行的财报电话会议，解读财报要点，并回答分析师提问。</p><h2>以下为本次电话会议分析师问答环节的主要内容：</h2><p><strong>瑞银分析师卡尔 · 基尔斯泰德（Karl Keirstead）：</strong></p><blockquote><p>好的，非常感谢萨提亚。我先抛开财报数字，想请您花一点时间详细阐述您开场发言里提到的模型选型以及企业知识产权保护相关内容。</p><p>我分两个问题提问：第一，考虑到很多企业初期对开源模型心存顾虑，未来一到两年，开源模型、定制化模型能获得多大的实际业务增量？</p><p>第二，微软自身也在前沿大模型实验室有大规模投入，行业向这类模型切换，微软具体能从中获得哪些收益？非常感谢。</p></blockquote><p><strong>纳德拉：</strong></p><blockquote><p>谢谢你，卡尔。我们看待这件事的思路是，归根结底，企业的目标是自主掌控自身发展命脉，也就是我所说的搭建企业自身的人力资本与算力令牌资产。</p><p>说到底，如果一家企业本身是一套学习体系，那它就必须拥有属于自己的学习体系，这才是核心目标。各类模型只是其中的输入工具，而不是用来榨取企业知识的载体。</p><p>某种意义上来说，最终每家企业都会评估，哪些服务商能帮助他们实现业务成果、创造知识资产。现在这一点已经十分清晰，并且会一天比一天明朗。</p><p>这套模式绝不是服务商进驻企业、拿走企业全部知识，自己独享收益，而企业拿不到任何增值回报。</p><p>顺着这个发展趋势，我们对平台的底层架构设计有着清晰标准：企业专属业务逻辑层必须和模型层完全隔离。</p><p>业务逻辑层会独立存储企业全部记忆、上下文信息，这意味着企业可以随时替换任意底层模型。企业当然可以使用前沿大模型，这么做没有任何阻碍，同时也能同时使用多款不同模型。</p><p>我之前给出的部分数据就是很好的例子，它清晰展示了如何利用前沿模型发挥其独有能力，如何利用低成本模型承接对应任务，甚至在你不想使用任何外部模型时，自主训练自有模型 —— 毕竟企业手上已经拥有全部业务输出、操作日志、业务上下文数据。</p><p>这就是我们要向全行业推广的企业级底层架构设计。微软自身所有产品都采用这套架构：Copilot、GitHub Copilot、安全 Copilot 皆是如此。</p><p>我们希望把这套设计模式普及开来，让每家企业都能使用。这套架构可以自由搭配开源权重模型、闭源商用模型。</p><p>大家可以参考 Hugging Face 相关事件就能明白：企业不能只依赖单一模型，有时单一模型引发故障，企业甚至需要多模型组合才能修复问题，这就是我们看待这件事的思路。</p><p>企业不能受制于单一模型的输出限制，这里存在广阔的架构设计空间。大家总把前沿大模型笼统当成单一品类，但我们理解的前沿体系是：<strong>每家企业都能搭建属于自己的前沿算力体系，自主选择模型、控制成本、掌握所需能力，真正掌控自身发展主动权。</strong></p></blockquote><p><strong>胡德：</strong></p><blockquote><p>卡尔，我可以在你问题的基础上补充一点。这也是整套平台架构搭建的核心意义，萨提亚在开场发言里也提到过：依托 Azure 这套底层架构，平台可以为不同业务匹配最合适的模型。</p><p>因此我们持续看到需求增长，无论客户选择哪一类模型、哪一系列模型，或是自主训练自有模型，Azure 平台都能高效承载，底层算力基础设施具备高度通用性。</p></blockquote><p><strong>杰弗瑞（Jeffrey）分析师布兰特 · 希尔（Brent Thill）：</strong></p><blockquote><p>谢谢艾米。Azure 增速表现十分亮眼，达到 43%，下季度指引增速接近 45%。我想请教增长背后的核心驱动因素，同时市场普遍关心算力供给瓶颈：我们目前仍然处在供给紧缺的环境里吗？还是说在全行业算力受限的大背景下，微软自身运营执行做得更好？谢谢。</p></blockquote><p><strong>胡德：</strong></p><blockquote><p>谢谢布兰特。首先，行业算力供给约束客观存在。过去多个季度我们一直在强调，客户需求持续超过现有算力供给，目前现状没有任何改变，现货算力市场的定价情况也能印证这一点。</p><p>如果谈到如何提升交付能力，我在准备稿里也简单提过，我们首要发力点是算力效率优化，充分挖掘现有算力集群的全部潜力。</p><p>这一点同时适用于 CPU 集群、GPU 集群的效率提升。本季度我们工程团队落地大量优化工作，尽可能释放更多可用算力。</p><p>受供需失衡大环境影响，只要我们落地效率优化，新增算力就能在本季度立刻转化为营收，这一趋势确实为本季度业绩带来正向拉动。</p><p>另外，过去 90 天里，我们大幅优化了 CPU、GPU 设备的交付流程，极大缩短设备到货上线周期。同样，在我们超大规模算力集群的体量下，交付效率优化能够快速兑现业绩增量，也是本季度增速超预期的重要原因，同时这也是我们未来持续推进的方向。</p></blockquote><p><strong>伯恩斯坦研究公司分析师马克 · 莫尔德勒（Mark Moerdler）</strong>：</p><blockquote><p>非常感谢给我提问机会，同时恭喜公司交出一份超预期的出色财报。当下市场对 AI 行业的情绪波动极大，一方面市场担忧数据中心、芯片领域会出现大规模过剩产能，另一方面元器件涨价又会挤压企业利润。</p><p>我有两个相关问题：第一，如果未来数据中心、芯片行业真的出现大规模产能过剩、过度建设，微软有哪些应对手段保护自身？</p><p>第二，反过来讲，当下硬件元器件涨价，微软如何管控成本，避免要么大幅上调产品售价，要么毛利率持续承压？谢谢。</p></blockquote><p><strong>胡德：</strong></p><blockquote><p>谢谢马克，你的两个问题关联性很强，我先回答第一个。当下供需确实处于极度紧张的阶段，但拉长周期来看，我想提醒大家，我们绝大部分资本开支都投向我所说的短期资产，也就是 CPU 和 GPU，这类设备采购周期相对更短。</p><p>一旦市场需求环境发生变化，我们可以直接缩减这部分最大成本项的投入。而土地购置、自建数据中心相关投入在整体成本结构里占比偏小，具备很高灵活性，园区建设、设备上架部署的节奏都可以灵活调整，我们可以分阶段推进算力建设。</p><p>长期以来，各大超大规模云厂商都具备应对需求波动的成熟经验，能够灵活调整投入节奏。另外一点很关键：我们的客户结构极度多元化，覆盖全球不同地区、不同行业、不同业务场景。</p><p>大家可以看我们本季度新增的剩余履约义务，全部来自多元化客户群体。短期高成本硬件可以按需分批采购；我们自有自研应用业务同样会消耗自建算力，叠加 Azure 对外商用服务，双重业务支撑算力利用率，让我们拥有充足灵活度应对周期波动。</p><p>再谈到定价问题，坦白说，行业所有厂商都同等承受元器件涨价带来的压力。我们当下能做的核心，就是持续深挖全链路效率，保障为客户提供稳定价值。</p><p>同时我们也持续向客户传递一个事实：相比企业自建机房单独采购服务器硬件，云服务能大幅平抑涨价冲击，即便在元器件涨价周期，云服务依旧能给客户带来可观投资回报。</p><p>另外，我们新增算力会通过全新合约对外销售，定价条款会同步更新，我们会在长期客户价值与合理盈利之间做好平衡。</p></blockquote><p><strong>纳德拉：</strong></p><blockquote><p>我补充几句艾米的观点，她讲得很全面。我们所有人都在研读复盘行业周期的书籍，所以在我看来，打造完整的产品矩阵是重中之重，这也是我们当下的核心工作。</p><p>从 Copilot、一体化超级应用，到 Azure、Azure 内置的智能体底层工具，全线产品必须协同打通。客户结构至关重要，你必须充分考量客户的地域分布、行业分布、业务负载分布，甚至在规划算力产能时就要全盘纳入考量。</p><p>归根结底，底层算力运营要做到极致高效。本季度我们也落地了大量效率优化举措，效率提升不是短期一次性动作，而是需要长期持续深耕的常态化工作。</p><p>我们清楚行业周期必然存在起伏，但 AI 带来的结构性长期增长趋势十分明确。我们对自身多元化业务组合、稳定毛利结构，最重要的是能持续为客户创造核心价值这几点，都抱有十分乐观的预期。</p></blockquote><p><strong>摩根士丹利分析师亚当 · 伍德（Adam Wood）：</strong></p><blockquote><p>感谢给我提问机会，同时恭喜公司交出财年末强劲业绩。</p><p>我想咨询 M365 Copilot 相关业务：本季度这项业务表现十分亮眼，付费席位突破 3000 万，增长大幅提速。</p><p>想请您谈谈客户落地节奏：目前市场还是以试点项目为主，还是企业大规模全面部署的案例正在大量增多？另外，Copilot 商业化变现的核心驱动力是什么？谢谢。</p></blockquote><p><strong>纳德拉：</strong></p><blockquote><p>谢谢你亚当，我先来回答，之后艾米可以补充。还是先说产品形态，大家能明显看到，本季度产品形态发生了巨大变化。聊天、协同、自动化、代码开发等功能全部整合进一款旗舰级超级应用，适配各类岗位员工。</p><p>再看使用数据，有一组很有参考价值的指标：从采购授权到员工实际启用产品的周期大幅缩短，过去需要数月，现在只需要几天。同时用户使用强度大幅提升，活跃度已经达到 Outlook、Teams 这类日常办公沟通工具的水平。</p><p>第二点，产品深度嵌入企业全业务链路，不是孤立的工具。深度对接 E7 产品、智能代理 365 管控体系，打通 IT 运维、安全运维、财务运维全流程；企业内部 CRM、ERP 系统全部以功能插件、能力模块形式接入协同平台，企业全业务工作流可以一键接入这款超级应用，进一步提升使用频次，形成正向增长循环。</p><p>第三点是商业模式。我们目前既有按席位订阅的商业模式，现在也推出了按量计费模式。E7 产品已经显现出按量计费带来的增长红利；未来随着我们持续为企业客户交付业务价值，商业化规模会持续扩张。</p><p>客观对比传统 Office，Copilot 覆盖的业务场景宽泛得多，这是首款同时提供席位订阅、按量计费双模式的企业级工具，整体客单价更高。我们会持续聚焦为客户创造价值，同步扩大业务规模。</p></blockquote><p><strong>胡德：</strong></p><blockquote><p>亚当，我在准备稿里也提到过，本季度每用户收入增长一部分来自 E5 搭配 Copilot 授权，另一部分增量将来自 E7。</p><p>E7 完整搭载智能代理 365 组件，价值空间广阔。企业都需要完整观测、管控全业务流程的算力令牌消耗，这正是 E7 的核心价值。</p><p>这款产品本季度上市时间不长，但客户从中看到的价值远超我们预期，全年我们会持续重点发力这条产品线。</p><p>长远来看，全场景智能应用落地会持续拓宽整体市场空间，按量计费、消耗型收入会成为长期增长核心。随着更多业务场景接入平台，大家对 M365 整体能力边界的认知也会彻底改变。</p><p>举个实际案例：贵司某位分析师发布了一份投资回报相关报告 PDF，我直接把这份文件上传 Copilot，指令它生成全新 Power BI 可视化看板。平台自动搭建完整语义模型，仅通过一条链接就接入全部外部数据源，数据同步更新全球七大科技公司全部 SEC 财报信息，配套代码仓库也同步生成，所有成果资产全部归档在我的 Copilot 工作台。</p><p>对我这名知识工作者来说，我可以快速搭建数据分析看板；数据工程师可以在 Fabric 平台调取这份数据资产；专业开发人员可以进入代码仓库提取使用。</p><p>整套流程全部接入 Azure 365 统一管控。这就是艾米所说的全新工作模式，同时兼顾企业安全管控与运维管理。</p></blockquote><p><strong>德意志银行分析师布拉德 · 泽尔尼克（Brad Zelnick）：</strong></p><blockquote><p>非常感谢给我提问机会。萨提亚，网络安全是微软全部业务的核心板块。近期前沿大模型持续迭代，行业竞争格局发生巨大变化，本周微软推出了 Project Perception 项目。</p><p>能否详细阐述这一变革节点对微软安全业务的实际意义，以及这件事对微软整体品牌公信力带来的影响？谢谢。</p></blockquote><p><strong>纳德拉：</strong></p><blockquote><p>谢谢你的问题。你说得没错，当下网络安全产品的需求标准、安全运营的底层逻辑都发生了根本性变化。</p><p>企业必须同步完成两件事：产品体系全面转型，同时重构企业内部安全运营模式，才能实现有效防护。我们沿用办公、代码开发业务的统一思路：以智能优先架构重构整套安全体系。</p><p>我们推出 Project Perception 项目，核心目标是搭建自动化红蓝绿三方智能代理体系。红队智能代理持续开展渗透测试、挖掘系统漏洞；蓝队智能代理自动对安全告警分级处置；绿队智能代理自动化修复各类安全缺陷，搭建一套可以 7×24 小时自主运转的敏捷安全防御体系。</p><p>整套安全防御单元会整合全维度安全信号：终端防护、身份权限、终端接入、安全防御、网络流量、应用安全等全部数据，生成完整业务上下文，以此实现精准防护。</p><p>另外一点，尤其在安全领域，多模型混合架构至关重要，这也呼应了分析师提出的问题，这么做不只是为了控制成本。</p><p>我们通过实测验证，依托这套混合多模型架构，在实现同等防护效果的前提下，成本可以降低 50%。90% 的常规安全处置任务由轻量化专用安全模型完成，仅 10% 高难度复杂场景才调用前沿大模型。</p><p>这种流水线式多模型协同架构是核心优势，兼顾成本可控与业务连续性。企业不能单一依赖某一款模型，否则极易陷入业务瘫痪。</p><p>成本可控、业务持续稳定运行是两大核心评判标准，我们把这套架构同步落地到代码开发、网络安全、办公全产品线。坦白说，我们十分看好 Perception 项目，以及它未来能为安全业务带来的增长空间。</p></blockquote><p><strong>高盛分析师加夫列拉・博尔赫斯（Gabriela Borges）：</strong></p><blockquote><p>下午好，感谢给我提问机会。我想请教资本开支投资回报率相关问题。您之前分别介绍了资本开支规划、商业化变现路径，能不能把两块内容结合起来分析？</p><p>当下我们制定资本开支决策时测算的投资回报率，和一年前相比有哪些变化？未来还有哪些可落地的优化抓手，作为增量变现的驱动项？谢谢。</p></blockquote><p><strong>胡德：</strong></p><blockquote><p>谢谢加夫列拉。坦白说，过去一年我测算投资回报的底层计算逻辑没有发生改变。我看待这件事的核心思路是：我们对整体市场空间扩张的确定性大幅提升，同时手握多重毛利率优化抓手，既包含产品端优化，也包含基础设施端优化，今天电话会上我们也提到了不少相关路径。当然，还有很多抓手我们没有展开细说，萨提亚其实也提到了一部分。</p><p>我们显然还有大量优化空间：持续筛选高性价比芯片方案，其中包含我们自研芯片相关投入；模型多元化布局同样是毛利率优化抓手，我们可以搭配更高效率的模型方案，在令牌消耗、硬件成本两端同时实现降本增效。</p><p>以上所有抓手，都能提升我们对当下及未来资本开支投资回报的信心。产品矩阵覆盖知识办公、代码开发、网络安全，再到智能代理底层，智能代理 365 可以说是业务增长的加分项。</p><p>除此之外，我们之前聊到的 Azure 相关优化，包含模型效率、芯片与元器件优化、自研一体化解决方案投入，再加上超大规模集群运营的整体效率提升，我们手握大量可以持续优化的抓手，并且会持续推进落地。</p><p>但正如我们之前所说，效率优化是长期深耕的细致工作，需要日复一日持续精进，而微软非常擅长长期深耕这类优化工作，持续为客户创造价值。</p></blockquote>",
+      "published": "2026-07-30T09:49:47+08:00",
+      "fetched_at": "2026-07-30T10:34:15.800248+08:00",
+      "pre_filter_reason": "微软财报涉及AI服务Copilot",
       "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
+        "importance": 9,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 6,
         "virality": 8,
-        "crowd_heat": 3.5
+        "crowd_heat": 0.0
       },
-      "quality_score": 7.4,
+      "quality_score": 7.7,
       "topics": [
         {
-          "tag": "opinion",
-          "title": "扎克伯格怒批OpenAI和Anthropic：AI权力集中化是福是祸？",
-          "angle": "分析扎克伯格批评背后的利益博弈，探讨开源与封闭AI路线对行业生态的影响。",
+          "tag": "tutorial",
+          "title": "微软Copilot变现路径拆解：企业如何借力AI增收？",
+          "angle": "从微软财报中Copilot变现渠道入手，分析企业可以借鉴的AI商业化策略，如订阅制、按需付费等模式。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "analysis",
+          "title": "算力不足下的微软云：企业客户为何仍青睐？",
+          "angle": "解读微软云业务增长背后的算力分配逻辑，探讨企业如何在算力紧张时优化AI部署。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "02754205bc90",
-      "source_id": "qbitai",
-      "source_name": "量子位",
+      "id": "3174dc484f25",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "豆包搜索，走出了豆包",
-      "link": "https://www.qbitai.com/2026/07/461961.html",
-      "summary": "把搜索能力开放给Agent了",
-      "published": "2026-07-28T18:12:52+08:00",
-      "fetched_at": "2026-07-29T10:49:17.796615+08:00",
-      "pre_filter_reason": "AI search capability for Agent",
+      "title": "最强模型“跳票”，市值一夜蒸发2000亿美元！谷歌连上三款“省油”模型，死磕每一个token的钱",
+      "link": "https://www.infoq.cn/article/It5CxXxYowEE0pE7IKJU?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/It5CxXxYowEE0pE7IKJU?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-07-29T19:58:35+08:00",
+      "fetched_at": "2026-07-30T10:34:09.152487+08:00",
+      "pre_filter_reason": "AI model release and cost",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "谷歌“省油”模型实战：如何用更少算力跑出好效果？",
+          "angle": "以谷歌新模型为例，分享模型轻量化技巧（如剪枝、量化），帮助开发者降低推理成本。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "analysis",
+          "title": "最强模型跳票背后：AI巨头为何转向“效率优先”？",
+          "angle": "分析谷歌市值波动与模型策略转变，探讨行业从“拼参数”到“拼token成本”的趋势。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "1758b31c2592",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "黄仁勋首推引爆开源论战：Anthropic 员工催 CUDA、Windows 开源，吴恩达反击：你可以不开源，但别阻止别人",
+      "link": "https://www.infoq.cn/article/BXOUaAvzZQpGrzMg3lDK?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/BXOUaAvzZQpGrzMg3lDK?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-07-29T19:22:48+08:00",
+      "fetched_at": "2026-07-30T10:34:09.152512+08:00",
+      "pre_filter_reason": "AI open source debate involving Anthropic and CUDA",
       "scores": {
         "importance": 7,
         "timeliness": 8,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "开源与闭源之争：开发者如何选择AI技术栈？",
+          "angle": "从黄仁勋、Anthropic与吴恩达的论战出发，对比开源与闭源方案的优劣势，给出选型建议。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "CUDA开源争议：英伟达的护城河会被打破吗？",
+          "angle": "探讨CUDA开源对AI生态的影响，分析开发者是否应押注替代方案。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "49d0921abcc1",
+      "source_id": "reddit-ml",
+      "source_name": "Reddit r/MachineLearning",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "ICLR 2027 Deadline is before NeurIPS 2026 Decisions [D]",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/1v9v4e7/iclr_2027_deadline_is_before_neurips_2026/",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Title says it all really... ICLR 2027 decided to have the full paper deadline on Sep 16, 8 days before the NeurIPS decisions come out. Don't know if the reason is to have a reduced load but this will really hurt papers which have actually improved since the NeurIPS submission or have been unfairly rejected.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/1414vo\"> /u/1414vo </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v9v4e7/iclr_2027_deadline_is_before_neurips_2026/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1v9v4e7/iclr_2027_deadline_is_before_neurips_2026/\">[comments]</a></span>",
+      "published": "2026-07-29T20:43:33+08:00",
+      "fetched_at": "2026-07-30T10:34:20.343260+08:00",
+      "pre_filter_reason": "AI conference deadline discussion",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
         "actionability": 8,
-        "scarcity": 7,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "ICLR 2027截稿冲突应对：如何规划你的顶会投稿？",
+          "angle": "针对ICLR与NeurIPS时间重叠，提供论文修改、投稿策略和时间管理技巧。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "analysis",
+          "title": "顶会Deadline“撞车”：学术界的效率危机还是新机会？",
+          "angle": "分析会议时间调整对研究者投稿决策的影响，探讨如何平衡质量与时效。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "9aef10765614",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "maderix /ANE",
+      "link": "https://github.com/maderix/ANE",
+      "summary": "Training neural networks on Apple Neural Engine via reverse-engineered private APIs",
+      "published": "2026-07-30T10:34:20.571310+08:00",
+      "fetched_at": "2026-07-30T10:34:20.571317+08:00",
+      "pre_filter_reason": "Training neural networks on Apple Neural Engine",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 6,
+        "scarcity": 9,
         "virality": 8,
         "crowd_heat": 0.0
       },
@@ -650,70 +545,199 @@
       "topics": [
         {
           "tag": "tutorial",
-          "title": "豆包搜索开放Agent能力：三步让你的AI助手拥有联网搜索",
-          "angle": "演示如何将豆包搜索集成到自定义Agent中，实现实时信息获取与任务执行。",
+          "title": "苹果神经网络引擎逆向工程入门：从ANE训练到部署",
+          "angle": "基于maderix/ANE项目，介绍如何利用私有API在Apple硬件上训练神经网络，适合iOS开发者。",
+          "difficulty": "高级"
+        },
+        {
+          "tag": "analysis",
+          "title": "苹果ANE逆向：边缘AI的新突破口还是合规风险？",
+          "angle": "分析逆向工程私有API的技术价值与法律风险，探讨对AI开发者的启示。",
           "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "f557afefbaec",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "黄仁勋倡议的开源联名信，Anthropic 为何不愿签名?",
-      "link": "https://www.leiphone.com/category/ai/W2vBQuWfmmiIJOtO.html",
-      "summary": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260728/6a684ad5e1b23.jpg?imageMogr2/quality/90\" style=\"width: 100%; display: inline-block; text-align: center; background-color: transparent;\" /></section><section style=\"padding-left: 16px; padding-right: 16px;\"><section style=\"width: 100%; display: flex; padding: 0px;\"><section style=\"width: 100%; padding-left: 0px; padding-right: 0px;\"><section style=\"width: 100%; background: rgb(246, 248, 255); padding: 20px 0px 12px; margin-top: 0px; margin-bottom: 0px;\"><section style=\"text-align: center;\"><section><section style=\"text-align: justify; margin: 0px 16px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><span><span style=\"font-weight: bold;\">权重、协议与运行环境，或许成了这场开放争论的三条线。</span></span></span></span></section><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><section style=\"text-align: left; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><br /></span></span></section></section></section><span></span><span></span><span></span><span></span><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-weight: normal;\">&nbsp; &nbsp; 作者丨</span></span><span><span style=\"color: #888888; font-weight: normal;\">郑佳美</span></span><strong><span><strong><span><span><br /></span></span></strong></span></strong></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Optima-Regular, PingFangTC-light;\"><span style=\"color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\"><span>&nbsp; &nbsp; 编辑丨</span><span>马晓宁</span></span></span></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; text-align: right; margin: 0px 16px;\"><strong><strong><span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></strong></strong></p></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">黄仁勋开通个人 X 账号后，发布的第一篇帖子没有介绍新 GPU，而是分享了一封支持开放权重模型的联名信。</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这封信主要讨论的是：一家机构把大模型训练好后，要不要把模型文件公开出来，让其他开发者下载到自己的电脑或服务器上运行，并根据具体任务继续调整。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">NVIDIA、Google、OpenAI、Meta、Microsoft、Mistral、Hugging Face 等公司和机构出现在联署名单中，唯独 Anthropic 没有参与，意识到 A 社缺席的网友们纷纷开始了在线讨伐。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260728/6a684ad61b246.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Anthropic 研究人员 Julian Schrittwieser 随后发了几条回应。他没有否定开放模型的作用，也表示自己并不主张限制开放权重。然后反过来开始阴阳：既然 NVIDIA 开始强调开放，CUDA 和 GPU 驱动什么时候开放，Microsoft 也支持开放权重，那么 Windows 和 Office 又该怎么看。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260728/6a684ad650e25.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260728/6a684ad6882f9.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">工程师 Atharva Ingle 专门针对 Julian 的评论列出了他提到的这两家公司已经开放的项目，包括 NVIDIA 的 NCCL、CUTLASS、TensorRT-LLM，以及 Microsoft 的 .NET、TypeScript、ONNX Runtime 和 DeepSpeed。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">同时他也把 Anthropic 放进了比较：MCP 是开放协议，Claude 没有公开权重，Claude Code 的代码仓库虽然公开，却没有使用常见的开源许可证... ...</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260728/6a684ad6c6eb3.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">也有网友直接开怼，：这些公司明明贡献了大量开源软件，你到底在胡说八道些什么？</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260728/6a684ad7078fd.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">另一部分网友则抓住了 Anthropic 前后表态之间的落差。有人认为，Julian 此时声称自己并不反对开放权重，与 Anthropic 管理层此前反复释放的信息并不完全一致，也和他原帖传达出的态度对不上。雷峰网</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260728/6a684ad730b1a.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">在这些评论者看来，问题已经不只是 Claude 开不开放，而是 Anthropic 是否在用一套更温和的说法，重新包装此前对开放权重表现出的谨慎甚至排斥。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260728/6a684ad75d76f.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Reddit 上的批评更加尖锐。有人认为，Anthropic 正在因为反开放权重的立场快速消耗开发者社区的好感。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">几个月前，它还是不少人眼中挑战 OpenAI 的“后来者”，如今随着模型能力和市场声量上升，却越来越像一家只在意资本和估值的公司。原评论甚至直言，Anthropic 正在亲手毁掉过去积累的开发者信任。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260728/6a684ad787323.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">几轮交锋下来，Anthropic 遭到的质疑也逐渐从“为什么没有签署”，扩大到了“它究竟如何看待开放权重”。有人批评它前后表态不一致，有人认为 Julian 在偷换讨论对象，也有人把问题上升到了开发者社区对 A 社的整体信任。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">表面上看，几方你来我往，像是在争谁更支持开源。可把情绪拿掉，这场讨论其实可能存在着错位：大家都在使用“开放”这个词，谈的却不是同一个对象。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">不同技术层有不同的开放方式，也对应不同的工程边界，放在一起直接比较，很容易越说越乱。与其继续追着谁更双标，不如回到技术本身，看看开放发生在哪一层，又具体改变了什么。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260728/6a684ad7cfbd9.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>01</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">签的是什么</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这封联名信支持的，并不是“所有大模型都必须公开”，而是希望开放权重继续作为一种正常的模型发布方式存在。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">通过 API 使用模型时，开发者只能把请求发给模型公司，再接收返回结果。至于背后运行的是哪个版本、使用什么推理参数、有没有更新安全规则，外部通常难以确认。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">开放权重后，开发者拿到的是训练完成的参数文件。模型可以部署在自己的服务器上，也可以继续量化、微调和蒸馏。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">量化可以降低模型运行时的显存需求；微调可以让模型适应特定任务；蒸馏则可以把大模型的部分能力转移到更小的模型中。研究人员还可以固定同一个版本反复测试，观察模型经过修改后，能力和安全表现发生了哪些变化。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">所以，签署这封信并不等于承诺公开最强模型。参与联署的公司和机构认可的，更像是这样一种判断：并非所有模型都必须留在原厂服务器里。经过评测、能力和风险相对清楚的模型，可以考虑把权重交给外部使用。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这也解释了为什么 OpenAI、Google 等仍以 API 为主的公司同样可以参与。它们可以继续保留前沿模型，同时支持其他模型以开放权重的方式发布。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260728/6a684ad81abf3.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260728/6a684ad85a028.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>02</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">为什么有人愿意签</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">名单中的公司愿意支持开放权重，背后大致有三个技术判断。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">第一个判断是，模型是否适合开放，更适合结合它具体具备的能力来评估，而不是只根据“权重是否公开”得出结论。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">一个主要用于文本整理的小模型，和一个能够执行复杂网络操作、调用工具并连续完成任务的模型，风险显然不同。发布前可以测试模型在网络攻击、生物知识、自动执行和绕过安全限制等方面的能力，再决定是否公开权重。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">按照这种方式，开放和关闭不必被看成只能二选一。部分模型可以公开，能力更强、风险暂时难以判断的模型，仍然可以只提供 API。雷峰网</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">第二个判断是，很多模型问题只有在拿到权重后，才能研究得更清楚。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">通过 API 测试时，研究人员看到的主要是最终回答。模型表现突然发生变化，可能是权重更新了，也可能是系统提示词、分类器或推理配置发生了变化，外部很难把这些因素完全分开。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">拿到权重后，研究人员可以固定版本，测试同一个模型经过量化、微调或合并之后会发生什么。比如，一个模型原本会拒绝某类请求，经过少量微调后是否还会拒绝；降低到 4 位精度后，安全行为是否出现变化；多个模型合并后，原来的限制是否仍然存在。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">仅靠原厂测试，往往难以覆盖模型发布后的所有修改方式。开放权重可以让更多团队复现问题，也能进一步验证模型发布时的安全结论，在后续修改中是否仍然成立。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">第三个判断是，模型权重和安全系统可以在一定程度上分开部署。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">模型负责生成内容，输入检查、输出过滤、工具权限和异常监测可以放在模型外面。权重公开后，部署者仍然可以增加分类器，限制模型能够访问哪些文件、数据库和外部工具，也可以记录异常调用。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这些公司并不一定认为开放权重没有风险。它们更倾向于认为，可以先筛选适合开放的模型，再通过外部评测和部署限制处理剩下的问题。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">换句话说，它们愿意签，是因为这套发布方式至少在部分模型和场景中已经具备技术可行性：不是把所有模型直接放出去，而是先评估能力，再决定哪些模型适合开放。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260728/6a684ad88cb34.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>03</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">Anthropic 在担心什么</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Anthropic 没有正式解释这次为什么缺席，因此不能把 Julian 的个人回应当作公司结论。不过，从 Claude 现有的安全设计看，它对开放权重的顾虑，主要集中在一个问题上：模型离开原厂服务器后，原来的安全措施还能保留多少。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Claude 上线后，安全并不只依靠模型训练时形成的拒绝行为。Anthropic 还会在服务器上检查输入和输出、识别异常请求、限制账户调用，并在发现新问题后更新分类器或替换模型版本。这些措施能够持续发挥作用，是因为模型仍然运行在 Anthropic 控制的环境中。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260728/6a684ad8d0836.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">权重公开后，情况会发生变化。外部部署者可以移除分类器、修改系统提示词，也可以继续微调模型。Anthropic 无法掌握这些副本后来处理了什么请求，也难以要求所有使用者安装新的安全更新。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">更麻烦的是，目前的大模型安全训练，通常是在控制模型什么情况下回答，并不代表相关知识已经从参数中消失。使用者拿到权重后，后续微调可能削弱原来的拒绝行为。因此，模型发布时通过安全测试，不一定意味着修改后的版本还会保持相同表现。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">在线 API 出现问题后，原厂可以统一更新；已经公开的权重却很难召回。早期版本、量化版本和微调版本可能长期存在，原开发者也无法确认它们是否保留了原来的防护。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这可能是 Anthropic 与名单中多数公司较核心的技术差异。参与联署的公司更倾向于认为，可以先通过能力评测筛选适合开放的模型，再由外部部署者配置过滤、权限和监测。Anthropic 的公开技术路线则更重视原厂对前沿模型的持续控制，因为外部使用者可以自行决定是否保留这些安全措施。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">MCP 可以开放，Claude 权重却不开放，也可以从这里理解。MCP 规定的是模型如何连接工具和数据，公开协议不会同时交出 Claude 的模型能力；公开权重则意味着使用者可以独立运行并修改模型，两者对原有安全控制的影响并不相同。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">因此，这次分歧并或许不只是开放与封闭的立场差异。名单中的多数公司可能认为，经过能力评测后，部分模型可以作为权重交给外部使用；但 Anthropic 却可能认为，对于能力较强的模型，现有测试还不足以判断它在长期传播和后续修改中是否仍然可控。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">双方需要回答的其实是同一个技术问题：</span><strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">发布前的评测，是否足以支持一份模型权重被长期交给外部使用。</span></span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">再回到最初那场争论，Julian 把 CUDA、Windows 和 MCP 拉进来，恰好说明“开放”并不是一个统一开关。权重、协议、运行环境和应用代码，公开后带来的影响并不相同。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Anthropic 的缺席，更接近于它对开放前沿模型权重仍有保留，而不是对所有开放技术的否定。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这封联名信没有结束争论，只是把问题从“要不要开放”，推进到了“开放哪一部分”。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1em;\"><span style=\"font-size: 14px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">参考链接：</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1em;\"><span style=\"font-size: 14px;\"><em><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf</span></span></em><em><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">https://x.com/jensenhuang/status/2080643682408321103?s=46</span></span></em></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1em;\"><em style=\"font-size: 14px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">https://x.com/Mononofu/status/2080982310577738049</span></span></em></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1em;\"><em style=\"font-size: 14px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">https://x.com/AtharvaIngle7/status/2081032195867910441</span></span></em></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1em;\"><em><span style=\"font-size: 14px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888;\">https://www.reddit.com/r/Anthropic/comments/1v62wou/anthropic_refuses_to_sign_letter_supporting_open/</span></span></em></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260728/6a684ad902735.jpg?imageMogr2/quality/90\" /></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260728/6a684ad925837.jpg?imageMogr2/quality/90\" /></span></p><section><section><section><section><section><section><svg viewBox=\"0 0 1 1\" xmlns=\"http://www.w3.org/2000/svg\"></svg></section></section><section><p><strong><span><span style=\"color: #4499E7;\">上车，带你看遍全球 AI 顶会精华</span></span></strong></p><span></span></section></section></section></section></section><section><section><p style=\"text-align: center; margin: 0px 16px 8px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">可独家畅览：</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">专家演讲PPT</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">大会报告全文</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">热门论文解读</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">学术新星访谈</span></span></p><span></span><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260728/6a684ad95d49f.jpg?imageMogr2/quality/90\" style=\"width: 100%;\" /></section><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">扫描上方二维码</span></span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">或点击</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">「</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">阅读原文</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">」</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">关注专区。</span></span></span></p></section></section><section><span></span></section><section><span></span></section>",
-      "published": "2026-07-28T14:24:00+08:00",
-      "fetched_at": "2026-07-29T10:49:14.561648+08:00",
-      "pre_filter_reason": "Anthropic is an AI company, and the open letter is about AI policy.",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.4,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "黄仁勋开源联名信，Anthropic为何拒绝签名？",
-          "angle": "深挖Anthropic不签名的商业与安全考量，对比开源运动中的不同阵营立场。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "a964b6b93bd5",
+      "id": "d9e435bfafa8",
       "source_id": "qbitai",
       "source_name": "量子位",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "全球首个Agentic扩散模型来了：边行动边纠错，128K上下文追平自回归",
-      "link": "https://www.qbitai.com/2026/07/461650.html",
-      "summary": "扩散模型首次打通长程Agent任务",
-      "published": "2026-07-28T12:18:15+08:00",
-      "fetched_at": "2026-07-29T10:49:17.796702+08:00",
-      "pre_filter_reason": "Agentic diffusion model is AI research.",
+      "title": "九章云极Alaya Token完成Kimi K3适配 全球首个开源3T级模型入驻Token工厂",
+      "link": "https://www.qbitai.com/2026/07/462058.html",
+      "summary": "",
+      "published": "2026-07-29T09:45:36+08:00",
+      "fetched_at": "2026-07-30T10:34:10.715746+08:00",
+      "pre_filter_reason": "AI model adaptation and token factory",
       "scores": {
         "importance": 8,
-        "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 8,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 9,
         "virality": 7,
         "crowd_heat": 0.0
       },
       "quality_score": 7.4,
       "topics": [
         {
-          "tag": "explanation",
-          "title": "全球首个Agentic扩散模型：边行动边纠错，128K上下文如何改变AI？",
-          "angle": "通俗解释扩散模型在长程Agent任务中的突破，以及它如何超越传统自回归模型。",
+          "tag": "tutorial",
+          "title": "3T级模型Kimi K3适配指南：如何用Alaya Token快速部署",
+          "angle": "手把手教学，展示从下载到部署的完整流程，突出开源和低成本优势",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "analysis",
+          "title": "开源3T模型入驻Token工厂，AI行业迎来什么新变局？",
+          "angle": "分析全球首个开源3T级模型的意义，对比闭源模型，探讨对中小企业的利好",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "a4fd26d56c42",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "越骂越赚？罗技上季度在中国赚翻了，曾骂用户像狗；智驾「小蓝灯」将被禁用！相关国标已启动制修订；曝月之暗面完成超35亿美元F轮融资",
+      "link": "https://www.leiphone.com/category/zaobao/e48WOG7kaZV3MfXp.html",
+      "summary": "<section></section><section><section><section><section><section><section><section></section><section><section style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>要闻提示</strong></span></section><section><br /></section></section></section></section></section></section></section></section><p style=\"text-align: justify;\">1.泸溪河桃酥被曝疑似吃出“金属牙冠”，山姆紧急下架</p><p style=\"text-align: justify;\">2.越骂越赚？罗技上季度在中国赚翻了，曾骂用户像狗<br /></p><p style=\"text-align: justify;\">3.智驾“小蓝灯”将被禁用！相关国标已启动制修订</p><p style=\"text-align: justify;\">4.曝月之暗面完成超35亿美元F轮融资，估值升至500亿美元</p><p style=\"text-align: justify;\">5.美团月付遭批量盗刷，多地用户中招？回应：或遭遇电信诈骗，正配合警方调查</p><p style=\"text-align: justify;\">6.业绩由盈转亏！粉笔投资亏损830万美元，前CEO张小龙曾鼓励年轻人炒股</p><p style=\"text-align: justify;\">7.宝马据悉向德国员工提出自愿离职方案，拟在全球裁员8000人</p><p style=\"text-align: justify;\">8.日本多家半导体工厂停工</p><section><section><section><section><section><section><section></section><section><section style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>今日头条</strong></span></section><section><br /></section></section></section></section></section></section></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>泸溪河桃酥被曝疑似吃出“金属牙冠”，山姆紧急下架</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">7月29日消息，近日，有消费者反映，在食用山姆会员商店所售泸溪河坚果桃酥时吃出一颗疑似金属牙冠的异物，且牙冠内部还嵌有天然牙体的断面组织。随即，相关话题“泸溪河桃酥 牙冠”冲上热搜第一。</p><p style=\"text-align: justify;\">媒体对此致电山姆会员商店客服，对方回应称，已将消费者反映的问题同步记录并转交相关部门处理。目前查询山姆APP发现，桃酥产品已经无法被检索到。据悉，当事消费者与山姆方面就赔偿事宜未能达成一致，目前已正式向12315平台投诉，等待行政主管部门介入调查。</p><p style=\"text-align: justify;\">此前，泸溪河食品（集团）有限公司客服回应称，公司自28日起已高度重视此事，目前正对相关批次产品进行溯源核查。同时，泸溪河旗舰店客服表示：“我们公司高度重视，您相信我们，我们始终是把食品安全放在第一位的，并且我们工厂在多个生产环节都有金属排查系统的，目前公司已成立专项小组，会对相关产品进行全面排查，感谢您的关心与监督。”（第一财经）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260730/6a6a9d9e02339.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 223px; height: 374px;\" /></section></section><section><section><section><section><section><section><section><section></section><section><section style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>国内资讯</strong></span></section><section><br /></section></section></section></section></section></section></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>越骂越赚？罗技上季度在中国赚翻了，曾骂用户像狗</strong></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">7月29日，罗技正式发布2027财年第一财季（2026年4月1日-2026年6月30日）报告。财报数据显示期内，罗技净利润达到2.36亿美元，同比大幅增长61.42%，表现远超市场预期。</p><p style=\"text-align: justify;\">从区域表现来看，罗技亚太大区的整体营收同比增长15%，增速在美洲、EMEA、亚太全球三大核心区域里排在第一位。除此之外，罗技在竞争激烈的中国电竞外设市场已经重新拿回了份额增长的主动权，今年5月游戏品类的市占率出现明显回升，成为品牌过去一段时间在中国市场发展的重要转折点，这也意味着罗技此前推行的立足中国、服务中国的China for China本土化战略已经开始显现实际成效。</p><p style=\"text-align: justify;\">可就在几个月前，罗技才因为一句“当我一降价，你还不是像狗一样跑过来”的抖音文案，被骂上热搜第一。事后官方光速道歉切割，表示是“第三方员工跳过审核流程擅自发布”，相关公司还被罚了20万。彼时不少网友对这个解释和处罚不满。（快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260730/6a6a9d9e4748a.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>智驾“小蓝灯”将被禁用！相关国标已启动制修订</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">7月29日消息，近日，有报道称，因“小蓝灯”不符合GB4785《汽车及挂车外部照明额光信号装置的安装规定》要求，乘用车安装“小蓝灯”将被禁止。“小蓝灯”是车企用于标识辅助驾驶工作状态的车身外部蓝色指示灯。也有车企内部人士向媒体确认，从2026年7月27日起，国家对新认证车型禁用“小蓝灯”。</p><p style=\"text-align: justify;\">蔚来汽车有限公司副总裁马麟也发文谈了“对智驾小蓝灯被禁用”的看法。他表示：有些比尾灯还亮。有些让后车跟车时看着刺眼，有安全隐患。这些肯定不合适。此外，中国汽车标准化研究院发文称，当下多款搭载驾驶辅助“小蓝灯”的车型存在灯光滥用问题，夜间蓝光易造成眩光，干扰其他驾驶员判断；同时该类车辆易遭近距离跟车、恶意加塞，提升道路通行风险。</p><p style=\"text-align: justify;\">该文表示，全国汽车标准化技术委员会正在主管部门指导下，开展GB 4785《汽车及挂车外部照明和光信号装置的安装要求》标准制修订，同时配合开展加强“激进式”产品创新设计准入审查和测试验证管理相关工作，进一步规范车辆灯具安装使用，提升汽车产品安全性能。（第一财经、快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260730/6a6a9d9e89ab5.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>曝月之暗面完成超35亿美元F轮融资，估值升至500亿美元</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">7月29日消息，据报道，月之暗面kimi已完成超35亿美元F轮融资，投后估值涨至350亿美元。据悉，因融资额度超目标金额三倍多，目前本轮融资已提前关闭，原定8月开始的G轮（Pre IPO轮）已提前开始，投前估值升至500亿美元。目前，月之暗面方面并未公开回应融资事宜。</p><p style=\"text-align: justify;\">近期，月之暗面Kimi K3 引发广泛关注。目前公司已公开K3模型权重、技术报告，并开源支撑 Kimi K3 模型训练的关键 Infra 技术：MoonEP、FlashKDA和AgentEnv。（新浪科技）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>上汽人事风暴持续：吴赟接掌上汽大众，采购负责人张荃拟履新</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">继上汽通用、上汽乘用车相继更换负责人后，上汽集团新一轮管理层调整仍在继续。7月29日消息，据媒体报道，上汽大众总经理陶海龙将转任华域汽车总经理，现任上汽大众人事与组织执行副总经理吴赟接棒上汽大众总经理。在吴赟升任上汽大众总经理之外，现任上汽大众采购部门经理张荃也将履新，拟任上汽集团所属企业行政副职。</p><p style=\"text-align: justify;\">此前7月28日报道，上汽通用与上汽乘用车几乎同时发布公告，宣布高层人事变动。上汽通用汽车宣布，原华域汽车系统股份有限公司总经理徐平接替卢晓，担任上汽通用汽车总经理。同时，上汽乘用车宣布，原上汽通用汽车有限公司总经理卢晓接替王骏，担任上汽乘用车总经理，王骏将继续担任上汽集团副总经济师、上汽乘用车党委书记。（一见Auto、车东西）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>美团月付遭批量盗刷，多地用户中招？回应：或遭遇电信诈骗，正配合警方调查</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">7月29日消息，据媒体报道，近日，有陕西、广东、甘肃等多地用户反映，个人美团账号在本人未操作、不知情的情况下遭遇异地批量盗刷，用于购买多张团购券，被盗资金通过美团月付扣除，部分用户损失金额数千元。</p><p style=\"text-align: justify;\">据多名受害者反映，盗刷事件多发生在凌晨深夜时段，被盗刷资金通过美团月付支出，且涉事用户均开通了平台500元以下小额免密支付功能。盗刷订单为各类餐饮、休闲团购券，且下单后迅速被异地门店核销使用。不少用户次日醒来收到还款账单短信，才发现账户异常消费。</p><p style=\"text-align: justify;\">针对此事件，美团方面回应称，经逐一核查，相关用户很大概率遭遇了新型电信诈骗，美团正积极配合警方调查，并已采取多种措施，保证用户账户安全。（新浪科技）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>保时捷回应中国市场下滑32%</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">7月29日消息，在当日财报电话会上，保时捷管理层表示，中国市场增长放缓，经营环境挑战持续，每个月都在变化。该公司对中国市场持审慎保守判断，坚持价值优先，不以销量规模为导向。保时捷可以灵活应对，其未在华建厂，无本地产能约束，可灵活调整欧洲产能与生产计划，现阶段这一布局反而成为优势。</p><p style=\"text-align: justify;\">今年上半年，保时捷在华交付了14501辆汽车，同比下降31.93%。（第一财经）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>理想高管回应离车泊入反复失败：感谢用户还原，将持续优化迭代</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">7月29日中午消息，近日有网友发布视频显示，一辆理想汽车在地下停车场多次尝试自动泊车失败，频繁调整却始终无法入库，致后方车辆无法前行。最终，车主在一群人的围观下把车倒进了车位。29日，#理想汽车自动泊车频繁调整仍失败#登上热搜。</p><p style=\"text-align: justify;\">针对此事，理想汽车产品线负责人李昕旸发文表示，跟用户了解了一下情况，当时车后有电动自行车占位，导致自动泊车过程遇阻，出现了以上的情况。同时，他感谢用户还原并透露，正与自动驾驶团队一起努力，在9月推送的9.1版本优化复杂场景下的泊车能力，未来理想也将持续提升辅助驾驶能力，优化泊车受阻提醒。</p><p style=\"text-align: justify;\">此前，涉事车主也在社交媒体上回应称，当时用的是离车泊入，站在远处看着车子来回调整，走近才发现车位后面有辆电动车占了位置，系统多次尝试找角度避开它。（新浪科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260730/6a6a9d9eb3fb3.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 278px; height: 411px;\" /></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>蚂蚁数科正在筹备Pre-IPO融资</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">7月29日消息，据媒体获悉，有知情人士透露，蚂蚁集团旗下子公司蚂蚁数科正在筹备Pre-IPO融资。此外，蚂蚁集团旗下独立运营的OceanBase也正在寻求A轮融资，目标融资规模约20亿至30亿元人民币。</p><p style=\"text-align: justify;\">7月21日，蚂蚁国际宣布完成A轮融资，蚂蚁集团、阿里巴巴等现有股东以及多家国际知名投资机构参与了本轮融资，融资金额约12亿美元。目前，蚂蚁集团已有3家子公司在推进独立融资。</p><p style=\"text-align: justify;\">据了解，蚂蚁数科是蚂蚁集团旗下科技商业化的独立板块，2024年4月起正式独立运营。CEO赵闻飙曾透露，公司将于年内实现盈亏平衡。公开数据显示，蚂蚁数科已与300余家合作伙伴共同服务全球超过30000家企业客户。（科创板日报）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>中国企业首次！Momenta拿下德国全国L4测试牌照，不用逐城申报直接开跑</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">7月29日消息，Momenta官方宣布，Momenta近日正式获得德国联邦机动车运输管理局（KBA）颁发的许可，可在德国全国范围内的城市道路开展L4级自动驾驶测试。这是中国企业首次在德国拿到覆盖全国城市道路的L4测试资质。</p><p style=\"text-align: justify;\">据介绍，这张牌照的含金量在于“全国”二字。此前自动驾驶企业在德国测试通常需要逐城申报，Momenta获许后可直接在全国城市道路开跑，且安全验证标准与欧盟框架直接对接，测试效率大幅提升。KBA被公认为全球标准最严格的交通安全监管机构之一，许可的授予意味着Momenta的技术成熟度和系统安全性已接受欧洲最严苛标准的检验。（快科技）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>雷军回应入局增程时机质疑，李想：欢迎加入增程赛道</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">7月29日消息，小米创办人，董事长兼CEO雷军公开发文回应了“小米澎程为什么要做增程”以及“现在进入是不是太晚”两个问题。</p><p style=\"text-align: justify;\">雷军认为，增程还是纯电，从来不是路线之争，而是产品定义和体验追求的选择。他介绍，澎程系列定位智能可变大空间SUV，要真正承载生活的各种可能性。既要跑得远，也能用得久，补能要自由，这时候，增程便是那把钥匙，让乘坐空间与续航里程同时释放，每次出发都自在从容。</p><p style=\"text-align: justify;\">针对“现在才出增程车晚了吗”这一问题，雷军回答：不晚。他表示，自己和坊间不少观点不同，增程市场远未饱和，反而大有可为。雷军用理想新一代L6举例，该车上市后销量持续走高，而且对理想i6完全没有影响，足以证明增程需求是真实存在的、旺盛的，说明用户愿意为优秀的增程产品买单。</p><p style=\"text-align: justify;\">对此，理想CEO李想发文回应：热烈欢迎雷总加入增程赛道，预祝小米澎程大卖。（电车界）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260730/6a6a9d9ee7e3b.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 217px; height: 345px;\" /></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>业绩由盈转亏！粉笔投资亏损830万美元，前CEO张小龙曾鼓励年轻人炒股</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">7月29日消息，粉笔近日在港交所发布2026年上半年业绩预告，公司业绩迎来由盈转亏。公告显示，截至6月30日的六个月，粉笔预期收入不少于12.2亿元，对比2025年同期14.92亿元，收入同比最大降幅达到18.3%。盈利层面，公司预计上半年净亏损不超过2亿元，去年同期录得净利润2.27亿元；经调整净亏损上限1.8亿元，而2025年同期经调整净利润2.72亿元。</p><p style=\"text-align: justify;\">粉笔解释亏损两大核心原因：一方面招录类考试培训行业竞争加剧，岗位需求下滑，培训业务销售收入承压；另一方面公司主动优化人员架构，产生大额员工遣散支出。除此之外，公告披露最新投资损益情况。2026年7月1日至7月7日期间，粉笔出售若干透过公开市场购入的ETF产品及上市证券，录得约830万美元（折合人民币约5638.02万元）的总投资亏损。</p><p style=\"text-align: justify;\">值得注意的是，此前，粉笔创始人张小龙在中国人民大学讲座期间，公开鼓励年轻人炒股，还现场分享个人借助AI工具炒股的经历，自述5月投入8000万元入市，一个月获利5300万元。但因现场学生反馈平淡，张小龙情绪失控，多次使用不雅用语，当众辱骂在场学生。事情发酵后，7月8日粉笔发布正式公告，张小龙先生因需处理其他个人事务，已辞任相关职务，且不再担任公司任何职位。（鞭牛士）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>王传福投资长鑫大赚4.6亿引热议！比亚迪李云飞：投资是公司行为，不存在个人入股</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">7月29日消息，近日，国产DRAM存储芯片龙头长鑫科技登陆科创板，上市首日股价暴涨466%，收盘市值高达3.28万亿元，刷新科创板IPO纪录。随着招股书披露的股东信息引发关注，有媒体称比亚迪董事长王传福个人持有长鑫科技0.014%股份，账面收益超4.6亿元，投资回报率达165倍，引起热议。</p><p style=\"text-align: justify;\">对此，比亚迪集团品牌及公关处总经理李云飞作出正面回应。他向媒体表示：该笔投资发生于六年前，2020年12月，由比亚迪股份有限公司出资5000万元参与长鑫科技首轮融资，属于公司层面的市场化投资行为。王传福仅持有比亚迪相关股份，未以个人名义对外投资入股其他任何企业，不存在个人对外投资情形。</p><p style=\"text-align: justify;\">李云飞进一步强调，公司所有对外投资均统一以比亚迪股份有限公司主体名义开展，公司高管从未以个人名义参与任何对外投资项目。“近年来公司开展的各项股权投资业务，均为企业层面的市场化投资行为。”（快科技）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>中际旭创驳斥1.6T光模块大幅降价传闻，当前行业并未出现恶性价格竞争</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">7月29日消息，据媒体报道，中际旭创近期密集释放重要信号，一方面正面回应市场对1.6T光模块价格的担忧，另一方面正式敲定H股全球发售定价，引发市场广泛关注。</p><p style=\"text-align: justify;\">针对近期流传的1.6T光模块价格大幅下调的传闻，中际旭创在机构电话会议上作出明确澄清。公司管理层表示，传闻价格与实际平均售价（ASP）存在明显偏差，当前行业并未出现恶性价格竞争。</p><p style=\"text-align: justify;\">此外，中际旭创近期发布公告，正式确定H股全球发售定价为每股980港元，较招股文件披露的1010港元发行上限折价约3%。基础发行股份为5450万股，对应募资约534亿港元；若保荐人全额行使15%超额配售权，增发817.5万股后，总募资规模将逼近610亿港元，一举锁定2026年港股募资规模榜首。（快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260730/6a6a9d9f3c413.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>华为首款鸿蒙台式机官宣！擎云HM650系列10月上市，自研麒麟X90芯片</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">7月29日消息，华为终端平板与PC产品线总裁朱懂东预告，华为擎云HM650系列将于今年10月上市，这也是华为首款鸿蒙台式机。据介绍，华为擎云HM650系列台式机搭载华为自研麒麟X90芯片，并采用创新双层散热架构。通过软件、硬件、芯片与云端的深度协同，该系列能够持续稳定释放高性能。</p><p style=\"text-align: justify;\">除了满足日常综合办公需求，华为擎云HM650系列还可应对工程设计、仿真建模、软件编程等专业场景，为企业用户提供高效算力响应能力。（快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260730/6a6a9d9f64741.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><section><section style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>国际资讯</strong></span></section><section><br /></section></section></section></section></section></section></section></section></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>宝马据悉向德国员工提出自愿离职方案，拟在全球裁员8000人</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">7月29日消息，宝马汽车向其在德国的数千名员工提供自愿离职补偿方案，以精简架构。据知情人士称，宝马预计此次德国减员将占其全球约8000个裁员岗位的大部分。这是德国陷入困境的汽车行业一系列重组举措中的最新一步。</p><p style=\"text-align: justify;\">知情人士透露，此次调整将面向研发、规划及其他公司职能部门的员工，工厂一线工人不在适用范围内。他们还表示，作为更大规模裁员计划的一部分，宝马也计划在未来几个月内精简管理层。</p><p style=\"text-align: justify;\">知情人士称，该计划将于10月开始，一直持续到2027年。宝马发言人证实，该公司已与工会就德国业务重组计划达成协议，但拒绝进一步置评。（新浪科技）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>日本多家半导体工厂停工</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">7月29日消息，当地时间28日下午，日本熊本县发生6.8级地震，不少地区出现道路塌陷、房屋受损、停电等情况。据日本气象厅发布的消息，截至目前，熊本县已发生超过100次余震。日本首相高市早苗29日在记者会上说，截至当天早上8时30分，熊本县地震已致13人死亡。</p><p style=\"text-align: justify;\">熊本县是日本半导体产业核心聚集地，据当地媒体报道，28日地震发生后，台积电、索尼、东京电子等十余家半导体企业厂区紧急疏散人员、停工排查。台积电熊本工厂员工全部撤离，在建的熊本第二工厂暂停部分施工；索尼集团旗下图像传感器厂区持续停产，复产时间未定。东京电子、瑞萨、三菱电机等设备、功率芯片厂商全部停工安检。（央视财经）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>马斯克两家公司一个月蒸发1.5万亿美元市值</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">7月29日消息，据外媒报道，SpaceX以及特斯拉自6月中旬以来，在股市累计市值蒸发了1.5万亿美元，其中SpaceX自高点以来下跌了近50%，特斯拉自上周发布财报以来下跌了18%。</p><p style=\"text-align: justify;\">据SpaceX周二发布财报前后的期权定价，以及两天后SpaceX内部人士禁售期的结束，下周情况可能会更加疯狂。期权价格暗示SpaceX财报发布后股价将有15%的波动，隐含波动率高达122。</p><p style=\"text-align: justify;\">此外，财报发布还将触发该公司独特的禁售期，允许内部人士提前出售股票，无需等到通常的180天禁售期。这意味着超过9亿股（占其符合条件的禁售股票总量的20%）将进入交易市场。（三言科技）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>两大MLCC龙头，宣布涨价</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">产能吃紧叠加原材料涨价，日韩两大MLCC供应商一同开启了新一轮涨价。7月29日消息，三星电机近日已向销售合作伙伴发出通知，自8月1日起，MLCC产品出货价格将在现行基础上统一上调30%。</p><p style=\"text-align: justify;\">涨价根源在于AI带来的高端MLCC需求飙升。三星电机在通知中表示，“过去几个月以来，全球电子产业出现结构性需求增长。虽然公司持续提升生产效率并扩大产线规模，但供应链压力已超出可承受水平。”</p><p style=\"text-align: justify;\">另一家MLCC龙头日本太阳诱电同样也已经发出涨价通知。据该韩媒消息，太阳诱电已发出正式通知函，宣布自9月1日起出货的MLCC将涨价。涨价理由为原材料及辅料价格急剧上涨，公司“一直在为降低成本竭尽全力，但仅靠自身努力已难以完全消化成本上升的部分。”（财联社）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>突发！腾讯光子北美3A项目裁员</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">7月28日早些时间，腾讯旗下Lightspeed LA（光子洛杉矶工作室）在LinkedIn发布官方声明，宣布将对旗下原创3A项目《Last Sentinel》的创意及开发方向进行调整。</p><p style=\"text-align: justify;\">Lightspeed LA表示，此次决定是在经过大量内部评审以及玩家试玩之后作出的，目的是进一步优化产品方向，打造更符合玩家期待的游戏体验。不过，官方同时强调，Lightspeed LA不会关闭，《Last Sentinel》也并未取消开发，工作室未来仍将继续运营，并推进新游戏研发。</p><p style=\"text-align: justify;\">值得关注的是，据外媒报道，此次调整预计将有80名员工会受到影响。在声明中，Lightspeed LA表示，由于《Last Sentinel》开发方向发生调整，部分岗位将受到影响。（GameQuest）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260730/6a6a9d9fbe78c.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>马斯克的Grok上线Build模式：可通过自然语言生成网站、应用</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">7月29日，马斯克旗下SpaceXAI发布公告，宣布为Grok应用引入Build模式。在该模式下，用户只需要输入一段提示词，该模式就能把用户想法转换为带有独立域名的产品。</p><p style=\"text-align: justify;\">该功能目前以早期测试版形式向SuperGrok Heavy订阅用户开放，月费300美元，支可以通过网页端、安卓端和iOS端Grok应用使用Build模式，能够将文本提示实时转化为功能齐全的网站、工具、互动媒体，甚至是应用程序。（快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260730/6a6a9d9ff2fa3.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section>",
+      "published": "2026-07-30T08:33:00+08:00",
+      "fetched_at": "2026-07-30T10:34:07.755577+08:00",
+      "pre_filter_reason": "月之暗面AI融资",
+      "scores": {
+        "importance": 8,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "罗技在中国赚翻了，但用户骂声不断：品牌口碑与利润的博弈",
+          "angle": "解读罗技上季度中国业绩增长背后的争议事件，分析“越骂越赚”的消费心理",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "policy",
+          "title": "智驾小蓝灯将被禁用！新国标启动，车主和车企该怎么办？",
+          "angle": "科普小蓝灯的作用和禁用原因，解读新国标对智驾行业的影响及应对建议",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "8eafc5f31f2a",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "search",
+      "title": "全球顶尖AI大模型全量开源，kimi究竟图什么？ - 中国经济网",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Eam9jX1ZLcDh2ZXNfQUFJdXA0Nm5IUTdnUHM3RnZUZk0xMzlndU93MndOOUdRa0NFUXEzc1BFZWcwWUt3TWlVYktOTmt3RWpGRUFsR2NsemVOSnB2OGFQbVNpOTMzS3ZkRF9xQ3hqYw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE5Eam9jX1ZLcDh2ZXNfQUFJdXA0Nm5IUTdnUHM3RnZUZk0xMzlndU93MndOOUdRa0NFUXEzc1BFZWcwWUt3TWlVYktOTmt3RWpGRUFsR2NsemVOSnB2OGFQbVNpOTMzS3ZkRF9xQ3hqYw?oc=5\" target=\"_blank\">全球顶尖AI大模型全量开源，kimi究竟图什么？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">中国经济网</font>",
+      "published": "2026-07-29T16:27:00+08:00",
+      "fetched_at": "2026-07-30T10:34:19.370436+08:00",
+      "pre_filter_reason": "AI大模型全量开源",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 8,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "Kimi全量开源：一场AI大模型的“阳谋”",
+          "angle": "从商业和生态角度分析Kimi开源背后的战略意图，对比其他闭源模型，探讨对开发者和行业的影响",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "tutorial",
+          "title": "Kimi开源模型上手：普通人也能用的AI大模型部署教程",
+          "angle": "以零基础用户视角，展示如何快速体验和使用Kimi开源模型，降低技术门槛",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "3bd0d71df639",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "超越OpenAI、Anthropic！国产AI安全智能体杀进全球前四、国内第一",
+      "link": "https://www.qbitai.com/2026/07/462447.html",
+      "summary": "AI开始组团“挖漏洞”",
+      "published": "2026-07-29T16:13:03+08:00",
+      "fetched_at": "2026-07-30T10:34:10.715655+08:00",
+      "pre_filter_reason": "AI安全智能体",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "国产AI安全智能体杀进全球前四，超越OpenAI和Anthropic",
+          "angle": "盘点国产AI安全智能体的技术突破，对比国际巨头，突出“挖漏洞”能力背后的安全价值",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "AI安全智能体如何“挖漏洞”？一文学会基础操作",
+          "angle": "以案例演示方式，介绍AI安全智能体的工作原理和简单使用场景，适合安全入门者",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "d92c1cc5a0db",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "search",
+      "title": "工厂一线，大模型开始接老师傅的班了 - 华尔街见闻",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkcFU2ZDk1ZDFCWU9UaHBGSHFKN0M3VHowU3ltTUlYM1YtY2tqSV83Skt3Mldua2VLZHdHRk5aYTFuVE9nLW0zNjF6SktLOUxSOGhz?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkcFU2ZDk1ZDFCWU9UaHBGSHFKN0M3VHowU3ltTUlYM1YtY2tqSV83Skt3Mldua2VLZHdHRk5aYTFuVE9nLW0zNjF6SktLOUxSOGhz?oc=5\" target=\"_blank\">工厂一线，大模型开始接老师傅的班了</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">华尔街见闻</font>",
+      "published": "2026-07-29T14:52:34+08:00",
+      "fetched_at": "2026-07-30T10:34:19.370543+08:00",
+      "pre_filter_reason": "大模型在工厂应用",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "工厂老师傅被AI接班？大模型如何改变一线生产",
+          "angle": "结合案例，分析大模型在工厂中的实际应用场景（如质检、排产），探讨对传统工人角色的影响",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "大模型进工厂：零基础看懂AI如何“接老师傅的班”",
+          "angle": "用通俗语言和图示，解释大模型在工业场景中的部署流程和核心功能，降低理解门槛",
           "difficulty": "入门"
         }
       ]
