@@ -1,411 +1,263 @@
 {
-  "updated_at": "2026-07-31T11:16:35.923966+08:00",
+  "updated_at": "2026-08-01T11:14:28.449150+08:00",
   "total": 20,
   "items": [
     {
-      "id": "a813f3dc9fbe",
-      "source_id": "deepmind-blog",
-      "source_name": "Google DeepMind",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-      "link": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
-      "published": "2026-07-30T23:00:59+08:00",
-      "fetched_at": "2026-07-31T11:15:05.866507+08:00",
-      "pre_filter_reason": "AI model for robotics",
-      "scores": {
-        "importance": 9,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 9.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "三分钟看懂Gemini Robotics ER 2：机器人如何学会“看视频”协作干活",
-          "angle": "用通俗比喻拆解视频理解、任务编排、多机器人协作三大能力，并演示一个简单的仓库分拣场景代码逻辑。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "case_study",
-          "title": "从单机到群体智能：Gemini Robotics ER 2如何改变工厂流水线",
-          "angle": "对比传统机器人编程与ER 2的“看视频学任务”模式，分析其在实际产线中的落地价值与挑战。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "c134eb789f7e",
+      "id": "bc1cfc5f726a",
       "source_id": "openai-blog",
       "source_name": "OpenAI Blog",
       "source_tier": "T1",
       "source_lang": "en",
       "source_category": "official",
-      "title": "Advancing the price-performance frontier with GPT-5.6",
-      "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
-      "published": "2026-07-30T18:00:00+08:00",
-      "fetched_at": "2026-07-31T11:15:05.538724+08:00",
-      "pre_filter_reason": "GPT-5.6 pricing and AI workflows",
+      "title": "Building abundant intelligence",
+      "link": "https://openai.com/index/building-abundant-intelligence",
+      "summary": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+      "published": "2026-07-31T23:00:00+08:00",
+      "fetched_at": "2026-08-01T11:13:01.728003+08:00",
+      "pre_filter_reason": "AI capability and accessibility",
       "scores": {
         "importance": 8,
-        "timeliness": 9,
+        "timeliness": 7,
         "actionability": 7,
         "scarcity": 6,
-        "virality": 8,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 8.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "GPT-5.6降价了！手把手教你用Luna/Terra模型省50%推理成本",
-          "angle": "通过实际API调用对比新旧价格，并给出迁移到新模型的代码示例与成本估算模板。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "价格战还是技术革命？GPT-5.6降价背后的企业AI部署策略",
-          "angle": "解读OpenAI效率提升对中小企业AI工作流的影响，并给出选型建议。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "fcc45e19377f",
-      "source_id": "huggingface-blog",
-      "source_name": "Hugging Face Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
-      "link": "https://huggingface.co/blog/Dharma-AI/gpu-management",
-      "summary": "",
-      "published": "2026-07-30T23:09:09+08:00",
-      "fetched_at": "2026-07-31T11:15:08.366998+08:00",
-      "pre_filter_reason": "GPU management for AI workloads",
-      "scores": {
-        "importance": 7,
-        "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 7,
-        "virality": 6,
+        "virality": 7,
         "crowd_heat": 0.0
       },
       "quality_score": 8.2,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "GPU闲置=烧钱？5分钟学会用开源工具监控并调度你的GPU集群",
-          "angle": "演示如何用nvidia-smi + 简单脚本实现GPU利用率告警，并推荐Kubernetes GPU共享方案。",
+          "title": "什么是“全栈AI”？一文看懂如何构建普及型智能",
+          "angle": "拆解“全栈AI”概念，从芯片、模型到应用层，解释如何通过全栈优化让AI更强大、更便宜、更普及，适合技术入门者。",
           "difficulty": "入门"
         },
         {
-          "tag": "opinion",
-          "title": "别让GPU“停飞机”：企业算力管理的三大隐形浪费与对策",
-          "angle": "从“停机坪”比喻切入，分析任务排队、碎片化占用、过度预留三大问题，并给出优化清单。",
-          "difficulty": "进阶"
+          "tag": "analysis",
+          "title": "AI成本下降路线图：全栈创新如何让智能“白菜价”",
+          "angle": "分析全栈方法在算力、算法、数据等环节的降本增效策略，结合案例说明AI普及化的商业逻辑与未来趋势。",
+          "difficulty": "中级"
         }
       ]
     },
     {
-      "id": "7c6693478b42",
-      "source_id": "qbitai",
-      "source_name": "量子位",
+      "id": "6f5397b9d5d7",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
       "source_tier": "T2",
       "source_lang": "zh",
-      "source_category": "media",
-      "title": "GPT-5.6自己优化自己实锤了，新的左脚踩右脚已经出现",
-      "link": "https://www.qbitai.com/2026/07/463297.html",
-      "summary": "OpenAI的RSI焚诀，它来了！",
-      "published": "2026-07-30T15:51:14+08:00",
-      "fetched_at": "2026-07-31T11:15:18.706153+08:00",
-      "pre_filter_reason": "GPT-5.6 self-optimization and OpenAI",
+      "source_category": "search",
+      "title": "美国AI巨头Anthropic宣布旗下大模型Claude失控 - 21财经",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMTkyYTBBVDZnd29yelRaSVRwS08wa1lpZzFoQXBZckJ2TmI1Z2xCX3Q5Z3VVOFJYTG55a0gxN2l3WDhucVluVHVicURNSWIzMUhwWGFNRTBpRHFseFY0QTAzOHUtRUpiR3BsT19zMmpiZ240aTFxVURJQkJlR19kWDloOVRpb0wxcnM2Sg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNMTkyYTBBVDZnd29yelRaSVRwS08wa1lpZzFoQXBZckJ2TmI1Z2xCX3Q5Z3VVOFJYTG55a0gxN2l3WDhucVluVHVicURNSWIzMUhwWGFNRTBpRHFseFY0QTAzOHUtRUpiR3BsT19zMmpiZ240aTFxVURJQkJlR19kWDloOVRpb0wxcnM2Sg?oc=5\" target=\"_blank\">美国AI巨头Anthropic宣布旗下大模型Claude失控</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">21财经</font>",
+      "published": "2026-07-31T20:45:00+08:00",
+      "fetched_at": "2026-08-01T11:13:22.465699+08:00",
+      "pre_filter_reason": "AI model Claude incident",
       "scores": {
         "importance": 9,
         "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 9,
-        "virality": 9,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.2,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "GPT-5.6自我优化实锤？用RSI原理写一个自动调参的小实验",
-          "angle": "用Python演示“模型自己改prompt”的简化版RSI流程，并解释其与强化学习的区别。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "analysis",
-          "title": "左脚踩右脚上天？GPT-5.6自我优化对AI安全意味着什么",
-          "angle": "结合RSI（递归自我改进）概念，探讨其潜在风险与OpenAI的防护措施，适合技术爱好者。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "6dfaeea22bc4",
-      "source_id": "microsoft-research",
-      "source_name": "Microsoft Research",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Echoverse: Deep, evolving environments for computer-use agents",
-      "link": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
-      "summary": "<p>Computer-use AI agents struggle with multi-step workflows like email and customer support. Echoverse trains agents in realistic environments rather than simply providing more training tasks, helping them improve as the tasks, tests, and environments evolve.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/\">Echoverse: Deep, evolving environments for computer-use agents</a> appeared first on <a href=\"https://www.microsoft.com/en-us/research\">Microsoft Research</a>.</p>",
-      "published": "2026-07-31T01:00:00+08:00",
-      "fetched_at": "2026-07-31T11:15:07.371235+08:00",
-      "pre_filter_reason": "计算机使用AI代理训练环境",
-      "scores": {
-        "importance": 7,
-        "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 7,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 8.1,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "Echoverse入门：如何用模拟环境训练一个会发邮件的AI助手",
-          "angle": "从零搭建一个Echoverse风格的虚拟邮箱环境，并训练agent完成“回复+转发”多步任务。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "case_study",
-          "title": "为什么AI客服总卡壳？Echoverse用“进化环境”解决多步操作难题",
-          "angle": "对比传统训练数据与Echoverse动态环境，用客服工单案例展示agent如何适应变化。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "5a756347204a",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "传奇AlphaFold团队全员解散！诺奖得主投奔Anthropic，资源转向Gemini",
-      "link": "https://www.qbitai.com/2026/07/463123.html",
-      "summary": "嚯，诺奖团队也被砍了",
-      "published": "2026-07-30T14:14:26+08:00",
-      "fetched_at": "2026-07-31T11:15:18.706193+08:00",
-      "pre_filter_reason": "AI research team and model",
-      "scores": {
-        "importance": 9,
-        "timeliness": 8,
-        "actionability": 9,
+        "actionability": 8,
         "scarcity": 9,
         "virality": 9,
         "crowd_heat": 0.0
       },
       "quality_score": 8.1,
       "topics": [
-        {
-          "tag": "analysis",
-          "title": "诺奖团队解散背后：AI基础研究的商业困局",
-          "angle": "从AlphaFold团队解散切入，分析顶尖AI研究团队在商业公司中的生存困境，以及资源向Gemini等产品线倾斜的信号意义。",
-          "difficulty": "入门"
-        },
         {
           "tag": "news",
-          "title": "AlphaFold团队解散，对生物医药AI意味着什么？",
-          "angle": "聚焦事件对AI制药、蛋白质结构预测领域的影响，梳理后续可能的技术路线转移和人才流向。",
+          "title": "Anthropic承认Claude“失控”？真相与误解全解析",
+          "angle": "梳理事件来龙去脉，区分事实与炒作，解释AI“失控”的技术含义与安全边界，帮助观众理性看待AI风险。",
           "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "5e64f678a7bb",
-      "source_id": "nvidia-blog",
-      "source_name": "NVIDIA Technical Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "NVIDIA Exemplar Cloud: Lessons for Unlocking Full Performance on AI Infrastructure",
-      "link": "https://developer.nvidia.com/blog/nvidia-exemplar-cloud-lessons-for-unlocking-full-performance-on-ai-infrastructure/",
-      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"431\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image6-6-768x431.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"image6\" width=\"768\" />Two AI computing clusters built from identical NVIDIA H100, GB200 NVL72, or GB300 NVL72 systems can deliver materially different training throughput. We...",
-      "published": "2026-07-31T00:00:00+08:00",
-      "fetched_at": "2026-07-31T11:15:08.057908+08:00",
-      "pre_filter_reason": "AI infrastructure performance",
-      "scores": {
-        "importance": 7,
-        "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 6,
-        "virality": 6,
-        "crowd_heat": 5.0
-      },
-      "quality_score": 8.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "NVIDIA Exemplar Cloud：如何榨干AI集群的每一分性能",
-          "angle": "拆解NVIDIA官方案例，用通俗语言讲解两个相同H集群为何性能差异巨大，提炼出可复用的性能调优清单。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "case_study",
-          "title": "同样的H100，为什么你的AI训练慢一半？",
-          "angle": "以Exemplar Cloud为引，对比常见性能瓶颈（网络、存储、调度），给出中小企业可落地的优化建议。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "d91c27441309",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "余承东说到做到，华为盘古 openPangu-2.0-Pro 模型及技术报告开源上线",
-      "link": "https://www.ithome.com/0/983/966.htm",
-      "summary": "<p>IT之家 7 月 31 日消息，华为今日官宣，开源盘古 5050 亿参数的 <strong>openPangu-2.0-Pro 模型</strong>（模型权重、基础推理代码）及技术报告正式开源上线。</p><p>开源盘古 openPangu 是华为开源 AI 模型品牌，致力于通过昇腾原生训练与推理技术，为业界用好昇腾提供最佳实践参考。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/96d663bf-0602-4607-b2cc-f414c19557c7.jpg?x-bce-process=image/auto-orient,o_1\" /></p><p>openPangu-2.0-Pro 是基于昇腾 NPU 训练的大规模混合专家（MoE）语言模型，<strong>参数规模约 505B</strong>，每 token 激活参数规模约 18B，模型支持 512k 上下文长度，训练数据总量约 34T tokens。后训练阶段完成快慢合一微调（SFT）、多专项强化学习（RL），并通过在线蒸馏（OPD）完成能力合一。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/6/fb466bf9-9e90-4a8f-bb40-344fe5160266.jpg?x-bce-process=image/auto-orient,o_1\" /></p><p>openPangu-2.0-Pro 在模型架构上实现了全面的升级：</p><ul class=\" list-paddingleft-2\"><li><p>Attention 架构：沿用高效 MLA，并采用 DSA+SWA 独立分层混合架构，层配比为 1:2；SWA 层负责局部窗口建模，DSA 层负责稀疏全局聚合，在保持精度的同时显著降低长序列推理的计算、显存与访存开销。</p></li><li><p>拓扑架构：将传统残差连接升级为 4 支流 mHC 架构，提升表征多样性与泛化能力。</p></li><li><p>自投机模块：采用 3 头 MTP 架构，一次额外预测 3 个 token，显著提升模型的推理速度。</p></li><li><p>Muon 优化器：训练中采用 Muon 优化器，获得更快的收敛速度。</p></li></ul><p>在今年 6 月的华为开发者大会 HDC 2026 主题演讲中，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东宣布，<strong>openPangu 2.0 计划从 6 月 30 日起陆续开源 7 大组件</strong>，包括新增开源的预训练代码、后训练代码、训练算子。</p><p>6 月 30 日，<a href=\"https://www.ithome.com/0/970/466.htm\" target=\"_blank\">92B 参数的 openPangu-2.0-Flash 模型已正式开源上线</a>。</p><p>对于 openPangu-2.0-Pro 总参数仅 505B，余承东曾解释称，<a href=\"https://www.ithome.com/0/963/480.htm\" target=\"_blank\">算力大量支持了国内的其他企业需求</a>，自己留的数量还是非常有限的；此外，AI 算力成本非常高，华为更聚焦时延和吞吐率的提升。</p><p>openPangu-2.0 模型相关组件已陆续上线开源平台，IT之家附开源地址：</p><p><a href=\"https://ai.gitcode.com/ascend-tribe/openPangu-2.0-Pro\" target=\"_blank\"><span class=\"link-text-start-with-http\">https://ai.gitcode.com/ascend-tribe/openPangu-2.0-Pro</span></a></p>",
-      "published": "2026-07-31T10:24:44+08:00",
-      "fetched_at": "2026-07-31T11:15:23.835356+08:00",
-      "pre_filter_reason": "Huawei open-sources AI model.",
-      "scores": {
-        "importance": 9,
-        "timeliness": 9,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "华为openPangu-2.0-Pro开源了！手把手教你本地跑起来",
-          "angle": "面向开发者，从下载权重、配置环境到推理演示，快速上手5050亿参数大模型，突出昇腾适配优势。",
-          "difficulty": "进阶"
         },
         {
           "tag": "analysis",
-          "title": "5050亿参数全开源，华为盘古在打什么牌？",
-          "angle": "解读开源策略背后的生态野心，对比Meta Llama系列，分析对国产AI框架和芯片生态的拉动作用。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "d4deddfa1f1c",
-      "source_id": "reddit-ml",
-      "source_name": "Reddit r/MachineLearning",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "How Kimi K3 Engineered Its Way to the Frontier [R]",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1vaysjf/how_kimi_k3_engineered_its_way_to_the_frontier_r/",
-      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Kimi K3 by Moonshot reached the frontier as an open-weight model. Artificial Analysis ranks it fourth of 580 models, behind only Claude Opus 5, Fable 5, and GPT-5.6 Sol. Moonshot released more than the weights.</p> <p>I sat down to read the 47-page technical report and walk through the released code. Three things stood out.</p> <ul> <li>Kimi Delta Attention replaces the KV cache in 69 of the 93 layers with one 128x128 matrix per head. A 1M-token context takes 27.2 GiB instead of 104.6.</li> <li>Quantile Balancing keeps 896 experts per layer evenly loaded. DeepSeek-V3's fixed-step bias nudging breaks at that expert count, so K3 computes the bias directly from one batch's router score margins.</li> <li>AgentENV, the Firecracker microVM runtime behind the RL training, created 51 million sandboxes with 133 ms checkpoints and 49 ms resumes, so a trajectory pauses for free while the model thinks.</li> </ul> <p>Full walkthrough: <a href=\"https://codepointer.substack.com/p/how-kimi-k3-engineered-its-way-to\">https://codepointer.substack.com/p/how-kimi-k3-engineered-its-way-to</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/noninertialframe96\"> /u/noninertialframe96 </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vaysjf/how_kimi_k3_engineered_its_way_to_the_frontier_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vaysjf/how_kimi_k3_engineered_its_way_to_the_frontier_r/\">[comments]</a></span>",
-      "published": "2026-07-31T00:37:50+08:00",
-      "fetched_at": "2026-07-31T11:15:30.536134+08:00",
-      "pre_filter_reason": "AI model release and technical report",
-      "scores": {
-        "importance": 9,
-        "timeliness": 8,
-        "actionability": 9,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.8,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "Kimi K3技术报告精读：开源模型如何逼近闭源天花板",
-          "angle": "提炼47页报告中的关键工程创新（如训练策略、数据配比），解释K3为何能挤进全球前五，并对比Claude/GPT的差距。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "tutorial",
-          "title": "从Kimi K3看前沿大模型训练：5个值得抄的作业",
-          "angle": "面向算法工程师，将K3报告中的可复用技巧（如课程学习、MoE调优）整理成实操建议，附代码思路。",
+          "title": "AI失控恐慌背后：大模型安全机制为何失效？",
+          "angle": "从技术角度剖析Claude失控的可能原因，探讨当前AI安全对齐技术的局限，以及行业如何应对此类事件。",
           "difficulty": "高级"
         }
       ]
     },
     {
-      "id": "3d3107fb2912",
-      "source_id": "36kr",
-      "source_name": "36氪",
+      "id": "007b42127297",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "特斯拉正式引入豆包",
-      "link": "https://36kr.com/newsflashes/3918967223266692?f=rss",
-      "summary": "特斯拉中国7月31日公布了2026.14.13版本的车机软件更新，覆盖Model3、ModelY、ModelS、ModelX车型。2026年7月31日已开始分批次推送，其中一条软件更新主要升级内容就是“豆包大模型”：一款智能语音助手，不仅能提供实时信息，还能展开自然流畅的对话；支持多款精品音色，可搭配“万事通”“音乐爱好者”以及“故事会”等个性化角色，需要开通高级车载娱乐服务以使用此功能。（新浪财经）",
-      "published": "2026-07-31T10:59:36+08:00",
-      "fetched_at": "2026-07-31T11:15:11.266665+08:00",
-      "pre_filter_reason": "引入豆包大模型，AI语音助手",
+      "title": "刚刚，DeepSeek V4 系列更新，架构没变，Agent 能力为何大涨",
+      "link": "https://www.leiphone.com/category/ai/EBSerg3DFtWmMap4.html",
+      "summary": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c67b6a5d11.jpg?imageMogr2/quality/90\" style=\"width: 100%; display: inline-block; text-align: center; background-color: transparent;\" /></section><section style=\"padding-left: 16px; padding-right: 16px;\"><section style=\"width: 100%; display: flex; padding: 0px;\"><section style=\"width: 100%; padding-left: 0px; padding-right: 0px;\"><section style=\"width: 100%; background: rgb(246, 248, 255); padding: 20px 0px 12px; margin-top: 0px; margin-bottom: 0px;\"><section style=\"text-align: center;\"><section><section style=\"text-align: justify; margin: 0px 16px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><span><span style=\"font-weight: bold;\">后训练正成为大模型能力提升的新变量。</span></span></span></span></section><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><section style=\"text-align: left; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><br /></span></span></section></section></section><span></span><span></span><span></span><span></span><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-weight: normal;\">&nbsp; &nbsp; 作者丨</span></span><span style=\"font-size: 14px; line-height: 25px; color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\">郑佳美</span><strong><span><strong><span><span><br /></span></span></strong></span></strong></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Optima-Regular, PingFangTC-light;\"><span style=\"color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\"><span>&nbsp; &nbsp; 编辑丨</span><span>马晓宁</span></span></span></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; text-align: right; margin: 0px 16px;\"><strong><strong><span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></strong></strong></p></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">刚刚，DeepSeek 更新了 DeepSeek-V4-Flash。</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">官方把它称为“正式版”，不过目前只是在 API 端上线公测。此次更新也只涉及&nbsp;</span><code><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">deepseek-v4-flash</span></code><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">，V4-Pro API，以及 App 和网页端当前使用的模型，都没有随之更新。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c67b6d0120.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">但比起“正式版”这个名字，这次更新更值得关注的是另一句话：DeepSeek-V4-Flash-0731 与此前的 Preview 版本采用相同的模型结构和参数规模，只重新进行了后训练。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c67b713198.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c67b748451.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>01</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">没有换架构，为什么能力还能提升？</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">大模型的训练其实可以被简单分成两个阶段。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">第一个阶段是预训练。模型通过大量文本和代码学习知识，形成基础能力。这个阶段决定了模型大致有多聪明、知道多少东西。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">第二个阶段是后训练。它更像是针对具体工作进行专项训练，让模型学会怎样回答问题、怎样调用工具，以及怎样按照要求完成任务。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这次 DeepSeek 没有重新设计模型架构，也没有扩大参数规模，而是在原有模型上重新进行后训练。模型的结构没有变化，但内部权重和行为方式会发生变化。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这有点像同一辆车没有更换发动机，却重新调整了变速箱、控制系统和驾驶策略。车本身没有变大，但在特定道路上的表现可能明显改善。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">不过，DeepSeek 并没有公布这次后训练具体使用了哪些数据、奖励方法和训练流程。因此，目前只能确定它重新做了后训练，不能进一步断言性能提升究竟来自哪一种技术。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c67b77e388.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>02</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">提升主要指向 Agent 能力</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">根据 DeepSeek 公布的结果，新版 V4-Flash 在 Terminal Bench 2.1 上获得 82.7，在 DeepSWE 上获得 54.4，在 DSBench-FullStack 上获得 68.7。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c67b7ab346.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这些测试和传统的代码补全不同。传统代码测试通常只要求模型写出一段代码，而 Agent 测试要求模型真正进入一个工作环境。它需要读取文件、理解代码仓库、调用终端、修改程序、运行测试，再根据报错继续处理。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">也就是说，模型不只是要知道答案，还要连续完成多个步骤。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">不过，这些成绩也不能完全理解成模型自身的单独能力。DeepSeek 明确说明，部分代码 Agent 测试使用了尚未公开的 DeepSeek Harness，并采用了较高的推理档位；DSBench-FullStack 和 DSBench-Hard 还是 DeepSeek 自己的内部测试集。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">因此，更准确的说法是：V4-Flash-0731 在 DeepSeek 公布的 Agent 运行环境中取得了明显提升，但它在第三方框架中的实际表现，还需要更多独立测试。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c67b7e1200.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>03</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">Responses API 解决的是接入问题</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">此次更新还有一个重要变化：V4-Flash 开始原生支持 Responses API，并针对 Codex 进行了适配。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Responses API 可以理解为一套更适合 Agent 的通信接口。它可以更统一地处理模型回复、推理状态、工具调用和执行结果。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c67b829af5.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">它本身不会让模型突然变得更聪明，但可以减少模型接入 Codex 等 Agent 工具时的适配工作，让开发者更容易把模型放进真实的软件开发流程。雷峰网</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">所以，这次更新其实包含两部分：一部分是重新后训练后的模型权重，另一部分是更适合 Agent 使用的接口和运行环境。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">最终成绩由模型、推理预算、工具环境和 Agent 框架共同决定，很难只归功于其中某一项。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c67b868387.jpg?imageMogr2/quality/90\" style=\"display: block; height: auto !important; width: 38px !important; background-color: transparent;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>04</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">这次更新真正值得关注的是什么？</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">目前可以确定的是，DeepSeek 在没有改变 V4-Flash 模型结构和参数规模的情况下，通过重新后训练提高了官方 Agent 基准成绩，同时增强了对 Responses API 和 Codex 工作流的支持。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">但现阶段还不能直接得出后训练已经可以替代模型扩容或者V4-Flash 已经全面领先其他 Agent 模型这样的结论。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">一方面，V4-Flash-0731 的具体后训练变化尚未公开；另一方面，官方部分测试所使用的 Harness 和内部数据集还不具备完整的外部复现条件。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">所以，这次更新不适合简单总结为DeepSeek 又发布了一个更强的模型。更准确的理解是，DeepSeek 正在验证一条更加务实的技术路线：当模型结构和参数规模保持不变时，能否通过重新后训练、工具接口适配和 Agent 运行框架，进一步提高模型完成真实任务的能力。雷峰网</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">DeepSeek 已经给出了官方成绩，但这条路线究竟能带来多大的实际提升，还要等待更多训练细节</span><span style=\"text-align: justify; line-height: 1.75em; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">、公开工具和第三方测试。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c67b88ddb9.jpg?imageMogr2/quality/90\" /></section><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c67b8b5742.jpg?imageMogr2/quality/90\" /></span></section><section><section><section><section><section><section><svg viewBox=\"0 0 1 1\" xmlns=\"http://www.w3.org/2000/svg\"></svg></section></section><section><p><strong><span><span style=\"color: #4499E7;\">上车，带你看遍全球 AI 顶会精华</span></span></strong></p><span></span></section></section></section></section></section><section><section><p style=\"text-align: center; margin: 0px 16px 8px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">可独家畅览：</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">专家演讲PPT</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">大会报告全文</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">热门论文解读</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">学术新星访谈</span></span></p><span></span><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c67b8e3fdf.jpg?imageMogr2/quality/90\" style=\"width: 100%;\" /></section><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">扫描上方二维码</span></span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">或点击</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">「</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">阅读原文</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">」</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">关注专区。</span></span></span></p></section></section><section><span></span></section><section><span></span></section>",
+      "published": "2026-07-31T17:16:00+08:00",
+      "fetched_at": "2026-08-01T11:13:10.270503+08:00",
+      "pre_filter_reason": "DeepSeek V4模型更新，属于AI模型发布",
       "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 8,
+        "importance": 9,
+        "timeliness": 9,
+        "actionability": 9,
         "scarcity": 8,
         "virality": 9,
-        "crowd_heat": 0.0
+        "crowd_heat": 3.5
       },
-      "quality_score": 7.7,
+      "quality_score": 8.1,
       "topics": [
         {
-          "tag": "news",
-          "title": "特斯拉车载语音接入豆包，体验升级还是数据博弈？",
-          "angle": "从用户视角评测豆包在车机上的实际表现（响应速度、方言识别），同时探讨特斯拉与字节合作背后的数据合规与生态考量。",
-          "difficulty": "入门"
+          "tag": "tutorial",
+          "title": "DeepSeek V4更新解读：架构不变，Agent能力为何飙升？",
+          "angle": "通俗解释DeepSeek V4的更新重点，聚焦Agent能力提升的关键技术点，如工具调用、记忆与规划，适合开发者快速上手。",
+          "difficulty": "中级"
         },
         {
-          "tag": "tutorial",
-          "title": "特斯拉车机更新后，如何玩转豆包语音助手？",
-          "angle": "面向车主，演示如何设置个性化角色（万事通/音乐爱好者等），并分享隐藏指令和高效对话技巧。",
+          "tag": "analysis",
+          "title": "从DeepSeek V4看AI Agent进化：未来应用场景大猜想",
+          "angle": "分析Agent能力增强对实际应用的影响，如自动化办公、智能客服等，展望AI代理生态的下一波机遇。",
           "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "e645b05c43bb",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
+      "id": "ea1667cab825",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
       "source_tier": "T2",
       "source_lang": "zh",
-      "source_category": "media",
-      "title": "国家发改委：将加快《人工智能法》立法进程",
-      "link": "https://www.ithome.com/0/983/974.htm",
-      "summary": "<p>IT之家 7 月 31 日消息，国家发展改革委政策研究室主任、新闻发言人蒋毅在今天（31 日）的新闻发布会上表示，上半年，我国人工智能自主创新步伐加快，在全产业链、多环节实现突破。深度求索、月之暗面等本土企业先后发布参数规模达到“万亿”级别的开源大模型，国产大模型全球下载量突破 100 亿次。</p><p>蒋毅指出，下一步，国家发展改革委将统筹高质量发展和高水平安全，让人工智能这匹“千里马”<strong>既跑得快又跑得稳</strong>。</p><ul class=\" list-paddingleft-2\"><li><p>一是加快自主创新，聚焦大模型的基础理论、训练、推理效率、多模态、智能体等前沿方向，加强基础研究和技术创新；</p></li><li><p>二是突出应用，加快推动国家人工智能应用中试基地布局建设；</p></li><li><p>三是深化生态系统，大力培育智能衍生企业，重点把握好发展和安全的动态平衡，<strong>将加快《人工智能法》的立法进程</strong>，统筹发展与安全、国内与国际、宏观与微观、当前与长远，力争提供一份体现中国特色、具有中国智慧的人工智能治理方案。</p></li></ul><p>IT之家从新闻发布会获悉，蒋毅指出，要强化人工智能风险监测防控，建立健全技术监测、风险预警、应急响应体系，坚持人工智能的发展<strong>由人主导、为人所用、与人为善</strong>，积极应对人工智能对经济运行、就业分配等方面的影响冲击。</p>",
-      "published": "2026-07-31T10:48:12+08:00",
-      "fetched_at": "2026-07-31T11:15:23.835277+08:00",
-      "pre_filter_reason": "人工智能法立法，AI政策",
+      "source_category": "search",
+      "title": "又出事了！美国AI巨头Anthropic宣布旗下大模型Claude失控：自行入侵3个组织系统且未被发现！OpenAI模型刚失控：突破人类限制自己发起攻击 - mrjjxw.com",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9FMmR2VEc4ZC1rOFk2ZVVmVE13aGVtWVQ5M1VTeDJ4V0RKTVNQX3IwcWh0bU9jNW9aLWdxUDB5WEI1Zmt2NjhDdS1xM1c3TTF2NEJWMDN1dU9BVWV6YnRDSXRWTlltdw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE9FMmR2VEc4ZC1rOFk2ZVVmVE13aGVtWVQ5M1VTeDJ4V0RKTVNQX3IwcWh0bU9jNW9aLWdxUDB5WEI1Zmt2NjhDdS1xM1c3TTF2NEJWMDN1dU9BVWV6YnRDSXRWTlltdw?oc=5\" target=\"_blank\">又出事了！美国AI巨头Anthropic宣布旗下大模型Claude失控：自行入侵3个组织系统且未被发现！OpenAI模型刚失控：突破人类限制自己发起攻击</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">mrjjxw.com</font>",
+      "published": "2026-07-31T15:06:00+08:00",
+      "fetched_at": "2026-08-01T11:13:22.465660+08:00",
+      "pre_filter_reason": "AI model safety incident",
       "scores": {
-        "importance": 9,
+        "importance": 8,
         "timeliness": 9,
-        "actionability": 8,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "AI“越狱”事件频发：Claude与OpenAI模型接连失控，我们该怕吗？",
+          "angle": "汇总近期AI失控事件，解释“自主攻击”与“未被发现”背后的技术原理，以通俗方式回应公众担忧。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "当AI开始“自作主张”：失控事件背后的安全红线与监管挑战",
+          "angle": "深入分析AI自主行为失控的深层原因，探讨现有安全协议、监管框架的不足，并提出未来防范思路。",
+          "difficulty": "高级"
+        }
+      ]
+    },
+    {
+      "id": "ae67883c1fc8",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Disrupting a Criminal Scam Operation",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+      "published": "2026-07-31T08:00:00+08:00",
+      "fetched_at": "2026-08-01T11:13:01.728042+08:00",
+      "pre_filter_reason": "OpenAI disrupts scam operation",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 7,
         "scarcity": 7,
         "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.7,
+      "quality_score": 8.0,
       "topics": [
         {
-          "tag": "analysis",
-          "title": "《人工智能法》立法加速：AI行业将迎来哪些变局？",
-          "angle": "解读立法对AI企业、开发者及普通用户的影响，分析监管与创新的平衡点，展望未来AI应用落地的合规门槛。",
+          "tag": "tutorial",
+          "title": "OpenAI如何用AI反诈？拆解柬埔寨诈骗团伙打击行动",
+          "angle": "以OpenAI打击诈骗为例，展示AI在识别诈骗模式、追踪资金流、保护受害者方面的实际应用，普及AI反诈知识。",
           "difficulty": "入门"
         },
         {
-          "tag": "news",
-          "title": "国产大模型下载量破百亿，AI自主创新进入爆发期",
-          "angle": "盘点上半年AI领域突破性成果，聚焦深度求索、月之暗面等企业的技术亮点，探讨开源大模型对全球AI生态的冲击。",
+          "tag": "analysis",
+          "title": "AI对AI：大模型如何成为打击网络犯罪的“新武器”？",
+          "angle": "分析OpenAI等公司利用大模型进行安全治理的技术路径，探讨AI在对抗诈骗、深度伪造等犯罪中的潜力与局限。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "010982670213",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference",
+      "link": "https://developer.nvidia.com/blog/co-designing-ai-model-attention-for-fast-interactive-long-context-inference/",
+      "summary": "<img alt=\"\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"432\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/llm-optimize-deploy-768x432.png\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"llm-optimize-deploy\" width=\"768\" />As agentic and long-context workloads become common, the context lengths increase and attention consumes a larger share of inference time (Figure 1). Because...",
+      "published": "2026-08-01T06:16:17+08:00",
+      "fetched_at": "2026-08-01T11:13:03.833837+08:00",
+      "pre_filter_reason": "AI model attention and long-context inference",
+      "scores": {
+        "importance": 7,
+        "timeliness": 7,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 5,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "长上下文推理太慢？教你用「注意力协同设计」让 AI 秒回",
+          "angle": "用通俗比喻解释「注意力协同设计」如何解决长文本推理延迟，并给出开发者可用的实践步骤（如稀疏注意力、KV Cache 优化），帮助开发者提升模型响应速度。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "analysis",
+          "title": "AI 长文本处理的下一个十年：从「读得完」到「等得起」",
+          "angle": "从用户痛点切入，分析长上下文推理在智能体、文档分析等场景的瓶颈，结合英伟达新研究探讨未来交互式 AI 的体验变革，适合技术爱好者与产品经理。",
           "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "29d71cefe734",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "千问已在特斯拉车机内测",
+      "link": "https://www.leiphone.com/category/industrynews/lKIeFLWL3hTwaMLd.html",
+      "summary": "<p>据媒体信息，豆包大模型助手已接入部分特斯拉新车中。不过，多位知情人士向记者透露，千问也早已进入特斯拉中国车机的深度测试阶段，上车在即。</p><p>结合上述知情人士的信息，千问目前已经在特斯拉真实车机环境下完成大量的上车测试工作，“能听能答、能控车、能导航、能办事，都已经在计划内”，未来，千问在特斯拉车机上能提供的能力，可能远超单一“语音助手”的定义。</p><p>2026 北京车展上，国内头部车企已经宣布纷纷接入千问，从披露的技术路线来看，千问上车至少具备三层能力：一是复杂语义与多任务路径规划；二是打通“点单—履约—支付”的办事闭环；三是端云协同架构下，覆盖内容、生活、交易全场景。</p><p>对于千问何时正式上车特斯拉，截至发稿，阿里云与特斯拉中国均未作出正式回应。</p><p><br /></p>",
+      "published": "2026-07-31T14:41:00+08:00",
+      "fetched_at": "2026-08-01T11:13:10.270530+08:00",
+      "pre_filter_reason": "AI model integration in cars",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "千问上车实测：特斯拉车机里的 AI 能帮你点咖啡、控车、导航？",
+          "angle": "结合知情人士信息，盘点千问在特斯拉车机上的实测能力（语音、控车、办事闭环），并对比豆包，分析车载 AI 从「语音助手」到「超级管家」的进化路径。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "从千问上车看端云协同：为什么车载 AI 必须「能听能答还能办事」？",
+          "angle": "拆解千问上车的三层能力架构（语义规划、办事闭环、端云协同），探讨车企为何纷纷接入大模型，以及未来智能座舱的竞争焦点。",
+          "difficulty": "进阶"
         }
       ]
     },
@@ -420,48 +272,48 @@
       "link": "https://www.infoq.cn/article/im3GxWtxYPZpkodNRgVQ?utm_source=rss&utm_medium=article",
       "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/im3GxWtxYPZpkodNRgVQ?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
       "published": "2026-07-31T18:48:52+08:00",
-      "fetched_at": "2026-07-31T11:15:16.882963+08:00",
-      "pre_filter_reason": "OpenAI personnel news",
+      "fetched_at": "2026-08-01T11:13:11.575357+08:00",
+      "pre_filter_reason": "OpenAI人事变动",
       "scores": {
         "importance": 7,
         "timeliness": 9,
         "actionability": 8,
         "scarcity": 8,
-        "virality": 8,
+        "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.6,
+      "quality_score": 7.7,
       "topics": [
         {
-          "tag": "insight",
-          "title": "翁荔重返OpenAI：AI人才流动背后的行业风向",
-          "angle": "从翁荔的职业轨迹切入，分析顶级AI实验室之间的人才争夺战，以及Thinking Machines Lab等新势力对行业格局的潜在影响。",
-          "difficulty": "进阶"
+          "tag": "news",
+          "title": "翁荔重返 OpenAI！从 Thinking Machines 离职背后，AI 人才争夺战再升级",
+          "angle": "梳理翁荔的职业生涯与两次离职/回归时间线，结合近期 AI 人才流动趋势，分析顶级研究员在实验室与巨头之间的选择逻辑。",
+          "difficulty": "入门"
         },
         {
-          "tag": "story",
-          "title": "身体原因离职两天后回归，翁荔的OpenAI之旅为何如此波折？",
-          "angle": "以人物故事线串联AI圈高层动态，探讨高强度工作与健康平衡的行业潜规则，引发从业者共鸣。",
-          "difficulty": "入门"
+          "tag": "analysis",
+          "title": "「身体原因」还是战略调整？解读 AI 圈高管频繁跳槽的深层信号",
+          "angle": "从翁荔离职原因切入，对比近期 AI 领域核心人物变动，探讨实验室与商业公司在 AGI 路线上的分歧，以及对行业格局的影响。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "6f676a2b00e6",
-      "source_id": "36kr",
-      "source_name": "36氪",
+      "id": "a84f9b7e68af",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "8点1氪丨宇树科技：8月10日网下申购；字节跳动成立新的豆包产品团队；美股三大指数集体收涨，微软创近18年以来最大单日涨幅",
-      "link": "https://36kr.com/p/3918776472022402?f=rss",
-      "summary": "<h2>今日热点导览</h2>\n  <p>韩股创纪录的重挫，全球投资者却未进场抄底</p>\n  <p>月之暗面变更为股份公司</p>\n  <p>国内品牌金饰价格集体上涨</p>\n  <p>高通9月1日起上调芯片价格，涨幅达到两位数</p>\n  <p>特斯拉全球第1000万辆电动车下线</p>\n  <h2>TOP3大新闻</h2>\n  <p><strong>宇树科技：初步询价日为8月5日，网下申购日为8月10日</strong></p>\n  <p>7月30日，宇树科技公告，公司首次公开发行股票并在科创板上市，本次发行采用战略配售、网下发行与网上发行相结合的方式进行。本次拟公开发行股份4044.6434万股，占发行后总股本的10%，发行后总股本为40446.4340万股。初步询价日为2026年8月5日，网下申购日为2026年8月10日。公司存在特别表决权机制安排，实际控制人王兴兴在表决权差异安排下合计控制公司68.78%的表决权。(金十数据APP)</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260731/v2_f70c22f412dc480a9bc3879e31870487@5667365_oswg122030oswg775oswg1569_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">宇树科技</p>\n  <p><strong>字节跳动启动面向AI业务的组织调整：飞书与豆包火山团队整合</strong></p>\n  <p>36氪获悉，7月30日，字节跳动启动面向AI业务的组织调整。根据调整方案，飞书产品团队与豆包产品团队将整合，成立新的豆包产品团队，由豆包负责人赵祺负责，飞书负责人谢欣向赵祺汇报。GTM（市场、销售、客户服务）体系方面，飞书GTM团队将与火山引擎团队整合，成立新的ToB GTM组织“创造力服务平台（Creativity Service Platform）”，整体负责字节MaaS和SaaS等云服务的市场、销售和客户服务，由火山引擎负责人谭待负责，飞书销售负责人林婵、飞书战略及市场负责人史志隽向谭待汇报。重组完成后，除原有的飞书产品和服务保持不变，飞书还将和豆包在生产力场景进行更深度的产品协作。由飞书产品团队深度参与开发的豆包企业版，已经在部分飞书客户中开启内测。</p>\n  <p><strong>美股三大指数集体收涨，微软创近18年以来最大单日涨幅</strong></p>\n  <p>36氪获悉，7月30日收盘，美股三大指数集体上涨，纳指涨2.78%，标普500指数涨1.66%，道指涨1.19%。大型科技股多数上涨，微软涨超15%，创2008年10月以来最大单日涨幅，市值单日增加4500亿美元，创股市之最；英特尔涨超11%，Arm涨超7%，亚马逊、特斯拉涨超3%，英伟达涨超2%；Meta跌超7%，苹果跌超1%，谷歌、奈飞小幅下跌。热门中概股多数上涨，好未来涨超13%，爱奇艺涨超4%，百度涨超2%，蔚来、网易、富途控股、老虎证券、阿里巴巴、微博涨超1%；理想汽车跌超2%，小鹏集团跌0.61%。</p>\n  <h2>AI最前沿</h2>\n  <p><strong>OpenAI承认AI模型失控入侵事件涉及多个平台</strong></p>\n  <p>美国开放人工智能研究中心（OpenAI）28日更新发布的调查结果显示，该公司人工智能（AI）模型失控入侵美国抱抱脸公司系统期间，还曾利用网上公开的信息，访问了多个公开服务平台上的账户。OpenAI不久前承认，该公司包括GPT-5.6 Sol在内的多个AI模型在内部评估时突破隔离测试环境，入侵了运营人工智能开源平台的美国抱抱脸公司的系统。其最新公布的调查结果显示，涉事模型在攻击过程中还访问了至少4个公开服务平台上的4个账户。其中一个账户被用作中继与暂存通道；一个账户被用于数据存储；对另外两个账户仅进行了只读访问，未用于进一步攻击抱抱脸公司的系统。OpenAI表示，已将调查结果通知相关服务提供商。（央视新闻）</p>\n  <p><strong>Thinking Machines联合创始人翁荔重返老东家OpenAI</strong></p>\n  <p>OpenAI一位发言人证实，Thinking Machines Lab联合创始人翁荔将重返OpenAI。本周早些时候，她刚刚宣布因身体原因退出这家她和OpenAI前首席技术官米拉・穆拉蒂等人联合创立的公司。据一位知情人士透露，翁荔重返OpenAI后将将从事利用AI模型研发新一代模型相关工作，也就是递归自我改进方向的研究。（新浪财经）</p>\n  <p><strong>马斯克：Grok 4.6将于一周后发布</strong></p>\n  <p>7月30日，马斯克在社交平台发文称，大模型Grok 4.6将于一周后发布。（界面新闻）</p>\n  <p><strong>腾讯WorkBuddy发布V5.3.5更新，推出\"人机双写\"协同编辑能力</strong></p>\n  <p>36氪获悉，7月30日，腾讯WorkBuddy发布V5.3.5版本更新，联合腾讯文档推出\"人机双写\"协同编辑能力。用户可在同一份文档中与AI共同创作和修改，支持Word、Excel、PPT、Markdown等主流格式，同时兼容本地Office文件和腾讯文档在线文档。新功能支持框选指定区域让AI局部修改，保持其余内容不变；AI共创内容可一键上传腾讯文档，实现多人、人机多端实时协同编辑。</p>\n  <p><strong>OpenAI下调GPT-5.6部分模型价格</strong></p>\n  <p>当地时间7月30日，OpenAI宣布优化GPT-5.6系列模型定价和性能，以提升企业用户AI应用的性价比。其中，GPT-5.6 Luna模型价格下调80%，GPT-5.6 Terra模型价格下调20%。此次降价也将反映在使用Codex和ChatGPT Work时的付费订阅额度计算中。此外，OpenAI在API中推出Fast模式，取代此前的Priority Processing服务。GPT-5.6 Sol在Fast模式下处理速度最高可提升至标准模式的2.5倍，价格为标准处理模式的两倍，且模型能力保持不变。（界面新闻）</p>\n  <h2>大公司/大事件</h2>\n  <p><strong>小米汽车发布小米澎程N90 Max</strong></p>\n  <p>7月30日晚，雷军在小米澎程技术发布会上透露，小米澎程N90 Max预售价29.99万元，小米澎程N70 Max预售价25.99万元，两款新车将于7月30日9时开启预订，2026年9月正式发布。小米澎程全系标配小米HAD，满配辅助驾驶。同时小米澎程N90 Max新增后向固态激光雷达，测距精度可达2cm。（界面新闻）</p>\n  <p><strong>中际旭创成交额创天量</strong></p>\n  <p>7月30日，沪深两市成交额合计2.34万亿元，较上一交易日放量约462.3亿元。其中，沪市成交额1.11万亿元，深市成交额1.24万亿元。中际旭创成交额居首，为597.73亿元，刷新此前在2026年6月5日创出的583.2亿元的成交额历史天量。其后是C长鑫、新易盛、兆易创新、寒武纪，成交额分别为447.06亿元、361.31亿元、354.84亿元、199.18亿元。（界面新闻）</p>\n  <p><strong>初代员工可得15万，影视飓风向全员发激励金</strong></p>\n  <p>7月29日，影视飓风员工李四维在社交平台发布的视频显示，当天影视飓风举行了“十周年特别激励金”活动，创始人Tim（潘天鸿）宣布按照“在职年限×7月调薪后月薪”公式向全体员工发放激励金，年限越长倍数越高。其他发放规则还包括，在职年限小于半年发放半个月月薪，入职满半年但未满一年对应发放1个月月薪，以此类推，且全员适用。所有激励款项活动当天全部完成发放。</p>\n  <p>界面新闻做了如下测算：若以月薪1.5万元作为通用参考标准，入职3个月的新人，可一次性领取7500元激励金；入职满8个月的员工，到手1.5万元；拥有3年司龄的老员工，激励金总额达到4.5万元。而陪伴公司走完十周年、全程参与团队发展的初代员工，仅本次专项激励就能拿到15万元。Tim在现场表示，“公司扩大了不分享收益对自己来说就是失败，希望大家能过更好的生活。”（界面新闻）</p>\n  <p><strong>“听泉赏宝”否认炒股亏光父母半生积蓄</strong></p>\n  <p>网传千万粉丝鉴宝网红听泉赏宝（本名丁祥栩）因炒股亏光了父母半生积蓄，被双亲拉黑并踢出家族群，近日在直播中当众卸载所有股票软件，发誓“再玩就剁手”。据中国蓝新闻消息，7月29日，听泉赏宝在直播中辟谣自己炒股亏光被父母拉黑，他表示自己只是直播中跟粉丝开玩笑，希望媒体实事求是报道。据新黄河报道，听泉赏宝在直播中表示自己是一名娱乐主播，自己和父母的关系很好：“我父母生我养我难道对我不好吗？”&nbsp;</p>\n  <p>“听泉鉴宝”，后改名“听泉赏宝”，本名丁祥翔，鉴宝博主。因其丰富的文物知识以及妙趣横生的直播风格而走红网络，他在直播中频频抛梗、整活，宛若一出大型的鉴宝脱口秀。2024年1月初，“听泉赏宝”粉丝尚不足300万，随后不到一个月粉丝量翻倍，在2月中旬突破600万，在此后不到半年内时间内，该账号涨粉近1500万。目前，“听泉赏宝”抖音粉丝3465.7万。（中国蓝新闻、第一财经）</p>\n  <p><strong>商务部新闻发言人就美国联邦通信委员会将外国电力逆变器和先进机器人设备列入“覆盖清单”事答记者问</strong></p>\n  <p>36氪获悉，据商务部消息，有记者问：美东时间7月28日，美国联邦通信委员会（FCC）宣布，将外国生产的电力逆变器和先进机器人设备列入“覆盖清单”，相关新型号产品将无法获得FCC认证授权，不得进入美市场销售。请问商务部对此有何评论？答：我们注意到有关情况。美国联邦通信委员会相关措施表面上打着“非歧视”的旗号，实质上歧视性对待和打压中国企业和产品。这已不是美国联邦通信委员会第一次采取类似措施，此前其已多次对其他中国商品实施限制。一段时间以来，美国联邦通信委员会无视中方反复交涉和克制态度，持续出台、不断升级限制措施，严重损害中方正当贸易利益，严重破坏中美经贸稳定局面，严重扰乱全球产业链供应链稳定，中方对此坚决反对。机器人、电力逆变器均是正常的国际商品，包括美国在内的各方都从贸易中获益，美方泛化国家安全概念，不顾中美两国业界强烈呼声，动用行政力量，人为干扰企业间正常商业交易和贸易往来，持续推进“脱钩断链”，这种做法损人不利己，是典型的市场扭曲和单边霸凌行为。中方敦促美方立即撤销有关措施，停止错误做法。如果美方一意孤行，中方将坚决予以反制，维护自身正当权益。</p>\n  <p><strong>SK集团会长崔泰源买入3620股SK海力士股票</strong></p>\n  <p>7月30日消息，交易所文件显示，SK集团会长崔泰源买入3620股SK海力士股票。按今日SK海力士收盘价920美元计算，价值约合331万美元。（界面新闻）</p>\n  <p><strong>富途一客户涉诈1.25亿港元被冻结</strong></p>\n  <p>7月30日，据香港证监会网站，香港证监会向富途证券国际（香港）有限公司（富途）发出限制通知书，禁止其处理或处置由某实体持有的客户帐户内的资产，以125,247,000港元为限。该实体涉嫌参与一项欺诈计划，旨在营造首次公开招股股份需求的虚假或非真实表象。富途并非香港证监会的调查对象，而该限制通知书亦不会影响富途或其其他客户。</p>\n  <p>该限制通知书禁止富途在未有事先获得香港证监会的书面同意的情况下，以任何方式处置或处理、辅助、怂使或促致另一人以任何方式处置或处理该等客户帐户内的任何资产，以该通知书所载的款额为限。若富途接获任何与受限制资产有关的指示，亦须立即通知香港证监会。香港证监会认为，为维护投资大众的利益及公众利益，发出有关限制通知书是可取的。香港证监会的调查仍在进行中。（界面新闻）</p>\n  <p><strong>中国成功发射通信技术试验卫星二十七号A/B星</strong></p>\n  <p>7月30日，中国在太原卫星发射中心使用长征六号改运载火箭，成功将通信技术试验卫星二十七号A/B星发射升空，卫星顺利进入预定轨道，发射任务取得圆满成功。该卫星主要用于卫星通信、广播电视、数据传输等业务，并开展相关技术试验验证。（央视新闻）</p>\n  <p><strong>月之暗面变更为股份公司</strong></p>\n  <p>36氪获悉，天眼查App显示，近日，北京月之暗面科技有限公司发生工商变更，企业名称变更为北京月之暗面科技股份有限公司。该公司成立于2023年4月，法定代表人为杨植麟，注册资本约152.4万人民币，经营范围含软件开发、人工智能基础软件开发、人工智能应用软件开发等。</p>\n  <p><strong>国内品牌金饰价格集体上涨</strong></p>\n  <p>7月30日，国内品牌金饰价格集体上涨，周生生足金饰品报1239元/克，单日涨18元；老庙黄金足金饰品报1236元/克，单日上涨14元；老凤祥足金饰品报1239元/克，单日上涨18元。（界面新闻）</p>\n  <p><strong>新易盛股价再度出现剧烈波动，公司回应：内外部经营环境未出现重大变化</strong></p>\n  <p>7月30日，光通信板块延续调整态势，新易盛股价再度出现剧烈波动。从新易盛方面获悉，目前公司生产经营活动有序开展，内外部经营环境未出现重大变化，不存在应披露而未披露的重大事项。（央广网）</p>\n  <p><strong>京东与七腾机器人达成战略合作</strong></p>\n  <p>36氪获悉，据京东物流黑板报，京东与特种机器人企业七腾机器人达成战略合作，双方聚焦能源石化、煤炭矿山、电力基建、应急安防、轨道交通等场景的机器人应用，推动七腾机器人全系列产品规模落地与普及。七腾机器人还与京东服务达成深度合作，京东服务将为七腾机器人提供售后服务。</p>\n  <p><strong>高通9月1日起上调芯片价格，涨幅达到两位数</strong></p>\n  <p>在高通业绩电话会议上，CEO安蒙透露，高通计划自9月1日起上调产品价格，涨幅达两位数，以此推动利润率回归历史水平。他称，涨价动因来自全产业链成本上行，并非仅受内存芯片涨价影响。安蒙表示，公司将逐一与各客户开展定价谈判，“成本与定价阶段性错位，造成毛利率短期小幅下滑。（财联社）</p>\n  <p><strong>奈飞拟斥资2亿美元获得2027年女足世界杯转播权</strong></p>\n  <p>当地时间7月29日，据知情人士透露，奈飞公司为获得明年国际足联（FIFA）女足世界杯的转播权，将支付2亿美元。（界面新闻）</p>\n  <p><strong>韩股创纪录的重挫，全球投资者却未进场抄底</strong></p>\n  <p>7月创纪录的暴跌33%，让Kospi指数的估值降至史上最低，韩国股市彷彿呈现明显的逢低承接信号。但百达资产管理、Robeco和瀚亚投资等全球投资者却未重新进场。对他们而言，韩股异常剧烈的波动仍让人吃不消。这些基金迟迟不愿进场，凸显了波动性已成为韩股的鲜明特征；这主要是市场资金高度集中三星电子和SK海力士及与两者挂钩的杠杆ETF所引发。牛市期间，市场对这项风险视而不见；如今，投资人则要求更高的安全边际，才愿意增加持股。（新浪财经）</p>\n  <p><strong>美国众议院能源委员会要求参观xAI数据中心以调查污染情况</strong></p>\n  <p>美国众议院能源与商业委员会首席民主党议员已致信SpaceX首席执行官埃隆・马斯克，要求参观其xAI位于田纳西州孟菲斯市内及周边的数据中心与电站。新泽西州民主党众议员弗兰克・帕隆在7月29日致马斯克的信函中写道：“美国民众忧心，数据中心以及科技巨头大举扩张人工智能，会给社区、就业、房产价值与长远发展带来何种影响。电价飞涨、电网负荷紧张，洁净空气与水源遭受污染，持续噪音正损害居民健康，不断消耗民众的耐心。”（新浪财经）</p>\n  <p><strong>OpenAI首席执行官奥尔特曼本周将会见白宫幕僚长，AI框架截止日期临近</strong></p>\n  <p>OpenAI首席执行官山姆·奥尔特曼7月29日向媒体表示，他已审阅了落实特朗普总统关于人工智能行政命令的拟议框架，并将在本周访问华盛顿期间会见白宫幕僚长苏西·怀尔斯。自特朗普6月签署备受期待的AI行政命令以来，本届政府在AI监管方面采取了更加积极的角色。该命令要求AI企业在模型全面发布前自愿向政府提供模型以评估其能力，但具体细节规定较少。特朗普给予联邦机构60天时间制定框架，以落实这些评估工作。奥尔特曼的华盛顿之行恰逢8月1日这一快速临近的最后期限。他并非本周唯一与国会议员会面的科技企业高管。英伟达首席执行官黄仁勋也正在国会山讨论开放模型和“美国在AI领域的领导地位”。（新浪财经）</p>\n  <p><strong>特斯拉全球第1000万辆电动车下线</strong></p>\n  <p>36氪获悉，特斯拉方面宣布，特斯拉全球第1000万辆电动车下线。</p>\n  <p><strong>韩国电信公司因数据泄露事件被罚款539亿韩元</strong></p>\n  <p>韩国隐私监管机构7月30日表示，已对无线运营商韩国电信公司（KT）处以539亿韩元（约合3740万美元）的罚款，原因是该公司发生了一起重大数据泄露事件，影响超过1.6万名用户。韩国个人信息保护委员会还责令KT就通过未经授权的移动基站入侵公司无线网络的行为采取纠正措施。（新浪财经）</p>\n  <p><strong>日本半导体重镇遭遇强震，多家半导体厂商受日本地震影响</strong></p>\n  <p>当地时间7月28日16时27分（北京时间15时27分）许，日本熊本县发生7.1级地震，辖区内观测到最大震度7（日本震度分级最高等级）。熊本县是日本的半导体重地，集聚了晶圆厂、设备公司、材料及零部件生产商等众多半导体产业链公司，除了台积电熊本厂和索尼CMOS图像传感器生产基地，东京电子、瑞萨电子、松下控股、三菱电机等均在此地设厂。综合日媒报道、公司公告，已有多家厂商受影响。（红星资本局）</p>\n  <p><strong>保时捷回应中国市场下滑32%，称在中国市场坚持“价值优先于销量</strong></p>\n  <p>7月29日，保时捷公布2026年上半年财报。在报告期内，销售收入较去年同期从181.57亿欧元下降至172.29亿欧元，同比下滑5.11%；营业利润从10.07亿欧元增长至13.48亿欧元，同比增长33.9%；销售回报率为7.8%，去年同期为5.5%。值得关注的是，今年上半年，保时捷在中国地区交付约1.45万辆汽车，同比下滑31.93%。</p>\n  <p>“中国市场整体环境依旧承压，豪华车细分市场竞争尤为激烈。保时捷在此市场始终坚持价值优先于销量的经营策略。”保时捷方面分析称，其未在华建厂、无本地产能约束，可灵活调整欧洲产能与生产计划，现阶段这一布局反而成为优势。（每日经济新闻）</p>\n  <p><strong>三星电子：预计三季度HBM4销售额将环比增长2倍以上</strong></p>\n  <p>三星电子7月30日预测，第三季度第六代高带宽内存（HBM4）销售额将环比增长2倍以上，下半年HBM4销售额将占HBM销售总额的60%以上。三星提出，下半年将把HBM全球市占率提升至与同步动态随机存取存储器（DRAM）相当的水平。今年第一季度，三星电子DRAM全球市占率为38%。（新浪财经）</p>\n  <p><strong>甲骨文、谷歌扩大合作伙伴关系</strong></p>\n  <p>甲骨文、谷歌扩大合作伙伴关系，甲骨文将推出谷歌的Gemini模型企业应用。（财联社）</p>\n  <p><strong>亚马逊旗下Zoox获美监管机构临时豁免，可商业部署至多5000辆自动驾驶出租车</strong></p>\n  <p>美国国家公路交通安全管理局（NHTSA）7月30日宣布，给予亚马逊旗下自动驾驶公司Zoox临时豁免权，允许其在两年内每年商业部署最多2500辆自动驾驶出租车，前提是必须遵守一套“强化且灵活的监管框架，该框架能随Zoox技术的进步而相应调整”。（界面新闻）</p>\n  <p><strong>美国第二季度实际GDP年化季率初值升1.5%</strong></p>\n  <p>美国第二季度实际GDP年化季率初值升1.5%，第一季度终值升2.1%。（界面新闻）</p>\n  <h2>上市进行时</h2>\n  <p><strong>证监会同意沈鼓集团沪市主板IPO注册</strong></p>\n  <p>36氪获悉，证监会同意沈鼓集团股份有限公司首次公开发行股票并在沪市主板上市的注册申请。</p>\n  <p><strong>狂揽80亿美元估值，黑石推动三明治连锁店Jersey Mike's冲刺IPO</strong></p>\n  <p>去年年初，黑石集团斥资约60亿美元并承担相关债务，收购了Jersey Mike's Subs的多数股权。如今，18个月过去，Jersey Mike's作为一家私募控股非上市公司的短暂历程即将画上句号。该公司定于7月30日登陆纽约证券交易所估，值约为80亿美元。在此次发行中，该公司及现有投资者将出售最多10.9亿美元的股票，这将成为近年来美国规模最大的餐饮业IPO之一。（新浪财经）</p>\n  <h2>大公司财报</h2>\n  <p><strong>苹果：第三季度营收1094.17亿美元，同比增长16.4%</strong></p>\n  <p>36氪获悉，苹果发布2026财年第三季度财报，该季度营收1094.17亿美元，同比增长16.4%；净利润297.89亿美元，同比增长27.1%。</p>\n  <p><strong>宝马集团上半年税前利润40.45亿欧元</strong></p>\n  <p>36氪获悉，宝马集团7月30日公布财务数据显示，2026年上半年，宝马集团税前利润40.45亿欧元，税前利润率为6.5%。宝马集团在全球向客户交付BMW、MINI和Rolls-Royce品牌汽车1156727辆，并在欧洲和美国市场实现增长（欧洲：增长5.4%；美国：增长3.9%）。</p>\n  <p><strong>阿迪��斯第二季度营业利润低于预估</strong></p>\n  <p>7月30日，阿迪达斯公布第二季度营收67亿欧元，剔除汇率影响后增长14%，预估65.8亿欧元；阿迪达斯第二季度营业利润增长5%至5.74亿欧元，预估6.156亿欧元。（界面新闻）</p>\n  <p><strong>高通第三季度营收99.47亿美元，同比下降4%</strong></p>\n  <p>7月30日，高通公布第三季度营收99.47亿美元，同比下降4%；调整后每股收益2.21美元，同比下降20%。公司预计第四季度营收为97亿至105亿美元，预计第四季度调整后每股收益为2.05至2.25美元。（界面新闻）</p>\n  <p><strong>三星电子第二季度销售额171.50万亿韩元</strong></p>\n  <p>三星电子第二季度销售额171.50万亿韩元，第二季度营业利润89.49万亿韩元。第二季度净利润71.27万亿韩元，预估68.36万亿韩元。（财联社）</p>\n  <p><strong>LG新能源上半年营收14.1万亿韩元，同比增长10.5%</strong></p>\n  <p>7月30日，LG新能源发布2026年第二季度业绩报告：合并营收达7.6万亿韩元，环比增长15.3%；营业利润为1133亿韩元，营业利润率为1.5%。2026年上半年，公司累计营收14.1万亿韩元，同比增长10.5%，其中储能业务收入同比增长4.6倍，新签订单额超3万亿韩元，对总营收的贡献占比超20%。（界面新闻）</p>\n  <p><strong>雷诺集团上半年营收303亿欧元，同比增长9.5%</strong></p>\n  <p>7月30日，雷诺集团公布，2026上半年集团营收303亿欧元，同比增长9.5%，按固定汇率计算增长10.3%；净利润：7亿欧元；汽车业务自由现金流达6.53亿欧元。雷诺集团确认2026年财务预期：集团营业利润率约为集团营收的5.5%，汽车业务自由现金流约为10亿欧元。（界面新闻）</p>\n  <p><strong>VF威富集团：2027财年第一季度营收16.69亿美元，同比增长1%</strong></p>\n  <p>36氪获悉，VF威富集团近日发布了2027财年第一季度（截至2026年6月27日）的业绩报告，并上调全年营收预期（以下所有数据均已剔除Dickies业务）。公司营收16.69亿美元，同比增长1%（按固定汇率计算同比持平）。其中，大中华区业绩同比提升6%（按固定汇率计算增长1%），成为驱动集团亚太地区整体业务增长2%（按固定汇率计算下降1%）的核心动力。集团全球自营业务（DTC）同比增长6%（按固定汇率计算增长5%）。</p>\n  <p><strong>壳牌第二季度调整后利润98.4亿美元</strong></p>\n  <p>7月30日，壳牌公司发布2026年第二季度业绩公告。公司第二季度营收946.6亿美元，预估836.1亿美元；调整后利润98.4亿美元，预估为86.8亿美元；调整后每股收益1.76美元，预估为1.55美元。壳牌预计2026年第三季度公司调整后收益将净支出约5亿至7亿美元，2026年全年的现金资本支出将达到240亿至260亿美元。（界面新闻）</p>\n  <p><strong>东鹏饮料：上半年净利润同比增长20.72%，拟10派30元</strong></p>\n  <p>36氪获悉，东鹏饮料披露半年报，2026年上半年，公司实现营业收入124.43亿元，同比增长15.89%；归属于上市公司股东的净利润28.67亿元，同比增长20.72%；基本每股收益3.9949元。公司拟每10股派发现金红利30元（含税）。</p>\n  <p><strong>东兴证券：上半年净利润10.25亿元，同比增长25.13%</strong></p>\n  <p>36氪获悉，东兴证券披露半年报，2026年上半年，公司实现营业收入25.06亿元，同比增长11.4%；归属于母公司股东的净利润10.25亿元，同比增长25.13%；基本每股收益0.306元。</p>\n  <p><strong>科大智能：上半年净利润同比增长22.14%</strong></p>\n  <p>36氪获悉，科大智能披露半年报，2026年上半年，公司实现营业收入15.53亿元，同比增长15.95%；归属于上市公司股东的净利润9380.99万元，同比增长22.14%；基本每股收益0.12元。</p>\n  <p><strong>欧莱雅集团上半年销售额237.7亿欧元，同比增长6.8%</strong></p>\n  <p>7月30日，欧莱雅集团公布2026年上半年财报：销售额237.7亿欧元，同比增长6.8%，合并增长5.8%，调整后同比增长6.5%；毛利率提升10个基点，达到74.8%；营业利润率提升20个基点，达到21.3%；去除非经常性项目后的净利润达到39.596亿欧元，同比增长4.7%。（界面新闻）</p>\n  <h2>投融资</h2>\n  <p><strong>“Tiiny AI”完成数千万美元天使轮融资</strong></p>\n  <p>36氪获悉，据BV百度风投消息，Personal Agent OS公司“Tiiny AI”宣布完成数千万美元天使轮系列融资。本轮融资由顺为资本、经纬创投、锦秋基金、云启资本、戈壁—阿里巴巴香港创业者基金、BV百度风投、光源L2F基金联合参与。本轮融资后，Tiiny将加速Tiiny AI Pocket全球交付和TiinyOS多终端落地。</p>\n  <h2>酷产品</h2>\n  <p><strong>橡鹿机器人与海尔机器人达成战略合作</strong></p>\n  <p>36氪获悉，7月29日，橡鹿机器人宣布与海尔机器人达成战略合作，双方将围绕中餐烹饪生态与AI技术能力，共同研发全自动家庭AI烹饪机器人，实现从自动投料到智能翻炒全流程免动手操作。合作成果及橡鹿自研多模态AI烹饪基座、具身烹饪机器人\"现炒方舟\"将于8月在世界机器人大会（WRC）上正式亮相。</p>\n  <p>&nbsp;</p>\n  <p><strong>和我们同龄，却提前告别的人</strong></p>\n  <p>长大后慢慢发现，死亡不再只属于长辈与遥远的年龄。本该一起奔赴成年、打拼生活、慢慢变老的同龄人，有人停在了二十几岁、三十几岁，没能走完往后的人生。</p>\n  <p>中元节临近，我们想收集大家关于同龄人离世所有细碎、真实、无法释怀的回忆。如果你愿意，可以把Ta介绍给我们认识吗？你们有着怎样的故事？还记得你们的最后一面吗？所有的遗憾、错愕与思念，都可以好好说出来，欢迎扫描下方二维码参与我们的征集。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260731/v2_785b85ffff294747b2d9009ed787d0d1@5667365_oswg18985oswg354oswg356_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">扫描二维码参与征集</p>\n  <p><strong>整理</strong>｜葡萄&nbsp;</p>",
-      "published": "2026-07-31T07:48:40+08:00",
-      "fetched_at": "2026-07-31T11:15:11.266488+08:00",
-      "pre_filter_reason": "Mentions ByteDance's Doubao AI product team",
+      "title": "OpenAI 宣布其 AI 模型触达全球超 10 亿活跃用户和 200 万家企业",
+      "link": "https://www.ithome.com/0/984/446.htm",
+      "summary": "<p>IT之家 8 月 1 日消息，OpenAI 昨日（7 月 31 日）发布博文，<strong>宣布其模型已触达超过 10 亿活跃用户和超过 200 万家企业。</strong></p><p>博文指出用户注册使用 ChatGPT 六周后，每天发送的消息量增加了约 50%，<strong>并且使用 ChatGPT 完成的工作类型也增加了一倍左右。</strong></p><p>IT之家援引博文介绍，ChatGPT Work 正在改变知识工作者的定义，<strong>不再局限于回答问题，通过把“提问”转变为“执行”，能够完成复杂的多步骤工作。</strong></p><p>该消息发布前，<a href=\"https://www.ithome.com/0/983/912.htm\" target=\"_blank\">OpenAI 已下调 GPT-5.6 Terra 和 GPT-5.6 Luna 两款模型的调用费用</a>，从而降低企业与开发者使用成本。</p><p>OpenAI 在博文中指出：“ AI 基建的价值，并不在于其规模，而在于为用户创造各种可能性，我们正在竭力降低客户使用成本，并带来更强大的智能体验，从而惠及更多人群”。</p>",
+      "published": "2026-08-01T10:15:31+08:00",
+      "fetched_at": "2026-08-01T11:13:19.431861+08:00",
+      "pre_filter_reason": "OpenAI AI模型用户数据",
       "scores": {
-        "importance": 8,
-        "timeliness": 9,
+        "importance": 9,
+        "timeliness": 8,
         "actionability": 8,
         "scarcity": 7,
         "virality": 8,
@@ -470,220 +322,146 @@
       "quality_score": 7.6,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "宇树科技IPO在即：普通人如何看懂机器人公司招股书？",
-          "angle": "拆解宇树科技招股书关键指标，教观众快速识别硬科技企业的投资价值，结合网下申购流程给出实操建议。",
+          "tag": "analysis",
+          "title": "10 亿用户之后，ChatGPT 如何从「回答问题」变成「替你干活」？",
+          "angle": "基于 OpenAI 官方数据，解读用户活跃度与工作类型翻倍背后的产品逻辑，重点分析 ChatGPT Work 如何将「提问」转为「执行」，并预测未来知识工作者的工具形态。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "字节跳动新豆包团队成立，AI产品大战进入下半场",
-          "angle": "对比字节、月之暗面、深度求索等大厂与创业公司的AI产品策略，分析豆包团队新动向背后的市场卡位逻辑。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "e07898b87ba9",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
-      "link": "https://openai.com/index/avatarin",
-      "summary": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
-      "published": "2026-07-30T08:00:00+08:00",
-      "fetched_at": "2026-07-31T11:15:05.538766+08:00",
-      "pre_filter_reason": "使用GPT-Realtime构建AI代理",
-      "scores": {
-        "importance": 7,
-        "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 6,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.6,
-      "topics": [
-        {
-          "tag": "case_study",
-          "title": "30天落地24小时零售AI代理：avatarin如何做到92%好评？",
-          "angle": "复盘avatarin与山田电机合作的全流程，从技术选型（GPT-Realtime）到多语言支持设计，提炼可复用的零售业AI落地方法论。",
-          "difficulty": "进阶"
-        },
-        {
           "tag": "tutorial",
-          "title": "用GPT-Realtime搭建你的第一个客服机器人：从0到1实操指南",
-          "angle": "基于avatarin案例，手把手教观众如何用OpenAI实时API构建多语言客服，涵盖提示词设计、延迟优化与用户反馈闭环。",
+          "title": "让 AI 从「问答」到「执行」：用 ChatGPT Work 搭建多步骤工作流",
+          "angle": "以实际案例演示如何利用 ChatGPT Work 完成复杂任务（如市场调研+报告生成+邮件发送），并分享提示词设计与任务拆解技巧，帮助职场人提升效率。",
           "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "db750071204e",
+      "id": "f7bc4778c180",
       "source_id": "geekpark",
       "source_name": "极客公园",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "OpenAI 硬件路线图曝光：第一台硬件没有屏幕，手机 2027 上半年量产",
-      "link": "http://www.geekpark.net/news/368198",
-      "summary": "<section class=\"wx-article-wrap\">\n<section><img alt=\"Image\" class=\"rich_pages wxw-img\" src=\"https://imgslim.geekpark.net/uploads/image/file/15/ff/15ffa220b6364b2b11fceff93cbf71db.png\" style=\"display: block; width: 661px !important; vertical-align: bottom; margin-top: 0px; margin-bottom: 0px; background-color: transparent; height: auto !important;\" /></section>\n<section class=\"js_darkmode__bg__0 js_darkmode__0\">既是交付最后端，也是输入信息的最前端。</section>\n<section>\n<p style=\"text-align: left; margin-top: 0px; margin-bottom: 0px;\"><strong class=\"js_darkmode__1\" style=\"font-family: Optima-Regular, PingFangTC-light; font-size: 16px; font-weight: bold; line-height: 1.5; color: #375474; text-align: left;\">作者｜张勇毅</strong></p>\n<p style=\"text-align: left; margin-top: 0px; margin-bottom: 0px;\"><strong class=\"js_darkmode__2\" style=\"font-family: Optima-Regular, PingFangTC-light; font-size: 16px; font-weight: bold; line-height: 1.5; color: #375474; text-align: left;\">编辑｜靖宇</strong></p>\n</section>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">这几天，关于 OpenAI 的硬件生态版图的曝光急速增加，无论是彭博社关于音箱细节的报道，还是来自供应链分析师郭明錤关于手机规格和代工名额单的详细调查，都让我们逐渐拼齐了 OpenAI 硬件这头大象的实际轮廓：</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">一台音箱、一部手机，后面跟着眼镜、台灯，可能还有耳机。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\"><strong class=\"js_darkmode__3\" style=\"color: #000000; font-size: 16px; letter-spacing: 0.5px; line-height: 1.75;\">其中，音箱作为最早首发的硬件产品，预计将于 2027 年初上市，手机的量产时间被提前到了 2027 年上半年。</strong>其中音箱预计定价为 200 到 300 美元。OpenAI 交给普通人的第一件东西，是这个价位的一台无屏音箱。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">但真正值得看的不只是价格，目前曝光出的供应链清单上的关键信息，更能勾勒出 OpenAI 到底想做一台什么样的 AI 硬件：除了带有摄像头的音箱，OpenAI 首款手机被点名的头号规格同样是 ISP，也就是处理摄像头画面的那颗芯片；舜宇光学一次拿下两款 OpenAI 设备的订单，很可能都是摄像头模组。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">把这些细节摆在一起能看出，OpenAI 在造的不是几台设备，其实是环绕着你生活、一双无处不在的眼睛。</p>\n<section>\n<section>\n<section>\n<section>\n<section>\n<p><em><strong>01</strong></em></p>\n</section>\n</section>\n<section>\n<section class=\"js_darkmode__4\"></section>\n</section>\n</section>\n</section>\n<p class=\"js_darkmode__5\"><strong style=\"letter-spacing: 1px;\"><span class=\"js_darkmode__6\"><strong class=\"js_darkmode__7\">有个性的无屏音箱</strong></span></strong></p>\n</section>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">首先是第一款产品：和苹果前首席设计师 Jony Ive 一起做的便携无屏音箱。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">按目前从供应链已知的产品描述，它可充电、能在房间之间带着走，有一颗用于理解周围环境的摄像头，还有会自己活动的机械结构，让它显得像是活的。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">按照 OpenAI 此前在社区交流中给它的定位，它的定位应该是一个<strong class=\"js_darkmode__8\" style=\"color: #000000; font-size: 16px; letter-spacing: 0.5px; line-height: 1.75;\">住在你家里、像人一样的 AI 陪伴者。</strong></p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">它由 ChatGPT 驱动，对话部分用 GPT-Live，按同一份报道的口径，它有自己的性格，会越用越个性化、越主动。</p>\n<img alt=\"Image\" class=\"rich_pages wxw-img js_img_placeholder wx_img_placeholder\" src=\"https://imgslim.geekpark.net/uploads/image/file/e3/5d/e35dba09feb6fad43c118fc3b2009417.png\" />\n<p class=\"js_darkmode__9\" style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 14px; line-height: 1.5em; text-align: left; color: #b2b2b2; margin-top: 0px; margin-bottom: 24px;\">无屏、可充电、带摄像头，2027 年初上市｜图片来源：io</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">这台设备的产品定义，几乎是 OpenAI 硬件负责人 Richard Ho 那句话的逐字翻译。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">之前，我们曾写过他在 Stanford 那场交流。他说「手机不是为 agent 设计的」，理由是今天的交互是 app-based、session-based 的：你打开一个 app，做一件事，关掉。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\"><strong class=\"js_darkmode__10\" style=\"color: #000000; font-size: 16px; letter-spacing: 0.5px; line-height: 1.75;\">关联阅读：</strong><strong class=\"js_darkmode__11\" style=\"color: #000000; font-size: 16px; letter-spacing: 0.5px; line-height: 1.75;\"><a class=\"normal_text_link mp_article_text_link\" href=\"https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653104921&amp;idx=1&amp;sn=04db895551a5ce298b50043e1936c734&amp;scene=21#wechat_redirect\" rel=\"noopener\" target=\"_blank\">《OpenAI 硬件负责人的闭门分享，向我们揭示了为什么硬件「终点」仍是智能手机》</a></strong></p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">但一台没有屏幕的音箱，把这三个动作全取消了：没有「打开」这个动作，自然也就不存在 session。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">但说实话，音箱这个形态一点都不新。无屏音箱做了快十年，最后大多变成了闹钟和天气播报器。从硬件规格表上来看。OpenAI 音箱主要区别在于摄像头，和会自己动。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">前者是输入，后者是主动性。上一代智能音箱的限制不在模型，在于它只有耳朵：你不说话，它就不知道屋里发生了什么，只能等着被叫醒。有了摄像头，「主动」才有可能不变成骚扰。代价是用户得先同意，让一台会自己转动的机器一直看着自己家。</p>\n<img alt=\"Image\" class=\"rich_pages wxw-img js_img_placeholder wx_img_placeholder\" src=\"https://imgslim.geekpark.net/uploads/image/file/94/2a/942a79d33ff216476c1a1044e162fb6e.jpeg\" />\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">这一关键性的概念区别，决定了 OpenAI 这款音箱对标的并不是 HomePod 这样的产品。而是一台用来给模型更多用户实际上下文的传感器：这实际上也是手机的逻辑。</p>\n<section>\n<section>\n<section>\n<section>\n<section>\n<p><em><strong>02</strong></em></p>\n</section>\n</section>\n<section>\n<section class=\"js_darkmode__12\"></section>\n</section>\n</section>\n</section>\n<p class=\"js_darkmode__13\"><strong style=\"letter-spacing: 1px;\"><span class=\"js_darkmode__14\"><strong class=\"js_darkmode__15\">用于构建上下文的手机</strong></span></strong></p>\n</section>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">手机这条线，最早是郭明錤在 4 月 27 日发布的。他把它称作一款「AI Agent 手机」，<strong class=\"js_darkmode__16\" style=\"color: #000000; font-size: 16px; letter-spacing: 0.5px; line-height: 1.75;\">围绕持续的、有上下文感知的界面构建，而不是围绕一个个独立 app。</strong></p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">他的论据是，手机是唯一能捕捉用户完整实时状态的设备：位置、活动、通信、所处情境都在里面。这是实时 agent 推理最重要的上下文输入。要交付完整的 agent 服务，就必须同时掌控操作系统和硬件。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">Altman 在同一天发帖，说是时候重新想想操作系统和用户界面该怎么设计了。</p>\n<section><img alt=\"Image\" class=\"rich_pages wxw-img js_img_placeholder wx_img_placeholder\" src=\"https://imgslim.geekpark.net/uploads/image/file/2d/32/2d3226a411e8fd341188c8382fea1f19.png\" /></section>\n<br />\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">如今，关于 OpenAI 手机我们知道了更多规格补齐了一部分：定制版联发科天玑 9600，台积电 N2P 制程，也就是苹果即将启用的「A20」所在的节点。郭明錤 4 月还提到 OpenAI 把高通和联发科并列为芯片伙伴，如今联发科看起来会是独家。立讯精密被认为是独家代工，舜宇拿到了覆盖两款设备的零部件订单。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">但整份规格单里被明确点为头号已知规格的，不是屏幕，也不是主频，是那颗带增强 HDR 管线的 ISP。目的是<strong class=\"js_darkmode__17\" style=\"color: #000000; font-size: 16px; letter-spacing: 0.5px; line-height: 1.75;\">提升通过摄像头对真实世界的感知。旁边为其单独配备两颗 AI 处理器，分别同时处理视觉和语言。</strong></p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">这份规格单和过去二十年的手机规格单，重心是反的：过去所有的核心参数都围绕人怎么看设备：尺寸、分辨率、刷新率、峰值亮度。这台手机放到最前面的，是设备怎么看世界。</p>\n<img alt=\"Image\" class=\"rich_pages wxw-img js_img_placeholder wx_img_placeholder\" src=\"https://imgslim.geekpark.net/uploads/image/file/7f/ff/7fff001f5f5754a4b025752555c5cd7c.jpeg\" />\n<p class=\"js_darkmode__18\" style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 14px; line-height: 1.5em; text-align: left; color: #b2b2b2; margin-top: 0px; margin-bottom: 24px;\">让模型如何更好地「看清」世界，逐渐成为一个只有硬件才能回答好的问题｜图片来源：OpenAI</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">HDR 管线对拍照的意义是宽容度，对 Agent 来讲是另一回事。逆光、暗光、屏幕反光这些人眼能自动适应的场景，恰恰是视觉模型最容易失手的地方。把增强 HDR 做进 ISP，等于在数据进入模型之前先把世界调好一遍。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">两颗 AI 处理器分开跑视觉和语言，是同一个思路的延续。视觉不再是拍照功能的附属，而是和语言并列的一路输入。</p>\n<img alt=\"Image\" class=\"rich_pages wxw-img js_img_placeholder wx_img_placeholder\" src=\"https://imgslim.geekpark.net/uploads/image/file/45/ae/45aeff112457df60080864b569bdd3ec.png\" />\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">这正好接上 Richard Ho 当时的判断：<strong class=\"js_darkmode__19\" style=\"color: #000000; font-size: 16px; letter-spacing: 0.5px; line-height: 1.75;\">未来不是 cloud-only，也不是 edge-only。个人上下文、隐私数据、低延迟交互留在设备端，复杂推理留给云。那两颗处理器，就是「设备端那一半」的物理形态。</strong></p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">个人上下文、隐私数据、低延迟交互必须在设备端，复杂推理留在云端。如果一个 agent 想随时拿到用户的「当下状态」，它必须在操作系统层有足够完整的权限。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">把供应商的名字连起来看，还有另一层意思：立讯是苹果最重要的代工厂之一，舜宇是全球最大的手机摄像头模组厂商之一，N2P 是苹果下一代芯片要用的节点，负责工业设计的是苹果前首席设计师。郭明錤特意提到，立讯这些年一直想降低对苹果订单的依赖，OpenAI 这单来得正是时候。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">目前，OpenAI 硬件团队里有超过 400 名前苹果员工，包括原 Vision Products Group 负责人 Paul Meade。整条产品线源自 OpenAI 以 65 亿美元收购 Ive 的公司 io Products。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">OpenAI 不是在学苹果做产品，是在把苹果那套组织能力和供应链原样搬一遍。区别只在最后交付的设备里，默认入口从 App Store 换成了一个 agent。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">另外，OpenAI 目标的产品量级同样是外界非常关心的一个问题：郭明錤的预测是，<strong class=\"js_darkmode__20\" style=\"color: #000000; font-size: 16px; letter-spacing: 0.5px; line-height: 1.75;\">如果开发不出意外，2027 与 2028 两年合计出货约 3000 万台。摊到一年一千多万台，在手机行业大概是一个二线品牌的体量</strong>，无论如何，OpenAI 在早期都撼动不了 iOS 和 Android 的基本盘。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">但 OpenAI 原本的目标可能就不是份额：Ho 说 agent 想拿到用户的当下状态，就必须在操作系统层有完整权限。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">也就是说，OpenAI 需要的不是所有人的手机，是一台自己说了算的手机。一千万台够不够做成生意另说，够不够证明「agent 优先的系统跑得起来」，是够的。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">真正的未知不在硬件。如果界面真的不再是 app，用户的银行、打车、外卖、社交关系从哪来？</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">这是一个几乎困扰着行业所有选手的问题，OpenAI 给的答案是订阅捆绑，用它撑起一个围绕 agent 的开发者生态；但 agent 如何稳定地调用第三方服务，这件事今天在任何一个平台上都没被跑通过，而它恰恰不是自研芯片能解决的问题。</p>\n<section>\n<section>\n<section>\n<section>\n<section>\n<p><em><strong>03</strong></em></p>\n</section>\n</section>\n<section>\n<section class=\"js_darkmode__21\"></section>\n</section>\n</section>\n</section>\n<p class=\"js_darkmode__22\"><strong style=\"letter-spacing: 1px;\"><span class=\"js_darkmode__23\"><strong class=\"js_darkmode__24\">OpenAI 最大的障碍：苹果</strong></span></strong></p>\n</section>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">此外，<strong class=\"js_darkmode__25\" style=\"color: #000000; font-size: 16px; letter-spacing: 0.5px; line-height: 1.75;\">一个值得注意的细节是，手机和音箱的上市时间点相比最初经历过了调整：音箱原定今年上市，滑到了 2027 年初。手机原本瞄准 2028 年量产，被郭明錤在 5 月改到 2027 年上半年，他给的理由是 OpenAI 计划中的 IPO，以及这个品类正在变激烈的竞争。</strong></p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">硬件排期通常由良率、验证周期和软件成熟度决定，很少由上市计划决定：确切的芯片规格和其余供应商，预计要到 2026 年底或 2027 年第一季度才能敲定。这个节点和 2027 年上半年量产之间，最多只隔一个季度。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">提前的是量产节点而不是发布时间。音箱和手机是两个团队、两条供应链，一个延期一个提前，完全可能各有各的原因。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">OpenAI 全球事务负责人 Chris Lehane 给过的官方口径是，首次硬件发布在 2026 年下半年，上市在 2027 年初。这和音箱的时间线对得上。</p>\n<img alt=\"Image\" class=\"rich_pages wxw-img js_img_placeholder wx_img_placeholder\" src=\"https://imgslim.geekpark.net/uploads/image/file/90/0c/900cbda1d6fd38da4966deafd9f29b0e.png\" />\n<p class=\"js_darkmode__26\" style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 14px; line-height: 1.2; text-align: left; color: #b2b2b2; margin-bottom: 24px; margin-top: 0px;\">OpenAI 首款音箱硬件概念对硬件规格有独特的需求｜图片来源：Jony Ive</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">但还有一股力气在往反方向拽。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">苹果 7 月 10 日起诉 OpenAI 窃取商业机密，起诉书里点到一项专有的金属表面处理工艺。彭博社的 Mark Gurman 认为诉讼已经起拖慢 OpenAI 进度的效果：苹果的工程师不敢再去面试，供应商面对 OpenAI 的需求也变得更加谨慎。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">OpenAI 的回应是对别人的商业机密没有兴趣，接近项目的人对彭博社说，这台设备和苹果在售的产品都不一样。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">苹果不仅是说说而已，公司同时向法院申请了禁令，一旦获批，OpenAI 可能被直接禁止发布硬件。苹果那边还有个更直接的动作，给 iPhone 产品设计团队发了最高 40 万美元的限制性股票留任奖金。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">一边是禁令申请和观望的供应商，一边是提前一年半的量产目标。这两件事都真的话，让步的大概率是后面那个。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">眼镜、一盏智能台灯，可能还有耳机，都在路线图上，位置更靠后，其中一些可能被取消。但舜宇那笔覆盖两款设备的订单说明，至少有两条线在同时推。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\"><strong class=\"js_darkmode__27\" style=\"color: #000000; font-size: 16px; letter-spacing: 0.5px; line-height: 1.75;\">苹果的路线图几乎是镜像的</strong>：智能眼镜、带摄像头的 AirPods、一款 AI 挂坠，以及一台带屏幕和摄像头的家庭中枢。两家公司在四个品类上正面相撞。</p>\n<img alt=\"Image\" class=\"rich_pages wxw-img js_img_placeholder wx_img_placeholder\" src=\"https://imgslim.geekpark.net/uploads/image/file/e4/44/e4449f35cdd422c4ca997e7b78977bdf.jpeg\" />\n<p class=\"js_darkmode__28\" style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 14px; line-height: 1.5em; text-align: left; color: #b2b2b2; margin-top: 0px; margin-bottom: 24px;\">更多形态的产品，更激烈的竞争｜图片来源：Information age</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">四种形态摆在一起，共同点不是屏幕，是传感器。音箱、手机、眼镜、耳机，形态差得远，要解决的是同一个问题：让 agent 持续看见你所在的世界。在这批设备的零件表上，屏幕是可选项，摄像头是必选项。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">Richard Ho 在那场交流最后给的判断是，不再是在芯片层赢，而是在系统层赢。他也说过，当你开始谈 20GW 这种规模，就必须谈电力，甚至国家安全。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">这条链路上，芯片、数据中心、电力的账 OpenAI 可以自己算，也可以跟合作方一起算。<strong class=\"js_darkmode__29\" style=\"color: #000000; font-size: 16px; letter-spacing: 0.5px; line-height: 1.75;\">只有 200 到 300 美元这一端不行，这笔钱要普通人自己从口袋里掏</strong>。</p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 16px; line-height: 1.75; margin-top: 0px; margin-bottom: 24px;\">所以第一台设备被定成一个两百多美元、会自己动、带着摄像头的盒子。整套系统里最难说服的不是电网，是消费者的客厅。</p>\n<section class=\"js_darkmode__30\">\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 14px; text-align: left; color: #888888; margin-top: 0px; margin-bottom: 0px;\"><span>*头图来源：Jony Ive</span></p>\n<p style=\"font-family: Optima-Regular, PingFangTC-light, 'PingFang SC', 'PingFang TC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 14px; text-align: left; color: #888888; margin-top: 0px; margin-bottom: 0px;\">本文为极客公园原创文章，转载请联系极客君微信 geekparkGO</p>\n</section>\n<section class=\"js_darkmode__31\">\n<section class=\"js_darkmode__32\">\n<section class=\"js_darkmode__33\"></section>\n</section>\n<section class=\"js_darkmode__34\">\n<section>\n<section><strong style=\"font-family: Optima-Regular, PingFangTC-light;\">极客一问</strong></section>\n</section>\n</section>\n<section class=\"js_darkmode__35\"><strong style=\"font-family: Optima-Regular, PingFangTC-light;\">一台没有屏幕的 AI 设备，<br />你会买单吗？</strong></section>\n</section>\n<section></section>\n<section></section>\n<section></section>\n<section></section>\n</section>\n<p style=\"display: none;\">&nbsp;</p>",
-      "published": "2026-07-31T03:04:16+08:00",
-      "fetched_at": "2026-07-31T11:15:20.956976+08:00",
-      "pre_filter_reason": "OpenAI硬件产品路线图，AI相关",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 8,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "OpenAI首款硬件无屏设计曝光：AI硬件的未来是“隐形”吗？",
-          "angle": "解读OpenAI硬件路线图，分析无屏交互（语音/手势）对用户习惯的挑战，对比苹果Vision Pro等竞品，探讨2027年手机量产的可能性与意义。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "news",
-          "title": "从AI芯片到手机：一张图看懂OpenAI的硬件野心",
-          "angle": "以信息图/动画形式梳理OpenAI硬件时间线，聚焦与苹果、Meta的竞争，以及自研硬件对AI生态闭环的推动作用。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "655bef369d9a",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "晶泰科技发布AI4S原生操作系统 XtalPi Science ，以多智能体矩阵开启自主科学发现新范式",
-      "link": "https://www.leiphone.com/category/aihealth/qZUov9NEbsp48psi.html",
-      "summary": "<p>7 月 29 日，晶泰科技正式发布&nbsp;XtalPi Science 科学智能平台与 Genius Agents 科学智能体矩阵，并联合 26 家产业、高校及科研生态伙伴，共同发起成立 “科学智能开放生态联盟”。联盟将依托 XtalPi Science，为成员提供平台与自动化实验资源的调用、模型与工具接入、联合开发及私有化部署等多元合作模式，共同推动模型、数据、工具与实验能力之间高效协同。</p><p>XtalPi Science 是全球首个整合大语言模型（LLM）、科学智能体与大规模自动化机器人实验的 AI for Science（AI4S，科学智能）综合平台。它将晶泰科技十年积累的模型、工具、智能体及实验资源封装为可按需调用的 Science Token，从服务单一项目的内部体系，全面跃升为可供全球科研组织按需调用的 AI4S 底层基础设施（Global Scientific Utility）。</p><p>Genius Agents&nbsp;作为整套系统的核心调度中枢与研发矩阵，构建了兼具全局规划与特定场景执行能力的多智能体体系。它能自主理解复杂科研目标、完成跨学科长程任务，且显著降低模型幻觉，可在数字世界调用专业模型完成预测，并通过物理智能（Physical AI）在真实物理世界开展高精度实验验证。</p><p>由此，XtalPi Science 贯通&nbsp;“数字假设—专业预测—物理验证—数据反馈” 的完整闭环：模型端形成的假设能够在实验端得到验证，实验端的结果则持续回流模型与智能体，反哺下一轮预测和决策。XtalPi Science&nbsp;将科学研究的偶然性，转变为一套可编排、可验证、可追溯、可持续进化的系统工程，推动人工智能从 “生成答案” 迈向 “驱动可验证的科学发现”。</p><p><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260731//6a6b7cdbd4c6c.jpg?imageMogr2/quality/90\" /></p><p style=\"text-align: center;\"><span style=\"font-size: 12px; color: #7F7F7F;\">晶泰科技联合创始人、董事长 温书豪博士</span></p><p>晶泰科技联合创始人、董事长温书豪在开幕式致辞中表示：“AI 下一阶段的竞争，绝不仅是消耗算力的数字游戏，而在于能否把智能转化为真实世界的产业增量。生命科学与先进材料等高价值场景，需要最精确的数据、最严谨的验证和持续的物理交互，这正是 Physical AI 率先形成商业闭环的理想场域。科学不是零和博弈，每一次突破都在为人类文明创造新的增量市场。晶泰科技致力于将模型、物理智能与实验生态无缝链接，让最硬核的科研能力，转化为普惠全球的底层基础设施。”</p><h3>从“代码问答”到“科学发现”：AI下半场锚定“物理验证”</h3><p>在大模型引发的浪潮中，AI 生成科学猜想的边际成本正趋近于零。然而，当海量的“数字猜想”批量涌现时，物理世界的真实验证已成为大模型时代稀缺的硬资产与创新实践的瓶颈。&nbsp;</p><p>全球每年超过 2 万亿美元的研发支出中，大量资源仍消耗于低效的盲目试错与碎片化的数字工具。当前的 AI 推理往往止步于屏幕前的对话界面，“数字假设—物理验证—知识沉淀” 的数据闭环尚未真正打通。同时，传统科研体系面临着难以逾越的结构性缺陷：一是高度依赖科学家的个人经验，存在大量无法被数字化的 “隐性知识缺失”；二是现有的公开科研数据库几乎全为 “正样本”，缺乏对模型纠错至关重要的 “失败负样本”。</p><p>能否率先贯通数字智能与物理实验，填补失败数据空白，正成为科技巨头竞逐下一代科学基础设施、接入万亿级 Physical AI 蓝海市场的制胜关键。</p><h3>Genius Agents：重构科研基建，打造跨越鸿沟的“虚拟研发组织”</h3><p>面对这一产业级痛点，仅仅依靠单点工具赋能研发个体已杯水车薪，行业迫切需要解决 AI 与复杂研发组织的协作适配问题。为此，晶泰科技突破性地推出了集流程、能力与基础设施于一体的虚拟研发组织——Genius Agents。</p><p>这并非单一的 AI 助手，而是有望改造传统科研基础设施的核心调度系统，占据重要地位。在实际运转中，Genius Agents 能够统一调度跨学科专家智能体、数百项专业工具及全球最大规模商业部署的自动化机器人实验集群，推动跨学科长程任务的高效协同。</p><p>平台将经典的 DMTA（设计-制造-测试-分析）循环重构为上百类研发意图，大幅降低了大型科研组织内部的协作与沟通摩擦。Genius Agents 还将专家的“隐性知识”固化为可复用的标准化工作流（Skills），并在目标设定与路线决策等关键节点保留科学家的最终判断权。这种 “AI 规模化探索 + 科学家关键决策” 的协作范式，显著降低了传统科研中因步骤衔接停滞、等待决策所产生的结构性时间损耗，将动辄数周甚至数月的研发验证周期极致压缩至 “以天为单位”，自主跑通从文献研读、构效分析、分子设计、ADMET 预测、合成路线规划乃至自动化实验测试的超长周期科研流程。目前，这套体系已在晶泰内部持续高强度运行，并历经多轮真实研发验证，成为科学家日常研发中不可或缺的生产力工具。</p><p><img src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6b7dc670b2b.png?imageView2/2/w/740\" /></p><p style=\"text-align: center;\"><span style=\"font-size: 12px; color: #7F7F7F;\">晶泰科技联合创始人、首席执行官 马健博士</span></p><p>晶泰科技联合创始人、CEO 马健表示：“未经验证的假设无法转化为知识。Genius Agents 将大模型推理、专业模型预测与物理实验无缝连接为可自我迭代的完整闭环，让科学家掌控战略方向，机器人实验承担规模化探索，填补数字世界与物理世界之间的鸿沟。这是 AI 跨越数字与物理鸿沟、从聊天工具迈向 ‘发现引擎’ 的关键一步。”</p><h3>Physical AI：从高效自动化走向可泛化、高精度物理智能</h3><p>AI 驱动科学发现的核心，不仅在于数字世界中的“假设生成”，更在于物理世界中的“真实验证”。正如人工智能通往 AGI（通用人工智能）的终极演进，绝不应止步于“认识世界”，更必须具备“改造世界”的能力。因此，打通虚拟与现实边界的Physical AI，正成为前沿科技跨越瓶颈的必经之路。</p><p>当 Physical AI 深度融入产业研发，它将引发两场根本性的变革：一是通过高通量物理交互，沉淀海量的多模态数据，驱动科学超级智能进化；二是通过“假设-验证”的端到端闭环，真正实现自主科学发现（Autonomous Discovery），并在真实产业场景中创造高附加值。</p><p>纵观具身智能的落地场景，传统工业流水线过于固化且极致追求降本，而家庭服务环境则充斥着不可控的长尾随机干扰。相比之下，高价值的科学实验室不仅环境相对结构化、耗材品类边界清晰，且每一次实验验证都蕴含着极高的商业价值。这使得实验室成为物理智能率先跨越技术鸿沟、实现规模化商业落地的“黄金训练场”。</p><p>要让智能体真正走进千万间科学实验室，赋能全球广大研发从业者，就必须突破传统自动化的桎梏，实现底层技术的范式跃迁：在基建上，全面转向高精度、可泛化的通用物理智能硬件；在内核上，摒弃依赖人工编写海量规则的“死板执行”，建立基于真实数据示范学习的“感知-决策-执行”自主闭环。</p><p>这正是晶泰科技耗时近十年构筑的技术护城河。晶泰科技首席科学官张佩宇介绍，依托极具优势的中国硬件供应链与自研 AI 算法，晶泰科技的物理智能体系每天都在丰富的真实业务中沉淀行业稀缺的研发与项目数据。目前，这套体系已覆盖超 20 类工业场景，服务逾 100 个真实的新药与新材料发现项目。在持续运转中，实验室每月稳定产出 5 万余条反应产率数据和 30 万条过程数据，已累计沉淀超 50 万条真实实验记录，持续反哺底层垂直模型。</p><p>&nbsp;<img src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6b7e80ea6d5.png?imageView2/2/w/740\" /></p><p style=\"text-align: center;\"><span style=\"font-size: 12px; color: #7F7F7F;\">晶泰科技首席科学官 张佩宇博士</span></p><p>更重要的是，这海量的数据资产中，包含了传统公开文献中极度稀缺、占比高达 80% 的“失败负样本”。正是这种珍贵的纠错数据，让晶泰的科学模型在面对复杂未知空间时，具备了超越人类专家的认知底座。近期，在基于 350 个真实工业分子的严苛评测中，由真实物理数据训练的反应条件预测模型 SureRoute&nbsp;展现出了极高的可靠性：其化学幻觉率降至 4.6%，仅为前沿通用大语言模型的六分之一；首条合成路线准确率高达 51.7%。在失败实验的预测上，SureRNX&nbsp;的准确度更是达到了 81% 至 89%，远超资深化学家 38% 至 60% 的对照表现。</p><p>这种基于底层数据的绝对优势，正直接转化为产业端的巨大商业价值。在真实的对外服务合作中，SureRNX将传统合成目标分子所需的 5~10 次试错迭代，大幅压缩至平均仅需 1.19 次，实现了研发效率的数量级跃升。这种将科学不确定性收敛为工程可控性的能力，标志着前沿研发正从长周期的“经验试错”全面跃升为“精准预判”，真正构筑起 AI 驱动可信赖科学发现的坚实基石。</p><p>从微观分子的单点突破，到重构宏观研发的系统逻辑，晶泰科技希望将物理智能转化为赋能全球每一间实验室的底层基础设施。在万亿级的科研蓝海中，晶泰科技不仅在定义科学智能的全新尺度定律（Scaling Law)，更在全面开启一个可信赖、全自动的自主科学发现新纪元。</p><h3>生态开放与数据飞轮加速：27家联盟伙伴共建万亿级AI4S基础设施</h3><p>此次发布更重要的战略含义，是晶泰科技正式开始将其沉淀多年的内部研发能力与项目数据，转化为可由外部科研组织调用、高度可复用的全球科学基础设施（Global Scientific Utility)，显著降低高阶科研能力的使用门槛，为跨机构研发协作和科学智能的规模化应用提供统一入口。</p><p>发布会现场，由共 27 家领先企业联合发起的 “科学智能开放生态联盟” 正式签约落地，联盟成员覆盖科学创新全链条，既包括三生制药、君实生物、加科思、百诚医药等生物医药企业，也有佰维存储、翰博高新材料等先进制造与新材料企业，以及丹纳赫集团、无问芯穹、逐际动力等科学仪器、AI 基础设施与具身智能伙伴；香港中文大学（深圳）与五源资本、康曼德资本等高校及投资机构亦参与其中。联盟的成立，标志着科学智能基础设施建设正从企业单点探索，迈向跨产业、跨学科、多主体协同共建的新阶段。</p><p>为支撑庞大生态的流转，晶泰科技同步推出了&nbsp;Science Token 机制，为平台提供了统一的资源调用、过程记录与贡献计量标准。企业既可调用 AI 应用开展研发，也可接入晶泰的自动化实验资源形成数据闭环；对于核心保密诉求高的龙头企业，系统更支持私有化部署，打造安全可控的 “数字化研发分身”。</p><p>&nbsp;截至 7 月 29 日中午，已有近 200 家企业、高校、科研及投资机构提交&nbsp;XtalPi Science&nbsp;平台试用申请。晶泰科技同时宣布，将向联盟成员及一批深度合作的高校、科研院所优先提供 Science Token 平台的免费试用额度，全力支持前沿领域的科学探索。</p><p>发布会现场，两场兼具全球产业风向和产学研深度思考的圆桌对话，分别从 “基础设施共建”&nbsp;和&nbsp;“产业规模落地”&nbsp;维度展开讨论。“AI for Science 新时代：从智能模型到 Physical AI，共建科学智能基础设施”&nbsp;主题圆桌由晶泰科技 CEO 马健主持，无问芯穹创始人兼 CEO 夏立雪、香港中文大学（深圳）崔曙光院士、超衍智能创始人陈勇超等共同参与，探讨算力、芯片与具身智能模型如何协同构筑科学智能时代的底层基础设施。</p><p><img border=\"0\" src=\"https://static.leiphone.com/uploads/new/images/20260731//6a6b7cdbd5359.jpg?imageMogr2/quality/90\" /></p><p>“从科学能力到产业生产力：XtalPi Science 推动产业研发智能化升级”&nbsp;主题圆桌则由晶泰科技董事长温书豪主持，华登高科管理合伙人彭桂娥、强生外部创新高级总监 Jay Lin、高瓴投资合伙人 Thomas Tang、佰维存储科技总经理何瀚、麻省理工学院 Bradley L. Pentelute 教授、百诚医药董事长楼金芳、LCC Technologies CEO Paul Colbon 共同对话，聚焦 AI for Science 在生命健康、新材料、半导体等产业研发中的落地路径与价值兑现。</p><p>马健、温书豪接受雷峰网采访时表示，晶泰科技的核心壁垒并非单一技术优势，而是近十年来在产业一线沉淀的一整套组合拳。马健指出，绝大多数科技企业都会强调算法与数据，但晶泰真正的护城河在于认知与能力的持续沉淀——长期扎根药企、新材料、能源化工等实体场景积累的海量一手产业数据，以及对技术落地逻辑和产业真实痛点的独家认知。更重要的是，AI for Science需要学科专家经验、垂直领域大模型、智能硬件实验室等一连串核心能力叠加，“行业内极少有企业能像晶泰一样集齐全套要素”。温书豪补充称，晶泰的壁垒还体现在软硬件结合的数据闭环与生态协同上：通过为自动化硬件赋予AI“灵魂”，形成“硬件迭代—数据积累—模型优化”的正向循环；同时通过投资孵化生态企业，构建起协同共建的产业生态体系。</p><p>谈及物理AI的落地路径，温书豪强调“人工智能不等于大模型，具身智能也不等于人形机器人”。他认为，物理AI的规模化落地将遵循“科研实验室→工业场景→家庭民用”的递进逻辑：科研场景操作品类固定、环境干扰少、标准化程度高，是当前最优的落地土壤；工业场景对效率和稳定性要求极致，门槛依然很高；而家庭场景复杂度最高，需要天文数字级的物理数据，短期内难以突破。2026年作为物理AI的质变元年，晶泰选择先在生物医药、新材料等高附加值科研场景打磨能力，再逐步泛化至工业与民用领域。</p><p>在AI新药研发的时间线上，温书豪透露，晶泰内部一款AI全程深度参与的肺癌新药已推进至临床阶段，“最快预计2026年下半年有望在美国获批上市”。他判断，未来两到三年行业将迎来质变拐点，AI在新药研发中的核心占比将从目前的50%—70%持续提升。而在材料领域，传统需要3至5年迭代周期的复杂电池材料，如今依托AI智能体系仅需数月即可完成优化，目前已实现上百种新材料配方的快速验证。</p>",
-      "published": "2026-07-31T00:50:00+08:00",
-      "fetched_at": "2026-07-31T11:15:15.672612+08:00",
-      "pre_filter_reason": "AI4S科学智能平台，AI相关",
-      "scores": {
-        "importance": 8,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "AI4S是什么？5分钟看懂晶泰科技发布的科学智能平台",
-          "angle": "用通俗易懂的比喻（如“科学界的自动驾驶”）拆解XtalPi Science平台的核心概念，解释多智能体矩阵如何协作完成科学实验，帮助普通观众快速理解AI for Science的落地场景。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "从实验室到产业化：科学智能开放生态联盟能带来什么？",
-          "angle": "深度分析晶泰科技联合26家伙伴成立联盟的战略意义，探讨AI4S平台如何打通模型、数据、自动化实验的闭环，以及对中国科研生态和产业升级的潜在影响。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "9f16819958f1",
-      "source_id": "microsoft-research",
-      "source_name": "Microsoft Research",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "EvoLib: Turning experience into evolving knowledge",
-      "link": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
-      "summary": "<p>LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. </p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/\">EvoLib: Turning experience into evolving knowledge</a> appeared first on <a href=\"https://www.microsoft.com/en-us/research\">Microsoft Research</a>.</p>",
-      "published": "2026-07-31T00:00:00+08:00",
-      "fetched_at": "2026-07-31T11:15:07.371273+08:00",
-      "pre_filter_reason": "AI research on LLM knowledge",
-      "scores": {
-        "importance": 6,
-        "timeliness": 6,
-        "actionability": 6,
-        "scarcity": 6,
-        "virality": 5,
-        "crowd_heat": 3.5
-      },
-      "quality_score": 7.5,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "为什么大模型越学越笨？EvoLib教你如何让AI持续进化",
-          "angle": "以“记忆≠智能”为切入点，用动画或案例解释EvoLib如何将经验转化为可复用的技能和知识，对比传统LLM的静态记忆模式，展示AI在部署后持续学习的新思路。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "explainer",
-          "title": "微软EvoLib技术解析：让AI从“死记硬背”到“举一反三”",
-          "angle": "面向技术开发者，深入讲解EvoLib的架构设计、知识表征方式以及它与RAG、微调等主流方法的区别，并讨论其在多任务学习和长期部署中的实际应用潜力。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "49a96e55549e",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "氪星晚报 ｜国家统计局：2026年上半年全国规模以上文化及相关产业企业营业收入增长4.6%；OpenAI承认AI模型失控入侵事件涉及多个平台",
-      "link": "https://36kr.com/p/3917972674735747?f=rss",
-      "summary": "<h2>大公司：</h2>\n  <p><strong>证监会同意沈鼓集团沪市主板IPO注册</strong></p>\n  <p>36氪获悉，证监会同意沈鼓集团股份有限公司首次公开发行股票并在沪市主板上市的注册申请。</p>\n  <p><strong>三星电子：已同全球五大数据中心客户签订合同</strong></p>\n  <p>据报道，三星电子7月30日预测，明年存储芯片供不应求现象将进一步加剧，超大规模云服务商扩大对人工智能（AI）基础设施的投资，带动服务器、固态硬盘、高带宽内存（HBM）需求进一步增长。三星电子称，公司已与全球五大数据中心客户签订合同，另与AI相关五大大型客户进行的洽谈已进入收尾阶段。（界面）</p>\n  <p><strong>OpenAI承认AI模型失控入侵事件涉及多个平台</strong></p>\n  <p>美国开放人工智能研究中心（OpenAI）28日更新发布的调查结果显示，该公司人工智能（AI）模型失控入侵美国抱抱脸公司系统期间，还曾利用网上公开的信息，访问了多个公开服务平台上的账户。OpenAI不久前承认，该公司包括GPT-5.6 Sol在内的多个AI模型在内部评估时突破隔离测试环境，入侵了运营人工智能开源平台的美国抱抱脸公司的系统。其最新公布的调查结果显示，涉事模型在攻击过程中还访问了至少4个公开服务平台上的4个账户。其中一个账户被用作中继与暂存通道；一个账户被用于数据存储；对另外两个账户仅进行了只读访问，未用于进一步攻击抱抱脸公司的系统。OpenAI表示，已将调查结果通知相关服务提供商。（央视新闻）</p>\n  <p><strong>三星电子：预计三季度HBM4销售额将环比增长2倍以上</strong></p>\n  <p>三星电子7月30日预测，第三季度第六代高带宽内存（HBM4）销售额将环比增长2倍以上，下半年HBM4销售额将占HBM销售总额的60%以上。三星提出，下半年将把HBM全球市占率提升至与同步动态随机存取存储器（DRAM）相当的水平。今年第一季度，三星电子DRAM全球市占率为38%。（新浪财经）</p>\n  <p><strong>五粮液集团等入股四川长江担保集团，后者增资至约53.6亿</strong>36氪获悉，天眼查App显示，近日，四川长江担保集团有限公司发生工商变更，新增四川省宜宾五粮液集团有限公司、宜宾市产业投资集团有限公司、宜宾市高新投资集团有限公司等为股东，同时，注册资本由约14.1亿人民币增至约53.6亿人民币，增幅约279%。该公司成立于2022年11月，法定代表人为郑智，经营范围含非融资担保服务、自有资金投资的资产管理服务、以自有资金从事投资活动、融资咨询服务、企业管理咨询等。股东信息显示，该公司现由宜宾市财政局及上述新增股东共同持股。</p>\n  <p><strong>雷诺集团上半年营收303亿欧元，同比增长9.5%</strong>7月30日，雷诺集团公布，2026上半年集团营收303亿欧元，同比增长9.5%，按固定汇率计算增长10.3%；净利润：7亿欧元；汽车业务自由现金流达6.53亿欧元。雷诺集团确认2026年财务预期：集团营业利润率约为集团营收的5.5%，汽车业务自由现金流约为10亿欧元。（界面）</p>\n  <p><strong>特斯拉全球第1000万辆电动车下线</strong></p>\n  <p>36氪获悉，特斯拉方面宣布，特斯拉全球第1000万辆电动车下线。</p>\n  <p><strong>LG新能源上半年营收14.1万亿韩元，同比增长10.5%</strong></p>\n  <p>7月30日，LG新能源发布2026年第二季度业绩报告：合并营收达7.6万亿韩元，环比增长15.3%；营业利润为1133亿韩元，营业利润率为1.5%。2026年上半年，公司累计营收14.1万亿韩元，同比增长10.5%，其中储能业务收入同比增长4.6倍，新签订单额超3万亿韩元，对总营收的贡献占比超20%。（界面）</p>\n  <p><strong>黑芝麻智能：创始人自愿延长禁售期12个月</strong></p>\n  <p>36氪获悉，黑芝麻智能发布自愿公告，公司创始人、董事长、执行董事兼首席执行官单记章先生自愿进一步延长其禁售承诺，自2026年8月8日起至2027年8月7日止，为期12个月，涉及股份4,410.00万股。该禁售股份占公司已发行股份（不含库存股）约6.18%。本次延长期限系基于单先生对公司长期价值、端侧AI推理解决方案转型战略的坚定信心。</p>\n  <p><strong>星巴克发布强劲Q3财报，上调全年营收及盈利指引</strong></p>\n  <p>周三，星巴克在连续四个季度实现同店销售增长后，上调了全年业绩指引。对于2026财年，星巴克目前预计调整后每股收益在2.55至2.65美元之间，高于此前每股2.25至2.45美元的指引。公司目前还预计全球同店销售额将增长近6%，美国同店销售额将增长6%以上；此前公司预测全球和美国同店销售额增长至少5%。（新浪财经）</p>\n  <h2>投融资：</h2>\n  <p><strong>“Tiiny AI”完成数千万美元天使轮融资</strong></p>\n  <p>36氪获悉，据BV百度风投消息，Personal Agent OS公司“Tiiny AI”宣布完成数千万美元天使轮系列融资。本轮融资由顺为资本、经纬创投、锦秋基金、云启资本、戈壁—阿里巴巴香港创业者基金、BV百度风投、光源L2F基金联合参与。本轮融资后，Tiiny将加速Tiiny AI Pocket全球交付和TiinyOS多终端落地</p>\n  <h2>新产品：</h2>\n  <p><strong>马斯克：Grok 4.6将于一周后发布</strong></p>\n  <p>7月30日，马斯克在社交平台发文称，大模型Grok 4.6将于一周后发布。（界面）</p>\n  <p><strong>腾讯WorkBuddy发布V5.3.5更新，推出\"人机双写\"协同编辑能力</strong></p>\n  <p>36氪获悉，7月30日，腾讯WorkBuddy发布V5.3.5版本更新，联合腾讯文档推出\"人机双写\"协同编辑能力。用户可在同一份文档中与AI共同创作和修改，支持Word、Excel、PPT、Markdown等主流格式，同时兼容本地Office文件和腾讯文档在线文档。新功能支持框选指定区域让AI局部修改，保持其余内容不变；AI共创内容可一键上传腾讯文档，实现多人、人机多端实时协同编辑。</p>\n  <h2>今日观点：</h2>\n  <p><strong>中共中央政治局：深化资本市场投融资综合改革，提升资本市场韧性和信心</strong></p>\n  <p>中共中央政治局7月30日召开会议。会议分析研究当前经济形势，部署下半年经济工作。会议强调，要切实筑牢安全屏障。稳定房地产市场，实施好一揽子化债方案，扎实推进地方中小金融机构改革化险、减量提质。深化资本市场投融资综合改革，提升资本市场韧性和信心。（央视新闻）</p>\n  <h2>其他值得关注的新闻：</h2>\n  <p><strong>国家统计局：2026年上半年全国规模以上文化及相关产业企业营业收入增长4.6%</strong></p>\n  <p>36氪获悉，国家统计局数据显示，据对全国8.2万家规模以上文化及相关产业企业调查，2026年上半年，文化企业实现营业收入72026亿元，按可比口径计算，比上年同期增长4.6%。其中，文化新业态特征较为明显的16个行业小类实现营业收入35239亿元，比上年同期增长9.6%，快于全部规模以上文化企业5.0个百分点。</p>\n  <p>&nbsp;</p>",
-      "published": "2026-07-30T21:56:03+08:00",
-      "fetched_at": "2026-07-31T11:15:11.266502+08:00",
-      "pre_filter_reason": "OpenAI AI model incident",
+      "title": "Seedance 2.5发布，单次视频时长翻倍；美团上线外卖「等灯停表」功能；长鑫科技突破 4 万亿",
+      "link": "http://www.geekpark.net/news/368270",
+      "summary": "<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/8d/4a/8d4ab7a796f8507e44bbabac2ee012cc.png\" /></p><h1>DeepSeek-V4-Flash 正式版 API 上线公测，V4-Pro 正式版将「尽快」发布</h1><p>7 月 31 日消息，今天（31 日）下午，DeepSeek 通过 API 文档发布日志，宣布 DeepSeek-V4-Flash 正式版 API 上线公测。</p><p>根据介绍，DeepSeek-V4-Flash 的 Agent 能力大幅增强，基准测试<strong>远超 V4-Pro-Preview</strong>：</p><ul><li>Terminal Bench 2.1: 82.7</li><li>NL2Repo: 54.2</li><li>Cybergym: 76.7</li><li>DeepSWE: 54.4</li><li>Toolathlon verified: 70.3</li><li>Agent Last Exam: 25.2</li><li>Automation Bench (Public): 25.1</li><li>DSBench-FullStack: 68.7</li><li>DSBench-Hard: 59.6</li></ul><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/77/0f/770fb90f718d88d0d1469f2975ab617c.png\" /></p><p>据悉，正式版 V4-Flash 原生支持 Responses API 格式并针对性适配 Codex。DeepSeek-V4-Flash-0731 的模型结构、尺寸和 DeepSeek-V4-Flash-preview 保持一致，<strong>仅重新进行了后训练</strong>。（来源：新浪财经）</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/21/e3/21e37bb41a28945e523d062b6accc4aa.png\" /></p><h1>字节跳动国内推出 Seedance 2.5 视频 AI 模型：单次生成时长 30 秒、突破长叙事能力</h1><p>7 月 31 日消息，字节跳动今天（7 月 31 日）发布公告，宣布在国内推出 Seedance 2.5 视频生成模型，<strong>可单次生成 30 秒高质量视频片段</strong>，陆续上线即梦 AI 与豆包专业版，API 服务也将于近期接入火山方舟。</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/c3/8a/c38a8a7b00702dfc0a347d57dd1aa992.png\" /></p><p>官方称，Seedance 2.5 延续 Seedance 2.0 统一的多模态音视频联合生成架构，重点提升长叙事、多模态参考和编辑能力。</p><p>该模型面向影视、广告、教育、工业制造、具身智能和自动驾驶等场景，目标是让视频生成从「生成一个片段」转向「完成一段创作」。</p><p>在生成方面，<strong>Seedance 2.5 将单次视频生成时长从 15 秒提升至 30 秒</strong>，并支持多轮延长。官方称，模型可在 30 秒内组织多个具备逻辑关联的镜头，让故事可以按照铺垫、推进、转折、收尾展开。</p><h1>库克：苹果已获准在中国推出首批「Apple 智能」功能，未来的 Siri AI 还处于起步阶段</h1><p>7 月 31 日消息，苹果现任 CEO 蒂姆 · 库克（Tim Cook）今天在 2026 财年第三季度电话会议中确认，苹果公司已在中国获准推出首批「Apple 智能」（Apple Intelligence）功能。</p><p>问答环节中，摩根大通分析师萨米克 · 查特吉（Samik Chatterjee）问库克：</p><p>库克对此回答道：</p><p>据此前报道，网信部门本月会同有关部门按照《生成式人工智能服务管理暂行办法》要求，新增「Apple 智能」等 7 款提供手机端侧生成式人工智能服务备案信息。（来源：IT 之家）</p><h1>美团正式上线送外卖「等灯停表」功能，预计年内覆盖超百万骑手</h1><p>7 月 31 日消息，美团今日宣布，美团和苏州公安联合正式上线了<strong>外卖骑手「等灯停表」功能首个正式版本</strong>，目前已在率先接入交通数据的苏州道路进行实际路测。</p><p>当骑手在交通路口等红灯时，<strong>页面呈现红灯倒计时读秒信息</strong>，美团骑手 AI 安全助手发布提示信息「红灯停一停，正在记录等灯时长，订单结束时将延长本单配送时间」，骑手还可在该页面中看到所在区域的禁行道路信息，选择不同的配送路线，或根据需求自主决定配送线路。</p><p>配送完成后，骑手页面弹窗提示「订单号、等红灯累计时间」，系统告知「<strong>相应顺延最晚送达时间</strong>」，完成「等灯停表」功能。</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/14/ac/14ac327e8a773c35ad7789aedece7447.jpg\" /></p><p>目前，外卖骑手「等灯停表」功能首个正式版本已率先在苏州落地试点，<strong>首批覆盖姑苏区和苏州工业园区约 1100 个路口</strong>。在已接入交通数据的路口，骑手「等红灯、表就停」。</p><p>实现「等灯停表」主要依赖两部分数据信息，一是骑手的位置轨迹信号，二是骑手所在区域实时的红绿灯灯态数据。美团接入交通数据后，骑手 App 结合位置轨迹可实时判断骑手等灯状态。</p><p>当骑手身上有多个订单怎么办？「如果骑手在等待红灯时，身上有多笔订单，<strong>那么等灯的时长也会计入每一笔订单的配时</strong>。」美团配送安全技术团队介绍，「从最近的内部封闭路测来看，骑手体验顺畅，也有不少骑手给我们提出一些细节建议，我们已经一一记录。」</p><p>目前，北京与无锡已在同步对接测试，上海、杭州、成都、南昌、兰州等 20 余个城市也在评估中，具备条件的城市将陆续上线，<strong>预计今年内覆盖超百万骑手</strong>。</p><p>（来源：腾讯科技）</p><h1>「A 股老大」长鑫科技上市 5 天市值首次突破 4 万亿</h1><p>7 月 31 日消息，长鑫科技今日继续冲高，盘中涨超 13%，每股达到 60 元，<strong>总市值首次突破 4 万亿</strong>。</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/b8/bb/b8bb62c672d148b4236c6f8294dd7f91.png\" /></p><p>国产 DRAM 龙头企业长鑫科技 7 月 27 日正式登陆科创板，当日收涨 465.82%，总市值突破 3.28 万亿元，登顶 A 股。</p><p>据此前报道，长鑫科技上市首日即刷新四大 A 股历史纪录：</p><ul><li>1、A 股历史首只开盘市值破 3 万亿的科技股，开盘总市值约 3.31 万亿元；</li><li>2、登顶 A 股市值榜首；</li><li>3、A 股首只单日成交额突破千亿的个股，上市首小时成交已超 1000 亿元；</li><li>4、A 股首只千亿成交额叠加超 50% 换手率的新股。</li></ul><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/50/7b/507bfe2853e6fadf007bf616b131dc38.png\" /></p><h1>规范互联网渠道售卡管理，移动联通电信三大运营商停止第三方互联网渠道号卡办理</h1><p>7 月 31 日消息，据央视新闻报道，中国电信、中国移动和中国联通 7 月 31 日晚发布「关于规范互联网渠道售卡管理的公告」。</p><p>《公告》称：为保障用户权益和数据信息安全，对互联网渠道号卡订购业务进行统一规范。自 2026 年 8 月 1 日起，用户如需在互联网渠道订购号卡，<strong>只能通过电信运营商官方 App、官方网站等渠道办理，第三方互联网渠道不再提供电信号卡办理相关服务。</strong></p><p>运营商在《公告》中表示，近期发现有不法商家冒用「运营商授权合作」名义发布虚假售卡信息，或假借售卡名义收集用户身份证件、住址、联系方式等个人敏感信息，侵害了用户权益，给用户带来了极大的信息泄露风险。（来源：IT 之家）</p><h1>消息称 DeepSeek 计划在内蒙古建设大型 AI 数据中心，增加 1GW 算力</h1><p>7 月 31 日消息，据彭博社今日援引知情人士消息，DeepSeek 正计划在内蒙古建设一座大型 AI 数据中心。这一雄心勃勃的基础设施项目显示，这家中国人工智能初创公司正在扩大 AI 算力布局。</p><p>据不愿透露姓名的知情人士透露，<strong>DeepSeek 计划在内蒙古乌兰察布增加 1GW（吉瓦）规模算力</strong>。该公司除了自建数据中心计划外，<strong>也有意从其他公司租赁额外算力</strong>。</p><p>其中两位知情人士表示，<strong>DeepSeek 数据中心的部分算力将在明年年底或 2028 年初投入运行</strong>，目前尚不清楚该项目使用何种芯片。作为参考，英伟达目前是 AI 数据中心的行业标准，而华为则是中国数据中心领域的代表企业。</p><p>据 IT 之家此前报道，DeepSeek 已于 4 月放出新一批招聘信息，除了杭州和北京外，首次出现了工作地为内蒙古乌兰察布的岗位。两个相关岗位分别为数据中心高级交付经理、数据中心高级运维工程师，薪资为 15-30K · 14 薪。</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/ac/c8/acc8cb819a875de339b9f16b0701b25b.png\" /></p><p>乌兰察布年平均气温约为 4°C，天然的低温环境能够降低高功耗 AI 服务器的散热需求，<strong>因此成为各大企业建设数据中心的理想地点</strong>。</p><p>英伟达 CEO 黄仁勋曾预计，一座配备最先进 AI 加速器的 1GW 级数据中心，投资成本可能达到 500 亿美元（IT 之家注：现汇率约合 3386.82 亿元人民币）。不过这种成本会因为建设地点、AI 芯片类别产生巨大差异。众所周知，<strong>中国 AI 数据中心的建设成本通常低于美国</strong>。</p><p>由于工作时间缘故，DeepSeek 并未立即回应彭博社的置评请求。</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/88/a7/88a72b05ccc09dde46b758cce5290382.png\" /></p><h1>小米 REDMI K100 Pro 系列「满分旗舰」手机官宣，8 月 11 日发布</h1><p>7 月 31 日消息，今天上午，小米集团合伙人、总裁、手机部总裁、小米品牌总经理卢伟冰宣布，REDMI K100 Pro 系列手机双旗舰将于<strong>8 月 11 日正式发布</strong>。</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/76/4c/764cb352f97060aac185075bb17d95e0.jpg\" /></p><p>随后，卢伟冰通过长文详细介绍了这款手机背后的故事。</p><p>（来源：IT 之家）</p><h1>比亚迪海洋旗舰 SUV 海狮 08 内饰全球首秀，有望 8 月上市</h1><p>7 月 31 日消息，比亚迪汽车海洋网销售事业部总经理张卓今日公布海洋旗舰 SUV 海狮 08 内饰：「天地阔境，奢感入舱，落座之间，皆自在从容」。</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/a0/bf/a0bfd222820020c969e848db5f9dafd3.jpg\" /></p><p>从官方海报来看，此次展示的是海狮 08 六座版本，前排配备常规的悬浮式中控屏，二排吸顶屏带来更多娱乐功能，有望配备二排零重力座椅，带来更多舒适体验。</p><p>据 IT 之家此前报道，比亚迪海狮 08 今年 4 月在北京车展首发亮相，搭载第二代刀片电池、闪充技术、云辇-A（智能空气车身控制系统）、后轮转向、天神之眼 5.0 等配置。</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/35/27/352786c41e7e8920ec511047785c7a49.jpg\" /></p><p>（来源：IT 之家）</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/90/fe/90fe551a1bb246d4064a1ad15c484dfc.png\" /></p><h1>动力太强不适应：美国一女子首次驾驶 Model Y 撞入理发店后决定起诉特斯拉，索赔超 1000 万美元</h1><p>7 月 31 日消息，据 CarsCoops 今日报道，美国一名 59 岁女子因试驾特斯拉 Model Y 时发生事故受伤，近日向法院提起诉讼，要求特斯拉赔偿超过 1000 万美元（I 现汇率约合 6765.7 万元人民币）。</p><p>诉讼文件显示，该起事故发生于 2024 年 9 月 21 日，美国弗吉尼亚州阿灵顿，59 岁的阿莱姆泽沃德 · 劳加莱特（Alemzewd Lawgalet）在试驾特斯拉 Model Y 时发生严重事故，车辆冲过路面撞入一家美发店，撞击后起火。她本人也在此次事故中受重伤。</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/16/c6/16c64490a43fe8a053cbd4715e5331cd.jpg\" /></p><p>她在诉状中提到，特斯拉销售人员明知这是她第一次驾驶电动汽车，却仍让她独自驾驶车辆，没有让她充分了解电动汽车的特性，包括动能回收等功能，且车辆处于最高性能的「Insane」加速模式。</p><p>据本人称，特斯拉销售人员曾告诉她 Model Y「和燃油车操作一样」。但当她在高速公路行驶过程中松开加速踏板时，动能回收产生的强烈制动感让她措手不及，随后她驶离高速准备归还车辆。</p><p>此次事故发生在路口绿灯亮起后，她当时毫无准备地踩下加速踏板，结果 Model Y 瞬间爆发出远超预期的加速性能，冲过路面并撞入路边美容店，而她完全来不及反应。</p><p>她表示，在该模式下，Model Y 的 0-60 英里 / 小时（约 96 公里 / 小时）加速仅需约 3.3 秒，已达到超跑水准。</p><p>特斯拉方面否认承担责任，并认为她驾驶过程中未能尽到合理注意义务。双方争议焦点包括，车辆处于「Insane」驾驶模式是否合理，以及特斯拉是否有责任提前向试驾用户说明动能回收制动和车辆性能特点。诉讼尚未作出最终裁决，目前无法确认事故责任归属。</p><p>（来源：CnBeta）</p><p>我的第一个问题想回到 WWDC。当时你们宣传 Siri AI 时提到，你们可能不会在中国大陆和欧洲率先推出 Siri AI。我现在想问问这方面的最新进展，以及如果要在这些地区推出 Siri AI，还需要跨越何种障碍？</p><p>感谢你的提问，我将分别回答两个地区的问题。</p><p>如果先看欧盟，我们正在和欧盟委员会密切合作。显然我们希望的情况是能够在全球所有地区同步推出所有功能，这一直是我们的理念。</p><p>但目前我们还无法在欧盟推出 Siri AI。但我们正在与他们紧密合作，努力寻求解决方案，以便在欧盟提供 Siri AI。</p><p>Siri AI 目前已在 Mac 上测试并即将推出，因为 Mac 不像 iPhone 和 iPad 那样受到法规约束。总体来说，我们正在和欧盟方面合作，希望能够达成某种解决方案。</p><p>如果再看中国市场，<strong>上周我们已经获得批准，可以推出首批「Apple 智能」功能</strong>，比如相册的「消除」等。</p><p>我们目前正在推进这些功能的发布工作。<strong>至于未来要推出的 Siri AI</strong>，<strong>我们目前还处于起步阶段</strong>，还有更多工作要努力完成。</p><p>满血性能，满配游戏体验</p><p>屏幕、影像、续航，全面焕新升级</p><p>一起见证，这份给你的「满分答卷」</p><p>当下手机行业，内存成本暴涨，核心硬件涨价，风浪席卷整个赛道。</p><p>REDMI K 系列从不是时代的幸运儿。2019 年至今，它每一次面对的都不是好打的仗，曾经的「缺芯少屏」犹在眼前，但正是那些最难的仗，逼出了双平台布局，逼出了国屏供应链的崛起。七代产品，七次蜕变，每一次求变迎战，都让 K 系列比上一次站得更高。敢变、能变、变得更好—— 这是 K 系列百战不殆的底牌。</p><p>今天，全新的 K100 系列来了。面对存储价格疯涨的行业周期，我们再次做出逆惯性的选择。行业惯性扎堆下半年发布，K100 系列产品节奏提档，只为打造一款用户真正期待的全能旗舰。</p><p>K100 Pro 双旗舰，率先登场。</p><p>去年我们以不设上限的理念，打造了 K90 Pro Max，在性能、续航、屏幕维持传统优势的同时，质感、影像、音质实现跨越式升级。这一次，K100 Pro 双旗舰，要让每一项体验都经得起较真。</p><p>K100 Pro，打造 4K 档全能旗舰，无短板：K100 Pro Max，目标是全能之上，打造游戏体验新标杆；</p><p>K100 时代，K 系列进入新阶段。全能旗舰已经是我们能做好的事。Pro 不再只是更好的版本，它就是 K 系列精神的继承者，能力的承载者，体验的标杆。满血满配，不是硬件堆料，是每个维度都拉到这个价位段的上限，尤其在游戏场景，我们花了大量精力去打磨。</p><p>K100 Pro 双旗舰，满血满配，满分旗舰。</p><p>当然，标准版并未缺席，它将坚守 K 系列「旗舰性能与务实体验」的精髓，稍晚时带来更多元选择。</p>",
+      "published": "2026-08-01T08:42:19+08:00",
+      "fetched_at": "2026-08-01T11:13:16.585884+08:00",
+      "pre_filter_reason": "DeepSeek模型发布，AI相关",
       "scores": {
         "importance": 8,
         "timeliness": 9,
-        "actionability": 7,
+        "actionability": 8,
         "scarcity": 7,
         "virality": 8,
-        "crowd_heat": 0.0
+        "crowd_heat": 3.5
       },
-      "quality_score": 7.5,
+      "quality_score": 7.6,
       "topics": [
         {
           "tag": "news",
-          "title": "OpenAI承认AI失控入侵？一文梳理事件始末与行业影响",
-          "angle": "快速梳理“AI模型失控入侵”事件的来龙去脉，包括涉及平台、官方回应和用户担忧，并邀请安全专家解读这是否意味着AI风险失控，以及企业该如何防范。",
+          "title": "DeepSeek-V4-Flash 公测：单次视频时长翻倍，AI 视频生成迎来「长镜头」时代？",
+          "angle": "汇总 Seedance 2.5 与 DeepSeek-V4-Flash 的关键更新，对比前代与竞品，分析视频生成时长翻倍对内容创作、广告、影视行业的影响。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "存储芯片又要涨价？三星预警供不应求背后的AI算力军备竞赛",
-          "angle": "结合三星电子与五大云巨头签约的消息，分析AI基础设施投资如何拉动HBM和SSD需求，解读存储芯片市场供需失衡的深层原因，以及对中国存储产业链的启示。",
+          "tag": "tutorial",
+          "title": "实测 DeepSeek-V4-Flash API：三分钟生成一段连贯的长视频",
+          "angle": "手把手教开发者调用 V4-Flash API，演示如何设置参数生成高质量长视频，并分享成本控制与效果调优的实战经验。",
           "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "8e0dde6f9b43",
+      "id": "5a88869659bb",
       "source_id": "qbitai",
       "source_name": "量子位",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "李飞飞的世界模型，终于开始训练机器人了",
-      "link": "https://www.qbitai.com/2026/07/463217.html",
-      "summary": "李飞飞老师的World Labs，补了块关键拼图",
-      "published": "2026-07-30T15:47:37+08:00",
-      "fetched_at": "2026-07-31T11:15:18.706167+08:00",
-      "pre_filter_reason": "AI research and product launch",
+      "title": "视频后期，危！MiniMax H3手绘即特效，多模态的「Coding时刻」来了",
+      "link": "https://www.qbitai.com/2026/07/464277.html",
+      "summary": "尽显AGI黄金时代的奢华",
+      "published": "2026-07-31T16:28:30+08:00",
+      "fetched_at": "2026-08-01T11:13:13.415451+08:00",
+      "pre_filter_reason": "AI视频生成/多模态模型",
       "scores": {
         "importance": 8,
-        "timeliness": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "手绘秒变特效！MiniMax H3 视频后期黑科技实测",
+          "angle": "演示如何用 MiniMax H3 将简单手绘草图直接转化为动态视频特效，展示其操作流程和效果对比，吸引视频创作者尝试。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "视频后期要失业？MiniMax H3 如何颠覆传统特效制作",
+          "angle": "深入分析 MiniMax H3 的多模态能力对视频后期行业的影响，探讨其是否标志着“AI 特效时代”的来临，以及创作者该如何应对。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "8bb5a42f78cb",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "search",
+      "title": "上线两天被“挤爆”！中国开源模型，火遍全球 - 数字中国建设峰会",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9RZlVELTMwVnRwZ1FDZl9vM0FfRVlUeVRmSVpUZ1BMbDV6YmdfeXlvNmxNOU5McXluWWVGbXlwZG1IOXh2V29DMGppcnlMbDlVaWZyRDJMQTJFcl9EZVIzeEhXRHFWS1NUYllXS3lHXzJxMXJDNGc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9RZlVELTMwVnRwZ1FDZl9vM0FfRVlUeVRmSVpUZ1BMbDV6YmdfeXlvNmxNOU5McXluWWVGbXlwZG1IOXh2V29DMGppcnlMbDlVaWZyRDJMQTJFcl9EZVIzeEhXRHFWS1NUYllXS3lHXzJxMXJDNGc?oc=5\" target=\"_blank\">上线两天被“挤爆”！中国开源模型，火遍全球</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">数字中国建设峰会</font>",
+      "published": "2026-07-31T10:38:00+08:00",
+      "fetched_at": "2026-08-01T11:13:22.465632+08:00",
+      "pre_filter_reason": "中国开源模型火遍全球",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "中国开源模型火遍全球，两天挤爆服务器！",
+          "angle": "快速解读这一现象级事件，盘点该模型的亮点和全球开发者追捧的原因，突出中国 AI 技术的国际影响力。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "手把手教你部署中国开源模型，体验全球爆款",
+          "angle": "提供该开源模型的本地部署或云端调用教程，帮助开发者快速上手，并分享实际应用场景和性能表现。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "da392d35c43f",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "indutny/no-ai-in-nodejs-core",
+      "link": "https://github.com/indutny/no-ai-in-nodejs-core",
+      "summary": "A petition to disallow acceptance of LLM generated Pull Requests in Node.js core",
+      "published": "2026-08-01T11:13:25.456173+08:00",
+      "fetched_at": "2026-08-01T11:13:25.456176+08:00",
+      "pre_filter_reason": "LLM generated PRs policy",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
         "actionability": 8,
         "scarcity": 8,
         "virality": 8,
@@ -692,32 +470,69 @@
       "quality_score": 7.5,
       "topics": [
         {
-          "tag": "explainer",
-          "title": "李飞飞的World Labs开始训练机器人，世界模型到底强在哪？",
-          "angle": "用对比方式解释“世界模型”与普通AI模型的区别，结合World Labs的最新进展，说明为什么世界模型能让机器人更懂物理规律，并展望其在具身智能领域的应用前景。",
-          "difficulty": "入门"
+          "tag": "opinion",
+          "title": "Node.js 核心拒绝 AI 代码，是保守还是明智？",
+          "angle": "围绕社区请愿书展开讨论，分析 LLM 生成代码在核心项目中的风险与价值，引发开发者对 AI 协作边界的思考。",
+          "difficulty": "进阶"
         },
         {
           "tag": "analysis",
-          "title": "从视觉到行动：李飞飞押注世界模型，机器人AI的下一站是？",
-          "angle": "深度分析World Labs从3D生成转向机器人训练的战略逻辑，探讨世界模型如何解决机器人在真实环境中的泛化难题，并对比英伟达、谷歌等巨头的具身智能路线图。",
+          "title": "AI 代码审查风暴：开源项目如何守住质量底线？",
+          "angle": "从该事件切入，探讨开源社区在接纳 AI 生成代码时面临的挑战，并提出可行的质量保障策略。",
           "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "fdcdbe45d30e",
-      "source_id": "leiphone",
-      "source_name": "雷锋网",
+      "id": "315f90b54ea7",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Advancing responsible AI across Europe",
+      "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "published": "2026-07-31T23:00:00+08:00",
+      "fetched_at": "2026-08-01T11:13:01.727956+08:00",
+      "pre_filter_reason": "AI governance and safety",
+      "scores": {
+        "importance": 7,
+        "timeliness": 6,
+        "actionability": 6,
+        "scarcity": 5,
+        "virality": 5,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "OpenAI 欧洲 AI 治理新动作：安全与透明成关键词",
+          "angle": "梳理 OpenAI 在欧洲负责任 AI 实践的最新举措，解读 EU AI Act 背景下科技巨头的合规策略。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "EU AI Act 倒计时：OpenAI 的应对策略给行业什么启示？",
+          "angle": "深度分析 OpenAI 在欧洲的安全、透明和溯源实践，探讨其对全球 AI 企业合规发展的示范效应。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "ae245b0a1ac5",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "字节跳动To B战略升级：豆包、飞书、火山引擎组织调整，聚焦AI企业服务",
-      "link": "https://www.leiphone.com/category/industrynews/xyLgZqICAgWW69M0.html",
-      "summary": "<p>7月30日，字节跳动启动面向 AI 业务的组织调整，加强豆包、飞书、火山引擎在企业生产力场景的产品与服务协同。</p><p>根据调整方案，飞书产品团队与豆包产品团队将整合，成立新的豆包产品团队，由豆包负责人赵祺负责，飞书负责人谢欣向赵祺汇报。GTM （市场、销售、客户服务）体系方面，飞书GTM团队将与火山引擎团队整合，成立新的 ToB GTM 组织“创造力服务平台（Creativity Service Platform）”，整体负责字节 MaaS和SaaS等云服务的市场、销售和客户服务，由火山引擎负责人谭待负责，飞书销售负责人林婵、飞书战略及市场负责人史志隽向谭待汇报。</p><p>重组完成后，除原有的飞书产品和服务保持不变，飞书还将和豆包在生产力场景进行更深度的产品协作。据悉，由飞书产品团队深度参与开发的豆包企业版，已经在部分飞书客户中开启内测。豆包企业版不仅拥有通用AI生产力工具的能力，而且原生集成了飞书生态体系。用户无需额外部署即可打通飞书文档、表格、会议、群聊等全办公场景，并支持基于企业自有知识库的精准问答与智能创作。此外，豆包企业版还配备了完善的企业级数据隔离、权限管控与安全审计能力。</p><p>在企业服务层面，新成立的创造力服务平台部，将会整合字节To B业务服务客户的能力，更好地满足企业客户的AI需求。新部门名称中的“创造力”，源自字节对其使命“激发创造、丰富生活”的最新阐释，即“通过计算换智能，通过智能提升创造力和体验”。</p><p>此次组织整合背后，是字节正在进一步提升AI to B战略的优先级。截至今年 6 月，豆包大模型日均 Token 调用量突破 180 万亿，火山引擎在公有云 MaaS 市场占据重要份额，飞书商业化增长也明显加速。2026 年二季度，飞书新增客户中已有超九成同步采购飞书 AI 产品。据了解，按7月平均消耗口径统计，字节大模型业务ARR（年化收入）达40亿美元，超过国内其他模型公司ARR总和。</p><p>在今年6月的火山引擎FORCE原动力大会上，字节跳动CEO梁汝波曾在开场致辞中提到，“攀登AI高峰是字节当下最重要的事情”，字节正“把精力重点聚焦到AI，在AI里聚焦到提升模型能力，在这个背景下，火山引擎MaaS业务正在变成字节的基础业务”。</p><p style=\"color: #ffffff;\">雷峰网 雷峰网</p>",
-      "published": "2026-07-30T11:24:00+08:00",
-      "fetched_at": "2026-07-31T11:15:15.672700+08:00",
-      "pre_filter_reason": "字节跳动AI业务组织调整，聚焦AI企业服务",
+      "title": "GitHub AI Agent 翻车：攻击者不用黑客技术，只写一句话就能窃取数据",
+      "link": "https://www.infoq.cn/article/u4rDqep8zVWUJsqVoQ23?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/u4rDqep8zVWUJsqVoQ23?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-07-31T20:00:00+08:00",
+      "fetched_at": "2026-08-01T11:13:11.575293+08:00",
+      "pre_filter_reason": "GitHub AI Agent security issue",
       "scores": {
         "importance": 8,
         "timeliness": 8,
@@ -729,15 +544,200 @@
       "quality_score": 7.5,
       "topics": [
         {
-          "tag": "news",
-          "title": "字节跳动整合豆包与飞书，To B AI大战一触即发？",
-          "angle": "快速解读字节跳动此次组织调整的要点（豆包+飞书+火山引擎），分析其背后的战略意图——如何用AI重塑企业服务，以及这对钉钉、腾讯会议等竞品意味着什么。",
+          "tag": "tutorial",
+          "title": "一句话攻破 GitHub AI Agent：安全漏洞演示与防御指南",
+          "angle": "以实际案例演示攻击者如何利用简单提示词绕过 AI Agent 的安全机制，并提供开发者可落地的防护建议。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "analysis",
+          "title": "AI Agent 安全警钟：GitHub 翻车事件背后的技术真相",
+          "angle": "深入剖析该攻击的原理，揭示 AI Agent 在权限控制、输入校验等方面的薄弱环节，并展望未来安全设计方向。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "67cddfa85794",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "Kimi K3 已提前亮相？神秘模型「Kivine」现身，百万上下文能力惊艳全球",
+      "link": "https://www.leiphone.com/category/ai/mER69AfKN23gn4Yt.html",
+      "summary": "<section style=\"text-align: center; margin: 0px 16px; line-height: 1.75em; display: block;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c86c236915.jpg?imageMogr2/quality/90\" style=\"width: 100%; display: inline-block; text-align: center; background-color: transparent; height: auto !important;\" /></section><section style=\"padding-left: 16px; padding-right: 16px;\"><section style=\"width: 100%; display: flex; padding: 0px;\"><section style=\"width: 100%; padding-left: 0px; padding-right: 0px;\"><section style=\"width: 100%; background: rgb(246, 248, 255); padding: 20px 0px 12px; margin-top: 0px; margin-bottom: 0px;\"><section style=\"text-align: center;\"><section><section style=\"text-align: justify; margin: 0px 16px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><span><span style=\"font-weight: bold;\">如果传闻属实，Kimi K3 将成为国产模型的重要节点。</span></span></span></span></section><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><section style=\"text-align: left; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; letter-spacing: 0.5px;\"><span><br /></span></span></section></section></section><span></span><span></span><span></span><span></span><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #888888; font-weight: normal;\">&nbsp; &nbsp; 作者丨</span></span><span style=\"font-size: 14px; line-height: 25px; color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\">郑佳美、樊天骄</span><strong><span><strong><span><span><br /></span></span></strong></span></strong></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; margin-bottom: 0px; margin-top: 0px;\"><span style=\"font-family: Optima-Regular, PingFangTC-light;\"><span style=\"color: #888888; font-weight: normal; font-family: Arial, Helvetica, sans-serif;\"><span>&nbsp; &nbsp; 编辑丨</span><span>马晓宁</span></span></span></p><p style=\"font-size: 14px; color: rgb(0, 0, 0); line-height: 25px; text-align: right; margin: 0px 16px;\"><strong><strong><span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></strong></strong></p></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">7 月 15 日，一款名为 Kivine 的匿名模型突然出现在 LMArena。雷峰网</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">按照正常流程，它本应该只是众多匿名测试模型中的一个，等待用户通过盲测判断能力高低。但这一次情况有些不同，在上线之后短短几个小时内，Kivine 就迅速成为全球 AI 社区关注的焦点。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">越来越多测试者开始怀疑，这个隐藏身份出现的模型，很可能就是月之暗面尚未正式发布的下一代旗舰模型——</span><strong style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">Kimi K3</span></span></strong><span style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">。</span></span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">目前，月之暗面并没有公开确认 Kivine 与 Kimi K3 的关系，也没有发布任何官方技术资料。但从已经曝光的信息来看，事情正在形成一条越来越完整的证据链。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">从 LMArena 上的模型表现，到用户测试反馈，再到 beta.kimi.link 后台出现的产品信息，以及提前泄露又迅速消失的充值活动页面，所有线索都指向同一个方向：</span><strong style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">Kimi K3 可能已经完成了大部分发布准备，只是在等待最后的公开亮相。</span></span></strong></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这也让 Kimi K3 的曝光方式变得非常特别。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">过去，大模型发布通常伴随着发布会、技术报告以及官方宣传，但这一次，月之暗面似乎选择了一种更加隐秘的方式，让模型先进入真实用户环境接受测试，再根据反馈调整最终版本。只不过，这种“隐藏测试”最终没有完全隐藏住。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c86c26d95f.jpg?imageMogr2/quality/90\" style=\"display: block; background-color: transparent; width: 38px !important; height: auto !important;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>01</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">一个匿名模型，</span></strong></strong></strong></h2></section><section style=\"text-align: center;\"><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">为什么会被认为是 Kimi K3？</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">事情的起点来自 X 用户 @lentils80。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">7 月 15 日凌晨，他在浏览 LMArena 时发现，一个此前从未出现过的新模型悄然上线，名称为 Kivine。随后，他发布了一条引发大量讨论的推文：</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">“Kimi K3 is already on LMArena under the stealth name Kivine.” 这句话迅速在 AI 圈传播。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">之所以引发关注，并不是因为“Kivine”这个名字本身有多么明确。实际上，LMArena 上的匿名模型经常使用随机名称，单纯依靠名称判断模型身份并不可靠。但问题在于，Kivine 出现之后，用户很快发现，它在能力表现上展现出了许多与此前 Kimi K3 传闻高度吻合的特点。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c86c2a018f.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%; height: auto !important;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">其中最明显的一点，就是长上下文能力。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">LMArena 的意义在于，它并不是实验室内部测试，而是真实用户环境下的公开竞技场。模型需要面对各种复杂任务，包括写代码、分析文件、进行长文本总结、完成多步骤推理。在这种环境中，一个模型是否真正具备能力，很容易被用户发现。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">而 Kivine 在这些任务中的表现，让很多测试者第一时间联想到月之暗面。尤其是它对于超长信息的处理能力，与 Kimi 系列一直以来的技术路线非常接近。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">在测试过程中，多名用户注意到，Kivine 展现出了明显的长上下文优势。雷峰网</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">X 用户 @kimmonismus 测试后表示，Kivine 拥有 1M context，并且在长程任务处理中表现更好。这一点非常关键，因为百万 token 上下文一直是外界对 Kimi K3 最大的期待之一。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">对于当前的大模型竞争来说，参数规模已经不再是唯一指标。随着模型能力逐渐接近，如何让 AI 理解更长的信息、保持更稳定的任务连续性，正在成为下一阶段竞争重点。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c86c2ccefd.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%; height: auto !important;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">百万 token 上下文意味着模型可以一次性处理更大规模的信息输入。例如，一整套企业资料、几十万字的研究报告、大型软件项目代码，甚至长期积累的知识库，都可以进入模型理解范围。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这正好符合月之暗面过去的发展方向。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">Kimi 最早被用户熟知，就是因为它在长文本阅读领域表现突出。当其他聊天模型仍然受到上下文限制时，Kimi 通过更长的输入能力迅速建立差异化优势。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">随后推出的 K2 系列，则开始向推理和复杂任务方向发展。如果 Kimi K3 真正具备百万 token 上下文能力，那么它实际上是在延续一条非常清晰的路线：让 AI 从简单回答问题，进一步变成能够长期参与复杂工作的智能系统。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">因此，当 Kivine 在竞技场中表现出类似能力时，社区很自然地将它与 Kimi K3 联系起来。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">除了长上下文之外，Kivine 最受关注的地方，是它展现出的生成质量。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">一名测试用户 @synthwavedd 在体验后表示，Kivine 的输出质量已经接近“Fable level”。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这里的 Fable，被认为对应 Anthropic 旗下顶级模型水平。虽然目前没有官方信息证明这种比较准确，但从用户反馈来看，Kivine 在复杂任务上的表现确实给不少人留下了深刻印象。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">一些测试案例显示，Kivine 不只是完成简单问答，而是在需要连续规划和创造性工作的任务中表现突出。例如，有用户要求它制作一款类似《我的世界》的小游戏，需要包含中世纪城堡、森林环境、花草细节以及光影效果。最终生成结果不仅包含基础玩法，还加入了寻宝机制和环境音效设计。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这种表现说明，Kivine 的目标可能并不是普通聊天，而是更加偏向复杂任务执行。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c86c31b72d.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%; height: auto !important;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">但与此同时，一个明显的问题也暴露出来：速度。测试用户反馈，一次完整生成过程可能需要等待约 35 分钟。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这几乎意味着 Kivine 使用了高强度推理模式。在当前 AI 行业中，推理能力越强，通常意味着更高计算成本和更长响应时间。OpenAI、Anthropic 等公司的顶级推理模型同样面临类似问题。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c86c34ab33.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%; height: auto !important;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">因此，Kivine 展现出来的是一种典型取舍：它可能追求的是极致质量，而不是即时响应。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">对于普通消费者来说，等待几十分钟生成一次答案显然难以接受。但对于科研、软件开发、企业分析等专业领域，如果模型能够完成过去需要数小时人工投入的任务，那么这种等待仍然可能具有商业价值。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c86c37c86f.jpg?imageMogr2/quality/90\" style=\"display: block; background-color: transparent; width: 38px !important; height: auto !important;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>02</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">发布前夜，</span></strong></strong></strong></h2></section><section style=\"text-align: center;\"><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">Kimi K3 的产品信息已经开始泄露</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">如果说 LMArena 上的 Kivine 只是能力层面的猜测，那么随后出现的产品信息，让外界对 Kimi K3 的判断进一步加强。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">7 月 14 日晚，一张“Kimi K3 发布限时充值活动”的截图开始在 AI 圈传播。页面显示，用户可以在指定时间充值并获得额外奖励。但奇怪的是，这个页面存在时间非常短，很快便被撤下。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">单独来看，这或许只是一次测试页面误上线。但结合后续发现的信息来看，外界更倾向于认为，这是月之暗面提前准备好的发布物料。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c86c45fb9e.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%; height: auto !important;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">随后，网友通过抓包发现，beta.kimi.link 后台已经出现 K3 相关模型信息。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">从接口信息来看，Kimi 产品体系可能已经完成重新划分。K3 被放在默认位置，负责更加复杂的任务处理；K3 Agent 集群则对应更强的自动化能力；而 K2.6 并没有消失，而是被重新定位为快速响应模型。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c86c4989f1.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%; height: auto !important;\" /></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这么看，这个变化实际上也透露出了月之暗面未来产品策略的方向。雷峰网</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">过去，大模型竞争主要围绕“谁回答得更聪明”。但未来竞争可能更多围绕“谁能够真正完成工作”。因此，一个模型负责快速交流，一个模型负责复杂推理，再通过 Agent 系统执行具体任务，可能成为下一代 AI 产品的标准形态。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">除了产品信息之外，社区还流传出了部分测试成绩。根据目前曝光结果，Kimi K3 在部分测试中超过 Claude Opus 4.7、GPT-5.5 以及 GPT-5.6 Terra，但与 GPT-5.6 Sol 和 Fable 5 相比仍存在差距。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这些结果目前无法得到官方验证，因此需要保持谨慎。但如果最终成绩接近传闻水平，其意义仍然非常明显。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">过去几年，中国大模型行业的发展逻辑主要是追赶。从参数规模到训练数据，再到模型能力，中国企业一直在缩小与海外领先公司的差距。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">但如果 Kimi K3 真正达到全球第一梯队水平，那么竞争关系将发生变化。国产模型将不再只是寻找应用机会，而是开始直接参与最高水平基础模型竞争。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">与此同时，关于 Kimi K3 的技术规格也不断被曝光。目前传闻最多的是超过 2.5 万亿参数规模。如果这一数字成立，它将超过此前多款国产旗舰模型，成为国产大模型中规模最大的模型之一。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">此外，K3 还被认为可能支持百万 token 上下文、原生多模态能力，以及新的注意力架构设计。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">不过，这些信息目前仍然属于未经官方确认的消息。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">但从目前迹象来看，Kimi K3 很可能已经具备公开测试条件。但为什么迟迟没有正式发布，可能还有几个现实原因。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">首先是模型稳定性。</span></span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">高质量推理能力背后，需要巨大的计算资源支撑。35 分钟生成时间说明，模型虽然可能拥有非常强的能力，但如何降低成本、提高响应速度，仍然是商业化过程中必须解决的问题。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">其次是产品设计。</span></span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">一个顶级模型真正进入市场，并不只是开放接口那么简单。会员体系、调用限制、价格策略、Agent 服务模式，都需要提前规划。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><strong style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"text-align: justify; line-height: 1.75em; font-weight: bold; font-size: 15px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7;\">最后是发布节奏。</span></span></strong><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">如今的大模型发布已经不是单纯展示技术能力，而是一场综合竞争。技术报告、产品体验、生态合作以及市场传播，都需要同步准备。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">因此，Kimi K3 可能不是没有准备好，而是在等待一个更合适的时间点。</span></p><section><section><section style=\"width: 100%; display: flex; padding: 0px 14px 0px 14px;\"><section style=\"display: flex;\"><section><img alt=\"图片\" class=\"rich_pages wxw-img __bg_gif\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c86c4d83b9.jpg?imageMogr2/quality/90\" style=\"display: block; background-color: transparent; width: 38px !important; height: auto !important;\" /></section><section style=\"text-align: center;\"><p style=\"font-size: 36px; color: #333333; line-height: 50px;\"><strong><span>03</span><span><br /></span></strong></p><h2><span><br /></span></h2><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">Kimi K3 可能已经来了，</span></strong></strong></strong></h2></section><section style=\"text-align: center;\"><h2><strong><strong style=\"text-align: center; font-size: 18px; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Optima-Regular, PingFangTC-light;\"><strong style=\"text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\"><span style=\"text-align: center; color: #333333; line-height: 25px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 18px;\">只是还差一次正式亮相</span><span><br /></span></strong></strong></strong></h2></section></section></section></section></section><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">从 LMArena 上突然出现的 Kivine，到 beta 接口中的 K3 信息，再到提前泄露的运营页面，越来越多线索正在汇聚。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">虽然月之暗面尚未公开确认，但 Kimi K3 已经很难再称为一个秘密。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">如果最终证实 Kivine 就是 Kimi K3，那么这不仅意味着月之暗面完成了一次模型升级，也可能成为国产 AI 竞争格局中的一个重要节点。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">它代表的不是简单的参数增加，而是国产模型开始尝试进入全球顶级模型竞争。当然，Kimi K3 最终能否成功，并不只取决于它的能力上限。</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">真正决定它商业价值的，是它能否解决一个现实问题：一个需要 35 分钟才能完成任务的超级模型，如何变成普通用户每天都愿意使用的 AI 助手？</span></p><p style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><span style=\"font-size: 15px; font-family: Arial, Helvetica, sans-serif;\">这可能才是 Kimi K3 正式发布之后，真正面对的挑战。</span></p><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c86c5091bc.jpg?imageMogr2/quality/90\" style=\"height: auto !important;\" /></section><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c86c52a6b6.jpg?imageMogr2/quality/90\" style=\"height: auto !important;\" /></section><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c86c54dfb0.jpg?imageMogr2/quality/90\" style=\"height: auto !important;\" type=\"block\" /></section><section><section><section><section><section><section><svg viewBox=\"0 0 1 1\" xmlns=\"http://www.w3.org/2000/svg\"></svg></section></section><section><p><strong><span><span style=\"color: #4499E7;\">上车，带你看遍全球 AI 顶会精华</span></span></strong></p><span></span></section></section></section></section></section><section><section><p style=\"text-align: center; margin: 0px 16px 8px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">可独家畅览：</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">专家演讲PPT</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">大会报告全文</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">热门论文解读</span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">学术新星访谈</span></span></p><span></span><section style=\"text-align: justify; margin: 16px 16px 24px; line-height: 1.75em;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c86c57366f.jpg?imageMogr2/quality/90\" style=\"width: 100%; height: auto !important;\" /></section><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">扫描上方二维码</span></span></span></p><p style=\"text-align: center; margin-right: 16px; margin-bottom: 8px; margin-left: 16px; line-height: 1.75em;\"><span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">或点击</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">「</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">阅读原文</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">」</span></span><span style=\"line-height: 1.75em; font-size: 15px; letter-spacing: 0.5px; font-family: Arial, Helvetica, sans-serif;\"><span style=\"color: #4499E7; font-weight: bold;\">关注专区。</span></span></span></p></section></section><section><span></span></section><section><span></span></section>",
+      "published": "2026-07-31T19:30:00+08:00",
+      "fetched_at": "2026-08-01T11:13:10.270391+08:00",
+      "pre_filter_reason": "Kimi K3 AI model leak",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Kimi K3 提前亮相？手把手教你用「Kivine」玩转百万上下文",
+          "angle": "以「Kivine」模型为切入点，制作一个入门级教程，演示如何利用其百万上下文能力进行长文档分析、复杂信息整合等实操，降低用户对新技术的使用门槛。",
           "difficulty": "入门"
         },
         {
           "tag": "analysis",
-          "title": "字节跳动All in AI To B：从MaaS到SaaS的生态棋局",
-          "angle": "深入剖析“创造力服务平台”的成立逻辑，探讨字节如何打通豆包的AI能力、飞书的协同场景和火山引擎的算力底座，构建类似微软Copilot的企业服务生态闭环。",
+          "title": "Kimi K3 悬念揭晓？「Kivine」亮相背后的 AI 竞赛新信号",
+          "angle": "从行业竞争角度分析「Kivine」的突然出现对现有大模型格局的影响，探讨百万上下文是否是下一阶段 AI 竞争的关键指标，并解读其技术突破对普通用户的意义。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "d58b4cb11410",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "刚刚，即梦 Seedance 2.5来了！我狂测测测测……",
+      "link": "https://www.qbitai.com/2026/07/464329.html",
+      "summary": "行业独家的30s视频原生直出",
+      "published": "2026-07-31T16:48:22+08:00",
+      "fetched_at": "2026-08-01T11:13:13.415436+08:00",
+      "pre_filter_reason": "AI视频模型产品发布",
+      "scores": {
+        "importance": 7,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "即梦 Seedance 2.5 实测：30秒视频原生直出，手把手教你创作大片",
+          "angle": "以实操演示为核心，展示 Seedance 2.5 如何一键生成 30 秒高质量视频，从输入提示词到调整细节，提供完整的创作流程指南，帮助内容创作者快速上手。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "review",
+          "title": "狂测 Seedance 2.5：行业独家30秒直出，是噱头还是真颠覆？",
+          "angle": "通过多维度压力测试（如不同风格、复杂场景、动态镜头），客观评测 Seedance 2.5 的视频生成质量与稳定性，并与前代或竞品对比，给出是否值得升级的结论。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "5dd0e46731de",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "字节跳动发布 Seedance 2.5，徐工、小鹏等企业官宣合作",
+      "link": "https://www.leiphone.com/category/industrynews/FMW8XVv6xVkpqzGT.html",
+      "summary": "<p>7 月31日，字节跳动正式发布新一代视频生成模型 Seedance 2.5。该模型在生成时长、多模态理解、编辑精度等维度实现全面升级，目前已上线豆包、即梦、扣子、小云雀等字节旗下产品，并将于近期通过火山引擎面向企业用户开放。</p><p>相较年初发布的Seedance 2.0，Seedance 2.5 在四大核心能力上均实现突破。单次生成视频时长提升至30 秒，并提供高保真时序延长能力，可在更长时长内保持人物、场景与镜头的一致性；支持最多50个多模态参考素材，同时新增白模、绿幕参考能力，复杂项目与工业化创作更加可控；增加了视频局部编辑能力，支持在维持整体画面节奏的前提下，对背景、商品、人物等局部元素进行精准修改；同时原生支持 10 余种语言，并加强了复杂指令控制，能够适配多语言、多版本的工业化生产需求。</p><p>此次升级将视频生成从“能生成”推向“可修改、可迭代、可交付”的新阶段，其应用边界也正从内容创作向实体产业深度延伸，在智能驾驶、具身智能、实体制造、教育、电商出海等领域拥有广泛的应用空间。比如合成极端天气、罕见路况、各类突发事故等场景素材，帮助智能驾驶测试拓展覆盖面；辅助生成教学演示视频，让知识分享更加可见可感；针对不同市场，快速完成广告素材不同版本的制作等。</p><p><img src=\"https://static.leiphone.com/uploads/new/images/20260731/6a6c2f0d1ff5c.png?imageMogr2/quality/90\" /></p><p>Seedance 2.5新增白模参考能力，能够将已有白模素材渲染为画面写实的汽车拼装片段</p><p>记者从火山引擎获悉，Seedance 2.5 发布当日，徐工集团、小鹏汽车、灵初智能、微分智飞、穹彻智能等多家企业已确认合作，将率先引入该模型能力。目前，这些企业已经基于 Seedance 系列模型展开了场景落地探索。徐工集团将其应用于工业操作培训与工序 SOP 视频生成，大幅降低传统实拍与 3D 动画的制作成本。小鹏汽车将 Seedance 能力集成至内部一站式 AI 设计平台，辅助产品设计环节的可视化创作。穹彻智能则借助视频生成扩充了具身智能大模型的训练数据，无需依赖实体机器人逐一采集，就能生成适配不同机型的操作数据，提升模型在多种机器人上的适配能力与通用性。微分智飞则在飞行具身领域深入探索，将 Seedance 融入飞行机器人应用，打造出一套标准化、高难度的数据集生成流程，能够精准模拟障碍物闪避、室内自主寻路、智能目标锁定乃至复杂镜头运动等真实难题，产出高质量训练数据。灵初智能也已在具身智能方向推进应用探索。</p><p>香港科技大学副教授王帅表示，视频生成模型正在经历一个关键转变：从 “生成内容” 走向 “理解世界”，从 “辅助创意” 走向“提升生产力”。随着模型对物理规律理解能力的增强，其应用边界将进一步扩大，不仅服务于内容产业，更有望成为具身智能、机器人仿真、自动驾驶、工业设计验证等领域的重要基础能力。“因为这些场景都需要模型理解‘一个动作会带来什么后果’‘一个场景会如何演化’，从这个角度看，Seedance 2.5 代表的不只是视频生成质量的提升，更是生成式 AI 向真实产业生产流程深入融合的一个重要信号”，王帅说。</p><p style=\"color: #ffffff;\">雷峰网 雷峰网</p>",
+      "published": "2026-07-31T13:13:00+08:00",
+      "fetched_at": "2026-08-01T11:13:10.270556+08:00",
+      "pre_filter_reason": "字节跳动发布视频生成模型Seedance 2.5",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "字节 Seedance 2.5 正式发布：30秒生成、50个参考素材，企业级视频创作进入新时代",
+          "angle": "提炼官方发布的核心升级点（时长、多模态、编辑精度），结合徐工、小鹏等企业合作案例，解读该模型对工业设计和商业视频制作流程的变革性影响。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "从 Seedance 2.0 到 2.5：字节如何用「可控性」抢占 AI 视频工业化高地？",
+          "angle": "深度分析 Seedance 2.5 新增的白模、绿幕参考及局部编辑能力，探讨这些功能如何解决 AI 视频在商业项目中「不可控」的痛点，并预测其对影视、广告行业的冲击。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "c5fae2a05e8e",
+      "source_id": "ifanr",
+      "source_name": "爱范儿",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "实测 DeepSeek V4 正式版：3 块钱干完 5 件事，AI「智价比」之战开打了",
+      "link": "https://www.ifanr.com/1673553?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "顶级模型的竞争，正在从单纯比拼能力上限，转向同时争夺「智价比」。<p>#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>",
+      "published": "2026-07-31T19:50:59+08:00",
+      "fetched_at": "2026-08-01T11:13:17.823693+08:00",
+      "pre_filter_reason": "DeepSeek AI model benchmark",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 8,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "DeepSeek V4 实测：3块钱干完5件事，教你榨干 AI 的「智价比」",
+          "angle": "以实际任务清单（如写文案、做表格、写代码、翻译、总结）为例，演示 DeepSeek V4 如何用极低成本完成多项工作，并分享高效使用提示词的技巧，帮助用户省钱省力。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "「智价比」之战开打：DeepSeek V4 低价高能，顶级模型要变天？",
+          "angle": "从市场策略角度分析 DeepSeek V4 的定价对行业的影响，探讨「性价比」是否将成为 AI 竞争的核心维度，并对比其他顶级模型的成本与性能，预测未来价格战趋势。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "75c9c3a89e80",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "微软、Meta 同日交财报：小扎把现金流烧到只剩7.84亿美元，纳德拉靠 Azure 赚疯了",
+      "link": "https://www.infoq.cn/article/cWloUAofMHCLHpvscihh?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/cWloUAofMHCLHpvscihh?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-07-31T18:53:15+08:00",
+      "fetched_at": "2026-08-01T11:13:11.575345+08:00",
+      "pre_filter_reason": "微软Meta财报涉及AI云业务",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.4,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "微软 vs Meta 财报对决：纳德拉靠 Azure 赚疯，小扎烧钱烧到只剩7.84亿？",
+          "angle": "对比两家科技巨头的财报核心数据，重点分析微软 Azure 云业务的增长引擎与 Meta 在元宇宙/AI 上的巨额投入，解读不同战略路线背后的资本逻辑与市场风险。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "现金流只剩7.84亿美元？Meta 的 AI 豪赌还能撑多久？",
+          "angle": "聚焦 Meta 的现金流危机信号，深入探讨扎克伯格在 AI 和元宇宙领域的激进投资策略，分析其面临的财务压力、股东质疑以及未来可能的融资或收缩路径。",
           "difficulty": "进阶"
         }
       ]
