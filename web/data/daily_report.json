@@ -1,20 +1,20 @@
 {
-  "title": "AI日报 - 2026年08月01日",
+  "title": "AI日报 - 2026年08月02日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "DeepSeek V4 系列更新，架构没变，Agent 能力为何大涨",
-          "summary": "DeepSeek V4 正式版发布，以极低成本实现高效任务处理，引领AI“智价比”竞争。"
-        },
-        {
           "title": "Seedance 2.5发布，单次视频时长翻倍",
-          "summary": "字节跳动推出 Seedance 2.5，视频生成能力大幅提升，并宣布与徐工、小鹏等企业合作。"
+          "summary": "字节跳动发布Seedance 2.5，视频生成时长翻倍，推动创作效率提升。"
         },
         {
-          "title": "MiniMax H3手绘即特效，多模态的「Coding时刻」来了",
-          "summary": "MiniMax H3 实现手绘即特效，为视频后期制作带来革命性变化。"
+          "title": "谷歌 Gemini Spark 智能体对全球更多用户开放",
+          "summary": "Gemini Spark智能体扩展至全球用户，支持订机票、整理收件箱等实用操作。"
+        },
+        {
+          "title": "初创公司 Majestic 推出 AI 服务器“普罗米修斯”",
+          "summary": "Majestic推出可选配8TB-128TB LPDDR6内存的AI服务器，主打高带宽配置。"
         }
       ]
     },
@@ -22,16 +22,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "OpenAI 宣布其 AI 模型触达全球超 10 亿活跃用户和 200 万家企业",
-          "summary": "OpenAI 用户规模突破10亿，企业客户达200万，彰显AI技术普及加速。"
+          "title": "李飞飞World Labs收购SceniX，物理AI训练正从“采数据”走向“造世界”",
+          "summary": "World Labs收购SceniX，推动物理AI训练从数据采集转向虚拟环境构建。"
         },
         {
-          "title": "翁荔被爆重返OpenAI！两天前因身体原因从Thinking Machines Lab离职",
-          "summary": "AI领域知名人物翁荔重返OpenAI，引发业界关注。"
+          "title": "高通完成收购 Modular，加速 AI 计算布局",
+          "summary": "高通完成对Modular的收购，强化AI计算领域的技术布局。"
         },
         {
-          "title": "千问已在特斯拉车机内测",
-          "summary": "阿里千问模型进入特斯拉车机内测，AI与汽车融合再进一步。"
+          "title": "马斯克和 Altman 达成共识：人类已迈入 AI 奇点时代",
+          "summary": "马斯克与Altman罕见达成共识，认为AI奇点已至，引发行业热议。"
+        },
+        {
+          "title": "苹果警告 AI 算力短缺或导致产品延期发布",
+          "summary": "苹果警示AI算力短缺可能影响产品发布节奏，凸显算力瓶颈问题。"
         }
       ]
     },
@@ -39,12 +43,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference",
-          "summary": "NVIDIA提出协同设计注意力机制，加速长上下文推理，提升交互体验。"
+          "title": "Ten advances in mathematics and theoretical computer science",
+          "summary": "OpenAI发布数学与理论计算机科学领域十项进展，展示AI在推理上的突破。"
         },
         {
-          "title": "Building abundant intelligence",
-          "summary": "OpenAI发布关于构建丰富智能的博客，探讨AI发展路径。"
+          "title": "VLMs can score well on benchmarks, while silently erasing meaningful terms and including hallucinate bias",
+          "summary": "研究指出视觉语言模型在基准测试中高分，却存在静默删除术语和幻觉偏见问题。"
+        },
+        {
+          "title": "How Symmetric Are the Insides of a Go Network?",
+          "summary": "Reddit研究探讨围棋网络内部结构的对称性，为模型可解释性提供新视角。"
         }
       ]
     },
@@ -52,17 +60,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "实测 DeepSeek V4 正式版：3 块钱干完 5 件事，AI「智价比」之战开打了",
-          "summary": "实测显示DeepSeek V4以极低成本完成多项任务，性价比突出。"
+          "title": "shanraisshan/claude-code-best-practice",
+          "summary": "GitHub热榜项目分享Claude Code最佳实践，助力开发者高效使用。"
         },
         {
-          "title": "GitHub AI Agent 翻车：攻击者不用黑客技术，只写一句话就能窃取数据",
-          "summary": "GitHub AI Agent存在安全漏洞，引发对AI安全性的关注。"
+          "title": "OpenAI前员工刚跑路就喊话：要套现就赶紧套，别等IPO！",
+          "summary": "前OpenAI员工建议尽早套现，引发对AI公司估值泡沫的讨论。"
+        },
+        {
+          "title": "「天线宝宝」机器人上门做保洁，200元/小时，纯·人工·智能",
+          "summary": "机器人保洁服务落地，每小时200元，展现具身智能商业化潜力。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦模型迭代与安全争议，DeepSeek、Seedance等新品引领性价比革命，同时AI失控与安全漏洞敲响警钟。",
-  "generated_at": "2026-08-01T11:14:28.449069+08:00",
+  "summary": "今日AI圈聚焦模型迭代与算力焦虑，智能体普及、物理AI加速，但失控与偏见问题引发反思。",
+  "generated_at": "2026-08-02T11:14:46.552724+08:00",
   "source_count": 20
 }
