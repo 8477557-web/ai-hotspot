@@ -1,114 +1,521 @@
 {
-  "updated_at": "2026-08-02T11:14:46.552809+08:00",
+  "updated_at": "2026-08-03T11:17:24.831595+08:00",
   "total": 20,
   "items": [
     {
-      "id": "e9bc3a4c6394",
-      "source_id": "openai-blog",
-      "source_name": "OpenAI Blog",
-      "source_tier": "T1",
-      "source_lang": "en",
-      "source_category": "official",
-      "title": "Ten advances in mathematics and theoretical computer science",
-      "link": "https://openai.com/index/ten-advances-in-mathematics",
-      "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
-      "published": "2026-08-01T08:00:00+08:00",
-      "fetched_at": "2026-08-02T11:13:12.156586+08:00",
-      "pre_filter_reason": "OpenAI research on math and CS",
+      "id": "406e412d67b9",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "阿里巴巴正式发布新一代基座大模型Qwen3.8，总参数量2.4万亿",
+      "link": "https://36kr.com/newsflashes/3923193948614025?f=rss",
+      "summary": "36氪获悉，8月3日，阿里巴巴正式发布新一代基座大模型Qwen3.8，总参数量2.4万亿，在编程（Coding）和专业办公（Cowork）方面能力大幅提升。今日放榜的三方榜单Arena中，阿里Qwen模型仅次于Anthropic的Claude系列。目前，Qwen3.8的API已上线千问AI平台，并接入阿里今日同步推出的Agent产品“千问办公”。Qwen3.8-Max预计下周开源，同时还将开源Qwen3.8-27B。",
+      "published": "2026-08-03T10:39:15+08:00",
+      "fetched_at": "2026-08-03T11:15:21.180461+08:00",
+      "pre_filter_reason": "发布大模型Qwen3.8",
+      "scores": {
+        "importance": 10,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "Qwen3.8 编程能力实测：用自然语言生成一个完整项目",
+          "angle": "以实际编程任务为例，展示 Qwen3.8 在代码生成、调试和项目搭建上的表现，对比前代模型或竞品，突出其编程能力的提升。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "2.4万亿参数意味着什么？Qwen3.8 技术解读",
+          "angle": "从参数规模、架构创新（基于 Qwen3.5）和实际应用场景（办公 Agent）三个维度，通俗解释 Qwen3.8 的技术亮点和对行业的影响。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "085a8676a000",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "阿里巴巴千问 Qwen3.8-Max 模型正式上线，总参数量 2.4 万亿",
+      "link": "https://www.ithome.com/0/984/897.htm",
+      "summary": "<p>IT之家 8 月 3 日消息，今日，阿里巴巴千问 Qwen3.8-Max 人工智能模型正式上线，总参数量 2.4 万亿，这是 Qwen 家族迄今最强大的模型。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/8/8a5940c7-e5d7-4f49-a73e-4cad7ad488b9.png\" /></p><p>官方称，Qwen3.8-Max 基于 Qwen3.5 架构构建，在编程、真实办公、长程任务与多模态智能体等方面实现全面提升，能够以极少的人工介入将复杂、开放的目标端到端完成，交付值得信赖的成果。</p><blockquote><p><strong>编程能力：从零独立交付真实项目</strong></p><p>Qwen3.8-Max 可以从一个空文件夹出发，自主完成一个十数天的真实项目并交付，全程无需人工干预。</p><p>只需一句“创建一个自进化的智能体 Harness”，它便独立编程约 16 天，做出真实可用的自进化智能体框架“oh-my-cli”，达到 Hermes Agent 级别。</p><p><strong>办公助手：干得广，也干得稳</strong></p><p>通过真实环境和算力的联合强化学习（RL）扩展，Qwen3.8- Max 实现了数百种高价值、高频专业任务的真实表现提升。</p><p>它能把一支法务团队约一周的审阅量压缩到一小时, 也能仅凭一句话规划出复杂的动态工作流，交付一套可盈利的端到端量化策略。</p><p><strong>长程任务：数千轮交互里持续进化</strong></p><p>面对长周期任务，Qwen3.8-Max 涌现出系统级自主规划与全栈闭环自适应学习能力。无论是精密严苛的数字芯片设计，还是瞬息万变的商业模拟运营，它都能在 \" 执行 — 反馈 — 迭代 \" 的闭环中历经数千轮超长交互，持续重构自己的算法与策略。</p><p><strong>多模态智能体：贯穿任务全流程的视觉生产力</strong></p><p>除了强大的文本能力，Qwen3.8-Max 还把 AI 的视觉理解推向新高度。</p><p>它能跨页理解 200 页的财报，把 100 小时的长视频组织成可检索、可追溯的 Graph 记忆。同时，它会在执行中持续审视自己的中间产物，一旦出错就自主定位、重新规划并修正。</p></blockquote><p style=\"text-align: center;\"><a class=\"ithome_super_player\" href=\"https://weibo.com/tv/show/1034:5327763629080610?mid=5327766523478552\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/8/9df8f890-5a78-424f-9a78-d06dc47b3775.jpg\" /></a></p><p style=\"text-align: left;\">今日放榜的权威三方榜单 Arena 中，阿里 Qwen 模型仅次于 Anthropic 的 Claude 系列，整体性能处于全球大模型第一梯队。目前，Qwen3.8 的 API 已上线千问 AI 平台，并接入阿里今日同步推出的 Agent 产品“千问办公”。</p><p>IT之家注意到，千问 3.8-MAX 模型权重将于下周开源，同时还将开源 Qwen3.8-27B。开发者可通过千问 AI 平台获得 Qwen3.8 的 API 服务，国内每百万 Tokens 输入 12 元、输出 36 元，隐式缓存命中仅 1.5 元，而输入与输出的国际价格为 Opus 5 的 40% 与 24%。</p>",
+      "published": "2026-08-03T10:31:02+08:00",
+      "fetched_at": "2026-08-03T11:15:39.633294+08:00",
+      "pre_filter_reason": "上线AI大模型Qwen3.8-Max",
+      "scores": {
+        "importance": 10,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.2,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "千问 Qwen3.8-Max 上线：最强模型如何改变办公方式？",
+          "angle": "聚焦“千问办公”Agent 产品，演示如何用 Qwen3.8-Max 自动处理复杂办公任务（如会议纪要、报表生成），强调“极少人工介入”的实用价值。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "comparison",
+          "title": "Qwen3.8-Max vs Claude：谁才是编程之王？",
+          "angle": "基于 Arena 榜单和实际测试，对比 Qwen3.8-Max 与 Claude 系列在编程、长程任务和多模态智能体上的优劣势，给出选型建议。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "62b947698b48",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "OpenAI下一代模型Astra曝光，以2000美元算力成本破解十项数学难题",
+      "link": "https://36kr.com/newsflashes/3923212228292232?f=rss",
+      "summary": "OpenAI当地时间8月1日发布有关数学和理论计算机科学的十项突破，这些成果由其下一代主要模型Astra的内部版本实现。按照Sol API的费率计算，找到这些问题的解决方案所需总词元（tokens）成本约为2000美元。十项突破涵盖高维球体堆积密度上限、二进制与球面码界限提升、非纯索菲群存在性证明、康涅斯刚性猜想的推翻、算术电路复杂性新下界、量子平行重复定理、最近向量问题的多项式因子近似难度证明、埃尔哈特体积猜想、多色拉姆齐数的超指数下界，以及极值数猜想等。（界面）",
+      "published": "2026-08-03T10:57:51+08:00",
+      "fetched_at": "2026-08-03T11:15:21.180424+08:00",
+      "pre_filter_reason": "AI model research",
+      "scores": {
+        "importance": 9,
+        "timeliness": 7,
+        "actionability": 9,
+        "scarcity": 9,
+        "virality": 9,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "explainer",
+          "title": "2000美元破解10道数学难题：OpenAI Astra 到底有多强？",
+          "angle": "用通俗语言解释其中2-3个数学难题（如高维球体堆积、拉姆齐数），说明 Astra 的突破性意义，并讨论 AI 在理论科学领域的潜力。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "analysis",
+          "title": "从 Astra 看 AI 未来：数学推理能力为何是下一个战场？",
+          "angle": "分析 OpenAI 为何选择数学作为突破口，对比其他大模型在数学推理上的表现，探讨这对 AI 竞赛格局的影响。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "8bb74c3e8e89",
+      "source_id": "sspai",
+      "source_name": "少数派",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "派早报：DeepSeek V4 Flash 正式版发布",
+      "link": "https://sspai.com/post/113014",
+      "summary": "<p>DeepSeek V4 Flash 正式版发布</p><p>特朗普向科技公司频繁索要捐款</p><p>马斯克称从未讨论过出售特斯拉中国业务</p><p>国补调整后终端销售承压</p><p>风投机构重新涌入中国科技领域</p><p>统计显示实体光盘并不能保证游戏长期可玩</p><p>看看就行的简讯</p><p>少数派的近期动态</p><p>你可能错过的好文章</p><a href=\"https://sspai.com/post/113014\" target=\"_blank\">查看全文</a>",
+      "published": "2026-08-03T06:49:31+08:00",
+      "fetched_at": "2026-08-03T11:15:27.402622+08:00",
+      "pre_filter_reason": "DeepSeek V4 Flash is an AI model release",
       "scores": {
         "importance": 8,
-        "timeliness": 6,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "DeepSeek V4 Flash 上手：轻量级模型如何高效部署？",
+          "angle": "以 DeepSeek V4 Flash 为例，演示如何在本地或云端快速部署轻量级大模型，并分享在资源受限场景下的优化技巧。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "news",
+          "title": "DeepSeek V4 Flash 正式版发布：性能与成本的平衡之道",
+          "angle": "解读 V4 Flash 的核心升级点（速度、成本、上下文长度），对比 V3 和竞品，分析其适合的应用场景（如实时对话、边缘计算）。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "ecd0cc031278",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "通用视频模型 MiniMax H3 正式开源，支持多模态上下文、2K 分辨率",
+      "link": "https://www.ithome.com/0/984/937.htm",
+      "summary": "<p>IT之家 8 月 3 日消息，今日 MiniMax 正式开源新一代通用视频模型 MiniMax H3。</p><p>据介绍，MiniMax H3 是一个通用型全模态生成系统。它能够统一理解由文本、图像、视频和音频构成的多模态上下文，并可生成最高 2K 分辨率、最长 15 秒、带有原生立体声音频的视频。得益于以任务泛化为导向的系统设计，H3 在预训练阶段便已具备广泛的多模态上下文理解与生成能力，因此能够出色地遵循复杂的多模态指令。</p><p>IT之家注意到，H3 支持以下输入与输出规格：</p><ul class=\" list-paddingleft-2\"><li><p>输出时长：4–15 秒</p></li><li><p>输出宽高比：支持多种宽高比，包括但不限于 21:9、16:9、4:3、1:1、3:4 和 9:16</p></li><li><p>输出分辨率：支持多种分辨率尺寸，默认将较短边设置为 768 像素。使用 H3-Regenerate-2K 可实现 2K 分辨率生成</p></li><li><p>输出帧率：24 FPS</p></li><li><p>输出音频：32 kHz 立体声</p></li><li><p>支持的对话语言：稳定支持 11 种语言：阿拉伯语、中文、英语、法语、德语、意大利语、日语、韩语、葡萄牙语、俄语和西班牙语。对于其他语言，也提供不同程度的支持。</p></li></ul><p>模型版本与输入规格：</p><p><strong>① H3-Base-FL2VA</strong></p><p><strong>首尾帧模式：</strong>支持输入 0 张、1 张或 2 张图像：</p><ul class=\" list-paddingleft-2\"><li><p>不输入图像时，为文生视频模式；</p></li><li><p>输入首帧图像时，为首帧生视频模式；</p></li><li><p>输入尾帧图像时，为尾帧生视频模式；</p></li><li><p>同时输入首帧和尾帧图像时，为首尾帧生视频模式</p></li></ul><p><strong>② H3-Base-Ref2VA</strong></p><p><strong>全模态参考模式：</strong></p><ul class=\" list-paddingleft-2\"><li><p><strong>图像：</strong>最多 9 张；</p></li><li><p><strong>视频：</strong>最多 3 段；每段时长须为 2–15 秒，总时长不超过 15 秒；</p></li><li><p><strong>音频：</strong>最多 3 段。音频必须与图像或视频一同输入，不能作为唯一输入；每段时长须为 2–15 秒，总时长不超过 15 秒；</p></li><li><p><strong>混合输入：</strong> 所有类型输入文件合计最多 12 个</p></li></ul><p style=\"text-align: center;\"><img alt=\"图片\" src=\"https://img.ithome.com/newsuploadfiles/2026/8/e897f6b0-2eb3-42f3-8a0f-d628807e3454.png\" /></p><p>完整的 H3 系统由以下三个模块组成：</p><ul class=\" list-paddingleft-2\"><li><p><strong>H3-Contex</strong><strong>t-IR：</strong>随着输入日益复杂，我们构建了一套专门的系统，用于深入理解和提炼输入的多模态指令，并将其转换为 H3 更易于理解、可直接用于生成的形式，即 Context Intermediate Representation（上下文中间表示）。H3-Context-IR 对最终输出质量非常重要。因此我们强烈建议将 H3-Context-IR API 接入生成流程。或者，可参考提示词指南搭建自己的上下文处理系统。</p></li><li><p><strong>H3-Base</strong><strong>：</strong>根据 H3-Context-IR 的输出生成音频和视频，并输出 768p 分辨率的结果。</p></li><li><p><strong>H3-Regenerate-2K</strong><strong>：</strong>将 768p 的生成结果连同原始上下文一并送回 H3，以 2K 分辨率重新生成输出。这既发挥了 H3 强大的生成能力，又充分利用了原始上下文中蕴含的丰富信息，从而生成细节更准确、视觉保真度更高的高分辨率结果。</p></li></ul><p>MiniMax H3 基于 MiniMax H3 Community License 发布。</p><p><strong>开源地址：</strong><span class=\"link-text-start-with-http\">huggingface.co/MiniMaxAI/MiniMax-H3</span></p>",
+      "published": "2026-08-03T10:52:25+08:00",
+      "fetched_at": "2026-08-03T11:15:39.633239+08:00",
+      "pre_filter_reason": "AI model open source",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "MiniMax H3 开源实测：一句话生成带音效的2K视频",
+          "angle": "通过实际生成示例，展示 H3 如何根据多模态指令（文本+图片+音频）生成视频，并讲解其技术原理（全模态生成系统）和操作步骤。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "开源视频模型新标杆：MiniMax H3 对创作者意味着什么？",
+          "angle": "分析 H3 开源对视频创作、影视预制作和 AI 内容生态的影响，对比 Runway、Pika 等闭源方案，讨论成本与可控性的权衡。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "26f5cb003912",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "DeepSeek-V4-Flash正式版API登陆国家超算互联网",
+      "link": "https://36kr.com/newsflashes/3923225864416902?f=rss",
+      "summary": "36氪获悉，近日，DeepSeek-V4-Flash正式版API面向公众开启公测，国家超算互联网第一时间同步上线DeepSeek-V4-Flash模型API调用与下载服务。",
+      "published": "2026-08-03T11:11:43+08:00",
+      "fetched_at": "2026-08-03T11:15:21.180402+08:00",
+      "pre_filter_reason": "AI model API launch",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.5,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "DeepSeek-V4-Flash 超算互联网 API 接入指南",
+          "angle": "手把手演示如何注册国家超算互联网平台、申请 API 密钥并调用 DeepSeek-V4-Flash，适合开发者快速上手。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "insight",
+          "title": "DeepSeek 上线国家超算，意味着什么？",
+          "angle": "解读 DeepSeek 与国家超算互联网合作背后的算力布局与国产 AI 生态意义，帮助观众理解行业趋势。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "5ded718d60a8",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "antirez /ds4",
+      "link": "https://github.com/antirez/ds4",
+      "summary": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
+      "published": "2026-08-03T11:16:20.611388+08:00",
+      "fetched_at": "2026-08-03T11:16:20.611389+08:00",
+      "pre_filter_reason": "DeepSeek inference engine",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "本地跑 DeepSeek 4：antirez/ds4 推理引擎安装实战",
+          "angle": "以 antirez/ds4 为例，演示如何在 Metal、CUDA 或 ROCm 环境下搭建本地推理环境，并跑通 DeepSeek 4 Flash 模型。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "review",
+          "title": "antirez 出手：DeepSeek 4 本地推理引擎性能初探",
+          "angle": "评测 ds4 在不同硬件上的推理速度、显存占用与易用性，对比云端 API 的优劣，为开发者选型提供参考。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "eb1ae818ae7d",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "MiniMax H3正式开源",
+      "link": "https://36kr.com/newsflashes/3923204259098244?f=rss",
+      "summary": "36氪获悉，MiniMax正式开源新一代通用视频模型MiniMax H3。MiniMax H3是一个通用型全模态生成系统。它能够统一理解由文本、图像、视频和音频构成的多模态上下文，并可生成最高2K分辨率、最长15秒、带有原生立体声音频的视频。",
+      "published": "2026-08-03T10:49:44+08:00",
+      "fetched_at": "2026-08-03T11:15:21.180446+08:00",
+      "pre_filter_reason": "AI model open source",
+      "scores": {
+        "importance": 8,
+        "timeliness": 9,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "MiniMax H3 开源了！教你生成带原生音频的视频",
+          "angle": "通过实际案例演示如何使用 MiniMax H3 生成 2K 分辨率、15 秒带立体声的视频，涵盖输入多模态上下文到输出全流程。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "MiniMax H3 开源：视频生成进入全模态时代？",
+          "angle": "解析 H3 的“全模态”能力（文本+图像+视频+音频统一理解与生成）对视频生成赛道的影响，以及与 Sora 等模型的对比。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "f2ecd904a1fd",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "因使用月之暗面模型写代码，美国最大外卖平台遭调查；员工临下班对嘴喷奶油！瑞幸回应：涉及物料已废弃；小米多款手机正式涨价300元起",
+      "link": "https://www.leiphone.com/category/zaobao/sJsXwQ2i70NZsIDQ.html",
+      "summary": "<section style=\"text-align: justify;\"></section><section><section><section><section><section><section><section></section><section><section style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>要闻提示</strong></span></section><section><br /></section></section></section></section></section></section></section></section><p style=\"text-align: justify;\">1.因使用月之暗面模型写代码，美国最大外卖平台DoorDash被议员调查</p><p style=\"text-align: justify;\">2.员工临下班对嘴喷奶油！瑞幸回应：将严肃处理，涉及物料已废弃</p><p style=\"text-align: justify;\">3.米哈游回应创作者被拖欠酬劳：已终止与云南昊曦的合作并拉黑，支持依法维权</p><p style=\"text-align: justify;\">4.小米多款手机正式涨价300元起！店员：前一晚就接到了调价通知</p><p style=\"text-align: justify;\">5.蔡崇信宣布离婚：和平分手，不涉及任何出售阿里巴巴股份的计划</p><p style=\"text-align: justify;\">6.DeepSeek-V4-Flash正式版API上线公测</p><p style=\"text-align: justify;\">7.前DeepMind研究员蒂博爆料：谷歌曾在ChatGPT发布一年前做出类似产品，但最终被雪藏</p><p style=\"text-align: justify;\">8.OpenAI或推迟IPO至明年，面临投资者担忧与竞争压力</p><section><section><section><section><section><section><section></section><section><section style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>今日头条</strong></span></section><section><br /></section></section></section></section></section></section></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>因使用月之暗面模型写代码，美国最大外卖平台 DoorDash 被议员调查</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">8 月 2 日消息，据外媒近日报道，美国众议院两个委员会的主席正展开联合调查，要求全美最大外卖平台 DoorDash 提供其使用的中国 AI 大模型信息。7月初，DoorDash 创始人 Andy Fang 曾在 X 平台发文称，据内部测试结果，月之暗面 Kimi K2.6+Anthropic Fable 5 的组合可超越 Sonnet 4.6 + Opus 4.8，并且成本更低。目前公司已经用上模型路由服务，将底层任务委托给 Kimi K2.6。</p><p style=\"text-align: justify;\">而美国众议院的调查函是这么写的：“我们意识到，美国企业可能会部署中国开发的开放权重模型，这些模型拥有更具竞争力的使用成本、定制化特性。但这些现实因素并不能消除安全风险，也不会降低国家安全担忧。”</p><p style=\"text-align: justify;\">人工智能已经成为中美竞争的重要领域，两国都在争夺领先地位。美国众议院国土安全委员会主席 Andrew Garbarino 曾表示：“中国已经不只是追随美国发展脚步，他们正在努力缩小差距。近期有报道称，中国开源模型在网络安全能力上能够达到美国先进模型水平，令人担忧。”</p><p style=\"text-align: justify;\">DoorDash 发言人对此回应称：“我们期待与调查委员会合作，讨论我们如何安全使用 AI，包括美国开发的前沿模型以及开放权重模型。”（IT之家）</p></section><section><section><section><section><section><section><section><section></section><section><section style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>国内资讯</strong></span></section><section><br /></section></section></section></section></section></section></section></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>员工临下班对嘴喷奶油！瑞幸回应：将严肃处理，涉及物料已废弃</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">8月2日下午，“瑞幸员工对嘴喷奶油”话题冲上微博热搜榜第一。据了解，日前，一则瑞幸某门店店员用奶油发泡器给同事喂食的视频，在网络上被大量转载，目前发布该视频的社交账号已经注销。有网友称，涉事账号此前就在发布瑞幸店内的工作日常，当事人所在门店位于山东济南。</p><p style=\"text-align: justify;\">网友录屏画面显示，涉事两人穿着瑞幸工作服，背景是瑞幸广告牌，可以看到后方的操作台。视频中打出“吃饱喝足再下班”的文字，其中一人举着奶油发泡器，给另外一人的嘴里喷奶油，画面中出现的人员对着镜头“比耶”、嬉戏打闹。</p><p style=\"text-align: justify;\">瑞幸官方对此回应称，公司对此事高度重视并第一时间进行内部调查。经核查，视频中两位伙伴使用当日门店打烊后废弃的奶油物料进行拍摄。该行为严重违反相关管理规范，公司将严肃处理。拍摄中涉及的奶油物料和奶油枪已废弃。（快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260803/6a6feb2241c15.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>米哈游回应创作者被拖欠酬劳：已终止与云南昊曦的合作并拉黑，支持依法维权</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">8 月 2 日消息，近日，米哈游游戏二创圈合作方拖欠创作者酬劳一事引发关注。据多位创作者反馈，部分通过云南昊曦文化传媒有限公司（以下简称“云南昊曦”）承接米哈游相关合作项目的创作者，出现合作款项未能按约支付的情况，涉及画师、视频创作者等群体，拖欠金额从数千元到数万元不等。</p><p style=\"text-align: justify;\">对此米哈游表示，经核查，米哈游与云南昊曦的合作款项，已按合同约定及履约进度进行结算。米哈游上周已致函云南昊曦，要求其尽快妥善处理与创作者之间的报酬纠纷。然而，云南昊曦在收到律师函后不仅未采取任何解决措施，也无积极沟通的表态。上述行为已严重损害创作者合法权益，也对米哈游与创作者之间的信任关系造成了极大伤害。</p><p style=\"text-align: justify;\">据悉，目前，米哈游已终止与云南昊曦的合作，将其永久列入《米哈游黑名单合作方清单》。米哈游还将继续支持创作者依法维权，并积极配合司法机关，提供必要的材料与协助。米哈游公司表示：“如您是本次事件中尚未与米哈游取得联系的受影响创作者，可通过米游社或游戏内联系官方客服，我们将于 5 个工作日内安排专人与您对接，并严格保护您的个人信息。”（IT之家、GameQuest）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260803/6a6feb228c933.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>小米多款手机正式涨价 300 元起！店员：前一晚就接到了调价通知</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">8月2日，小米商城价格显示，旗下Redmi与小米数字旗舰多款机型全面上调价格，单次调价区间集中在300至500元。本轮调价覆盖Redmi Turbo 5、K90全系列以及小米17系列，其中中端机型统一加价300元，定位更高的小米17 Pro Max涨幅达到500元。</p><p style=\"text-align: justify;\">线下门店早已同步收到通知，北京地区小米之家工作人员透露，门店在前一晚就收到官方调价指令，这也是小米今年发起的第三轮价格上调，涨价风潮从入门机型逐步蔓延至高端旗舰。按照往年市场规律，新一代小米数字系列新机上市前夕，在售老款旗舰普遍会降价清仓，为新品让出市场空间，但今年小米18发布在即，在售机型反倒集体涨价，这样的市场情况十分少见。</p><p style=\"text-align: justify;\">小米集团总裁卢伟冰此前曾公开谈及成本难题，内存价格大幅上浮给所有手机厂商定价带来巨大压力，小米在行业内已经尽力控制涨价幅度。此次调价并非小米单独现象，整个智能手机行业都迎来涨价潮。据报道，暑期消费旺季里，各大品牌在售机型、新款产品均上调定价，多数机型涨幅300至1000元，高端大存储、折叠屏产品涨幅尤为突出。（快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260803/6a6feb22ba5e3.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>蔡崇信宣布离婚：和平分手，不涉及任何出售阿里巴巴股份的计划</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">8月2日消息，据多家体育媒体报道，阿里巴巴集团主席、NBA布鲁克林篮网队和纽约自由人队的老板蔡崇信和吴明华（Clara Wu）女士即将离婚。这一决定由双方基于彼此尊重共同作出，未来双方将继续保持牢固的伙伴关系。</p><p style=\"text-align: justify;\">蔡崇信与吴明华育有三名子女，均已成年。据蔡崇信与吴明华关于此事的代表表示：多年来，两人已经逐渐演变为“共同抚育子女、经营事业”的伙伴关系。未来，双方将继续投入现有公益及社区工作，以家人、事业及社区的最佳利益为出发点，以真挚的伙伴身份同行。</p><p style=\"text-align: justify;\">同时，布鲁克林篮网队、纽约自由人队及其控股公司布鲁克林体育娱乐的运营不会受到此次变动的影响，两人将继续拥有并与专业化管理团队一起守护球队。根据报道，蔡崇信夫妇离婚后，阿里股权、董事会职务完全不受影响，无股票抛售计划，预估蔡崇信净资产超过120亿美元，2026税前薪酬4227万元。（新浪科技、三言科技）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>DeepSeek-V4-Flash正式版API上线公测</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">8月2日消息，日前，DeepSeek API文档更新日志，宣布DeepSeek-V4-Flash正式版API上线公测。据了解，DeepSeek-V4-Flash的Agent能力大幅增强，基准测试远超V4-Pro-Preview。正式版V4-Flash原生支持 Responses API格式并针对性适配Codex。DeepSeek表示，DeepSeek-V4-Pro正式版也将尽快发布。</p><p style=\"text-align: justify;\">另据外媒报道，有知情人士称，DeepSeek正计划在内蒙古建设一座大型AI数据中心。知情人士表示，DeepSeek将在乌兰察布增加1GW规模算力，还有计划从其他公司租赁额外算力。还有两位知情人士表示，DeepSeek数据中心的部分算力将在明年年底或2028年初投入运行，但目前尚不清楚该项目使用何种芯片。</p><p style=\"text-align: justify;\">据了解，DeepSeek于今年4月发布招聘信息，其中就有岗位地点为内蒙古乌兰察布，岗位分别是数据中心高级交付经理、数据中心高级运维工程师。（三言科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260803/6a6feb22e25d0.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>长鑫科技，LPDDR6研发取得新进展</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">8月2日消息，据媒体报道，行业人士透露，长鑫存储的LPDDR6（第六代低功耗双倍数据速率内存标准）已接近研发验证尾声，这是量产前的重要一步。今年3月便有市场消息称，长鑫科技旗下的长鑫存储在积极推进LPDDR6产品落地，并已向核心客户送样，有望2026年下半年发布并实现量产导入。</p><p style=\"text-align: justify;\">相关信息称长鑫首款LPDDR6产品的设计规格速率为12800 Mbps，与SoC（系统级芯片）协同的运行基础速率为10667Mbps，颗粒容量16Gb，采用1295 Ball（焊球）的POP（堆叠）封装，在低功耗设计、RAS（可靠性、可用性和可维护性）功能比LPDDR5X（LPDDR5的强化版）产品有明显优化提升。 （第一财经）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>华为半导体首席科学家罕见露面：摩尔定律迭代逻辑已变，经济性早已停滞</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">8月2日消息，据媒体报道，近日华为Fellow、半导体首席科学家廖恒罕见公开露面并接受媒体专访。在访谈中，廖恒指出，摩尔定律的迭代逻辑已经发生根本变化——经济性维度早已停滞。自16nm、7nm制程节点起，单位晶体管成本不再持续下降，摩尔定律的经济效益已基本失效，目前仅体现在性能和能效层面的延续推进。</p><p style=\"text-align: justify;\">他强调，产业迭代并不只依赖于传统制程升级，新的演进规律正在形成。无论是摩尔定律还是韬定律，本质都是工程师以“爱迪生式”问题导向思维解决技术难题，核心逻辑始终是：精准定义关键问题，寻找有效方案，推动落地优化。这是半导体技术持续突破的底层方法论。</p><p style=\"text-align: justify;\">廖恒将半导体产业链比作一座18层宝塔，并表示硬件底层改动成本极高，流片周期长达18个月，难以频繁调整；而上层软件栈可实现小时级快速迭代。因此，业内最优策略是利用上层软件快速试错，反哺底层硬件方向的优化与校准。廖恒总结道，在摩尔定律红利消退、全球供应链割裂的大背景下，单纯比拼单芯片性能与制程工艺的时代已经结束。未来算力产业竞争，将是贯通材料、制造、软件、算法、应用的全链路、系统化竞争。（快科技）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>东方甄选离职三人组首播：热度超越与辉同行，登顶抖音带货总榜</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">8月2日，由东方甄选前员工孙东旭、明明、天权联合打造的直播间“美丽明天”迎来首播。</p><p style=\"text-align: justify;\">直播开播后热度快速走高，直播间在线人数突破10万，登上抖音带货总榜首位，实时热度数据超过同时间段排名第五的“与辉同行”。榜单实时数据显示，美丽明天热度值达到706.1W，本场主推茶颜悦色面包丁海盐产品。</p><p style=\"text-align: justify;\">公开信息显示，美丽明天（北京）科技有限公司于7月10日正式注册成立，注册资本1000万元，注册地址位于北京市大兴区。公司共有三名股东，均为原东方甄选核心人员，分别是孙东旭、石明、郭天权。三人出资与持股比例相近，其中孙东旭出资340万元、持股34%，担任公司法定代表人、经理、董事及财务负责人；石明、郭天权各出资330万元，分别持股33%。（快科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260803/6a6feb2317ce7.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>吉利汽车集团将成立销售总公司，高级副总裁林杰担任总经理</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">8月2日消息，吉利汽车集团宣布将成立吉利汽车集团销售总公司，进一步加强旗下品牌营销资源协同。这也是“一个吉利”战略在营销体系的具体落地。根据最新组织调整，吉利汽车集团销售总公司为集团系统级组织，下设中国星销售公司、银河销售公司、领克销售公司、极氪销售公司等6个集团一级组织。</p><p style=\"text-align: justify;\">在人事调整方面，林杰作为吉利汽车集团分管营销的高级副总裁，担任吉利汽车集团销售总公司总经理并兼任极氪销售公司总经理；范峻毅任销售总公司常务副总经理兼任领克销售公司总经理，并分管银河销售公司；王博任中国星销售公司总经理；关久旸任银河销售公司常务副总经理。</p><p style=\"text-align: justify;\">资料显示，林杰是“老吉利人”，于1994年加入吉利，早期在吉利摩托车销售体系内任职，自2018年开始担任领克销售公司总经理；2025年，领克和极氪合并后的极氪科技集团正式成立，林杰成为极氪科技集团副总裁，并接管极氪品牌国内营销服整体工作。（新浪科技）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>前即刻联合创始人、COO林航离职B站</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">8 月 2 日消息，据媒体近日报道，B站林航于在个人朋友圈官宣离职，暂未披露后续职业规划或创业动向。据了解，林航曾是即刻的早期联合创始人、首席运营官（COO），曾主导即刻社区的调性构建和内容生态运营，塑造了即刻“轻量化、高鲜活、高质感”的社区风格。加入B站后，林航向B站副总裁、主站运营中心负责人王宇阳汇报，但无公开信息显示林航在B站的具体职位信息。（读佳）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>字节跳动发布Seedance 2.5模型，单次生成视频时长达30秒</strong></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">8月2日消息，日前，字节跳动正式发布新一代视频创作模型Seedance 2.5。字节表示，Seedance 2.5延续了Seedance 2.0统一的多模态音视频联合生成架构，重点突破长叙事能力、多模态参考能力和编辑能力。</p><p style=\"text-align: justify;\">据了解，Seedance 2.5单次生成视频时长可达30秒，支持多轮延长。支持用户单次输入最多30张图片、10段视频、10段音频作为参考素材。该模型正陆续上线即梦AI、豆包专业版等平台，API服务也将在近期上线火山方舟。（三言科技）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260803/6a6feb237657b.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>智元向全体正式员工发放「年中特别绩效奖」</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">8月2日消息，据媒体爆料，智元日前在内部召开2026年中全员大会，宣布向全体正式员工发放“年中特别绩效奖”，即额外追加一个月固定月薪，年中一次性到账，包括离职员工也在发放范围内。</p><p style=\"text-align: justify;\">从具体规则来看，今年1月1日至6月30日期间在职的正式员工（含共创），将随7月薪资统一发放1个月固定月薪。在此期间离职或入职的员工，按该时段内实际在职天数比例折算。数据显示，2025年智元创新通用人形机器人出货量超5100台，占据全球人形机器人市场约39%份额，位居全球第一。（大厂青年）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>盒马拟出售旗下烘焙公司55%股权，交易对价1.3亿元</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">8月1日消息，近日，“奶油第一股”海融科技发布公告，公司拟使用自有资金1.3亿元收购糖盒食品（昆山）有限公司55%股权。交易完成后，糖盒食品将成为海融科技的控股子公司，纳入公司合并报表范围。</p><p style=\"text-align: justify;\">资料显示，糖盒食品主要从事烘焙类产品的研发、生产与供应等业务。交易前，上海糖兜科技有限公司全资持有糖盒食品，盒马（中国）有限公司则持有糖兜科技80%股权。作为股权转让协议的交割先决条件， 海融科技与盒马、糖盒食品签署《长期战略合作协议》，合作期限至2030年12月31日。协议约定，在糖盒食品全面履约的前提下，盒马及关联公司每年向其采购订单的含税总金额不低于2.1亿元。</p><p style=\"text-align: justify;\">财务数据显示，糖盒食品2025年度实现营业收入2.09亿元，净利润1839.45万元；2026年一季度实现营收5615.27万元，净利润579.56万元。海融科技表示，未来将视整合情况与交易对手协商收购标的公司剩余45%股权，以进一步提升公司盈利能力和抗风险能力。（新浪科技）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>三大运营商发布公告：8月1日起不再通过第三方互联网平台提供号卡相关业务办理</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">8月2日消息，三大运营商日前集体发布《关于规范互联网渠道号卡业务办理的公告》，8月1日起不再通过第三方互联网平台提供号卡相关业务办理。</p><p style=\"text-align: justify;\">运营商在公告中表示，近期，发现部分不法分子冒用运营商官方名义，通过各类互联网平台诱导客户办理号卡，违规收集和留存客户个人信息，存在虚假宣传、信息泄露等风险。为切实保障客户个人信息安全，公司将对互联网渠道号卡业务进行调整升级。</p><p style=\"text-align: justify;\">自2026年8月1日起，通过互联网渠道办理号卡，请登录运营商App、官方网站办理；除上述官方渠道外，将不再通过第三方互联网平台提供号卡相关业务办理。此前已办理的号卡业务可正常使用。（新浪科技）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>上汽集团公布 7 月产销快报：整车产量 340010 辆，同比增长 5.17%</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">8 月 2 日消息，上汽集团公布 7 月产销快报，7 月整车产量 340010 辆，同比增长 5.17%；整车销量 338606 辆，同比增长 0.32%。</p><p style=\"text-align: justify;\">其中，新能源汽车 7 月产量 186936 辆，同比增长 86.07%；销量 176673 辆，同比增长 50.67%。7 月出口及海外基地产量 142120 辆，同比增长 70.96%；销量 141656 辆，同比增长 72.55%。（IT之家）</p></section><section><section><section><section><section><section><section><section></section><section><section style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>国际资讯</strong></span></section><section><br /></section></section></section></section></section></section></section></section></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>前 DeepMind 研究员蒂博爆料：谷歌曾在 ChatGPT 发布一年前做出类似产品，但最终被雪藏</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">8 月 2 日消息，OpenAI Codex 工程负责人蒂博 · 索蒂奥（Thibault Sottiaux）曾在谷歌 DeepMind 人工智能实验室工作六年，研究过 AI 基础设施、机器学习工程等项目。</p><p style=\"text-align: justify;\">蒂博在 X 平台爆料称，DeepMind 曾在 ChatGPT 发布一年前做出类似产品，当时名字叫 LMChat，后来换过内部代号。但最终，这款产品并没有发布。原因是公司担心该产品可能与谷歌搜索互相竞争，所以一直被雪藏。并且谷歌也有规定，DeepMind 不能发布“可能颠覆 Google 现有业务”的产品。</p><p style=\"text-align: justify;\">据了解，谷歌员工杰夫 · 迪恩（Jeff Dean）曾表示，谷歌曾在 ChatGPT 发布前研发过聊天机器人，但公司内部认为该产品并没有比谷歌搜索更好，所以没有推出。（IT之家）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260803/6a6feb23ea848.png?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>OpenAI或推迟IPO至明年，面临投资者担忧与竞争压力</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">8月1日，据多家媒体报道，OpenAI可能会将其IPO推迟到明年。报道称，SpaceX首秀不顺后，OpenAI考虑将IPO推迟至2027年。“史上最大IPO”的狂欢仅持续了不到两周，正在整个AI资本市场引发一场深刻的信心海啸。据多位知情人士透露，OpenAI已从最初“最快今年秋季上市”的雄心大幅后退。</p><p style=\"text-align: justify;\">与此同时，Anthropic的营收增长近期已超过OpenAI，其估值也是如此。据知情人士透露，Anthropic正在加速秋季IPO的计划，并已开始与潜在投资者会面，强调其相对于ChatGPT制造商所保持的领先优势。（独角兽早知道）</p><section style=\"text-align: center;\"><img class=\"rich_pages wxw-img\" src=\"https://static.leiphone.com/uploads/new/images/20260803/6a6feb2426251.jpg?imageMogr2/quality/90\" style=\"background-color: transparent; width: 100%;\" /></section><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>特斯拉考虑出售或剥离中国业务与SpaceX合并？马斯克：Fake News</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">8 月 2 日消息，市场有消息称，特斯拉高管已被要求为中国业务可能被剥离做准备，公司顾问讨论的方案包括分拆、出售或关闭中国业务。特斯拉还考虑设立独立销售主体，负责上海超级工厂生产车辆的海外出口。</p><p style=\"text-align: justify;\">对此，媒体向特斯拉中国方面求证，一位特斯拉中国人士回复称：“不实消息”。特斯拉CEO（首席执行官）马斯克在X平台回复称，有关中国业务的报道是假消息。（每日经济新闻）</p><section><section><section><section><section><section><section><p style=\"text-align: justify;\"><strong>马斯克和奥尔特曼均认为人类已迈入 AI 奇点时代</strong><br /></p></section></section></section></section></section></section></section><p style=\"text-align: justify;\">8 月 1 日消息，外媒日前发布博文，报道称埃隆 · 马斯克（Elon Musk）和萨姆 · 奥尔特曼（Sam Altman）在 AI 奇点（singularity）方面持相关观点。</p><p style=\"text-align: justify;\">7 月 25 日做客播客节目时，奥尔特曼表示：“我们现在差不多已经身处奇点时代。”奥尔特曼还预测，在人类目前能完成的工作中，AI 已经能够自动化完成约 30~40% 的工作，并表示 AI 正推动“自工业革命以来最大的经济变革”。马斯克于 7 月 31 日在 X 平台发布推文，指出：“AI 在很多方面都已经超越了人类。我们正处于奇点之中。”</p><p style=\"text-align: justify;\">据悉，AI 奇点是未来学家雷 · 库兹韦尔（Ray Kurzweil）在 2005 年提出的假设，是一种理论情境，即人工智能自我改进的速度超过了我们人类监控和控制它的能力。除了奥尔特曼和马斯克外，谷歌 DeepMind 首席执行官德米斯 · 哈萨比斯（Demis Hassabis）在今年 5 月称 AI 是“奇点的雏形”。英伟达首席执行官黄仁勋在今年 3 月声称通用人工智能 (AGI) 已经到来。（IT之家）</p><section style=\"text-align: justify;\"></section>",
+      "published": "2026-08-03T08:32:00+08:00",
+      "fetched_at": "2026-08-03T11:15:30.773375+08:00",
+      "pre_filter_reason": "AI模型使用调查",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
         "actionability": 7,
         "scarcity": 8,
         "virality": 7,
         "crowd_heat": 3.5
       },
-      "quality_score": 7.8,
+      "quality_score": 7.2,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "OpenAI 十大数学突破：普通人也能看懂的密码学革命",
-          "angle": "用通俗语言解释其中一项突破（如密码学或几何）如何影响日常数字安全，配以动画演示。",
+          "tag": "news",
+          "title": "外卖平台用 AI 写代码被查？事件全梳理",
+          "angle": "梳理美国外卖平台因使用月之暗面模型写代码遭调查的来龙去脉，分析 AI 编程在法律与合规层面的风险。",
           "difficulty": "入门"
         },
         {
-          "tag": "analysis",
-          "title": "从数学到AI：OpenAI 为何押注理论计算机科学？",
-          "angle": "深度解读这些突破对AI未来发展的战略意义，以及它们如何可能改变算法效率与AI推理能力。",
-          "difficulty": "进阶"
+          "tag": "commentary",
+          "title": "瑞幸回应员工喷奶油事件：品牌危机公关的得与失",
+          "angle": "从瑞幸的快速回应与物料废弃处理切入，探讨企业在社交媒体时代的危机公关策略与消费者信任维护。",
+          "difficulty": "入门"
         }
       ]
     },
     {
-      "id": "f93976b72a10",
-      "source_id": "qbitai",
-      "source_name": "量子位",
+      "id": "45bc5eae09fc",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
       "source_tier": "T2",
       "source_lang": "zh",
-      "source_category": "media",
-      "title": "李飞飞World Labs收购SceniX，物理AI训练正从“采数据”走向“造世界”",
-      "link": "https://www.qbitai.com/2026/08/464532.html",
-      "summary": "下一场竞争，是谁能造出更多“有用的世界”",
-      "published": "2026-08-01T12:53:33+08:00",
-      "fetched_at": "2026-08-02T11:13:32.259051+08:00",
-      "pre_filter_reason": "物理AI训练",
+      "source_category": "search",
+      "title": "全球媒体聚焦 | 中国开源模型领先 美媒反思美AI发展盲区 - 光明网",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10Tkk0dWNjYktwTHhjbk84cmh6VGpBQ3R3QUtaaEtoZnZpNFBJaGtoSTFHOFVMYkc5UjRodmJDVnhUOU1BR2U4T2hoVEJuVEVxLWRmTXFEY2VReklJY3BRakRn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE10Tkk0dWNjYktwTHhjbk84cmh6VGpBQ3R3QUtaaEtoZnZpNFBJaGtoSTFHOFVMYkc5UjRodmJDVnhUOU1BR2U4T2hoVEJuVEVxLWRmTXFEY2VReklJY3BRakRn?oc=5\" target=\"_blank\">全球媒体聚焦 | 中国开源模型领先 美媒反思美AI发展盲区</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">光明网</font>",
+      "published": "2026-08-02T21:56:00+08:00",
+      "fetched_at": "2026-08-03T11:15:42.932064+08:00",
+      "pre_filter_reason": "Discusses Chinese open-source AI models",
       "scores": {
         "importance": 8,
         "timeliness": 7,
         "actionability": 8,
-        "scarcity": 8,
-        "virality": 7,
+        "scarcity": 6,
+        "virality": 8,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.4,
+      "quality_score": 7.2,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "物理AI训练新范式：从“采数据”到“造世界”",
-          "angle": "以World Labs收购SceniX为例，解释“合成数据”如何降低物理AI训练成本，并演示一个简单的虚拟环境搭建流程。",
+          "tag": "insight",
+          "title": "美媒反思：中国开源模型领先背后的三大盲区",
+          "angle": "结合光明网报道，提炼美媒反思的核心观点，分析中国开源 AI 生态的崛起原因及对全球 AI 竞争格局的影响。",
           "difficulty": "入门"
         },
         {
+          "tag": "debate",
+          "title": "开源 vs 闭源：中国模型领先，美国该慌吗？",
+          "angle": "以美媒反思为引，组织一场观点碰撞，讨论开源模型在创新速度、生态构建方面的优势，以及闭源路线的价值。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "effe9cd77fbd",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "search",
+      "title": "中国开源模型领先 美媒反思美AI发展盲区 - 新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqMS1TQXpZcTVCUnh0NWJKVU1OTzZ2MXNTb1FNXzNxSllWcWdiUlVWeGtZVklWMUVpNWg0Uy1fSGs0Z1ZtVnAwaFJqZ1lLZlpJYl9VLTJpMmdtcHIwSUtXeEt6Zk9HWkZ5b1M4NzlNdFlMNTJ1NEFWdA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFBqMS1TQXpZcTVCUnh0NWJKVU1OTzZ2MXNTb1FNXzNxSllWcWdiUlVWeGtZVklWMUVpNWg0Uy1fSGs0Z1ZtVnAwaFJqZ1lLZlpJYl9VLTJpMmdtcHIwSUtXeEt6Zk9HWkZ5b1M4NzlNdFlMNTJ1NEFWdA?oc=5\" target=\"_blank\">中国开源模型领先 美媒反思美AI发展盲区</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>",
+      "published": "2026-08-02T21:37:00+08:00",
+      "fetched_at": "2026-08-03T11:15:42.932096+08:00",
+      "pre_filter_reason": "Same AI model leadership topic",
+      "scores": {
+        "importance": 8,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
           "tag": "analysis",
-          "title": "李飞飞的“造世界”竞赛：谁将主导下一代AI基础设施？",
-          "angle": "分析World Labs的战略布局，对比其他大厂在物理AI数据生成上的投入，探讨“有用世界”的商业化前景。",
+          "title": "中国开源模型逆袭：美国AI的盲区在哪里？",
+          "angle": "深度解析中国开源模型为何能领先，以及美国AI发展中被忽视的领域，结合具体技术对比与市场数据，帮助观众理解全球AI竞争格局的转变。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "5分钟看懂开源模型：为什么中国AI能弯道超车？",
+          "angle": "用通俗易懂的方式解释开源模型的概念、中国开源生态的优势（如社区活跃度、成本效益），并举例说明其在实际应用中的表现，适合非技术背景观众。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "8fb7fb62626e",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "microsoft/agent-framework",
+      "link": "https://github.com/microsoft/agent-framework",
+      "summary": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",
+      "published": "2026-08-03T11:16:21.083079+08:00",
+      "fetched_at": "2026-08-03T11:16:21.083080+08:00",
+      "pre_filter_reason": "Framework for AI agents.",
+      "scores": {
+        "importance": 8,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.1,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "微软Agent框架实战：从零搭建你的第一个AI Agent",
+          "angle": "手把手演示如何使用microsoft/agent-framework创建简单的AI代理，涵盖环境配置、核心概念（如多代理工作流）和部署步骤，适合开发者快速上手。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "review",
+          "title": "微软Agent框架评测：Python与.NET开发者如何选择？",
+          "angle": "对比该框架在Python和.NET下的开发体验、性能差异和适用场景，结合示例代码和社区反馈，帮助开发者决定是否采用此框架。",
           "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "f7bc4778c180",
-      "source_id": "geekpark",
-      "source_name": "极客公园",
+      "id": "4cf78e2142ea",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "Seedance 2.5发布，单次视频时长翻倍；美团上线外卖「等灯停表」功能；长鑫科技突破 4 万亿",
-      "link": "http://www.geekpark.net/news/368270",
-      "summary": "<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/8d/4a/8d4ab7a796f8507e44bbabac2ee012cc.png\" /></p><h1>DeepSeek-V4-Flash 正式版 API 上线公测，V4-Pro 正式版将「尽快」发布</h1><p>7 月 31 日消息，今天（31 日）下午，DeepSeek 通过 API 文档发布日志，宣布 DeepSeek-V4-Flash 正式版 API 上线公测。</p><p>根据介绍，DeepSeek-V4-Flash 的 Agent 能力大幅增强，基准测试<strong>远超 V4-Pro-Preview</strong>：</p><ul><li>Terminal Bench 2.1: 82.7</li><li>NL2Repo: 54.2</li><li>Cybergym: 76.7</li><li>DeepSWE: 54.4</li><li>Toolathlon verified: 70.3</li><li>Agent Last Exam: 25.2</li><li>Automation Bench (Public): 25.1</li><li>DSBench-FullStack: 68.7</li><li>DSBench-Hard: 59.6</li></ul><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/77/0f/770fb90f718d88d0d1469f2975ab617c.png\" /></p><p>据悉，正式版 V4-Flash 原生支持 Responses API 格式并针对性适配 Codex。DeepSeek-V4-Flash-0731 的模型结构、尺寸和 DeepSeek-V4-Flash-preview 保持一致，<strong>仅重新进行了后训练</strong>。（来源：新浪财经）</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/21/e3/21e37bb41a28945e523d062b6accc4aa.png\" /></p><h1>字节跳动国内推出 Seedance 2.5 视频 AI 模型：单次生成时长 30 秒、突破长叙事能力</h1><p>7 月 31 日消息，字节跳动今天（7 月 31 日）发布公告，宣布在国内推出 Seedance 2.5 视频生成模型，<strong>可单次生成 30 秒高质量视频片段</strong>，陆续上线即梦 AI 与豆包专业版，API 服务也将于近期接入火山方舟。</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/c3/8a/c38a8a7b00702dfc0a347d57dd1aa992.png\" /></p><p>官方称，Seedance 2.5 延续 Seedance 2.0 统一的多模态音视频联合生成架构，重点提升长叙事、多模态参考和编辑能力。</p><p>该模型面向影视、广告、教育、工业制造、具身智能和自动驾驶等场景，目标是让视频生成从「生成一个片段」转向「完成一段创作」。</p><p>在生成方面，<strong>Seedance 2.5 将单次视频生成时长从 15 秒提升至 30 秒</strong>，并支持多轮延长。官方称，模型可在 30 秒内组织多个具备逻辑关联的镜头，让故事可以按照铺垫、推进、转折、收尾展开。</p><h1>库克：苹果已获准在中国推出首批「Apple 智能」功能，未来的 Siri AI 还处于起步阶段</h1><p>7 月 31 日消息，苹果现任 CEO 蒂姆 · 库克（Tim Cook）今天在 2026 财年第三季度电话会议中确认，苹果公司已在中国获准推出首批「Apple 智能」（Apple Intelligence）功能。</p><p>问答环节中，摩根大通分析师萨米克 · 查特吉（Samik Chatterjee）问库克：</p><p>库克对此回答道：</p><p>据此前报道，网信部门本月会同有关部门按照《生成式人工智能服务管理暂行办法》要求，新增「Apple 智能」等 7 款提供手机端侧生成式人工智能服务备案信息。（来源：IT 之家）</p><h1>美团正式上线送外卖「等灯停表」功能，预计年内覆盖超百万骑手</h1><p>7 月 31 日消息，美团今日宣布，美团和苏州公安联合正式上线了<strong>外卖骑手「等灯停表」功能首个正式版本</strong>，目前已在率先接入交通数据的苏州道路进行实际路测。</p><p>当骑手在交通路口等红灯时，<strong>页面呈现红灯倒计时读秒信息</strong>，美团骑手 AI 安全助手发布提示信息「红灯停一停，正在记录等灯时长，订单结束时将延长本单配送时间」，骑手还可在该页面中看到所在区域的禁行道路信息，选择不同的配送路线，或根据需求自主决定配送线路。</p><p>配送完成后，骑手页面弹窗提示「订单号、等红灯累计时间」，系统告知「<strong>相应顺延最晚送达时间</strong>」，完成「等灯停表」功能。</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/14/ac/14ac327e8a773c35ad7789aedece7447.jpg\" /></p><p>目前，外卖骑手「等灯停表」功能首个正式版本已率先在苏州落地试点，<strong>首批覆盖姑苏区和苏州工业园区约 1100 个路口</strong>。在已接入交通数据的路口，骑手「等红灯、表就停」。</p><p>实现「等灯停表」主要依赖两部分数据信息，一是骑手的位置轨迹信号，二是骑手所在区域实时的红绿灯灯态数据。美团接入交通数据后，骑手 App 结合位置轨迹可实时判断骑手等灯状态。</p><p>当骑手身上有多个订单怎么办？「如果骑手在等待红灯时，身上有多笔订单，<strong>那么等灯的时长也会计入每一笔订单的配时</strong>。」美团配送安全技术团队介绍，「从最近的内部封闭路测来看，骑手体验顺畅，也有不少骑手给我们提出一些细节建议，我们已经一一记录。」</p><p>目前，北京与无锡已在同步对接测试，上海、杭州、成都、南昌、兰州等 20 余个城市也在评估中，具备条件的城市将陆续上线，<strong>预计今年内覆盖超百万骑手</strong>。</p><p>（来源：腾讯科技）</p><h1>「A 股老大」长鑫科技上市 5 天市值首次突破 4 万亿</h1><p>7 月 31 日消息，长鑫科技今日继续冲高，盘中涨超 13%，每股达到 60 元，<strong>总市值首次突破 4 万亿</strong>。</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/b8/bb/b8bb62c672d148b4236c6f8294dd7f91.png\" /></p><p>国产 DRAM 龙头企业长鑫科技 7 月 27 日正式登陆科创板，当日收涨 465.82%，总市值突破 3.28 万亿元，登顶 A 股。</p><p>据此前报道，长鑫科技上市首日即刷新四大 A 股历史纪录：</p><ul><li>1、A 股历史首只开盘市值破 3 万亿的科技股，开盘总市值约 3.31 万亿元；</li><li>2、登顶 A 股市值榜首；</li><li>3、A 股首只单日成交额突破千亿的个股，上市首小时成交已超 1000 亿元；</li><li>4、A 股首只千亿成交额叠加超 50% 换手率的新股。</li></ul><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/50/7b/507bfe2853e6fadf007bf616b131dc38.png\" /></p><h1>规范互联网渠道售卡管理，移动联通电信三大运营商停止第三方互联网渠道号卡办理</h1><p>7 月 31 日消息，据央视新闻报道，中国电信、中国移动和中国联通 7 月 31 日晚发布「关于规范互联网渠道售卡管理的公告」。</p><p>《公告》称：为保障用户权益和数据信息安全，对互联网渠道号卡订购业务进行统一规范。自 2026 年 8 月 1 日起，用户如需在互联网渠道订购号卡，<strong>只能通过电信运营商官方 App、官方网站等渠道办理，第三方互联网渠道不再提供电信号卡办理相关服务。</strong></p><p>运营商在《公告》中表示，近期发现有不法商家冒用「运营商授权合作」名义发布虚假售卡信息，或假借售卡名义收集用户身份证件、住址、联系方式等个人敏感信息，侵害了用户权益，给用户带来了极大的信息泄露风险。（来源：IT 之家）</p><h1>消息称 DeepSeek 计划在内蒙古建设大型 AI 数据中心，增加 1GW 算力</h1><p>7 月 31 日消息，据彭博社今日援引知情人士消息，DeepSeek 正计划在内蒙古建设一座大型 AI 数据中心。这一雄心勃勃的基础设施项目显示，这家中国人工智能初创公司正在扩大 AI 算力布局。</p><p>据不愿透露姓名的知情人士透露，<strong>DeepSeek 计划在内蒙古乌兰察布增加 1GW（吉瓦）规模算力</strong>。该公司除了自建数据中心计划外，<strong>也有意从其他公司租赁额外算力</strong>。</p><p>其中两位知情人士表示，<strong>DeepSeek 数据中心的部分算力将在明年年底或 2028 年初投入运行</strong>，目前尚不清楚该项目使用何种芯片。作为参考，英伟达目前是 AI 数据中心的行业标准，而华为则是中国数据中心领域的代表企业。</p><p>据 IT 之家此前报道，DeepSeek 已于 4 月放出新一批招聘信息，除了杭州和北京外，首次出现了工作地为内蒙古乌兰察布的岗位。两个相关岗位分别为数据中心高级交付经理、数据中心高级运维工程师，薪资为 15-30K · 14 薪。</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/ac/c8/acc8cb819a875de339b9f16b0701b25b.png\" /></p><p>乌兰察布年平均气温约为 4°C，天然的低温环境能够降低高功耗 AI 服务器的散热需求，<strong>因此成为各大企业建设数据中心的理想地点</strong>。</p><p>英伟达 CEO 黄仁勋曾预计，一座配备最先进 AI 加速器的 1GW 级数据中心，投资成本可能达到 500 亿美元（IT 之家注：现汇率约合 3386.82 亿元人民币）。不过这种成本会因为建设地点、AI 芯片类别产生巨大差异。众所周知，<strong>中国 AI 数据中心的建设成本通常低于美国</strong>。</p><p>由于工作时间缘故，DeepSeek 并未立即回应彭博社的置评请求。</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/88/a7/88a72b05ccc09dde46b758cce5290382.png\" /></p><h1>小米 REDMI K100 Pro 系列「满分旗舰」手机官宣，8 月 11 日发布</h1><p>7 月 31 日消息，今天上午，小米集团合伙人、总裁、手机部总裁、小米品牌总经理卢伟冰宣布，REDMI K100 Pro 系列手机双旗舰将于<strong>8 月 11 日正式发布</strong>。</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/76/4c/764cb352f97060aac185075bb17d95e0.jpg\" /></p><p>随后，卢伟冰通过长文详细介绍了这款手机背后的故事。</p><p>（来源：IT 之家）</p><h1>比亚迪海洋旗舰 SUV 海狮 08 内饰全球首秀，有望 8 月上市</h1><p>7 月 31 日消息，比亚迪汽车海洋网销售事业部总经理张卓今日公布海洋旗舰 SUV 海狮 08 内饰：「天地阔境，奢感入舱，落座之间，皆自在从容」。</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/a0/bf/a0bfd222820020c969e848db5f9dafd3.jpg\" /></p><p>从官方海报来看，此次展示的是海狮 08 六座版本，前排配备常规的悬浮式中控屏，二排吸顶屏带来更多娱乐功能，有望配备二排零重力座椅，带来更多舒适体验。</p><p>据 IT 之家此前报道，比亚迪海狮 08 今年 4 月在北京车展首发亮相，搭载第二代刀片电池、闪充技术、云辇-A（智能空气车身控制系统）、后轮转向、天神之眼 5.0 等配置。</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/35/27/352786c41e7e8920ec511047785c7a49.jpg\" /></p><p>（来源：IT 之家）</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/90/fe/90fe551a1bb246d4064a1ad15c484dfc.png\" /></p><h1>动力太强不适应：美国一女子首次驾驶 Model Y 撞入理发店后决定起诉特斯拉，索赔超 1000 万美元</h1><p>7 月 31 日消息，据 CarsCoops 今日报道，美国一名 59 岁女子因试驾特斯拉 Model Y 时发生事故受伤，近日向法院提起诉讼，要求特斯拉赔偿超过 1000 万美元（I 现汇率约合 6765.7 万元人民币）。</p><p>诉讼文件显示，该起事故发生于 2024 年 9 月 21 日，美国弗吉尼亚州阿灵顿，59 岁的阿莱姆泽沃德 · 劳加莱特（Alemzewd Lawgalet）在试驾特斯拉 Model Y 时发生严重事故，车辆冲过路面撞入一家美发店，撞击后起火。她本人也在此次事故中受重伤。</p><p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/16/c6/16c64490a43fe8a053cbd4715e5331cd.jpg\" /></p><p>她在诉状中提到，特斯拉销售人员明知这是她第一次驾驶电动汽车，却仍让她独自驾驶车辆，没有让她充分了解电动汽车的特性，包括动能回收等功能，且车辆处于最高性能的「Insane」加速模式。</p><p>据本人称，特斯拉销售人员曾告诉她 Model Y「和燃油车操作一样」。但当她在高速公路行驶过程中松开加速踏板时，动能回收产生的强烈制动感让她措手不及，随后她驶离高速准备归还车辆。</p><p>此次事故发生在路口绿灯亮起后，她当时毫无准备地踩下加速踏板，结果 Model Y 瞬间爆发出远超预期的加速性能，冲过路面并撞入路边美容店，而她完全来不及反应。</p><p>她表示，在该模式下，Model Y 的 0-60 英里 / 小时（约 96 公里 / 小时）加速仅需约 3.3 秒，已达到超跑水准。</p><p>特斯拉方面否认承担责任，并认为她驾驶过程中未能尽到合理注意义务。双方争议焦点包括，车辆处于「Insane」驾驶模式是否合理，以及特斯拉是否有责任提前向试驾用户说明动能回收制动和车辆性能特点。诉讼尚未作出最终裁决，目前无法确认事故责任归属。</p><p>（来源：CnBeta）</p><p>我的第一个问题想回到 WWDC。当时你们宣传 Siri AI 时提到，你们可能不会在中国大陆和欧洲率先推出 Siri AI。我现在想问问这方面的最新进展，以及如果要在这些地区推出 Siri AI，还需要跨越何种障碍？</p><p>感谢你的提问，我将分别回答两个地区的问题。</p><p>如果先看欧盟，我们正在和欧盟委员会密切合作。显然我们希望的情况是能够在全球所有地区同步推出所有功能，这一直是我们的理念。</p><p>但目前我们还无法在欧盟推出 Siri AI。但我们正在与他们紧密合作，努力寻求解决方案，以便在欧盟提供 Siri AI。</p><p>Siri AI 目前已在 Mac 上测试并即将推出，因为 Mac 不像 iPhone 和 iPad 那样受到法规约束。总体来说，我们正在和欧盟方面合作，希望能够达成某种解决方案。</p><p>如果再看中国市场，<strong>上周我们已经获得批准，可以推出首批「Apple 智能」功能</strong>，比如相册的「消除」等。</p><p>我们目前正在推进这些功能的发布工作。<strong>至于未来要推出的 Siri AI</strong>，<strong>我们目前还处于起步阶段</strong>，还有更多工作要努力完成。</p><p>满血性能，满配游戏体验</p><p>屏幕、影像、续航，全面焕新升级</p><p>一起见证，这份给你的「满分答卷」</p><p>当下手机行业，内存成本暴涨，核心硬件涨价，风浪席卷整个赛道。</p><p>REDMI K 系列从不是时代的幸运儿。2019 年至今，它每一次面对的都不是好打的仗，曾经的「缺芯少屏」犹在眼前，但正是那些最难的仗，逼出了双平台布局，逼出了国屏供应链的崛起。七代产品，七次蜕变，每一次求变迎战，都让 K 系列比上一次站得更高。敢变、能变、变得更好—— 这是 K 系列百战不殆的底牌。</p><p>今天，全新的 K100 系列来了。面对存储价格疯涨的行业周期，我们再次做出逆惯性的选择。行业惯性扎堆下半年发布，K100 系列产品节奏提档，只为打造一款用户真正期待的全能旗舰。</p><p>K100 Pro 双旗舰，率先登场。</p><p>去年我们以不设上限的理念，打造了 K90 Pro Max，在性能、续航、屏幕维持传统优势的同时，质感、影像、音质实现跨越式升级。这一次，K100 Pro 双旗舰，要让每一项体验都经得起较真。</p><p>K100 Pro，打造 4K 档全能旗舰，无短板：K100 Pro Max，目标是全能之上，打造游戏体验新标杆；</p><p>K100 时代，K 系列进入新阶段。全能旗舰已经是我们能做好的事。Pro 不再只是更好的版本，它就是 K 系列精神的继承者，能力的承载者，体验的标杆。满血满配，不是硬件堆料，是每个维度都拉到这个价位段的上限，尤其在游戏场景，我们花了大量精力去打磨。</p><p>K100 Pro 双旗舰，满血满配，满分旗舰。</p><p>当然，标准版并未缺席，它将坚守 K 系列「旗舰性能与务实体验」的精髓，稍晚时带来更多元选择。</p>",
-      "published": "2026-08-01T08:42:19+08:00",
-      "fetched_at": "2026-08-02T11:13:34.273853+08:00",
-      "pre_filter_reason": "DeepSeek模型发布",
+      "title": "阿里企业级 Agent 产品“千问办公”开启公测，集成最新旗舰模型 Qwen3.8",
+      "link": "https://www.ithome.com/0/984/942.htm",
+      "summary": "<p>IT之家 8 月 3 日消息，今日，阿里巴巴旗下企业级 Agent 产品“千问办公”开启公测。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/8/81910d0b-7e7a-4caa-a351-3c3feb945a25.jpg\" /></p><p>个人和企业用户均可通过“千问办公”官网体验，目前网页版和独立 PC 客户端已开放，钉钉 PC 端和手机端内置入口近期也将开放。用户可在“千问办公”体验阿里最新旗舰模型 Qwen3.8。</p><p>该应用具有免费版、个人标准版、个人高级版等订阅套餐，IT之家附具体订阅价格如下：</p><h3>个人版：</h3><ul class=\" list-paddingleft-2\"><li><p>免费版：0 元 / 月</p></li><li><p>个人标准版：原价 98 元 / 月，8 折价 78 元 / 月</p></li><li><p>个人高级版：原价 198 元 / 月，8 折价 158 元 / 月</p></li></ul><h3>企业版：</h3><ul class=\" list-paddingleft-2\"><li><p>企业标准版：198 元 / 月 / 席</p></li><li><p>企业旗舰版：需详询官方</p></li></ul><p>据IT之家了解，新的“千问办公”由 QoderWork、MuleRun、悟空三款产品全面整合而来，是业内首款同时支持桌面端 Agent、云端 Agent、企业协同 Agent 的产品，致力于帮助个人与企业提升办公生产力。</p>",
+      "published": "2026-08-03T11:12:31+08:00",
+      "fetched_at": "2026-08-03T11:15:39.633216+08:00",
+      "pre_filter_reason": "AI Agent产品，集成AI模型",
       "scores": {
-        "importance": 8,
-        "timeliness": 9,
-        "actionability": 9,
-        "scarcity": 7,
-        "virality": 8,
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 6,
+        "virality": 7,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.3,
+      "quality_score": 7.1,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "DeepSeek-V4-Flash 公测：开发者如何快速接入与调优？",
-          "angle": "手把手演示如何调用DeepSeek-V4-Flash API，并对比V4-Pro的差异，提供最佳实践与成本优化建议。",
+          "title": "千问办公公测体验：阿里企业级Agent如何提升办公效率？",
+          "angle": "演示千问办公的核心功能（如自动化任务处理、文档生成），并对比传统办公工具，展示其如何集成Qwen3.8模型优化工作流，适合企业用户和效率爱好者。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "阿里千问办公 vs 微软Copilot：企业Agent产品哪家强？",
+          "angle": "从功能、集成生态、定价策略和适用企业规模等维度，对比阿里千问办公与微软Copilot，分析各自优势与潜在短板，帮助企业决策者选择。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "be23ecd8642c",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "search",
+      "title": "涉及中国AI，两家英媒同日发文 - 凤凰网",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9UNUd3TzByWkNkOHNSUG9IVHN2OEltV2xYRVY0M2ZKQzhYN25OQUZKSGlkZl9iRzFjYktrVnQ0TnRpRjVSQTRFakE0VUY?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiTEFVX3lxTE9UNUd3TzByWkNkOHNSUG9IVHN2OEltV2xYRVY0M2ZKQzhYN25OQUZKSGlkZl9iRzFjYktrVnQ0TnRpRjVSQTRFakE0VUY?oc=5\" target=\"_blank\">涉及中国AI，两家英媒同日发文</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">凤凰网</font>",
+      "published": "2026-08-03T08:11:23+08:00",
+      "fetched_at": "2026-08-03T11:15:42.932088+08:00",
+      "pre_filter_reason": "中国AI报道",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.1,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "英媒聚焦中国AI：西方视角下的机遇与担忧",
+          "angle": "汇总两篇英媒报道的核心观点，分析西方媒体如何解读中国AI的崛起（如技术突破、地缘政治影响），并探讨这些报道对全球科技合作与竞争的可能影响。",
           "difficulty": "入门"
         },
         {
           "tag": "news",
-          "title": "Seedance 2.5 与长鑫科技：中国AI芯片与视频生成的双重突破",
-          "angle": "汇总当日科技要闻，重点解读Seedance 2.5视频时长翻倍对内容创作的影响，以及长鑫科技4万亿投资背后的存储芯片战略。",
+          "title": "中国AI再引热议：英媒同日发文背后的信号",
+          "angle": "快速梳理英媒报道的关键内容，结合近期中国AI领域动态（如开源模型、政策支持），解读其为何成为国际焦点，为观众提供简明背景。",
           "difficulty": "入门"
         }
       ]
@@ -124,620 +531,213 @@
       "link": "http://www.geekpark.net/news/368277",
       "summary": "<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/bf/7e/bf7ee190b8c594e08b914ab998b48850.png\" /></p>\n<h2>马斯克和 Altman 达成共识：人类已迈入 AI 奇点时代</h2>\n<p>科技媒体 thenews 近日发布博文，报道称马斯克和 Altman 在 AI 奇点（singularity）方面达成共识。</p>\n<p>7 月 25 日作客 Relentless 播客节目时，Altman 表示：「我们现在差不多已经身处奇点时代。」奥尔特曼还预测，在人类目前能完成的工作中，AI 已经能够自动化完成约 30~40% 的工作，并表示 AI 正推动「自工业革命以来最大的经济变革」。</p>\n<p>马斯克于 7 月 31 日在 X 平台发布推文，指出：「AI 在很多方面都已经超越了人类。我们正处于奇点之中。」</p>\n<p>注：AI 奇点是未来学家雷 &middot; 库兹韦尔（Ray Kurzweil）在 2005 年提出的假设，是一种理论情境，即人工智能自我改进的速度超过了我们人类监控和控制它的能力。(来源：IT 之家)</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/90/43/904355582b8a2bf0b5aa802ca56da1c1.png\" /></p>\n<h2>高通完成收购 Modular，加速 AI 计算布局</h2>\n<p>8 月 2 日消息，高通公司最近（7 月 29 日）宣布完成收购 Modular Inc.，双方将进一步打造领先的 AI 计算平台，提供完整的 AI 解决方案。</p>\n<p>Modular 是一家专注于 AI 原生软件基础设施的初创企业，他们的软件平台可帮助开发者在异构计算系统中，部署生成式 AI 和智能体。</p>\n<p>据悉，此次收购将加速高通在 AI 方面的发展进度，如数据中心、边缘基础设施、工业 AI 等。同时帮助 Modular 扩大市场并覆盖更多用户。Modular 对开放异构生态系统的承诺不变，并提供 CPU、GPU 和 NPU 的定制方案。</p>\n<p>Modular 旗下的 Mojo、MAX 和 Modular Cloud 将继续作为产品和品牌运营，并获得高通公司的投资和支持。Modular 联合创始人兼 CEO Chris Lattner 将出任高通技术公司高级 AI 软件与平台执行副总裁。(来源：IT 之家)</p>\n<p>&nbsp;</p>\n<h2>谷歌、微软、Meta、亚马逊「四巨头」未来数年投入 2.4 万亿美元，豪赌 AI 基础设施</h2>\n<p>据彭博社报道，谷歌母公司 Alphabet、Meta、微软和亚马逊已经为未来数年的数据中心建设承诺投入近 2.4 万亿美元（现汇率约合 16.24 万亿元人民币），AI 基础设施竞赛仍在迅速升温。</p>\n<p>亚马逊首席执行官安迪 &middot; 贾西认为，眼下的巨额投入与 AWS 早期扩张如出一辙，最终有望换来丰厚回报。</p>\n<p>过去一年，四家公司为扩建数据中心，在租赁、建筑、能源和设备方面作出的支出承诺急剧膨胀。部分资金将在近期投入，也有一些合同需要在未来数十年内逐步履行。</p>\n<p>科技行业今年一直在争论，企业斥资数千亿美元建设 AI 数据中心，最终能否收回成本。Alphabet 和亚马逊的自由现金流已经转负，Meta 预计也将很快步其后尘。尽管如此，四家公司最近仍相继上调支出计划，理由大多相同：AI 算力需求极为庞大，现有基础设施远远不够。</p>\n<p>不过，披露金额并不全都用于数据中心，各公司的统计口径也不完全一致，不能简单横向比较。Meta 的部分计划支出将用于 Reality Labs 部门的消费级硬件，Alphabet 和亚马逊还把内容授权费用计入承诺支出。</p>\n<p>贾西周四表示，亚马逊正以更快速度重演 AWS 最初的扩张过程，早期投入虽高，后期回报也可能十分可观。即便亚马逊今年把资本支出提高到 2200 亿美元（现汇率约合 1.49 万亿元人民币），云基础设施容量仍无法满足全部需求。AWS 第二季度营收增长 37%，增速创 2021 年底以来新高。(来源：IT 之家)</p>\n<p>&nbsp;</p>\n<h2>马斯克旗下 X 平台与全球广告主联盟达成和解, 终结多年非法抵制诉讼</h2>\n<p>马斯克旗下的社交平台 X 与全球广告主联盟（WFA）已正式就长期存在的法律纠纷达成和解，标志着该平台与广告行业之间这场极具代表性的矛盾暂告一段落。</p>\n<p>根据双方发布的联合声明，X 公司与 WFA 表示已将相关诉讼抛在脑后，此举重塑了两大机构之间的关系。不过，双方均未公开具体的和解条款。</p>\n<p>这一和解终结了 X 于 2024 年发起的高调诉讼中的关键部分。此前，X 控告 WFA 及其旗下数家大型广告商协同组织「非法抵制」，导致该平台损失了数以十亿美元计的广告收入。虽然一名联邦法官在今年早些时候驳回了该案，但 X 在今年 4 月提起了上诉。目前，X 针对诉讼中涉及的其他公司的上诉程序仍在继续。</p>\n<p>尽管与 WFA 的和解消除了 X 向广告业发起的最重大外部法律挑战，但它并未从根本上解决平台内容治理模式与广告商资金投放考量之间的深层次矛盾。（来源：cnBeta）</p>\n<h2>&nbsp;</h2>\n<h2>苹果公司警告 AI 算力资源或面临短缺, 或将引发产品与服务延迟发布</h2>\n<p>科技巨头苹果公司在其提交给美国证券交易委员会（SEC）的最新 10-Q 财报文件中发出警告，指出公司在人工智能（AI）和机器学习领域的计算资源可能面临短缺风险。</p>\n<p>虽然苹果在最新的业绩报告中重点提及了供应链瓶颈可能对本季度收入增长造成影响，但仔细研读其监管文件可以发现，该公司对 AI 及机器学习基础设施产能紧张的问题表达出了更为深层的担忧。</p>\n<p>公司首先指出，将其零部件及部件的采购集中于少数特定供应商，会使公司更容易受到价格波动和供应短缺的影响，进而损害整体收入。</p>\n<p>此外，苹果特别提到了当前存储芯片行业的持续短缺问题，强调 NAND Flash 和 DRAM 领域的动荡已经严重影响到公司以商业合理条件（甚至根本无法）获取足够数量零部件及产品的能力。</p>\n<p>苹果过去一直未在大规模 AI 基础设施领域进行巨额投入，而是选择依托第三方的算力支持，例如利用 Google 的基础设施。然而苹果在本次文件中坦言，其 AI 及机器学习服务的高度运行均深度依赖于「能否获取足够的计算资源」。</p>\n<p>若未来无法以商业合理的条款或在需要时争取到足够的产能，苹果旗下产品与服务的功能性和可用性都将受限，甚至可能导致新产品及新服务的部署进度被迫推迟。（来源：cnBeta）</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/33/17/33173cdc64d86e5146231fb627a3a2dc.png\" /></p>\n<h2>iPad Air 或于 2027 年迎四年来首次重大外观重构</h2>\n<p>自 2020 年发布第四代产品以来，iPad Air 已经连续多代维持了相同的外观设计，成为苹果平板电脑产品线中外观沿用时间最长的机型。在此期间，iPad Air 虽历经 M1、M2、M3 及 M4 等多款芯片的内部迭代，但其外壳设计始终未发生改变。不过，这种长期「套壳」升级的局面有望在 2027 年迎来彻底改变。</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/eb/f3/ebf330ab17704ce63388a493ab7f6bca.jpg\" /></p>\n<p>相关消息透露，苹果计划在 2027 年初为 iPad Air 换装 OLED 屏幕。本次面板预计将由三星显示（Samsung Display）供应，采用单层 LTPS OLED 方案。虽然在成本与峰值亮度上略低于 iPad Pro 所配备的双层串联 OLED 屏幕，但这依然将是 iPad Air 迎来的一次里程碑式硬件升级，同时也是苹果将 OLED 技术逐步扩展至 iMac 和 MacBook Air 等更多产品线计划的重要一环。除了屏幕材质的更换外，新一代 iPad Air 还被曝将搭载全新的 M5 芯片。</p>\n<p>鉴于 iPad Air 与 iPad mini 长期共享设计语言的历史&mdash;&mdash;正如 2012 年首款 iPad mini 的造型启发了次年 iPad Air 的外观&mdash;&mdash;若 iPad mini 率先完成设计迭代，iPad Air 极有可能会在次年跟随跟进。</p>\n<p>尽管目前关于 iPad Air 外观改款的具体细节尚未有确切传闻，但如果其延续 iPad mini 的改版路线，未来不排除会同步引入防水保护以及无孔振动扬声器等全新设计特性。（来源：cnBeta）</p>\n<p>&nbsp;</p>\n<h2>环球、索尼、华纳等多家唱片公司提议将低质 AI 音乐从排行榜中剔除</h2>\n<p>8 月 1 日消息，据 The Verge 报道，环球音乐集团、索尼音乐、华纳音乐集团等多家唱片公司提议将低质量的 AI 音乐从排行榜中剔除。</p>\n<p>唱片公司代表在一份联合声明中公开指出，大量充斥流媒体平台的 AI 生成音乐并非出自艺人之手，而是利用未经艺人许可、以艺人作品为基础训练的工具制作而成。</p>\n<p>报道称这项新提议的严苛程度，远超此前由美国唱片业协会、国际唱片业协会等机构提出的标识提案。先前的提案旨在为 AI 生成及 AI 辅助音乐设立一套标准化的标识系统。</p>\n<p>唱片公司的这项新提议不仅要求对歌曲进行清晰标识，更明确指出：除非歌曲满足「实质上由人类创作」等特定标准，否则将被禁止进入国际排行榜。</p>\n<p>如果 AI 仅起到辅助作用，则仍有资格进入排行榜。但要想获得打榜资格，这些歌曲还必须符合所使用的任何 AI 服务的服务条款。此外，AI 模型必须拥有其训练数据的合法使用权，且歌曲本身「不会引发对刷榜或操纵排行榜的担忧」。至于何种情况构成「担忧」，以及如何界定「实质上由人类创作」，目前官方的表述仍不清晰。(来源：IT 之家)</p>\n<p>&nbsp;</p>\n<h2>小米手机正式涨价 300 元起，影响小米 17 系列、REDMI K90、Turbo 5</h2>\n<p>8 月 2 日 0 点更新：小米商城价格显示，通知中提到的手机确实已经涨价。</p>\n<ul>\n<li style=\"text-align: left;\">REDMI Turbo 5：从 2299 元起上涨到 2599 元起</li>\n<li style=\"text-align: left;\">REDMI Turbo 5 Max：从 2499 元起上涨到 2799 元起</li>\n<li style=\"text-align: left;\">REDMI K90：从 2799 元起上涨到 3099 元起</li>\n<li style=\"text-align: left;\">REDMI K90 Max：从 3199 元起上涨到 3499 元起</li>\n<li style=\"text-align: left;\">REDMI K90 Pro Max：从 4199 元起上涨到 4499 元起</li>\n<li style=\"text-align: left;\">REDMI K90 至尊版：从 2999 元起上涨到 3299 元起</li>\n<li style=\"text-align: left;\">小米 17：从 4499 元起上涨到 4799 元起</li>\n<li style=\"text-align: left;\">小米 17 Pro：从 4999 元起上涨到 5399 元起</li>\n<li style=\"text-align: left;\">小米 17 Pro Max：从 5999 元起上涨到 6499 元起</li>\n</ul>\n<p>REDMI K90 标准版、REDMI K90 Pro Max 此前已经上调过 200 元，REDMI Turbo 5 则取消了新春特惠。</p>\n<p>小米集团合伙人、总裁、手机部总裁、小米品牌总经理卢伟冰在 7 月初曾发文称，手机行业正在经历近十年以来最严峻时刻，失控的成本已经席卷了整个手机市场，而千元机毫无疑问受伤最严重。(来源：IT 之家)</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/a9/9f/a99ff3adc2eec80ad80418a218ff8fff.png\" /></p>\n<h2>Google 或将推出智能追踪器「Pixel Tag」</h2>\n<p>Google 似乎正在研发一款名为「Google Pixel Tag」的智能追踪设备，以竞争苹果的 AirTag。相关产品信息和图片来源于一家斯洛文尼亚电商网站的商品页面，页面内容显示，这款呈小椭圆形外观的设备是一款智能物品追踪器，配备了内置扬声器，并接入 Google 现有的「查找我的设备」（已更名为 Find Hub）网络。</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/83/d0/83d03c7753a27784ed9bfde35a138915.jpg\" /></p>\n<p>此次泄露恰逢 Google 即将于 8 月 12 日举行的新品发布会之前。在此之前，Google 已经预热了 Pixel 11 系列手机，同时网络上也陆续曝光了新款折叠屏手机、智能手表以及无线耳机等硬件产品。</p>\n<p>根据泄露的商品描述，Google Pixel Tag 主打轻巧便携与耐用设计，用户可将其挂附在钥匙、钱包或行李等重要物品上。借助 Google 庞大且安全的「查找我的设备」网络，用户能随时通过智能手机精准掌控物品位置，同时借助设备内置的高音量扬声器进行近距离寻物，并在设计上注重保护用户隐私及个人数据安全。</p>\n<p>目前，Google 方面尚未对此消息做出一回复。（来源：cnBeta）</p>\n<p>&nbsp;</p>\n<h2>比亚迪方程豹全新轿车系列「方程 S」开启全国巡展，三季度上市</h2>\n<p>8 月 1 日消息，比亚迪方程豹「方程 S」开启全国巡展，定位「全场景多形态个性轿车」，首站位于上海豫园，活动时间为 8 月 1 日至 9 日。</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/d7/d0/d7d0778b5f26cce55c2d57402d40ffdd.jpg\" /></p>\n<p>在今年 4 月举行的 2026 北京国际车展上，比亚迪方程豹宣布其首发的轿车系列产品线定名「方程 S」。官方公布了「方程 S」家族的三款车型：方程 S、方程 SL 三厢轿车，以及方程 S GT 猎装车。</p>\n<p>目前方程豹的「豹系列」属于智能化的越野车，「钛系列」属于全能化的城市车，最新迎来的方程 S 将于 2026 年第三季度上市。</p>\n<p>今年 6 月，工信部公布了第 408 批《道路机动车辆生产企业及产品公告》新产品公示，比亚迪方程豹品牌首款轿车&mdash;&mdash;方程 S / 方程 S GT 正式申报。</p>\n<p>申报信息显示，方程 S 长宽高分别为 5060/1967/1483 或 1458mm，轴距 2960mm，整备质量 2140kg，总质量 2580kg，最高车速达到 240km/h。该车搭载一台峰值功率 245kW 或 300kW 的单电机，还有 190/300kW 的双电机可选，匹配磷酸铁锂电池。(来源：IT 之家)</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/6d/a6/6da6ea30f869160b9c428745b0c376dd.png\" /></p>\n<h2>马斯克刚刚关注了 DeepSeek 的 X 账号</h2>\n<p>8 月 1 日消息，关注科技公司 CEO 和高管动态的账号 Big Tech Alert 发布提醒消息，埃隆 &middot; 马斯克刚刚关注了 DeepSeek 的 X 账号。</p>\n<p style=\"text-align: center;\"><img src=\"https://imgslim.geekpark.net/uploads/image/file/70/e2/70e2da28e15b91141851e238e101a622.jpg\" /></p>\n<p>DeepSeek7 月 31 日通过 API 文档发布日志，宣布 DeepSeek-V4-Flash 正式版 API 上线公测，凭借超高性价比再次引爆 AI 圈。</p>\n<p>值得一提的是，马斯克当地时间 7 月 23 日在接受英国《经济学人》专访时表示，中国在机器人和 AI 领域实力雄厚，未来「很有可能在某个时候成为领导者」。(来源：IT 之家)</p>\n<p>&nbsp;</p>",
       "published": "2026-08-02T09:13:57+08:00",
-      "fetched_at": "2026-08-02T11:13:34.273818+08:00",
-      "pre_filter_reason": "讨论AI奇点及AI算力短缺",
+      "fetched_at": "2026-08-03T11:15:36.637352+08:00",
+      "pre_filter_reason": "Discusses AI singularity and AI compute shortage",
       "scores": {
         "importance": 8,
         "timeliness": 7,
         "actionability": 8,
         "scarcity": 6,
-        "virality": 8,
+        "virality": 9,
         "crowd_heat": 0.0
       },
-      "quality_score": 7.2,
+      "quality_score": 7.1,
       "topics": [
         {
           "tag": "analysis",
-          "title": "马斯克与Altman罕见共识：AI奇点已至，我们该恐慌还是拥抱？",
-          "angle": "梳理两位科技领袖的言论，从技术奇点到社会影响，提供多角度观点，帮助观众理性看待AI加速时代。",
+          "title": "AI奇点已至？马斯克与Altman共识背后的真相",
+          "angle": "解读马斯克和Altman关于AI奇点的言论，分析其依据（如技术指数增长、AGI进展），并探讨这一共识对科技行业和普通人的潜在影响。",
           "difficulty": "入门"
         },
         {
           "tag": "news",
-          "title": "苹果AI算力告急：产品延期背后，芯片短缺如何重塑科技巨头竞争？",
-          "angle": "分析苹果算力短缺的深层原因，对比英伟达、谷歌等公司的芯片策略，探讨未来AI硬件供应链走向。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "e79e5218568f",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "谷歌 Gemini Spark 智能体对全球更多用户开放，支持订机票、整理收件箱等操作",
-      "link": "https://www.ithome.com/0/984/674.htm",
-      "summary": "<p>IT之家 8 月 2 日消息，谷歌于 7 月 31 日宣布将 Gemini Spark 智能体开放给全球大部分用户，这款产品能够在用户指示下，完成整理收件箱、总结通讯邮件、取消订阅等操作。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/8/96c5bb3d-6bfe-4b2b-9ac0-fe90c50b2e09.jpg?x-bce-process=image/format,f_auto\" /></p><p>IT之家了解到，Spark 是谷歌推出的个人 AI 智能体。这款产品目前已经和 Chrome 浏览器整合，用户授权后，智能体可以使用保存的账户密码，代替用户完成一些复杂的网络操作，如搜索航班、预订机票、查询收藏房源等。</p><p>同时，Spark 提供两种安全机制，这款智能体首先会防御提示词攻击，<strong>并将付款等敏感操作交给用户完成</strong>。</p><p>目前，Spark 在所有支持 Gemini 的地区提供服务，但不包括欧洲经济区、尼日利亚、瑞士和英国。在美国，用户需要订阅 Google AI Pro / Ultra 才能使用该功能，其他地区则需要订阅 AI Ultra 才能使用。</p>",
-      "published": "2026-08-02T10:27:08+08:00",
-      "fetched_at": "2026-08-02T11:13:37.400904+08:00",
-      "pre_filter_reason": "谷歌Gemini Spark智能体，属于AI产品",
-      "scores": {
-        "importance": 7,
-        "timeliness": 8,
-        "actionability": 8,
-        "scarcity": 6,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.1,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "谷歌Gemini Spark上手：5分钟学会用AI智能体订机票和整理收件箱",
-          "angle": "实拍演示Spark的典型操作流程，包括语音指令、任务自动化，并分享如何设置个性化偏好以提升效率。",
+          "title": "苹果警告AI算力短缺：iPhone延期发布的深层原因",
+          "angle": "剖析苹果因AI算力不足导致产品延期的报道，结合全球芯片供应和AI算力需求趋势，解释硬件厂商面临的挑战，并展望未来解决方案。",
           "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "AI智能体大战：谷歌Spark vs 微软Copilot，谁更懂你的生活？",
-          "angle": "对比两大智能体在功能、生态整合、隐私保护上的差异，预测个人AI助手市场的未来格局。",
-          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "f0880659ba93",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "Anthropic模型，也失控了。。。",
-      "link": "https://www.qbitai.com/2026/08/464412.html",
-      "summary": "14万次测试翻旧账",
-      "published": "2026-08-01T11:18:46+08:00",
-      "fetched_at": "2026-08-02T11:13:32.259072+08:00",
-      "pre_filter_reason": "Anthropic模型失控",
-      "scores": {
-        "importance": 7,
-        "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 6,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.1,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "Anthropic模型失控？14万次测试背后的真相",
-          "angle": "深入剖析Anthropic模型在14万次测试中暴露的失控案例，探讨AI安全边界与行业影响，帮助观众理解AI失控的潜在风险与应对策略。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "tutorial",
-          "title": "如何避免AI模型失控：从Anthropic案例学到的5个教训",
-          "angle": "基于Anthropic模型失控事件，总结实用的AI模型调试与监控技巧，提供可操作的步骤，帮助开发者和企业规避类似问题。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "f73e49485913",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "bytedance /deer-flow",
-      "link": "https://github.com/bytedance/deer-flow",
-      "summary": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-      "published": "2026-08-02T11:13:44.154615+08:00",
-      "fetched_at": "2026-08-02T11:13:44.154617+08:00",
-      "pre_filter_reason": "AI agent harness",
-      "scores": {
-        "importance": 7,
-        "timeliness": 7,
-        "actionability": 8,
-        "scarcity": 6,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.0,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "deer-flow入门：开源SuperAgent工具实战指南",
-          "angle": "手把手教你安装和配置deer-flow，演示如何利用其沙盒、记忆和工具功能完成一个简单的自动化任务，快速上手长周期AI代理。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "case-study",
-          "title": "用deer-flow构建你的第一个AI研究助手",
-          "angle": "以实际项目为例，展示deer-flow如何整合子代理和技能，完成从信息检索到代码生成的复杂任务，分享最佳实践与常见坑点。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "c8fb9de56fe2",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "我军智能系统实弹验证首次公开：协同打击、分秒不差，真正实现体系秒杀",
-      "link": "https://www.ithome.com/0/984/661.htm",
-      "summary": "<p>IT之家 8 月 2 日消息，据央视新闻今日报道，<strong>我军智能系统实弹验证首次公开</strong>。</p><p style=\"text-align: center;\"><a class=\"ithome_super_player\" href=\"https://weibo.com/2656274875/RbudymaOD\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/8/67697eb1-cdfe-452f-aa6f-e5121803ed4f.jpg\" /></a></p><p>视频中，演习前一天，该智能规划打击系统进行了最终实弹测试。随着远程控制人员下达“发射”的指令，<strong>导弹顺利进入高空巡航，并成功命中既定目标</strong>。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/8/dfd41863-d2a2-4ad4-a1dc-94c6b6e162c4.jpg\" /></p><p>而在一场空军大规模演习中，上百个战术单元，靠着智能规划打击系统，协同打击、分秒不差，真正实现体系秒杀。</p><p>值得一提的是，<strong>这套系统，已在空军多项任务中投用</strong>。</p><p>据IT之家此前报道，<a href=\"https://www.ithome.com/0/983/979.htm\" target=\"_blank\">我国陆军无人机机群实战化演练影像也已首次公开</a>。视频画面显示，面对东南海域出现的一艘不明无人快艇，无人机分队前出进行侦查打击。远程控制人员通过遥控无人机，成功锁定不明无人快艇，并发射导弹成功命中目标。</p><p style=\"text-align: center;\"><a class=\"ithome_super_player\" href=\"https://weibo.com/1699432410/RbcbVka5w\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/8/d01e8658-64d3-4748-85d1-9fbc7d1fa053.jpg\" /></a></p>",
-      "published": "2026-08-02T08:40:54+08:00",
-      "fetched_at": "2026-08-02T11:13:37.401016+08:00",
-      "pre_filter_reason": "智能系统实弹验证，涉及AI",
-      "scores": {
-        "importance": 6,
-        "timeliness": 8,
-        "actionability": 6,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 7.0,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "我军智能系统实弹验证：AI如何改变现代战争？",
-          "angle": "解读央视公开的智能系统实弹验证视频，分析协同打击与体系秒杀背后的AI技术原理，探讨未来战场智能化趋势。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "explainer",
-          "title": "从实弹演习看AI决策：智能规划打击是如何实现的？",
-          "angle": "拆解智能系统在演习中的决策流程，用通俗语言解释AI如何实时规划与协同，并讨论其对军事AI发展的启示。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "80e54b434586",
+      "id": "bc3f39fcc952",
       "source_id": "github-ai-repos",
       "source_name": "GitHub AI 新项目",
       "source_tier": "T2",
       "source_lang": "en",
       "source_category": "community",
-      "title": "shanraisshan/claude-code-best-practice",
-      "link": "https://github.com/shanraisshan/claude-code-best-practice",
-      "summary": "from vibe coding to agentic engineering - practice makes claude perfect",
-      "published": "2026-08-02T11:13:44.656827+08:00",
-      "fetched_at": "2026-08-02T11:13:44.656829+08:00",
-      "pre_filter_reason": "Claude coding best practices",
+      "title": "infiniflow/ragflow",
+      "link": "https://github.com/infiniflow/ragflow",
+      "summary": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "published": "2026-08-03T11:16:21.083098+08:00",
+      "fetched_at": "2026-08-03T11:16:21.083099+08:00",
+      "pre_filter_reason": "RAG engine for LLMs, AI-related.",
       "scores": {
-        "importance": 6,
+        "importance": 7,
         "timeliness": 7,
         "actionability": 8,
         "scarcity": 6,
         "virality": 7,
         "crowd_heat": 0.0
       },
-      "quality_score": 6.9,
+      "quality_score": 7.0,
       "topics": [
         {
           "tag": "tutorial",
-          "title": "从vibe coding到agentic engineering：Claude Code最佳实践",
-          "angle": "分享claude-code-best-practice仓库的核心内容，演示如何从随性编码转向工程化代理开发，提升代码质量与效率。",
-          "difficulty": "进阶"
+          "title": "RAGFlow 入门：5分钟搭建你的第一个本地RAG应用",
+          "angle": "手把手演示如何安装RAGFlow、导入文档并提问，强调其开源免费和可视化操作界面，适合零基础开发者快速上手。",
+          "difficulty": "入门"
         },
         {
-          "tag": "listicle",
-          "title": "Claude Code实战技巧：10个让你效率翻倍的最佳实践",
-          "angle": "提炼仓库中的精华技巧，以清单形式呈现，涵盖提示词设计、工作流优化和错误处理，适合所有Claude Code用户。",
-          "difficulty": "入门"
+          "tag": "analysis",
+          "title": "RAGFlow vs 传统RAG：为什么说它是LLM的‘超级上下文层’？",
+          "angle": "深度解析RAGFlow如何通过Agent能力增强检索生成，对比传统RAG的痛点，用案例说明其在复杂问答中的优势。",
+          "difficulty": "进阶"
         }
       ]
     },
     {
-      "id": "1c0596d04b1b",
+      "id": "fcbaf50e2f02",
       "source_id": "ithome-ai",
       "source_name": "IT之家",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "高通完成收购 Modular，加速 AI 计算布局",
-      "link": "https://www.ithome.com/0/984/662.htm",
-      "summary": "<p>IT之家 8 月 2 日消息，高通公司最近（7 月 29 日）宣布完成收购 Modular Inc.，双方将进一步打造领先的 AI 计算平台，提供完整的 AI 解决方案。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/8/4df1c7e0-ce6e-4ec0-80ad-bbac8addf88e.png?x-bce-process=image/format,f_auto\" /></p><p>IT之家从官方新闻稿了解到，Modular 是一家专注于 AI 原生软件基础设施的初创企业，他们的软件平台可帮助开发者在异构计算系统中，部署生成式 AI 和智能体。</p><p>据悉，<strong>此次收购将加速高通在 AI 方面的发展进度</strong>，如数据中心、边缘基础设施、工业 AI 等。同时帮助 Modular 扩大市场并覆盖更多用户。Modular 对开放异构生态系统的承诺不变，并提供 CPU、GPU 和 NPU 的定制方案。</p><p><strong>Modular 旗下的 Mojo</strong>、<strong>MAX 和 Modular Cloud 将继续作为产品和品牌运营</strong>，并获得高通公司的投资和支持。Modular 联合创始人兼 CEO <span class=\"hover:entity-accent entity-underline inline cursor-pointer align-baseline\">Chris Lattner 将出任高通技术公司高级 AI 软件与平台执行副总裁。</span></p>",
-      "published": "2026-08-02T08:41:30+08:00",
-      "fetched_at": "2026-08-02T11:13:37.401006+08:00",
-      "pre_filter_reason": "高通收购AI计算公司",
+      "title": "消息称阿里内测 AI 办公平台“万有无界”，多智能体协同交付",
+      "link": "https://www.ithome.com/0/984/883.htm",
+      "summary": "<p>IT之家 8 月 3 日消息，据《读佳》今日报道，阿里云正在内测一款面向 B 端的人与 Agent 协作平台“万有无界”，搭建由多名<strong>数字员工</strong>组成的协作小组，围绕完整项目共同推进任务。</p><p style=\"text-align: start;\">报道提到，不同于“千问办公”侧重日常办公流程、文档处理、自动化办公的场景，<strong>“<span>万有无界</span>”聚焦复杂项目的多智能体协同交付</strong>，进一步完善了阿里 AI 办公的产品矩阵。这款主打企业级服务的平台，经过实测体验发现，自由职业者、个体创业者同样能找到适配自身需求的使用场景，轻量化场景适配性较突出。</p><p style=\"text-align: start;\"><strong>目前，万有无界内的所有能力均可免费体验</strong>。不过按照官方规划，后续会根据任务规模、模型资源消耗等情况，提供不同版本或企业方案。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/8/72264e7b-fdd9-4982-90de-f1ca7cc93219.png?x-bce-process=image/format,f_auto\" /></p><p style=\"text-align: start;\">IT之家注意到，近期，阿里在 AI 办公领域的动作不断。7 月 2 日，阿里宣布正在对旗下 Agent 产品线进行整合：以 QoderWork 为基础，整合悟空、MuleRun 的能力，整合升级成一款更强大的面向企业生产力场景的 AI 产品。新产品由钉钉 CEO 陈宇森负责。后续又有消息称，阿里将推出千问办公，且已经整合 QoderWork、悟空、MuleRun 这三款智能体产品。</p><p style=\"text-align: start;\">7 月 27 日，<a href=\"https://www.ithome.com/0/981/982.htm\" target=\"_blank\">阿里旗下千问办公的官网正式上线</a>，提供免费版、个人标准版、个人高级版等订阅套餐。该应用主打六大核心能力：企业 IM 写作能力、Office 专业产物一站式生成与编辑、多模态内容理解、全栈网页生成、专业数据源聚合与接入、自定义技能和专家套件。</p>",
+      "published": "2026-08-03T10:13:20+08:00",
+      "fetched_at": "2026-08-03T11:15:39.633329+08:00",
+      "pre_filter_reason": "AI办公平台，多智能体协同",
       "scores": {
         "importance": 7,
         "timeliness": 8,
         "actionability": 7,
-        "scarcity": 6,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 6.9,
-      "topics": [
-        {
-          "tag": "analysis",
-          "title": "高通收购Modular：AI计算布局的下一步棋",
-          "angle": "解读高通收购Modular的战略意义，分析其对AI计算平台和边缘计算的影响，展望未来AI硬件与软件融合趋势。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "explainer",
-          "title": "Modular是什么？高通为何要收购它？",
-          "angle": "用简单语言介绍Modular的技术背景（如MAX引擎），解释其如何助力高通提升AI推理性能，并对比竞争对手的布局。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "585fc7e0f4d6",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "「天线宝宝」机器人上门做保洁，200元/小时，纯·人工·智能",
-      "link": "https://www.qbitai.com/2026/08/464781.html",
-      "summary": "具身智能的τ（bushi）",
-      "published": "2026-08-01T18:45:46+08:00",
-      "fetched_at": "2026-08-02T11:13:32.258990+08:00",
-      "pre_filter_reason": "具身智能机器人，AI相关",
-      "scores": {
-        "importance": 5,
-        "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 6.9,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "200元/小时的「天线宝宝」保洁机器人，到底值不值？",
-          "angle": "拆解具身智能机器人的技术原理（SLAM、机械臂控制），并对比人工保洁的成本与效率，给出是否值得尝鲜的实用建议。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "「纯·人工·智能」背后：具身智能的商业化困局",
-          "angle": "从这则新闻切入，分析具身智能从实验室到商用落地的难点（成本、可靠性、场景泛化），并探讨未来3-5年家庭服务机器人的可能性。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "08a0c11ec606",
-      "source_id": "reddit-ml",
-      "source_name": "Reddit r/MachineLearning",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "VLMs can score well on benchmarks, while silently erasing meaningful terms and including hallucinate bias [P]",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1vcipzz/vlms_can_score_well_on_benchmarks_while_silently/",
-      "summary": "<!-- SC_OFF --><div class=\"md\"><p>While working with VLMs for report generation on chest x-rays (RRG), we noticed that evaluation metrics are flawed.</p> <p>Flawed in a sense where they rewarded repetitive templates, reports without clinical terms and reports which were &quot;normal&quot; with high scores on benchmark metrics. Also, clinically meaningful but rare words were erased leaving the generated report looking repetitive and boring. Importantly, of no clinical utility.</p> <p>In the paper below, we discuss this behaviour of VLMs for RRG and introduce a framework to actually measure the erasure of terms and introduction of biased terms.</p> <p>Paper: Measuring What VLMs Don't Say: Validation Metrics Hide Clinical Terminology Erasure in Radiology Report Generation</p> <p>Link: <a href=\"https://arxiv.org/abs/2603.01625\">Reference Paper</a></p> <p>Url: <a href=\"https://arxiv.org/abs/2603.01625\">https://arxiv.org/abs/2603.01625</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ade17_in\"> /u/ade17_in </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vcipzz/vlms_can_score_well_on_benchmarks_while_silently/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vcipzz/vlms_can_score_well_on_benchmarks_while_silently/\">[comments]</a></span>",
-      "published": "2026-08-01T17:27:26+08:00",
-      "fetched_at": "2026-08-02T11:13:42.741559+08:00",
-      "pre_filter_reason": "VLMs视觉语言模型研究",
-      "scores": {
-        "importance": 7,
-        "timeliness": 6,
-        "actionability": 8,
         "scarcity": 7,
         "virality": 6,
         "crowd_heat": 0.0
       },
-      "quality_score": 6.9,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "你的AI模型在「作弊」？如何识破VLM基准测试的陷阱",
-          "angle": "手把手教开发者用案例（如胸片报告生成）检测模型是否在输出重复模板或忽略关键医学术语，并给出改进评估指标的具体方法。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "analysis",
-          "title": "当AI「假装正常」：多模态模型偏见与幻觉的隐形风险",
-          "angle": "深入解读VLM在医疗等高风险领域中的「静默擦除」现象，讨论其伦理隐患，以及如何构建更可信的评测体系。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "85783b1a0f89",
-      "source_id": "google-news-ai-zh",
-      "source_name": "Google News (AI 中文)",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "search",
-      "title": "又出事了！美国AI巨头宣布旗下大模型失控|Claude Mythos 5|Claude Opus 4.7|Anthropic|OpenAI|网络安全_手机新浪网 - 新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeHhwT2RIVDNtR05SUTZwQ2lsOV9PczNfclhLZlpUVUlPeFVkOU05enc3TENqNndWSTNBS1hrbFFpcVVVamkxLW5DZjRabU03b01FZXNPQ0hBTW12TkpGWVB5b1BOZ3h2dUNwTmFIcUZzRmFfbE90UUFkbkVuaWtScEhxcVYyS1ZTNG13QlJBcDc2YUR4am1Ka0trU2t3ODRvTVRZc1d1Yw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPeHhwT2RIVDNtR05SUTZwQ2lsOV9PczNfclhLZlpUVUlPeFVkOU05enc3TENqNndWSTNBS1hrbFFpcVVVamkxLW5DZjRabU03b01FZXNPQ0hBTW12TkpGWVB5b1BOZ3h2dUNwTmFIcUZzRmFfbE90UUFkbkVuaWtScEhxcVYyS1ZTNG13QlJBcDc2YUR4am1Ka0trU2t3ODRvTVRZc1d1Yw?oc=5\" target=\"_blank\">又出事了！美国AI巨头宣布旗下大模型失控|Claude Mythos 5|Claude Opus 4.7|Anthropic|OpenAI|网络安全_手机新浪网</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>",
-      "published": "2026-08-01T14:18:43+08:00",
-      "fetched_at": "2026-08-02T11:13:40.265795+08:00",
-      "pre_filter_reason": "AI model失控 news",
-      "scores": {
-        "importance": 6,
-        "timeliness": 8,
-        "actionability": 7,
-        "scarcity": 5,
-        "virality": 8,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 6.9,
+      "quality_score": 7.0,
       "topics": [
         {
           "tag": "news",
-          "title": "AI巨头又翻车？Claude「失控」事件全梳理",
-          "angle": "快速盘点事件时间线、官方回应及影响范围，用通俗语言解释「模型失控」的技术含义，并给出普通用户应对建议。",
+          "title": "阿里‘万有无界’实测：数字员工如何帮你搞定一个完整项目？",
+          "angle": "基于内测体验，展示多智能体如何分工协作、推进任务，突出其与‘千问办公’的差异，并探讨对自由职业者和创业者的价值。",
           "difficulty": "入门"
         },
         {
           "tag": "analysis",
-          "title": "从「失控」到「安全」：大模型对齐技术的生死时速",
-          "angle": "借此次事件，深度解析Anthropic/OpenAI在安全对齐上的技术路线（如RLHF、宪法AI），并讨论监管与商业利益的博弈。",
-          "difficulty": "高级"
-        }
-      ]
-    },
-    {
-      "id": "7703b9cd9a3d",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "microsoft /TRELLIS.2",
-      "link": "https://github.com/microsoft/TRELLIS.2",
-      "summary": "Native and Compact Structured Latents for 3D Generation",
-      "published": "2026-08-02T11:13:44.154053+08:00",
-      "fetched_at": "2026-08-02T11:13:44.154056+08:00",
-      "pre_filter_reason": "AI 3D generation",
-      "scores": {
-        "importance": 7,
-        "timeliness": 7,
-        "actionability": 6,
-        "scarcity": 7,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 6.8,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "3D生成新利器：TRELLIS.2 快速上手与效果实测",
-          "angle": "演示如何用TRELLIS.2从文本/图片生成3D模型，对比旧版和主流工具（如Meshy）的差异，分享参数调优心得。",
+          "title": "从‘万有无界’看阿里AI办公布局：B端协作的下一站是‘人机共组’？",
+          "angle": "分析阿里推出该平台背后的战略意图，结合行业趋势，讨论多智能体协同对企业级服务市场的影响。",
           "difficulty": "进阶"
-        },
-        {
-          "tag": "analysis",
-          "title": "「结构化潜空间」革命：TRELLIS.2如何颠覆3D资产生成",
-          "angle": "深入技术细节，解释「Native and Compact Structured Latents」的含义，并分析其对游戏、影视、XR行业的生产力影响。",
-          "difficulty": "高级"
         }
       ]
     },
     {
-      "id": "b90c9d75e7c5",
-      "source_id": "github-trending",
-      "source_name": "GitHub Trending",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "github /copilot-sdk",
-      "link": "https://github.com/github/copilot-sdk",
-      "summary": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
-      "published": "2026-08-02T11:13:44.152945+08:00",
-      "fetched_at": "2026-08-02T11:13:44.152947+08:00",
-      "pre_filter_reason": "Copilot SDK is AI product integration",
-      "scores": {
-        "importance": 7,
-        "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 6,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 6.8,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "5分钟接入GitHub Copilot SDK：打造你的专属AI助手",
-          "angle": "以代码示例为主，演示如何在桌面应用或Web服务中集成Copilot Agent，涵盖安装、鉴权、调用上下文等核心步骤。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "analysis",
-          "title": "Copilot SDK开放：微软的「AI生态」野望与开发者新机遇",
-          "angle": "分析该SDK对独立开发者和企业的战略意义，探讨如何利用它构建差异化产品，并预测与OpenAI API的竞争格局。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "b5b57bbccb31",
-      "source_id": "qbitai",
-      "source_name": "量子位",
+      "id": "933330a42397",
+      "source_id": "36kr",
+      "source_name": "36氪",
       "source_tier": "T2",
       "source_lang": "zh",
       "source_category": "media",
-      "title": "OpenAI前员工刚跑路就喊话：要套现就赶紧套，别等IPO！",
-      "link": "https://www.qbitai.com/2026/08/464693.html",
-      "summary": "对前沿实验室估值悲观",
-      "published": "2026-08-01T13:02:49+08:00",
-      "fetched_at": "2026-08-02T11:13:32.259041+08:00",
-      "pre_filter_reason": "OpenAI前员工估值",
+      "title": "让Agent在协作中自进化，清华00后博士获千万元融资 | 36氪首发",
+      "link": "https://36kr.com/p/3919025939246727?f=rss",
+      "summary": "<p>文 | 赵京娜</p>\n  <p>访谈 编辑 | 海若镜</p>\n  <p>36氪获悉，近日奇点逃逸完成千万级种子轮融资，由星连资本与水木创投联合领投，奇绩创坛跟投。其正在研发AI原生团队协作操作系统Nexus，让人、Agent、任务、知识和工具基于同一份组织状态持续协作，并让系统从每一次协作中有证据地变强。</p>\n  <p>奇点逃逸创始人兼CEO薛传奕，本科、博士阶段均在清华大学就读，研究方向覆盖强化学习与多智能体，曾以第一作者身份在NeurIPS、CJA等学术会议和期刊发表论文；在商汤、鉴智机器人实习期间，参与自动驾驶算法研发与实车部署。</p>\n  <p>“<strong>今天，Agent已经像能力出众的个体，但它们还没有真正进入组织</strong>，”薛传奕介绍道。</p>\n  <p>一个越来越常见的工作日可能是这样开始的：产品经理把需求交给一个Agent梳理，研发同时让另一个Agent修改代码，运营则在第三个对话窗口里研究发布方案。几个小时后，每个Agent都完成了自己的部分，也各自拥有一段完整的上下文。但当三项工作需要合并时，团队才发现，没人清楚另一个Agent做过什么、为什么这样做，哪些结论已经被确认，哪些变化又会影响后续任务。</p>\n  <p>于是，人重新回到信息中转站的位置：复制对话、补充背景、核对版本、拼接结果，再把同一件事向不同Agent解释一遍。</p>\n  <p>这是Agent能力快速提升之后，一种颇具反差的场景。当Agent开始写代码、处理文档、调用工具，甚至连续执行长程任务，新的瓶颈也随之出现：一个能力很强的Agent，仍然只是一个能力很强的单人助手。它掌握的上下文属于某个用户和某次会话，执行过程分散在不同工具里，任务结束后，经验也很难自然成为团队下一次工作的起点。</p>\n  <p>那么，当越来越多智能进入生产环境，它们如何理解彼此的角色和关系？组织怎样保留Agent的工作过程？一次任务中的反馈，又如何转化为下一次协作可以复用的能力？<strong>这些问题最终汇聚为奇点逃逸的两条主线：协作与自进化</strong>。</p>\n  <h2><strong>若Agent成为组织成员</strong></h2>\n  <p>在传统团队里，一个新成员加入项目，需要理解目标、分工、历史决策和协作规则。Agent同样如此。它不仅要知道做什么，还要知道任务从哪里来、与谁有关、依赖哪些信息、什么结果才算完成。</p>\n  <p>现有AI产品大多围绕会话组织信息，一段对话结束，Agent对任务的理解、执行依据和失败经验往往也停留在那段会话中。当任务跨越不同模型、不同成员和不同时间周期，团队不得不反复重建上下文。</p>\n  <p>薛传奕<strong>将其称为AI的“协作断层”</strong>。他认为，解决这个问题的关键不是让所有Agent同时开始工作，而是先让它们面对同一份事实。</p>\n  <p>协作首先是对事实的协作。如果每个Agent理解的目标、任务状态和验收标准都不一样，能力越强，可能只是更快地朝不同方向执行。</p>\n  <p>因此，Nexus从组织状态而非单次对话出发。人、Agent、任务、知识和工具被表示为相互关联的对象；一项工作不再只是一段自然语言指令，还包含目标、负责人、依赖关系、权限、当前状态、执行证据和验收结果。</p>\n  <p>在这样的系统中，产品、研发和运营不是分别与三个互不相识的Agent对话，而是围绕同一项工作持续推进。新加入的Agent可以理解前序任务发生了什么，找到相关决策和上下游依赖；新的过程和结果，也会重新成为组织状态的一部分。</p>\n  <p><strong>Agent由此从个人拥有的工具，变成组织可以分工、授权、审阅和接续的协作对象</strong>。</p>\n  <p>这也是薛传奕所理解的“AI进入组织”：不是企业采购了多少AI账号，也不是员工调用了多少次模型，而是AI的工作能否进入组织的任务、知识和责任体系。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260802/v2_5d08f250865b441eb8ff5e0bf529bcf7@5452796_oswg3981725oswg4000oswg2667_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">图：薛传奕</p>\n  <h2><strong>静态Agent遇上动态世界</strong></h2>\n  <p>协作与自进化其实是同一个问题的两面。多个主体要在组织中持续协作，Agent就必须能够适应不断变化的目标、成员、工具和约束；Agent要持续积累智能，又必须进入真实生产环境，在具体任务中获得反馈、接受检验。</p>\n  <p>今天的大模型，通常通过大规模预训练和后训练获得能力。部署之后，再通过提示词、工作流、工具和记忆系统进入具体应用。这个过程的核心逻辑仍然是：人预先设计系统，Agent在给定边界内执行。</p>\n  <p>它在稳定任务中有效，却很难覆盖真实组织的全部变化。一个项目的目标可能被修改，工具会更新，成员会变化，新的约束随时出现。昨天有效的任务拆解方式，今天未必仍是最优选择；一个Agent在某次任务中犯过的错误，也可能在另一段会话里再次发生。</p>\n  <p>当系统无法消化这些反馈，“长期运行”就只是不断累积规则。Prompt越来越长，Workflow越来越复杂，人工维护成本随之上升。Agent做了很多工作，却没有真正从工作中学会什么。</p>\n  <p>奇点逃逸认为，真实协作提供了自进化所需的高质量反馈，而自进化又让Agent能够适应组织持续变化的环境。</p>\n  <p>与静态数据不同，组织任务中天然存在目标、约束和结果。人的修正说明哪里出现了偏差，验收判断给出结果是否可用，失败记录揭示任务拆解、上下文或工具调用中存在的问题。这些信号不是抽象的偏好，而是与具体工作过程绑定的因果证据。</p>\n  <p>“脱离真实任务，自进化缺少高质量反馈；没有持续改进，协作系统也只会变成静态流程工具，”薛传奕认为。</p>\n  <p>在Nexus的设计中，协作与自进化的循环可以拆解为：<strong>组织协作产生真实任务与反馈，&nbsp;独立评测筛选有效改进 ，经过验证的能力进入下一轮协作，&nbsp;更强的Agent扩大组织的协作边界。</strong></p>\n  <p>系统可以根据反馈提出候选改进，例如调整上下文组织方式、模型路由、任务拆解或工作流配置。但这些变化不会直接进入真实生产环境，而要先通过独立评测，比较效果、稳定性、成本和风险，再由治理机制决定采用、限制、拒绝或回滚。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260802/v2_ba324ccc5ea840a283f69fed32cb0461@5452796_oswg461405oswg2216oswg1122_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1\" /></p>\n  <p class=\"img-desc\">图源：奇点逃逸</p>\n  <p>这与系统自由改写自己有本质区别。在薛传奕看来，<strong>自进化的前提不是赋予Agent无限自主权，恰恰是建立更严格的证据和治理边界。系统必须能够回答：为什么要改、改了什么、是否真的更好、有没有损害原有能力，以及出现问题时能否撤回</strong>。</p>\n  <p>因此，奇点逃逸所说的自进化，可以被概括为三个环节：真实反馈驱动、独立评测、治理采用。</p>\n  <h2><strong>协作，是自进化发生的环境</strong></h2>\n  <p>在AI行业，协作和学习长期属于两套不同的语言。</p>\n  <p>协作软件谈任务、权限、流程和知识管理；机器学习研究则谈数据、训练、评测和泛化。一边负责组织如何运转，另一边负责模型如何变强。两者很少在同一套产品架构里相遇。</p>\n  <p>Agent改变了这条边界。当AI只能生成一段文字，它与组织的关系更接近工具；当它开始拆解目标、调用资源、执行任务并与其他主体接续时，它的每一次行动都会进入组织流程。执行结果不仅是业务产出，也成为判断Agent能力的反馈。</p>\n  <p>这意味着，未来的协作系统不只是承载工作，也可能成为智能持续学习的环境。</p>\n  <p>一个能够从反馈中改进的Agent，也会改变组织可以承担的任务。它不再只是在固定流程中替代某个步骤，而是可以随着目标、成员和工具的变化调整协作方式。人的注意力则从重复执行转向判断、创造和协调。</p>\n  <p>“我们关心的不只是Agent单方面变强，而是团队整体能不能处理过去难以承载的复杂目标。”这也是<strong>Nexus选择“图结构”作为底层组织方式的原因</strong>。</p>\n  <p>在Agent系统内部，目标、规划、专业能力、执行、记忆、工具和验证可以成为不同节点。改进发生在哪里、影响哪些能力，能够被定位和追踪。新Agent和新工具也可以作为节点接入，而不必重写整个系统。</p>\n  <p>在组织层面，人员、Agent、任务和知识又形成另一张相互连接的工作图。Agent的观察边界不再局限于一段对话，而是可以在授权范围内理解相关人员、历史决策、上下游任务和可调用资源。</p>\n  <p>两层图结构连接起来，协作反馈才可能指向具体的能力节点，经过验证的改进也才能重新进入具体工作。</p>\n  <p>单个Agent功能很容易随着模型升级被追平，更值得看重的是组织在持续使用中积累的状态、对象关系、评测基线和协作策略。它们来自真实任务中的判断和反馈，又不断被下一轮工作重新调用。</p>\n  <p>这是一种不同于模型参数的数据资产：它不只记录答案是什么，还记录一项工作为什么这样完成。</p>\n  <p>奇点逃逸团队的研究背景覆盖智能体、强化学习、LLM Post-training和认知科学。看起来分散的方向，实际都在追问相似的问题：智能如何在环境中形成，多个智能主体如何彼此协作，以及一次经验如何改变之后的行为。</p>\n  <p><strong>这种研究取向也让奇点逃逸没有从某一个垂直Agent切入，而是把目标放在更底层的组织方式上</strong>。</p>\n  <p>薛传奕把Nexus的长期方向概括为“AI时代的组织基础设施”。这并不是一个关于AI取代多少人的故事。它更接近另一种变化：当组织中出现越来越多非人类智能，原有的软件和协作方式需要被重新设计。</p>\n  <p>“协作和自进化不是两条平行路线，也不是先后发生的两个阶段。”薛传奕说，“<strong>Agent只有具备自进化机制，才能适应组织的动态环境；只有进入真实生产环境，它的能力才能被释放，并在持续反馈中积累新的智能。两者相互依赖，也相互强化</strong>。”</p>",
+      "published": "2026-08-03T08:10:16+08:00",
+      "fetched_at": "2026-08-03T11:15:21.180302+08:00",
+      "pre_filter_reason": "AI Agent协作系统",
       "scores": {
-        "importance": 6,
-        "timeliness": 7,
-        "actionability": 7,
-        "scarcity": 6,
-        "virality": 7,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 6.8,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "OpenAI前员工警告：IPO前套现是明智还是恐慌？",
-          "angle": "解析前员工言论背后的估值逻辑，用简单案例说明一级市场与二级市场的估值差异，帮助观众理解何时该套现。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "AI泡沫预警？从OpenAI员工跑路看行业风向",
-          "angle": "梳理近期AI公司高管离职与套现潮，结合市场数据，分析AI行业是否进入估值调整期，提供投资视角。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "0ae15594e78f",
-      "source_id": "baidu-hot",
-      "source_name": "百度热搜",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "hotlist",
-      "title": "婚外胚胎案当事人女儿刚考上一本",
-      "link": "https://www.baidu.com/s?wd=婚外胚胎案当事人女儿刚考上一本",
-      "summary": "8月1日，无锡患癌妻子朱女士接受采访，称女儿顶住家庭风波压力成功考上一本。朱女士身患肺癌，发现丈夫与他人伪造结婚证培育冷冻胚胎，起诉要求销毁胚胎，该案刚开庭尚未宣判，她还收到丈夫的离婚起诉传票，此前丈夫曾明确选择胚胎而非女儿。",
-      "published": "2026-08-02T11:13:38.874616+08:00",
-      "fetched_at": "2026-08-02T11:13:38.874618+08:00",
-      "pre_filter_reason": "batch_fallback",
-      "scores": {
-        "importance": 3,
+        "importance": 7,
         "timeliness": 8,
-        "actionability": 6,
-        "scarcity": 7,
-        "virality": 8,
-        "crowd_heat": 7.0
-      },
-      "quality_score": 6.6,
-      "topics": [
-        {
-          "tag": "story",
-          "title": "患癌母亲与婚外胚胎：一场关于生命与伦理的法庭对决",
-          "angle": "以朱女士的视角讲述案件始末，聚焦法律与伦理冲突，引发观众对婚姻忠诚、生殖权利和子女保护的讨论。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "explainer",
-          "title": "冷冻胚胎到底属于谁？法律怎么说",
-          "angle": "用动画或图表解释冷冻胚胎的法律地位，结合本案和类似案例，科普相关法律条款，帮助观众了解自身权利。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "da676f122f62",
-      "source_id": "baidu-hot",
-      "source_name": "百度热搜",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "hotlist",
-      "title": "怀双胞胎1个流产1个105天后出生",
-      "link": "https://www.baidu.com/s?wd=怀双胞胎1个流产1个105天后出生",
-      "summary": "一名孕妇在‌双胎妊娠22周时一胎流产‌，通过延迟分娩技术将另一胎儿保留‌105天‌后，于37周+3天剖腹产诞下3.05千克的健康女婴。该技术通过结扎流产胎儿脐带并维持子宫环境，为存活胎儿争取发育时间，但存在感染等高危风险。",
-      "published": "2026-08-02T11:13:38.874594+08:00",
-      "fetched_at": "2026-08-02T11:13:38.874596+08:00",
-      "pre_filter_reason": "batch_fallback",
-      "scores": {
-        "importance": 4,
-        "timeliness": 7,
-        "actionability": 6,
-        "scarcity": 8,
-        "virality": 7,
-        "crowd_heat": 7.0
-      },
-      "quality_score": 6.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "延迟分娩技术：如何让双胞胎相隔105天出生？",
-          "angle": "用通俗语言和医学图示，解释延迟分娩的原理、条件和风险，解答观众对这项高难技术的疑问。",
-          "difficulty": "进阶"
-        },
-        {
-          "tag": "story",
-          "title": "奇迹宝宝：双胞胎一胎流产，另一胎105天后平安降生",
-          "angle": "以这位母亲的真实经历为主线，讲述医疗团队如何应对挑战，传递希望与医学进步的力量。",
-          "difficulty": "入门"
-        }
-      ]
-    },
-    {
-      "id": "405b0f9fbc9b",
-      "source_id": "ithome-ai",
-      "source_name": "IT之家",
-      "source_tier": "T2",
-      "source_lang": "zh",
-      "source_category": "media",
-      "title": "初创公司 Majestic 推出 AI 服务器“普罗米修斯”，可选配 8TB-128TB LPDDR6 内存",
-      "link": "https://www.ithome.com/0/984/671.htm",
-      "summary": "<p>IT之家 8 月 2 日消息，据科技媒体 TechRadar 今天报道，初创公司 Majestic Labs 最近宣布推出 Prometheus（普罗米修斯） AI 服务器。新品采用 AIU+LPDDR6 内存的组合，旨在挑战英伟达的 GPU+HBM 组合。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/8/c0e52f0c-058f-4ac5-8d4d-3866ae285e8a.jpg?x-bce-process=image/format,f_auto\" /></p><p>据报道，Prometheus 服务器并没有使用 GPU，而是使用 Ignite AI 处理单元（AIU），<strong>将 Arm 核心与 RISC-V 向量和张量引擎结合起来</strong>。每台 Prometheus 最多可选配 12 个 AIU，<strong>以及 8TB-128TB LPDDR6 内存</strong>。</p><p>同时，一台标准 40U 机架最多可安装 4 台 Prometheus 服务器，总功耗 120kW。采用液冷散热系统，而非传统空气冷却。官方宣称，一台 Majestic 机柜相当于 25 个英伟达 NVL72 Vera Rubin 机柜的内存容量，并且功耗相比英伟达更低。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/8/a839fb04-5f54-426b-a3e5-e603f4405334.jpg?x-bce-process=image/format,f_auto\" /></p><p>此外，这款服务器预计将在明年上市，符合 OCP（开放计算项目）标准，兼容 PyTorch、vLLM 和 OpenAI Triton 框架。</p>",
-      "published": "2026-08-02T10:06:47+08:00",
-      "fetched_at": "2026-08-02T11:13:37.400925+08:00",
-      "pre_filter_reason": "AI服务器产品发布",
-      "scores": {
-        "importance": 6,
-        "timeliness": 7,
-        "actionability": 6,
-        "scarcity": 7,
-        "virality": 6,
-        "crowd_heat": 0.0
-      },
-      "quality_score": 6.6,
-      "topics": [
-        {
-          "tag": "tutorial",
-          "title": "AI服务器新选择：LPDDR6内存为何能挑战英伟达？",
-          "angle": "对比AIU+LPDDR6与GPU+HBM的技术路线，用简单比喻解释内存带宽对AI训练的影响，帮助观众理解新品的创新点。",
-          "difficulty": "入门"
-        },
-        {
-          "tag": "analysis",
-          "title": "普罗米修斯来了，英伟达的垄断地位会被撼动吗？",
-          "angle": "分析Majestic Labs的市场定位、潜在客户和性能数据，探讨AI硬件市场的竞争格局变化。",
-          "difficulty": "进阶"
-        }
-      ]
-    },
-    {
-      "id": "0939d57e86b0",
-      "source_id": "reddit-ml",
-      "source_name": "Reddit r/MachineLearning",
-      "source_tier": "T2",
-      "source_lang": "en",
-      "source_category": "community",
-      "title": "How Symmetric Are the Insides of a Go Network? [R]",
-      "link": "https://www.reddit.com/r/MachineLearning/comments/1vcrki2/how_symmetric_are_the_insides_of_a_go_network_r/",
-      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I just now posted a small research / ML interp study on symmetries inside the neural nets for an open source Go-playing program that I maintain (&quot;KataGo&quot;). The rules of Go are completely symmetric under rotation/reflection, but such symmetry is not enforced in the models - the only thing we do for that is stochastic 8-fold data augmentation during training, randomizing the spatial orientation of each batch. </p> <p>To what degree do superhuman-strength Go-playing neural nets automatically learn to represent the board internally independent of its orientation, via &quot;symmetric&quot; concepts where the orientation of the board doesn't matter, vs how much do they have to learn/memorize separately per orientation?</p> <p><a href=\"https://lightvector.github.io/katagostudies/202607-symmetry/\">https://lightvector.github.io/katagostudies/202607-symmetry/</a></p> <p>Heads-up: this study and its writeup were driven almost entirely with AI, although detailed human direction and feedback was involved in the process. But, I took time to try to polish the article and make it educational and I hope it's a clear step above the typical low-quality AI &quot;slop&quot; one often sees and worth taking a look if you like small studies like this. It's also written fairly gently, for accessibility to people outside of ML. Code is also linked from the post (same repo that hosts the github.io page).</p> <p>I wanted to explore this because I was (and still am!) really curious about exactly what neural nets are doing inside! And I didn't know what the results would be. One of the findings was unexpected. Overall, just a drop in the bucket of interpretability research out there, but I hope you find it interesting.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/icosaplex\"> /u/icosaplex </a> <br /> <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vcrki2/how_symmetric_are_the_insides_of_a_go_network_r/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/MachineLearning/comments/1vcrki2/how_symmetric_are_the_insides_of_a_go_network_r/\">[comments]</a></span>",
-      "published": "2026-08-02T00:18:53+08:00",
-      "fetched_at": "2026-08-02T11:13:42.741549+08:00",
-      "pre_filter_reason": "Neural network symmetry study",
-      "scores": {
-        "importance": 6,
-        "timeliness": 6,
         "actionability": 7,
         "scarcity": 7,
         "virality": 6,
         "crowd_heat": 0.0
       },
-      "quality_score": 6.6,
+      "quality_score": 7.0,
       "topics": [
         {
-          "tag": "tutorial",
-          "title": "围棋AI也有“对称美学”？揭秘KataGo的内部对称性研究",
-          "angle": "用围棋棋盘的旋转反射为例，解释神经网络中的对称性概念，以及为什么这对AI性能很重要，适合对AI感兴趣的入门观众。",
+          "tag": "story",
+          "title": "清华00后博士创业：让AI Agent在协作中‘自进化’是什么体验？",
+          "angle": "讲述创始人背景与创业故事，用通俗语言解释‘Nexus’操作系统的核心理念，强调其让系统从协作中变强的独特卖点。",
           "difficulty": "入门"
         },
         {
           "tag": "analysis",
-          "title": "从KataGo到AlphaGo：AI如何利用游戏规则提升棋力？",
-          "angle": "对比不同围棋AI对规则对称性的处理方式，探讨这一研究对AI泛化能力的启示，适合技术爱好者。",
+          "title": "融资千万的‘奇点逃逸’：AI原生团队协作系统会取代传统办公软件吗？",
+          "angle": "深入分析Nexus的技术路径与商业前景，对比现有协作工具，探讨其能否成为下一代企业操作系统。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "c131b0ad4233",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "esengine /DeepSeek-Reasonix",
+      "link": "https://github.com/esengine/DeepSeek-Reasonix",
+      "summary": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "published": "2026-08-03T11:16:20.611486+08:00",
+      "fetched_at": "2026-08-03T11:16:20.611487+08:00",
+      "pre_filter_reason": "AI coding agent",
+      "scores": {
+        "importance": 6,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.9,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "终端里的AI编程神器：DeepSeek-Reasonix 安装与实战",
+          "angle": "演示如何在终端安装并运行该Agent，重点展示其‘prefix-cache稳定性’带来的流畅体验，适合开发者提升编码效率。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tips",
+          "title": "让AI Agent‘一直跑’：DeepSeek-Reasonix 的隐藏技巧",
+          "angle": "分享如何利用其前缀缓存机制优化长任务执行，避免中断，并给出实际使用场景和配置建议。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "10b64327107d",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "Panniantong /Agent-Reach",
+      "link": "https://github.com/Panniantong/Agent-Reach",
+      "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "published": "2026-08-03T11:16:20.610854+08:00",
+      "fetched_at": "2026-08-03T11:16:20.610856+08:00",
+      "pre_filter_reason": "AI agent web access",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 6.9,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "零API费用抓取全网：Agent-Reach 让AI‘看见’整个互联网",
+          "angle": "演示如何用一条CLI命令读取Twitter、Reddit、B站等平台数据，强调其免费、无需API key的特点，适合数据爱好者。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "Agent-Reach 爆火背后：AI Agent的‘眼睛’如何改变信息获取方式？",
+          "angle": "讨论该工具对传统数据抓取和搜索引擎的冲击，分析其在小红书、YouTube等平台的应用潜力及潜在风险。",
           "difficulty": "进阶"
         }
       ]

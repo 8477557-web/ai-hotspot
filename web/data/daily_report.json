@@ -1,20 +1,24 @@
 {
-  "title": "AI日报 - 2026年08月02日",
+  "title": "AI日报 - 2026年08月03日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "Seedance 2.5发布，单次视频时长翻倍",
-          "summary": "字节跳动发布Seedance 2.5，视频生成时长翻倍，推动创作效率提升。"
+          "title": "阿里巴巴正式发布新一代基座大模型Qwen3.8，总参数量2.4万亿",
+          "summary": "阿里发布2.4万亿参数的Qwen3.8基座大模型，性能全面升级。"
         },
         {
-          "title": "谷歌 Gemini Spark 智能体对全球更多用户开放",
-          "summary": "Gemini Spark智能体扩展至全球用户，支持订机票、整理收件箱等实用操作。"
+          "title": "DeepSeek V4 Flash 正式版发布",
+          "summary": "DeepSeek V4 Flash正式版发布，并已登陆国家超算互联网开放API。"
         },
         {
-          "title": "初创公司 Majestic 推出 AI 服务器“普罗米修斯”",
-          "summary": "Majestic推出可选配8TB-128TB LPDDR6内存的AI服务器，主打高带宽配置。"
+          "title": "通用视频模型 MiniMax H3 正式开源，支持多模态上下文、2K 分辨率",
+          "summary": "MiniMax H3视频模型开源，支持多模态上下文与2K分辨率，推动视频生成民主化。"
+        },
+        {
+          "title": "阿里企业级 Agent 产品“千问办公”开启公测，集成最新旗舰模型 Qwen3.8",
+          "summary": "阿里推出企业级Agent产品“千问办公”，集成Qwen3.8，开启公测。"
         }
       ]
     },
@@ -22,20 +26,20 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "李飞飞World Labs收购SceniX，物理AI训练正从“采数据”走向“造世界”",
-          "summary": "World Labs收购SceniX，推动物理AI训练从数据采集转向虚拟环境构建。"
+          "title": "因使用月之暗面模型写代码，美国最大外卖平台遭调查",
+          "summary": "美国外卖平台因使用月之暗面模型写代码被调查，引发合规关注。"
         },
         {
-          "title": "高通完成收购 Modular，加速 AI 计算布局",
-          "summary": "高通完成对Modular的收购，强化AI计算领域的技术布局。"
+          "title": "全球媒体聚焦 | 中国开源模型领先 美媒反思美AI发展盲区",
+          "summary": "中国开源模型领先引发美媒反思，全球AI竞争格局生变。"
         },
         {
           "title": "马斯克和 Altman 达成共识：人类已迈入 AI 奇点时代",
-          "summary": "马斯克与Altman罕见达成共识，认为AI奇点已至，引发行业热议。"
+          "summary": "马斯克与Altman罕见共识：人类已进入AI奇点时代，引发广泛讨论。"
         },
         {
           "title": "苹果警告 AI 算力短缺或导致产品延期发布",
-          "summary": "苹果警示AI算力短缺可能影响产品发布节奏，凸显算力瓶颈问题。"
+          "summary": "苹果警告AI算力短缺可能延迟产品发布，凸显算力瓶颈制约行业。"
         }
       ]
     },
@@ -43,16 +47,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "Ten advances in mathematics and theoretical computer science",
-          "summary": "OpenAI发布数学与理论计算机科学领域十项进展，展示AI在推理上的突破。"
+          "title": "OpenAI下一代模型Astra曝光，以2000美元算力成本破解十项数学难题",
+          "summary": "OpenAI Astra模型以极低算力成本破解十项数学难题，展示高效推理能力。"
         },
         {
-          "title": "VLMs can score well on benchmarks, while silently erasing meaningful terms and including hallucinate bias",
-          "summary": "研究指出视觉语言模型在基准测试中高分，却存在静默删除术语和幻觉偏见问题。"
+          "title": "让Agent在协作中自进化，清华00后博士获千万元融资",
+          "summary": "清华博士研究Agent协作自进化，获千万元融资，推动多智能体研究。"
         },
         {
-          "title": "How Symmetric Are the Insides of a Go Network?",
-          "summary": "Reddit研究探讨围棋网络内部结构的对称性，为模型可解释性提供新视角。"
+          "title": "antirez /ds4",
+          "summary": "Redis作者antirez新项目ds4登GitHub热榜，或涉AI数据系统。"
         }
       ]
     },
@@ -60,21 +64,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "shanraisshan/claude-code-best-practice",
-          "summary": "GitHub热榜项目分享Claude Code最佳实践，助力开发者高效使用。"
+          "title": "消息称阿里内测 AI 办公平台“万有无界”，多智能体协同交付",
+          "summary": "阿里内测AI办公平台“万有无界”，主打多智能体协同，提升办公效率。"
         },
         {
-          "title": "OpenAI前员工刚跑路就喊话：要套现就赶紧套，别等IPO！",
-          "summary": "前OpenAI员工建议尽早套现，引发对AI公司估值泡沫的讨论。"
+          "title": "microsoft/agent-framework",
+          "summary": "微软开源agent-framework，为开发者提供构建AI代理的框架。"
         },
         {
-          "title": "「天线宝宝」机器人上门做保洁，200元/小时，纯·人工·智能",
-          "summary": "机器人保洁服务落地，每小时200元，展现具身智能商业化潜力。"
+          "title": "infiniflow/ragflow",
+          "summary": "RAGFlow项目登GitHub热榜，聚焦检索增强生成，优化LLM知识注入。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦模型迭代与算力焦虑，智能体普及、物理AI加速，但失控与偏见问题引发反思。",
-  "generated_at": "2026-08-02T11:14:46.552724+08:00",
+  "summary": "今日AI圈聚焦大模型密集发布与开源，中国力量崛起引发全球反思，同时算力短缺与合规问题凸显，多智能体协作成新热点。",
+  "generated_at": "2026-08-03T11:17:24.831514+08:00",
   "source_count": 20
 }
