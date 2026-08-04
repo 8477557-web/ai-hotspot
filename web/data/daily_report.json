@@ -1,24 +1,20 @@
 {
-  "title": "AI日报 - 2026年08月03日",
+  "title": "AI日报 - 2026年08月04日",
   "sections": [
     {
       "name": "模型/产品发布",
       "items": [
         {
-          "title": "阿里巴巴正式发布新一代基座大模型Qwen3.8，总参数量2.4万亿",
-          "summary": "阿里发布2.4万亿参数的Qwen3.8基座大模型，性能全面升级。"
+          "title": "阿里Qwen3.8-Max来了！冲进全球第一梯队，模型表现直逼Claude",
+          "summary": "阿里发布Qwen3.8-Max，2.4万亿参数，性能逼近Claude，跻身全球第一梯队。"
         },
         {
-          "title": "DeepSeek V4 Flash 正式版发布",
-          "summary": "DeepSeek V4 Flash正式版发布，并已登陆国家超算互联网开放API。"
+          "title": "Altman 带着GPT-6进白宫？OpenAI 新模型曝光，或成美国首批过审模型",
+          "summary": "OpenAI新模型GPT-6曝光，或成美国首批过审模型，引发关注。"
         },
         {
-          "title": "通用视频模型 MiniMax H3 正式开源，支持多模态上下文、2K 分辨率",
-          "summary": "MiniMax H3视频模型开源，支持多模态上下文与2K分辨率，推动视频生成民主化。"
-        },
-        {
-          "title": "阿里企业级 Agent 产品“千问办公”开启公测，集成最新旗舰模型 Qwen3.8",
-          "summary": "阿里推出企业级Agent产品“千问办公”，集成Qwen3.8，开启公测。"
+          "title": "这个新生图模型有点夯：4K直出的，国产的，开源的！",
+          "summary": "国产开源生图模型支持4K直出，引发社区热议。"
         }
       ]
     },
@@ -26,20 +22,16 @@
       "name": "行业动态",
       "items": [
         {
-          "title": "因使用月之暗面模型写代码，美国最大外卖平台遭调查",
-          "summary": "美国外卖平台因使用月之暗面模型写代码被调查，引发合规关注。"
+          "title": "OpenAI等巨头大幅降价对标DeepSeek",
+          "summary": "OpenAI等公司大幅降价，以应对DeepSeek带来的竞争压力。"
+        },
+        {
+          "title": "欧盟 AI 透明度新规生效：企业需明确标注 AI 生成内容，违者将被重罚",
+          "summary": "欧盟AI透明度法规生效，要求企业明确标注AI内容，违者重罚。"
         },
         {
           "title": "全球媒体聚焦 | 中国开源模型领先 美媒反思美AI发展盲区",
-          "summary": "中国开源模型领先引发美媒反思，全球AI竞争格局生变。"
-        },
-        {
-          "title": "马斯克和 Altman 达成共识：人类已迈入 AI 奇点时代",
-          "summary": "马斯克与Altman罕见共识：人类已进入AI奇点时代，引发广泛讨论。"
-        },
-        {
-          "title": "苹果警告 AI 算力短缺或导致产品延期发布",
-          "summary": "苹果警告AI算力短缺可能延迟产品发布，凸显算力瓶颈制约行业。"
+          "summary": "中国开源模型领先，美媒反思美国AI发展盲区。"
         }
       ]
     },
@@ -47,16 +39,16 @@
       "name": "论文/研究",
       "items": [
         {
-          "title": "OpenAI下一代模型Astra曝光，以2000美元算力成本破解十项数学难题",
-          "summary": "OpenAI Astra模型以极低算力成本破解十项数学难题，展示高效推理能力。"
+          "title": "How we built a realtime system for responsive voice AI in six months",
+          "summary": "OpenAI分享半年构建实时语音AI系统的经验。"
         },
         {
-          "title": "让Agent在协作中自进化，清华00后博士获千万元融资",
-          "summary": "清华博士研究Agent协作自进化，获千万元融资，推动多智能体研究。"
+          "title": "Orchard: An open framework for scalable agentic AI",
+          "summary": "微软发布Orchard开源框架，用于可扩展的智能体AI。"
         },
         {
-          "title": "antirez /ds4",
-          "summary": "Redis作者antirez新项目ds4登GitHub热榜，或涉AI数据系统。"
+          "title": "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model",
+          "summary": "Meta通过GEM训练将广告基础模型效率翻倍。"
         }
       ]
     },
@@ -64,21 +56,21 @@
       "name": "技巧与观点",
       "items": [
         {
-          "title": "消息称阿里内测 AI 办公平台“万有无界”，多智能体协同交付",
-          "summary": "阿里内测AI办公平台“万有无界”，主打多智能体协同，提升办公效率。"
+          "title": "DeepSeek 给大模型划出的「斩杀线」，斩的到底是什么",
+          "summary": "分析DeepSeek为行业设定的性能与成本基准线。"
         },
         {
-          "title": "microsoft/agent-framework",
-          "summary": "微软开源agent-framework，为开发者提供构建AI代理的框架。"
+          "title": "赛博义父Tibo爆料：谷歌早一年就做出了ChatGPT，硬是没敢发！",
+          "summary": "爆料称谷歌早于OpenAI一年做出ChatGPT，但未发布。"
         },
         {
-          "title": "infiniflow/ragflow",
-          "summary": "RAGFlow项目登GitHub热榜，聚焦检索增强生成，优化LLM知识注入。"
+          "title": "B300半年涨三倍；大厂集体绕开算力中转站；Infra公司多名核心高管离职；Token成本击穿圈人再变现",
+          "summary": "算力市场波动，Token成本下降，行业格局生变。"
         }
       ]
     }
   ],
-  "summary": "今日AI圈聚焦大模型密集发布与开源，中国力量崛起引发全球反思，同时算力短缺与合规问题凸显，多智能体协作成新热点。",
-  "generated_at": "2026-08-03T11:17:24.831514+08:00",
+  "summary": "今日AI圈聚焦国产模型崛起与价格战，开源生态加速，监管趋严，算力成本下降推动应用落地。",
+  "generated_at": "2026-08-04T10:52:29.238357+08:00",
   "source_count": 20
 }
