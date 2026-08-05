@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; img-src 'self' data: https:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
+<title>AI选题助手 — AI热点精选 · 选题推荐</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ── Header ── -->
+<header class="header">
+  <div class="container">
+    <div class="logo">
+      <span class="logo-icon">⚡</span>
+      <div>
+        <h1>AI选题助手</h1>
+        <p class="subtitle">AI热点精选 · 帮你找到明天的选题</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#" class="nav-link active" data-tab="daily">📰 日报</a>
+      <a href="#" class="nav-link" data-tab="feed">📋 精选流</a>
+      <a href="#" class="nav-link" data-tab="topics">💡 选题推荐</a>
+      <a href="#" class="nav-link" data-tab="trends">📈 趋势</a>
+      <a href="#" class="nav-link" data-tab="sources">📡 信源</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ── 日报 Tab ── -->
+<main class="container" id="tab-daily">
+  <div id="daily-content">
+    <div class="skeleton">
+      <div class="skel-line w80"></div>
+      <div class="skel-line w60"></div>
+      <div class="skel-line w90"></div>
+      <div class="skel-line w50"></div>
+    </div>
+  </div>
+</main>
+
+<!-- ── 精选流 Tab ── -->
+<main class="container hidden" id="tab-feed">
+  <!-- 标签筛选 -->
+  <div class="filter-bar">
+    <button class="filter-tag active" data-filter="all">全部</button>
+    <button class="filter-tag" data-filter="tutorial">🎬 教程向</button>
+    <button class="filter-tag" data-filter="money">💰 搞钱向</button>
+    <button class="filter-tag" data-filter="science">🧠 科普向</button>
+    <button class="filter-tag" data-filter="product">📦 产品向</button>
+    <button class="filter-tag" data-filter="hotspot">🔥 热点向</button>
+  </div>
+  <div id="feed-content">
+    <div class="skeleton">
+      <div class="skel-card"></div>
+      <div class="skel-card"></div>
+      <div class="skel-card"></div>
+    </div>
+  </div>
+</main>
+
+<!-- ── 选题推荐 Tab ── -->
+<main class="container hidden" id="tab-topics">
+  <div class="filter-bar">
+    <button class="filter-tag active" data-filter="all">全部</button>
+    <button class="filter-tag" data-filter="tutorial">🎬 教程向</button>
+    <button class="filter-tag" data-filter="money">💰 搞钱向</button>
+    <button class="filter-tag" data-filter="science">🧠 科普向</button>
+    <button class="filter-tag" data-filter="product">📦 产品向</button>
+    <button class="filter-tag" data-filter="hotspot">🔥 热点向</button>
+  </div>
+  <div id="topics-content">
+    <div class="skeleton">
+      <div class="skel-card"></div>
+      <div class="skel-card"></div>
+    </div>
+  </div>
+</main>
+
+<!-- ── 趋势 Tab ── -->
+<main class="container hidden" id="tab-trends">
+  <div id="trends-content">
+    <div class="skeleton">
+      <div class="skel-line w80"></div>
+      <div class="skel-line w60"></div>
+      <div class="skel-line w90"></div>
+    </div>
+  </div>
+</main>
+
+<!-- ── 信源 Tab ── -->
+<main class="container hidden" id="tab-sources">
+  <div id="sources-content">
+    <div class="skeleton">
+      <div class="skel-line w70"></div>
+      <div class="skel-line w50"></div>
+    </div>
+  </div>
+</main>
+
+<!-- ── Footer ── -->
+<footer class="footer">
+  <div class="container">
+    <span id="update-time">数据更新中...</span>
+    <span class="dot">·</span>
+    <span>Powered by DeepSeek AI</span>
+    <span class="dot">·</span>
+    <a href="https://github.com/8477557-web/ai-hotspot" target="_blank">GitHub</a>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

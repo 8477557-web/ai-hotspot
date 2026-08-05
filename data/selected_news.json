@@ -1,0 +1,746 @@
+{
+  "updated_at": "2026-08-05T10:43:35.175297+08:00",
+  "total": 20,
+  "items": [
+    {
+      "id": "dcaa3abcec3e",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "published": "2026-08-05T03:00:00+08:00",
+      "fetched_at": "2026-08-05T10:42:07.722691+08:00",
+      "pre_filter_reason": "OpenAI models and AI evaluation",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.4,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "如何安全评估AI模型？OpenAI第三方测试新规解读",
+          "angle": "用OpenAI最新案例，手把手教你如何设计第三方AI安全测试流程，避免常见漏洞。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "analysis",
+          "title": "OpenAI强化模型测试：第三方评估的三大关键变化",
+          "angle": "拆解OpenAI新规背后的安全逻辑，分析对AI开发者和企业采购方的影响。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "da4b4200c29c",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Apple is getting this wrong",
+      "link": "https://openai.com/index/apple-is-getting-this-wrong",
+      "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+      "published": "2026-08-04T06:00:00+08:00",
+      "fetched_at": "2026-08-05T10:42:07.722763+08:00",
+      "pre_filter_reason": "OpenAI and AI-related lawsuit",
+      "scores": {
+        "importance": 9,
+        "timeliness": 9,
+        "actionability": 9,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.4,
+      "topics": [
+        {
+          "tag": "news",
+          "title": "苹果起诉OpenAI？事实核查与背后动机",
+          "angle": "梳理OpenAI公布的证据，还原事件时间线，分析苹果诉讼的真实意图与行业影响。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "科技巨头法律战：苹果 vs OpenAI 对AI行业的警示",
+          "angle": "从这起纠纷看AI公司如何应对巨头施压，以及知识产权争议对创新生态的影响。",
+          "difficulty": "中级"
+        }
+      ]
+    },
+    {
+      "id": "499b8a4ff635",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Beyond VLAs: How World Action Models Reshape Robot Manipulation",
+      "link": "https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation/",
+      "summary": "<img alt=\"A GIF of a robot following directions” with a description of the actual robot, task, objects, and motion shown.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/Cosmos-World-Models-Robot.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Cosmos-World-Models-Robot\" width=\"600\" />A central challenge in robotics is building policies that generalize beyond the demonstrations they’re trained on. A policy that succeeds in a training scene...",
+      "published": "2026-08-05T00:00:00+08:00",
+      "fetched_at": "2026-08-05T10:42:09.103078+08:00",
+      "pre_filter_reason": "AI robot manipulation models",
+      "scores": {
+        "importance": 8,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 8.3,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "世界模型如何提升机器人操作？从VLA到WAM的进阶指南",
+          "angle": "用NVIDIA演示案例，解释世界行动模型的核心原理，并给出简单的实验步骤。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "explainer",
+          "title": "机器人不再“死记硬背”：世界行动模型革命性突破",
+          "angle": "对比传统VLA模型，用通俗比喻讲解世界模型如何让机器人理解物理世界并灵活行动。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "83406ce73916",
+      "source_id": "baidu-hot",
+      "source_name": "百度热搜",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "hotlist",
+      "title": "DeepSeek重启融资 投前估值5000亿元",
+      "link": "https://www.baidu.com/s?wd=DeepSeek重启融资 投前估值5000亿元",
+      "summary": "近日，大模型公司DeepSeek重启了第二轮融资，本轮计划募资500亿元，投前估值约5000亿元，并计划将在8月下旬完成签约。DeepSeek在今年4月开启了首轮融资，并在6月完成交割，该轮融资金额500亿元，估值超过3500亿元，成为中国AI大模型史上首轮融资规模最大的公司。",
+      "published": "2026-08-05T10:42:27.594257+08:00",
+      "fetched_at": "2026-08-05T10:42:27.594259+08:00",
+      "pre_filter_reason": "AI company funding",
+      "scores": {
+        "importance": 9,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 7.0
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "DeepSeek估值5000亿：中国AI融资新纪录背后的逻辑",
+          "angle": "分析DeepSeek两轮融资的速度与规模，解读资本为何疯狂押注，以及对行业格局的影响。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "news",
+          "title": "DeepSeek二轮融资500亿：低调签约，高调扩张",
+          "angle": "盘点DeepSeek融资时间线、关键投资方传闻，以及这笔资金将如何改变大模型竞争格局。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "e39c3782948e",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "曝 DeepSeek 重启第二轮融资，拟募资 500 亿元",
+      "link": "https://www.ithome.com/0/985/825.htm",
+      "summary": "<p>IT之家 8 月 5 日消息，据《财经》今日报道，多名交易人士透露，<strong>大模型公司 DeepSeek 重启了第二轮融资，本轮计划募资 500 亿元</strong>，投前估值约 5000 亿元，并计划将在 8 月下旬完成签约。</p><p>前述交易人士表示，DeepSeek 和正在谈判桌上的投资人们希望这次融资在重启后能低调进行。</p><p>据IT之家此前报道，<a href=\"https://www.ithome.com/0/965/686.htm\" target=\"_blank\">DeepSeek 在今年 4 月开启了首轮融资</a>，并在 6 月完成交割，该轮融资金额 500 亿元，估值超过 3500 亿元，成为中国 AI 大模型史上首轮融资规模最大的公司。</p><p>首轮融资的投资方阵容涵盖了产业资本、互联网巨头与国家队，具体投资方包括创始人梁文锋、腾讯、宁德时代、网易、京东、Monolith 砺思资本、IDG 资本、正心谷投资、拾象科技以及国家人工智能产业投资基金合伙企业（有限合伙）。</p>",
+      "published": "2026-08-05T10:24:23+08:00",
+      "fetched_at": "2026-08-05T10:42:25.855356+08:00",
+      "pre_filter_reason": "AI大模型融资",
+      "scores": {
+        "importance": 9,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "从3500亿到5000亿：DeepSeek估值飙升的底层逻辑",
+          "angle": "对比首轮与二轮融资差异，分析估值提升背后的技术突破、市场卡位与资本策略。",
+          "difficulty": "中级"
+        },
+        {
+          "tag": "explainer",
+          "title": "为什么DeepSeek要“低调”融资？500亿背后的商业策略",
+          "angle": "解读DeepSeek刻意低调的原因，探讨高估值融资对创业公司治理与市场竞争的利弊。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "8fe4752d1a8a",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "报道：DeepSeek重启融资，投前估值5000亿元",
+      "link": "https://36kr.com/newsflashes/3925968796514432?f=rss",
+      "summary": "多名交易人士透露，大模型公司DeepSeek重启了第二轮融资，本轮计划募资500亿元，投前估值约5000亿元，并计划将在8月下旬完成签约。DeepSeek在今年4月开启了首轮融资，并在6月完成交割，该轮融资金额500亿元，估值超过3500亿元，成为中国AI大模型史上首轮融资规模最大的公司。多位投资人提到，DeepSeek第二轮融资至少在7月中旬就已开启，但在7月底突然暂停，当时一些谈判候补名单上的投资人被告知签署融资协议的计划暂缓。（财经杂志）",
+      "published": "2026-08-05T09:41:58+08:00",
+      "fetched_at": "2026-08-05T10:42:11.116879+08:00",
+      "pre_filter_reason": "AI company funding",
+      "scores": {
+        "importance": 9,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 8.0,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "DeepSeek 5000亿估值背后：AI大模型融资潮的底层逻辑",
+          "angle": "深度解读DeepSeek重启融资的估值逻辑、市场信号，以及对中国AI大模型竞争格局的影响。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "从融资新闻看AI投资：如何评估一家大模型公司的估值？",
+          "angle": "以DeepSeek为例，拆解AI公司估值的核心指标（如技术壁垒、商业化潜力、团队背景），为普通投资者提供分析框架。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "45a50927ff63",
+      "source_id": "nvidia-blog",
+      "source_name": "NVIDIA Technical Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Generate Trajectories, Reasoning Traces, and Auto-Labels with NVIDIA Alpamayo 2 Super",
+      "link": "https://developer.nvidia.com/blog/generate-trajectories-reasoning-traces-and-auto-labels-with-nvidia-alpamayo-2-super/",
+      "summary": "<img alt=\"A GIF showing autonomous driving.\" class=\"webfeedsFeaturedVisual wp-post-image\" height=\"338\" src=\"https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/Alpamayo-2-Super-Traffic.gif\" style=\"display: block; margin-bottom: 5px; clear: both;\" title=\"Alpamayo-2-Super-Traffic\" width=\"600\" />Autonomous vehicle (AV) development often relies on separate models for trajectory generation, high-level intent prediction, scene understanding, and data...",
+      "published": "2026-08-04T23:00:00+08:00",
+      "fetched_at": "2026-08-05T10:42:09.103119+08:00",
+      "pre_filter_reason": "NVIDIA AI model for trajectories",
+      "scores": {
+        "importance": 7,
+        "timeliness": 7,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 5,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "NVIDIA Alpamayo 2 Super 实战：一键生成自动驾驶轨迹与推理标签",
+          "angle": "手把手演示如何使用Alpamayo 2 Super生成轨迹、推理链和自动标注，降低自动驾驶开发门槛。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "自动驾驶数据标注新利器：Alpamayo 2 Super 快速上手",
+          "angle": "面向初学者的快速入门指南，介绍Alpamayo 2 Super的核心功能、安装步骤和简单用例。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "957d81736a18",
+      "source_id": "huggingface-blog",
+      "source_name": "Hugging Face Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "summary": "",
+      "published": "2026-08-04T21:58:29+08:00",
+      "fetched_at": "2026-08-05T10:42:09.388529+08:00",
+      "pre_filter_reason": "AI model deployment",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 7,
+        "scarcity": 6,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.8,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "LFM2.5-2.6B 本地部署指南：让AI Agent跑在你的设备上",
+          "angle": "分步讲解如何在本地环境部署LFM2.5-2.6B，并配置轻量级Agent，实现隐私保护与离线运行。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "小模型大用途：用LFM2.5-2.6B构建个人本地助手",
+          "angle": "面向普通用户，展示如何利用2.6B模型在本地实现任务自动化、信息整理等实用场景。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "1633eacf1a3e",
+      "source_id": "leiphone",
+      "source_name": "雷锋网",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "发布当日，海外主流AI平台纷纷接入阿里Qwen3.8",
+      "link": "https://www.leiphone.com/category/industrynews/Ufuyq9sSvBlkp2Ix.html",
+      "summary": "<p>8月3日，阿里巴巴正式发布新一代基座大模型Qwen3.8，编程与Agent能力大幅提升，整体性能位居全球大模型第一梯队。发布当日，OpenRouter、OpenCode、Hermes Agent、Command Code、Vercel、Novita、Charm、DeepInfra等多家海外主流API聚合、Agent工具及开发者平台纷纷拥抱Qwen3.8-Max，形成了一股“接入潮”。</p><p style=\"text-align: center;\"><img src=\"https://static.leiphone.com/uploads/new/images/20260804/6a71ab9236de5.png?imageView2/2/w/740\" /></p><p>Hermes Agent、OpenCode、Command Code是当下最热门的AI Agent/Coding Agent工具，在发布当日就官宣支持，意味着开发者可以直接通过成熟的三方工具平台调用Qwen3.8，将极大放大中国模型在AI落地中的全球影响力。同时，OpenRouter、Novita、Vercel等主流模型调用平台同步上线Qwen3.8-Max，全球开发者和企业都能更方便、高效地调用，推动千问走入更多真实的企业级复杂场景中去。</p><p>据了解，最新发布的Qwen3.8模型总参数达2.4万亿、激活95B，支持1M Tokens长上下文与视觉理解，并在自主编程与长程任务执行方面具备端到端交付能力。在考察模型基础文本能力的TextArena榜中，Qwen3.8仅次于Claude系列模型，在评测代码水平的CodeArena榜中斩获全球第四，在视觉能力全球榜单Vision Arena中排名全球第二。据阿里官方发布信息，Qwen3.8-Max预计下周开源，为Qwen-Max级模型首次，并将开源备受开发者瞩目的Qwen3.8-27B。截至目前，阿里已开源400多款千问大模型，全球衍生模型数量超20万个，下载量超10亿次，稳居全球开源大模型生态首位。</p><p><br /></p>",
+      "published": "2026-08-04T17:07:00+08:00",
+      "fetched_at": "2026-08-05T10:42:17.151601+08:00",
+      "pre_filter_reason": "AI model launch",
+      "scores": {
+        "importance": 9,
+        "timeliness": 9,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.7,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "Qwen3.8发布即“接入潮”：阿里如何撬动全球AI开发者生态？",
+          "angle": "分析Qwen3.8被OpenRouter、Vercel等海外平台快速接入的原因，探讨阿里在开源生态与国际合作上的战略布局。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "海外AI平台都在用Qwen3.8，开发者如何快速迁移？",
+          "angle": "提供从其他模型迁移到Qwen3.8的实操指南，包括API调用、性能对比和常见问题解决。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "eddb544cbcfc",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ中国",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "GPT-5.6 当老板：买假用户、被Chrome干崩3小时，烧掉3亿Token收入却为0",
+      "link": "https://www.infoq.cn/article/4rVt0Kd7LZeHP1krbeTf?utm_source=rss&utm_medium=article",
+      "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/4rVt0Kd7LZeHP1krbeTf?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+      "published": "2026-08-05T17:17:03+08:00",
+      "fetched_at": "2026-08-05T10:42:18.349265+08:00",
+      "pre_filter_reason": "GPT-5.6 AI model",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 9,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "GPT-5.6“翻车”启示录：AI Agent商业化还有多远？",
+          "angle": "复盘GPT-5.6当老板的失败案例，探讨AI Agent在真实商业场景中的局限性与改进方向。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "避免AI“烧钱”陷阱：如何设计有效的Agent测试流程？",
+          "angle": "从GPT-5.6的教训出发，教授如何为AI Agent设计小规模、低成本的验证实验，避免资源浪费。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "5925958f0084",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "数学家24小时驳回OpenAI攻破的猜想！“AI证对了每句话，但已跟原猜想无关”",
+      "link": "https://www.qbitai.com/2026/08/465792.html",
+      "summary": "第二天，就有一篇人类论文回应：AI提出的反例不成立",
+      "published": "2026-08-04T17:22:46+08:00",
+      "fetched_at": "2026-08-05T10:42:19.784281+08:00",
+      "pre_filter_reason": "OpenAI与数学猜想，AI研究",
+      "scores": {
+        "importance": 8,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.6,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "AI证明被人类24小时驳回：数学界为何不买账？",
+          "angle": "拆解AI证明的漏洞，解释‘证明正确但无关’的陷阱，以及人类数学家如何快速反击。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "如何用AI辅助数学研究？从这次翻车事件学到的3个教训",
+          "angle": "以案例切入，教观众如何正确使用AI生成证明，避免‘看似正确实则无用’的误区。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "171b845a4d32",
+      "source_id": "openai-blog",
+      "source_name": "OpenAI Blog",
+      "source_tier": "T1",
+      "source_lang": "en",
+      "source_category": "official",
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "link": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+      "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+      "published": "2026-08-04T08:00:00+08:00",
+      "fetched_at": "2026-08-05T10:42:07.722745+08:00",
+      "pre_filter_reason": "ChatGPT and Codex are AI products for education",
+      "scores": {
+        "importance": 6,
+        "timeliness": 7,
+        "actionability": 7,
+        "scarcity": 5,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.3,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "ChatGPT Work & Codex教育插件：老师如何一键布置AI作业？",
+          "angle": "演示K-12教师如何用新插件创建互动课程、自动批改，并管理学生AI使用权限。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "tutorial",
+          "title": "大学生必看：用Codex做科研项目的5个高效技巧",
+          "angle": "针对高校学生，展示如何用Codex辅助文献综述、代码调试和论文写作，提升研究效率。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "99a049c653b5",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "QwenLM/qwen-code",
+      "link": "https://github.com/QwenLM/qwen-code",
+      "summary": "An open-source AI coding agent that lives in your terminal.",
+      "published": "2026-08-05T10:42:33.151717+08:00",
+      "fetched_at": "2026-08-05T10:42:33.151718+08:00",
+      "pre_filter_reason": "AI coding agent",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "终端里的AI编程助手：Qwen-Code 5分钟上手",
+          "angle": "从安装到实战，演示如何用qwen-code在终端自动写代码、修bug，并对比GitHub Copilot。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "comparison",
+          "title": "开源vs闭源：Qwen-Code与Codex，谁更适合你的开发流程？",
+          "angle": "对比两者的功能、隐私、成本，帮助开发者根据项目需求选择。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "c131b0ad4233",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "esengine /DeepSeek-Reasonix",
+      "link": "https://github.com/esengine/DeepSeek-Reasonix",
+      "summary": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "published": "2026-08-05T10:42:32.860364+08:00",
+      "fetched_at": "2026-08-05T10:42:32.860366+08:00",
+      "pre_filter_reason": "AI coding agent",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 3.5
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "DeepSeek-Reasonix：让AI代理常驻终端的正确姿势",
+          "angle": "重点讲解prefix-cache稳定性的意义，演示如何配置并保持长时间运行，提升编码效率。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "analysis",
+          "title": "为什么‘常驻终端’的AI代理是未来？DeepSeek-Reasonix深度解析",
+          "angle": "从技术架构讲起，分析其与传统AI助手的区别，以及如何改变开发者工作流。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "df8efe7e5f3e",
+      "source_id": "github-trending",
+      "source_name": "GitHub Trending",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "lyogavin /airllm",
+      "link": "https://github.com/lyogavin/airllm",
+      "summary": "AirLLM 70B inference with single 4GB GPU",
+      "published": "2026-08-05T10:42:32.858642+08:00",
+      "fetched_at": "2026-08-05T10:42:32.858644+08:00",
+      "pre_filter_reason": "AI model inference optimization",
+      "scores": {
+        "importance": 7,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "4GB显卡跑70B大模型？AirLLM内存优化实战",
+          "angle": "一步步演示如何用AirLLM在低配GPU上运行70B模型，并解释其分块推理原理。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "tutorial",
+          "title": "穷鬼玩AI：单卡4GB也能本地跑大模型，AirLLM安装指南",
+          "angle": "面向学生和独立开发者，用最通俗的语言教他们突破硬件限制，本地部署大模型。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "20693f09b59d",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "京东：开源实时流式视频编辑模型JoyAI-Video-Edit",
+      "link": "https://36kr.com/newsflashes/3925977640777857?f=rss",
+      "summary": "36氪获悉，据京东黑板报消息，8月5日，京东宣布开源自研的实时流式视频编辑模型JoyAI-Video-Edit。据介绍，用户可以一边观看视频，一边修改人物与场景，让视频创作从“先有素材再修改”变为可实时互动编辑。",
+      "published": "2026-08-05T09:50:58+08:00",
+      "fetched_at": "2026-08-05T10:42:11.116841+08:00",
+      "pre_filter_reason": "AI video editing model",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "京东开源实时视频编辑模型，手把手教你本地部署与体验",
+          "angle": "从零开始，讲解如何获取模型、配置环境、运行示例，让普通开发者也能快速上手体验“边播边改”的神奇效果。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "视频编辑革命：京东JoyAI-Video-Edit如何实现“边看边改”？",
+          "angle": "深入浅出地拆解该模型的技术原理（如流式处理、实时推理），并对比传统视频编辑流程，突出其创新性与应用前景。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "e01f1dbd1dca",
+      "source_id": "ithome-ai",
+      "source_name": "IT之家",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "视频能“边播边改”：京东开源自研 JoyAI-Video-Edit 模型，各项指标全球领先",
+      "link": "https://www.ithome.com/0/985/793.htm",
+      "summary": "<p>IT之家 8 月 5 日消息，京东今日宣布开源自研的实时流式视频编辑模型 <strong>JoyAI-Video-Edit</strong>，用户可以一边观看视频，一边修改人物与场景，让视频创作从“先有素材再修改”变为可实时互动编辑。</p><p>京东官方表示，在流式实时视频编辑方向，JoyAI-Video-Edit 对比当前业内代表性模型，<strong>各项指标全面领先，达到世界一流水平</strong>。</p><p>视频实时编辑首先要解决速度问题。视频由一帧帧连续画面组成，如果模型处理速度跟不上播放速度，就会出现卡顿与延迟。JoyAI-Video-Edit 基于全自研 JoyAI-Video 模型，<strong>在 720P 分辨率下实现每秒 30 帧的模型推理速度</strong>，能够在保持较高画面清晰度的同时，跟上常见影视视频的播放节奏。</p><p>视频长度也是流式编辑的一道门槛。此前的流式编辑模型只能处理几秒或分钟级片段，<strong>而 JoyAI-Video-Edit 支持任意时长的稳定流式编辑</strong>，可以随着视频持续播放、持续处理。用户不必等待整段视频生成完成，就能在播放过程中实时修改场景、替换物体、调整人物形象或改变画面风格，实现“边观看边创作”。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/8/0d0809be-f5a6-441c-af23-fa89a3552d33.png\" /></p><p>例如，创作者可以让视频中的人物连续更换服装，在直播中把普通街道变成动画世界，也可以在家装设计中尝试不同的家具、墙面和灯光效果。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/8/e0ed3772-44bd-4aa8-aa56-5c9a5ae15383.png\" /></p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/8/ceb46726-eabe-4330-85a0-cbf1eb682715.png\" /></p><p>为了评估模型能力，研究团队将 JoyAI-Video-Edit 与 SANA Streaming、LiveEdit、Xmax-X2.0 等国际上有代表性流式视频编辑模型进行对比。结果显示，在覆盖典型视频编辑场景的评测数据中，<strong>JoyAI-Video-Edit 整体效果全面领先</strong>。</p><p style=\"text-align: center;\"><img alt=\"图片\" src=\"https://img.ithome.com/newsuploadfiles/2026/8/8f9e77a9-2841-4911-96f1-71d5276c737e.png\" /></p><p>在业界权威的 OpenVE-Bench 通用评测中，<strong>模型超越了目前所有的流式编辑方法</strong>，在全局风格、局部替换、局部删除和字幕编辑等任务中优势尤其突出，大幅领先行业同类模型。</p><p>不止视频创作，JoyAI-Video-Edit 还为具身智能数据大规模合成提供了新的技术路径。机器人训练需要大量物体抓取、搬运与操作视频，但真机数据采集成本较高，危险或少见场景也难以反复采集。依托对场景、物体与画面内容的可控编辑能力，<strong>JoyAI-Video-Edit 可将人手操作视频转化为机械手或机械臂操作素材</strong>，并在保留物体位置、空间关系与动作轨迹的基础上，替换场景、物体与机器人形态，让一段视频扩展出更多训练样本。</p><p>IT之家附 JoyAI-Video-Edit 开源地址如下：</p><p><a href=\"https://huggingface.co/jdopensource/JoyAI-Video-Edit\" target=\"_blank\"><span class=\"link-text-start-with-http\">https://huggingface.co/jdopensource/JoyAI-Video-Edit</span></a></p><p><a href=\"https://github.com/jd-opensource/JoyAI-Video-Edit\" target=\"_blank\"><span class=\"link-text-start-with-http\">https://github.com/jd-opensource/JoyAI-Video-Edit</span></a></p>",
+      "published": "2026-08-05T09:48:41+08:00",
+      "fetched_at": "2026-08-05T10:42:25.855469+08:00",
+      "pre_filter_reason": "AI video editing model",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "5分钟看懂京东JoyAI-Video-Edit：核心优势与快速上手",
+          "angle": "以短视频形式，用动画和实操演示，快速展示该模型“实时编辑”的亮点，并给出最简单的体验路径。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "全球领先？京东视频编辑模型对比评测：它强在哪？",
+          "angle": "基于官方宣称的“各项指标领先”，选取几个关键维度（如延迟、画质、编辑精度）进行客观对比分析，帮助用户理性看待。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "e5616a290b82",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "media",
+      "title": "开源版Claude Science来了！零依赖、MIT协议，内置30+项科研Skills",
+      "link": "https://www.qbitai.com/2026/08/466386.html",
+      "summary": "北京大学&#038;元空AI Agent联合实验室",
+      "published": "2026-08-04T21:14:27+08:00",
+      "fetched_at": "2026-08-05T10:42:19.784250+08:00",
+      "pre_filter_reason": "Open-source AI science tools",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 8,
+        "scarcity": 7,
+        "virality": 7,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "开源“科研助手”来了：零依赖部署Claude Science，内置30+技能",
+          "angle": "手把手教学如何下载、安装并调用这些科研Skills，演示一个具体科研场景（如文献分析、数据可视化），降低使用门槛。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "科研效率神器？北大开源Claude Science深度解析",
+          "angle": "分析该工具包的设计理念、内置Skills覆盖的科研流程环节，并探讨其对科研工作流的潜在影响与局限性。",
+          "difficulty": "进阶"
+        }
+      ]
+    },
+    {
+      "id": "582632f5900a",
+      "source_id": "google-news-ai-zh",
+      "source_name": "Google News (AI 中文)",
+      "source_tier": "T2",
+      "source_lang": "zh",
+      "source_category": "search",
+      "title": "两公司AI大模型接连失控 - 世界互联网大会",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1LNW9UUG5SbF9hNDN4VlFfVE1MSW5tZi16VUhUbXRMSElFUFFKZGwtekItTG5pUGJROS02QTYwQXBUS1YtRjZLRlA2NUFUaGJDLVAxdFNiWHJNb2p1MVRpOWZLelBjU1FLUFE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE1LNW9UUG5SbF9hNDN4VlFfVE1MSW5tZi16VUhUbXRMSElFUFFKZGwtekItTG5pUGJROS02QTYwQXBUS1YtRjZLRlA2NUFUaGJDLVAxdFNiWHJNb2p1MVRpOWZLelBjU1FLUFE?oc=5\" target=\"_blank\">两公司AI大模型接连失控</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">世界互联网大会</font>",
+      "published": "2026-08-04T20:12:51+08:00",
+      "fetched_at": "2026-08-05T10:42:29.444431+08:00",
+      "pre_filter_reason": "AI大模型失控",
+      "scores": {
+        "importance": 7,
+        "timeliness": 8,
+        "actionability": 7,
+        "scarcity": 7,
+        "virality": 8,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.2,
+      "topics": [
+        {
+          "tag": "analysis",
+          "title": "AI大模型接连“失控”？背后原因与安全警示",
+          "angle": "梳理近期两起AI失控事件，从技术（如对抗攻击、数据偏差）和治理（如安全测试、监管）角度分析原因，并提出防范建议。",
+          "difficulty": "进阶"
+        },
+        {
+          "tag": "news",
+          "title": "AI失控事件频发，企业如何避免“翻车”？",
+          "angle": "聚焦企业级AI应用，总结常见失控场景（如错误输出、越权行为），提供一套实用的风险评估与应急响应清单。",
+          "difficulty": "入门"
+        }
+      ]
+    },
+    {
+      "id": "b87dd7569059",
+      "source_id": "github-ai-repos",
+      "source_name": "GitHub AI 新项目",
+      "source_tier": "T2",
+      "source_lang": "en",
+      "source_category": "community",
+      "title": "headroomlabs-ai/headroom",
+      "link": "https://github.com/headroomlabs-ai/headroom",
+      "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "published": "2026-08-05T10:42:33.151673+08:00",
+      "fetched_at": "2026-08-05T10:42:33.151675+08:00",
+      "pre_filter_reason": "LLM token compression",
+      "scores": {
+        "importance": 7,
+        "timeliness": 7,
+        "actionability": 8,
+        "scarcity": 8,
+        "virality": 6,
+        "crowd_heat": 0.0
+      },
+      "quality_score": 7.1,
+      "topics": [
+        {
+          "tag": "tutorial",
+          "title": "减少80%Token消耗：Headroom工具安装与配置指南",
+          "angle": "以实际代码为例，演示如何通过Headroom压缩JSON、日志等数据，显著降低LLM调用成本，并保持输出质量不变。",
+          "difficulty": "入门"
+        },
+        {
+          "tag": "analysis",
+          "title": "LLM成本优化新利器：Headroom如何做到“减量不减质”？",
+          "angle": "深入解析其压缩算法（如结构化感知压缩），对比不同数据类型（JSON、代码、RAG）的压缩效果，并评估其适用场景。",
+          "difficulty": "进阶"
+        }
+      ]
+    }
+  ]
+}
