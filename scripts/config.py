@@ -325,7 +325,11 @@ RAW_FILE = os.path.join(DATA_DIR, "raw_news.json")
 SELECTED_FILE = os.path.join(DATA_DIR, "selected_news.json")
 DAILY_FILE = os.path.join(DATA_DIR, "daily_report.json")
 
-# Web前端数据目录（与DATA_DIR同步输出）
+# Web前端数据目录（与DATA_DIR同步输出，保留供本地预览）
 WEB_DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "web", "data")
 WEB_SELECTED_FILE = os.path.join(WEB_DATA_DIR, "selected_news.json")
 WEB_DAILY_FILE = os.path.join(WEB_DATA_DIR, "daily_report.json")
+
+# ── Obsidian 知识库输出路径 ─────────────────────────────────
+OBSIDIAN_VAULT_DIR = r"F:\zhi_shi_ku\claude code"
+OBSIDIAN_AI_REPORT_DIR = os.path.join(OBSIDIAN_VAULT_DIR, "资源", "AI日报")

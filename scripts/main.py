@@ -1,11 +1,11 @@
 """
-AI选题助手 — 主入口
+AI选题助手 — 主入口（个人版）
 用法:
     python scripts/main.py                     # 完整管线: 抓取+AI处理
     python scripts/main.py --fetch-only        # 仅抓取RSS
     python scripts/main.py --ai-only           # 仅AI处理(使用已有raw数据)
-    python scripts/main.py --social-verify     # 启用社交舆情验证(需last30days skill)
-    python scripts/main.py --social-verify --social-top-n 10  # 验证前10条
+    python scripts/main.py --no-crowd          # 关闭人群验证
+    python scripts/main.py --no-markdown       # 不输出Markdown到Obsidian
 """
 
 import os
@@ -30,12 +30,11 @@ def check_env():
 
 
 def main():
-    parser = argparse.ArgumentParser(description="AI选题助手")
+    parser = argparse.ArgumentParser(description="AI选题助手（个人版）")
     parser.add_argument("--fetch-only", action="store_true", help="仅抓取RSS")
     parser.add_argument("--ai-only", action="store_true", help="仅AI处理")
-    parser.add_argument("--social-verify", action="store_true", help="启用社交舆情验证 (last30days)")
-    parser.add_argument("--social-top-n", type=int, default=5, help="社交验证覆盖前N条 (默认5)")
-    parser.add_argument("--crowd-verify", action="store_true", help="启用人群验证 (百度/B站热搜匹配)")
+    parser.add_argument("--no-crowd", action="store_true", help="关闭人群验证（百度/B站热搜匹配）")
+    parser.add_argument("--no-markdown", action="store_true", help="不输出Markdown到Obsidian")
     args = parser.parse_args()
 
     do_fetch = not args.ai_only
@@ -51,8 +50,8 @@ def main():
         if not check_env():
             return
         from ai_pipeline import main as ai_main
-        ai_main(enable_social=args.social_verify, social_top_n=args.social_top_n,
-                enable_crowd=args.crowd_verify)
+        ai_main(enable_crowd=not args.no_crowd,
+                enable_markdown=not args.no_markdown)
 
 
 if __name__ == "__main__":

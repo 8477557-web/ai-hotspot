@@ -1,21 +1,16 @@
-name: Daily AI News Update
+name: Daily AI Pipeline
 
 on:
   schedule:
     # 北京时间每天早上8:00 (UTC 0:00)
     - cron: '0 0 * * *'
   workflow_dispatch:  # 手动触发
-  push:
-    branches: [main]
 
-# GitHub Pages部署权限
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
-  update-and-deploy:
+  pipeline:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -35,7 +30,7 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 
       - name: AI Pipeline (filter + score + crowd verify + topics + report)
-        run: python scripts/main.py --ai-only --crowd-verify
+        run: python scripts/main.py --ai-only --no-markdown
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
 
@@ -47,7 +42,7 @@ jobs:
           mkdir -p web/data/history
           cp data/history/*.json web/data/history/ 2>/dev/null || true
 
-      - name: Commit history back to repo
+      - name: Commit data back to repo
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -56,16 +51,8 @@ jobs:
             [ -f "$f" ] && git add "$f"
           done
           if git diff --cached --quiet; then
-            echo "历史数据无变化，跳过提交"
+            echo "No changes, skip commit"
           else
-            git commit -m "📊 更新趋势历史数据"
+            git commit -m "daily: $(date +%Y-%m-%d)"
             git push origin main
           fi
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./web
-          publish_branch: gh-pages
-          force_orphan: true

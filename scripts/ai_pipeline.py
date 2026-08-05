@@ -294,39 +294,10 @@ def generate_daily_report(items: list[dict]) -> dict:
 
 
 # ══════════════════════════════════════════════════════════════
-# 第五步：社交验证（可选，调用 last30days 引擎）
-# ══════════════════════════════════════════════════════════════
-
-def social_verify(selected: list[dict], top_n: int = 5) -> list[dict]:
-    """对精选新闻前 top_n 条执行社区讨论搜索，增强评分"""
-    try:
-        from social_verify import verify_topics, add_social_to_item
-    except ImportError:
-        print("  social_verify module not available, skipping")
-        return selected
-
-    print(f"\n  Social Verify: top {top_n} items")
-    topics = [item["title"] for item in selected[:top_n]]
-    results = verify_topics(topics, depth="quick")
-
-    success_count = sum(1 for r in results if r["success"])
-    total_items = sum(r["metrics"]["total_items"] for r in results)
-    print(f"  Social Verify done: {success_count}/{len(results)} successful, {total_items} community items found")
-
-    for i, result in enumerate(results):
-        if i < len(selected) and result["success"]:
-            selected[i] = add_social_to_item(selected[i], result)
-
-    # 按更新后的 quality_score 重排
-    selected.sort(key=lambda x: x["quality_score"], reverse=True)
-    return selected
-
-
-# ══════════════════════════════════════════════════════════════
 # 主流程
 # ══════════════════════════════════════════════════════════════
 
-def main(enable_social: bool = False, social_top_n: int = 5, enable_crowd: bool = False):
+def main(enable_crowd: bool = False, enable_markdown: bool = True):
     if not DEEPSEEK_API_KEY:
         print("ERROR: DEEPSEEK_API_KEY not set")
         return
@@ -335,8 +306,8 @@ def main(enable_social: bool = False, social_top_n: int = 5, enable_crowd: bool 
     print(f"AI Pipeline Start: {datetime.now(BJT).strftime('%Y-%m-%d %H:%M:%S')}")
     if enable_crowd:
         print(f"[Crowd Verify: ENABLED (Baidu/Bilibili)]")
-    if enable_social:
-        print(f"[Social Verify: ENABLED (top {social_top_n})]")
+    if enable_markdown:
+        print(f"[Markdown Report: ENABLED (Obsidian)]")
     print("=" * 50)
 
     with open(RAW_FILE, "r", encoding="utf-8") as f:
@@ -372,17 +343,11 @@ def main(enable_social: bool = False, social_top_n: int = 5, enable_crowd: bool 
     print(f"\nStep 4: Topic suggestions (batch)")
     selected = generate_topics(selected)
 
-    # Step 5: Social verify (optional)
-    if enable_social:
-        print(f"\nStep 5: Social verification")
-        selected = social_verify(selected, top_n=social_top_n)
-
-    # Step 6: Daily report
-    step_label = "6" if enable_social else "5"
-    print(f"\nStep {step_label}: Daily report")
+    # Step 5: Daily report
+    print(f"\nStep 5: Daily report")
     report = generate_daily_report(selected)
 
-    # Save
+    # Save JSON
     os.makedirs(DATA_DIR, exist_ok=True)
     os.makedirs(WEB_DATA_DIR, exist_ok=True)
     output = {"updated_at": datetime.now(BJT).isoformat(), "total": len(selected), "items": selected}
@@ -394,15 +359,25 @@ def main(enable_social: bool = False, social_top_n: int = 5, enable_crowd: bool 
         with open(path, "w", encoding="utf-8") as f:
             json.dump(report, f, ensure_ascii=False, indent=2)
 
-    print(f"\nSaved to: {DATA_DIR}/ and {WEB_DATA_DIR}/")
+    print(f"\nSaved JSON to: {DATA_DIR}/ and {WEB_DATA_DIR}/")
+
+    # Step 6: Markdown output to Obsidian
+    if enable_markdown:
+        try:
+            from markdown_reporter import generate_markdown
+            md_path = generate_markdown(selected, report)
+            if md_path:
+                print(f"Markdown saved to: {md_path}")
+        except ImportError:
+            print("  [warn] markdown_reporter not found, skipping Markdown output")
+
     print(f"\nDone! {len(items)} filtered -> {len(selected)} selected -> report generated")
 
 
 if __name__ == "__main__":
-    # 直接调试入口（正式使用请通过 main.py --social-verify）
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument("--social-verify", action="store_true")
-    parser.add_argument("--social-top-n", type=int, default=5)
+    parser.add_argument("--crowd-verify", action="store_true")
+    parser.add_argument("--no-markdown", action="store_true")
     args = parser.parse_args()
-    main(enable_social=args.social_verify, social_top_n=args.social_top_n)
+    main(enable_crowd=args.crowd_verify, enable_markdown=not args.no_markdown)
