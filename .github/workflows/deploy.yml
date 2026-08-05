@@ -37,17 +37,17 @@ jobs:
       - name: Track history
         run: python scripts/history_tracker.py
 
-      - name: Copy history to web
+      - name: Copy history to docs
         run: |
-          mkdir -p web/data/history
-          cp data/history/*.json web/data/history/ 2>/dev/null || true
+          mkdir -p docs/data/history
+          cp data/history/*.json docs/data/history/ 2>/dev/null || true
 
       - name: Commit data back to repo
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/history/ web/data/history/
-          for f in web/data/selected_news.json web/data/daily_report.json; do
+          git add data/history/ docs/data/history/
+          for f in docs/data/selected_news.json docs/data/daily_report.json; do
             [ -f "$f" ] && git add "$f"
           done
           if git diff --cached --quiet; then
