@@ -1,7 +1,47 @@
 {
-  "updated_at": "2026-08-14T10:08:12.538800+08:00",
+  "updated_at": "2026-08-15T09:22:05.247407+08:00",
   "total_days": 90,
   "days": [
+    {
+      "date": "2026-08-15",
+      "total_items": 20,
+      "avg_score": 7.5,
+      "max_score": 8.0,
+      "crowd_hot_count": 4,
+      "avg_crowd_heat": 0.7,
+      "topic_distribution": {
+        "analysis": 20,
+        "tutorial": 17,
+        "news": 2,
+        "opinion": 1
+      },
+      "source_distribution": {
+        "T2": 18,
+        "T1": 2
+      },
+      "top_keywords": [
+        [
+          "GLM-5.3",
+          6
+        ],
+        [
+          "DeepMind",
+          3
+        ],
+        [
+          "DeepSeek Harness",
+          2
+        ],
+        [
+          "Flash",
+          2
+        ],
+        [
+          "苹果被曝",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-08-14",
       "total_items": 20,
@@ -3755,46 +3795,6 @@
         ],
         [
           "Linus",
-          1
-        ]
-      ]
-    },
-    {
-      "date": "2026-05-17",
-      "total_items": 20,
-      "avg_score": 7.0,
-      "max_score": 8.0,
-      "crowd_hot_count": 5,
-      "avg_crowd_heat": 0.9,
-      "topic_distribution": {
-        "tutorial": 30,
-        "opinion": 6,
-        "news": 2,
-        "review": 2
-      },
-      "source_distribution": {
-        "T2": 19,
-        "T1": 1
-      },
-      "top_keywords": [
-        [
-          "OpenAI",
-          2
-        ],
-        [
-          "Malta",
-          2
-        ],
-        [
-          "CVPR",
-          2
-        ],
-        [
-          "Backlash",
-          1
-        ],
-        [
-          "Arxiv",
           1
         ]
       ]
