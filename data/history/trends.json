@@ -1,7 +1,49 @@
 {
-  "updated_at": "2026-08-17T09:24:34.549397+08:00",
+  "updated_at": "2026-08-18T09:20:59.078015+08:00",
   "total_days": 90,
   "days": [
+    {
+      "date": "2026-08-18",
+      "total_items": 20,
+      "avg_score": 7.5,
+      "max_score": 8.7,
+      "crowd_hot_count": 2,
+      "avg_crowd_heat": 0.5,
+      "topic_distribution": {
+        "tutorial": 16,
+        "analysis": 14,
+        "explainer": 4,
+        "news": 3,
+        "review": 2,
+        "opinion": 1
+      },
+      "source_distribution": {
+        "T1": 3,
+        "T2": 17
+      },
+      "top_keywords": [
+        [
+          "OpenAI",
+          3
+        ],
+        [
+          "Cybercab",
+          2
+        ],
+        [
+          "New",
+          1
+        ],
+        [
+          "Intelligence Age",
+          1
+        ],
+        [
+          "The Defender",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-08-17",
       "total_items": 20,
@@ -3757,47 +3799,6 @@
         ],
         [
           "全球首部",
-          1
-        ]
-      ]
-    },
-    {
-      "date": "2026-05-20",
-      "total_items": 20,
-      "avg_score": 7.8,
-      "max_score": 8.8,
-      "crowd_hot_count": 2,
-      "avg_crowd_heat": 0.5,
-      "topic_distribution": {
-        "tutorial": 18,
-        "analysis": 6,
-        "news": 4,
-        "explainer": 2,
-        "comparison": 1
-      },
-      "source_distribution": {
-        "T1": 6,
-        "T2": 14
-      },
-      "top_keywords": [
-        [
-          "Qwen3.7-Max",
-          2
-        ],
-        [
-          "Gemini",
-          2
-        ],
-        [
-          "NVIDIA-Verified Agent Skills Provide Capability Governance",
-          1
-        ],
-        [
-          "Agents",
-          1
-        ],
-        [
-          "Advancing",
           1
         ]
       ]
