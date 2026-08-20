@@ -1,7 +1,48 @@
 {
-  "updated_at": "2026-08-19T09:22:58.906327+08:00",
+  "updated_at": "2026-08-20T09:22:12.477159+08:00",
   "total_days": 90,
   "days": [
+    {
+      "date": "2026-08-20",
+      "total_items": 20,
+      "avg_score": 7.7,
+      "max_score": 8.8,
+      "crowd_hot_count": 11,
+      "avg_crowd_heat": 2.2,
+      "topic_distribution": {
+        "tutorial": 17,
+        "analysis": 16,
+        "explainer": 5,
+        "news": 1,
+        "story": 1
+      },
+      "source_distribution": {
+        "T1": 9,
+        "T2": 11
+      },
+      "top_keywords": [
+        [
+          "OpenAI",
+          3
+        ],
+        [
+          "RSS",
+          2
+        ],
+        [
+          "Replit",
+          1
+        ],
+        [
+          "GPT-5.6 Luna",
+          1
+        ],
+        [
+          "Post-Train NVIDIA Cosmos",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-08-19",
       "total_items": 20,
@@ -3759,48 +3800,6 @@
         ],
         [
           "Specialization Beats Scale",
-          1
-        ]
-      ]
-    },
-    {
-      "date": "2026-05-22",
-      "total_items": 20,
-      "avg_score": 7.7,
-      "max_score": 8.4,
-      "crowd_hot_count": 3,
-      "avg_crowd_heat": 0.7,
-      "topic_distribution": {
-        "tutorial": 20,
-        "analysis": 12,
-        "news": 4,
-        "comparison": 1,
-        "case_study": 1,
-        "policy": 1
-      },
-      "source_distribution": {
-        "T1": 7,
-        "T2": 13
-      },
-      "top_keywords": [
-        [
-          "OpenAI",
-          3
-        ],
-        [
-          "国产",
-          2
-        ],
-        [
-          "国家发改",
-          2
-        ],
-        [
-          "家发改委",
-          2
-        ],
-        [
-          "Vega",
           1
         ]
       ]
