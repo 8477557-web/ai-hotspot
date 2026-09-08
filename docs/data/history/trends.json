@@ -1,7 +1,42 @@
 {
-  "updated_at": "2026-09-07T11:35:56.053630+08:00",
+  "updated_at": "2026-09-08T11:40:59.702667+08:00",
   "total_days": 90,
   "days": [
+    {
+      "date": "2026-09-08",
+      "total_items": 20,
+      "avg_score": 5.8,
+      "max_score": 6.5,
+      "crowd_hot_count": 0,
+      "avg_crowd_heat": 0.0,
+      "topic_distribution": {},
+      "source_distribution": {
+        "T1": 1,
+        "T2": 19
+      },
+      "top_keywords": [
+        [
+          "Supporting",
+          1
+        ],
+        [
+          "Ukraine",
+          1
+        ],
+        [
+          "Coding",
+          1
+        ],
+        [
+          "Agent",
+          1
+        ],
+        [
+          "QCon",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-09-07",
       "total_items": 20,
@@ -3649,54 +3684,6 @@
         ],
         [
           "DiffusionGemma",
-          1
-        ]
-      ]
-    },
-    {
-      "date": "2026-06-10",
-      "total_items": 20,
-      "avg_score": 7.9,
-      "max_score": 8.8,
-      "crowd_hot_count": 5,
-      "avg_crowd_heat": 0.9,
-      "topic_distribution": {
-        "tutorial": 15,
-        "analysis": 10,
-        "case_study": 4,
-        "news": 3,
-        "product_analysis": 1,
-        "opinion": 1,
-        "concept_explainer": 1,
-        "news_analysis": 1,
-        "trend_spotlight": 1,
-        "safety_warning": 1,
-        "news_roundup": 1,
-        "product_launch": 1
-      },
-      "source_distribution": {
-        "T1": 10,
-        "T2": 10
-      },
-      "top_keywords": [
-        [
-          "Gemini",
-          2
-        ],
-        [
-          "How",
-          2
-        ],
-        [
-          "发布",
-          2
-        ],
-        [
-          "Claude Fable",
-          2
-        ],
-        [
-          "Introducing Gemma",
           1
         ]
       ]
