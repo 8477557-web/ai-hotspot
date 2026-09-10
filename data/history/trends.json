@@ -1,7 +1,42 @@
 {
-  "updated_at": "2026-09-09T11:46:09.911798+08:00",
+  "updated_at": "2026-09-10T11:43:56.752598+08:00",
   "total_days": 90,
   "days": [
+    {
+      "date": "2026-09-10",
+      "total_items": 20,
+      "avg_score": 6.2,
+      "max_score": 7.0,
+      "crowd_hot_count": 4,
+      "avg_crowd_heat": 1.4,
+      "topic_distribution": {},
+      "source_distribution": {
+        "T1": 6,
+        "T2": 14
+      },
+      "top_keywords": [
+        [
+          "When",
+          1
+        ],
+        [
+          "Use Encode-Prefill-Decode Disaggregation",
+          1
+        ],
+        [
+          "Accelerate Multimodal Model Serving",
+          1
+        ],
+        [
+          "CUDA Toolkit",
+          1
+        ],
+        [
+          "Adds Windows",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-09-09",
       "total_items": 20,
@@ -3636,47 +3671,6 @@
         ],
         [
           "Agentic Workflows",
-          1
-        ]
-      ]
-    },
-    {
-      "date": "2026-06-12",
-      "total_items": 20,
-      "avg_score": 7.5,
-      "max_score": 8.2,
-      "crowd_hot_count": 1,
-      "avg_crowd_heat": 0.5,
-      "topic_distribution": {
-        "tutorial": 18,
-        "analysis": 13,
-        "news": 5,
-        "opinion": 2,
-        "list": 1
-      },
-      "source_distribution": {
-        "T1": 3,
-        "T2": 17
-      },
-      "top_keywords": [
-        [
-          "OpenAI",
-          5
-        ],
-        [
-          "Anthropic",
-          3
-        ],
-        [
-          "Agent",
-          2
-        ],
-        [
-          "Claude Fable",
-          2
-        ],
-        [
-          "Ona",
           1
         ]
       ]
