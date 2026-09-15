@@ -1,7 +1,42 @@
 {
-  "updated_at": "2026-09-14T12:00:47.712923+08:00",
+  "updated_at": "2026-09-15T12:00:22.389736+08:00",
   "total_days": 90,
   "days": [
+    {
+      "date": "2026-09-15",
+      "total_items": 20,
+      "avg_score": 6.0,
+      "max_score": 7.0,
+      "crowd_hot_count": 3,
+      "avg_crowd_heat": 0.6,
+      "topic_distribution": {},
+      "source_distribution": {
+        "T1": 3,
+        "T2": 17
+      },
+      "top_keywords": [
+        [
+          "Accelerating Dropless MoE Training",
+          1
+        ],
+        [
+          "JAX",
+          1
+        ],
+        [
+          "NVIDIA Transformer Engine",
+          1
+        ],
+        [
+          "How Fyxer",
+          1
+        ],
+        [
+          "Perplexity",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-09-14",
       "total_items": 20,
@@ -3601,47 +3636,6 @@
         ],
         [
           "Strands Agents",
-          1
-        ]
-      ]
-    },
-    {
-      "date": "2026-06-17",
-      "total_items": 20,
-      "avg_score": 7.8,
-      "max_score": 9.0,
-      "crowd_hot_count": 1,
-      "avg_crowd_heat": 0.2,
-      "topic_distribution": {
-        "tutorial": 21,
-        "analysis": 10,
-        "news": 5,
-        "case_study": 2,
-        "news_analysis": 2
-      },
-      "source_distribution": {
-        "T1": 7,
-        "T2": 13
-      },
-      "top_keywords": [
-        [
-          "DeepSeek",
-          2
-        ],
-        [
-          "NVIDIA Blackwell Tops MLPerf Training",
-          1
-        ],
-        [
-          "Industry-Leading Scale",
-          1
-        ],
-        [
-          "Performance",
-          1
-        ],
-        [
-          "Unlocking UK",
           1
         ]
       ]
