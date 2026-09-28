@@ -1,7 +1,42 @@
 {
-  "updated_at": "2026-09-27T12:22:57.473045+08:00",
+  "updated_at": "2026-09-28T12:23:52.667980+08:00",
   "total_days": 90,
   "days": [
+    {
+      "date": "2026-09-28",
+      "total_items": 20,
+      "avg_score": 5.9,
+      "max_score": 7.0,
+      "crowd_hot_count": 7,
+      "avg_crowd_heat": 2.5,
+      "topic_distribution": {},
+      "source_distribution": {
+        "T1": 1,
+        "T2": 19
+      },
+      "top_keywords": [
+        [
+          "How NVIDIA DSX MaxLPS Maximizes AI Factory Throughput",
+          1
+        ],
+        [
+          "Efficiency",
+          1
+        ],
+        [
+          "QCon",
+          1
+        ],
+        [
+          "生成式到",
+          1
+        ],
+        [
+          "成式到代",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-09-27",
       "total_items": 20,
@@ -3501,48 +3536,6 @@
         ],
         [
           "Claude Sonnet",
-          1
-        ]
-      ]
-    },
-    {
-      "date": "2026-06-30",
-      "total_items": 20,
-      "avg_score": 7.9,
-      "max_score": 8.6,
-      "crowd_hot_count": 0,
-      "avg_crowd_heat": 0.0,
-      "topic_distribution": {
-        "analysis": 17,
-        "tutorial": 15,
-        "news": 5,
-        "comparison": 1,
-        "explainer": 1,
-        "deep_dive": 1
-      },
-      "source_distribution": {
-        "T1": 4,
-        "T2": 16
-      },
-      "top_keywords": [
-        [
-          "LongCat-2.0",
-          2
-        ],
-        [
-          "Memora",
-          1
-        ],
-        [
-          "Harmonic Memory Representation Balancing Abstraction",
-          1
-        ],
-        [
-          "Specificity",
-          1
-        ],
-        [
-          "Mapping Europe",
           1
         ]
       ]
