@@ -1,7 +1,42 @@
 {
-  "updated_at": "2026-10-04T12:57:01.886262+08:00",
+  "updated_at": "2026-10-05T12:44:14.439166+08:00",
   "total_days": 90,
   "days": [
+    {
+      "date": "2026-10-05",
+      "total_items": 20,
+      "avg_score": 5.8,
+      "max_score": 6.2,
+      "crowd_hot_count": 0,
+      "avg_crowd_heat": 0.0,
+      "topic_distribution": {},
+      "source_distribution": {
+        "T1": 1,
+        "T2": 19
+      },
+      "top_keywords": [
+        [
+          "The Agent Said It Was Done. The Database Disagreed.",
+          1
+        ],
+        [
+          "Cloudflare",
+          1
+        ],
+        [
+          "DNS",
+          1
+        ],
+        [
+          "缓存的内",
+          1
+        ],
+        [
+          "DataAgent",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-10-04",
       "total_items": 20,
@@ -3450,46 +3485,6 @@
         ],
         [
           "NVIDIA Isaac GR00T",
-          1
-        ]
-      ]
-    },
-    {
-      "date": "2026-07-07",
-      "total_items": 20,
-      "avg_score": 7.6,
-      "max_score": 8.3,
-      "crowd_hot_count": 0,
-      "avg_crowd_heat": 0.0,
-      "topic_distribution": {
-        "tutorial": 23,
-        "analysis": 9,
-        "insight": 5,
-        "news": 3
-      },
-      "source_distribution": {
-        "T2": 16,
-        "T1": 4
-      },
-      "top_keywords": [
-        [
-          "论文",
-          2
-        ],
-        [
-          "ICML",
-          2
-        ],
-        [
-          "Enhancing Goodput",
-          1
-        ],
-        [
-          "Large-Scale LLM Training",
-          1
-        ],
-        [
-          "Nonuniform Tensor Parallelism",
           1
         ]
       ]
