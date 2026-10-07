@@ -1,7 +1,43 @@
 {
-  "updated_at": "2026-10-06T13:30:37.920045+08:00",
+  "updated_at": "2026-10-07T13:00:11.127942+08:00",
   "total_days": 90,
   "days": [
+    {
+      "date": "2026-10-07",
+      "total_items": 20,
+      "avg_score": 6.5,
+      "max_score": 7.0,
+      "crowd_hot_count": 8,
+      "avg_crowd_heat": 1.6,
+      "topic_distribution": {},
+      "source_distribution": {
+        "T1": 11,
+        "T1.5": 1,
+        "T2": 8
+      },
+      "top_keywords": [
+        [
+          "EmbeddingGemma",
+          1
+        ],
+        [
+          "How DOCA GPUNetIO Unifies GPU-Initiated Networking Across",
+          1
+        ],
+        [
+          "NVIDIA Software Stack",
+          1
+        ],
+        [
+          "What AI",
+          1
+        ],
+        [
+          "AICR",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-10-06",
       "total_items": 20,
@@ -3423,54 +3459,6 @@
         [
           "蚂蚁灵波",
           2
-        ]
-      ]
-    },
-    {
-      "date": "2026-07-09",
-      "total_items": 20,
-      "avg_score": 7.9,
-      "max_score": 9.2,
-      "crowd_hot_count": 3,
-      "avg_crowd_heat": 0.7,
-      "topic_distribution": {
-        "tutorial": 8,
-        "analysis": 7,
-        "分析": 5,
-        "教程": 4,
-        "news": 4,
-        "opinion": 2,
-        "盘点": 2,
-        "story": 1,
-        "科普": 1,
-        "解读": 1,
-        "热点": 1,
-        "观点": 1
-      },
-      "source_distribution": {
-        "T1": 7,
-        "T2": 13
-      },
-      "top_keywords": [
-        [
-          "DeepSeek",
-          4
-        ],
-        [
-          "ICML",
-          2
-        ],
-        [
-          "Spotlight Poster",
-          2
-        ],
-        [
-          "Session",
-          2
-        ],
-        [
-          "Separating",
-          1
         ]
       ]
     }
