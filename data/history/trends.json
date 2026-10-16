@@ -1,7 +1,43 @@
 {
-  "updated_at": "2026-10-15T11:47:34.452258+08:00",
+  "updated_at": "2026-10-16T11:43:49.576235+08:00",
   "total_days": 90,
   "days": [
+    {
+      "date": "2026-10-16",
+      "total_items": 20,
+      "avg_score": 6.6,
+      "max_score": 7.0,
+      "crowd_hot_count": 4,
+      "avg_crowd_heat": 0.9,
+      "topic_distribution": {},
+      "source_distribution": {
+        "T1": 14,
+        "T1.5": 3,
+        "T2": 3
+      },
+      "top_keywords": [
+        [
+          "Meta",
+          2
+        ],
+        [
+          "Scaling Indic Pretraining",
+          1
+        ],
+        [
+          "Trillion Tokens",
+          1
+        ],
+        [
+          "Open Data Generation Pipeline",
+          1
+        ],
+        [
+          "Granite Switch",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-10-15",
       "total_items": 20,
@@ -3382,43 +3418,6 @@
         ],
         [
           "Did",
-          1
-        ]
-      ]
-    },
-    {
-      "date": "2026-07-18",
-      "total_items": 20,
-      "avg_score": 7.6,
-      "max_score": 8.6,
-      "crowd_hot_count": 5,
-      "avg_crowd_heat": 1.7,
-      "topic_distribution": {
-        "tutorial": 40
-      },
-      "source_distribution": {
-        "T1": 3,
-        "T2": 17
-      },
-      "top_keywords": [
-        [
-          "WAIC",
-          3
-        ],
-        [
-          "中国",
-          2
-        ],
-        [
-          "Agent",
-          2
-        ],
-        [
-          "Fine-tune",
-          1
-        ],
-        [
-          "NVIDIA NeMo Automodel",
           1
         ]
       ]
