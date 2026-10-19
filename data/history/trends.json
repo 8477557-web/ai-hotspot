@@ -1,7 +1,41 @@
 {
-  "updated_at": "2026-10-18T11:39:57.268191+08:00",
+  "updated_at": "2026-10-19T11:50:35.552746+08:00",
   "total_days": 90,
   "days": [
+    {
+      "date": "2026-10-19",
+      "total_items": 20,
+      "avg_score": 5.8,
+      "max_score": 5.8,
+      "crowd_hot_count": 2,
+      "avg_crowd_heat": 0.3,
+      "topic_distribution": {},
+      "source_distribution": {
+        "T2": 20
+      },
+      "top_keywords": [
+        [
+          "Cloudflare",
+          1
+        ],
+        [
+          "CLI",
+          1
+        ],
+        [
+          "Wrangler",
+          1
+        ],
+        [
+          "Gemini",
+          1
+        ],
+        [
+          "Argon",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-10-18",
       "total_items": 20,
@@ -3353,55 +3387,6 @@
         ],
         [
           "Flash-Lite",
-          1
-        ]
-      ]
-    },
-    {
-      "date": "2026-07-21",
-      "total_items": 20,
-      "avg_score": 7.7,
-      "max_score": 8.9,
-      "crowd_hot_count": 5,
-      "avg_crowd_heat": 1.2,
-      "topic_distribution": {
-        "analysis": 12,
-        "tutorial": 10,
-        "news": 3,
-        "案例": 2,
-        "趋势": 2,
-        "comparison": 2,
-        "trend": 2,
-        "评测": 1,
-        "教程": 1,
-        "解读": 1,
-        "分析": 1,
-        "观点": 1,
-        "case_study": 1
-      },
-      "source_distribution": {
-        "T1": 5,
-        "T2": 15
-      },
-      "top_keywords": [
-        [
-          "OpenAI",
-          2
-        ],
-        [
-          "Safety",
-          1
-        ],
-        [
-          "NVIDIA NVLink",
-          1
-        ],
-        [
-          "The Scale-Up Network",
-          1
-        ],
-        [
-          "Factories",
           1
         ]
       ]
