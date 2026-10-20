@@ -1,7 +1,43 @@
 {
-  "updated_at": "2026-10-19T11:50:35.552746+08:00",
+  "updated_at": "2026-10-20T12:01:47.367728+08:00",
   "total_days": 90,
   "days": [
+    {
+      "date": "2026-10-20",
+      "total_items": 20,
+      "avg_score": 6.0,
+      "max_score": 7.0,
+      "crowd_hot_count": 6,
+      "avg_crowd_heat": 1.1,
+      "topic_distribution": {},
+      "source_distribution": {
+        "T1": 3,
+        "T1.5": 3,
+        "T2": 14
+      },
+      "top_keywords": [
+        [
+          "Meta",
+          2
+        ],
+        [
+          "Accelerating Mamba-2",
+          1
+        ],
+        [
+          "High-Performance Forward Pass Kernels",
+          1
+        ],
+        [
+          "NVIDIA CUDA Tile",
+          1
+        ],
+        [
+          "Advancing",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-10-19",
       "total_items": 20,
@@ -3349,45 +3385,6 @@
         [
           "GPT",
           2
-        ]
-      ]
-    },
-    {
-      "date": "2026-07-22",
-      "total_items": 20,
-      "avg_score": 7.9,
-      "max_score": 9.0,
-      "crowd_hot_count": 5,
-      "avg_crowd_heat": 1.1,
-      "topic_distribution": {
-        "tutorial": 28,
-        "analysis": 9,
-        "news": 3
-      },
-      "source_distribution": {
-        "T1": 9,
-        "T2": 11
-      },
-      "top_keywords": [
-        [
-          "OpenAI",
-          2
-        ],
-        [
-          "Hugging Face",
-          1
-        ],
-        [
-          "Introducing Gemini",
-          1
-        ],
-        [
-          "Flash",
-          1
-        ],
-        [
-          "Flash-Lite",
-          1
         ]
       ]
     }
