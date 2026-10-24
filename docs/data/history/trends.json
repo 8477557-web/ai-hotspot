@@ -1,7 +1,51 @@
 {
-  "updated_at": "2026-10-23T11:54:57.502737+08:00",
+  "updated_at": "2026-10-24T11:48:07.490972+08:00",
   "total_days": 90,
   "days": [
+    {
+      "date": "2026-10-24",
+      "total_items": 20,
+      "avg_score": 7.4,
+      "max_score": 8.3,
+      "crowd_hot_count": 5,
+      "avg_crowd_heat": 1.4,
+      "topic_distribution": {
+        "analysis": 13,
+        "tutorial": 5,
+        "explainer": 4,
+        "news commentary": 2,
+        "news": 2,
+        "opinion": 1,
+        "interview": 1,
+        "trend": 1
+      },
+      "source_distribution": {
+        "T1": 5,
+        "T2": 15
+      },
+      "top_keywords": [
+        [
+          "ChatGPT",
+          2
+        ],
+        [
+          "DeepSeek",
+          2
+        ],
+        [
+          "Rapidly",
+          1
+        ],
+        [
+          "Part II",
+          1
+        ],
+        [
+          "宁德时代",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-10-23",
       "total_items": 20,
@@ -3339,40 +3383,6 @@
         ],
         [
           "内幕曝光",
-          1
-        ]
-      ]
-    },
-    {
-      "date": "2026-07-26",
-      "total_items": 20,
-      "avg_score": 5.8,
-      "max_score": 5.8,
-      "crowd_hot_count": 1,
-      "avg_crowd_heat": 0.2,
-      "topic_distribution": {},
-      "source_distribution": {
-        "T2": 20
-      },
-      "top_keywords": [
-        [
-          "Agentic-Native",
-          1
-        ],
-        [
-          "Zilliz",
-          1
-        ],
-        [
-          "Agent",
-          1
-        ],
-        [
-          "Hamster-Prime",
-          1
-        ],
-        [
-          "Smart",
           1
         ]
       ]
