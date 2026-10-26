@@ -1,7 +1,55 @@
 {
-  "updated_at": "2026-10-25T11:46:46.390299+08:00",
+  "updated_at": "2026-10-26T11:50:19.296990+08:00",
   "total_days": 90,
   "days": [
+    {
+      "date": "2026-10-26",
+      "total_items": 20,
+      "avg_score": 7.0,
+      "max_score": 7.5,
+      "crowd_hot_count": 5,
+      "avg_crowd_heat": 1.2,
+      "topic_distribution": {
+        "tutorial": 12,
+        "analysis": 8,
+        "news": 5,
+        "opinion": 2,
+        "tool-review": 2,
+        "comparison": 2,
+        "news-brief": 2,
+        "news-analysis": 1,
+        "explainer": 1,
+        "investigation": 1,
+        "career-advice": 1,
+        "data-story": 1,
+        "review": 1
+      },
+      "source_distribution": {
+        "T2": 20
+      },
+      "top_keywords": [
+        [
+          "Apache",
+          2
+        ],
+        [
+          "小鹏",
+          1
+        ],
+        [
+          "Robotaxi",
+          1
+        ],
+        [
+          "小鹏集团",
+          1
+        ],
+        [
+          "CEO",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-10-25",
       "total_items": 20,
@@ -3348,45 +3396,6 @@
         ],
         [
           "Decoupled Temporal Depth Diffusion Transformers",
-          1
-        ]
-      ]
-    },
-    {
-      "date": "2026-07-28",
-      "total_items": 20,
-      "avg_score": 7.7,
-      "max_score": 8.6,
-      "crowd_hot_count": 2,
-      "avg_crowd_heat": 0.3,
-      "topic_distribution": {
-        "tutorial": 24,
-        "analysis": 7,
-        "trend": 5
-      },
-      "source_distribution": {
-        "T1": 5,
-        "T2": 15
-      },
-      "top_keywords": [
-        [
-          "DeepSeek",
-          2
-        ],
-        [
-          "Anthropic",
-          2
-        ],
-        [
-          "WAIC",
-          2
-        ],
-        [
-          "NVIDIA Cosmos-H-Dreams",
-          1
-        ],
-        [
-          "Bringing Real-Time Generative Simulation",
           1
         ]
       ]
