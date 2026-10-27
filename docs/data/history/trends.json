@@ -1,7 +1,62 @@
 {
-  "updated_at": "2026-10-26T11:50:19.296990+08:00",
+  "updated_at": "2026-10-27T12:13:03.318011+08:00",
   "total_days": 90,
   "days": [
+    {
+      "date": "2026-10-27",
+      "total_items": 20,
+      "avg_score": 7.7,
+      "max_score": 8.8,
+      "crowd_hot_count": 4,
+      "avg_crowd_heat": 0.9,
+      "topic_distribution": {
+        "tutorial": 8,
+        "analysis": 7,
+        "news": 3,
+        "news-analysis": 3,
+        "explainer": 2,
+        "data-story": 2,
+        "industry-insight": 2,
+        "review": 1,
+        "factcheck": 1,
+        "trend-analysis": 1,
+        "product-review": 1,
+        "tech-explainer": 1,
+        "deep-dive": 1,
+        "case-study": 1,
+        "comparison": 1,
+        "security": 1,
+        "consumer": 1,
+        "opinion": 1,
+        "trend": 1
+      },
+      "source_distribution": {
+        "T1": 7,
+        "T2": 13
+      },
+      "top_keywords": [
+        [
+          "Anthropic",
+          3
+        ],
+        [
+          "DeepSeek",
+          3
+        ],
+        [
+          "Phone Duo",
+          2
+        ],
+        [
+          "Introducing GPT-6.1 Terra",
+          1
+        ],
+        [
+          "Working",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-10-26",
       "total_items": 20,
@@ -3355,47 +3410,6 @@
         ],
         [
           "Accelerating",
-          1
-        ]
-      ]
-    },
-    {
-      "date": "2026-07-29",
-      "total_items": 20,
-      "avg_score": 7.7,
-      "max_score": 8.8,
-      "crowd_hot_count": 3,
-      "avg_crowd_heat": 0.7,
-      "topic_distribution": {
-        "tutorial": 15,
-        "analysis": 11,
-        "news": 5,
-        "opinion": 4,
-        "explanation": 1
-      },
-      "source_distribution": {
-        "T1": 4,
-        "T2": 16
-      },
-      "top_keywords": [
-        [
-          "Anthropic",
-          3
-        ],
-        [
-          "OpenAI",
-          2
-        ],
-        [
-          "Scientific",
-          1
-        ],
-        [
-          "Memory Efficient Audio Synthesis",
-          1
-        ],
-        [
-          "Decoupled Temporal Depth Diffusion Transformers",
           1
         ]
       ]
