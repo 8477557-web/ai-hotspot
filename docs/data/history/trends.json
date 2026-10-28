@@ -1,7 +1,52 @@
 {
-  "updated_at": "2026-10-27T12:13:03.318011+08:00",
+  "updated_at": "2026-10-28T12:42:06.769661+08:00",
   "total_days": 90,
   "days": [
+    {
+      "date": "2026-10-28",
+      "total_items": 20,
+      "avg_score": 7.8,
+      "max_score": 9.2,
+      "crowd_hot_count": 1,
+      "avg_crowd_heat": 0.2,
+      "topic_distribution": {
+        "tutorial": 15,
+        "analysis": 12,
+        "news": 4,
+        "explainer": 2,
+        "case-study": 2,
+        "opinion": 2,
+        "review": 1,
+        "comparison": 1,
+        "benchmark": 1
+      },
+      "source_distribution": {
+        "T1": 9,
+        "T2": 11
+      },
+      "top_keywords": [
+        [
+          "GPT-6.1 Terra",
+          3
+        ],
+        [
+          "Genie",
+          2
+        ],
+        [
+          "OpenAI",
+          2
+        ],
+        [
+          "Anthropic",
+          2
+        ],
+        [
+          "刚刚",
+          2
+        ]
+      ]
+    },
     {
       "date": "2026-10-27",
       "total_items": 20,
@@ -3359,57 +3404,6 @@
         ],
         [
           "GPU Management",
-          1
-        ]
-      ]
-    },
-    {
-      "date": "2026-07-30",
-      "total_items": 20,
-      "avg_score": 7.8,
-      "max_score": 9.2,
-      "crowd_hot_count": 1,
-      "avg_crowd_heat": 0.2,
-      "topic_distribution": {
-        "tutorial": 13,
-        "analysis": 8,
-        "news_analysis": 4,
-        "教程": 3,
-        "news": 2,
-        "案例研究": 1,
-        "新闻解读": 1,
-        "深度分析": 1,
-        "对比评测": 1,
-        "产品测评": 1,
-        "最佳实践": 1,
-        "career": 1,
-        "comparison": 1,
-        "opinion": 1,
-        "policy": 1
-      },
-      "source_distribution": {
-        "T1": 5,
-        "T2": 15
-      },
-      "top_keywords": [
-        [
-          "How",
-          2
-        ],
-        [
-          "OpenAI",
-          2
-        ],
-        [
-          "Anthropic",
-          2
-        ],
-        [
-          "ARC-AGI-3",
-          1
-        ],
-        [
-          "Accelerating",
           1
         ]
       ]
