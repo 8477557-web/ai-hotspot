@@ -1,7 +1,43 @@
 {
-  "updated_at": "2026-10-29T12:56:06.263162+08:00",
+  "updated_at": "2026-10-30T12:55:23.740962+08:00",
   "total_days": 90,
   "days": [
+    {
+      "date": "2026-10-30",
+      "total_items": 20,
+      "avg_score": 6.3,
+      "max_score": 7.0,
+      "crowd_hot_count": 3,
+      "avg_crowd_heat": 0.8,
+      "topic_distribution": {},
+      "source_distribution": {
+        "T1": 9,
+        "T1.5": 1,
+        "T2": 10
+      },
+      "top_keywords": [
+        [
+          "Microsoft Research Focus",
+          1
+        ],
+        [
+          "Edition",
+          1
+        ],
+        [
+          "Model Spec",
+          1
+        ],
+        [
+          "Unlocking Tensor Core Performance",
+          1
+        ],
+        [
+          "Machine Learning Interatomic Potentials",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-10-29",
       "total_items": 20,
@@ -3355,47 +3391,6 @@
         ],
         [
           "Seedance",
-          1
-        ]
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "total_items": 20,
-      "avg_score": 7.7,
-      "max_score": 8.2,
-      "crowd_hot_count": 5,
-      "avg_crowd_heat": 0.9,
-      "topic_distribution": {
-        "analysis": 18,
-        "tutorial": 12,
-        "news": 8,
-        "opinion": 1,
-        "review": 1
-      },
-      "source_distribution": {
-        "T1": 4,
-        "T2": 16
-      },
-      "top_keywords": [
-        [
-          "Seedance",
-          3
-        ],
-        [
-          "Anthropic",
-          2
-        ],
-        [
-          "DeepSeek V4",
-          2
-        ],
-        [
-          "OpenAI",
-          2
-        ],
-        [
-          "Building",
           1
         ]
       ]
