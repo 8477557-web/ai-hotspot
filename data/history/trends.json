@@ -1,7 +1,43 @@
 {
-  "updated_at": "2026-11-03T13:50:36.835097+08:00",
+  "updated_at": "2026-11-04T13:25:56.488613+08:00",
   "total_days": 90,
   "days": [
+    {
+      "date": "2026-11-04",
+      "total_items": 20,
+      "avg_score": 6.3,
+      "max_score": 7.0,
+      "crowd_hot_count": 6,
+      "avg_crowd_heat": 1.6,
+      "topic_distribution": {},
+      "source_distribution": {
+        "T1": 12,
+        "T1.5": 1,
+        "T2": 7
+      },
+      "top_keywords": [
+        [
+          "OpenAI",
+          2
+        ],
+        [
+          "StateBench",
+          1
+        ],
+        [
+          "Testing",
+          1
+        ],
+        [
+          "Learn",
+          1
+        ],
+        [
+          "The",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-11-03",
       "total_items": 20,
@@ -3315,50 +3351,6 @@
         [
           "谷歌",
           2
-        ]
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "total_items": 20,
-      "avg_score": 7.5,
-      "max_score": 8.4,
-      "crowd_hot_count": 7,
-      "avg_crowd_heat": 1.6,
-      "topic_distribution": {
-        "analysis": 18,
-        "tutorial": 14,
-        "news": 3,
-        "story": 2,
-        "case_study": 1,
-        "explainer": 1,
-        "opinion": 1
-      },
-      "source_distribution": {
-        "T2": 18,
-        "T1": 1,
-        "T1.5": 1
-      },
-      "top_keywords": [
-        [
-          "突发",
-          2
-        ],
-        [
-          "DeepSeek",
-          2
-        ],
-        [
-          "Jeff Dean",
-          1
-        ],
-        [
-          "离职创业",
-          1
-        ],
-        [
-          "Sand.ai",
-          1
         ]
       ]
     }
