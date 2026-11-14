@@ -1,7 +1,43 @@
 {
-  "updated_at": "2026-11-13T13:43:01.264839+08:00",
+  "updated_at": "2026-11-14T13:32:02.931903+08:00",
   "total_days": 90,
   "days": [
+    {
+      "date": "2026-11-14",
+      "total_items": 20,
+      "avg_score": 6.4,
+      "max_score": 7.0,
+      "crowd_hot_count": 3,
+      "avg_crowd_heat": 0.7,
+      "topic_distribution": {},
+      "source_distribution": {
+        "T1": 11,
+        "T1.5": 1,
+        "T2": 8
+      },
+      "top_keywords": [
+        [
+          "NVIDIA",
+          2
+        ],
+        [
+          "Faster Scientific Simulations",
+          1
+        ],
+        [
+          "New FP64 Algorithms",
+          1
+        ],
+        [
+          "Run GPU-Powered Black Hole Interferometry",
+          1
+        ],
+        [
+          "Photon",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-11-13",
       "total_items": 20,
@@ -3239,52 +3275,6 @@
         ],
         [
           "Claude",
-          1
-        ]
-      ]
-    },
-    {
-      "date": "2026-08-16",
-      "total_items": 20,
-      "avg_score": 7.1,
-      "max_score": 8.0,
-      "crowd_hot_count": 3,
-      "avg_crowd_heat": 0.9,
-      "topic_distribution": {
-        "tutorial": 12,
-        "analysis": 8,
-        "news": 5,
-        "explainer": 5,
-        "trend": 3,
-        "concept": 2,
-        "case_study": 1,
-        "listicle": 1,
-        "product-review": 1,
-        "opinion": 1,
-        "roundup": 1
-      },
-      "source_distribution": {
-        "T2": 20
-      },
-      "top_keywords": [
-        [
-          "中国医生",
-          1
-        ],
-        [
-          "国医生用",
-          1
-        ],
-        [
-          "中国医",
-          1
-        ],
-        [
-          "SpaceXAI",
-          1
-        ],
-        [
-          "Grok",
           1
         ]
       ]
