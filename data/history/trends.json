@@ -1,7 +1,42 @@
 {
-  "updated_at": "2026-11-19T14:32:50.001660+08:00",
+  "updated_at": "2026-11-20T14:20:02.999069+08:00",
   "total_days": 90,
   "days": [
+    {
+      "date": "2026-11-20",
+      "total_items": 20,
+      "avg_score": 6.1,
+      "max_score": 7.0,
+      "crowd_hot_count": 0,
+      "avg_crowd_heat": 0.0,
+      "topic_distribution": {},
+      "source_distribution": {
+        "T1": 8,
+        "T2": 12
+      },
+      "top_keywords": [
+        [
+          "Cloudflare",
+          2
+        ],
+        [
+          "Reducing Rollout Bottlenecks",
+          1
+        ],
+        [
+          "Reinforcement Learning",
+          1
+        ],
+        [
+          "NVIDIA Dynamo",
+          1
+        ],
+        [
+          "Enabling Real-Time AI",
+          1
+        ]
+      ]
+    },
     {
       "date": "2026-11-19",
       "total_items": 20,
@@ -3204,45 +3239,6 @@
         [
           "DeepSeek",
           2
-        ]
-      ]
-    },
-    {
-      "date": "2026-08-22",
-      "total_items": 20,
-      "avg_score": 7.5,
-      "max_score": 8.9,
-      "crowd_hot_count": 5,
-      "avg_crowd_heat": 1.5,
-      "topic_distribution": {
-        "analysis": 20,
-        "tutorial": 19,
-        "news": 1
-      },
-      "source_distribution": {
-        "T1": 6,
-        "T2": 14
-      },
-      "top_keywords": [
-        [
-          "Anthropic",
-          2
-        ],
-        [
-          "NVIDIA AVO Reaches",
-          1
-        ],
-        [
-          "ARC-AGI-3",
-          1
-        ],
-        [
-          "Demonstrating",
-          1
-        ],
-        [
-          "Where Security Fits",
-          1
         ]
       ]
     }
